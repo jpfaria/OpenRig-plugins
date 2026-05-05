@@ -1,0 +1,37 @@
+fomp (1.2.5) unstable; urgency=medium
+
+  * Avoid over-use of yielding meson options
+  * Update installation instructions
+
+ -- David Robillard <d@drobilla.net>  Wed, 30 Jul 2025 22:20:21 +0000
+
+fomp (1.2.4) stable; urgency=medium
+
+  * Add lv2lint test
+  * Switch to meson build system
+
+ -- David Robillard <d@drobilla.net>  Sat, 13 Aug 2022 20:43:15 +0000
+
+fomp (1.2.2) stable; urgency=medium
+
+  * Various minor code quality improvements
+
+ -- David Robillard <d@drobilla.net>  Thu, 07 Jan 2021 22:28:29 +0000
+
+fomp (1.2.0) stable; urgency=medium
+
+  * Add missing default values
+  * Add reverb and reverb_amb
+  * Adjust some control ranges and defaults to more sensible values
+  * Bump plugins to stable versions
+  * Fix a few misspelled port symbols (breaks state compatibility)
+  * Fix phaser plugin data and list phasers in manifest
+  * Remove invalid reference to old LADSPA pulse_vco binary
+
+ -- David Robillard <d@drobilla.net>  Sun, 10 Nov 2019 22:38:28 +0000
+
+fomp (1.0.0) stable; urgency=medium
+
+  * Initial release
+
+ -- David Robillard <d@drobilla.net>  Sat, 27 Oct 2012 20:54:00 +0000

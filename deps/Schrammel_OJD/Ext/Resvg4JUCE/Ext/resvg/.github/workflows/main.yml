@@ -1,0 +1,48 @@
+name: Rust
+
+on: [push, pull_request]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    # We have to use the Release mode, otherwise it would take forever.
+    - name: Test
+      run: cargo test --release
+
+    - name: Build C API
+      working-directory: c-api
+      run: cargo build
+
+    - name: Build C API without default features
+      working-directory: c-api
+      run: cargo build --no-default-features
+
+    - name: Test usvg
+      working-directory: usvg
+      run: cargo test
+
+    - name: Build usvg without default support
+      working-directory: usvg
+      run: cargo build --no-default-features
+
+  msrv:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: 1.46.0
+          override: true
+
+      - name: Build
+        run: cargo build --features dump-svg

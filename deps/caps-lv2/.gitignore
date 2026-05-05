@@ -1,0 +1,26 @@
+# Object files
+*.o
+*.pyc
+*.s
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Temporary
+.depend
+.tmp
+depend
+defines.make
+lv2.h

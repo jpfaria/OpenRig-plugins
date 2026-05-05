@@ -1,0 +1,25 @@
+.gitignore export-ignore
+.gitattributes export-ignore
+
+/examples export-ignore
+
+# large files used to originally generate textures
+/doc/lv2images export-ignore
+
+# screenshots etc
+/doc/b_whirl.png
+/doc/b_synth.png
+/doc/signal_flow.png
+
+# custom build scripts
+/build-deb.sh export-ignore
+/release.sh export-ignore
+/localize_rtk.sh export-ignore
+
+# bundle related files
+/doc/osx_readme.txt export-ignore
+/img export-ignore
+/b_whirl/img export-ignore
+
+# custom debian packaging, superseded by debian.org
+/debian export-ignore

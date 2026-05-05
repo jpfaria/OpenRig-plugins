@@ -1,0 +1,65 @@
+[package]
+name = "usvg"
+version = "0.19.0"
+authors = ["Yevhenii Reizner <razrfalcon@gmail.com>"]
+keywords = ["svg"]
+license = "MPL-2.0"
+edition = "2018"
+description = "An SVG simplification library."
+categories = ["multimedia::images"]
+repository = "https://github.com/RazrFalcon/resvg"
+documentation = "https://docs.rs/usvg/"
+readme = "README.md"
+exclude = ["testing-tools/**"]
+workspace = ".."
+
+[[bin]]
+name = "usvg"
+required-features = ["filter", "text", "system-fonts", "memmap-fonts", "export"]
+
+[dependencies]
+base64 = "0.13" # for embedded images
+data-url = "0.1" # for href parsing
+flate2 = { version = "1.0", default-features = false, features = ["rust_backend"] } # SVGZ decoding
+float-cmp = { version = "0.9", default-features = false, features = ["std"] }
+kurbo = "0.8"
+log = "0.4"
+pico-args = "0.4"
+rctree = "0.4"
+xmlwriter = { version = "0.1", optional = true }
+
+# for svgtree
+roxmltree = "0.14"
+simplecss = "0.2.1"
+siphasher = "0.3"
+svgtypes = "0.8"
+
+# for text to path
+fontdb = { version = "0.7", optional = true, default-features = false }
+rustybuzz = { version = "0.4", optional = true }
+ttf-parser = { version = "0.12", optional = true }
+unicode-bidi = { version = "0.3", optional = true }
+unicode-script = { version = "0.5", optional = true }
+unicode-vo = { version = "0.1", optional = true }
+
+[features]
+default = ["filter", "text", "system-fonts", "memmap-fonts", "export"]
+# enables SVG Filter support
+filter = []
+# enables SVG Text support
+# adds around 500KiB to your binary
+text = [
+    "fontdb",
+    "rustybuzz",
+    "ttf-parser",
+    "unicode-bidi",
+    "unicode-script",
+    "unicode-vo",
+]
+# enables system fonts loading (only for `text`)
+system-fonts = ["fontdb/fs"]
+# enables font files memmaping for faster loading (only for `text`)
+memmap-fonts = ["fontdb/memmap"]
+# enables SVG generation using Tree::to_string
+# adds around 50KiB to your binary
+export = ["xmlwriter"]

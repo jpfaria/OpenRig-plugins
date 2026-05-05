@@ -1,0 +1,33 @@
+[package]
+name = "resvg-capi"
+version = "0.19.0"
+authors = ["Yevhenii Reizner <razrfalcon@gmail.com>"]
+keywords = ["svg", "render", "raster", "c-api"]
+license = "MPL-2.0"
+edition = "2018"
+workspace = ".."
+
+[lib]
+name = "resvg"
+path = "lib.rs"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+log = "0.4"
+resvg = { path = "../", default-features = false }
+usvg = { path = "../usvg", default-features = false }
+tiny-skia = "0.6.1"
+
+[features]
+# we do not provide the dump-svg/export feature here, because it's not available to C API anyway
+default = ["filter", "text", "system-fonts", "memmap-fonts"]
+# enables SVG Filter support
+# adds around 100KiB to your binary
+filter = ["resvg/filter", "usvg/filter"]
+# enables SVG Text support
+# adds around 500KiB to your binary
+text = ["resvg/text", "usvg/text"]
+# enables system fonts loading (only for `text`)
+system-fonts = ["usvg/system-fonts"]
+# enables font files memmaping for faster loading (only for `text`)
+memmap-fonts = ["usvg/memmap-fonts"]

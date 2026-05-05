@@ -1,0 +1,14 @@
+language:
+    - c
+compiler:
+    - gcc
+notifications:
+      irc: "chat.freenode.net#moddevices"
+before_script:
+    - bash .create_lv2_env.sh
+    - git clone https://github.com/moddevices/lv2bm
+    - cd lv2bm && make && sudo make PREFIX=/usr install && cd ..
+script:
+    - make
+    - INSTALL_PATH=~/.lv2 make install
+    - lv2bm `lv2ls | grep http://moddevices.com/plugins/tap/`

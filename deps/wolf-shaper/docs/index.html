@@ -1,0 +1,281 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wolf Shaper</title>
+
+    <meta name="description" content="Wolf Shaper is a free, open-source distortion plugin.">
+    <meta name="author" content="Wolf Plugins">
+
+    <meta property="og:title" content="Wolf Shaper">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wolf-plugins.github.io/wolf-shaper/">
+    <meta property="og:description" content="Wolf Shaper is a free, open-source distortion plugin.">
+    <meta property="og:image" content="images/screenshot.png">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <style>
+        body {
+            background-color: #2d2d2f;
+            color: #eee;
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+
+        .header {
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 71.25rem;
+            margin: auto;
+            margin-top: 2rem;
+        }
+
+        .block {
+            padding: 2.1rem;
+        }
+
+        .presentation-section {
+            overflow: auto;
+            padding-top: 2rem;
+            display: flex;
+        }
+
+        h1 {
+            font-size: 2rem;
+            padding-left: 0.5em;
+            font-weight: normal;
+        }
+
+        .logo {
+            height: 5.5em;
+        }
+
+        .screenshot img {
+            filter: drop-shadow(0 0 1.5rem #110f0fa6);
+            margin: 1em 1em 1em 2em;
+        }
+
+        a {
+            color: #ee8be8;
+        }
+
+        .button {
+            background-color: #994294;
+            border: none;
+            color: white;
+            padding: 0.5rem 1.2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 0.25rem;
+            transition: background-color 0.10s ease-in-out;
+            margin: 0.45rem 0rem;
+            min-width: 13rem;
+        }
+
+        .button:hover {
+            background-color: #73306f;
+        }
+
+        .download-section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .download-heading {
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        .features {
+            margin-top: 2rem;
+        }
+
+        li:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        hr {
+            color: #353535;
+        }
+
+        .features ul {
+            padding-left: 1rem;
+        }
+
+        @media (max-width: 1130px) {
+            .presentation-section {
+                flex-direction: column;
+            }
+
+            .screenshot img {
+                max-width: 100%;
+                margin: 3rem 0 0 0;
+                filter: drop-shadow(0 0 0.5rem #110f0fa6);
+            }
+
+            .block {
+                padding: 0.75rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <div class="header">
+            <img class="logo" src="images/wolf-logo.svg" />
+            <h1>Wolf Shaper</h1>
+        </div>
+
+        <div class="block presentation-section">
+            <div class="left">
+                <p>
+                    Wolf Shaper is a <strong>free VST, LV2 and CLAP distortion plugin</strong>.
+                </p>
+                <p>
+                    It lets you create your own waveshaping
+                    functions using a spline-based graph editor.
+                </p>
+
+                <div class="features">
+                    <ul>
+                        <li><strong>Customizable graph</strong> – Design your own distortion functions using 4 different
+                            curve
+                            types.</li>
+                        <li><strong>Warp modes</strong> – Use warping algorithms to alter the graph dynamically.</li>
+                        <li><strong>Uni/Bi modes</strong> – Switch between symmetrical and asymmetrical distortion.</li>
+                        <li><strong>Up to 16x oversampling</strong> – Get rid of aliasing artifacts for a cleaner sound.
+                        </li>
+                    </ul>
+                </div>
+
+                <h3 class="download-heading">Download</h3>
+                <div class="download-section">
+                    <a class="button"
+                        href="https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2+20230515144200-windows-x64.zip">
+                        Download for Windows
+                    </a>
+
+                    <a class="button"
+                        href="https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip">
+                        Download for MacOS
+                    </a>
+
+                    <a class="button"
+                        href="https://github.com/wolf-plugins/wolf-shaper/tree/master#install">
+                        Download for Linux
+                    </a>
+
+                    <p>
+                        Latest release: v1.0.2 (2023-05-14)
+                    </p>
+
+                    <a href="https://github.com/wolf-plugins/wolf-shaper">Source code</a>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="screenshot">
+                    <a href="images/screenshot.png" target="_blank">
+                        <img src="images/screenshot.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="block how-to-use-section">
+            <hr>
+
+            <h2>How to use</h2>
+
+            <h3>Parameters and controls</h3>
+            <ul>
+                <li>
+                    <strong>Pre</strong> – Controls the input volume, before any processing has taken place.
+                </li>
+                <li>
+                    <strong>Wet</strong> – Determines the mix between the original and the processed signal in the
+                    output. Set this parameter at maximum value to only hear the processed signal.
+                </li>
+                <li>
+                    <strong>Post</strong> – Controls the output volume, after all processing has been done.
+                </li>
+                <li>
+                    <strong>Center</strong> – Removes DC offset from the output. This ensures that the resulting
+                    waveform
+                    is vertically centered at zero.
+                </li>
+                <li>
+                    <strong>Oversample</strong> – Sets the multiple of the sample rate at which the processing will
+                    be
+                    done. This allows the plugin to filter out some harmonics that would otherwise cause aliasing
+                    artifacts.
+                </li>
+                <li>
+                    <strong>Uni/Bi switch</strong> – Allows switching between symmetrical and asymmetrical
+                    waveshaping.
+
+                </li>
+                <li>
+                    <strong>Warp knobs</strong> - The two yellow knobs in the middle of the UI allow to bend the
+                    distortion curve dynamically. These knobs can be automated by the plugin host for interesting
+                    effects.
+
+                </li>
+                <li>
+                    <strong>Reset button</strong> – Puts the graph back at its default state, which is a straight
+                    diagonal line.
+                </li>
+            </ul>
+
+            <h3>Graph editing</h3>
+            <ul>
+                <li>
+                    <strong>Add a vertex</strong> – Right-click in the graph to add a vertex. Keep holding the right
+                    mouse button to position the vertex.
+                </li>
+                <li>
+                    <strong>Move a vertex</strong> – Left-click and drag the vertex.
+                </li>
+                <li>
+                    <strong>Remove a vertex</strong> – Double left-click on the vertex.
+                </li>
+                <li>
+                    <strong>Tweak the tension of an edge</strong> – Left-click and drag vertically the tension
+                    handle
+                    located at the center of the edge.
+                </li>
+                <li>
+                    <strong>Change the curve type</strong> - Right-click on a vertex, then select the curve type in
+                    the
+                    context menu.
+                </li>
+            </ul>
+
+            <h3>User interface</h3>
+            <ul>
+                <li>
+                    <strong>Resize the window</strong> – Left-click and drag the resize handle located at the
+                    bottom-right to resize the window.
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

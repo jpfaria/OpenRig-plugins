@@ -1,0 +1,4 @@
+These plugins were written by Fons Adriaensen <fons@linuxaudio.org>, originally
+as LADSPA plugins.  All credit for their sonic quality belongs to him.
+
+This LV2 port is by David Robillard <d@drobilla.net>.
