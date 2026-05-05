@@ -23,6 +23,7 @@ use std::path::{Path, PathBuf};
 use anyhow::{anyhow, Context, Result};
 use plugin_loader::manifest::{
     Backend, BlockType, GridCapture, GridParameter, Lv2Slot, ParameterValue, PluginManifest,
+    Vst3Parameter,
 };
 
 const SOURCE_DIR: &str = "plugins/source";
@@ -152,7 +153,7 @@ fn is_plugin_source_file(filename: &str) -> bool {
         return false;
     }
     let stem_prefix = filename.split('_').next().unwrap_or("");
-    matches!(stem_prefix, "nam" | "ir" | "lv2")
+    matches!(stem_prefix, "nam" | "ir" | "lv2" | "vst3")
 }
 
 fn extract_and_emit(source_file: &Path, block_type: BlockType, out: &Path) -> Result<String> {
@@ -178,8 +179,10 @@ fn extract_and_emit(source_file: &Path, block_type: BlockType, out: &Path) -> Re
         "ir"
     } else if filename.starts_with("lv2_") {
         "lv2"
+    } else if filename.starts_with("vst3_") {
+        "vst3"
     } else {
-        return Err(anyhow!("filename `{filename}` is neither nam_/ir_/lv2_"));
+        return Err(anyhow!("filename `{filename}` is neither nam_/ir_/lv2_/vst3_"));
     };
 
     // Folder name = id with backend prefix stripped.
@@ -198,6 +201,7 @@ fn extract_and_emit(source_file: &Path, block_type: BlockType, out: &Path) -> Re
         "nam" => build_grid_manifest(&model_id, &display_name, brand.as_deref(), block_type, &source, "nam")?,
         "ir" => build_grid_manifest(&model_id, &display_name, brand.as_deref(), block_type, &source, "ir")?,
         "lv2" => build_lv2_manifest(&model_id, &display_name, brand.as_deref(), block_type, &source)?,
+        "vst3" => build_vst3_manifest(&model_id, &display_name, brand.as_deref(), block_type, &source)?,
         _ => unreachable!("backend_prefix already validated above"),
     };
 
@@ -1489,6 +1493,131 @@ fn build_lv2_manifest(
     })
 }
 
+fn build_vst3_manifest(
+    model_id: &str,
+    display_name: &str,
+    brand: Option<&str>,
+    block_type: BlockType,
+    source: &str,
+) -> Result<PluginManifest> {
+    let bundle_name = read_str_const(source, "BUNDLE_NAME", false)
+        .ok_or_else(|| anyhow!("missing const BUNDLE_NAME"))?;
+    let bundle = PathBuf::from(format!("bundles/{bundle_name}"));
+    let parameters = read_vst3_parameters(source);
+    Ok(PluginManifest {
+        manifest_version: 1,
+        id: model_id.to_string(),
+        display_name: display_name.to_string(),
+        author: None,
+        description: None,
+        inspired_by: brand.map(str::to_string),
+        brand: None,
+        thumbnail: None,
+        photo: None,
+        screenshot: None,
+        brand_logo: None,
+        license: None,
+        homepage: None,
+        sources: None,
+        block_type,
+        backend: Backend::Vst3 {
+            bundle,
+            parameters,
+        },
+    })
+}
+
+/// Cross-references each `pub const PARAM_<NAME>: u32 = N;` with the
+/// matching `float_parameter("name", ...)` schema entry to build the
+/// Vst3Parameter list. The convention in OpenRig's VST3 plugin sources
+/// is that PARAM_DRIVE → "drive" param, PARAM_MIX → "mix" param, etc.
+fn read_vst3_parameters(source: &str) -> Vec<Vst3Parameter> {
+    let id_map = scan_vst3_param_ids(source);
+    let mut out = Vec::new();
+    for invocation in find_function_invocations(source, &["float_parameter"]) {
+        let args = invocation.args;
+        let literals = read_literals_in(args);
+        let strings: Vec<&String> = literals
+            .iter()
+            .filter_map(|literal| match literal {
+                Literal::String(value) => Some(value),
+                Literal::Number(_) => None,
+            })
+            .collect();
+        if strings.len() < 2 {
+            continue;
+        }
+        let name = strings[0].clone();
+        let display = strings[1].clone();
+        let unit = strings.get(2).map(|s| s.to_string());
+        let numbers: Vec<f64> = literals
+            .iter()
+            .filter_map(|literal| match literal {
+                Literal::Number(value) => Some(*value),
+                Literal::String(_) => None,
+            })
+            .collect();
+        // float_parameter(name, display, group, default, min, max, step, unit)
+        if numbers.len() < 4 {
+            continue;
+        }
+        let default = numbers[0];
+        let min = numbers[1];
+        let max = numbers[2];
+        let step = numbers.get(3).copied();
+        let Some(vst3_id) = id_map.get(&name).copied() else {
+            continue;
+        };
+        let scale = if unit.as_deref() == Some("Percent") {
+            Some(100.0)
+        } else {
+            None
+        };
+        out.push(Vst3Parameter {
+            name,
+            display_name: Some(display),
+            vst3_id,
+            min,
+            max,
+            default,
+            step,
+            scale,
+            unit: unit.map(|u| u.to_lowercase()),
+        });
+    }
+    out
+}
+
+/// Scan every `const PARAM_<NAME>: u32 = N;` line and return the map
+/// (snake-case lowered NAME) → N. The schema parameter name is the
+/// lowercased suffix (PARAM_DRIVE → "drive").
+fn scan_vst3_param_ids(source: &str) -> BTreeMap<String, u32> {
+    let mut found = BTreeMap::new();
+    let mut cursor = 0usize;
+    while let Some(offset) = source[cursor..].find("const PARAM_") {
+        let abs = cursor + offset;
+        let line_end = source[abs..]
+            .find('\n')
+            .map(|relative| abs + relative)
+            .unwrap_or(source.len());
+        let line = &source[abs..line_end];
+        // Form: `[pub] const PARAM_<NAME>: u32 = <N>;`
+        let after_const = line.trim_start_matches("pub ").trim_start_matches("const PARAM_");
+        let name_end = after_const
+            .find(|c: char| c == ':' || c == ' ')
+            .unwrap_or(after_const.len());
+        let raw_name = &after_const[..name_end];
+        if let Some(eq_offset) = line.find('=') {
+            let value_part = line[eq_offset + 1..].trim_end_matches(';').trim();
+            if let Ok(value) = value_part.parse::<u32>() {
+                found.insert(raw_name.to_ascii_lowercase(), value);
+            }
+        }
+        cursor = line_end + 1;
+    }
+    found
+}
+
 /// `PLUGIN_BINARY` is split across `#[cfg(target_os = ...)]` branches in
 /// the source, but the *base* filename (without OS-specific extension)
 /// matches the disk layout under `libs/lv2/`. Find any of the per-OS
@@ -1593,6 +1722,24 @@ fn write_package(
                     .ok_or_else(|| anyhow!("binary path has no filename"))?;
                 let src = PathBuf::from(LV2_BIN_ROOT).join(host_dir).join(filename);
                 fs::copy(&src, &dst).with_context(|| format!("copy {}", src.display()))?;
+            }
+        }
+        Backend::Vst3 { bundle, .. } => {
+            let bundle_name = bundle
+                .file_name()
+                .ok_or_else(|| anyhow!("vst3 bundle path has no filename"))?
+                .to_string_lossy()
+                .into_owned();
+            let dst = package_dir.join(bundle);
+            if let Some(parent) = dst.parent() {
+                fs::create_dir_all(parent)?;
+            }
+            if let Some(src) = locate_vst3_bundle_source(&bundle_name) {
+                copy_dir_recursive(&src, &dst)?;
+            } else {
+                eprintln!(
+                    "warn: VST3 bundle `{bundle_name}` not found anywhere under deps/ — package will fail filesystem validation"
+                );
             }
         }
     }
@@ -1806,6 +1953,60 @@ fn drop_unshippable_captures(
             *captures = kept;
         }
         Backend::Lv2 { .. } => {}
+        Backend::Vst3 { .. } => {}
+    }
+    Ok(())
+}
+
+/// Recursively scans `deps/` for a directory whose final component matches
+/// `bundle_name` (e.g. `CHOWTapeModel.vst3`). Returns the absolute path to
+/// the first match, or `None` if no copy of the bundle is bundled in
+/// OpenRig-plugins yet.
+fn locate_vst3_bundle_source(bundle_name: &str) -> Option<PathBuf> {
+    let deps_root = if Path::new("deps").is_dir() {
+        PathBuf::from("deps")
+    } else {
+        return None;
+    };
+    let mut stack = vec![deps_root];
+    while let Some(dir) = stack.pop() {
+        let entries = match fs::read_dir(&dir) {
+            Ok(entries) => entries,
+            Err(_) => continue,
+        };
+        for entry in entries.flatten() {
+            let path = entry.path();
+            let Some(name) = path.file_name().and_then(|n| n.to_str()) else {
+                continue;
+            };
+            if name == bundle_name && path.is_dir() {
+                return Some(path);
+            }
+            if path.is_dir() {
+                stack.push(path);
+            }
+        }
+    }
+    None
+}
+
+/// Copy a directory tree (used for VST3 bundles, which are directories
+/// not single files). Mirrors structure verbatim — no filtering.
+fn copy_dir_recursive(src: &Path, dst: &Path) -> Result<()> {
+    fs::create_dir_all(dst)?;
+    for entry in fs::read_dir(src)? {
+        let entry = entry?;
+        let src_path = entry.path();
+        let dst_path = dst.join(entry.file_name());
+        let file_type = entry.file_type()?;
+        if file_type.is_dir() {
+            copy_dir_recursive(&src_path, &dst_path)?;
+        } else if file_type.is_file() {
+            fs::copy(&src_path, &dst_path)?;
+        }
+        // Symlinks intentionally skipped — VST3 bundles on macOS sometimes
+        // have framework symlinks; copying as plain files is fine for our
+        // packaging purposes since the plugin host re-resolves at load.
     }
     Ok(())
 }
