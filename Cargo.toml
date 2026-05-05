@@ -1,0 +1,20 @@
+[workspace]
+members = [
+  "tools/extract_plugins",
+  "tools/build_plugin_bundle",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
+thiserror = "1"
+# plugin-loader is the schema/validator/loader crate that lives in the
+# OpenRig main repo. Pinned to the feature/issue-287 branch until the
+# runtime loader lands on develop.
+plugin-loader = { git = "https://github.com/jpfaria/OpenRig.git", branch = "feature/issue-287" }
