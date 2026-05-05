@@ -30,17 +30,39 @@ const NAM_CAPTURES_ROOT: &str = "captures/nam";
 const IR_CAPTURES_ROOT: &str = "captures/ir";
 const LV2_DATA_ROOT: &str = "data/lv2";
 const LV2_BIN_ROOT: &str = "libs/lv2";
-const THUMBNAILS_ROOT: &str = "assets/blocks/thumbnails";
-const PHOTOS_ROOT: &str = "assets/models/photos";
-const SCREENSHOTS_ROOT: &str = "assets/blocks/screenshots";
-const BRANDS_ROOT: &str = "assets/brands";
-const METADATA_FILE: &str = "assets/blocks/metadata/en-US.yaml";
+
+/// Visual + metadata assets still live in OpenRig main during the issue
+/// #287 migration (Slint UI compile-time `@image-url` references). The
+/// tool resolves them from a sibling-cloned `../OpenRig/<path>` checkout
+/// when present, falling back to local paths so post-migration setups
+/// keep working without the sibling.
+fn asset_path(rel: &str) -> PathBuf {
+    let sibling = PathBuf::from("../OpenRig").join(rel);
+    if sibling.exists() {
+        return sibling;
+    }
+    PathBuf::from(rel)
+}
+
+fn thumbnails_root() -> PathBuf { asset_path("assets/blocks/thumbnails") }
+fn photos_root() -> PathBuf { asset_path("assets/models/photos") }
+fn screenshots_root() -> PathBuf { asset_path("assets/blocks/screenshots") }
+fn brands_root() -> PathBuf { asset_path("assets/brands") }
+fn metadata_file() -> PathBuf { asset_path("assets/blocks/metadata/en-US.yaml") }
 
 fn main() -> Result<()> {
     let out = PathBuf::from(SOURCE_DIR);
     fs::create_dir_all(&out)?;
 
-    let crates_root = Path::new("crates");
+    // After issue #287 the legacy plugin .rs sources live under
+    // `reference/<crate>/src/` (preserved historical record). Older
+    // pre-migration checkouts still keep them under `crates/<crate>/src/`,
+    // so we accept either layout.
+    let crates_root = if Path::new("reference").is_dir() {
+        Path::new("reference")
+    } else {
+        Path::new("crates")
+    };
     let mut total = 0usize;
     let mut succeeded = 0usize;
     let mut failures: Vec<(PathBuf, String)> = Vec::new();
@@ -234,14 +256,14 @@ fn locate_thumbnail(model_id: &str, block_type: BlockType) -> Option<PathBuf> {
         BlockType::Pitch => "pitch",
         BlockType::Util => "util",
     };
-    let candidate = PathBuf::from(THUMBNAILS_ROOT)
+    let candidate = thumbnails_root()
         .join(dir)
         .join(format!("{model_id}.png"));
     candidate.is_file().then_some(candidate)
 }
 
 fn locate_photo(model_id: &str) -> Option<PathBuf> {
-    let candidate = PathBuf::from(PHOTOS_ROOT).join(format!("{model_id}.png"));
+    let candidate = photos_root().join(format!("{model_id}.png"));
     candidate.is_file().then_some(candidate)
 }
 
@@ -261,7 +283,7 @@ fn locate_screenshot(model_id: &str, block_type: BlockType) -> Option<PathBuf> {
         BlockType::Pitch => "pitch",
         BlockType::Util => "utility",
     };
-    let candidate = PathBuf::from(SCREENSHOTS_ROOT)
+    let candidate = screenshots_root()
         .join(dir)
         .join(format!("{model_id}.png"));
     candidate.is_file().then_some(candidate)
@@ -271,7 +293,7 @@ fn locate_screenshot(model_id: &str, block_type: BlockType) -> Option<PathBuf> {
 /// so the package writer can preserve the original format.
 fn locate_brand_logo(brand: &str) -> Option<(PathBuf, &'static str)> {
     for ext in ["svg", "png"] {
-        let candidate = PathBuf::from(BRANDS_ROOT)
+        let candidate = brands_root()
             .join(brand)
             .join(format!("logo.{ext}"));
         if candidate.is_file() {
@@ -294,7 +316,7 @@ fn lookup_metadata(model_id: &str) -> Option<PluginMetadata> {
     use std::sync::OnceLock;
     static INDEX: OnceLock<BTreeMap<String, PluginMetadata>> = OnceLock::new();
     let index = INDEX.get_or_init(|| {
-        let bytes = match fs::read(METADATA_FILE) {
+        let bytes = match fs::read(metadata_file()) {
             Ok(bytes) => bytes,
             Err(_) => return BTreeMap::new(),
         };
