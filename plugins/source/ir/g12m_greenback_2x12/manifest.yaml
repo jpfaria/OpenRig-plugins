@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_g12m_greenback_2x12
+display_name: G12M Greenback 2x12
+brand: celestion
+brand_logo: assets/brand_logo.svg
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - sm57_dark
+  - sm57_dark_2
+  - sm57_fat
+captures:
+- values:
+    mic: sm57_dark
+  file: ir/sm57_dark.wav
+- values:
+    mic: sm57_dark_2
+  file: ir/sm57_dark_2.wav
+- values:
+    mic: sm57_fat
+  file: ir/sm57_fat.wav

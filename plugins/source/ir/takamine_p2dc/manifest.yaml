@@ -1,0 +1,132 @@
+manifest_version: 1
+id: ir_takamine_p2dc
+display_name: P2DC
+brand: takamine
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - piezo_taka_pdc_piezo_1a
+  - piezo_taka_pdc_piezo_1b
+  - piezo_taka_pdc_piezo_1c
+  - piezo_taka_pdc_piezo_2a
+  - piezo_taka_pdc_piezo_2b
+  - piezo_taka_pdc_piezo_2c
+  - piezo_taka_pdc_piezo_3a
+  - piezo_taka_pdc_piezo_3b
+  - piezo_taka_pdc_piezo_3c
+  - piezo_taka_pdc_piezo_4a
+  - piezo_taka_pdc_piezo_4b
+  - piezo_taka_pdc_piezo_4c
+  - piezo_taka_pdc_piezo_5a
+  - piezo_taka_pdc_piezo_5b
+  - piezo_taka_pdc_piezo_5c
+  - soundhole_taka_pdc_soundhole_1a
+  - soundhole_taka_pdc_soundhole_1b
+  - soundhole_taka_pdc_soundhole_1c
+  - soundhole_taka_pdc_soundhole_2a
+  - soundhole_taka_pdc_soundhole_2b
+  - soundhole_taka_pdc_soundhole_2c
+  - soundhole_taka_pdc_soundhole_3a
+  - soundhole_taka_pdc_soundhole_3b
+  - soundhole_taka_pdc_soundhole_3c
+  - soundhole_taka_pdc_soundhole_4a
+  - soundhole_taka_pdc_soundhole_4b
+  - soundhole_taka_pdc_soundhole_4c
+  - soundhole_taka_pdc_soundhole_5a
+  - soundhole_taka_pdc_soundhole_5b
+  - soundhole_taka_pdc_soundhole_5c
+captures:
+- values:
+    voicing: piezo_taka_pdc_piezo_1a
+  file: ir/piezo_taka_pdc_piezo_1a.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_1b
+  file: ir/piezo_taka_pdc_piezo_1b.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_1c
+  file: ir/piezo_taka_pdc_piezo_1c.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_2a
+  file: ir/piezo_taka_pdc_piezo_2a.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_2b
+  file: ir/piezo_taka_pdc_piezo_2b.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_2c
+  file: ir/piezo_taka_pdc_piezo_2c.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_3a
+  file: ir/piezo_taka_pdc_piezo_3a.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_3b
+  file: ir/piezo_taka_pdc_piezo_3b.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_3c
+  file: ir/piezo_taka_pdc_piezo_3c.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_4a
+  file: ir/piezo_taka_pdc_piezo_4a.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_4b
+  file: ir/piezo_taka_pdc_piezo_4b.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_4c
+  file: ir/piezo_taka_pdc_piezo_4c.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_5a
+  file: ir/piezo_taka_pdc_piezo_5a.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_5b
+  file: ir/piezo_taka_pdc_piezo_5b.wav
+- values:
+    voicing: piezo_taka_pdc_piezo_5c
+  file: ir/piezo_taka_pdc_piezo_5c.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_1a
+  file: ir/soundhole_taka_pdc_soundhole_1a.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_1b
+  file: ir/soundhole_taka_pdc_soundhole_1b.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_1c
+  file: ir/soundhole_taka_pdc_soundhole_1c.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_2a
+  file: ir/soundhole_taka_pdc_soundhole_2a.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_2b
+  file: ir/soundhole_taka_pdc_soundhole_2b.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_2c
+  file: ir/soundhole_taka_pdc_soundhole_2c.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_3a
+  file: ir/soundhole_taka_pdc_soundhole_3a.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_3b
+  file: ir/soundhole_taka_pdc_soundhole_3b.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_3c
+  file: ir/soundhole_taka_pdc_soundhole_3c.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_4a
+  file: ir/soundhole_taka_pdc_soundhole_4a.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_4b
+  file: ir/soundhole_taka_pdc_soundhole_4b.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_4c
+  file: ir/soundhole_taka_pdc_soundhole_4c.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_5a
+  file: ir/soundhole_taka_pdc_soundhole_5a.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_5b
+  file: ir/soundhole_taka_pdc_soundhole_5b.wav
+- values:
+    voicing: soundhole_taka_pdc_soundhole_5c
+  file: ir/soundhole_taka_pdc_soundhole_5c.wav

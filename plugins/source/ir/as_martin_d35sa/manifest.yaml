@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_as_martin_d35sa
+display_name: D-35 SA
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - as_martin_d35sa_gplus_44100
+  - as_martin_d35sa_gplus_44100_bld
+  - as_martin_d35sa_gplus_44100_jf_flavor
+  - as_martin_d35sa_gplus_44100_match
+captures:
+- values:
+    voicing: as_martin_d35sa_gplus_44100
+  file: ir/as_martin_d35sa_gplus_44100.wav
+- values:
+    voicing: as_martin_d35sa_gplus_44100_bld
+  file: ir/as_martin_d35sa_gplus_44100_bld.wav
+- values:
+    voicing: as_martin_d35sa_gplus_44100_jf_flavor
+  file: ir/as_martin_d35sa_gplus_44100_jf_flavor.wav
+- values:
+    voicing: as_martin_d35sa_gplus_44100_match
+  file: ir/as_martin_d35sa_gplus_44100_match.wav

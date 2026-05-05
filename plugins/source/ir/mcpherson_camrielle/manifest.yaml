@@ -1,0 +1,39 @@
+manifest_version: 1
+id: ir_mcpherson_camrielle
+display_name: Camrielle
+brand: mcpherson
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - holy_grail_c800_exp
+  - holy_grail_c800_pz1
+  - holy_grail_c800_pz2
+  - holy_grail_c800_pz3
+  - holy_grail_c800_sb1
+  - holy_grail_c800_sb2
+  - holy_grail_c800_sb3_blend
+captures:
+- values:
+    voicing: holy_grail_c800_exp
+  file: ir/holy_grail_c800_exp.wav
+- values:
+    voicing: holy_grail_c800_pz1
+  file: ir/holy_grail_c800_pz1.wav
+- values:
+    voicing: holy_grail_c800_pz2
+  file: ir/holy_grail_c800_pz2.wav
+- values:
+    voicing: holy_grail_c800_pz3
+  file: ir/holy_grail_c800_pz3.wav
+- values:
+    voicing: holy_grail_c800_sb1
+  file: ir/holy_grail_c800_sb1.wav
+- values:
+    voicing: holy_grail_c800_sb2
+  file: ir/holy_grail_c800_sb2.wav
+- values:
+    voicing: holy_grail_c800_sb3_blend
+  file: ir/holy_grail_c800_sb3_blend.wav

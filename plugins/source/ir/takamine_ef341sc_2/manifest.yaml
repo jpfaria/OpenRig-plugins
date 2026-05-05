@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_takamine_ef341sc_2
+display_name: EF341SC
+brand: takamine
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - kb_ir_ef341_9_48k
+  - kb_ir_ef341_9_48k_mffqn
+  - kb_ir_ef341_9_48k_m
+  - kb_ir_ef341_18_48k_m
+captures:
+- values:
+    flavor: kb_ir_ef341_9_48k
+  file: ir/kb_ir_ef341_9_48k.wav
+- values:
+    flavor: kb_ir_ef341_9_48k_mffqn
+  file: ir/kb_ir_ef341_9_48k_mffqn.wav
+- values:
+    flavor: kb_ir_ef341_9_48k_m
+  file: ir/kb_ir_ef341_9_48k_m.wav
+- values:
+    flavor: kb_ir_ef341_18_48k_m
+  file: ir/kb_ir_ef341_18_48k_m.wav

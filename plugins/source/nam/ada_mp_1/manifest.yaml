@@ -1,0 +1,29 @@
+manifest_version: 1
+id: nam_ada_mp_1
+display_name: MP-1
+brand: ada
+sources:
+- https://www.tone3000.com/tones/6463
+type: preamp
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean_ss
+  - od1
+  - od2
+  - mod1
+captures:
+- values:
+    channel: clean_ss
+  file: captures/ada_mp_1_3tm_cleanss.nam
+- values:
+    channel: od1
+  file: captures/ada_mp_1_3tm_od1.nam
+- values:
+    channel: od2
+  file: captures/ada_mp_1_3tm_od2.nam
+- values:
+    channel: mod1
+  file: captures/ada_mp_1_3tm_mod1.nam

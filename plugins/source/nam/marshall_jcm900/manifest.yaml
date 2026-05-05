@@ -1,0 +1,52 @@
+manifest_version: 1
+id: nam_marshall_jcm900
+display_name: JCM900
+brand: marshall
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: amp_model
+  display_name: Amp Model
+  values:
+  - vox_ac15
+  - jtm_45
+  - jcm_900
+  - dumble
+- name: tone
+  display_name: Tone
+  values:
+  - clean
+  - crunch
+  - crsh_2
+  - crsh
+  - higain
+captures:
+- values:
+    amp_model: vox_ac15
+    tone: clean
+  file: captures/vox_ac15_clean.nam
+- values:
+    amp_model: vox_ac15
+    tone: crunch
+  file: captures/vox_ac15_crunsh.nam
+- values:
+    amp_model: vox_ac15
+    tone: crsh_2
+  file: captures/vox_ac15_crsh_2.nam
+- values:
+    amp_model: jtm_45
+    tone: clean
+  file: captures/marshall_jtm_45_clean.nam
+- values:
+    amp_model: jtm_45
+    tone: crsh
+  file: captures/jtm_45_crsh.nam
+- values:
+    amp_model: jcm_900
+    tone: higain
+  file: captures/marshall_jcm_900_higain.nam
+- values:
+    amp_model: dumble
+    tone: clean
+  file: captures/ods_dumble_clean.nam

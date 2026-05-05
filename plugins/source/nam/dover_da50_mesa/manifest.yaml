@@ -1,0 +1,19 @@
+manifest_version: 1
+id: nam_dover_da50_mesa
+display_name: DA-50 + Mesa 4u{00d7}12
+brand: dover
+type: amp
+backend: nam
+parameters:
+- name: boost
+  display_name: Boost
+  values:
+  - clean
+  - boosted
+captures:
+- values:
+    boost: clean
+  file: captures/da50_mesa_clean.nam
+- values:
+    boost: boosted
+  file: captures/da50_mesa_boosted.nam

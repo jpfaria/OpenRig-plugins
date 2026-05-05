@@ -1,0 +1,35 @@
+manifest_version: 1
+id: ir_alvarez_abt60_baritone
+display_name: ABT60 Baritone
+brand: alvarez
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_alvarez_abt_60_baritone_sm44100
+  - ir_alvarez_abt_60_baritone_sm44100_match1
+  - ir_alvarez_abt_60_baritone_sm44100_match2
+  - ir_alvarez_abt_60_baritone_bb44100
+  - ir_alvarez_abt_60_baritone_bb44100_match1
+  - ir_alvarez_abt_60_baritone_bb44100_match2
+captures:
+- values:
+    voicing: ir_alvarez_abt_60_baritone_sm44100
+  file: ir/ir_alvarez_abt_60_baritone_sm44100.wav
+- values:
+    voicing: ir_alvarez_abt_60_baritone_sm44100_match1
+  file: ir/ir_alvarez_abt_60_baritone_sm44100_match1.wav
+- values:
+    voicing: ir_alvarez_abt_60_baritone_sm44100_match2
+  file: ir/ir_alvarez_abt_60_baritone_sm44100_match2.wav
+- values:
+    voicing: ir_alvarez_abt_60_baritone_bb44100
+  file: ir/ir_alvarez_abt_60_baritone_bb44100.wav
+- values:
+    voicing: ir_alvarez_abt_60_baritone_bb44100_match1
+  file: ir/ir_alvarez_abt_60_baritone_bb44100_match1.wav
+- values:
+    voicing: ir_alvarez_abt_60_baritone_bb44100_match2
+  file: ir/ir_alvarez_abt_60_baritone_bb44100_match2.wav

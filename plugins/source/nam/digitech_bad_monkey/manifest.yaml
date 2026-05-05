@@ -1,0 +1,147 @@
+manifest_version: 1
+id: nam_digitech_bad_monkey
+display_name: DigiTech Bad Monkey
+brand: digitech
+type: gain_pedal
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - boost1
+  - boost2
+  - boost3_g0
+  - boost3_g4
+  - fulltone
+  - glory
+  - klon
+  - noble_odr_1
+  - ts10
+  - zen
+- name: size
+  display_name: Model Size
+  values:
+  - feather
+  - lite
+  - standard
+captures:
+- values:
+    size: feather
+    voicing: boost1
+  file: captures/badmonkey_boost1_v10_b4_t6_g0_feather.nam
+- values:
+    size: lite
+    voicing: boost1
+  file: captures/badmonkey_boost1_v10_b4_t6_g0_lite.nam
+- values:
+    size: standard
+    voicing: boost1
+  file: captures/badmonkey_boost1_v10_b4_t6_g0_standard.nam
+- values:
+    size: feather
+    voicing: boost2
+  file: captures/badmonkey_boost2_v10_b4_t6_g4_feather.nam
+- values:
+    size: lite
+    voicing: boost2
+  file: captures/badmonkey_boost2_v10_b4_t6_g4_lite.nam
+- values:
+    size: standard
+    voicing: boost2
+  file: captures/badmonkey_boost2_v10_b4_t6_g4_standard.nam
+- values:
+    size: feather
+    voicing: boost3_g0
+  file: captures/badmonkey_boost3_v10_b7_t6_g0_feather.nam
+- values:
+    size: lite
+    voicing: boost3_g0
+  file: captures/badmonkey_boost3_v10_b7_t6_g0_lite.nam
+- values:
+    size: standard
+    voicing: boost3_g0
+  file: captures/badmonkey_boost3_v10_b7_t6_g0_standard.nam
+- values:
+    size: feather
+    voicing: boost3_g4
+  file: captures/badmonkey_boost3_v10_b7_t6_g4_feather.nam
+- values:
+    size: lite
+    voicing: boost3_g4
+  file: captures/badmonkey_boost3_v10_b7_t6_g4_lite.nam
+- values:
+    size: standard
+    voicing: boost3_g4
+  file: captures/badmonkey_boost3_v10_b7_t6_g4_standard.nam
+- values:
+    size: feather
+    voicing: fulltone
+  file: captures/badmonkey_fulltone_feather.nam
+- values:
+    size: lite
+    voicing: fulltone
+  file: captures/badmonkey_fulltone_lite.nam
+- values:
+    size: standard
+    voicing: fulltone
+  file: captures/badmonkey_fulltone_standard.nam
+- values:
+    size: feather
+    voicing: glory
+  file: captures/badmonkey_glory_feather.nam
+- values:
+    size: lite
+    voicing: glory
+  file: captures/badmonkey_glory_lite.nam
+- values:
+    size: standard
+    voicing: glory
+  file: captures/badmonkey_glory_standard.nam
+- values:
+    size: feather
+    voicing: klon
+  file: captures/badmonkey_klon_feather.nam
+- values:
+    size: lite
+    voicing: klon
+  file: captures/badmonkey_klon_lite.nam
+- values:
+    size: standard
+    voicing: klon
+  file: captures/badmonkey_klon_standard.nam
+- values:
+    size: feather
+    voicing: noble_odr_1
+  file: captures/badmonkey_noble_odr_1_feather.nam
+- values:
+    size: lite
+    voicing: noble_odr_1
+  file: captures/badmonkey_noble_odr_1_lite.nam
+- values:
+    size: standard
+    voicing: noble_odr_1
+  file: captures/badmonkey_noble_odr_1_standard.nam
+- values:
+    size: feather
+    voicing: ts10
+  file: captures/badmonkey_ts10_feather.nam
+- values:
+    size: lite
+    voicing: ts10
+  file: captures/badmonkey_ts10_lite.nam
+- values:
+    size: standard
+    voicing: ts10
+  file: captures/badmonkey_ts10_standard.nam
+- values:
+    size: feather
+    voicing: zen
+  file: captures/badmonkey_zen_feather.nam
+- values:
+    size: lite
+    voicing: zen
+  file: captures/badmonkey_zen_lite.nam
+- values:
+    size: standard
+    voicing: zen
+  file: captures/badmonkey_zen_standard.nam

@@ -1,0 +1,32 @@
+manifest_version: 1
+id: ir_taylor_717e
+display_name: 717e
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - taylor_717e_48000
+  - taylor_717e_48000_bld
+  - taylor_717e_48000_match
+  - taylor_717e_48000_jf_flavor
+  - ir_717e_48k_mffq
+captures:
+- values:
+    voicing: taylor_717e_48000
+  file: ir/taylor_717e_48000.wav
+- values:
+    voicing: taylor_717e_48000_bld
+  file: ir/taylor_717e_48000_bld.wav
+- values:
+    voicing: taylor_717e_48000_match
+  file: ir/taylor_717e_48000_match.wav
+- values:
+    voicing: taylor_717e_48000_jf_flavor
+  file: ir/taylor_717e_48000_jf_flavor.wav
+- values:
+    voicing: ir_717e_48k_mffq
+  file: ir/ir_717e_48k_mffq.wav

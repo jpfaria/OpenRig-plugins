@@ -1,0 +1,58 @@
+manifest_version: 1
+id: nam_engl_fireball
+display_name: Fireball
+brand: engl
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/2214
+type: amp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - default
+  - mid
+  - presence_0
+  - presence_9h
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - ts9
+  - ts808
+  - line_driver
+  - precision_drive
+captures:
+- values:
+    boost: none
+    voicing: default
+  file: captures/engl_fireball.nam
+- values:
+    boost: ts9
+    voicing: default
+  file: captures/engl_fireball_ts9.nam
+- values:
+    boost: ts808
+    voicing: default
+  file: captures/engl_fireball_ts808.nam
+- values:
+    boost: line_driver
+    voicing: default
+  file: captures/engl_fireball_line_driver.nam
+- values:
+    boost: precision_drive
+    voicing: default
+  file: captures/engl_fireball_precision_drive_3.nam
+- values:
+    boost: none
+    voicing: mid
+  file: captures/engl_fireball_mid.nam
+- values:
+    boost: none
+    voicing: presence_0
+  file: captures/engl_fireball_presence_0.nam
+- values:
+    boost: none
+    voicing: presence_9h
+  file: captures/engl_fireball_presence_9h.nam

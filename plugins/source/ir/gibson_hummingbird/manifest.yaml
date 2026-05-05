@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_gibson_hummingbird
+display_name: Hummingbird
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - hummingbird_dpa_4011
+  - hummingbird_neumann_m147
+  - hummingbird_shure_beta_58a
+  - hummingbird_soundelux_e47
+captures:
+- values:
+    voicing: hummingbird_dpa_4011
+  file: ir/hummingbird_dpa_4011.wav
+- values:
+    voicing: hummingbird_neumann_m147
+  file: ir/hummingbird_neumann_m147.wav
+- values:
+    voicing: hummingbird_shure_beta_58a
+  file: ir/hummingbird_shure_beta_58a.wav
+- values:
+    voicing: hummingbird_soundelux_e47
+  file: ir/hummingbird_soundelux_e47.wav

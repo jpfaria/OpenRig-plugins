@@ -1,0 +1,36 @@
+manifest_version: 1
+id: ir_martin_hd_28_pre2018_baggs_m80
+display_name: HD-28 Pre-2018 Baggs M80
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_hd28_m80_allstr_44100
+  - ir_hd28_m80_allstr_44100_match1
+  - ir_hd28_m80_allstr_44100_match2
+  - ir_hd28_m80_estr_44100
+  - ir_hd28_m80_estr_44100_match1
+  - ir_hd28_m80_estr_44100_match2
+captures:
+- values:
+    voicing: ir_hd28_m80_allstr_44100
+  file: ir/ir_hd28_m80_allstr_44100.wav
+- values:
+    voicing: ir_hd28_m80_allstr_44100_match1
+  file: ir/ir_hd28_m80_allstr_44100_match1.wav
+- values:
+    voicing: ir_hd28_m80_allstr_44100_match2
+  file: ir/ir_hd28_m80_allstr_44100_match2.wav
+- values:
+    voicing: ir_hd28_m80_estr_44100
+  file: ir/ir_hd28_m80_estr_44100.wav
+- values:
+    voicing: ir_hd28_m80_estr_44100_match1
+  file: ir/ir_hd28_m80_estr_44100_match1.wav
+- values:
+    voicing: ir_hd28_m80_estr_44100_match2
+  file: ir/ir_hd28_m80_estr_44100_match2.wav

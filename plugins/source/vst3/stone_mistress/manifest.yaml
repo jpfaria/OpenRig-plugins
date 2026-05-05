@@ -1,0 +1,32 @@
+manifest_version: 1
+id: vst3_stone_mistress
+display_name: Stone Mistress
+description: Stone Mistress — flanger/chorus inspired by the classic EHX Stone Mistress pedal.
+brand: stone-mistress
+license: GPL-3.0
+homepage: https://github.com/jpcima/stone-mistress
+type: mod
+backend: vst3
+bundle: bundles/StoneMistress.vst3
+parameters:
+- name: depth
+  display_name: Depth
+  vst3_id: 1
+  min: 0.0
+  max: 100.0
+  default: 50.0
+  step: 1.0
+- name: feedback
+  display_name: Feedback
+  vst3_id: 2
+  min: 0.0
+  max: 100.0
+  default: 50.0
+  step: 1.0
+- name: mix
+  display_name: Mix
+  vst3_id: 3
+  min: 0.0
+  max: 100.0
+  default: 50.0
+  step: 1.0

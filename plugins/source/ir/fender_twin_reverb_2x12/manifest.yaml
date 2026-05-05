@@ -1,0 +1,26 @@
+manifest_version: 1
+id: ir_fender_twin_reverb_2x12
+display_name: Twin Reverb 2x12
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/33532
+type: cab
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - balanced
+  - mids
+captures:
+- values:
+    voicing: clean
+  file: ir/twin_reverb_clean_3.wav
+- values:
+    voicing: balanced
+  file: ir/twin_reverb_balanced_3.wav
+- values:
+    voicing: mids
+  file: ir/twin_reverb_mids_3.wav

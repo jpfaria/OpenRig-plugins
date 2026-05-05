@@ -1,0 +1,32 @@
+manifest_version: 1
+id: ir_martin_custom_shop_000_28md_k_k
+display_name: Custom Shop 000-28MD K&K
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - 00028md_knk_44100
+  - 00028md_knk_44100_match1
+  - jf45ir00028jf
+  - jf45ir102400028jf
+  - jf45ir505000028jf
+captures:
+- values:
+    voicing: 00028md_knk_44100
+  file: ir/00028md_knk_44100.wav
+- values:
+    voicing: 00028md_knk_44100_match1
+  file: ir/00028md_knk_44100_match1.wav
+- values:
+    voicing: jf45ir00028jf
+  file: ir/jf45ir00028jf.wav
+- values:
+    voicing: jf45ir102400028jf
+  file: ir/jf45ir102400028jf.wav
+- values:
+    voicing: jf45ir505000028jf
+  file: ir/jf45ir505000028jf.wav

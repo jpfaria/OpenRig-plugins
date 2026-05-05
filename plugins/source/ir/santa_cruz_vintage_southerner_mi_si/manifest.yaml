@@ -1,0 +1,59 @@
+manifest_version: 1
+id: ir_santa_cruz_vintage_southerner_mi_si
+display_name: Vintage Southerner Mi Si
+brand: santa-cruz
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - santacruz_vintage_southerner_48k_8096
+  - santacruz_vintage_southerner_48k_8096_bld
+  - santacruz_vintage_southerner_48k_8096_match1
+  - santacruz_vintage_southerner_48k_8096_match2
+  - santacruz_vintage_southerner_48k_8096_jf_flavor
+  - santacruz_vintage_southerner_48k_2048
+  - santacruz_vintage_southerner_48k_2048_bld
+  - santacruz_vintage_southerner_48k_2048_match1
+  - santacruz_vintage_southerner_48k_2048_match2
+  - santacruz_vintage_southerner_48k_2048_jf_flavor
+  - ir_santa_cruz_vintage_southerner_new_a_96k_8096
+  - ir_santa_cruz_vintage_southerner_new_a_96k_8096_match
+captures:
+- values:
+    voicing: santacruz_vintage_southerner_48k_8096
+  file: ir/santacruz_vintage_southerner_48k_8096.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_8096_bld
+  file: ir/santacruz_vintage_southerner_48k_8096_bld.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_8096_match1
+  file: ir/santacruz_vintage_southerner_48k_8096_match1.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_8096_match2
+  file: ir/santacruz_vintage_southerner_48k_8096_match2.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_8096_jf_flavor
+  file: ir/santacruz_vintage_southerner_48k_8096_jf_flavor.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_2048
+  file: ir/santacruz_vintage_southerner_48k_2048.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_2048_bld
+  file: ir/santacruz_vintage_southerner_48k_2048_bld.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_2048_match1
+  file: ir/santacruz_vintage_southerner_48k_2048_match1.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_2048_match2
+  file: ir/santacruz_vintage_southerner_48k_2048_match2.wav
+- values:
+    voicing: santacruz_vintage_southerner_48k_2048_jf_flavor
+  file: ir/santacruz_vintage_southerner_48k_2048_jf_flavor.wav
+- values:
+    voicing: ir_santa_cruz_vintage_southerner_new_a_96k_8096
+  file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096.wav
+- values:
+    voicing: ir_santa_cruz_vintage_southerner_new_a_96k_8096_match
+  file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096_match.wav

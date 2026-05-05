@@ -1,0 +1,37 @@
+manifest_version: 1
+id: nam_eden_e300t
+display_name: E300T
+brand: eden
+sources:
+- https://www.tone3000.com/tones/39392
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - glowplug
+  - flat_g6
+  - eq_1_g6
+  - eq_2_g6
+  - wtdi
+  - wtdi_2
+captures:
+- values:
+    preset: glowplug
+  file: captures/glowplug.nam
+- values:
+    preset: flat_g6
+  file: captures/e300t_flat_gain_6.nam
+- values:
+    preset: eq_1_g6
+  file: captures/e300t_eq_1_gain_6_bass_2_mid_3_shift_on_treb_0.nam
+- values:
+    preset: eq_2_g6
+  file: captures/e300t_eq_2_gain_6_bass_3_mid_2_shift_on_treb_0.nam
+- values:
+    preset: wtdi
+  file: captures/wtdi.nam
+- values:
+    preset: wtdi_2
+  file: captures/wtdi_2.nam

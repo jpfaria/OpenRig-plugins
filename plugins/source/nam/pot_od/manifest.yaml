@@ -1,0 +1,10 @@
+manifest_version: 1
+id: nam_pot_od
+display_name: PoT OD
+brand: pot
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/pot_od.nam

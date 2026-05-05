@@ -1,0 +1,23 @@
+manifest_version: 1
+id: ir_boucher_sg51_dazzo
+display_name: Boucher SG-51 Dazzo
+brand: boucher
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_reca_44k_2048
+  - ir_reca_44k_2048_m
+  - ir_reca_44k_2048_mffqn
+captures:
+- values:
+    voicing: ir_reca_44k_2048
+  file: ir/ir_reca_44k_2048.wav
+- values:
+    voicing: ir_reca_44k_2048_m
+  file: ir/ir_reca_44k_2048_m.wav
+- values:
+    voicing: ir_reca_44k_2048_mffqn
+  file: ir/ir_reca_44k_2048_mffqn.wav

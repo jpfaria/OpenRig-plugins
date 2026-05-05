@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_marshall_1959_slp
+display_name: 1959 SLP
+brand: marshall
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: boost
+  display_name: Boost
+  values:
+  - off
+  - ts8
+captures:
+- values:
+    boost: off
+  file: captures/marshall_1959_slp_6_8.nam
+- values:
+    boost: ts8
+  file: captures/marshall_1959_slp_boosted_ts8_6_8.nam

@@ -1,0 +1,40 @@
+manifest_version: 1
+id: ir_martin_d_35
+display_name: D-35
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - exp
+  - piezo_1
+  - piezo_2
+  - piezo_3
+  - soundboard_1
+  - soundboard_2
+  - blend
+captures:
+- values:
+    voicing: exp
+  file: ir/exp.wav
+- values:
+    voicing: piezo_1
+  file: ir/piezo_1.wav
+- values:
+    voicing: piezo_2
+  file: ir/piezo_2.wav
+- values:
+    voicing: piezo_3
+  file: ir/piezo_3.wav
+- values:
+    voicing: soundboard_1
+  file: ir/soundboard_1.wav
+- values:
+    voicing: soundboard_2
+  file: ir/soundboard_2.wav
+- values:
+    voicing: blend
+  file: ir/blend.wav

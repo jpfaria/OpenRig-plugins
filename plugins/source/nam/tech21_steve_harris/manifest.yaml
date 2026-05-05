@@ -1,0 +1,19 @@
+manifest_version: 1
+id: nam_tech21_steve_harris
+display_name: Steve Harris SH-1
+brand: tech21
+type: gain_pedal
+backend: nam
+parameters:
+- name: character
+  display_name: Character
+  values:
+  - standard
+  - less_highs
+captures:
+- values:
+    character: standard
+  file: captures/sh1_standard.nam
+- values:
+    character: less_highs
+  file: captures/sh1_less_highs.nam

@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Marshall YJM100 — Yngwie Malmsteen signature
+      amp with high-gain preamp.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Marshall YJM100 — amp assinatura Yngwie Malmsteen
+      com pré-amp de alta distorção.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

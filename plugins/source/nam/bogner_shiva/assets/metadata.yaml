@@ -1,0 +1,5 @@
+i18n:
+  en-US:
+    description: Neural capture of the Bogner Shiva — dynamic clean-to-crunch amp.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

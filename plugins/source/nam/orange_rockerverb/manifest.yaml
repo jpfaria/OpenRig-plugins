@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_orange_rockerverb
+display_name: Rockerverb
+brand: orange
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/1844
+type: amp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch_g5
+  - rock_g6
+  - higain_g5
+  - higain_g6
+  - higain_g7
+  - jim_root
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - fortin_ts808
+  - ti_boost
+captures:
+- values:
+    boost: none
+    voicing: clean
+  file: captures/orange_rockerverb_mk3_clean_canov_arnold.nam
+- values:
+    boost: none
+    voicing: crunch_g5
+  file: captures/orange_rockerverb_mk3_crunch_g5_canov_arnold.nam
+- values:
+    boost: none
+    voicing: rock_g6
+  file: captures/orange_rockerverb_mk3_rock_g6_canov_arnold.nam
+- values:
+    boost: fortin_ts808
+    voicing: higain_g5
+  file: captures/orange_rockerverb_mk3_higain_g5_fortin_ts808_canov_arnold.nam
+- values:
+    boost: ti_boost
+    voicing: higain_g6
+  file: captures/orange_rockerverb_mk3_higain_g6_ti_boost_canov_arnold.nam
+- values:
+    boost: none
+    voicing: higain_g7
+  file: captures/orange_rockerverb_mk3_higain_g7_canov_arnold.nam
+- values:
+    boost: none
+    voicing: jim_root
+  file: captures/orange_rockerverb_mk3_jim_root_canov_arnold.nam

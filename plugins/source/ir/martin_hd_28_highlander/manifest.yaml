@@ -1,0 +1,36 @@
+manifest_version: 1
+id: ir_martin_hd_28_highlander
+display_name: HD-28 Highlander
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_martin_hd28_highlander_48000
+  - ir_martin_hd28_highlander_48000_m1
+  - ir_martin_hd28_highlander_48000_m2
+  - jf45irmartin_hd28_highlander
+  - jf45ir1024martin_hd28_highlander
+  - jf45ir5050martin_hd28_highlander
+captures:
+- values:
+    voicing: ir_martin_hd28_highlander_48000
+  file: ir/ir_martin_hd28_highlander_48000.wav
+- values:
+    voicing: ir_martin_hd28_highlander_48000_m1
+  file: ir/ir_martin_hd28_highlander_48000_m1.wav
+- values:
+    voicing: ir_martin_hd28_highlander_48000_m2
+  file: ir/ir_martin_hd28_highlander_48000_m2.wav
+- values:
+    voicing: jf45irmartin_hd28_highlander
+  file: ir/jf45irmartin_hd28_highlander.wav
+- values:
+    voicing: jf45ir1024martin_hd28_highlander
+  file: ir/jf45ir1024martin_hd28_highlander.wav
+- values:
+    voicing: jf45ir5050martin_hd28_highlander
+  file: ir/jf45ir5050martin_hd28_highlander.wav

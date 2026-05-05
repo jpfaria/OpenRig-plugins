@@ -1,0 +1,15 @@
+manifest_version: 1
+id: nam_strymon_riverside
+display_name: Strymon Riverside
+brand: strymon
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - strymon_riverside
+captures:
+- values:
+    tone: strymon_riverside
+  file: captures/strymon_riverside.nam

@@ -1,0 +1,35 @@
+manifest_version: 1
+id: ir_les_cotton_westfield
+display_name: Les Cotton Westfield
+brand: les-cotton
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - lescotton_westfield
+  - cukiirlescottonwest2048_48
+  - cukijfirlescottonwest2048at48
+  - jf45irlescotton_westfield
+  - jf45ir1024lescotton_westfield
+  - jf45ir5050lescotton_westfield
+captures:
+- values:
+    voicing: lescotton_westfield
+  file: ir/lescotton_westfield.wav
+- values:
+    voicing: cukiirlescottonwest2048_48
+  file: ir/cukiirlescottonwest2048_48.wav
+- values:
+    voicing: cukijfirlescottonwest2048at48
+  file: ir/cukijfirlescottonwest2048at48.wav
+- values:
+    voicing: jf45irlescotton_westfield
+  file: ir/jf45irlescotton_westfield.wav
+- values:
+    voicing: jf45ir1024lescotton_westfield
+  file: ir/jf45ir1024lescotton_westfield.wav
+- values:
+    voicing: jf45ir5050lescotton_westfield
+  file: ir/jf45ir5050lescotton_westfield.wav

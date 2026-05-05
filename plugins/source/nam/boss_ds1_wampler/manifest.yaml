@@ -1,0 +1,57 @@
+manifest_version: 1
+id: nam_boss_ds1_wampler
+display_name: DS-1 Wampler JCM Mod
+brand: boss
+brand_logo: assets/brand_logo.svg
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - '2'
+  - '6'
+  - '8'
+- name: dist
+  display_name: Dist
+  values:
+  - '0'
+  - '5'
+  - '10'
+captures:
+- values:
+    dist: '0'
+    tone: '2'
+  file: captures/ds1w_t2_d0.nam
+- values:
+    dist: '5'
+    tone: '2'
+  file: captures/ds1w_t2_d5.nam
+- values:
+    dist: '10'
+    tone: '2'
+  file: captures/ds1w_t2_d10.nam
+- values:
+    dist: '0'
+    tone: '6'
+  file: captures/ds1w_t6_d0.nam
+- values:
+    dist: '5'
+    tone: '6'
+  file: captures/ds1w_t6_d5.nam
+- values:
+    dist: '10'
+    tone: '6'
+  file: captures/ds1w_t6_d10.nam
+- values:
+    dist: '0'
+    tone: '8'
+  file: captures/ds1w_t8_d0.nam
+- values:
+    dist: '5'
+    tone: '8'
+  file: captures/ds1w_t8_d5.nam
+- values:
+    dist: '10'
+    tone: '8'
+  file: captures/ds1w_t8_d10.nam

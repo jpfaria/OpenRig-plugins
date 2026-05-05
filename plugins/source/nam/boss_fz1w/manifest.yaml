@@ -1,0 +1,53 @@
+manifest_version: 1
+id: nam_boss_fz1w
+display_name: FZ-1W Fuzz
+brand: boss
+brand_logo: assets/brand_logo.svg
+type: gain_pedal
+backend: nam
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - modern
+  - vintage
+- name: fuzz
+  display_name: Fuzz
+  values:
+  - '2'
+  - '5'
+  - '7'
+  - '11'
+captures:
+- values:
+    fuzz: '2'
+    mode: modern
+  file: captures/fz1w_modern_f02.nam
+- values:
+    fuzz: '5'
+    mode: modern
+  file: captures/fz1w_modern_f05.nam
+- values:
+    fuzz: '7'
+    mode: modern
+  file: captures/fz1w_modern_f07.nam
+- values:
+    fuzz: '11'
+    mode: modern
+  file: captures/fz1w_modern_f11.nam
+- values:
+    fuzz: '2'
+    mode: vintage
+  file: captures/fz1w_vintage_f02.nam
+- values:
+    fuzz: '5'
+    mode: vintage
+  file: captures/fz1w_vintage_f05.nam
+- values:
+    fuzz: '7'
+    mode: vintage
+  file: captures/fz1w_vintage_f07.nam
+- values:
+    fuzz: '11'
+    mode: vintage
+  file: captures/fz1w_vintage_f11.nam

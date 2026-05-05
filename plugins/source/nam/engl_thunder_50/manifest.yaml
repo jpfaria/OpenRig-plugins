@@ -1,0 +1,14 @@
+manifest_version: 1
+id: nam_engl_thunder_50
+display_name: Thunder 50
+description: Neural capture of the ENGL Thunder 50 — British-voiced amp with tight, aggressive response.
+brand: engl
+brand_logo: assets/brand_logo.svg
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/lead.nam

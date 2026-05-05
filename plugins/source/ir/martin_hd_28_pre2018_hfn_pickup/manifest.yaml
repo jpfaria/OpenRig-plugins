@@ -1,0 +1,76 @@
+manifest_version: 1
+id: ir_martin_hd_28_pre2018_hfn_pickup
+display_name: HD-28 Pre-2018 HFN Pickup
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - martinhd28_hfn1_44100
+  - martinhd28_hfn1_44100_bld
+  - martinhd28_hfn1_44100_match
+  - martinhd28_hfn1_44100_jf_flavor
+  - martinhd28_hfn2_44100
+  - martinhd28_hfn2_44100_bld
+  - martinhd28_hfn2_44100_match
+  - martinhd28_hfn2_44100_jf_flavor
+  - ir_martin_hd28_8096st_matcheq
+  - ir_martin_hd28_8096l_matcheq
+  - ir_martin_hd28_8096r_matcheq
+  - ir_martin_hd28_2048st_matcheq
+  - ir_martin_hd28_2048l_matcheq
+  - ir_martin_hd28_2048r_matcheq
+  - irzrec1db65s4ss17
+  - irzrec2db65s4ss17
+captures:
+- values:
+    voicing: martinhd28_hfn1_44100
+  file: ir/martinhd28_hfn1_44100.wav
+- values:
+    voicing: martinhd28_hfn1_44100_bld
+  file: ir/martinhd28_hfn1_44100_bld.wav
+- values:
+    voicing: martinhd28_hfn1_44100_match
+  file: ir/martinhd28_hfn1_44100_match.wav
+- values:
+    voicing: martinhd28_hfn1_44100_jf_flavor
+  file: ir/martinhd28_hfn1_44100_jf_flavor.wav
+- values:
+    voicing: martinhd28_hfn2_44100
+  file: ir/martinhd28_hfn2_44100.wav
+- values:
+    voicing: martinhd28_hfn2_44100_bld
+  file: ir/martinhd28_hfn2_44100_bld.wav
+- values:
+    voicing: martinhd28_hfn2_44100_match
+  file: ir/martinhd28_hfn2_44100_match.wav
+- values:
+    voicing: martinhd28_hfn2_44100_jf_flavor
+  file: ir/martinhd28_hfn2_44100_jf_flavor.wav
+- values:
+    voicing: ir_martin_hd28_8096st_matcheq
+  file: ir/ir_martin_hd28_8096st_matcheq.wav
+- values:
+    voicing: ir_martin_hd28_8096l_matcheq
+  file: ir/ir_martin_hd28_8096l_matcheq.wav
+- values:
+    voicing: ir_martin_hd28_8096r_matcheq
+  file: ir/ir_martin_hd28_8096r_matcheq.wav
+- values:
+    voicing: ir_martin_hd28_2048st_matcheq
+  file: ir/ir_martin_hd28_2048st_matcheq.wav
+- values:
+    voicing: ir_martin_hd28_2048l_matcheq
+  file: ir/ir_martin_hd28_2048l_matcheq.wav
+- values:
+    voicing: ir_martin_hd28_2048r_matcheq
+  file: ir/ir_martin_hd28_2048r_matcheq.wav
+- values:
+    voicing: irzrec1db65s4ss17
+  file: ir/irzrec1db65s4ss17.wav
+- values:
+    voicing: irzrec2db65s4ss17
+  file: ir/irzrec2db65s4ss17.wav

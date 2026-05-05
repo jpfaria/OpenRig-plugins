@@ -1,0 +1,56 @@
+manifest_version: 1
+id: nam_peavey_6505
+display_name: '6505'
+brand: peavey
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - mid_forward
+  - scooped
+- name: gain
+  display_name: Gain
+  values:
+  - g02
+  - g04
+  - g06
+  - g07
+  - g08
+  - g09
+captures:
+- values:
+    gain: g02
+    voicing: clean
+  file: captures/app_6505plus_clean_gain_02.nam
+- values:
+    gain: g04
+    voicing: clean
+  file: captures/app_6505plus_clean_gain_04.nam
+- values:
+    gain: g06
+    voicing: clean
+  file: captures/app_6505plus_clean_gain_06.nam
+- values:
+    gain: g07
+    voicing: clean
+  file: captures/app_6505plus_clean_gain_07.nam
+- values:
+    gain: g08
+    voicing: clean
+  file: captures/app_6505plus_clean_gain_08.nam
+- values:
+    gain: g09
+    voicing: clean
+  file: captures/app_6505plus_clean_gain_09.nam
+- values:
+    gain: g07
+    voicing: mid_forward
+  file: captures/app_6505plus_midforward_gain_07.nam
+- values:
+    gain: g06
+    voicing: scooped
+  file: captures/app_6505plus_scooped_gain_06.nam

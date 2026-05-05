@@ -1,0 +1,40 @@
+manifest_version: 1
+id: ir_sb_takef341sc
+display_name: Takamine F341SC
+brand: takamine
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - takef341sc_44100
+  - takef341sc_44100_1024
+  - takef341sc_44100_match1
+  - takef341sc_44100_match1_ls
+  - takef341sc_44100_match2
+  - takef341sc_44100_1024_match1
+  - takef341sc_44100_1024_match2
+captures:
+- values:
+    voicing: takef341sc_44100
+  file: ir/takef341sc_44100.wav
+- values:
+    voicing: takef341sc_44100_1024
+  file: ir/takef341sc_44100_1024.wav
+- values:
+    voicing: takef341sc_44100_match1
+  file: ir/takef341sc_44100_match1.wav
+- values:
+    voicing: takef341sc_44100_match1_ls
+  file: ir/takef341sc_44100_match1_ls.wav
+- values:
+    voicing: takef341sc_44100_match2
+  file: ir/takef341sc_44100_match2.wav
+- values:
+    voicing: takef341sc_44100_1024_match1
+  file: ir/takef341sc_44100_1024_match1.wav
+- values:
+    voicing: takef341sc_44100_1024_match2
+  file: ir/takef341sc_44100_1024_match2.wav

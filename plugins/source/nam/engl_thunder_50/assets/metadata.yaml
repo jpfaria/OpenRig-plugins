@@ -1,0 +1,10 @@
+i18n:
+  en-US:
+    description: Neural capture of the ENGL Thunder 50 — British-voiced amp with tight,
+      aggressive response.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do ENGL Thunder 50 — cabeçote high-gain alemão versátil.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

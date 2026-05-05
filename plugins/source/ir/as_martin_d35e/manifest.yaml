@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_as_martin_d35e
+display_name: D-35E
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - as_martin_d35e_fishman_48000
+  - as_martin_d35e_fishman_48000_bld
+  - as_martin_d35e_fishman_48000_jf_flavor
+  - as_martin_d35e_fishman_48000_match
+captures:
+- values:
+    voicing: as_martin_d35e_fishman_48000
+  file: ir/as_martin_d35e_fishman_48000.wav
+- values:
+    voicing: as_martin_d35e_fishman_48000_bld
+  file: ir/as_martin_d35e_fishman_48000_bld.wav
+- values:
+    voicing: as_martin_d35e_fishman_48000_jf_flavor
+  file: ir/as_martin_d35e_fishman_48000_jf_flavor.wav
+- values:
+    voicing: as_martin_d35e_fishman_48000_match
+  file: ir/as_martin_d35e_fishman_48000_match.wav

@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_gibson_songwriter_deluxe_custom_hfn
+display_name: Songwriter Deluxe Custom HFN
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - jf45ir1024gibson
+  - jf45ir5050gibson
+  - jf45irgibson
+captures:
+- values:
+    voicing: jf45ir1024gibson
+  file: ir/jf45ir1024gibson.wav
+- values:
+    voicing: jf45ir5050gibson
+  file: ir/jf45ir5050gibson.wav
+- values:
+    voicing: jf45irgibson
+  file: ir/jf45irgibson.wav

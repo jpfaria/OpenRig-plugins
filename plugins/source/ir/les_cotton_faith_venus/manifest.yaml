@@ -1,0 +1,35 @@
+manifest_version: 1
+id: ir_les_cotton_faith_venus
+display_name: Les Cotton Faith Venus
+brand: les-cotton
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - lescotton_faith_venus
+  - cukiirlescottonfaith2048at48
+  - cukijfirlescottonfaith2048at48
+  - jf45irlescotton_faith_venus
+  - jf45ir1024lescotton_faith_venus
+  - jf45ir5050lescotton_faith_venus
+captures:
+- values:
+    voicing: lescotton_faith_venus
+  file: ir/lescotton_faith_venus.wav
+- values:
+    voicing: cukiirlescottonfaith2048at48
+  file: ir/cukiirlescottonfaith2048at48.wav
+- values:
+    voicing: cukijfirlescottonfaith2048at48
+  file: ir/cukijfirlescottonfaith2048at48.wav
+- values:
+    voicing: jf45irlescotton_faith_venus
+  file: ir/jf45irlescotton_faith_venus.wav
+- values:
+    voicing: jf45ir1024lescotton_faith_venus
+  file: ir/jf45ir1024lescotton_faith_venus.wav
+- values:
+    voicing: jf45ir5050lescotton_faith_venus
+  file: ir/jf45ir5050lescotton_faith_venus.wav

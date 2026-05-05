@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Award-Session Blues Baby 22 — low-wattage British-voiced
+      combo.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Award-Session Blues Baby 22 — combo de baixa potência
+      com voz britânica.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

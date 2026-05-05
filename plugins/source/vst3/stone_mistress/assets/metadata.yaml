@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Stone Mistress — flanger/chorus inspired by the classic EHX Stone
+      Mistress pedal.
+    license: GPL-3.0
+    homepage: https://github.com/jpcima/stone-mistress
+  pt-BR:
+    description: Stone Mistress — flanger/chorus inspirado no clássico pedal EHX Stone
+      Mistress.
+    license: GPL-3.0
+    homepage: https://github.com/jpcima/stone-mistress

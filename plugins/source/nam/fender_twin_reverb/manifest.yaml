@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_fender_twin_reverb
+display_name: Twin Reverb
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/246
+type: amp
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - normal
+  - vibrato
+captures:
+- values:
+    channel: normal
+  file: captures/tim_r_fender_twinverb_norm_bright.nam
+- values:
+    channel: vibrato
+  file: captures/tim_r_fender_twinverb_vibrato_bright.nam

@@ -1,0 +1,11 @@
+manifest_version: 1
+id: nam_marshall_jmp_1_head
+display_name: JMP-1 Head
+brand: marshall
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/jmp_1_od2_v30_head.nam

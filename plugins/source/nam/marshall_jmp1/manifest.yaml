@@ -1,0 +1,46 @@
+manifest_version: 1
+id: nam_marshall_jmp1
+display_name: JMP-1
+brand: marshall
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/45918
+type: preamp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - crunch_breakup
+  - rhythm_1
+  - rhythm_2
+  - rhythm_3
+  - rhythm_deftoned
+  - rhythm_od808
+  - lead_creamy
+captures:
+- values:
+    preset: clean
+  file: captures/jmp_clean.nam
+- values:
+    preset: crunch_breakup
+  file: captures/jmp_crunch_breakup.nam
+- values:
+    preset: rhythm_1
+  file: captures/jmp_rhythm_1.nam
+- values:
+    preset: rhythm_2
+  file: captures/jmp_rhythm_2.nam
+- values:
+    preset: rhythm_3
+  file: captures/jmp_rhythm_3.nam
+- values:
+    preset: rhythm_deftoned
+  file: captures/jmp_rhythm_deftoned.nam
+- values:
+    preset: rhythm_od808
+  file: captures/jmp_rhythm_overdrive808.nam
+- values:
+    preset: lead_creamy
+  file: captures/jmp_lead_creamy.nam

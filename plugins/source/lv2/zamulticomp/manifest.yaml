@@ -1,0 +1,14 @@
+manifest_version: 1
+id: lv2_zamulticomp
+display_name: ZaMultiComp
+description: ZaMultiComp — 3-band multiband compressor.
+brand: zam
+thumbnail: assets/thumbnail.png
+screenshot: assets/screenshot.png
+license: GPL-2.0
+homepage: https://github.com/zamaudio/zam-plugins
+type: dyn
+backend: lv2
+plugin_uri: urn:zamaudio:ZaMultiComp
+binaries:
+  macos-universal: platform/macos-universal/ZaMultiComp_dsp.dylib

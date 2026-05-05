@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_dy_martin_om_dazzo
+display_name: OM Dazzo
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - dy_martinom_dazzo_44100
+  - dy_martinom_dazzo_44100_matcheq1
+  - dy_martinom_dazzo_44100_matcheq2
+  - dy_martinom_dazzo_44100_matcheq3
+captures:
+- values:
+    voicing: dy_martinom_dazzo_44100
+  file: ir/dy_martinom_dazzo_44100.wav
+- values:
+    voicing: dy_martinom_dazzo_44100_matcheq1
+  file: ir/dy_martinom_dazzo_44100_matcheq1.wav
+- values:
+    voicing: dy_martinom_dazzo_44100_matcheq2
+  file: ir/dy_martinom_dazzo_44100_matcheq2.wav
+- values:
+    voicing: dy_martinom_dazzo_44100_matcheq3
+  file: ir/dy_martinom_dazzo_44100_matcheq3.wav

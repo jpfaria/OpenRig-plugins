@@ -1,0 +1,46 @@
+manifest_version: 1
+id: nam_fender_hot_rod_deluxe
+display_name: Hot Rod Deluxe
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/6023
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bright_clean
+  - bright_sweet_spot
+  - vintage_sweet_spot
+  - vintage_overdrive
+  - modern_overdrive
+  - warm_lead
+  - southern_snap
+  - womanly
+captures:
+- values:
+    preset: bright_clean
+  file: captures/15_hot_rod_deluxe_bright_clean.nam
+- values:
+    preset: bright_sweet_spot
+  file: captures/15_hot_rod_deluxe_bright_sweet_spot.nam
+- values:
+    preset: vintage_sweet_spot
+  file: captures/15_hot_rod_deluxe_vintage_sweet_spot.nam
+- values:
+    preset: vintage_overdrive
+  file: captures/15_hot_rod_deluxe_vintage_overdrive.nam
+- values:
+    preset: modern_overdrive
+  file: captures/15_hot_rod_deluxe_modern_overdrive.nam
+- values:
+    preset: warm_lead
+  file: captures/15_hot_rod_deluxe_warm_lead.nam
+- values:
+    preset: southern_snap
+  file: captures/15_hot_rod_deluxe_southern_snap.nam
+- values:
+    preset: womanly
+  file: captures/15_hot_rod_deluxe_womanly.nam

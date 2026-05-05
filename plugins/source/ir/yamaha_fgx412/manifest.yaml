@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_yamaha_fgx412
+display_name: FGX412
+brand: yamaha
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - yamaha_fgx412_48000
+  - yamaha_fgx412_48000_bld
+  - yamaha_fgx412_48000_match
+  - yamaha_fgx412_48000_jf_flavor
+captures:
+- values:
+    voicing: yamaha_fgx412_48000
+  file: ir/yamaha_fgx412_48000.wav
+- values:
+    voicing: yamaha_fgx412_48000_bld
+  file: ir/yamaha_fgx412_48000_bld.wav
+- values:
+    voicing: yamaha_fgx412_48000_match
+  file: ir/yamaha_fgx412_48000_match.wav
+- values:
+    voicing: yamaha_fgx412_48000_jf_flavor
+  file: ir/yamaha_fgx412_48000_jf_flavor.wav

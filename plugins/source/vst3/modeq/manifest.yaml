@@ -1,0 +1,11 @@
+manifest_version: 1
+id: vst3_modeq
+display_name: modEQ
+description: modEQ — modern parametric equalizer with clean transparent sound.
+brand: modeq
+license: GPL-3.0
+homepage: https://github.com/jatinchowdhury18/modEQ
+type: filter
+backend: vst3
+bundle: bundles/modEQ.vst3
+parameters: []

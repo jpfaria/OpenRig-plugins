@@ -1,0 +1,23 @@
+manifest_version: 1
+id: ir_classical
+display_name: Classical Guitar
+brand: ''
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - classical_ambu2f_akg_cs1000
+  - classical_ambu2f_dpa_4011
+  - classical_ambu2f_neumann_m147
+captures:
+- values:
+    voicing: classical_ambu2f_akg_cs1000
+  file: ir/classical_ambu2f_akg_cs1000.wav
+- values:
+    voicing: classical_ambu2f_dpa_4011
+  file: ir/classical_ambu2f_dpa_4011.wav
+- values:
+    voicing: classical_ambu2f_neumann_m147
+  file: ir/classical_ambu2f_neumann_m147.wav

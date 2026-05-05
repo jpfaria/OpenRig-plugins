@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_cort_mr710f
+display_name: MR710F
+brand: cort
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - cort_mr710f_48000
+  - cort_mr710f_48000_bld
+  - cort_mr710f_48000_jf_flavor
+  - cort_mr710f_48000_match
+captures:
+- values:
+    voicing: cort_mr710f_48000
+  file: ir/cort_mr710f_48000.wav
+- values:
+    voicing: cort_mr710f_48000_bld
+  file: ir/cort_mr710f_48000_bld.wav
+- values:
+    voicing: cort_mr710f_48000_jf_flavor
+  file: ir/cort_mr710f_48000_jf_flavor.wav
+- values:
+    voicing: cort_mr710f_48000_match
+  file: ir/cort_mr710f_48000_match.wav

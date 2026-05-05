@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_martin_d_18_1948_dazzo
+display_name: D-18 1948 Dazzo
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_martin_d18_1948_dazzo_44100
+  - ir_martin_d18_1948_dazzo_44100_match2
+  - ir_martin_d18_1948_dazzo_44100_meq3
+captures:
+- values:
+    voicing: ir_martin_d18_1948_dazzo_44100
+  file: ir/ir_martin_d18_1948_dazzo_44100.wav
+- values:
+    voicing: ir_martin_d18_1948_dazzo_44100_match2
+  file: ir/ir_martin_d18_1948_dazzo_44100_match2.wav
+- values:
+    voicing: ir_martin_d18_1948_dazzo_44100_meq3
+  file: ir/ir_martin_d18_1948_dazzo_44100_meq3.wav

@@ -1,0 +1,44 @@
+manifest_version: 1
+id: ir_taylor_714ce_2
+display_name: 714ce V2
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_48k
+  - ir_48k_m
+  - ir_48k_m_ffqn
+  - ir_44k_m_ffqn
+  - ktb714cenux
+  - kb_714_9inch_48k_mffqn
+  - kb_714_9inch_48k_m
+  - kb_714_18inch_48k_m
+captures:
+- values:
+    voicing: ir_48k
+  file: ir/ir_48k.wav
+- values:
+    voicing: ir_48k_m
+  file: ir/ir_48k_m.wav
+- values:
+    voicing: ir_48k_m_ffqn
+  file: ir/ir_48k_m_ffqn.wav
+- values:
+    voicing: ir_44k_m_ffqn
+  file: ir/ir_44k_m_ffqn.wav
+- values:
+    voicing: ktb714cenux
+  file: ir/ktb714cenux.wav
+- values:
+    voicing: kb_714_9inch_48k_mffqn
+  file: ir/kb_714_9inch_48k_mffqn.wav
+- values:
+    voicing: kb_714_9inch_48k_m
+  file: ir/kb_714_9inch_48k_m.wav
+- values:
+    voicing: kb_714_18inch_48k_m
+  file: ir/kb_714_18inch_48k_m.wav

@@ -1,0 +1,35 @@
+manifest_version: 1
+id: ir_lowden_o25_highlander
+display_name: O25 Highlander
+brand: lowden
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_lowdeno25_highlander_48000
+  - ir_lowdeno25_highlander_48000_match1
+  - ir_lowdeno25_highlander_48000_match2
+  - jf45irlowden_o25_highlander
+  - jf45ir1024lowden_o25_highlander
+  - jf45ir5050lowden_o25_highlander
+captures:
+- values:
+    voicing: ir_lowdeno25_highlander_48000
+  file: ir/ir_lowdeno25_highlander_48000.wav
+- values:
+    voicing: ir_lowdeno25_highlander_48000_match1
+  file: ir/ir_lowdeno25_highlander_48000_match1.wav
+- values:
+    voicing: ir_lowdeno25_highlander_48000_match2
+  file: ir/ir_lowdeno25_highlander_48000_match2.wav
+- values:
+    voicing: jf45irlowden_o25_highlander
+  file: ir/jf45irlowden_o25_highlander.wav
+- values:
+    voicing: jf45ir1024lowden_o25_highlander
+  file: ir/jf45ir1024lowden_o25_highlander.wav
+- values:
+    voicing: jf45ir5050lowden_o25_highlander
+  file: ir/jf45ir5050lowden_o25_highlander.wav

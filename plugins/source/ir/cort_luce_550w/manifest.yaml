@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_cort_luce_550w
+display_name: Luce 550W
+brand: cort
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - cort_luce_550w_48000
+  - cort_luce_550w_48000_bld
+  - cort_luce_550w_48000_jf_flavor
+  - cort_luce_550w_48000_match
+captures:
+- values:
+    voicing: cort_luce_550w_48000
+  file: ir/cort_luce_550w_48000.wav
+- values:
+    voicing: cort_luce_550w_48000_bld
+  file: ir/cort_luce_550w_48000_bld.wav
+- values:
+    voicing: cort_luce_550w_48000_jf_flavor
+  file: ir/cort_luce_550w_48000_jf_flavor.wav
+- values:
+    voicing: cort_luce_550w_48000_match
+  file: ir/cort_luce_550w_48000_match.wav

@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_jhs_bonsai
+display_name: Bonsai (9 TS)
+brand: jhs
+brand_logo: assets/brand_logo.png
+type: gain_pedal
+backend: nam
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - '808'
+  - ts9
+  - od1
+  - jhs
+  - keeley
+captures:
+- values:
+    mode: '808'
+  file: captures/bonsai_808_neutral.nam
+- values:
+    mode: ts9
+  file: captures/bonsai_ts9_neutral.nam
+- values:
+    mode: od1
+  file: captures/bonsai_od1_neutral.nam
+- values:
+    mode: jhs
+  file: captures/bonsai_jhs_neutral.nam
+- values:
+    mode: keeley
+  file: captures/bonsai_keeley_neutral.nam

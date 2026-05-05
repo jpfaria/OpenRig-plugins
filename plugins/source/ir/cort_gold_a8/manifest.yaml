@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_cort_gold_a8
+display_name: Gold A8
+brand: cort
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - cort_gold_a8_48000
+  - cort_gold_a8_48000_bld
+  - cort_gold_a8_48000_jf_flavor
+  - cort_gold_a8_48000_match
+captures:
+- values:
+    voicing: cort_gold_a8_48000
+  file: ir/cort_gold_a8_48000.wav
+- values:
+    voicing: cort_gold_a8_48000_bld
+  file: ir/cort_gold_a8_48000_bld.wav
+- values:
+    voicing: cort_gold_a8_48000_jf_flavor
+  file: ir/cort_gold_a8_48000_jf_flavor.wav
+- values:
+    voicing: cort_gold_a8_48000_match
+  file: ir/cort_gold_a8_48000_match.wav

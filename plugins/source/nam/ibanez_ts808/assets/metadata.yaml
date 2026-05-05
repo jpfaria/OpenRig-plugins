@@ -1,0 +1,5 @@
+i18n:
+  en-US:
+    description: Neural capture of the Ibanez TS808 Tube Screamer.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

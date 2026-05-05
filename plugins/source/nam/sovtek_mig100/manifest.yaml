@@ -1,0 +1,26 @@
+manifest_version: 1
+id: nam_sovtek_mig100
+display_name: MIG-100 KT88
+description: Neural capture of the Sovtek MIG-100 KT88 — Russian-built full-power head with raw, punchy tone.
+brand: sovtek
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - v1
+  - v2
+  - v3
+captures:
+- values:
+    voicing: v1
+  file: captures/v1.nam
+- values:
+    voicing: v2
+  file: captures/v2.nam
+- values:
+    voicing: v3
+  file: captures/v3.nam

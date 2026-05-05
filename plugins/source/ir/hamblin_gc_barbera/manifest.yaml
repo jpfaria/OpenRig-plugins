@@ -1,0 +1,35 @@
+manifest_version: 1
+id: ir_hamblin_gc_barbera
+display_name: GC Barbera
+brand: hamblin
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - dy
+  - cukiir2048at48
+  - cukijfir2048at48
+  - jf45irdy
+  - jf45ir1024dy
+  - jf45ir5050dy
+captures:
+- values:
+    voicing: dy
+  file: ir/dy.wav
+- values:
+    voicing: cukiir2048at48
+  file: ir/cukiir2048at48.wav
+- values:
+    voicing: cukijfir2048at48
+  file: ir/cukijfir2048at48.wav
+- values:
+    voicing: jf45irdy
+  file: ir/jf45irdy.wav
+- values:
+    voicing: jf45ir1024dy
+  file: ir/jf45ir1024dy.wav
+- values:
+    voicing: jf45ir5050dy
+  file: ir/jf45ir5050dy.wav

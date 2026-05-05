@@ -1,0 +1,51 @@
+manifest_version: 1
+id: ir_mcilroy_a30_mi_si
+display_name: A30 Mi Si
+brand: mcilroy
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - mcilroy_96k_8096
+  - mcilroy_96k_8096_bld
+  - mcilroy_96k_8096_match
+  - mcilroy_96k_8096_jf_flavor
+  - mcilroy_96k_2048
+  - mcilroy_96k_2048_bld
+  - mcilroy_96k_2048_match1
+  - mcilroy_96k_2048_jf_flavor
+  - ir_mcilroy_a30_new_a_96k_8096
+  - ir_mcilroy_a30_new_a_96k_8096_match2
+captures:
+- values:
+    voicing: mcilroy_96k_8096
+  file: ir/mcilroy_96k_8096.wav
+- values:
+    voicing: mcilroy_96k_8096_bld
+  file: ir/mcilroy_96k_8096_bld.wav
+- values:
+    voicing: mcilroy_96k_8096_match
+  file: ir/mcilroy_96k_8096_match.wav
+- values:
+    voicing: mcilroy_96k_8096_jf_flavor
+  file: ir/mcilroy_96k_8096_jf_flavor.wav
+- values:
+    voicing: mcilroy_96k_2048
+  file: ir/mcilroy_96k_2048.wav
+- values:
+    voicing: mcilroy_96k_2048_bld
+  file: ir/mcilroy_96k_2048_bld.wav
+- values:
+    voicing: mcilroy_96k_2048_match1
+  file: ir/mcilroy_96k_2048_match1.wav
+- values:
+    voicing: mcilroy_96k_2048_jf_flavor
+  file: ir/mcilroy_96k_2048_jf_flavor.wav
+- values:
+    voicing: ir_mcilroy_a30_new_a_96k_8096
+  file: ir/ir_mcilroy_a30_new_a_96k_8096.wav
+- values:
+    voicing: ir_mcilroy_a30_new_a_96k_8096_match2
+  file: ir/ir_mcilroy_a30_new_a_96k_8096_match2.wav

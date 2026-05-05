@@ -1,0 +1,43 @@
+manifest_version: 1
+id: ir_bc_rich_sonitone_2
+display_name: Sonitone 2
+brand: bc-rich
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - bc_rich_plywood_sonitone_44100
+  - bc_rich_plywood_sonitone_44100_match1
+  - bc_rich_plywood_sonitone_44100_match2
+  - cukiirpwfs2048at48
+  - cukijfirpwfs2048at48
+  - jf45irpwfs
+  - jf45ir1024pwfs
+  - jf45ir5050pwfs
+captures:
+- values:
+    voicing: bc_rich_plywood_sonitone_44100
+  file: ir/bc_rich_plywood_sonitone_44100.wav
+- values:
+    voicing: bc_rich_plywood_sonitone_44100_match1
+  file: ir/bc_rich_plywood_sonitone_44100_match1.wav
+- values:
+    voicing: bc_rich_plywood_sonitone_44100_match2
+  file: ir/bc_rich_plywood_sonitone_44100_match2.wav
+- values:
+    voicing: cukiirpwfs2048at48
+  file: ir/cukiirpwfs2048at48.wav
+- values:
+    voicing: cukijfirpwfs2048at48
+  file: ir/cukijfirpwfs2048at48.wav
+- values:
+    voicing: jf45irpwfs
+  file: ir/jf45irpwfs.wav
+- values:
+    voicing: jf45ir1024pwfs
+  file: ir/jf45ir1024pwfs.wav
+- values:
+    voicing: jf45ir5050pwfs
+  file: ir/jf45ir5050pwfs.wav

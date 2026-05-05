@@ -1,0 +1,38 @@
+manifest_version: 1
+id: ir_fender_super_reverb_4x10
+display_name: Super Reverb 4x10
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/61705
+type: cab
+backend: ir
+parameters:
+- name: distance
+  display_name: Mic Distance
+  values:
+  - 1_75
+  - 2_00
+  - 2_25
+  - 2_50
+  - 2_75
+  - 3_50
+captures:
+- values:
+    distance: 1_75
+  file: ir/p10r_ur_4x10_bu87ic_1_75in_1_0in_3.wav
+- values:
+    distance: 2_00
+  file: ir/p10r_ur_4x10_bu87ic_2_00in_1_0in_3.wav
+- values:
+    distance: 2_25
+  file: ir/p10r_ur_4x10_bu87ic_2_25in_1_0in_3.wav
+- values:
+    distance: 2_50
+  file: ir/p10r_ur_4x10_bu87ic_2_50in_1_0in_3.wav
+- values:
+    distance: 2_75
+  file: ir/p10r_ur_4x10_bu87ic_2_75in_1_0in_3.wav
+- values:
+    distance: 3_50
+  file: ir/p10r_ur_4x10_bu87ic_3_50in_1_0in_3.wav

@@ -1,0 +1,5 @@
+i18n:
+  en-US:
+    description: Neural capture of the Mesa Rectifier — aggressive modern high-gain.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

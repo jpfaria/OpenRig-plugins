@@ -1,0 +1,11 @@
+manifest_version: 1
+id: nam_rod10_sd1
+display_name: ROD-10 SD1
+brand: boss
+brand_logo: assets/brand_logo.svg
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/rod10_sd1.nam

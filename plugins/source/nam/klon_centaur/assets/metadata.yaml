@@ -1,0 +1,9 @@
+i18n:
+  en-US:
+    description: Neural capture of the legendary Klon Centaur Silver overdrive.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do lendário pedal Klon Centaur Silver.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

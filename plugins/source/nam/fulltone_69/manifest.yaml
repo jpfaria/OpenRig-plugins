@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_fulltone_69
+display_name: Fulltone 69
+brand: fulltone
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - hendrix_67_vol_2_contour_12_bias_and_fuzz_full
+  - high_contour_vol_2_contour_bias_and_fuzz_full
+  - high_vol_low_contour_contour_off_vol_bias_and_f
+  - high_vol_mid_contour_contour_12_vol_bias_and_fu
+  - high_vol_mid_contour_contour_12_vol_bias_and_fu_1
+  - maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_t
+  - stock_fuzzface_vol_2_contour_off_bias_and_fuzz
+captures:
+- values:
+    tone: hendrix_67_vol_2_contour_12_bias_and_fuzz_full
+  file: captures/69_hendrix_67_vol_2_contour_12_bias_and_fuzz_full.nam
+- values:
+    tone: high_contour_vol_2_contour_bias_and_fuzz_full
+  file: captures/69_high_contour_vol_2_contour_bias_and_fuzz_full.nam
+- values:
+    tone: high_vol_low_contour_contour_off_vol_bias_and_f
+  file: captures/69_high_vol_low_contour_contour_off_vol_bias_and_f.nam
+- values:
+    tone: high_vol_mid_contour_contour_12_vol_bias_and_fu
+  file: captures/69_high_vol_mid_contour_contour_12_vol_bias_and_fu.nam
+- values:
+    tone: high_vol_mid_contour_contour_12_vol_bias_and_fu_1
+  file: captures/69_high_vol_mid_contour_contour_12_vol_bias_and_fu_1.nam
+- values:
+    tone: maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_t
+  file: captures/69_maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_t.nam
+- values:
+    tone: stock_fuzzface_vol_2_contour_off_bias_and_fuzz
+  file: captures/69_stock_fuzzface_vol_2_contour_off_bias_and_fuzz_.nam

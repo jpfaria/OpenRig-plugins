@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_proco_rat2
+display_name: RAT 2
+brand: proco
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - light
+  - medium
+  - heavy
+  - max
+captures:
+- values:
+    tone: light
+  file: captures/rat2_d9_f12.nam
+- values:
+    tone: medium
+  file: captures/rat2_d11_f13.nam
+- values:
+    tone: heavy
+  file: captures/rat2_d13_f12.nam
+- values:
+    tone: max
+  file: captures/rat2_max_f12.nam

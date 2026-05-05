@@ -1,0 +1,18 @@
+manifest_version: 1
+id: nam_engl_e530
+display_name: E530
+brand: engl
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/43
+type: preamp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - default
+captures:
+- values:
+    preset: default
+  file: captures/engl_e530.nam

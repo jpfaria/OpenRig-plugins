@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_ar_martin_hd_28v_anthem_element
+display_name: HD-28V Anthem Element
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - martin_hd28v_anthem_element_44100
+  - martin_hd28v_anthem_element_44100_match1
+  - martin_hd28v_anthem_element_44100_match2
+captures:
+- values:
+    voicing: martin_hd28v_anthem_element_44100
+  file: ir/martin_hd28v_anthem_element_44100.wav
+- values:
+    voicing: martin_hd28v_anthem_element_44100_match1
+  file: ir/martin_hd28v_anthem_element_44100_match1.wav
+- values:
+    voicing: martin_hd28v_anthem_element_44100_match2
+  file: ir/martin_hd28v_anthem_element_44100_match2.wav

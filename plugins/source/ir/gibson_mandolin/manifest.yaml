@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_gibson_mandolin
+display_name: Mandolin
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - mandolin_gibson_wayne_benson_dpa_4011
+  - mandolin_gibson_wayne_benson_neumann_m147
+  - mandolin_gibson_wayne_benson_soundelux_e47
+captures:
+- values:
+    voicing: mandolin_gibson_wayne_benson_dpa_4011
+  file: ir/mandolin_gibson_wayne_benson_dpa_4011.wav
+- values:
+    voicing: mandolin_gibson_wayne_benson_neumann_m147
+  file: ir/mandolin_gibson_wayne_benson_neumann_m147.wav
+- values:
+    voicing: mandolin_gibson_wayne_benson_soundelux_e47
+  file: ir/mandolin_gibson_wayne_benson_soundelux_e47.wav

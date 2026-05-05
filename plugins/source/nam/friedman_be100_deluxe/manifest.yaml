@@ -1,0 +1,83 @@
+manifest_version: 1
+id: nam_friedman_be100_deluxe
+display_name: BE100 Deluxe
+brand: friedman
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - cln_tender
+  - cln_rock
+  - be
+  - hbe_tallica
+  - hbe_mammoth
+- name: mic
+  display_name: Mic
+  values:
+  - sm57
+  - sm58
+  - blend
+captures:
+- values:
+    channel: cln_tender
+    mic: sm57
+  file: captures/be100_cln_tender_sm57.nam
+- values:
+    channel: cln_tender
+    mic: sm58
+  file: captures/be100_cln_tender_sm58.nam
+- values:
+    channel: cln_tender
+    mic: blend
+  file: captures/be100_cln_tender_blend.nam
+- values:
+    channel: cln_rock
+    mic: sm57
+  file: captures/be100_cln_rock_sm57.nam
+- values:
+    channel: cln_rock
+    mic: sm58
+  file: captures/be100_cln_rock_sm58.nam
+- values:
+    channel: cln_rock
+    mic: blend
+  file: captures/be100_cln_rock_blend.nam
+- values:
+    channel: be
+    mic: sm57
+  file: captures/be100_be_eddie_sm57.nam
+- values:
+    channel: be
+    mic: sm58
+  file: captures/be100_be_eddie_sm58.nam
+- values:
+    channel: be
+    mic: blend
+  file: captures/be100_be_eddie_blend.nam
+- values:
+    channel: hbe_tallica
+    mic: sm57
+  file: captures/be100_hbe_tallica_sm57.nam
+- values:
+    channel: hbe_tallica
+    mic: sm58
+  file: captures/be100_hbe_tallica_sm58.nam
+- values:
+    channel: hbe_tallica
+    mic: blend
+  file: captures/be100_hbe_tallica_blend.nam
+- values:
+    channel: hbe_mammoth
+    mic: sm57
+  file: captures/be100_hbe_mammoth_sm57.nam
+- values:
+    channel: hbe_mammoth
+    mic: sm58
+  file: captures/be100_hbe_mammoth_sm58.nam
+- values:
+    channel: hbe_mammoth
+    mic: blend
+  file: captures/be100_hbe_mammoth_blend.nam

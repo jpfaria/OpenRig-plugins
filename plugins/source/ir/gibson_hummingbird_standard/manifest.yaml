@@ -1,0 +1,44 @@
+manifest_version: 1
+id: ir_gibson_hummingbird_standard
+display_name: Hummingbird Standard
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - gibson_hummingbird_1_48000
+  - gibson_hummingbird_1_48000_bld
+  - gibson_hummingbird_1_48000_match
+  - gibson_hummingbird_1_48000_jf_flavor
+  - gibson_hummingbird_2_48000
+  - gibson_hummingbird_2_48000_bld
+  - gibson_hummingbird_2_48000_match
+  - gibson_hummingbird_2_48000_jf_flavor
+captures:
+- values:
+    voicing: gibson_hummingbird_1_48000
+  file: ir/gibson_hummingbird_1_48000.wav
+- values:
+    voicing: gibson_hummingbird_1_48000_bld
+  file: ir/gibson_hummingbird_1_48000_bld.wav
+- values:
+    voicing: gibson_hummingbird_1_48000_match
+  file: ir/gibson_hummingbird_1_48000_match.wav
+- values:
+    voicing: gibson_hummingbird_1_48000_jf_flavor
+  file: ir/gibson_hummingbird_1_48000_jf_flavor.wav
+- values:
+    voicing: gibson_hummingbird_2_48000
+  file: ir/gibson_hummingbird_2_48000.wav
+- values:
+    voicing: gibson_hummingbird_2_48000_bld
+  file: ir/gibson_hummingbird_2_48000_bld.wav
+- values:
+    voicing: gibson_hummingbird_2_48000_match
+  file: ir/gibson_hummingbird_2_48000_match.wav
+- values:
+    voicing: gibson_hummingbird_2_48000_jf_flavor
+  file: ir/gibson_hummingbird_2_48000_jf_flavor.wav

@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_hiwatt_super_hi_50
+display_name: Super-Hi 50
+brand: hiwatt
+sources:
+- https://www.tone3000.com/tones/53037
+type: amp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - noon
+  - bright_od
+- name: mic
+  display_name: Mic
+  values:
+  - sm57
+  - di
+  - blend1
+  - blend2
+  - blend3
+captures:
+- values:
+    mic: di
+    voicing: noon
+  file: captures/amp_hwat_superhi50_noon_04_di.nam
+- values:
+    mic: blend1
+    voicing: noon
+  file: captures/amp_hwat_superhi50_noon_04_blend_1.nam
+- values:
+    mic: blend3
+    voicing: noon
+  file: captures/amp_hwat_superhi50_noon_04_blend_3.nam
+- values:
+    mic: sm57
+    voicing: bright_od
+  file: captures/amp_hwat_superhi50_bright_overdrive_sm57.nam
+- values:
+    mic: di
+    voicing: bright_od
+  file: captures/amp_hwat_superhi50_bright_overdrive_di.nam
+- values:
+    mic: blend1
+    voicing: bright_od
+  file: captures/amp_hwat_superhi50_bright_overdrive_blend_1.nam
+- values:
+    mic: blend2
+    voicing: bright_od
+  file: captures/amp_hwat_superhi50_bright_overdrive_blend_2.nam
+- values:
+    mic: blend3
+    voicing: bright_od
+  file: captures/amp_hwat_superhi50_bright_overdrive_blend_3.nam

@@ -1,0 +1,10 @@
+manifest_version: 1
+id: nam_cc_boost
+display_name: CC Boost
+brand: custom
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/cc_boost.nam

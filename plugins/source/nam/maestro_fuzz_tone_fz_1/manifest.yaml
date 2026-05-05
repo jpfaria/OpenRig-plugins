@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_maestro_fuzz_tone_fz_1
+display_name: Maestro Fuzz-Tone FZ-1
+brand: maestro
+type: gain_pedal
+backend: nam
+parameters:
+- name: era
+  display_name: Era
+  values:
+  - vintage
+  - modern
+- name: gain
+  display_name: Gain
+  values:
+  - low
+  - mid
+  - high
+captures:
+- values:
+    era: vintage
+    gain: low
+  file: captures/maestro_fz_m_vintage_low_gain.nam
+- values:
+    era: vintage
+    gain: mid
+  file: captures/maestro_fz_m_vintage_mid_gain.nam
+- values:
+    era: vintage
+    gain: high
+  file: captures/maestro_fz_m_vintage_high_gain.nam
+- values:
+    era: modern
+    gain: mid
+  file: captures/maestro_fz_m_modern_mid_gain.nam
+- values:
+    era: modern
+    gain: high
+  file: captures/maestro_fz_m_modern_high_gain.nam

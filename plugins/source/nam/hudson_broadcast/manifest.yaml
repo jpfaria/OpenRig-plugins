@@ -1,0 +1,71 @@
+manifest_version: 1
+id: nam_hudson_broadcast
+display_name: Hudson Broadcast
+brand: hudson
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - level1200_g
+  - level1200_g_1
+  - level1200_g_2
+  - level1200_g_3
+  - level1200_g_4
+  - level130_ga
+  - level130_ga_1
+  - level130_ga_2
+  - level130_ga_3
+  - level130_ga_4
+  - level130_ga_5
+  - level130_ga_6
+  - level130_ga_7
+  - level130_ga_8
+  - level130_ga_9
+captures:
+- values:
+    tone: level1200_g
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g.nam
+- values:
+    tone: level1200_g_1
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_1.nam
+- values:
+    tone: level1200_g_2
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_2.nam
+- values:
+    tone: level1200_g_3
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_3.nam
+- values:
+    tone: level1200_g_4
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_4.nam
+- values:
+    tone: level130_ga
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga.nam
+- values:
+    tone: level130_ga_1
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_1.nam
+- values:
+    tone: level130_ga_2
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_2.nam
+- values:
+    tone: level130_ga_3
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_3.nam
+- values:
+    tone: level130_ga_4
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_4.nam
+- values:
+    tone: level130_ga_5
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_5.nam
+- values:
+    tone: level130_ga_6
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_6.nam
+- values:
+    tone: level130_ga_7
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_7.nam
+- values:
+    tone: level130_ga_8
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_8.nam
+- values:
+    tone: level130_ga_9
+  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_9.nam

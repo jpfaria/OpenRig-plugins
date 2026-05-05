@@ -1,0 +1,48 @@
+manifest_version: 1
+id: ir_collings_d2h
+display_name: D2H
+brand: collings
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - collings_d2h_dpa_4011
+  - collings_d2h_neumann_m147
+  - collings_d2h_neumann_km84
+  - collings_d2h_sanken_cu31
+  - collings_om2ha_akg_cs1000
+  - collings_om2ha_dpa_4011
+  - collings_om2ha_schoeps_cmc64g
+  - collings_om2ha_schoeps_cmc64g_xy
+  - collings_om2ha_soundelux_e47
+captures:
+- values:
+    voicing: collings_d2h_dpa_4011
+  file: ir/collings_d2h_dpa_4011.wav
+- values:
+    voicing: collings_d2h_neumann_m147
+  file: ir/collings_d2h_neumann_m147.wav
+- values:
+    voicing: collings_d2h_neumann_km84
+  file: ir/collings_d2h_neumann_km84.wav
+- values:
+    voicing: collings_d2h_sanken_cu31
+  file: ir/collings_d2h_sanken_cu31.wav
+- values:
+    voicing: collings_om2ha_akg_cs1000
+  file: ir/collings_om2ha_akg_cs1000.wav
+- values:
+    voicing: collings_om2ha_dpa_4011
+  file: ir/collings_om2ha_dpa_4011.wav
+- values:
+    voicing: collings_om2ha_schoeps_cmc64g
+  file: ir/collings_om2ha_schoeps_cmc64g.wav
+- values:
+    voicing: collings_om2ha_schoeps_cmc64g_xy
+  file: ir/collings_om2ha_schoeps_cmc64g_xy.wav
+- values:
+    voicing: collings_om2ha_soundelux_e47
+  file: ir/collings_om2ha_soundelux_e47.wav

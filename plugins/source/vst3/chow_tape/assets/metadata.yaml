@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: CHOW Tape Model — physical model of a reel-to-reel tape machine with
+      realistic wow, flutter and saturation.
+    license: GPL-3.0
+    homepage: https://github.com/jatinchowdhury18/AnalogTapeModel
+  pt-BR:
+    description: CHOW Tape Model — modelo físico de gravador de fita com wow, flutter
+      e saturação realistas.
+    license: GPL-3.0
+    homepage: https://github.com/jatinchowdhury18/AnalogTapeModel

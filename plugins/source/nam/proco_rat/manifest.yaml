@@ -1,0 +1,10 @@
+manifest_version: 1
+id: nam_proco_rat
+display_name: RAT
+brand: proco
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/proco_rat.nam

@@ -1,0 +1,32 @@
+manifest_version: 1
+id: ir_martin_hd28
+display_name: HD-28
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - hd28_neumann_u87
+  - hd28_neumann_u47
+  - hd28_soundelux_e47
+  - hd28_akg_c414b_xls
+  - hd28_schoeps_cmc64g
+captures:
+- values:
+    voicing: hd28_neumann_u87
+  file: ir/hd28_neumann_u87.wav
+- values:
+    voicing: hd28_neumann_u47
+  file: ir/hd28_neumann_u47.wav
+- values:
+    voicing: hd28_soundelux_e47
+  file: ir/hd28_soundelux_e47.wav
+- values:
+    voicing: hd28_akg_c414b_xls
+  file: ir/hd28_akg_c414b_xls.wav
+- values:
+    voicing: hd28_schoeps_cmc64g
+  file: ir/hd28_schoeps_cmc64g.wav

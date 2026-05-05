@@ -1,0 +1,32 @@
+manifest_version: 1
+id: vst3_squeezer
+display_name: Squeezer
+description: Squeezer — flexible compressor/limiter with vintage and modern modes.
+brand: squeezer
+license: GPL-3.0
+homepage: https://github.com/mzuther/Squeezer
+type: dyn
+backend: vst3
+bundle: bundles/Squeezer.vst3
+parameters:
+- name: threshold
+  display_name: Threshold
+  vst3_id: 0
+  min: -60.0
+  max: 0.0
+  default: -18.0
+  step: 0.5
+- name: ratio
+  display_name: Ratio
+  vst3_id: 1
+  min: 1.0
+  max: 32.0
+  default: 4.0
+  step: 0.5
+- name: mix
+  display_name: Mix
+  vst3_id: 8
+  min: 0.0
+  max: 100.0
+  default: 100.0
+  step: 1.0

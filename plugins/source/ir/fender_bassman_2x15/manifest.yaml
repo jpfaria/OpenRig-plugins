@@ -1,0 +1,60 @@
+manifest_version: 1
+id: ir_fender_bassman_2x15
+display_name: Bassman 2x15 CTS
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/60274
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - r121
+  - c414
+- name: speaker
+  display_name: Speaker
+  values:
+  - lower
+  - upper
+  - distant
+- name: position
+  display_name: Position
+  values:
+  - cap
+  - cap_edge
+  - cone
+  - cone_edge
+  - 12_inch
+captures:
+- values:
+    mic: r121
+    position: cap
+    speaker: lower
+  file: ir/1970_bassman_cabinet_cts_121_lower_cap_3.wav
+- values:
+    mic: r121
+    position: cap_edge
+    speaker: lower
+  file: ir/1970_bassman_cabinet_cts_121_lower_cap_edge_3.wav
+- values:
+    mic: r121
+    position: cone
+    speaker: lower
+  file: ir/1970_bassman_cabinet_cts_121_lower_cone_3.wav
+- values:
+    mic: r121
+    position: cone_edge
+    speaker: lower
+  file: ir/1970_bassman_cabinet_cts_121_lower_cone_edge_3.wav
+- values:
+    mic: r121
+    position: cap_edge
+    speaker: upper
+  file: ir/1970_bassman_cabinet_cts_121_upper_cap_edge_3.wav
+- values:
+    mic: c414
+    position: 12_inch
+    speaker: distant
+  file: ir/1970_bassman_cabinet_cts_c414_distant_12in_3.wav

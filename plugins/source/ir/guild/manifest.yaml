@@ -1,0 +1,76 @@
+manifest_version: 1
+id: ir_guild
+display_name: Guild
+brand: guild
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - 001_dtar_parlor
+  - 002_dtar_finger
+  - 003_dtar_blues
+  - 004_dtar_mag
+  - 005_dtar_ros
+  - 006_dtar_btq_finger
+  - 007_dtar_dread
+  - 008_dtar_graud
+  - 009_dtar_slope_jumbo
+  - 010_dtar_mah_dread
+  - 011_dtar_ros_dread
+  - 012_dtar_sup_jumbo
+  - 013_dtar_hollow_arch_jazz
+  - 014_dtar_gypsy_jazz
+  - 015_dtar_blues_res
+  - 016_dtar_tricone_res
+captures:
+- values:
+    voicing: 001_dtar_parlor
+  file: ir/001_dtar_parlor.wav
+- values:
+    voicing: 002_dtar_finger
+  file: ir/002_dtar_finger.wav
+- values:
+    voicing: 003_dtar_blues
+  file: ir/003_dtar_blues.wav
+- values:
+    voicing: 004_dtar_mag
+  file: ir/004_dtar_mag.wav
+- values:
+    voicing: 005_dtar_ros
+  file: ir/005_dtar_ros.wav
+- values:
+    voicing: 006_dtar_btq_finger
+  file: ir/006_dtar_btq_finger.wav
+- values:
+    voicing: 007_dtar_dread
+  file: ir/007_dtar_dread.wav
+- values:
+    voicing: 008_dtar_graud
+  file: ir/008_dtar_graud.wav
+- values:
+    voicing: 009_dtar_slope_jumbo
+  file: ir/009_dtar_slope_jumbo.wav
+- values:
+    voicing: 010_dtar_mah_dread
+  file: ir/010_dtar_mah_dread.wav
+- values:
+    voicing: 011_dtar_ros_dread
+  file: ir/011_dtar_ros_dread.wav
+- values:
+    voicing: 012_dtar_sup_jumbo
+  file: ir/012_dtar_sup_jumbo.wav
+- values:
+    voicing: 013_dtar_hollow_arch_jazz
+  file: ir/013_dtar_hollow_arch_jazz.wav
+- values:
+    voicing: 014_dtar_gypsy_jazz
+  file: ir/014_dtar_gypsy_jazz.wav
+- values:
+    voicing: 015_dtar_blues_res
+  file: ir/015_dtar_blues_res.wav
+- values:
+    voicing: 016_dtar_tricone_res
+  file: ir/016_dtar_tricone_res.wav

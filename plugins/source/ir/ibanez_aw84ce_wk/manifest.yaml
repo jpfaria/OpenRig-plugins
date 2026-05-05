@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_ibanez_aw84ce_wk
+display_name: AW84CE WK
+brand: ibanez
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ibanez_aw84ce_wk_48000
+  - ibanez_aw84ce_wk_48000_bld
+  - ibanez_aw84ce_wk_48000_jf_flavor
+  - ibanez_aw84ce_wk_48000_match
+captures:
+- values:
+    voicing: ibanez_aw84ce_wk_48000
+  file: ir/ibanez_aw84ce_wk_48000.wav
+- values:
+    voicing: ibanez_aw84ce_wk_48000_bld
+  file: ir/ibanez_aw84ce_wk_48000_bld.wav
+- values:
+    voicing: ibanez_aw84ce_wk_48000_jf_flavor
+  file: ir/ibanez_aw84ce_wk_48000_jf_flavor.wav
+- values:
+    voicing: ibanez_aw84ce_wk_48000_match
+  file: ir/ibanez_aw84ce_wk_48000_match.wav

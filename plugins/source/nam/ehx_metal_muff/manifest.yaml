@@ -1,0 +1,51 @@
+manifest_version: 1
+id: nam_ehx_metal_muff
+display_name: EHX Metal Muff
+brand: ehx
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - as_an_overdrive
+  - eq_noon
+  - eq_noon_full_gain
+  - evil
+  - mega_scoop
+  - my_settings
+  - nattens_madrigal
+  - swedish_chainsaw_ish
+  - tob_boost_low_distortion
+  - trve_kult
+captures:
+- values:
+    tone: as_an_overdrive
+  file: captures/metal_muff_as_an_overdrive.nam
+- values:
+    tone: eq_noon
+  file: captures/metal_muff_eq_noon.nam
+- values:
+    tone: eq_noon_full_gain
+  file: captures/metal_muff_eq_noon_full_gain.nam
+- values:
+    tone: evil
+  file: captures/metal_muff_evil.nam
+- values:
+    tone: mega_scoop
+  file: captures/metal_muff_mega_scoop.nam
+- values:
+    tone: my_settings
+  file: captures/metal_muff_my_settings.nam
+- values:
+    tone: nattens_madrigal
+  file: captures/metal_muff_nattens_madrigal.nam
+- values:
+    tone: swedish_chainsaw_ish
+  file: captures/metal_muff_swedish_chainsaw_ish.nam
+- values:
+    tone: tob_boost_low_distortion
+  file: captures/metal_muff_tob_boost_low_distortion.nam
+- values:
+    tone: trve_kult
+  file: captures/metal_muff_trve_kult.nam

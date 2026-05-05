@@ -1,0 +1,73 @@
+manifest_version: 1
+id: ir_marshall_1960tv_greenback
+display_name: 1960TV Greenback
+brand: marshall
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/45022
+type: cab
+backend: ir
+parameters:
+- name: mic_position
+  display_name: Mic Position
+  values:
+  - ll
+  - lr
+  - ul
+  - ur
+- name: distance
+  display_name: Distance
+  values:
+  - '1.00'
+  - '1.25'
+  - '1.50'
+  - '2.00'
+  - '2.25'
+- name: preamp
+  display_name: Mic Preamp
+  values:
+  - oa30_sa73
+  - oa30_7603
+  - neve_7603
+  - vp28
+captures:
+- values:
+    distance: '1.50'
+    mic_position: ll
+    preamp: oa30_sa73
+  file: ir/m25_ll_1960tv_4x12_sm57_1_50in_0_0in_oa30_sa73.wav
+- values:
+    distance: '1.00'
+    mic_position: lr
+    preamp: neve_7603
+  file: ir/m25_lr_1960tv_4x12_sm57_1_00in_0_0in_7603.wav
+- values:
+    distance: '1.50'
+    mic_position: lr
+    preamp: oa30_7603
+  file: ir/m25_lr_1960tv_4x12_sm57_1_50in_0_0in_oa30_7603.wav
+- values:
+    distance: '1.25'
+    mic_position: ul
+    preamp: neve_7603
+  file: ir/m25_ul_1960tv_4x12_sm57_1_25in_0_0in_7603.wav
+- values:
+    distance: '2.00'
+    mic_position: ul
+    preamp: neve_7603
+  file: ir/m25_ul_1960tv_4x12_sm57_2_00in_0_0in_7603.wav
+- values:
+    distance: '2.25'
+    mic_position: ul
+    preamp: vp28
+  file: ir/m25_ul_1960tv_4x12_sm57_2_25in_0_0in_vp28.wav
+- values:
+    distance: '1.00'
+    mic_position: ur
+    preamp: vp28
+  file: ir/m25_ur_1960tv_4x12_sm57_1_00in_0_0in_vp28.wav
+- values:
+    distance: '2.00'
+    mic_position: ur
+    preamp: vp28
+  file: ir/m25_ur_1960tv_4x12_sm57_2_00in_0_0in_vp28.wav

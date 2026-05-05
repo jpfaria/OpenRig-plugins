@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_martin_hd_28_2014_ta_amulet
+display_name: HD-28 2014 TA Amulet
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/cuki_martin_hd_28_ta_amulet_48000.wav
+- values:
+    flavor: blend
+  file: ir/cuki_martin_hd_28_ta_amulet_48000_bld.wav
+- values:
+    flavor: match
+  file: ir/martin_hd_28_9v_48000_matcheq3.wav
+- values:
+    flavor: jf
+  file: ir/cuki_martin_hd_28_ta_amulet_48000_jf_flavor.wav

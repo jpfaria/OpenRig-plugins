@@ -1,0 +1,40 @@
+manifest_version: 1
+id: ir_martin_000_18_k_k
+display_name: 000-18 K&K
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - sc_martin_000_18_knk1_44100
+  - sc_martin_000_18_knk1_44100_bld
+  - sc_martin_000_18_knk1_44100_match
+  - sc_martin_000_18_knk1_44100_jf_flavor
+  - sc_martin_000_18_knk2_44100
+  - sc_martin_000_18_knk2_44100_bld
+  - sc_martin_000_18_knk2_44100_jf_flavor
+captures:
+- values:
+    voicing: sc_martin_000_18_knk1_44100
+  file: ir/sc_martin_000_18_knk1_44100.wav
+- values:
+    voicing: sc_martin_000_18_knk1_44100_bld
+  file: ir/sc_martin_000_18_knk1_44100_bld.wav
+- values:
+    voicing: sc_martin_000_18_knk1_44100_match
+  file: ir/sc_martin_000_18_knk1_44100_match.wav
+- values:
+    voicing: sc_martin_000_18_knk1_44100_jf_flavor
+  file: ir/sc_martin_000_18_knk1_44100_jf_flavor.wav
+- values:
+    voicing: sc_martin_000_18_knk2_44100
+  file: ir/sc_martin_000_18_knk2_44100.wav
+- values:
+    voicing: sc_martin_000_18_knk2_44100_bld
+  file: ir/sc_martin_000_18_knk2_44100_bld.wav
+- values:
+    voicing: sc_martin_000_18_knk2_44100_jf_flavor
+  file: ir/sc_martin_000_18_knk2_44100_jf_flavor.wav

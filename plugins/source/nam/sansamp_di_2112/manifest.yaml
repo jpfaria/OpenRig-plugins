@@ -1,0 +1,47 @@
+manifest_version: 1
+id: nam_sansamp_di_2112
+display_name: SansAmp DI-2112
+brand: tech21
+type: gain_pedal
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - geddy_standard
+  - geddy_roundabout
+  - yyz
+  - jack_bruce
+  - jpj
+  - les_claypool
+  - entwistle
+  - radiohead
+  - deep_sat
+captures:
+- values:
+    preset: geddy_standard
+  file: captures/di2112_geddy_standard.nam
+- values:
+    preset: geddy_roundabout
+  file: captures/di2112_geddy_roundabout.nam
+- values:
+    preset: yyz
+  file: captures/di2112_yyz.nam
+- values:
+    preset: jack_bruce
+  file: captures/di2112_jack_bruce.nam
+- values:
+    preset: jpj
+  file: captures/di2112_jpj.nam
+- values:
+    preset: les_claypool
+  file: captures/di2112_les_claypool.nam
+- values:
+    preset: entwistle
+  file: captures/di2112_entwistle.nam
+- values:
+    preset: radiohead
+  file: captures/di2112_radiohead.nam
+- values:
+    preset: deep_sat
+  file: captures/di2112_deep_sat.nam

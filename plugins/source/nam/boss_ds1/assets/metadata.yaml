@@ -1,0 +1,5 @@
+i18n:
+  en-US:
+    description: Neural capture of the Boss DS-1 Distortion — classic rock distortion.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

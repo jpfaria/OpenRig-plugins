@@ -1,0 +1,15 @@
+manifest_version: 1
+id: nam_omega_ampworks_granophyre
+display_name: Omega Ampworks Granophyre
+brand: omega
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - default
+captures:
+- values:
+    preset: default
+  file: captures/granophyre.nam

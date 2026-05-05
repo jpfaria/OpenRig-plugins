@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_ampeg_svt_classic
+display_name: SVT Classic
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - standard
+  - ultra_hi
+  - ultra_lo
+- name: mic
+  display_name: Mic
+  values:
+  - md421
+  - sm57
+captures:
+- values:
+    mic: md421
+    tone: standard
+  file: captures/ampeg_svt_md421.nam
+- values:
+    mic: sm57
+    tone: standard
+  file: captures/ampeg_svt_sm57.nam
+- values:
+    mic: md421
+    tone: ultra_hi
+  file: captures/ampeg_svt_ultra_hi_md421.nam
+- values:
+    mic: sm57
+    tone: ultra_hi
+  file: captures/ampeg_svt_ultra_hi_sm57.nam
+- values:
+    mic: md421
+    tone: ultra_lo
+  file: captures/ampeg_svt_ultra_lo_md421.nam
+- values:
+    mic: sm57
+    tone: ultra_lo
+  file: captures/ampeg_svt_ultra_lo_sm57.nam

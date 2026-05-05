@@ -1,0 +1,177 @@
+manifest_version: 1
+id: nam_mxr_duke_of_tone
+display_name: MXR Duke of Tone
+brand: mxr
+type: gain_pedal
+backend: nam
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - od
+  - dist
+- name: voicing
+  display_name: Voicing
+  values:
+  - high
+  - cranked
+  - color
+  - low
+  - med
+- name: tone
+  display_name: Tone
+  values:
+  - '230'
+  - '1030'
+  - '1200'
+captures:
+- values:
+    mode: od
+    tone: '230'
+    voicing: high
+  file: captures/dot_od_high_vol_330_tone_230_drive_300.nam
+- values:
+    mode: od
+    tone: '1030'
+    voicing: high
+  file: captures/dot_od_high_vol_330_tone_1030_drive_300.nam
+- values:
+    mode: od
+    tone: '1200'
+    voicing: high
+  file: captures/dot_od_high_vol_330_tone_1200_drive_300.nam
+- values:
+    mode: od
+    tone: '230'
+    voicing: cranked
+  file: captures/dot_od_cranked_vol_330_tone_230_drive_500.nam
+- values:
+    mode: od
+    tone: '1030'
+    voicing: cranked
+  file: captures/dot_od_cranked_vol_330_tone_1030_drive_500.nam
+- values:
+    mode: od
+    tone: '1200'
+    voicing: cranked
+  file: captures/dot_od_cranked_vol_330_tone_1200_drive_500.nam
+- values:
+    mode: od
+    tone: '230'
+    voicing: color
+  file: captures/dot_od_color_vol_330_tone_230_drive_700.nam
+- values:
+    mode: od
+    tone: '1030'
+    voicing: color
+  file: captures/dot_od_color_vol_330_tone_1030_drive_700.nam
+- values:
+    mode: od
+    tone: '1200'
+    voicing: color
+  file: captures/dot_od_color_vol_330_tone_1200_drive_700.nam
+- values:
+    mode: od
+    tone: '230'
+    voicing: low
+  file: captures/dot_od_low_vol_330_tone_230_drive_900.nam
+- values:
+    mode: od
+    tone: '1030'
+    voicing: low
+  file: captures/dot_od_low_vol_330_tone_1030_drive_900.nam
+- values:
+    mode: od
+    tone: '1200'
+    voicing: low
+  file: captures/dot_od_low_vol_330_tone_1200_drive_900.nam
+- values:
+    mode: od
+    tone: '230'
+    voicing: med
+  file: captures/dot_od_med_vol_330_tone_230_drive_1200.nam
+- values:
+    mode: od
+    tone: '1030'
+    voicing: med
+  file: captures/dot_od_med_vol_330_tone_1030_drive_1200.nam
+- values:
+    mode: od
+    tone: '1200'
+    voicing: med
+  file: captures/dot_od_med_vol_330_tone_1200_drive_1200.nam
+- values:
+    mode: dist
+    tone: '230'
+    voicing: high
+  file: captures/dot_dist_high_vol_330_tone_230_drive_300.nam
+- values:
+    mode: dist
+    tone: '1030'
+    voicing: high
+  file: captures/dot_dist_high_vol_330_tone_1030_drive_300.nam
+- values:
+    mode: dist
+    tone: '1200'
+    voicing: high
+  file: captures/dot_dist_high_vol_330_tone_1200_drive_300.nam
+- values:
+    mode: dist
+    tone: '230'
+    voicing: cranked
+  file: captures/dot_dist_cranked_vol_330_tone_230_drive_500.nam
+- values:
+    mode: dist
+    tone: '1030'
+    voicing: cranked
+  file: captures/dot_dist_cranked_vol_330_tone_1030_drive_500.nam
+- values:
+    mode: dist
+    tone: '1200'
+    voicing: cranked
+  file: captures/dot_dist_cranked_vol_330_tone_1200_drive_500.nam
+- values:
+    mode: dist
+    tone: '230'
+    voicing: color
+  file: captures/dot_dist_color_vol_330_tone_230_drive_700.nam
+- values:
+    mode: dist
+    tone: '1030'
+    voicing: color
+  file: captures/dot_dist_color_vol_330_tone_1030_drive_700.nam
+- values:
+    mode: dist
+    tone: '1200'
+    voicing: color
+  file: captures/dot_dist_color_vol_330_tone_1200_drive_700.nam
+- values:
+    mode: dist
+    tone: '230'
+    voicing: low
+  file: captures/dot_dist_low_vol_330_tone_230_drive_900.nam
+- values:
+    mode: dist
+    tone: '1030'
+    voicing: low
+  file: captures/dot_dist_low_vol_330_tone_1030_drive_900.nam
+- values:
+    mode: dist
+    tone: '1200'
+    voicing: low
+  file: captures/dot_dist_low_vol_330_tone_1200_drive_900.nam
+- values:
+    mode: dist
+    tone: '230'
+    voicing: med
+  file: captures/dot_dist_med_vol_330_tone_230_drive_1200.nam
+- values:
+    mode: dist
+    tone: '1030'
+    voicing: med
+  file: captures/dot_dist_med_vol_330_tone_1030_drive_1200.nam
+- values:
+    mode: dist
+    tone: '1200'
+    voicing: med
+  file: captures/dot_dist_med_vol_330_tone_1200_drive_1200.nam

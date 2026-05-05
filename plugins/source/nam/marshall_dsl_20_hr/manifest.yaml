@@ -1,0 +1,28 @@
+manifest_version: 1
+id: nam_marshall_dsl_20_hr
+display_name: DSL 20 HR
+brand: marshall
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - crunch
+  - crunch_bad_horse
+  - lead
+captures:
+- values:
+    preset: clean
+  file: captures/dsl800_clean.nam
+- values:
+    preset: crunch
+  file: captures/dsl800_crunch.nam
+- values:
+    preset: crunch_bad_horse
+  file: captures/dsl800_crunch_bad_horse.nam
+- values:
+    preset: lead
+  file: captures/dsl800_lead.nam

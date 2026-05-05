@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_demonfx_be_od
+display_name: BE-OD Clone
+brand: demonfx
+type: gain_pedal
+backend: nam
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - '50'
+  - '75'
+  - '100'
+  - 100_tight
+captures:
+- values:
+    gain: '50'
+  file: captures/be_od_g50.nam
+- values:
+    gain: '75'
+  file: captures/be_od_g75.nam
+- values:
+    gain: '100'
+  file: captures/be_od_g100.nam
+- values:
+    gain: 100_tight
+  file: captures/be_od_g100_tight.nam

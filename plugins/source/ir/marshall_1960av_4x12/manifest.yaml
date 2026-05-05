@@ -1,0 +1,30 @@
+manifest_version: 1
+id: ir_marshall_1960av_4x12
+display_name: 1960AV 4x12
+brand: marshall
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/27221
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - v7x
+  - sc1100
+  - rb500
+  - blend_all
+captures:
+- values:
+    mic: v7x
+  file: ir/v7x_dc_3.wav
+- values:
+    mic: sc1100
+  file: ir/sc1100_dc_3.wav
+- values:
+    mic: rb500
+  file: ir/rb500_dc_3.wav
+- values:
+    mic: blend_all
+  file: ir/blendofall_dc_3.wav

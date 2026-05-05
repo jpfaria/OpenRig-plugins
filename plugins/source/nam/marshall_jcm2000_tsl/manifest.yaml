@@ -1,0 +1,49 @@
+manifest_version: 1
+id: nam_marshall_jcm2000_tsl
+display_name: JCM2000 TSL
+brand: marshall
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/5769
+type: amp
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - crunch
+  - lead
+- name: gain
+  display_name: Gain
+  values:
+  - g2
+  - g3_5
+  - g6
+  - g7
+  - g9
+captures:
+- values:
+    channel: clean
+    gain: g3_5
+  file: captures/tsl100_clean_g3_5.nam
+- values:
+    channel: crunch
+    gain: g2
+  file: captures/tsl100_crunch_g2.nam
+- values:
+    channel: crunch
+    gain: g6
+  file: captures/tsl100_crunch_g6.nam
+- values:
+    channel: crunch
+    gain: g9
+  file: captures/tsl100_crunch_g9.nam
+- values:
+    channel: lead
+    gain: g7
+  file: captures/tsl100_lead_g7.nam
+- values:
+    channel: lead
+    gain: g9
+  file: captures/tsl100_lead_g9.nam

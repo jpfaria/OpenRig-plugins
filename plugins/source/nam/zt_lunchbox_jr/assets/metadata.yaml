@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the ZT Lunchbox Jr — ultra-compact solid-state
+      amp with surprisingly full sound.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do ZT Lunchbox Jr — amp solid-state ultra-compacto
+      com som surpreendentemente completo.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

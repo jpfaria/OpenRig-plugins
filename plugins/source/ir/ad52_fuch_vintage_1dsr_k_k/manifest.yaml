@@ -1,0 +1,23 @@
+manifest_version: 1
+id: ir_ad52_fuch_vintage_1dsr_k_k
+display_name: AD52 Fuch Vintage 1DSR K&K
+brand: furch
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - furch_vintage1d_sr_48k
+  - furch_vintage1d_sr_48k_m
+  - furch_vintage1d_sr_48k_m_ffq
+captures:
+- values:
+    voicing: furch_vintage1d_sr_48k
+  file: ir/furch_vintage1d_sr_48k.wav
+- values:
+    voicing: furch_vintage1d_sr_48k_m
+  file: ir/furch_vintage1d_sr_48k_m.wav
+- values:
+    voicing: furch_vintage1d_sr_48k_m_ffq
+  file: ir/furch_vintage1d_sr_48k_m_ffq.wav

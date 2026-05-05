@@ -1,0 +1,56 @@
+manifest_version: 1
+id: nam_benson_preamp
+display_name: Benson Preamp
+brand: benson
+type: gain_pedal
+backend: nam
+parameters:
+- name: eq
+  display_name: EQ Profile
+  values:
+  - flat
+  - bright
+  - dark
+- name: drive
+  display_name: Drive
+  values:
+  - '3'
+  - '6'
+  - '9'
+captures:
+- values:
+    drive: '3'
+    eq: flat
+  file: captures/benson_preamp_01_t6b6d3v6.nam
+- values:
+    drive: '6'
+    eq: flat
+  file: captures/benson_preamp_02_t6b6d6v6.nam
+- values:
+    drive: '9'
+    eq: flat
+  file: captures/benson_preamp_03_t6b6d9v6.nam
+- values:
+    drive: '3'
+    eq: bright
+  file: captures/benson_preamp_04_t9b3d3v6.nam
+- values:
+    drive: '6'
+    eq: bright
+  file: captures/benson_preamp_05_t9b3d6v6.nam
+- values:
+    drive: '9'
+    eq: bright
+  file: captures/benson_preamp_06_t9b3d9v6.nam
+- values:
+    drive: '3'
+    eq: dark
+  file: captures/benson_preamp_07_t4b8d3v6.nam
+- values:
+    drive: '6'
+    eq: dark
+  file: captures/benson_preamp_08_t4b8d6v6.nam
+- values:
+    drive: '9'
+    eq: dark
+  file: captures/benson_preamp_09_t4b8d9v6.nam

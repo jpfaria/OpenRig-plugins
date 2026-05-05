@@ -1,0 +1,10 @@
+manifest_version: 1
+id: nam_klone
+display_name: Klone
+brand: electro-harmonix
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/klone.nam

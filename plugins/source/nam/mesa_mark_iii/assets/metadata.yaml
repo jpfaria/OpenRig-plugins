@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Mesa/Boogie Mark III — versatile American amp
+      with clean, crunch and lead channels.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Mesa/Boogie Mark III — amp americano versátil com
+      canais clean, crunch e lead.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

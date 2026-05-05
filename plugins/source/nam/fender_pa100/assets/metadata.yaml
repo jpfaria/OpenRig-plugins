@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Fender PA100 — vintage Fender PA head repurposed
+      as guitar amp.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Fender PA100 — cabeçote PA vintage reaproveitado
+      como amp de guitarra.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

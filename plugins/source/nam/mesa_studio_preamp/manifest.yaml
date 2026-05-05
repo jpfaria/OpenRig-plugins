@@ -1,0 +1,18 @@
+manifest_version: 1
+id: nam_mesa_studio_preamp
+display_name: Studio Preamp
+brand: mesa
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/5944
+type: preamp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean_bright
+captures:
+- values:
+    preset: clean_bright
+  file: captures/studiopreclean_b4_m4_t6_bright_v2_esr_0_008.nam

@@ -1,0 +1,56 @@
+manifest_version: 1
+id: nam_soldano_slo_100
+display_name: SLO 100
+brand: soldano
+type: amp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - nrm_clean_journeyvan
+  - nrm_crunch_thingofjoy
+  - ovd_the_king
+  - ovd_lucky_7_pre
+  - pow_6l6_juice
+- name: mic
+  display_name: Mic
+  values:
+  - di
+  - sm57
+  - sm58
+  - blend1
+  - blend3
+captures:
+- values:
+    mic: di
+    voicing: nrm_clean_journeyvan
+  file: captures/amp_slo100_nrm_cln_journeyvan_di.nam
+- values:
+    mic: sm57
+    voicing: nrm_crunch_thingofjoy
+  file: captures/amp_slo100_nrm_crn_thing_of_joy_01_sm57.nam
+- values:
+    mic: sm58
+    voicing: nrm_crunch_thingofjoy
+  file: captures/amp_slo100_nrm_crn_thing_of_joy_01_sm58.nam
+- values:
+    mic: sm58
+    voicing: ovd_the_king
+  file: captures/amp_slo100_ovd_the_king_sm58.nam
+- values:
+    mic: di
+    voicing: ovd_lucky_7_pre
+  file: captures/pre_slo100_ovd_lucky_7.nam
+- values:
+    mic: sm58
+    voicing: pow_6l6_juice
+  file: captures/pow_slo100_6l6_juice_13_sm58.nam
+- values:
+    mic: blend1
+    voicing: pow_6l6_juice
+  file: captures/pow_slo100_6l6_juice_13_blend_1.nam
+- values:
+    mic: blend3
+    voicing: pow_6l6_juice
+  file: captures/pow_slo100_6l6_juice_13_blend_3.nam

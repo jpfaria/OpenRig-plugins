@@ -1,0 +1,120 @@
+manifest_version: 1
+id: nam_earthquaker_hizumitas
+display_name: EarthQuaker Hizumitas
+brand: earthquaker
+type: gain_pedal
+backend: nam
+parameters:
+- name: sustain
+  display_name: Sustain
+  values:
+  - '0'
+  - '3'
+  - '5'
+  - '7'
+  - '10'
+- name: tone
+  display_name: Tone
+  values:
+  - '0'
+  - '3'
+  - '5'
+  - '7'
+  - '10'
+captures:
+- values:
+    sustain: '0'
+    tone: '0'
+  file: captures/1_hizumitas_vol_5_sustain_0_tone_0.nam
+- values:
+    sustain: '3'
+    tone: '0'
+  file: captures/2_hizumitas_vol_5_sustain_3_tone_0.nam
+- values:
+    sustain: '5'
+    tone: '0'
+  file: captures/3_hizumitas_vol_5_sustain_5_tone_0.nam
+- values:
+    sustain: '7'
+    tone: '0'
+  file: captures/4_hizumitas_vol_5_sustain_7_tone_0.nam
+- values:
+    sustain: '10'
+    tone: '0'
+  file: captures/5_hizumitas_vol_5_sustain_10_tone_0.nam
+- values:
+    sustain: '3'
+    tone: '3'
+  file: captures/6_hizumitas_vol_5_sustain_3_tone_3.nam
+- values:
+    sustain: '5'
+    tone: '3'
+  file: captures/7_hizumitas_vol_5_sustain_5_tone_3.nam
+- values:
+    sustain: '7'
+    tone: '3'
+  file: captures/8_hizumitas_vol_5_sustain_7_tone_3.nam
+- values:
+    sustain: '10'
+    tone: '3'
+  file: captures/9_hizumitas_vol_5_sustain_10_tone_3.nam
+- values:
+    sustain: '0'
+    tone: '5'
+  file: captures/10_hizumitas_vol_5_sustain_0_tone_5.nam
+- values:
+    sustain: '3'
+    tone: '5'
+  file: captures/11_hizumitas_vol_5_sustain_3_tone_5.nam
+- values:
+    sustain: '5'
+    tone: '5'
+  file: captures/12_hizumitas_vol_5_sustain_5_tone_5.nam
+- values:
+    sustain: '7'
+    tone: '5'
+  file: captures/13_hizumitas_vol_5_sustain_7_tone_5.nam
+- values:
+    sustain: '10'
+    tone: '5'
+  file: captures/14_hizumitas_vol_5_sustain_10_tone_5.nam
+- values:
+    sustain: '0'
+    tone: '7'
+  file: captures/15_hizumitas_vol_5_sustain_0_tone_7.nam
+- values:
+    sustain: '3'
+    tone: '7'
+  file: captures/16_hizumitas_vol_5_sustain_3_tone_7.nam
+- values:
+    sustain: '5'
+    tone: '7'
+  file: captures/17_hizumitas_vol_5_sustain_5_tone_7.nam
+- values:
+    sustain: '7'
+    tone: '7'
+  file: captures/18_hizumitas_vol_5_sustain_7_tone_7.nam
+- values:
+    sustain: '10'
+    tone: '7'
+  file: captures/19_hizumitas_vol_5_sustain_10_tone_7.nam
+- values:
+    sustain: '0'
+    tone: '10'
+  file: captures/20_hizumitas_vol_5_sustain_0_tone_10.nam
+- values:
+    sustain: '3'
+    tone: '10'
+  file: captures/21_hizumitas_vol_5_sustain_3_tone_10.nam
+- values:
+    sustain: '5'
+    tone: '10'
+  file: captures/22_hizumitas_vol_5_sustain_5_tone_10.nam
+- values:
+    sustain: '7'
+    tone: '10'
+  file: captures/23_hizumitas_vol_5_sustain_7_tone_10.nam
+- values:
+    sustain: '10'
+    tone: '10'
+  file: captures/24_hizumitas_vol_5_sustain_10_tone_10.nam

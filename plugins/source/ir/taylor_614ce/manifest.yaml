@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_taylor_614ce
+display_name: 614ce
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/taylor_614ce_48000.wav
+- values:
+    flavor: blend
+  file: ir/taylor_614ce_48000_bld.wav
+- values:
+    flavor: match
+  file: ir/taylor_614ce_48000_match.wav
+- values:
+    flavor: jf
+  file: ir/taylor_614ce_48000_jf_flavor.wav

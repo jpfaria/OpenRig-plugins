@@ -1,0 +1,34 @@
+manifest_version: 1
+id: nam_mesa_triaxis
+display_name: Triaxis
+brand: mesa
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/45358
+type: preamp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - justice
+  - puppet
+  - black
+  - killem
+  - ride
+captures:
+- values:
+    preset: justice
+  file: captures/cali_axis_justice.nam
+- values:
+    preset: puppet
+  file: captures/caliaxis_puppet.nam
+- values:
+    preset: black
+  file: captures/caliaxis_black.nam
+- values:
+    preset: killem
+  file: captures/caliaxis_killem.nam
+- values:
+    preset: ride
+  file: captures/caliaxis_ride.nam

@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_vox_ac30
+display_name: AC30
+brand: vox
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: character
+  display_name: Character
+  values:
+  - standard
+  - clean_65prince
+captures:
+- values:
+    character: standard
+  file: captures/vox_ac30_cab.nam
+- values:
+    character: clean_65prince
+  file: captures/vox_ac30_clean_65prince.nam

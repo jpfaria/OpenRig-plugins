@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_mesa_dual_rectifier_rev_f
+display_name: Dual Rectifier Rev F
+brand: mesa
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - black_album
+  - satan
+  - chainsaw
+  - hellbert
+  - stealth
+  - slaughter
+  - far_beyond_driven
+  - raw_gxx
+captures:
+- values:
+    preset: black_album
+  file: captures/black_album.nam
+- values:
+    preset: satan
+  file: captures/satan.nam
+- values:
+    preset: chainsaw
+  file: captures/chainsaw.nam
+- values:
+    preset: hellbert
+  file: captures/hellbert.nam
+- values:
+    preset: stealth
+  file: captures/stealth.nam
+- values:
+    preset: slaughter
+  file: captures/slaughter.nam
+- values:
+    preset: far_beyond_driven
+  file: captures/far_beyond_driven.nam
+- values:
+    preset: raw_gxx
+  file: captures/raw_gxx.nam

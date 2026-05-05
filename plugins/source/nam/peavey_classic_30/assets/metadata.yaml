@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Peavey Classic 30 — versatile American combo
+      with clean and crunch tones.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Peavey Classic 30 — combo americano versátil com
+      timbres clean e crunch.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

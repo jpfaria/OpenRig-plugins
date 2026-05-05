@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Electro-Harmonix MIG-50 — Russian-voiced 50W
+      tube head.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Electro-Harmonix MIG-50 — cabeçote de 50W com sonoridade
+      russa.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

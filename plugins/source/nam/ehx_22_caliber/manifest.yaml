@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_ehx_22_caliber
+display_name: 22 Caliber
+description: Neural capture of the Electro-Harmonix 22 Caliber — compact power amp with unique character.
+brand: electro-harmonix
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch
+captures:
+- values:
+    voicing: clean
+  file: captures/clean.nam
+- values:
+    voicing: crunch
+  file: captures/crunch.nam

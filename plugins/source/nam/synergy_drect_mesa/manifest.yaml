@@ -1,0 +1,24 @@
+manifest_version: 1
+id: nam_synergy_drect_mesa
+display_name: DRECT Mesa
+brand: synergy
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: boost
+  display_name: Boost
+  values:
+  - unboosted
+  - od808
+  - sd1
+captures:
+- values:
+    boost: unboosted
+  file: captures/synergy_drect_unboosted.nam
+- values:
+    boost: od808
+  file: captures/synergy_drect_od808_sm57.nam
+- values:
+    boost: sd1
+  file: captures/synergy_drect_sd1_sm58.nam

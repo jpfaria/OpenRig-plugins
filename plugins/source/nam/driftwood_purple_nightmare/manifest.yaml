@@ -1,0 +1,25 @@
+manifest_version: 1
+id: nam_driftwood_purple_nightmare
+display_name: Purple Nightmare
+brand: driftwood
+sources:
+- https://www.tone3000.com/tones/61258
+type: amp
+backend: nam
+parameters:
+- name: cab
+  display_name: Cab
+  values:
+  - evh_5150iii
+  - mesa_trad
+  - mesa_os
+captures:
+- values:
+    cab: evh_5150iii
+  file: captures/va_nightmare_md_and_evh_5150iii_412.nam
+- values:
+    cab: mesa_trad
+  file: captures/va_nightmare_md_and_mesa_traditional.nam
+- values:
+    cab: mesa_os
+  file: captures/va_nightmare_md_and_mesa_oversized.nam

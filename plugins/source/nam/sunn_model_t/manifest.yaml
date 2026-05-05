@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_sunn_model_t
+display_name: Sunn Model T
+brand: sunn
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - cathedral
+  - thronolith
+  - life_droner
+  - hyper_droner
+captures:
+- values:
+    preset: cathedral
+  file: captures/cathedral_stmn.nam
+- values:
+    preset: thronolith
+  file: captures/dde_thronolith_only_pedal.nam
+- values:
+    preset: life_droner
+  file: captures/dde_life_droner_nocab.nam
+- values:
+    preset: hyper_droner
+  file: captures/dde_hyper_droner_nocab.nam

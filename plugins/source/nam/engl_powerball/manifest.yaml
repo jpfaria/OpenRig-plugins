@@ -1,0 +1,30 @@
+manifest_version: 1
+id: nam_engl_powerball
+display_name: Powerball
+brand: engl
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/29603
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - overdrive_2
+  - overdrive_1
+  - crunch
+captures:
+- values:
+    preset: clean
+  file: captures/engl_powerball_clean.nam
+- values:
+    preset: overdrive_2
+  file: captures/engl_powerball_overdrive_2.nam
+- values:
+    preset: overdrive_1
+  file: captures/engl_powerball_overdrive_1.nam
+- values:
+    preset: crunch
+  file: captures/engl_powerball_crunch.nam

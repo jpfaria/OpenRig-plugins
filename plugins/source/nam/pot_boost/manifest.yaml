@@ -1,0 +1,10 @@
+manifest_version: 1
+id: nam_pot_boost
+display_name: PoT Boost
+brand: pot
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/pot_boost.nam

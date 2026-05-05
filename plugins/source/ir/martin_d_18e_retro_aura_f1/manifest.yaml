@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_martin_d_18e_retro_aura_f1
+display_name: D-18E Retro Aura F1
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/martin_d_18e_retro_48000.wav
+- values:
+    flavor: blend
+  file: ir/martin_d_18e_retro_48000_bld.wav
+- values:
+    flavor: match
+  file: ir/martin_d_18e_retro_48000_match.wav
+- values:
+    flavor: jf
+  file: ir/martin_d_18e_retro_48000_jf_flavor.wav

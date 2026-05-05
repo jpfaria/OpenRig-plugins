@@ -1,0 +1,9 @@
+i18n:
+  en-US:
+    description: Neural capture of the Boss Metal Zone MT-2 distortion pedal.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do pedal Boss Metal Zone MT-2.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

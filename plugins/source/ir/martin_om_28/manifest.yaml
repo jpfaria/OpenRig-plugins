@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_martin_om_28
+display_name: OM-28
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/standard.wav
+- values:
+    flavor: blend
+  file: ir/blend.wav
+- values:
+    flavor: match
+  file: ir/match.wav
+- values:
+    flavor: jf
+  file: ir/jf_flavor.wav

@@ -1,0 +1,5 @@
+i18n:
+  en-US:
+    description: Neural capture of the Peavey 5150 — heavy metal workhorse.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

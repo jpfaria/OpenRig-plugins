@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_taylorps14ce_es2
+display_name: PS14ce ES2
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ps14e_2048_44k
+  - ps14e_2048_44k_m
+  - ps14e_2048_48k_mffqn
+captures:
+- values:
+    voicing: ps14e_2048_44k
+  file: ir/ps14e_2048_44k.wav
+- values:
+    voicing: ps14e_2048_44k_m
+  file: ir/ps14e_2048_44k_m.wav
+- values:
+    voicing: ps14e_2048_48k_mffqn
+  file: ir/ps14e_2048_48k_mffqn.wav

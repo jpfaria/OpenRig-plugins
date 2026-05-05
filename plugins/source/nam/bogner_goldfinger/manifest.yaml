@@ -1,0 +1,57 @@
+manifest_version: 1
+id: nam_bogner_goldfinger
+display_name: Goldfinger
+brand: bogner
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/35435
+type: amp
+backend: nam
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - clean
+  - midgain
+  - crunch
+  - higain
+- name: variant
+  display_name: Variant
+  values:
+  - default
+  - minus_4db
+  - old
+  - with_ir
+captures:
+- values:
+    gain: clean
+    variant: default
+  file: captures/bogner_goldfinger_clean.nam
+- values:
+    gain: clean
+    variant: minus_4db
+  file: captures/bogner_goldfinger_clean_4db_10k.nam
+- values:
+    gain: midgain
+    variant: default
+  file: captures/bogner_goldfinger_discusting_midgain.nam
+- values:
+    gain: crunch
+    variant: default
+  file: captures/bogner_goldfinger_crunch.nam
+- values:
+    gain: crunch
+    variant: old
+  file: captures/bogner_goldfinger_crunch_old_version_but_its_ok.nam
+- values:
+    gain: higain
+    variant: default
+  file: captures/bogner_goldfinger_higain.nam
+- values:
+    gain: higain
+    variant: minus_4db
+  file: captures/bogner_goldfinger_higain_4db_10k.nam
+- values:
+    gain: higain
+    variant: with_ir
+  file: captures/bogner_goldfinger_higain_with_ir_sorry_my_falt.nam

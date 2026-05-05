@@ -1,0 +1,44 @@
+manifest_version: 1
+id: ir_taylor_816ce
+display_name: 816ce
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - tay816_m251_exp1
+  - tay816_m251_exp2
+  - tay816_m251_sb3_blend
+  - tay816_m251_pz1
+  - tay816_m251_pz2
+  - tay816_m251_pz3
+  - tay816_m251_sb1
+  - tay816_m251_sb2
+captures:
+- values:
+    voicing: tay816_m251_exp1
+  file: ir/tay816_m251_exp1.wav
+- values:
+    voicing: tay816_m251_exp2
+  file: ir/tay816_m251_exp2.wav
+- values:
+    voicing: tay816_m251_sb3_blend
+  file: ir/tay816_m251_sb3_blend.wav
+- values:
+    voicing: tay816_m251_pz1
+  file: ir/tay816_m251_pz1.wav
+- values:
+    voicing: tay816_m251_pz2
+  file: ir/tay816_m251_pz2.wav
+- values:
+    voicing: tay816_m251_pz3
+  file: ir/tay816_m251_pz3.wav
+- values:
+    voicing: tay816_m251_sb1
+  file: ir/tay816_m251_sb1.wav
+- values:
+    voicing: tay816_m251_sb2
+  file: ir/tay816_m251_sb2.wav

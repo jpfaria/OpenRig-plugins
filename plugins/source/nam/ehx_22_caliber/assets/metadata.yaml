@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Electro-Harmonix 22 Caliber — compact power
+      amp with unique character.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Electro-Harmonix 22 Caliber — power amp compacto
+      com caráter único.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Blackstar Fly — ultra-compact battery-powered
+      amp with ISF tone control.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Blackstar Fly — amp ultra-compacto a bateria com
+      controle de tom ISF.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

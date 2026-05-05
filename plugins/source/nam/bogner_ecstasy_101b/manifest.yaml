@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_bogner_ecstasy_101b
+display_name: Ecstasy 101B
+brand: bogner
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - basic_clean
+  - fender_clean
+  - plexi_crunch
+  - dumble_crunch
+  - bright_crunchy
+  - crunchier_rock
+  - ch2_warm_rock
+  - vai_ftlog_b_off
+captures:
+- values:
+    preset: basic_clean
+  file: captures/bogner_ecstasy_basic_clean.nam
+- values:
+    preset: fender_clean
+  file: captures/bogner_ecstasy_fender_clean.nam
+- values:
+    preset: plexi_crunch
+  file: captures/bogner_ecstasy_plexi_crunch.nam
+- values:
+    preset: dumble_crunch
+  file: captures/bogner_ecstasy_dumble_crunch.nam
+- values:
+    preset: bright_crunchy
+  file: captures/bogner_ecstasy_bright_crunchy_rock.nam
+- values:
+    preset: crunchier_rock
+  file: captures/bogner_ecstasy_crunchier_rock_tone.nam
+- values:
+    preset: ch2_warm_rock
+  file: captures/bogner_ecstasy_channel_2_warm_rock_tone.nam
+- values:
+    preset: vai_ftlog_b_off
+  file: captures/bogner_ecstasy_vai_ftlog_tone_b_off.nam

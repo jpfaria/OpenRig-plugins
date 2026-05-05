@@ -1,0 +1,23 @@
+manifest_version: 1
+id: nam_two_rock_studio_signature
+display_name: Two Rock Studio Signature
+brand: two
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - b_g3
+  - bmd_g3
+  - bmd_g5
+captures:
+- values:
+    preset: b_g3
+  file: captures/b_g3_t5m5b5_vol7_p5_bf.nam
+- values:
+    preset: bmd_g3
+  file: captures/bmd_g3_t5m5b5_vol7_p5_bf.nam
+- values:
+    preset: bmd_g5
+  file: captures/bmd_g5_t5m5b5_vol7_p5_bf.nam

@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Joyo Bantamp Meteor — compact modern high-gain
+      amp.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Joyo Bantamp Meteor — amp compacto de alta distorção
+      moderna.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

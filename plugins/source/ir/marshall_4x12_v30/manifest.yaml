@@ -1,0 +1,20 @@
+manifest_version: 1
+id: ir_marshall_4x12_v30
+display_name: 4x12 V30
+brand: marshall
+brand_logo: assets/brand_logo.svg
+type: cab
+backend: ir
+parameters:
+- name: capture
+  display_name: Capture
+  values:
+  - ev_mix_b
+  - ev_mix_d
+captures:
+- values:
+    capture: ev_mix_b
+  file: ir/ev_mix_b.wav
+- values:
+    capture: ev_mix_d
+  file: ir/ev_mix_d.wav

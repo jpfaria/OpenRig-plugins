@@ -1,0 +1,139 @@
+manifest_version: 1
+id: nam_diezel_vh4
+display_name: VH4
+description: Neural capture of the Diezel VH4 — a modern high-gain German amp.
+brand: diezel
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - '2'
+  - '3'
+  - '4'
+- name: gain_level
+  display_name: Gain
+  values:
+  - '1'
+  - '2'
+  - '3'
+  - br_lg
+  - br_mg
+  - lg_01
+  - lg_02
+  - lg_03
+  - mg_01
+  - mg_02
+  - mg_03
+  - hg_01
+  - hg_02
+  - hg_03
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - ts9
+captures:
+- values:
+    boost: none
+    channel: '2'
+    gain_level: br_lg
+  file: captures/diezel_vh4_ch_2_br_lg.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: br_mg
+  file: captures/diezel_vh4_ch_2_br_mg.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: lg_01
+  file: captures/diezel_vh4_ch_2_lg_01.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: lg_02
+  file: captures/diezel_vh4_ch_2_lg_02.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: lg_03
+  file: captures/diezel_vh4_ch_2_lg_03.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: mg_01
+  file: captures/diezel_vh4_ch_2_mg_01.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: mg_02
+  file: captures/diezel_vh4_ch_2_mg_02.nam
+- values:
+    boost: none
+    channel: '2'
+    gain_level: mg_03
+  file: captures/diezel_vh4_ch_2_mg_03.nam
+- values:
+    boost: none
+    channel: '3'
+    gain_level: hg_01
+  file: captures/diezel_vh4_ch_3_hg_01.nam
+- values:
+    boost: none
+    channel: '3'
+    gain_level: hg_02
+  file: captures/diezel_vh4_ch_3_hg_02.nam
+- values:
+    boost: none
+    channel: '3'
+    gain_level: hg_03
+  file: captures/diezel_vh4_ch_3_hg_03.nam
+- values:
+    boost: ts9
+    channel: '3'
+    gain_level: hg_01
+  file: captures/diezel_vh4_ch_3_ts9_hg_01.nam
+- values:
+    boost: ts9
+    channel: '3'
+    gain_level: hg_02
+  file: captures/diezel_vh4_ch_3_ts9_hg_02.nam
+- values:
+    boost: ts9
+    channel: '3'
+    gain_level: hg_03
+  file: captures/diezel_vh4_ch_3_ts9_hg_03.nam
+- values:
+    boost: none
+    channel: '4'
+    gain_level: hg_01
+  file: captures/diezel_vh4_ch_4_hg_01.nam
+- values:
+    boost: none
+    channel: '4'
+    gain_level: hg_02
+  file: captures/diezel_vh4_ch_4_hg_02.nam
+- values:
+    boost: none
+    channel: '4'
+    gain_level: hg_03
+  file: captures/diezel_vh4_ch_4_hg_03.nam
+- values:
+    boost: ts9
+    channel: '4'
+    gain_level: hg_01
+  file: captures/diezel_vh4_ch_4_ts9_hg_01.nam
+- values:
+    boost: ts9
+    channel: '4'
+    gain_level: hg_02
+  file: captures/diezel_vh4_ch_4_ts9_hg_02.nam
+- values:
+    boost: ts9
+    channel: '4'
+    gain_level: hg_03
+  file: captures/diezel_vh4_ch_4_ts9_hg_03.nam

@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_marshall_1987
+display_name: '1987'
+brand: marshall
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: source
+  display_name: Source
+  values:
+  - cab
+  - di
+captures:
+- values:
+    source: cab
+  file: captures/01_fr_marshall_1987x_hi_input_crunch_bal_cab.nam
+- values:
+    source: di
+  file: captures/01_fr_marshall_1987x_hi_input_crunch_bal_di.nam

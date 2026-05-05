@@ -1,0 +1,26 @@
+manifest_version: 1
+id: nam_zt_lunchbox_jr
+display_name: Lunchbox Jr
+description: Neural capture of the ZT Lunchbox Jr — ultra-compact solid-state amp with surprisingly full sound.
+brand: zt
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch
+  - od
+captures:
+- values:
+    voicing: clean
+  file: captures/clean.nam
+- values:
+    voicing: crunch
+  file: captures/crunch.nam
+- values:
+    voicing: od
+  file: captures/od.nam

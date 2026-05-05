@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Lab Series L2 — clean solid-state amp known
+      for its use by jazz players.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Lab Series L2 — amp solid-state clean conhecido
+      pelos jogadores de jazz.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

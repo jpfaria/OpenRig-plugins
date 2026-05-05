@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_fender_blues_junior
+display_name: Blues Junior
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/27135
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - iii_stock
+  - scooped
+captures:
+- values:
+    preset: iii_stock
+  file: captures/fender_blues_junior_iii_vol_5_bass_6_mids_8_treble_5_master__feather.nam
+- values:
+    preset: scooped
+  file: captures/fender_blues_junior_vol_7_bass_7_mids_4_treble_6_master_4_feather.nam

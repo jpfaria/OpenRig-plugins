@@ -1,0 +1,35 @@
+manifest_version: 1
+id: nam_randall_warhead
+display_name: Warhead
+brand: randall
+type: amp
+backend: nam
+parameters:
+- name: speaker
+  display_name: Speaker
+  values:
+  - v30
+  - jaguar
+- name: mic
+  display_name: Mic
+  values:
+  - sm57
+  - tlm102
+  - mixed
+captures:
+- values:
+    mic: sm57
+    speaker: v30
+  file: captures/x2_dimezone_v30_sm57.nam
+- values:
+    mic: tlm102
+    speaker: v30
+  file: captures/x2_dimezone_v30_tlm102.nam
+- values:
+    mic: tlm102
+    speaker: jaguar
+  file: captures/x2_dimezone_jaguar_tlm102.nam
+- values:
+    mic: mixed
+    speaker: jaguar
+  file: captures/x2_dimezone_jaguar_mixed.nam

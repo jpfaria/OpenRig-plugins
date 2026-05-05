@@ -1,0 +1,31 @@
+manifest_version: 1
+id: nam_sadowsky_sbp_2_bass
+display_name: Sadowsky SBP-2 Bass
+brand: sadowsky
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - '01'
+  - '02'
+  - '03'
+  - '04'
+  - '05'
+captures:
+- values:
+    tone: '01'
+  file: captures/sadowsky_sbp_2_bass_preamp_01.nam
+- values:
+    tone: '02'
+  file: captures/sadowsky_sbp_2_bass_preamp_02.nam
+- values:
+    tone: '03'
+  file: captures/sadowsky_sbp_2_bass_preamp_03.nam
+- values:
+    tone: '04'
+  file: captures/sadowsky_sbp_2_bass_preamp_04.nam
+- values:
+    tone: '05'
+  file: captures/sadowsky_sbp_2_bass_preamp_05.nam

@@ -1,0 +1,15 @@
+manifest_version: 1
+id: nam_wizard_hellrazor
+display_name: Wizard HellRazor
+brand: wizard
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - preset_3
+captures:
+- values:
+    preset: preset_3
+  file: captures/wizard_hellrazor_3.nam

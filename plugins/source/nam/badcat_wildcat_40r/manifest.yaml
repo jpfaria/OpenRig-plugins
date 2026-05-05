@@ -1,0 +1,21 @@
+manifest_version: 1
+id: nam_badcat_wildcat_40r
+display_name: WildCat 40R
+brand: bad_cat
+sources:
+- https://www.tone3000.com/tones/50791
+type: amp
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - ef86
+  - top_boost
+captures:
+- values:
+    channel: ef86
+  file: captures/ef86_marshall_cabinet.nam
+- values:
+    channel: top_boost
+  file: captures/top_boost_marshall_cabinet.nam

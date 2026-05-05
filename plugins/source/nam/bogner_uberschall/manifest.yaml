@@ -1,0 +1,54 @@
+manifest_version: 1
+id: nam_bogner_uberschall
+display_name: Uberschall
+brand: bogner
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/1628
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - cap_2_g7
+  - cap_4
+  - cap_5_g6
+  - cap_7_lo
+  - cap_8_hi_p
+  - cap_9_g6_boosted
+  - cap_13_new_2
+  - cap_14_new_3
+  - cap_15_new_boost
+  - cap_17_clean_2
+captures:
+- values:
+    preset: cap_2_g7
+  file: captures/uberschall_capture_2_g7_emil_rohbe.nam
+- values:
+    preset: cap_4
+  file: captures/uberschall_capture_4_emil_rohbe.nam
+- values:
+    preset: cap_5_g6
+  file: captures/uberschall_capture_5_emil_settings_g6_emil_rohbe.nam
+- values:
+    preset: cap_7_lo
+  file: captures/uberschall_capture_7_emil_settings_lo_emil_rohbe.nam
+- values:
+    preset: cap_8_hi_p
+  file: captures/uberschall_capture_8_emil_settings_hi_p_emil_rohbe.nam
+- values:
+    preset: cap_9_g6_boosted
+  file: captures/uberschall_capture_9_g6_boosted_emil_rohbe.nam
+- values:
+    preset: cap_13_new_2
+  file: captures/uberschall_capture_13_new_settings_2_emil_rohbe.nam
+- values:
+    preset: cap_14_new_3
+  file: captures/uberschall_capture_14_new_settings_3_emil_rohbe.nam
+- values:
+    preset: cap_15_new_boost
+  file: captures/uberschall_capture_15_new_settings_boosted_emil_rohbe.nam
+- values:
+    preset: cap_17_clean_2
+  file: captures/uberschall_capture_17_clean_2_emil_rohbe.nam

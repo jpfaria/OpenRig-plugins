@@ -1,0 +1,15 @@
+manifest_version: 1
+id: lv2_bolliedelay
+display_name: Bollie Delay
+description: Bollie Delay — simple mono delay.
+brand: bollie
+thumbnail: assets/thumbnail.png
+screenshot: assets/screenshot.png
+license: MIT
+homepage: ''
+type: delay
+backend: lv2
+plugin_uri: https://ca9.eu/lv2/bolliedelay
+binaries:
+  macos-universal: platform/macos-universal/bolliedelay.dylib
+  linux-x86_64: platform/linux-x86_64/bolliedelay.so

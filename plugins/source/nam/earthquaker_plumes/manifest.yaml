@@ -1,0 +1,82 @@
+manifest_version: 1
+id: nam_earthquaker_plumes
+display_name: EarthQuaker Plumes
+brand: earthquaker
+type: gain_pedal
+backend: nam
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - low
+  - mid
+  - high
+- name: tone
+  display_name: Tone
+  values:
+  - '0'
+  - '25'
+  - '50'
+  - '75'
+  - '100'
+captures:
+- values:
+    drive: low
+    tone: '0'
+  file: captures/plumes_switch_3_level_100_gain_0_tone_0.nam
+- values:
+    drive: low
+    tone: '25'
+  file: captures/plumes_switch_3_level_100_gain_0_tone_25.nam
+- values:
+    drive: low
+    tone: '50'
+  file: captures/plumes_switch_3_level_100_gain_0_tone_50.nam
+- values:
+    drive: low
+    tone: '75'
+  file: captures/plumes_switch_3_level_100_gain_0_tone_75.nam
+- values:
+    drive: low
+    tone: '100'
+  file: captures/plumes_switch_3_level_100_gain_0_tone_100.nam
+- values:
+    drive: mid
+    tone: '0'
+  file: captures/plumes_switch_3_level_50_gain_50_tone_0.nam
+- values:
+    drive: mid
+    tone: '25'
+  file: captures/plumes_switch_3_level_50_gain_50_tone_25.nam
+- values:
+    drive: mid
+    tone: '50'
+  file: captures/plumes_switch_3_level_50_gain_50_tone_50.nam
+- values:
+    drive: mid
+    tone: '75'
+  file: captures/plumes_switch_3_level_50_gain_50_tone_75.nam
+- values:
+    drive: mid
+    tone: '100'
+  file: captures/plumes_switch_3_level_50_gain_50_tone_100.nam
+- values:
+    drive: high
+    tone: '0'
+  file: captures/plumes_switch_3_level_25_gain_75_tone_0.nam
+- values:
+    drive: high
+    tone: '25'
+  file: captures/plumes_switch_3_level_25_gain_75_tone_25.nam
+- values:
+    drive: high
+    tone: '50'
+  file: captures/plumes_switch_3_level_25_gain_75_tone_50.nam
+- values:
+    drive: high
+    tone: '75'
+  file: captures/plumes_switch_3_level_25_gain_75_tone_75.nam
+- values:
+    drive: high
+    tone: '100'
+  file: captures/plumes_switch_3_level_25_gain_75_tone_100.nam

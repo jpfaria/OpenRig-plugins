@@ -1,0 +1,17 @@
+manifest_version: 1
+id: nam_tone_king_imperial
+display_name: Imperial
+brand: tone_king
+sources:
+- https://www.tone3000.com/tones/190
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - tj_empire_7v2
+captures:
+- values:
+    preset: tj_empire_7v2
+  file: captures/tj_empire_7v2.nam

@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Victory VX Kraken — high-gain British amp with
+      massive low end.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Victory VX Kraken — amp britânico de alta distorção
+      com grave massivo.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

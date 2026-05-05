@@ -1,0 +1,43 @@
+manifest_version: 1
+id: nam_fuzz_face
+display_name: Fuzz Face
+brand: dunlop
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - '01'
+  - '02'
+  - '03'
+  - '04'
+  - '05'
+  - '06'
+  - '07'
+  - '08'
+captures:
+- values:
+    tone: '01'
+  file: captures/dunlop_eric_johnson_fuzz_01.nam
+- values:
+    tone: '02'
+  file: captures/dunlop_eric_johnson_fuzz_02.nam
+- values:
+    tone: '03'
+  file: captures/dunlop_eric_johnson_fuzz_03.nam
+- values:
+    tone: '04'
+  file: captures/dunlop_eric_johnson_fuzz_04.nam
+- values:
+    tone: '05'
+  file: captures/dunlop_eric_johnson_fuzz_05.nam
+- values:
+    tone: '06'
+  file: captures/dunlop_eric_johnson_fuzz_06.nam
+- values:
+    tone: '07'
+  file: captures/dunlop_eric_johnson_fuzz_07.nam
+- values:
+    tone: '08'
+  file: captures/dunlop_eric_johnson_fuzz_08.nam

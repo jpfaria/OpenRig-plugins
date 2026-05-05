@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_martin_cs_d_28_grw_putw_54
+display_name: CS D-28 GRW PUTW 54
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/martin_cs_d28grw_putw_44100.wav
+- values:
+    flavor: blend
+  file: ir/martin_cs_d28grw_putw_44100_bld.wav
+- values:
+    flavor: match
+  file: ir/martin_cs_d28grw_putw_44100_match.wav
+- values:
+    flavor: jf
+  file: ir/martin_cs_d28grw_putw_44100_jf_flavor.wav

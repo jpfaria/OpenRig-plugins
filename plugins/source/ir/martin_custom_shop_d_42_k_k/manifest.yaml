@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_martin_custom_shop_d_42_k_k
+display_name: Custom Shop D-42 K&K
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/leo_martin_d42_knk_44100.wav
+- values:
+    flavor: blend
+  file: ir/leo_martin_d42_knk_44100_bld.wav
+- values:
+    flavor: match
+  file: ir/leo_martin_d42_knk_44100_match.wav
+- values:
+    flavor: jf
+  file: ir/leo_martin_d42_knk_44100_jf_flavor.wav

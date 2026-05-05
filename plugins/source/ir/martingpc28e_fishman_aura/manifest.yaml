@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_martingpc28e_fishman_aura
+display_name: GPC-28E Fishman Aura
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - gpc28e_2048_44k
+  - gpc28e_2048_44k_m
+  - gpc28e_2048_48k_mffqn
+captures:
+- values:
+    voicing: gpc28e_2048_44k
+  file: ir/gpc28e_2048_44k.wav
+- values:
+    voicing: gpc28e_2048_44k_m
+  file: ir/gpc28e_2048_44k_m.wav
+- values:
+    voicing: gpc28e_2048_48k_mffqn
+  file: ir/gpc28e_2048_48k_mffqn.wav

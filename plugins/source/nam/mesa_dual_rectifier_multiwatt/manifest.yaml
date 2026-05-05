@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_mesa_dual_rectifier_multiwatt
+display_name: Dual Rectifier Multi-Watt
+brand: mesa
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: eq
+  display_name: EQ
+  values:
+  - balanced
+  - mid_cut
+  - scoop
+- name: cab_mic
+  display_name: Cab + Mic
+  values:
+  - di
+  - v30_sm57b
+  - v30_sm57c
+  - m65_sm57a
+  - m65_sm57b
+captures:
+- values:
+    cab_mic: di
+    eq: balanced
+  file: captures/di_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2.nam
+- values:
+    cab_mic: v30_sm57b
+    eq: balanced
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_v30_sm57b.nam
+- values:
+    cab_mic: v30_sm57c
+    eq: balanced
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_v30_sm57c.nam
+- values:
+    cab_mic: m65_sm57b
+    eq: balanced
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_m65_sm57b.nam
+- values:
+    cab_mic: m65_sm57b
+    eq: mid_cut
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_4_b_3_m65_sm57b.nam
+- values:
+    cab_mic: v30_sm57b
+    eq: scoop
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_v30_sm57b.nam
+- values:
+    cab_mic: m65_sm57a
+    eq: scoop
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_m65_sm57a.nam
+- values:
+    cab_mic: m65_sm57b
+    eq: scoop
+  file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_m65_sm57b.nam

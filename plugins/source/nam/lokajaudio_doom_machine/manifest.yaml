@@ -1,0 +1,10 @@
+manifest_version: 1
+id: nam_lokajaudio_doom_machine
+display_name: Doom Machine V3
+brand: lokajaudio
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/doom_machine.nam

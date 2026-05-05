@@ -1,0 +1,32 @@
+manifest_version: 1
+id: vst3_chow_tape
+display_name: CHOW Tape
+description: CHOW Tape Model — physical model of a reel-to-reel tape machine with realistic wow, flutter and saturation.
+brand: chow-dsp
+license: GPL-3.0
+homepage: https://github.com/jatinchowdhury18/AnalogTapeModel
+type: gain_pedal
+backend: vst3
+bundle: bundles/CHOWTapeModel.vst3
+parameters:
+- name: drive
+  display_name: Drive
+  vst3_id: 0
+  min: 0.0
+  max: 100.0
+  default: 50.0
+  step: 1.0
+- name: saturation
+  display_name: Saturation
+  vst3_id: 1
+  min: 0.0
+  max: 100.0
+  default: 50.0
+  step: 1.0
+- name: mix
+  display_name: Mix
+  vst3_id: 2
+  min: 0.0
+  max: 100.0
+  default: 100.0
+  step: 1.0

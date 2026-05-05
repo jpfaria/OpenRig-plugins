@@ -1,0 +1,44 @@
+manifest_version: 1
+id: ir_takamine_pd6nc
+display_name: PD6NC
+brand: takamine
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - takamine_pd6nc_1_44100
+  - takamine_pd6nc_1_44100_bld
+  - takamine_pd6nc_1_44100_match
+  - takamine_pd6nc_1_44100_jf_flavor
+  - takamine_pd6nc_2_44100
+  - takamine_pd6nc_2_44100_bld
+  - takamine_pd6nc_2_44100_match
+  - takamine_pd6nc_2_44100_jf_flavor
+captures:
+- values:
+    voicing: takamine_pd6nc_1_44100
+  file: ir/takamine_pd6nc_1_44100.wav
+- values:
+    voicing: takamine_pd6nc_1_44100_bld
+  file: ir/takamine_pd6nc_1_44100_bld.wav
+- values:
+    voicing: takamine_pd6nc_1_44100_match
+  file: ir/takamine_pd6nc_1_44100_match.wav
+- values:
+    voicing: takamine_pd6nc_1_44100_jf_flavor
+  file: ir/takamine_pd6nc_1_44100_jf_flavor.wav
+- values:
+    voicing: takamine_pd6nc_2_44100
+  file: ir/takamine_pd6nc_2_44100.wav
+- values:
+    voicing: takamine_pd6nc_2_44100_bld
+  file: ir/takamine_pd6nc_2_44100_bld.wav
+- values:
+    voicing: takamine_pd6nc_2_44100_match
+  file: ir/takamine_pd6nc_2_44100_match.wav
+- values:
+    voicing: takamine_pd6nc_2_44100_jf_flavor
+  file: ir/takamine_pd6nc_2_44100_jf_flavor.wav

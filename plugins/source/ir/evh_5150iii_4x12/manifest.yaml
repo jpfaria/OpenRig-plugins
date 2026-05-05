@@ -1,0 +1,70 @@
+manifest_version: 1
+id: ir_evh_5150iii_4x12
+display_name: 5150III 4x12 G12-EVH
+brand: evh
+sources:
+- https://www.tone3000.com/tones/40738
+type: cab
+backend: ir
+parameters:
+- name: mic_position
+  display_name: Mic Position
+  values:
+  - ll
+  - lr
+  - ul
+  - ur
+- name: distance
+  display_name: Distance
+  values:
+  - '1.00'
+  - '1.50'
+  - '2.00'
+  - '2.25'
+- name: preamp
+  display_name: Mic Preamp
+  values:
+  - cl7603
+  - oa30_cl7603
+  - vp28
+captures:
+- values:
+    distance: '1.00'
+    mic_position: ll
+    preamp: cl7603
+  file: ir/g12_evh_ll_5150iii_4x12_sm57_1_00in_0_0in_cl7603_3.wav
+- values:
+    distance: '1.00'
+    mic_position: ll
+    preamp: oa30_cl7603
+  file: ir/g12_evh_ll_5150iii_4x12_sm57_1_00in_0_0in_oa30_cl7603_3.wav
+- values:
+    distance: '1.50'
+    mic_position: ll
+    preamp: vp28
+  file: ir/g12_evh_ll_5150iii_4x12_sm57_1_50in_0_0in_vp28_3.wav
+- values:
+    distance: '1.00'
+    mic_position: lr
+    preamp: oa30_cl7603
+  file: ir/g12_evh_lr_5150iii_4x12_sm57_1_00in_0_0in_oa30_cl7603_3.wav
+- values:
+    distance: '2.25'
+    mic_position: lr
+    preamp: vp28
+  file: ir/g12_evh_lr_5150iii_4x12_sm57_2_25in_0_0in_vp28_3.wav
+- values:
+    distance: '2.00'
+    mic_position: ul
+    preamp: oa30_cl7603
+  file: ir/g12_evh_ul_5150iii_4x12_sm57_2_00in_0_0in_oa30_cl7603_3.wav
+- values:
+    distance: '1.50'
+    mic_position: ur
+    preamp: vp28
+  file: ir/g12_evh_ur_5150iii_4x12_sm57_1_50in_0_0in_vp28_3.wav
+- values:
+    distance: '2.25'
+    mic_position: ur
+    preamp: vp28
+  file: ir/g12_evh_ur_5150iii_4x12_sm57_2_25in_0_0in_vp28_3.wav

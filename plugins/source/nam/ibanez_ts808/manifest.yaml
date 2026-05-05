@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_ibanez_ts808
+display_name: Tube Screamer TS808
+brand: ibanez
+brand_logo: assets/brand_logo.svg
+type: gain_pedal
+backend: nam
+parameters:
+- name: character
+  display_name: Character
+  values:
+  - standard
+  - driven
+captures:
+- values:
+    character: standard
+  file: captures/ts808.nam
+- values:
+    character: driven
+  file: captures/ts808_driven.nam

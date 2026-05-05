@@ -1,0 +1,23 @@
+manifest_version: 1
+id: ir_merill_om_28_dazzo
+display_name: Merill OM-28 Dazzo
+brand: merill
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_merill_om28_dazzo_44100
+  - ir_merill_om28_dazzo_44100_match2
+  - ir_merill_om28_dazzo_44100_match2_lessroom
+captures:
+- values:
+    voicing: ir_merill_om28_dazzo_44100
+  file: ir/ir_merill_om28_dazzo_44100.wav
+- values:
+    voicing: ir_merill_om28_dazzo_44100_match2
+  file: ir/ir_merill_om28_dazzo_44100_match2.wav
+- values:
+    voicing: ir_merill_om28_dazzo_44100_match2_lessroom
+  file: ir/ir_merill_om28_dazzo_44100_match2_lessroom.wav

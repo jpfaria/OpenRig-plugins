@@ -1,0 +1,11 @@
+manifest_version: 1
+id: nam_roland_jc_120b_jazz_chorus
+display_name: JC-120B Jazz Chorus
+brand: roland
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/roland_jc_120b_jazz_chorus_bright_off_royer_101.nam

@@ -1,0 +1,54 @@
+manifest_version: 1
+id: ir_mesa_os_4x12_v30
+display_name: Oversized 4x12 V30
+brand: mesa
+brand_logo: assets/brand_logo.svg
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - at2020
+  - sm57
+  - sm58
+- name: take
+  display_name: Take
+  values:
+  - take_1
+  - take_2
+  - room_left
+  - room_right
+captures:
+- values:
+    mic: at2020
+    take: take_1
+  file: ir/at2020_1.wav
+- values:
+    mic: at2020
+    take: take_2
+  file: ir/at2020_2.wav
+- values:
+    mic: at2020
+    take: room_left
+  file: ir/room_left_at2020.wav
+- values:
+    mic: at2020
+    take: room_right
+  file: ir/room_right_at2020.wav
+- values:
+    mic: sm57
+    take: take_1
+  file: ir/sm57_1.wav
+- values:
+    mic: sm57
+    take: take_2
+  file: ir/sm57_2.wav
+- values:
+    mic: sm58
+    take: take_1
+  file: ir/sm58_1.wav
+- values:
+    mic: sm58
+    take: take_2
+  file: ir/sm58_2.wav

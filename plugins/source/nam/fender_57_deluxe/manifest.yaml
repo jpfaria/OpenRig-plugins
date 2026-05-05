@@ -1,0 +1,47 @@
+manifest_version: 1
+id: nam_fender_57_deluxe
+display_name: '''57 Custom Deluxe'
+description: Neural capture of the Fender '57 Custom Deluxe — tweed amp with rich harmonic character.
+brand: fender
+brand_logo: assets/brand_logo.svg
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch
+  - od
+- name: input
+  display_name: Input
+  values:
+  - '1'
+  - '2'
+captures:
+- values:
+    input: '1'
+    voicing: clean
+  file: captures/clean_in1.nam
+- values:
+    input: '2'
+    voicing: clean
+  file: captures/clean_in2.nam
+- values:
+    input: '1'
+    voicing: crunch
+  file: captures/crunch_in1.nam
+- values:
+    input: '2'
+    voicing: crunch
+  file: captures/crunch_in2.nam
+- values:
+    input: '1'
+    voicing: od
+  file: captures/od_in1.nam
+- values:
+    input: '2'
+    voicing: od
+  file: captures/od_in2.nam

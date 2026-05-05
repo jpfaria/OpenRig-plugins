@@ -1,0 +1,39 @@
+manifest_version: 1
+id: ir_framus_atlantis_sb_framus57
+display_name: Atlantis SB Framus57
+brand: framus
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - framus57_44100
+  - framus57_44100_match1
+  - framus57_44100_match2
+  - framus57_44100_1024
+  - framus57_44100_1024_match1
+  - framus57_44100_1024_match2
+  - framus57_44100_1024_match3
+captures:
+- values:
+    voicing: framus57_44100
+  file: ir/framus57_44100.wav
+- values:
+    voicing: framus57_44100_match1
+  file: ir/framus57_44100_match1.wav
+- values:
+    voicing: framus57_44100_match2
+  file: ir/framus57_44100_match2.wav
+- values:
+    voicing: framus57_44100_1024
+  file: ir/framus57_44100_1024.wav
+- values:
+    voicing: framus57_44100_1024_match1
+  file: ir/framus57_44100_1024_match1.wav
+- values:
+    voicing: framus57_44100_1024_match2
+  file: ir/framus57_44100_1024_match2.wav
+- values:
+    voicing: framus57_44100_1024_match3
+  file: ir/framus57_44100_1024_match3.wav

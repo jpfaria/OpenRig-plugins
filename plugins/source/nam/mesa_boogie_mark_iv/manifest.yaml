@@ -1,0 +1,58 @@
+manifest_version: 1
+id: nam_mesa_boogie_mark_iv
+display_name: Mark IV
+brand: mesa
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - tight_iic
+  - fat_iic
+  - petrucci
+  - metallica_85
+  - metallica_tba
+  - log_sacrament
+- name: take
+  display_name: Take
+  values:
+  - rhythm_1
+  - rhythm_2
+  - crunch
+  - notes
+  - default
+captures:
+- values:
+    take: rhythm_1
+    voicing: tight_iic
+  file: captures/kdm_slammin_mkiv_28_tight_iic_rhythm_1_s.nam
+- values:
+    take: rhythm_2
+    voicing: tight_iic
+  file: captures/kdm_slammin_mkiv_29_tight_iic_rhythm_2_s.nam
+- values:
+    take: rhythm_1
+    voicing: fat_iic
+  file: captures/kdm_slammin_mkiv_31_fat_iic_rhythm_1_s.nam
+- values:
+    take: rhythm_2
+    voicing: fat_iic
+  file: captures/kdm_slammin_mkiv_32_fat_iic_rhythm_2_s.nam
+- values:
+    take: crunch
+    voicing: petrucci
+  file: captures/kdm_slammin_mkiv_34_petrucci_mark_iv_crunch_s.nam
+- values:
+    take: notes
+    voicing: metallica_85
+  file: captures/kdm_slammin_mkiv_37_metallica_85_notes_s.nam
+- values:
+    take: default
+    voicing: metallica_tba
+  file: captures/kdm_slammin_mkiv_39_metallica_tba_s.nam
+- values:
+    take: default
+    voicing: log_sacrament
+  file: captures/kdm_slammin_mkiv_41_log_sacrament_s.nam

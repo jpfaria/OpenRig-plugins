@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_prs_mt15
+display_name: MT15
+brand: prs
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - clean_breakup
+  - crunch_red
+  - metal_7w
+  - metal_ts
+  - metal_pre
+  - metal_sweet_spot
+captures:
+- values:
+    preset: clean
+  file: captures/prs_mt15_clean.nam
+- values:
+    preset: clean_breakup
+  file: captures/prs_mt_15_clean_break_up.nam
+- values:
+    preset: crunch_red
+  file: captures/prs_mt_15_crunch_red.nam
+- values:
+    preset: metal_7w
+  file: captures/prs_mt_15_metal_7_watts.nam
+- values:
+    preset: metal_ts
+  file: captures/prs_mt_15_metal_ts.nam
+- values:
+    preset: metal_pre
+  file: captures/prs_mt_15_metal_pre_amp.nam
+- values:
+    preset: metal_sweet_spot
+  file: captures/prs_mt_15_metal_sweet_spot.nam

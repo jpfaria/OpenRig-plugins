@@ -1,0 +1,57 @@
+manifest_version: 1
+id: nam_boss_ds1
+display_name: DS-1 Distortion
+brand: boss
+brand_logo: assets/brand_logo.svg
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - '4'
+  - '7'
+  - '10'
+- name: dist
+  display_name: Dist
+  values:
+  - '5'
+  - '8'
+  - '10'
+captures:
+- values:
+    dist: '5'
+    tone: '4'
+  file: captures/ds1_t4_d5.nam
+- values:
+    dist: '8'
+    tone: '4'
+  file: captures/ds1_t4_d8.nam
+- values:
+    dist: '10'
+    tone: '4'
+  file: captures/ds1_t4_d10.nam
+- values:
+    dist: '5'
+    tone: '7'
+  file: captures/ds1_t7_d5.nam
+- values:
+    dist: '8'
+    tone: '7'
+  file: captures/ds1_t7_d8.nam
+- values:
+    dist: '10'
+    tone: '7'
+  file: captures/ds1_t7_d10.nam
+- values:
+    dist: '5'
+    tone: '10'
+  file: captures/ds1_t10_d5.nam
+- values:
+    dist: '8'
+    tone: '10'
+  file: captures/ds1_t10_d8.nam
+- values:
+    dist: '10'
+    tone: '10'
+  file: captures/ds1_t10_d10.nam

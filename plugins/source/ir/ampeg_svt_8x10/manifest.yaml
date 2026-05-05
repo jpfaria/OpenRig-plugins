@@ -1,0 +1,59 @@
+manifest_version: 1
+id: ir_ampeg_svt_8x10
+display_name: SVT 4x10/8x10
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/45241
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - d6
+  - '57'
+  - '4033'
+  - e602
+  - beta52
+  - neumann
+  - di_out
+- name: position
+  display_name: Position
+  values:
+  - ah
+  - a107
+  - svt_di
+captures:
+- values:
+    mic: d6
+    position: ah
+  file: ir/ampeg_8x10_d6_ah_3.wav
+- values:
+    mic: '57'
+    position: ah
+  file: ir/ampeg_8x10_57_ah_3.wav
+- values:
+    mic: '4033'
+    position: ah
+  file: ir/ampeg_8x10_4033_ah_3.wav
+- values:
+    mic: '4033'
+    position: a107
+  file: ir/ampeg_8x10_4033_a107_3.wav
+- values:
+    mic: e602
+    position: a107
+  file: ir/ampeg_8x10_e602_a107_3.wav
+- values:
+    mic: beta52
+    position: svt_di
+  file: ir/ampeg_svt_beta52_3.wav
+- values:
+    mic: neumann
+    position: svt_di
+  file: ir/ampeg_svt_bright_neumann_3.wav
+- values:
+    mic: di_out
+    position: svt_di
+  file: ir/ampeg_svt_d_i_out_3.wav

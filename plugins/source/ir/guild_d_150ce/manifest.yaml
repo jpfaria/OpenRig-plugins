@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_guild_d_150ce
+display_name: D-150CE
+brand: guild
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - guild_d_150ce_48000
+  - guild_d_150ce_48000_bld
+  - guild_d_150ce_48000_jf_flavor
+  - guild_d_150ce_48000_match
+captures:
+- values:
+    voicing: guild_d_150ce_48000
+  file: ir/guild_d_150ce_48000.wav
+- values:
+    voicing: guild_d_150ce_48000_bld
+  file: ir/guild_d_150ce_48000_bld.wav
+- values:
+    voicing: guild_d_150ce_48000_jf_flavor
+  file: ir/guild_d_150ce_48000_jf_flavor.wav
+- values:
+    voicing: guild_d_150ce_48000_match
+  file: ir/guild_d_150ce_48000_match.wav

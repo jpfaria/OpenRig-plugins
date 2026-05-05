@@ -1,0 +1,24 @@
+manifest_version: 1
+id: ir_gm68_j45_1943_dazzo
+display_name: J-45 1943 Dazzo
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - ir_gibson_j45_1943_dazzo_44100
+  - ir_gibson_j45_1943_dazzo_44100_match1
+  - ir_gibson_j45_1943_dazzo_44100_match1_lessroom
+captures:
+- values:
+    voicing: ir_gibson_j45_1943_dazzo_44100
+  file: ir/ir_gibson_j45_1943_dazzo_44100.wav
+- values:
+    voicing: ir_gibson_j45_1943_dazzo_44100_match1
+  file: ir/ir_gibson_j45_1943_dazzo_44100_match1.wav
+- values:
+    voicing: ir_gibson_j45_1943_dazzo_44100_match1_lessroom
+  file: ir/ir_gibson_j45_1943_dazzo_44100_match1_lessroom.wav

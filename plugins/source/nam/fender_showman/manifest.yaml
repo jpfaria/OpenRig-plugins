@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_fender_showman
+display_name: Showman
+brand: fender
+brand_logo: assets/brand_logo.svg
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - fuller_clean
+  - fuller_metal
+  - dweezil_ola
+  - dweezil_fuzz
+  - jonesy_dark
+  - super_6g4_clean
+  - super_brownie
+  - super_verb
+captures:
+- values:
+    preset: fuller_clean
+  file: captures/fuller_tone_comp_clean_std.nam
+- values:
+    preset: fuller_metal
+  file: captures/fuller_tone_metal_std.nam
+- values:
+    preset: dweezil_ola
+  file: captures/dweezil_s_bassguy_ola_cab_custom.nam
+- values:
+    preset: dweezil_fuzz
+  file: captures/dweezil_s_bassguy_fuzz_1_custom.nam
+- values:
+    preset: jonesy_dark
+  file: captures/jonesy_s_pretty_dark_custom.nam
+- values:
+    preset: super_6g4_clean
+  file: captures/super_6g4_comp_clean_custom.nam
+- values:
+    preset: super_brownie
+  file: captures/super_brownie_country_ab_custom.nam
+- values:
+    preset: super_verb
+  file: captures/super_verb_custom.nam

@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Panama Shaman — boutique high-gain amp with
+      multi-voicing.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Panama Shaman — amp boutique de alta distorção
+      com múltiplas voicings.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

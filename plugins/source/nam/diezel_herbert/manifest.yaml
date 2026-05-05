@@ -1,0 +1,45 @@
+manifest_version: 1
+id: nam_diezel_herbert
+display_name: Herbert
+brand: diezel
+sources:
+- https://www.tone3000.com/tones/28241
+type: amp
+backend: nam
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - black_album
+  - satan
+  - chainsaw
+  - hellbert
+  - stealth
+  - slaughter
+  - far_beyond_driven
+  - raw_gxx
+captures:
+- values:
+    preset: black_album
+  file: captures/black_album.nam
+- values:
+    preset: satan
+  file: captures/satan.nam
+- values:
+    preset: chainsaw
+  file: captures/chainsaw.nam
+- values:
+    preset: hellbert
+  file: captures/hellbert.nam
+- values:
+    preset: stealth
+  file: captures/stealth.nam
+- values:
+    preset: slaughter
+  file: captures/slaughter.nam
+- values:
+    preset: far_beyond_driven
+  file: captures/far_beyond_driven.nam
+- values:
+    preset: raw_gxx
+  file: captures/raw_gxx.nam

@@ -1,0 +1,70 @@
+manifest_version: 1
+id: nam_browne_protein
+display_name: Browne Protein
+brand: browne
+type: gain_pedal
+backend: nam
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - blue
+  - green
+- name: gain
+  display_name: Gain
+  values:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+captures:
+- values:
+    channel: blue
+    gain: '1'
+  file: captures/blue_gain_1.nam
+- values:
+    channel: blue
+    gain: '2'
+  file: captures/blue_gain_2.nam
+- values:
+    channel: blue
+    gain: '3'
+  file: captures/blue_gain_3.nam
+- values:
+    channel: blue
+    gain: '4'
+  file: captures/blue_gain_4.nam
+- values:
+    channel: blue
+    gain: '5'
+  file: captures/blue_gain_5.nam
+- values:
+    channel: blue
+    gain: '6'
+  file: captures/blue_gain_6.nam
+- values:
+    channel: green
+    gain: '1'
+  file: captures/green_gain_1.nam
+- values:
+    channel: green
+    gain: '2'
+  file: captures/green_gain_2.nam
+- values:
+    channel: green
+    gain: '3'
+  file: captures/green_gain_3.nam
+- values:
+    channel: green
+    gain: '4'
+  file: captures/green_gain_4.nam
+- values:
+    channel: green
+    gain: '5'
+  file: captures/green_gain_5.nam
+- values:
+    channel: green
+    gain: '6'
+  file: captures/green_gain_6.nam

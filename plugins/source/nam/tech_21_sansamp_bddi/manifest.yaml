@@ -1,0 +1,95 @@
+manifest_version: 1
+id: nam_tech_21_sansamp_bddi
+display_name: Tech 21 SansAmp BDDI
+brand: sansamp
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - midfocus_clean
+  - midfocus_drive_high
+  - midfocus_drive_low
+  - midfocus_drive_mid
+  - midfocus_maxed
+  - neutral_clean
+  - neutral_drive_high
+  - neutral_drive_low
+  - neutral_drive_mid
+  - neutral_maxed
+  - scooped_clean
+  - scooped_drive_high
+  - scooped_drive_low
+  - scooped_drive_mid
+  - scooped_maxed
+  - amp_high_drive
+  - amp_low_drive
+  - amp_max_drive
+  - amp_max_drive_less_blend
+  - amp_mid_drive
+  - amp_mid_drive_less_blend
+captures:
+- values:
+    tone: midfocus_clean
+  file: captures/sans_midfocus_clean.nam
+- values:
+    tone: midfocus_drive_high
+  file: captures/sans_midfocus_drive_high.nam
+- values:
+    tone: midfocus_drive_low
+  file: captures/sans_midfocus_drive_low.nam
+- values:
+    tone: midfocus_drive_mid
+  file: captures/sans_midfocus_drive_mid.nam
+- values:
+    tone: midfocus_maxed
+  file: captures/sans_midfocus_maxed.nam
+- values:
+    tone: neutral_clean
+  file: captures/sans_neutral_clean.nam
+- values:
+    tone: neutral_drive_high
+  file: captures/sans_neutral_drive_high.nam
+- values:
+    tone: neutral_drive_low
+  file: captures/sans_neutral_drive_low.nam
+- values:
+    tone: neutral_drive_mid
+  file: captures/sans_neutral_drive_mid.nam
+- values:
+    tone: neutral_maxed
+  file: captures/sans_neutral_maxed.nam
+- values:
+    tone: scooped_clean
+  file: captures/sans_scooped_clean.nam
+- values:
+    tone: scooped_drive_high
+  file: captures/sans_scooped_drive_high.nam
+- values:
+    tone: scooped_drive_low
+  file: captures/sans_scooped_drive_low.nam
+- values:
+    tone: scooped_drive_mid
+  file: captures/sans_scooped_drive_mid.nam
+- values:
+    tone: scooped_maxed
+  file: captures/sans_scooped_maxed.nam
+- values:
+    tone: amp_high_drive
+  file: captures/sansamp_high_drive.nam
+- values:
+    tone: amp_low_drive
+  file: captures/sansamp_low_drive.nam
+- values:
+    tone: amp_max_drive
+  file: captures/sansamp_max_drive.nam
+- values:
+    tone: amp_max_drive_less_blend
+  file: captures/sansamp_max_drive_less_blend.nam
+- values:
+    tone: amp_mid_drive
+  file: captures/sansamp_mid_drive.nam
+- values:
+    tone: amp_mid_drive_less_blend
+  file: captures/sansamp_mid_drive_less_blend.nam

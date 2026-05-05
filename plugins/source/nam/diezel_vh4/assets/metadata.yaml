@@ -1,0 +1,9 @@
+i18n:
+  en-US:
+    description: Neural capture of the Diezel VH4 — a modern high-gain German amp.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Diezel VH4 — amp high gain alemão moderno.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

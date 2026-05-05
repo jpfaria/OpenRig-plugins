@@ -1,0 +1,23 @@
+manifest_version: 1
+id: ir_godin_metropolis_hfn
+display_name: Metropolis HFN
+brand: godin
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - jf45ir1024godin_metropolis
+  - jf45ir5050godin_metropolis
+  - jf45irgodin_metropolis
+captures:
+- values:
+    voicing: jf45ir1024godin_metropolis
+  file: ir/jf45ir1024godin_metropolis.wav
+- values:
+    voicing: jf45ir5050godin_metropolis
+  file: ir/jf45ir5050godin_metropolis.wav
+- values:
+    voicing: jf45irgodin_metropolis
+  file: ir/jf45irgodin_metropolis.wav

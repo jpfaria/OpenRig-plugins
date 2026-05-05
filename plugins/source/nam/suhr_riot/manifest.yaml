@@ -1,0 +1,146 @@
+manifest_version: 1
+id: nam_suhr_riot
+display_name: Suhr Riot
+brand: suhr
+brand_logo: assets/brand_logo.svg
+type: gain_pedal
+backend: nam
+parameters:
+- name: drive
+  display_name: Distortion
+  values:
+  - '10'
+  - '25'
+  - '50'
+  - '75'
+  - '85'
+  - '100'
+- name: tone
+  display_name: Tone
+  values:
+  - '0'
+  - '25'
+  - '50'
+  - '75'
+  - '100'
+captures:
+- values:
+    drive: '10'
+    tone: '0'
+  file: captures/suhr_riot_drive10_level50_tone0_vmid.nam
+- values:
+    drive: '10'
+    tone: '25'
+  file: captures/suhr_riot_drive10_level50_tone25_vmid.nam
+- values:
+    drive: '10'
+    tone: '50'
+  file: captures/suhr_riot_drive10_level50_tone50_vmid.nam
+- values:
+    drive: '10'
+    tone: '75'
+  file: captures/suhr_riot_drive10_level50_tone75_vmid.nam
+- values:
+    drive: '10'
+    tone: '100'
+  file: captures/suhr_riot_drive10_level50_tone100_vmid.nam
+- values:
+    drive: '25'
+    tone: '0'
+  file: captures/suhr_riot_drive25_level50_tone0_vmid.nam
+- values:
+    drive: '25'
+    tone: '25'
+  file: captures/suhr_riot_drive25_level50_tone25_vmid.nam
+- values:
+    drive: '25'
+    tone: '50'
+  file: captures/suhr_riot_drive25_level50_tone50_vmid.nam
+- values:
+    drive: '25'
+    tone: '75'
+  file: captures/suhr_riot_drive25_level50_tone75_vmid.nam
+- values:
+    drive: '25'
+    tone: '100'
+  file: captures/suhr_riot_drive25_level50_tone100_vmid.nam
+- values:
+    drive: '50'
+    tone: '0'
+  file: captures/suhr_riot_drive50_level50_tone0_vmid.nam
+- values:
+    drive: '50'
+    tone: '25'
+  file: captures/suhr_riot_drive50_level50_tone25_vmid.nam
+- values:
+    drive: '50'
+    tone: '50'
+  file: captures/suhr_riot_drive50_level50_tone50_vmid.nam
+- values:
+    drive: '50'
+    tone: '75'
+  file: captures/suhr_riot_drive50_level50_tone75_vmid.nam
+- values:
+    drive: '50'
+    tone: '100'
+  file: captures/suhr_riot_drive50_level50_tone100_vmid.nam
+- values:
+    drive: '75'
+    tone: '0'
+  file: captures/suhr_riot_drive75_level50_tone0_vmid.nam
+- values:
+    drive: '75'
+    tone: '25'
+  file: captures/suhr_riot_drive75_level50_tone25_vmid.nam
+- values:
+    drive: '75'
+    tone: '50'
+  file: captures/suhr_riot_drive75_level50_tone50_vmid.nam
+- values:
+    drive: '75'
+    tone: '75'
+  file: captures/suhr_riot_drive75_level50_tone75_vmid.nam
+- values:
+    drive: '75'
+    tone: '100'
+  file: captures/suhr_riot_drive75_level50_tone100_vmid.nam
+- values:
+    drive: '85'
+    tone: '0'
+  file: captures/suhr_riot_drive85_level50_tone0_vmid.nam
+- values:
+    drive: '85'
+    tone: '25'
+  file: captures/suhr_riot_drive85_level50_tone25_vmid.nam
+- values:
+    drive: '85'
+    tone: '50'
+  file: captures/suhr_riot_drive85_level50_tone50_vmid.nam
+- values:
+    drive: '85'
+    tone: '75'
+  file: captures/suhr_riot_drive85_level50_tone75_vmid.nam
+- values:
+    drive: '85'
+    tone: '100'
+  file: captures/suhr_riot_drive85_level50_tone100_vmid.nam
+- values:
+    drive: '100'
+    tone: '0'
+  file: captures/suhr_riot_drive100_level50_tone0_vmid.nam
+- values:
+    drive: '100'
+    tone: '25'
+  file: captures/suhr_riot_drive100_level50_tone25_vmid.nam
+- values:
+    drive: '100'
+    tone: '50'
+  file: captures/suhr_riot_drive100_level50_tone50_vmid.nam
+- values:
+    drive: '100'
+    tone: '75'
+  file: captures/suhr_riot_drive100_level50_tone75_vmid.nam
+- values:
+    drive: '100'
+    tone: '100'
+  file: captures/suhr_riot_drive100_level50_tone100_vmid.nam

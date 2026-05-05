@@ -1,0 +1,84 @@
+manifest_version: 1
+id: nam_way_huge_pork_pickle
+display_name: Way Huge Pork Pickle
+brand: way_huge
+type: gain_pedal
+backend: nam
+parameters:
+- name: voice
+  display_name: Voice
+  values:
+  - pork
+  - brine
+- name: drive
+  display_name: Drive
+  values:
+  - low
+  - mid
+  - high
+- name: blend
+  display_name: Clean Blend
+  values:
+  - no
+  - with
+captures:
+- values:
+    blend: no
+    drive: low
+    voice: pork
+  file: captures/pork_low_drive_no_blend.nam
+- values:
+    blend: with
+    drive: low
+    voice: pork
+  file: captures/pork_low_drive_with_blend.nam
+- values:
+    blend: no
+    drive: mid
+    voice: pork
+  file: captures/pork_mid_drive_no_blend.nam
+- values:
+    blend: with
+    drive: mid
+    voice: pork
+  file: captures/pork_mid_drive_with_blend.nam
+- values:
+    blend: no
+    drive: high
+    voice: pork
+  file: captures/pork_high_drive_no_blend.nam
+- values:
+    blend: with
+    drive: high
+    voice: pork
+  file: captures/pork_high_drive_with_blend.nam
+- values:
+    blend: no
+    drive: low
+    voice: brine
+  file: captures/pickle_low_drive_no_blend.nam
+- values:
+    blend: with
+    drive: low
+    voice: brine
+  file: captures/pickle_low_drive_with_blend.nam
+- values:
+    blend: no
+    drive: mid
+    voice: brine
+  file: captures/pickle_mid_drive_no_blend.nam
+- values:
+    blend: with
+    drive: mid
+    voice: brine
+  file: captures/pickle_mid_drive_with_blend.nam
+- values:
+    blend: no
+    drive: high
+    voice: brine
+  file: captures/pickle_high_drive_no_blend.nam
+- values:
+    blend: with
+    drive: high
+    voice: brine
+  file: captures/pickle_high_drive_with_blend.nam

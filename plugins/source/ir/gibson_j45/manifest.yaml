@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_gibson_j45
+display_name: J-45
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - j45_akg_cs1000
+  - j45_dpa_4011
+  - j45_neumann_m147
+  - j45_soundelux_e47
+captures:
+- values:
+    voicing: j45_akg_cs1000
+  file: ir/j45_akg_cs1000.wav
+- values:
+    voicing: j45_dpa_4011
+  file: ir/j45_dpa_4011.wav
+- values:
+    voicing: j45_neumann_m147
+  file: ir/j45_neumann_m147.wav
+- values:
+    voicing: j45_soundelux_e47
+  file: ir/j45_soundelux_e47.wav

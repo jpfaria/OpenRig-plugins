@@ -1,0 +1,11 @@
+i18n:
+  en-US:
+    description: Neural capture of the Orange Micro Terror — compact hybrid amp head
+      with classic Orange tone.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Orange Micro Terror — cabeçote híbrido compacto
+      com o tom clássico Orange.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

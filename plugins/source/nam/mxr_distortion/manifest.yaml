@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_mxr_distortion
+display_name: MXR Distortion+
+brand: mxr
+type: gain_pedal
+backend: nam
+parameters:
+- name: distortion
+  display_name: Distortion
+  values:
+  - '130'
+  - '300'
+  - '500'
+  - '700'
+  - '900'
+  - '1030'
+  - '1200'
+captures:
+- values:
+    distortion: '130'
+  file: captures/mxr_distortion_output300_dist130.nam
+- values:
+    distortion: '300'
+  file: captures/mxr_distortion_output300_dist300.nam
+- values:
+    distortion: '500'
+  file: captures/mxr_distortion_output300_dist500.nam
+- values:
+    distortion: '700'
+  file: captures/mxr_distortion_output300_dist700.nam
+- values:
+    distortion: '900'
+  file: captures/mxr_distortion_output300_dist900.nam
+- values:
+    distortion: '1030'
+  file: captures/mxr_distortion_output300_dist1030.nam
+- values:
+    distortion: '1200'
+  file: captures/mxr_distortion_output300_dist1200.nam

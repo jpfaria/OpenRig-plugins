@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_koch_multitone_50
+display_name: Multitone 50
+description: Neural capture of the Koch Multitone 50 — boutique Dutch amplifier with multi-channel flexibility.
+brand: koch
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch
+  - od
+- name: variant
+  display_name: Variant
+  values:
+  - '1'
+  - '2'
+  - '3'
+captures:
+- values:
+    variant: '1'
+    voicing: clean
+  file: captures/clean_1.nam
+- values:
+    variant: '2'
+    voicing: clean
+  file: captures/clean_2.nam
+- values:
+    variant: '1'
+    voicing: crunch
+  file: captures/crunch_1.nam
+- values:
+    variant: '2'
+    voicing: crunch
+  file: captures/crunch_2.nam
+- values:
+    variant: '3'
+    voicing: crunch
+  file: captures/crunch_3.nam
+- values:
+    variant: '1'
+    voicing: od
+  file: captures/od_1.nam
+- values:
+    variant: '2'
+    voicing: od
+  file: captures/od_2.nam
+- values:
+    variant: '3'
+    voicing: od
+  file: captures/od_3.nam

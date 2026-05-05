@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_mdf_eastman_ac422ce
+display_name: MDF Eastman AC422CE
+brand: eastman
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - eastman_ac422ce_44100
+  - eastman_ac422ce_44100b
+  - eastman_ac422ce_44100b_match1
+  - eastman_ac422ce_44100_match2
+captures:
+- values:
+    flavor: eastman_ac422ce_44100
+  file: ir/eastman_ac422ce_44100.wav
+- values:
+    flavor: eastman_ac422ce_44100b
+  file: ir/eastman_ac422ce_44100b.wav
+- values:
+    flavor: eastman_ac422ce_44100b_match1
+  file: ir/eastman_ac422ce_44100b_match1.wav
+- values:
+    flavor: eastman_ac422ce_44100_match2
+  file: ir/eastman_ac422ce_44100_match2.wav

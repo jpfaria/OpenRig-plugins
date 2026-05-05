@@ -1,0 +1,39 @@
+manifest_version: 1
+id: ir_hamblin_sj_ta_amulet
+display_name: SJ TA Amulet
+brand: hamblin
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - dy_hamblinsj_1_44100
+  - dy_hamblinsj_1_44100_bld
+  - dy_hamblinsj_1_44100_jf_flavor
+  - dy_hamblinsj_2_44100
+  - dy_hamblinsj_2_44100_bld
+  - dy_hamblinsj_2_44100_match
+  - dy_hamblinsj_2_44100_jf_flavor
+captures:
+- values:
+    voicing: dy_hamblinsj_1_44100
+  file: ir/dy_hamblinsj_1_44100.wav
+- values:
+    voicing: dy_hamblinsj_1_44100_bld
+  file: ir/dy_hamblinsj_1_44100_bld.wav
+- values:
+    voicing: dy_hamblinsj_1_44100_jf_flavor
+  file: ir/dy_hamblinsj_1_44100_jf_flavor.wav
+- values:
+    voicing: dy_hamblinsj_2_44100
+  file: ir/dy_hamblinsj_2_44100.wav
+- values:
+    voicing: dy_hamblinsj_2_44100_bld
+  file: ir/dy_hamblinsj_2_44100_bld.wav
+- values:
+    voicing: dy_hamblinsj_2_44100_match
+  file: ir/dy_hamblinsj_2_44100_match.wav
+- values:
+    voicing: dy_hamblinsj_2_44100_jf_flavor
+  file: ir/dy_hamblinsj_2_44100_jf_flavor.wav

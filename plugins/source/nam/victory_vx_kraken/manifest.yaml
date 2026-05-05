@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_victory_vx_kraken
+display_name: VX Kraken
+description: Neural capture of the Victory VX Kraken — high-gain British amp with massive low end.
+brand: victory
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+type: preamp
+backend: nam
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - shred_di
+  - shred_full
+captures:
+- values:
+    voicing: shred_di
+  file: captures/shred_di.nam
+- values:
+    voicing: shred_full
+  file: captures/shred_full.nam

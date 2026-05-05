@@ -1,0 +1,10 @@
+i18n:
+  en-US:
+    description: Neural capture of the Marshall AVT50H — hybrid solid-state/tube Marshall
+      head.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler
+  pt-BR:
+    description: Captura neural do Marshall AVT50H — cabeçote híbrido Marshall sólido/válvulado.
+    license: MIT
+    homepage: https://github.com/sdatkinson/neural-amp-modeler

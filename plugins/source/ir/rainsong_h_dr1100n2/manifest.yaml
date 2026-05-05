@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_rainsong_h_dr1100n2
+display_name: H-DR1100N2
+brand: rainsong
+type: body
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    flavor: standard
+  file: ir/jf_rainsong_h_dr1100n2_hfn_44100.wav
+- values:
+    flavor: blend
+  file: ir/jf_rainsong_h_dr1100n2_hfn_44100_bld.wav
+- values:
+    flavor: match
+  file: ir/rainsong_dread_44100_matcheq.wav
+- values:
+    flavor: jf
+  file: ir/jf_rainsong_h_dr1100n2_hfn_44100_jf_flavor.wav

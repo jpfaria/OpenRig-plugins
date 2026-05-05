@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_fender_deluxe_reverb_oxford
+display_name: Deluxe Reverb Oxford
+brand: fender
+brand_logo: assets/brand_logo.svg
+type: cab
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - big
+  - lean
+  - big_48_24
+  - lean_48_24
+captures:
+- values:
+    flavor: big
+  file: ir/big.wav
+- values:
+    flavor: lean
+  file: ir/lean.wav
+- values:
+    flavor: big_48_24
+  file: ir/big_48_24.wav
+- values:
+    flavor: lean_48_24
+  file: ir/lean_48_24.wav

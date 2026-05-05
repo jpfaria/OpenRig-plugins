@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_yamaha_fgx800_c
+display_name: FGX800C
+brand: yamaha
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - yamaha_fgx800c_48000
+  - yamaha_fgx800c_48000_bld
+  - yamaha_fgx800c_48000_match
+  - yamaha_fgx800c_48000_jf_flavor
+captures:
+- values:
+    voicing: yamaha_fgx800c_48000
+  file: ir/yamaha_fgx800c_48000.wav
+- values:
+    voicing: yamaha_fgx800c_48000_bld
+  file: ir/yamaha_fgx800c_48000_bld.wav
+- values:
+    voicing: yamaha_fgx800c_48000_match
+  file: ir/yamaha_fgx800c_48000_match.wav
+- values:
+    voicing: yamaha_fgx800c_48000_jf_flavor
+  file: ir/yamaha_fgx800c_48000_jf_flavor.wav

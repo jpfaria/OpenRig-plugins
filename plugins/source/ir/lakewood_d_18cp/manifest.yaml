@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_lakewood_d_18cp
+display_name: D-18 CP
+brand: lakewood
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - lakewood_d_18cp_48000
+  - lakewood_d_18cp_48000_bld
+  - lakewood_d_18cp_48000_jf_flavor
+  - lakewood_d_18cp_48000_match
+captures:
+- values:
+    voicing: lakewood_d_18cp_48000
+  file: ir/lakewood_d_18cp_48000.wav
+- values:
+    voicing: lakewood_d_18cp_48000_bld
+  file: ir/lakewood_d_18cp_48000_bld.wav
+- values:
+    voicing: lakewood_d_18cp_48000_jf_flavor
+  file: ir/lakewood_d_18cp_48000_jf_flavor.wav
+- values:
+    voicing: lakewood_d_18cp_48000_match
+  file: ir/lakewood_d_18cp_48000_match.wav

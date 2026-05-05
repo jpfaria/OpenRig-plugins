@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_foxx_tone_machine
+display_name: Foxx Tone Machine
+brand: foxx
+type: gain_pedal
+backend: nam
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - 8va
+  - hg
+  - hg_8va
+  - lg
+captures:
+- values:
+    tone: 8va
+  file: captures/fox_tone_machine_8va.nam
+- values:
+    tone: hg
+  file: captures/fox_tone_machine_hg.nam
+- values:
+    tone: hg_8va
+  file: captures/fox_tone_machine_hg_8va.nam
+- values:
+    tone: lg
+  file: captures/fox_tone_machine_lg.nam
