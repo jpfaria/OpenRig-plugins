@@ -9,7 +9,7 @@ license: MIT
 homepage: https://github.com/rncbc/mda-lv2
 type: mod
 backend: lv2
-plugin_uri: http://drobilla.net/plugins/mda/ThruZero
+plugin_uri: http://moddevices.com/plugins/mda/ThruZero
 binaries:
   macos-universal: platform/macos-universal/ThruZero.dylib
   windows-x86_64: platform/windows-x86_64/ThruZero.dll

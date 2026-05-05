@@ -9,7 +9,7 @@ license: MIT
 homepage: https://github.com/rncbc/mda-lv2
 type: delay
 backend: lv2
-plugin_uri: http://drobilla.net/plugins/mda/DubDelay
+plugin_uri: http://moddevices.com/plugins/mda/DubDelay
 binaries:
   macos-universal: platform/macos-universal/DubDelay.dylib
   windows-x86_64: platform/windows-x86_64/DubDelay.dll
