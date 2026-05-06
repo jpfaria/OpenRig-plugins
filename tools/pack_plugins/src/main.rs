@@ -47,7 +47,6 @@ fn main() -> ExitCode {
 fn try_main() -> anyhow::Result<PackReport> {
     let args = parse_args(std::env::args().skip(1))?;
     let source = args.source.unwrap_or_else(|| PathBuf::from(DEFAULT_SOURCE_DIR));
-    let dist = args.dist.unwrap_or_else(|| PathBuf::from(DEFAULT_DIST_DIR));
 
     if !source.is_dir() {
         anyhow::bail!(
@@ -55,8 +54,16 @@ fn try_main() -> anyhow::Result<PackReport> {
             source.display()
         );
     }
-    fs::create_dir_all(&dist)?;
 
+    if let Some(bundle_path) = args.bundle {
+        if let Some(parent) = bundle_path.parent() {
+            fs::create_dir_all(parent)?;
+        }
+        return pack_bundle(&source, &bundle_path);
+    }
+
+    let dist = args.dist.unwrap_or_else(|| PathBuf::from(DEFAULT_DIST_DIR));
+    fs::create_dir_all(&dist)?;
     let report = pack_all(&source, &dist)?;
     write_index(&dist, &report)?;
     Ok(report)
@@ -66,6 +73,7 @@ fn try_main() -> anyhow::Result<PackReport> {
 struct Args {
     source: Option<PathBuf>,
     dist: Option<PathBuf>,
+    bundle: Option<PathBuf>,
 }
 
 fn parse_args<I>(iter: I) -> anyhow::Result<Args>
@@ -88,9 +96,16 @@ where
                     .ok_or_else(|| anyhow::anyhow!("--dist needs a path argument"))?;
                 args.dist = Some(PathBuf::from(value));
             }
+            "--bundle" => {
+                let value = iter
+                    .next()
+                    .ok_or_else(|| anyhow::anyhow!("--bundle needs an output path"))?;
+                args.bundle = Some(PathBuf::from(value));
+            }
             "--help" | "-h" => {
                 println!(
                     "Usage: pack_plugins [--source <path>] [--dist <path>]\n\
+                     Bundle mode: pack_plugins [--source <path>] --bundle <out.zip>\n\
                      Defaults: --source {DEFAULT_SOURCE_DIR} --dist {DEFAULT_DIST_DIR}",
                 );
                 std::process::exit(0);
@@ -136,6 +151,80 @@ pub enum PackError {
     ZipLib(#[from] zip::result::ZipError),
     #[error("missing backend segment in package path `{0}`")]
     MissingBackend(PathBuf),
+}
+
+/// Validates every package under `source_root` and writes them all into a
+/// single zip at `bundle_path`. Inside the zip, each plugin keeps its
+/// `<backend>/<id>/...` layout so the install step can extract straight
+/// into the OS-specific plugins dir.
+pub fn pack_bundle(source_root: &Path, bundle_path: &Path) -> anyhow::Result<PackReport> {
+    let mut report = PackReport::default();
+    let mut entries: Vec<PathBuf> = Vec::new();
+    walk_packages(source_root, &mut entries)?;
+    entries.sort();
+
+    let staging = bundle_path.with_extension("zip.staging");
+    if staging.exists() {
+        fs::remove_file(&staging)?;
+    }
+    let file = File::create(&staging)?;
+    let mut writer = zip::ZipWriter::new(file);
+    let options = FileOptions::default()
+        .compression_method(CompressionMethod::Deflated)
+        .unix_permissions(0o644);
+
+    for source_package in entries {
+        let relative = source_package
+            .strip_prefix(source_root)
+            .map(Path::to_path_buf)
+            .unwrap_or_else(|_| source_package.clone());
+        match validate_only(&source_package) {
+            Ok(manifest) => {
+                if let Err(err) =
+                    add_dir_recursive(&mut writer, source_root, &source_package, &options)
+                {
+                    report.failed.push(PackFailure {
+                        source_path: source_package,
+                        error: err,
+                    });
+                    continue;
+                }
+                report.packed.push(PackEntry {
+                    id: manifest.id,
+                    backend: relative
+                        .components()
+                        .next()
+                        .and_then(|c| c.as_os_str().to_str())
+                        .unwrap_or("")
+                        .to_string(),
+                    file: relative.to_string_lossy().to_string(),
+                    size_bytes: 0,
+                    sha256: String::new(),
+                });
+            }
+            Err(error) => report.failed.push(PackFailure {
+                source_path: source_package,
+                error,
+            }),
+        }
+    }
+
+    writer.finish()?;
+    if bundle_path.exists() {
+        fs::remove_file(bundle_path)?;
+    }
+    fs::rename(&staging, bundle_path)?;
+
+    Ok(report)
+}
+
+fn validate_only(source_package: &Path) -> Result<PluginManifest, PackError> {
+    let manifest_path = source_package.join("manifest.yaml");
+    let yaml = fs::read_to_string(&manifest_path).map_err(PackError::ReadManifest)?;
+    let manifest: PluginManifest =
+        serde_yaml::from_str(&yaml).map_err(PackError::ParseManifest)?;
+    validate_package(source_package, &manifest).map_err(PackError::Validation)?;
+    Ok(manifest)
 }
 
 pub fn pack_all(source_root: &Path, dist_root: &Path) -> io::Result<PackReport> {
@@ -315,12 +404,16 @@ fn print_report(report: &PackReport) {
         report.failed.len()
     );
     for entry in &report.packed {
-        println!(
-            "  ok    {}  ({} bytes, {})",
-            entry.file,
-            entry.size_bytes,
-            &entry.sha256[..12]
-        );
+        if entry.sha256.is_empty() {
+            println!("  ok    {}", entry.file);
+        } else {
+            println!(
+                "  ok    {}  ({} bytes, {})",
+                entry.file,
+                entry.size_bytes,
+                &entry.sha256[..12]
+            );
+        }
     }
     for failure in &report.failed {
         let label = failure
