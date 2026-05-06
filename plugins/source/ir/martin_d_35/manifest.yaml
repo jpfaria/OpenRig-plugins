@@ -2,6 +2,7 @@ manifest_version: 1
 id: ir_martin_d_35
 display_name: D-35
 brand: martin
+photo: assets/photo.png
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir

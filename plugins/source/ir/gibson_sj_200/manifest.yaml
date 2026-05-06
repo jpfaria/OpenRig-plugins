@@ -2,6 +2,7 @@ manifest_version: 1
 id: ir_gibson_sj_200
 display_name: SJ-200
 brand: gibson
+photo: assets/photo.png
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir

@@ -1,6 +1,0 @@
-Language: Cpp
-BasedOnStyle: Microsoft
-ColumnLimit: 0
-AccessModifierOffset: -4
-DeriveLineEnding: false
-UseCRLF: false

@@ -1,5 +1,6 @@
 /target
 /plugins/bundle
+/dist
 /Cargo.lock
 
 # IDE

@@ -1,7 +1,7 @@
 [workspace]
 members = [
-  "tools/extract_plugins",
   "tools/build_plugin_bundle",
+  "tools/pack_plugins",
 ]
 resolver = "2"
 

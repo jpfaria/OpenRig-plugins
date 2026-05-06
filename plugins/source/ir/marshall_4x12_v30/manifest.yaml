@@ -2,6 +2,7 @@ manifest_version: 1
 id: ir_marshall_4x12_v30
 display_name: 4x12 V30
 brand: marshall
+photo: assets/photo.png
 brand_logo: assets/brand_logo.svg
 type: cab
 backend: ir

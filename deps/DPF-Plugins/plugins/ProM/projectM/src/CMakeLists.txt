@@ -1,8 +1,0 @@
-add_subdirectory(libprojectM)
-add_subdirectory(NativePresets)
-add_subdirectory(projectM-qt)
-add_subdirectory(projectM-jack)
-add_subdirectory(projectM-libvisual)
-add_subdirectory(projectM-pulseaudio)
-add_subdirectory(projectM-sdl)
-add_subdirectory(projectM-test)

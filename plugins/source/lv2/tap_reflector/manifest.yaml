@@ -4,6 +4,7 @@ display_name: TAP Reflector
 description: TAP Reflector — comb filter and reflection effect.
 brand: tap
 thumbnail: assets/thumbnail.png
+screenshot: assets/screenshot.png
 license: GPL-2.0
 homepage: http://tap-plugins.sourceforge.net
 type: delay

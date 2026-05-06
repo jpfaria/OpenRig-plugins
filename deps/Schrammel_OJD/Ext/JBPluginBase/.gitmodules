@@ -1,3 +1,0 @@
-[submodule "Ext/json"]
-	path = Ext/json
-	url = https://github.com/nlohmann/json.git
