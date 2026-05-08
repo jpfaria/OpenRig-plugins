@@ -1,9 +1,0 @@
-i18n:
-  en-US:
-    description: modEQ — modern parametric equalizer with clean transparent sound.
-    license: GPL-3.0
-    homepage: https://github.com/jatinchowdhury18/modEQ
-  pt-BR:
-    description: modEQ — equalizador paramétrico moderno com som transparente e limpo.
-    license: GPL-3.0
-    homepage: https://github.com/jatinchowdhury18/modEQ

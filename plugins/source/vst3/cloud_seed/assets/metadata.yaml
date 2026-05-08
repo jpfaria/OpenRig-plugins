@@ -1,9 +1,0 @@
-i18n:
-  en-US:
-    description: Cloud Seed — algorithmic reverb plugin with long, lush, ambient tails.
-    license: MIT
-    homepage: https://github.com/ValdemarOrn/CloudSeed
-  pt-BR:
-    description: Cloud Seed — reverb algorítmico com caudas longas e ambientes etéreos.
-    license: MIT
-    homepage: https://github.com/ValdemarOrn/CloudSeed
