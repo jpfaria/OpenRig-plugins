@@ -5,6 +5,7 @@ description: Neural capture of the Diezel VH4 — a modern high-gain German amp.
 brand: diezel
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 5.0402007
 type: preamp
 backend: nam
 parameters:
@@ -17,11 +18,14 @@ parameters:
 - name: gain_stage
   display_name: Gain Stage
   values:
-  - br_lg
-  - br_mg
-  - lg
-  - mg
-  - hg
+  - low_gain
+  - mid_gain
+  - high_gain
+- name: bright
+  display_name: Bright
+  values:
+  - 'off'
+  - 'on'
 - name: variant
   display_name: Variant
   values:
@@ -34,43 +38,43 @@ parameters:
   - none
   - ts9
 captures:
-- values: { channel: '2', gain_stage: br_lg, variant: '1', boost: none }
+- values: { channel: '2', gain_stage: low_gain,  bright: 'on',  variant: '1', boost: none }
   file: captures/diezel_vh4_ch_2_br_lg.nam
-- values: { channel: '2', gain_stage: br_mg, variant: '1', boost: none }
+- values: { channel: '2', gain_stage: mid_gain,  bright: 'on',  variant: '1', boost: none }
   file: captures/diezel_vh4_ch_2_br_mg.nam
-- values: { channel: '2', gain_stage: lg, variant: '1', boost: none }
+- values: { channel: '2', gain_stage: low_gain,  bright: 'off', variant: '1', boost: none }
   file: captures/diezel_vh4_ch_2_lg_01.nam
-- values: { channel: '2', gain_stage: lg, variant: '2', boost: none }
+- values: { channel: '2', gain_stage: low_gain,  bright: 'off', variant: '2', boost: none }
   file: captures/diezel_vh4_ch_2_lg_02.nam
-- values: { channel: '2', gain_stage: lg, variant: '3', boost: none }
+- values: { channel: '2', gain_stage: low_gain,  bright: 'off', variant: '3', boost: none }
   file: captures/diezel_vh4_ch_2_lg_03.nam
-- values: { channel: '2', gain_stage: mg, variant: '1', boost: none }
+- values: { channel: '2', gain_stage: mid_gain,  bright: 'off', variant: '1', boost: none }
   file: captures/diezel_vh4_ch_2_mg_01.nam
-- values: { channel: '2', gain_stage: mg, variant: '2', boost: none }
+- values: { channel: '2', gain_stage: mid_gain,  bright: 'off', variant: '2', boost: none }
   file: captures/diezel_vh4_ch_2_mg_02.nam
-- values: { channel: '2', gain_stage: mg, variant: '3', boost: none }
+- values: { channel: '2', gain_stage: mid_gain,  bright: 'off', variant: '3', boost: none }
   file: captures/diezel_vh4_ch_2_mg_03.nam
-- values: { channel: '3', gain_stage: hg, variant: '1', boost: none }
+- values: { channel: '3', gain_stage: high_gain, bright: 'off', variant: '1', boost: none }
   file: captures/diezel_vh4_ch_3_hg_01.nam
-- values: { channel: '3', gain_stage: hg, variant: '2', boost: none }
+- values: { channel: '3', gain_stage: high_gain, bright: 'off', variant: '2', boost: none }
   file: captures/diezel_vh4_ch_3_hg_02.nam
-- values: { channel: '3', gain_stage: hg, variant: '3', boost: none }
+- values: { channel: '3', gain_stage: high_gain, bright: 'off', variant: '3', boost: none }
   file: captures/diezel_vh4_ch_3_hg_03.nam
-- values: { channel: '3', gain_stage: hg, variant: '1', boost: ts9 }
+- values: { channel: '3', gain_stage: high_gain, bright: 'off', variant: '1', boost: ts9 }
   file: captures/diezel_vh4_ch_3_ts9_hg_01.nam
-- values: { channel: '3', gain_stage: hg, variant: '2', boost: ts9 }
+- values: { channel: '3', gain_stage: high_gain, bright: 'off', variant: '2', boost: ts9 }
   file: captures/diezel_vh4_ch_3_ts9_hg_02.nam
-- values: { channel: '3', gain_stage: hg, variant: '3', boost: ts9 }
+- values: { channel: '3', gain_stage: high_gain, bright: 'off', variant: '3', boost: ts9 }
   file: captures/diezel_vh4_ch_3_ts9_hg_03.nam
-- values: { channel: '4', gain_stage: hg, variant: '1', boost: none }
+- values: { channel: '4', gain_stage: high_gain, bright: 'off', variant: '1', boost: none }
   file: captures/diezel_vh4_ch_4_hg_01.nam
-- values: { channel: '4', gain_stage: hg, variant: '2', boost: none }
+- values: { channel: '4', gain_stage: high_gain, bright: 'off', variant: '2', boost: none }
   file: captures/diezel_vh4_ch_4_hg_02.nam
-- values: { channel: '4', gain_stage: hg, variant: '3', boost: none }
+- values: { channel: '4', gain_stage: high_gain, bright: 'off', variant: '3', boost: none }
   file: captures/diezel_vh4_ch_4_hg_03.nam
-- values: { channel: '4', gain_stage: hg, variant: '1', boost: ts9 }
+- values: { channel: '4', gain_stage: high_gain, bright: 'off', variant: '1', boost: ts9 }
   file: captures/diezel_vh4_ch_4_ts9_hg_01.nam
-- values: { channel: '4', gain_stage: hg, variant: '2', boost: ts9 }
+- values: { channel: '4', gain_stage: high_gain, bright: 'off', variant: '2', boost: ts9 }
   file: captures/diezel_vh4_ch_4_ts9_hg_02.nam
-- values: { channel: '4', gain_stage: hg, variant: '3', boost: ts9 }
+- values: { channel: '4', gain_stage: high_gain, bright: 'off', variant: '3', boost: ts9 }
   file: captures/diezel_vh4_ch_4_ts9_hg_03.nam
