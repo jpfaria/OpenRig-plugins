@@ -29,13 +29,18 @@ use nam::processor::{close_model_diag, open_model_diag};
 /// headroom até 0 dBFS pra captures de baixo crest factor.
 const TARGET_RMS_DBFS: f32 = -10.0;
 
-/// Mínimo de ganho persistido. Auto-max já só boostava; aqui
-/// idem — captures já mais altas que o target ficam intocadas.
-const MIN_GAIN_DB: f32 = 0.0;
+/// Mínimo de ganho persistido. Pode ser NEGATIVO — captures que
+/// saem naturalmente acima do target (Bogner Synergy, Vox AC15,
+/// alguns Marshall) são atenuadas pra alinhar com as outras.
+/// Atenuação OFFLINE no manifest é diferente de atenuar em runtime
+/// (que segue proibido); aqui é só pre-calibração estática.
+const MIN_GAIN_DB: f32 = -12.0;
 
-/// Máximo de ganho persistido. Acima disso suspeitamos de capture
-/// quebrada (output near-silent) — vale auditar manualmente.
-const MAX_GAIN_DB: f32 = 24.0;
+/// Máximo de ganho persistido. Captures de preamp muito quietas
+/// (Fortin Meshuggah Preamp precisa de ~25 dB pra alinhar) chegam
+/// aqui — sobir o cap permite alinhar < 1 dB sem deixar capture
+/// quebrada (near-silence) explodir o gain.
+const MAX_GAIN_DB: f32 = 30.0;
 
 fn main() -> Result<()> {
     let args: Vec<String> = std::env::args().collect();

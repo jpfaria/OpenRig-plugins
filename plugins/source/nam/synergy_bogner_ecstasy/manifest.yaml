@@ -3,7 +3,7 @@ id: nam_synergy_bogner_ecstasy
 display_name: Bogner Ecstasy Module
 brand: synergy
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: -0.4671030
 type: preamp
 backend: nam
 parameters:

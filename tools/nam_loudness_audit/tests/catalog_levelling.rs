@@ -17,13 +17,10 @@ use std::path::PathBuf;
 use nam::loudness_probe::{diagnose_model, PROBE_INPUT_PEAK_DBFS};
 use nam::processor::{close_model_diag, open_model_diag};
 
-/// Tolerância sobre o RMS spread pós-audit. ~4 dB cobre o caso real:
-/// algumas captures (Synergy Bogner, Vox AC15) já saem naturalmente
-/// acima do target de -10 dBFS antes mesmo do audit, e como o audit
-/// é BOOST-ONLY (não atenua, conforme regra do usuário "volume só
-/// pra atenuar"), esses amps mantêm seu nível natural — limita o
-/// spread mínimo alcançável.
-const TOLERANCE_DB: f32 = 4.0;
+/// Tolerância sobre o RMS spread pós-audit. < 1 dB — diferença
+/// audível começa em ~1 dB, e o objetivo é o usuário não sentir
+/// salto de loudness ao trocar de preset/amp.
+const TOLERANCE_DB: f32 = 1.0;
 
 fn plugins_nam_root() -> PathBuf {
     if let Ok(p) = std::env::var("OPENRIG_PLUGINS_NAM_ROOT") {
