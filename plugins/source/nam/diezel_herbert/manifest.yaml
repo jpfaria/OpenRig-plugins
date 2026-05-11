@@ -4,6 +4,7 @@ display_name: Herbert
 brand: diezel
 sources:
 - https://www.tone3000.com/tones/28241
+output_gain_db: 8.6367264
 type: amp
 backend: nam
 parameters:

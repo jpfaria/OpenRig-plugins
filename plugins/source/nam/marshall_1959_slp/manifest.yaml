@@ -3,6 +3,7 @@ id: nam_marshall_1959_slp
 display_name: 1959 SLP
 brand: marshall
 brand_logo: assets/brand_logo.svg
+output_gain_db: 6.0835152
 type: amp
 backend: nam
 parameters:

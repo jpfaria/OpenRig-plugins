@@ -4,6 +4,7 @@ display_name: Purple Nightmare
 brand: driftwood
 sources:
 - https://www.tone3000.com/tones/61258
+output_gain_db: 8.0806866
 type: amp
 backend: nam
 parameters:

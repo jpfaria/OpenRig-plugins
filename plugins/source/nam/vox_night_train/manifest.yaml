@@ -3,6 +3,7 @@ id: nam_vox_night_train
 display_name: Night Train
 brand: vox
 brand_logo: assets/brand_logo.svg
+output_gain_db: 7.7601738
 type: amp
 backend: nam
 parameters:

@@ -3,6 +3,7 @@ id: nam_mesa_dual_rectifier_rev_f
 display_name: Dual Rectifier Rev F
 brand: mesa
 brand_logo: assets/brand_logo.svg
+output_gain_db: 8.6367264
 type: amp
 backend: nam
 parameters:

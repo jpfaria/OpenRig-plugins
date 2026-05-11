@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_ceriatone_king_kong
 display_name: Kong
 brand: ceriatone
+output_gain_db: 10.1620560
 type: amp
 backend: nam
 parameters:

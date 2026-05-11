@@ -3,6 +3,7 @@ id: nam_marshall_dsl_20_hr
 display_name: DSL 20 HR
 brand: marshall
 brand_logo: assets/brand_logo.svg
+output_gain_db: 5.3606310
 type: amp
 backend: nam
 parameters:

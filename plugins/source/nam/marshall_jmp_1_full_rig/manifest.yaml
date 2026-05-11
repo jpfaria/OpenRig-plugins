@@ -3,6 +3,7 @@ id: nam_marshall_jmp_1_full_rig
 display_name: JMP-1 Full Rig
 brand: marshall
 brand_logo: assets/brand_logo.svg
+output_gain_db: 18.6366310
 type: amp
 backend: nam
 parameters: []

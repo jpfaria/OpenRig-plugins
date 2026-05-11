@@ -5,6 +5,7 @@ brand: orange
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/6624
+output_gain_db: 8.9013729
 type: amp
 backend: nam
 parameters:

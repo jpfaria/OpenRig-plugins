@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_soldano_slo_30
 display_name: slo 30
 brand: soldano
+output_gain_db: 2.2236633
 type: amp
 backend: nam
 parameters:

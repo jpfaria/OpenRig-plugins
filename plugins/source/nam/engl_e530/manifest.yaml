@@ -5,6 +5,7 @@ brand: engl
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/43
+output_gain_db: 1.5361500
 type: preamp
 backend: nam
 parameters:

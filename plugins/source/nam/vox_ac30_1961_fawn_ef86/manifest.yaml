@@ -3,6 +3,7 @@ id: nam_vox_ac30_1961_fawn_ef86
 display_name: AC30 '61 Fawn EF86
 brand: vox
 brand_logo: assets/brand_logo.svg
+output_gain_db: 17.2585449
 type: amp
 backend: nam
 parameters: []

@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_laney_vh100r
 display_name: VH100R
 brand: laney
+output_gain_db: 10.9048252
 type: amp
 backend: nam
 parameters:

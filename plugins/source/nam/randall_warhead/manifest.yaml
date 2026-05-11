@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_randall_warhead
 display_name: Warhead
 brand: randall
+output_gain_db: 7.8496647
 type: amp
 backend: nam
 parameters:

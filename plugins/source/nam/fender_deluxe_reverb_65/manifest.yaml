@@ -3,6 +3,7 @@ id: nam_fender_deluxe_reverb_65
 display_name: Deluxe Reverb '65
 brand: fender
 brand_logo: assets/brand_logo.svg
+output_gain_db: 13.2869873
 type: amp
 backend: nam
 parameters:

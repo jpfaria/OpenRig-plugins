@@ -3,6 +3,7 @@ id: nam_peavey_6505_plus
 display_name: 6505 Plus
 brand: peavey
 brand_logo: assets/brand_logo.svg
+output_gain_db: 7.0903416
 type: amp
 backend: nam
 parameters:

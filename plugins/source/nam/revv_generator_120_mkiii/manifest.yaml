@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_revv_generator_120_mkiii
 display_name: Revv Generator 120 MKIII
 brand: revv
+output_gain_db: 6.8941174
 type: amp
 backend: nam
 parameters:

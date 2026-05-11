@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_rocktron
 display_name: Rocktron
 brand: rocktron
+output_gain_db: 9.4232635
 type: amp
 backend: nam
 parameters:

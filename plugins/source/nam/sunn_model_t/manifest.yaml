@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_sunn_model_t
 display_name: Sunn Model T
 brand: sunn
+output_gain_db: 13.9109440
 type: amp
 backend: nam
 parameters:

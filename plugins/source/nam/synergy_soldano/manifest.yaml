@@ -3,6 +3,7 @@ id: nam_synergy_soldano
 display_name: Synergy Soldano
 brand: synergy
 brand_logo: assets/brand_logo.svg
+output_gain_db: 12.6052399
 type: amp
 backend: nam
 parameters:

@@ -5,6 +5,7 @@ brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/1058
+output_gain_db: 9.5033379
 type: amp
 backend: nam
 parameters:
