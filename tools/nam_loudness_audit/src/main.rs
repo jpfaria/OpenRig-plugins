@@ -3,11 +3,10 @@
 //! ao processar pink noise determinístico pela primeira captura
 //! do pacote.
 //!
-//! Issue #413: nivelamento de loudness saiu do runtime
-//! (`engine::auto_max`) e virou metadata estática. Rodar este
-//! binário no repositório `OpenRig-plugins` antes de qualquer
-//! release atualiza o offset persistido em cada plugin pra que o
-//! app possa aplicar como ganho constante.
+//! Issue #413: nivelamento de loudness é metadata estática no
+//! manifest. Rodar este binário antes de qualquer release atualiza
+//! o offset persistido em cada plugin pra que o app possa aplicar
+//! como ganho constante.
 //!
 //! Uso:
 //!

@@ -84,7 +84,7 @@ fn first_capture_file(yaml: &str) -> Option<String> {
 
 #[test]
 #[ignore]
-fn every_audited_amp_outputs_within_3_db_of_every_other() {
+fn every_audited_amp_outputs_within_tolerance_of_every_other() {
     let root = plugins_nam_root();
     assert!(
         root.is_dir(),
