@@ -14,6 +14,7 @@ serde = { version = "1", features = ["derive"] }
 serde_yaml = "0.9"
 thiserror = "1"
 # plugin-loader is the schema/validator/loader crate that lives in the
-# OpenRig main repo. Tracks main since the runtime loader (issue #287)
-# was merged.
-plugin-loader = { git = "https://github.com/jpfaria/OpenRig.git", branch = "main" }
+# OpenRig repo. Tracks `develop` so schema changes (e.g. Bool variant in
+# ParameterValue, #401) reach the bundle workflow at the same dev cycle
+# they ship. Main is reserved for stable releases.
+plugin-loader = { git = "https://github.com/jpfaria/OpenRig.git", branch = "develop" }
