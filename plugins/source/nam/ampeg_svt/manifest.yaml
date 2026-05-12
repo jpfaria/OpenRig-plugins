@@ -3,7 +3,7 @@ id: nam_ampeg_svt
 display_name: SVT
 brand: ampeg
 brand_logo: assets/brand_logo.svg
-output_gain_db: 14.1690054
+output_gain_db: 26.8979912
 type: amp
 backend: nam
 parameters:

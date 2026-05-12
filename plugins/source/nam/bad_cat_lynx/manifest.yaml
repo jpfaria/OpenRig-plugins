@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_bad_cat_lynx
 display_name: bad cat lynx
 brand: bad_cat
-output_gain_db: 10.0379038
+output_gain_db: 10.4348793
 type: amp
 backend: nam
 parameters:

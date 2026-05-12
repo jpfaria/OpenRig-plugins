@@ -4,7 +4,7 @@ display_name: Ecstasy
 brand: bogner
 photo: assets/photo.png
 brand_logo: assets/brand_logo.svg
-output_gain_db: 5.0138083
+output_gain_db: 15.3554401
 type: amp
 backend: nam
 parameters:

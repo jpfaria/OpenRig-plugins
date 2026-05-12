@@ -3,7 +3,7 @@ id: nam_marshall_lead_12
 display_name: Lead 12
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 7.7021780
+output_gain_db: 8.5259113
 type: amp
 backend: nam
 parameters:

@@ -6,7 +6,7 @@ brand: mesa
 brand_logo: assets/brand_logo.svg
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 13.5268250
+output_gain_db: 26.5000267
 type: amp
 backend: nam
 parameters:

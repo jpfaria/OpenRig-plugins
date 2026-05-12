@@ -3,7 +3,7 @@ id: nam_peavey_6505
 display_name: '6505'
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: 2.5634530
+output_gain_db: 7.1670370
 type: amp
 backend: nam
 parameters:

@@ -3,7 +3,7 @@ id: nam_orange_dark_terror
 display_name: Dark Terror
 brand: orange
 brand_logo: assets/brand_logo.svg
-output_gain_db: 3.5171742
+output_gain_db: 3.8366499
 type: amp
 backend: nam
 parameters:

@@ -4,7 +4,7 @@ display_name: JC-120B Jazz Chorus
 brand: roland
 photo: assets/photo.png
 brand_logo: assets/brand_logo.svg
-output_gain_db: 12.2479401
+output_gain_db: 24.5002880
 type: amp
 backend: nam
 parameters: []

@@ -6,7 +6,7 @@ sources:
 - https://www.tone3000.com/tones/6469
 - https://www.tone3000.com/tones/6470
 - https://www.tone3000.com/tones/6791
-output_gain_db: 11.8080320
+output_gain_db: 23.9798317
 type: preamp
 backend: nam
 parameters:

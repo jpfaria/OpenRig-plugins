@@ -3,7 +3,7 @@ id: nam_synergy_tone_king_imperial_mkii
 display_name: Tone King Imperial MKII Module
 brand: synergy
 brand_logo: assets/brand_logo.svg
-output_gain_db: 7.4920826
+output_gain_db: 8.2618904
 type: preamp
 backend: nam
 parameters:

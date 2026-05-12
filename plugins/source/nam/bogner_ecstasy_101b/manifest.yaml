@@ -3,7 +3,7 @@ id: nam_bogner_ecstasy_101b
 display_name: Ecstasy 101B
 brand: bogner
 brand_logo: assets/brand_logo.svg
-output_gain_db: 5.8226147
+output_gain_db: 18.4092865
 type: amp
 backend: nam
 parameters:

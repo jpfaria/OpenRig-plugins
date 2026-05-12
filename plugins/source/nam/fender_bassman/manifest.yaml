@@ -3,7 +3,7 @@ id: nam_fender_bassman
 display_name: Bassman
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 5.0912619
+output_gain_db: 13.1404047
 type: amp
 backend: nam
 parameters:

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_fortin_33
 display_name: '33'
 brand: fortin
-output_gain_db: 5.7948961
+output_gain_db: 5.5060577
 type: amp
 backend: nam
 parameters:
