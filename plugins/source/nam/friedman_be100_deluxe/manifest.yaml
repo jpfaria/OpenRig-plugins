@@ -3,7 +3,7 @@ id: nam_friedman_be100_deluxe
 display_name: BE100 Deluxe
 brand: friedman
 brand_logo: assets/brand_logo.svg
-output_gain_db: 17.7853775
+output_gain_db: 14.0008240
 type: amp
 backend: nam
 parameters:

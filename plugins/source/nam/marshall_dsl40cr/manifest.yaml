@@ -3,7 +3,7 @@ id: nam_marshall_dsl40cr
 display_name: DSL40CR
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 7.9176350
+output_gain_db: 8.9949970
 type: amp
 backend: nam
 parameters:

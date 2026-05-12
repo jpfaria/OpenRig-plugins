@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_dover_da50_mesa
 display_name: DA-50 + Mesa 4u{00d7}12
 brand: dover
-output_gain_db: 7.3576965
+output_gain_db: 6.5672050
 type: amp
 backend: nam
 parameters:

@@ -134,9 +134,9 @@ fn every_audited_amp_outputs_within_tolerance_of_every_other() {
         let report = unsafe { diagnose_model(model) };
         unsafe { close_model_diag(model) };
 
-        // Final RMS = raw output measurement + manifest output_gain_db.
+        // Final PEAK = raw probe peak + manifest output_gain_db.
         // (The runtime applies the gain as `params.output_level_db += manifest_gain_db`.)
-        let final_rms = report.output_rms_dbfs + gain_db;
+        let final_rms = report.output_peak_dbfs + gain_db;
         let name = plugin_dir
             .file_name()
             .and_then(|s| s.to_str())

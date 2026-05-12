@@ -3,7 +3,7 @@ id: nam_peavey_5150_mesa_4x12
 display_name: 5150 + Mesa 4u{00d7}12
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: 5.4606533
+output_gain_db: 3.6008453
 type: amp
 backend: nam
 parameters:

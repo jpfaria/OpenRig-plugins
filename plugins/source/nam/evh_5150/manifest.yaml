@@ -5,7 +5,7 @@ description: Neural capture of the EVH 5150 — Eddie Van Halen's iconic high-ga
 brand: evh
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 9.5858536
+output_gain_db: 6.2628059
 type: amp
 backend: nam
 parameters:

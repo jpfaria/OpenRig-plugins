@@ -5,7 +5,7 @@ brand: bogner
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/6304
-output_gain_db: 12.7432423
+output_gain_db: 10.5194168
 type: amp
 backend: nam
 parameters:

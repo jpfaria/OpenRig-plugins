@@ -3,7 +3,7 @@ id: nam_marshall_jmp_2203
 display_name: JMP 2203
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 10.6084290
+output_gain_db: 11.2421417
 type: amp
 backend: nam
 parameters:

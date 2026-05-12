@@ -3,7 +3,7 @@ id: nam_fender_57_custom_deluxe
 display_name: 57 Custom Deluxe
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 4.0134125
+output_gain_db: 3.6054163
 type: amp
 backend: nam
 parameters:

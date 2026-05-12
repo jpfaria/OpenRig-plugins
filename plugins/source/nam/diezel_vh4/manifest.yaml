@@ -5,7 +5,7 @@ description: Neural capture of the Diezel VH4 — a modern high-gain German amp.
 brand: diezel
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 8.9991970
+output_gain_db: 8.1595879
 type: preamp
 backend: nam
 parameters:

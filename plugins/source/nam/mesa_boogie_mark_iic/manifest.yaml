@@ -3,7 +3,7 @@ id: nam_mesa_boogie_mark_iic
 display_name: Mark IIC
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 15.3911018
+output_gain_db: 11.1191025
 type: amp
 backend: nam
 parameters:

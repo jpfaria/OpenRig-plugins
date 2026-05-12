@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_jet_city_jca22h
 display_name: Jet City - JCA22H
 brand: jet
-output_gain_db: 3.0213079
+output_gain_db: 5.9980288
 type: amp
 backend: nam
 parameters:

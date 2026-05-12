@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_hughes_and_kettner_tubemeister
 display_name: and TubeMeister
 brand: hughes_kettner
-output_gain_db: 8.4242668
+output_gain_db: 7.7093391
 type: amp
 backend: nam
 parameters:

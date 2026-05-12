@@ -23,10 +23,12 @@ use std::path::{Path, PathBuf};
 use nam::loudness_probe::diagnose_model;
 use nam::processor::{close_model_diag, open_model_diag};
 
-/// RMS target em dBFS — pra onde cada NAM deve convergir após o
-/// ganho persistido ser aplicado. Conservador, dá ~9 dB de
-/// headroom até 0 dBFS pra captures de baixo crest factor.
-const TARGET_RMS_DBFS: f32 = -10.0;
+/// PEAK target em dBFS — pra onde o pico de cada NAM deve convergir
+/// após o ganho persistido. -1 dBFS dá 1 dB de margem do DAC e
+/// garante zero clipping no signal puro do amp. Mirar o PEAK (em
+/// vez do RMS) impede que clean amps de crest factor alto sejam
+/// boostados acima do teto: o pico já vira o critério.
+const TARGET_PEAK_DBFS: f32 = -1.0;
 
 /// Mínimo de ganho persistido. Pode ser NEGATIVO — captures que
 /// saem naturalmente acima do target (Bogner Synergy, Vox AC15,
@@ -57,11 +59,11 @@ fn main() -> Result<()> {
 
     let mut audited = 0usize;
     let mut skipped = 0usize;
-    eprintln!("target RMS: {TARGET_RMS_DBFS:+.2} dBFS");
+    eprintln!("target peak: {TARGET_PEAK_DBFS:+.2} dBFS");
     eprintln!();
     eprintln!(
         "{:<48} {:>10} {:>10} {:>10}",
-        "plugin", "out_rms", "raw_gain", "applied"
+        "plugin", "out_peak", "raw_gain", "applied"
     );
 
     let mut entries: Vec<PathBuf> = fs::read_dir(&root)?
@@ -77,7 +79,7 @@ fn main() -> Result<()> {
         }
         match audit_plugin(&plugin_dir, &manifest_path) {
             Ok(AuditResult {
-                measured_rms_dbfs,
+                measured_peak_dbfs,
                 raw_gain_db,
                 applied_gain_db,
             }) => {
@@ -87,7 +89,7 @@ fn main() -> Result<()> {
                     .unwrap_or("<?>");
                 eprintln!(
                     "{:<48} {:>+9.2}  {:>+9.2}  {:>+9.2}",
-                    label, measured_rms_dbfs, raw_gain_db, applied_gain_db
+                    label, measured_peak_dbfs, raw_gain_db, applied_gain_db
                 );
                 audited += 1;
             }
@@ -108,7 +110,7 @@ fn main() -> Result<()> {
 }
 
 struct AuditResult {
-    measured_rms_dbfs: f32,
+    measured_peak_dbfs: f32,
     raw_gain_db: f32,
     applied_gain_db: f32,
 }
@@ -133,8 +135,8 @@ fn audit_plugin(plugin_dir: &Path, manifest_path: &Path) -> Result<AuditResult> 
     let report = unsafe { diagnose_model(model) };
     unsafe { close_model_diag(model) };
 
-    let measured = report.output_rms_dbfs;
-    let raw_gain = TARGET_RMS_DBFS - measured;
+    let measured = report.output_peak_dbfs;
+    let raw_gain = TARGET_PEAK_DBFS - measured;
     let applied = raw_gain.clamp(MIN_GAIN_DB, MAX_GAIN_DB);
 
     let updated = upsert_output_gain_db(&raw, applied);
@@ -142,7 +144,7 @@ fn audit_plugin(plugin_dir: &Path, manifest_path: &Path) -> Result<AuditResult> 
         .with_context(|| format!("write {}", manifest_path.display()))?;
 
     Ok(AuditResult {
-        measured_rms_dbfs: measured,
+        measured_peak_dbfs: measured,
         raw_gain_db: raw_gain,
         applied_gain_db: applied,
     })

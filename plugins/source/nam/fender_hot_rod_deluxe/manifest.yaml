@@ -5,7 +5,7 @@ brand: fender
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/6023
-output_gain_db: 5.4634781
+output_gain_db: 4.0595589
 type: amp
 backend: nam
 parameters:

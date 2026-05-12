@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_mesaboogie_290_simul_class
 display_name: MesaBoogie 290 Simul-Class
 brand: mesaboogie
-output_gain_db: 23.5110054
+output_gain_db: 19.2593918
 type: amp
 backend: nam
 parameters:

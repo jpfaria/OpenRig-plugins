@@ -5,7 +5,7 @@ description: Neural capture of the Panama Shaman — boutique high-gain amp with
 brand: panama
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 23.8562164
+output_gain_db: 20.4603615
 type: preamp
 backend: nam
 parameters:

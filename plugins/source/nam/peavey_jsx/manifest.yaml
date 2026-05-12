@@ -3,7 +3,7 @@ id: nam_peavey_jsx
 display_name: JSX
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: 2.9282780
+output_gain_db: 4.1816244
 type: amp
 backend: nam
 parameters:

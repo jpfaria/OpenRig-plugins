@@ -3,7 +3,7 @@ id: nam_mesa_boogie_dc_5
 display_name: DC-5
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 8.5427628
+output_gain_db: 5.9923120
 type: amp
 backend: nam
 parameters:

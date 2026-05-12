@@ -3,7 +3,7 @@ id: nam_engl_powerball_ii
 display_name: Powerball II
 brand: engl
 brand_logo: assets/brand_logo.svg
-output_gain_db: 7.0166016
+output_gain_db: 4.8063288
 type: amp
 backend: nam
 parameters:

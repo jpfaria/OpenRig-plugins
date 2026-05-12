@@ -3,7 +3,7 @@ id: nam_marshall_jtm45
 display_name: JTM45
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 14.5963078
+output_gain_db: 10.4570293
 type: amp
 backend: nam
 parameters:
