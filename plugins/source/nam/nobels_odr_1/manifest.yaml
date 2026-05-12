@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_nobels_odr_1
 display_name: Nobels ODR-1
 brand: nobels
+output_gain_db: 25.3467712
 type: gain_pedal
 backend: nam
 parameters:

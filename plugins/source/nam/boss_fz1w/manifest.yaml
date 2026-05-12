@@ -3,6 +3,7 @@ id: nam_boss_fz1w
 display_name: FZ-1W Fuzz
 brand: boss
 brand_logo: assets/brand_logo.svg
+output_gain_db: 0.3866339
 type: gain_pedal
 backend: nam
 parameters:

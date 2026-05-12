@@ -3,6 +3,7 @@ id: nam_boss_ds1
 display_name: DS-1 Distortion
 brand: boss
 brand_logo: assets/brand_logo.svg
+output_gain_db: 1.0881615
 type: gain_pedal
 backend: nam
 parameters:

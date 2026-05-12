@@ -34,7 +34,7 @@ use std::env;
 use std::path::PathBuf;
 
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
-use nam_loudness_audit::catalog::list_amp_preamp;
+use nam_loudness_audit::catalog::list_loudness_normalisable;
 use nam_loudness_audit::loudness::{
     apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
 };
@@ -54,9 +54,12 @@ const TOLERANCE_LU: f32 = 3.0;
 #[ignore = "requires NAM lib + plugins root via OPENRIG_PLUGINS_NAM_TEST_ROOT or OPENRIG_PLUGINS_ROOT"]
 fn catalog_meets_lufs_target() -> Result<()> {
     let root = nam_root_from_env()?;
-    let entries = list_amp_preamp(&root)?;
+    let entries = list_loudness_normalisable(&root)?;
     if entries.is_empty() {
-        panic!("no amp/preamp plugins found under {}", root.display());
+        panic!(
+            "no amp/preamp/gain_pedal plugins found under {}",
+            root.display()
+        );
     }
 
     let di = default_guitar_di();
@@ -129,7 +132,7 @@ fn catalog_meets_lufs_target() -> Result<()> {
             eprintln!("FAIL: {id} → {lufs:.2} LUFS ({delta:+.2} LU off target)");
         }
         panic!(
-            "{} of {} amp/preamp plugins outside LUFS tolerance",
+            "{} of {} loudness-normalisable plugins outside LUFS tolerance",
             failures.len(),
             entries.len()
         );

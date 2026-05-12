@@ -3,6 +3,7 @@ id: nam_jhs_bonsai
 display_name: Bonsai (9 TS)
 brand: jhs
 brand_logo: assets/brand_logo.png
+output_gain_db: 24.8815994
 type: gain_pedal
 backend: nam
 parameters:

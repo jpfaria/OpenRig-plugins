@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_klon_centaur
 display_name: Klon Centaur Silver
 brand: klon
+output_gain_db: 12.3637123
 type: gain_pedal
 backend: nam
 parameters:

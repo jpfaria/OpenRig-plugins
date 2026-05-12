@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_klone
 display_name: Klone
 brand: electro-harmonix
+output_gain_db: 20.6683388
 type: gain_pedal
 backend: nam
 parameters: []

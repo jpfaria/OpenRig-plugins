@@ -3,6 +3,7 @@ id: nam_tcip
 display_name: TCIP
 brand: tc-electronic
 brand_logo: assets/brand_logo.svg
+output_gain_db: 17.0692940
 type: gain_pedal
 backend: nam
 parameters: []

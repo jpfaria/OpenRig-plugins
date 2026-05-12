@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_earthquaker_plumes
 display_name: EarthQuaker Plumes
 brand: earthquaker
+output_gain_db: 27.2011032
 type: gain_pedal
 backend: nam
 parameters:

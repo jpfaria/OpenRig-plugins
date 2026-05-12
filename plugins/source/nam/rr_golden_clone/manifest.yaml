@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_rr_golden_clone
 display_name: Golden Clone
 brand: klon
+output_gain_db: 11.5419617
 type: gain_pedal
 backend: nam
 parameters:

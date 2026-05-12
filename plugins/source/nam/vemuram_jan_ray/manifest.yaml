@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_vemuram_jan_ray
 display_name: Jan Ray
 brand: vemuram
+output_gain_db: 10.8272781
 type: gain_pedal
 backend: nam
 parameters:

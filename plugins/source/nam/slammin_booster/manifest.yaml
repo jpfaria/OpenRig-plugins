@@ -3,6 +3,7 @@ id: nam_slammin_booster
 display_name: Slammin Clean Booster
 brand: jhs
 brand_logo: assets/brand_logo.png
+output_gain_db: 24.1564484
 type: gain_pedal
 backend: nam
 parameters:

@@ -3,6 +3,7 @@ id: nam_boss_ds1_wampler
 display_name: DS-1 Wampler JCM Mod
 brand: boss
 brand_logo: assets/brand_logo.svg
+output_gain_db: 18.9989567
 type: gain_pedal
 backend: nam
 parameters:

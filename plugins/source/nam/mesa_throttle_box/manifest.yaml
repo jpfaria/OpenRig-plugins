@@ -3,6 +3,7 @@ id: nam_mesa_throttle_box
 display_name: Mesa Throttle Box
 brand: mesa
 brand_logo: assets/brand_logo.svg
+output_gain_db: 12.2849808
 type: gain_pedal
 backend: nam
 parameters:

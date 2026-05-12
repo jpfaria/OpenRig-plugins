@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_tube_driver
 display_name: Tube Driver
 brand: tube
+output_gain_db: 30.0000000
 type: gain_pedal
 backend: nam
 parameters:

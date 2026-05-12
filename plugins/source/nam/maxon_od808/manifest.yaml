@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_maxon_od808
 display_name: OD808 Overdrive
 brand: maxon
+output_gain_db: 14.6457195
 type: gain_pedal
 backend: nam
 parameters:

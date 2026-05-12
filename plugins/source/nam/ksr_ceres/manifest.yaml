@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_ksr_ceres
 display_name: KSR Ceres
 brand: ksr
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

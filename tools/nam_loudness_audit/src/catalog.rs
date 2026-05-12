@@ -18,7 +18,7 @@ pub struct CatalogEntry {
     pub output_gain_db: Option<f32>,
 }
 
-pub fn list_amp_preamp(root: &Path) -> Result<Vec<CatalogEntry>> {
+pub fn list_loudness_normalisable(root: &Path) -> Result<Vec<CatalogEntry>> {
     if !root.is_dir() {
         bail!("not a directory: {}", root.display());
     }
@@ -37,7 +37,7 @@ pub fn list_amp_preamp(root: &Path) -> Result<Vec<CatalogEntry>> {
         let raw = fs::read_to_string(&manifest)
             .with_context(|| format!("read {}", manifest.display()))?;
         let block_type = manifest_field(&raw, "type").unwrap_or_default();
-        if !is_amp_or_preamp(&block_type) {
+        if !is_loudness_normalisable(&block_type) {
             continue;
         }
         let capture_file = first_capture_file(&raw)
@@ -59,8 +59,11 @@ pub fn list_amp_preamp(root: &Path) -> Result<Vec<CatalogEntry>> {
     Ok(out)
 }
 
-fn is_amp_or_preamp(block_type: &str) -> bool {
-    matches!(block_type, "amp" | "preamp")
+/// Mirrors `main.rs::is_loudness_normalisable`. Tipos cujo
+/// `output_gain_db` é populado pelo audit pra preservar volume
+/// quando o bloco entra/sai da chain.
+fn is_loudness_normalisable(block_type: &str) -> bool {
+    matches!(block_type, "amp" | "preamp" | "gain_pedal")
 }
 
 /// Reads a top-level scalar field from the manifest (`field: value`).

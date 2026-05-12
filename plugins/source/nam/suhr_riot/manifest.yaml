@@ -3,6 +3,7 @@ id: nam_suhr_riot
 display_name: Suhr Riot
 brand: suhr
 brand_logo: assets/brand_logo.svg
+output_gain_db: 24.8492661
 type: gain_pedal
 backend: nam
 parameters:

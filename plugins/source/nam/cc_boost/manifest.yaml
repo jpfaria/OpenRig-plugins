@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_cc_boost
 display_name: CC Boost
 brand: custom
+output_gain_db: 16.0422325
 type: gain_pedal
 backend: nam
 parameters: []

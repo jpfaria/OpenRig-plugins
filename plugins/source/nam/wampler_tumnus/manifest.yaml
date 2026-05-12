@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_wampler_tumnus
 display_name: Wampler Tumnus
 brand: wampler
+output_gain_db: 12.5381165
 type: gain_pedal
 backend: nam
 parameters:

@@ -3,6 +3,7 @@ id: nam_darkglass_alpha_omega
 display_name: Alpha Omega Ultra
 brand: darkglass
 brand_logo: assets/brand_logo.svg
+output_gain_db: 7.2213650
 type: gain_pedal
 backend: nam
 parameters:

@@ -3,6 +3,7 @@ id: nam_boss_fz_2_hyper_fuzz
 display_name: Boss FZ-2 Hyper Fuzz
 brand: boss
 brand_logo: assets/brand_logo.svg
+output_gain_db: 15.9490852
 type: gain_pedal
 backend: nam
 parameters:

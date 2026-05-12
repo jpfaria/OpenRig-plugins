@@ -207,8 +207,19 @@ fn manifest_block_type(yaml: &str) -> Option<String> {
     None
 }
 
+/// Blocks que ENTRAM no nivelamento de loudness. Cada um ganha
+/// `output_gain_db` calibrado pra que ligar/desligar o bloco na
+/// chain NÃO mude o volume percebido — só o tom/saturação.
+///
+/// Inclui `gain_pedal` (issue #413, segunda fase): adicionar/remover
+/// um Klon/TS9 da chain não pode mexer no volume final. O knob de
+/// level do pedal continua funcionando como knob de level — é
+/// parâmetro do MODELO NAM, ortogonal ao manifest gain.
+///
+/// Cab/body/eq ficam de fora: são pure spectral shapers que não
+/// carregam loudness signature própria.
 fn is_loudness_normalisable(block_type: &str) -> bool {
-    matches!(block_type, "amp" | "preamp")
+    matches!(block_type, "amp" | "preamp" | "gain_pedal")
 }
 
 fn first_capture_file(yaml: &str) -> Option<String> {
@@ -295,11 +306,11 @@ mod tests {
     }
 
     #[test]
-    fn loudness_normalisable_only_for_amp_and_preamp() {
-        for ok in ["amp", "preamp"] {
+    fn loudness_normalisable_includes_amp_preamp_and_gain_pedal() {
+        for ok in ["amp", "preamp", "gain_pedal"] {
             assert!(is_loudness_normalisable(ok));
         }
-        for skip in ["gain_pedal", "cab", "body", "reverb", "delay"] {
+        for skip in ["cab", "body", "reverb", "delay", "filter", "utility"] {
             assert!(!is_loudness_normalisable(skip));
         }
     }

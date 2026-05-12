@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_sadowsky_sbp_2_bass
 display_name: Sadowsky SBP-2 Bass
 brand: sadowsky
+output_gain_db: 7.3632851
 type: gain_pedal
 backend: nam
 parameters:

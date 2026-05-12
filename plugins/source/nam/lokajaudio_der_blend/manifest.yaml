@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_lokajaudio_der_blend
 display_name: Der Blend
 brand: lokajaudio
+output_gain_db: 19.7762680
 type: gain_pedal
 backend: nam
 parameters:

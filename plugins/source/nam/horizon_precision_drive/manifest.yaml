@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_horizon_precision_drive
 display_name: Horizon Precision Drive
 brand: horizon_devices
+output_gain_db: 25.0123367
 type: gain_pedal
 backend: nam
 parameters:

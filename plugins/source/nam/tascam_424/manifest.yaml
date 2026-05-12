@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_tascam_424
 display_name: Tascam 424 Preamp
 brand: tascam
+output_gain_db: 17.5051479
 type: gain_pedal
 backend: nam
 parameters:

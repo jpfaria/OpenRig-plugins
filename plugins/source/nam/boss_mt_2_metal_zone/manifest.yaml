@@ -3,6 +3,7 @@ id: nam_boss_mt_2_metal_zone
 display_name: Boss MT-2 Metal Zone
 brand: boss
 brand_logo: assets/brand_logo.svg
+output_gain_db: 9.4492817
 type: gain_pedal
 backend: nam
 parameters:

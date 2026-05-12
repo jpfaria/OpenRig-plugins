@@ -2,6 +2,7 @@ manifest_version: 1
 id: nam_fulltone_full_drive_2
 display_name: Fulltone Full-Drive 2
 brand: fulltone
+output_gain_db: 2.5418282
 type: gain_pedal
 backend: nam
 parameters:

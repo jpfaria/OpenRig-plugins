@@ -3,6 +3,7 @@ id: nam_jhs_morning_glory
 display_name: JHS Morning Glory
 brand: jhs
 brand_logo: assets/brand_logo.png
+output_gain_db: 12.8953819
 type: gain_pedal
 backend: nam
 parameters:
