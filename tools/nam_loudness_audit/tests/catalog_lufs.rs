@@ -1,22 +1,28 @@
 //! Real-signal LUFS catalog test (issue #413, anti-tautology).
 //!
-//! O teste pink-noise antigo (`catalog_levelling.rs`) é tautológico:
-//! audit calcula gain pra fazer peak bater, teste mede peak com mesmo
-//! probe e gain. Sempre passa. NÃO prova nada sobre o que o ouvido
-//! humano percebe na chain real.
+//! O teste pink-noise antigo só validava que o audit é internamente
+//! consistente: ele recalcula peak com o MESMO probe que o audit
+//! usou pra calcular o gain, então sempre passa. Não diz nada sobre
+//! loudness perceptual real. Substituído por este.
 //!
-//! Este teste:
-//! 1. Gera DI sintético (Karplus-Strong power chords) com peak típico
-//!    de guitarra real (-15 dBFS).
-//! 2. Pra cada amp/preamp do catálogo: passa pelo NAM, soma o
-//!    `output_gain_db` do manifest.
-//! 3. Mede LUFS integrated (BS.1770, perceptual).
-//! 4. Falha se algum amp sair além de TOLERANCE_LU do TARGET_LUFS.
+//! Pipeline mede 2 estágios:
+//! 1. PRE-LIMITER: NAM puro + manifest gain. É isso que o audit
+//!    optimiza — onde o gain deve aterrissar.
+//! 2. POST-LIMITER: mesmo signal passado pelo `output_limiter`
+//!    (mirror do `runtime_dsp::output_limiter`). Mostra quanto o
+//!    soft tanh come perceived loudness — pra signal com peak
+//!    naturalmente dentro do ceiling, perda ≈ 0; pra peaks acima,
+//!    perda cresce rápido.
+//!
+//! O teste falha se o catálogo PRE-LIMITER não estiver dentro de
+//! TOLERANCE_LU do TARGET_LUFS, e LOGA a perda do limiter pra que
+//! a gente saiba se o audit precisa baixar o target pra dar margem
+//! ao limiter.
 //!
 //! Marcado `#[ignore]` porque depende:
 //! - da lib NAM (libNeuralAudioCAPI.dylib) já compilada;
-//! - da env var `OPENRIG_PLUGINS_NAM_TEST_ROOT` (ou
-//!   `OPENRIG_PLUGINS_ROOT` — usa `<root>/nam` automático).
+//! - da env var `OPENRIG_PLUGINS_NAM_TEST_ROOT` ou
+//!   `OPENRIG_PLUGINS_ROOT` (usa `<root>/nam` automático).
 //!
 //! Rodar com:
 //!     OPENRIG_PLUGINS_NAM_TEST_ROOT=$(pwd)/plugins/source/nam \
@@ -29,18 +35,19 @@ use std::path::PathBuf;
 
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
 use nam_loudness_audit::catalog::list_amp_preamp;
+use nam_loudness_audit::loudness::{
+    apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
+};
 use nam_loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
-/// Loudness target em LUFS integrated. -14 LUFS é o standard de
-/// streaming (Spotify / Apple Music) e funciona como referência audível
-/// neutra: alto o suficiente pra ser percebido em fone modesto, com
-/// headroom pra dinâmica.
-const TARGET_LUFS: f32 = -14.0;
+/// Loudness target em LUFS integrated. Bate com o TARGET do audit
+/// — se mudar lá, mudar aqui também (estão acoplados de propósito).
+const TARGET_LUFS: f32 = -10.0;
 
 /// Tolerância em LU. ±3 LU = ~6 dB de spread permitido entre o amp
-/// mais alto e o mais baixo. Aceitável: clean jazz amp soa um pouco
-/// mais quieto que high-gain saturado por física do modelo, mas a
-/// brecha não pode ser absurda.
+/// mais alto e o mais baixo. Aceitável: clean amps com crest factor
+/// alto não chegam ao mesmo LUFS de saturated por física, sobem
+/// até o teto do peak ceiling — diff residual fica nessa banda.
 const TOLERANCE_LU: f32 = 3.0;
 
 #[test]
@@ -56,37 +63,65 @@ fn catalog_meets_lufs_target() -> Result<()> {
 
     println!();
     println!("DI: {} samples @ {} Hz, peak -15 dBFS", di.len(), DI_SAMPLE_RATE as u32);
-    println!("target: {TARGET_LUFS:.2} LUFS, tolerance ±{TOLERANCE_LU:.2} LU");
+    println!("target: {TARGET_LUFS:+.2} LUFS, tolerance ±{TOLERANCE_LU:.2} LU");
     println!();
-    println!("{:<48} {:>10} {:>10}", "plugin", "lufs", "delta");
+    println!(
+        "{:<48} {:>9} {:>9} {:>9} {:>9} {:>9}",
+        "plugin", "lufs", "peak", "lufs_lim", "lim_loss", "delta"
+    );
 
     let mut failures = Vec::new();
+    let mut limiter_losses = Vec::new();
+
     for e in &entries {
         let model_path = e
             .capture_path
             .to_str()
             .ok_or_else(|| anyhow::anyhow!("non-utf8 path"))?;
         let model = open_model_diag(model_path)?;
-        let mut out = vec![0.0_f32; di.len()];
+        let mut pre = vec![0.0_f32; di.len()];
         unsafe {
-            nam_process(model, &di, &mut out);
+            nam_process(model, &di, &mut pre);
             close_model_diag(model);
         }
 
         let gain_db = e.output_gain_db.unwrap_or(0.0);
         let g = db_to_lin(gain_db);
-        for s in out.iter_mut() {
+        for s in pre.iter_mut() {
             *s *= g;
         }
 
-        let lufs = measure_integrated_lufs(&out);
-        let delta = lufs - TARGET_LUFS;
+        let lufs_pre = integrated_lufs(&pre, DI_SAMPLE_RATE as u32);
+        let peak_pre = peak_dbfs(&pre);
+
+        // Mirror runtime: same signal post-output_limiter.
+        let mut post = pre.clone();
+        apply_output_limiter(&mut post);
+        let lufs_post = integrated_lufs(&post, DI_SAMPLE_RATE as u32);
+        let lim_loss = lufs_pre - lufs_post; // positive = loudness lost
+
+        let delta = lufs_pre - TARGET_LUFS;
         let marker = if delta.abs() > TOLERANCE_LU { " FAIL" } else { "" };
-        println!("{:<48} {:>9.2}  {:>+9.2}{}", e.plugin_id, lufs, delta, marker);
+        println!(
+            "{:<48} {:>+8.2}  {:>+8.2}  {:>+8.2}  {:>+8.2}  {:>+8.2}{}",
+            e.plugin_id, lufs_pre, peak_pre, lufs_post, lim_loss, delta, marker
+        );
+
+        limiter_losses.push((e.plugin_id.clone(), lim_loss, peak_pre));
         if delta.abs() > TOLERANCE_LU {
-            failures.push((e.plugin_id.clone(), lufs, delta));
+            failures.push((e.plugin_id.clone(), lufs_pre, delta));
         }
     }
+
+    println!();
+    println!("=== Limiter loss top 10 (perceived loudness eaten by tanh) ===");
+    let mut sorted = limiter_losses.clone();
+    sorted.sort_by(|a, b| b.1.partial_cmp(&a.1).unwrap_or(std::cmp::Ordering::Equal));
+    for (id, loss, peak) in sorted.iter().take(10) {
+        println!("  {id:<46} loss {loss:>5.2} LU   pre-peak {peak:>+6.2} dBFS");
+    }
+    let avg_loss = limiter_losses.iter().map(|x| x.1).sum::<f32>() / limiter_losses.len() as f32;
+    println!("avg limiter loss: {avg_loss:.2} LU");
 
     println!();
     if !failures.is_empty() {
@@ -113,16 +148,4 @@ fn nam_root_from_env() -> Result<PathBuf> {
         "set OPENRIG_PLUGINS_NAM_TEST_ROOT (= /path/to/plugins/source/nam) \
          or OPENRIG_PLUGINS_ROOT (= /path/to/plugins/source)"
     )
-}
-
-fn db_to_lin(db: f32) -> f32 {
-    10f32.powf(db / 20.0)
-}
-
-fn measure_integrated_lufs(samples: &[f32]) -> f32 {
-    let mut meter = bs1770::ChannelLoudnessMeter::new(DI_SAMPLE_RATE as u32);
-    meter.push(samples.iter().copied());
-    let windows = meter.into_100ms_windows();
-    let gated = bs1770::gated_mean(windows.as_ref());
-    gated.loudness_lkfs()
 }

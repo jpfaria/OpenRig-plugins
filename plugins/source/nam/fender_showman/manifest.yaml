@@ -3,7 +3,7 @@ id: nam_fender_showman
 display_name: Showman
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 7.7658758
+output_gain_db: 3.6674690
 type: amp
 backend: nam
 parameters:

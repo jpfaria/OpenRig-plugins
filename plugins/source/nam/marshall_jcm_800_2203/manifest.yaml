@@ -4,7 +4,7 @@ display_name: JCM 800 2203
 brand: marshall
 photo: assets/photo.png
 brand_logo: assets/brand_logo.svg
-output_gain_db: 3.3148847
+output_gain_db: 5.0378056
 type: preamp
 backend: nam
 parameters:

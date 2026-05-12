@@ -6,6 +6,8 @@
 //! - [`catalog`] — minimal plugin walker (lists amp/preamp NAM plugins
 //!   under a root, parses just enough YAML to know `type`, first
 //!   capture file, and `output_gain_db`).
+//! - [`loudness`] — BS.1770 LUFS, peak, runtime-mirror output_limiter.
 
 pub mod catalog;
+pub mod loudness;
 pub mod synthetic_di;

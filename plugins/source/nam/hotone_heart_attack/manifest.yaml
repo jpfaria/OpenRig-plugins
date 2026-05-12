@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_hotone_heart_attack
 display_name: Hotone Heart Attack
 brand: hotone
-output_gain_db: 8.2056131
+output_gain_db: 5.6582565
 type: amp
 backend: nam
 parameters:

@@ -6,7 +6,7 @@ brand: fender
 brand_logo: assets/brand_logo.svg
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 10.2524185
+output_gain_db: 8.5623846
 type: preamp
 backend: nam
 parameters:

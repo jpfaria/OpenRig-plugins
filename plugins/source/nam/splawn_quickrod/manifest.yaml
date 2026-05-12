@@ -4,7 +4,7 @@ display_name: Quickrod
 brand: splawn
 sources:
 - https://www.tone3000.com/tones/5169
-output_gain_db: 21.5482483
+output_gain_db: 17.7979240
 type: amp
 backend: nam
 parameters:

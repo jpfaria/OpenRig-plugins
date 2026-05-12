@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_randall_rg100es
 display_name: Randall RG100es
 brand: randall
-output_gain_db: 25.5960426
+output_gain_db: 18.9624500
 type: amp
 backend: nam
 parameters:

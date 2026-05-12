@@ -4,7 +4,7 @@ display_name: E300T
 brand: eden
 sources:
 - https://www.tone3000.com/tones/39392
-output_gain_db: 23.1630192
+output_gain_db: 18.4119225
 type: amp
 backend: nam
 parameters:

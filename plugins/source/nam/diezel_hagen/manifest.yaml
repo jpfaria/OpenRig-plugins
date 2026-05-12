@@ -4,7 +4,7 @@ display_name: Hagen
 brand: diezel
 sources:
 - https://www.tone3000.com/tones/36683
-output_gain_db: 3.5008507
+output_gain_db: 7.7292366
 type: amp
 backend: nam
 parameters:

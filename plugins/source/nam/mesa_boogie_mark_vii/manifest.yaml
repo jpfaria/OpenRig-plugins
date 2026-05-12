@@ -3,7 +3,7 @@ id: nam_mesa_boogie_mark_vii
 display_name: Mark VII
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 18.9147816
+output_gain_db: 12.8518257
 type: amp
 backend: nam
 parameters:

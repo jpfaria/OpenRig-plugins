@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_wizard_hellrazor
 display_name: Wizard HellRazor
 brand: wizard
-output_gain_db: 10.5040646
+output_gain_db: 5.1213369
 type: amp
 backend: nam
 parameters:

@@ -3,7 +3,7 @@ id: nam_fender_princeton_reverb_1972
 display_name: Princeton Reverb 1972
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 29.0583191
+output_gain_db: 22.6242752
 type: amp
 backend: nam
 parameters:

@@ -3,7 +3,7 @@ id: nam_marshall_plexi_50w
 display_name: Plexi 50W
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 3.9287190
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

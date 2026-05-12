@@ -5,7 +5,7 @@ description: Neural capture of the Electro-Harmonix 22 Caliber — compact power
 brand: electro-harmonix
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 11.5204983
+output_gain_db: 6.7318163
 type: preamp
 backend: nam
 parameters:

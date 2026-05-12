@@ -3,7 +3,7 @@ id: nam_marshall_jmp_1_head
 display_name: JMP-1 Head
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 13.3379450
+output_gain_db: 8.9926033
 type: amp
 backend: nam
 parameters: []

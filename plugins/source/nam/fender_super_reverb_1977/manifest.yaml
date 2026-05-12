@@ -3,7 +3,7 @@ id: nam_fender_super_reverb_1977
 display_name: Super Reverb 1977
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 29.8906479
+output_gain_db: 24.2510185
 type: amp
 backend: nam
 parameters:
