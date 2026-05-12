@@ -5,7 +5,7 @@ edition.workspace = true
 
 [dependencies]
 anyhow.workspace = true
-nam = { git = "https://github.com/jpfaria/OpenRig.git", branch = "bugfix/issue-413" }
+nam = { git = "https://github.com/jpfaria/OpenRig.git", branch = "develop" }
 bs1770 = "1"
 
 [[bin]]
