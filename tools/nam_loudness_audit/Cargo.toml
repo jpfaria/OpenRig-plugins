@@ -5,8 +5,13 @@ edition.workspace = true
 
 [dependencies]
 anyhow.workspace = true
-nam = { git = "https://github.com/jpfaria/OpenRig.git", branch = "develop" }
+nam = { git = "https://github.com/jpfaria/OpenRig.git", branch = "bugfix/issue-413" }
+bs1770 = "1"
 
 [[bin]]
 name = "nam_loudness_audit"
 path = "src/main.rs"
+
+[lib]
+name = "nam_loudness_audit"
+path = "src/lib.rs"
