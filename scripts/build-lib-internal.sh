@@ -308,6 +308,7 @@ build_gxplugins() {
             extra_include="-I$zita_dir"
         fi
 
+        local errlog="$BUILD_WORK_DIR/gxplugins_${name}.err"
         # shellcheck disable=SC2086
         if "$compiler" -std=c++11 \
             $arch_flags \
@@ -316,10 +317,13 @@ build_gxplugins() {
             -fPIC -DPIC -O2 \
             -Wno-duplicate-decl-specifier -Wno-macro-redefined \
             $target_flags -o "$OUTPUT_DIR/${name}.${output_ext}" \
-            "$patched" -lm 2>/dev/null; then
+            "$patched" -lm 2>"$errlog"; then
             echo "  OK ($target): $name"
+            rm -f "$errlog"
         else
             echo "  FAIL ($target): $name"
+            # First few error lines help diagnose missing header / undefined symbol
+            sed -n '1,8p' "$errlog" | sed "s/^/    | /"
         fi
 
         rm -f "$patched"
