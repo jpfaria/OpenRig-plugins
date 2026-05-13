@@ -279,7 +279,11 @@ build_gxplugins() {
     else
         target="mingw"
         compiler="${CXX:-g++}"
-        arch_flags=""
+        # MinGW64 libc/STL does not transitively expose <cstdint>/<cstddef>,
+        # while GxPlugins sources rely on int32_t et al. being visible without
+        # an explicit include. Force-include the header instead of patching
+        # every .cpp upstream.
+        arch_flags="-include cstdint -include cstddef"
         target_flags="-shared"
         output_ext="dll"
     fi
