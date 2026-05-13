@@ -303,7 +303,12 @@ jobs:
           path: output/
 
   # Place each .so/.dylib/.dll under plugins/source/lv2/<plugin>/platform/<plat>/
-  # by reading the binary file name out of each plugin's manifest.yaml.
+  # and update the matching plugin's manifest.yaml. A binary is matched to a
+  # plugin by basename without extension across ANY platform already declared
+  # in the manifest — that way a freshly-built Windows .dll lands next to its
+  # Linux/macOS siblings even though the manifest does not yet declare
+  # binaries.windows-x64. The manifest is then updated in place so subsequent
+  # runs can dispatch via the direct lookup.
   commit-libs:
     needs: [detect-changes, linux-x86_64, linux-aarch64, macos-universal, windows-x64, windows-arm64]
     if: always() && needs.detect-changes.outputs.has_changes == 'true'
@@ -329,12 +334,11 @@ jobs:
       - name: Dispatch binaries into plugins/source/lv2/<plugin>/platform/<plat>/
         run: |
           set -euo pipefail
-          # For each artifact dir <plat>-<recipe>/, walk every binary and
-          # find which plugin manifest expects it on that platform. Recipe
-          # names can contain dashes (e.g. "dragonfly-reverb"), so the
-          # platform is matched against the known set rather than parsed
-          # by simple splitting.
-          updates=0
+          # Artifact directory names are "<platform>-<recipe>". Recipe names
+          # can contain dashes (dragonfly-reverb), so the platform is matched
+          # against the known set rather than parsed by splitting.
+          placed=0
+          manifest_writes=0
           for art in artifacts/*/; do
             [ -d "$art" ] || continue
             base=$(basename "$art")
@@ -349,27 +353,45 @@ jobs:
             for bin in "$art"*; do
               [ -f "$bin" ] || continue
               bname=$(basename "$bin")
-              # find plugin whose manifest.binaries.<platform> ends with this file
+              stem="${bname%.*}"
+
+              # Find the manifest whose declared binaries (on ANY platform)
+              # share this basename without extension. That lets a brand-new
+              # Windows .dll resolve to the plugin folder whose Linux .so has
+              # the same stem, even before the manifest claims windows-x64.
               matched=""
               for manifest in plugins/source/lv2/*/manifest.yaml; do
-                expected=$(yq -r ".binaries.\"$platform\" // \"\"" "$manifest")
-                [ -n "$expected" ] || continue
-                if [ "$(basename "$expected")" = "$bname" ]; then
-                  matched=$(dirname "$manifest")
-                  break
-                fi
+                while IFS= read -r expected; do
+                  [ -n "$expected" ] && [ "$expected" != "null" ] || continue
+                  expected_stem="$(basename "$expected")"
+                  expected_stem="${expected_stem%.*}"
+                  if [ "$expected_stem" = "$stem" ]; then
+                    matched=$(dirname "$manifest")
+                    break 2
+                  fi
+                done < <(yq -r '.binaries // {} | .[]' "$manifest")
               done
+
               if [ -z "$matched" ]; then
-                echo "skip: $bname ($platform) — no manifest claims it"
+                echo "skip: $bname ($platform) — no manifest claims this basename"
                 continue
               fi
+
               mkdir -p "$matched/platform/$platform"
               cp "$bin" "$matched/platform/$platform/$bname"
               echo "place: $matched/platform/$platform/$bname"
-              updates=$((updates+1))
+              placed=$((placed+1))
+
+              rel="platform/$platform/$bname"
+              current=$(yq -r ".binaries.\"$platform\" // \"\"" "$matched/manifest.yaml")
+              if [ "$current" != "$rel" ]; then
+                yq -i ".binaries.\"$platform\" = \"$rel\"" "$matched/manifest.yaml"
+                echo "  manifest: set binaries.$platform = $rel"
+                manifest_writes=$((manifest_writes+1))
+              fi
             done
           done
-          echo "Updated $updates binaries"
+          echo "Placed $placed binaries; updated $manifest_writes manifest entries"
 
       - name: Commit and push
         run: |
