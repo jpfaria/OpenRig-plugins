@@ -13,3 +13,4 @@ binaries:
   macos-universal: platform/macos-universal/gx_SunFace.dylib
   linux-x86_64: platform/linux-x86_64/gx_SunFace.so
   linux-aarch64: platform/linux-aarch64/gx_SunFace.so
+  windows-x64: platform/windows-x64/gx_SunFace.dll
