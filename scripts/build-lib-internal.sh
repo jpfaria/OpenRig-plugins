@@ -232,7 +232,12 @@ build_wolf_shaper() {
 
 build_artyfx() {
     local src="$DEPS_DIR/openAV-ArtyFX"
-    do_cmake "$src"
+    # ArtyFX's CMakeLists pins cmake_minimum_required(VERSION 2.6); CMake
+    # >= 4 dropped support for < 3.5 so configure fails on any runner whose
+    # CMake is newer than Ubuntu 22.04's apt build. Promote the policy
+    # baseline so the configure step accepts the upstream file as-is.
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src"
     collect_libs "$LAST_BUILD_DIR" "artyfx"
 }
 
