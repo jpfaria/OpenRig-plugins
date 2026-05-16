@@ -1,7 +1,7 @@
 /target
-/plugins/bundle
 /dist
 /Cargo.lock
+/.solvers
 
 # IDE
 .idea/
