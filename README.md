@@ -13,9 +13,9 @@ The tag name encodes the scope. Peel a platform prefix off the front (if any), t
 | Tag | Scope |
 |---|---|
 | `plugins-build-1` | every recipe, every platform |
-| `plugins-build-windows-x64-1` | every recipe, only `windows-x64` |
+| `plugins-build-windows-x86_64-1` | every recipe, only `windows-x86_64` |
 | `plugins-build-artyfx-1` | only the `artyfx` recipe, every platform |
-| `plugins-build-windows-x64-artyfx-1` | only `artyfx`, only `windows-x64` |
+| `plugins-build-windows-x86_64-artyfx-1` | only `artyfx`, only `windows-x86_64` |
 | `plugins-build-macos-universal-dragonfly-reverb-2` | `dragonfly-reverb` on macOS |
 | `plugins-build-mda-lv2-7` | `mda-lv2` on every platform |
 
@@ -29,8 +29,8 @@ git tag plugins-build-1
 git push origin plugins-build-1
 
 # Rebuild only the Windows x64 binaries (after fixing a MinGW issue)
-git tag plugins-build-windows-x64-2
-git push origin plugins-build-windows-x64-2
+git tag plugins-build-windows-x86_64-2
+git push origin plugins-build-windows-x86_64-2
 
 # Rebuild one recipe across every platform (after bumping its submodule)
 git tag plugins-build-gxplugins-1
@@ -55,18 +55,18 @@ gh workflow run "Build Plugin Libraries" \
 # Windows x64 only
 gh workflow run "Build Plugin Libraries" \
   --repo jpfaria/OpenRig-plugins --ref main \
-  -f platform=windows-x64
+  -f platform=windows-x86_64
 
 # One recipe, one platform
 gh workflow run "Build Plugin Libraries" \
   --repo jpfaria/OpenRig-plugins --ref main \
-  -f recipe=artyfx -f platform=windows-x64
+  -f recipe=artyfx -f platform=windows-x86_64
 ```
 
 Available inputs:
 
 - `recipe` — `all` (default) or any recipe name from `scripts/build-lib-internal.sh` (`nam`, `artyfx`, `dragonfly-reverb`, `caps-lv2`, `tap-lv2`, …).
-- `platform` — `all` (default), `linux-x86_64`, `linux-aarch64`, `macos-universal`, `windows-x64`, `windows-arm64`.
+- `platform` — `all` (default), `linux-x86_64`, `linux-aarch64`, `macos-universal`, `windows-x86_64`, `windows-aarch64`.
 
 ## Building locally
 
@@ -75,7 +75,7 @@ Available inputs:
 ./scripts/build-lib.sh nam
 
 # Cross-platform via Docker (Linux/Windows targets)
-./scripts/build-lib.sh nam --platform windows-x64
+./scripts/build-lib.sh nam --platform windows-x86_64
 
 # Everything for every platform
 ./scripts/build-lib.sh all --platform all

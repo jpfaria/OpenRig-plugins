@@ -14,4 +14,3 @@ binaries:
   windows-x86_64: platform/windows-x86_64/gx_blueamp.dll
   linux-x86_64: platform/linux-x86_64/gx_blueamp.so
   linux-aarch64: platform/linux-aarch64/gx_blueamp.so
-  windows-x64: platform/windows-x64/gx_blueamp.dll
