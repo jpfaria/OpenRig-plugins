@@ -3,7 +3,7 @@ id: nam_mesa_boogie_jp2c
 display_name: JP2C
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 3.7304974
+output_gain_db: -18.7605267
 type: amp
 backend: nam
 parameters:

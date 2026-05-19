@@ -3,7 +3,7 @@ id: nam_rod10_sd1
 display_name: ROD-10 SD1
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: 21.3155403
+output_gain_db: -0.0818901
 type: gain_pedal
 backend: nam
 parameters: []

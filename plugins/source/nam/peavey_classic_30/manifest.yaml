@@ -6,7 +6,7 @@ brand: peavey
 brand_logo: assets/brand_logo.svg
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 15.5459480
+output_gain_db: -1.4250278
 type: preamp
 backend: nam
 parameters:

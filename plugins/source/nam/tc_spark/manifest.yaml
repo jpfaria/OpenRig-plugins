@@ -3,7 +3,7 @@ id: nam_tc_spark
 display_name: Spark
 brand: tc-electronic
 brand_logo: assets/brand_logo.svg
-output_gain_db: 13.9226475
+output_gain_db: -4.3374043
 type: gain_pedal
 backend: nam
 parameters:

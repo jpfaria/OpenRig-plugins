@@ -3,7 +3,7 @@ id: nam_mesa_boogie_badlander_50
 display_name: Badlander 50
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 6.8679924
+output_gain_db: -15.6230316
 type: amp
 backend: nam
 parameters:

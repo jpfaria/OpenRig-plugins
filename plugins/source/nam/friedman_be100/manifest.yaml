@@ -3,7 +3,7 @@ id: nam_friedman_be100
 display_name: BE 100
 brand: friedman
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: -25.8078651
 type: amp
 backend: nam
 parameters:

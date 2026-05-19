@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_ceriatone_ots_mini_20
 display_name: OTS Mini 20
 brand: ceriatone
-output_gain_db: 13.3572865
+output_gain_db: -9.1337376
 type: amp
 backend: nam
 parameters:

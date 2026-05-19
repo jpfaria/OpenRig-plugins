@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_hudson_broadcast
 display_name: Hudson Broadcast
 brand: hudson
-output_gain_db: 8.7345486
+output_gain_db: -7.5961151
 type: gain_pedal
 backend: nam
 parameters:

@@ -5,7 +5,7 @@ brand: friedman
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/58979
-output_gain_db: 13.2582455
+output_gain_db: -9.2327785
 type: amp
 backend: nam
 parameters:

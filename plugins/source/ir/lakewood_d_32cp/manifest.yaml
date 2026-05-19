@@ -16,7 +16,7 @@ captures:
 - values:
     voicing: lakewood_d_32cp_48000
   file: ir/lakewood_d_32cp_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.6663761
 - values:
     voicing: lakewood_d_32cp_48000_bld
   file: ir/lakewood_d_32cp_48000_bld.wav
@@ -24,8 +24,8 @@ captures:
 - values:
     voicing: lakewood_d_32cp_48000_jf_flavor
   file: ir/lakewood_d_32cp_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.5773773
 - values:
     voicing: lakewood_d_32cp_48000_match
   file: ir/lakewood_d_32cp_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.4026814

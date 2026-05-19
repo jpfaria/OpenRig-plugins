@@ -17,7 +17,7 @@ captures:
 - values:
     voicing: as_martin_d35sa_gplus_44100
   file: ir/as_martin_d35sa_gplus_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.9435787
 - values:
     voicing: as_martin_d35sa_gplus_44100_bld
   file: ir/as_martin_d35sa_gplus_44100_bld.wav
@@ -25,8 +25,8 @@ captures:
 - values:
     voicing: as_martin_d35sa_gplus_44100_jf_flavor
   file: ir/as_martin_d35sa_gplus_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.4556675
 - values:
     voicing: as_martin_d35sa_gplus_44100_match
   file: ir/as_martin_d35sa_gplus_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -1.5468407

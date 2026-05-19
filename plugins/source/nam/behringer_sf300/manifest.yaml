@@ -3,7 +3,7 @@ id: nam_behringer_sf300
 display_name: SF300 Super Fuzz
 brand: behringer
 brand_logo: assets/brand_logo.svg
-output_gain_db: 25.1755219
+output_gain_db: 5.8999825
 type: gain_pedal
 backend: nam
 parameters:

@@ -17,7 +17,7 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_d_18e_retro_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.2215023
 - values:
     flavor: blend
   file: ir/martin_d_18e_retro_48000_bld.wav
@@ -25,8 +25,8 @@ captures:
 - values:
     flavor: match
   file: ir/martin_d_18e_retro_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.0137730
 - values:
     flavor: jf
   file: ir/martin_d_18e_retro_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.7748280

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_demonfx_be_od
 display_name: BE-OD Clone
 brand: demonfx
-output_gain_db: 19.1261635
+output_gain_db: -3.3648605
 type: gain_pedal
 backend: nam
 parameters:

@@ -22,19 +22,19 @@ captures:
 - values:
     voicing: hm_gibsonhummingbird_hfn_2048_44100
   file: ir/hm_gibsonhummingbird_hfn_2048_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.2362270
 - values:
     voicing: hm_gibsonhummingbird_hfn_2048_44100_match1
   file: ir/hm_gibsonhummingbird_hfn_2048_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.2687225
 - values:
     voicing: hm_gibsonhummingbird_hfn_2048_44100_match2
   file: ir/hm_gibsonhummingbird_hfn_2048_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -7.2795048
 - values:
     voicing: hm_gibsonhummingbird_hfn_8096_44100_match2
   file: ir/hm_gibsonhummingbird_hfn_8096_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.4704018
 - values:
     voicing: hm_gibson_hummingbird_hfn_1024_44100
   file: ir/hm_gibson_hummingbird_hfn_1024_44100.wav
@@ -42,16 +42,16 @@ captures:
 - values:
     voicing: hm_gibson_hummingbird_hfn_1024_44100_match1
   file: ir/hm_gibson_hummingbird_hfn_1024_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.8761768
 - values:
     voicing: hm_gibson_hummingbird_hfn_1024_44100_match2
   file: ir/hm_gibson_hummingbird_hfn_1024_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.4042034
 - values:
     voicing: ir_st_2048_gibsonhummingbird_match2
   file: ir/ir_st_2048_gibsonhummingbird_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -7.2795086
 - values:
     voicing: ir_st_2048_gibsonhummingbird_match2c
   file: ir/ir_st_2048_gibsonhummingbird_match2c.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -7.2795105

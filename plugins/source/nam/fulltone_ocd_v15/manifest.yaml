@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_fulltone_ocd_v15
 display_name: OCD v1.5
 brand: fulltone
-output_gain_db: 6.2883625
+output_gain_db: -16.2026615
 type: gain_pedal
 backend: nam
 parameters:

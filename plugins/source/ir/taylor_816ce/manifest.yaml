@@ -21,32 +21,32 @@ captures:
 - values:
     voicing: tay816_m251_exp1
   file: ir/tay816_m251_exp1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.4301777
 - values:
     voicing: tay816_m251_exp2
   file: ir/tay816_m251_exp2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.1130581
 - values:
     voicing: tay816_m251_sb3_blend
   file: ir/tay816_m251_sb3_blend.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.4553032
 - values:
     voicing: tay816_m251_pz1
   file: ir/tay816_m251_pz1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.1370411
 - values:
     voicing: tay816_m251_pz2
   file: ir/tay816_m251_pz2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.9732838
 - values:
     voicing: tay816_m251_pz3
   file: ir/tay816_m251_pz3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.9702873
 - values:
     voicing: tay816_m251_sb1
   file: ir/tay816_m251_sb1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.1443596
 - values:
     voicing: tay816_m251_sb2
   file: ir/tay816_m251_sb2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.1291142

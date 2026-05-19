@@ -5,7 +5,7 @@ brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/45918
-output_gain_db: 16.6554394
+output_gain_db: -5.8355846
 type: preamp
 backend: nam
 parameters:

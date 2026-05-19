@@ -19,28 +19,28 @@ captures:
 - values:
     voicing: framus57_44100
   file: ir/framus57_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -9.0507240
 - values:
     voicing: framus57_44100_match1
   file: ir/framus57_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.6750736
 - values:
     voicing: framus57_44100_match2
   file: ir/framus57_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.6821651
 - values:
     voicing: framus57_44100_1024
   file: ir/framus57_44100_1024.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -11.4511662
 - values:
     voicing: framus57_44100_1024_match1
   file: ir/framus57_44100_1024_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.2136574
 - values:
     voicing: framus57_44100_1024_match2
   file: ir/framus57_44100_1024_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.1322651
 - values:
     voicing: framus57_44100_1024_match3
   file: ir/framus57_44100_1024_match3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.6225281

@@ -19,7 +19,7 @@ captures:
 - values:
     voicing: ir_hd28_m80_allstr_44100
   file: ir/ir_hd28_m80_allstr_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -0.4121437
 - values:
     voicing: ir_hd28_m80_allstr_44100_match1
   file: ir/ir_hd28_m80_allstr_44100_match1.wav

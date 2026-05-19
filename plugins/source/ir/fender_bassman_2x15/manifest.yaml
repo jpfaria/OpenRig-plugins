@@ -33,34 +33,34 @@ captures:
     position: cap
     speaker: lower
   file: ir/1970_bassman_cabinet_cts_121_lower_cap_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.9279575
 - values:
     mic: r121
     position: cap_edge
     speaker: lower
   file: ir/1970_bassman_cabinet_cts_121_lower_cap_edge_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.3841724
 - values:
     mic: r121
     position: cone
     speaker: lower
   file: ir/1970_bassman_cabinet_cts_121_lower_cone_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -16.3281746
 - values:
     mic: r121
     position: cone_edge
     speaker: lower
   file: ir/1970_bassman_cabinet_cts_121_lower_cone_edge_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.1748734
 - values:
     mic: r121
     position: cap_edge
     speaker: upper
   file: ir/1970_bassman_cabinet_cts_121_upper_cap_edge_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.3464851
 - values:
     mic: c414
     position: 12_inch
     speaker: distant
   file: ir/1970_bassman_cabinet_cts_c414_distant_12in_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.3582401

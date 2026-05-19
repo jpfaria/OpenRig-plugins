@@ -20,23 +20,23 @@ captures:
 - values:
     voicing: bc_rich_plywood_sonitone_44100
   file: ir/bc_rich_plywood_sonitone_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -16.9640617
 - values:
     voicing: bc_rich_plywood_sonitone_44100_match1
   file: ir/bc_rich_plywood_sonitone_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -8.8677902
 - values:
     voicing: bc_rich_plywood_sonitone_44100_match2
   file: ir/bc_rich_plywood_sonitone_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -9.1310539
 - values:
     voicing: cukiirpwfs2048at48
   file: ir/cukiirpwfs2048at48.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -12.9350758
 - values:
     voicing: cukijfirpwfs2048at48
   file: ir/cukijfirpwfs2048at48.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.2825031
 - values:
     voicing: jf45irpwfs
   file: ir/jf45irpwfs.wav

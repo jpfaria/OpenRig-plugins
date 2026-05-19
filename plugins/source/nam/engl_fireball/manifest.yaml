@@ -5,7 +5,7 @@ brand: engl
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/2214
-output_gain_db: 2.5314293
+output_gain_db: -19.9595947
 type: amp
 backend: nam
 parameters:

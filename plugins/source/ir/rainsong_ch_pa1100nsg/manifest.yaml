@@ -16,16 +16,16 @@ captures:
 - values:
     flavor: standard
   file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -11.0452747
 - values:
     flavor: blend
   file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.0209141
 - values:
     flavor: match
   file: ir/rainsong_parlor_44100_matcheq.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.1086102
 - values:
     flavor: jf
   file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -7.9468155

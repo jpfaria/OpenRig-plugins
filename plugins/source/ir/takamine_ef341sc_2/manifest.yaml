@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: kb_ir_ef341_9_48k
   file: ir/kb_ir_ef341_9_48k.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.6487160
 - values:
     flavor: kb_ir_ef341_9_48k_mffqn
   file: ir/kb_ir_ef341_9_48k_mffqn.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.6626530
 - values:
     flavor: kb_ir_ef341_9_48k_m
   file: ir/kb_ir_ef341_9_48k_m.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.4934807
 - values:
     flavor: kb_ir_ef341_18_48k_m
   file: ir/kb_ir_ef341_18_48k_m.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.5333843

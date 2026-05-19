@@ -4,7 +4,7 @@ display_name: MP-1
 brand: ada
 sources:
 - https://www.tone3000.com/tones/6463
-output_gain_db: 10.6334200
+output_gain_db: -11.5276279
 type: preamp
 backend: nam
 parameters:

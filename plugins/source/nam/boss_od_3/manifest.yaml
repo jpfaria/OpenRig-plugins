@@ -3,7 +3,7 @@ id: nam_boss_od_3
 display_name: Boss OD-3
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: 24.3768921
+output_gain_db: 1.8858681
 type: gain_pedal
 backend: nam
 parameters:

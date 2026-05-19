@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_pot_od
 display_name: PoT OD
 brand: pot
-output_gain_db: 5.4743690
+output_gain_db: -17.0166550
 type: gain_pedal
 backend: nam
 parameters: []

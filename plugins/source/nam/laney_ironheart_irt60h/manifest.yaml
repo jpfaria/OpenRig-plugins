@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_laney_ironheart_irt60h
 display_name: Ironheart IRT60H
 brand: laney
-output_gain_db: 0.9199715
+output_gain_db: -21.5710526
 type: amp
 backend: nam
 parameters:

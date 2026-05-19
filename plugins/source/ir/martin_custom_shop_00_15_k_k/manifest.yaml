@@ -18,11 +18,11 @@ captures:
 - values:
     voicing: cs_0015_knk_44100
   file: ir/cs_0015_knk_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.8901463
 - values:
     voicing: cs_0015_knk_44100_match2
   file: ir/cs_0015_knk_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -1.5845909
 - values:
     voicing: jf45ircs0015jf
   file: ir/jf45ircs0015jf.wav

@@ -5,7 +5,7 @@ description: Neural capture of the Electro-Harmonix MIG-50 — Russian-voiced 50
 brand: electro-harmonix
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 14.9569530
+output_gain_db: -3.3700809
 type: preamp
 backend: nam
 parameters:

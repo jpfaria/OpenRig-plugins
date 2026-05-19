@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/leo_martin_d42_knk_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.5241508
 - values:
     flavor: blend
   file: ir/leo_martin_d42_knk_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -0.2249565
 - values:
     flavor: match
   file: ir/leo_martin_d42_knk_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.2436543
 - values:
     flavor: jf
   file: ir/leo_martin_d42_knk_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -1.4920044

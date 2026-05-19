@@ -33,46 +33,46 @@ captures:
     mic_position: ll
     preamp: cl7603
   file: ir/g12_evh_ll_5150iii_4x12_sm57_1_00in_0_0in_cl7603_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.0585308
 - values:
     distance: '1.00'
     mic_position: ll
     preamp: oa30_cl7603
   file: ir/g12_evh_ll_5150iii_4x12_sm57_1_00in_0_0in_oa30_cl7603_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.6470108
 - values:
     distance: '1.50'
     mic_position: ll
     preamp: vp28
   file: ir/g12_evh_ll_5150iii_4x12_sm57_1_50in_0_0in_vp28_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.2122555
 - values:
     distance: '1.00'
     mic_position: lr
     preamp: oa30_cl7603
   file: ir/g12_evh_lr_5150iii_4x12_sm57_1_00in_0_0in_oa30_cl7603_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.2572594
 - values:
     distance: '2.25'
     mic_position: lr
     preamp: vp28
   file: ir/g12_evh_lr_5150iii_4x12_sm57_2_25in_0_0in_vp28_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.5808983
 - values:
     distance: '2.00'
     mic_position: ul
     preamp: oa30_cl7603
   file: ir/g12_evh_ul_5150iii_4x12_sm57_2_00in_0_0in_oa30_cl7603_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.4662094
 - values:
     distance: '1.50'
     mic_position: ur
     preamp: vp28
   file: ir/g12_evh_ur_5150iii_4x12_sm57_1_50in_0_0in_vp28_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -12.2278767
 - values:
     distance: '2.25'
     mic_position: ur
     preamp: vp28
   file: ir/g12_evh_ur_5150iii_4x12_sm57_2_25in_0_0in_vp28_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.2730045

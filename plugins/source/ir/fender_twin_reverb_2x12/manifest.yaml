@@ -18,12 +18,12 @@ captures:
 - values:
     voicing: clean
   file: ir/twin_reverb_clean_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -12.6077518
 - values:
     voicing: balanced
   file: ir/twin_reverb_balanced_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.7890797
 - values:
     voicing: mids
   file: ir/twin_reverb_mids_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.7009182

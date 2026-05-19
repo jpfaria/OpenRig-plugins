@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_way_huge_pork_pickle
 display_name: Way Huge Pork Pickle
 brand: way_huge
-output_gain_db: 19.2805557
+output_gain_db: -3.2104683
 type: gain_pedal
 backend: nam
 parameters:

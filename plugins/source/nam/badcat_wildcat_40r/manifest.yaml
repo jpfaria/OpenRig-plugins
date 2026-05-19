@@ -4,7 +4,7 @@ display_name: WildCat 40R
 brand: bad_cat
 sources:
 - https://www.tone3000.com/tones/50791
-output_gain_db: 7.6759319
+output_gain_db: -14.8150921
 type: amp
 backend: nam
 parameters:

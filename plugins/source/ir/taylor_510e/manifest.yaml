@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/taylor_510e_xbraced_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -7.2121258
 - values:
     flavor: blend
   file: ir/taylor_510e_xbraced_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -1.3617802
 - values:
     flavor: match
   file: ir/taylor_510e_xbraced_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.7814083
 - values:
     flavor: jf
   file: ir/taylor_510e_xbraced_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.4443531

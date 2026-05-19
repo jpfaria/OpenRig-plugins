@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_strymon_sunset
 display_name: Strymon Sunset
 brand: strymon
-output_gain_db: 3.9032421
+output_gain_db: -18.5877819
 type: gain_pedal
 backend: nam
 parameters:

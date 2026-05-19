@@ -18,15 +18,15 @@ captures:
 - values:
     voicing: lescotton_westfield
   file: ir/lescotton_westfield.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -37.7662621
 - values:
     voicing: cukiirlescottonwest2048_48
   file: ir/cukiirlescottonwest2048_48.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.6388569
 - values:
     voicing: cukijfirlescottonwest2048at48
   file: ir/cukijfirlescottonwest2048at48.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.2727413
 - values:
     voicing: jf45irlescotton_westfield
   file: ir/jf45irlescotton_westfield.wav

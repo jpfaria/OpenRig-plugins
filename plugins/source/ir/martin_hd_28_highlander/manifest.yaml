@@ -19,15 +19,15 @@ captures:
 - values:
     voicing: ir_martin_hd28_highlander_48000
   file: ir/ir_martin_hd28_highlander_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.9639473
 - values:
     voicing: ir_martin_hd28_highlander_48000_m1
   file: ir/ir_martin_hd28_highlander_48000_m1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.3055019
 - values:
     voicing: ir_martin_hd28_highlander_48000_m2
   file: ir/ir_martin_hd28_highlander_48000_m2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.9279194
 - values:
     voicing: jf45irmartin_hd28_highlander
   file: ir/jf45irmartin_hd28_highlander.wav

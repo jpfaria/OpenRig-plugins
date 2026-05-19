@@ -3,7 +3,7 @@ id: nam_friedman_ss_100_v1
 display_name: SS 100 V1
 brand: friedman
 brand_logo: assets/brand_logo.svg
-output_gain_db: 9.6224499
+output_gain_db: -12.8685741
 type: amp
 backend: nam
 parameters:

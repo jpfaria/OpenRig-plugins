@@ -18,11 +18,11 @@ captures:
 - values:
     voicing: dy
   file: ir/dy.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -49.9727020
 - values:
     voicing: cukiir2048at48
   file: ir/cukiir2048at48.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -0.0067711
 - values:
     voicing: cukijfir2048at48
   file: ir/cukijfir2048at48.wav

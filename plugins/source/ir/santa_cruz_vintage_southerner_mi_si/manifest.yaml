@@ -24,48 +24,48 @@ captures:
 - values:
     voicing: santacruz_vintage_southerner_48k_8096
   file: ir/santacruz_vintage_southerner_48k_8096.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -5.4680691
 - values:
     voicing: santacruz_vintage_southerner_48k_8096_bld
   file: ir/santacruz_vintage_southerner_48k_8096_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -1.7663097
 - values:
     voicing: santacruz_vintage_southerner_48k_8096_match1
   file: ir/santacruz_vintage_southerner_48k_8096_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.1943321
 - values:
     voicing: santacruz_vintage_southerner_48k_8096_match2
   file: ir/santacruz_vintage_southerner_48k_8096_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.0320587
 - values:
     voicing: santacruz_vintage_southerner_48k_8096_jf_flavor
   file: ir/santacruz_vintage_southerner_48k_8096_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -3.8203106
 - values:
     voicing: santacruz_vintage_southerner_48k_2048
   file: ir/santacruz_vintage_southerner_48k_2048.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -4.2332554
 - values:
     voicing: santacruz_vintage_southerner_48k_2048_bld
   file: ir/santacruz_vintage_southerner_48k_2048_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -1.1144390
 - values:
     voicing: santacruz_vintage_southerner_48k_2048_match1
   file: ir/santacruz_vintage_southerner_48k_2048_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.3052120
 - values:
     voicing: santacruz_vintage_southerner_48k_2048_match2
   file: ir/santacruz_vintage_southerner_48k_2048_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.1637707
 - values:
     voicing: santacruz_vintage_southerner_48k_2048_jf_flavor
   file: ir/santacruz_vintage_southerner_48k_2048_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -2.3830070
 - values:
     voicing: ir_santa_cruz_vintage_southerner_new_a_96k_8096
   file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -0.5116692
 - values:
     voicing: ir_santa_cruz_vintage_southerner_new_a_96k_8096_match
   file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -0.1808434
