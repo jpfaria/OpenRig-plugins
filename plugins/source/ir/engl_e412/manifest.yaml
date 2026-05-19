@@ -26,23 +26,29 @@ captures:
     mic: sm57
     position: default
   file: ir/engl_sm57_3.wav
+  output_gain_db: -12.9877033
 - values:
     mic: md421
     position: center
   file: ir/engl_md421_center_3.wav
+  output_gain_db: -13.1363792
 - values:
     mic: md421
     position: cone
   file: ir/engl_md421_cone_3.wav
+  output_gain_db: -13.7966042
 - values:
     mic: md421
     position: edge_dust_cap
   file: ir/engl_md421_edgedustcap_3.wav
+  output_gain_db: -13.2724037
 - values:
     mic: m160
     position: center
   file: ir/engl_m160_center_3.wav
+  output_gain_db: -14.2800541
 - values:
     mic: m160
     position: cone
   file: ir/engl_m160_cone_3.wav
+  output_gain_db: -14.5494576

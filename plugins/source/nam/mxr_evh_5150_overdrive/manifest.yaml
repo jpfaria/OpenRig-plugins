@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_mxr_evh_5150_overdrive
 display_name: MXR EVH 5150 Overdrive
 brand: mxr
-output_gain_db: 6.5039825
+output_gain_db: -15.9870415
 type: gain_pedal
 backend: nam
 parameters:

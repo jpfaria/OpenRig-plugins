@@ -16,9 +16,12 @@ captures:
 - values:
     voicing: taylor522e_44100
   file: ir/taylor522e_44100.wav
+  output_gain_db: -5.3328953
 - values:
     voicing: taylor522e_44100_match1
   file: ir/taylor522e_44100_match1.wav
+  output_gain_db: -3.7319317
 - values:
     voicing: taylor522e_44100_match2
   file: ir/taylor522e_44100_match2.wav
+  output_gain_db: -3.9230480

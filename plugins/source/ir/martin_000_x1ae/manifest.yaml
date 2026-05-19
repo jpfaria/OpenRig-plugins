@@ -17,12 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_000x1ae_zoomh4np_48000.wav
+  output_gain_db: -18.3414383
 - values:
     flavor: blend
   file: ir/martin_000x1ae_zoomh4np_48000_bld.wav
+  output_gain_db: -12.3719959
 - values:
     flavor: match
   file: ir/martin_000x1ae_zoomh4np_48000_match.wav
+  output_gain_db: -14.1893387
 - values:
     flavor: jf
   file: ir/martin_000x1ae_zoomh4np_48000_jf_flavor.wav
+  output_gain_db: -6.8172398

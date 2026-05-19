@@ -16,9 +16,12 @@ captures:
 - values:
     voicing: ps14_fltd_2048_44k
   file: ir/ps14_fltd_2048_44k.wav
+  output_gain_db: -4.9584007
 - values:
     voicing: ps14_fltd_2048_44k_m
   file: ir/ps14_fltd_2048_44k_m.wav
+  output_gain_db: -2.0495815
 - values:
     voicing: ps14_fltd_2048_48k_mffqn
   file: ir/ps14_fltd_2048_48k_mffqn.wav
+  output_gain_db: -2.3398247

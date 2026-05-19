@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_digitech_grunge
 display_name: DigiTech Grunge
 brand: digitech
-output_gain_db: 4.6969852
+output_gain_db: -17.7940388
 type: gain_pedal
 backend: nam
 parameters:

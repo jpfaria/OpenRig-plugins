@@ -3,7 +3,7 @@ id: nam_marshall_super_100_1966
 display_name: Super 100 1966
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 12.1431065
+output_gain_db: -10.3479176
 type: amp
 backend: nam
 parameters: []

@@ -6,7 +6,7 @@ brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/6405
 - https://www.tone3000.com/tones/6406
-output_gain_db: 1.7380581
+output_gain_db: -20.7529659
 type: amp
 backend: nam
 parameters:

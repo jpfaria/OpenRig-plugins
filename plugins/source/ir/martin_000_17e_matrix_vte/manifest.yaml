@@ -17,12 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_000_17e_48000.wav
+  output_gain_db: -7.5924931
 - values:
     flavor: blend
   file: ir/martin_000_17e_48000_bld.wav
+  output_gain_db: -3.2930737
 - values:
     flavor: match
   file: ir/martin_000_17e_48000_match.wav
+  output_gain_db: -2.5217762
 - values:
     flavor: jf
   file: ir/martin_000_17e_48000_jf_flavor.wav
+  output_gain_db: -4.6253052

@@ -18,15 +18,20 @@ captures:
 - values:
     voicing: taylor_717e_48000
   file: ir/taylor_717e_48000.wav
+  output_gain_db: -17.7382431
 - values:
     voicing: taylor_717e_48000_bld
   file: ir/taylor_717e_48000_bld.wav
+  output_gain_db: -11.9959240
 - values:
     voicing: taylor_717e_48000_match
   file: ir/taylor_717e_48000_match.wav
+  output_gain_db: -11.4265995
 - values:
     voicing: taylor_717e_48000_jf_flavor
   file: ir/taylor_717e_48000_jf_flavor.wav
+  output_gain_db: -14.4754486
 - values:
     voicing: ir_717e_48k_mffq
   file: ir/ir_717e_48k_mffq.wav
+  output_gain_db: -4.6981106

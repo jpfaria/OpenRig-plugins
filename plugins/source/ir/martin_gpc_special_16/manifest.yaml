@@ -34,63 +34,84 @@ captures:
 - values:
     voicing: standard_martin_gpc16e_special_rosewood_ir_std
   file: ir/standard_martin_gpc16e_special_rosewood_ir_std.wav
+  output_gain_db: -4.8464603
 - values:
     voicing: standard_martin_gpc16e_special_rosewood_ir_std_44100_16_1
   file: ir/standard_martin_gpc16e_special_rosewood_ir_std_44100_16_1.wav
+  output_gain_db: -4.8462296
 - values:
     voicing: ir_itp_mph_44100_16_1
   file: ir/ir_itp_mph_44100_16_1.wav
+  output_gain_db: -2.9167747
 - values:
     voicing: ir_itp_mph
   file: ir/ir_itp_mph.wav
+  output_gain_db: -2.9168606
 - values:
     voicing: ir_itp_raw_44100_16_1
   file: ir/ir_itp_raw_44100_16_1.wav
+  output_gain_db: -7.9840870
 - values:
     voicing: ir_itp_raw
   file: ir/ir_itp_raw.wav
+  output_gain_db: -7.9843845
 - values:
     voicing: ir_itp_bld_44100_16_1
   file: ir/ir_itp_bld_44100_16_1.wav
+  output_gain_db: -9.7906246
 - values:
     voicing: ir_itp_bld
   file: ir/ir_itp_bld.wav
+  output_gain_db: -9.7907467
 - values:
     voicing: ir_itp_44100_16_1
   file: ir/ir_itp_44100_16_1.wav
+  output_gain_db: -4.7088871
 - values:
     voicing: ir_itp
   file: ir/ir_itp.wav
+  output_gain_db: -4.7090816
 - values:
     voicing: ir_std_44100_16_1
   file: ir/ir_std_44100_16_1.wav
+  output_gain_db: -4.8462296
 - values:
     voicing: ir_std
   file: ir/ir_std.wav
+  output_gain_db: -4.8464603
 - values:
     voicing: jf45_ir_std
   file: ir/jf45_ir_std.wav
+  output_gain_db: -4.8464603
 - values:
     voicing: jf45_ir_std_44100_16_1
   file: ir/jf45_ir_std_44100_16_1.wav
+  output_gain_db: -4.8462296
 - values:
     voicing: jf45_ir_itp_44100_16_1
   file: ir/jf45_ir_itp_44100_16_1.wav
+  output_gain_db: -4.7088871
 - values:
     voicing: jf45_ir_itp
   file: ir/jf45_ir_itp.wav
+  output_gain_db: -4.7090816
 - values:
     voicing: jf45_ir_itp_jf45_44100_16_1
   file: ir/jf45_ir_itp_jf45_44100_16_1.wav
+  output_gain_db: -2.8240623
 - values:
     voicing: jf45_ir_itp_jf45
   file: ir/jf45_ir_itp_jf45.wav
+  output_gain_db: -2.8243866
 - values:
     voicing: fbf_martin_gpc16e_special_rosewood_ir_std_44100_16_1
   file: ir/fbf_martin_gpc16e_special_rosewood_ir_std_44100_16_1.wav
+  output_gain_db: -4.8462296
 - values:
     voicing: fbf_martin_gpc16e_special_rosewood_ir_std
   file: ir/fbf_martin_gpc16e_special_rosewood_ir_std.wav
+  output_gain_db: -4.8464603
 - values:
     voicing: fbf_gpc16e_ir_std
   file: ir/fbf_gpc16e_ir_std.wav
+  output_gain_db: -4.8464603

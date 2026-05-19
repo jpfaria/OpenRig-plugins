@@ -16,9 +16,12 @@ captures:
 - values:
     voicing: jf45ir1024gibson
   file: ir/jf45ir1024gibson.wav
+  output_gain_db: 0.5463524
 - values:
     voicing: jf45ir5050gibson
   file: ir/jf45ir5050gibson.wav
+  output_gain_db: 0.4389763
 - values:
     voicing: jf45irgibson
   file: ir/jf45irgibson.wav
+  output_gain_db: 0.5342979

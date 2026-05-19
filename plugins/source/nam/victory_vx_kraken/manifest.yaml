@@ -5,7 +5,7 @@ description: Neural capture of the Victory VX Kraken — high-gain British amp w
 brand: victory
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: 9.1795807
+output_gain_db: -13.3114433
 type: preamp
 backend: nam
 parameters:

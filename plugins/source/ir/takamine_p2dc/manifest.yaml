@@ -43,90 +43,120 @@ captures:
 - values:
     voicing: piezo_taka_pdc_piezo_1a
   file: ir/piezo_taka_pdc_piezo_1a.wav
+  output_gain_db: -11.0423145
 - values:
     voicing: piezo_taka_pdc_piezo_1b
   file: ir/piezo_taka_pdc_piezo_1b.wav
+  output_gain_db: -10.6194496
 - values:
     voicing: piezo_taka_pdc_piezo_1c
   file: ir/piezo_taka_pdc_piezo_1c.wav
+  output_gain_db: -11.0989857
 - values:
     voicing: piezo_taka_pdc_piezo_2a
   file: ir/piezo_taka_pdc_piezo_2a.wav
+  output_gain_db: -9.9794693
 - values:
     voicing: piezo_taka_pdc_piezo_2b
   file: ir/piezo_taka_pdc_piezo_2b.wav
+  output_gain_db: -9.5097752
 - values:
     voicing: piezo_taka_pdc_piezo_2c
   file: ir/piezo_taka_pdc_piezo_2c.wav
+  output_gain_db: -10.0699997
 - values:
     voicing: piezo_taka_pdc_piezo_3a
   file: ir/piezo_taka_pdc_piezo_3a.wav
+  output_gain_db: -6.0892487
 - values:
     voicing: piezo_taka_pdc_piezo_3b
   file: ir/piezo_taka_pdc_piezo_3b.wav
+  output_gain_db: -5.5842075
 - values:
     voicing: piezo_taka_pdc_piezo_3c
   file: ir/piezo_taka_pdc_piezo_3c.wav
+  output_gain_db: -6.2304821
 - values:
     voicing: piezo_taka_pdc_piezo_4a
   file: ir/piezo_taka_pdc_piezo_4a.wav
+  output_gain_db: -10.6363506
 - values:
     voicing: piezo_taka_pdc_piezo_4b
   file: ir/piezo_taka_pdc_piezo_4b.wav
+  output_gain_db: -10.1277103
 - values:
     voicing: piezo_taka_pdc_piezo_4c
   file: ir/piezo_taka_pdc_piezo_4c.wav
+  output_gain_db: -10.7667465
 - values:
     voicing: piezo_taka_pdc_piezo_5a
   file: ir/piezo_taka_pdc_piezo_5a.wav
+  output_gain_db: -8.0374126
 - values:
     voicing: piezo_taka_pdc_piezo_5b
   file: ir/piezo_taka_pdc_piezo_5b.wav
+  output_gain_db: -7.4828720
 - values:
     voicing: piezo_taka_pdc_piezo_5c
   file: ir/piezo_taka_pdc_piezo_5c.wav
+  output_gain_db: -8.2311802
 - values:
     voicing: soundhole_taka_pdc_soundhole_1a
   file: ir/soundhole_taka_pdc_soundhole_1a.wav
+  output_gain_db: -7.9379463
 - values:
     voicing: soundhole_taka_pdc_soundhole_1b
   file: ir/soundhole_taka_pdc_soundhole_1b.wav
+  output_gain_db: -7.6887455
 - values:
     voicing: soundhole_taka_pdc_soundhole_1c
   file: ir/soundhole_taka_pdc_soundhole_1c.wav
+  output_gain_db: -8.2175922
 - values:
     voicing: soundhole_taka_pdc_soundhole_2a
   file: ir/soundhole_taka_pdc_soundhole_2a.wav
+  output_gain_db: -5.8783188
 - values:
     voicing: soundhole_taka_pdc_soundhole_2b
   file: ir/soundhole_taka_pdc_soundhole_2b.wav
+  output_gain_db: -5.3523483
 - values:
     voicing: soundhole_taka_pdc_soundhole_2c
   file: ir/soundhole_taka_pdc_soundhole_2c.wav
+  output_gain_db: -6.3246708
 - values:
     voicing: soundhole_taka_pdc_soundhole_3a
   file: ir/soundhole_taka_pdc_soundhole_3a.wav
+  output_gain_db: -4.5484657
 - values:
     voicing: soundhole_taka_pdc_soundhole_3b
   file: ir/soundhole_taka_pdc_soundhole_3b.wav
+  output_gain_db: -4.0235062
 - values:
     voicing: soundhole_taka_pdc_soundhole_3c
   file: ir/soundhole_taka_pdc_soundhole_3c.wav
+  output_gain_db: -4.7295475
 - values:
     voicing: soundhole_taka_pdc_soundhole_4a
   file: ir/soundhole_taka_pdc_soundhole_4a.wav
+  output_gain_db: -6.9079952
 - values:
     voicing: soundhole_taka_pdc_soundhole_4b
   file: ir/soundhole_taka_pdc_soundhole_4b.wav
+  output_gain_db: -6.1643982
 - values:
     voicing: soundhole_taka_pdc_soundhole_4c
   file: ir/soundhole_taka_pdc_soundhole_4c.wav
+  output_gain_db: -7.3604984
 - values:
     voicing: soundhole_taka_pdc_soundhole_5a
   file: ir/soundhole_taka_pdc_soundhole_5a.wav
+  output_gain_db: -4.9175549
 - values:
     voicing: soundhole_taka_pdc_soundhole_5b
   file: ir/soundhole_taka_pdc_soundhole_5b.wav
+  output_gain_db: -4.3457069
 - values:
     voicing: soundhole_taka_pdc_soundhole_5c
   file: ir/soundhole_taka_pdc_soundhole_5c.wav
+  output_gain_db: -5.2037449

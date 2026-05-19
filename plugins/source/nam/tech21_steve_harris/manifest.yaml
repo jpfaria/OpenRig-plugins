@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_tech21_steve_harris
 display_name: Steve Harris SH-1
 brand: tech21
-output_gain_db: 4.4867105
+output_gain_db: -18.0043144
 type: gain_pedal
 backend: nam
 parameters:

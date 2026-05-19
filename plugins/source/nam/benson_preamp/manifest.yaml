@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_benson_preamp
 display_name: Benson Preamp
 brand: benson
-output_gain_db: 19.9986267
+output_gain_db: -0.5314426
 type: gain_pedal
 backend: nam
 parameters:

@@ -26,7 +26,7 @@
 //!
 //! Rodar com:
 //!     OPENRIG_PLUGINS_NAM_TEST_ROOT=$(pwd)/plugins/source/nam \
-//!       cargo test -p nam-loudness-audit --release \
+//!       cargo test -p loudness-audit --release \
 //!       --test catalog_lufs -- --ignored --nocapture
 
 use anyhow::Result;
@@ -34,11 +34,11 @@ use std::env;
 use std::path::PathBuf;
 
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
-use nam_loudness_audit::catalog::list_loudness_normalisable;
-use nam_loudness_audit::loudness::{
+use loudness_audit::catalog::list_loudness_normalisable;
+use loudness_audit::loudness::{
     apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
 };
-use nam_loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
+use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
 /// Loudness target em LUFS integrated. Bate com o TARGET do audit
 /// — se mudar lá, mudar aqui também (estão acoplados de propósito).

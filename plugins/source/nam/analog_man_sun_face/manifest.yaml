@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_analog_man_sun_face
 display_name: Analog Man Sun Face
 brand: analogman
-output_gain_db: 16.3013363
+output_gain_db: -6.1896877
 type: gain_pedal
 backend: nam
 parameters:

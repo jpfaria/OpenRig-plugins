@@ -17,15 +17,20 @@ captures:
 - values:
     voicing: ir_breedlove_ad25sr_plus_sm44100
   file: ir/ir_breedlove_ad25sr_plus_sm44100.wav
+  output_gain_db: -6.1755695
 - values:
     voicing: ir_breedlove_ad25sr_plus_sm44100_match1
   file: ir/ir_breedlove_ad25sr_plus_sm44100_match1.wav
+  output_gain_db: -7.3635292
 - values:
     voicing: ir_breedlove_ad25sr_plus_bb44100
   file: ir/ir_breedlove_ad25sr_plus_bb44100.wav
+  output_gain_db: -10.2711315
 - values:
     voicing: ir_breedlove_ad25sr_plus_bb44100_match1
   file: ir/ir_breedlove_ad25sr_plus_bb44100_match1.wav
+  output_gain_db: -5.4004650
 - values:
     voicing: ir_breedlove_ad25sr_plus_bb44100_match2
   file: ir/ir_breedlove_ad25sr_plus_bb44100_match2.wav
+  output_gain_db: -6.2909164

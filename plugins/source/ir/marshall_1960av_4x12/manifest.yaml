@@ -19,12 +19,16 @@ captures:
 - values:
     mic: v7x
   file: ir/v7x_dc_3.wav
+  output_gain_db: -12.4309959
 - values:
     mic: sc1100
   file: ir/sc1100_dc_3.wav
+  output_gain_db: -11.9164696
 - values:
     mic: rb500
   file: ir/rb500_dc_3.wav
+  output_gain_db: -14.7308331
 - values:
     mic: blend_all
   file: ir/blendofall_dc_3.wav
+  output_gain_db: -12.2808838

@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: leo_gs_mini_es2_44100
   file: ir/leo_gs_mini_es2_44100.wav
+  output_gain_db: -5.4823914
 - values:
     voicing: leo_gs_mini_es2_44100_bld
   file: ir/leo_gs_mini_es2_44100_bld.wav
+  output_gain_db: 0.9186745
 - values:
     voicing: leo_gs_mini_es2_44100_jf_flavor
   file: ir/leo_gs_mini_es2_44100_jf_flavor.wav
+  output_gain_db: -6.7690125
 - values:
     voicing: leo_gs_mini_es2_44100_match
   file: ir/leo_gs_mini_es2_44100_match.wav
+  output_gain_db: -1.4115906

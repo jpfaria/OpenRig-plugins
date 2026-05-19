@@ -3,7 +3,7 @@ id: nam_jhs_angry_charlie
 display_name: JHS Angry Charlie
 brand: jhs
 brand_logo: assets/brand_logo.png
-output_gain_db: 12.9739895
+output_gain_db: -9.5170345
 type: gain_pedal
 backend: nam
 parameters:

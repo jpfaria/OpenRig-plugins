@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_pete_cornish_g_2
 display_name: Pete Cornish G-2
 brand: pete_cornish
-output_gain_db: 26.5283966
+output_gain_db: 4.0373726
 type: gain_pedal
 backend: nam
 parameters:

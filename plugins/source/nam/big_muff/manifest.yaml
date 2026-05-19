@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_big_muff
 display_name: Big Muff
 brand: ehx
-output_gain_db: 25.4722977
+output_gain_db: 2.9812737
 type: gain_pedal
 backend: nam
 parameters:

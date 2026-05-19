@@ -4,7 +4,7 @@ display_name: Meshuggah Preamp
 brand: fortin
 sources:
 - https://www.tone3000.com/tones/31452
-output_gain_db: 23.5601044
+output_gain_db: 1.0690804
 type: preamp
 backend: nam
 parameters:

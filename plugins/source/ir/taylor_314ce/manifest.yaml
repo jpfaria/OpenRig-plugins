@@ -20,21 +20,28 @@ captures:
 - values:
     voicing: taylor_314ce_dpa_4011
   file: ir/taylor_314ce_dpa_4011.wav
+  output_gain_db: -17.9077454
 - values:
     voicing: taylor_314ce_earthworks_qtc30
   file: ir/taylor_314ce_earthworks_qtc30.wav
+  output_gain_db: -16.1458378
 - values:
     voicing: taylor_314ce_neumann_m147
   file: ir/taylor_314ce_neumann_m147.wav
+  output_gain_db: -17.1361027
 - values:
     voicing: taylor_314ce_neumann_u87
   file: ir/taylor_314ce_neumann_u87.wav
+  output_gain_db: -15.2937679
 - values:
     voicing: taylor_314ce_scheops_cmc64g
   file: ir/taylor_314ce_scheops_cmc64g.wav
+  output_gain_db: -17.0986233
 - values:
     voicing: taylor_314ce_shure_sm57
   file: ir/taylor_314ce_shure_sm57.wav
+  output_gain_db: -20.0363197
 - values:
     voicing: taylor_314ce_soundelux_e47
   file: ir/taylor_314ce_soundelux_e47.wav
+  output_gain_db: -14.6741600

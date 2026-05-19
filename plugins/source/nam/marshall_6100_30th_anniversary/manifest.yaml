@@ -3,7 +3,7 @@ id: nam_marshall_6100_30th_anniversary
 display_name: 6100 - 30th anniversary
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 1.3328686
+output_gain_db: -21.1581554
 type: amp
 backend: nam
 parameters:

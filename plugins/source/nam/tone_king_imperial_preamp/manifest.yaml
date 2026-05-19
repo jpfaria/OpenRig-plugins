@@ -4,7 +4,7 @@ display_name: Imperial Preamp
 brand: tone_king
 sources:
 - https://www.tone3000.com/tones/50670
-output_gain_db: 15.0693474
+output_gain_db: -7.4216766
 type: preamp
 backend: nam
 parameters:

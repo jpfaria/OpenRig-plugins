@@ -7,7 +7,10 @@
 //!   under a root, parses just enough YAML to know `type`, first
 //!   capture file, and `output_gain_db`).
 //! - [`loudness`] — BS.1770 LUFS, peak, runtime-mirror output_limiter.
+//! - [`ir`] — IR `.wav` loading + FFT convolution for cab/body
+//!   insertion-loss loudness audit.
 
 pub mod catalog;
+pub mod ir;
 pub mod loudness;
 pub mod synthetic_di;

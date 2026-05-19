@@ -4,7 +4,7 @@ display_name: Super-Hi 50
 brand: hiwatt
 sources:
 - https://www.tone3000.com/tones/53037
-output_gain_db: 4.1489048
+output_gain_db: -18.3421192
 type: amp
 backend: nam
 parameters:

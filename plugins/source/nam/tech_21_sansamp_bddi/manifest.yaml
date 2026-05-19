@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_tech_21_sansamp_bddi
 display_name: Tech 21 SansAmp BDDI
 brand: sansamp
-output_gain_db: 15.6031475
+output_gain_db: -6.8878765
 type: gain_pedal
 backend: nam
 parameters:

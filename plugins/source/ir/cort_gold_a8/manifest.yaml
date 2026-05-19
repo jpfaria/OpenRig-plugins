@@ -16,12 +16,16 @@ captures:
 - values:
     voicing: cort_gold_a8_48000
   file: ir/cort_gold_a8_48000.wav
+  output_gain_db: -13.3339062
 - values:
     voicing: cort_gold_a8_48000_bld
   file: ir/cort_gold_a8_48000_bld.wav
+  output_gain_db: -7.8059807
 - values:
     voicing: cort_gold_a8_48000_jf_flavor
   file: ir/cort_gold_a8_48000_jf_flavor.wav
+  output_gain_db: -7.0235672
 - values:
     voicing: cort_gold_a8_48000_match
   file: ir/cort_gold_a8_48000_match.wav
+  output_gain_db: -5.4973507

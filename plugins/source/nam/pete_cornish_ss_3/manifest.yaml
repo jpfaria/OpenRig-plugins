@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_pete_cornish_ss_3
 display_name: Pete Cornish SS-3
 brand: pete_cornish
-output_gain_db: 11.2606564
+output_gain_db: -11.2303677
 type: gain_pedal
 backend: nam
 parameters:

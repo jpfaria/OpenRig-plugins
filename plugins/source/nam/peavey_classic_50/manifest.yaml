@@ -3,7 +3,7 @@ id: nam_peavey_classic_50
 display_name: Classic 50
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: 11.3398781
+output_gain_db: -4.0267391
 type: amp
 backend: nam
 parameters:

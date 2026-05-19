@@ -1,29 +1,59 @@
 # OpenRig-plugins — Claude Code
 
-Repositório de **binários de plugins pré-compilados** (LV2 nativos + capturas NAM/IR) consumidos pelo [OpenRig](https://github.com/jpfaria/OpenRig). Cada plugin vive em `plugins/source/<kind>/<name>/` com `manifest.yaml`, `data/` (TTL) e `platform/<slot>/<lib>`.
+Repository of **precompiled plugin binaries** (native LV2 + NAM/IR captures) consumed by [OpenRig](https://github.com/jpfaria/OpenRig). Each plugin lives in `plugins/source/<kind>/<name>/` with `manifest.yaml`, `data/` (TTL) and `platform/<slot>/<lib>`.
 
-## Invariante crítico — slot é single source of truth do OpenRig
+## Language — English everywhere (LAW)
 
-Os nomes de slot de plataforma em `manifest.yaml` (`binaries:`) e na toolchain (`scripts/build-lib.sh`, `.github/workflows/build-libs.yml`) **TÊM que bater exatamente** com o enum `Lv2Slot` do OpenRig (`crates/plugin-loader/src/manifest.rs`):
+All artifacts are written in **English**, no exceptions:
+
+- **Code** — identifiers, comments, log messages.
+- **Docs** — every `.md` (this file, `README*`, anything under `docs/`, every `.claude/skills/*/SKILL.md`).
+- **Issue/PR comments** — plans, progress updates, summaries.
+- **Commits** — messages in English, no `Co-Authored-By`, no `Fixes #`.
+
+Only the live chat with the user stays in Portuguese. Everything that is committed or posted is English.
+
+## Critical invariant — slot is OpenRig's single source of truth
+
+Platform slot names in `manifest.yaml` (`binaries:`) and in the toolchain (`scripts/build-lib.sh`, `.github/workflows/build-libs.yml`) **MUST match exactly** the OpenRig `Lv2Slot` enum (`crates/plugin-loader/src/manifest.rs`):
 
 ```
 macos-universal · windows-x86_64 · windows-aarch64 · linux-x86_64 · linux-aarch64
 ```
 
-**NUNCA** inventar/renomear slot aqui (ex.: `windows-x64`, `windows-arm64`). O enum é a fonte; serde alias no OpenRig é proibido. Slot divergente = `pack_plugins` falha → release do OpenRig quebra inteira (issue #5). Mudou plataforma? Alinha ao enum do OpenRig **primeiro**.
+**NEVER** invent or rename a slot here (e.g. `windows-x64`, `windows-arm64`). The enum is the source; a serde alias on the OpenRig side is forbidden. A divergent slot makes `pack_plugins` fail → the whole OpenRig release breaks (issue #5). Changed a platform? Align to the OpenRig enum **first**.
 
-## Gate obrigatório antes de qualquer push
+## Mandatory gate before any push
 
 ```
 cargo run --release --bin pack_plugins
 ```
 
-Exit 0 / `0 failed`. É o MESMO gate do job `Bundle plugins` do `release.yml` do OpenRig. Vermelho aqui = release vermelha lá.
+Exit 0 / `0 failed`. This is the SAME gate as the `Bundle plugins` job in OpenRig's `release.yml`. Red here = red release there.
 
-## Gitflow
+## Development flow (LAW)
 
-Mesmo processo do OpenRig: **issue → `bugfix/issue-N` (ou `feature/issue-N`) a partir de `main` → commits em inglês (sem `Co-Authored-By`, sem `Fixes #`) → PR pra `main`**. Bugfix mergeia imediato após review; PR/merge só com pedido explícito do usuário. Workspace isolado em `.solvers/issue-N/` (nunca editar no working dir do usuário). Comentar na issue: plano antes de começar, cada push (hash + arquivos + gate), resumo final.
+1. **There must always be an issue.** No work without an issue tracking it.
+2. **Comment the plan on the issue** before starting.
+3. **Isolated workspace**: clone/copy into `.solvers/issue-{N}/`. Never edit in the user's working directory.
+4. Branch from `main`: `bugfix/issue-N` or `feature/issue-N` (no description suffix).
+5. **Everything being done is commented on the issue** — plan before starting, every push (hash + files touched + gate result), and a final summary. The issue is the running log of the work.
+6. Gate `cargo run --release --bin pack_plugins` → exit 0 before every push.
+7. **PR targets `main`.** Bugfix merges right after review; PR/merge only on explicit user request.
 
-## Metodologia de código
+## Docs in sync with code (LAW)
 
-Ver `.claude/skills/openrig-code-quality/SKILL.md` — regras de qualidade language-agnostic (zero coupling, single source of truth, separação de concerns, organização de arquivo, TDD, docs em sincronia, comunicação objetiva). Invocar antes de qualquer ação não-trivial.
+Documentation is part of the task, not an afterthought. **Any change that alters behavior, API, flow, slot mapping, or the build/pack process MUST update the affected docs in the SAME commit:**
+
+| Layer | Audience | Update when |
+|---|---|---|
+| `docs/**/*.md` | contributors / users | behavior, build, pack, slot, or platform changed |
+| `CLAUDE.md` (this file) | every Claude session | invariant, gate, gitflow, or general rule changed |
+| `.claude/skills/*/SKILL.md` | future Claude session | methodology, anti-pattern, gate, or process changed |
+| `README*.md` | the world | tagline, plugin list, build/pack instructions changed |
+
+A commit that changes behavior without touching any `.md` is wrong. A skill left stale because "I remember it" is wrong — the next session does not remember. Renamed something? `grep -rn "<old>"` across `*.md`, `README*`, `CLAUDE.md`, and every `.claude/skills/*/SKILL.md`, and fix all of them in the same commit.
+
+## Code methodology
+
+See `.claude/skills/openrig-code-quality/SKILL.md` — quality rules for this repo (slot invariant, single source of truth, docs in sync, English everywhere, isolated `.solvers` workflow). Invoke it before any non-trivial action.

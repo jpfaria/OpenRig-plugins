@@ -16,9 +16,12 @@ captures:
 - values:
     voicing: ir2_gt_44k_2048
   file: ir/ir2_gt_44k_2048.wav
+  output_gain_db: -19.1268387
 - values:
     voicing: ir2_gt_44k_2048_m
   file: ir/ir2_gt_44k_2048_m.wav
+  output_gain_db: -9.2304668
 - values:
     voicing: ir2_gt_44k_2048_mffqn
   file: ir/ir2_gt_44k_2048_mffqn.wav
+  output_gain_db: -9.1082058

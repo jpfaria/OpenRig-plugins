@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_earthquaker_hizumitas
 display_name: EarthQuaker Hizumitas
 brand: earthquaker
-output_gain_db: 8.9144783
+output_gain_db: -13.5765457
 type: gain_pedal
 backend: nam
 parameters:

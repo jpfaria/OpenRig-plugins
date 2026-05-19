@@ -3,7 +3,7 @@ id: nam_boss_hm2_1986
 display_name: Heavy Metal HM-2 '86
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: 2.0883694
+output_gain_db: -20.4026546
 type: gain_pedal
 backend: nam
 parameters:

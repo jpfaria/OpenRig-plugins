@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_warm_audio_centavo
 display_name: Warm Audio Centavo
 brand: warm_audio
-output_gain_db: 19.9782276
+output_gain_db: -0.4781914
 type: gain_pedal
 backend: nam
 parameters:

@@ -1,5 +1,5 @@
 [package]
-name = "nam-loudness-audit"
+name = "loudness-audit"
 version.workspace = true
 edition.workspace = true
 
@@ -7,11 +7,13 @@ edition.workspace = true
 anyhow.workspace = true
 nam = { git = "https://github.com/jpfaria/OpenRig.git", branch = "develop" }
 bs1770 = "1"
+hound = "3"
+realfft = "3"
 
 [[bin]]
-name = "nam_loudness_audit"
+name = "loudness_audit"
 path = "src/main.rs"
 
 [lib]
-name = "nam_loudness_audit"
+name = "loudness_audit"
 path = "src/lib.rs"

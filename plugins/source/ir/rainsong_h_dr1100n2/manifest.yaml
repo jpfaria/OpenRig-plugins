@@ -16,12 +16,16 @@ captures:
 - values:
     flavor: standard
   file: ir/jf_rainsong_h_dr1100n2_hfn_44100.wav
+  output_gain_db: -12.6763840
 - values:
     flavor: blend
   file: ir/jf_rainsong_h_dr1100n2_hfn_44100_bld.wav
+  output_gain_db: -6.5279884
 - values:
     flavor: match
   file: ir/rainsong_dread_44100_matcheq.wav
+  output_gain_db: -8.9610424
 - values:
     flavor: jf
   file: ir/jf_rainsong_h_dr1100n2_hfn_44100_jf_flavor.wav
+  output_gain_db: -22.0734062

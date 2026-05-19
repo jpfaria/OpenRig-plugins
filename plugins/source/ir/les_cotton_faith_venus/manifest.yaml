@@ -18,18 +18,24 @@ captures:
 - values:
     voicing: lescotton_faith_venus
   file: ir/lescotton_faith_venus.wav
+  output_gain_db: -40.6840630
 - values:
     voicing: cukiirlescottonfaith2048at48
   file: ir/cukiirlescottonfaith2048at48.wav
+  output_gain_db: -3.5386772
 - values:
     voicing: cukijfirlescottonfaith2048at48
   file: ir/cukijfirlescottonfaith2048at48.wav
+  output_gain_db: -2.6576920
 - values:
     voicing: jf45irlescotton_faith_venus
   file: ir/jf45irlescotton_faith_venus.wav
+  output_gain_db: -3.2627907
 - values:
     voicing: jf45ir1024lescotton_faith_venus
   file: ir/jf45ir1024lescotton_faith_venus.wav
+  output_gain_db: -3.0191441
 - values:
     voicing: jf45ir5050lescotton_faith_venus
   file: ir/jf45ir5050lescotton_faith_venus.wav
+  output_gain_db: -0.6357765

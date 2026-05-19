@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_ibanez_tube_screamer
 display_name: Ibanez Tube Screamer
 brand: fortin
-output_gain_db: 7.5403099
+output_gain_db: -14.9507141
 type: gain_pedal
 backend: nam
 parameters:

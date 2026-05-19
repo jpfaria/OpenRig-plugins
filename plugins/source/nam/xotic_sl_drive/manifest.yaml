@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_xotic_sl_drive
 display_name: Xotic SL Drive
 brand: xotic
-output_gain_db: 9.0628853
+output_gain_db: -13.4281387
 type: gain_pedal
 backend: nam
 parameters:

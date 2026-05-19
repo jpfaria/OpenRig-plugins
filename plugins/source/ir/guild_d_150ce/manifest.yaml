@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: guild_d_150ce_48000
   file: ir/guild_d_150ce_48000.wav
+  output_gain_db: -11.9758129
 - values:
     voicing: guild_d_150ce_48000_bld
   file: ir/guild_d_150ce_48000_bld.wav
+  output_gain_db: -5.5683823
 - values:
     voicing: guild_d_150ce_48000_jf_flavor
   file: ir/guild_d_150ce_48000_jf_flavor.wav
+  output_gain_db: -16.8923359
 - values:
     voicing: guild_d_150ce_48000_match
   file: ir/guild_d_150ce_48000_match.wav
+  output_gain_db: -8.1152534

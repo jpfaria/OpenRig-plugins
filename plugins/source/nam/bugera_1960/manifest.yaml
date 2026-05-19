@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_bugera_1960
 display_name: Bugera 1960
 brand: bugera
-output_gain_db: 0.6136322
+output_gain_db: -21.8773918
 type: amp
 backend: nam
 parameters:

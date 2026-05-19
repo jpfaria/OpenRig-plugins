@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_hiwatt_dr103
 display_name: HiWatt DR103
 brand: hiwatt
-output_gain_db: 4.0553865
+output_gain_db: -18.4356384
 type: amp
 backend: nam
 parameters:

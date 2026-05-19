@@ -16,3 +16,4 @@ captures:
 - values:
     capture: mesa_recto_v30
   file: ir/mesa_recto_v30_3.wav
+  output_gain_db: -10.7936192

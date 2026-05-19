@@ -15,9 +15,12 @@ captures:
 - values:
     voicing: ir_reca_44k_2048
   file: ir/ir_reca_44k_2048.wav
+  output_gain_db: -16.3895664
 - values:
     voicing: ir_reca_44k_2048_m
   file: ir/ir_reca_44k_2048_m.wav
+  output_gain_db: -10.6002064
 - values:
     voicing: ir_reca_44k_2048_mffqn
   file: ir/ir_reca_44k_2048_mffqn.wav
+  output_gain_db: -11.6886921

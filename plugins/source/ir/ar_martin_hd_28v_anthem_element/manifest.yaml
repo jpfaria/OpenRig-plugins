@@ -16,9 +16,12 @@ captures:
 - values:
     voicing: martin_hd28v_anthem_element_44100
   file: ir/martin_hd28v_anthem_element_44100.wav
+  output_gain_db: -8.5077343
 - values:
     voicing: martin_hd28v_anthem_element_44100_match1
   file: ir/martin_hd28v_anthem_element_44100_match1.wav
+  output_gain_db: -6.0564709
 - values:
     voicing: martin_hd28v_anthem_element_44100_match2
   file: ir/martin_hd28v_anthem_element_44100_match2.wav
+  output_gain_db: -6.8987179

@@ -18,15 +18,20 @@ captures:
 - values:
     voicing: hd28_neumann_u87
   file: ir/hd28_neumann_u87.wav
+  output_gain_db: -15.5722237
 - values:
     voicing: hd28_neumann_u47
   file: ir/hd28_neumann_u47.wav
+  output_gain_db: -10.7341595
 - values:
     voicing: hd28_soundelux_e47
   file: ir/hd28_soundelux_e47.wav
+  output_gain_db: -18.1394405
 - values:
     voicing: hd28_akg_c414b_xls
   file: ir/hd28_akg_c414b_xls.wav
+  output_gain_db: -18.4822998
 - values:
     voicing: hd28_schoeps_cmc64g
   file: ir/hd28_schoeps_cmc64g.wav
+  output_gain_db: -18.6373730

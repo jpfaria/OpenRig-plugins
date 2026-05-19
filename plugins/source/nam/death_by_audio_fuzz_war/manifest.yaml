@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_death_by_audio_fuzz_war
 display_name: Death By Audio Fuzz War
 brand: death_by_audio
-output_gain_db: 5.7113466
+output_gain_db: -16.7796783
 type: gain_pedal
 backend: nam
 parameters:
