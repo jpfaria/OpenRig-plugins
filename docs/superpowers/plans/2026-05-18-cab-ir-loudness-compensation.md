@@ -1,3 +1,5 @@
+> **SUPERSEDED by jpfaria/OpenRig-plugins#9**: the boost-only hot-target loudness model below was replaced by a signed unity insertion correction (it caused chained-gain clipping). Kept for history.
+
 # Cab/Body IR Loudness Compensation Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.

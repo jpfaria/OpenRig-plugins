@@ -3,26 +3,29 @@
 //! Serves both backends:
 //!
 //! - NAM (`amp`/`preamp`/`gain_pedal`): the DI is run through the
-//!   `.nam` model; gain levels the model output to `TARGET_LUFS`
-//!   (issue #413). One `output_gain_db` per manifest.
+//!   `.nam` model. One `output_gain_db` per manifest.
 //! - IR (`cab`/`body`): the DI is convolved through each capture's
-//!   `.wav`; gain compensates the IR's measured insertion loss so the
-//!   block never loses volume (issue #8). One `output_gain_db` PER
-//!   capture, since each `.wav` in the grid attenuates differently.
+//!   `.wav`. One `output_gain_db` PER capture, since each `.wav` in
+//!   the grid changes level differently (issue #8).
 //!
-//! Loudness levelling is static manifest metadata: running this binary
+//! The correction is static manifest metadata: running this binary
 //! before a release refreshes the persisted offset so the app applies
 //! it as a constant gain.
 //!
-//! Strategy (boost-only, levels UP):
-//!   NAM: gain = min(TARGET_LUFS - lufs, PEAK_CEILING - peak)
-//!   IR:  gain = min(LUFS_in - LUFS_out, PEAK_CEILING - peak)
-//!        both clamped to [MIN_GAIN_DB, MAX_GAIN_DB]
+//! Strategy — UNITY insertion correction (signed, issue #9):
+//!   gain = LUFS_in − LUFS_out
+//!     LUFS_in  = integrated LUFS of the dry DI
+//!     LUFS_out = integrated LUFS after the block (model / IR)
 //!
-//! - Never attenuates: a block already at/above target gets 0; the
-//!   rest of the catalogue rises to meet it.
-//! - Never clips: if the boost needed for the LUFS target would push
-//!   the peak past the ceiling, the peak wins.
+//! - Targets UNITY: the block's output ends at the same loudness as
+//!   its input — toggling the block does not change perceived volume.
+//! - SIGNED, not boost-only: a block that amplifies (LUFS_out >
+//!   LUFS_in) gets a NEGATIVE gain (it is brought back down); a block
+//!   that attenuates gets a positive one. This is what stops the
+//!   chained-gain blow-up of the old hot boost-only model.
+//! - True-peak safety only: the positive side is capped so the
+//!   correction itself never pushes the peak past 0 dBFS; never a hot
+//!   loudness target.
 //!
 //! Usage:
 //!
@@ -44,34 +47,18 @@ use loudness_audit::loudness::{
 };
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
-/// LUFS integrated alvo. -10 LUFS é alto pra streaming standard
-/// (-14 LUFS), mas adequado pro contexto: signal de instrumento
-/// solo dentro do app, antes do user mixar com batera/baixo. Bate
-/// com a média natural dos saturated do catálogo, então nivela
-/// PRA CIMA sem precisar atenuar nenhum.
-const TARGET_LUFS: f32 = -10.0;
+/// True-peak safety ceiling in dBFS. The unity correction is only
+/// capped on the POSITIVE (boost) side so the makeup itself never
+/// pushes the post-gain peak past digital full scale. This is a
+/// clip guard, NOT a loudness target — the old +3 dBFS hot ceiling
+/// (which leaned on a runtime limiter and let chained gains blow up)
+/// is gone.
+const PEAK_CEILING_DBFS: f32 = 0.0;
 
-/// Peak ceiling em dBFS após o gain aplicado. +3 dBFS deixa o amp
-/// empurrar de leve a zona soft do tanh limiter (a curva começa em
-/// 0.95 lin = -0.45 dBFS, fica gentle até ~+3 dBFS, hard saturate
-/// só acima disso).
-///
-/// Por que não -1 dBFS (mais conservador):
-/// - Clean amps com crest factor alto (peak >> RMS) batem peak -1
-///   muito antes do LUFS chegar no target. Audit clampa, eles
-///   ficam quietos demais.
-/// - Em +3 dBFS o ceiling vira "boost-tudo-que-der; peaks
-///   excedentes o limiter aparada com leve saturação". Trade-off
-///   negociado: ~0.5-1 LU de loudness perdida no limiter pra ganhar
-///   ~5-10 LU de boost utilizável em clean amps.
-const PEAK_CEILING_DBFS: f32 = 3.0;
-
-/// Boost-only: nunca atenua. Se um amp já está acima do target,
-/// gain = 0 — o resto do catálogo é que sobe pra alinhar.
-const MIN_GAIN_DB: f32 = 0.0;
-
-/// Cap de boost. 30 dB cobre o pior preamp quieto (Fortin Meshuggah)
-/// sem deixar capture quebrada (near-silence) explodir o gain.
+/// Runaway guard for the boost direction only. A broken near-silent
+/// capture would otherwise demand an enormous positive gain; 30 dB
+/// caps that. Attenuation (negative gain) is intentionally unbounded:
+/// a very hot block must be brought all the way back to unity.
 const MAX_GAIN_DB: f32 = 30.0;
 
 fn main() -> Result<()> {
@@ -92,9 +79,8 @@ fn main() -> Result<()> {
 
     eprintln!("DI: {} samples @ {} Hz", di.len(), DI_SAMPLE_RATE as u32);
     eprintln!(
-        "target: {TARGET_LUFS:+.2} LUFS, peak ceiling {PEAK_CEILING_DBFS:+.2} dBFS"
+        "unity insertion correction (signed); true-peak cap {PEAK_CEILING_DBFS:+.2} dBFS, boost cap {MAX_GAIN_DB:+.0} dB"
     );
-    eprintln!("boost-only ({MIN_GAIN_DB:+.0} .. {MAX_GAIN_DB:+.0} dB)");
     eprintln!();
     eprintln!(
         "{:<48} {:>8} {:>8} {:>8} {:>8}",
@@ -182,17 +168,18 @@ fn audit_plugin(
         close_model_diag(model);
     }
 
-    // PRE-limiter measurements: this is what the offline gain math
-    // needs (the runtime applies the gain BEFORE the limiter sees
-    // the signal, not after).
+    // Signed unity correction: bring the model output back to the
+    // loudness of its own input (the dry DI). Negative for models
+    // that amplify, positive for those that attenuate.
+    let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
     let measured_lufs = integrated_lufs(&output, DI_SAMPLE_RATE as u32);
     let measured_peak_dbfs = peak_dbfs(&output);
 
-    let want_for_lufs = TARGET_LUFS - measured_lufs;
-    let allowed_by_peak = PEAK_CEILING_DBFS - measured_peak_dbfs;
-    let applied = want_for_lufs
-        .min(allowed_by_peak)
-        .clamp(MIN_GAIN_DB, MAX_GAIN_DB);
+    let want_for_lufs = lufs_in - measured_lufs;
+    // Only the boost side is bounded: true-peak guard so the makeup
+    // can't clip, and a runaway cap. Attenuation is unbounded.
+    let peak_headroom = PEAK_CEILING_DBFS - measured_peak_dbfs;
+    let applied = want_for_lufs.min(peak_headroom).min(MAX_GAIN_DB);
 
     let updated = upsert_output_gain_db(&raw, applied);
     fs::write(manifest_path, updated)
@@ -206,17 +193,19 @@ fn audit_plugin(
     })
 }
 
-/// Makeup for one IR so the block does not lose volume.
-/// `max(0, LUFS_in − LUFS_out)`, clamped by the same peak ceiling and
-/// MAX as the NAM path. Boost-only: an IR that adds level gets 0.
+/// Signed unity correction for one IR: `LUFS_in − LUFS_out`. Brings
+/// the convolved output back to the DI's loudness. Negative for IRs
+/// that add level, positive for those that lose it. Only the boost
+/// side is bounded (true-peak guard + runaway cap); attenuation is
+/// unbounded so a hot IR is fully tamed.
 fn ir_capture_gain_db(di: &[f32], ir: &[f32]) -> f32 {
     let wet = convolve(di, ir);
     let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
     let lufs_out = integrated_lufs(&wet, DI_SAMPLE_RATE as u32);
     let peak_out = peak_dbfs(&wet);
     let want = lufs_in - lufs_out;
-    let allowed_by_peak = PEAK_CEILING_DBFS - peak_out;
-    want.min(allowed_by_peak).clamp(MIN_GAIN_DB, MAX_GAIN_DB)
+    let peak_headroom = PEAK_CEILING_DBFS - peak_out;
+    want.min(peak_headroom).min(MAX_GAIN_DB)
 }
 
 fn audit_ir_plugin(
@@ -495,17 +484,18 @@ mod tests {
     }
 
     #[test]
-    fn insertion_loss_is_boost_only_and_peak_clamped() {
+    fn unity_correction_is_signed() {
         let di = loudness_audit::synthetic_di::default_guitar_di();
 
-        // −6 dB IR (scaled delta): expected makeup ≈ +6 dB, > 0.
+        // ×0.5 IR (−6 dB): output is quieter -> POSITIVE makeup ≈ +6.
         let ir_atten = vec![0.5_f32];
         let g = ir_capture_gain_db(&di, &ir_atten);
-        assert!(g > 4.0 && g < 8.0, "atten makeup was {g}");
+        assert!(g > 4.0 && g < 8.0, "attenuating IR makeup was {g}");
 
-        // +6 dB IR: never attenuate -> clamped to 0.
+        // ×2 IR (+6 dB): output is louder -> NEGATIVE correction,
+        // the hot block is brought back down to unity (not 0).
         let ir_boost = vec![2.0_f32];
         let g2 = ir_capture_gain_db(&di, &ir_boost);
-        assert_eq!(g2, 0.0, "must be boost-only, was {g2}");
+        assert!(g2 < -4.0 && g2 > -8.0, "amplifying IR must attenuate, was {g2}");
     }
 }

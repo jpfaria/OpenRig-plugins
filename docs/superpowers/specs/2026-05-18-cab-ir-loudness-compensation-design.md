@@ -1,3 +1,5 @@
+> **SUPERSEDED by jpfaria/OpenRig-plugins#9**: the boost-only hot-target loudness model below was replaced by a signed unity insertion correction (it caused chained-gain clipping). Kept for history.
+
 # Cab/Body IR Loudness Compensation — Design
 
 - **Issue:** jpfaria/OpenRig-plugins#8
