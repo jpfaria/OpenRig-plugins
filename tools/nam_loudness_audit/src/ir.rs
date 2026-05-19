@@ -4,7 +4,43 @@
 //! the runtime IR crate.
 
 use anyhow::{bail, Context, Result};
+use realfft::RealFftPlanner;
 use std::path::Path;
+
+/// Full linear convolution via a single zero-padded FFT. IR + DI are
+/// short enough (DI a few sec @ 48k, IR ≤ a few k taps) for one
+/// transform; output length = sig + ir − 1.
+pub fn convolve(sig: &[f32], ir: &[f32]) -> Vec<f32> {
+    if sig.is_empty() || ir.is_empty() {
+        return Vec::new();
+    }
+    let n_lin = sig.len() + ir.len() - 1;
+    let n = n_lin.next_power_of_two();
+    let mut planner = RealFftPlanner::<f32>::new();
+    let fft = planner.plan_fft_forward(n);
+    let ifft = planner.plan_fft_inverse(n);
+
+    let mut a = fft.make_input_vec();
+    let mut b = fft.make_input_vec();
+    a[..sig.len()].copy_from_slice(sig);
+    b[..ir.len()].copy_from_slice(ir);
+
+    let mut sa = fft.make_output_vec();
+    let mut sb = fft.make_output_vec();
+    fft.process(&mut a, &mut sa).unwrap();
+    fft.process(&mut b, &mut sb).unwrap();
+
+    for (x, y) in sa.iter_mut().zip(sb.iter()) {
+        *x *= *y;
+    }
+    let mut out = ifft.make_output_vec();
+    ifft.process(&mut sa, &mut out).unwrap();
+
+    let scale = 1.0 / n as f32;
+    out.truncate(n_lin);
+    out.iter_mut().for_each(|v| *v *= scale);
+    out
+}
 
 /// Loads a mono IR `.wav` as `f32` samples normalised to [-1, 1],
 /// resampled to 48 kHz if needed. Stereo files are downmixed (mean).
@@ -98,5 +134,42 @@ mod tests {
     fn resample_noop_when_rates_equal() {
         let x = vec![0.1, 0.2, 0.3];
         assert_eq!(resample_linear(&x, 48_000, 48_000), x);
+    }
+
+    #[test]
+    fn delta_ir_is_identity() {
+        let sig = vec![0.1, -0.4, 0.7, 0.2, -0.9];
+        let ir = vec![1.0_f32];
+        let y = convolve(&sig, &ir);
+        for (a, b) in sig.iter().zip(y.iter()) {
+            assert!((a - b).abs() < 1e-5, "{a} vs {b}");
+        }
+    }
+
+    #[test]
+    fn scaled_delta_scales_signal() {
+        let sig = vec![0.1, -0.4, 0.7, 0.2, -0.9];
+        let ir = vec![0.5_f32]; // -6 dB
+        let y = convolve(&sig, &ir);
+        for (a, b) in sig.iter().zip(y.iter()) {
+            assert!((a * 0.5 - b).abs() < 1e-5);
+        }
+    }
+
+    #[test]
+    fn matches_naive_convolution() {
+        let sig: Vec<f32> = (0..200).map(|i| (i as f32 * 0.3).sin()).collect();
+        let ir: Vec<f32> = (0..37).map(|i| (i as f32 * 0.11).cos() * 0.2).collect();
+        let fast = convolve(&sig, &ir);
+        let mut naive = vec![0.0_f32; sig.len() + ir.len() - 1];
+        for (i, s) in sig.iter().enumerate() {
+            for (j, h) in ir.iter().enumerate() {
+                naive[i + j] += s * h;
+            }
+        }
+        assert_eq!(fast.len(), naive.len());
+        for (a, b) in fast.iter().zip(naive.iter()) {
+            assert!((a - b).abs() < 1e-3, "{a} vs {b}");
+        }
     }
 }
