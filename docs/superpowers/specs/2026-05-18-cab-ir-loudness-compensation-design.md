@@ -7,7 +7,7 @@
 
 ## Problem
 
-`nam_loudness_audit` levels loudness only for `amp | preamp | gain_pedal` NAM
+`loudness_audit` levels loudness only for `amp | preamp | gain_pedal` NAM
 captures. `cab` and `body` plugins are IR-backed (`backend: ir`, `.wav`) and are
 currently excluded under the (wrong) assumption that an IR carries no loudness
 signature. An IR is a linear filter with real insertion loss (commonly
@@ -48,7 +48,7 @@ class of OpenRig#491; this design must not reintroduce it for cab/body.)
 ### Measurement (IR by IR)
 
 1. Reuse the existing deterministic synthetic guitar DI
-   (`default_guitar_di`, `tools/nam_loudness_audit/src/synthetic_di.rs`) — the
+   (`default_guitar_di`, `tools/loudness_audit/src/synthetic_di.rs`) — the
    same ruler the amp path already uses. No new reference signal.
 2. For each capture: load its `.wav` IR, convolve the DI through it.
 3. Measure integrated LUFS of the DI input and of the convolved output.
@@ -61,7 +61,7 @@ class of OpenRig#491; this design must not reintroduce it for cab/body.)
 5. Write `output_gain_db` into that capture's manifest entry, preserving YAML
    ordering/spacing (same discipline as the existing `upsert_output_gain_db`).
 
-### Tool changes — `tools/nam_loudness_audit`
+### Tool changes — `tools/loudness_audit`
 
 - `is_loudness_normalisable` accepts `cab` and `body`.
 - New IR measurement path parallel to the existing NAM path: when the block is
@@ -110,7 +110,7 @@ synthetic DI ──▶ convolve(.wav IR) ──▶ LUFS_out
 
 ## Docs in sync (same change — repo LAW)
 
-- `tools/nam_loudness_audit` module doc comment (now covers IR/cab/body).
+- `tools/loudness_audit` module doc comment (now covers IR/cab/body).
 - `.claude/skills/openrig-code-quality/SKILL.md` if methodology/anti-pattern
   changes.
 - Any `docs/**` describing the loudness system.

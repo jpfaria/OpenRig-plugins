@@ -4,14 +4,14 @@
 
 **Goal:** Measure each cab/body IR's insertion loss and persist a per-capture `output_gain_db` in the manifest so passing the signal through an IR block never loses volume.
 
-**Architecture:** Extend the `nam_loudness_audit` tool with an IR path: load each capture's `.wav`, convolve the existing deterministic synthetic DI through it, measure integrated LUFS in vs out, write `output_gain_db = max(0, LUFS_in − LUFS_out)` (boost-only, peak-clamped) **per capture entry**. Cab/body is net-new (no collision with the in-flight OpenRig#491 top-level amp read). Amp/preamp/gain_pedal migration to the same per-capture location is the final task, gated on OpenRig#491 confirming a per-capture read.
+**Architecture:** Extend the `loudness_audit` tool with an IR path: load each capture's `.wav`, convolve the existing deterministic synthetic DI through it, measure integrated LUFS in vs out, write `output_gain_db = max(0, LUFS_in − LUFS_out)` (boost-only, peak-clamped) **per capture entry**. Cab/body is net-new (no collision with the in-flight OpenRig#491 top-level amp read). Amp/preamp/gain_pedal migration to the same per-capture location is the final task, gated on OpenRig#491 confirming a per-capture read.
 
 **Tech Stack:** Rust, `bs1770` (already), `hound` (WAV I/O, new), `realfft` (FFT overlap-add convolution, new). LUFS of a linear convolution is convolver-implementation-independent, so a self-contained FFT convolver is loudness-correct and removes any external-API guesswork.
 
 **Cross-repo gate:** OpenRig#491 must resolve `output_gain_db` per selected capture. Tasks 1–7 (producer + manifests) are independent of #491. The end-to-end "loudness-transparent in OpenRig" acceptance criterion and Task 8 (amp migration) are BLOCKED on #491 confirmation — see issue #8.
 
 **Facts established (verified, do not re-derive):**
-- `DI_SAMPLE_RATE` = `48_000.0` (`tools/nam_loudness_audit/src/synthetic_di.rs:16,21`).
+- `DI_SAMPLE_RATE` = `48_000.0` (`tools/loudness_audit/src/synthetic_di.rs:16,21`).
 - IR `.wav` are mono; most 48000 Hz, a minority 44100 Hz; 24-bit PCM (`sampwidth 3`).
 - Existing per-manifest writer `upsert_output_gain_db` anchors on top-level `type:` — NOT reusable per-capture; a new writer is required.
 - Capture grid shape:
@@ -31,13 +31,13 @@
 ### Task 1: Add deps + WAV loader
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/Cargo.toml`
-- Create: `tools/nam_loudness_audit/src/ir.rs`
-- Modify: `tools/nam_loudness_audit/src/lib.rs`
+- Modify: `tools/loudness_audit/Cargo.toml`
+- Create: `tools/loudness_audit/src/ir.rs`
+- Modify: `tools/loudness_audit/src/lib.rs`
 
 - [ ] **Step 1: Add dependencies**
 
-In `tools/nam_loudness_audit/Cargo.toml`, under `[dependencies]` add:
+In `tools/loudness_audit/Cargo.toml`, under `[dependencies]` add:
 
 ```toml
 hound = "3"
@@ -46,7 +46,7 @@ realfft = "3"
 
 - [ ] **Step 2: Register module**
 
-In `tools/nam_loudness_audit/src/lib.rs`, add after `pub mod catalog;`:
+In `tools/loudness_audit/src/lib.rs`, add after `pub mod catalog;`:
 
 ```rust
 pub mod ir;
@@ -54,7 +54,7 @@ pub mod ir;
 
 - [ ] **Step 3: Write failing test for `load_wav_ir`**
 
-Create `tools/nam_loudness_audit/src/ir.rs`:
+Create `tools/loudness_audit/src/ir.rs`:
 
 ```rust
 //! IR (.wav) loading + FFT convolution for cab/body loudness audit.
@@ -134,13 +134,13 @@ pub fn resample_linear(_x: &[f32], _from: u32, _to: u32) -> Vec<f32> {
 
 - [ ] **Step 4: Run test, expect fail**
 
-Run: `cargo test -p nam-loudness-audit ir::tests::loads_known_wav_mono_normalised`
+Run: `cargo test -p loudness-audit ir::tests::loads_known_wav_mono_normalised`
 Expected: FAIL (`not implemented`).
 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add tools/nam_loudness_audit/Cargo.toml tools/nam_loudness_audit/src/lib.rs tools/nam_loudness_audit/src/ir.rs
+git add tools/loudness_audit/Cargo.toml tools/loudness_audit/src/lib.rs tools/loudness_audit/src/ir.rs
 git commit -m "feat(audit): wav IR loader scaffold for cab/body (#8)"
 ```
 
@@ -149,7 +149,7 @@ git commit -m "feat(audit): wav IR loader scaffold for cab/body (#8)"
 ### Task 2: Linear resampler
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/src/ir.rs`
+- Modify: `tools/loudness_audit/src/ir.rs`
 
 - [ ] **Step 1: Write failing test**
 
@@ -175,7 +175,7 @@ fn resample_noop_when_rates_equal() {
 
 - [ ] **Step 2: Run, expect fail**
 
-Run: `cargo test -p nam-loudness-audit ir::tests::resample`
+Run: `cargo test -p loudness-audit ir::tests::resample`
 Expected: FAIL (`not implemented`).
 
 - [ ] **Step 3: Implement**
@@ -207,13 +207,13 @@ pub fn resample_linear(x: &[f32], from: u32, to: u32) -> Vec<f32> {
 
 - [ ] **Step 4: Run, expect pass**
 
-Run: `cargo test -p nam-loudness-audit ir::tests::`
+Run: `cargo test -p loudness-audit ir::tests::`
 Expected: PASS (resample + load tests).
 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add tools/nam_loudness_audit/src/ir.rs
+git add tools/loudness_audit/src/ir.rs
 git commit -m "feat(audit): linear resampler for non-48k IRs (#8)"
 ```
 
@@ -222,7 +222,7 @@ git commit -m "feat(audit): linear resampler for non-48k IRs (#8)"
 ### Task 3: FFT overlap-add convolution
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/src/ir.rs`
+- Modify: `tools/loudness_audit/src/ir.rs`
 
 - [ ] **Step 1: Write failing test**
 
@@ -269,7 +269,7 @@ fn matches_naive_convolution() {
 
 - [ ] **Step 2: Run, expect fail**
 
-Run: `cargo test -p nam-loudness-audit ir::tests::matches_naive_convolution`
+Run: `cargo test -p loudness-audit ir::tests::matches_naive_convolution`
 Expected: FAIL (`convolve` not found — compile error).
 
 - [ ] **Step 3: Implement**
@@ -317,13 +317,13 @@ pub fn convolve(sig: &[f32], ir: &[f32]) -> Vec<f32> {
 
 - [ ] **Step 4: Run, expect pass**
 
-Run: `cargo test -p nam-loudness-audit ir::tests::`
+Run: `cargo test -p loudness-audit ir::tests::`
 Expected: PASS (all ir tests).
 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add tools/nam_loudness_audit/src/ir.rs
+git add tools/loudness_audit/src/ir.rs
 git commit -m "feat(audit): fft linear convolution for IR loudness (#8)"
 ```
 
@@ -332,7 +332,7 @@ git commit -m "feat(audit): fft linear convolution for IR loudness (#8)"
 ### Task 4: Enumerate all captures (not just first)
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/src/main.rs`
+- Modify: `tools/loudness_audit/src/main.rs`
 
 - [ ] **Step 1: Write failing test**
 
@@ -351,7 +351,7 @@ fn lists_all_capture_files_in_order() {
 
 - [ ] **Step 2: Run, expect fail**
 
-Run: `cargo test -p nam-loudness-audit tests::lists_all_capture_files_in_order`
+Run: `cargo test -p loudness-audit tests::lists_all_capture_files_in_order`
 Expected: FAIL (`all_capture_files` not found).
 
 - [ ] **Step 3: Implement**
@@ -389,13 +389,13 @@ fn all_capture_files(yaml: &str) -> Vec<String> {
 
 - [ ] **Step 4: Run, expect pass**
 
-Run: `cargo test -p nam-loudness-audit tests::lists_all_capture_files_in_order`
+Run: `cargo test -p loudness-audit tests::lists_all_capture_files_in_order`
 Expected: PASS.
 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add tools/nam_loudness_audit/src/main.rs
+git add tools/loudness_audit/src/main.rs
 git commit -m "feat(audit): enumerate every capture file (#8)"
 ```
 
@@ -404,7 +404,7 @@ git commit -m "feat(audit): enumerate every capture file (#8)"
 ### Task 5: Per-capture `output_gain_db` writer
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/src/main.rs`
+- Modify: `tools/loudness_audit/src/main.rs`
 
 - [ ] **Step 1: Write failing test**
 
@@ -436,7 +436,7 @@ fn replaces_existing_per_capture_gain_in_place() {
 
 - [ ] **Step 2: Run, expect fail**
 
-Run: `cargo test -p nam-loudness-audit tests::inserts_gain_per_capture_after_file_line`
+Run: `cargo test -p loudness-audit tests::inserts_gain_per_capture_after_file_line`
 Expected: FAIL (`upsert_capture_output_gain_db` not found).
 
 - [ ] **Step 3: Implement**
@@ -493,13 +493,13 @@ fn upsert_capture_output_gain_db(yaml: &str, gains: &[(String, f32)]) -> String 
 
 - [ ] **Step 4: Run, expect pass**
 
-Run: `cargo test -p nam-loudness-audit tests::`
+Run: `cargo test -p loudness-audit tests::`
 Expected: PASS (both new tests + existing).
 
 - [ ] **Step 5: Commit**
 
 ```bash
-git add tools/nam_loudness_audit/src/main.rs
+git add tools/loudness_audit/src/main.rs
 git commit -m "feat(audit): per-capture output_gain_db writer (#8)"
 ```
 
@@ -508,7 +508,7 @@ git commit -m "feat(audit): per-capture output_gain_db writer (#8)"
 ### Task 6: IR audit path (insertion-loss measurement)
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/src/main.rs`
+- Modify: `tools/loudness_audit/src/main.rs`
 
 - [ ] **Step 1: Write failing test for the gain math**
 
@@ -517,9 +517,9 @@ In `main.rs` `mod tests`, add:
 ```rust
 #[test]
 fn insertion_loss_is_boost_only_and_peak_clamped() {
-    use nam_loudness_audit::ir::convolve;
-    use nam_loudness_audit::loudness::integrated_lufs;
-    let di = nam_loudness_audit::synthetic_di::default_guitar_di();
+    use loudness_audit::ir::convolve;
+    use loudness_audit::loudness::integrated_lufs;
+    let di = loudness_audit::synthetic_di::default_guitar_di();
 
     // −6 dB IR (scaled delta): expected makeup ≈ +6 dB, > 0.
     let ir_atten = vec![0.5_f32];
@@ -537,7 +537,7 @@ fn insertion_loss_is_boost_only_and_peak_clamped() {
 
 - [ ] **Step 2: Run, expect fail**
 
-Run: `cargo test -p nam-loudness-audit tests::insertion_loss_is_boost_only_and_peak_clamped`
+Run: `cargo test -p loudness-audit tests::insertion_loss_is_boost_only_and_peak_clamped`
 Expected: FAIL (`ir_capture_gain_db` not found).
 
 - [ ] **Step 3: Implement the measurement + wire the IR branch**
@@ -545,7 +545,7 @@ Expected: FAIL (`ir_capture_gain_db` not found).
 Add to `main.rs`:
 
 ```rust
-use nam_loudness_audit::ir::{convolve, load_wav_ir};
+use loudness_audit::ir::{convolve, load_wav_ir};
 
 /// Makeup for one IR so the block does not lose volume.
 /// `max(0, LUFS_in − LUFS_out)`, clamped by the same peak ceiling and
@@ -631,13 +631,13 @@ for skip in ["reverb", "delay", "filter", "utility"] {
 
 - [ ] **Step 5: Run, expect pass**
 
-Run: `cargo test -p nam-loudness-audit`
+Run: `cargo test -p loudness-audit`
 Expected: PASS (all tests, including the updated normalisable test).
 
 - [ ] **Step 6: Commit**
 
 ```bash
-git add tools/nam_loudness_audit/src/main.rs
+git add tools/loudness_audit/src/main.rs
 git commit -m "feat(audit): IR insertion-loss path for cab/body (#8)"
 ```
 
@@ -647,7 +647,7 @@ git commit -m "feat(audit): IR insertion-loss path for cab/body (#8)"
 
 **Files:**
 - Modify: `plugins/source/ir/**/manifest.yaml` (generated)
-- Modify: `tools/nam_loudness_audit/src/main.rs` (doc comment)
+- Modify: `tools/loudness_audit/src/main.rs` (doc comment)
 - Modify: `.claude/skills/openrig-code-quality/SKILL.md` if methodology changed
 - Check: `CLAUDE.md`, `docs/**`, `README*.md` for stale "only amp/preamp" wording
 
@@ -663,7 +663,7 @@ IR convolution of the synthetic DI (insertion-loss makeup, boost-only).
 Run:
 ```bash
 grep -rn "only amp/preamp\|amp/preamp\|cab/body.*fora\|spectral shaper" \
-  CLAUDE.md README*.md docs/ .claude/skills/ tools/nam_loudness_audit/src/ 2>/dev/null
+  CLAUDE.md README*.md docs/ .claude/skills/ tools/loudness_audit/src/ 2>/dev/null
 ```
 Fix every hit that claims cab/body carry no loudness signature / are excluded.
 
@@ -671,7 +671,7 @@ Fix every hit that claims cab/body carry no loudness signature / are excluded.
 
 Run:
 ```bash
-cargo run --release -p nam-loudness-audit -- plugins/source/ir
+cargo run --release -p loudness-audit -- plugins/source/ir
 ```
 Expected: per-plugin lines printed, `audited <N> plugins, skipped 0` (cab+body = 134).
 
@@ -695,7 +695,7 @@ Expected: exit 0, `0 failed`. If red, root-cause — never silence.
 - [ ] **Step 6: Commit (two concerns, two commits)**
 
 ```bash
-git add tools/nam_loudness_audit/src/main.rs CLAUDE.md README*.md docs/ .claude/skills/
+git add tools/loudness_audit/src/main.rs CLAUDE.md README*.md docs/ .claude/skills/
 git commit -m "docs: cab/body now loudness-normalised via IR audit (#8)"
 git add plugins/source/ir
 git commit -m "chore(loudness): per-capture output_gain_db for cab/body IRs (#8)"
@@ -712,7 +712,7 @@ Comment on jpfaria/OpenRig-plugins#8: both commit hashes, files-touched summary,
 **Do not start until OpenRig#491 confirms the engine resolves `output_gain_db` per selected capture.**
 
 **Files:**
-- Modify: `tools/nam_loudness_audit/src/main.rs`
+- Modify: `tools/loudness_audit/src/main.rs`
 - Modify: `plugins/source/nam/**/manifest.yaml` (generated)
 
 - [ ] **Step 1: Confirm the gate**
@@ -762,8 +762,8 @@ fn strips_only_top_level_gain() {
 - [ ] **Step 3: Tests + re-audit + gate**
 
 ```bash
-cargo test -p nam-loudness-audit
-cargo run --release -p nam-loudness-audit -- plugins/source/nam
+cargo test -p loudness-audit
+cargo run --release -p loudness-audit -- plugins/source/nam
 cargo run --release --bin pack_plugins
 ```
 Expected: tests PASS; 274 NAM manifests rewritten (field moved into the capture, value unchanged); gate exit 0.
@@ -771,7 +771,7 @@ Expected: tests PASS; 274 NAM manifests rewritten (field moved into the capture,
 - [ ] **Step 4: Commit + log**
 
 ```bash
-git add tools/nam_loudness_audit/src/main.rs
+git add tools/loudness_audit/src/main.rs
 git commit -m "refactor(audit): single per-capture output_gain_db location (#8)"
 git add plugins/source/nam
 git commit -m "chore(loudness): migrate NAM output_gain_db to per-capture (#8)"

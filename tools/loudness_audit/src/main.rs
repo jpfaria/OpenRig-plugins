@@ -1,30 +1,36 @@
-//! `nam_loudness_audit` — escreve `output_gain_db` em cada
-//! `manifest.yaml` de plugin NAM, calculado a partir do LUFS
-//! integrated medido com signal de guitarra sintético determinístico.
+//! `loudness_audit` — writes `output_gain_db` into each plugin
+//! `manifest.yaml`, measured with a deterministic synthetic guitar DI.
+//! Serves both backends:
 //!
-//! Issue #413: nivelamento de loudness é metadata estática no
-//! manifest. Rodar este binário antes de qualquer release atualiza
-//! o offset persistido em cada plugin pra que o app possa aplicar
-//! como ganho constante.
+//! - NAM (`amp`/`preamp`/`gain_pedal`): the DI is run through the
+//!   `.nam` model; gain levels the model output to `TARGET_LUFS`
+//!   (issue #413). One `output_gain_db` per manifest.
+//! - IR (`cab`/`body`): the DI is convolved through each capture's
+//!   `.wav`; gain compensates the IR's measured insertion loss so the
+//!   block never loses volume (issue #8). One `output_gain_db` PER
+//!   capture, since each `.wav` in the grid attenuates differently.
 //!
-//! Estratégia (boost-only, nivela PRA CIMA):
-//!   gain = min(TARGET_LUFS - measured_lufs, PEAK_CEILING - measured_peak)
-//!         clamped to [0, MAX_GAIN_DB]
+//! Loudness levelling is static manifest metadata: running this binary
+//! before a release refreshes the persisted offset so the app applies
+//! it as a constant gain.
 //!
-//! - Nunca atenua: se o amp já está acima do target (saturated),
-//!   manifest gain = 0. O resto do catálogo vem ATÉ ele.
-//! - Nunca clipa: se o boost necessário pra atingir LUFS faria o
-//!   peak passar do ceiling, o peak vence (clean amps com crest
-//!   factor alto não chegam ao mesmo LUFS de saturated por física,
-//!   sobem ATÉ o teto).
+//! Strategy (boost-only, levels UP):
+//!   NAM: gain = min(TARGET_LUFS - lufs, PEAK_CEILING - peak)
+//!   IR:  gain = min(LUFS_in - LUFS_out, PEAK_CEILING - peak)
+//!        both clamped to [MIN_GAIN_DB, MAX_GAIN_DB]
 //!
-//! Uso:
+//! - Never attenuates: a block already at/above target gets 0; the
+//!   rest of the catalogue rises to meet it.
+//! - Never clips: if the boost needed for the LUFS target would push
+//!   the peak past the ceiling, the peak wins.
 //!
-//!     cargo run --release -p nam-loudness-audit -- \
-//!         /path/to/OpenRig-plugins/plugins/source/nam
+//! Usage:
 //!
-//! A escrita preserva ordering / espaçamento do YAML — só substitui
-//! ou insere a linha `output_gain_db:` (anchored em `type:`).
+//!     cargo run --release -p loudness-audit -- \
+//!         /path/to/OpenRig-plugins/plugins/source/<nam|ir>
+//!
+//! Writing preserves YAML ordering/spacing — it only replaces or
+//! inserts the `output_gain_db:` line (per capture for IR).
 
 use anyhow::{anyhow, bail, Context, Result};
 use std::collections::HashMap;
@@ -32,11 +38,11 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
-use nam_loudness_audit::ir::{convolve, load_wav_ir};
-use nam_loudness_audit::loudness::{
+use loudness_audit::ir::{convolve, load_wav_ir};
+use loudness_audit::loudness::{
     apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
 };
-use nam_loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
+use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
 /// LUFS integrated alvo. -10 LUFS é alto pra streaming standard
 /// (-14 LUFS), mas adequado pro contexto: signal de instrumento
@@ -71,7 +77,7 @@ const MAX_GAIN_DB: f32 = 30.0;
 fn main() -> Result<()> {
     let args: Vec<String> = std::env::args().collect();
     if args.len() < 2 {
-        eprintln!("usage: nam_loudness_audit <plugins-nam-root>");
+        eprintln!("usage: loudness_audit <plugins-root>");
         eprintln!();
         eprintln!("Expects a directory whose immediate children are NAM plugin");
         eprintln!("packages (each carrying its own manifest.yaml + captures/).");
@@ -490,7 +496,7 @@ mod tests {
 
     #[test]
     fn insertion_loss_is_boost_only_and_peak_clamped() {
-        let di = nam_loudness_audit::synthetic_di::default_guitar_di();
+        let di = loudness_audit::synthetic_di::default_guitar_di();
 
         // −6 dB IR (scaled delta): expected makeup ≈ +6 dB, > 0.
         let ir_atten = vec![0.5_f32];

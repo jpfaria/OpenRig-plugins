@@ -1,7 +1,7 @@
 [workspace]
 members = [
   "tools/pack_plugins",
-  "tools/nam_loudness_audit",
+  "tools/loudness_audit",
 ]
 resolver = "2"
 
