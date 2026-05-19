@@ -27,10 +27,12 @@
 //! ou insere a linha `output_gain_db:` (anchored em `type:`).
 
 use anyhow::{anyhow, bail, Context, Result};
+use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
 
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
+use nam_loudness_audit::ir::{convolve, load_wav_ir};
 use nam_loudness_audit::loudness::{
     apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
 };
@@ -154,7 +156,10 @@ fn audit_plugin(
         .with_context(|| format!("read {}", manifest_path.display()))?;
     let block_type = manifest_block_type(&raw).unwrap_or_else(|| "<unknown>".into());
     if !is_loudness_normalisable(&block_type) {
-        bail!("type `{block_type}` is not loudness-normalised (only amp/preamp)");
+        bail!("type `{block_type}` is not loudness-normalised");
+    }
+    if matches!(block_type.as_str(), "cab" | "body") {
+        return audit_ir_plugin(plugin_dir, manifest_path, &raw, di);
     }
     let first_capture = first_capture_file(&raw)
         .ok_or_else(|| anyhow!("no `captures:[].file` entry in manifest"))?;
@@ -195,6 +200,50 @@ fn audit_plugin(
     })
 }
 
+/// Makeup for one IR so the block does not lose volume.
+/// `max(0, LUFS_in − LUFS_out)`, clamped by the same peak ceiling and
+/// MAX as the NAM path. Boost-only: an IR that adds level gets 0.
+fn ir_capture_gain_db(di: &[f32], ir: &[f32]) -> f32 {
+    let wet = convolve(di, ir);
+    let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
+    let lufs_out = integrated_lufs(&wet, DI_SAMPLE_RATE as u32);
+    let peak_out = peak_dbfs(&wet);
+    let want = lufs_in - lufs_out;
+    let allowed_by_peak = PEAK_CEILING_DBFS - peak_out;
+    want.min(allowed_by_peak).clamp(MIN_GAIN_DB, MAX_GAIN_DB)
+}
+
+fn audit_ir_plugin(
+    plugin_dir: &Path,
+    manifest_path: &Path,
+    raw: &str,
+    di: &[f32],
+) -> Result<AuditReport> {
+    let files = all_capture_files(raw);
+    if files.is_empty() {
+        bail!("no `captures:[].file` entry in manifest");
+    }
+    let mut gains: Vec<(String, f32)> = Vec::with_capacity(files.len());
+    let mut sum = 0.0_f32;
+    for f in &files {
+        let ir = load_wav_ir(&plugin_dir.join(f))
+            .with_context(|| format!("load IR {f}"))?;
+        let g = ir_capture_gain_db(di, &ir);
+        sum += g;
+        gains.push((f.clone(), g));
+    }
+    let updated = upsert_capture_output_gain_db(raw, &gains);
+    fs::write(manifest_path, updated)
+        .with_context(|| format!("write {}", manifest_path.display()))?;
+    let mean = sum / files.len() as f32;
+    Ok(AuditReport {
+        measured_lufs: f32::NAN,
+        measured_peak_dbfs: f32::NAN,
+        want_for_lufs_db: mean,
+        applied_gain_db: mean,
+    })
+}
+
 fn manifest_block_type(yaml: &str) -> Option<String> {
     for line in yaml.lines() {
         if line.starts_with(' ') || line.starts_with('\t') {
@@ -207,19 +256,22 @@ fn manifest_block_type(yaml: &str) -> Option<String> {
     None
 }
 
-/// Blocks que ENTRAM no nivelamento de loudness. Cada um ganha
-/// `output_gain_db` calibrado pra que ligar/desligar o bloco na
-/// chain NÃO mude o volume percebido — só o tom/saturação.
+/// Blocks that take loudness normalisation. Each gets a calibrated
+/// `output_gain_db` so toggling the block in the chain does NOT change
+/// perceived volume — only tone/saturation.
 ///
-/// Inclui `gain_pedal` (issue #413, segunda fase): adicionar/remover
-/// um Klon/TS9 da chain não pode mexer no volume final. O knob de
-/// level do pedal continua funcionando como knob de level — é
-/// parâmetro do MODELO NAM, ortogonal ao manifest gain.
+/// `amp`/`preamp`/`gain_pedal` are NAM captures: the gain is measured
+/// from the model output on the synthetic DI (issue #413).
 ///
-/// Cab/body/eq ficam de fora: são pure spectral shapers que não
-/// carregam loudness signature própria.
+/// `cab`/`body` are IR captures: an IR is a linear filter with real
+/// insertion loss, so its makeup is measured per capture by convolving
+/// the same synthetic DI through the `.wav` (issue #8). They are NOT
+/// loudness-neutral spectral shapers — uncompensated they drop level.
 fn is_loudness_normalisable(block_type: &str) -> bool {
-    matches!(block_type, "amp" | "preamp" | "gain_pedal")
+    matches!(
+        block_type,
+        "amp" | "preamp" | "gain_pedal" | "cab" | "body"
+    )
 }
 
 fn first_capture_file(yaml: &str) -> Option<String> {
@@ -239,6 +291,34 @@ fn first_capture_file(yaml: &str) -> Option<String> {
         }
     }
     None
+}
+
+/// Every `file:` under `captures:`, in document order.
+fn all_capture_files(yaml: &str) -> Vec<String> {
+    let mut in_captures = false;
+    let mut files = Vec::new();
+    for line in yaml.lines() {
+        let trimmed = line.trim_start();
+        if !line.starts_with(char::is_whitespace) && trimmed.starts_with("captures:") {
+            in_captures = true;
+            continue;
+        }
+        if in_captures
+            && !line.starts_with(char::is_whitespace)
+            && !trimmed.starts_with('-')
+            && !trimmed.is_empty()
+        {
+            break; // next column-0 mapping key ends the captures block
+        }
+        if !in_captures {
+            continue;
+        }
+        let after_dash = trimmed.strip_prefix("- ").unwrap_or(trimmed);
+        if let Some(rest) = after_dash.strip_prefix("file:") {
+            files.push(rest.trim().trim_matches('"').trim_matches('\'').to_string());
+        }
+    }
+    files
 }
 
 fn upsert_output_gain_db(yaml: &str, gain: f32) -> String {
@@ -280,6 +360,53 @@ fn upsert_output_gain_db(yaml: &str, gain: f32) -> String {
     }
 }
 
+/// Inserts/replaces `output_gain_db:` as a sibling of each capture's
+/// `file:` line, at the same indentation, preserving all other YAML
+/// bytes. Keyed by the `file:` value so order/structure is irrelevant.
+fn upsert_capture_output_gain_db(yaml: &str, gains: &[(String, f32)]) -> String {
+    let map: HashMap<&str, f32> =
+        gains.iter().map(|(f, g)| (f.as_str(), *g)).collect();
+    let trailing_newline = yaml.ends_with('\n');
+    let lines: Vec<&str> = yaml.lines().collect();
+    let mut out: Vec<String> = Vec::with_capacity(lines.len() + gains.len());
+
+    let mut i = 0;
+    while i < lines.len() {
+        let line = lines[i];
+        let trimmed = line.trim_start();
+        let after_dash = trimmed.strip_prefix("- ").unwrap_or(trimmed);
+        out.push(line.to_string());
+
+        if let Some(rest) = after_dash.strip_prefix("file:") {
+            let file = rest.trim().trim_matches('"').trim_matches('\'');
+            if let Some(&g) = map.get(file) {
+                // Column of the `file` key = leading ws + an optional
+                // "- " sequence prefix. Siblings sit at that column.
+                let lead = line.len() - trimmed.len();
+                let key_col = lead + if trimmed.starts_with("- ") { 2 } else { 0 };
+                let indent = " ".repeat(key_col);
+                let gain_line = format!("{indent}output_gain_db: {g:.7}");
+                // Drop an existing sibling output_gain_db on the next line.
+                if let Some(next) = lines.get(i + 1) {
+                    if next.trim_start().starts_with("output_gain_db:")
+                        && (next.len() - next.trim_start().len()) == key_col
+                    {
+                        i += 1; // skip stale line
+                    }
+                }
+                out.push(gain_line);
+            }
+        }
+        i += 1;
+    }
+    let body = out.join("\n");
+    if trailing_newline {
+        format!("{body}\n")
+    } else {
+        body
+    }
+}
+
 // Silence dead-code warning when used only in the binary path.
 #[allow(dead_code)]
 fn _suppress_unused() {
@@ -306,11 +433,11 @@ mod tests {
     }
 
     #[test]
-    fn loudness_normalisable_includes_amp_preamp_and_gain_pedal() {
-        for ok in ["amp", "preamp", "gain_pedal"] {
+    fn loudness_normalisable_set() {
+        for ok in ["amp", "preamp", "gain_pedal", "cab", "body"] {
             assert!(is_loudness_normalisable(ok));
         }
-        for skip in ["cab", "body", "reverb", "delay", "filter", "utility"] {
+        for skip in ["reverb", "delay", "filter", "utility"] {
             assert!(!is_loudness_normalisable(skip));
         }
     }
@@ -328,5 +455,51 @@ mod tests {
     fn reads_block_type() {
         let yaml = "id: x\ntype: amp\n";
         assert_eq!(manifest_block_type(yaml), Some("amp".to_string()));
+    }
+
+    #[test]
+    fn lists_all_capture_files_in_order() {
+        let yaml = "captures:\n- values:\n    mic: a\n  file: ir/one.wav\n- values:\n    mic: b\n  file: ir/two.wav\n";
+        assert_eq!(
+            all_capture_files(yaml),
+            vec!["ir/one.wav".to_string(), "ir/two.wav".to_string()]
+        );
+    }
+
+    #[test]
+    fn inserts_gain_per_capture_after_file_line() {
+        let yaml = "type: cab\ncaptures:\n- values:\n    mic: a\n  file: ir/one.wav\n- values:\n    mic: b\n  file: ir/two.wav\n";
+        let gains = vec![
+            ("ir/one.wav".to_string(), 4.0_f32),
+            ("ir/two.wav".to_string(), 9.5_f32),
+        ];
+        let out = upsert_capture_output_gain_db(yaml, &gains);
+        assert!(out.contains("  file: ir/one.wav\n  output_gain_db: 4.0000000"));
+        assert!(out.contains("  file: ir/two.wav\n  output_gain_db: 9.5000000"));
+        assert!(out.starts_with("type: cab\n"));
+    }
+
+    #[test]
+    fn replaces_existing_per_capture_gain_in_place() {
+        let yaml = "captures:\n- file: ir/one.wav\n  output_gain_db: 1.0000000\n";
+        let gains = vec![("ir/one.wav".to_string(), 7.0_f32)];
+        let out = upsert_capture_output_gain_db(yaml, &gains);
+        assert!(out.contains("output_gain_db: 7.0000000"));
+        assert!(!out.contains("1.0000000"));
+    }
+
+    #[test]
+    fn insertion_loss_is_boost_only_and_peak_clamped() {
+        let di = nam_loudness_audit::synthetic_di::default_guitar_di();
+
+        // −6 dB IR (scaled delta): expected makeup ≈ +6 dB, > 0.
+        let ir_atten = vec![0.5_f32];
+        let g = ir_capture_gain_db(&di, &ir_atten);
+        assert!(g > 4.0 && g < 8.0, "atten makeup was {g}");
+
+        // +6 dB IR: never attenuate -> clamped to 0.
+        let ir_boost = vec![2.0_f32];
+        let g2 = ir_capture_gain_db(&di, &ir_boost);
+        assert_eq!(g2, 0.0, "must be boost-only, was {g2}");
     }
 }
