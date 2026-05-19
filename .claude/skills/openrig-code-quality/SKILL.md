@@ -122,6 +122,19 @@ User reply default = **1-3 sentences**. No essays.
 
 The chat is in Portuguese; the discipline of brevity still applies.
 
+**Anti-pattern — wall-of-text that buys a rubber-stamp.** If a reply is long
+enough that the user says they will not read it and will just approve, the
+approval is worthless and the work is now unreviewed. The artifact (spec,
+issue, file) is the place for detail — chat points to it in one line. A review
+gate that requires reading an essay in chat is a fake gate.
+
+```
+❌ Pasting a spec/issue/design summary into chat for "approval"
+❌ Re-explaining in chat what the committed file already says
+✅ "Spec: <path>, commit <hash>. Approve to proceed?" — detail lives in the file
+✅ Findings → the issue/spec; chat = one-line pointer + the single open decision
+```
+
 ---
 
 ## Living Document
