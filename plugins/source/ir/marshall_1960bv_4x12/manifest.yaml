@@ -36,38 +36,46 @@ captures:
     speaker: g12_1
     take: take_2
   file: ir/marshall_g12_1_sm57_2_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm58
     speaker: g12_1
     take: take_5
   file: ir/marshall_g12_1_sm58_5_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm57
     speaker: g12_4
     take: take_3
   file: ir/marshall_g12_4_sm57_3_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm57
     speaker: g12_4
     take: take_8
   file: ir/marshall_g12_4_sm57_8_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm58
     speaker: g12_4
     take: take_4
   file: ir/marshall_g12_4_sm58_4_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm58
     speaker: v30_2
     take: take_1
   file: ir/marshall_v30_2_sm58_1_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm58
     speaker: v30_2
     take: take_6
   file: ir/marshall_v30_2_sm58_6_3.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm57
     speaker: v30_3
     take: take_1
   file: ir/marshall_v30_3_sm57_1_3.wav
+  output_gain_db: 0.0000000

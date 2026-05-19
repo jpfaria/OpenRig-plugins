@@ -18,18 +18,24 @@ captures:
 - values:
     voicing: dy
   file: ir/dy.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: cukiir2048at48
   file: ir/cukiir2048at48.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: cukijfir2048at48
   file: ir/cukijfir2048at48.wav
+  output_gain_db: 0.2251015
 - values:
     voicing: jf45irdy
   file: ir/jf45irdy.wav
+  output_gain_db: 2.5553627
 - values:
     voicing: jf45ir1024dy
   file: ir/jf45ir1024dy.wav
+  output_gain_db: 2.6205101
 - values:
     voicing: jf45ir5050dy
   file: ir/jf45ir5050dy.wav
+  output_gain_db: 2.0985603

@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: ibanez_aw84ce_wk_48000
   file: ir/ibanez_aw84ce_wk_48000.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ibanez_aw84ce_wk_48000_bld
   file: ir/ibanez_aw84ce_wk_48000_bld.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ibanez_aw84ce_wk_48000_jf_flavor
   file: ir/ibanez_aw84ce_wk_48000_jf_flavor.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ibanez_aw84ce_wk_48000_match
   file: ir/ibanez_aw84ce_wk_48000_match.wav
+  output_gain_db: 0.0000000

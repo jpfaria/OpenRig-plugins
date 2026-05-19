@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: hummingbird_dpa_4011
   file: ir/hummingbird_dpa_4011.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: hummingbird_neumann_m147
   file: ir/hummingbird_neumann_m147.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: hummingbird_shure_beta_58a
   file: ir/hummingbird_shure_beta_58a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: hummingbird_soundelux_e47
   file: ir/hummingbird_soundelux_e47.wav
+  output_gain_db: 0.0000000

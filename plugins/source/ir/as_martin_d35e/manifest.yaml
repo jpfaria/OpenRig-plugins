@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: as_martin_d35e_fishman_48000
   file: ir/as_martin_d35e_fishman_48000.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: as_martin_d35e_fishman_48000_bld
   file: ir/as_martin_d35e_fishman_48000_bld.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: as_martin_d35e_fishman_48000_jf_flavor
   file: ir/as_martin_d35e_fishman_48000_jf_flavor.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: as_martin_d35e_fishman_48000_match
   file: ir/as_martin_d35e_fishman_48000_match.wav
+  output_gain_db: 0.0000000

@@ -17,12 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_omc_16e_48000.wav
+  output_gain_db: 0.0000000
 - values:
     flavor: blend
   file: ir/martin_omc_16e_48000_bld.wav
+  output_gain_db: 0.0000000
 - values:
     flavor: match
   file: ir/martin_omc_16e_48000_match.wav
+  output_gain_db: 0.0000000
 - values:
     flavor: jf
   file: ir/martin_omc_16e_48000_jf_flavor.wav
+  output_gain_db: 0.0000000

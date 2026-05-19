@@ -43,90 +43,120 @@ captures:
 - values:
     voicing: piezo_taka_pdc_piezo_1a
   file: ir/piezo_taka_pdc_piezo_1a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_1b
   file: ir/piezo_taka_pdc_piezo_1b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_1c
   file: ir/piezo_taka_pdc_piezo_1c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_2a
   file: ir/piezo_taka_pdc_piezo_2a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_2b
   file: ir/piezo_taka_pdc_piezo_2b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_2c
   file: ir/piezo_taka_pdc_piezo_2c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_3a
   file: ir/piezo_taka_pdc_piezo_3a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_3b
   file: ir/piezo_taka_pdc_piezo_3b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_3c
   file: ir/piezo_taka_pdc_piezo_3c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_4a
   file: ir/piezo_taka_pdc_piezo_4a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_4b
   file: ir/piezo_taka_pdc_piezo_4b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_4c
   file: ir/piezo_taka_pdc_piezo_4c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_5a
   file: ir/piezo_taka_pdc_piezo_5a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_5b
   file: ir/piezo_taka_pdc_piezo_5b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_taka_pdc_piezo_5c
   file: ir/piezo_taka_pdc_piezo_5c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_1a
   file: ir/soundhole_taka_pdc_soundhole_1a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_1b
   file: ir/soundhole_taka_pdc_soundhole_1b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_1c
   file: ir/soundhole_taka_pdc_soundhole_1c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_2a
   file: ir/soundhole_taka_pdc_soundhole_2a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_2b
   file: ir/soundhole_taka_pdc_soundhole_2b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_2c
   file: ir/soundhole_taka_pdc_soundhole_2c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_3a
   file: ir/soundhole_taka_pdc_soundhole_3a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_3b
   file: ir/soundhole_taka_pdc_soundhole_3b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_3c
   file: ir/soundhole_taka_pdc_soundhole_3c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_4a
   file: ir/soundhole_taka_pdc_soundhole_4a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_4b
   file: ir/soundhole_taka_pdc_soundhole_4b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_4c
   file: ir/soundhole_taka_pdc_soundhole_4c.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_5a
   file: ir/soundhole_taka_pdc_soundhole_5a.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_5b
   file: ir/soundhole_taka_pdc_soundhole_5b.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundhole_taka_pdc_soundhole_5c
   file: ir/soundhole_taka_pdc_soundhole_5c.wav
+  output_gain_db: 0.0000000

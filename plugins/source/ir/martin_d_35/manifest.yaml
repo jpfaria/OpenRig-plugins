@@ -21,21 +21,28 @@ captures:
 - values:
     voicing: exp
   file: ir/exp.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_1
   file: ir/piezo_1.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_2
   file: ir/piezo_2.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: piezo_3
   file: ir/piezo_3.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundboard_1
   file: ir/soundboard_1.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: soundboard_2
   file: ir/soundboard_2.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: blend
   file: ir/blend.wav
+  output_gain_db: 0.0000000

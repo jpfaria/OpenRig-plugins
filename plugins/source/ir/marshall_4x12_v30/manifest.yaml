@@ -16,6 +16,8 @@ captures:
 - values:
     capture: ev_mix_b
   file: ir/ev_mix_b.wav
+  output_gain_db: 0.0000000
 - values:
     capture: ev_mix_d
   file: ir/ev_mix_d.wav
+  output_gain_db: 0.0000000

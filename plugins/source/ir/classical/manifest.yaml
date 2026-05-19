@@ -15,9 +15,12 @@ captures:
 - values:
     voicing: classical_ambu2f_akg_cs1000
   file: ir/classical_ambu2f_akg_cs1000.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: classical_ambu2f_dpa_4011
   file: ir/classical_ambu2f_dpa_4011.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: classical_ambu2f_neumann_m147
   file: ir/classical_ambu2f_neumann_m147.wav
+  output_gain_db: 0.0000000

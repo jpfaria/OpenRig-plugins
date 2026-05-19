@@ -21,24 +21,32 @@ captures:
 - values:
     voicing: ir_48k
   file: ir/ir_48k.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_48k_m
   file: ir/ir_48k_m.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_48k_m_ffqn
   file: ir/ir_48k_m_ffqn.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_44k_m_ffqn
   file: ir/ir_44k_m_ffqn.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: ktb714cenux
   file: ir/ktb714cenux.wav
+  output_gain_db: 2.8136940
 - values:
     voicing: kb_714_9inch_48k_mffqn
   file: ir/kb_714_9inch_48k_mffqn.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: kb_714_9inch_48k_m
   file: ir/kb_714_9inch_48k_m.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: kb_714_18inch_48k_m
   file: ir/kb_714_18inch_48k_m.wav
+  output_gain_db: 0.0000000

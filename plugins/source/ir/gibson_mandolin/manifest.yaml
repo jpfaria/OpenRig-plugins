@@ -16,9 +16,12 @@ captures:
 - values:
     voicing: mandolin_gibson_wayne_benson_dpa_4011
   file: ir/mandolin_gibson_wayne_benson_dpa_4011.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: mandolin_gibson_wayne_benson_neumann_m147
   file: ir/mandolin_gibson_wayne_benson_neumann_m147.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: mandolin_gibson_wayne_benson_soundelux_e47
   file: ir/mandolin_gibson_wayne_benson_soundelux_e47.wav
+  output_gain_db: 0.0000000

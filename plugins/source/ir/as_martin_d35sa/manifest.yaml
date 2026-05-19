@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: as_martin_d35sa_gplus_44100
   file: ir/as_martin_d35sa_gplus_44100.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: as_martin_d35sa_gplus_44100_bld
   file: ir/as_martin_d35sa_gplus_44100_bld.wav
+  output_gain_db: 4.5511513
 - values:
     voicing: as_martin_d35sa_gplus_44100_jf_flavor
   file: ir/as_martin_d35sa_gplus_44100_jf_flavor.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: as_martin_d35sa_gplus_44100_match
   file: ir/as_martin_d35sa_gplus_44100_match.wav
+  output_gain_db: 0.0000000

@@ -17,12 +17,16 @@ captures:
 - values:
     mic: sm57_balanced
   file: ir/sm57_balanced.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm57_dark
   file: ir/sm57_dark.wav
+  output_gain_db: 0.0000000
 - values:
     mic: sm57_fat
   file: ir/sm57_fat.wav
+  output_gain_db: 0.0000000
 - values:
     mic: lo_gn_all_room_mono
   file: ir/lo_gn_all_room_mono.wav
+  output_gain_db: 0.0000000

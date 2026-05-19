@@ -19,21 +19,28 @@ captures:
 - values:
     voicing: dy_hamblinsj_1_44100
   file: ir/dy_hamblinsj_1_44100.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: dy_hamblinsj_1_44100_bld
   file: ir/dy_hamblinsj_1_44100_bld.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: dy_hamblinsj_1_44100_jf_flavor
   file: ir/dy_hamblinsj_1_44100_jf_flavor.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: dy_hamblinsj_2_44100
   file: ir/dy_hamblinsj_2_44100.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: dy_hamblinsj_2_44100_bld
   file: ir/dy_hamblinsj_2_44100_bld.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: dy_hamblinsj_2_44100_match
   file: ir/dy_hamblinsj_2_44100_match.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: dy_hamblinsj_2_44100_jf_flavor
   file: ir/dy_hamblinsj_2_44100_jf_flavor.wav
+  output_gain_db: 0.0000000

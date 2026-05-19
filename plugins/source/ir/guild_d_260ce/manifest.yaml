@@ -17,12 +17,16 @@ captures:
 - values:
     voicing: guild_d_260ce_48000
   file: ir/guild_d_260ce_48000.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: guild_d_260ce_48000_bld
   file: ir/guild_d_260ce_48000_bld.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: guild_d_260ce_48000_jf_flavor
   file: ir/guild_d_260ce_48000_jf_flavor.wav
+  output_gain_db: 0.0000000
 - values:
     voicing: guild_d_260ce_48000_match
   file: ir/guild_d_260ce_48000_match.wav
+  output_gain_db: 0.0000000
