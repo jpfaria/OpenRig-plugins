@@ -9,8 +9,13 @@
 //! - [`loudness`] — BS.1770 LUFS, peak, runtime-mirror output_limiter.
 //! - [`ir`] — IR `.wav` loading + FFT convolution for cab/body
 //!   insertion-loss loudness audit.
+//! - [`qa`] — automated QA checks (clip, silence, NaN/Inf, DC,
+//!   LUFS band, HF aliasing) used by the `qa_audit` gate (issue #12).
+//!   Listening is not a valid verification step in this repo.
 
 pub mod catalog;
 pub mod ir;
 pub mod loudness;
+pub mod qa;
 pub mod synthetic_di;
+pub mod wav_fix;

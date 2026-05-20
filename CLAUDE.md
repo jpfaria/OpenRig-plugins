@@ -26,10 +26,27 @@ macos-universal · windows-x86_64 · windows-aarch64 · linux-x86_64 · linux-aa
 ## Mandatory gate before any push
 
 ```
-cargo run --release --bin pack_plugins
+cargo build --release -p loudness-audit --bin qa_audit
+cargo run   --release --bin pack_plugins
 ```
 
 Exit 0 / `0 failed`. This is the SAME gate as the `Bundle plugins` job in OpenRig's `release.yml`. Red here = red release there.
+
+`pack_plugins` invokes the `qa_audit` binary first (issue #12). `qa_audit`
+asserts hard thresholds per plugin (clip / silence / DC / HF aliasing /
+LUFS sanity, per-class for linear vs nonlinear blocks) and a chain-
+summation check. Any failure aborts packing.
+
+**Validating audio by ear is FORBIDDEN.** Every sonic regression that
+ships once is encoded as a deterministic threshold in
+`tools/loudness_audit/src/qa.rs`. If a defect can be heard, it can be
+measured; if it can be measured, it goes here and the gate enforces it
+forever. Asking the user "does it sound better now" is a methodology
+defect, not a verification step.
+
+Emergency-only bypass: `QA_AUDIT_SKIP=1 cargo run --release --bin
+pack_plugins` skips the QA gate with a clear warning. Use only when the
+QA tool itself is broken; never to dodge a real failure.
 
 ## Development flow (LAW)
 

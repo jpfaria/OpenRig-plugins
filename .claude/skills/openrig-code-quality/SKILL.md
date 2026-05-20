@@ -109,6 +109,41 @@ The enum is the source. A serde alias on the OpenRig side is forbidden — so a 
 
 ---
 
+## Audio QA — never validate by ear (LAW, issue #12)
+
+**Asking the user "does it sound better now?" is FORBIDDEN.** Sonic
+regressions are caught by `qa_audit` (deterministic thresholds against
+the synthetic DI), gated by `pack_plugins`. Every failure mode that
+ships once gets encoded in `tools/loudness_audit/src/qa.rs` with a
+passing AND a failing unit test before the fix lands.
+
+**How to apply:**
+
+- Discovered a defect? Add a check + threshold in `qa.rs`, with
+  pass/fail tests, BEFORE editing data to fix the catalogue.
+- Catalogue defects fixable by data ops (DC remove, peak normalise,
+  resample to 48 kHz with windowed sinc) → use `qa_fix`. Defects
+  inherent to NAM model output (asymmetric distortion DC, harmonic
+  HF) → relax the nonlinear-class threshold based on the observed
+  catalogue distribution, never globally and never to silence the
+  check.
+- A check that flags healthy content (acoustic body IRs being
+  brighter than electric cab IRs) is calibrated wrong — split by
+  block class (`Linear` vs `Nonlinear`) or per-type, do not loosen
+  the linear threshold to mask data defects.
+- `QA_AUDIT_SKIP=1` exists for the case where the QA tool itself is
+  broken. Using it to dodge a real failure is the same defect as
+  bypassing `pack_plugins` and is treated identically.
+
+```
+❌ "Load it and tell me if it sounds better" — verification by ear
+❌ Loosening a threshold to pass a defect instead of fixing the defect
+❌ Adding a check without both a passing and a failing test
+✅ Encode the symptom → tune threshold to observed catalogue → gate
+```
+
+---
+
 ## Communication with the user — terse, objective
 
 User reply default = **1-3 sentences**. No essays.
