@@ -12,6 +12,7 @@
 //! in `#[cfg(test)] mod tests`; no new check lands without both.
 
 use crate::loudness::{integrated_lufs, peak_dbfs};
+use realfft::RealFftPlanner;
 
 /// Hard ceiling: any sample above this is a clip.
 pub const CLIP_CEILING_DBFS: f32 = 0.0;
@@ -28,6 +29,18 @@ pub const DC_THRESHOLD: f32 = 1e-3;
 pub const LUFS_BAND_MIN: f32 = -40.0;
 pub const LUFS_BAND_MAX: f32 = 0.0;
 
+/// Lower edge (Hz) of the "alias-likely" band used by `check_hf_aliasing`.
+/// Energy here that exceeds the probe's energy by more than the margin
+/// is the signature of imaging artefacts (linear-resample images,
+/// numerical garbage near Nyquist). Above-this-band nonlinear distortion
+/// harmonics are tolerated by tuning the margin generously.
+pub const ALIAS_BAND_START_HZ: f32 = 18_000.0;
+
+/// dB margin allowed for output energy in the alias band above probe
+/// energy in the same band. Tuned to pass legitimate distortion HF
+/// while failing imaging artefacts.
+pub const HF_ALIASING_MARGIN_DB: f32 = 12.0;
+
 #[derive(Debug, Clone, PartialEq)]
 pub enum QaFail {
     Clip { peak_dbfs: f32 },
@@ -35,6 +48,7 @@ pub enum QaFail {
     NonFinite { count: usize },
     DcOffset { dc: f32 },
     LufsOutOfBand { lufs: f32 },
+    HfAliasing { delta_db: f32, band_start_hz: f32 },
 }
 
 impl QaFail {
@@ -45,7 +59,50 @@ impl QaFail {
             QaFail::NonFinite { .. } => "non_finite",
             QaFail::DcOffset { .. } => "dc_offset",
             QaFail::LufsOutOfBand { .. } => "lufs_out_of_band",
+            QaFail::HfAliasing { .. } => "hf_aliasing",
         }
+    }
+}
+
+/// Total energy (sum of squared magnitudes) in bins whose centre
+/// frequency is `>= band_start_hz`. Energy floor returned as a small
+/// positive value so the dB ratio in `check_hf_aliasing` is finite.
+fn band_energy_above(samples: &[f32], sample_rate: u32, band_start_hz: f32) -> f64 {
+    if samples.is_empty() {
+        return 1e-30;
+    }
+    let n = samples.len().next_power_of_two().max(2);
+    let mut planner = RealFftPlanner::<f32>::new();
+    let fft = planner.plan_fft_forward(n);
+    let mut buf = fft.make_input_vec();
+    buf[..samples.len()].copy_from_slice(samples);
+    let mut spec = fft.make_output_vec();
+    fft.process(&mut buf, &mut spec).unwrap();
+    let bin_hz = sample_rate as f32 / n as f32;
+    let mut e: f64 = 0.0;
+    for (k, c) in spec.iter().enumerate() {
+        let f = k as f32 * bin_hz;
+        if f >= band_start_hz {
+            e += (c.re as f64).powi(2) + (c.im as f64).powi(2);
+        }
+    }
+    e.max(1e-30)
+}
+
+/// Returns `Some(HfAliasing)` if the output has more energy in the
+/// alias-likely band than the probe by more than the margin. Catches
+/// resampler imaging (44.1k → 48k linear interp) and similar HF garbage.
+pub fn check_hf_aliasing(probe: &[f32], out: &[f32], sample_rate: u32) -> Option<QaFail> {
+    let e_in = band_energy_above(probe, sample_rate, ALIAS_BAND_START_HZ);
+    let e_out = band_energy_above(out, sample_rate, ALIAS_BAND_START_HZ);
+    let delta_db = (10.0 * (e_out / e_in).log10()) as f32;
+    if delta_db > HF_ALIASING_MARGIN_DB {
+        Some(QaFail::HfAliasing {
+            delta_db,
+            band_start_hz: ALIAS_BAND_START_HZ,
+        })
+    } else {
+        None
     }
 }
 
@@ -199,5 +256,33 @@ mod tests {
             check_lufs_band(&buf, sr()),
             Some(QaFail::LufsOutOfBand { .. })
         ));
+    }
+
+    // --- check_hf_aliasing --- //
+
+    #[test]
+    fn hf_aliasing_passes_when_output_equals_probe() {
+        let di = default_guitar_di();
+        assert!(check_hf_aliasing(&di, &di, sr()).is_none());
+    }
+
+    #[test]
+    fn hf_aliasing_fails_when_near_nyquist_tone_is_added() {
+        let di = default_guitar_di();
+        // Synthesise an output = probe + strong sinusoid at 20 kHz.
+        // The probe itself has very little energy at 20 kHz; this added
+        // tone reproduces the signature of a resampler-imaging artefact.
+        let two_pi = std::f32::consts::TAU;
+        let out: Vec<f32> = di
+            .iter()
+            .enumerate()
+            .map(|(i, &s)| s + 0.3 * (two_pi * 20_000.0 * (i as f32) / sr() as f32).sin())
+            .collect();
+        match check_hf_aliasing(&di, &out, sr()) {
+            Some(QaFail::HfAliasing { delta_db, .. }) => {
+                assert!(delta_db > HF_ALIASING_MARGIN_DB, "delta was {delta_db}");
+            }
+            other => panic!("expected HfAliasing, got {other:?}"),
+        }
     }
 }
