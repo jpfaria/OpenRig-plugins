@@ -22,8 +22,10 @@ use std::path::{Path, PathBuf};
 use loudness_audit::ir::{convolve, load_wav_ir};
 use loudness_audit::loudness::{integrated_lufs, peak_dbfs};
 use loudness_audit::qa::{
-    check_clip, check_dc_offset, check_hf_aliasing, check_lufs_band, check_non_finite,
-    check_silence, QaFail,
+    check_clip, check_clip_with, check_dc_offset, check_dc_offset_with, check_hf_aliasing,
+    check_hf_aliasing_with, check_lufs_band, check_lufs_band_with, check_non_finite,
+    check_silence, CLIP_CEILING_NONLINEAR_DBFS, DC_THRESHOLD_NONLINEAR,
+    HF_ALIASING_MARGIN_NONLINEAR_DB, LUFS_BAND_MAX, LUFS_BAND_MIN_NONLINEAR, QaFail,
 };
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
@@ -174,24 +176,59 @@ fn parse_source_arg(args: &[String]) -> Result<PathBuf> {
 // Orchestrators
 // ---------------------------------------------------------------------------
 
-fn check_all(probe: &[f32], out: &[f32], sr: u32) -> Vec<QaFail> {
+#[derive(Copy, Clone)]
+enum BlockClass {
+    Linear,
+    Nonlinear,
+}
+
+impl BlockClass {
+    fn from_type(t: &str) -> Self {
+        match t {
+            "cab" | "body" => BlockClass::Linear,
+            _ => BlockClass::Nonlinear, // amp / preamp / gain_pedal
+        }
+    }
+}
+
+fn check_all(probe: &[f32], out: &[f32], sr: u32, class: BlockClass) -> Vec<QaFail> {
     let mut fails = Vec::new();
     if let Some(f) = check_non_finite(out) {
         fails.push(f);
     }
-    if let Some(f) = check_clip(out) {
+    let clip = match class {
+        BlockClass::Linear => check_clip(out),
+        BlockClass::Nonlinear => check_clip_with(out, CLIP_CEILING_NONLINEAR_DBFS),
+    };
+    if let Some(f) = clip {
         fails.push(f);
     }
     if let Some(f) = check_silence(out, sr) {
         fails.push(f);
     }
-    if let Some(f) = check_lufs_band(out, sr) {
+    let lufs = match class {
+        BlockClass::Linear => check_lufs_band(out, sr),
+        BlockClass::Nonlinear => {
+            check_lufs_band_with(out, sr, LUFS_BAND_MIN_NONLINEAR, LUFS_BAND_MAX)
+        }
+    };
+    if let Some(f) = lufs {
         fails.push(f);
     }
-    if let Some(f) = check_dc_offset(out) {
+    let dc = match class {
+        BlockClass::Linear => check_dc_offset(out),
+        BlockClass::Nonlinear => check_dc_offset_with(out, DC_THRESHOLD_NONLINEAR),
+    };
+    if let Some(f) = dc {
         fails.push(f);
     }
-    if let Some(f) = check_hf_aliasing(probe, out, sr) {
+    let hf = match class {
+        BlockClass::Linear => check_hf_aliasing(probe, out, sr),
+        BlockClass::Nonlinear => {
+            check_hf_aliasing_with(probe, out, sr, HF_ALIASING_MARGIN_NONLINEAR_DB)
+        }
+    };
+    if let Some(f) = hf {
         fails.push(f);
     }
     fails
@@ -207,7 +244,7 @@ fn audit_nam_plugin(
         .ok_or_else(|| anyhow!("no captures:[].file entry"))?;
     let path = plugin_dir.join(&capture);
     let out = run_nam(probe, &path)?;
-    Ok(check_all(probe, &out, sr))
+    Ok(check_all(probe, &out, sr, BlockClass::Nonlinear))
 }
 
 fn audit_ir_plugin(
@@ -225,7 +262,7 @@ fn audit_ir_plugin(
         let ir = load_wav_ir(&plugin_dir.join(&f))
             .with_context(|| format!("load IR {f}"))?;
         let wet = convolve(probe, &ir);
-        out.push((f, check_all(probe, &wet, sr)));
+        out.push((f, check_all(probe, &wet, sr, BlockClass::Linear)));
     }
     Ok(out)
 }

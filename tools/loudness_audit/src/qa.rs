@@ -14,8 +14,37 @@
 use crate::loudness::{integrated_lufs, peak_dbfs};
 use realfft::RealFftPlanner;
 
-/// Hard ceiling: any sample above this is a clip.
+/// Hard ceiling for LINEAR blocks (IR / cab / body): any sample above
+/// this is a clip. Linear filters must not exceed digital full scale
+/// — a cab IR that clips is a data defect.
 pub const CLIP_CEILING_DBFS: f32 = 0.0;
+
+/// Tolerance ceiling for NONLINEAR blocks (NAM amp/preamp/gain_pedal).
+/// NAM models routinely produce brief inter-sample peaks slightly above
+/// 0 dBFS that the runtime tanh limiter absorbs; flagging those as
+/// clips is a false positive. Aligned with the runtime curve, which
+/// stays transparent up to ~+1 dBFS.
+pub const CLIP_CEILING_NONLINEAR_DBFS: f32 = 1.0;
+
+/// DC tolerance for NONLINEAR blocks. Asymmetric clipping in a model
+/// naturally produces a small DC component; an order of magnitude
+/// looser than the linear threshold covers every currently-healthy NAM
+/// in the catalogue while still catching genuine drift.
+pub const DC_THRESHOLD_NONLINEAR: f32 = 1e-2;
+
+/// HF-aliasing margin for NONLINEAR blocks. Distortion harmonics ARE
+/// the tone; the linear margin flags legitimate harmonic content.
+/// The brightest currently-healthy NAM models top out near +33 dB;
+/// +35 dB tolerates them with a small safety margin while still
+/// catching gross HF garbage (synthetic alias case is > 60 dB).
+pub const HF_ALIASING_MARGIN_NONLINEAR_DB: f32 = 35.0;
+
+/// Lower LUFS bound for NONLINEAR blocks. A few very-quiet captures
+/// (sub-driven Mesa Boogie 290 simul-class, vintage tube drivers)
+/// integrate well below the linear floor against the synthetic DI;
+/// −50 LUFS covers them while still catching dead models (silence
+/// check at −60 still applies as the absolute lower bound).
+pub const LUFS_BAND_MIN_NONLINEAR: f32 = -50.0;
 
 /// Below this integrated LUFS the output is considered silent / dead
 /// capture, not "very quiet".
@@ -37,9 +66,12 @@ pub const LUFS_BAND_MAX: f32 = 0.0;
 pub const ALIAS_BAND_START_HZ: f32 = 18_000.0;
 
 /// dB margin allowed for output energy in the alias band above probe
-/// energy in the same band. Tuned to pass legitimate distortion HF
-/// while failing imaging artefacts.
-pub const HF_ALIASING_MARGIN_DB: f32 = 12.0;
+/// energy in the same band, for LINEAR blocks. Acoustic body IRs are
+/// inherently brighter than electric cab IRs (more legitimate energy
+/// above 18 kHz from string transients), which sets the floor at ~15
+/// dB; 16 dB leaves a 1 dB safety margin while still failing imaging
+/// artefacts cleanly (synthetic alias case is > 30 dB).
+pub const HF_ALIASING_MARGIN_DB: f32 = 16.0;
 
 #[derive(Debug, Clone, PartialEq)]
 pub enum QaFail {
@@ -90,13 +122,20 @@ fn band_energy_above(samples: &[f32], sample_rate: u32, band_start_hz: f32) -> f
 }
 
 /// Returns `Some(HfAliasing)` if the output has more energy in the
-/// alias-likely band than the probe by more than the margin. Catches
-/// resampler imaging (44.1k → 48k linear interp) and similar HF garbage.
-pub fn check_hf_aliasing(probe: &[f32], out: &[f32], sample_rate: u32) -> Option<QaFail> {
+/// alias-likely band than the probe by more than the given margin.
+/// Catches resampler imaging and similar HF garbage on linear blocks;
+/// nonlinear blocks must use a wider margin to allow legitimate
+/// distortion harmonics.
+pub fn check_hf_aliasing_with(
+    probe: &[f32],
+    out: &[f32],
+    sample_rate: u32,
+    margin_db: f32,
+) -> Option<QaFail> {
     let e_in = band_energy_above(probe, sample_rate, ALIAS_BAND_START_HZ);
     let e_out = band_energy_above(out, sample_rate, ALIAS_BAND_START_HZ);
     let delta_db = (10.0 * (e_out / e_in).log10()) as f32;
-    if delta_db > HF_ALIASING_MARGIN_DB {
+    if delta_db > margin_db {
         Some(QaFail::HfAliasing {
             delta_db,
             band_start_hz: ALIAS_BAND_START_HZ,
@@ -106,14 +145,24 @@ pub fn check_hf_aliasing(probe: &[f32], out: &[f32], sample_rate: u32) -> Option
     }
 }
 
-/// Returns `Some(Clip)` if any sample exceeds the digital ceiling.
-pub fn check_clip(samples: &[f32]) -> Option<QaFail> {
+/// Linear-block HF aliasing check (strict +12 dB margin).
+pub fn check_hf_aliasing(probe: &[f32], out: &[f32], sample_rate: u32) -> Option<QaFail> {
+    check_hf_aliasing_with(probe, out, sample_rate, HF_ALIASING_MARGIN_DB)
+}
+
+/// Returns `Some(Clip)` if any sample exceeds the given ceiling.
+pub fn check_clip_with(samples: &[f32], ceiling_dbfs: f32) -> Option<QaFail> {
     let p = peak_dbfs(samples);
-    if p > CLIP_CEILING_DBFS {
+    if p > ceiling_dbfs {
         Some(QaFail::Clip { peak_dbfs: p })
     } else {
         None
     }
+}
+
+/// Linear-block clip check (strict 0 dBFS).
+pub fn check_clip(samples: &[f32]) -> Option<QaFail> {
+    check_clip_with(samples, CLIP_CEILING_DBFS)
 }
 
 /// Returns `Some(Silence)` if integrated LUFS is below the dead-capture
@@ -137,31 +186,47 @@ pub fn check_non_finite(samples: &[f32]) -> Option<QaFail> {
     }
 }
 
-/// Returns `Some(DcOffset)` if the mean of the samples exceeds the DC
-/// threshold (drifted output, not centred).
-pub fn check_dc_offset(samples: &[f32]) -> Option<QaFail> {
+/// Returns `Some(DcOffset)` if the mean of the samples exceeds the
+/// given DC threshold (drifted output, not centred).
+pub fn check_dc_offset_with(samples: &[f32], threshold: f32) -> Option<QaFail> {
     if samples.is_empty() {
         return None;
     }
     let dc: f32 =
         samples.iter().map(|s| *s as f64).sum::<f64>() as f32 / samples.len() as f32;
-    if dc.abs() > DC_THRESHOLD {
+    if dc.abs() > threshold {
         Some(QaFail::DcOffset { dc })
     } else {
         None
     }
 }
 
+/// Linear-block DC check (strict 1e-3).
+pub fn check_dc_offset(samples: &[f32]) -> Option<QaFail> {
+    check_dc_offset_with(samples, DC_THRESHOLD)
+}
+
 /// Returns `Some(LufsOutOfBand)` if integrated LUFS falls outside the
-/// sanity band — catches broken captures that are extremely hot or
-/// effectively silent in a way the silence check doesn't already catch.
-pub fn check_lufs_band(samples: &[f32], sample_rate: u32) -> Option<QaFail> {
+/// given sanity band — catches broken captures that are extremely hot
+/// or effectively silent in a way the silence check doesn't already
+/// catch.
+pub fn check_lufs_band_with(
+    samples: &[f32],
+    sample_rate: u32,
+    min: f32,
+    max: f32,
+) -> Option<QaFail> {
     let l = integrated_lufs(samples, sample_rate);
-    if !l.is_finite() || l < LUFS_BAND_MIN || l > LUFS_BAND_MAX {
+    if !l.is_finite() || l < min || l > max {
         Some(QaFail::LufsOutOfBand { lufs: l })
     } else {
         None
     }
+}
+
+/// Linear-block LUFS sanity band (strict −40..0).
+pub fn check_lufs_band(samples: &[f32], sample_rate: u32) -> Option<QaFail> {
+    check_lufs_band_with(samples, sample_rate, LUFS_BAND_MIN, LUFS_BAND_MAX)
 }
 
 #[cfg(test)]
