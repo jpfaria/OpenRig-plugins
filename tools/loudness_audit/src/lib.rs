@@ -18,3 +18,4 @@ pub mod ir;
 pub mod loudness;
 pub mod qa;
 pub mod synthetic_di;
+pub mod wav_fix;
