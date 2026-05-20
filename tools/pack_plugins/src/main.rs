@@ -55,6 +55,19 @@ fn try_main() -> anyhow::Result<PackReport> {
         );
     }
 
+    // Issue #12: the QA gate (clip / silence / DC / aliasing / LUFS
+    // sanity per plugin + chain-summation check) runs before any
+    // packing. Listening is never a valid verification path in this
+    // repo; if a sonic regression is possible, it is encoded as a
+    // threshold there. Subprocess so qa_audit's `nam` FFI link stays
+    // out of pack_plugins' build graph. Bypass with QA_AUDIT_SKIP=1
+    // is documented as for emergency only.
+    if std::env::var("QA_AUDIT_SKIP").ok().as_deref() != Some("1") {
+        run_qa_gate(&source)?;
+    } else {
+        eprintln!("pack_plugins: WARNING qa_audit skipped (QA_AUDIT_SKIP=1)");
+    }
+
     if let Some(bundle_path) = args.bundle {
         if let Some(parent) = bundle_path.parent() {
             fs::create_dir_all(parent)?;
@@ -67,6 +80,39 @@ fn try_main() -> anyhow::Result<PackReport> {
     let report = pack_all(&source, &dist)?;
     write_index(&dist, &report)?;
     Ok(report)
+}
+
+/// Invokes the `qa_audit` binary (built alongside this one in
+/// `target/<profile>/qa_audit`) against `source`. Aborts packing on a
+/// non-zero exit. Issue #12.
+fn run_qa_gate(source: &Path) -> anyhow::Result<()> {
+    use std::process::Command;
+    let exe = std::env::current_exe()
+        .map_err(|e| anyhow::anyhow!("locate current exe: {e}"))?;
+    let bin_name = if cfg!(windows) { "qa_audit.exe" } else { "qa_audit" };
+    let qa = exe
+        .parent()
+        .ok_or_else(|| anyhow::anyhow!("current exe has no parent dir"))?
+        .join(bin_name);
+    if !qa.is_file() {
+        anyhow::bail!(
+            "qa_audit binary not found at {} — build it with `cargo build --release -p loudness-audit --bin qa_audit`",
+            qa.display()
+        );
+    }
+    eprintln!("pack_plugins: running qa_audit gate ({})", qa.display());
+    let status = Command::new(&qa)
+        .arg("--source")
+        .arg(source)
+        .status()
+        .map_err(|e| anyhow::anyhow!("spawn qa_audit: {e}"))?;
+    if !status.success() {
+        anyhow::bail!(
+            "qa_audit failed (exit {}) — release blocked; see report above",
+            status.code().unwrap_or(-1)
+        );
+    }
+    Ok(())
 }
 
 #[derive(Debug, Default)]
