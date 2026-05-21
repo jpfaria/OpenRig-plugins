@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_sansamp_di_2112
 display_name: SansAmp DI-2112
 brand: tech21
-output_gain_db: -5.3580723
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

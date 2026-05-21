@@ -3,7 +3,7 @@ id: nam_vox_ac30
 display_name: AC30
 brand: vox
 brand_logo: assets/brand_logo.svg
-output_gain_db: -5.7059765
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

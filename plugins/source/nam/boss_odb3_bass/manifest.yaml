@@ -3,7 +3,7 @@ id: nam_boss_odb3_bass
 display_name: Boss ODB3 Bass
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: -1.2434292
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

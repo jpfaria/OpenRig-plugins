@@ -23,40 +23,40 @@ captures:
 - values:
     voicing: morris_2nd_attempt_ir44100
   file: ir/morris_2nd_attempt_ir44100.wav
-  output_gain_db: -8.5617962
+  output_gain_db: 0.0000000
 - values:
     voicing: morris_2nd_attempt_ir44100_bp
   file: ir/morris_2nd_attempt_ir44100_bp.wav
-  output_gain_db: -7.2292156
+  output_gain_db: 0.0000000
 - values:
     voicing: morris_2nd_attempt_ir44100_bld
   file: ir/morris_2nd_attempt_ir44100_bld.wav
-  output_gain_db: -2.6465092
+  output_gain_db: 0.0000000
 - values:
     voicing: morris_2nd_attempt_ir44100_match1
   file: ir/morris_2nd_attempt_ir44100_match1.wav
-  output_gain_db: -5.1557217
+  output_gain_db: 0.0000000
 - values:
     voicing: morris_2nd_attempt_ir44100_match2
   file: ir/morris_2nd_attempt_ir44100_match2.wav
-  output_gain_db: -4.8039169
+  output_gain_db: 0.0000000
 - values:
     voicing: morris_2nd_attempt_ir44100_match3
   file: ir/morris_2nd_attempt_ir44100_match3.wav
-  output_gain_db: -5.8352089
+  output_gain_db: 0.0000000
 - values:
     voicing: morris_2nd_attempt_ir44100_jf_flavor
   file: ir/morris_2nd_attempt_ir44100_jf_flavor.wav
-  output_gain_db: -17.2718410
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_morris_w80_44100
   file: ir/ir_morris_w80_44100.wav
-  output_gain_db: -4.7107697
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_morris_w80_44100_match
   file: ir/ir_morris_w80_44100_match.wav
-  output_gain_db: -2.0362644
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_morris_w80_44100_match2
   file: ir/ir_morris_w80_44100_match2.wav
-  output_gain_db: -2.0288754
+  output_gain_db: 0.0000000

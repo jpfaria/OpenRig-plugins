@@ -4,7 +4,7 @@ display_name: Archon
 brand: prs
 sources:
 - https://www.tone3000.com/tones/30381
-output_gain_db: -12.6196861
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

@@ -16,12 +16,12 @@ captures:
 - values:
     mic: sm57_dark
   file: ir/sm57_dark.wav
-  output_gain_db: -13.9334202
+  output_gain_db: 0.0000000
 - values:
     mic: sm57_dark_2
   file: ir/sm57_dark_2.wav
-  output_gain_db: -14.3526936
+  output_gain_db: 0.0000000
 - values:
     mic: sm57_fat
   file: ir/sm57_fat.wav
-  output_gain_db: -13.5315170
+  output_gain_db: 0.0000000

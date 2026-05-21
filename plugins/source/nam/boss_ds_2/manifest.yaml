@@ -3,7 +3,7 @@ id: nam_boss_ds_2
 display_name: Boss DS-2
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: -18.9514885
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

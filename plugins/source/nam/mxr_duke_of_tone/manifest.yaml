@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_mxr_duke_of_tone
 display_name: MXR Duke of Tone
 brand: mxr
-output_gain_db: -14.8062382
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

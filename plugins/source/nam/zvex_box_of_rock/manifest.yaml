@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_zvex_box_of_rock
 display_name: ZVEX Box of Rock
 brand: zvex
-output_gain_db: -10.6723156
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

@@ -36,46 +36,46 @@ captures:
     mic_position: ll
     preamp: oa30_sa73
   file: ir/m25_ll_1960tv_4x12_sm57_1_50in_0_0in_oa30_sa73.wav
-  output_gain_db: -13.2693806
+  output_gain_db: 0.0000000
 - values:
     distance: '1.00'
     mic_position: lr
     preamp: neve_7603
   file: ir/m25_lr_1960tv_4x12_sm57_1_00in_0_0in_7603.wav
-  output_gain_db: -12.5962582
+  output_gain_db: 0.0000000
 - values:
     distance: '1.50'
     mic_position: lr
     preamp: oa30_7603
   file: ir/m25_lr_1960tv_4x12_sm57_1_50in_0_0in_oa30_7603.wav
-  output_gain_db: -13.6501064
+  output_gain_db: 0.0000000
 - values:
     distance: '1.25'
     mic_position: ul
     preamp: neve_7603
   file: ir/m25_ul_1960tv_4x12_sm57_1_25in_0_0in_7603.wav
-  output_gain_db: -12.6909828
+  output_gain_db: 0.0000000
 - values:
     distance: '2.00'
     mic_position: ul
     preamp: neve_7603
   file: ir/m25_ul_1960tv_4x12_sm57_2_00in_0_0in_7603.wav
-  output_gain_db: -13.7970676
+  output_gain_db: 0.0000000
 - values:
     distance: '2.25'
     mic_position: ul
     preamp: vp28
   file: ir/m25_ul_1960tv_4x12_sm57_2_25in_0_0in_vp28.wav
-  output_gain_db: -14.0981083
+  output_gain_db: 0.0000000
 - values:
     distance: '1.00'
     mic_position: ur
     preamp: vp28
   file: ir/m25_ur_1960tv_4x12_sm57_1_00in_0_0in_vp28.wav
-  output_gain_db: -12.2360344
+  output_gain_db: 0.0000000
 - values:
     distance: '2.00'
     mic_position: ur
     preamp: vp28
   file: ir/m25_ur_1960tv_4x12_sm57_2_00in_0_0in_vp28.wav
-  output_gain_db: -13.7241974
+  output_gain_db: 0.0000000

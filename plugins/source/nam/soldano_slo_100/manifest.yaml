@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_soldano_slo_100
 display_name: SLO 100
 brand: soldano
-output_gain_db: -0.3890038
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

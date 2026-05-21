@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_fulltone_69
 display_name: Fulltone 69
 brand: fulltone
-output_gain_db: -20.0427876
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

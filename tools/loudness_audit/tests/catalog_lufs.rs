@@ -1,30 +1,28 @@
-//! Real-signal LUFS catalog test (issue #413, anti-tautology).
+//! Real-signal boost-only catalog test (issue #4).
 //!
-//! O teste pink-noise antigo só validava que o audit é internamente
-//! consistente: ele recalcula peak com o MESMO probe que o audit
-//! usou pra calcular o gain, então sempre passa. Não diz nada sobre
-//! loudness perceptual real. Substituído por este.
+//! Asserts the contract written into every NAM manifest by the
+//! `loudness_audit` binary:
 //!
-//! Pipeline mede 2 estágios:
-//! 1. PRE-LIMITER: NAM puro + manifest gain. É isso que o audit
-//!    optimiza — onde o gain deve aterrissar.
-//! 2. POST-LIMITER: mesmo signal passado pelo `output_limiter`
-//!    (mirror do `runtime_dsp::output_limiter`). Mostra quanto o
-//!    soft tanh come perceived loudness — pra signal com peak
-//!    naturalmente dentro do ceiling, perda ≈ 0; pra peaks acima,
-//!    perda cresce rápido.
+//! 1. **No negative defaults.** `output_gain_db >= 0` for every
+//!    plugin — the user never sees a negative number on the slider
+//!    when they drop a block into a chain.
+//! 2. **Floor at DI loudness.** With the manifest gain applied,
+//!    `LUFS_pre >= LUFS_DI − TOLERANCE_LU`. Quiet captures are
+//!    boosted up to (≈) the DI's loudness; hot captures stay at
+//!    their natural level. The upper bound is intentionally open
+//!    — adding an amp is supposed to make the chain louder.
 //!
-//! O teste falha se o catálogo PRE-LIMITER não estiver dentro de
-//! TOLERANCE_LU do TARGET_LUFS, e LOGA a perda do limiter pra que
-//! a gente saiba se o audit precisa baixar o target pra dar margem
-//! ao limiter.
+//! Also logs `apply_output_limiter` loss for context — pre-peak above
+//! 0 dBFS gets eaten by the tanh limiter; that loss is informational,
+//! not asserted.
 //!
-//! Marcado `#[ignore]` porque depende:
-//! - da lib NAM (libNeuralAudioCAPI.dylib) já compilada;
-//! - da env var `OPENRIG_PLUGINS_NAM_TEST_ROOT` ou
-//!   `OPENRIG_PLUGINS_ROOT` (usa `<root>/nam` automático).
+//! Marked `#[ignore]` because it depends on:
+//! - the NAM lib (libNeuralAudioCAPI.dylib) being compiled and
+//!   linkable at runtime;
+//! - env var `OPENRIG_PLUGINS_NAM_TEST_ROOT` or
+//!   `OPENRIG_PLUGINS_ROOT` (uses `<root>/nam` automatically).
 //!
-//! Rodar com:
+//! Run with:
 //!     OPENRIG_PLUGINS_NAM_TEST_ROOT=$(pwd)/plugins/source/nam \
 //!       cargo test -p loudness-audit --release \
 //!       --test catalog_lufs -- --ignored --nocapture
@@ -40,19 +38,17 @@ use loudness_audit::loudness::{
 };
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
-/// Loudness target em LUFS integrated. Bate com o TARGET do audit
-/// — se mudar lá, mudar aqui também (estão acoplados de propósito).
-const TARGET_LUFS: f32 = -10.0;
-
-/// Tolerância em LU. ±3 LU = ~6 dB de spread permitido entre o amp
-/// mais alto e o mais baixo. Aceitável: clean amps com crest factor
-/// alto não chegam ao mesmo LUFS de saturated por física, sobem
-/// até o teto do peak ceiling — diff residual fica nessa banda.
+/// Tolerance in LU below the DI loudness. Boost-only makeup can't
+/// always reach exactly `LUFS_DI` — the peak-headroom clamp may stop
+/// short for blocks whose natural peak is already near 0 dBFS, and
+/// the integrated-LUFS measurement has a few-tenth-LU floor noise.
+/// 3 LU below the DI is the tolerated undershoot before we call it
+/// a defect.
 const TOLERANCE_LU: f32 = 3.0;
 
 #[test]
 #[ignore = "requires NAM lib + plugins root via OPENRIG_PLUGINS_NAM_TEST_ROOT or OPENRIG_PLUGINS_ROOT"]
-fn catalog_meets_lufs_target() -> Result<()> {
+fn catalog_honors_boost_only_contract() -> Result<()> {
     let root = nam_root_from_env()?;
     let entries = list_loudness_normalisable(&root)?;
     if entries.is_empty() {
@@ -63,14 +59,16 @@ fn catalog_meets_lufs_target() -> Result<()> {
     }
 
     let di = default_guitar_di();
+    let lufs_di = integrated_lufs(&di, DI_SAMPLE_RATE as u32);
+    let floor = lufs_di - TOLERANCE_LU;
 
     println!();
-    println!("DI: {} samples @ {} Hz, peak -15 dBFS", di.len(), DI_SAMPLE_RATE as u32);
-    println!("target: {TARGET_LUFS:+.2} LUFS, tolerance ±{TOLERANCE_LU:.2} LU");
+    println!("DI: {} samples @ {} Hz, peak -15 dBFS, LUFS {:+.2}", di.len(), DI_SAMPLE_RATE as u32, lufs_di);
+    println!("contract: gain >= 0, post-gain LUFS >= {floor:+.2} (DI − {TOLERANCE_LU:.2} LU)");
     println!();
     println!(
         "{:<48} {:>9} {:>9} {:>9} {:>9} {:>9}",
-        "plugin", "lufs", "peak", "lufs_lim", "lim_loss", "delta"
+        "plugin", "lufs", "peak", "lufs_lim", "lim_loss", "gain"
     );
 
     let mut failures = Vec::new();
@@ -103,16 +101,20 @@ fn catalog_meets_lufs_target() -> Result<()> {
         let lufs_post = integrated_lufs(&post, DI_SAMPLE_RATE as u32);
         let lim_loss = lufs_pre - lufs_post; // positive = loudness lost
 
-        let delta = lufs_pre - TARGET_LUFS;
-        let marker = if delta.abs() > TOLERANCE_LU { " FAIL" } else { "" };
+        let marker = if gain_db < 0.0 || lufs_pre < floor { " FAIL" } else { "" };
         println!(
             "{:<48} {:>+8.2}  {:>+8.2}  {:>+8.2}  {:>+8.2}  {:>+8.2}{}",
-            e.plugin_id, lufs_pre, peak_pre, lufs_post, lim_loss, delta, marker
+            e.plugin_id, lufs_pre, peak_pre, lufs_post, lim_loss, gain_db, marker
         );
 
         limiter_losses.push((e.plugin_id.clone(), lim_loss, peak_pre));
-        if delta.abs() > TOLERANCE_LU {
-            failures.push((e.plugin_id.clone(), lufs_pre, delta));
+        if gain_db < 0.0 {
+            failures.push((e.plugin_id.clone(), format!("negative default gain {gain_db:+.2} dB")));
+        } else if lufs_pre < floor {
+            failures.push((
+                e.plugin_id.clone(),
+                format!("post-gain LUFS {lufs_pre:+.2} below floor {floor:+.2}"),
+            ));
         }
     }
 
@@ -128,11 +130,11 @@ fn catalog_meets_lufs_target() -> Result<()> {
 
     println!();
     if !failures.is_empty() {
-        for (id, lufs, delta) in &failures {
-            eprintln!("FAIL: {id} → {lufs:.2} LUFS ({delta:+.2} LU off target)");
+        for (id, why) in &failures {
+            eprintln!("FAIL: {id} — {why}");
         }
         panic!(
-            "{} of {} loudness-normalisable plugins outside LUFS tolerance",
+            "{} of {} plugins violate the boost-only contract",
             failures.len(),
             entries.len()
         );

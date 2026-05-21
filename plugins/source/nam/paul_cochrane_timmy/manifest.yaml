@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_paul_cochrane_timmy
 display_name: Paul Cochrane Timmy
 brand: mxr
-output_gain_db: -3.1733379
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

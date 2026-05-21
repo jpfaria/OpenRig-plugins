@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_evh_5150_iii_50w_red_channel
 display_name: 5150 III 50w Red Channel
 brand: evh
-output_gain_db: -20.6581745
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

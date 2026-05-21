@@ -5,7 +5,7 @@ description: Neural capture of the Koch Multitone 50 — boutique Dutch amplifie
 brand: koch
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: -15.0355549
+output_gain_db: 0.0000000
 type: preamp
 backend: nam
 parameters:

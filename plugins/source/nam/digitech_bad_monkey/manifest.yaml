@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_digitech_bad_monkey
 display_name: DigiTech Bad Monkey
 brand: digitech
-output_gain_db: -8.0702629
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

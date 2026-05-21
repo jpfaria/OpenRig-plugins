@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_ehx_soul_food
 display_name: EHX Soul Food
 brand: ehx
-output_gain_db: -4.5856228
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

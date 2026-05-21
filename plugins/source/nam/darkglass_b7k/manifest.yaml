@@ -3,7 +3,7 @@ id: nam_darkglass_b7k
 display_name: B7K Ultra
 brand: darkglass
 brand_logo: assets/brand_logo.svg
-output_gain_db: -16.0765095
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

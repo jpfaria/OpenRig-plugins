@@ -3,7 +3,7 @@ id: nam_peavey_xxx
 display_name: XXX
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: -18.3870335
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

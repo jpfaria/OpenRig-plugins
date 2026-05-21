@@ -15,12 +15,12 @@ captures:
 - values:
     voicing: jf45ir1024godin_metropolis
   file: ir/jf45ir1024godin_metropolis.wav
-  output_gain_db: 2.3402901
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45ir5050godin_metropolis
   file: ir/jf45ir5050godin_metropolis.wav
-  output_gain_db: 5.0635414
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45irgodin_metropolis
   file: ir/jf45irgodin_metropolis.wav
-  output_gain_db: 2.4457970
+  output_gain_db: 0.0000000

@@ -3,7 +3,7 @@ id: nam_fender_bassman_1971
 display_name: Bassman 1971
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: -14.1906681
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

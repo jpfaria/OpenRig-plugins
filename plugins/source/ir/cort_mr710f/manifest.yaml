@@ -16,16 +16,16 @@ captures:
 - values:
     voicing: cort_mr710f_48000
   file: ir/cort_mr710f_48000.wav
-  output_gain_db: -6.2766628
+  output_gain_db: 0.0000000
 - values:
     voicing: cort_mr710f_48000_bld
   file: ir/cort_mr710f_48000_bld.wav
-  output_gain_db: -2.2177296
+  output_gain_db: 0.0000000
 - values:
     voicing: cort_mr710f_48000_jf_flavor
   file: ir/cort_mr710f_48000_jf_flavor.wav
-  output_gain_db: -4.9035511
+  output_gain_db: 0.0000000
 - values:
     voicing: cort_mr710f_48000_match
   file: ir/cort_mr710f_48000_match.wav
-  output_gain_db: -4.3207664
+  output_gain_db: 0.0000000
