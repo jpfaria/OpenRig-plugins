@@ -4,7 +4,7 @@ display_name: Andy Timmons
 brand: jhs
 thumbnail: assets/thumbnail.png
 brand_logo: assets/brand_logo.png
-output_gain_db: -12.9227962
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

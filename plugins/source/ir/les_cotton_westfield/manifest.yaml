@@ -18,24 +18,24 @@ captures:
 - values:
     voicing: lescotton_westfield
   file: ir/lescotton_westfield.wav
-  output_gain_db: -37.7662621
+  output_gain_db: 0.0000000
 - values:
     voicing: cukiirlescottonwest2048_48
   file: ir/cukiirlescottonwest2048_48.wav
-  output_gain_db: -3.6388569
+  output_gain_db: 0.0000000
 - values:
     voicing: cukijfirlescottonwest2048at48
   file: ir/cukijfirlescottonwest2048at48.wav
-  output_gain_db: -2.2727413
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45irlescotton_westfield
   file: ir/jf45irlescotton_westfield.wav
-  output_gain_db: 1.5192833
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45ir1024lescotton_westfield
   file: ir/jf45ir1024lescotton_westfield.wav
-  output_gain_db: 2.0508614
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45ir5050lescotton_westfield
   file: ir/jf45ir5050lescotton_westfield.wav
-  output_gain_db: 2.4952278
+  output_gain_db: 0.0000000

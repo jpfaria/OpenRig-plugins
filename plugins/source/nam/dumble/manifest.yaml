@@ -5,7 +5,7 @@ description: Neural capture of the legendary Dumble ODS — the holy grail of cl
 brand: dumble
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: -2.9501152
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

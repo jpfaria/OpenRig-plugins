@@ -18,16 +18,16 @@ captures:
 - values:
     flavor: standard
   file: ir/standard.wav
-  output_gain_db: -16.7269268
+  output_gain_db: 0.0000000
 - values:
     flavor: blend
   file: ir/blend.wav
-  output_gain_db: -10.8787956
+  output_gain_db: 0.0000000
 - values:
     flavor: match
   file: ir/match.wav
-  output_gain_db: -11.6243916
+  output_gain_db: 0.0000000
 - values:
     flavor: jf
   file: ir/jf_flavor.wav
-  output_gain_db: -9.6265717
+  output_gain_db: 0.0000000

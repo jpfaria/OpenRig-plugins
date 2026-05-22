@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/taylor_614ce_48000.wav
-  output_gain_db: -11.2223549
+  output_gain_db: 0.0000000
 - values:
     flavor: blend
   file: ir/taylor_614ce_48000_bld.wav
-  output_gain_db: -5.1764698
+  output_gain_db: 0.0000000
 - values:
     flavor: match
   file: ir/taylor_614ce_48000_match.wav
-  output_gain_db: -6.5950909
+  output_gain_db: 0.0000000
 - values:
     flavor: jf
   file: ir/taylor_614ce_48000_jf_flavor.wav
-  output_gain_db: -17.2580070
+  output_gain_db: 0.0000000

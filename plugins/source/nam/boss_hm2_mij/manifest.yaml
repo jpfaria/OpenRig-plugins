@@ -3,7 +3,7 @@ id: nam_boss_hm2_mij
 display_name: Heavy Metal HM-2 MiJ
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: -24.3826180
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

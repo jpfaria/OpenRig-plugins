@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_pot_boost
 display_name: PoT Boost
 brand: pot
-output_gain_db: -17.3760414
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters: []

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_prs_mt15
 display_name: MT15
 brand: prs
-output_gain_db: -9.8948574
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

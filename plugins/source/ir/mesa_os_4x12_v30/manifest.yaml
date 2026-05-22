@@ -24,39 +24,39 @@ captures:
     mic: at2020
     take: take_1
   file: ir/at2020_1.wav
-  output_gain_db: -12.8241692
+  output_gain_db: 0.0000000
 - values:
     mic: at2020
     take: take_2
   file: ir/at2020_2.wav
-  output_gain_db: -13.3828754
+  output_gain_db: 0.0000000
 - values:
     mic: at2020
     take: room_left
   file: ir/room_left_at2020.wav
-  output_gain_db: -0.1849594
+  output_gain_db: 0.0000000
 - values:
     mic: at2020
     take: room_right
   file: ir/room_right_at2020.wav
-  output_gain_db: -0.5457916
+  output_gain_db: 0.0000000
 - values:
     mic: sm57
     take: take_1
   file: ir/sm57_1.wav
-  output_gain_db: -13.0701885
+  output_gain_db: 0.0000000
 - values:
     mic: sm57
     take: take_2
   file: ir/sm57_2.wav
-  output_gain_db: -13.1118221
+  output_gain_db: 0.0000000
 - values:
     mic: sm58
     take: take_1
   file: ir/sm58_1.wav
-  output_gain_db: -13.1840229
+  output_gain_db: 0.0000000
 - values:
     mic: sm58
     take: take_2
   file: ir/sm58_2.wav
-  output_gain_db: -13.7642536
+  output_gain_db: 0.0000000

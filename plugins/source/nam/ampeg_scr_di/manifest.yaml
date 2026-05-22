@@ -3,7 +3,7 @@ id: nam_ampeg_scr_di
 display_name: SCR-DI
 brand: ampeg
 brand_logo: assets/brand_logo.svg
-output_gain_db: -2.5656433
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

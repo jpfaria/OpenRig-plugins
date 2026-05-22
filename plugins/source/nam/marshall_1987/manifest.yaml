@@ -3,7 +3,7 @@ id: nam_marshall_1987
 display_name: '1987'
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: -13.8041096
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_ehx_metal_muff
 display_name: EHX Metal Muff
 brand: ehx
-output_gain_db: -18.7307148
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

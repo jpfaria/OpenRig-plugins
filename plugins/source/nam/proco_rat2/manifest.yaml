@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_proco_rat2
 display_name: RAT 2
 brand: proco
-output_gain_db: -11.1731968
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

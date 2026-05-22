@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_thorpyfx_peacekeeper
 display_name: ThorpyFX Peacekeeper
 brand: thorpy_fx
-output_gain_db: -15.8216553
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

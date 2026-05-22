@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_d28_marquis_knk_44100.wav
-  output_gain_db: -16.8213387
+  output_gain_db: 0.0000000
 - values:
     flavor: blend
   file: ir/martin_d28_marquis_knk_44100_bld.wav
-  output_gain_db: -10.9557896
+  output_gain_db: 0.0000000
 - values:
     flavor: match
   file: ir/martin_d28_marquis_knk_44100_match.wav
-  output_gain_db: -17.2245121
+  output_gain_db: 0.0000000
 - values:
     flavor: jf
   file: ir/martin_d28_marquis_knk_44100_jf_flavor.wav
-  output_gain_db: -12.8666496
+  output_gain_db: 0.0000000

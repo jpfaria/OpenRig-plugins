@@ -4,7 +4,7 @@ display_name: Imperial
 brand: tone_king
 sources:
 - https://www.tone3000.com/tones/190
-output_gain_db: -19.2807617
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

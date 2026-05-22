@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_strymon_riverside
 display_name: Strymon Riverside
 brand: strymon
-output_gain_db: -14.7695007
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_lokajaudio_doom_machine
 display_name: Doom Machine V3
 brand: lokajaudio
-output_gain_db: -14.9442596
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters: []

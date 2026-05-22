@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_hermida_zendrive
 display_name: Hermida Zendrive
 brand: hermida
-output_gain_db: -17.9967632
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

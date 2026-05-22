@@ -12,20 +12,24 @@
 //! before a release refreshes the persisted offset so the app applies
 //! it as a constant gain.
 //!
-//! Strategy — UNITY insertion correction (signed, issue #9):
-//!   gain = LUFS_in − LUFS_out
+//! Strategy — BOOST-ONLY insertion makeup (issue #4):
+//!   gain = max(0, LUFS_in − LUFS_out)
 //!     LUFS_in  = integrated LUFS of the dry DI
 //!     LUFS_out = integrated LUFS after the block (model / IR)
 //!
-//! - Targets UNITY: the block's output ends at the same loudness as
-//!   its input — toggling the block does not change perceived volume.
-//! - SIGNED, not boost-only: a block that amplifies (LUFS_out >
-//!   LUFS_in) gets a NEGATIVE gain (it is brought back down); a block
-//!   that attenuates gets a positive one. This is what stops the
-//!   chained-gain blow-up of the old hot boost-only model.
-//! - True-peak safety only: the positive side is capped so the
-//!   correction itself never pushes the peak past 0 dBFS; never a hot
-//!   loudness target.
+//! - `output_gain_db` is the user-visible DEFAULT of the block's
+//!   output-level knob, seeded by the engine's block factory at
+//!   creation time. It is NOT an invisible internal correction.
+//! - BOOST-ONLY: a block that loses level (LUFS_out < LUFS_in) gets a
+//!   positive makeup; a block that adds level (an amp, a hot IR)
+//!   gets 0 — never a negative default. Adding an amp and seeing
+//!   "−15 dB" already on the slider is not what the user expects.
+//! - True-peak safety: the positive makeup is capped so applying it
+//!   cannot push the post-block peak past 0 dBFS.
+//! - The signed correction shipped earlier (issue #9, now superseded)
+//!   wrote negative defaults for every block that naturally amplifies,
+//!   forcing the user to fight the default just to get the level they
+//!   expect from a real amp.
 //!
 //! Usage:
 //!
@@ -47,18 +51,15 @@ use loudness_audit::loudness::{
 };
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
-/// True-peak safety ceiling in dBFS. The unity correction is only
-/// capped on the POSITIVE (boost) side so the makeup itself never
-/// pushes the post-gain peak past digital full scale. This is a
-/// clip guard, NOT a loudness target — the old +3 dBFS hot ceiling
-/// (which leaned on a runtime limiter and let chained gains blow up)
-/// is gone.
+/// True-peak safety ceiling in dBFS. Boost-only makeup is capped so
+/// applying it cannot push the post-block peak past digital full scale.
+/// Clip guard, not a loudness target.
 const PEAK_CEILING_DBFS: f32 = 0.0;
 
-/// Runaway guard for the boost direction only. A broken near-silent
-/// capture would otherwise demand an enormous positive gain; 30 dB
-/// caps that. Attenuation (negative gain) is intentionally unbounded:
-/// a very hot block must be brought all the way back to unity.
+/// Runaway guard. A broken near-silent capture would otherwise demand
+/// an enormous positive gain to reach the DI's loudness; 30 dB caps
+/// that. The lower bound is `0` (boost-only): a block that adds level
+/// keeps the default at 0, never attenuated.
 const MAX_GAIN_DB: f32 = 30.0;
 
 fn main() -> Result<()> {
@@ -79,7 +80,7 @@ fn main() -> Result<()> {
 
     eprintln!("DI: {} samples @ {} Hz", di.len(), DI_SAMPLE_RATE as u32);
     eprintln!(
-        "unity insertion correction (signed); true-peak cap {PEAK_CEILING_DBFS:+.2} dBFS, boost cap {MAX_GAIN_DB:+.0} dB"
+        "boost-only insertion makeup; true-peak cap {PEAK_CEILING_DBFS:+.2} dBFS, boost cap {MAX_GAIN_DB:+.0} dB"
     );
     eprintln!();
     eprintln!(
@@ -168,18 +169,21 @@ fn audit_plugin(
         close_model_diag(model);
     }
 
-    // Signed unity correction: bring the model output back to the
-    // loudness of its own input (the dry DI). Negative for models
-    // that amplify, positive for those that attenuate.
+    // Boost-only insertion makeup: bring quiet blocks up to the DI's
+    // loudness, leave hot blocks at 0 (never write a negative default
+    // into the user-visible output knob).
     let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
     let measured_lufs = integrated_lufs(&output, DI_SAMPLE_RATE as u32);
     let measured_peak_dbfs = peak_dbfs(&output);
 
     let want_for_lufs = lufs_in - measured_lufs;
-    // Only the boost side is bounded: true-peak guard so the makeup
-    // can't clip, and a runaway cap. Attenuation is unbounded.
+    // True-peak guard so the makeup can't clip; runaway cap; never
+    // negative.
     let peak_headroom = PEAK_CEILING_DBFS - measured_peak_dbfs;
-    let applied = want_for_lufs.min(peak_headroom).min(MAX_GAIN_DB);
+    let applied = want_for_lufs
+        .min(peak_headroom)
+        .min(MAX_GAIN_DB)
+        .max(0.0);
 
     let updated = upsert_output_gain_db(&raw, applied);
     fs::write(manifest_path, updated)
@@ -193,11 +197,11 @@ fn audit_plugin(
     })
 }
 
-/// Signed unity correction for one IR: `LUFS_in − LUFS_out`. Brings
-/// the convolved output back to the DI's loudness. Negative for IRs
-/// that add level, positive for those that lose it. Only the boost
-/// side is bounded (true-peak guard + runaway cap); attenuation is
-/// unbounded so a hot IR is fully tamed.
+/// Boost-only insertion makeup for one IR: `max(0, LUFS_in − LUFS_out)`.
+/// IRs that lose level (typical cab/body insertion loss) get a
+/// positive makeup so the user-visible default brings them up to
+/// the DI's loudness. IRs that add level get 0 — never a negative
+/// default. Capped against peak headroom and a runaway boost cap.
 fn ir_capture_gain_db(di: &[f32], ir: &[f32]) -> f32 {
     let wet = convolve(di, ir);
     let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
@@ -205,7 +209,7 @@ fn ir_capture_gain_db(di: &[f32], ir: &[f32]) -> f32 {
     let peak_out = peak_dbfs(&wet);
     let want = lufs_in - lufs_out;
     let peak_headroom = PEAK_CEILING_DBFS - peak_out;
-    want.min(peak_headroom).min(MAX_GAIN_DB)
+    want.min(peak_headroom).min(MAX_GAIN_DB).max(0.0)
 }
 
 fn audit_ir_plugin(
@@ -484,7 +488,7 @@ mod tests {
     }
 
     #[test]
-    fn unity_correction_is_signed() {
+    fn boost_only_correction_never_attenuates() {
         let di = loudness_audit::synthetic_di::default_guitar_di();
 
         // ×0.5 IR (−6 dB): output is quieter -> POSITIVE makeup ≈ +6.
@@ -492,10 +496,10 @@ mod tests {
         let g = ir_capture_gain_db(&di, &ir_atten);
         assert!(g > 4.0 && g < 8.0, "attenuating IR makeup was {g}");
 
-        // ×2 IR (+6 dB): output is louder -> NEGATIVE correction,
-        // the hot block is brought back down to unity (not 0).
+        // ×2 IR (+6 dB): output is louder -> default stays at 0 (we
+        // never write a negative default into the user-visible knob).
         let ir_boost = vec![2.0_f32];
         let g2 = ir_capture_gain_db(&di, &ir_boost);
-        assert!(g2 < -4.0 && g2 > -8.0, "amplifying IR must attenuate, was {g2}");
+        assert_eq!(g2, 0.0, "amplifying IR must not attenuate, was {g2}");
     }
 }

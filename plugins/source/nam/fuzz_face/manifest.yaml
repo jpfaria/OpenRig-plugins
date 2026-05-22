@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_fuzz_face
 display_name: Fuzz Face
 brand: dunlop
-output_gain_db: -22.3548145
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

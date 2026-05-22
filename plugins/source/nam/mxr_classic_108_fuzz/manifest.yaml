@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_mxr_classic_108_fuzz
 display_name: MXR Classic 108 Fuzz
 brand: mxr
-output_gain_db: -11.4646912
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

@@ -3,7 +3,7 @@ id: nam_marshall_jcm900
 display_name: JCM900
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: -4.3246670
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

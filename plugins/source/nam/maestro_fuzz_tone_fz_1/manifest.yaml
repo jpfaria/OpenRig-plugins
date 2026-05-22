@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_maestro_fuzz_tone_fz_1
 display_name: Maestro Fuzz-Tone FZ-1
 brand: maestro
-output_gain_db: -10.8678799
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

@@ -5,7 +5,7 @@ description: Neural capture of the ZT Lunchbox Jr — ultra-compact solid-state 
 brand: zt
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: -1.7460384
+output_gain_db: 0.0000000
 type: preamp
 backend: nam
 parameters:

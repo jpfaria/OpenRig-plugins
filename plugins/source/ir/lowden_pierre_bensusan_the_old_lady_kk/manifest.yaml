@@ -15,12 +15,12 @@ captures:
 - values:
     voicing: ir_lowden_old_lady_48k
   file: ir/ir_lowden_old_lady_48k.wav
-  output_gain_db: -14.2638054
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_lowden_old_lady_48k_m
   file: ir/ir_lowden_old_lady_48k_m.wav
-  output_gain_db: -4.9059544
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_lowden_old_lady_48k_mffqn
   file: ir/ir_lowden_old_lady_48k_mffqn.wav
-  output_gain_db: -7.1072216
+  output_gain_db: 0.0000000

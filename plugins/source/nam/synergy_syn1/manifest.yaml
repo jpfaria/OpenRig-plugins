@@ -3,7 +3,7 @@ id: nam_synergy_syn1
 display_name: SYN-1 Chassis
 brand: synergy
 brand_logo: assets/brand_logo.svg
-output_gain_db: -16.3470192
+output_gain_db: 0.0000000
 type: preamp
 backend: nam
 parameters:

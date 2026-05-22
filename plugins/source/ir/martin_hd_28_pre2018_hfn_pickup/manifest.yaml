@@ -29,64 +29,64 @@ captures:
 - values:
     voicing: martinhd28_hfn1_44100
   file: ir/martinhd28_hfn1_44100.wav
-  output_gain_db: -6.0854664
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn1_44100_bld
   file: ir/martinhd28_hfn1_44100_bld.wav
-  output_gain_db: -2.1001225
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn1_44100_match
   file: ir/martinhd28_hfn1_44100_match.wav
-  output_gain_db: -2.4681034
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn1_44100_jf_flavor
   file: ir/martinhd28_hfn1_44100_jf_flavor.wav
-  output_gain_db: -3.9351063
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn2_44100
   file: ir/martinhd28_hfn2_44100.wav
-  output_gain_db: -6.8682728
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn2_44100_bld
   file: ir/martinhd28_hfn2_44100_bld.wav
-  output_gain_db: -2.5371170
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn2_44100_match
   file: ir/martinhd28_hfn2_44100_match.wav
-  output_gain_db: -2.8563499
+  output_gain_db: 0.0000000
 - values:
     voicing: martinhd28_hfn2_44100_jf_flavor
   file: ir/martinhd28_hfn2_44100_jf_flavor.wav
-  output_gain_db: -4.5734520
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_martin_hd28_8096st_matcheq
   file: ir/ir_martin_hd28_8096st_matcheq.wav
-  output_gain_db: -0.5339165
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_martin_hd28_8096l_matcheq
   file: ir/ir_martin_hd28_8096l_matcheq.wav
-  output_gain_db: -3.3696918
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_martin_hd28_8096r_matcheq
   file: ir/ir_martin_hd28_8096r_matcheq.wav
-  output_gain_db: -1.2402554
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_martin_hd28_2048st_matcheq
   file: ir/ir_martin_hd28_2048st_matcheq.wav
-  output_gain_db: 9.5960274
+  output_gain_db: 1.4045601
 - values:
     voicing: ir_martin_hd28_2048l_matcheq
   file: ir/ir_martin_hd28_2048l_matcheq.wav
-  output_gain_db: 1.2901878
+  output_gain_db: 0.0000000
 - values:
     voicing: ir_martin_hd28_2048r_matcheq
   file: ir/ir_martin_hd28_2048r_matcheq.wav
-  output_gain_db: -0.0810051
+  output_gain_db: 0.0000000
 - values:
     voicing: irzrec1db65s4ss17
   file: ir/irzrec1db65s4ss17.wav
-  output_gain_db: 2.5317879
+  output_gain_db: 0.0000000
 - values:
     voicing: irzrec2db65s4ss17
   file: ir/irzrec2db65s4ss17.wav
-  output_gain_db: 3.2722664
+  output_gain_db: 0.0000000

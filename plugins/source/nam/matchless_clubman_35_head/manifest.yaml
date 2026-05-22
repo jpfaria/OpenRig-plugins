@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_matchless_clubman_35_head
 display_name: Matchless Clubman 35 head
 brand: matchless
-output_gain_db: -22.5763016
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

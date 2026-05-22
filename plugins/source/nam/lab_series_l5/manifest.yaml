@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_lab_series_l5
 display_name: L5
 brand: lab_series
-output_gain_db: -11.1388645
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 parameters:

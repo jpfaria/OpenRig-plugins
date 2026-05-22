@@ -5,7 +5,7 @@ description: Neural capture of the Joyo Bantamp Meteor — compact modern high-g
 brand: joyo
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: -8.1341171
+output_gain_db: 0.0000000
 type: preamp
 backend: nam
 parameters:

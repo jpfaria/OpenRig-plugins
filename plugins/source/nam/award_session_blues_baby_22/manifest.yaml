@@ -5,7 +5,7 @@ description: Neural capture of the Award-Session Blues Baby 22 — low-wattage B
 brand: award-session
 license: MIT
 homepage: https://github.com/sdatkinson/neural-amp-modeler
-output_gain_db: -2.9780998
+output_gain_db: 0.0000000
 type: preamp
 backend: nam
 parameters:

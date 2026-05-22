@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_fulltone_ocd
 display_name: OCD Overdrive
 brand: fulltone
-output_gain_db: -4.2707920
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters:

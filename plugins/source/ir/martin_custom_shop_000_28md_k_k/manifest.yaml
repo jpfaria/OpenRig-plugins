@@ -18,20 +18,20 @@ captures:
 - values:
     voicing: 00028md_knk_44100
   file: ir/00028md_knk_44100.wav
-  output_gain_db: -17.1306915
+  output_gain_db: 0.0000000
 - values:
     voicing: 00028md_knk_44100_match1
   file: ir/00028md_knk_44100_match1.wav
-  output_gain_db: -13.5056725
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45ir00028jf
   file: ir/jf45ir00028jf.wav
-  output_gain_db: -0.6003609
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45ir102400028jf
   file: ir/jf45ir102400028jf.wav
-  output_gain_db: -0.0639076
+  output_gain_db: 0.0000000
 - values:
     voicing: jf45ir505000028jf
   file: ir/jf45ir505000028jf.wav
-  output_gain_db: 0.9218559
+  output_gain_db: 0.0000000
