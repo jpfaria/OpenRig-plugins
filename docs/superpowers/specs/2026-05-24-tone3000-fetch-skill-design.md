@@ -104,10 +104,15 @@ Cross-compilation parity with the rest of `tools/` (macos-universal,
 linux-x86_64, linux-aarch64, windows-x86_64, windows-aarch64); no
 platform-specific code.
 
-### `.claude/skills/openrig-tone3000-fetch/` — Skill
+### `OpenRig-claude/skills/openrig-tone3000-fetch/SKILL.md` — Skill (separate repo)
 
-User-facing workflow that orchestrates the binary plus the editorial
-decisions Claude must own:
+Lives in the [`OpenRig-claude`](https://github.com/jpfaria/OpenRig-claude)
+repo alongside `openrig-tone-builder` and the rest of the user-facing
+skills. The layout convention there is `skills/<name>/SKILL.md` (not
+`.claude/skills/`). Shipped as its own PR with its own issue / branch /
+`.solvers/issue-N/` workspace per the same dev-flow LAW.
+
+It orchestrates the binary plus the editorial decisions Claude must own:
 
 1. Refuse to run outside the OpenRig-plugins repo (looks for
    `tools/pack_plugins` to identify the workspace).
@@ -192,7 +197,12 @@ tools/tone3000_fetch/
   tests/
     api_smoke.rs   # gated by TONE3000_LIVE=1; exercises each endpoint
     infer.rs       # offline fixtures for the parameter classifier
-.claude/skills/openrig-tone3000-fetch/
+```
+
+In the **OpenRig-claude** repo:
+
+```
+skills/openrig-tone3000-fetch/
   SKILL.md
 ```
 
