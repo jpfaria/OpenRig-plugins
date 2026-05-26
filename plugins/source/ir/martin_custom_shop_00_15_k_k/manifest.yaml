@@ -26,12 +26,12 @@ captures:
 - values:
     voicing: jf45ircs0015jf
   file: ir/jf45ircs0015jf.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 0.2518654
 - values:
     voicing: jf45ir1024cs0015jf
   file: ir/jf45ir1024cs0015jf.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 0.2932472
 - values:
     voicing: jf45ir5050cs0015jf
   file: ir/jf45ir5050cs0015jf.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 0.9044380

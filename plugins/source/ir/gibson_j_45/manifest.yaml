@@ -29,7 +29,7 @@ captures:
     flavor: blend
     position: '1'
   file: ir/position_1_blend.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.4807320
 - values:
     flavor: match
     position: '1'

@@ -25,7 +25,8 @@ use loudness_audit::qa::{
     check_clip, check_clip_with, check_dc_offset, check_dc_offset_with, check_hf_aliasing,
     check_hf_aliasing_with, check_lufs_band, check_lufs_band_with, check_non_finite,
     check_silence, CLIP_CEILING_NONLINEAR_DBFS, DC_THRESHOLD_NONLINEAR,
-    HF_ALIASING_MARGIN_NONLINEAR_DB, LUFS_BAND_MAX, LUFS_BAND_MIN_NONLINEAR, QaFail,
+    HF_ALIASING_MARGIN_NONLINEAR_DB, LUFS_BAND_MAX, LUFS_BAND_MIN_BODY, LUFS_BAND_MIN_NONLINEAR,
+    QaFail,
 };
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
@@ -93,7 +94,7 @@ fn run() -> Result<()> {
 
             let report: Result<Vec<(String, Vec<QaFail>)>> =
                 if matches!(block_type.as_str(), "cab" | "body") {
-                    audit_ir_plugin(&di, sr, &plugin_dir, &raw)
+                    audit_ir_plugin(&di, sr, &plugin_dir, &raw, BlockClass::from_type(&block_type))
                 } else {
                     audit_nam_plugin(&di, sr, &plugin_dir, &raw)
                         .map(|fails| vec![(String::from("<model>"), fails)])
@@ -178,14 +179,16 @@ fn parse_source_arg(args: &[String]) -> Result<PathBuf> {
 
 #[derive(Copy, Clone)]
 enum BlockClass {
-    Linear,
+    LinearCab,
+    LinearBody,
     Nonlinear,
 }
 
 impl BlockClass {
     fn from_type(t: &str) -> Self {
         match t {
-            "cab" | "body" => BlockClass::Linear,
+            "cab" => BlockClass::LinearCab,
+            "body" => BlockClass::LinearBody,
             _ => BlockClass::Nonlinear, // amp / preamp / gain_pedal
         }
     }
@@ -197,7 +200,7 @@ fn check_all(probe: &[f32], out: &[f32], sr: u32, class: BlockClass) -> Vec<QaFa
         fails.push(f);
     }
     let clip = match class {
-        BlockClass::Linear => check_clip(out),
+        BlockClass::LinearCab | BlockClass::LinearBody => check_clip(out),
         BlockClass::Nonlinear => check_clip_with(out, CLIP_CEILING_NONLINEAR_DBFS),
     };
     if let Some(f) = clip {
@@ -207,7 +210,12 @@ fn check_all(probe: &[f32], out: &[f32], sr: u32, class: BlockClass) -> Vec<QaFa
         fails.push(f);
     }
     let lufs = match class {
-        BlockClass::Linear => check_lufs_band(out, sr),
+        BlockClass::LinearCab => check_lufs_band(out, sr),
+        BlockClass::LinearBody => {
+            // Body IRs are pickup-emulation filters — narrow-band and
+            // naturally quieter than cab IRs. See LUFS_BAND_MIN_BODY.
+            check_lufs_band_with(out, sr, LUFS_BAND_MIN_BODY, LUFS_BAND_MAX)
+        }
         BlockClass::Nonlinear => {
             check_lufs_band_with(out, sr, LUFS_BAND_MIN_NONLINEAR, LUFS_BAND_MAX)
         }
@@ -216,14 +224,14 @@ fn check_all(probe: &[f32], out: &[f32], sr: u32, class: BlockClass) -> Vec<QaFa
         fails.push(f);
     }
     let dc = match class {
-        BlockClass::Linear => check_dc_offset(out),
+        BlockClass::LinearCab | BlockClass::LinearBody => check_dc_offset(out),
         BlockClass::Nonlinear => check_dc_offset_with(out, DC_THRESHOLD_NONLINEAR),
     };
     if let Some(f) = dc {
         fails.push(f);
     }
     let hf = match class {
-        BlockClass::Linear => check_hf_aliasing(probe, out, sr),
+        BlockClass::LinearCab | BlockClass::LinearBody => check_hf_aliasing(probe, out, sr),
         BlockClass::Nonlinear => {
             check_hf_aliasing_with(probe, out, sr, HF_ALIASING_MARGIN_NONLINEAR_DB)
         }
@@ -252,6 +260,7 @@ fn audit_ir_plugin(
     sr: u32,
     plugin_dir: &Path,
     raw: &str,
+    class: BlockClass,
 ) -> Result<Vec<(String, Vec<QaFail>)>> {
     let files = all_capture_files(raw);
     if files.is_empty() {
@@ -262,7 +271,7 @@ fn audit_ir_plugin(
         let ir = load_wav_ir(&plugin_dir.join(&f))
             .with_context(|| format!("load IR {f}"))?;
         let wet = convolve(probe, &ir);
-        out.push((f, check_all(probe, &wet, sr, BlockClass::Linear)));
+        out.push((f, check_all(probe, &wet, sr, class)));
     }
     Ok(out)
 }

@@ -30,12 +30,12 @@ captures:
 - values:
     voicing: jf45irlescotton_westfield
   file: ir/jf45irlescotton_westfield.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.5353584
 - values:
     voicing: jf45ir1024lescotton_westfield
   file: ir/jf45ir1024lescotton_westfield.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.0665932
 - values:
     voicing: jf45ir5050lescotton_westfield
   file: ir/jf45ir5050lescotton_westfield.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.6689339

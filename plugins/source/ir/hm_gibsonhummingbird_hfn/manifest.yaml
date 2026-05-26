@@ -38,7 +38,7 @@ captures:
 - values:
     voicing: hm_gibson_hummingbird_hfn_1024_44100
   file: ir/hm_gibson_hummingbird_hfn_1024_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.0540581
 - values:
     voicing: hm_gibson_hummingbird_hfn_1024_44100_match1
   file: ir/hm_gibson_hummingbird_hfn_1024_44100_match1.wav

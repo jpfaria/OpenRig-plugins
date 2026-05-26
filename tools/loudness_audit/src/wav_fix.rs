@@ -70,21 +70,38 @@ fn hann_window(x: f64, half_width: f64) -> f64 {
     }
 }
 
-/// Scales `ir` so `convolve(probe, scaled_ir)` peaks at exactly
-/// `target_peak_dbfs`. The scaling factor is the linear ratio between
-/// the desired peak and the measured peak.
-pub fn peak_normalize_for_convolution(
+/// Full `qa_fix` per-channel pipeline as a pure function: DC-remove
+/// then sinc-resample to `dst_sr`. Deliberately level-preserving — the
+/// previous pipeline scaled each capture so its convolution with the
+/// synthetic DI peaked at -1 dBFS, which made every IR ship hot and
+/// hid the natural insertion loss the boost-only audit (#4) needs to
+/// see. Issue #21.
+pub fn fix_capture(samples: &[f32], src_sr: u32, dst_sr: u32) -> Vec<f32> {
+    let centred = dc_remove(samples);
+    if src_sr == dst_sr {
+        centred
+    } else {
+        sinc_resample(&centred, src_sr, dst_sr)
+    }
+}
+
+/// Ceiling-only convolution scale: if `convolve(probe, ir).peak >
+/// ceiling_dbfs`, scale `ir` so the peak lands exactly at the ceiling;
+/// otherwise return `ir` unchanged. Unlike a target peak-norm, quiet
+/// IRs keep their natural insertion loss (the boost-only audit needs
+/// that signal); only the intrinsically-hot captures are tamed so the
+/// CLIP threshold in `qa_audit` is not violated. Issue #21.
+pub fn scale_to_convolution_ceiling(
     probe: &[f32],
     ir: &[f32],
-    target_peak_dbfs: f32,
+    ceiling_dbfs: f32,
 ) -> Vec<f32> {
     let wet = convolve(probe, ir);
     let measured = peak_dbfs(&wet);
-    if !measured.is_finite() {
+    if !measured.is_finite() || measured <= ceiling_dbfs {
         return ir.to_vec();
     }
-    let delta_db = target_peak_dbfs - measured;
-    let scale = 10f32.powf(delta_db / 20.0);
+    let scale = 10f32.powf((ceiling_dbfs - measured) / 20.0);
     ir.iter().map(|s| s * scale).collect()
 }
 
@@ -155,28 +172,59 @@ mod tests {
         );
     }
 
-    // --- peak_normalize_for_convolution --- //
+    // --- fix_capture (regression guard, issue #21) --- //
 
     #[test]
-    fn peak_normalize_brings_convolution_peak_to_target() {
-        let di = default_guitar_di();
-        // Hot IR (delta scaled by 8) → convolved peak well above 0 dBFS.
-        let ir = vec![8.0_f32];
-        let scaled = peak_normalize_for_convolution(&di, &ir, -1.0);
-        let wet = convolve(&di, &scaled);
-        let p = peak_dbfs(&wet);
-        assert!((p - (-1.0)).abs() < 0.05, "peak was {p:.3} dBFS");
+    fn fix_capture_is_identity_for_dc_free_signal_at_same_sample_rate() {
+        // DC-free input + matching sample rate: pipeline must be a no-op.
+        // This pins down "no implicit scaling / no peak-norm" at same SR.
+        let original = vec![-0.5_f32, 0.5, -0.5, 0.5];
+        let fixed = fix_capture(&original, 48_000, 48_000);
+        assert_eq!(fixed, original);
+        let _ = sr(); // silence unused-helper warn in narrow tests
     }
 
     #[test]
-    fn peak_normalize_passing_case_already_in_range() {
+    fn fix_capture_preserves_peak_across_resample() {
+        // Defect being guarded: the previous qa_fix scaled every IR so
+        // its convolution with the synthetic DI peaked at -1 dBFS,
+        // turning natural-loss captures into hot ones. fix_capture must
+        // pass the level through unchanged across the resample.
+        let original: Vec<f32> = (0..441)
+            .map(|i| 0.3 * (std::f32::consts::TAU * 1_000.0 * i as f32 / 44_100.0).sin())
+            .collect();
+        let in_peak = original.iter().fold(0.0_f32, |a, b| a.max(b.abs()));
+        let fixed = fix_capture(&original, 44_100, 48_000);
+        let out_peak = fixed.iter().fold(0.0_f32, |a, b| a.max(b.abs()));
+        assert!(
+            (in_peak - out_peak).abs() < 0.05,
+            "peak changed: {in_peak:.3} -> {out_peak:.3}",
+        );
+    }
+
+    // --- scale_to_convolution_ceiling --- //
+
+    #[test]
+    fn ceiling_scales_down_when_convolution_exceeds_ceiling() {
+        // Hot IR (delta scaled by 8) → convolved peak well above 0 dBFS.
+        // Must be brought down to exactly the ceiling.
         let di = default_guitar_di();
-        let ir = vec![0.1_f32]; // attenuating delta, well below 0 dBFS
-        let scaled = peak_normalize_for_convolution(&di, &ir, -1.0);
-        let wet = convolve(&di, &scaled);
+        let ir = vec![8.0_f32];
+        let out = scale_to_convolution_ceiling(&di, &ir, -1.0);
+        let wet = convolve(&di, &out);
         let p = peak_dbfs(&wet);
-        // Brought UP to -1 dBFS too (target is exact, not an upper bound).
         assert!((p - (-1.0)).abs() < 0.05, "peak was {p:.3} dBFS");
-        let _ = sr(); // silence unused-helper warn in narrow tests
+        let _ = sr();
+    }
+
+    #[test]
+    fn ceiling_passes_quiet_ir_through_unchanged() {
+        // Quiet IR (attenuating delta) → convolution stays well below
+        // the ceiling. The ceiling MUST NOT lift quiet IRs (that was
+        // the peak-norm bug). Output is the same buffer as input.
+        let di = default_guitar_di();
+        let ir = vec![0.1_f32];
+        let out = scale_to_convolution_ceiling(&di, &ir, -1.0);
+        assert_eq!(out, ir, "quiet IR was scaled when it should have passed through");
     }
 }

@@ -34,4 +34,4 @@ captures:
 - values:
     voicing: jf45ir505000028jf
   file: ir/jf45ir505000028jf.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.0723305

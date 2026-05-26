@@ -21,7 +21,7 @@ captures:
 - values:
     flavor: blend
   file: ir/martin_om_18e_aura_vte_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 4.3687019
 - values:
     flavor: match
   file: ir/martin_om_18e_aura_vte_48000_match.wav

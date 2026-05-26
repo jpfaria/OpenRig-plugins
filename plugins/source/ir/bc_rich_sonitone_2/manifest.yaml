@@ -40,12 +40,12 @@ captures:
 - values:
     voicing: jf45irpwfs
   file: ir/jf45irpwfs.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.3035011
 - values:
     voicing: jf45ir1024pwfs
   file: ir/jf45ir1024pwfs.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.6676750
 - values:
     voicing: jf45ir5050pwfs
   file: ir/jf45ir5050pwfs.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.3643761

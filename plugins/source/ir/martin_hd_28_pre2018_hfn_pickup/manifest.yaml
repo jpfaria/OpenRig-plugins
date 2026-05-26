@@ -73,11 +73,11 @@ captures:
 - values:
     voicing: ir_martin_hd28_2048st_matcheq
   file: ir/ir_martin_hd28_2048st_matcheq.wav
-  output_gain_db: 1.4045601
+  output_gain_db: 9.3140602
 - values:
     voicing: ir_martin_hd28_2048l_matcheq
   file: ir/ir_martin_hd28_2048l_matcheq.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.0467491
 - values:
     voicing: ir_martin_hd28_2048r_matcheq
   file: ir/ir_martin_hd28_2048r_matcheq.wav
@@ -85,8 +85,8 @@ captures:
 - values:
     voicing: irzrec1db65s4ss17
   file: ir/irzrec1db65s4ss17.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.6365852
 - values:
     voicing: irzrec2db65s4ss17
   file: ir/irzrec2db65s4ss17.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.3430824

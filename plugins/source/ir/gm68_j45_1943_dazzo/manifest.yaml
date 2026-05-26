@@ -20,8 +20,8 @@ captures:
 - values:
     voicing: ir_gibson_j45_1943_dazzo_44100_match1
   file: ir/ir_gibson_j45_1943_dazzo_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.1995735
 - values:
     voicing: ir_gibson_j45_1943_dazzo_44100_match1_lessroom
   file: ir/ir_gibson_j45_1943_dazzo_44100_match1_lessroom.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.3407402

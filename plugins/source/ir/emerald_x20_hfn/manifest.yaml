@@ -15,11 +15,11 @@ captures:
 - values:
     voicing: jf45ir1024x20
   file: ir/jf45ir1024x20.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.2261391
 - values:
     voicing: jf45ir5050x20
   file: ir/jf45ir5050x20.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.1448479
 - values:
     voicing: jf45irx20
   file: ir/jf45irx20.wav
