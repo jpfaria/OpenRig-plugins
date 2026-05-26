@@ -24,4 +24,4 @@ captures:
 - values:
     voicing: gpc28e_2048_48k_mffqn
   file: ir/gpc28e_2048_48k_mffqn.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.4907112

@@ -26,11 +26,11 @@ captures:
 - values:
     voicing: mcilroy_96k_8096_bld
   file: ir/mcilroy_96k_8096_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 6.8644447
 - values:
     voicing: mcilroy_96k_8096_match
   file: ir/mcilroy_96k_8096_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.1207848
 - values:
     voicing: mcilroy_96k_8096_jf_flavor
   file: ir/mcilroy_96k_8096_jf_flavor.wav
@@ -38,15 +38,15 @@ captures:
 - values:
     voicing: mcilroy_96k_2048
   file: ir/mcilroy_96k_2048.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.0265312
 - values:
     voicing: mcilroy_96k_2048_bld
   file: ir/mcilroy_96k_2048_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 9.4055214
 - values:
     voicing: mcilroy_96k_2048_match1
   file: ir/mcilroy_96k_2048_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 5.4552803
 - values:
     voicing: mcilroy_96k_2048_jf_flavor
   file: ir/mcilroy_96k_2048_jf_flavor.wav
@@ -54,8 +54,8 @@ captures:
 - values:
     voicing: ir_mcilroy_a30_new_a_96k_8096
   file: ir/ir_mcilroy_a30_new_a_96k_8096.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.7904320
 - values:
     voicing: ir_mcilroy_a30_new_a_96k_8096_match2
   file: ir/ir_mcilroy_a30_new_a_96k_8096_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 5.1220665

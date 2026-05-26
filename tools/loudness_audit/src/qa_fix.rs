@@ -1,10 +1,12 @@
 //! `qa_fix` — re-exports IR `.wav` files so they pass `qa_audit`
 //! (issue #12).
 //!
-//! Per capture: remove DC, resample to 48 kHz with windowed sinc if
-//! needed, scale so the synthetic-DI convolution peaks at the target
-//! ceiling. Mono only — stereo captures are skipped with a clear
-//! report so they can be triaged manually.
+//! Per capture: remove DC and resample to 48 kHz with windowed sinc
+//! when needed. Then a CEILING-ONLY convolution cap (issue #21):
+//! quiet captures pass through at natural level so the boost-only
+//! audit (#4) can see their insertion loss; only intrinsically-hot
+//! captures whose convolution with the synthetic DI would exceed the
+//! ceiling are scaled down — never up.
 //!
 //! Usage:
 //!
@@ -17,12 +19,15 @@ use anyhow::{anyhow, bail, Context, Result};
 use std::fs;
 use std::path::{Path, PathBuf};
 
+use loudness_audit::ir::convolve;
+use loudness_audit::loudness::peak_dbfs;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
-use loudness_audit::wav_fix::{dc_remove, peak_normalize_for_convolution, sinc_resample};
+use loudness_audit::wav_fix::fix_capture;
 
-/// IR is scaled so the convolved probe peaks here. 1 dB safety margin
-/// under digital ceiling.
-const TARGET_PEAK_DBFS: f32 = -1.0;
+/// Max convolved peak allowed against the synthetic DI. Above this, the
+/// IR is scaled DOWN so qa_audit's CLIP_CEILING (0 dBFS) is not
+/// violated downstream. 1 dB of headroom under digital ceiling.
+const CONVOLUTION_CEILING_DBFS: f32 = -1.0;
 
 fn main() {
     if let Err(e) = run() {
@@ -38,10 +43,12 @@ fn run() -> Result<()> {
         bail!("--source not a directory: {}", source.display());
     }
 
-    let di = default_guitar_di();
     let dst_sr = DI_SAMPLE_RATE as u32;
+    let probe = default_guitar_di();
 
-    eprintln!("qa_fix: target peak {TARGET_PEAK_DBFS:+.2} dBFS, target SR {dst_sr} Hz");
+    eprintln!(
+        "qa_fix: DC-remove + resample to {dst_sr} Hz + ceiling-only cap at {CONVOLUTION_CEILING_DBFS:+.2} dBFS (#21)"
+    );
     eprintln!("source: {}", source.display());
     eprintln!();
 
@@ -67,7 +74,7 @@ fn run() -> Result<()> {
         let raw = fs::read_to_string(&manifest)?;
         for f in all_capture_files(&raw) {
             let path = plugin_dir.join(&f);
-            match fix_one(&path, &di, dst_sr) {
+            match fix_one(&path, &probe, dst_sr) {
                 Ok(FixResult::Fixed) => {
                     fixed += 1;
                     eprintln!("fix  {}", path.display());
@@ -98,47 +105,33 @@ fn fix_one(path: &Path, probe: &[f32], dst_sr: u32) -> Result<FixResult> {
         bail!("zero channels");
     }
 
-    // Deinterleave into per-channel buffers, fix each independently
-    // (DC remove + resample). Peak-normalise uses the MAX channel peak
-    // so stereo balance is preserved.
+    // Deinterleave, fix each channel independently (DC-remove +
+    // resample, level preserved), then apply a ceiling-only convolution
+    // cap uniformly across channels so stereo balance is preserved.
     let mut channels: Vec<Vec<f32>> = (0..chans)
-        .map(|c| interleaved.iter().skip(c).step_by(chans).copied().collect())
-        .collect();
-    for ch in channels.iter_mut() {
-        *ch = dc_remove(ch);
-        if spec.sample_rate != dst_sr {
-            *ch = sinc_resample(ch, spec.sample_rate, dst_sr);
-        }
-    }
-    // Compute the scale that brings the worst channel's convolved peak
-    // to the target, then apply it uniformly to every channel.
-    let max_pre_peak_db = channels
-        .iter()
-        .map(|ch| {
-            let wet =
-                loudness_audit::ir::convolve(probe, ch);
-            loudness_audit::loudness::peak_dbfs(&wet)
+        .map(|c| {
+            let raw: Vec<f32> = interleaved.iter().skip(c).step_by(chans).copied().collect();
+            fix_capture(&raw, spec.sample_rate, dst_sr)
         })
+        .collect();
+
+    // Max convolved peak across all channels — that's the one that
+    // would clip downstream. If it's already below the ceiling, no
+    // scaling at all (the boost-only audit needs the natural level).
+    let max_peak_db = channels
+        .iter()
+        .map(|ch| peak_dbfs(&convolve(probe, ch)))
         .filter(|p| p.is_finite())
         .fold(f32::NEG_INFINITY, f32::max);
-    if max_pre_peak_db.is_finite() {
-        let scale = 10f32.powf((TARGET_PEAK_DBFS - max_pre_peak_db) / 20.0);
+    if max_peak_db.is_finite() && max_peak_db > CONVOLUTION_CEILING_DBFS {
+        let scale = 10f32.powf((CONVOLUTION_CEILING_DBFS - max_peak_db) / 20.0);
         for ch in channels.iter_mut() {
             for s in ch.iter_mut() {
                 *s *= scale;
             }
         }
-    } else {
-        // No finite peak across any channel — every channel must be
-        // empty / silent. Apply DC-remove/resample result and continue;
-        // peak-normalise is a no-op for silent buffers.
-        for (i, ch) in channels.iter_mut().enumerate() {
-            *ch = peak_normalize_for_convolution(probe, ch, TARGET_PEAK_DBFS);
-            let _ = i;
-        }
     }
 
-    // Re-interleave.
     let out_len = channels.iter().map(|c| c.len()).max().unwrap_or(0);
     let mut out_interleaved = Vec::with_capacity(out_len * chans);
     for i in 0..out_len {

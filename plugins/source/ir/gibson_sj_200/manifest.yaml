@@ -50,7 +50,7 @@ captures:
     flavor: blend
     position: '2'
   file: ir/position_2_blend.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 6.9135323
 - values:
     flavor: match
     position: '2'
@@ -70,7 +70,7 @@ captures:
     flavor: blend
     position: '3'
   file: ir/position_3_blend.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 5.6927834
 - values:
     flavor: jf
     position: '3'

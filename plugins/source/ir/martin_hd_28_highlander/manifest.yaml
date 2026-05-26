@@ -31,12 +31,12 @@ captures:
 - values:
     voicing: jf45irmartin_hd28_highlander
   file: ir/jf45irmartin_hd28_highlander.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.9152031
 - values:
     voicing: jf45ir1024martin_hd28_highlander
   file: ir/jf45ir1024martin_hd28_highlander.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.4275169
 - values:
     voicing: jf45ir5050martin_hd28_highlander
   file: ir/jf45ir5050martin_hd28_highlander.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 4.8772316

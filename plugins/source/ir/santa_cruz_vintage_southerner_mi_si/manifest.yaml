@@ -64,8 +64,8 @@ captures:
 - values:
     voicing: ir_santa_cruz_vintage_southerner_new_a_96k_8096
   file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 2.9439888
 - values:
     voicing: ir_santa_cruz_vintage_southerner_new_a_96k_8096_match
   file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.9074211

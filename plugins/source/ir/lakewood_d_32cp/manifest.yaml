@@ -20,7 +20,7 @@ captures:
 - values:
     voicing: lakewood_d_32cp_48000_bld
   file: ir/lakewood_d_32cp_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.0991325
 - values:
     voicing: lakewood_d_32cp_48000_jf_flavor
   file: ir/lakewood_d_32cp_48000_jf_flavor.wav

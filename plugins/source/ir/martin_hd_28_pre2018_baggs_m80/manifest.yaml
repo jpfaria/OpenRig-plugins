@@ -23,20 +23,20 @@ captures:
 - values:
     voicing: ir_hd28_m80_allstr_44100_match1
   file: ir/ir_hd28_m80_allstr_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.2688560
 - values:
     voicing: ir_hd28_m80_allstr_44100_match2
   file: ir/ir_hd28_m80_allstr_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.0352440
 - values:
     voicing: ir_hd28_m80_estr_44100
   file: ir/ir_hd28_m80_estr_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.4095802
 - values:
     voicing: ir_hd28_m80_estr_44100_match1
   file: ir/ir_hd28_m80_estr_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.8865471
 - values:
     voicing: ir_hd28_m80_estr_44100_match2
   file: ir/ir_hd28_m80_estr_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.6287117

@@ -58,6 +58,16 @@ pub const DC_THRESHOLD: f32 = 1e-3;
 pub const LUFS_BAND_MIN: f32 = -40.0;
 pub const LUFS_BAND_MAX: f32 = 0.0;
 
+/// Lower LUFS bound for acoustic-body IRs (issue #21). Body captures
+/// are pickup-emulation filters — narrow-band by design, naturally
+/// quieter than electric cab IRs whose response sits in the
+/// guitar-relevant midrange. A handful of pickup-emulation flavors
+/// (`*_hfn`, `*_matcheq`, `*_bld`) integrate around −42 to −46 LUFS
+/// against the synthetic DI without being defective. −50 LUFS covers
+/// them while the absolute silence check at −60 still catches dead
+/// captures.
+pub const LUFS_BAND_MIN_BODY: f32 = -50.0;
+
 /// Lower edge (Hz) of the "alias-likely" band used by `check_hf_aliasing`.
 /// Energy here that exceeds the probe's energy by more than the margin
 /// is the signature of imaging artefacts (linear-resample images,

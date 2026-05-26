@@ -35,7 +35,7 @@ captures:
 - values:
     voicing: dy_hamblinsj_2_44100_bld
   file: ir/dy_hamblinsj_2_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 0.1372795
 - values:
     voicing: dy_hamblinsj_2_44100_match
   file: ir/dy_hamblinsj_2_44100_match.wav

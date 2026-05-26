@@ -30,12 +30,12 @@ captures:
 - values:
     voicing: jf45irlowden_o25_highlander
   file: ir/jf45irlowden_o25_highlander.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 0.9312019
 - values:
     voicing: jf45ir1024lowden_o25_highlander
   file: ir/jf45ir1024lowden_o25_highlander.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 1.1953926
 - values:
     voicing: jf45ir5050lowden_o25_highlander
   file: ir/jf45ir5050lowden_o25_highlander.wav
-  output_gain_db: 0.0000000
+  output_gain_db: 3.2962532
