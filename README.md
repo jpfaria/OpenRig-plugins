@@ -1,6 +1,12 @@
 # OpenRig-plugins
 
-Catalogue + build pipeline for every LV2 plugin OpenRig ships. Each plugin lives under `plugins/source/lv2/<name>/` with a `manifest.yaml`, the visual assets, and one `.so` / `.dylib` / `.dll` per supported platform under `platform/<plat>/`. The `openrig-plugins.zip` consumed by the OpenRig installer is produced from this tree by `scripts/bundle-into-openrig.sh`.
+Catalogue + build pipeline for every plugin OpenRig ships. Three backends coexist under `plugins/source/`:
+
+- **`lv2/`** — 103 native LV2 plugins (effects, EQ, dynamics, modulation, delay, reverb, filter, wah). One `.so` / `.dylib` / `.dll` per supported platform plus `manifest.yaml`, built by the recipes in `scripts/build-lib-internal.sh`.
+- **`nam/`** — 274 Neural Amp Modeler captures (preamp, amp, gain pedal). Each plugin is a single `.nam` model + `manifest.yaml`; no native binary, the runtime loads via the bundled `libNeuralAudioCAPI`.
+- **`ir/`** — 134 impulse responses (cab + acoustic body). Mono `.wav` at 48 kHz + `manifest.yaml`; convolved by the engine.
+
+The full canonical catalogue — every `MODEL_ID` with display name, brand, and parameter schema — is in [`docs/blocks-reference.md`](docs/blocks-reference.md), auto-generated from the manifests by `scripts/gen_quick_reference.py`. The `openrig-plugins.zip` consumed by the OpenRig installer is produced from this tree by `scripts/bundle-into-openrig.sh`.
 
 ## Triggering a build
 
@@ -95,13 +101,35 @@ plugins/source/lv2/<plugin>/
 ├── data/                  # presets, IR samples, ML model assets
 └── platform/<plat>/<bin>  # .so / .dylib / .dll per supported platform
 
-deps/<upstream>/           # git submodule pinned to a known-good commit
+plugins/source/nam/<plugin>/
+├── manifest.yaml          # id, display_name, brand, type (amp/preamp/gain_pedal),
+│                          # per-capture grid + output_gain_db (boost-only, #4)
+├── assets/                # thumbnail
+└── captures/*.nam         # neural amp model captures (loaded via libNeuralAudioCAPI)
+
+plugins/source/ir/<plugin>/
+├── manifest.yaml          # id, display_name, brand, type (cab/body), per-capture
+│                          # output_gain_db (spectral-unity, #23)
+├── assets/                # thumbnail
+└── ir/*.wav               # mono 48 kHz IR files (DC-removed, ceiling-capped, #21)
+
+docs/
+├── blocks-reference.md    # canonical catalogue (Quick Reference auto-generated)
+
+deps/<upstream>/           # git submodule pinned to a known-good commit (LV2 only)
 scripts/
-├── build-lib.sh           # Docker wrapper (local builds)
-├── build-lib-internal.sh  # the 20 build recipes (consumed by the wrapper + CI)
+├── build-lib.sh           # Docker wrapper (local LV2 builds)
+├── build-lib-internal.sh  # the 20 LV2 build recipes (consumed by the wrapper + CI)
 ├── add-dep.sh             # `add-dep <name> <url> <commit>` helper
 ├── bundle-into-openrig.sh # zips everything into ../OpenRig/plugins/openrig-plugins.zip
-└── plugin-recipes.tsv     # documents plugin folder ↔ recipe (catalogue ↔ deps)
+├── plugin-recipes.tsv     # documents plugin folder ↔ recipe (catalogue ↔ deps)
+├── gen_quick_reference.py # regenerates docs/blocks-reference.md Quick Reference
+└── native_models.yaml     # engine-side natives listed in the Quick Reference
+
+tools/                     # in-repo Rust binaries
+├── loudness_audit/        # writes per-plugin output_gain_db (NAM: boost-only #4;
+│                          # IR: spectral-unity #23), and the qa_audit gate (#12)
+└── pack_plugins/          # invokes qa_audit then packs each plugin into a zip
 ```
 
 ## Dependencies
