@@ -16,16 +16,16 @@ captures:
 - values:
     voicing: cort_luce_550w_48000
   file: ir/cort_luce_550w_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.0692768
 - values:
     voicing: cort_luce_550w_48000_bld
   file: ir/cort_luce_550w_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.7348156
 - values:
     voicing: cort_luce_550w_48000_jf_flavor
   file: ir/cort_luce_550w_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.5618610
 - values:
     voicing: cort_luce_550w_48000_match
   file: ir/cort_luce_550w_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.1989765

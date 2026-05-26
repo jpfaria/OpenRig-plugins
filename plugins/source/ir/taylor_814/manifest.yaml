@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: dpa_4011
   file: ir/taylor_814_dpa_4011.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.8711891
 - values:
     flavor: neumann_u87
   file: ir/taylor_814_neumann_u87.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.3773937
 - values:
     flavor: shure_sm57
   file: ir/taylor_814_shure_sm57.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.4330254
 - values:
     flavor: neumann_km84
   file: ir/taylor_814_neumann_km84.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.8379745

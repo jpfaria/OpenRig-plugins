@@ -17,16 +17,16 @@ captures:
 - values:
     voicing: gibson_j_45_studio_48000
   file: ir/gibson_j_45_studio_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.5995884
 - values:
     voicing: gibson_j_45_studio_48000_bld
   file: ir/gibson_j_45_studio_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.4251766
 - values:
     voicing: gibson_j_45_studio_48000_jf_flavor
   file: ir/gibson_j_45_studio_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.1870861
 - values:
     voicing: gibson_j_45_studio_48000_match
   file: ir/gibson_j_45_studio_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.8108044

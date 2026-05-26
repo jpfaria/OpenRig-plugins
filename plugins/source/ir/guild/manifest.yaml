@@ -29,64 +29,64 @@ captures:
 - values:
     voicing: 001_dtar_parlor
   file: ir/001_dtar_parlor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.2779255
 - values:
     voicing: 002_dtar_finger
   file: ir/002_dtar_finger.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.6827850
 - values:
     voicing: 003_dtar_blues
   file: ir/003_dtar_blues.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.6622334
 - values:
     voicing: 004_dtar_mag
   file: ir/004_dtar_mag.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -21.1297169
 - values:
     voicing: 005_dtar_ros
   file: ir/005_dtar_ros.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.9009933
 - values:
     voicing: 006_dtar_btq_finger
   file: ir/006_dtar_btq_finger.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.3456135
 - values:
     voicing: 007_dtar_dread
   file: ir/007_dtar_dread.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.3024025
 - values:
     voicing: 008_dtar_graud
   file: ir/008_dtar_graud.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.1893654
 - values:
     voicing: 009_dtar_slope_jumbo
   file: ir/009_dtar_slope_jumbo.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.4248009
 - values:
     voicing: 010_dtar_mah_dread
   file: ir/010_dtar_mah_dread.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.2006779
 - values:
     voicing: 011_dtar_ros_dread
   file: ir/011_dtar_ros_dread.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.4331875
 - values:
     voicing: 012_dtar_sup_jumbo
   file: ir/012_dtar_sup_jumbo.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -16.7243176
 - values:
     voicing: 013_dtar_hollow_arch_jazz
   file: ir/013_dtar_hollow_arch_jazz.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.3223457
 - values:
     voicing: 014_dtar_gypsy_jazz
   file: ir/014_dtar_gypsy_jazz.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.3406391
 - values:
     voicing: 015_dtar_blues_res
   file: ir/015_dtar_blues_res.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.9037018
 - values:
     voicing: 016_dtar_tricone_res
   file: ir/016_dtar_tricone_res.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.6563892

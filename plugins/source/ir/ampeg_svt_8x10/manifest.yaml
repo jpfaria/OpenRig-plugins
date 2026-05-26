@@ -29,39 +29,39 @@ captures:
     mic: d6
     position: ah
   file: ir/ampeg_8x10_d6_ah_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.9187469
 - values:
     mic: '57'
     position: ah
   file: ir/ampeg_8x10_57_ah_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.9383183
 - values:
     mic: '4033'
     position: ah
   file: ir/ampeg_8x10_4033_ah_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.1218433
 - values:
     mic: '4033'
     position: a107
   file: ir/ampeg_8x10_4033_a107_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.1266117
 - values:
     mic: e602
     position: a107
   file: ir/ampeg_8x10_e602_a107_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -30.9363308
 - values:
     mic: beta52
     position: svt_di
   file: ir/ampeg_svt_beta52_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.5361176
 - values:
     mic: neumann
     position: svt_di
   file: ir/ampeg_svt_bright_neumann_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.7583828
 - values:
     mic: di_out
     position: svt_di
   file: ir/ampeg_svt_d_i_out_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.9373722

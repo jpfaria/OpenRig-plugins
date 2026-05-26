@@ -19,28 +19,28 @@ captures:
 - values:
     voicing: holy_grail_c800_exp
   file: ir/holy_grail_c800_exp.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.3533974
 - values:
     voicing: holy_grail_c800_pz1
   file: ir/holy_grail_c800_pz1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.2244663
 - values:
     voicing: holy_grail_c800_pz2
   file: ir/holy_grail_c800_pz2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.7902660
 - values:
     voicing: holy_grail_c800_pz3
   file: ir/holy_grail_c800_pz3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.0587769
 - values:
     voicing: holy_grail_c800_sb1
   file: ir/holy_grail_c800_sb1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.2217197
 - values:
     voicing: holy_grail_c800_sb2
   file: ir/holy_grail_c800_sb2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.2226562
 - values:
     voicing: holy_grail_c800_sb3_blend
   file: ir/holy_grail_c800_sb3_blend.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.1497431

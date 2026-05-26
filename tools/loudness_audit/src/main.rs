@@ -45,10 +45,11 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
-use loudness_audit::ir::{convolve, load_wav_ir};
+use loudness_audit::ir::load_wav_ir;
 use loudness_audit::loudness::{
     apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
 };
+use loudness_audit::qa::peak_spectral_magnitude_db;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
 /// True-peak safety ceiling in dBFS. Boost-only makeup is capped so
@@ -60,7 +61,7 @@ const PEAK_CEILING_DBFS: f32 = 0.0;
 /// an enormous positive gain to reach the DI's loudness; 30 dB caps
 /// that. The lower bound is `0` (boost-only): a block that adds level
 /// keeps the default at 0, never attenuated.
-const MAX_GAIN_DB: f32 = 30.0;
+const MAX_GAIN_DB: f32 = 60.0;
 
 fn main() -> Result<()> {
     let args: Vec<String> = std::env::args().collect();
@@ -197,19 +198,26 @@ fn audit_plugin(
     })
 }
 
-/// Boost-only insertion makeup for one IR: `max(0, LUFS_in − LUFS_out)`.
-/// IRs that lose level (typical cab/body insertion loss) get a
-/// positive makeup so the user-visible default brings them up to
-/// the DI's loudness. IRs that add level get 0 — never a negative
-/// default. Capped against peak headroom and a runaway boost cap.
-fn ir_capture_gain_db(di: &[f32], ir: &[f32]) -> f32 {
-    let wet = convolve(di, ir);
-    let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
-    let lufs_out = integrated_lufs(&wet, DI_SAMPLE_RATE as u32);
-    let peak_out = peak_dbfs(&wet);
-    let want = lufs_in - lufs_out;
-    let peak_headroom = PEAK_CEILING_DBFS - peak_out;
-    want.min(peak_headroom).min(MAX_GAIN_DB).max(0.0)
+/// Spectral-unity insertion makeup for one IR (issue #23):
+/// `output_gain_db = −peak_spectral_magnitude_db(ir)`. IR is a linear
+/// filter; its peak DFT magnitude is the worst-case gain it can apply
+/// to any single sine. Compensating by the negative of that value
+/// makes `max |H(f)| = 0 dB` post-makeup — a sine at the resonance
+/// frequency can no longer exceed input level, regardless of how
+/// narrow the bump is or how broadband the audit probe was.
+///
+/// Sign departs from the boost-only NAM rule (#4): a resonant cab IR
+/// IS a hot block and the user-facing default has to reflect that or
+/// the chain pumps the limiter as in OpenRig#542.
+///
+/// Bounded to `[-MAX_GAIN_DB, MAX_GAIN_DB]` so a broken capture with
+/// pathological resonance does not produce a runaway makeup value.
+fn ir_capture_gain_db(_di: &[f32], ir: &[f32]) -> f32 {
+    let max_h_db = peak_spectral_magnitude_db(ir, DI_SAMPLE_RATE as u32);
+    if !max_h_db.is_finite() {
+        return 0.0;
+    }
+    (-max_h_db).clamp(-MAX_GAIN_DB, MAX_GAIN_DB)
 }
 
 fn audit_ir_plugin(
@@ -488,18 +496,21 @@ mod tests {
     }
 
     #[test]
-    fn boost_only_correction_never_attenuates() {
+    fn ir_makeup_targets_spectral_unity() {
         let di = loudness_audit::synthetic_di::default_guitar_di();
 
-        // ×0.5 IR (−6 dB): output is quieter -> POSITIVE makeup ≈ +6.
+        // ×0.5 IR has max|H| = 0.5 (≈ −6 dB). Makeup is −(−6) = +6 dB
+        // so post-makeup max|H| = 1 (0 dB).
         let ir_atten = vec![0.5_f32];
         let g = ir_capture_gain_db(&di, &ir_atten);
-        assert!(g > 4.0 && g < 8.0, "attenuating IR makeup was {g}");
+        assert!((g - 6.0206).abs() < 0.01, "attenuating IR makeup was {g}");
 
-        // ×2 IR (+6 dB): output is louder -> default stays at 0 (we
-        // never write a negative default into the user-visible knob).
+        // ×2 IR has max|H| = 2 (≈ +6 dB). Makeup is −(+6) = −6 dB —
+        // the negative default the boost-only NAM rule rejects but
+        // the spectral-unity IR rule embraces. Without this cut a
+        // sine at any frequency would convolve to +6 dB.
         let ir_boost = vec![2.0_f32];
         let g2 = ir_capture_gain_db(&di, &ir_boost);
-        assert_eq!(g2, 0.0, "amplifying IR must not attenuate, was {g2}");
+        assert!((g2 - -6.0206).abs() < 0.01, "amplifying IR makeup was {g2}");
     }
 }

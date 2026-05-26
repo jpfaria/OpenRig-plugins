@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_hd_28e_anthem_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.0085640
 - values:
     flavor: blend
   file: ir/martin_hd_28e_anthem_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -12.5273752
 - values:
     flavor: match
   file: ir/martin_hd_28e_anthem_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.1741590
 - values:
     flavor: jf
   file: ir/martin_hd_28e_anthem_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.9726343

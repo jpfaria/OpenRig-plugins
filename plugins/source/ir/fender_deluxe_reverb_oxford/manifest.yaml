@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: big
   file: ir/big.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.2837009
 - values:
     flavor: lean
   file: ir/lean.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.7438850
 - values:
     flavor: big_48_24
   file: ir/big_48_24.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.2835674
 - values:
     flavor: lean_48_24
   file: ir/lean_48_24.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.7437363

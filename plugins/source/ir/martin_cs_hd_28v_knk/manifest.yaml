@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_cs_hd28v_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -11.8404617
 - values:
     flavor: blend
   file: ir/martin_cs_hd28v_44100_bld.wav
-  output_gain_db: 0.1357651
+  output_gain_db: -7.2859769
 - values:
     flavor: match
   file: ir/martin_cs_hd28v_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -9.0544720
 - values:
     flavor: jf
   file: ir/martin_cs_hd28v_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -10.2713947

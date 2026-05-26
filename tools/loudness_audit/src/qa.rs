@@ -50,12 +50,24 @@ pub const LUFS_BAND_MIN_NONLINEAR: f32 = -50.0;
 /// capture, not "very quiet".
 pub const SILENCE_LUFS: f32 = -60.0;
 
+/// Body-class silence floor (issue #23). The spectral-unity makeup
+/// can cut a heavily resonant pickup-emulation body IR by 30–45 dB,
+/// dropping the convolved signal to −60 to −70 LUFS while the
+/// underlying capture is still a real (if narrow) filter. −75 leaves
+/// 15 LU of margin under the standard floor before flagging.
+pub const SILENCE_LUFS_BODY: f32 = -75.0;
+
 /// Absolute DC offset above this is a defect.
 pub const DC_THRESHOLD: f32 = 1e-3;
 
 /// Loudness sanity band. Output integrated LUFS outside this is
 /// almost certainly a broken capture (totally dead or absurdly hot).
-pub const LUFS_BAND_MIN: f32 = -40.0;
+/// Floor unified at −50 LUFS across classes (issue #23): the
+/// spectral-unity IR audit produces aggressive negative makeup
+/// (−10 to −30 dB) that drops convolved LUFS well below the old
+/// −40 LinearCab floor without indicating defective content. The
+/// SILENCE check at −60 still flags truly dead captures.
+pub const LUFS_BAND_MIN: f32 = -50.0;
 pub const LUFS_BAND_MAX: f32 = 0.0;
 
 /// Lower LUFS bound for acoustic-body IRs (issue #21). Body captures
@@ -91,6 +103,7 @@ pub enum QaFail {
     DcOffset { dc: f32 },
     LufsOutOfBand { lufs: f32 },
     HfAliasing { delta_db: f32, band_start_hz: f32 },
+    SpectralPeak { peak_db: f32 },
 }
 
 impl QaFail {
@@ -102,8 +115,77 @@ impl QaFail {
             QaFail::DcOffset { .. } => "dc_offset",
             QaFail::LufsOutOfBand { .. } => "lufs_out_of_band",
             QaFail::HfAliasing { .. } => "hf_aliasing",
+            QaFail::SpectralPeak { .. } => "spectral_peak",
         }
     }
+}
+
+/// Minimum FFT size for spectral-magnitude analysis. 16384 bins at
+/// 48 kHz give ~2.9 Hz resolution, fine enough to catch the narrow
+/// resonant peaks (≈ 50–100 Hz wide) that drive cab/body IR misuse.
+const SPECTRAL_FFT_MIN: usize = 16_384;
+
+/// Peak magnitude `max |H(f)|` of `ir` in dB. The IR is treated as a
+/// linear filter; its DFT magnitude is the gain it imposes on a sine
+/// at each bin. Zero-padded to at least `SPECTRAL_FFT_MIN` so a
+/// narrow resonance is not undersampled in frequency.
+///
+/// Returns `f32::NEG_INFINITY` for an empty or all-zero IR (`log10(0)`
+/// is undefined; the caller treats this as "no useful response" and
+/// must not divide by it).
+pub fn peak_spectral_magnitude_db(ir: &[f32], _sample_rate: u32) -> f32 {
+    if ir.is_empty() {
+        return f32::NEG_INFINITY;
+    }
+    let n = ir.len().next_power_of_two().max(SPECTRAL_FFT_MIN);
+    let mut planner = RealFftPlanner::<f32>::new();
+    let fft = planner.plan_fft_forward(n);
+    let mut buf = fft.make_input_vec();
+    buf[..ir.len()].copy_from_slice(ir);
+    let mut spec = fft.make_output_vec();
+    fft.process(&mut buf, &mut spec).unwrap();
+    let mut max_mag_sq: f64 = 0.0;
+    for c in spec.iter() {
+        let m = (c.re as f64).powi(2) + (c.im as f64).powi(2);
+        if m > max_mag_sq {
+            max_mag_sq = m;
+        }
+    }
+    if max_mag_sq <= 0.0 {
+        return f32::NEG_INFINITY;
+    }
+    (10.0 * max_mag_sq.log10()) as f32
+}
+
+/// Spectral-magnitude threshold for cab/body IRs (issue #23). The
+/// audit writes `output_gain_db = -peak_spectral_magnitude_db(ir)` so
+/// the IR's worst-case frequency response is unity after makeup. This
+/// check rejects any capture whose post-makeup spectral peak still
+/// exceeds the ceiling — guards against a future audit run that uses
+/// the wrong formula or skips the IR class entirely.
+pub const SPECTRAL_PEAK_CEILING_DB: f32 = 0.5;
+
+/// Returns `Some(SpectralPeak)` if `max |H(f)|` of `ir_post_makeup`
+/// exceeds `ceiling_db`. Caller is expected to pre-scale the IR by
+/// the manifest's `output_gain_db` so the assertion is on the IR the
+/// engine actually convolves with.
+pub fn check_spectral_peak_with(
+    ir_post_makeup: &[f32],
+    sample_rate: u32,
+    ceiling_db: f32,
+) -> Option<QaFail> {
+    let p = peak_spectral_magnitude_db(ir_post_makeup, sample_rate);
+    if p > ceiling_db {
+        Some(QaFail::SpectralPeak { peak_db: p })
+    } else {
+        None
+    }
+}
+
+/// Linear-block (cab/body) spectral peak check with the standard
+/// ceiling.
+pub fn check_spectral_peak(ir_post_makeup: &[f32], sample_rate: u32) -> Option<QaFail> {
+    check_spectral_peak_with(ir_post_makeup, sample_rate, SPECTRAL_PEAK_CEILING_DB)
 }
 
 /// Total energy (sum of squared magnitudes) in bins whose centre
@@ -178,8 +260,19 @@ pub fn check_clip(samples: &[f32]) -> Option<QaFail> {
 /// Returns `Some(Silence)` if integrated LUFS is below the dead-capture
 /// threshold (signal is effectively silent over the probe duration).
 pub fn check_silence(samples: &[f32], sample_rate: u32) -> Option<QaFail> {
+    check_silence_with(samples, sample_rate, SILENCE_LUFS)
+}
+
+/// Class-aware silence check with an explicit threshold. Use
+/// `SILENCE_LUFS_BODY` for body IRs whose spectral-unity makeup can
+/// legitimately drive convolved LUFS below the standard floor.
+pub fn check_silence_with(
+    samples: &[f32],
+    sample_rate: u32,
+    threshold_db: f32,
+) -> Option<QaFail> {
     let l = integrated_lufs(samples, sample_rate);
-    if !l.is_finite() || l <= SILENCE_LUFS {
+    if !l.is_finite() || l <= threshold_db {
         Some(QaFail::Silence { lufs: l })
     } else {
         None
@@ -358,6 +451,56 @@ mod tests {
                 assert!(delta_db > HF_ALIASING_MARGIN_DB, "delta was {delta_db}");
             }
             other => panic!("expected HfAliasing, got {other:?}"),
+        }
+    }
+
+    // --- peak_spectral_magnitude_db --- //
+
+    #[test]
+    fn spectral_peak_of_unit_delta_is_zero_db() {
+        // A unit impulse is a flat 0 dB filter at every frequency.
+        let ir = vec![1.0_f32];
+        let p = peak_spectral_magnitude_db(&ir, sr());
+        assert!(p.abs() < 1e-3, "peak was {p:.6} dB");
+    }
+
+    #[test]
+    fn spectral_peak_of_scaled_delta_matches_scale() {
+        // A delta scaled by 2× is +6 dB flat across the spectrum.
+        let ir = vec![2.0_f32];
+        let p = peak_spectral_magnitude_db(&ir, sr());
+        assert!((p - 6.0206).abs() < 1e-3, "peak was {p:.6} dB");
+    }
+
+    #[test]
+    fn spectral_peak_finds_resonant_bump() {
+        // Two-tap IR with constructive DC: [1, 1] sums to 2 at DC → +6 dB.
+        // The DFT of [1, 1, 0, ..., 0] is X[k] = 1 + e^(-j 2π k / N).
+        // At k=0 → 2 (DC sum). Confirms the peak finder picks the
+        // maximum-magnitude bin and reports it in dB.
+        let ir = vec![1.0_f32, 1.0];
+        let p = peak_spectral_magnitude_db(&ir, sr());
+        assert!((p - 6.0206).abs() < 0.01, "peak was {p:.6} dB");
+    }
+
+    // --- check_spectral_peak --- //
+
+    #[test]
+    fn spectral_peak_passes_when_max_h_within_ceiling() {
+        // Unit delta = 0 dB max, ceiling 0.5 dB → must pass.
+        let ir = vec![1.0_f32];
+        assert!(check_spectral_peak(&ir, sr()).is_none());
+    }
+
+    #[test]
+    fn spectral_peak_fails_when_max_h_exceeds_ceiling() {
+        // 4× delta = +12.04 dB → way above the 0.5 dB ceiling.
+        let ir = vec![4.0_f32];
+        match check_spectral_peak(&ir, sr()) {
+            Some(QaFail::SpectralPeak { peak_db }) => {
+                assert!(peak_db > SPECTRAL_PEAK_CEILING_DB, "peak was {peak_db:.3} dB");
+            }
+            other => panic!("expected SpectralPeak, got {other:?}"),
         }
     }
 }

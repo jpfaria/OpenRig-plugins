@@ -22,36 +22,36 @@ captures:
 - values:
     voicing: collings_d2h_dpa_4011
   file: ir/collings_d2h_dpa_4011.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.3790321
 - values:
     voicing: collings_d2h_neumann_m147
   file: ir/collings_d2h_neumann_m147.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.7276440
 - values:
     voicing: collings_d2h_neumann_km84
   file: ir/collings_d2h_neumann_km84.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.4610138
 - values:
     voicing: collings_d2h_sanken_cu31
   file: ir/collings_d2h_sanken_cu31.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.3415184
 - values:
     voicing: collings_om2ha_akg_cs1000
   file: ir/collings_om2ha_akg_cs1000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.0885029
 - values:
     voicing: collings_om2ha_dpa_4011
   file: ir/collings_om2ha_dpa_4011.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.0080452
 - values:
     voicing: collings_om2ha_schoeps_cmc64g
   file: ir/collings_om2ha_schoeps_cmc64g.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.3695908
 - values:
     voicing: collings_om2ha_schoeps_cmc64g_xy
   file: ir/collings_om2ha_schoeps_cmc64g_xy.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -27.8092556
 - values:
     voicing: collings_om2ha_soundelux_e47
   file: ir/collings_om2ha_soundelux_e47.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.3729877

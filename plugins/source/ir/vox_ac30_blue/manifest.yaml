@@ -15,8 +15,8 @@ captures:
 - values:
     position: blue_1
   file: ir/blue_1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.6746140
 - values:
     position: blue_2
   file: ir/blue_2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.6919689

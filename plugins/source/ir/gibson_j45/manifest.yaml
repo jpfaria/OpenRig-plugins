@@ -17,16 +17,16 @@ captures:
 - values:
     voicing: j45_akg_cs1000
   file: ir/j45_akg_cs1000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.2087688
 - values:
     voicing: j45_dpa_4011
   file: ir/j45_dpa_4011.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.8275089
 - values:
     voicing: j45_neumann_m147
   file: ir/j45_neumann_m147.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.5718098
 - values:
     voicing: j45_soundelux_e47
   file: ir/j45_soundelux_e47.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.7013741

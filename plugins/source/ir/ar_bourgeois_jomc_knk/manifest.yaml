@@ -15,12 +15,12 @@ captures:
 - values:
     voicing: bourgeois_jomc_knk_44100
   file: ir/bourgeois_jomc_knk_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -29.7897911
 - values:
     voicing: bourgeois_jomc_knk_44100_match1
   file: ir/bourgeois_jomc_knk_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.5162811
 - values:
     voicing: bourgeois_jomc_knk_44100_match2
   file: ir/bourgeois_jomc_knk_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.1547546

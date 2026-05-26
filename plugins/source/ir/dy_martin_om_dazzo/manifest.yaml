@@ -17,16 +17,16 @@ captures:
 - values:
     voicing: dy_martinom_dazzo_44100
   file: ir/dy_martinom_dazzo_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -21.8376675
 - values:
     voicing: dy_martinom_dazzo_44100_matcheq1
   file: ir/dy_martinom_dazzo_44100_matcheq1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.9600792
 - values:
     voicing: dy_martinom_dazzo_44100_matcheq2
   file: ir/dy_martinom_dazzo_44100_matcheq2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.0633469
 - values:
     voicing: dy_martinom_dazzo_44100_matcheq3
   file: ir/dy_martinom_dazzo_44100_matcheq3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -12.8541269
