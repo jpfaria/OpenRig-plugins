@@ -1,0 +1,48 @@
+# Engine-side (Native + VST3) blocks listed in the Quick Reference
+# alongside the manifest-driven catalogue. Maintained by hand here
+# because the canonical source lives in the OpenRig engine repo, not
+# in plugin manifests under `plugins/source/`. Update when the engine
+# adds or renames a native model.
+#
+# Section keys mirror the Quick Reference subsections in
+# `docs/blocks-reference.md`.
+
+preamp:
+  - id: american_clean
+    display_name: American Clean
+    brand: --
+  - id: brit_crunch
+    display_name: Brit Crunch
+    brand: --
+  - id: modern_high_gain
+    display_name: Modern High Gain
+    brand: --
+
+amp:
+  - id: blackface_clean
+    display_name: Blackface Clean
+    brand: --
+  - id: chime
+    display_name: Chime
+    brand: --
+  - id: tweed_breakup
+    display_name: Tweed Breakup
+    brand: --
+
+cab:
+  - id: american_2x12
+    display_name: American 2x12
+    brand: --
+  - id: brit_4x12
+    display_name: Brit 4x12
+    brand: --
+  - id: vintage_1x12
+    display_name: Vintage 1x12
+    brand: --
+
+gain:
+  - id: volume
+    display_name: Volume
+    brand: --
+
+body: []
