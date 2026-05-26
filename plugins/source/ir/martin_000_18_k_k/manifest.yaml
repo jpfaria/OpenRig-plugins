@@ -20,28 +20,28 @@ captures:
 - values:
     voicing: sc_martin_000_18_knk1_44100
   file: ir/sc_martin_000_18_knk1_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.5726328
 - values:
     voicing: sc_martin_000_18_knk1_44100_bld
   file: ir/sc_martin_000_18_knk1_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -10.5739269
 - values:
     voicing: sc_martin_000_18_knk1_44100_match
   file: ir/sc_martin_000_18_knk1_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.6742144
 - values:
     voicing: sc_martin_000_18_knk1_44100_jf_flavor
   file: ir/sc_martin_000_18_knk1_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -13.7202024
 - values:
     voicing: sc_martin_000_18_knk2_44100
   file: ir/sc_martin_000_18_knk2_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.6961279
 - values:
     voicing: sc_martin_000_18_knk2_44100_bld
   file: ir/sc_martin_000_18_knk2_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -10.6128464
 - values:
     voicing: sc_martin_000_18_knk2_44100_jf_flavor
   file: ir/sc_martin_000_18_knk2_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -10.5150213

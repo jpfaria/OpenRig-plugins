@@ -20,28 +20,28 @@ captures:
 - values:
     voicing: takef341sc_44100
   file: ir/takef341sc_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.1295109
 - values:
     voicing: takef341sc_44100_1024
   file: ir/takef341sc_44100_1024.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.3281918
 - values:
     voicing: takef341sc_44100_match1
   file: ir/takef341sc_44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -16.8730659
 - values:
     voicing: takef341sc_44100_match1_ls
   file: ir/takef341sc_44100_match1_ls.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.0867290
 - values:
     voicing: takef341sc_44100_match2
   file: ir/takef341sc_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.3505917
 - values:
     voicing: takef341sc_44100_1024_match1
   file: ir/takef341sc_44100_1024_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.8036919
 - values:
     voicing: takef341sc_44100_1024_match2
   file: ir/takef341sc_44100_1024_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.1677933

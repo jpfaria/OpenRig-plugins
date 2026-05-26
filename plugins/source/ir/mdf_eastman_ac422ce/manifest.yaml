@@ -16,16 +16,16 @@ captures:
 - values:
     flavor: eastman_ac422ce_44100
   file: ir/eastman_ac422ce_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.4239254
 - values:
     flavor: eastman_ac422ce_44100b
   file: ir/eastman_ac422ce_44100b.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -27.0089588
 - values:
     flavor: eastman_ac422ce_44100b_match1
   file: ir/eastman_ac422ce_44100b_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.5477486
 - values:
     flavor: eastman_ac422ce_44100_match2
   file: ir/eastman_ac422ce_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -21.1798363

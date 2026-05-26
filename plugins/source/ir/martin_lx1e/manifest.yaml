@@ -17,16 +17,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_lx1e_sonitone_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.3129368
 - values:
     flavor: blend
   file: ir/martin_lx1e_sonitone_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -8.8106899
 - values:
     flavor: match
   file: ir/martin_lx1e_sonitone_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -9.6789875
 - values:
     flavor: jf
   file: ir/martin_lx1e_sonitone_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -12.4157944

@@ -16,12 +16,12 @@ captures:
 - values:
     voicing: gpc28e_2048_44k
   file: ir/gpc28e_2048_44k.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -9.2697477
 - values:
     voicing: gpc28e_2048_44k_m
   file: ir/gpc28e_2048_44k_m.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.9673715
 - values:
     voicing: gpc28e_2048_48k_mffqn
   file: ir/gpc28e_2048_48k_mffqn.wav
-  output_gain_db: 1.4907112
+  output_gain_db: -9.3378830

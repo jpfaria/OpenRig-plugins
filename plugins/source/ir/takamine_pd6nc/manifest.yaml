@@ -21,32 +21,32 @@ captures:
 - values:
     voicing: takamine_pd6nc_1_44100
   file: ir/takamine_pd6nc_1_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -32.2215958
 - values:
     voicing: takamine_pd6nc_1_44100_bld
   file: ir/takamine_pd6nc_1_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -32.1648254
 - values:
     voicing: takamine_pd6nc_1_44100_match
   file: ir/takamine_pd6nc_1_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -31.1329403
 - values:
     voicing: takamine_pd6nc_1_44100_jf_flavor
   file: ir/takamine_pd6nc_1_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -30.8542881
 - values:
     voicing: takamine_pd6nc_2_44100
   file: ir/takamine_pd6nc_2_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -31.1944046
 - values:
     voicing: takamine_pd6nc_2_44100_bld
   file: ir/takamine_pd6nc_2_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -31.0488815
 - values:
     voicing: takamine_pd6nc_2_44100_match
   file: ir/takamine_pd6nc_2_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.4683704
 - values:
     voicing: takamine_pd6nc_2_44100_jf_flavor
   file: ir/takamine_pd6nc_2_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.3438644

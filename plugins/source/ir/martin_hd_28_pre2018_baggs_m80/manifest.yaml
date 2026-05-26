@@ -19,24 +19,24 @@ captures:
 - values:
     voicing: ir_hd28_m80_allstr_44100
   file: ir/ir_hd28_m80_allstr_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -6.9695930
 - values:
     voicing: ir_hd28_m80_allstr_44100_match1
   file: ir/ir_hd28_m80_allstr_44100_match1.wav
-  output_gain_db: 3.2688560
+  output_gain_db: -9.5857077
 - values:
     voicing: ir_hd28_m80_allstr_44100_match2
   file: ir/ir_hd28_m80_allstr_44100_match2.wav
-  output_gain_db: 3.0352440
+  output_gain_db: -9.6990433
 - values:
     voicing: ir_hd28_m80_estr_44100
   file: ir/ir_hd28_m80_estr_44100.wav
-  output_gain_db: 1.4095802
+  output_gain_db: -5.7599998
 - values:
     voicing: ir_hd28_m80_estr_44100_match1
   file: ir/ir_hd28_m80_estr_44100_match1.wav
-  output_gain_db: 1.8865471
+  output_gain_db: -9.9284449
 - values:
     voicing: ir_hd28_m80_estr_44100_match2
   file: ir/ir_hd28_m80_estr_44100_match2.wav
-  output_gain_db: 1.6287117
+  output_gain_db: -10.1314526

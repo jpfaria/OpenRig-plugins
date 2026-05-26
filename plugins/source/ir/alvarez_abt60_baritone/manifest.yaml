@@ -18,24 +18,24 @@ captures:
 - values:
     voicing: ir_alvarez_abt_60_baritone_sm44100
   file: ir/ir_alvarez_abt_60_baritone_sm44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.2175179
 - values:
     voicing: ir_alvarez_abt_60_baritone_sm44100_match1
   file: ir/ir_alvarez_abt_60_baritone_sm44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.3676472
 - values:
     voicing: ir_alvarez_abt_60_baritone_sm44100_match2
   file: ir/ir_alvarez_abt_60_baritone_sm44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.9727001
 - values:
     voicing: ir_alvarez_abt_60_baritone_bb44100
   file: ir/ir_alvarez_abt_60_baritone_bb44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.3970127
 - values:
     voicing: ir_alvarez_abt_60_baritone_bb44100_match1
   file: ir/ir_alvarez_abt_60_baritone_bb44100_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.3658810
 - values:
     voicing: ir_alvarez_abt_60_baritone_bb44100_match2
   file: ir/ir_alvarez_abt_60_baritone_bb44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.1969585

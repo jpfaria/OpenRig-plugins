@@ -15,12 +15,12 @@ captures:
 - values:
     voicing: furch_vintage1d_sr_48k
   file: ir/furch_vintage1d_sr_48k.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -11.1471205
 - values:
     voicing: furch_vintage1d_sr_48k_m
   file: ir/furch_vintage1d_sr_48k_m.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -9.6549644
 - values:
     voicing: furch_vintage1d_sr_48k_m_ffq
   file: ir/furch_vintage1d_sr_48k_m_ffq.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.4591579

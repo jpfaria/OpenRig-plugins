@@ -16,16 +16,16 @@ captures:
 - values:
     voicing: yamaha_fgx800c_48000
   file: ir/yamaha_fgx800c_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -29.9375896
 - values:
     voicing: yamaha_fgx800c_48000_bld
   file: ir/yamaha_fgx800c_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.3521423
 - values:
     voicing: yamaha_fgx800c_48000_match
   file: ir/yamaha_fgx800c_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -29.2317791
 - values:
     voicing: yamaha_fgx800c_48000_jf_flavor
   file: ir/yamaha_fgx800c_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.2138996

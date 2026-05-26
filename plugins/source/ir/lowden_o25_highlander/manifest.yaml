@@ -18,24 +18,24 @@ captures:
 - values:
     voicing: ir_lowdeno25_highlander_48000
   file: ir/ir_lowdeno25_highlander_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.9270992
 - values:
     voicing: ir_lowdeno25_highlander_48000_match1
   file: ir/ir_lowdeno25_highlander_48000_match1.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -17.7509632
 - values:
     voicing: ir_lowdeno25_highlander_48000_match2
   file: ir/ir_lowdeno25_highlander_48000_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.2653942
 - values:
     voicing: jf45irlowden_o25_highlander
   file: ir/jf45irlowden_o25_highlander.wav
-  output_gain_db: 0.9312019
+  output_gain_db: -9.8701038
 - values:
     voicing: jf45ir1024lowden_o25_highlander
   file: ir/jf45ir1024lowden_o25_highlander.wav
-  output_gain_db: 1.1953926
+  output_gain_db: -8.1934538
 - values:
     voicing: jf45ir5050lowden_o25_highlander
   file: ir/jf45ir5050lowden_o25_highlander.wav
-  output_gain_db: 3.2962532
+  output_gain_db: -4.2000513

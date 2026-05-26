@@ -16,16 +16,16 @@ captures:
 - values:
     voicing: yamaha_fgx412_48000
   file: ir/yamaha_fgx412_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -32.4854546
 - values:
     voicing: yamaha_fgx412_48000_bld
   file: ir/yamaha_fgx412_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -31.9970798
 - values:
     voicing: yamaha_fgx412_48000_match
   file: ir/yamaha_fgx412_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -25.2726746
 - values:
     voicing: yamaha_fgx412_48000_jf_flavor
   file: ir/yamaha_fgx412_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -31.0003128

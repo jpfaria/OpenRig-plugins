@@ -16,16 +16,16 @@ captures:
 - values:
     voicing: yamaha_ll16_48000
   file: ir/yamaha_ll16_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.7134552
 - values:
     voicing: yamaha_ll16_48000_bld
   file: ir/yamaha_ll16_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -14.0702991
 - values:
     voicing: yamaha_ll16_48000_match
   file: ir/yamaha_ll16_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.2272139
 - values:
     voicing: yamaha_ll16_48000_jf_flavor
   file: ir/yamaha_ll16_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.1565647

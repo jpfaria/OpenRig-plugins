@@ -27,39 +27,39 @@ captures:
     mic: c414
     position: d
   file: ir/orange_2x12_v30_c414_d_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.3466072
 - values:
     mic: c414
     position: e
   file: ir/orange_2x12_v30_c414_e_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.9743099
 - values:
     mic: e906
     position: c
   file: ir/orange_2x12_v30_e906_c_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -20.7016773
 - values:
     mic: rm700
     position: c
   file: ir/orange_2x12_v30_rm700_c_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.1455326
 - values:
     mic: rm700
     position: e
   file: ir/orange_2x12_v30_rm700_e_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.5325184
 - values:
     mic: sm57
     position: a
   file: ir/orange_2x12_v30_sm57_a_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.3112221
 - values:
     mic: sm57
     position: c
   file: ir/orange_2x12_v30_sm57_c_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.5423260
 - values:
     mic: sm57
     position: e
   file: ir/orange_2x12_v30_sm57_e_3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.4391708

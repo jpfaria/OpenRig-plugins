@@ -17,16 +17,16 @@ captures:
 - values:
     voicing: as_om28_matrix_44100
   file: ir/as_om28_matrix_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -27.2035542
 - values:
     voicing: as_om28_matrix_44100_bld
   file: ir/as_om28_matrix_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -21.5372066
 - values:
     voicing: as_om28_matrix_44100_jf_flavor
   file: ir/as_om28_matrix_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -30.8762150
 - values:
     voicing: as_om28_matrix_44100_match
   file: ir/as_om28_matrix_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.2420921

@@ -16,16 +16,16 @@ captures:
 - values:
     flavor: standard
   file: ir/ovation_celebrity_ce44_48000.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -29.4026337
 - values:
     flavor: blend
   file: ir/ovation_celebrity_ce44_48000_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -23.3149014
 - values:
     flavor: match
   file: ir/ovation_celebrity_ce44_48000_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -22.5184135
 - values:
     flavor: jf
   file: ir/ovation_celebrity_ce44_48000_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -27.2094212

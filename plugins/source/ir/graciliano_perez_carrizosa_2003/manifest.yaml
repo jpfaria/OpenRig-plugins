@@ -15,12 +15,12 @@ captures:
 - values:
     voicing: ir_graciliano_perez_48k
   file: ir/ir_graciliano_perez_48k.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.1524506
 - values:
     voicing: ir_graciliano_perez_48k_m
   file: ir/ir_graciliano_perez_48k_m.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -16.5855713
 - values:
     voicing: ir_graciliano_perez_48k_mffqn
   file: ir/ir_graciliano_perez_48k_mffqn.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.8813782

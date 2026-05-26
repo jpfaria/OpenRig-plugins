@@ -16,16 +16,16 @@ captures:
 - values:
     flavor: cukijfirpwfs2048at48
   file: ir/cukijfirpwfs2048at48.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -15.0448046
 - values:
     flavor: jf45ir5050pwfs
   file: ir/jf45ir5050pwfs.wav
-  output_gain_db: 3.3643761
+  output_gain_db: -3.5065877
 - values:
     flavor: jf45ir1024pwfs
   file: ir/jf45ir1024pwfs.wav
-  output_gain_db: 2.6676750
+  output_gain_db: -6.7307444
 - values:
     flavor: jf45irpwfs
   file: ir/jf45irpwfs.wav
-  output_gain_db: 2.3035011
+  output_gain_db: -8.1549644

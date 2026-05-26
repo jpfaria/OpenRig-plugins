@@ -16,12 +16,12 @@ captures:
 - values:
     voicing: ir_martin_d18_1948_dazzo_44100
   file: ir/ir_martin_d18_1948_dazzo_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -30.0275059
 - values:
     voicing: ir_martin_d18_1948_dazzo_44100_match2
   file: ir/ir_martin_d18_1948_dazzo_44100_match2.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.0267239
 - values:
     voicing: ir_martin_d18_1948_dazzo_44100_meq3
   file: ir/ir_martin_d18_1948_dazzo_44100_meq3.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.2511826

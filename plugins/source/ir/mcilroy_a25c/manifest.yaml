@@ -19,28 +19,28 @@ captures:
 - values:
     voicing: sc_mcilroy1_44100
   file: ir/sc_mcilroy1_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -29.9288483
 - values:
     voicing: sc_mcilroy1_44100_bld
   file: ir/sc_mcilroy1_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -28.5695438
 - values:
     voicing: sc_mcilroy1_44100_match
   file: ir/sc_mcilroy1_44100_match.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -26.2344284
 - values:
     voicing: sc_mcilroy1_44100_jf_flavor
   file: ir/sc_mcilroy1_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -29.8055897
 - values:
     voicing: sc_mcilroy2_44100
   file: ir/sc_mcilroy2_44100.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -24.4179573
 - values:
     voicing: sc_mcilroy2_44100_bld
   file: ir/sc_mcilroy2_44100_bld.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -18.8493099
 - values:
     voicing: sc_mcilroy2_44100_jf_flavor
   file: ir/sc_mcilroy2_44100_jf_flavor.wav
-  output_gain_db: 0.0000000
+  output_gain_db: -19.4805126
