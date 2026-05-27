@@ -1,0 +1,50 @@
+manifest_version: 1
+id: nam_big_muff_green_russian
+display_name: Big Muff Green Russian Clone
+description: Neural capture of a Green Russian Big Muff clone across a 4×3 grid of drive × tone settings (volume held at 3). Sustain-heavy fuzz used by John Mayer (Battle Studies era — Heartbreak Warfare distorted section) and many others.
+brand: electro_harmonix
+license: MIT
+homepage: https://www.tone3000.com/tones/66686
+sources:
+- https://www.tone3000.com/tones/66686
+type: gain_pedal
+backend: nam
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - "3"
+  - "5"
+  - "9"
+  - "12"
+- name: tone
+  display_name: Tone
+  values:
+  - "1_30"
+  - "10_30"
+  - "12_00"
+captures:
+- values: { drive: "3",  tone: "1_30"  }
+  file: captures/cskqupd6tph.nam
+- values: { drive: "3",  tone: "10_30" }
+  file: captures/56pv2cytwlh.nam
+- values: { drive: "3",  tone: "12_00" }
+  file: captures/e40y30duri.nam
+- values: { drive: "5",  tone: "1_30"  }
+  file: captures/pyd91s4w42.nam
+- values: { drive: "5",  tone: "10_30" }
+  file: captures/p6vdnxnk98h.nam
+- values: { drive: "5",  tone: "12_00" }
+  file: captures/l6ttmhdvb4.nam
+- values: { drive: "9",  tone: "1_30"  }
+  file: captures/r3znv7ba7.nam
+- values: { drive: "9",  tone: "10_30" }
+  file: captures/pvy45taa56c.nam
+- values: { drive: "9",  tone: "12_00" }
+  file: captures/g501yx55iqo.nam
+- values: { drive: "12", tone: "1_30"  }
+  file: captures/8hwefvjkoms.nam
+- values: { drive: "12", tone: "10_30" }
+  file: captures/7u4pwr9lp4w.nam
+- values: { drive: "12", tone: "12_00" }
+  file: captures/nbz5dtxphsd.nam
