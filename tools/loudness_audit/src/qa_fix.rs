@@ -13,6 +13,16 @@
 //!     cargo run --release -p loudness-audit --bin qa_fix -- \
 //!         --source /path/to/OpenRig-plugins/plugins/source
 //!
+//! Optional `--plugins kind/name[,kind/name…]` (issue #28) restricts
+//! the rewrite to a subset — only listed `ir/<name>` plugins are
+//! re-processed; everything else is left untouched. `nam/<name>`
+//! entries are accepted for symmetry with `qa_audit` but silently
+//! ignored (NAM captures are read-only here).
+//!
+//!     cargo run --release -p loudness-audit --bin qa_fix -- \
+//!         --source /path/to/OpenRig-plugins/plugins/source \
+//!         --plugins ir/marshall_4x12
+//!
 //! After running this, `qa_audit` must exit 0 over the same source.
 
 use anyhow::{anyhow, bail, Context, Result};
@@ -21,6 +31,7 @@ use std::path::{Path, PathBuf};
 
 use loudness_audit::ir::convolve;
 use loudness_audit::loudness::peak_dbfs;
+use loudness_audit::selector::PluginSelector;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 use loudness_audit::wav_fix::fix_capture;
 
@@ -42,6 +53,10 @@ fn run() -> Result<()> {
     if !source.is_dir() {
         bail!("--source not a directory: {}", source.display());
     }
+    let selector = PluginSelector::from_args(&args)?;
+    if let Some(s) = &selector {
+        s.validate_against(&source)?;
+    }
 
     let dst_sr = DI_SAMPLE_RATE as u32;
     let probe = default_guitar_di();
@@ -50,6 +65,14 @@ fn run() -> Result<()> {
         "qa_fix: DC-remove + resample to {dst_sr} Hz + ceiling-only cap at {CONVOLUTION_CEILING_DBFS:+.2} dBFS (#21)"
     );
     eprintln!("source: {}", source.display());
+    if let Some(s) = &selector {
+        let labels: Vec<String> = s
+            .entries()
+            .iter()
+            .map(|(k, n)| format!("{k}/{n}"))
+            .collect();
+        eprintln!("filter: --plugins {} ({} entries)", labels.join(","), s.entries().len());
+    }
     eprintln!();
 
     let mut fixed = 0usize;
@@ -70,6 +93,17 @@ fn run() -> Result<()> {
         let manifest = plugin_dir.join("manifest.yaml");
         if !manifest.is_file() {
             continue;
+        }
+        let plugin_name = plugin_dir
+            .file_name()
+            .and_then(|s| s.to_str())
+            .unwrap_or("<?>");
+        // Filter-out is silent: the user opted-in to a subset, the
+        // non-selected IR plugins are not part of this run's universe.
+        if let Some(s) = &selector {
+            if !s.matches("ir", plugin_name) {
+                continue;
+            }
         }
         let raw = fs::read_to_string(&manifest)?;
         for f in all_capture_files(&raw) {
@@ -198,7 +232,10 @@ fn parse_source_arg(args: &[String]) -> Result<PathBuf> {
             return Ok(PathBuf::from(p));
         }
     }
-    bail!("usage: qa_fix --source <plugins/source path>")
+    bail!(
+        "usage: qa_fix --source <plugins/source path> \
+         [--plugins kind/name[,kind/name...]]"
+    )
 }
 
 fn all_capture_files(yaml: &str) -> Vec<String> {
