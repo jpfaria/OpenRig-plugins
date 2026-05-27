@@ -1,0 +1,37 @@
+manifest_version: 1
+id: nam_ibanez_ts808_tone3000
+display_name: Ibanez TS808 (tone3000)
+description: Neural capture of an Ibanez TS808 Tube Screamer across four gain / tone / level settings. The TS808 is John Mayer's recurring boost into his Two-Rock / Dumble rigs.
+brand: ibanez
+license: MIT
+homepage: https://www.tone3000.com/tones/66205
+sources:
+- https://www.tone3000.com/tones/66205
+type: gain_pedal
+backend: nam
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - "0"
+  - "3"
+  - "8"
+- name: tone
+  display_name: Tone
+  values:
+  - "5"
+  - "8"
+  - "10"
+- name: level
+  display_name: Level
+  values:
+  - "10"
+captures:
+- values: { gain: "0", tone: "10", level: "10" }
+  file: captures/cs5ac2bll44.nam
+- values: { gain: "3", tone: "8",  level: "10" }
+  file: captures/44siotvd2sh.nam
+- values: { gain: "8", tone: "5",  level: "10" }
+  file: captures/qjzjh7rodtp.nam
+- values: { gain: "0", tone: "5",  level: "10" }
+  file: captures/dfwapy8ymrs.nam
