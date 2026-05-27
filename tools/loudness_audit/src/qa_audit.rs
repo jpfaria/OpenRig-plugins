@@ -11,9 +11,19 @@
 //!     cargo run --release -p loudness-audit --bin qa_audit -- \
 //!         --source /path/to/OpenRig-plugins/plugins/source
 //!
+//! Optional `--plugins kind/name[,kind/name…]` (issue #28) restricts
+//! the audit to a subset for fast iteration on a single plugin without
+//! reprocessing the whole tree:
+//!
+//!     cargo run --release -p loudness-audit --bin qa_audit -- \
+//!         --source /path/to/OpenRig-plugins/plugins/source \
+//!         --plugins nam/mesa_rectifier,ir/marshall_4x12
+//!
 //! Also runs a per-chain check (default: `nam_ibanez_ts9` →
 //! `nam_mesa_rectifier`) so the chained-gain failure mode that
-//! gutted the cpm 22 preset is now caught automatically.
+//! gutted the cpm 22 preset is now caught automatically. When a
+//! `--plugins` filter excludes any chain member, that chain step is
+//! skipped (not a failure) — the flag exists to focus on one plugin.
 
 use anyhow::{anyhow, bail, Context, Result};
 use std::fs;
@@ -28,6 +38,7 @@ use loudness_audit::qa::{
     DC_THRESHOLD_NONLINEAR, HF_ALIASING_MARGIN_NONLINEAR_DB, LUFS_BAND_MAX,
     LUFS_BAND_MIN_NONLINEAR, QaFail, SILENCE_LUFS_BODY,
 };
+use loudness_audit::selector::PluginSelector;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 use nam::processor::{close_model_diag, nam_process, open_model_diag};
 
@@ -49,6 +60,10 @@ fn run() -> Result<()> {
     if !source.is_dir() {
         bail!("--source not a directory: {}", source.display());
     }
+    let selector = PluginSelector::from_args(&args)?;
+    if let Some(s) = &selector {
+        s.validate_against(&source)?;
+    }
 
     let di = default_guitar_di();
     let sr = DI_SAMPLE_RATE as u32;
@@ -59,6 +74,14 @@ fn run() -> Result<()> {
         sr
     );
     eprintln!("source: {}", source.display());
+    if let Some(s) = &selector {
+        let labels: Vec<String> = s
+            .entries()
+            .iter()
+            .map(|(k, n)| format!("{k}/{n}"))
+            .collect();
+        eprintln!("filter: --plugins {} ({} entries)", labels.join(","), s.entries().len());
+    }
     eprintln!();
 
     let mut fail_count = 0usize;
@@ -80,6 +103,18 @@ fn run() -> Result<()> {
             if !manifest.is_file() {
                 continue;
             }
+            let label = plugin_dir
+                .file_name()
+                .and_then(|s| s.to_str())
+                .unwrap_or("<?>");
+            // Filter-out is silent on purpose: the user opted-in to a
+            // subset, the non-selected plugins are not part of this
+            // run's universe so they don't count as skipped.
+            if let Some(s) = &selector {
+                if !s.matches(kind, label) {
+                    continue;
+                }
+            }
             let raw = fs::read_to_string(&manifest)
                 .with_context(|| format!("read {}", manifest.display()))?;
             let block_type = manifest_block_type(&raw).unwrap_or_else(|| "<?>".into());
@@ -87,10 +122,6 @@ fn run() -> Result<()> {
                 skipped += 1;
                 continue;
             }
-            let label = plugin_dir
-                .file_name()
-                .and_then(|s| s.to_str())
-                .unwrap_or("<?>");
 
             let report: Result<Vec<(String, Vec<QaFail>)>> =
                 if matches!(block_type.as_str(), "cab" | "body") {
@@ -123,12 +154,28 @@ fn run() -> Result<()> {
         }
     }
 
-    // Chain checks (encode the cpm 22 failure mode).
+    // Chain checks (encode the cpm 22 failure mode). Chains are
+    // NAM-only today. Under `--plugins`, a chain only runs if every
+    // member is in the selection — otherwise the chain step is skipped
+    // (not a failure): the flag exists for fast iteration on a single
+    // plugin, and failing on chain summation the user didn't touch is
+    // noise.
     let chain_specs: &[&[&str]] = &[&["ibanez_ts9", "mesa_rectifier"]];
     eprintln!();
     eprintln!("-- chain checks --");
     for chain in chain_specs {
         let label = chain.join(" -> ");
+        if let Some(s) = &selector {
+            let missing: Vec<&str> = chain
+                .iter()
+                .copied()
+                .filter(|name| !s.matches("nam", name))
+                .collect();
+            if !missing.is_empty() {
+                eprintln!("skip chain {label} (filtered: {})", missing.join(","));
+                continue;
+            }
+        }
         match audit_chain(&di, sr, &source.join("nam"), chain) {
             Ok(fails) => {
                 if fails.is_empty() {
@@ -168,7 +215,8 @@ fn parse_source_arg(args: &[String]) -> Result<PathBuf> {
         }
     }
     bail!(
-        "usage: qa_audit --source <plugins/source path>\n\
+        "usage: qa_audit --source <plugins/source path> \
+         [--plugins kind/name[,kind/name...]]\n\
          exits non-zero if any plugin or chain check fails"
     )
 }

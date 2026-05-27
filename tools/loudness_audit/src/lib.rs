@@ -12,10 +12,13 @@
 //! - [`qa`] — automated QA checks (clip, silence, NaN/Inf, DC,
 //!   LUFS band, HF aliasing) used by the `qa_audit` gate (issue #12).
 //!   Listening is not a valid verification step in this repo.
+//! - [`selector`] — optional `--plugins kind/name[,…]` subset selector
+//!   shared by the `qa_audit` and `qa_fix` binaries (issue #28).
 
 pub mod catalog;
 pub mod ir;
 pub mod loudness;
 pub mod qa;
+pub mod selector;
 pub mod synthetic_di;
 pub mod wav_fix;
