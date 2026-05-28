@@ -1,0 +1,12 @@
+manifest_version: 1
+id: nam_greer_lightspeed
+display_name: Greer Lightspeed
+brand: greer
+sources:
+- https://www.tone3000.com/tones/26703
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/edotgneazi7.nam
