@@ -1,0 +1,29 @@
+manifest_version: 1
+id: nam_jhs_the_kilt
+display_name: JHS The Kilt
+brand: jhs
+sources:
+- https://www.tone3000.com/tones/27702
+type: gain_pedal
+backend: nam
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - v1_fuzz_g3
+  - v2_od_g3
+  - v2_od_g5
+  - v2_od_g10
+captures:
+- values:
+    mode: v2_od_g10
+  file: captures/zusft5bycpq.nam
+- values:
+    mode: v1_fuzz_g3
+  file: captures/91mjjgbxydl.nam
+- values:
+    mode: v2_od_g3
+  file: captures/yxqy9j4xe9h.nam
+- values:
+    mode: v2_od_g5
+  file: captures/alj6cld9pfw.nam
