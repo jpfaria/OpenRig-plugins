@@ -482,6 +482,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_lokajaudio_doom_machine` | Doom Machine V3 | lokajaudio |
 | `nam_maestro_fuzz_tone_fz_1` | Maestro Fuzz-Tone FZ-1 | maestro |
 | `nam_marshall_guvnor` | Marshall Guvnor | marshall |
+| `nam_marshall_gv_2_guvnor_plus` | Marshall GV-2 Guv'Nor Plus | marshall |
 | `nam_maxon_od808` | OD808 Overdrive | maxon |
 | `nam_maxon_od_9` | Maxon OD-9 | maxon |
 | `nam_mesa_throttle_box` | Mesa Throttle Box | mesa |
