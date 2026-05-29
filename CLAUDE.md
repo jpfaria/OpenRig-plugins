@@ -52,7 +52,7 @@ QA tool itself is broken; never to dodge a real failure.
 
 1. **There must always be an issue.** No work without an issue tracking it.
 2. **Comment the plan on the issue** before starting.
-3. **Isolated workspace**: clone/copy into `.solvers/issue-{N}/`. Never edit in the user's working directory.
+3. **Isolated workspace**: `.solvers/issue-{N}/` MUST be an independent working tree (clone or copy). `git worktree add` is FORBIDDEN — worktrees share the parent `.git` and break the isolation guarantee. Never edit in the user's working directory. See `.claude/skills/openrig-code-quality/SKILL.md` for the canonical setup command.
 4. Branch from `main`: `bugfix/issue-N` or `feature/issue-N` (no description suffix).
 5. **Everything being done is commented on the issue** — plan before starting, every push (hash + files touched + gate result), and a final summary. The issue is the running log of the work.
 6. Gate `cargo run --release --bin pack_plugins` → exit 0 before every push.

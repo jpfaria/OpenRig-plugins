@@ -46,6 +46,8 @@ Documentation is part of the task, not an afterthought. **Any change that alters
 ❌ "I'll update the doc later" — the session ends, the doc is orphaned, the next one breaks
 ❌ Stale skill because "I remember it" — next session's Claude does not remember
 ❌ Portuguese left in a doc/comment/commit
+❌ `git worktree add .solvers/issue-N …` — worktrees share the parent `.git`; use a clone/copy so each issue lives in a fully independent tree
+❌ Editing files directly under the user's working tree (top-level `plugins/`, `docs/`, `.claude/`) instead of `.solvers/issue-{N}/`
 ```
 
 ---
@@ -54,7 +56,15 @@ Documentation is part of the task, not an afterthought. **Any change that alters
 
 1. **There must always be an issue.** No work without an issue tracking it.
 2. **Comment the plan on the issue** before starting any change.
-3. **Isolated workspace**: clone/copy into `.solvers/issue-{N}/`. NEVER edit in the user's working directory.
+3. **Isolated workspace** — `.solvers/issue-{N}/` MUST be an **independent working tree** with its own `.git`. NEVER edit in the user's working directory. **`git worktree add` is forbidden** — worktrees share the parent `.git`, which leaks state (refs, index, hooks) between the two trees and defeats the isolation. Use a clone or copy instead. Canonical setup:
+
+   ```
+   git clone . .solvers/issue-{N}
+   cd .solvers/issue-{N}
+   git remote set-url origin git@github.com:jpfaria/OpenRig-plugins.git
+   git fetch origin main && git reset --hard origin/main
+   git checkout -b feature/issue-{N}
+   ```
 4. Branch from `main`: `bugfix/issue-N` or `feature/issue-N` (no description suffix).
 5. **Everything being done is commented on the issue.** The issue is the running log:
    - the plan, before starting;
