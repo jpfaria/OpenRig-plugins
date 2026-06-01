@@ -1,0 +1,25 @@
+manifest_version: 1
+id: nam_ly_pedals_king_of_tone
+display_name: LY Pedals KoT (Clone)
+brand: ly_pedals
+sources:
+- https://www.tone3000.com/tones/66648
+type: gain_pedal
+backend: nam
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - red_od
+  - both_dst
+  - orange_boost
+captures:
+- values:
+    mode: red_od
+  file: captures/oqvbfgpx2ic.nam
+- values:
+    mode: both_dst
+  file: captures/prrpv6ibaj.nam
+- values:
+    mode: orange_boost
+  file: captures/razr95u7wv.nam
