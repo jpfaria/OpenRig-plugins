@@ -1,0 +1,12 @@
+manifest_version: 1
+id: nam_mad_professor_double_barrel_blue
+display_name: Double Barrel (Blue)
+brand: mad_professor
+sources:
+- https://www.tone3000.com/tones/30655
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/rmmkh69jhg.nam

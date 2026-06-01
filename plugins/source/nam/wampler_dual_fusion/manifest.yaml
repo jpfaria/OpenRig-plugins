@@ -1,0 +1,12 @@
+manifest_version: 1
+id: nam_wampler_dual_fusion
+display_name: Wampler Dual Fusion
+brand: wampler
+sources:
+- https://www.tone3000.com/tones/2285
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/9c6ace21ce666084.nam

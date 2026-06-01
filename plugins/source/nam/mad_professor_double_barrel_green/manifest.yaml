@@ -1,0 +1,12 @@
+manifest_version: 1
+id: nam_mad_professor_double_barrel_green
+display_name: Double Barrel (Green)
+brand: mad_professor
+sources:
+- https://www.tone3000.com/tones/30656
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/gpkrkuhz11t.nam

@@ -1,0 +1,183 @@
+manifest_version: 1
+id: nam_demonfx_be_deluxe_ii
+display_name: Demonfx BE-deluxe II
+brand: demonfx
+sources:
+- https://www.tone3000.com/tones/60143
+type: gain_pedal
+backend: nam
+parameters:
+- name: gain
+  display_name: Gain (%)
+  values:
+  - '0'
+  - '25'
+  - '50'
+  - '75'
+  - '100'
+- name: tight
+  display_name: Tight
+  values:
+  - up
+  - down
+- name: pres
+  display_name: Presence (%)
+  values:
+  - '50'
+  - '100'
+- name: mid_high
+  display_name: Mid/High Balance
+  values:
+  - 4060
+  - 5050
+captures:
+- values:
+    gain: '100'
+    tight: down
+    pres: '100'
+    mid_high: 4060
+  file: captures/j9rjee3ifbf.nam
+- values:
+    gain: '100'
+    tight: down
+    pres: '50'
+    mid_high: 4060
+  file: captures/vcsk1kfc0ut.nam
+- values:
+    gain: '75'
+    tight: up
+    pres: '100'
+    mid_high: 5050
+  file: captures/o6dgxxioqgq.nam
+- values:
+    gain: '50'
+    tight: down
+    pres: '50'
+    mid_high: 5050
+  file: captures/abhiiygxji.nam
+- values:
+    gain: '100'
+    tight: up
+    pres: '100'
+    mid_high: 5050
+  file: captures/u5p4vdlrag.nam
+- values:
+    gain: '50'
+    tight: up
+    pres: '50'
+    mid_high: 4060
+  file: captures/vks5gfvmmlk.nam
+- values:
+    gain: '50'
+    tight: down
+    pres: '100'
+    mid_high: 5050
+  file: captures/0qcjke2rjrx.nam
+- values:
+    gain: '100'
+    tight: down
+    pres: '100'
+    mid_high: 5050
+  file: captures/7jomkeke1yd.nam
+- values:
+    gain: '100'
+    tight: up
+    pres: '50'
+    mid_high: 5050
+  file: captures/zvxtul04ug.nam
+- values:
+    gain: '50'
+    tight: down
+    pres: '50'
+    mid_high: 4060
+  file: captures/6wue2awitgn.nam
+- values:
+    gain: '75'
+    tight: down
+    pres: '50'
+    mid_high: 5050
+  file: captures/v9tytorbnd.nam
+- values:
+    gain: '50'
+    tight: up
+    pres: '100'
+    mid_high: 4060
+  file: captures/cjlwgc045d.nam
+- values:
+    gain: '50'
+    tight: up
+    pres: '100'
+    mid_high: 5050
+  file: captures/6cn3j8gpmog.nam
+- values:
+    gain: '50'
+    tight: up
+    pres: '50'
+    mid_high: 5050
+  file: captures/p5ohdp2aujd.nam
+- values:
+    gain: '75'
+    tight: up
+    pres: '100'
+    mid_high: 4060
+  file: captures/8pgqmexuv0u.nam
+- values:
+    gain: '75'
+    tight: down
+    pres: '50'
+    mid_high: 4060
+  file: captures/680i5e5mmzy.nam
+- values:
+    gain: '100'
+    tight: up
+    pres: '100'
+    mid_high: 4060
+  file: captures/jrjzlpvaqza.nam
+- values:
+    gain: '50'
+    tight: down
+    pres: '100'
+    mid_high: 4060
+  file: captures/viuha6tnvz.nam
+- values:
+    gain: '100'
+    tight: up
+    pres: '50'
+    mid_high: 4060
+  file: captures/uylkb54zp6.nam
+- values:
+    gain: '75'
+    tight: down
+    pres: '100'
+    mid_high: 4060
+  file: captures/c7gqekpf07l.nam
+- values:
+    gain: '75'
+    tight: up
+    pres: '50'
+    mid_high: 5050
+  file: captures/3nislqpea3q.nam
+- values:
+    gain: '25'
+    tight: up
+    pres: '100'
+    mid_high: 5050
+  file: captures/jp3yxc5oaw.nam
+- values:
+    gain: '25'
+    tight: down
+    pres: '100'
+    mid_high: 5050
+  file: captures/8hl5x835cro.nam
+- values:
+    gain: '0'
+    tight: up
+    pres: '100'
+    mid_high: 5050
+  file: captures/t5vhbr6npgd.nam
+- values:
+    gain: '0'
+    tight: down
+    pres: '100'
+    mid_high: 5050
+  file: captures/u17jb1iwxq.nam

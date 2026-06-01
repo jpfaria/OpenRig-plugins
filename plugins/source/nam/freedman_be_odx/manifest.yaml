@@ -1,0 +1,12 @@
+manifest_version: 1
+id: nam_freedman_be_odx
+display_name: Freedman BE-ODX
+brand: freedman
+sources:
+- https://www.tone3000.com/tones/49208
+type: gain_pedal
+backend: nam
+parameters: []
+captures:
+- values: {}
+  file: captures/fcxzo7pve1.nam
