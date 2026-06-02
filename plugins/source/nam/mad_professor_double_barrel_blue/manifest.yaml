@@ -4,6 +4,7 @@ display_name: Double Barrel (Blue)
 brand: mad_professor
 sources:
 - https://www.tone3000.com/tones/30655
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 parameters: []

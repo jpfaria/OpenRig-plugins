@@ -7,6 +7,7 @@ license: MIT
 homepage: https://www.tone3000.com/tones/65812
 sources:
 - https://www.tone3000.com/tones/65812
+output_gain_db: 2.0005760
 type: amp
 backend: nam
 parameters:

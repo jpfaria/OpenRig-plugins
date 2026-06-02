@@ -6,6 +6,7 @@ brand_logo: assets/brand_logo.svg
 license: MIT
 sources:
 - https://www.tone3000.com/tones/65163
+output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 homepage: https://www.tone3000.com/tones/65163
