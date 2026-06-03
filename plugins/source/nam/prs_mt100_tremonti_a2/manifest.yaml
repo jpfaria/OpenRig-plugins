@@ -4,7 +4,7 @@ display_name: MT-100 Tremonti
 brand: prs
 sources:
 - https://www.tone3000.com/tones/38592
-output_gain_db: 0.0000000
+output_gain_db: -2.8992209
 type: amp
 backend: nam
 architecture: A2
