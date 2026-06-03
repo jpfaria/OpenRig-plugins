@@ -76,7 +76,6 @@ fn run() -> Result<()> {
     eprintln!();
 
     let mut fixed = 0usize;
-    let mut unchanged = 0usize;
     let mut skipped = 0usize;
 
     let ir_root = source.join("ir");
@@ -113,7 +112,6 @@ fn run() -> Result<()> {
                     fixed += 1;
                     eprintln!("fix  {}", path.display());
                 }
-                Ok(FixResult::Unchanged) => unchanged += 1,
                 Err(e) => {
                     skipped += 1;
                     eprintln!("skip error  {}: {e:#}", path.display());
@@ -123,13 +121,12 @@ fn run() -> Result<()> {
     }
 
     eprintln!();
-    eprintln!("qa_fix: fixed={fixed} unchanged={unchanged} skipped={skipped}");
+    eprintln!("qa_fix: fixed={fixed} skipped={skipped}");
     Ok(())
 }
 
 enum FixResult {
     Fixed,
-    Unchanged,
 }
 
 fn fix_one(path: &Path, probe: &[f32], dst_sr: u32) -> Result<FixResult> {

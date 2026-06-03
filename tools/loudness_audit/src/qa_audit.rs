@@ -465,13 +465,6 @@ fn first_capture_file(yaml: &str) -> Option<String> {
     None
 }
 
-fn all_capture_files(yaml: &str) -> Vec<String> {
-    all_captures_with_gain(yaml)
-        .into_iter()
-        .map(|(f, _)| f)
-        .collect()
-}
-
 /// Pairs each capture file with its sibling `output_gain_db` value
 /// (defaulting to 0 if the field is absent — pre-#23 manifests). The
 /// audit's spectral-peak check needs to apply the manifest gain to the
