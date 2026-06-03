@@ -52,16 +52,32 @@ use loudness_audit::loudness::{
 use loudness_audit::qa::peak_spectral_magnitude_db;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
-/// True-peak safety ceiling in dBFS. Boost-only makeup is capped so
-/// applying it cannot push the post-block peak past digital full scale.
-/// Clip guard, not a loudness target.
+/// True-peak safety ceiling in dBFS. The makeup is capped so the
+/// post-block peak never exceeds digital full scale; a model whose raw
+/// output is already above this is attenuated down to it. Clip guard,
+/// not a loudness target.
 const PEAK_CEILING_DBFS: f32 = 0.0;
 
-/// Runaway guard. A broken near-silent capture would otherwise demand
-/// an enormous positive gain to reach the DI's loudness; 30 dB caps
-/// that. The lower bound is `0` (boost-only): a block that adds level
-/// keeps the default at 0, never attenuated.
+/// Runaway guard, symmetric. A broken near-silent capture would
+/// otherwise demand an enormous positive gain to reach the DI's
+/// loudness; an extremely hot model would demand a huge negative one.
+/// Bounds the applied gain to ±this many dB.
 const MAX_GAIN_DB: f32 = 60.0;
+
+/// Insertion makeup gain (dB) for a NAM block.
+///
+/// Loudness makeup is **boost-only**: a quiet block is brought up to the
+/// DI's loudness, but a block that is merely louder than the DI keeps its
+/// 0 dB default (the user can turn it down). Peak safety is a **hard
+/// ceiling that may go negative**: a model whose raw peak exceeds
+/// `PEAK_CEILING_DBFS` is attenuated down to it. A2 (SlimmableContainer)
+/// models can peak far above full scale, so this is what stops them
+/// clipping — the runtime applies the same `output_gain_db`.
+fn insertion_gain_db(want_for_lufs: f32, measured_peak_dbfs: f32) -> f32 {
+    let peak_headroom = PEAK_CEILING_DBFS - measured_peak_dbfs;
+    let makeup = want_for_lufs.min(MAX_GAIN_DB).max(0.0);
+    makeup.min(peak_headroom).max(-MAX_GAIN_DB)
+}
 
 fn main() -> Result<()> {
     let args: Vec<String> = std::env::args().collect();
@@ -170,21 +186,17 @@ fn audit_plugin(
         close_model_diag(model);
     }
 
-    // Boost-only insertion makeup: bring quiet blocks up to the DI's
-    // loudness, leave hot blocks at 0 (never write a negative default
-    // into the user-visible output knob).
+    // Insertion makeup: bring quiet blocks up to the DI's loudness
+    // (boost-only), and attenuate models that would otherwise clip. A2
+    // SlimmableContainer models can peak far above full scale, so a
+    // negative default is required — the runtime applies this same
+    // output_gain_db, and qa_audit checks the post-gain signal.
     let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
     let measured_lufs = integrated_lufs(&output, DI_SAMPLE_RATE as u32);
     let measured_peak_dbfs = peak_dbfs(&output);
 
     let want_for_lufs = lufs_in - measured_lufs;
-    // True-peak guard so the makeup can't clip; runaway cap; never
-    // negative.
-    let peak_headroom = PEAK_CEILING_DBFS - measured_peak_dbfs;
-    let applied = want_for_lufs
-        .min(peak_headroom)
-        .min(MAX_GAIN_DB)
-        .max(0.0);
+    let applied = insertion_gain_db(want_for_lufs, measured_peak_dbfs);
 
     let updated = upsert_output_gain_db(&raw, applied);
     fs::write(manifest_path, updated)
@@ -423,6 +435,32 @@ fn _suppress_unused() {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn quiet_block_is_boosted_to_di() {
+        // model 10 dB below the DI, peaking well under the ceiling: full boost.
+        assert!((insertion_gain_db(10.0, -20.0) - 10.0).abs() < 1e-3);
+    }
+
+    #[test]
+    fn loud_but_unclipped_block_keeps_zero_default() {
+        // louder than the DI in loudness but peak below the ceiling:
+        // boost-only leaves it at 0 (no gratuitous attenuation).
+        assert_eq!(insertion_gain_db(-8.0, -2.0), 0.0);
+    }
+
+    #[test]
+    fn hot_block_is_attenuated_to_the_ceiling() {
+        // A2 model peaking +13 dBFS: must be pulled down to the 0 dB
+        // ceiling with a NEGATIVE gain. Pre-fix (boost-only) this was 0,
+        // which is exactly the clip the gate flagged.
+        assert!((insertion_gain_db(-15.0, 13.0) - (-13.0)).abs() < 1e-3);
+    }
+
+    #[test]
+    fn attenuation_is_bounded_by_runaway_guard() {
+        assert_eq!(insertion_gain_db(-200.0, 200.0), -MAX_GAIN_DB);
+    }
 
     #[test]
     fn inserts_field_before_type() {
