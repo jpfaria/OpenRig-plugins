@@ -1,5 +1,5 @@
 manifest_version: 1
-id: nam_friedman_jose_arredondo
+id: nam_friedman_jose_arredondo_a2
 display_name: Jose Arredondo
 brand: friedman
 brand_logo: assets/brand_logo.svg
@@ -8,6 +8,7 @@ sources:
 output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A2
 parameters:
 - name: voicing
   display_name: Voicing
@@ -19,7 +20,6 @@ parameters:
   display_name: Mic
   values:
   - sm57
-  - di
   - blend1
   - blend3
 captures:
@@ -35,10 +35,6 @@ captures:
     mic: sm57
     voicing: mar_n_pres
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
-- values:
-    mic: di
-    voicing: mar_n_pres
-  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_di.nam
 - values:
     mic: blend1
     voicing: mar_n_pres
