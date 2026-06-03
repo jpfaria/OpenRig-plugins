@@ -310,7 +310,28 @@ fn audit_nam_plugin(
         .ok_or_else(|| anyhow!("no captures:[].file entry"))?;
     let path = plugin_dir.join(&capture);
     let out = run_nam(probe, &path)?;
-    Ok(check_all(probe, &out, sr, BlockClass::Nonlinear))
+    // Mirror the runtime: the engine multiplies the model output by the
+    // manifest's `output_gain_db` (which can attenuate, e.g. a hot A2
+    // model with a negative default). Check the post-gain signal, not the
+    // raw model output, or a model the runtime tames still trips clip/DC.
+    let scale = 10f32.powf(manifest_output_gain_db(raw) / 20.0);
+    let scaled: Vec<f32> = out.iter().map(|s| s * scale).collect();
+    Ok(check_all(probe, &scaled, sr, BlockClass::Nonlinear))
+}
+
+/// Reads the NAM manifest's single top-level `output_gain_db` (0.0 if
+/// absent). A NAM block carries one value for the whole plugin; IR
+/// manifests instead carry one per capture (`all_captures_with_gain`).
+fn manifest_output_gain_db(yaml: &str) -> f32 {
+    for line in yaml.lines() {
+        if line.starts_with(' ') || line.starts_with('\t') {
+            continue; // skip indented (per-capture) keys
+        }
+        if let Some(rest) = line.strip_prefix("output_gain_db:") {
+            return rest.trim().parse().unwrap_or(0.0);
+        }
+    }
+    0.0
 }
 
 fn audit_ir_plugin(
@@ -506,6 +527,25 @@ fn all_captures_with_gain(yaml: &str) -> Vec<(String, f32)> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn reads_top_level_nam_output_gain_db() {
+        let yaml = "id: nam_x\noutput_gain_db: -13.5000000\ntype: amp\ncaptures:\n- values: {}\n  file: captures/a.nam\n";
+        assert!((manifest_output_gain_db(yaml) - -13.5).abs() < 1e-3);
+    }
+
+    #[test]
+    fn nam_output_gain_db_defaults_to_zero_when_absent() {
+        let yaml = "id: nam_x\ntype: amp\ncaptures:\n- values: {}\n  file: captures/a.nam\n";
+        assert_eq!(manifest_output_gain_db(yaml), 0.0);
+    }
+
+    #[test]
+    fn nam_output_gain_db_ignores_indented_per_capture_keys() {
+        // An IR-style indented sibling must not be read as the NAM value.
+        let yaml = "type: amp\ncaptures:\n- file: captures/a.nam\n  output_gain_db: -5.0\n";
+        assert_eq!(manifest_output_gain_db(yaml), 0.0);
+    }
 
     #[test]
     fn parses_capture_file_and_gain_pairs() {

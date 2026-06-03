@@ -27,10 +27,14 @@ pub const CLIP_CEILING_DBFS: f32 = 0.0;
 pub const CLIP_CEILING_NONLINEAR_DBFS: f32 = 1.0;
 
 /// DC tolerance for NONLINEAR blocks. Asymmetric clipping in a model
-/// naturally produces a small DC component; an order of magnitude
-/// looser than the linear threshold covers every currently-healthy NAM
-/// in the catalogue while still catching genuine drift.
-pub const DC_THRESHOLD_NONLINEAR: f32 = 1e-2;
+/// naturally produces a small DC component. Measured against the
+/// POST-output_gain_db signal (what the runtime and qa_audit now check):
+/// the healthy catalogue maxes out around 0.0156 (gain-pedal NAMs like
+/// horizon_precision_drive and pete_cornish_g_2, whose asymmetric drive
+/// inherently offsets the waveform), so 0.02 covers every currently
+/// healthy block with margin while still catching genuine drift (a
+/// broken capture offsets by an order of magnitude more).
+pub const DC_THRESHOLD_NONLINEAR: f32 = 2e-2;
 
 /// HF-aliasing margin for NONLINEAR blocks. Distortion harmonics ARE
 /// the tone; the linear margin flags legitimate harmonic content.
@@ -339,6 +343,24 @@ mod tests {
 
     fn sr() -> u32 {
         DI_SAMPLE_RATE as u32
+    }
+
+    #[test]
+    fn nonlinear_dc_passes_inherent_asymmetric_offset() {
+        // Healthy post-gain catalogue max (~0.0156, asymmetric gain
+        // pedals) must pass the nonlinear DC threshold.
+        let s = vec![0.0156_f32; 4096];
+        assert!(check_dc_offset_with(&s, DC_THRESHOLD_NONLINEAR).is_none());
+    }
+
+    #[test]
+    fn nonlinear_dc_still_catches_genuine_drift() {
+        // An order of magnitude more is a broken capture, not asymmetry.
+        let s = vec![0.05_f32; 4096];
+        assert!(matches!(
+            check_dc_offset_with(&s, DC_THRESHOLD_NONLINEAR),
+            Some(QaFail::DcOffset { .. })
+        ));
     }
 
     // --- check_clip --- //
