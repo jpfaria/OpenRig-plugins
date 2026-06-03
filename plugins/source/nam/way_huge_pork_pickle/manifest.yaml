@@ -5,6 +5,7 @@ brand: way_huge
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: voice
   display_name: Voice

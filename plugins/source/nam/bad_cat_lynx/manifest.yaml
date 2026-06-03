@@ -5,6 +5,7 @@ brand: bad_cat
 output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: cab
   display_name: Cab

@@ -8,6 +8,7 @@ brand_logo: assets/brand_logo.svg
 output_gain_db: 2.0530205
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: gain_percent
   display_name: Gain
