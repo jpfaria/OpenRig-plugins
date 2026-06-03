@@ -1,5 +1,5 @@
 manifest_version: 1
-id: nam_lovepedal_eternity_burst
+id: nam_lovepedal_eternity_burst_a2
 display_name: Lovepedal Eternity Burst
 brand: lovepedal
 sources:
@@ -7,20 +7,13 @@ sources:
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
+architecture: A2
 parameters:
 - name: preset
   display_name: Preset
   values:
-  - d2_t5_v5
   - d4_t6_v5
-  - d5_t5_v4
 captures:
 - values:
     preset: d4_t6_v5
   file: captures/2ueuf01io5t.nam
-- values:
-    preset: d2_t5_v5
-  file: captures/12pdtwk35xca.nam
-- values:
-    preset: d5_t5_v4
-  file: captures/4klr1dfal4w.nam
