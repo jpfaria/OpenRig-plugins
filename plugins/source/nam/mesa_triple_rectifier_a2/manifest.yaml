@@ -1,5 +1,5 @@
 manifest_version: 1
-id: nam_mesa_triple_rectifier
+id: nam_mesa_triple_rectifier_a2
 display_name: Triple Rectifier
 brand: mesa
 brand_logo: assets/brand_logo.svg
@@ -8,27 +8,22 @@ sources:
 output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A2
 parameters:
 - name: voicing
   display_name: Voicing
   values:
   - mdn_juice
   - vnt_juice
-  - chaosball
 - name: mic
   display_name: Mic
   values:
-  - di
   - sm57
   - sm58
   - blend1
   - blend2
   - blend3
 captures:
-- values:
-    mic: di
-    voicing: mdn_juice
-  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_di.nam
 - values:
     mic: sm57
     voicing: mdn_juice
@@ -45,10 +40,6 @@ captures:
     mic: blend3
     voicing: mdn_juice
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_3.nam
-- values:
-    mic: di
-    voicing: vnt_juice
-  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_di.nam
 - values:
     mic: sm57
     voicing: vnt_juice
@@ -69,7 +60,3 @@ captures:
     mic: blend3
     voicing: vnt_juice
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_3.nam
-- values:
-    mic: di
-    voicing: chaosball
-  file: captures/amp_trec_150bld_dio_vnt_chaosball_di.nam
