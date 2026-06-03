@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_lovepedal_eternity_burst_a1
+display_name: Lovepedal Eternity Burst
+brand: lovepedal
+sources:
+- https://www.tone3000.com/tones/27198
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - d2_t5_v5
+  - d4_t6_v5
+  - d5_t5_v4
+captures:
+- values:
+    preset: d4_t6_v5
+  file: captures/2ueuf01io5t.nam
+- values:
+    preset: d2_t5_v5
+  file: captures/12pdtwk35xca.nam
+- values:
+    preset: d5_t5_v4
+  file: captures/4klr1dfal4w.nam

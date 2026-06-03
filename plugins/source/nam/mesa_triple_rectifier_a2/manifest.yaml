@@ -1,0 +1,62 @@
+manifest_version: 1
+id: nam_mesa_triple_rectifier_a2
+display_name: Triple Rectifier
+brand: mesa
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/52642
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - mdn_juice
+  - vnt_juice
+- name: mic
+  display_name: Mic
+  values:
+  - sm57
+  - sm58
+  - blend1
+  - blend2
+  - blend3
+captures:
+- values:
+    mic: sm57
+    voicing: mdn_juice
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm57.nam
+- values:
+    mic: sm58
+    voicing: mdn_juice
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm58.nam
+- values:
+    mic: blend2
+    voicing: mdn_juice
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_2.nam
+- values:
+    mic: blend3
+    voicing: mdn_juice
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_3.nam
+- values:
+    mic: sm57
+    voicing: vnt_juice
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm57.nam
+- values:
+    mic: sm58
+    voicing: vnt_juice
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm58.nam
+- values:
+    mic: blend1
+    voicing: vnt_juice
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_1.nam
+- values:
+    mic: blend2
+    voicing: vnt_juice
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_2.nam
+- values:
+    mic: blend3
+    voicing: vnt_juice
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_3.nam
