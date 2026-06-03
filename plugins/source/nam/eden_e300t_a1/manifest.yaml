@@ -1,12 +1,13 @@
 manifest_version: 1
-id: nam_eden_e300t
+id: nam_eden_e300t_a1
 display_name: E300T
 brand: eden
 sources:
 - https://www.tone3000.com/tones/39392
-output_gain_db: 0.5761604
+output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: preset
   display_name: Preset
