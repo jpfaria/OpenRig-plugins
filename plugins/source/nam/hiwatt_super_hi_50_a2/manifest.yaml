@@ -1,5 +1,5 @@
 manifest_version: 1
-id: nam_hiwatt_super_hi_50
+id: nam_hiwatt_super_hi_50_a2
 display_name: Super-Hi 50
 brand: hiwatt
 sources:
@@ -7,6 +7,7 @@ sources:
 output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A2
 parameters:
 - name: voicing
   display_name: Voicing
@@ -17,15 +18,10 @@ parameters:
   display_name: Mic
   values:
   - sm57
-  - di
   - blend1
   - blend2
   - blend3
 captures:
-- values:
-    mic: di
-    voicing: noon
-  file: captures/amp_hwat_superhi50_noon_04_di.nam
 - values:
     mic: blend1
     voicing: noon
@@ -38,10 +34,6 @@ captures:
     mic: sm57
     voicing: bright_od
   file: captures/amp_hwat_superhi50_bright_overdrive_sm57.nam
-- values:
-    mic: di
-    voicing: bright_od
-  file: captures/amp_hwat_superhi50_bright_overdrive_di.nam
 - values:
     mic: blend1
     voicing: bright_od
