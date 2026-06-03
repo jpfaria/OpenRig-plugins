@@ -6,6 +6,7 @@ brand_logo: assets/brand_logo.svg
 output_gain_db: 4.0939827
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: eq
   display_name: EQ Setting

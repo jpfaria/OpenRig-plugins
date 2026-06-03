@@ -8,6 +8,7 @@ sources:
 output_gain_db: -13.0248499
 type: amp
 backend: nam
+architecture: A2
 parameters:
 - name: stage
   display_name: Stage

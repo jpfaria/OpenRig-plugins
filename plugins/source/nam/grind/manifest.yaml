@@ -6,6 +6,7 @@ brand_logo: assets/brand_logo.svg
 output_gain_db: 2.5649452
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters: []
 captures:
 - values: {}

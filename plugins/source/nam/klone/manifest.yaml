@@ -5,6 +5,7 @@ brand: electro-harmonix
 output_gain_db: 1.4084206
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters: []
 captures:
 - values: {}

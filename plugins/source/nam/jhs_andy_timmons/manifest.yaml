@@ -7,6 +7,7 @@ brand_logo: assets/brand_logo.png
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: voicing
   display_name: Voicing

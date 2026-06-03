@@ -5,6 +5,7 @@ brand: sunn
 output_gain_db: 0.3520317
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: preset
   display_name: Preset

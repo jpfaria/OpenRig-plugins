@@ -5,6 +5,7 @@ brand: earthquaker
 output_gain_db: 4.7100792
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: drive
   display_name: Drive

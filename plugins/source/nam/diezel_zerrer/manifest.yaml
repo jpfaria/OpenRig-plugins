@@ -9,6 +9,7 @@ sources:
 output_gain_db: 2.8873558
 type: preamp
 backend: nam
+architecture: A1
 parameters:
 - name: channel
   display_name: Channel

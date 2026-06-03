@@ -7,6 +7,7 @@ sources:
 output_gain_db: -5.2249985
 type: gain_pedal
 backend: nam
+architecture: A2
 parameters:
 - name: gain
   display_name: Gain (%)

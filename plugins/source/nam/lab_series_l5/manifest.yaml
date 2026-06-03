@@ -5,6 +5,7 @@ brand: lab_series
 output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: preset
   display_name: Preset

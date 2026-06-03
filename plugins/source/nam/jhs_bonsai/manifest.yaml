@@ -6,6 +6,7 @@ brand_logo: assets/brand_logo.png
 output_gain_db: 2.3905754
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: mode
   display_name: Mode

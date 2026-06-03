@@ -5,6 +5,7 @@ brand: chase_bliss
 output_gain_db: 5.5387535
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: tone
   display_name: Tone
