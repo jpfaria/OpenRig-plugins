@@ -9,6 +9,7 @@ sources:
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
+architecture: A2
 homepage: https://www.tone3000.com/tones/65163
 description: Neural capture of the Marshall GV-2 Guv'Nor Plus (1999) hi-gain distortion pedal. 23 curated settings across Gain / Bass / Deep / Treble / Mid, each shipped with two NAM architecture revisions (v1 and v2). Captures by DRPS.
 parameters:

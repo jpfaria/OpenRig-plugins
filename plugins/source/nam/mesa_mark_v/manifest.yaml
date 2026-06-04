@@ -9,6 +9,7 @@ homepage: https://github.com/sdatkinson/neural-amp-modeler
 output_gain_db: 2.7721825
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: gain
   display_name: Gain

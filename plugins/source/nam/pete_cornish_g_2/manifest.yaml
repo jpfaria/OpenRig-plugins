@@ -5,6 +5,7 @@ brand: pete_cornish
 output_gain_db: 4.0373726
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: sustain
   display_name: Sustain

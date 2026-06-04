@@ -5,6 +5,7 @@ brand: tascam
 output_gain_db: 0.7387199
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: gain
   display_name: Gain

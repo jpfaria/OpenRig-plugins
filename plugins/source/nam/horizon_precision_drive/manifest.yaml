@@ -5,6 +5,7 @@ brand: horizon_devices
 output_gain_db: 2.5213127
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: size
   display_name: Model Size

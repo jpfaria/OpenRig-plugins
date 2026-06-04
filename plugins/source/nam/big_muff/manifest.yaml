@@ -5,6 +5,7 @@ brand: ehx
 output_gain_db: 2.9812737
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: size
   display_name: Model Size

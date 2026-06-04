@@ -5,6 +5,7 @@ brand: laney
 output_gain_db: 0.0000000
 type: amp
 backend: nam
+architecture: A1
 parameters:
 - name: voicing
   display_name: Voicing

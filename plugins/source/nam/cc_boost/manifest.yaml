@@ -5,6 +5,7 @@ brand: custom
 output_gain_db: 1.6468010
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters: []
 captures:
 - values: {}

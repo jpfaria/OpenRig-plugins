@@ -5,6 +5,7 @@ brand: xotic
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
+architecture: A1
 parameters:
 - name: drive
   display_name: Drive

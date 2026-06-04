@@ -8,6 +8,7 @@ sources:
 output_gain_db: 0.0000000
 type: preamp
 backend: nam
+architecture: A2
 parameters:
 - name: preset
   display_name: Preset
