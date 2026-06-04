@@ -1,0 +1,132 @@
+manifest_version: 1
+id: nam_fender_bassman_a2
+display_name: Bassman
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/13776
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 71_bassman_norm_ch_v6_t10_b1_bright_jumpered_into_bass_ch_v8_t1_b10
+  - 71_bassman_warm_fuzz_v5_t4_b4
+  - 71_bassman_v1_pulled_v10_t10_b10
+  - 71_bassman_bright_clean_v5_t4_b4
+  - 71_bassman_80_s_bass_v3_t8_5_b4
+  - 71_bassman_ts9_ds_1_boosted
+  - 71_bassman_all_on_5_norm_v10_t10_b10
+  - 71_bassman_mid_forward_clean_wmxr_eq_v5_t8_b5
+  - 71_bassman_warm_sweet_spot_v7_t4_b4
+  - 71_bassman_fd2_boosted_low_v5_t8_b5
+  - 71_bassman_all_on_5_bright_v10_t10_b10
+  - 71_bassman_sweet_spot_v7_t8_b5
+  - 71_bassman_fd2_boosted_high_v5_t8_b3
+  - 71_bassman_big_clean_v7_t5_b5
+  - 71_bassman_80_s_clean_v5_t8_b5
+  - 71_bassman_clean_v5_t8_b5
+  - 71_bassman_all_on_10_bright_v10_t10_b10
+  - 71_bassman_v1_pulled_12ax7_in_v4_v10_t10_b10
+  - 71_bassman_cranked_and_fd2_boosted_v10_t7_b4
+  - 71_bassman_all_on_10_norm_v10_t10_b10
+  - 71_bassman_clean_v5_t7_b4
+  - 71_bassman_big_clean_v7_t6_b4_bright_switch
+  - 71_bassman_clean_v6_t7_b4
+  - 71_bassman_driven_norm_v8_5_t7_b4
+  - 71_bassman_driven_bright_v8_5_t7_b4
+  - 71_bassman_warm_clean_v5_t4_b3
+  - 71_bassman_jumpered_channels_norm_ch_v6_t8_b1_bright_into_bass_ch_v8_t1_b8
+  - 71_bassman_norm_ch_v6_t8_b1_bright_jumpered_into_bass_ch_v8_t1_b8
+  - 71_bassman_fd2_boosted_mid_v5_t8_b4
+captures:
+- values:
+    model: 71_bassman_norm_ch_v6_t10_b1_bright_jumpered_into_bass_ch_v8_t1_b10
+  file: captures/jils64k8ous_a2.nam
+- values:
+    model: 71_bassman_warm_fuzz_v5_t4_b4
+  file: captures/vzzf456nqbn_a2.nam
+- values:
+    model: 71_bassman_v1_pulled_v10_t10_b10
+  file: captures/7ykky1kx5g5_a2.nam
+- values:
+    model: 71_bassman_bright_clean_v5_t4_b4
+  file: captures/w0pgtdd6r2g_a2.nam
+- values:
+    model: 71_bassman_80_s_bass_v3_t8_5_b4
+  file: captures/59ebw1071yo_a2.nam
+- values:
+    model: 71_bassman_ts9_ds_1_boosted
+  file: captures/m2zilphqx2_a2.nam
+- values:
+    model: 71_bassman_all_on_5_norm_v10_t10_b10
+  file: captures/o0lbl6dgrj_a2.nam
+- values:
+    model: 71_bassman_mid_forward_clean_wmxr_eq_v5_t8_b5
+  file: captures/344evypozjz_a2.nam
+- values:
+    model: 71_bassman_warm_sweet_spot_v7_t4_b4
+  file: captures/i7lhpkw1mp_a2.nam
+- values:
+    model: 71_bassman_fd2_boosted_low_v5_t8_b5
+  file: captures/yj5o1etrqo_a2.nam
+- values:
+    model: 71_bassman_all_on_5_bright_v10_t10_b10
+  file: captures/w8n6palhb0o_a2.nam
+- values:
+    model: 71_bassman_sweet_spot_v7_t8_b5
+  file: captures/xuiwvni372_a2.nam
+- values:
+    model: 71_bassman_fd2_boosted_high_v5_t8_b3
+  file: captures/a3mjr3mdkx_a2.nam
+- values:
+    model: 71_bassman_big_clean_v7_t5_b5
+  file: captures/o0be130dym_a2.nam
+- values:
+    model: 71_bassman_80_s_clean_v5_t8_b5
+  file: captures/dqp7qilc9vm_a2.nam
+- values:
+    model: 71_bassman_clean_v5_t8_b5
+  file: captures/vdf7sgsvdya_a2.nam
+- values:
+    model: 71_bassman_all_on_10_bright_v10_t10_b10
+  file: captures/gq8bnplsfd9_a2.nam
+- values:
+    model: 71_bassman_v1_pulled_12ax7_in_v4_v10_t10_b10
+  file: captures/tcdxencvv5g_a2.nam
+- values:
+    model: 71_bassman_cranked_and_fd2_boosted_v10_t7_b4
+  file: captures/8kztemi5g0l_a2.nam
+- values:
+    model: 71_bassman_all_on_10_norm_v10_t10_b10
+  file: captures/f8gb57mvdbj_a2.nam
+- values:
+    model: 71_bassman_clean_v5_t7_b4
+  file: captures/k0i1rxqxehl_a2.nam
+- values:
+    model: 71_bassman_big_clean_v7_t6_b4_bright_switch
+  file: captures/zzyt0mctdu_a2.nam
+- values:
+    model: 71_bassman_clean_v6_t7_b4
+  file: captures/klj0jw892s_a2.nam
+- values:
+    model: 71_bassman_driven_norm_v8_5_t7_b4
+  file: captures/8asbaipzvf3_a2.nam
+- values:
+    model: 71_bassman_driven_bright_v8_5_t7_b4
+  file: captures/s3a5e1e39l8_a2.nam
+- values:
+    model: 71_bassman_warm_clean_v5_t4_b3
+  file: captures/zlnsppzc1pr_a2.nam
+- values:
+    model: 71_bassman_jumpered_channels_norm_ch_v6_t8_b1_bright_into_bass_ch_v8_t1_b8
+  file: captures/t8pr6k0k2va_a2.nam
+- values:
+    model: 71_bassman_norm_ch_v6_t8_b1_bright_jumpered_into_bass_ch_v8_t1_b8
+  file: captures/o0ryaw0u7yg_a2.nam
+- values:
+    model: 71_bassman_fd2_boosted_mid_v5_t8_b4
+  file: captures/pxv1y08rill_a2.nam

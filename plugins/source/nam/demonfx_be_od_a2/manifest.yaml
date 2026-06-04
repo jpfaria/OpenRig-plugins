@@ -1,0 +1,115 @@
+manifest_version: 1
+id: nam_demonfx_be_od_a2
+display_name: BE-OD Clone
+brand: demonfx
+output_gain_db: -3.2849488
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/60143
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - gain_50_tight_up_pres_50_mid_high_40_60
+  - gain_50_tight_up_pres_100_mid_high_40_60
+  - gain_75_tight_down_pres_50_mid_high_40_60
+  - gain_75_tight_up_pres_100_mid_high_50_50
+  - gain_100_tight_up_pres_100_mid_high_50_50
+  - gain_50_tight_up_pres_100_mid_high_50_50
+  - gain_50_tight_up_pres_50_mid_high_50_50
+  - gain_100_tight_up_pres_50_mid_high_40_60
+  - gain_75_tight_down_pres_50_mid_high_50_50
+  - gain_25_tight_down_pres_100_mid_high_50_50
+  - gain_75_tight_up_pres_50_mid_high_50_50
+  - gain_0_tight_down_pres_100_mid_high_50_50
+  - gain_100_tight_up_pres_50_mid_high_50_50
+  - gain_50_tight_down_pres_50_mid_high_50_50
+  - gain_100_tight_down_pres_100_mid_high_50_50
+  - gain_50_tight_down_pres_50_mid_high_40_60
+  - gain_50_tight_down_pres_100_mid_high_50_50
+  - gain_50_tight_down_pres_100_mid_high_40_60
+  - gain_75_tight_down_pres_100_mid_high_40_60
+  - gain_100_tight_down_pres_100_mid_high_40_60
+  - gain_100_tight_up_pres_100_mid_high_40_60
+  - gain_100_tight_down_pres_50_mid_high_40_60
+  - gain_25_tight_up_pres_100_mid_high_50_50
+  - gain_0_tight_up_pres_100_mid_high_50_50
+  - gain_75_tight_up_pres_100_mid_high_40_60
+captures:
+- values:
+    model: gain_50_tight_up_pres_50_mid_high_40_60
+  file: captures/vks5gfvmmlk_a2.nam
+- values:
+    model: gain_50_tight_up_pres_100_mid_high_40_60
+  file: captures/cjlwgc045d_a2.nam
+- values:
+    model: gain_75_tight_down_pres_50_mid_high_40_60
+  file: captures/680i5e5mmzy_a2.nam
+- values:
+    model: gain_75_tight_up_pres_100_mid_high_50_50
+  file: captures/o6dgxxioqgq_a2.nam
+- values:
+    model: gain_100_tight_up_pres_100_mid_high_50_50
+  file: captures/u5p4vdlrag_a2.nam
+- values:
+    model: gain_50_tight_up_pres_100_mid_high_50_50
+  file: captures/6cn3j8gpmog_a2.nam
+- values:
+    model: gain_50_tight_up_pres_50_mid_high_50_50
+  file: captures/p5ohdp2aujd_a2.nam
+- values:
+    model: gain_100_tight_up_pres_50_mid_high_40_60
+  file: captures/uylkb54zp6_a2.nam
+- values:
+    model: gain_75_tight_down_pres_50_mid_high_50_50
+  file: captures/v9tytorbnd_a2.nam
+- values:
+    model: gain_25_tight_down_pres_100_mid_high_50_50
+  file: captures/8hl5x835cro_a2.nam
+- values:
+    model: gain_75_tight_up_pres_50_mid_high_50_50
+  file: captures/3nislqpea3q_a2.nam
+- values:
+    model: gain_0_tight_down_pres_100_mid_high_50_50
+  file: captures/u17jb1iwxq_a2.nam
+- values:
+    model: gain_100_tight_up_pres_50_mid_high_50_50
+  file: captures/zvxtul04ug_a2.nam
+- values:
+    model: gain_50_tight_down_pres_50_mid_high_50_50
+  file: captures/abhiiygxji_a2.nam
+- values:
+    model: gain_100_tight_down_pres_100_mid_high_50_50
+  file: captures/7jomkeke1yd_a2.nam
+- values:
+    model: gain_50_tight_down_pres_50_mid_high_40_60
+  file: captures/6wue2awitgn_a2.nam
+- values:
+    model: gain_50_tight_down_pres_100_mid_high_50_50
+  file: captures/0qcjke2rjrx_a2.nam
+- values:
+    model: gain_50_tight_down_pres_100_mid_high_40_60
+  file: captures/viuha6tnvz_a2.nam
+- values:
+    model: gain_75_tight_down_pres_100_mid_high_40_60
+  file: captures/c7gqekpf07l_a2.nam
+- values:
+    model: gain_100_tight_down_pres_100_mid_high_40_60
+  file: captures/j9rjee3ifbf_a2.nam
+- values:
+    model: gain_100_tight_up_pres_100_mid_high_40_60
+  file: captures/jrjzlpvaqza_a2.nam
+- values:
+    model: gain_100_tight_down_pres_50_mid_high_40_60
+  file: captures/vcsk1kfc0ut_a2.nam
+- values:
+    model: gain_25_tight_up_pres_100_mid_high_50_50
+  file: captures/jp3yxc5oaw_a2.nam
+- values:
+    model: gain_0_tight_up_pres_100_mid_high_50_50
+  file: captures/t5vhbr6npgd_a2.nam
+- values:
+    model: gain_75_tight_up_pres_100_mid_high_40_60
+  file: captures/8pgqmexuv0u_a2.nam

@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_synergy_dumble_os_a1
+display_name: Dumble OS Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 6.6271172
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - ch1
+  - ch2
+captures:
+- values:
+    channel: ch1
+  file: captures/os_ch1_el34ab_19_4.nam
+- values:
+    channel: ch2
+  file: captures/os_ch2_el34ab_19_4.nam

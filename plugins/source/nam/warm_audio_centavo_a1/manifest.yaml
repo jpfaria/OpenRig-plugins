@@ -1,0 +1,21 @@
+manifest_version: 1
+id: nam_warm_audio_centavo_a1
+display_name: Warm Audio Centavo
+brand: warm_audio
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - clean
+  - low_clipping
+captures:
+- values:
+    tone: clean
+  file: captures/pedal_centavo_clean.nam
+- values:
+    tone: low_clipping
+  file: captures/pedal_centavo_low_clipping.nam

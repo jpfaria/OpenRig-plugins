@@ -1,0 +1,48 @@
+manifest_version: 1
+id: nam_marshall_jmp_1_head_a2
+display_name: JMP-1 Head
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45918
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - jmp_clean
+  - jmp_rhythm_2
+  - jmp_rhythm_1
+  - jmp_lead_creamy
+  - jmp_rhythm_deftoned
+  - jmp_rhythm_overdrive808
+  - jmp_crunch_breakup
+  - jmp_rhythm_3
+captures:
+- values:
+    model: jmp_clean
+  file: captures/d113p5gd6ej_a2.nam
+- values:
+    model: jmp_rhythm_2
+  file: captures/hjge4mnon6o_a2.nam
+- values:
+    model: jmp_rhythm_1
+  file: captures/qrh6osfvsf_a2.nam
+- values:
+    model: jmp_lead_creamy
+  file: captures/pnrvw6rfb6_a2.nam
+- values:
+    model: jmp_rhythm_deftoned
+  file: captures/q5r9xzzdxbq_a2.nam
+- values:
+    model: jmp_rhythm_overdrive808
+  file: captures/oe199x3bzq_a2.nam
+- values:
+    model: jmp_crunch_breakup
+  file: captures/pks4gxha9z_a2.nam
+- values:
+    model: jmp_rhythm_3
+  file: captures/7z38hccrj35_a2.nam

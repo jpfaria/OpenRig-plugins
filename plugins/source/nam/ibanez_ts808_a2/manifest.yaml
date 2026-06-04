@@ -1,0 +1,216 @@
+manifest_version: 1
+id: nam_ibanez_ts808_a2
+display_name: Tube Screamer TS808
+brand: ibanez
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30104
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 1_ts808_hot_lvl6_od0_t1
+  - 2_ts808_hot_lvl6_od1_t1
+  - 3_ts808_hot_lvl6_od2_t1
+  - 4_ts808_hot_lvl6_od3_t1
+  - 5_ts808_hot_lvl6_od4_t1
+  - 6_ts808_hot_lvl6_od5_t1
+  - 7_ts808_hot_lvl6_od6_t1
+  - 8_ts808_hot_lvl6_od7_t1
+  - 9_ts808_hot_lvl6_od8_t1
+  - 10_ts808_hot_lvl6_od9_t1
+  - 11_ts808_hot_lvl6_odmax_t1
+  - 12_ts808_hot_lvl6_od0_t2
+  - 13_ts808_hot_lvl6_od1_t2
+  - 14_ts808_hot_lvl6_od2_t2
+  - 15_ts808_hot_lvl6_od3_t2
+  - 16_ts808_hot_lvl6_od4_t2
+  - 17_ts808_hot_lvl6_od5_t2
+  - 18_ts808_hot_lvl6_od6_t2
+  - 19_ts808_hot_lvl6_od7_t2
+  - 20_ts808_hot_lvl6_od8_t2
+  - 21_ts808_hot_lvl6_od9_t2
+  - 22_ts808_hot_lvl6_odmax_t2
+  - 23_ts808_hot_lvl6_od0_t3
+  - 24_ts808_hot_lvl6_od1_t3
+  - 25_ts808_hot_lvl6_od2_t3
+  - 26_ts808_hot_lvl6_od3_t3
+  - 27_ts808_hot_lvl6_od4_t3
+  - 28_ts808_hot_lvl6_od5_t3
+  - 29_ts808_hot_lvl6_od6_t3
+  - 30_ts808_hot_lvl6_od7_t3
+  - 31_ts808_hot_lvl6_od8_t3
+  - 32_ts808_hot_lvl6_od9_t3
+  - 33_ts808_hot_lvl6_odmax_t3
+  - 34_ts808_hot_lvlmax_od0_t4
+  - 35_ts808_hot_lvlmax_od1_t4
+  - 36_ts808_hot_lvlmax_od2_t4
+  - 37_ts808_hot_lvlmax_od3_t4
+  - 38_ts808_hot_lvlmax_od4_t4
+  - 39_ts808_hot_lvlmax_od5_t4
+  - 40_ts808_hot_lvlmax_od6_t4
+  - 41_ts808_hot_lvlmax_od7_t4
+  - 42_ts808_hot_lvlmax_od8_t4
+  - 43_ts808_hot_lvlmax_od9_t4
+  - 44_ts808_hot_lvlmax_odmax_t4
+  - 45_ts808_hot_lvl6_od0_t5
+  - 46_ts808_hot_lvl6_od1_t5
+  - 47_ts808_hot_lvl6_od2_t5
+  - 48_ts808_hot_lvl6_od3_t5
+  - 49_ts808_hot_lvl6_od4_t5
+  - 50_ts808_hot_lvl6_od5_t5
+captures:
+- values:
+    model: 1_ts808_hot_lvl6_od0_t1
+  file: captures/x62179d6mg_a2.nam
+- values:
+    model: 2_ts808_hot_lvl6_od1_t1
+  file: captures/0jlevh64lt8g_a2.nam
+- values:
+    model: 3_ts808_hot_lvl6_od2_t1
+  file: captures/2brhjygpy6l_a2.nam
+- values:
+    model: 4_ts808_hot_lvl6_od3_t1
+  file: captures/m1ghmbbrrld_a2.nam
+- values:
+    model: 5_ts808_hot_lvl6_od4_t1
+  file: captures/hsu38ywckon_a2.nam
+- values:
+    model: 6_ts808_hot_lvl6_od5_t1
+  file: captures/dzqqtmj35mm_a2.nam
+- values:
+    model: 7_ts808_hot_lvl6_od6_t1
+  file: captures/7xzbr53w6xk_a2.nam
+- values:
+    model: 8_ts808_hot_lvl6_od7_t1
+  file: captures/yxaeirknc6_a2.nam
+- values:
+    model: 9_ts808_hot_lvl6_od8_t1
+  file: captures/z8xrbtc0hs_a2.nam
+- values:
+    model: 10_ts808_hot_lvl6_od9_t1
+  file: captures/qsw9ywlehw_a2.nam
+- values:
+    model: 11_ts808_hot_lvl6_odmax_t1
+  file: captures/bbn3fean81_a2.nam
+- values:
+    model: 12_ts808_hot_lvl6_od0_t2
+  file: captures/qkgvsin4e5k_a2.nam
+- values:
+    model: 13_ts808_hot_lvl6_od1_t2
+  file: captures/klel8yeaan_a2.nam
+- values:
+    model: 14_ts808_hot_lvl6_od2_t2
+  file: captures/uwv3doom7wd_a2.nam
+- values:
+    model: 15_ts808_hot_lvl6_od3_t2
+  file: captures/3pih5apmskf_a2.nam
+- values:
+    model: 16_ts808_hot_lvl6_od4_t2
+  file: captures/nwh9lwhz7vm_a2.nam
+- values:
+    model: 17_ts808_hot_lvl6_od5_t2
+  file: captures/5enwbg8efe3_a2.nam
+- values:
+    model: 18_ts808_hot_lvl6_od6_t2
+  file: captures/57aj71d1bn6_a2.nam
+- values:
+    model: 19_ts808_hot_lvl6_od7_t2
+  file: captures/2381b4zihls_a2.nam
+- values:
+    model: 20_ts808_hot_lvl6_od8_t2
+  file: captures/vi4mezytc4m_a2.nam
+- values:
+    model: 21_ts808_hot_lvl6_od9_t2
+  file: captures/64dcnxghtsm_a2.nam
+- values:
+    model: 22_ts808_hot_lvl6_odmax_t2
+  file: captures/qxd16qpkdin_a2.nam
+- values:
+    model: 23_ts808_hot_lvl6_od0_t3
+  file: captures/dfn5br4ecr_a2.nam
+- values:
+    model: 24_ts808_hot_lvl6_od1_t3
+  file: captures/dnqx4ebrpp7_a2.nam
+- values:
+    model: 25_ts808_hot_lvl6_od2_t3
+  file: captures/wmjw1umgym_a2.nam
+- values:
+    model: 26_ts808_hot_lvl6_od3_t3
+  file: captures/s08li9y90an_a2.nam
+- values:
+    model: 27_ts808_hot_lvl6_od4_t3
+  file: captures/2w24fwrsa9d_a2.nam
+- values:
+    model: 28_ts808_hot_lvl6_od5_t3
+  file: captures/i2ad9qo9v1b_a2.nam
+- values:
+    model: 29_ts808_hot_lvl6_od6_t3
+  file: captures/mc0ujs7mpo_a2.nam
+- values:
+    model: 30_ts808_hot_lvl6_od7_t3
+  file: captures/i9o7qykde1_a2.nam
+- values:
+    model: 31_ts808_hot_lvl6_od8_t3
+  file: captures/di9n184jat_a2.nam
+- values:
+    model: 32_ts808_hot_lvl6_od9_t3
+  file: captures/46dflgt22tq_a2.nam
+- values:
+    model: 33_ts808_hot_lvl6_odmax_t3
+  file: captures/400j3t0fzxo_a2.nam
+- values:
+    model: 34_ts808_hot_lvlmax_od0_t4
+  file: captures/6998znx3goi_a2.nam
+- values:
+    model: 35_ts808_hot_lvlmax_od1_t4
+  file: captures/7n06hdfiht_a2.nam
+- values:
+    model: 36_ts808_hot_lvlmax_od2_t4
+  file: captures/jqmwd9jcbx_a2.nam
+- values:
+    model: 37_ts808_hot_lvlmax_od3_t4
+  file: captures/b57gn5o7veb_a2.nam
+- values:
+    model: 38_ts808_hot_lvlmax_od4_t4
+  file: captures/vo7utrjht1q_a2.nam
+- values:
+    model: 39_ts808_hot_lvlmax_od5_t4
+  file: captures/163bhxx9kus_a2.nam
+- values:
+    model: 40_ts808_hot_lvlmax_od6_t4
+  file: captures/zwf85es9y0a_a2.nam
+- values:
+    model: 41_ts808_hot_lvlmax_od7_t4
+  file: captures/r3b0s6a1t3s_a2.nam
+- values:
+    model: 42_ts808_hot_lvlmax_od8_t4
+  file: captures/y7thtyqrpn_a2.nam
+- values:
+    model: 43_ts808_hot_lvlmax_od9_t4
+  file: captures/ko607gzsn0l_a2.nam
+- values:
+    model: 44_ts808_hot_lvlmax_odmax_t4
+  file: captures/tj4wdpovask_a2.nam
+- values:
+    model: 45_ts808_hot_lvl6_od0_t5
+  file: captures/cr8fgwibu94_a2.nam
+- values:
+    model: 46_ts808_hot_lvl6_od1_t5
+  file: captures/ja3v6ydbia_a2.nam
+- values:
+    model: 47_ts808_hot_lvl6_od2_t5
+  file: captures/kskgqjz07_a2.nam
+- values:
+    model: 48_ts808_hot_lvl6_od3_t5
+  file: captures/ch2ymg8a4l_a2.nam
+- values:
+    model: 49_ts808_hot_lvl6_od4_t5
+  file: captures/8bs531zuqi5_a2.nam
+- values:
+    model: 50_ts808_hot_lvl6_od5_t5
+  file: captures/ayp3pq6dfbs_a2.nam

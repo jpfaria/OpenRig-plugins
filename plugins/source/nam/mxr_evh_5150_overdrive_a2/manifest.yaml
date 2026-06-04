@@ -1,0 +1,23 @@
+manifest_version: 1
+id: nam_mxr_evh_5150_overdrive_a2
+display_name: MXR EVH 5150 Overdrive
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/34605
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mxr_evh_5150_overdrive_boost_on
+  - mxr_evh_5150_overdrive_boost_off
+captures:
+- values:
+    model: mxr_evh_5150_overdrive_boost_on
+  file: captures/5tirovgtm5s_a2.nam
+- values:
+    model: mxr_evh_5150_overdrive_boost_off
+  file: captures/2hrcu751rnf_a2.nam

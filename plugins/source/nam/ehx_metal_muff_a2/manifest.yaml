@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_ehx_metal_muff_a2
+display_name: EHX Metal Muff
+brand: ehx
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/4975
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - metal_muff_eq_noon_full_gain
+  - metal_muff_evil
+  - metal_muff_as_an_overdrive
+  - metal_muff_trve_kult
+  - metal_muff_mega_scoop
+  - metal_muff_tob_boost_low_distortion
+  - metal_muff_my_settings
+  - metal_muff_eq_noon
+  - metal_muff_swedish_chainsaw_ish
+  - metal_muff_nattens_madrigal
+captures:
+- values:
+    model: metal_muff_eq_noon_full_gain
+  file: captures/0bfc4314e10702a2_a2.nam
+- values:
+    model: metal_muff_evil
+  file: captures/2c9698d9244c8890_a2.nam
+- values:
+    model: metal_muff_as_an_overdrive
+  file: captures/62873c387bbd506d_a2.nam
+- values:
+    model: metal_muff_trve_kult
+  file: captures/a649f4b424744e1e_a2.nam
+- values:
+    model: metal_muff_mega_scoop
+  file: captures/49d591ec5b8ce2d8_a2.nam
+- values:
+    model: metal_muff_tob_boost_low_distortion
+  file: captures/4dfebc8a703f7e4b_a2.nam
+- values:
+    model: metal_muff_my_settings
+  file: captures/85a8ba04c32e3ae3_a2.nam
+- values:
+    model: metal_muff_eq_noon
+  file: captures/a4604b02ca0c5410_a2.nam
+- values:
+    model: metal_muff_swedish_chainsaw_ish
+  file: captures/776c092ff5e0aa88_a2.nam
+- values:
+    model: metal_muff_nattens_madrigal
+  file: captures/48972a1c73935c4c_a2.nam

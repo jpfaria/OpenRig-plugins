@@ -1,0 +1,199 @@
+manifest_version: 1
+id: nam_paul_cochrane_timmy_a2
+display_name: Paul Cochrane Timmy
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/55167
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - timmy_09_07_07_u_m_m
+  - timmy_10_09_09_m_u_d
+  - timmy_12_07_07_m_m_m
+  - timmy_10_09_09_m_m_u
+  - timmy_12_07_07_u_m_m
+  - timmy_10_09_09_m_d_u
+  - timmy_03_07_07_m_m_m
+  - timmy_12_07_07_d_m_m
+  - timmy_10_09_09_m_m_m
+  - timmy_10_09_09_m_u_m
+  - timmy_10_09_09_m_d_d
+  - timmy_09_07_07_d_m_m
+  - timmy_10_09_09_m_m_d
+  - timmy_10_09_09_m_u_u
+  - timmy_03_07_07_d_m_m
+  - timmy_09_07_07_m_m_m
+  - timmy_10_09_09_m_d_m
+  - timmy_03_07_07_u_m_m
+  - timmy_12_12_09_u_d_u
+  - timmy_12_12_09_m_d_u
+  - timmy_10_12_09_m_m_u
+  - timmy_12_12_09_d_d_u
+  - timmy_03_12_09_u_m_d
+  - timmy_12_12_09_d_d_d
+  - timmy_03_12_09_u_d_d
+  - timmy_03_12_09_d_d_d
+  - timmy_03_12_09_m_m_d
+  - timmy_12_12_09_u_m_u
+  - timmy_10_12_09_d_m_m
+  - timmy_12_12_09_m_u_m
+  - timmy_12_12_09_d_m_m
+  - timmy_10_12_09_m_m_m
+  - timmy_03_12_09_d_u_m
+  - timmy_03_12_09_d_d_u
+  - timmy_12_12_09_m_m_u
+  - timmy_12_12_09_d_u_m
+  - timmy_03_12_09_m_u_u
+  - timmy_10_12_09_m_u_m
+  - timmy_10_12_09_m_u_u
+  - timmy_03_12_09_d_m_u
+  - timmy_12_12_09_m_m_m
+  - timmy_12_12_09_m_u_u
+  - timmy_03_12_09_m_m_m
+  - timmy_12_12_09_d_u_u
+  - timmy_03_12_09_d_u_u
+  - timmy_03_12_09_m_d_d
+captures:
+- values:
+    model: timmy_09_07_07_u_m_m
+  file: captures/ncavknq7me_a2.nam
+- values:
+    model: timmy_10_09_09_m_u_d
+  file: captures/rc1aprl6oc_a2.nam
+- values:
+    model: timmy_12_07_07_m_m_m
+  file: captures/gpg4rrc59km_a2.nam
+- values:
+    model: timmy_10_09_09_m_m_u
+  file: captures/dxuxe6gum7f_a2.nam
+- values:
+    model: timmy_12_07_07_u_m_m
+  file: captures/xb1hptnwjsh_a2.nam
+- values:
+    model: timmy_10_09_09_m_d_u
+  file: captures/juyicnwya5_a2.nam
+- values:
+    model: timmy_03_07_07_m_m_m
+  file: captures/7wbqa0ahbhu_a2.nam
+- values:
+    model: timmy_12_07_07_d_m_m
+  file: captures/nthj2tl18lj_a2.nam
+- values:
+    model: timmy_10_09_09_m_m_m
+  file: captures/jvf903avmqb_a2.nam
+- values:
+    model: timmy_10_09_09_m_u_m
+  file: captures/ztn0f5oix0o_a2.nam
+- values:
+    model: timmy_10_09_09_m_d_d
+  file: captures/92mjk5md75b_a2.nam
+- values:
+    model: timmy_09_07_07_d_m_m
+  file: captures/x8mxo9xl16t_a2.nam
+- values:
+    model: timmy_10_09_09_m_m_d
+  file: captures/wb5r68vd3w_a2.nam
+- values:
+    model: timmy_10_09_09_m_u_u
+  file: captures/ybyr7b5sygi_a2.nam
+- values:
+    model: timmy_03_07_07_d_m_m
+  file: captures/4e767mj5m6r_a2.nam
+- values:
+    model: timmy_09_07_07_m_m_m
+  file: captures/uf4kaow2xgp_a2.nam
+- values:
+    model: timmy_10_09_09_m_d_m
+  file: captures/u2ekdelfw9i_a2.nam
+- values:
+    model: timmy_03_07_07_u_m_m
+  file: captures/rixusduszl_a2.nam
+- values:
+    model: timmy_12_12_09_u_d_u
+  file: captures/pmt0cm51mr_a2.nam
+- values:
+    model: timmy_12_12_09_m_d_u
+  file: captures/c1nb32tebxn_a2.nam
+- values:
+    model: timmy_10_12_09_m_m_u
+  file: captures/6u9ig3o68be_a2.nam
+- values:
+    model: timmy_12_12_09_d_d_u
+  file: captures/3bue1camevq_a2.nam
+- values:
+    model: timmy_03_12_09_u_m_d
+  file: captures/y3sr75wknn_a2.nam
+- values:
+    model: timmy_12_12_09_d_d_d
+  file: captures/o1vb7l8xmu_a2.nam
+- values:
+    model: timmy_03_12_09_u_d_d
+  file: captures/b3s5j4hs8b_a2.nam
+- values:
+    model: timmy_03_12_09_d_d_d
+  file: captures/v7purm1xmym_a2.nam
+- values:
+    model: timmy_03_12_09_m_m_d
+  file: captures/y6y4x59ouri_a2.nam
+- values:
+    model: timmy_12_12_09_u_m_u
+  file: captures/ozgqro6tsol_a2.nam
+- values:
+    model: timmy_10_12_09_d_m_m
+  file: captures/o47twkp984d_a2.nam
+- values:
+    model: timmy_12_12_09_m_u_m
+  file: captures/f0ozsb642ri_a2.nam
+- values:
+    model: timmy_12_12_09_d_m_m
+  file: captures/im7karklzi_a2.nam
+- values:
+    model: timmy_10_12_09_m_m_m
+  file: captures/lw3lbciob9_a2.nam
+- values:
+    model: timmy_03_12_09_d_u_m
+  file: captures/03206i9xpcgl_a2.nam
+- values:
+    model: timmy_03_12_09_d_d_u
+  file: captures/403rnw1nfug_a2.nam
+- values:
+    model: timmy_12_12_09_m_m_u
+  file: captures/fflwq306oib_a2.nam
+- values:
+    model: timmy_12_12_09_d_u_m
+  file: captures/ntymxk69ako_a2.nam
+- values:
+    model: timmy_03_12_09_m_u_u
+  file: captures/ccnwd2b4i_a2.nam
+- values:
+    model: timmy_10_12_09_m_u_m
+  file: captures/yvh2v3nt4_a2.nam
+- values:
+    model: timmy_10_12_09_m_u_u
+  file: captures/1zhh0nrjic4h_a2.nam
+- values:
+    model: timmy_03_12_09_d_m_u
+  file: captures/u36rbmh6rhq_a2.nam
+- values:
+    model: timmy_12_12_09_m_m_m
+  file: captures/e5vzaz5n3la_a2.nam
+- values:
+    model: timmy_12_12_09_m_u_u
+  file: captures/ewknj7thu76_a2.nam
+- values:
+    model: timmy_03_12_09_m_m_m
+  file: captures/sa1mqr2457_a2.nam
+- values:
+    model: timmy_12_12_09_d_u_u
+  file: captures/p3gb2gcwmti_a2.nam
+- values:
+    model: timmy_03_12_09_d_u_u
+  file: captures/azynkmkveye_a2.nam
+- values:
+    model: timmy_03_12_09_m_d_d
+  file: captures/vtttzcbinj_a2.nam

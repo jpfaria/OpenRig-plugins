@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_xotic_sl_drive_a2
+display_name: Xotic SL Drive
+brand: xotic
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30809
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - xotic_sl_drive_pedal_only_d_6_5_t_8l_10
+  - xotic_sl_drive_pedal_only_d3_t8_l10
+  - xotic_sl_drive_pedal_only_d_5_t_5_l_10
+captures:
+- values:
+    model: xotic_sl_drive_pedal_only_d_6_5_t_8l_10
+  file: captures/1pqa32oatrv_a2.nam
+- values:
+    model: xotic_sl_drive_pedal_only_d3_t8_l10
+  file: captures/939g0ubudk6_a2.nam
+- values:
+    model: xotic_sl_drive_pedal_only_d_5_t_5_l_10
+  file: captures/ld75yl70pi_a2.nam

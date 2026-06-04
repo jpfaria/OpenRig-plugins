@@ -1,0 +1,37 @@
+manifest_version: 1
+id: nam_peavey_jsx_a1
+display_name: JSX
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - crunch
+  - ultra
+- name: eq
+  display_name: EQ
+  values:
+  - mid
+  - high
+captures:
+- values:
+    channel: crunch
+    eq: mid
+  file: captures/peavey_jsx_crunch_mid.nam
+- values:
+    channel: crunch
+    eq: high
+  file: captures/peavey_jsx_crunch_high.nam
+- values:
+    channel: ultra
+    eq: mid
+  file: captures/peavey_jsx_ultra_mid.nam
+- values:
+    channel: ultra
+    eq: high
+  file: captures/peavey_jsx_ultra_high.nam

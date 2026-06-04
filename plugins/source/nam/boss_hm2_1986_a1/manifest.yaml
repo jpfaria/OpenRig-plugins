@@ -1,0 +1,42 @@
+manifest_version: 1
+id: nam_boss_hm2_1986_a1
+display_name: Heavy Metal HM-2 '86
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - chainsaw_0gain
+  - chainsaw
+  - medium
+  - warm
+  - bright
+  - high_gain
+  - full
+captures:
+- values:
+    tone: chainsaw_0gain
+  file: captures/hm2_chainsaw_0gain.nam
+- values:
+    tone: chainsaw
+  file: captures/hm2_chainsaw.nam
+- values:
+    tone: medium
+  file: captures/hm2_medium.nam
+- values:
+    tone: warm
+  file: captures/hm2_warm.nam
+- values:
+    tone: bright
+  file: captures/hm2_bright.nam
+- values:
+    tone: high_gain
+  file: captures/hm2_high_gain.nam
+- values:
+    tone: full
+  file: captures/hm2_full.nam

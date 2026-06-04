@@ -1,0 +1,56 @@
+manifest_version: 1
+id: nam_ampeg_scr_di_a2
+display_name: SCR-DI
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/58940
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - scr_di_ultra_hi_on
+  - scr_di_v65_b65_m50_t65_scr_on_d50_b100
+  - scr_di_ultra_lo_on
+  - scr_di
+  - scr_di_ultra_lo_hi_on_scrambler_on_50_b_50
+  - scr_di_v65_b65_m50_t65_scr_on_d100_b100
+  - scr_di_ultra_lo_hi_on_scrambler_on_100_b_100
+  - scr_di_v65_b65_m50_t65
+  - scr_di_ultra_lo_hi_on_scrambler_on_dr100_bl_50
+  - scr_di_ultra_lo_hi_on
+captures:
+- values:
+    model: scr_di_ultra_hi_on
+  file: captures/tbkzgxeeyx_a2.nam
+- values:
+    model: scr_di_v65_b65_m50_t65_scr_on_d50_b100
+  file: captures/0neaszm6h0o_a2.nam
+- values:
+    model: scr_di_ultra_lo_on
+  file: captures/itku0xnz2tb_a2.nam
+- values:
+    model: scr_di
+  file: captures/9ga1h2p4h3r_a2.nam
+- values:
+    model: scr_di_ultra_lo_hi_on_scrambler_on_50_b_50
+  file: captures/vegor7gz2ye_a2.nam
+- values:
+    model: scr_di_v65_b65_m50_t65_scr_on_d100_b100
+  file: captures/e3cbobu6o5t_a2.nam
+- values:
+    model: scr_di_ultra_lo_hi_on_scrambler_on_100_b_100
+  file: captures/o8bf9be3nmh_a2.nam
+- values:
+    model: scr_di_v65_b65_m50_t65
+  file: captures/8hf3zq23j2_a2.nam
+- values:
+    model: scr_di_ultra_lo_hi_on_scrambler_on_dr100_bl_50
+  file: captures/cke6ikrfow_a2.nam
+- values:
+    model: scr_di_ultra_lo_hi_on
+  file: captures/va567abhwk_a2.nam

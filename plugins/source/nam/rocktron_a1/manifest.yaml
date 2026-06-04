@@ -1,0 +1,21 @@
+manifest_version: 1
+id: nam_rocktron_a1
+display_name: Rocktron
+brand: rocktron
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: mid_freq
+  display_name: Mid Freq
+  values:
+  - '750'
+  - '850'
+captures:
+- values:
+    mid_freq: '750'
+  file: captures/piranha_ch3_mid_750_el34ab.nam
+- values:
+    mid_freq: '850'
+  file: captures/piranha_ch3_mid_850_el34ab.nam

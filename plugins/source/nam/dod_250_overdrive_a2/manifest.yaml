@@ -1,0 +1,83 @@
+manifest_version: 1
+id: nam_dod_250_overdrive_a2
+display_name: DOD 250 Overdrive
+brand: dod
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/35206
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - dod_250_g_0_l_10_ttsv10
+  - dod_250_g_4_l_8_ttsv10
+  - dod_250_g_2_l_10_ttsv10
+  - dod_250_g_2_l_8_ttsv10
+  - dod_250_g_5_l_8_ttsv10
+  - dod_250_g_3_l_8_ttsv10
+  - dod_250_g_3_l_10_ttsv10
+  - dod_250_g_5_l_10_ttsv10
+  - dod_250_g_10_l_8_ttsv10
+  - dod_250_g_8_l_8_ttsv10
+  - dod_250_g_6_l_10_ttsv10
+  - dod_250_g_7_l_8_ttsv10
+  - dod_250_g_8_l_10_ttsv10
+  - dod_250_g_4_l_10_ttsv10
+  - dod_250_g_10_l_10_ttsv10
+  - dod_250_g_6_l_8_ttsv10
+  - dod_250_g_7_l_10_ttsv10
+captures:
+- values:
+    model: dod_250_g_0_l_10_ttsv10
+  file: captures/4rn0dtj4elc_a2.nam
+- values:
+    model: dod_250_g_4_l_8_ttsv10
+  file: captures/1rkph0nzlz7_a2.nam
+- values:
+    model: dod_250_g_2_l_10_ttsv10
+  file: captures/yummidl6iz_a2.nam
+- values:
+    model: dod_250_g_2_l_8_ttsv10
+  file: captures/8gsywvqbaww_a2.nam
+- values:
+    model: dod_250_g_5_l_8_ttsv10
+  file: captures/uam51bdodce_a2.nam
+- values:
+    model: dod_250_g_3_l_8_ttsv10
+  file: captures/11rxzdwduxsl_a2.nam
+- values:
+    model: dod_250_g_3_l_10_ttsv10
+  file: captures/sz09eevhfdr_a2.nam
+- values:
+    model: dod_250_g_5_l_10_ttsv10
+  file: captures/dxa8n1hsgs_a2.nam
+- values:
+    model: dod_250_g_10_l_8_ttsv10
+  file: captures/t7o32l1jm8j_a2.nam
+- values:
+    model: dod_250_g_8_l_8_ttsv10
+  file: captures/rkwjsajd19_a2.nam
+- values:
+    model: dod_250_g_6_l_10_ttsv10
+  file: captures/j129h78nd9j_a2.nam
+- values:
+    model: dod_250_g_7_l_8_ttsv10
+  file: captures/cme2xov6ubh_a2.nam
+- values:
+    model: dod_250_g_8_l_10_ttsv10
+  file: captures/62ponrd8s9e_a2.nam
+- values:
+    model: dod_250_g_4_l_10_ttsv10
+  file: captures/le21ozsg8co_a2.nam
+- values:
+    model: dod_250_g_10_l_10_ttsv10
+  file: captures/tvu3srzw0a9_a2.nam
+- values:
+    model: dod_250_g_6_l_8_ttsv10
+  file: captures/2aqjoskmavz_a2.nam
+- values:
+    model: dod_250_g_7_l_10_ttsv10
+  file: captures/pv2dcxtsod9_a2.nam

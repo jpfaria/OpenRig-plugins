@@ -1,0 +1,60 @@
+manifest_version: 1
+id: nam_engl_e305_gigmaster_30_head_a2
+display_name: E305 Gigmaster 30 Head
+brand: engl
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/46147
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - e305_cline_boss_od_3_level_12_tone_12_drive_7
+  - e305_cline_boss_od_3_level_12_tone_12_drive_3
+  - e305_cline_boss_od_3_level_12_tone_12_drive_14
+  - e305_cline_boss_od_3_level_12_tone_12_drive_0min
+  - e305_cline_boss_od_3_level_12_tone_12_drive_12
+  - e305_cline_boss_od_3_level_12_tone_12_drive_10
+  - e305_cline_boss_od_3_level_12_tone_12_drive_18
+  - e305_cline_boss_od_3_level_12_tone_12_drive_20
+  - e305_cline_boss_od_3_level_12_tone_12_drive_5
+  - e305_cline_boss_od_3_level_12_tone_12_drive_16
+  - e305_cline_boss_od_3_level_12_tone_12_drive_22max
+captures:
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_7
+  file: captures/l9mgiqowr9_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_3
+  file: captures/5oyq71rb1o7_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_14
+  file: captures/uqma9hwto0i_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_0min
+  file: captures/1owdvqgryo6_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_12
+  file: captures/5g297f4nlhp_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_10
+  file: captures/kgur6tdq3nj_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_18
+  file: captures/bmk1jml8t2g_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_20
+  file: captures/j0el9et8byg_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_5
+  file: captures/65q4oaoiilk_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_16
+  file: captures/hkc66pe17t6_a2.nam
+- values:
+    model: e305_cline_boss_od_3_level_12_tone_12_drive_22max
+  file: captures/1r5tu9msis6_a2.nam

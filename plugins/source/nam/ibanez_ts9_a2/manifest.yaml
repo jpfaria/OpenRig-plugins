@@ -1,0 +1,52 @@
+manifest_version: 1
+id: nam_ibanez_ts9_a2
+display_name: TS9 Tube Screamer (NAM)
+brand: ibanez
+brand_logo: assets/brand_logo.svg
+output_gain_db: -3.5496454
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/36827
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - ibanez_ts9_tube_screamer_drive_7_tone_7_level_9
+  - ibanez_ts9_tube_screamer_drive_2_tone_7_level_10
+  - ibanez_ts9_tube_screamer_drive_0_tone_6_level_6
+  - ibanez_ts9_tube_screamer_drive_8_tone_8_level_8
+  - ibanez_ts9_tube_screamer_drive_10_tone_9_level_7
+  - ibanez_ts9_tube_screamer_drive_8_tone_4_level_5
+  - ibanez_ts9_tube_screamer_drive_0_tone_7_level_7
+  - ibanez_ts9_tube_screamer_drive_7_tone_7_level_7
+  - ibanez_ts9_tube_screamer_drive_0_tone_9_level_9
+captures:
+- values:
+    model: ibanez_ts9_tube_screamer_drive_7_tone_7_level_9
+  file: captures/itu7imwb6c_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_2_tone_7_level_10
+  file: captures/746yyja6wrs_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_0_tone_6_level_6
+  file: captures/39amrfqu1mj_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_8_tone_8_level_8
+  file: captures/mvke3t7jcsk_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_10_tone_9_level_7
+  file: captures/l4kq1oztmsk_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_8_tone_4_level_5
+  file: captures/0i7e95mt1iae_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_0_tone_7_level_7
+  file: captures/hgq0drws0sl_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_7_tone_7_level_7
+  file: captures/hru6ayb72y_a2.nam
+- values:
+    model: ibanez_ts9_tube_screamer_drive_0_tone_9_level_9
+  file: captures/2jiahriw4g2_a2.nam

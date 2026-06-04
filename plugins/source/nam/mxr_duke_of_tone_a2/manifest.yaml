@@ -1,0 +1,135 @@
+manifest_version: 1
+id: nam_mxr_duke_of_tone_a2
+display_name: MXR Duke of Tone
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/13798
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - dot_dist_med_vol_330_tone_1200_drive_1200
+  - dot_od_med_vol_330_tone_1200_drive_1200
+  - dot_od_med_vol_330_tone_1030_drive_1200
+  - dot_od_cranked_vol_330_tone_1030_drive_500
+  - dot_od_low_vol_330_tone_1030_drive_900
+  - dot_dist_color_vol_330_tone_1030_drive_700
+  - dot_dist_cranked_vol_330_tone_1200_drive_500
+  - dot_od_cranked_vol_330_tone_230_drive_500
+  - dot_od_high_vol_330_tone_1200_drive_300
+  - dot_od_cranked_vol_330_tone_1200_drive_500
+  - dot_od_high_vol_330_tone_230_drive_300
+  - dot_dist_low_vol_330_tone_1200_drive_900
+  - dot_dist_color_vol_330_tone_230_drive_700
+  - dot_dist_low_vol_330_tone_1030_drive_900
+  - dot_dist_high_vol_330_tone_1200_drive_300
+  - dot_dist_high_vol_330_tone_1030_drive_300
+  - dot_dist_low_vol_330_tone_230_drive_900
+  - dot_dist_high_vol_330_tone_230_drive_300
+  - dot_dist_color_vol_330_tone_1200_drive_700
+  - dot_dist_med_vol_330_tone_1030_drive_1200
+  - dot_od_color_vol_330_tone_1200_drive_700
+  - dot_od_low_vol_330_tone_1200_drive_900
+  - dot_od_high_vol_330_tone_1030_drive_300
+  - dot_dist_cranked_vol_330_tone_1030_drive_500
+  - dot_dist_cranked_vol_330_tone_230_drive_500
+  - dot_od_color_vol_330_tone_230_drive_700
+  - dot_dist_med_vol_330_tone_230_drive_1200
+  - dot_od_color_vol_330_tone_1030_drive_700
+  - dot_od_med_vol_330_tone_230_drive_1200
+  - dot_od_low_vol_330_tone_230_drive_900
+captures:
+- values:
+    model: dot_dist_med_vol_330_tone_1200_drive_1200
+  file: captures/v0liotvlk6j_a2.nam
+- values:
+    model: dot_od_med_vol_330_tone_1200_drive_1200
+  file: captures/h30t2vwgul_a2.nam
+- values:
+    model: dot_od_med_vol_330_tone_1030_drive_1200
+  file: captures/yw7uud19ef_a2.nam
+- values:
+    model: dot_od_cranked_vol_330_tone_1030_drive_500
+  file: captures/hx02k9mabr7_a2.nam
+- values:
+    model: dot_od_low_vol_330_tone_1030_drive_900
+  file: captures/sj092u0y0fe_a2.nam
+- values:
+    model: dot_dist_color_vol_330_tone_1030_drive_700
+  file: captures/ssvwp72ini_a2.nam
+- values:
+    model: dot_dist_cranked_vol_330_tone_1200_drive_500
+  file: captures/81cjf29z1sn_a2.nam
+- values:
+    model: dot_od_cranked_vol_330_tone_230_drive_500
+  file: captures/fg1vdo6by55_a2.nam
+- values:
+    model: dot_od_high_vol_330_tone_1200_drive_300
+  file: captures/eqfwvwpj2bm_a2.nam
+- values:
+    model: dot_od_cranked_vol_330_tone_1200_drive_500
+  file: captures/vm5p5mpgxir_a2.nam
+- values:
+    model: dot_od_high_vol_330_tone_230_drive_300
+  file: captures/ev64jghgot8_a2.nam
+- values:
+    model: dot_dist_low_vol_330_tone_1200_drive_900
+  file: captures/rstxgqvgkwr_a2.nam
+- values:
+    model: dot_dist_color_vol_330_tone_230_drive_700
+  file: captures/jrqxe6w6x7n_a2.nam
+- values:
+    model: dot_dist_low_vol_330_tone_1030_drive_900
+  file: captures/ini1wqwpll_a2.nam
+- values:
+    model: dot_dist_high_vol_330_tone_1200_drive_300
+  file: captures/d6uiln1vqgs_a2.nam
+- values:
+    model: dot_dist_high_vol_330_tone_1030_drive_300
+  file: captures/e5mew4f315c_a2.nam
+- values:
+    model: dot_dist_low_vol_330_tone_230_drive_900
+  file: captures/r84igf8iyti_a2.nam
+- values:
+    model: dot_dist_high_vol_330_tone_230_drive_300
+  file: captures/ifhqmjzdlpf_a2.nam
+- values:
+    model: dot_dist_color_vol_330_tone_1200_drive_700
+  file: captures/77hd1n5hiwu_a2.nam
+- values:
+    model: dot_dist_med_vol_330_tone_1030_drive_1200
+  file: captures/q95kh4zmib_a2.nam
+- values:
+    model: dot_od_color_vol_330_tone_1200_drive_700
+  file: captures/ijt2404c8rn_a2.nam
+- values:
+    model: dot_od_low_vol_330_tone_1200_drive_900
+  file: captures/uxu5vzvnqd_a2.nam
+- values:
+    model: dot_od_high_vol_330_tone_1030_drive_300
+  file: captures/3o9868t4phc_a2.nam
+- values:
+    model: dot_dist_cranked_vol_330_tone_1030_drive_500
+  file: captures/7cvnkx32n67_a2.nam
+- values:
+    model: dot_dist_cranked_vol_330_tone_230_drive_500
+  file: captures/zjq7rdswpqf_a2.nam
+- values:
+    model: dot_od_color_vol_330_tone_230_drive_700
+  file: captures/8qjk7pwgpac_a2.nam
+- values:
+    model: dot_dist_med_vol_330_tone_230_drive_1200
+  file: captures/5y9h5our86n_a2.nam
+- values:
+    model: dot_od_color_vol_330_tone_1030_drive_700
+  file: captures/zojbzju0kg_a2.nam
+- values:
+    model: dot_od_med_vol_330_tone_230_drive_1200
+  file: captures/5jare0wz0li_a2.nam
+- values:
+    model: dot_od_low_vol_330_tone_230_drive_900
+  file: captures/7cn0lxmrq7h_a2.nam

@@ -1,0 +1,72 @@
+manifest_version: 1
+id: nam_friedman_be100_deluxe_a2
+display_name: BE100 Deluxe
+brand: friedman
+brand_logo: assets/brand_logo.svg
+output_gain_db: -6.4707098
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64322
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - pow_be100dlx_el34_juice_28_di_std
+  - pre_be100dlx_hbe_noon_hbe_01_std
+  - pre_be100dlx_be_noon_be_01_std
+  - pre_be100dlx_be_noon_be_13_std
+  - amp_be100dlx_cln_rock_01_di_std
+  - pre_be100dlx_cln_noon_cln_02_std
+  - amp_be100dlx_be_man_in_the_cogs_01_di_std
+  - amp_be100dlx_hbe_mammoth_di_std
+  - amp_be100dlx_hbe_tallica_di_std
+  - pre_be100dlx_hbe_noon_hbe_13_std
+  - pre_be100dlx_cln_noon_cln_03_std
+  - amp_be100dlx_cln_tender_clean_di_std
+  - amp_be100dlx_be_eddie_01_di_std
+  - amp_be100dlx_be_test_di_std
+captures:
+- values:
+    model: pow_be100dlx_el34_juice_28_di_std
+  file: captures/g2ufcfcik7k_a2.nam
+- values:
+    model: pre_be100dlx_hbe_noon_hbe_01_std
+  file: captures/157fm9cf2ea_a2.nam
+- values:
+    model: pre_be100dlx_be_noon_be_01_std
+  file: captures/2gzm1geqta_a2.nam
+- values:
+    model: pre_be100dlx_be_noon_be_13_std
+  file: captures/3693apnmfkx_a2.nam
+- values:
+    model: amp_be100dlx_cln_rock_01_di_std
+  file: captures/tr9ecbm8v9_a2.nam
+- values:
+    model: pre_be100dlx_cln_noon_cln_02_std
+  file: captures/bdp8ota7ll9_a2.nam
+- values:
+    model: amp_be100dlx_be_man_in_the_cogs_01_di_std
+  file: captures/w8c999evm9_a2.nam
+- values:
+    model: amp_be100dlx_hbe_mammoth_di_std
+  file: captures/7deazet4ck7_a2.nam
+- values:
+    model: amp_be100dlx_hbe_tallica_di_std
+  file: captures/r9hba58ccca_a2.nam
+- values:
+    model: pre_be100dlx_hbe_noon_hbe_13_std
+  file: captures/dcw841i99r7_a2.nam
+- values:
+    model: pre_be100dlx_cln_noon_cln_03_std
+  file: captures/twjt8djuuud_a2.nam
+- values:
+    model: amp_be100dlx_cln_tender_clean_di_std
+  file: captures/be081mrxmr_a2.nam
+- values:
+    model: amp_be100dlx_be_eddie_01_di_std
+  file: captures/nur5fjp7yy_a2.nam
+- values:
+    model: amp_be100dlx_be_test_di_std
+  file: captures/clpf2wat64a_a2.nam

@@ -1,0 +1,159 @@
+manifest_version: 1
+id: nam_pete_cornish_g_2_a2
+display_name: Pete Cornish G-2
+brand: pete_cornish
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/59615
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - tts_cornish_g2_s10_t06_v10_a1
+  - tts_cornish_g2_s04_t10_v10_a1
+  - tts_cornish_g2_s08_t04_v10_a1
+  - tts_cornish_g2_s10_t04_v10_a1
+  - tts_cornish_g2_s08_t00_v10_a1
+  - tts_cornish_g2_s02_t02_v10_a1
+  - tts_cornish_g2_s06_t02_v10_a1
+  - tts_cornish_g2_s10_t08_v10_a1
+  - tts_cornish_g2_s08_t02_v10_a1
+  - tts_cornish_g2_s04_t04_v10_a1
+  - tts_cornish_g2_s00_t00_v10_a1
+  - tts_cornish_g2_s00_t06_v10_a1
+  - tts_cornish_g2_s04_t06_v10_a1
+  - tts_cornish_g2_s00_t08_v10_a1
+  - tts_cornish_g2_s00_t04_v10_a1
+  - tts_cornish_g2_s00_t02_v10_a1
+  - tts_cornish_g2_s04_t00_v10_a1
+  - tts_cornish_g2_s06_t10_v10_a1
+  - tts_cornish_g2_s02_t06_v10_a1
+  - tts_cornish_g2_s00_t10_v10_a1
+  - tts_cornish_g2_s04_t02_v10_a1
+  - tts_cornish_g2_s02_t00_v10_a1
+  - tts_cornish_g2_s02_t04_v10_a1
+  - tts_cornish_g2_s02_t08_v10_a1
+  - tts_cornish_g2_s02_t10_v10_a1
+  - tts_cornish_g2_s04_t08_v10_a1
+  - tts_cornish_g2_s06_t00_v10_a1
+  - tts_cornish_g2_s08_t10_v10_a1
+  - tts_cornish_g2_s06_t04_v10_a1
+  - tts_cornish_g2_s06_t06_v10_a1
+  - tts_cornish_g2_s08_t06_v10_a1
+  - tts_cornish_g2_s10_t00_v10_a1
+  - tts_cornish_g2_s06_t08_v10_a1
+  - tts_cornish_g2_s10_t02_v10_a1
+  - tts_cornish_g2_s08_t08_v10_a1
+  - tts_cornish_g2_s10_t10_v10_a1
+captures:
+- values:
+    model: tts_cornish_g2_s10_t06_v10_a1
+  file: captures/o14ij764jck_a2.nam
+- values:
+    model: tts_cornish_g2_s04_t10_v10_a1
+  file: captures/mkmkln7fi7o_a2.nam
+- values:
+    model: tts_cornish_g2_s08_t04_v10_a1
+  file: captures/sjqcnguiuq_a2.nam
+- values:
+    model: tts_cornish_g2_s10_t04_v10_a1
+  file: captures/haiz2q1vcee_a2.nam
+- values:
+    model: tts_cornish_g2_s08_t00_v10_a1
+  file: captures/i7humrpu1q8_a2.nam
+- values:
+    model: tts_cornish_g2_s02_t02_v10_a1
+  file: captures/9u8v9yzng3r_a2.nam
+- values:
+    model: tts_cornish_g2_s06_t02_v10_a1
+  file: captures/0m2znk86qi1e_a2.nam
+- values:
+    model: tts_cornish_g2_s10_t08_v10_a1
+  file: captures/yi0aje2av6q_a2.nam
+- values:
+    model: tts_cornish_g2_s08_t02_v10_a1
+  file: captures/8mbthgonkvw_a2.nam
+- values:
+    model: tts_cornish_g2_s04_t04_v10_a1
+  file: captures/rdw2uxb1qce_a2.nam
+- values:
+    model: tts_cornish_g2_s00_t00_v10_a1
+  file: captures/brec6qxhrnm_a2.nam
+- values:
+    model: tts_cornish_g2_s00_t06_v10_a1
+  file: captures/khz7cgg65cb_a2.nam
+- values:
+    model: tts_cornish_g2_s04_t06_v10_a1
+  file: captures/rdobdbj02z_a2.nam
+- values:
+    model: tts_cornish_g2_s00_t08_v10_a1
+  file: captures/jecu4h7oio8_a2.nam
+- values:
+    model: tts_cornish_g2_s00_t04_v10_a1
+  file: captures/c0bjhdma48_a2.nam
+- values:
+    model: tts_cornish_g2_s00_t02_v10_a1
+  file: captures/0z7gjj80hpa_a2.nam
+- values:
+    model: tts_cornish_g2_s04_t00_v10_a1
+  file: captures/mbsxkledot_a2.nam
+- values:
+    model: tts_cornish_g2_s06_t10_v10_a1
+  file: captures/x8eoekblvvq_a2.nam
+- values:
+    model: tts_cornish_g2_s02_t06_v10_a1
+  file: captures/9gwd3dp7ah6_a2.nam
+- values:
+    model: tts_cornish_g2_s00_t10_v10_a1
+  file: captures/z7bc9og9tp8_a2.nam
+- values:
+    model: tts_cornish_g2_s04_t02_v10_a1
+  file: captures/l57299lgyxc_a2.nam
+- values:
+    model: tts_cornish_g2_s02_t00_v10_a1
+  file: captures/3sag3fmtqrx_a2.nam
+- values:
+    model: tts_cornish_g2_s02_t04_v10_a1
+  file: captures/hwhnvp6ca5j_a2.nam
+- values:
+    model: tts_cornish_g2_s02_t08_v10_a1
+  file: captures/35v7zhffb7c_a2.nam
+- values:
+    model: tts_cornish_g2_s02_t10_v10_a1
+  file: captures/t12eeuvszj_a2.nam
+- values:
+    model: tts_cornish_g2_s04_t08_v10_a1
+  file: captures/hh994279ld_a2.nam
+- values:
+    model: tts_cornish_g2_s06_t00_v10_a1
+  file: captures/ilve3vdaq5s_a2.nam
+- values:
+    model: tts_cornish_g2_s08_t10_v10_a1
+  file: captures/ejzkvulbfzl_a2.nam
+- values:
+    model: tts_cornish_g2_s06_t04_v10_a1
+  file: captures/u4ofmz88277_a2.nam
+- values:
+    model: tts_cornish_g2_s06_t06_v10_a1
+  file: captures/0zbynk1nnnes_a2.nam
+- values:
+    model: tts_cornish_g2_s08_t06_v10_a1
+  file: captures/3vdc6gzg5ds_a2.nam
+- values:
+    model: tts_cornish_g2_s10_t00_v10_a1
+  file: captures/p0hya21j8fd_a2.nam
+- values:
+    model: tts_cornish_g2_s06_t08_v10_a1
+  file: captures/ak71b0wn28f_a2.nam
+- values:
+    model: tts_cornish_g2_s10_t02_v10_a1
+  file: captures/jybsn9qpud_a2.nam
+- values:
+    model: tts_cornish_g2_s08_t08_v10_a1
+  file: captures/o2lwf2wodc_a2.nam
+- values:
+    model: tts_cornish_g2_s10_t10_v10_a1
+  file: captures/kmbpu0oqi4_a2.nam

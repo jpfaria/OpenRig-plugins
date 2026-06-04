@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_marshall_lead_12_a2
+display_name: Lead 12
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/52034
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - marshall_lead12_amp_g9_t8_m5_b3_48_24_amp
+captures:
+- values:
+    model: marshall_lead12_amp_g9_t8_m5_b3_48_24_amp
+  file: captures/msr3gc4ck4r_a2.nam

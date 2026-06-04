@@ -1,0 +1,96 @@
+manifest_version: 1
+id: nam_mesa_boogie_mark_iic_a2
+display_name: Mark IIC
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/41228
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mesa_boogie_mark_iic_clean
+  - mesa_boogie_mark_iic_rock
+  - mesa_boogie_iic_combo_deth_lead
+  - mesa_boogie_iic_combo_architects
+  - mesa_boogie_iic_combo_marsh_coil
+  - mesa_boogie_iic_combo_single_coil
+  - mesa_boogie_iic_combo_rock
+  - mesa_boogie_iic_architects
+  - mesa_boogie_iic_combo_compressed_clean
+  - mesa_boogie_iic_combo_80_s_clean
+  - mesa_boogie_iic_deth_lead
+  - mesa_boogie_mark_iic_compressed_clean
+  - mesa_boogie_mark_iic_solo
+  - mesa_boogie_mark_iic_single_coil
+  - mesa_boogie_mark_iic_80_s_clean
+  - mesa_boogie_mark_iic_fat_gain
+  - mesa_boogie_mark_iic_marshall_coil
+  - mesa_boogie_iic_combo_clean
+  - mesa_boogie_iic_combo_fat_gain
+  - mesa_boogie_iic_combo_solo
+captures:
+- values:
+    model: mesa_boogie_mark_iic_clean
+  file: captures/j54yo647vj_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_rock
+  file: captures/20wgbneivtf_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_deth_lead
+  file: captures/dt9uix9es29_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_architects
+  file: captures/4t7mftjl1fe_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_marsh_coil
+  file: captures/1kc1tvzaqjh_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_single_coil
+  file: captures/zi0aekz9w3n_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_rock
+  file: captures/w7g0p89ggmc_a2.nam
+- values:
+    model: mesa_boogie_iic_architects
+  file: captures/91zgujj3b9u_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_compressed_clean
+  file: captures/j9h75sd43mo_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_80_s_clean
+  file: captures/y5sf2zj26fa_a2.nam
+- values:
+    model: mesa_boogie_iic_deth_lead
+  file: captures/nu8w4wi68bp_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_compressed_clean
+  file: captures/pt4cyv6yg8k_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_solo
+  file: captures/zrm29kezty_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_single_coil
+  file: captures/l2e72lzhswl_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_80_s_clean
+  file: captures/fnhimp783v_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_fat_gain
+  file: captures/noxf24bgssg_a2.nam
+- values:
+    model: mesa_boogie_mark_iic_marshall_coil
+  file: captures/qnep0jv7b2_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_clean
+  file: captures/w2gfc9tz4xj_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_fat_gain
+  file: captures/j3ofm53m6k9_a2.nam
+- values:
+    model: mesa_boogie_iic_combo_solo
+  file: captures/6uf7r43im8s_a2.nam

@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_synergy_soldano_a1
+display_name: Synergy Soldano
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - ch1
+  - ch2
+captures:
+- values:
+    preset: ch1
+  file: captures/soldano_ch1.nam
+- values:
+    preset: ch2
+  file: captures/soldano_ch2.nam

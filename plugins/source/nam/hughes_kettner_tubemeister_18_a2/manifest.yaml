@@ -1,0 +1,19 @@
+manifest_version: 1
+id: nam_hughes_kettner_tubemeister_18_a2
+display_name: Hughes Kettner TubeMeister 18
+brand: hughes
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64521
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - hughie_crunch_no_cab_v2_fredm_d_e906_b6m
+captures:
+- values:
+    model: hughie_crunch_no_cab_v2_fredm_d_e906_b6m
+  file: captures/upccmouh28l_a2.nam

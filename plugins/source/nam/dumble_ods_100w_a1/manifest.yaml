@@ -1,0 +1,17 @@
+manifest_version: 1
+id: nam_dumble_ods_100w_a1
+display_name: ODS 100W
+brand: dumble
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - mayer_clean
+captures:
+- values:
+    preset: mayer_clean
+  file: captures/john_mayer_clean_001.nam

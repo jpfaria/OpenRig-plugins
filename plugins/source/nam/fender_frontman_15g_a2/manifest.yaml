@@ -1,0 +1,28 @@
+manifest_version: 1
+id: nam_fender_frontman_15g_a2
+display_name: Frontman 15G
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.9237862
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/43498
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - fender_15g_clean_flat
+  - fender_15g_clean_boost_mid_bass_cut_treble_slightly
+  - high_gain_4
+captures:
+- values:
+    model: fender_15g_clean_flat
+  file: captures/7aj7bv8ysgq_a2.nam
+- values:
+    model: fender_15g_clean_boost_mid_bass_cut_treble_slightly
+  file: captures/ubm4rzj82f8_a2.nam
+- values:
+    model: high_gain_4
+  file: captures/fwfgdnltdaf_a2.nam

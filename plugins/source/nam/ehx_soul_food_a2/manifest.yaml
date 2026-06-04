@@ -1,0 +1,35 @@
+manifest_version: 1
+id: nam_ehx_soul_food_a2
+display_name: EHX Soul Food
+brand: ehx
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6602
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - dr_ehx_soul_food_edge_sweet_spot
+  - dr_ehx_soul_food_max_sustain
+  - dr_ehx_soul_food_light_breakup
+  - dr_ehx_soul_food_lead
+  - dr_ehx_soul_food_med_transparent
+captures:
+- values:
+    model: dr_ehx_soul_food_edge_sweet_spot
+  file: captures/4e1bed88c1f29e51_a2.nam
+- values:
+    model: dr_ehx_soul_food_max_sustain
+  file: captures/cf7747c9966f3c45_a2.nam
+- values:
+    model: dr_ehx_soul_food_light_breakup
+  file: captures/27f7ee7286ec701f_a2.nam
+- values:
+    model: dr_ehx_soul_food_lead
+  file: captures/b47555f808af0bf5_a2.nam
+- values:
+    model: dr_ehx_soul_food_med_transparent
+  file: captures/a77dd4dfd11b94c7_a2.nam

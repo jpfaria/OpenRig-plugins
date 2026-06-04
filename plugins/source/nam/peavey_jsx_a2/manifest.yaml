@@ -1,0 +1,160 @@
+manifest_version: 1
+id: nam_peavey_jsx_a2
+display_name: JSX
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/67214
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_srl
+  - di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_srl
+  - di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_fat_srl
+  - di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_2_p_5_srl_6db
+  - di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_srl
+  - di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_fat_srl
+  - di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
+  - di_jsx_cln_v_8_t_6_m_4_b_4_ma_1_r_0_p_3_srl_6db
+  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_srl
+  - di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_srl
+  - di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_fat_srl
+  - di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_fat_srl
+  - di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_srl
+  - di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+  - di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_3_p_6_srl_6db
+  - di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_fat_srl
+  - di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_fat_srl
+  - di_jsx_cln_v_8_t_5_m_5_b_5_ma_1_r_2_p_2_srl_6db
+  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_fat_srl
+  - di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_srl
+  - di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_srl
+  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_srl
+  - di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_fat_srl
+  - di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_srl
+  - di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_srl
+  - di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_fat_srl
+  - di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_srl
+  - di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
+  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_fat_srl
+  - di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_fat_srl
+  - di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_fat_srl
+  - di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_fat_srl
+  - di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_srl
+  - di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_srl
+  - di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_fat_srl
+  - di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+captures:
+- values:
+    model: di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_srl
+  file: captures/2d4to6tmw8k_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_srl
+  file: captures/20e3ja7msm3_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_fat_srl
+  file: captures/slif9w0t90i_a2.nam
+- values:
+    model: di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_2_p_5_srl_6db
+  file: captures/ldl7ssk3md_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_srl
+  file: captures/5sl2oo9tkxu_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_fat_srl
+  file: captures/k1nigwd1tir_a2.nam
+- values:
+    model: di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
+  file: captures/f0cjsxhghnj_a2.nam
+- values:
+    model: di_jsx_cln_v_8_t_6_m_4_b_4_ma_1_r_0_p_3_srl_6db
+  file: captures/88esnjeq39x_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_srl
+  file: captures/i0ddqnwifh_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_srl
+  file: captures/iygwamb13v_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_fat_srl
+  file: captures/yo9n0phdj3k_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_fat_srl
+  file: captures/vlx1dw9h99n_a2.nam
+- values:
+    model: di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_srl
+  file: captures/8e2q7p4fh57_a2.nam
+- values:
+    model: di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+  file: captures/ek923vji7ub_a2.nam
+- values:
+    model: di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_3_p_6_srl_6db
+  file: captures/4a1h4egnm93_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_fat_srl
+  file: captures/37gj335byyo_a2.nam
+- values:
+    model: di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_fat_srl
+  file: captures/7ykohvplodu_a2.nam
+- values:
+    model: di_jsx_cln_v_8_t_5_m_5_b_5_ma_1_r_2_p_2_srl_6db
+  file: captures/mip12jckpvc_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_fat_srl
+  file: captures/o4stk9ba9es_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_srl
+  file: captures/8fev9bneo0j_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_srl
+  file: captures/yh19dzcfdh_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_srl
+  file: captures/waqbxwidaio_a2.nam
+- values:
+    model: di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_fat_srl
+  file: captures/pdjazrq7s3a_a2.nam
+- values:
+    model: di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_srl
+  file: captures/6umollp5twy_a2.nam
+- values:
+    model: di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_srl
+  file: captures/zux8prjrbwh_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_fat_srl
+  file: captures/kumeza5fcr8_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_srl
+  file: captures/zrcts6bdvul_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
+  file: captures/iln2e9op68_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_fat_srl
+  file: captures/8y6xihu36o_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_fat_srl
+  file: captures/rp8x255jzj_a2.nam
+- values:
+    model: di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_fat_srl
+  file: captures/ivrckhub0fa_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_fat_srl
+  file: captures/nhs7t69hyk_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_srl
+  file: captures/08mdt3uo1u2_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_srl
+  file: captures/zbn9owws5xq_a2.nam
+- values:
+    model: di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_fat_srl
+  file: captures/q8xb6xs4o4_a2.nam
+- values:
+    model: di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+  file: captures/dzed5vxrtv_a2.nam

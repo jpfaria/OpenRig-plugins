@@ -1,0 +1,47 @@
+manifest_version: 1
+id: nam_boss_odb3_bass_a1
+display_name: Boss ODB3 Bass
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: blend
+  display_name: Blend
+  values:
+  - '25'
+  - '70'
+  - '100'
+- name: gain
+  display_name: Gain
+  values:
+  - '0'
+  - '5'
+  - 7_5
+captures:
+- values:
+    blend: '25'
+    gain: '5'
+  file: captures/boss_odb3_v7_5_h5_l6_blend_25_gain_5.nam
+- values:
+    blend: '25'
+    gain: 7_5
+  file: captures/boss_odb3_v7_5_h5_l6_blend_25_gain_7_5.nam
+- values:
+    blend: '70'
+    gain: '0'
+  file: captures/boss_odb3_v7_5_h5_l6_blend_70_gain_0.nam
+- values:
+    blend: '100'
+    gain: '0'
+  file: captures/boss_odb3_v7_5_h5_l6_blend_100_gain_0.nam
+- values:
+    blend: '100'
+    gain: '5'
+  file: captures/boss_odb3_v7_5_h5_l6_blend_100_gain_5.nam
+- values:
+    blend: '100'
+    gain: 7_5
+  file: captures/boss_odb3_v7_5_h5_l6_blend_100_gain_7_5.nam

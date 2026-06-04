@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_marshall_yjm100_a2
+display_name: YJM100
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/60150
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mrsh_yjm_fr_01_crunch_bal_di
+captures:
+- values:
+    model: mrsh_yjm_fr_01_crunch_bal_di
+  file: captures/6irn12rg8w3_a2.nam

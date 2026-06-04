@@ -1,0 +1,19 @@
+manifest_version: 1
+id: nam_strymon_sunset_a2
+display_name: Strymon Sunset
+brand: strymon
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/4979
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - strymon_sunset_1000_epochs
+captures:
+- values:
+    model: strymon_sunset_1000_epochs
+  file: captures/e8d5860d6cae28fe_a2.nam

@@ -1,0 +1,49 @@
+manifest_version: 1
+id: nam_mesa_rectifier_a1
+display_name: Rectifier
+description: Neural capture of the Mesa Rectifier — aggressive modern high-gain.
+brand: mesa
+brand_logo: assets/brand_logo.svg
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - crunch_orange
+  - drive_red
+- name: cabinet
+  display_name: Cabinet
+  values:
+  - 4x12_v30
+  - 4x12_greenback
+  - 4x12_g12t
+captures:
+- values:
+    cabinet: 4x12_v30
+    gain: crunch_orange
+  file: captures/rectifier_crunch_orange_4x12_v30.nam
+- values:
+    cabinet: 4x12_greenback
+    gain: crunch_orange
+  file: captures/rectifier_crunch_orange_4x12_greenback.nam
+- values:
+    cabinet: 4x12_g12t
+    gain: crunch_orange
+  file: captures/rectifier_crunch_orange_4x12_g12t.nam
+- values:
+    cabinet: 4x12_v30
+    gain: drive_red
+  file: captures/rectifier_drive_red_4x12_v30.nam
+- values:
+    cabinet: 4x12_greenback
+    gain: drive_red
+  file: captures/rectifier_drive_red_4x12_greenback.nam
+- values:
+    cabinet: 4x12_g12t
+    gain: drive_red
+  file: captures/rectifier_drive_red_4x12_g12t.nam

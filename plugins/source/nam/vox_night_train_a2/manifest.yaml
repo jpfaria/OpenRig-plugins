@@ -1,0 +1,24 @@
+manifest_version: 1
+id: nam_vox_night_train_a2
+display_name: Night Train
+brand: vox
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/51686
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - vox_night_train_nt15h_dirty
+  - vox_night_train_nt15h_dirty_low_boosted
+captures:
+- values:
+    model: vox_night_train_nt15h_dirty
+  file: captures/ztd9y9p25f_a2.nam
+- values:
+    model: vox_night_train_nt15h_dirty_low_boosted
+  file: captures/ztcxc3ism7s_a2.nam

@@ -1,0 +1,48 @@
+manifest_version: 1
+id: nam_marshall_jcm900_a2
+display_name: JCM900
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/50958
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - ap_jcm900_pre_08_ch2_g20
+  - ap_jcm900_pre_05_ch2_g8
+  - ap_jcm900_pre_07_ch2_g16
+  - ap_jcm900_pre_04_ch2_g4
+  - ap_jcm900_pre_03_ch1_g10
+  - ap_jcm900_pre_02_ch1_g8
+  - ap_jcm900_pre_06_ch2_g12
+  - ap_jcm900_pre_01_ch1_g4
+captures:
+- values:
+    model: ap_jcm900_pre_08_ch2_g20
+  file: captures/nsezmqc33ts_a2.nam
+- values:
+    model: ap_jcm900_pre_05_ch2_g8
+  file: captures/jw950rvo84_a2.nam
+- values:
+    model: ap_jcm900_pre_07_ch2_g16
+  file: captures/kuo3bz6gyr_a2.nam
+- values:
+    model: ap_jcm900_pre_04_ch2_g4
+  file: captures/zc1087eyw88_a2.nam
+- values:
+    model: ap_jcm900_pre_03_ch1_g10
+  file: captures/f5jog4z2ue_a2.nam
+- values:
+    model: ap_jcm900_pre_02_ch1_g8
+  file: captures/ce3i5g2uep_a2.nam
+- values:
+    model: ap_jcm900_pre_06_ch2_g12
+  file: captures/rhl2ygrgsqe_a2.nam
+- values:
+    model: ap_jcm900_pre_01_ch1_g4
+  file: captures/v60v54a3l0a_a2.nam

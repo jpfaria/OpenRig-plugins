@@ -1,0 +1,18 @@
+manifest_version: 1
+id: nam_orange_dark_terror_a1
+display_name: Dark Terror
+brand: orange
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - full_rig
+captures:
+- values:
+    preset: full_rig
+  file: captures/orange_dark_terror_full_rig.nam

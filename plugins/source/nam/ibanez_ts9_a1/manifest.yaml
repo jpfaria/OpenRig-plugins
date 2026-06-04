@@ -1,0 +1,83 @@
+manifest_version: 1
+id: nam_ibanez_ts9_a1
+display_name: TS9 Tube Screamer (NAM)
+brand: ibanez
+thumbnail: assets/thumbnail.png
+photo: assets/photo.png
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - 0.0
+  - 2.0
+  - 7.0
+  - 8.0
+  - 10.0
+- name: tone
+  display_name: Tone
+  values:
+  - 4.0
+  - 6.0
+  - 7.0
+  - 8.0
+  - 9.0
+- name: level
+  display_name: Level
+  values:
+  - 5.0
+  - 6.0
+  - 7.0
+  - 8.0
+  - 9.0
+  - 10.0
+captures:
+- values:
+    drive: 0.0
+    level: 6.0
+    tone: 6.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 0 Tone 6 Level 6.nam
+- values:
+    drive: 0.0
+    level: 7.0
+    tone: 7.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 0 Tone 7 Level 7.nam
+- values:
+    drive: 0.0
+    level: 9.0
+    tone: 9.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 0 Tone 9 Level 9.nam
+- values:
+    drive: 2.0
+    level: 10.0
+    tone: 7.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 2 Tone 7 Level 10.nam
+- values:
+    drive: 7.0
+    level: 7.0
+    tone: 7.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 7 Tone 7 Level 7.nam
+- values:
+    drive: 7.0
+    level: 9.0
+    tone: 7.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 7 Tone 7 Level 9.nam
+- values:
+    drive: 8.0
+    level: 5.0
+    tone: 4.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 8 Tone 4 Level 5.nam
+- values:
+    drive: 8.0
+    level: 8.0
+    tone: 8.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 8 Tone 8 Level 8.nam
+- values:
+    drive: 10.0
+    level: 7.0
+    tone: 9.0
+  file: captures/Ibanez TS9 Tube Screamer Drive 10 Tone 9 Level 7.nam

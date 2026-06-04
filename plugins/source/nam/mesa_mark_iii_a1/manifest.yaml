@@ -1,0 +1,49 @@
+manifest_version: 1
+id: nam_mesa_mark_iii_a1
+display_name: Mark III
+description: Neural capture of the Mesa/Boogie Mark III — versatile American amp with clean, crunch and lead channels.
+brand: mesa
+brand_logo: assets/brand_logo.svg
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: eq
+  display_name: EQ
+  values:
+  - lohi
+  - lomed
+  - medhi
+- name: gain
+  display_name: Gain
+  values:
+  - cranked
+  - pushed
+captures:
+- values:
+    eq: lohi
+    gain: cranked
+  file: captures/lohi_cranked.nam
+- values:
+    eq: lohi
+    gain: pushed
+  file: captures/lohi_pushed.nam
+- values:
+    eq: lomed
+    gain: cranked
+  file: captures/lomed_cranked.nam
+- values:
+    eq: lomed
+    gain: pushed
+  file: captures/lomed_pushed.nam
+- values:
+    eq: medhi
+    gain: cranked
+  file: captures/medhi_cranked.nam
+- values:
+    eq: medhi
+    gain: pushed
+  file: captures/medhi_pushed.nam

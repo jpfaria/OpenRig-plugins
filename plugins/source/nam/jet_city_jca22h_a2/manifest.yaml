@@ -1,0 +1,195 @@
+manifest_version: 1
+id: nam_jet_city_jca22h_a2
+display_name: Jet City - JCA22H
+brand: jet
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30015
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - jca22h_cr_4_b_4_m_5_t_6_v_2_p_6_d_4
+  - jca22h_cr_5_b_3_m_6_t_5_v_2_p_6_d_2
+  - jca22h_cr_5_b_4_m_5_t_6_v_2_p_6_d_2
+  - jca22h_cr_6_b_5_m_6_t_5_v_2_p_8_d_3
+  - jca22h_cr_5_b_3_m_6_t_5_v_2_p_6_d_4
+  - jca22h_cr_5_b_4_m_5_t_6_v_2_p_6_d_4
+  - jca22h_cr_5_b_5_m_6_t_5_v_2_p_8_d_4
+  - jca22h_cr_5_b_3_m_6_t_5_v_2_p_6_d_3
+  - jca22h_cr_5_b_5_m_6_t_5_v_2_p_8_d_3
+  - jca22h_cr_6_b_4_m_3_t_7_v_2_p_5_d_4
+  - jca22h_cr_4_b_5_m_6_t_5_v_2_p_8_d_4
+  - jca22h_cr_6_b_3_m_6_t_5_v_2_p_6_d_4
+  - jca22h_cr_6_b_4_m_4_t_6_v_2_p_7_d_2
+  - jca22h_cr_6_b_4_m_5_t_6_v_2_p_6_d_4
+  - jca22h_cr_5_b_4_m_3_t_7_v_2_p_5_d_4
+  - jca22h_cr_4_b_4_m_3_t_7_v_2_p_5_d_2
+  - jca22h_cr_4_b_4_m_4_t_6_v_2_p_7_d_2
+  - jca22h_cr_6_b_4_m_4_t_6_v_2_p_7_d_3
+  - jca22h_cr_4_b_5_m_6_t_5_v_2_p_8_d_2
+  - jca22h_cr_6_b_4_m_4_t_6_v_2_p_7_d_4
+  - jca22h_cr_4_b_3_m_6_t_5_v_2_p_6_d_4
+  - jca22h_cr_4_b_4_m_3_t_7_v_2_p_5_d_4
+  - jca22h_cr_4_b_4_m_4_t_6_v_2_p_7_d_4
+  - jca22h_cr_6_b_3_m_6_t_5_v_2_p_6_d_2
+  - jca22h_cr_4_b_4_m_3_t_7_v_2_p_5_d_3
+  - jca22h_cr_4_b_4_m_5_t_6_v_2_p_6_d_2
+  - jca22h_cr_4_b_4_m_4_t_6_v_2_p_7_d_3
+  - jca22h_cr_5_b_5_m_6_t_5_v_2_p_8_d_2
+  - jca22h_cr_5_b_4_m_4_t_6_v_2_p_7_d_4
+  - jca22h_cr_5_b_4_m_5_t_6_v_2_p_6_d_3
+  - jca22h_cr_6_b_3_m_6_t_5_v_2_p_6_d_3
+  - jca22h_cr_5_b_4_m_3_t_7_v_2_p_5_d_2
+  - jca22h_cr_6_b_4_m_3_t_7_v_2_p_5_d_2
+  - jca22h_cr_6_b_4_m_5_t_6_v_2_p_6_d_2
+  - jca22h_cr_6_b_5_m_6_t_5_v_2_p_8_d_4
+  - jca22h_cr_4_b_3_m_6_t_5_v_2_p_6_d_2
+  - jca22h_cr_4_b_3_m_6_t_5_v_2_p_6_d_3
+  - jca22h_cr_5_b_4_m_4_t_6_v_2_p_7_d_3
+  - jca22h_cr_5_b_4_m_3_t_7_v_2_p_5_d_3
+  - jca22h_cr_4_b_4_m_5_t_6_v_2_p_6_d_3
+  - jca22h_cr_6_b_4_m_3_t_7_v_2_p_5_d_3
+  - jca22h_cr_4_b_5_m_6_t_5_v_2_p_8_d_3
+  - jca22h_cr_5_b_4_m_4_t_6_v_2_p_7_d_2
+  - jca22h_cr_6_b_4_m_5_t_6_v_2_p_6_d_3
+  - jca22h_cr_6_b_5_m_6_t_5_v_2_p_8_d_2
+captures:
+- values:
+    model: jca22h_cr_4_b_4_m_5_t_6_v_2_p_6_d_4
+  file: captures/09jx1wsrq54p_a2.nam
+- values:
+    model: jca22h_cr_5_b_3_m_6_t_5_v_2_p_6_d_2
+  file: captures/noz6liljdpl_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_5_t_6_v_2_p_6_d_2
+  file: captures/mbd5vtkwwjq_a2.nam
+- values:
+    model: jca22h_cr_6_b_5_m_6_t_5_v_2_p_8_d_3
+  file: captures/abiw7xj64h_a2.nam
+- values:
+    model: jca22h_cr_5_b_3_m_6_t_5_v_2_p_6_d_4
+  file: captures/5a7s6jrdse9_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_5_t_6_v_2_p_6_d_4
+  file: captures/b1y3qkethdb_a2.nam
+- values:
+    model: jca22h_cr_5_b_5_m_6_t_5_v_2_p_8_d_4
+  file: captures/8e4194v28br_a2.nam
+- values:
+    model: jca22h_cr_5_b_3_m_6_t_5_v_2_p_6_d_3
+  file: captures/wk369iewpa_a2.nam
+- values:
+    model: jca22h_cr_5_b_5_m_6_t_5_v_2_p_8_d_3
+  file: captures/vscvqfmfr6_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_3_t_7_v_2_p_5_d_4
+  file: captures/byar1vc3rwp_a2.nam
+- values:
+    model: jca22h_cr_4_b_5_m_6_t_5_v_2_p_8_d_4
+  file: captures/dnmbkpwf6af_a2.nam
+- values:
+    model: jca22h_cr_6_b_3_m_6_t_5_v_2_p_6_d_4
+  file: captures/brp2foe4xru_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_4_t_6_v_2_p_7_d_2
+  file: captures/xogyl4d3hs_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_5_t_6_v_2_p_6_d_4
+  file: captures/c473dvm0hvu_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_3_t_7_v_2_p_5_d_4
+  file: captures/wljfnqhi0u_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_3_t_7_v_2_p_5_d_2
+  file: captures/dyku0qinvrs_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_4_t_6_v_2_p_7_d_2
+  file: captures/3vpbhnu77qx_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_4_t_6_v_2_p_7_d_3
+  file: captures/zltw1az5jv_a2.nam
+- values:
+    model: jca22h_cr_4_b_5_m_6_t_5_v_2_p_8_d_2
+  file: captures/zaqf6ubjqes_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_4_t_6_v_2_p_7_d_4
+  file: captures/1wrikamhprp_a2.nam
+- values:
+    model: jca22h_cr_4_b_3_m_6_t_5_v_2_p_6_d_4
+  file: captures/i7giriye6ad_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_3_t_7_v_2_p_5_d_4
+  file: captures/qn6rrhgrqsa_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_4_t_6_v_2_p_7_d_4
+  file: captures/i4473amv1jg_a2.nam
+- values:
+    model: jca22h_cr_6_b_3_m_6_t_5_v_2_p_6_d_2
+  file: captures/9j8d9obraet_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_3_t_7_v_2_p_5_d_3
+  file: captures/1yx7e4dmh4b_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_5_t_6_v_2_p_6_d_2
+  file: captures/eutft06mzg6_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_4_t_6_v_2_p_7_d_3
+  file: captures/9ltpgkszwgm_a2.nam
+- values:
+    model: jca22h_cr_5_b_5_m_6_t_5_v_2_p_8_d_2
+  file: captures/06c2ynlmzb8b_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_4_t_6_v_2_p_7_d_4
+  file: captures/3wzomsitd17_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_5_t_6_v_2_p_6_d_3
+  file: captures/qucwnsto5l_a2.nam
+- values:
+    model: jca22h_cr_6_b_3_m_6_t_5_v_2_p_6_d_3
+  file: captures/x3kydl04x5h_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_3_t_7_v_2_p_5_d_2
+  file: captures/w339epb76sm_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_3_t_7_v_2_p_5_d_2
+  file: captures/o6ib2nhsauc_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_5_t_6_v_2_p_6_d_2
+  file: captures/tj119mqlw9r_a2.nam
+- values:
+    model: jca22h_cr_6_b_5_m_6_t_5_v_2_p_8_d_4
+  file: captures/avms9hvnfpj_a2.nam
+- values:
+    model: jca22h_cr_4_b_3_m_6_t_5_v_2_p_6_d_2
+  file: captures/noywncy4rt_a2.nam
+- values:
+    model: jca22h_cr_4_b_3_m_6_t_5_v_2_p_6_d_3
+  file: captures/pqlq0btxtom_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_4_t_6_v_2_p_7_d_3
+  file: captures/dpy8fpt9v0c_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_3_t_7_v_2_p_5_d_3
+  file: captures/i3atvtva4k_a2.nam
+- values:
+    model: jca22h_cr_4_b_4_m_5_t_6_v_2_p_6_d_3
+  file: captures/zy2ku69ywsi_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_3_t_7_v_2_p_5_d_3
+  file: captures/kz992khgraq_a2.nam
+- values:
+    model: jca22h_cr_4_b_5_m_6_t_5_v_2_p_8_d_3
+  file: captures/a5c9oc8ysd7_a2.nam
+- values:
+    model: jca22h_cr_5_b_4_m_4_t_6_v_2_p_7_d_2
+  file: captures/u0vt2n50snd_a2.nam
+- values:
+    model: jca22h_cr_6_b_4_m_5_t_6_v_2_p_6_d_3
+  file: captures/zbam8yoo45_a2.nam
+- values:
+    model: jca22h_cr_6_b_5_m_6_t_5_v_2_p_8_d_2
+  file: captures/tdprs45cj0o_a2.nam

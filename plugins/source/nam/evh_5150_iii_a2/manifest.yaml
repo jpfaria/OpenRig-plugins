@@ -1,0 +1,167 @@
+manifest_version: 1
+id: nam_evh_5150_iii_a2
+display_name: 5150 III
+brand: evh
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/48576
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - evh_5150_iii_lbx_s_green_gain_3_bmt_586_pres_5_reso_6
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_588_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_588_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_587_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_497_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_486_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_487_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_498_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_597_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_587_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_486_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_488_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_498_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_586_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_488_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_496_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_588_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_596_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_597_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_487_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_496_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_496_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_596_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_597_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_598_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_497_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_586_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_596_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_587_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_487_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_488_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_486_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_497_pres_5_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_498_pres_7_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_586_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_598_pres_6_reso_4
+  - evh_5150_iii_lbx_s_red_gain_5_bmt_586_pres_5_reso_6
+  - evh_5150_iii_lbx_s_red_gain_4_bmt_598_pres_7_reso_4
+captures:
+- values:
+    model: evh_5150_iii_lbx_s_green_gain_3_bmt_586_pres_5_reso_6
+  file: captures/9gfckvo44j_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_588_pres_5_reso_4
+  file: captures/bmbdoi6ty0p_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_588_pres_6_reso_4
+  file: captures/17uhwq1aahg_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_587_pres_6_reso_4
+  file: captures/aq4578xehn_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_497_pres_7_reso_4
+  file: captures/2kfyhgevy9u_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_486_pres_5_reso_4
+  file: captures/z2r2dlrqto_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_487_pres_6_reso_4
+  file: captures/jvyeqxreko_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_498_pres_5_reso_4
+  file: captures/8ft8tchgwtc_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_597_pres_5_reso_4
+  file: captures/8sfyuqzbyvx_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_587_pres_7_reso_4
+  file: captures/7r5uw3ytwe5_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_486_pres_7_reso_4
+  file: captures/t65ta23gmy_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_488_pres_7_reso_4
+  file: captures/8rcxxmwu1a_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_498_pres_6_reso_4
+  file: captures/6kr7jq8km5g_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_586_pres_5_reso_4
+  file: captures/b6xvp4op0up_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_488_pres_5_reso_4
+  file: captures/s0lzb4lahej_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_496_pres_7_reso_4
+  file: captures/eecd68lslll_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_588_pres_7_reso_4
+  file: captures/5sls6d5jled_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_596_pres_5_reso_4
+  file: captures/e82wfd6z9kp_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_597_pres_6_reso_4
+  file: captures/nnjhs4oqixa_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_487_pres_5_reso_4
+  file: captures/oo9kk8sa1x_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_496_pres_6_reso_4
+  file: captures/fbbrxaepscl_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_496_pres_5_reso_4
+  file: captures/mk9rsjb8vu_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_596_pres_7_reso_4
+  file: captures/f5krclrzxgw_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_597_pres_7_reso_4
+  file: captures/zt4m8tbf8nm_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_598_pres_5_reso_4
+  file: captures/luxniwxhe0s_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_497_pres_6_reso_4
+  file: captures/nh4wr0mz5x_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_586_pres_7_reso_4
+  file: captures/8w5o7ud6uj9_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_596_pres_6_reso_4
+  file: captures/di4uhd40s9c_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_587_pres_5_reso_4
+  file: captures/9ilp26s8bus_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_487_pres_7_reso_4
+  file: captures/bgqhlti0zvr_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_488_pres_6_reso_4
+  file: captures/iqnce1x408c_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_486_pres_6_reso_4
+  file: captures/bmlfniitoxb_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_497_pres_5_reso_4
+  file: captures/hk3vt1n0tio_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_498_pres_7_reso_4
+  file: captures/4oaez8tvxio_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_586_pres_6_reso_4
+  file: captures/z37whvpe6fg_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_598_pres_6_reso_4
+  file: captures/dpj3r9gpk0p_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_5_bmt_586_pres_5_reso_6
+  file: captures/t89l3nipq7c_a2.nam
+- values:
+    model: evh_5150_iii_lbx_s_red_gain_4_bmt_598_pres_7_reso_4
+  file: captures/xmf3d8ewv1_a2.nam

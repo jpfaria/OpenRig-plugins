@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_marshall_plexi_50w_a2
+display_name: Plexi 50W
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64481
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 01_fr_marshall_1987x_hi_input_crunch_bal_di
+captures:
+- values:
+    model: 01_fr_marshall_1987x_hi_input_crunch_bal_di
+  file: captures/hhk4rm5e0ue_a2.nam

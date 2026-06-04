@@ -1,0 +1,327 @@
+manifest_version: 1
+id: nam_mesaboogie_290_simul_class_a2
+display_name: MesaBoogie 290 Simul-Class
+brand: mesaboogie
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5905
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - slammin_mb_290_6l6gc_6_8
+  - slammin_mb_290_6l6gc_d_13_0
+  - slammin_mb_290_6l6gc_m_13_2
+  - slammin_mb_290_6l6gc_13_5
+  - slammin_mb_290_6l6gc_10_2
+  - slammin_mb_290_6l6gc_md_8_5
+  - slammin_mb_290_6l6gc_8_0
+  - slammin_mb_290_6l6gc_md_13_8
+  - slammin_mb_290_6l6gc_6_5
+  - slammin_mb_290_6l6gc_md_10_5
+  - slammin_mb_290_6l6gc_d_6_2
+  - slammin_mb_290_6l6gc_d_2_0
+  - slammin_mb_290_6l6gc_d_2_5
+  - slammin_mb_290_6l6gc_md_10_8
+  - slammin_mb_290_6l6gc_d_10_0
+  - slammin_mb_290_6l6gc_m_13_5
+  - slammin_mb_290_6l6gc_d_8_0
+  - slammin_mb_290_6l6gc_13_8
+  - slammin_mb_290_6l6gc_4_5
+  - slammin_mb_290_6l6gc_md_6_2
+  - slammin_mb_290_6l6gc_2_0
+  - slammin_mb_290_6l6gc_4_0
+  - slammin_mb_290_6l6gc_md_4_5
+  - slammin_mb_290_6l6gc_d_6_0
+  - slammin_mb_290_6l6gc_md_8_8
+  - slammin_mb_290_6l6gc_d_6_5
+  - slammin_mb_290_6l6gc_md_13_0
+  - slammin_mb_290_6l6gc_d_4_8
+  - slammin_mb_290_6l6gc_md_2_0
+  - slammin_mb_290_6l6gc_d_8_8
+  - slammin_mb_290_6l6gc_md_10_0
+  - slammin_mb_290_6l6gc_d_6_8
+  - slammin_mb_290_6l6gc_md_2_2
+  - slammin_mb_290_6l6gc_m_7_8
+  - slammin_mb_290_6l6gc_md_13_5
+  - slammin_mb_290_6l6gc_md_6_8
+  - slammin_mb_290_6l6gc_m_7_5
+  - slammin_mb_290_6l6gc_6_0
+  - slammin_mb_290_6l6gc_m_7_0
+  - slammin_mb_290_6l6gc_13_0
+  - slammin_mb_290_6l6gc_d_10_8
+  - slammin_mb_290_6l6gc_13_2
+  - slammin_mb_290_6l6gc_d_4_0
+  - slammin_mb_290_6l6gc_4_8
+  - slammin_mb_290_6l6gc_md_4_8
+  - slammin_mb_290_6l6gc_md_10_2
+  - slammin_mb_290_6l6gc_md_13_2
+  - slammin_mb_290_6l6gc_10_5
+  - slammin_mb_290_6l6gc_10_8
+  - slammin_mb_290_6l6gc_d_13_8
+  - slammin_mb_290_6l6gc_md_6_5
+  - slammin_mb_290_6l6gc_d_8_5
+  - slammin_mb_290_6l6gc_md_6_0
+  - slammin_mb_290_6l6gc_md_4_2
+  - slammin_mb_290_6l6gc_d_10_2
+  - slammin_mb_290_6l6gc_10_0
+  - slammin_mb_290_6l6gc_m_13_8
+  - slammin_mb_290_6l6gc_m_13_0
+  - slammin_mb_290_6l6gc_md_8_2
+  - slammin_mb_290_6l6gc_md_4_0
+  - slammin_mb_290_6l6gc_m_7_2
+  - slammin_mb_290_6l6gc_2_5
+  - slammin_mb_290_6l6gc_d_13_2
+  - slammin_mb_290_6l6gc_2_8
+  - slammin_mb_290_6l6gc_d_2_8
+  - slammin_mb_290_6l6gc_d_4_5
+  - slammin_mb_290_6l6gc_d_2_2
+  - slammin_mb_290_6l6gc_6_2
+  - slammin_mb_290_6l6gc_8_5
+  - slammin_mb_290_6l6gc_2_2
+  - slammin_mb_290_6l6gc_8_2
+  - slammin_mb_290_6l6gc_md_8_0
+  - slammin_mb_290_6l6gc_4_2
+  - slammin_mb_290_6l6gc_d_8_2
+  - slammin_mb_290_6l6gc_d_10_5
+  - slammin_mb_290_6l6gc_d_13_5
+  - slammin_mb_290_6l6gc_d_4_2
+  - slammin_mb_290_6l6gc_8_8
+captures:
+- values:
+    model: slammin_mb_290_6l6gc_6_8
+  file: captures/539a19ecbe9d1460_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_13_0
+  file: captures/ba79008cba919c7c_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_13_2
+  file: captures/9fe5262a2b227172_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_13_5
+  file: captures/de790dd13b4ad666_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_10_2
+  file: captures/a33e3c95ef35dcd5_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_8_5
+  file: captures/1df0a4311cd9f16f_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_8_0
+  file: captures/b728f3e93ae1883d_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_13_8
+  file: captures/080301bf43af6578_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_6_5
+  file: captures/7bf4eb6538093d4d_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_10_5
+  file: captures/9b00035e0530b1d2_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_6_2
+  file: captures/9aef0318d349d213_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_2_0
+  file: captures/ec7f2d7d9c2f0e89_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_2_5
+  file: captures/6136fd9e749dd374_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_10_8
+  file: captures/f9f1db8e63dfee5a_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_10_0
+  file: captures/9ddf59916f5dc3d7_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_13_5
+  file: captures/5c58627ba971ee2f_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_8_0
+  file: captures/e8e2b2774f536a2d_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_13_8
+  file: captures/1e030d017b41fffd_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_4_5
+  file: captures/87aec2dc605a10da_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_6_2
+  file: captures/099cee9b276828c7_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_2_0
+  file: captures/5ec76b7579ba9cef_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_4_0
+  file: captures/16673d01460190b3_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_4_5
+  file: captures/611e147536c5e5a3_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_6_0
+  file: captures/c00e838d46a24414_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_8_8
+  file: captures/547959ad7d8d76b3_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_6_5
+  file: captures/4adf125292f93ddc_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_13_0
+  file: captures/80d6b8b926045c52_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_4_8
+  file: captures/7041830b97d4825c_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_2_0
+  file: captures/ef7a5e6b2add454e_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_8_8
+  file: captures/6ed2b15bf73128f6_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_10_0
+  file: captures/362e51132beb7e30_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_6_8
+  file: captures/fc577263d698df68_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_2_2
+  file: captures/e8f3d372a3338d77_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_7_8
+  file: captures/d33d56e320262b79_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_13_5
+  file: captures/a3ce2f7e8667f810_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_6_8
+  file: captures/4910c413356fb2b6_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_7_5
+  file: captures/1f054bbe971741b5_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_6_0
+  file: captures/8215b31ba981e377_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_7_0
+  file: captures/f0d90b437fd9ad44_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_13_0
+  file: captures/722d15a965b84ff4_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_10_8
+  file: captures/61376c9e7df55271_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_13_2
+  file: captures/a1c6a3a8b06ddf37_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_4_0
+  file: captures/f2967f5b881a8365_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_4_8
+  file: captures/a0ef9d89f81079c5_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_4_8
+  file: captures/aae4b7f4467516a6_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_10_2
+  file: captures/8508192c60e26b7f_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_13_2
+  file: captures/246da79444bcb369_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_10_5
+  file: captures/03100904cac51876_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_10_8
+  file: captures/99452f2797954e00_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_13_8
+  file: captures/83d0d70952627467_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_6_5
+  file: captures/ba6e00d996707099_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_8_5
+  file: captures/fb93f5eb9240a5da_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_6_0
+  file: captures/287b8f6145e42605_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_4_2
+  file: captures/0d533a246d9a6efd_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_10_2
+  file: captures/d7469b63f326f6d9_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_10_0
+  file: captures/d7c17dca6280cf67_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_13_8
+  file: captures/3e8b338214b01489_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_13_0
+  file: captures/0812b6d744fa2d0a_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_8_2
+  file: captures/0cfee463a1301d4a_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_4_0
+  file: captures/12e854cceb7270aa_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_m_7_2
+  file: captures/89228044e99aee0e_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_2_5
+  file: captures/bf9552ea3a0b5962_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_13_2
+  file: captures/25ae87c3b2b4b751_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_2_8
+  file: captures/f141e51cbc804420_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_2_8
+  file: captures/e09e7c84eee36e5e_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_4_5
+  file: captures/3ea12812a75860af_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_2_2
+  file: captures/fc10996045418812_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_6_2
+  file: captures/1aca54acd64e4e37_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_8_5
+  file: captures/0fff8d6c09a0b6a4_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_2_2
+  file: captures/66228f5b5b64e0da_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_8_2
+  file: captures/c8299c34505fb97e_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_md_8_0
+  file: captures/7b93a1fa61df5cab_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_4_2
+  file: captures/169dc7ff64770a47_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_8_2
+  file: captures/c60d5c5b57a48d91_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_10_5
+  file: captures/155d06b977601e29_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_13_5
+  file: captures/c5be680ebabfc679_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_d_4_2
+  file: captures/319e006368cdbfe1_a2.nam
+- values:
+    model: slammin_mb_290_6l6gc_8_8
+  file: captures/724c49925e6bf28d_a2.nam

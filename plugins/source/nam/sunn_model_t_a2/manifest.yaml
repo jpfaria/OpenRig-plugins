@@ -1,0 +1,59 @@
+manifest_version: 1
+id: nam_sunn_model_t_a2
+display_name: Sunn Model T
+brand: sunn
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/13705
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - model_t_ej_lead
+  - model_t_crunchier_rock
+  - model_t_power_amp_only_presence_on_7
+  - model_t_warm_zen_lead
+  - model_t_crunchier_mids_rock
+  - model_t_drive_pedal_platform
+  - model_t_doom_settings_g10_t6_5_b8_5_m7_5_v6_5_p7_5
+  - model_t_high_gain_mid_vol_g10_t5_b5_m5_v5_p7
+  - model_t_mid_gain_mid_vol_g5_t5_b5_m5_v5_p7
+  - model_t_low_gain_mid_vol_g2_t5_b5_m5_v5_p7
+  - model_t_crunchy_rock_g5_t_just_below_6_b_and_m_just_above_3_v5_p6
+captures:
+- values:
+    model: model_t_ej_lead
+  file: captures/4xacu0aymhj_a2.nam
+- values:
+    model: model_t_crunchier_rock
+  file: captures/1usvrpi07tb_a2.nam
+- values:
+    model: model_t_power_amp_only_presence_on_7
+  file: captures/nqaupnyu6qh_a2.nam
+- values:
+    model: model_t_warm_zen_lead
+  file: captures/7shlp05oua7_a2.nam
+- values:
+    model: model_t_crunchier_mids_rock
+  file: captures/0yfgx3nl4se_a2.nam
+- values:
+    model: model_t_drive_pedal_platform
+  file: captures/veoc40rzd7a_a2.nam
+- values:
+    model: model_t_doom_settings_g10_t6_5_b8_5_m7_5_v6_5_p7_5
+  file: captures/ryy8huwnd4s_a2.nam
+- values:
+    model: model_t_high_gain_mid_vol_g10_t5_b5_m5_v5_p7
+  file: captures/d8fcnrdwvf_a2.nam
+- values:
+    model: model_t_mid_gain_mid_vol_g5_t5_b5_m5_v5_p7
+  file: captures/712r3fk6opq_a2.nam
+- values:
+    model: model_t_low_gain_mid_vol_g2_t5_b5_m5_v5_p7
+  file: captures/doeatzobf2_a2.nam
+- values:
+    model: model_t_crunchy_rock_g5_t_just_below_6_b_and_m_just_above_3_v5_p6
+  file: captures/3faky8gb1yc_a2.nam

@@ -1,0 +1,75 @@
+manifest_version: 1
+id: nam_fulltone_ocd_a2
+display_name: OCD Overdrive
+brand: fulltone
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/49361
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - ocd_v2_v1030_t1200_d700_hp_switch
+  - ocd_v2_v1030_t300_d1030_lp_switch
+  - ocd_v2_v1030_t900_d130_hp_switch
+  - ocd_v2_v1030_t1200_d500_hp_switch
+  - ocd_v2_v1030_t1200_d1030_hp_switch
+  - ocd_v2_v1030_t1200_d900_hp_switch
+  - ocd_v2_v1030_t300_d500_lp_switch
+  - ocd_v2_v1030_t1200_d1200_hp_switch
+  - ocd_v2_v1030_t500_d700_lp_switch
+  - ocd_v2_v1030_t1200_d300_hp_switch
+  - ocd_v2_v1030_t300_d130_lp_switch
+  - ocd_v2_v1030_t300_d900_lp_switch
+  - ocd_v2_v1030_t300_d1200_lp_switch
+  - ocd_v2_v1030_t300_d300_lp_switch
+  - ocd_v2_v1030_t1200_d130_hp_switch
+captures:
+- values:
+    model: ocd_v2_v1030_t1200_d700_hp_switch
+  file: captures/zmcw43oqgib_a2.nam
+- values:
+    model: ocd_v2_v1030_t300_d1030_lp_switch
+  file: captures/s7nfxskyai_a2.nam
+- values:
+    model: ocd_v2_v1030_t900_d130_hp_switch
+  file: captures/0vij36mfw4ng_a2.nam
+- values:
+    model: ocd_v2_v1030_t1200_d500_hp_switch
+  file: captures/sta3jghvqn_a2.nam
+- values:
+    model: ocd_v2_v1030_t1200_d1030_hp_switch
+  file: captures/td7egk4fxq_a2.nam
+- values:
+    model: ocd_v2_v1030_t1200_d900_hp_switch
+  file: captures/90lrmr119ku_a2.nam
+- values:
+    model: ocd_v2_v1030_t300_d500_lp_switch
+  file: captures/rpelr5wyjqa_a2.nam
+- values:
+    model: ocd_v2_v1030_t1200_d1200_hp_switch
+  file: captures/fq138d074jj_a2.nam
+- values:
+    model: ocd_v2_v1030_t500_d700_lp_switch
+  file: captures/3psc6vfoe3k_a2.nam
+- values:
+    model: ocd_v2_v1030_t1200_d300_hp_switch
+  file: captures/ph6ph4xdy6_a2.nam
+- values:
+    model: ocd_v2_v1030_t300_d130_lp_switch
+  file: captures/3zqgkycfenr_a2.nam
+- values:
+    model: ocd_v2_v1030_t300_d900_lp_switch
+  file: captures/y37wojxw8ya_a2.nam
+- values:
+    model: ocd_v2_v1030_t300_d1200_lp_switch
+  file: captures/oi6awk2efz_a2.nam
+- values:
+    model: ocd_v2_v1030_t300_d300_lp_switch
+  file: captures/zgkafn7mggj_a2.nam
+- values:
+    model: ocd_v2_v1030_t1200_d130_hp_switch
+  file: captures/hrkmb0dh1v_a2.nam

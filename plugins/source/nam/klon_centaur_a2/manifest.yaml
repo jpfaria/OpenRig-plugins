@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_klon_centaur_a2
+display_name: Klon Centaur Silver
+brand: klon
+output_gain_db: 0.4627037
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5196
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - klon_555
+  - klon_255
+  - klon_277
+  - klon_3_5_6_5_3_john_mayer
+  - klon_668
+  - klon_468
+captures:
+- values:
+    model: klon_555
+  file: captures/af34a4386da9fe44_a2.nam
+- values:
+    model: klon_255
+  file: captures/e4a2e5367770ee1c_a2.nam
+- values:
+    model: klon_277
+  file: captures/79183eda116aa7bf_a2.nam
+- values:
+    model: klon_3_5_6_5_3_john_mayer
+  file: captures/e49b29690178bc8a_a2.nam
+- values:
+    model: klon_668
+  file: captures/544566175e615d10_a2.nam
+- values:
+    model: klon_468
+  file: captures/c775f8a5bd068579_a2.nam

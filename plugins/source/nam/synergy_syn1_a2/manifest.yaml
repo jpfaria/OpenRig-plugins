@@ -1,0 +1,52 @@
+manifest_version: 1
+id: nam_synergy_syn1_a2
+display_name: SYN-1 Chassis
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/54165
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - syn20ir_k_kali_red
+  - syn20ir_k_kali_loomis
+  - jcm800_k_kali_red
+  - syn20ir_k_kali_green
+  - syn20ir_k_kali_red_v2
+  - dzl_herbert_k_kali_red
+  - dzl_herbert_k_kali_red_more_gain
+  - dzl_herbert_k_kali_green
+  - evh5153s_k_kali_red
+captures:
+- values:
+    model: syn20ir_k_kali_red
+  file: captures/c5j9vc5xyal_a2.nam
+- values:
+    model: syn20ir_k_kali_loomis
+  file: captures/uew1fned1io_a2.nam
+- values:
+    model: jcm800_k_kali_red
+  file: captures/jgeeu8ndef_a2.nam
+- values:
+    model: syn20ir_k_kali_green
+  file: captures/0r20977z08hc_a2.nam
+- values:
+    model: syn20ir_k_kali_red_v2
+  file: captures/rtlyovba7aq_a2.nam
+- values:
+    model: dzl_herbert_k_kali_red
+  file: captures/qxab1v7ullf_a2.nam
+- values:
+    model: dzl_herbert_k_kali_red_more_gain
+  file: captures/7g5faia9vvx_a2.nam
+- values:
+    model: dzl_herbert_k_kali_green
+  file: captures/ybvx4h86aj_a2.nam
+- values:
+    model: evh5153s_k_kali_red
+  file: captures/70l6yail9v7_a2.nam

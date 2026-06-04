@@ -1,0 +1,43 @@
+manifest_version: 1
+id: nam_fulltone_69_a2
+display_name: Fulltone 69
+brand: fulltone
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5640
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 69_high_contour_vol_2_contour_bias_and_fuzz_full
+  - 69_maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_trim_clockwise
+  - 69_high_vol_mid_contour_contour_12_vol_bias_and_fuzz_full_gain_trim_counterclockwise
+  - 69_hendrix_67_vol_2_contour_12_bias_and_fuzz_full
+  - 69_high_vol_mid_contour_contour_12_vol_bias_and_fuzz_full_gain_trim_clockwise
+  - 69_high_vol_low_contour_contour_off_vol_bias_and_fuzz_full
+  - 69_stock_fuzzface_vol_2_contour_off_bias_and_fuzz_full
+captures:
+- values:
+    model: 69_high_contour_vol_2_contour_bias_and_fuzz_full
+  file: captures/6e202b4c11fea13c_a2.nam
+- values:
+    model: 69_maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_trim_clockwise
+  file: captures/0227a90abb70665f_a2.nam
+- values:
+    model: 69_high_vol_mid_contour_contour_12_vol_bias_and_fuzz_full_gain_trim_counterclockwise
+  file: captures/adcd626a4f3da77a_a2.nam
+- values:
+    model: 69_hendrix_67_vol_2_contour_12_bias_and_fuzz_full
+  file: captures/3bc6fd2f44d5e0be_a2.nam
+- values:
+    model: 69_high_vol_mid_contour_contour_12_vol_bias_and_fuzz_full_gain_trim_clockwise
+  file: captures/cdd853b5e179d588_a2.nam
+- values:
+    model: 69_high_vol_low_contour_contour_off_vol_bias_and_fuzz_full
+  file: captures/783f4987f303393f_a2.nam
+- values:
+    model: 69_stock_fuzzface_vol_2_contour_off_bias_and_fuzz_full
+  file: captures/394dcef934793ba6_a2.nam

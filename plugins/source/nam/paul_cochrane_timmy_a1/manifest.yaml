@@ -1,0 +1,89 @@
+manifest_version: 1
+id: nam_paul_cochrane_timmy_a1
+display_name: Paul Cochrane Timmy
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: bass
+  display_name: Bass
+  values:
+  - 1.0
+  - 2.0
+  - 3.0
+  - 12.0
+- name: gain
+  display_name: Gain
+  values:
+  - 2.0
+  - 10.0
+  - 12.0
+- name: tone
+  display_name: Tone
+  values:
+  - 2.0
+  - 3.0
+  - 12.0
+captures:
+- values:
+    bass: 12.0
+    gain: 10.0
+    tone: 12.0
+  file: captures/mxr_timmy_v_1_00_b_12_00_t_12_00_g_10_00_c_c_ttsv1.nam
+- values:
+    bass: 12.0
+    gain: 12.0
+    tone: 12.0
+  file: captures/mxr_timmy_v_1_00_b_12_00_t_12_00_g_12_00_c_c_ttsv1.nam
+- values:
+    bass: 12.0
+    gain: 2.0
+    tone: 12.0
+  file: captures/mxr_timmy_v_1_00_b_12_00_t_12_00_g_2_00_c_c_ttsv10.nam
+- values:
+    bass: 1.0
+    gain: 10.0
+    tone: 2.0
+  file: captures/mxr_timmy_v_1_00_b_1_00_t_2_00_g_10_00_c_c_ttsv10.nam
+- values:
+    bass: 1.0
+    gain: 12.0
+    tone: 2.0
+  file: captures/mxr_timmy_v_1_00_b_1_00_t_2_00_g_12_00_c_c_ttsv10.nam
+- values:
+    bass: 1.0
+    gain: 2.0
+    tone: 2.0
+  file: captures/mxr_timmy_v_1_00_b_1_00_t_2_00_g_2_00_c_c_ttsv10.nam
+- values:
+    bass: 2.0
+    gain: 10.0
+    tone: 3.0
+  file: captures/mxr_timmy_v_1_00_b_2_00_t_3_00_g_10_00_c_c_ttsv10.nam
+- values:
+    bass: 2.0
+    gain: 12.0
+    tone: 3.0
+  file: captures/mxr_timmy_v_1_00_b_2_00_t_3_00_g_12_00_c_c_ttsv10.nam
+- values:
+    bass: 2.0
+    gain: 2.0
+    tone: 3.0
+  file: captures/mxr_timmy_v_1_00_b_2_00_t_3_00_g_2_00_c_c_ttsv10.nam
+- values:
+    bass: 3.0
+    gain: 10.0
+    tone: 12.0
+  file: captures/mxr_timmy_v_1_00_b_3_00_t_max_g_10_00_c_c_ttsv10.nam
+- values:
+    bass: 3.0
+    gain: 12.0
+    tone: 12.0
+  file: captures/mxr_timmy_v_1_00_b_3_00_t_max_g_12_00_c_c_ttsv10.nam
+- values:
+    bass: 3.0
+    gain: 2.0
+    tone: 12.0
+  file: captures/mxr_timmy_v_1_00_b_3_00_t_max_g_2_00_c_c_ttsv10.nam

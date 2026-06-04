@@ -1,0 +1,176 @@
+manifest_version: 1
+id: nam_mesa_dual_rectifier_multiwatt_a2
+display_name: Dual Rectifier Multi-Watt
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/27915
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mbdr_mw_or_raw_g_2_00_3
+  - mbdr_mw_or_raw_g_3_00_2
+  - mbdr_mw_red_raw_g_1_00_1
+  - mbdr_mw_red_raw_g_3_00_5
+  - mbdr_mw_red_raw_g_2_00_5
+  - mbdr_mw_red_raw_g_3_00_2
+  - mbdr_mw_or_raw_g_1_00_2
+  - mbdr_mw_or_raw_g_1_00_4
+  - mbdr_mw_or_raw_g_1_00_3
+  - mbdr_mw_red_raw_g_1_00_5
+  - mbdr_mw_red_raw_g_3_00_4
+  - mbdr_mw_red_raw_g_3_00_1
+  - mbdr_mw_or_raw_g_2_00_2_5u4
+  - mbdr_mw_red_raw_g_2_00_2_5u4
+  - mbdr_mw_or_raw_g_1_00_1
+  - mbdr_mw_or_raw_g_2_00_1
+  - mbdr_mw_or_raw_g_3_00_3
+  - mbdr_mw_red_raw_g_1_00_3
+  - mbdr_mw_red_raw_g_2_00_4_5u4
+  - mbdr_mw_or_raw_g_2_00_2
+  - mbdr_mw_or_raw_g_2_00_3_5u4
+  - mbdr_mw_or_raw_g_2_00_5_5u4
+  - mbdr_mw_or_raw_g_2_00_1_5u4
+  - mbdr_mw_or_raw_g_2_00_4
+  - mbdr_mw_red_raw_g_2_00_1_5u4
+  - mbdr_mw_or_raw_g_3_00_1
+  - mbdr_mw_red_raw_g_2_00_3_5u4
+  - mbdr_mw_red_raw_g_2_00_4
+  - mbdr_mw_or_raw_g_3_00_5
+  - mbdr_mw_red_raw_g_2_00_1
+  - mbdr_mw_or_raw_g_3_00_4
+  - mbdr_mw_red_raw_g_1_00_4
+  - mbdr_mw_or_raw_g_1_00_5
+  - mbdr_mw_or_raw_g_2_00_5
+  - mbdr_mw_or_raw_g_2_00_4_5u4
+  - mbdr_mw_red_raw_g_2_00_5_5u4
+  - mbdr_mw_red_raw_g_1_00_2
+  - mbdr_mw_red_raw_g_2_00_3
+  - mbdr_mw_red_raw_g_2_00_2
+  - mbdr_mw_red_raw_g_3_00_3
+captures:
+- values:
+    model: mbdr_mw_or_raw_g_2_00_3
+  file: captures/rce2ek7tr3_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_3_00_2
+  file: captures/ae4yw43noio_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_1_00_1
+  file: captures/qm798wcq9q_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_3_00_5
+  file: captures/fxo7zhxozdc_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_5
+  file: captures/kcu2nyhtc5h_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_3_00_2
+  file: captures/8yluq2axggl_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_1_00_2
+  file: captures/e1hurfm9g4_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_1_00_4
+  file: captures/ss8u7frj68_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_1_00_3
+  file: captures/lm9egingmmb_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_1_00_5
+  file: captures/epupe733nml_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_3_00_4
+  file: captures/f2kbap0hyb_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_3_00_1
+  file: captures/p19a98ockd9_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_2_5u4
+  file: captures/80behkg9tqk_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_2_5u4
+  file: captures/802zm1cvhcm_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_1_00_1
+  file: captures/51isw1etx82_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_1
+  file: captures/zk0jwp2e43_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_3_00_3
+  file: captures/l4iaqxn1z5_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_1_00_3
+  file: captures/uqgxmfnp80i_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_4_5u4
+  file: captures/hg6hrjl3nth_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_2
+  file: captures/ynl2a9kvv6_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_3_5u4
+  file: captures/79r0x6e4z3o_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_5_5u4
+  file: captures/munq8epfnp_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_1_5u4
+  file: captures/231gqhnf0t9_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_4
+  file: captures/fz1knbpsj8i_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_1_5u4
+  file: captures/4o2cywgdzwj_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_3_00_1
+  file: captures/yofu2uyiocr_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_3_5u4
+  file: captures/sbcn7p4gp9g_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_4
+  file: captures/6lblkcsfz6t_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_3_00_5
+  file: captures/lraf9ixmii_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_1
+  file: captures/a9kj82uj8zt_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_3_00_4
+  file: captures/jfa2tj42xuo_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_1_00_4
+  file: captures/l711oa5njb_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_1_00_5
+  file: captures/pqz3y3gk4z_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_5
+  file: captures/0rx28mw364b_a2.nam
+- values:
+    model: mbdr_mw_or_raw_g_2_00_4_5u4
+  file: captures/oyg87clzs1_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_5_5u4
+  file: captures/tie57n12de_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_1_00_2
+  file: captures/1rwuoomfwvl_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_3
+  file: captures/j04zo1fxkgr_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_2_00_2
+  file: captures/y42karu9nf_a2.nam
+- values:
+    model: mbdr_mw_red_raw_g_3_00_3
+  file: captures/3cx3n0xmknk_a2.nam

@@ -1,0 +1,26 @@
+manifest_version: 1
+id: nam_mesa_boogie_badlander_50_a1
+display_name: Badlander 50
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - crunch
+  - crush
+captures:
+- values:
+    channel: clean
+  file: captures/badlander_clean.nam
+- values:
+    channel: crunch
+  file: captures/badlander_crunch.nam
+- values:
+    channel: crush
+  file: captures/badlander_crush.nam

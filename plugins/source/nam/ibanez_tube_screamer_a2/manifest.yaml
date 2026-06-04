@@ -1,0 +1,31 @@
+manifest_version: 1
+id: nam_ibanez_tube_screamer_a2
+display_name: Ibanez Tube Screamer
+brand: fortin
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/66205
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - g_0_t_5_l_10
+  - g_3_t_8_l_10
+  - g_0_t_10_l_10
+  - g_8_t_5_l_10
+captures:
+- values:
+    model: g_0_t_5_l_10
+  file: captures/dfwapy8ymrs_a2.nam
+- values:
+    model: g_3_t_8_l_10
+  file: captures/44siotvd2sh_a2.nam
+- values:
+    model: g_0_t_10_l_10
+  file: captures/cs5ac2bll44_a2.nam
+- values:
+    model: g_8_t_5_l_10
+  file: captures/qjzjh7rodtp_a2.nam

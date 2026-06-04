@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_peavey_6505_plus_a2
+display_name: 6505 Plus
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/50204
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - peavey_6505_red_ch
+  - peavey_6505_green_ch_maxon_st9pro
+  - peavey_6505_red_ch_boss_hm_2w
+  - peavey_6505_red_ch_maxon_st9pro
+captures:
+- values:
+    model: peavey_6505_red_ch
+  file: captures/tc0hy04o8p_a2.nam
+- values:
+    model: peavey_6505_green_ch_maxon_st9pro
+  file: captures/9mqbub8tr6_a2.nam
+- values:
+    model: peavey_6505_red_ch_boss_hm_2w
+  file: captures/4qi9etwyigr_a2.nam
+- values:
+    model: peavey_6505_red_ch_maxon_st9pro
+  file: captures/q9a3ux38z1_a2.nam

@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_dumble_steel_string_singer_a2
+display_name: Steel String Singer
+brand: dumble
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/29285
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - dumble_steel_ss_clean
+  - dumble_steel_ss_drive_2
+  - dumble_steel_ss_drive_1
+captures:
+- values:
+    model: dumble_steel_ss_clean
+  file: captures/mgcozwq3yg_a2.nam
+- values:
+    model: dumble_steel_ss_drive_2
+  file: captures/ofart7ekzt_a2.nam
+- values:
+    model: dumble_steel_ss_drive_1
+  file: captures/zo4h7fmfjcn_a2.nam

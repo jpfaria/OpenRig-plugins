@@ -1,0 +1,63 @@
+manifest_version: 1
+id: nam_browne_protein_a2
+display_name: Browne Protein
+brand: browne
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6142
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - blue_gain_5
+  - blue_gain_4
+  - blue_gain_6
+  - green_gain_5
+  - green_gain_2
+  - green_gain_4
+  - green_gain_6
+  - green_gain_3
+  - green_gain_1
+  - blue_gain_2
+  - blue_gain_3
+  - blue_gain_1
+captures:
+- values:
+    model: blue_gain_5
+  file: captures/320918de00e987cd_a2.nam
+- values:
+    model: blue_gain_4
+  file: captures/f3c964f293d0c57f_a2.nam
+- values:
+    model: blue_gain_6
+  file: captures/1e0b7f5f14a997ba_a2.nam
+- values:
+    model: green_gain_5
+  file: captures/f866377928f78b66_a2.nam
+- values:
+    model: green_gain_2
+  file: captures/5277bba986583bf6_a2.nam
+- values:
+    model: green_gain_4
+  file: captures/3b74aa7793add9f9_a2.nam
+- values:
+    model: green_gain_6
+  file: captures/a99eba2987249277_a2.nam
+- values:
+    model: green_gain_3
+  file: captures/3b2f743cf8994f5d_a2.nam
+- values:
+    model: green_gain_1
+  file: captures/ffdcf23cbadaa7f1_a2.nam
+- values:
+    model: blue_gain_2
+  file: captures/830d0fa358f39f31_a2.nam
+- values:
+    model: blue_gain_3
+  file: captures/86b528a6b6a6d5a1_a2.nam
+- values:
+    model: blue_gain_1
+  file: captures/ca101a1af4a78a06_a2.nam

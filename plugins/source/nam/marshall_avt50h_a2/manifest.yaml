@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_marshall_avt50h_a2
+display_name: AVT50H
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/52421
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - avt50h_hg_midcut
+  - avt50h_hg_trebcut
+  - avt50h_hg_basscut
+  - avt50h_hg_dimed
+captures:
+- values:
+    model: avt50h_hg_midcut
+  file: captures/h8bwwazpnee_a2.nam
+- values:
+    model: avt50h_hg_trebcut
+  file: captures/og9vq3bhnsa_a2.nam
+- values:
+    model: avt50h_hg_basscut
+  file: captures/q0c95j3y2cl_a2.nam
+- values:
+    model: avt50h_hg_dimed
+  file: captures/u0ypd0qod6k_a2.nam

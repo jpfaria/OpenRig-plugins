@@ -1,0 +1,35 @@
+manifest_version: 1
+id: nam_zvex_box_of_rock_a2
+display_name: ZVEX Box of Rock
+brand: zvex
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/28894
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 1_box_of_rock_vol_7_tone_1_drive_1
+  - 2_box_of_rock_vol_7_tone_3_drive_3
+  - 3_box_of_rock_vol_7_tone_5_drive_5
+  - 4_box_of_rock_vol_7_tone_7_drive_7
+  - 5_box_of_rock_vol_7_tone_9_drive_9
+captures:
+- values:
+    model: 1_box_of_rock_vol_7_tone_1_drive_1
+  file: captures/c7xihu3qejo_a2.nam
+- values:
+    model: 2_box_of_rock_vol_7_tone_3_drive_3
+  file: captures/1accwubecf_a2.nam
+- values:
+    model: 3_box_of_rock_vol_7_tone_5_drive_5
+  file: captures/kxq7ydw639j_a2.nam
+- values:
+    model: 4_box_of_rock_vol_7_tone_7_drive_7
+  file: captures/96ism27btp4_a2.nam
+- values:
+    model: 5_box_of_rock_vol_7_tone_9_drive_9
+  file: captures/s27b7rczyij_a2.nam

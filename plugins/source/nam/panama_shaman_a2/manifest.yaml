@@ -1,0 +1,79 @@
+manifest_version: 1
+id: nam_panama_shaman_a2
+display_name: Shaman
+brand: panama
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/32981
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - panama_shaman_clean_g3_v5
+  - panama_shaman_hg_g7_v7
+  - panama_shaman_od_g5_v7
+  - panama_shaman_crunch_g1_5_v7
+  - panama_shaman_crunch_g5_v7
+  - panama_shaman_crunch_g3_v7
+  - panama_shaman_crunch_g8_v8
+  - panama_shaman_clean_g7_v7
+  - panama_shaman_clean_g5_v5
+  - panama_shaman_crunch_g7_v7
+  - panama_shaman_hg_g3_v7
+  - panama_shaman_od_g1_5_v7
+  - panama_shaman_od_g7_v7
+  - panama_shaman_od_g3_v7
+  - panama_shaman_clean_g9_v5
+  - panama_shaman_clean_g7_v5
+captures:
+- values:
+    model: panama_shaman_clean_g3_v5
+  file: captures/pdozx0xu7o9_a2.nam
+- values:
+    model: panama_shaman_hg_g7_v7
+  file: captures/cy2pf2r9r5l_a2.nam
+- values:
+    model: panama_shaman_od_g5_v7
+  file: captures/o07u6yik5s_a2.nam
+- values:
+    model: panama_shaman_crunch_g1_5_v7
+  file: captures/n5n3eqvyq2_a2.nam
+- values:
+    model: panama_shaman_crunch_g5_v7
+  file: captures/dksy2v5yeip_a2.nam
+- values:
+    model: panama_shaman_crunch_g3_v7
+  file: captures/9jx45afueae_a2.nam
+- values:
+    model: panama_shaman_crunch_g8_v8
+  file: captures/st48rmwwub8_a2.nam
+- values:
+    model: panama_shaman_clean_g7_v7
+  file: captures/gkwar8m4ei5_a2.nam
+- values:
+    model: panama_shaman_clean_g5_v5
+  file: captures/drjbv3ofgna_a2.nam
+- values:
+    model: panama_shaman_crunch_g7_v7
+  file: captures/wsvr2dx6gw_a2.nam
+- values:
+    model: panama_shaman_hg_g3_v7
+  file: captures/kv9zhhvuv5s_a2.nam
+- values:
+    model: panama_shaman_od_g1_5_v7
+  file: captures/xh64s24a86_a2.nam
+- values:
+    model: panama_shaman_od_g7_v7
+  file: captures/tspf608zzmp_a2.nam
+- values:
+    model: panama_shaman_od_g3_v7
+  file: captures/d6go47cmngq_a2.nam
+- values:
+    model: panama_shaman_clean_g9_v5
+  file: captures/cameftppjw9_a2.nam
+- values:
+    model: panama_shaman_clean_g7_v5
+  file: captures/vyxduvqjs9_a2.nam

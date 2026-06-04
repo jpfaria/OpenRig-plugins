@@ -1,0 +1,108 @@
+manifest_version: 1
+id: nam_marshall_jvm_a2
+display_name: JVM
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/67945
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mrsh410h_ch3_midgain1_di
+  - mrsh410h_ch2_lowgain1_di
+  - mrsh410h_ch3_lowgain1_di
+  - mrsh410h_ch1_maxon808_highgain1_di
+  - mrsh410h_ch4_maxon808_lowgain1_di
+  - mrsh410h_ch1_maxon808_lowgain4_di
+  - mrsh410h_ch1_maxon808_midgain2_di
+  - mrsh410h_ch2_maxon808_highgain2_di
+  - mrsh410h_ch1_highgain3_di
+  - mrsh410h_ch4_maxon808_highgain1_di
+  - mrsh410h_ch2_maxon808_lowgain2_di
+  - mrsh410h_ch1_lowgain2_di
+  - mrsh410h_ch4_maxon808_midgain1_di
+  - mrsh410h_ch3_maxon808_midgain1_di
+  - mrsh410h_ch2_highgain3_di
+  - mrsh410h_ch3_highgain1_di
+  - mrsh410h_ch3_maxon808_highgain1_di
+  - mrsh410h_ch4_highgain1_di
+  - mrsh410h_ch4_midgain1_di
+  - mrsh410h_ch2_midgain2_di
+  - mrsh410h_ch3_maxon808_lowgain1_di
+  - mrsh410h_ch2_maxon808_midgain1_di
+  - mrsh410h_ch4_lowgain1_di
+captures:
+- values:
+    model: mrsh410h_ch3_midgain1_di
+  file: captures/w6888o1c5ne_a2.nam
+- values:
+    model: mrsh410h_ch2_lowgain1_di
+  file: captures/gu90ewtapgc_a2.nam
+- values:
+    model: mrsh410h_ch3_lowgain1_di
+  file: captures/oer8nu5y6z_a2.nam
+- values:
+    model: mrsh410h_ch1_maxon808_highgain1_di
+  file: captures/30u54decl3f_a2.nam
+- values:
+    model: mrsh410h_ch4_maxon808_lowgain1_di
+  file: captures/wozyabsxb5_a2.nam
+- values:
+    model: mrsh410h_ch1_maxon808_lowgain4_di
+  file: captures/55rgzbl1nvg_a2.nam
+- values:
+    model: mrsh410h_ch1_maxon808_midgain2_di
+  file: captures/voth1x55yvn_a2.nam
+- values:
+    model: mrsh410h_ch2_maxon808_highgain2_di
+  file: captures/roflz15nw5i_a2.nam
+- values:
+    model: mrsh410h_ch1_highgain3_di
+  file: captures/e6s9jquht8e_a2.nam
+- values:
+    model: mrsh410h_ch4_maxon808_highgain1_di
+  file: captures/nu3166q8gvl_a2.nam
+- values:
+    model: mrsh410h_ch2_maxon808_lowgain2_di
+  file: captures/ea446y6g21r_a2.nam
+- values:
+    model: mrsh410h_ch1_lowgain2_di
+  file: captures/eipm109vlj4_a2.nam
+- values:
+    model: mrsh410h_ch4_maxon808_midgain1_di
+  file: captures/6o0vfrwa4gj_a2.nam
+- values:
+    model: mrsh410h_ch3_maxon808_midgain1_di
+  file: captures/14egpc40u0d_a2.nam
+- values:
+    model: mrsh410h_ch2_highgain3_di
+  file: captures/23gqy85unmr_a2.nam
+- values:
+    model: mrsh410h_ch3_highgain1_di
+  file: captures/5ro2hmy0hwp_a2.nam
+- values:
+    model: mrsh410h_ch3_maxon808_highgain1_di
+  file: captures/k6qcjw9x2uq_a2.nam
+- values:
+    model: mrsh410h_ch4_highgain1_di
+  file: captures/u94l1o0t2y_a2.nam
+- values:
+    model: mrsh410h_ch4_midgain1_di
+  file: captures/760s9dtbc0c_a2.nam
+- values:
+    model: mrsh410h_ch2_midgain2_di
+  file: captures/mjuu9agfhc_a2.nam
+- values:
+    model: mrsh410h_ch3_maxon808_lowgain1_di
+  file: captures/wzxbtslfnj_a2.nam
+- values:
+    model: mrsh410h_ch2_maxon808_midgain1_di
+  file: captures/if3uk3wx16r_a2.nam
+- values:
+    model: mrsh410h_ch4_lowgain1_di
+  file: captures/jxoie2f0m6h_a2.nam

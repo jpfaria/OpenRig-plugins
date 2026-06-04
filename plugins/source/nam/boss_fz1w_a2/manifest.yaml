@@ -1,0 +1,48 @@
+manifest_version: 1
+id: nam_boss_fz1w_a2
+display_name: FZ-1W Fuzz
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/26513
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - fz_1w_modern_l02_t05_f02
+  - fz_1w_vintage_l02_t05_f02
+  - fz_1w_modern_l02_t05_f07
+  - fz_1w_modern_l02_t05_f11
+  - fz_1w_modern_l02_t05_f05
+  - fz_1w_vintage_l02_t05_f05
+  - fz_1w_vintage_l02_t05_f07
+  - fz_1w_vintage_l02_t05_f11
+captures:
+- values:
+    model: fz_1w_modern_l02_t05_f02
+  file: captures/y4s43lj18e_a2.nam
+- values:
+    model: fz_1w_vintage_l02_t05_f02
+  file: captures/y62on5l1uv_a2.nam
+- values:
+    model: fz_1w_modern_l02_t05_f07
+  file: captures/l18f4hm160p_a2.nam
+- values:
+    model: fz_1w_modern_l02_t05_f11
+  file: captures/x764hrle3y_a2.nam
+- values:
+    model: fz_1w_modern_l02_t05_f05
+  file: captures/l894qdw40bm_a2.nam
+- values:
+    model: fz_1w_vintage_l02_t05_f05
+  file: captures/wsqyoul86zf_a2.nam
+- values:
+    model: fz_1w_vintage_l02_t05_f07
+  file: captures/c0z2e064zae_a2.nam
+- values:
+    model: fz_1w_vintage_l02_t05_f11
+  file: captures/f1yw0xe90r8_a2.nam

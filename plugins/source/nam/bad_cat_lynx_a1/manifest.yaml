@@ -1,0 +1,17 @@
+manifest_version: 1
+id: nam_bad_cat_lynx_a1
+display_name: bad cat lynx
+brand: bad_cat
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: cab
+  display_name: Cab
+  values:
+  - marshall_1960a_v30
+captures:
+- values:
+    cab: marshall_1960a_v30
+  file: captures/bad_cat_lynx_cab_marshall_1960a_v30_4.nam

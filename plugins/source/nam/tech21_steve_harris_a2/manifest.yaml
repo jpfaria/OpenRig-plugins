@@ -1,0 +1,19 @@
+manifest_version: 1
+id: nam_tech21_steve_harris_a2
+display_name: Steve Harris SH-1
+brand: tech21
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/42103
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - tech_21_steve_harris_sh1
+captures:
+- values:
+    model: tech_21_steve_harris_sh1
+  file: captures/u640sl4k9ld_a2.nam

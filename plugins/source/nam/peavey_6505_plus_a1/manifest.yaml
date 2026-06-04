@@ -1,0 +1,30 @@
+manifest_version: 1
+id: nam_peavey_6505_plus_a1
+display_name: 6505 Plus
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - red
+  - red_hm2w
+  - red_maxon
+  - green_maxon
+captures:
+- values:
+    preset: red
+  file: captures/peavey_6505_red_ch.nam
+- values:
+    preset: red_hm2w
+  file: captures/peavey_6505_red_ch_boss_hm_2w.nam
+- values:
+    preset: red_maxon
+  file: captures/peavey_6505_red_ch_maxon_st9pro.nam
+- values:
+    preset: green_maxon
+  file: captures/peavey_6505_green_ch_maxon_st9pro.nam

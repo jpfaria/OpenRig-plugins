@@ -1,0 +1,23 @@
+manifest_version: 1
+id: nam_vemuram_jan_ray_a2
+display_name: Jan Ray
+brand: vemuram
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30452
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - janrayma_v9g5b11t13
+  - janrayma_v9g9b11t13
+captures:
+- values:
+    model: janrayma_v9g5b11t13
+  file: captures/oidepz29y1d_a2.nam
+- values:
+    model: janrayma_v9g9b11t13
+  file: captures/kymjpbd64j_a2.nam

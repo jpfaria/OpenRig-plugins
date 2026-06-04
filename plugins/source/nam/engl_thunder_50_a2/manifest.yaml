@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_engl_thunder_50_a2
+display_name: Thunder 50
+brand: engl
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64137
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - engl_thunder_50_head_fx_loop_out_lead7_gain3_b5_m5_t5
+captures:
+- values:
+    model: engl_thunder_50_head_fx_loop_out_lead7_gain3_b5_m5_t5
+  file: captures/4898gc7rxlz_a2.nam

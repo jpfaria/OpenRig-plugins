@@ -1,0 +1,53 @@
+manifest_version: 1
+id: nam_chase_bliss_automatone_a1
+display_name: Chase Bliss Automatone
+brand: chase_bliss
+output_gain_db: 5.5387535
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - '00'
+  - '01'
+  - '02'
+  - '03'
+  - '04'
+  - '05'
+  - '06'
+  - '07'
+  - '08'
+  - '09'
+captures:
+- values:
+    tone: '00'
+  file: captures/pre_mkii_00.nam
+- values:
+    tone: '01'
+  file: captures/pre_mkii_01.nam
+- values:
+    tone: '02'
+  file: captures/pre_mkii_02.nam
+- values:
+    tone: '03'
+  file: captures/pre_mkii_03.nam
+- values:
+    tone: '04'
+  file: captures/pre_mkii_04.nam
+- values:
+    tone: '05'
+  file: captures/pre_mkii_05.nam
+- values:
+    tone: '06'
+  file: captures/pre_mkii_06.nam
+- values:
+    tone: '07'
+  file: captures/pre_mkii_07.nam
+- values:
+    tone: '08'
+  file: captures/pre_mkii_08.nam
+- values:
+    tone: '09'
+  file: captures/pre_mkii_09.nam

@@ -1,0 +1,40 @@
+manifest_version: 1
+id: nam_friedman_ss_100_v1_a2
+display_name: SS 100 V1
+brand: friedman
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6357
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - slammin_fman_ss_magic7_new_s
+  - slammin_fman_ss_steve2_new_s
+  - slammin_fman_ss_plexi_new_s
+  - slammin_fman_ss_sam_new_s
+  - slammin_fman_ss_steve_new_s
+  - slammin_fman_ss_scoop_new_s
+captures:
+- values:
+    model: slammin_fman_ss_magic7_new_s
+  file: captures/b52231c79be470f9_a2.nam
+- values:
+    model: slammin_fman_ss_steve2_new_s
+  file: captures/57bc7cc546570f08_a2.nam
+- values:
+    model: slammin_fman_ss_plexi_new_s
+  file: captures/8d6099343e68a2ec_a2.nam
+- values:
+    model: slammin_fman_ss_sam_new_s
+  file: captures/a0f7b6bdd07cd79d_a2.nam
+- values:
+    model: slammin_fman_ss_steve_new_s
+  file: captures/15c4818b32ae6a49_a2.nam
+- values:
+    model: slammin_fman_ss_scoop_new_s
+  file: captures/6c418b527b7994d5_a2.nam

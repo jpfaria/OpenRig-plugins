@@ -1,0 +1,152 @@
+manifest_version: 1
+id: nam_mesa_boogie_badlander_50_a2
+display_name: Badlander 50
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/35162
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mb_bl50_cr_g_6_t_4_m_4_b_5_p_4_ma_3
+  - mb_bl50_cr_g_6_t_5_m_4_b_4_p_4_ma_3
+  - mb_bl50_cr_g_6_t_5_m_5_b_5_p_5_ma_3
+  - mb_bl50_cr_g_6_t_4_m_6_b_6_p_6_ma_3
+  - mb_bl50_cr_g_6_t_2_m_7_b_6_p_5_ma_3
+  - mb_bl50_cr_g_6_t_4_m_5_b_5_p_6_ma_3
+  - mb_bl50_cr_g_6_t_4_m_3_b_4_p_5_ma_3
+  - mb_bl50_cr_g_6_t_4_m_2_b_6_p_4_ma_3
+  - mb_bl50_cr_g_7_t_4_m_4_b_5_p_4_ma_3
+  - mb_bl50_cr_g_8_t_4_m_4_b_5_p_6_ma_3
+  - mb_bl50_cr_g_8_t_5_m_5_b_5_p_5_ma_3
+  - mb_bl50_cr_g_7_t_4_m_2_b_6_p_4_ma_3
+  - mb_bl50_cr_g_7_t_4_m_5_b_5_p_6_ma_3
+  - mb_bl50_cr_g_7_t_5_m_6_b_6_p_6_ma_3
+  - mb_bl50_cr_g_8_t_4_m_6_b_6_p_6_ma_3
+  - mb_bl50_cr_g_8_t_5_m_4_b_4_p_4_ma_3
+  - mb_bl50_cr_g_10_t_2_m_7_b_6_p_5_ma_3
+  - mb_bl50_cr_g_10_t_4_m_6_b_6_p_6_ma_3
+  - mb_bl50_cr_g_10_t_5_m_4_b_4_p_4_ma_3
+  - mb_bl50_cr_g_8_t_4_m_3_b_4_p_5_ma_3
+  - mb_bl50_cr_g_8_t_4_m_2_b_6_p_4_ma_3
+  - mb_bl50_cr_g_8_t_4_m_5_b_5_p_6_ma_3
+  - mb_bl50_cr_g_10_t_4_m_2_b_6_p_4_ma_3
+  - mb_bl50_cr_g_7_t_5_m_4_b_4_p_4_ma_3
+  - mb_bl50_cr_g_8_t_4_m_4_b_5_p_4_ma_3_xstd
+  - mb_bl50_cr_g_7_t_4_m_3_b_4_p_5_ma_3
+  - mb_bl50_cr_g_10_t_4_m_5_b_5_p_5_ma_3
+  - mb_bl50_cr_g_6_t_3_m_7_b_6_p_5_ma_3_xstd
+  - mb_bl50_cr_g_7_t_5_m_5_b_5_p_5_ma_3
+  - mb_bl50_cr_g_7_t_2_m_7_b_6_p_5_ma_3
+  - mb_bl50_cr_g_8_t_2_m_7_b_6_p_5_ma_3
+  - mb_bl50_cr_g_10_t_4_m_4_b_5_p_4_ma_3
+  - mb_bl50_cr_g_10_t_4_m_3_b_4_p_5_ma_3
+  - mb_bl50_cr_g_10_t_5_m_5_b_5_p_5_ma_3
+captures:
+- values:
+    model: mb_bl50_cr_g_6_t_4_m_4_b_5_p_4_ma_3
+  file: captures/uqnfptb4kk_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_5_m_4_b_4_p_4_ma_3
+  file: captures/wxh53a7ehnl_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_5_m_5_b_5_p_5_ma_3
+  file: captures/9ohd4zkgpe7_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_4_m_6_b_6_p_6_ma_3
+  file: captures/gw82ly7j1gu_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_2_m_7_b_6_p_5_ma_3
+  file: captures/zik0jtotcif_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_4_m_5_b_5_p_6_ma_3
+  file: captures/9x9r84dqo5s_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_4_m_3_b_4_p_5_ma_3
+  file: captures/xp15axeqd5b_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_4_m_2_b_6_p_4_ma_3
+  file: captures/93k8t5b0lde_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_4_m_4_b_5_p_4_ma_3
+  file: captures/nfhijfyqkme_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_4_m_4_b_5_p_6_ma_3
+  file: captures/8xqib3tcx7a_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_5_m_5_b_5_p_5_ma_3
+  file: captures/0mxybl0zw0h_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_4_m_2_b_6_p_4_ma_3
+  file: captures/c6hwo5ods4i_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_4_m_5_b_5_p_6_ma_3
+  file: captures/4daibmxfu5t_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_5_m_6_b_6_p_6_ma_3
+  file: captures/ktw1garyvlr_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_4_m_6_b_6_p_6_ma_3
+  file: captures/pjvj81wkyin_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_5_m_4_b_4_p_4_ma_3
+  file: captures/nge647vmr9_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_2_m_7_b_6_p_5_ma_3
+  file: captures/153btnjq4vx_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_4_m_6_b_6_p_6_ma_3
+  file: captures/aw4ocwzwubv_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_5_m_4_b_4_p_4_ma_3
+  file: captures/7or9wfopl08_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_4_m_3_b_4_p_5_ma_3
+  file: captures/xevd9gso4fl_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_4_m_2_b_6_p_4_ma_3
+  file: captures/09noxg2ezj65_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_4_m_5_b_5_p_6_ma_3
+  file: captures/bd8z7w5sstf_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_4_m_2_b_6_p_4_ma_3
+  file: captures/czvysjmazar_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_5_m_4_b_4_p_4_ma_3
+  file: captures/ovo9cujjfha_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_4_m_4_b_5_p_4_ma_3_xstd
+  file: captures/oh9ev86mom9_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_4_m_3_b_4_p_5_ma_3
+  file: captures/4uv5wn6o1er_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_4_m_5_b_5_p_5_ma_3
+  file: captures/qlmdqz4u1cd_a2.nam
+- values:
+    model: mb_bl50_cr_g_6_t_3_m_7_b_6_p_5_ma_3_xstd
+  file: captures/d9lh1dnvs7u_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_5_m_5_b_5_p_5_ma_3
+  file: captures/n5o14zu8h99_a2.nam
+- values:
+    model: mb_bl50_cr_g_7_t_2_m_7_b_6_p_5_ma_3
+  file: captures/aoro73ahj3e_a2.nam
+- values:
+    model: mb_bl50_cr_g_8_t_2_m_7_b_6_p_5_ma_3
+  file: captures/bd0982gypl5_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_4_m_4_b_5_p_4_ma_3
+  file: captures/adskwsrd24s_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_4_m_3_b_4_p_5_ma_3
+  file: captures/ralanvqhnrd_a2.nam
+- values:
+    model: mb_bl50_cr_g_10_t_5_m_5_b_5_p_5_ma_3
+  file: captures/kgyl9d4d8a_a2.nam

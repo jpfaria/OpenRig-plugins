@@ -1,0 +1,208 @@
+manifest_version: 1
+id: nam_boss_hm2_mij_a2
+display_name: Heavy Metal HM-2 MiJ
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/58569
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - boss_hm_2_lv_10_l_7_h_5_d_0
+  - boss_hm_2_lv_10_l_7_h_5_d_2
+  - boss_hm_2_lv_5_l_7_h_5_d_0
+  - boss_hm_2_lv_7_l_5_h_8_d_2
+  - boss_hm_2_lv_5_l_10_h_10_d_2
+  - boss_hm_2_lv_10_l_10_h_10_d_2
+  - boss_hm_2_lv_10_l_9_h_9_d_5
+  - boss_hm_2_lv_10_l_5_h_8_d_5
+  - boss_hm_2_lv_10_l_7_h_5_d_10
+  - boss_hm_2_lv_10_l_10_h_10_d_0
+  - boss_hm_2_lv_5_l_9_h_9_d_0
+  - boss_hm_2_lv_7_l_9_h_9_d_2
+  - boss_hm_2_lv_10_l_9_h_9_d_0
+  - boss_hm_2_lv_10_l_5_h_8_d_0
+  - boss_hm_2_lv_10_l_5_h_8_d_10
+  - boss_hm_2_lv_7_l_7_h_5_d_2
+  - boss_hm_2_lv_5_l_5_h_8_d_5
+  - boss_hm_2_lv_5_l_5_h_8_d_10
+  - boss_hm_2_lv_5_l_10_h_10_d_5
+  - boss_hm_2_lv_10_l_10_h_10_d_5
+  - boss_hm_2_lv_7_l_10_h_10_d_0
+  - boss_hm_2_lv_5_l_5_h_8_d_2
+  - boss_hm_2_lv_5_l_10_h_10_d_0
+  - boss_hm_2_lv_7_l_9_h_9_d_5
+  - boss_hm_2_lv_10_l_5_h_8_d_2
+  - boss_hm_2_lv_10_l_7_h_5_d_5
+  - boss_hm_2_lv_5_l_7_h_5_d_5
+  - boss_hm_2_lv_7_l_7_h_5_d_5
+  - boss_hm_2_lv_5_l_5_h_8_d_0
+  - boss_hm_2_lv_7_l_10_h_10_d_5
+  - boss_hm_2_lv_7_l_10_h_10_d_10
+  - boss_hm_2_lv_10_l_9_h_9_d_2
+  - boss_hm_2_lv_7_l_5_h_8_d_5
+  - boss_hm_2_lv_7_l_5_h_8_d_0
+  - boss_hm_2_lv_7_l_5_h_8_d_10
+  - boss_hm_2_lv_5_l_9_h_9_d_5
+  - boss_hm_2_lv_5_l_10_h_10_d_10
+  - boss_hm_2_lv_10_l_9_h_9_d_10
+  - boss_hm_2_lv_7_l_7_h_5_d_10
+  - boss_hm_2_lv_5_l_9_h_9_d_10
+  - boss_hm_2_lv_5_l_7_h_5_d_2
+  - boss_hm_2_lv_7_l_9_h_9_d_0
+  - boss_hm_2_lv_5_l_9_h_9_d_2
+  - boss_hm_2_lv_7_l_10_h_10_d_2
+  - boss_hm_2_lv_5_l_7_h_5_d_10
+  - boss_hm_2_lv_7_l_9_h_9_d_10
+  - boss_hm_2_lv_7_l_7_h_5_d_0
+  - boss_hm_2_lv_10_l_10_h_10_d_10
+captures:
+- values:
+    model: boss_hm_2_lv_10_l_7_h_5_d_0
+  file: captures/0dp2cg9yw1th_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_7_h_5_d_2
+  file: captures/fxo61bsloia_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_7_h_5_d_0
+  file: captures/20ecwqcrj45_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_5_h_8_d_2
+  file: captures/13h6pzzmgtgp_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_10_h_10_d_2
+  file: captures/3umejjhadba_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_10_h_10_d_2
+  file: captures/8tsdhnt6nap_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_9_h_9_d_5
+  file: captures/8bx0pn9dqjx_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_5_h_8_d_5
+  file: captures/2iuso2a3gq5_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_7_h_5_d_10
+  file: captures/050arf6mxl3m_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_10_h_10_d_0
+  file: captures/2eo75mzfsfs_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_9_h_9_d_0
+  file: captures/vk3cr8bofie_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_9_h_9_d_2
+  file: captures/qatrg1q07b_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_9_h_9_d_0
+  file: captures/pgd8mlue0lt_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_5_h_8_d_0
+  file: captures/wnb49z0ktzp_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_5_h_8_d_10
+  file: captures/zg248rn9sy_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_7_h_5_d_2
+  file: captures/edjmtpt8ha_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_5_h_8_d_5
+  file: captures/so1ctd82gaf_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_5_h_8_d_10
+  file: captures/h8f34y6lmfs_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_10_h_10_d_5
+  file: captures/l22ixq1n0lo_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_10_h_10_d_5
+  file: captures/vwtbzc622ug_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_10_h_10_d_0
+  file: captures/5k6vhtg4zme_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_5_h_8_d_2
+  file: captures/o5dwoz94onc_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_10_h_10_d_0
+  file: captures/ih9qlll1cj8_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_9_h_9_d_5
+  file: captures/hithsstxyik_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_5_h_8_d_2
+  file: captures/kbtyz5jshy_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_7_h_5_d_5
+  file: captures/8osmyzb3unk_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_7_h_5_d_5
+  file: captures/c9e1xq8ywc8_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_7_h_5_d_5
+  file: captures/03rkbcpsovrb_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_5_h_8_d_0
+  file: captures/f0hhoej2u9_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_10_h_10_d_5
+  file: captures/nm6mev4n0a_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_10_h_10_d_10
+  file: captures/f7o7bgqy2lo_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_9_h_9_d_2
+  file: captures/t7u8b8gltpk_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_5_h_8_d_5
+  file: captures/5fpqqphbuus_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_5_h_8_d_0
+  file: captures/spxsw237th_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_5_h_8_d_10
+  file: captures/rpl5sm5r3ne_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_9_h_9_d_5
+  file: captures/py22mxe32hi_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_10_h_10_d_10
+  file: captures/5bxcubc1upd_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_9_h_9_d_10
+  file: captures/k9s9vfxbf39_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_7_h_5_d_10
+  file: captures/c7pzniz1b5_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_9_h_9_d_10
+  file: captures/v0mh3nii6mh_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_7_h_5_d_2
+  file: captures/y75bidigkyf_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_9_h_9_d_0
+  file: captures/xlkagi3m4ak_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_9_h_9_d_2
+  file: captures/m5k046m7s8_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_10_h_10_d_2
+  file: captures/p6z8jmqrt0b_a2.nam
+- values:
+    model: boss_hm_2_lv_5_l_7_h_5_d_10
+  file: captures/dww8v6yv2mn_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_9_h_9_d_10
+  file: captures/7bxyh3wa3i_a2.nam
+- values:
+    model: boss_hm_2_lv_7_l_7_h_5_d_0
+  file: captures/ed68sgs9qtk_a2.nam
+- values:
+    model: boss_hm_2_lv_10_l_10_h_10_d_10
+  file: captures/7ed6bf2vym3_a2.nam

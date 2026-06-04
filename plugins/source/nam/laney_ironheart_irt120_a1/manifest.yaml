@@ -1,0 +1,29 @@
+manifest_version: 1
+id: nam_laney_ironheart_irt120_a1
+display_name: Ironheart IRT120
+brand: laney
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - irt120_crunchy_red
+  - irt120_lead_red
+  - irt120_growl_red
+  - irt120_doom
+captures:
+- values:
+    preset: irt120_crunchy_red
+  file: captures/irt120_crunchy_red.nam
+- values:
+    preset: irt120_lead_red
+  file: captures/irt120_lead_red.nam
+- values:
+    preset: irt120_growl_red
+  file: captures/irt120_growl_red.nam
+- values:
+    preset: irt120_doom
+  file: captures/irt120_doom.nam

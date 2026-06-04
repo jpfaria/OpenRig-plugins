@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_laney_vh100r_a1
+display_name: VH100R
+brand: laney
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - neutral
+  - treble
+  - neutral_drive
+- name: gain
+  display_name: Gain
+  values:
+  - g5
+  - g7
+  - g8
+  - g10
+captures:
+- values:
+    gain: g5
+    voicing: neutral
+  file: captures/vh100r_channel_2_hi_neutral_g5.nam
+- values:
+    gain: g7
+    voicing: neutral
+  file: captures/vh100r_channel_2_hi_neutral_g7.nam
+- values:
+    gain: g8
+    voicing: neutral
+  file: captures/vh100r_channel_2_hi_neutral_g8.nam
+- values:
+    gain: g8
+    voicing: treble
+  file: captures/vh100r_channel_2_hi_treble_g8.nam
+- values:
+    gain: g10
+    voicing: treble
+  file: captures/vh100r_channel_2_hi_treble_g10.nam
+- values:
+    gain: g7
+    voicing: neutral_drive
+  file: captures/vh100r_channel_2_hi_neutral_drive_g7.nam
+- values:
+    gain: g8
+    voicing: neutral_drive
+  file: captures/vh100r_channel_2_hi_neutral_drive_g8.nam
+- values:
+    gain: g10
+    voicing: neutral_drive
+  file: captures/vh100r_channel_2_hi_neutral_drive_g10.nam

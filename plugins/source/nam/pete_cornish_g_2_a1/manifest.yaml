@@ -1,0 +1,172 @@
+manifest_version: 1
+id: nam_pete_cornish_g_2_a1
+display_name: Pete Cornish G-2
+brand: pete_cornish
+output_gain_db: 4.0373726
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: sustain
+  display_name: Sustain
+  values:
+  - 0.0
+  - 2.0
+  - 4.0
+  - 6.0
+  - 8.0
+  - 10.0
+- name: tone
+  display_name: Tone
+  values:
+  - 0.0
+  - 2.0
+  - 4.0
+  - 6.0
+  - 8.0
+  - 10.0
+captures:
+- values:
+    sustain: 0.0
+    tone: 0.0
+  file: captures/tts_cornish_g2_s00_t00_v10_a1.nam
+- values:
+    sustain: 0.0
+    tone: 2.0
+  file: captures/tts_cornish_g2_s00_t02_v10_a1.nam
+- values:
+    sustain: 0.0
+    tone: 4.0
+  file: captures/tts_cornish_g2_s00_t04_v10_a1.nam
+- values:
+    sustain: 0.0
+    tone: 6.0
+  file: captures/tts_cornish_g2_s00_t06_v10_a1.nam
+- values:
+    sustain: 0.0
+    tone: 8.0
+  file: captures/tts_cornish_g2_s00_t08_v10_a1.nam
+- values:
+    sustain: 0.0
+    tone: 10.0
+  file: captures/tts_cornish_g2_s00_t10_v10_a1.nam
+- values:
+    sustain: 2.0
+    tone: 0.0
+  file: captures/tts_cornish_g2_s02_t00_v10_a1.nam
+- values:
+    sustain: 2.0
+    tone: 2.0
+  file: captures/tts_cornish_g2_s02_t02_v10_a1.nam
+- values:
+    sustain: 2.0
+    tone: 4.0
+  file: captures/tts_cornish_g2_s02_t04_v10_a1.nam
+- values:
+    sustain: 2.0
+    tone: 6.0
+  file: captures/tts_cornish_g2_s02_t06_v10_a1.nam
+- values:
+    sustain: 2.0
+    tone: 8.0
+  file: captures/tts_cornish_g2_s02_t08_v10_a1.nam
+- values:
+    sustain: 2.0
+    tone: 10.0
+  file: captures/tts_cornish_g2_s02_t10_v10_a1.nam
+- values:
+    sustain: 4.0
+    tone: 0.0
+  file: captures/tts_cornish_g2_s04_t00_v10_a1.nam
+- values:
+    sustain: 4.0
+    tone: 2.0
+  file: captures/tts_cornish_g2_s04_t02_v10_a1.nam
+- values:
+    sustain: 4.0
+    tone: 4.0
+  file: captures/tts_cornish_g2_s04_t04_v10_a1.nam
+- values:
+    sustain: 4.0
+    tone: 6.0
+  file: captures/tts_cornish_g2_s04_t06_v10_a1.nam
+- values:
+    sustain: 4.0
+    tone: 8.0
+  file: captures/tts_cornish_g2_s04_t08_v10_a1.nam
+- values:
+    sustain: 4.0
+    tone: 10.0
+  file: captures/tts_cornish_g2_s04_t10_v10_a1.nam
+- values:
+    sustain: 6.0
+    tone: 0.0
+  file: captures/tts_cornish_g2_s06_t00_v10_a1.nam
+- values:
+    sustain: 6.0
+    tone: 2.0
+  file: captures/tts_cornish_g2_s06_t02_v10_a1.nam
+- values:
+    sustain: 6.0
+    tone: 4.0
+  file: captures/tts_cornish_g2_s06_t04_v10_a1.nam
+- values:
+    sustain: 6.0
+    tone: 6.0
+  file: captures/tts_cornish_g2_s06_t06_v10_a1.nam
+- values:
+    sustain: 6.0
+    tone: 8.0
+  file: captures/tts_cornish_g2_s06_t08_v10_a1.nam
+- values:
+    sustain: 6.0
+    tone: 10.0
+  file: captures/tts_cornish_g2_s06_t10_v10_a1.nam
+- values:
+    sustain: 8.0
+    tone: 0.0
+  file: captures/tts_cornish_g2_s08_t00_v10_a1.nam
+- values:
+    sustain: 8.0
+    tone: 2.0
+  file: captures/tts_cornish_g2_s08_t02_v10_a1.nam
+- values:
+    sustain: 8.0
+    tone: 4.0
+  file: captures/tts_cornish_g2_s08_t04_v10_a1.nam
+- values:
+    sustain: 8.0
+    tone: 6.0
+  file: captures/tts_cornish_g2_s08_t06_v10_a1.nam
+- values:
+    sustain: 8.0
+    tone: 8.0
+  file: captures/tts_cornish_g2_s08_t08_v10_a1.nam
+- values:
+    sustain: 8.0
+    tone: 10.0
+  file: captures/tts_cornish_g2_s08_t10_v10_a1.nam
+- values:
+    sustain: 10.0
+    tone: 0.0
+  file: captures/tts_cornish_g2_s10_t00_v10_a1.nam
+- values:
+    sustain: 10.0
+    tone: 2.0
+  file: captures/tts_cornish_g2_s10_t02_v10_a1.nam
+- values:
+    sustain: 10.0
+    tone: 4.0
+  file: captures/tts_cornish_g2_s10_t04_v10_a1.nam
+- values:
+    sustain: 10.0
+    tone: 6.0
+  file: captures/tts_cornish_g2_s10_t06_v10_a1.nam
+- values:
+    sustain: 10.0
+    tone: 8.0
+  file: captures/tts_cornish_g2_s10_t08_v10_a1.nam
+- values:
+    sustain: 10.0
+    tone: 10.0
+  file: captures/tts_cornish_g2_s10_t10_v10_a1.nam

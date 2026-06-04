@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_joyo_bantamp_meteor_a1
+display_name: Bantamp Meteor
+description: Neural capture of the Joyo Bantamp Meteor — compact modern high-gain amp.
+brand: joyo
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - clean_gain
+  - low_crunch
+  - crunch
+  - high_gain
+  - high_gain_808
+  - maxed
+captures:
+- values:
+    voicing: clean
+  file: captures/clean.nam
+- values:
+    voicing: clean_gain
+  file: captures/clean_gain.nam
+- values:
+    voicing: low_crunch
+  file: captures/low_crunch.nam
+- values:
+    voicing: crunch
+  file: captures/crunch.nam
+- values:
+    voicing: high_gain
+  file: captures/high_gain.nam
+- values:
+    voicing: high_gain_808
+  file: captures/high_gain_808.nam
+- values:
+    voicing: maxed
+  file: captures/maxed.nam

@@ -1,0 +1,43 @@
+manifest_version: 1
+id: nam_marshall_6100_30th_anniversary_a1
+display_name: 6100 - 30th anniversary
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - low
+  - mid
+  - high
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - isocecles
+  - boss_sd1
+captures:
+- values:
+    boost: boss_sd1
+    gain: low
+  file: captures/marshall_6100_channel2_crunch_a_low_gain_boss_sd1.nam
+- values:
+    boost: isocecles
+    gain: mid
+  file: captures/marshall_6100_channel2_crunch_a_mid_gain_isocecles.nam
+- values:
+    boost: isocecles
+    gain: high
+  file: captures/marshall_6100_channel2_crunch_a_high_gain_isocecles.nam
+- values:
+    boost: boss_sd1
+    gain: high
+  file: captures/marshall_6100_channel2_crunch_a_high_gain_boss_sd1.nam
+- values:
+    boost: none
+    gain: high
+  file: captures/marshall_6100_channel2_crunch_a_high_gain_no_boost.nam

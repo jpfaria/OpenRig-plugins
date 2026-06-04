@@ -1,0 +1,239 @@
+manifest_version: 1
+id: nam_nobels_odr_1_a2
+display_name: Nobels ODR-1
+brand: nobels
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/60039
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - bc_d3_t6_v8
+  - bc_d4_t6_v8
+  - fl_d8_t5_v8
+  - fl_d4_t5_v8
+  - fl_d3_t5_v8
+  - bc_d5_t7_v8
+  - bc_d6_t6_v8
+  - fl_d3_t6_v8
+  - fl_d5_t7_v8
+  - fl_d5_t6_v8
+  - fl_d3_t4_v8
+  - fl_d7_t5_v8
+  - bc_d4_t4_v8
+  - bc_d9_t4_v8
+  - bc_d3_t5_v8
+  - fl_d4_t7_v8
+  - fl_d9_t7_v8
+  - bc_d5_t6_v8
+  - bc_d5_t4_v8
+  - bc_d7_t5_v8
+  - fl_d5_t4_v8
+  - fl_d9_t4_v8
+  - fl_d9_t6_v8
+  - fl_d9_t5_v8
+  - fl_d4_t6_v8
+  - fl_d6_t7_v8
+  - bc_d8_t5_v8
+  - bc_d4_t7_v8
+  - bc_d8_t7_v8
+  - bc_d3_t7_v8
+  - bc_d3_t4_v8
+  - fl_d4_t4_v8
+  - fl_d6_t4_v8
+  - bc_d7_t4_v8
+  - bc_d6_t5_v8
+  - fl_d8_t7_v8
+  - fl_d3_t7_v8
+  - bc_d7_t6_v8
+  - bc_d8_t6_v8
+  - bc_d8_t4_v8
+  - fl_d5_t5_v8
+  - bc_d7_t7_v8
+  - bc_d9_t5_v8
+  - bc_d5_t5_v8
+  - bc_d9_t6_v8
+  - fl_d7_t6_v8
+  - fl_d7_t4_v8
+  - bc_d6_t7_v8
+  - fl_d8_t6_v8
+  - fl_d6_t5_v8
+  - bc_d4_t5_v8
+  - fl_d8_t4_v8
+  - bc_d6_t4_v8
+  - bc_d9_t7_v8
+  - fl_d7_t7_v8
+  - fl_d6_t6_v8
+captures:
+- values:
+    model: bc_d3_t6_v8
+  file: captures/ndk19pym4n_a2.nam
+- values:
+    model: bc_d4_t6_v8
+  file: captures/7zwydmgoszs_a2.nam
+- values:
+    model: fl_d8_t5_v8
+  file: captures/dtb68jmddzj_a2.nam
+- values:
+    model: fl_d4_t5_v8
+  file: captures/x0bbb3vgm_a2.nam
+- values:
+    model: fl_d3_t5_v8
+  file: captures/aczg83w58fd_a2.nam
+- values:
+    model: bc_d5_t7_v8
+  file: captures/ftbv0eh47wu_a2.nam
+- values:
+    model: bc_d6_t6_v8
+  file: captures/y98fpb2gje_a2.nam
+- values:
+    model: fl_d3_t6_v8
+  file: captures/bxfwxgwfknv_a2.nam
+- values:
+    model: fl_d5_t7_v8
+  file: captures/sa0k433uz1_a2.nam
+- values:
+    model: fl_d5_t6_v8
+  file: captures/8q4140lw3pn_a2.nam
+- values:
+    model: fl_d3_t4_v8
+  file: captures/4qfh9qlhsl4_a2.nam
+- values:
+    model: fl_d7_t5_v8
+  file: captures/gonf1a6u2zm_a2.nam
+- values:
+    model: bc_d4_t4_v8
+  file: captures/3ptsz2lgrd9_a2.nam
+- values:
+    model: bc_d9_t4_v8
+  file: captures/sr1br1sr9sq_a2.nam
+- values:
+    model: bc_d3_t5_v8
+  file: captures/py8ryxgpvbe_a2.nam
+- values:
+    model: fl_d4_t7_v8
+  file: captures/vmttg15f8j_a2.nam
+- values:
+    model: fl_d9_t7_v8
+  file: captures/tivw50cw4ti_a2.nam
+- values:
+    model: bc_d5_t6_v8
+  file: captures/so2larm8g8_a2.nam
+- values:
+    model: bc_d5_t4_v8
+  file: captures/8kg1z6rmyd_a2.nam
+- values:
+    model: bc_d7_t5_v8
+  file: captures/emj4x9mw6uj_a2.nam
+- values:
+    model: fl_d5_t4_v8
+  file: captures/mi0pii3xxxe_a2.nam
+- values:
+    model: fl_d9_t4_v8
+  file: captures/meoewedk0qk_a2.nam
+- values:
+    model: fl_d9_t6_v8
+  file: captures/y5uei9jkv2c_a2.nam
+- values:
+    model: fl_d9_t5_v8
+  file: captures/ex2j964qrss_a2.nam
+- values:
+    model: fl_d4_t6_v8
+  file: captures/wa3rkem4njf_a2.nam
+- values:
+    model: fl_d6_t7_v8
+  file: captures/fwkiixnu03_a2.nam
+- values:
+    model: bc_d8_t5_v8
+  file: captures/bql7lz8kbr_a2.nam
+- values:
+    model: bc_d4_t7_v8
+  file: captures/k8srek358vf_a2.nam
+- values:
+    model: bc_d8_t7_v8
+  file: captures/9mxvd702f45_a2.nam
+- values:
+    model: bc_d3_t7_v8
+  file: captures/1tkrc4wjtmv_a2.nam
+- values:
+    model: bc_d3_t4_v8
+  file: captures/qc5gmi0es9d_a2.nam
+- values:
+    model: fl_d4_t4_v8
+  file: captures/u3ppyd8r7w_a2.nam
+- values:
+    model: fl_d6_t4_v8
+  file: captures/ljlpz3oic4_a2.nam
+- values:
+    model: bc_d7_t4_v8
+  file: captures/prqml7v09dd_a2.nam
+- values:
+    model: bc_d6_t5_v8
+  file: captures/33mileym8y6_a2.nam
+- values:
+    model: fl_d8_t7_v8
+  file: captures/bsdfru4cdb_a2.nam
+- values:
+    model: fl_d3_t7_v8
+  file: captures/qn7cq8r0za_a2.nam
+- values:
+    model: bc_d7_t6_v8
+  file: captures/0xz4fekrqafb_a2.nam
+- values:
+    model: bc_d8_t6_v8
+  file: captures/fbj2lf9l2vs_a2.nam
+- values:
+    model: bc_d8_t4_v8
+  file: captures/7tj34cj2geh_a2.nam
+- values:
+    model: fl_d5_t5_v8
+  file: captures/g46ssst63ws_a2.nam
+- values:
+    model: bc_d7_t7_v8
+  file: captures/ry6y3haoueb_a2.nam
+- values:
+    model: bc_d9_t5_v8
+  file: captures/cd5kxkwi25s_a2.nam
+- values:
+    model: bc_d5_t5_v8
+  file: captures/7pv7rywusrj_a2.nam
+- values:
+    model: bc_d9_t6_v8
+  file: captures/gt5s39t5mp_a2.nam
+- values:
+    model: fl_d7_t6_v8
+  file: captures/9g3jx8o3t2q_a2.nam
+- values:
+    model: fl_d7_t4_v8
+  file: captures/u14pwdqb04m_a2.nam
+- values:
+    model: bc_d6_t7_v8
+  file: captures/10yt7la6h_a2.nam
+- values:
+    model: fl_d8_t6_v8
+  file: captures/lout7gr2uzl_a2.nam
+- values:
+    model: fl_d6_t5_v8
+  file: captures/673dwntklfq_a2.nam
+- values:
+    model: bc_d4_t5_v8
+  file: captures/x4gthke4kz_a2.nam
+- values:
+    model: fl_d8_t4_v8
+  file: captures/c38zgbso1cp_a2.nam
+- values:
+    model: bc_d6_t4_v8
+  file: captures/o5h7ulm6rub_a2.nam
+- values:
+    model: bc_d9_t7_v8
+  file: captures/ier51l1arxe_a2.nam
+- values:
+    model: fl_d7_t7_v8
+  file: captures/p3txtuhbzg_a2.nam
+- values:
+    model: fl_d6_t6_v8
+  file: captures/r1uacg9bje7_a2.nam

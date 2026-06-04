@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_award_session_blues_baby_22_a2
+display_name: Blues Baby 22
+brand: award-session
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6132
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - awardsession_bluesbaby22_clean
+  - awardsession_bluesbaby22_crunch
+  - awardsession_bluesbaby22_od
+captures:
+- values:
+    model: awardsession_bluesbaby22_clean
+  file: captures/a0edb06da0b22d63_a2.nam
+- values:
+    model: awardsession_bluesbaby22_crunch
+  file: captures/a5a9390d74d07250_a2.nam
+- values:
+    model: awardsession_bluesbaby22_od
+  file: captures/fa0ad8f260886c99_a2.nam

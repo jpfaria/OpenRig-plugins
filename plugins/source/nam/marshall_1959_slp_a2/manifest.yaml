@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_marshall_1959_slp_a2
+display_name: 1959 SLP
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/43379
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - marshall_1959_slp_dookie_mod_ch1_gain_at_9_o_clock
+  - marshall_1959_slp_dookie_mod_ch1_gain_at_3_o_clock
+  - marshall_1959_slp_dookie_mod_ch1_gain_at_noon
+  - marshall_1959_slp_dookie_mod_ch1_gain_at_max
+captures:
+- values:
+    model: marshall_1959_slp_dookie_mod_ch1_gain_at_9_o_clock
+  file: captures/5kmishqrc1f_a2.nam
+- values:
+    model: marshall_1959_slp_dookie_mod_ch1_gain_at_3_o_clock
+  file: captures/jyvh0wd2bk_a2.nam
+- values:
+    model: marshall_1959_slp_dookie_mod_ch1_gain_at_noon
+  file: captures/zvduhfukrol_a2.nam
+- values:
+    model: marshall_1959_slp_dookie_mod_ch1_gain_at_max
+  file: captures/yjyewoevvm_a2.nam

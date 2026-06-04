@@ -1,0 +1,42 @@
+manifest_version: 1
+id: nam_dumble_steel_string_singer_a1
+display_name: Steel String Singer
+brand: dumble
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - drive
+- name: variant
+  display_name: Variant
+  values:
+  - default
+  - '1'
+  - '2'
+  - full
+captures:
+- values:
+    channel: clean
+    variant: default
+  file: captures/dumble_steel_ss_clean.nam
+- values:
+    channel: clean
+    variant: full
+  file: captures/dumble_steel_ss_clean_full.nam
+- values:
+    channel: drive
+    variant: '1'
+  file: captures/dumble_steel_ss_drive_1.nam
+- values:
+    channel: drive
+    variant: '2'
+  file: captures/dumble_steel_ss_drive_2.nam
+- values:
+    channel: drive
+    variant: full
+  file: captures/dumble_steel_ss_drive_full.nam

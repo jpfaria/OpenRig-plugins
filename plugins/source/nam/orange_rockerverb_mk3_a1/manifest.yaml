@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_orange_rockerverb_mk3_a1
+display_name: Rockerverb MK3
+brand: orange
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - hi_gain
+  - crunch
+captures:
+- values:
+    preset: hi_gain
+  file: captures/rockerverb_mk3_hi_gain.nam
+- values:
+    preset: crunch
+  file: captures/rockerverb_mk3_crunch.nam

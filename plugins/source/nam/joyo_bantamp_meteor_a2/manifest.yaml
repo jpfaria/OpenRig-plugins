@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_joyo_bantamp_meteor_a2
+display_name: Bantamp Meteor
+brand: joyo
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/44987
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - meteor_ii_gain_2o_tone_2o_volume_10o
+  - meteor_ii_gain_11o_tone_2o_volume_10o
+  - meteor_ii_gain_10o_tone_2o_volume_10o
+  - meteor_ii_gain_3_5o_tone_2o_volume_10o
+  - meteor_ii_gain_9o_tone_2o_volume_10o
+  - meteor_ii_gain_3o_tone_2o_volume_10o
+  - meteor_ii_gain_12o_tone_2o_volume_10o
+  - meteor_ii_gain_full_tone_2o_volume_10o
+  - meteor_ii_gain_12_5o_tone_2o_volume_10o
+  - meteor_ii_gain_1o_tone_2o_volume_10o
+captures:
+- values:
+    model: meteor_ii_gain_2o_tone_2o_volume_10o
+  file: captures/x1h50gxhac_a2.nam
+- values:
+    model: meteor_ii_gain_11o_tone_2o_volume_10o
+  file: captures/hhz568uloz6_a2.nam
+- values:
+    model: meteor_ii_gain_10o_tone_2o_volume_10o
+  file: captures/j0t0g42u8rg_a2.nam
+- values:
+    model: meteor_ii_gain_3_5o_tone_2o_volume_10o
+  file: captures/b4lv0etkkbl_a2.nam
+- values:
+    model: meteor_ii_gain_9o_tone_2o_volume_10o
+  file: captures/a2xmqpl0tgc_a2.nam
+- values:
+    model: meteor_ii_gain_3o_tone_2o_volume_10o
+  file: captures/vuazvsfeb1g_a2.nam
+- values:
+    model: meteor_ii_gain_12o_tone_2o_volume_10o
+  file: captures/ogpnapterus_a2.nam
+- values:
+    model: meteor_ii_gain_full_tone_2o_volume_10o
+  file: captures/b9wc29e8nbs_a2.nam
+- values:
+    model: meteor_ii_gain_12_5o_tone_2o_volume_10o
+  file: captures/erqas6u5pc_a2.nam
+- values:
+    model: meteor_ii_gain_1o_tone_2o_volume_10o
+  file: captures/bhpjzb7dql7_a2.nam

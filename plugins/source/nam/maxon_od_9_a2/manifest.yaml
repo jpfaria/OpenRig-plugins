@@ -1,0 +1,55 @@
+manifest_version: 1
+id: nam_maxon_od_9_a2
+display_name: Maxon OD-9
+brand: maxon
+output_gain_db: -4.0931911
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/24637
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - maxon_od_9_vintage_rc4558p_a_a_d2_t5_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d5_t5_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d10_t7_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d8_t7_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d2_t7_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d10_t5_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d0_t5_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d5_t7_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d8_t5_l10
+  - maxon_od_9_vintage_rc4558p_a_a_d0_t7_l10
+captures:
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d2_t5_l10
+  file: captures/47930a5a0b195c54_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d5_t5_l10
+  file: captures/c69d6e7232383663_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d10_t7_l10
+  file: captures/e2275e5b5a84300f_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d8_t7_l10
+  file: captures/08c0c056dcd1ddf0_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d2_t7_l10
+  file: captures/56b4d5fa1ff3ac7a_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d10_t5_l10
+  file: captures/f4a0259198fc9798_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d0_t5_l10
+  file: captures/284791f46b11335b_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d5_t7_l10
+  file: captures/49a8bec29b87a1c2_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d8_t5_l10
+  file: captures/68185565e7fedceb_a2.nam
+- values:
+    model: maxon_od_9_vintage_rc4558p_a_a_d0_t7_l10
+  file: captures/6f94b6d8c8d6eca3_a2.nam

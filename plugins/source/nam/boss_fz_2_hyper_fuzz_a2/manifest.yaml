@@ -1,0 +1,36 @@
+manifest_version: 1
+id: nam_boss_fz_2_hyper_fuzz_a2
+display_name: Boss FZ-2 Hyper Fuzz
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1740
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - fz_2_fuzz_i_l8_b7_t5_g5
+  - fz_2_fuzz_ii_l8_b7_t5_g10
+  - fz_2_boost_b8_t6_g10
+  - fz_2_fuzz_i_l8_b7_t5_g10
+  - fz_2_fuzz_ii_l8_b7_t5_g5
+captures:
+- values:
+    model: fz_2_fuzz_i_l8_b7_t5_g5
+  file: captures/7645929641365dab_a2.nam
+- values:
+    model: fz_2_fuzz_ii_l8_b7_t5_g10
+  file: captures/f4200000ff20c76f_a2.nam
+- values:
+    model: fz_2_boost_b8_t6_g10
+  file: captures/821ac15f3398dba0_a2.nam
+- values:
+    model: fz_2_fuzz_i_l8_b7_t5_g10
+  file: captures/5933d0f85096e998_a2.nam
+- values:
+    model: fz_2_fuzz_ii_l8_b7_t5_g5
+  file: captures/c74c201e9cf1d7c6_a2.nam

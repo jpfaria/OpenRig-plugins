@@ -1,0 +1,29 @@
+manifest_version: 1
+id: nam_mesaboogie_290_simul_class_a1
+display_name: MesaBoogie 290 Simul-Class
+brand: mesaboogie
+output_gain_db: 9.1613045
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - 8_2
+  - 8_5
+  - 13_8
+  - d_6_0
+captures:
+- values:
+    drive: 8_2
+  file: captures/slammin_mb_290_6l6gc_8_2.nam
+- values:
+    drive: 8_5
+  file: captures/slammin_mb_290_6l6gc_8_5.nam
+- values:
+    drive: 13_8
+  file: captures/slammin_mb_290_6l6gc_13_8.nam
+- values:
+    drive: d_6_0
+  file: captures/slammin_mb_290_6l6gc_d_6_0.nam
