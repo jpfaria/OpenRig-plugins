@@ -9,71 +9,84 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5494
 parameters:
-- name: model
-  display_name: Model
+- name: transistor
+  display_name: Transistor
   values:
-  - sunface_nkt_red_dot_lg_v7_f10_c0
-  - sunface_bc109_v7_f10_c10
-  - sunface_bart_v8_f10_c8
-  - sunface_rca_v7_f10_c5
-  - sunface_rca_v7_f10_c3
-  - sunface_bc109_v7_f10_c5
-  - sunface_bc109_v7_f10_c7
-  - sunface_nkt_red_dot_lg_v7_f10_c10
-  - sunface_bart_v8_f10_c3
-  - sunface_nkt_red_dot_lg_v7_f10_c3
-  - sunface_rca_v7_f10_c8
-  - sunface_nkt_red_dot_lg_v7_f10_c7
-  - sunface_bart_v8_f10_c5
-  - sunface_bc109_v7_f10_c3
-  - sunface_nkt_red_dot_lg_v7_f10_c5
-  - sunface_rca_v7_f10_c10
+  - nkt_red_dot
+  - bc109
+  - bart
+  - rca
+- name: compression
+  display_name: Compression
+  values:
+  - 0
+  - 3
+  - 5
+  - 7
+  - 8
+  - 10
 captures:
 - values:
-    model: sunface_nkt_red_dot_lg_v7_f10_c0
+    compression: 0
+    transistor: nkt_red_dot
   file: captures/3cb859ccd179652d_a2.nam
 - values:
-    model: sunface_bc109_v7_f10_c10
+    compression: 10
+    transistor: bc109
   file: captures/3ea44916a42eda65_a2.nam
 - values:
-    model: sunface_bart_v8_f10_c8
+    compression: 8
+    transistor: bart
   file: captures/856b3b5a8b3a00d4_a2.nam
 - values:
-    model: sunface_rca_v7_f10_c5
+    compression: 5
+    transistor: rca
   file: captures/0676c16c9afe8f2e_a2.nam
 - values:
-    model: sunface_rca_v7_f10_c3
+    compression: 3
+    transistor: rca
   file: captures/a5d7205cc1ae2a36_a2.nam
 - values:
-    model: sunface_bc109_v7_f10_c5
+    compression: 5
+    transistor: bc109
   file: captures/251969a25e572f13_a2.nam
 - values:
-    model: sunface_bc109_v7_f10_c7
+    compression: 7
+    transistor: bc109
   file: captures/457528255cce8d63_a2.nam
 - values:
-    model: sunface_nkt_red_dot_lg_v7_f10_c10
+    compression: 10
+    transistor: nkt_red_dot
   file: captures/347dfb235d378234_a2.nam
 - values:
-    model: sunface_bart_v8_f10_c3
+    compression: 3
+    transistor: bart
   file: captures/05131604d9836d10_a2.nam
 - values:
-    model: sunface_nkt_red_dot_lg_v7_f10_c3
+    compression: 3
+    transistor: nkt_red_dot
   file: captures/db2d2a2082d17901_a2.nam
 - values:
-    model: sunface_rca_v7_f10_c8
+    compression: 8
+    transistor: rca
   file: captures/e8af13842b577ce9_a2.nam
 - values:
-    model: sunface_nkt_red_dot_lg_v7_f10_c7
+    compression: 7
+    transistor: nkt_red_dot
   file: captures/cc1ec73d8f7697e5_a2.nam
 - values:
-    model: sunface_bart_v8_f10_c5
+    compression: 5
+    transistor: bart
   file: captures/c2d5f2af565763c5_a2.nam
 - values:
-    model: sunface_bc109_v7_f10_c3
+    compression: 3
+    transistor: bc109
   file: captures/b45bf21a20f86adb_a2.nam
 - values:
-    model: sunface_nkt_red_dot_lg_v7_f10_c5
+    compression: 5
+    transistor: nkt_red_dot
   file: captures/b93053a4f054aac8_a2.nam
 - values:
-    model: sunface_rca_v7_f10_c10
+    compression: 10
+    transistor: rca
   file: captures/fb41b26bd9bd9be8_a2.nam

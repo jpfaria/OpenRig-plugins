@@ -12,12 +12,12 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - soldano_poulin_linear_eq_post
-  - soldano_poulin
+  - poulin
+  - poulin_eq_post
 captures:
 - values:
-    model: soldano_poulin_linear_eq_post
-  file: captures/ssrcdscn7z_a2.nam
-- values:
-    model: soldano_poulin
+    model: poulin
   file: captures/oxwuzh83cu_a2.nam
+- values:
+    model: poulin_eq_post
+  file: captures/ssrcdscn7z_a2.nam

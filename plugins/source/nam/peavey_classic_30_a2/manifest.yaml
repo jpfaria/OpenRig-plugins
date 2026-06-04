@@ -10,23 +10,31 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/28906
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - peavey_classic_30_overdrive
-  - peavey_classic_30_clean_boss_od_3
-  - peavey_classic_30_overdrive_ibanez_ts_9
-  - peavey_classic_30_clean
+  - clean
+  - overdrive
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - boss_od3
+  - ts9
 captures:
 - values:
-    model: peavey_classic_30_overdrive
+    boost: none
+    voicing: overdrive
   file: captures/dxe29ztaut7_a2.nam
 - values:
-    model: peavey_classic_30_clean_boss_od_3
+    boost: boss_od3
+    voicing: clean
   file: captures/p9e7omjvka_a2.nam
 - values:
-    model: peavey_classic_30_overdrive_ibanez_ts_9
+    boost: ts9
+    voicing: overdrive
   file: captures/von0hjizte_a2.nam
 - values:
-    model: peavey_classic_30_clean
+    boost: none
+    voicing: clean
   file: captures/lgym5gldp6c_a2.nam

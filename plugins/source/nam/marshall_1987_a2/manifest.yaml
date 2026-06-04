@@ -10,35 +10,46 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/48523
 parameters:
-- name: model
-  display_name: Model
+- name: eq
+  display_name: EQ
   values:
-  - 10_10_10_10_10_00
-  - 05_05_05_05_02_02
-  - 05_05_05_05_05_05
-  - 10_10_10_10_10_10
-  - 05_05_05_05_08_08
-  - 05_05_05_05_10_10
-  - 10_10_10_10_00_10
+  - eq5
+  - eq10
+- name: volume
+  display_name: Volume
+  values:
+  - vol2
+  - vol5
+  - vol8
+  - vol10
+  - ch1
+  - ch2
 captures:
 - values:
-    model: 10_10_10_10_10_00
+    eq: eq10
+    volume: ch1
   file: captures/216ht7nqpm5_a2.nam
 - values:
-    model: 05_05_05_05_02_02
-  file: captures/kn43nfloptf_a2.nam
-- values:
-    model: 05_05_05_05_05_05
-  file: captures/ixan01ivld_a2.nam
-- values:
-    model: 10_10_10_10_10_10
+    eq: eq10
+    volume: vol10
   file: captures/rfbn0xnevbm_a2.nam
 - values:
-    model: 05_05_05_05_08_08
+    eq: eq10
+    volume: ch2
+  file: captures/6pr0hj9del_a2.nam
+- values:
+    eq: eq5
+    volume: vol2
+  file: captures/kn43nfloptf_a2.nam
+- values:
+    eq: eq5
+    volume: vol5
+  file: captures/ixan01ivld_a2.nam
+- values:
+    eq: eq5
+    volume: vol8
   file: captures/flh4f5owr7s_a2.nam
 - values:
-    model: 05_05_05_05_10_10
+    eq: eq5
+    volume: vol10
   file: captures/jfjr4wy3zbn_a2.nam
-- values:
-    model: 10_10_10_10_00_10
-  file: captures/6pr0hj9del_a2.nam

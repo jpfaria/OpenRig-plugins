@@ -9,15 +9,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30452
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - janrayma_v9g5b11t13
-  - janrayma_v9g9b11t13
+  - g5
+  - g9
 captures:
 - values:
-    model: janrayma_v9g5b11t13
+    gain: g5
   file: captures/oidepz29y1d_a2.nam
 - values:
-    model: janrayma_v9g9b11t13
+    gain: g9
   file: captures/kymjpbd64j_a2.nam

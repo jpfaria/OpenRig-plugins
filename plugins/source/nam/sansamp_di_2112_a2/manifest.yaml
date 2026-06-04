@@ -9,55 +9,55 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5989
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - di_2112_john_entwistle_leeds_style
-  - di_2112_custom2
-  - di_2112_radiohead_national_anthem
-  - di_2112_john_paul_jones_heartbreaker
-  - di_2112_yyz_jazz_bass_style
-  - di_2112_custom3
-  - di_2112_deep_saturation_maxed
-  - di_2112_les_claypool_style
-  - di_2112_jack_bruce
-  - di_2112_custom1
-  - di_2112_geddy_lee_roundabout
-  - di_2112_geddy_lee_standard
+  - geddy_standard
+  - geddy_roundabout
+  - yyz
+  - jack_bruce
+  - jpj
+  - les_claypool
+  - entwistle
+  - radiohead
+  - deep_sat
+  - custom1
+  - custom2
+  - custom3
 captures:
 - values:
-    model: di_2112_john_entwistle_leeds_style
-  file: captures/ef9a436fbf122611_a2.nam
+    preset: geddy_standard
+  file: captures/045707a744fb2afc_a2.nam
 - values:
-    model: di_2112_custom2
-  file: captures/b1213e9c4a1bb833_a2.nam
-- values:
-    model: di_2112_radiohead_national_anthem
-  file: captures/bea4a3f4306ec712_a2.nam
-- values:
-    model: di_2112_john_paul_jones_heartbreaker
-  file: captures/35b7a20cfcb261a4_a2.nam
-- values:
-    model: di_2112_yyz_jazz_bass_style
-  file: captures/062bfec066f1e2bb_a2.nam
-- values:
-    model: di_2112_custom3
-  file: captures/e6ee70fdc67f41c8_a2.nam
-- values:
-    model: di_2112_deep_saturation_maxed
-  file: captures/3f79e7ceec508e4d_a2.nam
-- values:
-    model: di_2112_les_claypool_style
-  file: captures/c18a98aef49ae470_a2.nam
-- values:
-    model: di_2112_jack_bruce
-  file: captures/41aaadc7dcbe8325_a2.nam
-- values:
-    model: di_2112_custom1
-  file: captures/aaa463cdd9e5c972_a2.nam
-- values:
-    model: di_2112_geddy_lee_roundabout
+    preset: geddy_roundabout
   file: captures/e8859d5f65ab4fce_a2.nam
 - values:
-    model: di_2112_geddy_lee_standard
-  file: captures/045707a744fb2afc_a2.nam
+    preset: yyz
+  file: captures/062bfec066f1e2bb_a2.nam
+- values:
+    preset: jack_bruce
+  file: captures/41aaadc7dcbe8325_a2.nam
+- values:
+    preset: jpj
+  file: captures/35b7a20cfcb261a4_a2.nam
+- values:
+    preset: les_claypool
+  file: captures/c18a98aef49ae470_a2.nam
+- values:
+    preset: entwistle
+  file: captures/ef9a436fbf122611_a2.nam
+- values:
+    preset: radiohead
+  file: captures/bea4a3f4306ec712_a2.nam
+- values:
+    preset: deep_sat
+  file: captures/3f79e7ceec508e4d_a2.nam
+- values:
+    preset: custom1
+  file: captures/aaa463cdd9e5c972_a2.nam
+- values:
+    preset: custom2
+  file: captures/b1213e9c4a1bb833_a2.nam
+- values:
+    preset: custom3
+  file: captures/e6ee70fdc67f41c8_a2.nam

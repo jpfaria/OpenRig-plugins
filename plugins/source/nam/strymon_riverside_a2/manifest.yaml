@@ -9,11 +9,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/4977
 parameters:
-- name: model
-  display_name: Model
+- name: tone
+  display_name: Tone
   values:
-  - strymon_riverside_1000_epochs
+  - default
 captures:
 - values:
-    model: strymon_riverside_1000_epochs
+    tone: default
   file: captures/87ed8b78641068b4_a2.nam

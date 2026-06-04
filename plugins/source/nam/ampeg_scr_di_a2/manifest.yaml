@@ -13,44 +13,44 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - scr_di_ultra_hi_on
-  - scr_di_v65_b65_m50_t65_scr_on_d50_b100
-  - scr_di_ultra_lo_on
-  - scr_di
-  - scr_di_ultra_lo_hi_on_scrambler_on_50_b_50
-  - scr_di_v65_b65_m50_t65_scr_on_d100_b100
-  - scr_di_ultra_lo_hi_on_scrambler_on_100_b_100
-  - scr_di_v65_b65_m50_t65
-  - scr_di_ultra_lo_hi_on_scrambler_on_dr100_bl_50
-  - scr_di_ultra_lo_hi_on
+  - standard
+  - ultra_lo
+  - ultra_hi
+  - ultra_lo_hi
+  - scrambler_d50_b50
+  - scrambler_d100_b100
+  - scrambler_d100_b50
+  - eq_v65_b65_m50_t65
+  - eq_scrambler_d50_b100
+  - eq_scrambler_d100_b100
 captures:
 - values:
-    model: scr_di_ultra_hi_on
-  file: captures/tbkzgxeeyx_a2.nam
-- values:
-    model: scr_di_v65_b65_m50_t65_scr_on_d50_b100
-  file: captures/0neaszm6h0o_a2.nam
-- values:
-    model: scr_di_ultra_lo_on
-  file: captures/itku0xnz2tb_a2.nam
-- values:
-    model: scr_di
+    model: standard
   file: captures/9ga1h2p4h3r_a2.nam
 - values:
-    model: scr_di_ultra_lo_hi_on_scrambler_on_50_b_50
+    model: ultra_lo
+  file: captures/itku0xnz2tb_a2.nam
+- values:
+    model: ultra_hi
+  file: captures/tbkzgxeeyx_a2.nam
+- values:
+    model: ultra_lo_hi
+  file: captures/va567abhwk_a2.nam
+- values:
+    model: scrambler_d50_b50
   file: captures/vegor7gz2ye_a2.nam
 - values:
-    model: scr_di_v65_b65_m50_t65_scr_on_d100_b100
-  file: captures/e3cbobu6o5t_a2.nam
-- values:
-    model: scr_di_ultra_lo_hi_on_scrambler_on_100_b_100
+    model: scrambler_d100_b100
   file: captures/o8bf9be3nmh_a2.nam
 - values:
-    model: scr_di_v65_b65_m50_t65
-  file: captures/8hf3zq23j2_a2.nam
-- values:
-    model: scr_di_ultra_lo_hi_on_scrambler_on_dr100_bl_50
+    model: scrambler_d100_b50
   file: captures/cke6ikrfow_a2.nam
 - values:
-    model: scr_di_ultra_lo_hi_on
-  file: captures/va567abhwk_a2.nam
+    model: eq_v65_b65_m50_t65
+  file: captures/8hf3zq23j2_a2.nam
+- values:
+    model: eq_scrambler_d50_b100
+  file: captures/0neaszm6h0o_a2.nam
+- values:
+    model: eq_scrambler_d100_b100
+  file: captures/e3cbobu6o5t_a2.nam

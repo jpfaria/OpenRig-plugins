@@ -9,15 +9,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/59052
 parameters:
-- name: model
-  display_name: Model
+- name: boost
+  display_name: Boost
   values:
-  - dover_da_50_horizon_devices_tokyo_drive_vivahatex
-  - dover_da_50_vivahatex
+  - clean
+  - boosted
 captures:
 - values:
-    model: dover_da_50_horizon_devices_tokyo_drive_vivahatex
-  file: captures/prpcl4lu42a_a2.nam
-- values:
-    model: dover_da_50_vivahatex
+    boost: clean
   file: captures/d0knx11gq2_a2.nam
+- values:
+    boost: boosted
+  file: captures/prpcl4lu42a_a2.nam

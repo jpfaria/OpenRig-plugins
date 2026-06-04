@@ -10,31 +10,39 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/43981
 parameters:
-- name: model
-  display_name: Model
+- name: boost
+  display_name: Boost
   values:
-  - marshall_dsl_20_drive_pre_pa_gain12
-  - marshall_dsl_20_drive_boost_pre_pa_gain10
-  - marshall_dsl_20_drive_boost_tight_pre_pa_gain10
-  - marshall_dsl_20_drive_boost_tight_pre_pa_gain12
-  - marshall_dsl_20_drive_pre_pa_gain10
-  - marshall_dsl_20_drive_boost_pre_pa_gain12
+  - off
+  - on
+  - tight
+- name: gain
+  display_name: Gain
+  values:
+  - g10
+  - g12
 captures:
 - values:
-    model: marshall_dsl_20_drive_pre_pa_gain12
+    boost: off
+    gain: g12
   file: captures/s42mudyv2zj_a2.nam
 - values:
-    model: marshall_dsl_20_drive_boost_pre_pa_gain10
-  file: captures/8qq9x5461t2_a2.nam
-- values:
-    model: marshall_dsl_20_drive_boost_tight_pre_pa_gain10
-  file: captures/yq1fwaqxwys_a2.nam
-- values:
-    model: marshall_dsl_20_drive_boost_tight_pre_pa_gain12
-  file: captures/c18b4lgvjyi_a2.nam
-- values:
-    model: marshall_dsl_20_drive_pre_pa_gain10
+    boost: off
+    gain: g10
   file: captures/dnoc22y5o6s_a2.nam
 - values:
-    model: marshall_dsl_20_drive_boost_pre_pa_gain12
+    boost: on
+    gain: g10
+  file: captures/8qq9x5461t2_a2.nam
+- values:
+    boost: on
+    gain: g12
   file: captures/okgqv4dpkbj_a2.nam
+- values:
+    boost: tight
+    gain: g10
+  file: captures/yq1fwaqxwys_a2.nam
+- values:
+    boost: tight
+    gain: g12
+  file: captures/c18b4lgvjyi_a2.nam

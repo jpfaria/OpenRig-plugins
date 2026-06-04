@@ -10,43 +10,74 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/36827
 parameters:
-- name: model
-  display_name: Model
+- name: drive
+  display_name: Drive
   values:
-  - ibanez_ts9_tube_screamer_drive_7_tone_7_level_9
-  - ibanez_ts9_tube_screamer_drive_2_tone_7_level_10
-  - ibanez_ts9_tube_screamer_drive_0_tone_6_level_6
-  - ibanez_ts9_tube_screamer_drive_8_tone_8_level_8
-  - ibanez_ts9_tube_screamer_drive_10_tone_9_level_7
-  - ibanez_ts9_tube_screamer_drive_8_tone_4_level_5
-  - ibanez_ts9_tube_screamer_drive_0_tone_7_level_7
-  - ibanez_ts9_tube_screamer_drive_7_tone_7_level_7
-  - ibanez_ts9_tube_screamer_drive_0_tone_9_level_9
+  - 0
+  - 2
+  - 7
+  - 8
+  - 10
+- name: tone
+  display_name: Tone
+  values:
+  - 4
+  - 6
+  - 7
+  - 8
+  - 9
+- name: level
+  display_name: Level
+  values:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 captures:
 - values:
-    model: ibanez_ts9_tube_screamer_drive_7_tone_7_level_9
+    drive: 7
+    level: 9
+    tone: 7
   file: captures/itu7imwb6c_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_2_tone_7_level_10
+    drive: 2
+    level: 10
+    tone: 7
   file: captures/746yyja6wrs_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_0_tone_6_level_6
+    drive: 0
+    level: 6
+    tone: 6
   file: captures/39amrfqu1mj_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_8_tone_8_level_8
+    drive: 8
+    level: 8
+    tone: 8
   file: captures/mvke3t7jcsk_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_10_tone_9_level_7
+    drive: 10
+    level: 7
+    tone: 9
   file: captures/l4kq1oztmsk_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_8_tone_4_level_5
+    drive: 8
+    level: 5
+    tone: 4
   file: captures/0i7e95mt1iae_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_0_tone_7_level_7
+    drive: 0
+    level: 7
+    tone: 7
   file: captures/hgq0drws0sl_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_7_tone_7_level_7
+    drive: 7
+    level: 7
+    tone: 7
   file: captures/hru6ayb72y_a2.nam
 - values:
-    model: ibanez_ts9_tube_screamer_drive_0_tone_9_level_9
+    drive: 0
+    level: 9
+    tone: 9
   file: captures/2jiahriw4g2_a2.nam

@@ -9,55 +9,55 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/52528
 parameters:
-- name: model
-  display_name: Model
+- name: character
+  display_name: Character
   values:
-  - velvet_katana_a_a_blues
-  - velvet_katana_a_a_rock
-  - velvet_katana_a_a_rock_2
-  - velvet_katana_a_a_blues_2
-  - velvet_katana_a_a_robben_2
-  - velvet_katana_a_a_fusion
-  - velvet_katana_a_a_robben_1
-  - velvet_katana_a_a_all_noon
-  - velvet_katana_a_a_crunch
-  - velvet_katana_a_a_edge
-  - velvet_katana_a_a_rock_bright
-  - velvet_katana_a_a_rock_warm
+  - blues
+  - blues_2
+  - rock
+  - rock_2
+  - rock_bright
+  - rock_warm
+  - robben_1
+  - robben_2
+  - fusion
+  - crunch
+  - edge
+  - all_noon
 captures:
 - values:
-    model: velvet_katana_a_a_blues
+    character: blues
   file: captures/w5dbv0b2w1e_a2.nam
 - values:
-    model: velvet_katana_a_a_rock
+    character: rock
   file: captures/2j9rifmylbb_a2.nam
 - values:
-    model: velvet_katana_a_a_rock_2
+    character: rock_2
   file: captures/axo2whskm2_a2.nam
 - values:
-    model: velvet_katana_a_a_blues_2
+    character: blues_2
   file: captures/ajpul5hb4x9_a2.nam
 - values:
-    model: velvet_katana_a_a_robben_2
+    character: robben_2
   file: captures/9k479uys5do_a2.nam
 - values:
-    model: velvet_katana_a_a_fusion
+    character: fusion
   file: captures/w0ez3ziepvp_a2.nam
 - values:
-    model: velvet_katana_a_a_robben_1
+    character: robben_1
   file: captures/i78lpf33r8q_a2.nam
 - values:
-    model: velvet_katana_a_a_all_noon
+    character: all_noon
   file: captures/6qheoolocy8_a2.nam
 - values:
-    model: velvet_katana_a_a_crunch
+    character: crunch
   file: captures/nbd94wot4pg_a2.nam
 - values:
-    model: velvet_katana_a_a_edge
+    character: edge
   file: captures/p7xijcougzg_a2.nam
 - values:
-    model: velvet_katana_a_a_rock_bright
+    character: rock_bright
   file: captures/gevcmav715w_a2.nam
 - values:
-    model: velvet_katana_a_a_rock_warm
+    character: rock_warm
   file: captures/ez8df5qzoyw_a2.nam

@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - darkglass_b7k_ultra_no_cab
+  - no_cab
 captures:
 - values:
-    model: darkglass_b7k_ultra_no_cab
+    model: no_cab
   file: captures/a32uluqipen_a2.nam

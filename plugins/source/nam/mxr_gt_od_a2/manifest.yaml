@@ -12,12 +12,12 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - gt_od_v1_hq
-  - gt_od_new_test_v1
+  - hq
+  - new_test
 captures:
 - values:
-    model: gt_od_v1_hq
+    model: hq
   file: captures/c7jy34xo2cv_a2.nam
 - values:
-    model: gt_od_new_test_v1
+    model: new_test
   file: captures/f47su75x7ri_a2.nam

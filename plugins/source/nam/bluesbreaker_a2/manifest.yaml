@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - marshall_bluesbreaker_pedal_setting1
+  - setting1
 captures:
 - values:
-    model: marshall_bluesbreaker_pedal_setting1
+    model: setting1
   file: captures/31aeae1256b36839_a2.nam

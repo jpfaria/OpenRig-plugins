@@ -12,56 +12,56 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - hiwatt_dr_103_vol3_bright
-  - hiwatt_dr103_vol8_bright
-  - hiwatt_dr_103_crancked
-  - hiwatt_dr103_bridged
-  - hiwatt_dr_103_clean_bright
-  - hiwatt_dr_103_vol5
-  - hiwatt_dr_103_crunch_bridged
-  - hiwatt_dr_103_ts808_archer_klon_high_gain
-  - hiwatt_dr_103_archer_klon_pushed
-  - hiwatt_dr_103_edgy_bridged
-  - hiwatt_dr_103_vol8
-  - hiwatt_dr_103_archer_klon_drive
-  - hiwatt_dr_103_vol3
+  - vol3_bright
+  - vol8_bright
+  - cranked
+  - bridged
+  - clean_bright
+  - vol5
+  - crunch_bridged
+  - ts808_klon
+  - klon_pushed
+  - edgy_bridged
+  - vol8
+  - klon_drive
+  - vol3
 captures:
 - values:
-    model: hiwatt_dr_103_vol3_bright
+    model: vol3_bright
   file: captures/20a0aedd9bec5b4f_a2.nam
 - values:
-    model: hiwatt_dr103_vol8_bright
+    model: vol8_bright
   file: captures/8da162a7bfcc736a_a2.nam
 - values:
-    model: hiwatt_dr_103_crancked
+    model: cranked
   file: captures/3a5c22ecb2da81fe_a2.nam
 - values:
-    model: hiwatt_dr103_bridged
+    model: bridged
   file: captures/66b14d554d3ea916_a2.nam
 - values:
-    model: hiwatt_dr_103_clean_bright
+    model: clean_bright
   file: captures/c11c5815c39c30f5_a2.nam
 - values:
-    model: hiwatt_dr_103_vol5
+    model: vol5
   file: captures/c33d40d10b5869c8_a2.nam
 - values:
-    model: hiwatt_dr_103_crunch_bridged
+    model: crunch_bridged
   file: captures/1f267e039dfdfdc2_a2.nam
 - values:
-    model: hiwatt_dr_103_ts808_archer_klon_high_gain
+    model: ts808_klon
   file: captures/53a8d701179cd8c4_a2.nam
 - values:
-    model: hiwatt_dr_103_archer_klon_pushed
+    model: klon_pushed
   file: captures/1d44e63745c56f00_a2.nam
 - values:
-    model: hiwatt_dr_103_edgy_bridged
+    model: edgy_bridged
   file: captures/33184d946ebda7cc_a2.nam
 - values:
-    model: hiwatt_dr_103_vol8
+    model: vol8
   file: captures/0ca198aa668af56c_a2.nam
 - values:
-    model: hiwatt_dr_103_archer_klon_drive
+    model: klon_drive
   file: captures/26d032215e750ea0_a2.nam
 - values:
-    model: hiwatt_dr_103_vol3
+    model: vol3
   file: captures/c9a54845bea79831_a2.nam

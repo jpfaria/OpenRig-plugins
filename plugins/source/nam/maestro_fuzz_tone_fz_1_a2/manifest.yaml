@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - maestro_fuzz_tone
+  - fuzz
 captures:
 - values:
-    model: maestro_fuzz_tone
+    model: fuzz
   file: captures/31ca59c8d9aa603b_a2.nam

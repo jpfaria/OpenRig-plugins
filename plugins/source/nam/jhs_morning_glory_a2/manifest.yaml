@@ -9,39 +9,48 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/57368
 parameters:
-- name: model
-  display_name: Model
+- name: drive
+  display_name: Drive
   values:
-  - morning_glory_v5_d6_t8
-  - morning_glory_v5_d8_t3
-  - morning_glory_v5_d4_t3
-  - morning_glory_v5_d6_t3
-  - morning_glory_v5_d4_t8
-  - morning_glory_v5_d2_t8
-  - morning_glory_v5_d2_t3
-  - morning_glory_v5_d8_t8
+  - 2.0
+  - 4.0
+  - 6.0
+  - 8.0
+- name: tone
+  display_name: Tone
+  values:
+  - 3.0
+  - 8.0
 captures:
 - values:
-    model: morning_glory_v5_d6_t8
+    drive: 6.0
+    tone: 8.0
   file: captures/brzkhwcysvt_a2.nam
 - values:
-    model: morning_glory_v5_d8_t3
+    drive: 8.0
+    tone: 3.0
   file: captures/py2ieynfx7c_a2.nam
 - values:
-    model: morning_glory_v5_d4_t3
+    drive: 4.0
+    tone: 3.0
   file: captures/1cwwsmkwsrk_a2.nam
 - values:
-    model: morning_glory_v5_d6_t3
+    drive: 6.0
+    tone: 3.0
   file: captures/dxc9s0onki_a2.nam
 - values:
-    model: morning_glory_v5_d4_t8
+    drive: 4.0
+    tone: 8.0
   file: captures/c13ngnitowr_a2.nam
 - values:
-    model: morning_glory_v5_d2_t8
+    drive: 2.0
+    tone: 8.0
   file: captures/isl2fhzq6bo_a2.nam
 - values:
-    model: morning_glory_v5_d2_t3
+    drive: 2.0
+    tone: 3.0
   file: captures/eoxjzhyomtl_a2.nam
 - values:
-    model: morning_glory_v5_d8_t8
+    drive: 8.0
+    tone: 8.0
   file: captures/hurxllin4er_a2.nam

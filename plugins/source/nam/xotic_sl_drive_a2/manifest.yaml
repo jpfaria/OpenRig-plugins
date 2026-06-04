@@ -9,19 +9,27 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30809
 parameters:
-- name: model
-  display_name: Model
+- name: drive
+  display_name: Drive
   values:
-  - xotic_sl_drive_pedal_only_d_6_5_t_8l_10
-  - xotic_sl_drive_pedal_only_d3_t8_l10
-  - xotic_sl_drive_pedal_only_d_5_t_5_l_10
+  - 3.0
+  - 5.0
+  - 6.5
+- name: tone
+  display_name: Tone
+  values:
+  - 5.0
+  - 8.0
 captures:
 - values:
-    model: xotic_sl_drive_pedal_only_d_6_5_t_8l_10
+    drive: 6.5
+    tone: 8.0
   file: captures/1pqa32oatrv_a2.nam
 - values:
-    model: xotic_sl_drive_pedal_only_d3_t8_l10
+    drive: 3.0
+    tone: 8.0
   file: captures/939g0ubudk6_a2.nam
 - values:
-    model: xotic_sl_drive_pedal_only_d_5_t_5_l_10
+    drive: 5.0
+    tone: 5.0
   file: captures/ld75yl70pi_a2.nam

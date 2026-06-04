@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - rod_10_ds1
+  - default
 captures:
 - values:
-    model: rod_10_ds1
+    model: default
   file: captures/03cccbf01bb940f6_a2.nam

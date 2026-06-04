@@ -12,464 +12,464 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - revv_purple_aggr0_bc_sd1
-  - revv_purple_aggr0_x_sd1
-  - revv_blue_kot_dist_01
-  - revv_blue_kot_dist_02
-  - revv_purple_aggr1_f_tkiy
-  - revv_purple_aggr1_x_tkiy
-  - revv_purple_aggr0_f_dualitydx_green
-  - revv_purple_aggr0_f_sd1
-  - revv_green_drive1_bb
-  - revv_green_b_drive0_bb
-  - revv_purple_aggr0_cf_sd1
-  - revv_blue_wide
-  - revv_green_drive0_dualitydx_green_02
-  - revv_blue_b
-  - revv_blue
-  - revv_purple_aggr0_bf_dualitydx_green
-  - revv_purple_aggr0_bc_dualitydx_green
-  - revv_purple_aggr1_cf_tkiy
-  - revv_purple_aggr1_c_tkiy
-  - revv_green_b_drive2_dualitydx_green_02
-  - revv_green_b_drive0_dualitydx_green_02
-  - revv_green_b_drive1_dualitydx_green_02
-  - revv_green_b_drive1_dualitydx_green_01
-  - revv_purple_aggr1_bcf_66
-  - revv_green_drive2_bb
-  - revv_green_drive1_dualitydx_green_02
-  - revv_purple_aggr0_cf_dualitydx_green
-  - revv_green_drive0_dualitydx_green_01
-  - revv_green_b_drive0_dualitydx_green_01
-  - revv_purple_aggr0_c_sd1
-  - revv_purple_aggr0_b_sd1
-  - revv_blue_bd2_03_od808
-  - revv_green_drive1_dualitydx_green_01
-  - revv_purple_aggr0_c_dualitydx_green
-  - revv_purple_aggr0_bcf_dualitydx_green
-  - revv_purple_aggr1_c_66
-  - revv_purple_aggr1_bf_tkiy
-  - revv_purple_aggr1_cf_66
-  - revv_green_b_drive2_dualitydx_green_01
-  - revv_purple_aggr0_bcf_sd1
-  - revv_purple_aggr0_x_dualitydx_green
-  - revv_purple_aggr1_x_66
-  - revv_purple_aggr1_bcf_tkiy
-  - revv_purple_aggr1_f_66
-  - revv_purple_aggr1_bf_66
-  - revv_blue_kot_clean_01
-  - revv_green_drive2_dualitydx_green_02
-  - revv_green_clean
-  - revv_green_b_drive2_bb
-  - revv_purple_aggr0_bf_sd1
-  - revv_blue_bd2_02
-  - revv_blue_b_wide
-  - revv_green_drive2_dualitydx_green_01
-  - revv_green_b_clean
-  - revv_purple_aggr0_b_dualitydx_green
-  - revv_blue_kot_stacked
-  - revv_blue_kot_clean_02
-  - revv_purple_aggr1_bc_66
-  - revv_purple_aggr1_b_66
-  - revv_blue_bd2_01
-  - revv_blue_bd2_03
-  - revv_red_aggr1_bf_66
-  - revv_red_aggr0_f_sd1
-  - revv_red_aggr0_b_dualitydx_green
-  - revv_red_aggr0_bc_sd1
-  - revv_red_aggr1_bcf_66
-  - revv_red_aggr1_cf_tkiy
-  - revv_red_aggr0_cf_dualitydx_green
-  - revv_red_aggr1_c_66
-  - revv_green_b_drive0_dualitydx_blue_02
-  - revv_green_b_clean_dualitydx_blue
-  - revv_red_aggr0_bcf_sd1
-  - revv_red_aggr0_bc_dualitydx_green
-  - revv_red_aggr1_x_66
-  - revv_red_aggr2_x_tkiy_solo
-  - revv_red_aggr0_c_dualitydx_green
-  - revv_green_drive2_dualitydx_blue_01
-  - revv_green_b_drive0_dualitydx_blue_01
-  - revv_green_drive0_dualitydx_blue_01
-  - revv_red_aggr0_b_sd1
-  - revv_red_aggr1_f_tkiy
-  - revv_green_b_drive1_dualitydx_blue_02
-  - revv_red_aggr1_bf_tkiy
-  - revv_red_aggr1_b_66
-  - revv_red_aggr2_b_tkiy_solo
-  - revv_red_aggr1_f_66
-  - revv_red_aggr1_b_tkiy
-  - revv_red_aggr1_bcf_tkiy
-  - revv_red_aggr1_bc_66
-  - revv_red_aggr0_bf_sd1
-  - revv_red_aggr1_c_tkiy
-  - revv_red_aggr0_x_dualitydx_green
-  - revv_red_aggr0_cf_sd1
-  - revv_red_aggr0_f_dualitydx_green
-  - revv_green_drive1_dualitydx_blue_02
-  - revv_green_drive0_dualitydx_blue_02
-  - revv_red_aggr2_b_dualitydx_green_solo
-  - revv_red_aggr1_bc_tkiy
-  - revv_red_aggr1_x_tkiy
-  - revv_red_aggr2_x_dualitydx_green_solo
-  - revv_green_b_drive2_dualitydx_blue_01
-  - revv_red_aggr1_cf_66
-  - revv_red_aggr0_bf_dualitydx_green
-  - revv_red_aggr0_bcf_dualitydx_green
-  - revv_green_b_drive2_dualitydx_blue_02
-  - revv_green_drive1_dualitydx_blue_01
-  - revv_green_drive2_dualitydx_blue_02
-  - revv_red_aggr0_c_sd1
-  - revv_red_aggr0_x_sd1
-  - revv_green_b_drive1_dualitydx_blue_01
-  - revv_green_clean_dualitydx_blue
-  - revv_green_b_drive1_bb
-  - revv_purple_aggr1_b_tkiy
-  - revv_purple_aggr1_bc_tkiy
-  - revv_green_drive0_bb
+  - purple_aggr0_bc_sd1
+  - purple_aggr0_x_sd1
+  - blue_kot_dist_01
+  - blue_kot_dist_02
+  - purple_aggr1_f_tkiy
+  - purple_aggr1_x_tkiy
+  - purple_aggr0_f_dualitydx_green
+  - purple_aggr0_f_sd1
+  - green_drive1_bb
+  - green_b_drive0_bb
+  - purple_aggr0_cf_sd1
+  - blue_wide
+  - green_drive0_dualitydx_green_02
+  - blue_b
+  - blue
+  - purple_aggr0_bf_dualitydx_green
+  - purple_aggr0_bc_dualitydx_green
+  - purple_aggr1_cf_tkiy
+  - purple_aggr1_c_tkiy
+  - green_b_drive2_dualitydx_green_02
+  - green_b_drive0_dualitydx_green_02
+  - green_b_drive1_dualitydx_green_02
+  - green_b_drive1_dualitydx_green_01
+  - purple_aggr1_bcf_66
+  - green_drive2_bb
+  - green_drive1_dualitydx_green_02
+  - purple_aggr0_cf_dualitydx_green
+  - green_drive0_dualitydx_green_01
+  - green_b_drive0_dualitydx_green_01
+  - purple_aggr0_c_sd1
+  - purple_aggr0_b_sd1
+  - blue_bd2_03_od808
+  - green_drive1_dualitydx_green_01
+  - purple_aggr0_c_dualitydx_green
+  - purple_aggr0_bcf_dualitydx_green
+  - purple_aggr1_c_66
+  - purple_aggr1_bf_tkiy
+  - purple_aggr1_cf_66
+  - green_b_drive2_dualitydx_green_01
+  - purple_aggr0_bcf_sd1
+  - purple_aggr0_x_dualitydx_green
+  - purple_aggr1_x_66
+  - purple_aggr1_bcf_tkiy
+  - purple_aggr1_f_66
+  - purple_aggr1_bf_66
+  - blue_kot_clean_01
+  - green_drive2_dualitydx_green_02
+  - green_clean
+  - green_b_drive2_bb
+  - purple_aggr0_bf_sd1
+  - blue_bd2_02
+  - blue_b_wide
+  - green_drive2_dualitydx_green_01
+  - green_b_clean
+  - purple_aggr0_b_dualitydx_green
+  - blue_kot_stacked
+  - blue_kot_clean_02
+  - purple_aggr1_bc_66
+  - purple_aggr1_b_66
+  - blue_bd2_01
+  - blue_bd2_03
+  - red_aggr1_bf_66
+  - red_aggr0_f_sd1
+  - red_aggr0_b_dualitydx_green
+  - red_aggr0_bc_sd1
+  - red_aggr1_bcf_66
+  - red_aggr1_cf_tkiy
+  - red_aggr0_cf_dualitydx_green
+  - red_aggr1_c_66
+  - green_b_drive0_dualitydx_blue_02
+  - green_b_clean_dualitydx_blue
+  - red_aggr0_bcf_sd1
+  - red_aggr0_bc_dualitydx_green
+  - red_aggr1_x_66
+  - red_aggr2_x_tkiy_solo
+  - red_aggr0_c_dualitydx_green
+  - green_drive2_dualitydx_blue_01
+  - green_b_drive0_dualitydx_blue_01
+  - green_drive0_dualitydx_blue_01
+  - red_aggr0_b_sd1
+  - red_aggr1_f_tkiy
+  - green_b_drive1_dualitydx_blue_02
+  - red_aggr1_bf_tkiy
+  - red_aggr1_b_66
+  - red_aggr2_b_tkiy_solo
+  - red_aggr1_f_66
+  - red_aggr1_b_tkiy
+  - red_aggr1_bcf_tkiy
+  - red_aggr1_bc_66
+  - red_aggr0_bf_sd1
+  - red_aggr1_c_tkiy
+  - red_aggr0_x_dualitydx_green
+  - red_aggr0_cf_sd1
+  - red_aggr0_f_dualitydx_green
+  - green_drive1_dualitydx_blue_02
+  - green_drive0_dualitydx_blue_02
+  - red_aggr2_b_dualitydx_green_solo
+  - red_aggr1_bc_tkiy
+  - red_aggr1_x_tkiy
+  - red_aggr2_x_dualitydx_green_solo
+  - green_b_drive2_dualitydx_blue_01
+  - red_aggr1_cf_66
+  - red_aggr0_bf_dualitydx_green
+  - red_aggr0_bcf_dualitydx_green
+  - green_b_drive2_dualitydx_blue_02
+  - green_drive1_dualitydx_blue_01
+  - green_drive2_dualitydx_blue_02
+  - red_aggr0_c_sd1
+  - red_aggr0_x_sd1
+  - green_b_drive1_dualitydx_blue_01
+  - green_clean_dualitydx_blue
+  - green_b_drive1_bb
+  - purple_aggr1_b_tkiy
+  - purple_aggr1_bc_tkiy
+  - green_drive0_bb
 captures:
 - values:
-    model: revv_purple_aggr0_bc_sd1
+    model: purple_aggr0_bc_sd1
   file: captures/ravhdlguovk_a2.nam
 - values:
-    model: revv_purple_aggr0_x_sd1
+    model: purple_aggr0_x_sd1
   file: captures/mm6rjeuy6y_a2.nam
 - values:
-    model: revv_blue_kot_dist_01
+    model: blue_kot_dist_01
   file: captures/vysp05iu16n_a2.nam
 - values:
-    model: revv_blue_kot_dist_02
+    model: blue_kot_dist_02
   file: captures/5i551pvy6ys_a2.nam
 - values:
-    model: revv_purple_aggr1_f_tkiy
+    model: purple_aggr1_f_tkiy
   file: captures/g9xnz1dsnit_a2.nam
 - values:
-    model: revv_purple_aggr1_x_tkiy
+    model: purple_aggr1_x_tkiy
   file: captures/gg8cqme91k_a2.nam
 - values:
-    model: revv_purple_aggr0_f_dualitydx_green
+    model: purple_aggr0_f_dualitydx_green
   file: captures/n6b59f6bg_a2.nam
 - values:
-    model: revv_purple_aggr0_f_sd1
+    model: purple_aggr0_f_sd1
   file: captures/zx5yl80ckx_a2.nam
 - values:
-    model: revv_green_drive1_bb
+    model: green_drive1_bb
   file: captures/d53sypzm4i4_a2.nam
 - values:
-    model: revv_green_b_drive0_bb
+    model: green_b_drive0_bb
   file: captures/r1ku5eo8b5f_a2.nam
 - values:
-    model: revv_purple_aggr0_cf_sd1
+    model: purple_aggr0_cf_sd1
   file: captures/58qjvzd918x_a2.nam
 - values:
-    model: revv_blue_wide
+    model: blue_wide
   file: captures/xuiwiijfkj_a2.nam
 - values:
-    model: revv_green_drive0_dualitydx_green_02
+    model: green_drive0_dualitydx_green_02
   file: captures/bkxbzwkn1ls_a2.nam
 - values:
-    model: revv_blue_b
+    model: blue_b
   file: captures/r1sxzhz5rl_a2.nam
 - values:
-    model: revv_blue
+    model: blue
   file: captures/pzz811o8w6d_a2.nam
 - values:
-    model: revv_purple_aggr0_bf_dualitydx_green
+    model: purple_aggr0_bf_dualitydx_green
   file: captures/xxikmdzbl4c_a2.nam
 - values:
-    model: revv_purple_aggr0_bc_dualitydx_green
+    model: purple_aggr0_bc_dualitydx_green
   file: captures/v7l45588m4p_a2.nam
 - values:
-    model: revv_purple_aggr1_cf_tkiy
+    model: purple_aggr1_cf_tkiy
   file: captures/fbvf7eykb6k_a2.nam
 - values:
-    model: revv_purple_aggr1_c_tkiy
+    model: purple_aggr1_c_tkiy
   file: captures/bem55zcf5gp_a2.nam
 - values:
-    model: revv_green_b_drive2_dualitydx_green_02
+    model: green_b_drive2_dualitydx_green_02
   file: captures/8w55b07grrb_a2.nam
 - values:
-    model: revv_green_b_drive0_dualitydx_green_02
+    model: green_b_drive0_dualitydx_green_02
   file: captures/1holz4ol016_a2.nam
 - values:
-    model: revv_green_b_drive1_dualitydx_green_02
+    model: green_b_drive1_dualitydx_green_02
   file: captures/e3m5hsvinw_a2.nam
 - values:
-    model: revv_green_b_drive1_dualitydx_green_01
+    model: green_b_drive1_dualitydx_green_01
   file: captures/4u1p7i932pa_a2.nam
 - values:
-    model: revv_purple_aggr1_bcf_66
+    model: purple_aggr1_bcf_66
   file: captures/c7g3qruidfb_a2.nam
 - values:
-    model: revv_green_drive2_bb
+    model: green_drive2_bb
   file: captures/dfwiagne4w6_a2.nam
 - values:
-    model: revv_green_drive1_dualitydx_green_02
+    model: green_drive1_dualitydx_green_02
   file: captures/7cbjxjmxtv5_a2.nam
 - values:
-    model: revv_purple_aggr0_cf_dualitydx_green
+    model: purple_aggr0_cf_dualitydx_green
   file: captures/bwpc3rwtm6i_a2.nam
 - values:
-    model: revv_green_drive0_dualitydx_green_01
+    model: green_drive0_dualitydx_green_01
   file: captures/9bdinzeiok5_a2.nam
 - values:
-    model: revv_green_b_drive0_dualitydx_green_01
+    model: green_b_drive0_dualitydx_green_01
   file: captures/768csdx0lv6_a2.nam
 - values:
-    model: revv_purple_aggr0_c_sd1
+    model: purple_aggr0_c_sd1
   file: captures/ep4ibnqj66o_a2.nam
 - values:
-    model: revv_purple_aggr0_b_sd1
+    model: purple_aggr0_b_sd1
   file: captures/lnubh61cpt_a2.nam
 - values:
-    model: revv_blue_bd2_03_od808
+    model: blue_bd2_03_od808
   file: captures/0on7liw4b6tp_a2.nam
 - values:
-    model: revv_green_drive1_dualitydx_green_01
+    model: green_drive1_dualitydx_green_01
   file: captures/9ra54pd9mbd_a2.nam
 - values:
-    model: revv_purple_aggr0_c_dualitydx_green
+    model: purple_aggr0_c_dualitydx_green
   file: captures/ruu1h3iyn7s_a2.nam
 - values:
-    model: revv_purple_aggr0_bcf_dualitydx_green
+    model: purple_aggr0_bcf_dualitydx_green
   file: captures/v3b0p6mgshd_a2.nam
 - values:
-    model: revv_purple_aggr1_c_66
+    model: purple_aggr1_c_66
   file: captures/pufgwi0r48q_a2.nam
 - values:
-    model: revv_purple_aggr1_bf_tkiy
+    model: purple_aggr1_bf_tkiy
   file: captures/r32o8qtrxw_a2.nam
 - values:
-    model: revv_purple_aggr1_cf_66
+    model: purple_aggr1_cf_66
   file: captures/tgzdk0c1u7n_a2.nam
 - values:
-    model: revv_green_b_drive2_dualitydx_green_01
+    model: green_b_drive2_dualitydx_green_01
   file: captures/4v9cqr99mvb_a2.nam
 - values:
-    model: revv_purple_aggr0_bcf_sd1
+    model: purple_aggr0_bcf_sd1
   file: captures/lpk216y9rb_a2.nam
 - values:
-    model: revv_purple_aggr0_x_dualitydx_green
+    model: purple_aggr0_x_dualitydx_green
   file: captures/cdnnmsv2x9m_a2.nam
 - values:
-    model: revv_purple_aggr1_x_66
+    model: purple_aggr1_x_66
   file: captures/hr4cw2viphi_a2.nam
 - values:
-    model: revv_purple_aggr1_bcf_tkiy
+    model: purple_aggr1_bcf_tkiy
   file: captures/cfm5qiohy0a_a2.nam
 - values:
-    model: revv_purple_aggr1_f_66
+    model: purple_aggr1_f_66
   file: captures/ppitu9klj2b_a2.nam
 - values:
-    model: revv_purple_aggr1_bf_66
+    model: purple_aggr1_bf_66
   file: captures/sidq5py0jp_a2.nam
 - values:
-    model: revv_blue_kot_clean_01
+    model: blue_kot_clean_01
   file: captures/05ru3h1jkwch_a2.nam
 - values:
-    model: revv_green_drive2_dualitydx_green_02
+    model: green_drive2_dualitydx_green_02
   file: captures/i6c0y99kjra_a2.nam
 - values:
-    model: revv_green_clean
+    model: green_clean
   file: captures/kmw0zqnfh9_a2.nam
 - values:
-    model: revv_green_b_drive2_bb
+    model: green_b_drive2_bb
   file: captures/v81paavhuwk_a2.nam
 - values:
-    model: revv_purple_aggr0_bf_sd1
+    model: purple_aggr0_bf_sd1
   file: captures/ajpsu2s0p2j_a2.nam
 - values:
-    model: revv_blue_bd2_02
+    model: blue_bd2_02
   file: captures/1kb5v53aqyz_a2.nam
 - values:
-    model: revv_blue_b_wide
+    model: blue_b_wide
   file: captures/x8bmreg8l6e_a2.nam
 - values:
-    model: revv_green_drive2_dualitydx_green_01
+    model: green_drive2_dualitydx_green_01
   file: captures/ds7nrgjurgf_a2.nam
 - values:
-    model: revv_green_b_clean
+    model: green_b_clean
   file: captures/8nrq4bi4g47_a2.nam
 - values:
-    model: revv_purple_aggr0_b_dualitydx_green
+    model: purple_aggr0_b_dualitydx_green
   file: captures/pudtkq9r1xs_a2.nam
 - values:
-    model: revv_blue_kot_stacked
+    model: blue_kot_stacked
   file: captures/2qvz14pk9o6_a2.nam
 - values:
-    model: revv_blue_kot_clean_02
+    model: blue_kot_clean_02
   file: captures/12ul1fj3e62d_a2.nam
 - values:
-    model: revv_purple_aggr1_bc_66
+    model: purple_aggr1_bc_66
   file: captures/mx0goorvah_a2.nam
 - values:
-    model: revv_purple_aggr1_b_66
+    model: purple_aggr1_b_66
   file: captures/cc4s7j70eil_a2.nam
 - values:
-    model: revv_blue_bd2_01
+    model: blue_bd2_01
   file: captures/f83bev8mjtv_a2.nam
 - values:
-    model: revv_blue_bd2_03
+    model: blue_bd2_03
   file: captures/ypbx7rembxl_a2.nam
 - values:
-    model: revv_red_aggr1_bf_66
+    model: red_aggr1_bf_66
   file: captures/j3jwogjcbn_a2.nam
 - values:
-    model: revv_red_aggr0_f_sd1
+    model: red_aggr0_f_sd1
   file: captures/b79yaay7mt_a2.nam
 - values:
-    model: revv_red_aggr0_b_dualitydx_green
+    model: red_aggr0_b_dualitydx_green
   file: captures/b0464oya0zc_a2.nam
 - values:
-    model: revv_red_aggr0_bc_sd1
+    model: red_aggr0_bc_sd1
   file: captures/vbtz17nwwd_a2.nam
 - values:
-    model: revv_red_aggr1_bcf_66
+    model: red_aggr1_bcf_66
   file: captures/frwrbe3uc7n_a2.nam
 - values:
-    model: revv_red_aggr1_cf_tkiy
+    model: red_aggr1_cf_tkiy
   file: captures/v6izd9mnmjj_a2.nam
 - values:
-    model: revv_red_aggr0_cf_dualitydx_green
+    model: red_aggr0_cf_dualitydx_green
   file: captures/s230ummevjf_a2.nam
 - values:
-    model: revv_red_aggr1_c_66
+    model: red_aggr1_c_66
   file: captures/2i2lj7q0iui_a2.nam
 - values:
-    model: revv_green_b_drive0_dualitydx_blue_02
+    model: green_b_drive0_dualitydx_blue_02
   file: captures/1m0ldzkg1rc_a2.nam
 - values:
-    model: revv_green_b_clean_dualitydx_blue
+    model: green_b_clean_dualitydx_blue
   file: captures/afrt9lufgnj_a2.nam
 - values:
-    model: revv_red_aggr0_bcf_sd1
+    model: red_aggr0_bcf_sd1
   file: captures/wm8ed8inqp_a2.nam
 - values:
-    model: revv_red_aggr0_bc_dualitydx_green
+    model: red_aggr0_bc_dualitydx_green
   file: captures/k4w3jmay1e_a2.nam
 - values:
-    model: revv_red_aggr1_x_66
+    model: red_aggr1_x_66
   file: captures/2s3ddvm7vmw_a2.nam
 - values:
-    model: revv_red_aggr2_x_tkiy_solo
+    model: red_aggr2_x_tkiy_solo
   file: captures/89gok7of32m_a2.nam
 - values:
-    model: revv_red_aggr0_c_dualitydx_green
+    model: red_aggr0_c_dualitydx_green
   file: captures/1iqbszjxp23_a2.nam
 - values:
-    model: revv_green_drive2_dualitydx_blue_01
+    model: green_drive2_dualitydx_blue_01
   file: captures/580jf09v13e_a2.nam
 - values:
-    model: revv_green_b_drive0_dualitydx_blue_01
+    model: green_b_drive0_dualitydx_blue_01
   file: captures/q5klc70u2i_a2.nam
 - values:
-    model: revv_green_drive0_dualitydx_blue_01
+    model: green_drive0_dualitydx_blue_01
   file: captures/2pbhmu29sco_a2.nam
 - values:
-    model: revv_red_aggr0_b_sd1
+    model: red_aggr0_b_sd1
   file: captures/jd38rtvip5s_a2.nam
 - values:
-    model: revv_red_aggr1_f_tkiy
+    model: red_aggr1_f_tkiy
   file: captures/6ladmf04289_a2.nam
 - values:
-    model: revv_green_b_drive1_dualitydx_blue_02
+    model: green_b_drive1_dualitydx_blue_02
   file: captures/op80jmeyew_a2.nam
 - values:
-    model: revv_red_aggr1_bf_tkiy
+    model: red_aggr1_bf_tkiy
   file: captures/r8wqnsad6yh_a2.nam
 - values:
-    model: revv_red_aggr1_b_66
+    model: red_aggr1_b_66
   file: captures/10qh9r3axkq_a2.nam
 - values:
-    model: revv_red_aggr2_b_tkiy_solo
+    model: red_aggr2_b_tkiy_solo
   file: captures/clwak5zk4w_a2.nam
 - values:
-    model: revv_red_aggr1_f_66
+    model: red_aggr1_f_66
   file: captures/52irrmt6fma_a2.nam
 - values:
-    model: revv_red_aggr1_b_tkiy
+    model: red_aggr1_b_tkiy
   file: captures/9gjn0lqi5r_a2.nam
 - values:
-    model: revv_red_aggr1_bcf_tkiy
+    model: red_aggr1_bcf_tkiy
   file: captures/ubnueu9hkwl_a2.nam
 - values:
-    model: revv_red_aggr1_bc_66
+    model: red_aggr1_bc_66
   file: captures/zvlkk9w8zks_a2.nam
 - values:
-    model: revv_red_aggr0_bf_sd1
+    model: red_aggr0_bf_sd1
   file: captures/zdono7arhne_a2.nam
 - values:
-    model: revv_red_aggr1_c_tkiy
+    model: red_aggr1_c_tkiy
   file: captures/9ij8w6y96ab_a2.nam
 - values:
-    model: revv_red_aggr0_x_dualitydx_green
+    model: red_aggr0_x_dualitydx_green
   file: captures/xticq7qnzar_a2.nam
 - values:
-    model: revv_red_aggr0_cf_sd1
+    model: red_aggr0_cf_sd1
   file: captures/nzs97p4t1fd_a2.nam
 - values:
-    model: revv_red_aggr0_f_dualitydx_green
+    model: red_aggr0_f_dualitydx_green
   file: captures/43yx7y1yye6_a2.nam
 - values:
-    model: revv_green_drive1_dualitydx_blue_02
+    model: green_drive1_dualitydx_blue_02
   file: captures/e768ew9tz1f_a2.nam
 - values:
-    model: revv_green_drive0_dualitydx_blue_02
+    model: green_drive0_dualitydx_blue_02
   file: captures/v00mk1ox3n8_a2.nam
 - values:
-    model: revv_red_aggr2_b_dualitydx_green_solo
+    model: red_aggr2_b_dualitydx_green_solo
   file: captures/25hequm062c_a2.nam
 - values:
-    model: revv_red_aggr1_bc_tkiy
+    model: red_aggr1_bc_tkiy
   file: captures/nbuf2gk53q_a2.nam
 - values:
-    model: revv_red_aggr1_x_tkiy
+    model: red_aggr1_x_tkiy
   file: captures/65bzzzzxxui_a2.nam
 - values:
-    model: revv_red_aggr2_x_dualitydx_green_solo
+    model: red_aggr2_x_dualitydx_green_solo
   file: captures/9qho3pmsj7d_a2.nam
 - values:
-    model: revv_green_b_drive2_dualitydx_blue_01
+    model: green_b_drive2_dualitydx_blue_01
   file: captures/pjdread6iz_a2.nam
 - values:
-    model: revv_red_aggr1_cf_66
+    model: red_aggr1_cf_66
   file: captures/3bvvdano2gs_a2.nam
 - values:
-    model: revv_red_aggr0_bf_dualitydx_green
+    model: red_aggr0_bf_dualitydx_green
   file: captures/qpyrewx2wd_a2.nam
 - values:
-    model: revv_red_aggr0_bcf_dualitydx_green
+    model: red_aggr0_bcf_dualitydx_green
   file: captures/1hdjxdhkei7_a2.nam
 - values:
-    model: revv_green_b_drive2_dualitydx_blue_02
+    model: green_b_drive2_dualitydx_blue_02
   file: captures/me1st95oaei_a2.nam
 - values:
-    model: revv_green_drive1_dualitydx_blue_01
+    model: green_drive1_dualitydx_blue_01
   file: captures/yuir25uqzsi_a2.nam
 - values:
-    model: revv_green_drive2_dualitydx_blue_02
+    model: green_drive2_dualitydx_blue_02
   file: captures/wqumll7jr5m_a2.nam
 - values:
-    model: revv_red_aggr0_c_sd1
+    model: red_aggr0_c_sd1
   file: captures/t5q57b9se8_a2.nam
 - values:
-    model: revv_red_aggr0_x_sd1
+    model: red_aggr0_x_sd1
   file: captures/6s07pxd92he_a2.nam
 - values:
-    model: revv_green_b_drive1_dualitydx_blue_01
+    model: green_b_drive1_dualitydx_blue_01
   file: captures/lx6t1npagem_a2.nam
 - values:
-    model: revv_green_clean_dualitydx_blue
+    model: green_clean_dualitydx_blue
   file: captures/hgi3oxsyszq_a2.nam
 - values:
-    model: revv_green_b_drive1_bb
+    model: green_b_drive1_bb
   file: captures/lsbrzrkusj_a2.nam
 - values:
-    model: revv_purple_aggr1_b_tkiy
+    model: purple_aggr1_b_tkiy
   file: captures/vyvg6zpecz_a2.nam
 - values:
-    model: revv_purple_aggr1_bc_tkiy
+    model: purple_aggr1_bc_tkiy
   file: captures/dv8fmyo1wqq_a2.nam
 - values:
-    model: revv_green_drive0_bb
+    model: green_drive0_bb
   file: captures/comjwby7n1_a2.nam

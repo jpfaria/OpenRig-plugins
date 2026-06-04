@@ -10,143 +10,181 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5021
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - 25_peavey_xxx_ch2_kt_77_russian_pickle_d_fuzz
-  - 18_peavey_xxx_ch2_kt_77_tall_font_b_fuzz
-  - 20_peavey_xxx_ch2_kt_77_tall_font_d_fuzz
-  - 34_peavey_xxx_pwramp_kt_77_pepers_wendigo_b_distortion
-  - 02_peavey_xxx_ch2_kt_77_sd_1w_higain
-  - 03_peavey_xxx_ch2_kt_77_os_2_higain
-  - 15_peavey_xxx_ch3_kt_77_unboosted_higain
-  - 07_peavey_xxx_ch3_kt_77_sd_1w_higain
-  - 16_peavey_xxx_ch1_kt_77_unboosted_clean
-  - 12_peavey_xxx_ch2_kt_77_unboosted_b_higain
-  - 24_peavey_xxx_ch2_kt_77_russian_pickle_c_fuzz
-  - 05_peavey_xxx_ch2_kt_77_od808x_higain
-  - 11_peavey_xxx_ch2_kt_77_unboosted_a_higain
-  - 19_peavey_xxx_ch2_kt_77_tall_font_c_fuzz
-  - 13_peavey_xxx_ch2_kt_77_unboosted_c_higain
-  - 30_peavey_xxx_ch2_kt_77_chaotic_evil_ned_chainsaw
-  - 31_peavey_xxx_ch2_kt_77_os_2_distortion
-  - 04_peavey_xxx_ch2_kt_77_od808_higain
-  - 29_peavey_xxx_ch2_kt_77_jugendstil_chainsaw
-  - 06_peavey_xxx_ch2_kt_77_m77_higain
-  - 21_peavey_xxx_ch2_kt_77_tall_font_e_fuzz
-  - 23_peavey_xxx_ch2_kt_77_russian_pickle_b_fuzz
-  - 26_peavey_xxx_ch2_kt_77_swollen_pickle_a_fuzz
-  - 14_peavey_xxx_ch2_kt_77_unboosted_d_crunch
-  - 27_peavey_xxx_ch2_kt_77_swollen_pickle_b_fuzz
-  - 33_peavey_xxx_pwramp_kt_77_pepers_wendigo_a_distortion
-  - 10_peavey_xxx_ch3_kt_77_od808x_higain
-  - 09_peavey_xxx_ch3_kt_77_od808_higain
-  - 28_peavey_xxx_ch2_kt_77_weeping_chaos_fuzz
-  - 22_peavey_xxx_ch2_kt_77_russian_pickle_a_fuzz
-  - 08_peavey_xxx_ch3_kt_77_ts7_higain
-  - 32_peavey_xxx_pwramp_kt_77_pepers_rot_distortion
-  - 01_peavey_xxx_ch2_kt_77_sd805_higain
-  - 17_peavey_xxx_ch2_kt_77_tall_font_a_fuzz
+  - ch1
+  - ch2
+  - ch3
+  - pwramp
+- name: boost
+  display_name: Boost
+  values:
+  - clean
+  - unboosted_a
+  - unboosted_b
+  - unboosted_c
+  - unboosted_d
+  - unboosted
+  - sd805
+  - sd_1w
+  - od808
+  - od808x
+  - os2
+  - os2_dist
+  - m77
+  - ts7
+  - tall_font_a
+  - tall_font_b
+  - tall_font_c
+  - tall_font_d
+  - tall_font_e
+  - russian_pickle_a
+  - russian_pickle_b
+  - russian_pickle_c
+  - russian_pickle_d
+  - swollen_pickle_a
+  - swollen_pickle_b
+  - weeping_chaos
+  - chaotic_evil
+  - jugendstil
+  - pepers_wendigo_a
+  - pepers_wendigo_b
+  - pepers_rot
 captures:
 - values:
-    model: 25_peavey_xxx_ch2_kt_77_russian_pickle_d_fuzz
+    boost: russian_pickle_d
+    channel: ch2
   file: captures/7599db6bbcaae9cb_a2.nam
 - values:
-    model: 18_peavey_xxx_ch2_kt_77_tall_font_b_fuzz
+    boost: tall_font_b
+    channel: ch2
   file: captures/987bf4e2cbcb3ca0_a2.nam
 - values:
-    model: 20_peavey_xxx_ch2_kt_77_tall_font_d_fuzz
+    boost: tall_font_d
+    channel: ch2
   file: captures/eaefa15bc3cbf5e8_a2.nam
 - values:
-    model: 34_peavey_xxx_pwramp_kt_77_pepers_wendigo_b_distortion
+    boost: pepers_wendigo_b
+    channel: pwramp
   file: captures/1bd73bb2c36e838b_a2.nam
 - values:
-    model: 02_peavey_xxx_ch2_kt_77_sd_1w_higain
+    boost: sd_1w
+    channel: ch2
   file: captures/408d72cca7de0097_a2.nam
 - values:
-    model: 03_peavey_xxx_ch2_kt_77_os_2_higain
+    boost: os2
+    channel: ch2
   file: captures/0d42c60f4a89a676_a2.nam
 - values:
-    model: 15_peavey_xxx_ch3_kt_77_unboosted_higain
+    boost: unboosted
+    channel: ch3
   file: captures/010eb3ffeef23c4a_a2.nam
 - values:
-    model: 07_peavey_xxx_ch3_kt_77_sd_1w_higain
+    boost: sd_1w
+    channel: ch3
   file: captures/adbe7ccf01077d5a_a2.nam
 - values:
-    model: 16_peavey_xxx_ch1_kt_77_unboosted_clean
+    boost: clean
+    channel: ch1
   file: captures/e0726247c2ab8b77_a2.nam
 - values:
-    model: 12_peavey_xxx_ch2_kt_77_unboosted_b_higain
+    boost: unboosted_b
+    channel: ch2
   file: captures/dadc76659e607028_a2.nam
 - values:
-    model: 24_peavey_xxx_ch2_kt_77_russian_pickle_c_fuzz
+    boost: russian_pickle_c
+    channel: ch2
   file: captures/61b699ad5bd1cedb_a2.nam
 - values:
-    model: 05_peavey_xxx_ch2_kt_77_od808x_higain
+    boost: od808x
+    channel: ch2
   file: captures/a0901958ce37b684_a2.nam
 - values:
-    model: 11_peavey_xxx_ch2_kt_77_unboosted_a_higain
+    boost: unboosted_a
+    channel: ch2
   file: captures/54fcacadaecc2d04_a2.nam
 - values:
-    model: 19_peavey_xxx_ch2_kt_77_tall_font_c_fuzz
+    boost: tall_font_c
+    channel: ch2
   file: captures/3bad4a6d12d2c8aa_a2.nam
 - values:
-    model: 13_peavey_xxx_ch2_kt_77_unboosted_c_higain
+    boost: unboosted_c
+    channel: ch2
   file: captures/2df4f7420eea0947_a2.nam
 - values:
-    model: 30_peavey_xxx_ch2_kt_77_chaotic_evil_ned_chainsaw
+    boost: chaotic_evil
+    channel: ch2
   file: captures/3b16a3992dbe6dda_a2.nam
 - values:
-    model: 31_peavey_xxx_ch2_kt_77_os_2_distortion
+    boost: os2_dist
+    channel: ch2
   file: captures/9acf57bd2019ec5e_a2.nam
 - values:
-    model: 04_peavey_xxx_ch2_kt_77_od808_higain
+    boost: od808
+    channel: ch2
   file: captures/4b08ccc5fdce6871_a2.nam
 - values:
-    model: 29_peavey_xxx_ch2_kt_77_jugendstil_chainsaw
+    boost: jugendstil
+    channel: ch2
   file: captures/025048ecfe803f4e_a2.nam
 - values:
-    model: 06_peavey_xxx_ch2_kt_77_m77_higain
+    boost: m77
+    channel: ch2
   file: captures/908da33f7a7a5d4f_a2.nam
 - values:
-    model: 21_peavey_xxx_ch2_kt_77_tall_font_e_fuzz
+    boost: tall_font_e
+    channel: ch2
   file: captures/3cb029ee9450986d_a2.nam
 - values:
-    model: 23_peavey_xxx_ch2_kt_77_russian_pickle_b_fuzz
+    boost: russian_pickle_b
+    channel: ch2
   file: captures/046f787c98379f5d_a2.nam
 - values:
-    model: 26_peavey_xxx_ch2_kt_77_swollen_pickle_a_fuzz
+    boost: swollen_pickle_a
+    channel: ch2
   file: captures/fe03bfccedd56980_a2.nam
 - values:
-    model: 14_peavey_xxx_ch2_kt_77_unboosted_d_crunch
+    boost: unboosted_d
+    channel: ch2
   file: captures/9c958da79f13ed2a_a2.nam
 - values:
-    model: 27_peavey_xxx_ch2_kt_77_swollen_pickle_b_fuzz
+    boost: swollen_pickle_b
+    channel: ch2
   file: captures/47e2ba783465a199_a2.nam
 - values:
-    model: 33_peavey_xxx_pwramp_kt_77_pepers_wendigo_a_distortion
+    boost: pepers_wendigo_a
+    channel: pwramp
   file: captures/bb27bd20fe3dc8fd_a2.nam
 - values:
-    model: 10_peavey_xxx_ch3_kt_77_od808x_higain
+    boost: od808x
+    channel: ch3
   file: captures/c5f7616cdd2da373_a2.nam
 - values:
-    model: 09_peavey_xxx_ch3_kt_77_od808_higain
+    boost: od808
+    channel: ch3
   file: captures/b9990bdb34ae04fd_a2.nam
 - values:
-    model: 28_peavey_xxx_ch2_kt_77_weeping_chaos_fuzz
+    boost: weeping_chaos
+    channel: ch2
   file: captures/007ffcbf256fad99_a2.nam
 - values:
-    model: 22_peavey_xxx_ch2_kt_77_russian_pickle_a_fuzz
+    boost: russian_pickle_a
+    channel: ch2
   file: captures/dc3018d76b2330ed_a2.nam
 - values:
-    model: 08_peavey_xxx_ch3_kt_77_ts7_higain
+    boost: ts7
+    channel: ch3
   file: captures/8b89521c9494c176_a2.nam
 - values:
-    model: 32_peavey_xxx_pwramp_kt_77_pepers_rot_distortion
+    boost: pepers_rot
+    channel: pwramp
   file: captures/5826a189dd9874e5_a2.nam
 - values:
-    model: 01_peavey_xxx_ch2_kt_77_sd805_higain
+    boost: sd805
+    channel: ch2
   file: captures/8f54f1199730c4f6_a2.nam
 - values:
-    model: 17_peavey_xxx_ch2_kt_77_tall_font_a_fuzz
+    boost: tall_font_a
+    channel: ch2
   file: captures/f9e8fa231162f338_a2.nam

@@ -9,71 +9,82 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/45200
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - vh100r_channel_2_hi_treble_g10
-  - vh100r_channel_2_hi_treble_g5
-  - vh100r_channel_2_hi_treble_drive_g8
-  - vh100r_channel_2_hi_neutral_drive_g5
-  - vh100r_channel_2_hi_neutral_drive_g7
-  - vh100r_channel_2_hi_neutral_g7
-  - vh100r_channel_2_hi_neutral_drive_g10
-  - vh100r_channel_2_hi_treble_drive_g7
-  - vh100r_channel_2_hi_neutral_g5
-  - vh100r_channel_2_hi_neutral_drive_g8
-  - vh100r_channel_2_hi_treble_drive_g5
-  - vh100r_channel_2_hi_neutral_g8
-  - vh100r_channel_2_hi_neutral_g10
-  - vh100r_channel_2_hi_treble_g7
-  - vh100r_channel_2_hi_treble_g8
-  - vh100r_channel_2_hi_treble_drive_g10
+  - neutral
+  - treble
+  - neutral_drive
+  - treble_drive
+- name: gain
+  display_name: Gain
+  values:
+  - g5
+  - g7
+  - g8
+  - g10
 captures:
 - values:
-    model: vh100r_channel_2_hi_treble_g10
+    gain: g10
+    voicing: treble
   file: captures/led0kw114g_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_g5
+    gain: g5
+    voicing: treble
   file: captures/rx9xgrsfjbb_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_drive_g8
+    gain: g8
+    voicing: treble_drive
   file: captures/05831ruvahgw_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_drive_g5
+    gain: g5
+    voicing: neutral_drive
   file: captures/r4n1crjltv_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_drive_g7
+    gain: g7
+    voicing: neutral_drive
   file: captures/0rsr6dr8ndu_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_g7
+    gain: g7
+    voicing: neutral
   file: captures/6no0am11fu3_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_drive_g10
+    gain: g10
+    voicing: neutral_drive
   file: captures/gfgvw1eq1gq_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_drive_g7
+    gain: g7
+    voicing: treble_drive
   file: captures/qwdlsdv73n_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_g5
+    gain: g5
+    voicing: neutral
   file: captures/u0jn5dg48am_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_drive_g8
+    gain: g8
+    voicing: neutral_drive
   file: captures/53ogkjibfai_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_drive_g5
+    gain: g5
+    voicing: treble_drive
   file: captures/10evgvl4jabm_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_g8
+    gain: g8
+    voicing: neutral
   file: captures/1c7bop9hbm1_a2.nam
 - values:
-    model: vh100r_channel_2_hi_neutral_g10
+    gain: g10
+    voicing: neutral
   file: captures/y63qk0rupg8_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_g7
+    gain: g7
+    voicing: treble
   file: captures/ypm0j3nlxu_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_g8
+    gain: g8
+    voicing: treble
   file: captures/qo4fprdejnk_a2.nam
 - values:
-    model: vh100r_channel_2_hi_treble_drive_g10
+    gain: g10
+    voicing: treble_drive
   file: captures/ungma0ye1st_a2.nam

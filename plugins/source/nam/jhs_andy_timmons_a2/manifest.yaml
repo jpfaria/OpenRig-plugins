@@ -9,47 +9,58 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/26841
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - slammin_jhs_timmons_dark_s
-  - slammin_timmons_rivera_main_brighter_boost_s
-  - slammin_timmons_rivera_main_brighter_s
-  - slammin_jhs_timmons_main_s
-  - slammin_jhs_timmons_main_boost_s
-  - slammin_timmons_rivera_deliver_us_s
-  - slammin_timmons_rivera_scoopy_boost_s
-  - slammin_jhs_timmons_bright_boost_s
-  - slammin_jhs_timmons_bright_s
-  - slammin_jhs_timmons_dark_boost_s
+  - bright
+  - dark
+  - main
+  - deliver_us
+  - main_brighter
+  - scoopy
+- name: boost
+  display_name: Boost
+  values:
+  - off
+  - on
 captures:
 - values:
-    model: slammin_jhs_timmons_dark_s
+    boost: off
+    voicing: dark
   file: captures/33wyz242l4i_a2.nam
 - values:
-    model: slammin_timmons_rivera_main_brighter_boost_s
+    boost: on
+    voicing: main_brighter
   file: captures/orx13xoow4p_a2.nam
 - values:
-    model: slammin_timmons_rivera_main_brighter_s
+    boost: off
+    voicing: main_brighter
   file: captures/xc7e23kfi9n_a2.nam
 - values:
-    model: slammin_jhs_timmons_main_s
+    boost: off
+    voicing: main
   file: captures/y19wugzuabb_a2.nam
 - values:
-    model: slammin_jhs_timmons_main_boost_s
+    boost: on
+    voicing: main
   file: captures/xyytpbwqmsb_a2.nam
 - values:
-    model: slammin_timmons_rivera_deliver_us_s
+    boost: off
+    voicing: deliver_us
   file: captures/y3pq8nyrhb_a2.nam
 - values:
-    model: slammin_timmons_rivera_scoopy_boost_s
+    boost: on
+    voicing: scoopy
   file: captures/v6rtgfm8tm_a2.nam
 - values:
-    model: slammin_jhs_timmons_bright_boost_s
+    boost: on
+    voicing: bright
   file: captures/3mdqs4xfvim_a2.nam
 - values:
-    model: slammin_jhs_timmons_bright_s
+    boost: off
+    voicing: bright
   file: captures/kfce8mmys2_a2.nam
 - values:
-    model: slammin_jhs_timmons_dark_boost_s
+    boost: on
+    voicing: dark
   file: captures/gfnj8l643yg_a2.nam

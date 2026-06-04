@@ -13,36 +13,36 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - jmp_clean
-  - jmp_rhythm_2
-  - jmp_rhythm_1
-  - jmp_lead_creamy
-  - jmp_rhythm_deftoned
-  - jmp_rhythm_overdrive808
-  - jmp_crunch_breakup
-  - jmp_rhythm_3
+  - clean
+  - crunch_breakup
+  - lead_creamy
+  - rhythm_1
+  - rhythm_2
+  - rhythm_3
+  - rhythm_deftoned
+  - rhythm_od808
 captures:
 - values:
-    model: jmp_clean
+    model: clean
   file: captures/d113p5gd6ej_a2.nam
 - values:
-    model: jmp_rhythm_2
+    model: rhythm_2
   file: captures/hjge4mnon6o_a2.nam
 - values:
-    model: jmp_rhythm_1
+    model: rhythm_1
   file: captures/qrh6osfvsf_a2.nam
 - values:
-    model: jmp_lead_creamy
+    model: lead_creamy
   file: captures/pnrvw6rfb6_a2.nam
 - values:
-    model: jmp_rhythm_deftoned
+    model: rhythm_deftoned
   file: captures/q5r9xzzdxbq_a2.nam
 - values:
-    model: jmp_rhythm_overdrive808
+    model: rhythm_od808
   file: captures/oe199x3bzq_a2.nam
 - values:
-    model: jmp_crunch_breakup
+    model: crunch_breakup
   file: captures/pks4gxha9z_a2.nam
 - values:
-    model: jmp_rhythm_3
+    model: rhythm_3
   file: captures/7z38hccrj35_a2.nam

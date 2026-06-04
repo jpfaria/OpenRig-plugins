@@ -9,11 +9,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/2480
 parameters:
-- name: model
-  display_name: Model
+- name: tone
+  display_name: Tone
   values:
-  - thorpy_fx_peacekeeper_esr_0_0004
+  - esr_0_0004
 captures:
 - values:
-    model: thorpy_fx_peacekeeper_esr_0_0004
+    tone: esr_0_0004
   file: captures/9484f524ab34e1d2_a2.nam

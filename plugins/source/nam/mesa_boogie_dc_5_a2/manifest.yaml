@@ -13,104 +13,104 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - mesa_dc_5_sd_805_2
-  - mesa_dc_5_thick_g6_5
-  - mesa_dc_5_less_thick_g8_5
-  - mesa_dc_5_thick_g8_5
-  - mesa_dc_5_thick_g4
-  - mesa_dc_5_mean_4_g5_5
-  - mesa_dc_5_mids_g7_5
-  - mesa_dc_5_mean_5_g8
-  - mesa_dc_5_less_thick_g4
-  - mesa_dc_5_scoop_g7
-  - mesa_dc_5_mean_5_g5_5
-  - mesa_dc_5_mids_g9
-  - mesa_dc_5_mean_5_g7
-  - mesa_dc_5_mids_g5_5
-  - mesa_dc_5_less_thick_g5_5
-  - mesa_dc_5_sd_805_3
-  - mesa_dc_5_sd_805_1
-  - dc_5_new
-  - mesa_dc_5_scoop_g5_5
-  - mesa_dc_5_less_thick_g7_5
-  - mesa_dc_5_mean_1
-  - mesa_dc_5_thick_g7_5
-  - mesa_dc_5_mids_g4
-  - mesa_dc_5_mean_3_g7_5
-  - mesa_dc_5_mean_2_g6
+  - sd_805_1
+  - sd_805_2
+  - sd_805_3
+  - thick_g4
+  - thick_g6_5
+  - thick_g7_5
+  - thick_g8_5
+  - less_thick_g4
+  - less_thick_g5_5
+  - less_thick_g7_5
+  - less_thick_g8_5
+  - mids_g4
+  - mids_g5_5
+  - mids_g7_5
+  - mids_g9
+  - scoop_g5_5
+  - scoop_g7
+  - mean_1
+  - mean_2_g6
+  - mean_3_g7_5
+  - mean_4_g5_5
+  - mean_5_g5_5
+  - mean_5_g7
+  - mean_5_g8
+  - new
 captures:
 - values:
-    model: mesa_dc_5_sd_805_2
+    model: sd_805_2
   file: captures/b8xmh2vbf8_a2.nam
 - values:
-    model: mesa_dc_5_thick_g6_5
+    model: thick_g6_5
   file: captures/b425y9p2sze_a2.nam
 - values:
-    model: mesa_dc_5_less_thick_g8_5
+    model: less_thick_g8_5
   file: captures/m72gpkzk3ul_a2.nam
 - values:
-    model: mesa_dc_5_thick_g8_5
+    model: thick_g8_5
   file: captures/3n694cimnzb_a2.nam
 - values:
-    model: mesa_dc_5_thick_g4
+    model: thick_g4
   file: captures/izvponiup6f_a2.nam
 - values:
-    model: mesa_dc_5_mean_4_g5_5
+    model: mean_4_g5_5
   file: captures/kz2jzqpbl3_a2.nam
 - values:
-    model: mesa_dc_5_mids_g7_5
+    model: mids_g7_5
   file: captures/o7p8lgahg4o_a2.nam
 - values:
-    model: mesa_dc_5_mean_5_g8
+    model: mean_5_g8
   file: captures/oc63h7pjndd_a2.nam
 - values:
-    model: mesa_dc_5_less_thick_g4
+    model: less_thick_g4
   file: captures/14xmjaxl0ya_a2.nam
 - values:
-    model: mesa_dc_5_scoop_g7
+    model: scoop_g7
   file: captures/afd6flj2a4q_a2.nam
 - values:
-    model: mesa_dc_5_mean_5_g5_5
+    model: mean_5_g5_5
   file: captures/1i6m5xt5psh_a2.nam
 - values:
-    model: mesa_dc_5_mids_g9
+    model: mids_g9
   file: captures/5czwc0ko99i_a2.nam
 - values:
-    model: mesa_dc_5_mean_5_g7
+    model: mean_5_g7
   file: captures/fpsif6w753d_a2.nam
 - values:
-    model: mesa_dc_5_mids_g5_5
+    model: mids_g5_5
   file: captures/6m0kqi9p9d3_a2.nam
 - values:
-    model: mesa_dc_5_less_thick_g5_5
+    model: less_thick_g5_5
   file: captures/veun3gtf24s_a2.nam
 - values:
-    model: mesa_dc_5_sd_805_3
+    model: sd_805_3
   file: captures/nqy3sywmdp_a2.nam
 - values:
-    model: mesa_dc_5_sd_805_1
+    model: sd_805_1
   file: captures/e1yg8o45nuo_a2.nam
 - values:
-    model: dc_5_new
+    model: new
   file: captures/5ji7ma7vxi8_a2.nam
 - values:
-    model: mesa_dc_5_scoop_g5_5
+    model: scoop_g5_5
   file: captures/bztuci1rn2a_a2.nam
 - values:
-    model: mesa_dc_5_less_thick_g7_5
+    model: less_thick_g7_5
   file: captures/in244ct15ap_a2.nam
 - values:
-    model: mesa_dc_5_mean_1
+    model: mean_1
   file: captures/8sbymeosgfh_a2.nam
 - values:
-    model: mesa_dc_5_thick_g7_5
+    model: thick_g7_5
   file: captures/orhdu4dmic_a2.nam
 - values:
-    model: mesa_dc_5_mids_g4
+    model: mids_g4
   file: captures/llcjqs12h2_a2.nam
 - values:
-    model: mesa_dc_5_mean_3_g7_5
+    model: mean_3_g7_5
   file: captures/1i0rp09777zi_a2.nam
 - values:
-    model: mesa_dc_5_mean_2_g6
+    model: mean_2_g6
   file: captures/kyjkdox7tv_a2.nam

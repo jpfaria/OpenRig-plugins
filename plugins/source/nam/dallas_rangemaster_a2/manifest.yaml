@@ -12,28 +12,28 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - rangemaster1300
-  - rangemaster1600
-  - rangemaster1200
-  - rangemaster1500
-  - rangemaster1400
-  - rangemastermax
+  - 1200
+  - 1300
+  - 1400
+  - 1500
+  - 1600
+  - max
 captures:
 - values:
-    model: rangemaster1300
+    model: 1300
   file: captures/rjpclnajcq9_a2.nam
 - values:
-    model: rangemaster1600
+    model: 1600
   file: captures/xejgjzyccnr_a2.nam
 - values:
-    model: rangemaster1200
+    model: 1200
   file: captures/cix8mki6s97_a2.nam
 - values:
-    model: rangemaster1500
+    model: 1500
   file: captures/jv4r4fjuotf_a2.nam
 - values:
-    model: rangemaster1400
+    model: 1400
   file: captures/plrnr0frc6m_a2.nam
 - values:
-    model: rangemastermax
+    model: max
   file: captures/mbpknw1xp6d_a2.nam

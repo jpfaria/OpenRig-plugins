@@ -9,23 +9,40 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/66205
 parameters:
-- name: model
-  display_name: Model
+- name: drive
+  display_name: Drive
   values:
-  - g_0_t_5_l_10
-  - g_3_t_8_l_10
-  - g_0_t_10_l_10
-  - g_8_t_5_l_10
+  - 0.0
+  - 3.0
+  - 8.0
+- name: tone
+  display_name: Tone
+  values:
+  - 5.0
+  - 8.0
+  - 10.0
+- name: level
+  display_name: Level
+  values:
+  - 10.0
 captures:
 - values:
-    model: g_0_t_5_l_10
+    drive: 0.0
+    level: 10.0
+    tone: 5.0
   file: captures/dfwapy8ymrs_a2.nam
 - values:
-    model: g_3_t_8_l_10
+    drive: 3.0
+    level: 10.0
+    tone: 8.0
   file: captures/44siotvd2sh_a2.nam
 - values:
-    model: g_0_t_10_l_10
+    drive: 0.0
+    level: 10.0
+    tone: 10.0
   file: captures/cs5ac2bll44_a2.nam
 - values:
-    model: g_8_t_5_l_10
+    drive: 8.0
+    level: 10.0
+    tone: 5.0
   file: captures/qjzjh7rodtp_a2.nam

@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - 1992_peavey_5150_block_letter_vivahatex
+  - block_letter
 captures:
 - values:
-    model: 1992_peavey_5150_block_letter_vivahatex
+    model: block_letter
   file: captures/drekg72r18_a2.nam

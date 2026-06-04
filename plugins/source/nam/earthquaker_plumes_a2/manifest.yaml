@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/40366
 parameters:
-- name: model
-  display_name: Model
+- name: mode
+  display_name: Mode
   values:
-  - plumes_ch1_g1_t5_l5
-  - plumes_ch3_g1_t5_l5
-  - plumes_ch2_g1_t5_l5
+  - ch1
+  - ch2
+  - ch3
 captures:
 - values:
-    model: plumes_ch1_g1_t5_l5
+    mode: ch1
   file: captures/2wi8hcm0nbf_a2.nam
 - values:
-    model: plumes_ch3_g1_t5_l5
+    mode: ch3
   file: captures/moj7bnwsmv_a2.nam
 - values:
-    model: plumes_ch2_g1_t5_l5
+    mode: ch2
   file: captures/58jj6cby2u4_a2.nam

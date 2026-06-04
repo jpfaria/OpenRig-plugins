@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - syn_slo
+  - slo
 captures:
 - values:
-    model: syn_slo
+    model: slo
   file: captures/cfzq14zrhli_a2.nam

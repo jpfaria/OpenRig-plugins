@@ -13,48 +13,48 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - deluxe_65_archer_drive
-  - deluxe_65_crancked
-  - deluxe_65_cleanest
-  - deluxe_65_tight
-  - deluxe_65_rythm
-  - deluxe_65_hot
-  - deluxe_65_rocking
-  - deluxe_65_dark
-  - deluxe_65_clean
-  - deluxe_65_edgy
-  - deluxe_65_archer_boost
+  - archer_drive
+  - cranked
+  - cleanest
+  - tight
+  - rhythm
+  - hot
+  - rocking
+  - dark
+  - clean
+  - edgy
+  - archer_boost
 captures:
 - values:
-    model: deluxe_65_archer_drive
+    model: archer_drive
   file: captures/450f747a1fbb403b_a2.nam
 - values:
-    model: deluxe_65_crancked
+    model: cranked
   file: captures/78131b2e0f2e9602_a2.nam
 - values:
-    model: deluxe_65_cleanest
+    model: cleanest
   file: captures/cfb7fe3dba0c8a14_a2.nam
 - values:
-    model: deluxe_65_tight
+    model: tight
   file: captures/cc605bb0c32191f0_a2.nam
 - values:
-    model: deluxe_65_rythm
+    model: rhythm
   file: captures/7a7a00a051d97b60_a2.nam
 - values:
-    model: deluxe_65_hot
+    model: hot
   file: captures/f8a32508fb14a43c_a2.nam
 - values:
-    model: deluxe_65_rocking
+    model: rocking
   file: captures/f2484e14ef0bc378_a2.nam
 - values:
-    model: deluxe_65_dark
+    model: dark
   file: captures/dc31cf64789eac53_a2.nam
 - values:
-    model: deluxe_65_clean
+    model: clean
   file: captures/dd71a44f9df14d64_a2.nam
 - values:
-    model: deluxe_65_edgy
+    model: edgy
   file: captures/9cdc53ea8a994608_a2.nam
 - values:
-    model: deluxe_65_archer_boost
+    model: archer_boost
   file: captures/fc229478d8ff12fd_a2.nam

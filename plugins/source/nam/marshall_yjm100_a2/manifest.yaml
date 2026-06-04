@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - mrsh_yjm_fr_01_crunch_bal_di
+  - crunch_bal
 captures:
 - values:
-    model: mrsh_yjm_fr_01_crunch_bal_di
+    model: crunch_bal
   file: captures/6irn12rg8w3_a2.nam

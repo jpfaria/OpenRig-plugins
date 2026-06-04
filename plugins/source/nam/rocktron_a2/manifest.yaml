@@ -12,28 +12,28 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - rocktron_voodu_valve_p90
-  - rocktron_voodu_valve_p95_greek_lead
-  - rocktron_voodu_valve_p10
-  - rocktron_voodu_valve_p99
-  - rocktron_voodu_valve_p250
-  - rocktron_voodue_valve_p11_cleanjazz
+  - p90
+  - p95_greek_lead
+  - p10
+  - p99
+  - p250
+  - p11_clean_jazz
 captures:
 - values:
-    model: rocktron_voodu_valve_p90
+    model: p90
   file: captures/xbo4hmldb7s_a2.nam
 - values:
-    model: rocktron_voodu_valve_p95_greek_lead
+    model: p95_greek_lead
   file: captures/n0f8yiaczv_a2.nam
 - values:
-    model: rocktron_voodu_valve_p10
+    model: p10
   file: captures/gz813mifaxg_a2.nam
 - values:
-    model: rocktron_voodu_valve_p99
+    model: p99
   file: captures/9yees6m4gfa_a2.nam
 - values:
-    model: rocktron_voodu_valve_p250
+    model: p250
   file: captures/pedngog75s_a2.nam
 - values:
-    model: rocktron_voodue_valve_p11_cleanjazz
+    model: p11_clean_jazz
   file: captures/48vjiqx0ktm_a2.nam

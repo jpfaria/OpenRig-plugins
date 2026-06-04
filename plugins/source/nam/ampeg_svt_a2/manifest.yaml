@@ -13,52 +13,52 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - svt_dirty_pushed
-  - svt_pushed
-  - svt_sans_rock_drive
-  - svt_darkglass_shreded
-  - svt_sans_bright_drive
-  - svt_dirty
-  - svt_sans_hype_my_d_i
-  - svt_darkglass_shred_my_d_i
-  - svt_clean
-  - svt_sans_hairy_drive
-  - svt_sans_subdrive
-  - svt_clean_pushed
+  - clean
+  - clean_pushed
+  - pushed
+  - dirty
+  - dirty_pushed
+  - sans_rock_drive
+  - sans_bright_drive
+  - sans_hype_di
+  - sans_hairy_drive
+  - sans_subdrive
+  - darkglass_shred
+  - darkglass_shred_di
 captures:
 - values:
-    model: svt_dirty_pushed
-  file: captures/xq66z36685_a2.nam
-- values:
-    model: svt_pushed
-  file: captures/xfj2avdyq4c_a2.nam
-- values:
-    model: svt_sans_rock_drive
-  file: captures/76pi4i14wen_a2.nam
-- values:
-    model: svt_darkglass_shreded
-  file: captures/gp1b6gh3iau_a2.nam
-- values:
-    model: svt_sans_bright_drive
-  file: captures/xjxftf7hno_a2.nam
-- values:
-    model: svt_dirty
-  file: captures/6mdw2kzijp_a2.nam
-- values:
-    model: svt_sans_hype_my_d_i
-  file: captures/31a57cvymcg_a2.nam
-- values:
-    model: svt_darkglass_shred_my_d_i
-  file: captures/j1zkesvcpg_a2.nam
-- values:
-    model: svt_clean
+    model: clean
   file: captures/7d86dr42iet_a2.nam
 - values:
-    model: svt_sans_hairy_drive
+    model: clean_pushed
+  file: captures/5ciiulzwbpr_a2.nam
+- values:
+    model: pushed
+  file: captures/xfj2avdyq4c_a2.nam
+- values:
+    model: dirty
+  file: captures/6mdw2kzijp_a2.nam
+- values:
+    model: dirty_pushed
+  file: captures/xq66z36685_a2.nam
+- values:
+    model: sans_rock_drive
+  file: captures/76pi4i14wen_a2.nam
+- values:
+    model: sans_bright_drive
+  file: captures/xjxftf7hno_a2.nam
+- values:
+    model: sans_hype_di
+  file: captures/31a57cvymcg_a2.nam
+- values:
+    model: sans_hairy_drive
   file: captures/pmjdpfcok9j_a2.nam
 - values:
-    model: svt_sans_subdrive
+    model: sans_subdrive
   file: captures/l0mbzet6lah_a2.nam
 - values:
-    model: svt_clean_pushed
-  file: captures/5ciiulzwbpr_a2.nam
+    model: darkglass_shred
+  file: captures/gp1b6gh3iau_a2.nam
+- values:
+    model: darkglass_shred_di
+  file: captures/j1zkesvcpg_a2.nam

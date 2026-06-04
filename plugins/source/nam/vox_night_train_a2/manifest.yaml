@@ -10,15 +10,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/51686
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - vox_night_train_nt15h_dirty
-  - vox_night_train_nt15h_dirty_low_boosted
+  - dirty
+  - dirty_low_boosted
 captures:
 - values:
-    model: vox_night_train_nt15h_dirty
+    voicing: dirty
   file: captures/ztd9y9p25f_a2.nam
 - values:
-    model: vox_night_train_nt15h_dirty_low_boosted
+    voicing: dirty_low_boosted
   file: captures/ztcxc3ism7s_a2.nam

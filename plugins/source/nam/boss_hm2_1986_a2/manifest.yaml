@@ -16,14 +16,14 @@ parameters:
   - v10_l4_h6_g10
   - v10_l10_h4_g10
   - chainsaw
-  - hm2_eq_pedal_chainsaw
+  - chainsaw_eq
   - v10_l10_h9_g10
   - v6_l5_h5_g5
   - v10_l6_h10_g10
   - v8_l8_h2_g2
   - v10_l10_h6_g10
   - v6_l6_h4_g4
-  - chainsaw_0_gain
+  - chainsaw_0gain
 captures:
 - values:
     model: v10_l4_h6_g10
@@ -35,7 +35,7 @@ captures:
     model: chainsaw
   file: captures/e7169f74cede9bcb_a2.nam
 - values:
-    model: hm2_eq_pedal_chainsaw
+    model: chainsaw_eq
   file: captures/e1c43062a04a6bdf_a2.nam
 - values:
     model: v10_l10_h9_g10
@@ -56,5 +56,5 @@ captures:
     model: v6_l6_h4_g4
   file: captures/208f776e2e11b231_a2.nam
 - values:
-    model: chainsaw_0_gain
+    model: chainsaw_0gain
   file: captures/04381bf61d2a1f4c_a2.nam

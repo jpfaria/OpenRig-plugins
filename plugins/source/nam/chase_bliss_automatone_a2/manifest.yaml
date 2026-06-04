@@ -9,47 +9,47 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/2016
 parameters:
-- name: model
-  display_name: Model
+- name: tone
+  display_name: Tone
   values:
-  - pre_mkii_05
-  - pre_mkii_07
-  - pre_mkii_00
-  - pre_mkii_08
-  - pre_mkii_02
-  - pre_mkii_01
-  - pre_mkii_09
-  - pre_mkii_06
-  - pre_mkii_04
-  - pre_mkii_03
+  - 00
+  - 01
+  - 02
+  - 03
+  - 04
+  - 05
+  - 06
+  - 07
+  - 08
+  - 09
 captures:
 - values:
-    model: pre_mkii_05
-  file: captures/26900a2318247d48_a2.nam
-- values:
-    model: pre_mkii_07
-  file: captures/49d8b3697571ad63_a2.nam
-- values:
-    model: pre_mkii_00
+    tone: 00
   file: captures/9dc1bbb158ba153a_a2.nam
 - values:
-    model: pre_mkii_08
-  file: captures/09c59c17fc2c78f6_a2.nam
-- values:
-    model: pre_mkii_02
-  file: captures/84743c5ab80f1d00_a2.nam
-- values:
-    model: pre_mkii_01
+    tone: 01
   file: captures/f03345b812b47ace_a2.nam
 - values:
-    model: pre_mkii_09
-  file: captures/c5cf695bde697247_a2.nam
+    tone: 02
+  file: captures/84743c5ab80f1d00_a2.nam
 - values:
-    model: pre_mkii_06
-  file: captures/6d02a7556665aaa6_a2.nam
+    tone: 03
+  file: captures/c897cdc559c950d0_a2.nam
 - values:
-    model: pre_mkii_04
+    tone: 04
   file: captures/44db81c643c18130_a2.nam
 - values:
-    model: pre_mkii_03
-  file: captures/c897cdc559c950d0_a2.nam
+    tone: 05
+  file: captures/26900a2318247d48_a2.nam
+- values:
+    tone: 06
+  file: captures/6d02a7556665aaa6_a2.nam
+- values:
+    tone: 07
+  file: captures/49d8b3697571ad63_a2.nam
+- values:
+    tone: 08
+  file: captures/09c59c17fc2c78f6_a2.nam
+- values:
+    tone: 09
+  file: captures/c5cf695bde697247_a2.nam

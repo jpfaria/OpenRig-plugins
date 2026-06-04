@@ -10,99 +10,118 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/65163
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - drps_marshall_gv_2_guv_nor_plus_gain_7_bass_10_deep_10_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_3_bass_7_deep_0_treble_0_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_5_bass_7_deep_0_treble_0_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_5_2_bass_5_deep_10_treble_8_mid_3
-  - drps_marshall_gv_2_guv_nor_plus_gain_6_bass_5_deep_5_treble_5_mid_5
-  - drps_marshall_gv_2_guv_nor_plus_gain_10_bass_0_deep_0_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_10_bass_10_deep_9_treble_0_mid_0
-  - drps_marshall_gv_2_guv_nor_plus_gain_10_bass_7_deep_0_treble_0_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_5_bass_10_deep_10_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_7_bass_0_deep_0_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_7_bass_7_deep_0_treble_0_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_3_2_bass_5_deep_10_treble_8_mid_3
-  - drps_marshall_gv_2_guv_nor_plus_gain3_bass_10_deep_9_treble_0_mid_0
-  - drps_marshall_gv_2_guv_nor_plus_gain_10_bass_5_deep_10_treble_8_mid_3
-  - drps_marshall_gv_2_guv_nor_plus_gain_3_bass_5_deep_5_treble_5_mid_5
-  - drps_marshall_gv_2_guv_nor_plus_gain_4_3_bass_0_deep_0_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_7_bass_10_deep_9_treble_0_mid_0
-  - drps_marshall_gv_2_guv_nor_plus_gain_7_5_bass_5_deep_10_treble_8_mid_3
-  - drps_marshall_gv_2_guv_nor_plus_gain_3_bass_10_deep_10_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_5_bass_10_deep_9_treble_0_mid_0
-  - drps_marshall_gv_2_guv_nor_plus_everythnig_at_12_0_clock
-  - drps_marshall_gv_2_guv_nor_plus_gain_10_bass_10_deep_10_treble_10_mid_10
-  - drps_marshall_gv_2_guv_nor_plus_gain_10_bass_5_deep_5_treble_5_mid_5
+  - g3
+  - g3_2
+  - g4_3
+  - g5
+  - g5_2
+  - g6
+  - g7
+  - g7_5
+  - g10
+- name: eq
+  display_name: EQ
+  values:
+  - max
+  - bright
+  - dark_mid
+  - deep_scoop
+  - flat5
+  - dark_deep
+  - noon
 captures:
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_7_bass_10_deep_10_treble_10_mid_10
+    eq: max
+    gain: g7
   file: captures/48a31rr9tak_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_3_bass_7_deep_0_treble_0_mid_10
+    eq: dark_mid
+    gain: g3
   file: captures/6t75paze735_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_5_bass_7_deep_0_treble_0_mid_10
+    eq: dark_mid
+    gain: g5
   file: captures/dgiwu1xxq3d_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_5_2_bass_5_deep_10_treble_8_mid_3
+    eq: deep_scoop
+    gain: g5_2
   file: captures/nwwvnbdfcm_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_6_bass_5_deep_5_treble_5_mid_5
+    eq: flat5
+    gain: g6
   file: captures/pkl2q121ofm_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_10_bass_0_deep_0_treble_10_mid_10
+    eq: bright
+    gain: g10
   file: captures/u4d0ilrsg4_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_10_bass_10_deep_9_treble_0_mid_0
+    eq: dark_deep
+    gain: g10
   file: captures/494sg1arl4y_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_10_bass_7_deep_0_treble_0_mid_10
+    eq: dark_mid
+    gain: g10
   file: captures/3sa1bd6k4m5_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_5_bass_10_deep_10_treble_10_mid_10
+    eq: max
+    gain: g5
   file: captures/d0sfqqfmcvn_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_7_bass_0_deep_0_treble_10_mid_10
+    eq: bright
+    gain: g7
   file: captures/6ah12q2r9as_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_7_bass_7_deep_0_treble_0_mid_10
+    eq: dark_mid
+    gain: g7
   file: captures/ukg3vs6oago_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_3_2_bass_5_deep_10_treble_8_mid_3
+    eq: deep_scoop
+    gain: g3_2
   file: captures/ul1fu2i8a4_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain3_bass_10_deep_9_treble_0_mid_0
+    eq: dark_deep
+    gain: g3
   file: captures/nbxw0g3lvqf_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_10_bass_5_deep_10_treble_8_mid_3
+    eq: deep_scoop
+    gain: g10
   file: captures/l8w0y6phc8n_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_3_bass_5_deep_5_treble_5_mid_5
+    eq: flat5
+    gain: g3
   file: captures/g1ea29fo09e_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_4_3_bass_0_deep_0_treble_10_mid_10
+    eq: bright
+    gain: g4_3
   file: captures/4znvmczcz3s_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_7_bass_10_deep_9_treble_0_mid_0
+    eq: dark_deep
+    gain: g7
   file: captures/lsxn9en4g6e_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_7_5_bass_5_deep_10_treble_8_mid_3
+    eq: deep_scoop
+    gain: g7_5
   file: captures/at2wroew3am_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_3_bass_10_deep_10_treble_10_mid_10
+    eq: max
+    gain: g3
   file: captures/el5j7odox2_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_5_bass_10_deep_9_treble_0_mid_0
+    eq: dark_deep
+    gain: g5
   file: captures/3br1sx6800y_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_everythnig_at_12_0_clock
+    eq: noon
+    gain: g6
   file: captures/oh4mpvuan48_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_10_bass_10_deep_10_treble_10_mid_10
+    eq: max
+    gain: g10
   file: captures/47qsx917yu5_a2.nam
 - values:
-    model: drps_marshall_gv_2_guv_nor_plus_gain_10_bass_5_deep_5_treble_5_mid_5
+    eq: flat5
+    gain: g10
   file: captures/nfnvdb47ev_a2.nam

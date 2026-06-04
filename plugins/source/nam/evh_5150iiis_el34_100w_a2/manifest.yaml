@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/41530
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - evh_5150iii_s_100w_el34_ch_blue
-  - evh_5150iii_s_100w_el34_ch_green
-  - evh_5150iii_s_100w_el34_ch_red
+  - blue
+  - green
+  - red
 captures:
 - values:
-    model: evh_5150iii_s_100w_el34_ch_blue
+    channel: blue
   file: captures/9rcl72tekkf_a2.nam
 - values:
-    model: evh_5150iii_s_100w_el34_ch_green
+    channel: green
   file: captures/p2smcaftynm_a2.nam
 - values:
-    model: evh_5150iii_s_100w_el34_ch_red
+    channel: red
   file: captures/shn9trxwsqm_a2.nam

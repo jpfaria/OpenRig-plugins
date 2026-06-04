@@ -12,12 +12,12 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - bcl_hg_2
-  - bcl_hg_3
+  - hg_2
+  - hg_3
 captures:
 - values:
-    model: bcl_hg_2
+    model: hg_2
   file: captures/lg8ohwa6lh_a2.nam
 - values:
-    model: bcl_hg_3
+    model: hg_3
   file: captures/i600n9w4oyr_a2.nam

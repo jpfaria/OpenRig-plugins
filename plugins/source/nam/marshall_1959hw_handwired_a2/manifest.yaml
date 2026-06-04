@@ -10,19 +10,26 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/40973
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - marshall_1959_handwired_head_90w_brown_mod_ch_i_jumped
-  - marshall_1959_handwired_head_90w_brown_mod_ch_i
-  - marshall_1959_handwired_head_90w_brown_mod_ch_ii
+  - ch1
+  - ch2
+- name: wiring
+  display_name: Wiring
+  values:
+  - normal
+  - jumped
 captures:
 - values:
-    model: marshall_1959_handwired_head_90w_brown_mod_ch_i_jumped
+    channel: ch1
+    wiring: jumped
   file: captures/zs7kker7z79_a2.nam
 - values:
-    model: marshall_1959_handwired_head_90w_brown_mod_ch_i
+    channel: ch1
+    wiring: normal
   file: captures/ydva8sr8tf7_a2.nam
 - values:
-    model: marshall_1959_handwired_head_90w_brown_mod_ch_ii
+    channel: ch2
+    wiring: normal
   file: captures/kz51aswcyxm_a2.nam

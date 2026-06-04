@@ -13,16 +13,16 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - amp_pv6505_og1992_mes4x12_lead_pink_gator_di
-  - amp_pv6505_og1992_mes4x12_lead_ending_heartbrake_di
-  - pow_pv6505_og1992_mes4x12_reso_7_pres_7_di
+  - lead_pink_gator
+  - lead_heartbrake
+  - power_reso7_pres7
 captures:
 - values:
-    model: amp_pv6505_og1992_mes4x12_lead_pink_gator_di
+    model: lead_pink_gator
   file: captures/x0vxc93jzml_a2.nam
 - values:
-    model: amp_pv6505_og1992_mes4x12_lead_ending_heartbrake_di
+    model: lead_heartbrake
   file: captures/lhxu3zhhhvr_a2.nam
 - values:
-    model: pow_pv6505_og1992_mes4x12_reso_7_pres_7_di
+    model: power_reso7_pres7
   file: captures/4fk0d9r2pho_a2.nam

@@ -9,39 +9,48 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6132
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - koch_multitone50_od_1
-  - koch_multitone50_crunch_3
-  - koch_multitone50_od_2
-  - koch_multitone50_crunch_2
-  - koch_multitone50_crunch_1
-  - koch_multitone50_clean_1
-  - koch_multitone50_clean_2
-  - koch_multitone50_od_3
+  - clean
+  - crunch
+  - od
+- name: variant
+  display_name: Variant
+  values:
+  - 1
+  - 2
+  - 3
 captures:
 - values:
-    model: koch_multitone50_od_1
+    variant: 1
+    voicing: od
   file: captures/0156c87e5ba80c22_a2.nam
 - values:
-    model: koch_multitone50_crunch_3
+    variant: 3
+    voicing: crunch
   file: captures/c57a182b17840098_a2.nam
 - values:
-    model: koch_multitone50_od_2
+    variant: 2
+    voicing: od
   file: captures/7915a2cc1f899dc0_a2.nam
 - values:
-    model: koch_multitone50_crunch_2
+    variant: 2
+    voicing: crunch
   file: captures/217c3cf8dbf625f0_a2.nam
 - values:
-    model: koch_multitone50_crunch_1
+    variant: 1
+    voicing: crunch
   file: captures/0b95529b3b3dfd53_a2.nam
 - values:
-    model: koch_multitone50_clean_1
+    variant: 1
+    voicing: clean
   file: captures/fed018709ff6b99e_a2.nam
 - values:
-    model: koch_multitone50_clean_2
+    variant: 2
+    voicing: clean
   file: captures/e5c53b7bdf68ca26_a2.nam
 - values:
-    model: koch_multitone50_od_3
+    variant: 3
+    voicing: od
   file: captures/7b562b766d910842_a2.nam

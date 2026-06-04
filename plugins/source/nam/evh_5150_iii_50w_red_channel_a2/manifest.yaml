@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - evh_red
+  - red
 captures:
 - values:
-    model: evh_red
+    model: red
   file: captures/mbalnk9scg7_a2.nam

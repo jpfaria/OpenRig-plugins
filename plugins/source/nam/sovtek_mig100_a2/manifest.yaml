@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30054
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - sovtek_bassov_blues_boy_mig_100_3
-  - sovtek_bassov_blues_boy_mig_100_1
-  - sovtek_bassov_blues_boy_mig_100_2
+  - v1
+  - v2
+  - v3
 captures:
 - values:
-    model: sovtek_bassov_blues_boy_mig_100_3
-  file: captures/wu22jef1vsb_a2.nam
-- values:
-    model: sovtek_bassov_blues_boy_mig_100_1
+    voicing: v1
   file: captures/ojmzfxe6ptj_a2.nam
 - values:
-    model: sovtek_bassov_blues_boy_mig_100_2
+    voicing: v2
   file: captures/g10cia9xsh_a2.nam
+- values:
+    voicing: v3
+  file: captures/wu22jef1vsb_a2.nam

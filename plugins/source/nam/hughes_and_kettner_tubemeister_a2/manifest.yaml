@@ -9,79 +9,111 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/39045
 parameters:
-- name: model
-  display_name: Model
+- name: mv
+  display_name: Master Volume
   values:
-  - mv3_crunch_hk40_full_amp_no_cab
-  - mv1_crunch_dco_hk40_full_amp_no_cab_v2
-  - mv3_crunch_dco_hk40_full_amp_no_cab
-  - mv1_clean_dco_hk40_full_amp_no_cab_v2
-  - mv2_crunch_dco_hk40_full_amp_no_cab
-  - mv3_lead_dco_hk40_full_amp_no_cab
-  - mv2_clean_dco_hk40_full_amp_no_cab
-  - mv3_lead_hk40_full_amp_no_cab
-  - mv2_crunch_hk40_full_amp_no_cab
-  - mv3_clean_dco_hk40_full_amp_no_cab
-  - mv1_crunch_hk40_full_amp_no_cab_v2
-  - mv3_clean_hk40_full_amp_no_cab
-  - mv2_lead_hk40_full_amp_no_cab
-  - mv1_lead_hk40_full_amp_no_cab_v2
-  - mv2_clean_hk40_full_amp_no_cab
-  - mv2_lead_dco_hk40_full_amp_no_cab
-  - mv1_clean_hk40_full_amp_no_cab_v2
-  - mv1_lead_dco_hk40_full_amp_no_cab
+  - mv1
+  - mv2
+  - mv3
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - crunch
+  - lead
+- name: variant
+  display_name: Variant
+  values:
+  - std
+  - dco
 captures:
 - values:
-    model: mv3_crunch_hk40_full_amp_no_cab
+    channel: crunch
+    mv: mv3
+    variant: std
   file: captures/132bovboyev_a2.nam
 - values:
-    model: mv1_crunch_dco_hk40_full_amp_no_cab_v2
+    channel: crunch
+    mv: mv1
+    variant: dco
   file: captures/tf20lrp3i1l_a2.nam
 - values:
-    model: mv3_crunch_dco_hk40_full_amp_no_cab
+    channel: crunch
+    mv: mv3
+    variant: dco
   file: captures/m4ao5nydysf_a2.nam
 - values:
-    model: mv1_clean_dco_hk40_full_amp_no_cab_v2
+    channel: clean
+    mv: mv1
+    variant: dco
   file: captures/yblbqrppgpc_a2.nam
 - values:
-    model: mv2_crunch_dco_hk40_full_amp_no_cab
+    channel: crunch
+    mv: mv2
+    variant: dco
   file: captures/qsd7wcvzrd_a2.nam
 - values:
-    model: mv3_lead_dco_hk40_full_amp_no_cab
+    channel: lead
+    mv: mv3
+    variant: dco
   file: captures/ijw8f2ji7i_a2.nam
 - values:
-    model: mv2_clean_dco_hk40_full_amp_no_cab
+    channel: clean
+    mv: mv2
+    variant: dco
   file: captures/388g6lenled_a2.nam
 - values:
-    model: mv3_lead_hk40_full_amp_no_cab
+    channel: lead
+    mv: mv3
+    variant: std
   file: captures/podrw2r77u_a2.nam
 - values:
-    model: mv2_crunch_hk40_full_amp_no_cab
+    channel: crunch
+    mv: mv2
+    variant: std
   file: captures/0abkgr803o74_a2.nam
 - values:
-    model: mv3_clean_dco_hk40_full_amp_no_cab
+    channel: clean
+    mv: mv3
+    variant: dco
   file: captures/qs2qlagwgxd_a2.nam
 - values:
-    model: mv1_crunch_hk40_full_amp_no_cab_v2
+    channel: crunch
+    mv: mv1
+    variant: std
   file: captures/sz110eh3bx8_a2.nam
 - values:
-    model: mv3_clean_hk40_full_amp_no_cab
+    channel: clean
+    mv: mv3
+    variant: std
   file: captures/bdcafx3khh_a2.nam
 - values:
-    model: mv2_lead_hk40_full_amp_no_cab
+    channel: lead
+    mv: mv2
+    variant: std
   file: captures/ez3wh5a76sb_a2.nam
 - values:
-    model: mv1_lead_hk40_full_amp_no_cab_v2
+    channel: lead
+    mv: mv1
+    variant: std
   file: captures/jnek5pqqgaa_a2.nam
 - values:
-    model: mv2_clean_hk40_full_amp_no_cab
+    channel: clean
+    mv: mv2
+    variant: std
   file: captures/9ljti9r39i9_a2.nam
 - values:
-    model: mv2_lead_dco_hk40_full_amp_no_cab
+    channel: lead
+    mv: mv2
+    variant: dco
   file: captures/jbylzcaqnbc_a2.nam
 - values:
-    model: mv1_clean_hk40_full_amp_no_cab_v2
+    channel: clean
+    mv: mv1
+    variant: std
   file: captures/0k4btw9euhsr_a2.nam
 - values:
-    model: mv1_lead_dco_hk40_full_amp_no_cab
+    channel: lead
+    mv: mv1
+    variant: dco
   file: captures/42mqgl34rcc_a2.nam

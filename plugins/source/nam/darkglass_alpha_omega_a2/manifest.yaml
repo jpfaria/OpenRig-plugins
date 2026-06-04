@@ -10,231 +10,306 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/44990
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - alpha_bite_growl_g5
-  - alpha_bite_growl_g10
-  - omega_omega_neutral_g1
-  - alpha_growl_g7
-  - alpha_bite_growl_g8
-  - alpha_bite_growl_g7
-  - alpha_neutral_g3
-  - alpha_neutral_g8
-  - alpha_bite_growl_g3
-  - alpha_growl_g3
-  - omega_omega_bite_g10
-  - alpha_growl_g10
-  - alpha_neutral_g10
-  - omega_omega_growl_g10
-  - omega_omega_bite_g8
-  - omega_omega_bite_g1
-  - alpha_bite_g8
-  - alpha_growl_g0
-  - omega_omega_growl_g8
-  - omega_omega_bite_growl_g3
-  - omega_omega_bite_growl_g10
-  - omega_omega_neutral_g0
-  - omega_omega_bite_growl_g0
-  - alpha_bite_g1
-  - alpha_growl_g1
-  - omega_omega_growl_g5
-  - omega_omega_growl_g7
-  - omega_omega_bite_g5
-  - omega_omega_neutral_g8
-  - omega_omega_bite_growl_g5
-  - alpha_bite_g7
-  - alpha_bite_g3
-  - alpha_bite_g10
-  - omega_omega_growl_g1
-  - omega_omega_neutral_g10
-  - alpha_neutral_g1
-  - alpha_bite_g0
-  - alpha_growl_g5
-  - omega_omega_growl_g0
-  - omega_omega_neutral_g5
-  - alpha_bite_g5
-  - alpha_bite_growl_g1
-  - omega_omega_bite_growl_g8
-  - omega_omega_bite_growl_g7
-  - alpha_bite_growl_g0
-  - alpha_neutral_g5
-  - alpha_neutral_g0
-  - alpha_neutral_g7
-  - omega_omega_neutral_g3
-  - omega_omega_bite_g3
-  - alpha_growl_g8
-  - omega_omega_neutral_g7
-  - omega_omega_bite_g7
-  - omega_omega_bite_growl_g1
-  - omega_omega_growl_g3
-  - omega_omega_bite_g0
+  - alpha
+  - omega
+- name: voicing
+  display_name: Voicing
+  values:
+  - bite
+  - growl
+  - neutral
+  - bite_growl
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 1
+  - 3
+  - 5
+  - 7
+  - 8
+  - 10
 captures:
 - values:
-    model: alpha_bite_growl_g5
+    channel: alpha
+    gain: 5
+    voicing: bite_growl
   file: captures/6c4n65hgcrd_a2.nam
 - values:
-    model: alpha_bite_growl_g10
+    channel: alpha
+    gain: 10
+    voicing: bite_growl
   file: captures/vc312ya075a_a2.nam
 - values:
-    model: omega_omega_neutral_g1
+    channel: omega
+    gain: 1
+    voicing: neutral
   file: captures/4ay7w5vvorb_a2.nam
 - values:
-    model: alpha_growl_g7
+    channel: alpha
+    gain: 7
+    voicing: growl
   file: captures/g7fq8m5z0yh_a2.nam
 - values:
-    model: alpha_bite_growl_g8
+    channel: alpha
+    gain: 8
+    voicing: bite_growl
   file: captures/bwi4gb5793b_a2.nam
 - values:
-    model: alpha_bite_growl_g7
+    channel: alpha
+    gain: 7
+    voicing: bite_growl
   file: captures/q719ps5ok3_a2.nam
 - values:
-    model: alpha_neutral_g3
+    channel: alpha
+    gain: 3
+    voicing: neutral
   file: captures/9j8k8lbhj3d_a2.nam
 - values:
-    model: alpha_neutral_g8
+    channel: alpha
+    gain: 8
+    voicing: neutral
   file: captures/mv4iq20tr_a2.nam
 - values:
-    model: alpha_bite_growl_g3
+    channel: alpha
+    gain: 3
+    voicing: bite_growl
   file: captures/z4twqd3xe0o_a2.nam
 - values:
-    model: alpha_growl_g3
+    channel: alpha
+    gain: 3
+    voicing: growl
   file: captures/6jcpmqtz6be_a2.nam
 - values:
-    model: omega_omega_bite_g10
+    channel: omega
+    gain: 10
+    voicing: bite
   file: captures/a2d59brikc_a2.nam
 - values:
-    model: alpha_growl_g10
+    channel: alpha
+    gain: 10
+    voicing: growl
   file: captures/6y0pwbv06g8_a2.nam
 - values:
-    model: alpha_neutral_g10
+    channel: alpha
+    gain: 10
+    voicing: neutral
   file: captures/82y930gnc7d_a2.nam
 - values:
-    model: omega_omega_growl_g10
+    channel: omega
+    gain: 10
+    voicing: growl
   file: captures/9629odrqor_a2.nam
 - values:
-    model: omega_omega_bite_g8
+    channel: omega
+    gain: 8
+    voicing: bite
   file: captures/yhs3kti6zk9_a2.nam
 - values:
-    model: omega_omega_bite_g1
+    channel: omega
+    gain: 1
+    voicing: bite
   file: captures/v0hzafcrl1b_a2.nam
 - values:
-    model: alpha_bite_g8
+    channel: alpha
+    gain: 8
+    voicing: bite
   file: captures/riv6gcsnka_a2.nam
 - values:
-    model: alpha_growl_g0
+    channel: alpha
+    gain: 0
+    voicing: growl
   file: captures/w52bgwvhg7m_a2.nam
 - values:
-    model: omega_omega_growl_g8
+    channel: omega
+    gain: 8
+    voicing: growl
   file: captures/346bajc2r6m_a2.nam
 - values:
-    model: omega_omega_bite_growl_g3
+    channel: omega
+    gain: 3
+    voicing: bite_growl
   file: captures/u0cwi4nhgt_a2.nam
 - values:
-    model: omega_omega_bite_growl_g10
+    channel: omega
+    gain: 10
+    voicing: bite_growl
   file: captures/reldg2dxqg_a2.nam
 - values:
-    model: omega_omega_neutral_g0
+    channel: omega
+    gain: 0
+    voicing: neutral
   file: captures/jddmfyywcam_a2.nam
 - values:
-    model: omega_omega_bite_growl_g0
+    channel: omega
+    gain: 0
+    voicing: bite_growl
   file: captures/m0wr9j8s2b_a2.nam
 - values:
-    model: alpha_bite_g1
+    channel: alpha
+    gain: 1
+    voicing: bite
   file: captures/bkji9gr92h_a2.nam
 - values:
-    model: alpha_growl_g1
+    channel: alpha
+    gain: 1
+    voicing: growl
   file: captures/nz1p8f8t5z_a2.nam
 - values:
-    model: omega_omega_growl_g5
+    channel: omega
+    gain: 5
+    voicing: growl
   file: captures/spljd5ytbn_a2.nam
 - values:
-    model: omega_omega_growl_g7
+    channel: omega
+    gain: 7
+    voicing: growl
   file: captures/jjb4rzutcxf_a2.nam
 - values:
-    model: omega_omega_bite_g5
+    channel: omega
+    gain: 5
+    voicing: bite
   file: captures/780564uwsix_a2.nam
 - values:
-    model: omega_omega_neutral_g8
+    channel: omega
+    gain: 8
+    voicing: neutral
   file: captures/wp6a9h8hg5p_a2.nam
 - values:
-    model: omega_omega_bite_growl_g5
+    channel: omega
+    gain: 5
+    voicing: bite_growl
   file: captures/2jfyuyrftv9_a2.nam
 - values:
-    model: alpha_bite_g7
+    channel: alpha
+    gain: 7
+    voicing: bite
   file: captures/7824y06fml8_a2.nam
 - values:
-    model: alpha_bite_g3
+    channel: alpha
+    gain: 3
+    voicing: bite
   file: captures/4n6zolyi1ne_a2.nam
 - values:
-    model: alpha_bite_g10
+    channel: alpha
+    gain: 10
+    voicing: bite
   file: captures/3f1mbsorc85_a2.nam
 - values:
-    model: omega_omega_growl_g1
+    channel: omega
+    gain: 1
+    voicing: growl
   file: captures/zgs3dlet7wn_a2.nam
 - values:
-    model: omega_omega_neutral_g10
+    channel: omega
+    gain: 10
+    voicing: neutral
   file: captures/h2ibcez9zms_a2.nam
 - values:
-    model: alpha_neutral_g1
+    channel: alpha
+    gain: 1
+    voicing: neutral
   file: captures/et7401d1l9f_a2.nam
 - values:
-    model: alpha_bite_g0
+    channel: alpha
+    gain: 0
+    voicing: bite
   file: captures/asnf10vqf0t_a2.nam
 - values:
-    model: alpha_growl_g5
+    channel: alpha
+    gain: 5
+    voicing: growl
   file: captures/179079d9wns_a2.nam
 - values:
-    model: omega_omega_growl_g0
+    channel: omega
+    gain: 0
+    voicing: growl
   file: captures/6oalmdaugll_a2.nam
 - values:
-    model: omega_omega_neutral_g5
+    channel: omega
+    gain: 5
+    voicing: neutral
   file: captures/waequ1k4b7a_a2.nam
 - values:
-    model: alpha_bite_g5
+    channel: alpha
+    gain: 5
+    voicing: bite
   file: captures/uf50icwxdoo_a2.nam
 - values:
-    model: alpha_bite_growl_g1
+    channel: alpha
+    gain: 1
+    voicing: bite_growl
   file: captures/sz25h0vms2_a2.nam
 - values:
-    model: omega_omega_bite_growl_g8
+    channel: omega
+    gain: 8
+    voicing: bite_growl
   file: captures/6ug2wrdn2wp_a2.nam
 - values:
-    model: omega_omega_bite_growl_g7
+    channel: omega
+    gain: 7
+    voicing: bite_growl
   file: captures/66oyw76038i_a2.nam
 - values:
-    model: alpha_bite_growl_g0
+    channel: alpha
+    gain: 0
+    voicing: bite_growl
   file: captures/qmgl7a5x2u_a2.nam
 - values:
-    model: alpha_neutral_g5
+    channel: alpha
+    gain: 5
+    voicing: neutral
   file: captures/wuukw30n7tk_a2.nam
 - values:
-    model: alpha_neutral_g0
+    channel: alpha
+    gain: 0
+    voicing: neutral
   file: captures/xl5woe9tre_a2.nam
 - values:
-    model: alpha_neutral_g7
+    channel: alpha
+    gain: 7
+    voicing: neutral
   file: captures/zkgo4ocao5_a2.nam
 - values:
-    model: omega_omega_neutral_g3
+    channel: omega
+    gain: 3
+    voicing: neutral
   file: captures/0aa99232ap6r_a2.nam
 - values:
-    model: omega_omega_bite_g3
+    channel: omega
+    gain: 3
+    voicing: bite
   file: captures/ivy7eljpdqc_a2.nam
 - values:
-    model: alpha_growl_g8
+    channel: alpha
+    gain: 8
+    voicing: growl
   file: captures/kvq0q8rm1mg_a2.nam
 - values:
-    model: omega_omega_neutral_g7
+    channel: omega
+    gain: 7
+    voicing: neutral
   file: captures/sjykhnm7go_a2.nam
 - values:
-    model: omega_omega_bite_g7
+    channel: omega
+    gain: 7
+    voicing: bite
   file: captures/2urwr6jnltb_a2.nam
 - values:
-    model: omega_omega_bite_growl_g1
+    channel: omega
+    gain: 1
+    voicing: bite_growl
   file: captures/fip0l6srcx_a2.nam
 - values:
-    model: omega_omega_growl_g3
+    channel: omega
+    gain: 3
+    voicing: growl
   file: captures/x79e7ahxkgd_a2.nam
 - values:
-    model: omega_omega_bite_g0
+    channel: omega
+    gain: 0
+    voicing: bite
   file: captures/ucd3n4jmv59_a2.nam

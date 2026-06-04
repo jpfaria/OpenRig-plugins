@@ -9,15 +9,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/46528
 parameters:
-- name: model
-  display_name: Model
+- name: fuzz
+  display_name: Fuzz
   values:
-  - rr_blue_fuzz_9
-  - rr_blue_fuzz_5
+  - 9
+  - 5
 captures:
 - values:
-    model: rr_blue_fuzz_9
+    fuzz: 9
   file: captures/t5bbwbi3sr_a2.nam
 - values:
-    model: rr_blue_fuzz_5
+    fuzz: 5
   file: captures/jjqpdxeccya_a2.nam

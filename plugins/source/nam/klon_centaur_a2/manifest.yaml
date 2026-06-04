@@ -9,31 +9,31 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5196
 parameters:
-- name: model
-  display_name: Model
+- name: setting
+  display_name: Setting
   values:
-  - klon_555
-  - klon_255
-  - klon_277
-  - klon_3_5_6_5_3_john_mayer
-  - klon_668
-  - klon_468
+  - 255
+  - 277
+  - 468
+  - 555
+  - 668
+  - john_mayer
 captures:
 - values:
-    model: klon_555
+    setting: 555
   file: captures/af34a4386da9fe44_a2.nam
 - values:
-    model: klon_255
+    setting: 255
   file: captures/e4a2e5367770ee1c_a2.nam
 - values:
-    model: klon_277
+    setting: 277
   file: captures/79183eda116aa7bf_a2.nam
 - values:
-    model: klon_3_5_6_5_3_john_mayer
+    setting: john_mayer
   file: captures/e49b29690178bc8a_a2.nam
 - values:
-    model: klon_668
+    setting: 668
   file: captures/544566175e615d10_a2.nam
 - values:
-    model: klon_468
+    setting: 468
   file: captures/c775f8a5bd068579_a2.nam

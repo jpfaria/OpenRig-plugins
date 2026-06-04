@@ -9,11 +9,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/61114
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - b_b_king_lab_series_5_high_input
+  - bb_king_high
 captures:
 - values:
-    model: b_b_king_lab_series_5_high_input
+    preset: bb_king_high
   file: captures/5gwxc50dg2t_a2.nam

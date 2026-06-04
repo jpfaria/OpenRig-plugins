@@ -10,87 +10,102 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/41228
 parameters:
-- name: model
-  display_name: Model
+- name: chassis
+  display_name: Chassis
   values:
-  - mesa_boogie_mark_iic_clean
-  - mesa_boogie_mark_iic_rock
-  - mesa_boogie_iic_combo_deth_lead
-  - mesa_boogie_iic_combo_architects
-  - mesa_boogie_iic_combo_marsh_coil
-  - mesa_boogie_iic_combo_single_coil
-  - mesa_boogie_iic_combo_rock
-  - mesa_boogie_iic_architects
-  - mesa_boogie_iic_combo_compressed_clean
-  - mesa_boogie_iic_combo_80_s_clean
-  - mesa_boogie_iic_deth_lead
-  - mesa_boogie_mark_iic_compressed_clean
-  - mesa_boogie_mark_iic_solo
-  - mesa_boogie_mark_iic_single_coil
-  - mesa_boogie_mark_iic_80_s_clean
-  - mesa_boogie_mark_iic_fat_gain
-  - mesa_boogie_mark_iic_marshall_coil
-  - mesa_boogie_iic_combo_clean
-  - mesa_boogie_iic_combo_fat_gain
-  - mesa_boogie_iic_combo_solo
+  - head
+  - combo
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - compressed_clean
+  - 80s_clean
+  - single_coil
+  - marshall_coil
+  - rock
+  - fat_gain
+  - solo
+  - architects
+  - deth_lead
 captures:
 - values:
-    model: mesa_boogie_mark_iic_clean
+    chassis: head
+    voicing: clean
   file: captures/j54yo647vj_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_rock
+    chassis: head
+    voicing: rock
   file: captures/20wgbneivtf_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_deth_lead
+    chassis: combo
+    voicing: deth_lead
   file: captures/dt9uix9es29_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_architects
+    chassis: combo
+    voicing: architects
   file: captures/4t7mftjl1fe_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_marsh_coil
+    chassis: combo
+    voicing: marshall_coil
   file: captures/1kc1tvzaqjh_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_single_coil
+    chassis: combo
+    voicing: single_coil
   file: captures/zi0aekz9w3n_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_rock
+    chassis: combo
+    voicing: rock
   file: captures/w7g0p89ggmc_a2.nam
 - values:
-    model: mesa_boogie_iic_architects
+    chassis: head
+    voicing: architects
   file: captures/91zgujj3b9u_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_compressed_clean
+    chassis: combo
+    voicing: compressed_clean
   file: captures/j9h75sd43mo_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_80_s_clean
+    chassis: combo
+    voicing: 80s_clean
   file: captures/y5sf2zj26fa_a2.nam
 - values:
-    model: mesa_boogie_iic_deth_lead
+    chassis: head
+    voicing: deth_lead
   file: captures/nu8w4wi68bp_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_compressed_clean
+    chassis: head
+    voicing: compressed_clean
   file: captures/pt4cyv6yg8k_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_solo
+    chassis: head
+    voicing: solo
   file: captures/zrm29kezty_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_single_coil
+    chassis: head
+    voicing: single_coil
   file: captures/l2e72lzhswl_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_80_s_clean
+    chassis: head
+    voicing: 80s_clean
   file: captures/fnhimp783v_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_fat_gain
+    chassis: head
+    voicing: fat_gain
   file: captures/noxf24bgssg_a2.nam
 - values:
-    model: mesa_boogie_mark_iic_marshall_coil
+    chassis: head
+    voicing: marshall_coil
   file: captures/qnep0jv7b2_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_clean
+    chassis: combo
+    voicing: clean
   file: captures/w2gfc9tz4xj_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_fat_gain
+    chassis: combo
+    voicing: fat_gain
   file: captures/j3ofm53m6k9_a2.nam
 - values:
-    model: mesa_boogie_iic_combo_solo
+    chassis: combo
+    voicing: solo
   file: captures/6uf7r43im8s_a2.nam

@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - tcip
+  - default
 captures:
 - values:
-    model: tcip
+    model: default
   file: captures/5c35bab38422f149_a2.nam

@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - 2203x_b8m4_5t7p4_p7m7
+  - 2203x
 captures:
 - values:
-    model: 2203x_b8m4_5t7p4_p7m7
+    model: 2203x
   file: captures/sq2xp1jky0i_a2.nam

@@ -10,31 +10,39 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30585
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - fender_57customdeluxe_clean_in1_700epochs
-  - fender_57customdeluxe_clean_in2_700epochs
-  - fender_57customdeluxe_crunch_in2_1000epochs
-  - fender_57customdeluxe_crunch_in1_1000epochs
-  - fender_57customdeluxe_od_in2_1300epochs
-  - fender_57customdeluxe_od_in1_1300epochs
+  - clean
+  - crunch
+  - od
+- name: input
+  display_name: Input
+  values:
+  - in1
+  - in2
 captures:
 - values:
-    model: fender_57customdeluxe_clean_in1_700epochs
+    gain: clean
+    input: in1
   file: captures/3tykw0jjkrp_a2.nam
 - values:
-    model: fender_57customdeluxe_clean_in2_700epochs
+    gain: clean
+    input: in2
   file: captures/tmmvfbx0bt_a2.nam
 - values:
-    model: fender_57customdeluxe_crunch_in2_1000epochs
-  file: captures/kv28aourjqe_a2.nam
-- values:
-    model: fender_57customdeluxe_crunch_in1_1000epochs
+    gain: crunch
+    input: in1
   file: captures/r9cbv1vefom_a2.nam
 - values:
-    model: fender_57customdeluxe_od_in2_1300epochs
-  file: captures/q9wn42l62ei_a2.nam
+    gain: crunch
+    input: in2
+  file: captures/kv28aourjqe_a2.nam
 - values:
-    model: fender_57customdeluxe_od_in1_1300epochs
+    gain: od
+    input: in1
   file: captures/oryve0r2cba_a2.nam
+- values:
+    gain: od
+    input: in2
+  file: captures/q9wn42l62ei_a2.nam

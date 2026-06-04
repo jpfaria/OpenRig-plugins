@@ -9,91 +9,104 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6725
 parameters:
-- name: model
-  display_name: Model
+- name: voice
+  display_name: Voice
   values:
-  - zendrive_vol100_tone130_voice1030_gain700
-  - zendrive_vol100_tone130_voice1200_gain1200
-  - zendrive_vol100_tone130_voice130_gain500
-  - zendrive_vol100_tone130_voice1030_gain1200
-  - zendrive_vol100_tone130_voice1030_gain900
-  - zendrive_vol100_tone130_voice1030_gain1030
-  - zendrive_vol100_tone130_voice1200_gain300
-  - zendrive_vol100_tone130_voice130_gain130
-  - zendrive_vol100_tone130_voice1200_gain500
-  - zendrive_vol100_tone130_voice130_gain1030
-  - zendrive_vol100_tone130_voice1200_gain900
-  - zendrive_vol100_tone130_voice130_gain900
-  - zendrive_vol100_tone130_voice130_gain300
-  - zendrive_vol100_tone130_voice1030_gain130
-  - zendrive_vol100_tone130_voice1200_gain700
-  - zendrive_vol100_tone130_voice1030_gain300
-  - zendrive_vol100_tone130_voice130_gain700
-  - zendrive_vol100_tone130_voice1030_gain500
-  - zendrive_vol100_tone130_voice1200_gain1030
-  - zendrive_vol100_tone130_voice130_gain1200
-  - zendrive_vol100_tone130_voice1200_gain130
+  - 130
+  - 1030
+  - 1200
+- name: gain
+  display_name: Gain
+  values:
+  - 130
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1030
+  - 1200
 captures:
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain700
+    gain: 700
+    voice: 1030
   file: captures/8068b8b9cfd48c4e_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain1200
+    gain: 1200
+    voice: 1200
   file: captures/2c10dda7e4f97dc9_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain500
+    gain: 500
+    voice: 130
   file: captures/30188f67f0bd3b7b_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain1200
+    gain: 1200
+    voice: 1030
   file: captures/df688c22c48ddc72_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain900
+    gain: 900
+    voice: 1030
   file: captures/91a3e8eee123f600_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain1030
+    gain: 1030
+    voice: 1030
   file: captures/a7248fbdd3c96a39_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain300
+    gain: 300
+    voice: 1200
   file: captures/940c6de504f4a03f_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain130
+    gain: 130
+    voice: 130
   file: captures/7fbbe22b44d3ea51_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain500
+    gain: 500
+    voice: 1200
   file: captures/eef7e733edb86049_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain1030
+    gain: 1030
+    voice: 130
   file: captures/2ceafdb713a03df1_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain900
+    gain: 900
+    voice: 1200
   file: captures/2f8db9e8e3d12a57_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain900
+    gain: 900
+    voice: 130
   file: captures/4e4e84e2252417e5_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain300
+    gain: 300
+    voice: 130
   file: captures/4360c91eeef6ea7b_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain130
+    gain: 130
+    voice: 1030
   file: captures/f9d808b64bdaa9f5_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain700
+    gain: 700
+    voice: 1200
   file: captures/90ac0ea4bffabcde_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain300
+    gain: 300
+    voice: 1030
   file: captures/8d723bd4cb845891_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain700
+    gain: 700
+    voice: 130
   file: captures/b30097227d9fb022_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1030_gain500
+    gain: 500
+    voice: 1030
   file: captures/6b8f3c46d2db6465_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain1030
+    gain: 1030
+    voice: 1200
   file: captures/4d077897dd7c7c27_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice130_gain1200
+    gain: 1200
+    voice: 130
   file: captures/3de5e3b13330d6e2_a2.nam
 - values:
-    model: zendrive_vol100_tone130_voice1200_gain130
+    gain: 130
+    voice: 1200
   file: captures/faebac31daf2a46c_a2.nam

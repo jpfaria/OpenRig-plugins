@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5122
 parameters:
-- name: model
-  display_name: Model
+- name: tone
+  display_name: Tone
   values:
-  - mxr_microamp_midgain
-  - mxr_microamp_fullgain
-  - mxr_microamp_lowgain
+  - lowgain
+  - midgain
+  - fullgain
 captures:
 - values:
-    model: mxr_microamp_midgain
+    tone: midgain
   file: captures/af7c66c784f4e8ba_a2.nam
 - values:
-    model: mxr_microamp_fullgain
+    tone: fullgain
   file: captures/d1d813a66023a40f_a2.nam
 - values:
-    model: mxr_microamp_lowgain
+    tone: lowgain
   file: captures/f2957c090a2dc2d5_a2.nam

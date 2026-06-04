@@ -10,15 +10,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/26
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - rockerverb_higain
-  - rockerverb_crunch
+  - hi_gain
+  - crunch
 captures:
 - values:
-    model: rockerverb_higain
+    preset: hi_gain
   file: captures/90a98c14bbfdb459_a2.nam
 - values:
-    model: rockerverb_crunch
+    preset: crunch
   file: captures/590fbf0d16487591_a2.nam

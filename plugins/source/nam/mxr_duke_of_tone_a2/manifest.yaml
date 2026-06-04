@@ -9,127 +9,173 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/13798
 parameters:
-- name: model
-  display_name: Model
+- name: mode
+  display_name: Mode
   values:
-  - dot_dist_med_vol_330_tone_1200_drive_1200
-  - dot_od_med_vol_330_tone_1200_drive_1200
-  - dot_od_med_vol_330_tone_1030_drive_1200
-  - dot_od_cranked_vol_330_tone_1030_drive_500
-  - dot_od_low_vol_330_tone_1030_drive_900
-  - dot_dist_color_vol_330_tone_1030_drive_700
-  - dot_dist_cranked_vol_330_tone_1200_drive_500
-  - dot_od_cranked_vol_330_tone_230_drive_500
-  - dot_od_high_vol_330_tone_1200_drive_300
-  - dot_od_cranked_vol_330_tone_1200_drive_500
-  - dot_od_high_vol_330_tone_230_drive_300
-  - dot_dist_low_vol_330_tone_1200_drive_900
-  - dot_dist_color_vol_330_tone_230_drive_700
-  - dot_dist_low_vol_330_tone_1030_drive_900
-  - dot_dist_high_vol_330_tone_1200_drive_300
-  - dot_dist_high_vol_330_tone_1030_drive_300
-  - dot_dist_low_vol_330_tone_230_drive_900
-  - dot_dist_high_vol_330_tone_230_drive_300
-  - dot_dist_color_vol_330_tone_1200_drive_700
-  - dot_dist_med_vol_330_tone_1030_drive_1200
-  - dot_od_color_vol_330_tone_1200_drive_700
-  - dot_od_low_vol_330_tone_1200_drive_900
-  - dot_od_high_vol_330_tone_1030_drive_300
-  - dot_dist_cranked_vol_330_tone_1030_drive_500
-  - dot_dist_cranked_vol_330_tone_230_drive_500
-  - dot_od_color_vol_330_tone_230_drive_700
-  - dot_dist_med_vol_330_tone_230_drive_1200
-  - dot_od_color_vol_330_tone_1030_drive_700
-  - dot_od_med_vol_330_tone_230_drive_1200
-  - dot_od_low_vol_330_tone_230_drive_900
+  - od
+  - dist
+- name: voicing
+  display_name: Voicing
+  values:
+  - high
+  - cranked
+  - color
+  - low
+  - med
+- name: tone
+  display_name: Tone
+  values:
+  - 230
+  - 1030
+  - 1200
 captures:
 - values:
-    model: dot_dist_med_vol_330_tone_1200_drive_1200
+    mode: dist
+    tone: 1200
+    voicing: med
   file: captures/v0liotvlk6j_a2.nam
 - values:
-    model: dot_od_med_vol_330_tone_1200_drive_1200
+    mode: od
+    tone: 1200
+    voicing: med
   file: captures/h30t2vwgul_a2.nam
 - values:
-    model: dot_od_med_vol_330_tone_1030_drive_1200
+    mode: od
+    tone: 1030
+    voicing: med
   file: captures/yw7uud19ef_a2.nam
 - values:
-    model: dot_od_cranked_vol_330_tone_1030_drive_500
+    mode: od
+    tone: 1030
+    voicing: cranked
   file: captures/hx02k9mabr7_a2.nam
 - values:
-    model: dot_od_low_vol_330_tone_1030_drive_900
+    mode: od
+    tone: 1030
+    voicing: low
   file: captures/sj092u0y0fe_a2.nam
 - values:
-    model: dot_dist_color_vol_330_tone_1030_drive_700
+    mode: dist
+    tone: 1030
+    voicing: color
   file: captures/ssvwp72ini_a2.nam
 - values:
-    model: dot_dist_cranked_vol_330_tone_1200_drive_500
+    mode: dist
+    tone: 1200
+    voicing: cranked
   file: captures/81cjf29z1sn_a2.nam
 - values:
-    model: dot_od_cranked_vol_330_tone_230_drive_500
+    mode: od
+    tone: 230
+    voicing: cranked
   file: captures/fg1vdo6by55_a2.nam
 - values:
-    model: dot_od_high_vol_330_tone_1200_drive_300
+    mode: od
+    tone: 1200
+    voicing: high
   file: captures/eqfwvwpj2bm_a2.nam
 - values:
-    model: dot_od_cranked_vol_330_tone_1200_drive_500
+    mode: od
+    tone: 1200
+    voicing: cranked
   file: captures/vm5p5mpgxir_a2.nam
 - values:
-    model: dot_od_high_vol_330_tone_230_drive_300
+    mode: od
+    tone: 230
+    voicing: high
   file: captures/ev64jghgot8_a2.nam
 - values:
-    model: dot_dist_low_vol_330_tone_1200_drive_900
+    mode: dist
+    tone: 1200
+    voicing: low
   file: captures/rstxgqvgkwr_a2.nam
 - values:
-    model: dot_dist_color_vol_330_tone_230_drive_700
+    mode: dist
+    tone: 230
+    voicing: color
   file: captures/jrqxe6w6x7n_a2.nam
 - values:
-    model: dot_dist_low_vol_330_tone_1030_drive_900
+    mode: dist
+    tone: 1030
+    voicing: low
   file: captures/ini1wqwpll_a2.nam
 - values:
-    model: dot_dist_high_vol_330_tone_1200_drive_300
+    mode: dist
+    tone: 1200
+    voicing: high
   file: captures/d6uiln1vqgs_a2.nam
 - values:
-    model: dot_dist_high_vol_330_tone_1030_drive_300
+    mode: dist
+    tone: 1030
+    voicing: high
   file: captures/e5mew4f315c_a2.nam
 - values:
-    model: dot_dist_low_vol_330_tone_230_drive_900
+    mode: dist
+    tone: 230
+    voicing: low
   file: captures/r84igf8iyti_a2.nam
 - values:
-    model: dot_dist_high_vol_330_tone_230_drive_300
+    mode: dist
+    tone: 230
+    voicing: high
   file: captures/ifhqmjzdlpf_a2.nam
 - values:
-    model: dot_dist_color_vol_330_tone_1200_drive_700
+    mode: dist
+    tone: 1200
+    voicing: color
   file: captures/77hd1n5hiwu_a2.nam
 - values:
-    model: dot_dist_med_vol_330_tone_1030_drive_1200
+    mode: dist
+    tone: 1030
+    voicing: med
   file: captures/q95kh4zmib_a2.nam
 - values:
-    model: dot_od_color_vol_330_tone_1200_drive_700
+    mode: od
+    tone: 1200
+    voicing: color
   file: captures/ijt2404c8rn_a2.nam
 - values:
-    model: dot_od_low_vol_330_tone_1200_drive_900
+    mode: od
+    tone: 1200
+    voicing: low
   file: captures/uxu5vzvnqd_a2.nam
 - values:
-    model: dot_od_high_vol_330_tone_1030_drive_300
+    mode: od
+    tone: 1030
+    voicing: high
   file: captures/3o9868t4phc_a2.nam
 - values:
-    model: dot_dist_cranked_vol_330_tone_1030_drive_500
+    mode: dist
+    tone: 1030
+    voicing: cranked
   file: captures/7cvnkx32n67_a2.nam
 - values:
-    model: dot_dist_cranked_vol_330_tone_230_drive_500
+    mode: dist
+    tone: 230
+    voicing: cranked
   file: captures/zjq7rdswpqf_a2.nam
 - values:
-    model: dot_od_color_vol_330_tone_230_drive_700
+    mode: od
+    tone: 230
+    voicing: color
   file: captures/8qjk7pwgpac_a2.nam
 - values:
-    model: dot_dist_med_vol_330_tone_230_drive_1200
+    mode: dist
+    tone: 230
+    voicing: med
   file: captures/5y9h5our86n_a2.nam
 - values:
-    model: dot_od_color_vol_330_tone_1030_drive_700
+    mode: od
+    tone: 1030
+    voicing: color
   file: captures/zojbzju0kg_a2.nam
 - values:
-    model: dot_od_med_vol_330_tone_230_drive_1200
+    mode: od
+    tone: 230
+    voicing: med
   file: captures/5jare0wz0li_a2.nam
 - values:
-    model: dot_od_low_vol_330_tone_230_drive_900
+    mode: od
+    tone: 230
+    voicing: low
   file: captures/7cn0lxmrq7h_a2.nam

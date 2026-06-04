@@ -9,27 +9,46 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/47292
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - tascam_424_preamp_gain_9_bass_5_high_5
-  - tascam_424_preamp_gain_7_bass_5_high_5
-  - tascam_424_preamp_gain_8_bass_7_high_7
-  - tascam_424_preamp_gain_max_bass_5_high_5
-  - tascam_424_preamp_gain_8_bass_5_high_5
+  - 7
+  - 8
+  - 9
+  - max
+- name: bass
+  display_name: Bass
+  values:
+  - 5
+  - 7
+- name: high
+  display_name: High
+  values:
+  - 5
+  - 7
 captures:
 - values:
-    model: tascam_424_preamp_gain_9_bass_5_high_5
+    bass: 5
+    gain: 9
+    high: 5
   file: captures/ff965az16x5_a2.nam
 - values:
-    model: tascam_424_preamp_gain_7_bass_5_high_5
+    bass: 5
+    gain: 7
+    high: 5
   file: captures/duj2jmn3zbk_a2.nam
 - values:
-    model: tascam_424_preamp_gain_8_bass_7_high_7
+    bass: 7
+    gain: 8
+    high: 7
   file: captures/erj8uwilz9_a2.nam
 - values:
-    model: tascam_424_preamp_gain_max_bass_5_high_5
+    bass: 5
+    gain: max
+    high: 5
   file: captures/qzpqs35noq_a2.nam
 - values:
-    model: tascam_424_preamp_gain_8_bass_5_high_5
+    bass: 5
+    gain: 8
+    high: 5
   file: captures/syjjj9csasq_a2.nam

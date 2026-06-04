@@ -10,127 +10,173 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/61531
 parameters:
-- name: model
-  display_name: Model
+- name: variant
+  display_name: Variant
   values:
-  - marshall_6100_channel3_lead_gb_low_gain_no_boost
-  - marshall_6100_channel3_lead_mid_gain_ibanez_ts9
-  - marshall_6100_channel3_lead_gb_low_gain_boss_sd1
-  - marshall_6100_channel3_lead_high_gain_aesahaettr
-  - marshall_6100_channel3_lead_gb_high_gain_precision_drive
-  - marshall_6100_channel3_lead_gb_mid_gain_aesahaettr
-  - marshall_6100_channel3_lead_gb_mid_gain_precison_drive
-  - marshall_6100_channel3_lead_mid_gain_no_boost
-  - marshall_6100_channel3_lead_gb_low_gain_aesahaettr
-  - marshall_6100_channel3_lead_high_gain_precision_drive
-  - marshall_6100_channel3_lead_low_gain_precision_drive
-  - marshall_6100_channel3_lead_mid_gain_aesahaettr
-  - marshall_6100_channel3_lead_gb_mid_gain_boss_sd1
-  - marshall_6100_channel3_lead_high_gain_boss_sd1
-  - marshall_6100_channel3_lead_high_gain_ibanez_ts9
-  - marshall_6100_channel3_lead_gb_high_gain_aesahaettr
-  - marshall_6100_channel3_lead_gb_high_gain_ibanez_ts9
-  - marshall_6100_channel3_lead_low_gain_boss_sd1
-  - marshall_6100_channel3_lead_mid_gain_precison_drive
-  - marshall_6100_channel3_lead_gb_low_gain_precision_drive
-  - marshall_6100_channel3_lead_gb_high_gain_boss_sd1
-  - marshall_6100_channel3_lead_gb_mid_gain_ibanez_ts9
-  - marshall_6100_channel3_lead_low_gain_ibanez_ts9
-  - marshall_6100_channel3_lead_gb_high_gain_no_boost
-  - marshall_6100_channel3_lead_gb_low_gain_ibanez_ts9
-  - marshall_6100_channel3_lead_gb_mid_gain_no_boost
-  - marshall_6100_channel3_lead_high_gain_no_boost
-  - marshall_6100_channel3_lead_mid_gain_boss_sd1
-  - marshall_6100_channel3_lead_low_gain_aesahaettr
-  - marshall_6100_channel3_lead_low_gain_no_boost
+  - std
+  - gb
+- name: gain
+  display_name: Gain
+  values:
+  - low
+  - mid
+  - high
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - ibanez_ts9
+  - boss_sd1
+  - precision_drive
+  - aesahaettr
 captures:
 - values:
-    model: marshall_6100_channel3_lead_gb_low_gain_no_boost
+    boost: none
+    gain: low
+    variant: gb
   file: captures/tv1gnds9ttq_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_mid_gain_ibanez_ts9
+    boost: ibanez_ts9
+    gain: mid
+    variant: std
   file: captures/qbsjay7lao_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_low_gain_boss_sd1
+    boost: boss_sd1
+    gain: low
+    variant: gb
   file: captures/07xxdse34e7r_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_high_gain_aesahaettr
+    boost: aesahaettr
+    gain: high
+    variant: std
   file: captures/wa85c36lr_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_high_gain_precision_drive
+    boost: precision_drive
+    gain: high
+    variant: gb
   file: captures/otcfzg1nzi_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_mid_gain_aesahaettr
+    boost: aesahaettr
+    gain: mid
+    variant: gb
   file: captures/8ze6nhc28g2_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_mid_gain_precison_drive
+    boost: precision_drive
+    gain: mid
+    variant: gb
   file: captures/95kqocfufu8_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_mid_gain_no_boost
+    boost: none
+    gain: mid
+    variant: std
   file: captures/metmleuhzp_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_low_gain_aesahaettr
+    boost: aesahaettr
+    gain: low
+    variant: gb
   file: captures/hm3q2dwo3h_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_high_gain_precision_drive
+    boost: precision_drive
+    gain: high
+    variant: std
   file: captures/8h5jlwixlui_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_low_gain_precision_drive
+    boost: precision_drive
+    gain: low
+    variant: std
   file: captures/5adk1een6g_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_mid_gain_aesahaettr
+    boost: aesahaettr
+    gain: mid
+    variant: std
   file: captures/w1218zhxjx_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_mid_gain_boss_sd1
+    boost: boss_sd1
+    gain: mid
+    variant: gb
   file: captures/wwtdbnrtkm_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_high_gain_boss_sd1
+    boost: boss_sd1
+    gain: high
+    variant: std
   file: captures/9o5udd456yv_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_high_gain_ibanez_ts9
+    boost: ibanez_ts9
+    gain: high
+    variant: std
   file: captures/0mtotl1cs8ze_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_high_gain_aesahaettr
+    boost: aesahaettr
+    gain: high
+    variant: gb
   file: captures/auwkhcp7chf_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_high_gain_ibanez_ts9
+    boost: ibanez_ts9
+    gain: high
+    variant: gb
   file: captures/afov7d2tx0t_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_low_gain_boss_sd1
+    boost: boss_sd1
+    gain: low
+    variant: std
   file: captures/nmswddg1elb_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_mid_gain_precison_drive
+    boost: precision_drive
+    gain: mid
+    variant: std
   file: captures/g1o8yz2u3cj_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_low_gain_precision_drive
+    boost: precision_drive
+    gain: low
+    variant: gb
   file: captures/r831mpr3qqf_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_high_gain_boss_sd1
+    boost: boss_sd1
+    gain: high
+    variant: gb
   file: captures/0brpowx8gd8v_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_mid_gain_ibanez_ts9
+    boost: ibanez_ts9
+    gain: mid
+    variant: gb
   file: captures/h6cus0pmhto_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_low_gain_ibanez_ts9
+    boost: ibanez_ts9
+    gain: low
+    variant: std
   file: captures/s0pz7hi80xk_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_high_gain_no_boost
+    boost: none
+    gain: high
+    variant: gb
   file: captures/pu8p9y9tda9_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_low_gain_ibanez_ts9
+    boost: ibanez_ts9
+    gain: low
+    variant: gb
   file: captures/mza3ddb62z_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_gb_mid_gain_no_boost
+    boost: none
+    gain: mid
+    variant: gb
   file: captures/s4xwntm86ff_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_high_gain_no_boost
+    boost: none
+    gain: high
+    variant: std
   file: captures/iv74i48jblr_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_mid_gain_boss_sd1
+    boost: boss_sd1
+    gain: mid
+    variant: std
   file: captures/nqwsqrq8m4_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_low_gain_aesahaettr
+    boost: aesahaettr
+    gain: low
+    variant: std
   file: captures/89rw4r1m2dy_a2.nam
 - values:
-    model: marshall_6100_channel3_lead_low_gain_no_boost
+    boost: none
+    gain: low
+    variant: std
   file: captures/iyc3fquxfmj_a2.nam

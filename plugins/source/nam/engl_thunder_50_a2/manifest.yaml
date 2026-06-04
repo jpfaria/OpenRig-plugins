@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - engl_thunder_50_head_fx_loop_out_lead7_gain3_b5_m5_t5
+  - lead
 captures:
 - values:
-    model: engl_thunder_50_head_fx_loop_out_lead7_gain3_b5_m5_t5
+    model: lead
   file: captures/4898gc7rxlz_a2.nam

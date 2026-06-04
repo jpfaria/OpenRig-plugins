@@ -13,11 +13,11 @@ parameters:
   display_name: Model
   values:
   - tube_drive
-  - bk_butler_tube_driver
+  - butler
 captures:
 - values:
     model: tube_drive
   file: captures/e7o8wzvjgt_a2.nam
 - values:
-    model: bk_butler_tube_driver
+    model: butler
   file: captures/p6tmbm1ys5f_a2.nam

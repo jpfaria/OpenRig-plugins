@@ -10,35 +10,44 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/54693
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - pb_ld3_slight_scoop
-  - pb_ld3_drewhast
-  - pb_crunch_drewhast_with_boost
-  - pb_ld4_drewhast
-  - pb_ld4_drewhast_with_boost
-  - pb_crunch_drewhast
-  - pb_ld3_drewhast_with_boost
+  - crunch
+  - ld3
+  - ld4
+- name: variant
+  display_name: Variant
+  values:
+  - base
+  - boost
+  - slight_scoop
 captures:
 - values:
-    model: pb_ld3_slight_scoop
+    channel: ld3
+    variant: slight_scoop
   file: captures/nhet7u5mh89_a2.nam
 - values:
-    model: pb_ld3_drewhast
+    channel: ld3
+    variant: base
   file: captures/ddcvopyjwf_a2.nam
 - values:
-    model: pb_crunch_drewhast_with_boost
+    channel: crunch
+    variant: boost
   file: captures/evu8jb74aji_a2.nam
 - values:
-    model: pb_ld4_drewhast
+    channel: ld4
+    variant: base
   file: captures/vd9b96kdjh_a2.nam
 - values:
-    model: pb_ld4_drewhast_with_boost
+    channel: ld4
+    variant: boost
   file: captures/ytvj8wr1i2j_a2.nam
 - values:
-    model: pb_crunch_drewhast
+    channel: crunch
+    variant: base
   file: captures/0mmyp31b2o0i_a2.nam
 - values:
-    model: pb_ld3_drewhast_with_boost
+    channel: ld3
+    variant: boost
   file: captures/zrpuc9ge1p_a2.nam

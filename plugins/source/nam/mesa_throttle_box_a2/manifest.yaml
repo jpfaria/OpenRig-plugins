@@ -10,27 +10,35 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/2324
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - mesa_throttle_box_lo_g38
-  - mesa_throttle_box_high_g38
-  - mesa_throttle_box_high_g75
-  - mesa_throttle_box_lo_g75
-  - mesa_throttle_box_high_g50
+  - lo
+  - high
+- name: gain
+  display_name: Gain
+  values:
+  - 38.0
+  - 50.0
+  - 75.0
 captures:
 - values:
-    model: mesa_throttle_box_lo_g38
+    channel: lo
+    gain: 38.0
   file: captures/57e4848b7e7fdf64_a2.nam
 - values:
-    model: mesa_throttle_box_high_g38
+    channel: high
+    gain: 38.0
   file: captures/3b0855a9ad49fa4c_a2.nam
 - values:
-    model: mesa_throttle_box_high_g75
+    channel: high
+    gain: 75.0
   file: captures/0906be8629bccfe7_a2.nam
 - values:
-    model: mesa_throttle_box_lo_g75
+    channel: lo
+    gain: 75.0
   file: captures/b453766cf02868b4_a2.nam
 - values:
-    model: mesa_throttle_box_high_g50
+    channel: high
+    gain: 50.0
   file: captures/cbbc36ec15146840_a2.nam

@@ -10,39 +10,50 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/50958
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - ap_jcm900_pre_08_ch2_g20
-  - ap_jcm900_pre_05_ch2_g8
-  - ap_jcm900_pre_07_ch2_g16
-  - ap_jcm900_pre_04_ch2_g4
-  - ap_jcm900_pre_03_ch1_g10
-  - ap_jcm900_pre_02_ch1_g8
-  - ap_jcm900_pre_06_ch2_g12
-  - ap_jcm900_pre_01_ch1_g4
+  - ch1
+  - ch2
+- name: gain
+  display_name: Gain
+  values:
+  - g4
+  - g8
+  - g10
+  - g12
+  - g16
+  - g20
 captures:
 - values:
-    model: ap_jcm900_pre_08_ch2_g20
+    channel: ch2
+    gain: g20
   file: captures/nsezmqc33ts_a2.nam
 - values:
-    model: ap_jcm900_pre_05_ch2_g8
+    channel: ch2
+    gain: g8
   file: captures/jw950rvo84_a2.nam
 - values:
-    model: ap_jcm900_pre_07_ch2_g16
+    channel: ch2
+    gain: g16
   file: captures/kuo3bz6gyr_a2.nam
 - values:
-    model: ap_jcm900_pre_04_ch2_g4
+    channel: ch2
+    gain: g4
   file: captures/zc1087eyw88_a2.nam
 - values:
-    model: ap_jcm900_pre_03_ch1_g10
+    channel: ch1
+    gain: g10
   file: captures/f5jog4z2ue_a2.nam
 - values:
-    model: ap_jcm900_pre_02_ch1_g8
+    channel: ch1
+    gain: g8
   file: captures/ce3i5g2uep_a2.nam
 - values:
-    model: ap_jcm900_pre_06_ch2_g12
+    channel: ch2
+    gain: g12
   file: captures/rhl2ygrgsqe_a2.nam
 - values:
-    model: ap_jcm900_pre_01_ch1_g4
+    channel: ch1
+    gain: g4
   file: captures/v60v54a3l0a_a2.nam

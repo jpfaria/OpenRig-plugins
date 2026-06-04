@@ -10,39 +10,48 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/26513
 parameters:
-- name: model
-  display_name: Model
+- name: mode
+  display_name: Mode
   values:
-  - fz_1w_modern_l02_t05_f02
-  - fz_1w_vintage_l02_t05_f02
-  - fz_1w_modern_l02_t05_f07
-  - fz_1w_modern_l02_t05_f11
-  - fz_1w_modern_l02_t05_f05
-  - fz_1w_vintage_l02_t05_f05
-  - fz_1w_vintage_l02_t05_f07
-  - fz_1w_vintage_l02_t05_f11
+  - modern
+  - vintage
+- name: fuzz
+  display_name: Fuzz
+  values:
+  - 2
+  - 5
+  - 7
+  - 11
 captures:
 - values:
-    model: fz_1w_modern_l02_t05_f02
+    fuzz: 2
+    mode: modern
   file: captures/y4s43lj18e_a2.nam
 - values:
-    model: fz_1w_vintage_l02_t05_f02
+    fuzz: 2
+    mode: vintage
   file: captures/y62on5l1uv_a2.nam
 - values:
-    model: fz_1w_modern_l02_t05_f07
+    fuzz: 7
+    mode: modern
   file: captures/l18f4hm160p_a2.nam
 - values:
-    model: fz_1w_modern_l02_t05_f11
+    fuzz: 11
+    mode: modern
   file: captures/x764hrle3y_a2.nam
 - values:
-    model: fz_1w_modern_l02_t05_f05
+    fuzz: 5
+    mode: modern
   file: captures/l894qdw40bm_a2.nam
 - values:
-    model: fz_1w_vintage_l02_t05_f05
+    fuzz: 5
+    mode: vintage
   file: captures/wsqyoul86zf_a2.nam
 - values:
-    model: fz_1w_vintage_l02_t05_f07
+    fuzz: 7
+    mode: vintage
   file: captures/c0z2e064zae_a2.nam
 - values:
-    model: fz_1w_vintage_l02_t05_f11
+    fuzz: 11
+    mode: vintage
   file: captures/f1yw0xe90r8_a2.nam

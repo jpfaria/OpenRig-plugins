@@ -13,40 +13,40 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - friedman_be_100_hbe_sat_808_flat_hg
-  - friedman_be_100_hbe_sat_flat_hg
-  - friedman_be_100_be_sat_mg
-  - friedman_be_100_hbe_sat_808_scoop_hg
-  - friedman_be_100_be_sat_lg
-  - friedman_be_100_hbe_sat_mids_hg
-  - friedman_be_100_hbe_sat_808_mids_hg
-  - friedman_be_100_hbe_sat_scoop_hg
-  - friedman_be_100_cln_cln
+  - hbe_808_flat_hg
+  - hbe_flat_hg
+  - be_mg
+  - hbe_808_scoop_hg
+  - be_lg
+  - hbe_mids_hg
+  - hbe_808_mids_hg
+  - hbe_scoop_hg
+  - clean
 captures:
 - values:
-    model: friedman_be_100_hbe_sat_808_flat_hg
+    model: hbe_808_flat_hg
   file: captures/lba9cnum4u_a2.nam
 - values:
-    model: friedman_be_100_hbe_sat_flat_hg
+    model: hbe_flat_hg
   file: captures/lr4cqo7qavq_a2.nam
 - values:
-    model: friedman_be_100_be_sat_mg
+    model: be_mg
   file: captures/tddx6vvqiu_a2.nam
 - values:
-    model: friedman_be_100_hbe_sat_808_scoop_hg
+    model: hbe_808_scoop_hg
   file: captures/olmka5orvz_a2.nam
 - values:
-    model: friedman_be_100_be_sat_lg
+    model: be_lg
   file: captures/57679asomx3_a2.nam
 - values:
-    model: friedman_be_100_hbe_sat_mids_hg
+    model: hbe_mids_hg
   file: captures/lc767rd40a_a2.nam
 - values:
-    model: friedman_be_100_hbe_sat_808_mids_hg
+    model: hbe_808_mids_hg
   file: captures/o7z4pe7vdpo_a2.nam
 - values:
-    model: friedman_be_100_hbe_sat_scoop_hg
+    model: hbe_scoop_hg
   file: captures/h9a5egb5le5_a2.nam
 - values:
-    model: friedman_be_100_cln_cln
+    model: clean
   file: captures/svaajhthwfe_a2.nam

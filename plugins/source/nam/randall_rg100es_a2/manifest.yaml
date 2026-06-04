@@ -9,27 +9,44 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/41209
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5
-  - randall_rg100es_100w_1987_ch_crunch_sustain_engaged
-  - randall_rg100es_100w_1987_ch_crunch
-  - randall_rg100es_100w_1987_ch_clean
-  - randall_rg100es_100w_1987_ch_crunch_gain_8_5
+  - clean
+  - crunch
+- name: gain
+  display_name: Gain
+  values:
+  - default
+  - 8_5
+- name: sustain
+  display_name: Sustain
+  values:
+  - off
+  - on
 captures:
 - values:
-    model: randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5
-  file: captures/3ln2ro162ut_a2.nam
-- values:
-    model: randall_rg100es_100w_1987_ch_crunch_sustain_engaged
-  file: captures/kfb61kh0cee_a2.nam
-- values:
-    model: randall_rg100es_100w_1987_ch_crunch
-  file: captures/7fpps5w2eu_a2.nam
-- values:
-    model: randall_rg100es_100w_1987_ch_clean
+    channel: clean
+    gain: default
+    sustain: off
   file: captures/v64t4iy2rd_a2.nam
 - values:
-    model: randall_rg100es_100w_1987_ch_crunch_gain_8_5
+    channel: crunch
+    gain: default
+    sustain: off
+  file: captures/7fpps5w2eu_a2.nam
+- values:
+    channel: crunch
+    gain: default
+    sustain: on
+  file: captures/kfb61kh0cee_a2.nam
+- values:
+    channel: crunch
+    gain: 8_5
+    sustain: off
   file: captures/3kim32fcegx_a2.nam
+- values:
+    channel: crunch
+    gain: 8_5
+    sustain: on
+  file: captures/3ln2ro162ut_a2.nam

@@ -10,95 +10,137 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/69212
 parameters:
-- name: model
-  display_name: Model
+- name: boost
+  display_name: Boost
   values:
-  - di_tdlx_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
-  - di_tmb_66_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
-  - di_od808_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
-  - di_tmb_73_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
-  - di_sd1_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_6_t_0_m_7_b_3_4fb
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_4_b_3_4fb
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_6_b_3_4fb
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_5_t_4_m_5_b_3_4fb
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_4fb
-  - di_sd1_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
-  - di_tdlx_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
-  - di_od808_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
-  - di_tmb_66_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
-  - di_tmb_73_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_6_t_0_m_7_b_3_srl
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_5_t_4_m_5_b_3_srl
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_6_b_3_srl
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_srl
-  - di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_4_b_3_srl
+  - none
+  - tdlx
+  - tmb66
+  - od808
+  - tmb73
+  - sd1
+- name: eq
+  display_name: EQ
+  values:
+  - eq_a
+  - eq_b
+  - eq_c
+  - eq_d
+  - eq_e
+  - eq_f
+- name: loop
+  display_name: FX Loop
+  values:
+  - 4cm
+  - series
 captures:
 - values:
-    model: di_tdlx_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
+    boost: tdlx
+    eq: eq_a
+    loop: 4cm
   file: captures/vz7iubwxc5s.nam
 - values:
-    model: di_tmb_66_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
+    boost: tmb66
+    eq: eq_a
+    loop: 4cm
   file: captures/dv2oljg7kac.nam
 - values:
-    model: di_od808_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
+    boost: od808
+    eq: eq_a
+    loop: 4cm
   file: captures/31vjap9fcg.nam
 - values:
-    model: di_tmb_73_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
+    boost: tmb73
+    eq: eq_a
+    loop: 4cm
   file: captures/tneykc21y2d.nam
 - values:
-    model: di_sd1_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
+    boost: sd1
+    eq: eq_a
+    loop: 4cm
   file: captures/6jbphrsarjg.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_6_t_0_m_7_b_3_4fb
+    boost: none
+    eq: eq_b
+    loop: 4cm
   file: captures/13ek0jd00b4c.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_4_b_3_4fb
+    boost: none
+    eq: eq_c
+    loop: 4cm
   file: captures/ct6ll7bqolk.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_4fb
+    boost: none
+    eq: eq_a
+    loop: 4cm
   file: captures/poknxhnksxg.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_6_b_3_4fb
+    boost: none
+    eq: eq_d
+    loop: 4cm
   file: captures/hwvrghlizua.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_5_t_4_m_5_b_3_4fb
+    boost: none
+    eq: eq_e
+    loop: 4cm
   file: captures/jcdxppzgnkc.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_4fb
+    boost: none
+    eq: eq_f
+    loop: 4cm
   file: captures/b1reayj9zj.nam
 - values:
-    model: di_sd1_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
+    boost: sd1
+    eq: eq_a
+    loop: series
   file: captures/ua55qyq5y9i.nam
 - values:
-    model: di_tdlx_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
+    boost: tdlx
+    eq: eq_a
+    loop: series
   file: captures/z24aa0s9lgl.nam
 - values:
-    model: di_od808_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
+    boost: od808
+    eq: eq_a
+    loop: series
   file: captures/f190e9593yj.nam
 - values:
-    model: di_tmb_66_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
+    boost: tmb66
+    eq: eq_a
+    loop: series
   file: captures/90vvtx3os18.nam
 - values:
-    model: di_tmb_73_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
+    boost: tmb73
+    eq: eq_a
+    loop: series
   file: captures/kb2q15xm0bh.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_6_t_0_m_7_b_3_srl
+    boost: none
+    eq: eq_b
+    loop: series
   file: captures/gvvy8ltw6ef.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_5_t_4_m_5_b_3_srl
+    boost: none
+    eq: eq_e
+    loop: series
   file: captures/6s5favt9rya.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_srl
+    boost: none
+    eq: eq_a
+    loop: series
   file: captures/d4xmhms0sqf.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_6_b_3_srl
+    boost: none
+    eq: eq_d
+    loop: series
   file: captures/i8r8r3qz6sq.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_srl
+    boost: none
+    eq: eq_f
+    loop: series
   file: captures/04czsdjy3h0a.nam
 - values:
-    model: di_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_4_b_3_srl
+    boost: none
+    eq: eq_c
+    loop: series
   file: captures/2ya2j3wps85.nam
