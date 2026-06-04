@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_marshall_lead_12_a1
+display_name: Lead 12
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: input
+  display_name: Input
+  values:
+  - low
+  - high
+- name: gain
+  display_name: Gain
+  values:
+  - g0
+  - g3
+  - g4
+  - g8
+captures:
+- values:
+    gain: g0
+    input: low
+  file: captures/marshall_lead_12_low_input_g0_v5_t6_m5_b7_feather.nam
+- values:
+    gain: g3
+    input: low
+  file: captures/marshall_lead_12_low_input_g3_v5_t6_m5_b7_feather.nam
+- values:
+    gain: g4
+    input: high
+  file: captures/marshall_lead_12_high_input_g4_v4_t7_m4_b7_feather.nam
+- values:
+    gain: g8
+    input: high
+  file: captures/marshall_lead_12_high_input_g8_v5_t7_m4_b7_feather.nam

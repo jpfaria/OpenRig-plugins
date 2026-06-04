@@ -1,0 +1,35 @@
+manifest_version: 1
+id: nam_sadowsky_sbp_2_bass_a2
+display_name: Sadowsky SBP-2 Bass
+brand: sadowsky
+output_gain_db: 0.9611320
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/32439
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - sadowsky_sbp_2_bass_preamp_01
+  - sadowsky_sbp_2_bass_preamp_02
+  - sadowsky_sbp_2_bass_preamp_03
+  - sadowsky_sbp_2_bass_preamp_05
+  - sadowsky_sbp_2_bass_preamp_04
+captures:
+- values:
+    model: sadowsky_sbp_2_bass_preamp_01
+  file: captures/nh9y4sq3p6e_a2.nam
+- values:
+    model: sadowsky_sbp_2_bass_preamp_02
+  file: captures/jnozutsicd_a2.nam
+- values:
+    model: sadowsky_sbp_2_bass_preamp_03
+  file: captures/o6l54wnencl_a2.nam
+- values:
+    model: sadowsky_sbp_2_bass_preamp_05
+  file: captures/ocz2onnq6km_a2.nam
+- values:
+    model: sadowsky_sbp_2_bass_preamp_04
+  file: captures/97ghl3w2bt_a2.nam

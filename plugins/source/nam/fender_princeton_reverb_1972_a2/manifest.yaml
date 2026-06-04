@@ -1,0 +1,48 @@
+manifest_version: 1
+id: nam_fender_princeton_reverb_1972_a2
+display_name: Princeton Reverb 1972
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/32514
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 64_princeton_clean_vol_4_tone_7
+  - 64_princeton_cranked_vol_10_tone_7
+  - 64_princeton_sweet_spot_vol_7_tone_7
+  - 64_princeton_sweet_spot_vol_7_tone_4
+  - 64_princeton_all_on_10_v10_t10
+  - 64_princeton_all_on_5_5_v5_5_t5_5
+  - 64_princeton_cranked_vol_10_tone_4
+  - 64_princeton_clean_vol_4_tone_4
+captures:
+- values:
+    model: 64_princeton_clean_vol_4_tone_7
+  file: captures/zb766mfl29p_a2.nam
+- values:
+    model: 64_princeton_cranked_vol_10_tone_7
+  file: captures/y0tr02tsv7n_a2.nam
+- values:
+    model: 64_princeton_sweet_spot_vol_7_tone_7
+  file: captures/sj1ojpslum_a2.nam
+- values:
+    model: 64_princeton_sweet_spot_vol_7_tone_4
+  file: captures/iblcrj5kvo_a2.nam
+- values:
+    model: 64_princeton_all_on_10_v10_t10
+  file: captures/i2h4mvnprd_a2.nam
+- values:
+    model: 64_princeton_all_on_5_5_v5_5_t5_5
+  file: captures/31lcbmyc8uv_a2.nam
+- values:
+    model: 64_princeton_cranked_vol_10_tone_4
+  file: captures/wp0wlpjj22_a2.nam
+- values:
+    model: 64_princeton_clean_vol_4_tone_4
+  file: captures/ml4t2t5ee8r_a2.nam

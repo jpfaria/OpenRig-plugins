@@ -1,0 +1,17 @@
+manifest_version: 1
+id: nam_omega_ampworks_granophyre_a1
+display_name: Omega Ampworks Granophyre
+brand: omega
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - default
+captures:
+- values:
+    preset: default
+  file: captures/granophyre.nam

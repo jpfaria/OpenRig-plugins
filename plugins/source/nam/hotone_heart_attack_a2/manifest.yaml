@@ -1,0 +1,83 @@
+manifest_version: 1
+id: nam_hotone_heart_attack_a2
+display_name: Hotone Heart Attack
+brand: hotone
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/29760
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 1_hotone_mesa_mackie
+  - 5_hotone_mesa_mackie
+  - 6_hotone_mesa_mackie
+  - 20_hotone_mesa_mackie_id4_yellow
+  - 4_hotone_mesa_mackie
+  - 19_hotone_mesa_mackie_id4_red
+  - 10_hotone_mesa_mackie_id4_yellow
+  - 11_hotone_mesa_mackie_id4_yellow
+  - 7_hotone_mesa_mackie
+  - 9_hotone_mesa_mackie
+  - 15_hotone_mesa_mackie_id4_yellow
+  - 3_hotone_mesa_mackie
+  - 8_hotone_mesa_mackie
+  - 14_hotone_mesa_mackie_id4_yellow
+  - 2_hotone_mesa_mackie
+  - 12_hotone_mesa_mackie_id4_yellow
+  - 13_hotone_mesa_mackie_id4_yellow
+captures:
+- values:
+    model: 1_hotone_mesa_mackie
+  file: captures/6ex6ojl61c5_a2.nam
+- values:
+    model: 5_hotone_mesa_mackie
+  file: captures/di5zcn17d99_a2.nam
+- values:
+    model: 6_hotone_mesa_mackie
+  file: captures/jbr8e1fl4m_a2.nam
+- values:
+    model: 20_hotone_mesa_mackie_id4_yellow
+  file: captures/f8gjvhybl2i_a2.nam
+- values:
+    model: 4_hotone_mesa_mackie
+  file: captures/n8ys7v21ym8_a2.nam
+- values:
+    model: 19_hotone_mesa_mackie_id4_red
+  file: captures/0op2813jpned_a2.nam
+- values:
+    model: 10_hotone_mesa_mackie_id4_yellow
+  file: captures/pv1h67iarbm_a2.nam
+- values:
+    model: 11_hotone_mesa_mackie_id4_yellow
+  file: captures/4aqh465gxdk_a2.nam
+- values:
+    model: 7_hotone_mesa_mackie
+  file: captures/k990k535h5_a2.nam
+- values:
+    model: 9_hotone_mesa_mackie
+  file: captures/vdckhis9d3_a2.nam
+- values:
+    model: 15_hotone_mesa_mackie_id4_yellow
+  file: captures/wzjmcweg5go_a2.nam
+- values:
+    model: 3_hotone_mesa_mackie
+  file: captures/ff1ibzrcddu_a2.nam
+- values:
+    model: 8_hotone_mesa_mackie
+  file: captures/0482qxwe7dbb_a2.nam
+- values:
+    model: 14_hotone_mesa_mackie_id4_yellow
+  file: captures/k1n2s337wpk_a2.nam
+- values:
+    model: 2_hotone_mesa_mackie
+  file: captures/onnrb1wbtgs_a2.nam
+- values:
+    model: 12_hotone_mesa_mackie_id4_yellow
+  file: captures/26zscwv0udz_a2.nam
+- values:
+    model: 13_hotone_mesa_mackie_id4_yellow
+  file: captures/zcvlowa6ydn_a2.nam

@@ -1,0 +1,18 @@
+manifest_version: 1
+id: nam_synergy_tone_king_imperial_mkii_a1
+display_name: Tone King Imperial MKII Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - ch2_mg_212
+captures:
+- values:
+    preset: ch2_mg_212
+  file: captures/fig_imperial_ch2_mg_212.nam

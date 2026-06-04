@@ -1,0 +1,23 @@
+manifest_version: 1
+id: nam_soldano_slo_30_a2
+display_name: slo 30
+brand: soldano
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/50546
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - slo_30_lead_gain_5_bmt_466_pres_8_depth_5
+  - slo_30_crunch_gain_3_bmt_466_pres_8_depth_5
+captures:
+- values:
+    model: slo_30_lead_gain_5_bmt_466_pres_8_depth_5
+  file: captures/zmbbl8yvir_a2.nam
+- values:
+    model: slo_30_crunch_gain_3_bmt_466_pres_8_depth_5
+  file: captures/np0t7ycxdgk_a2.nam

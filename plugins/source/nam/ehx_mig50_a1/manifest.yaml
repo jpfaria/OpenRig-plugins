@@ -1,0 +1,28 @@
+manifest_version: 1
+id: nam_ehx_mig50_a1
+display_name: MIG-50
+description: Neural capture of the Electro-Harmonix MIG-50 — Russian-voiced 50W tube head.
+brand: electro-harmonix
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch
+  - od
+captures:
+- values:
+    voicing: clean
+  file: captures/clean.nam
+- values:
+    voicing: crunch
+  file: captures/crunch.nam
+- values:
+    voicing: od
+  file: captures/od.nam

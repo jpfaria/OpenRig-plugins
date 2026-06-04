@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_boss_hm_3_a2
+display_name: Boss HM-3
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/2709
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - boss_hyper_metal_04_g03_l08_h08_boost
+  - boss_hyper_metal_03_g08_l06_h08
+  - boss_hyper_metal_05_g06_l08_h10_boost
+  - boss_hyper_metal_06_g07_l06_h05_boost
+  - boss_hyper_metal_02_g07_l04_h07
+  - boss_hyper_metal_07_g09_l01_h02_boostt10
+  - boss_hyper_metal_01_g03_l08_h08
+captures:
+- values:
+    model: boss_hyper_metal_04_g03_l08_h08_boost
+  file: captures/ea6a1d68c8cd64c2_a2.nam
+- values:
+    model: boss_hyper_metal_03_g08_l06_h08
+  file: captures/457c181941af33cd_a2.nam
+- values:
+    model: boss_hyper_metal_05_g06_l08_h10_boost
+  file: captures/1d978f5762d1c693_a2.nam
+- values:
+    model: boss_hyper_metal_06_g07_l06_h05_boost
+  file: captures/5c3a7a6973c901ed_a2.nam
+- values:
+    model: boss_hyper_metal_02_g07_l04_h07
+  file: captures/28b9e0966ffc178c_a2.nam
+- values:
+    model: boss_hyper_metal_07_g09_l01_h02_boostt10
+  file: captures/2820cbd7d67882fe_a2.nam
+- values:
+    model: boss_hyper_metal_01_g03_l08_h08
+  file: captures/7d9803c925dd8b4e_a2.nam

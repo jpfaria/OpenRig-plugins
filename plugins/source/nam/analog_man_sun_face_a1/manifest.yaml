@@ -1,0 +1,64 @@
+manifest_version: 1
+id: nam_analog_man_sun_face_a1
+display_name: Analog Man Sun Face
+brand: analogman
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: compression
+  display_name: Compression
+  values:
+  - 3.0
+  - 5.0
+  - 6.0
+  - 8.0
+  - 9.0
+  - 10.0
+- name: filter
+  display_name: Filter
+  values:
+  - 9.0
+  - 10.0
+- name: volume
+  display_name: Volume
+  values:
+  - 7.0
+  - 8.0
+captures:
+- values:
+    compression: 10.0
+    filter: 10.0
+    volume: 7.0
+  file: captures/sunface_bc183_v7_f10_c10.nam
+- values:
+    compression: 3.0
+    filter: 10.0
+    volume: 7.0
+  file: captures/sunface_bc183_v7_f10_c3.nam
+- values:
+    compression: 5.0
+    filter: 10.0
+    volume: 7.0
+  file: captures/sunface_bc183_v7_f10_c5.nam
+- values:
+    compression: 8.0
+    filter: 10.0
+    volume: 7.0
+  file: captures/sunface_bc183_v7_f10_c8.nam
+- values:
+    compression: 10.0
+    filter: 9.0
+    volume: 8.0
+  file: captures/sunface_bc183_v8_f9_c10_cleanup.nam
+- values:
+    compression: 6.0
+    filter: 9.0
+    volume: 8.0
+  file: captures/sunface_bc183_v8_f9_c6_cleanup.nam
+- values:
+    compression: 9.0
+    filter: 9.0
+    volume: 8.0
+  file: captures/sunface_bc183_v8_f9_c9_cleanup.nam

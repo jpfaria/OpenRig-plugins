@@ -1,0 +1,44 @@
+manifest_version: 1
+id: nam_marshall_1987_a2
+display_name: '1987'
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/48523
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 10_10_10_10_10_00
+  - 05_05_05_05_02_02
+  - 05_05_05_05_05_05
+  - 10_10_10_10_10_10
+  - 05_05_05_05_08_08
+  - 05_05_05_05_10_10
+  - 10_10_10_10_00_10
+captures:
+- values:
+    model: 10_10_10_10_10_00
+  file: captures/216ht7nqpm5_a2.nam
+- values:
+    model: 05_05_05_05_02_02
+  file: captures/kn43nfloptf_a2.nam
+- values:
+    model: 05_05_05_05_05_05
+  file: captures/ixan01ivld_a2.nam
+- values:
+    model: 10_10_10_10_10_10
+  file: captures/rfbn0xnevbm_a2.nam
+- values:
+    model: 05_05_05_05_08_08
+  file: captures/flh4f5owr7s_a2.nam
+- values:
+    model: 05_05_05_05_10_10
+  file: captures/jfjr4wy3zbn_a2.nam
+- values:
+    model: 10_10_10_10_00_10
+  file: captures/6pr0hj9del_a2.nam

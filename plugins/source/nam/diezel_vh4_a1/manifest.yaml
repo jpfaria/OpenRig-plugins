@@ -1,0 +1,71 @@
+manifest_version: 1
+id: nam_diezel_vh4_a1
+display_name: VH4
+description: Neural capture of the Diezel VH4 — a modern high-gain German amp.
+brand: diezel
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values: ['2', '3', '4']
+- name: bright
+  display_name: Bright
+  values: [false, true]
+- name: low
+  display_name: Low
+  values: [0, 1, 2, 3]
+- name: medium
+  display_name: Medium
+  values: [0, 1, 2, 3]
+- name: high
+  display_name: High
+  values: [0, 1, 2, 3]
+- name: boost
+  display_name: Boost
+  values: [false, true]
+captures:
+- values: { channel: '2', bright: true,  low: 1, medium: 0, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_br_lg.nam
+- values: { channel: '2', bright: true,  low: 0, medium: 1, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_br_mg.nam
+- values: { channel: '2', bright: false, low: 1, medium: 0, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_lg_01.nam
+- values: { channel: '2', bright: false, low: 2, medium: 0, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_lg_02.nam
+- values: { channel: '2', bright: false, low: 3, medium: 0, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_lg_03.nam
+- values: { channel: '2', bright: false, low: 0, medium: 1, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_mg_01.nam
+- values: { channel: '2', bright: false, low: 0, medium: 2, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_mg_02.nam
+- values: { channel: '2', bright: false, low: 0, medium: 3, high: 0, boost: false }
+  file: captures/diezel_vh4_ch_2_mg_03.nam
+- values: { channel: '3', bright: false, low: 0, medium: 0, high: 1, boost: false }
+  file: captures/diezel_vh4_ch_3_hg_01.nam
+- values: { channel: '3', bright: false, low: 0, medium: 0, high: 2, boost: false }
+  file: captures/diezel_vh4_ch_3_hg_02.nam
+- values: { channel: '3', bright: false, low: 0, medium: 0, high: 3, boost: false }
+  file: captures/diezel_vh4_ch_3_hg_03.nam
+- values: { channel: '3', bright: false, low: 0, medium: 0, high: 1, boost: true }
+  file: captures/diezel_vh4_ch_3_ts9_hg_01.nam
+- values: { channel: '3', bright: false, low: 0, medium: 0, high: 2, boost: true }
+  file: captures/diezel_vh4_ch_3_ts9_hg_02.nam
+- values: { channel: '3', bright: false, low: 0, medium: 0, high: 3, boost: true }
+  file: captures/diezel_vh4_ch_3_ts9_hg_03.nam
+- values: { channel: '4', bright: false, low: 0, medium: 0, high: 1, boost: false }
+  file: captures/diezel_vh4_ch_4_hg_01.nam
+- values: { channel: '4', bright: false, low: 0, medium: 0, high: 2, boost: false }
+  file: captures/diezel_vh4_ch_4_hg_02.nam
+- values: { channel: '4', bright: false, low: 0, medium: 0, high: 3, boost: false }
+  file: captures/diezel_vh4_ch_4_hg_03.nam
+- values: { channel: '4', bright: false, low: 0, medium: 0, high: 1, boost: true }
+  file: captures/diezel_vh4_ch_4_ts9_hg_01.nam
+- values: { channel: '4', bright: false, low: 0, medium: 0, high: 2, boost: true }
+  file: captures/diezel_vh4_ch_4_ts9_hg_02.nam
+- values: { channel: '4', bright: false, low: 0, medium: 0, high: 3, boost: true }
+  file: captures/diezel_vh4_ch_4_ts9_hg_03.nam

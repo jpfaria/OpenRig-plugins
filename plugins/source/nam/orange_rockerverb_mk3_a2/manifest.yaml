@@ -1,0 +1,24 @@
+manifest_version: 1
+id: nam_orange_rockerverb_mk3_a2
+display_name: Rockerverb MK3
+brand: orange
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/26
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - rockerverb_higain
+  - rockerverb_crunch
+captures:
+- values:
+    model: rockerverb_higain
+  file: captures/90a98c14bbfdb459_a2.nam
+- values:
+    model: rockerverb_crunch
+  file: captures/590fbf0d16487591_a2.nam

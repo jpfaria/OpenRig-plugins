@@ -1,0 +1,149 @@
+manifest_version: 1
+id: nam_boss_od_3_a1
+display_name: Boss OD-3
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 1.8858681
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - no
+  - low
+  - mid
+  - hi
+- name: tone
+  display_name: Tone
+  values:
+  - low
+  - center
+  - high
+- name: size
+  display_name: Model Size
+  values:
+  - standard
+  - nano
+captures:
+- values:
+    drive: no
+    size: standard
+    tone: low
+  file: captures/bossod3_nodrive_lowtone.nam
+- values:
+    drive: no
+    size: nano
+    tone: low
+  file: captures/bossod3_nodrive_lowtone_nano.nam
+- values:
+    drive: no
+    size: standard
+    tone: center
+  file: captures/bossod3_nodrive_centertone.nam
+- values:
+    drive: no
+    size: nano
+    tone: center
+  file: captures/bossod3_nodrive_centertone_nano.nam
+- values:
+    drive: no
+    size: standard
+    tone: high
+  file: captures/bossod3_nodrive_hightone.nam
+- values:
+    drive: no
+    size: nano
+    tone: high
+  file: captures/bossod3_nodrive_hightone_nano.nam
+- values:
+    drive: low
+    size: standard
+    tone: low
+  file: captures/bossod3_lowdrive_lowtone.nam
+- values:
+    drive: low
+    size: nano
+    tone: low
+  file: captures/bossod3_lowdrive_lowtone_nano.nam
+- values:
+    drive: low
+    size: standard
+    tone: center
+  file: captures/bossod3_lowdrive_centertone.nam
+- values:
+    drive: low
+    size: nano
+    tone: center
+  file: captures/bossod3_lowdrive_centertone_nano.nam
+- values:
+    drive: low
+    size: standard
+    tone: high
+  file: captures/bossod3_lowdrive_hightone.nam
+- values:
+    drive: low
+    size: nano
+    tone: high
+  file: captures/bossod3_lowdrive_hightone_nano.nam
+- values:
+    drive: mid
+    size: standard
+    tone: low
+  file: captures/bossod3_middrive_lowtone.nam
+- values:
+    drive: mid
+    size: nano
+    tone: low
+  file: captures/bossod3_middrive_lowtone_nano.nam
+- values:
+    drive: mid
+    size: standard
+    tone: center
+  file: captures/bossod3_middrive_centertone.nam
+- values:
+    drive: mid
+    size: nano
+    tone: center
+  file: captures/bossod3_middrive_centertone_nano.nam
+- values:
+    drive: mid
+    size: standard
+    tone: high
+  file: captures/bossod3_middrive_hightone.nam
+- values:
+    drive: mid
+    size: nano
+    tone: high
+  file: captures/bossod3_middrive_hightone_nano.nam
+- values:
+    drive: hi
+    size: standard
+    tone: low
+  file: captures/bossod3_hidrive_lowtone.nam
+- values:
+    drive: hi
+    size: nano
+    tone: low
+  file: captures/bossod3_hidrive_lowtone_nano.nam
+- values:
+    drive: hi
+    size: standard
+    tone: center
+  file: captures/bossod3_hidrive_centertone.nam
+- values:
+    drive: hi
+    size: nano
+    tone: center
+  file: captures/bossod3_hidrive_centertone_nano.nam
+- values:
+    drive: hi
+    size: standard
+    tone: high
+  file: captures/bossod3_hidrive_hightone.nam
+- values:
+    drive: hi
+    size: nano
+    tone: high
+  file: captures/bossod3_hidrive_hightone_nano.nam

@@ -1,0 +1,72 @@
+manifest_version: 1
+id: nam_orange_dark_terror_a2
+display_name: Dark Terror
+brand: orange
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/65906
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - da15h_v6s6g6_od
+  - da15h_v4s6g7_od
+  - da15h_v4s6g7
+  - da15h_v6s6g5_od
+  - da15h_v10s8g3
+  - da15h_v2s6g3
+  - da15h_v1s6g7
+  - da15h_v1s6g5_3
+  - da15h_v1s6g4
+  - da15h_v6s4g6_od
+  - da15h_v6s6g4_od
+  - da15h_v6s4g5_od
+  - da15h_v4s4g7_od
+  - da15h_v6s4g4_od
+captures:
+- values:
+    model: da15h_v6s6g6_od
+  file: captures/3r77bot039d_a2.nam
+- values:
+    model: da15h_v4s6g7_od
+  file: captures/ukadxxqhxnf_a2.nam
+- values:
+    model: da15h_v4s6g7
+  file: captures/6dos043tmg_a2.nam
+- values:
+    model: da15h_v6s6g5_od
+  file: captures/ketziscltp_a2.nam
+- values:
+    model: da15h_v10s8g3
+  file: captures/7f3y95lptzc_a2.nam
+- values:
+    model: da15h_v2s6g3
+  file: captures/bntjff7iheu_a2.nam
+- values:
+    model: da15h_v1s6g7
+  file: captures/35atixfravb_a2.nam
+- values:
+    model: da15h_v1s6g5_3
+  file: captures/lyyobzp6wnr_a2.nam
+- values:
+    model: da15h_v1s6g4
+  file: captures/x8t644wlspn_a2.nam
+- values:
+    model: da15h_v6s4g6_od
+  file: captures/q61czgc8n1l_a2.nam
+- values:
+    model: da15h_v6s6g4_od
+  file: captures/qshmiozhmdq_a2.nam
+- values:
+    model: da15h_v6s4g5_od
+  file: captures/28zw0zfb439_a2.nam
+- values:
+    model: da15h_v4s4g7_od
+  file: captures/yzs4nom561_a2.nam
+- values:
+    model: da15h_v6s4g4_od
+  file: captures/15hbpcn960a_a2.nam

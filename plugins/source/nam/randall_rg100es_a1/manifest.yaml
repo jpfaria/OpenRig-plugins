@@ -1,0 +1,50 @@
+manifest_version: 1
+id: nam_randall_rg100es_a1
+display_name: Randall RG100es
+brand: randall
+output_gain_db: 1.1865578
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - crunch
+- name: gain
+  display_name: Gain
+  values:
+  - default
+  - 8_5
+- name: sustain
+  display_name: Sustain
+  values:
+  - off
+  - on
+captures:
+- values:
+    channel: clean
+    gain: default
+    sustain: off
+  file: captures/randall_rg100es_100w_1987_ch_clean.nam
+- values:
+    channel: crunch
+    gain: default
+    sustain: off
+  file: captures/randall_rg100es_100w_1987_ch_crunch.nam
+- values:
+    channel: crunch
+    gain: default
+    sustain: on
+  file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged.nam
+- values:
+    channel: crunch
+    gain: 8_5
+    sustain: off
+  file: captures/randall_rg100es_100w_1987_ch_crunch_gain_8_5.nam
+- values:
+    channel: crunch
+    gain: 8_5
+    sustain: on
+  file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5.nam

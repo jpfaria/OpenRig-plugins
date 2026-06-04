@@ -1,0 +1,19 @@
+manifest_version: 1
+id: nam_tech_21_sansamp_bddi_a2
+display_name: Tech 21 SansAmp BDDI
+brand: sansamp
+output_gain_db: 1.7336311
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/39232
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - sansamp_bddi_v1
+captures:
+- values:
+    model: sansamp_bddi_v1
+  file: captures/fw5fhksdmba_a2.nam

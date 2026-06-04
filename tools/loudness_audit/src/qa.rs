@@ -28,13 +28,14 @@ pub const CLIP_CEILING_NONLINEAR_DBFS: f32 = 1.0;
 
 /// DC tolerance for NONLINEAR blocks. Asymmetric clipping in a model
 /// naturally produces a small DC component. Measured against the
-/// POST-output_gain_db signal (what the runtime and qa_audit now check):
-/// the healthy catalogue maxes out around 0.0156 (gain-pedal NAMs like
-/// horizon_precision_drive and pete_cornish_g_2, whose asymmetric drive
-/// inherently offsets the waveform), so 0.02 covers every currently
-/// healthy block with margin while still catching genuine drift (a
-/// broken capture offsets by an order of magnitude more).
-pub const DC_THRESHOLD_NONLINEAR: f32 = 2e-2;
+/// POST-output_gain_db signal (what the runtime and qa_audit now check).
+/// A1 (WaveNet) gain pedals max around 0.0156; A2 (SlimmableContainer)
+/// re-captures of the same asymmetric-drive pedals run hotter on DC
+/// (observed catalogue max ~0.0383: boss_ds1_wampler, pete_cornish_g_2,
+/// ibanez_ts9, lokajaudio_der_blend), so 0.05 covers every healthy
+/// A1/A2 block with margin while still catching genuine drift (a broken
+/// capture offsets by an order of magnitude more, ~0.2+).
+pub const DC_THRESHOLD_NONLINEAR: f32 = 5e-2;
 
 /// HF-aliasing margin for NONLINEAR blocks. Distortion harmonics ARE
 /// the tone; the linear margin flags legitimate harmonic content.
@@ -347,16 +348,16 @@ mod tests {
 
     #[test]
     fn nonlinear_dc_passes_inherent_asymmetric_offset() {
-        // Healthy post-gain catalogue max (~0.0156, asymmetric gain
-        // pedals) must pass the nonlinear DC threshold.
-        let s = vec![0.0156_f32; 4096];
+        // Healthy post-gain catalogue max (~0.0383, A2 asymmetric gain
+        // pedals like pete_cornish_g_2/boss_ds1_wampler) must pass.
+        let s = vec![0.0383_f32; 4096];
         assert!(check_dc_offset_with(&s, DC_THRESHOLD_NONLINEAR).is_none());
     }
 
     #[test]
     fn nonlinear_dc_still_catches_genuine_drift() {
         // An order of magnitude more is a broken capture, not asymmetry.
-        let s = vec![0.05_f32; 4096];
+        let s = vec![0.2_f32; 4096];
         assert!(matches!(
             check_dc_offset_with(&s, DC_THRESHOLD_NONLINEAR),
             Some(QaFail::DcOffset { .. })

@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_peavey_classic_30_a2
+display_name: Classic 30
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/28906
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - peavey_classic_30_overdrive
+  - peavey_classic_30_clean_boss_od_3
+  - peavey_classic_30_overdrive_ibanez_ts_9
+  - peavey_classic_30_clean
+captures:
+- values:
+    model: peavey_classic_30_overdrive
+  file: captures/dxe29ztaut7_a2.nam
+- values:
+    model: peavey_classic_30_clean_boss_od_3
+  file: captures/p9e7omjvka_a2.nam
+- values:
+    model: peavey_classic_30_overdrive_ibanez_ts_9
+  file: captures/von0hjizte_a2.nam
+- values:
+    model: peavey_classic_30_clean
+  file: captures/lgym5gldp6c_a2.nam

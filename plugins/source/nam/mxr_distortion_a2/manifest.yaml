@@ -1,0 +1,87 @@
+manifest_version: 1
+id: nam_mxr_distortion_a2
+display_name: MXR Distortion+
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/57603
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mxr_dist_o_8_d_9
+  - mxr_dist_o_10_d_6
+  - mxr_dist_o_8_d_2
+  - mxr_dist_o_8_d_4
+  - mxr_dist_o_8_d_7
+  - mxr_dist_o_10_d_2
+  - mxr_dist_o_10_d_8
+  - mxr_dist_o_10_d_5
+  - mxr_dist_o_10_d_10
+  - mxr_dist_o_8_d_5
+  - mxr_dist_o_8_d_6
+  - mxr_dist_o_8_d_3
+  - mxr_dist_o_8_d_10
+  - mxr_dist_o_8_d_8
+  - mxr_dist_o_10_d_7
+  - mxr_dist_o_10_d_4
+  - mxr_dist_o_10_d_3
+  - mxr_dist_o_10_d_9
+captures:
+- values:
+    model: mxr_dist_o_8_d_9
+  file: captures/z9wm64fmw4r_a2.nam
+- values:
+    model: mxr_dist_o_10_d_6
+  file: captures/oohuqhet02j_a2.nam
+- values:
+    model: mxr_dist_o_8_d_2
+  file: captures/p079osyg0nf_a2.nam
+- values:
+    model: mxr_dist_o_8_d_4
+  file: captures/fz57lfla28_a2.nam
+- values:
+    model: mxr_dist_o_8_d_7
+  file: captures/9ym161e0zyt_a2.nam
+- values:
+    model: mxr_dist_o_10_d_2
+  file: captures/y9268mzb4ga_a2.nam
+- values:
+    model: mxr_dist_o_10_d_8
+  file: captures/4g7golvfix5_a2.nam
+- values:
+    model: mxr_dist_o_10_d_5
+  file: captures/nsm83tv312_a2.nam
+- values:
+    model: mxr_dist_o_10_d_10
+  file: captures/omn4w6xafa_a2.nam
+- values:
+    model: mxr_dist_o_8_d_5
+  file: captures/mybpsaffkc_a2.nam
+- values:
+    model: mxr_dist_o_8_d_6
+  file: captures/i7xzbsfoo5f_a2.nam
+- values:
+    model: mxr_dist_o_8_d_3
+  file: captures/amd6m4ex85h_a2.nam
+- values:
+    model: mxr_dist_o_8_d_10
+  file: captures/d9j0kua2tuw_a2.nam
+- values:
+    model: mxr_dist_o_8_d_8
+  file: captures/drsopxio33g_a2.nam
+- values:
+    model: mxr_dist_o_10_d_7
+  file: captures/pdothm751f_a2.nam
+- values:
+    model: mxr_dist_o_10_d_4
+  file: captures/ado5e8qjiuc_a2.nam
+- values:
+    model: mxr_dist_o_10_d_3
+  file: captures/qds1fvrj7de_a2.nam
+- values:
+    model: mxr_dist_o_10_d_9
+  file: captures/sjbkhxcdeu_a2.nam

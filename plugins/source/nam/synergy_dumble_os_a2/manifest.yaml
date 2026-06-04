@@ -1,0 +1,24 @@
+manifest_version: 1
+id: nam_synergy_dumble_os_a2
+display_name: Dumble OS Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/52557
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - os_ch1_6l6ab_ns
+  - os_ch2_6l6a_ns2
+captures:
+- values:
+    model: os_ch1_6l6ab_ns
+  file: captures/md4ivyezu6r_a2.nam
+- values:
+    model: os_ch2_6l6a_ns2
+  file: captures/ob2mcd5knw_a2.nam

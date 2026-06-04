@@ -1,0 +1,151 @@
+manifest_version: 1
+id: nam_marshall_jcm_800_2203_a1
+display_name: JCM 800 2203
+brand: marshall
+photo: assets/photo.png
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 50.0
+  - 60.0
+  - 70.0
+- name: gain
+  display_name: Gain
+  values:
+  - 10.0
+  - 20.0
+  - 30.0
+  - 40.0
+  - 50.0
+  - 60.0
+  - 70.0
+  - 80.0
+  - 90.0
+  - 100.0
+captures:
+- values:
+    gain: 10.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g1_azg_700.nam
+- values:
+    gain: 20.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g2_azg_700.nam
+- values:
+    gain: 30.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g3_azg_700.nam
+- values:
+    gain: 40.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g4_azg_700.nam
+- values:
+    gain: 50.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g5_azg_700.nam
+- values:
+    gain: 60.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g6_azg_700.nam
+- values:
+    gain: 70.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g7_azg_700.nam
+- values:
+    gain: 80.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g8_azg_700.nam
+- values:
+    gain: 90.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g9_azg_700.nam
+- values:
+    gain: 100.0
+    volume: 50.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g10_azg_700.nam
+- values:
+    gain: 10.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g1_azg_700.nam
+- values:
+    gain: 20.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g2_azg_700.nam
+- values:
+    gain: 30.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g3_azg_700.nam
+- values:
+    gain: 40.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g4_azg_700.nam
+- values:
+    gain: 50.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g5_azg_700.nam
+- values:
+    gain: 60.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g6_azg_700.nam
+- values:
+    gain: 70.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g7_azg_700.nam
+- values:
+    gain: 80.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g8_azg_700.nam
+- values:
+    gain: 90.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g9_azg_700.nam
+- values:
+    gain: 100.0
+    volume: 60.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g10_azg_700.nam
+- values:
+    gain: 10.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g1_azg_700.nam
+- values:
+    gain: 20.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g2_azg_700.nam
+- values:
+    gain: 30.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g3_azg_700.nam
+- values:
+    gain: 40.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g4_azg_700.nam
+- values:
+    gain: 50.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g5_azg_700.nam
+- values:
+    gain: 60.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g6_azg_700.nam
+- values:
+    gain: 70.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g7_azg_700.nam
+- values:
+    gain: 80.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g8_azg_700.nam
+- values:
+    gain: 90.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g9_azg_700.nam
+- values:
+    gain: 100.0
+    volume: 70.0
+  file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g10_azg_700.nam

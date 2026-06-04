@@ -1,0 +1,37 @@
+manifest_version: 1
+id: nam_velvet_katana_a1
+display_name: Velvet Katana
+brand: velvet
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: character
+  display_name: Character
+  values:
+  - country
+  - blues_bright
+  - larry
+  - brad
+  - drive
+  - drive_plus
+captures:
+- values:
+    character: country
+  file: captures/katana_country.nam
+- values:
+    character: blues_bright
+  file: captures/katana_blues_bright.nam
+- values:
+    character: larry
+  file: captures/katana_larry.nam
+- values:
+    character: brad
+  file: captures/katana_brad.nam
+- values:
+    character: drive
+  file: captures/katana_drive.nam
+- values:
+    character: drive_plus
+  file: captures/katana_drive_plus.nam

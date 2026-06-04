@@ -1,0 +1,37 @@
+manifest_version: 1
+id: nam_klon_centaur_a1
+display_name: Klon Centaur Silver
+brand: klon
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: setting
+  display_name: Setting
+  values:
+  - '255'
+  - '277'
+  - '468'
+  - '555'
+  - '668'
+  - john_mayer
+captures:
+- values:
+    setting: '255'
+  file: captures/klon_255.nam
+- values:
+    setting: '277'
+  file: captures/klon_277.nam
+- values:
+    setting: '468'
+  file: captures/klon_468.nam
+- values:
+    setting: '555'
+  file: captures/klon_555.nam
+- values:
+    setting: '668'
+  file: captures/klon_668.nam
+- values:
+    setting: john_mayer
+  file: captures/klon_john_mayer.nam

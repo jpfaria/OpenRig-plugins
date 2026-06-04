@@ -1,0 +1,448 @@
+manifest_version: 1
+id: nam_synergy_tone_king_imperial_mkii_a2
+display_name: Tone King Imperial MKII Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/29949
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - syn20ir_imp_c1_a_4_g50_b50_t50_v5_r50_m30
+  - syn20ir_imp_c1_a_hf_3_g42_b62_t63_v6_r40_m30
+  - syn20ir_imp_c2_a_hf_2_g37_b32_mb30_v3_r42_m30
+  - syn20ir_imp_c1_c_hf_1_g25_b51_t70_v7_r32_m30
+  - syn20ir_imp_c1_c_8_g87_b32_t63_v4_r58_m30
+  - syn20ir_imp_c2_a_3_g42_b30_mb42_v3_r40_m30
+  - syn20ir_imp_c2_c_hf_2_g37_b32_mb30_v3_r42_m30
+  - syn20ir_imp_c2_b_hf_2_g37_b32_mb30_v3_r42_m30
+  - syn20ir_imp_c2_c_4_g50_b60_mb42_v3_r50_m30
+  - syn20ir_imp_c2_c_hf_7_g75_b42_mb66_v2_r53_m30
+  - syn20ir_imp_c2_a_8_g87_b51_mb75_v2_r53_m30
+  - syn20ir_imp_c2_a_hf_8_g87_b51_mb75_v2_r53_m30
+  - syn20ir_imp_c2_c_3_g42_b30_mb42_v3_r40_m30
+  - syn20ir_imp_c2_a_6_g62_b50_mb53_v3_r50_m30
+  - syn20ir_imp_c1_a_hf_1_g25_b51_t70_v7_r32_m30
+  - syn20ir_imp_c2_a_1_g25_b56_mb18_v3_r32_m30
+  - syn20ir_imp_c1_a_hf_4_g50_b50_t50_v5_r50_m30
+  - syn20ir_imp_c1_a_hf_5_g56_b45_t54_v5_r47_m30
+  - syn20ir_imp_c1_b_hf_5_g56_b45_t54_v5_r47_m30
+  - syn20ir_imp_c1_c_2_g37_b39_t50_v6_r42_m30
+  - syn20ir_imp_c1_b_2_g37_b39_t50_v6_r42_m30
+  - syn20ir_imp_c1_b_5_g56_b45_t54_v5_r47_m30
+  - syn20ir_imp_c2_a_hf_5_g56_b56_mb45_v3_r47_m30
+  - syn20ir_imp_c2_a_hf_3_g42_b30_mb42_v3_r40_m30
+  - syn20ir_imp_c2_c_hf_3_g42_b30_mb42_v3_r40_m30
+  - syn20ir_imp_c1_c_5_g56_b45_t54_v5_r47_m30
+  - syn20ir_imp_c1_b_hf_4_g50_b50_t50_v5_r50_m30
+  - syn20ir_imp_c1_b_3_g42_b62_t63_v6_r40_m30
+  - syn20ir_imp_c1_b_hf_3_g42_b62_t63_v6_r40_m30
+  - syn20ir_imp_c1_b_hf_2_g37_b39_t50_v6_r42_m30
+  - syn20ir_imp_c2_b_2_g37_b32_mb30_v3_r42_m30
+  - syn20ir_imp_c2_b_hf_4_g50_b60_mb42_v3_r50_m30
+  - syn20ir_imp_c1_b_4_g50_b50_t50_v5_r50_m30
+  - syn20ir_imp_c1_c_hf_4_g50_b50_t50_v5_r50_m30
+  - syn20ir_imp_c2_c_1_g25_b56_mb18_v3_r32_m30
+  - syn20ir_imp_c2_c_6_g62_b50_mb53_v3_r50_m30
+  - syn20ir_imp_c2_b_6_g62_b50_mb53_v3_r50_m30
+  - syn20ir_imp_c1_b_7_g75_b42_t50_v4_r53_m30
+  - syn20ir_imp_c1_a_7_g75_b42_t50_v4_r53_m30
+  - syn20ir_imp_c2_c_9_g100_b40_mb80_v2_r70_m30
+  - syn20ir_imp_c1_a_3_g42_b62_t63_v6_r40_m30
+  - syn20ir_imp_c1_c_3_g42_b62_t63_v6_r40_m30
+  - syn20ir_imp_c2_a_2_g37_b32_mb30_v3_r42_m30
+  - syn20ir_imp_c1_a_1_g25_b51_t70_v7_r32_m30
+  - syn20ir_imp_c2_a_hf_4_g50_b60_mb42_v3_r50_m30
+  - syn20ir_imp_c2_c_hf_5_g56_b56_mb45_v3_r47_m30
+  - syn20ir_imp_c1_a_hf_7_g75_b42_t50_v4_r53_m30
+  - syn20ir_imp_c2_b_hf_9_g100_b40_mb80_v2_r70_m30
+  - syn20ir_imp_c1_c_4_g50_b50_t50_v5_r50_m30
+  - syn20ir_imp_c2_b_7_g75_b42_mb66_v2_r53_m30
+  - syn20ir_imp_c2_c_hf_4_g50_b60_mb42_v3_r50_m30
+  - syn20ir_imp_c2_c_2_g37_b32_mb30_v3_r42_m30
+  - syn20ir_imp_c2_a_hf_1_g25_b56_mb18_v3_r32_m30
+  - syn20ir_imp_c1_c_6_g62_b32_t60_v4_r50_m30
+  - syn20ir_imp_c2_c_hf_9_g100_b40_mb80_v2_r70_m30
+  - syn20ir_imp_c2_b_3_g42_b30_mb42_v3_r40_m30
+  - syn20ir_imp_c2_b_hf_3_g42_b30_mb42_v3_r40_m30
+  - syn20ir_imp_c1_c_hf_2_g37_b39_t50_v6_r42_m30
+  - syn20ir_imp_c1_c_hf_3_g42_b62_t63_v6_r40_m30
+  - syn20ir_imp_c2_b_hf_1_g25_b56_mb18_v3_r32_m30
+  - syn20ir_imp_c1_a_hf_2_g37_b39_t50_v6_r42_m30
+  - syn20ir_imp_c1_b_1_g25_b51_t70_v7_r32_m30
+  - syn20ir_imp_c2_c_5_g56_b56_mb45_v3_r47_m30
+  - syn20ir_imp_c2_b_hf_5_g56_b56_mb45_v3_r47_m30
+  - syn20ir_imp_c1_a_8_g87_b32_t63_v4_r58_m30
+  - syn20ir_imp_c1_c_hf_8_g87_b32_t63_v4_r58_m30
+  - syn20ir_imp_c2_b_8_g87_b51_mb75_v2_r53_m30
+  - syn20ir_imp_c1_a_2_g37_b39_t50_v6_r42_m30
+  - syn20ir_imp_c2_b_1_g25_b56_mb18_v3_r32_m30
+  - syn20ir_imp_c2_b_4_g50_b60_mb42_v3_r50_m30
+  - syn20ir_imp_c1_b_hf_1_g25_b51_t70_v7_r32_m30
+  - syn20ir_imp_c2_a_4_g50_b60_mb42_v3_r50_m30
+  - syn20ir_imp_c1_c_1_g25_b51_t70_v7_r32_m30
+  - syn20ir_imp_c2_c_hf_1_g25_b56_mb18_v3_r32_m30
+  - syn20ir_imp_c1_a_5_g56_b45_t54_v5_r47_m30
+  - syn20ir_imp_c1_a_hf_6_g62_b32_t60_v4_r50_m30
+  - syn20ir_imp_c1_b_hf_6_g62_b32_t60_v4_r50_m30
+  - syn20ir_imp_c2_c_8_g87_b51_mb75_v2_r53_m30
+  - syn20ir_imp_c1_c_hf_9_g100_b50_t50_v4_r70_m30
+  - syn20ir_imp_c2_b_5_g56_b56_mb45_v3_r47_m30
+  - syn20ir_imp_c2_a_hf_6_g62_b50_mb53_v3_r50_m30
+  - syn20ir_imp_c2_c_7_g75_b42_mb66_v2_r53_m30
+  - syn20ir_imp_c2_b_hf_7_g75_b42_mb66_v2_r53_m30
+  - syn20ir_imp_c2_b_hf_8_g87_b51_mb75_v2_r53_m30
+  - syn20ir_imp_c1_a_9_g100_b50_t50_v4_r70_m30
+  - syn20ir_imp_c1_b_6_g62_b32_t60_v4_r50_m30
+  - syn20ir_imp_c1_a_6_g62_b32_t60_v4_r50_m30
+  - syn20ir_imp_c2_b_hf_6_g62_b50_mb53_v3_r50_m30
+  - syn20ir_imp_c1_c_hf_7_g75_b42_t50_v4_r53_m30
+  - syn20ir_imp_c1_b_8_g87_b32_t63_v4_r58_m30
+  - syn20ir_imp_c1_a_hf_8_g87_b32_t63_v4_r58_m30
+  - syn20ir_imp_c1_b_9_g100_b50_t50_v4_r70_m30
+  - syn20ir_imp_c1_b_hf_9_g100_b50_t50_v4_r70_m30
+  - syn20ir_imp_c2_b_9_g100_b40_mb80_v2_r70_m30
+  - syn20ir_imp_c1_c_hf_6_g62_b32_t60_v4_r50_m30
+  - syn20ir_imp_c1_b_hf_8_g87_b32_t63_v4_r58_m30
+  - syn20ir_imp_c1_c_hf_5_g56_b45_t54_v5_r47_m30
+  - syn20ir_imp_c1_c_9_g100_b50_t50_v4_r70_m30
+  - syn20ir_imp_c1_a_hf_9_g100_b50_t50_v4_r70_m30
+  - syn20ir_imp_c2_a_5_g56_b56_mb45_v3_r47_m30
+  - syn20ir_imp_c2_c_hf_6_g62_b50_mb53_v3_r50_m30
+  - syn20ir_imp_c1_b_hf_7_g75_b42_t50_v4_r53_m30
+  - syn20ir_imp_c1_c_7_g75_b42_t50_v4_r53_m30
+  - syn20ir_imp_c2_a_9_g100_b40_mb80_v2_r70_m30
+  - syn20ir_imp_c2_a_7_g75_b42_mb66_v2_r53_m30
+  - syn20ir_imp_c2_a_hf_7_g75_b42_mb66_v2_r53_m30
+  - syn20ir_imp_c2_c_hf_8_g87_b51_mb75_v2_r53_m30
+  - syn20ir_imp_c2_a_hf_9_g100_b40_mb80_v2_r70_m30
+captures:
+- values:
+    model: syn20ir_imp_c1_a_4_g50_b50_t50_v5_r50_m30
+  file: captures/5njjmpvfsfm_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_3_g42_b62_t63_v6_r40_m30
+  file: captures/5dgsmzus92t_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_2_g37_b32_mb30_v3_r42_m30
+  file: captures/pkv0hmz653k_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_1_g25_b51_t70_v7_r32_m30
+  file: captures/evn9arskfs_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_8_g87_b32_t63_v4_r58_m30
+  file: captures/fd2r16plsvl_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_3_g42_b30_mb42_v3_r40_m30
+  file: captures/7nu7ijqk91m_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_2_g37_b32_mb30_v3_r42_m30
+  file: captures/9hc9bdtzv3m_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_2_g37_b32_mb30_v3_r42_m30
+  file: captures/xcjvtfgoj7_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_4_g50_b60_mb42_v3_r50_m30
+  file: captures/vtwtrjekpk_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_7_g75_b42_mb66_v2_r53_m30
+  file: captures/jrq79t0y8c_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_8_g87_b51_mb75_v2_r53_m30
+  file: captures/9k8hh24ux4s_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_8_g87_b51_mb75_v2_r53_m30
+  file: captures/5iq7p5gcy9h_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_3_g42_b30_mb42_v3_r40_m30
+  file: captures/rwm36t1yiji_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_6_g62_b50_mb53_v3_r50_m30
+  file: captures/t9l6pogfdy_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_1_g25_b51_t70_v7_r32_m30
+  file: captures/qkbhxqboaw_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_1_g25_b56_mb18_v3_r32_m30
+  file: captures/pqbwdxduyl_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_4_g50_b50_t50_v5_r50_m30
+  file: captures/3i74bewqyq9_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_5_g56_b45_t54_v5_r47_m30
+  file: captures/uhr0e7wycm_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_5_g56_b45_t54_v5_r47_m30
+  file: captures/xd54xclo1jh_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_2_g37_b39_t50_v6_r42_m30
+  file: captures/3kwww56knhv_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_2_g37_b39_t50_v6_r42_m30
+  file: captures/02pomlik8vt5_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_5_g56_b45_t54_v5_r47_m30
+  file: captures/e0mby0yhenc_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_5_g56_b56_mb45_v3_r47_m30
+  file: captures/kpofqxg6eid_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_3_g42_b30_mb42_v3_r40_m30
+  file: captures/2ledsxcfscu_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_3_g42_b30_mb42_v3_r40_m30
+  file: captures/hh09arr9u5g_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_5_g56_b45_t54_v5_r47_m30
+  file: captures/pa3rclwqv89_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_4_g50_b50_t50_v5_r50_m30
+  file: captures/c4naoeu181_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_3_g42_b62_t63_v6_r40_m30
+  file: captures/qtplr5216h_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_3_g42_b62_t63_v6_r40_m30
+  file: captures/iq3u4f14btb_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_2_g37_b39_t50_v6_r42_m30
+  file: captures/nr5y53yx8ns_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_2_g37_b32_mb30_v3_r42_m30
+  file: captures/25btc8y5rsb_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_4_g50_b60_mb42_v3_r50_m30
+  file: captures/kd359ahrw7b_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_4_g50_b50_t50_v5_r50_m30
+  file: captures/1kufdzxzogu_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_4_g50_b50_t50_v5_r50_m30
+  file: captures/c19df9au62a_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_1_g25_b56_mb18_v3_r32_m30
+  file: captures/rl1u5tfi6gc_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_6_g62_b50_mb53_v3_r50_m30
+  file: captures/gior3wbxk6_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_6_g62_b50_mb53_v3_r50_m30
+  file: captures/7mt8ngqsxpe_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_7_g75_b42_t50_v4_r53_m30
+  file: captures/09dok1t0to8p_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_7_g75_b42_t50_v4_r53_m30
+  file: captures/hwos8lht71k_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_9_g100_b40_mb80_v2_r70_m30
+  file: captures/j10nj45px6l_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_3_g42_b62_t63_v6_r40_m30
+  file: captures/qhjxauuboeq_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_3_g42_b62_t63_v6_r40_m30
+  file: captures/dxe0yqdaiwt_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_2_g37_b32_mb30_v3_r42_m30
+  file: captures/03en7pxg8cs8_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_1_g25_b51_t70_v7_r32_m30
+  file: captures/2i3p4rehtjd_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_4_g50_b60_mb42_v3_r50_m30
+  file: captures/6iy9f6mgtsq_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_5_g56_b56_mb45_v3_r47_m30
+  file: captures/v3d76glt3b_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_7_g75_b42_t50_v4_r53_m30
+  file: captures/32kclcihpcv_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_9_g100_b40_mb80_v2_r70_m30
+  file: captures/kl8ify9aok_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_4_g50_b50_t50_v5_r50_m30
+  file: captures/emkbdfjisvj_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_7_g75_b42_mb66_v2_r53_m30
+  file: captures/tz5govvgk2_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_4_g50_b60_mb42_v3_r50_m30
+  file: captures/4mtbrmlhnfj_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_2_g37_b32_mb30_v3_r42_m30
+  file: captures/913pxdiltsr_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_1_g25_b56_mb18_v3_r32_m30
+  file: captures/6hxh3gudcxr_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_6_g62_b32_t60_v4_r50_m30
+  file: captures/rjazc5ijo9_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_9_g100_b40_mb80_v2_r70_m30
+  file: captures/7k6gz0pj86o_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_3_g42_b30_mb42_v3_r40_m30
+  file: captures/5c1z42hgqnr_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_3_g42_b30_mb42_v3_r40_m30
+  file: captures/gb2u4qiq0l_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_2_g37_b39_t50_v6_r42_m30
+  file: captures/ucslqbr668_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_3_g42_b62_t63_v6_r40_m30
+  file: captures/hn2isil3urs_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_1_g25_b56_mb18_v3_r32_m30
+  file: captures/oa8yaz1dtk_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_2_g37_b39_t50_v6_r42_m30
+  file: captures/jhynelkbkf_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_1_g25_b51_t70_v7_r32_m30
+  file: captures/rb0ttvlzmb_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_5_g56_b56_mb45_v3_r47_m30
+  file: captures/c6k3v06vw1_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_5_g56_b56_mb45_v3_r47_m30
+  file: captures/f4q0wg0x77g_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_8_g87_b32_t63_v4_r58_m30
+  file: captures/zv8iuuihvkj_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_8_g87_b32_t63_v4_r58_m30
+  file: captures/7us1zd2u5lc_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_8_g87_b51_mb75_v2_r53_m30
+  file: captures/ej04ewiz8nu_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_2_g37_b39_t50_v6_r42_m30
+  file: captures/pgubko7r4n_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_1_g25_b56_mb18_v3_r32_m30
+  file: captures/sm8336n9dx_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_4_g50_b60_mb42_v3_r50_m30
+  file: captures/rh703wc0y3_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_1_g25_b51_t70_v7_r32_m30
+  file: captures/zeym4tm3rmo_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_4_g50_b60_mb42_v3_r50_m30
+  file: captures/ukxnu56wxhg_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_1_g25_b51_t70_v7_r32_m30
+  file: captures/bz9gbskelgo_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_1_g25_b56_mb18_v3_r32_m30
+  file: captures/rqziuxr6d5_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_5_g56_b45_t54_v5_r47_m30
+  file: captures/ycp7zieya0d_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_6_g62_b32_t60_v4_r50_m30
+  file: captures/7ae0u0axn49_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_6_g62_b32_t60_v4_r50_m30
+  file: captures/pq42ffyndx_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_8_g87_b51_mb75_v2_r53_m30
+  file: captures/9lk7oikohcm_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_9_g100_b50_t50_v4_r70_m30
+  file: captures/pd5lj9gw1o_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_5_g56_b56_mb45_v3_r47_m30
+  file: captures/2nd67ml3382_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_6_g62_b50_mb53_v3_r50_m30
+  file: captures/uep88ch88bd_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_7_g75_b42_mb66_v2_r53_m30
+  file: captures/x6lbhbnzfw_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_7_g75_b42_mb66_v2_r53_m30
+  file: captures/cuehoalym77_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_8_g87_b51_mb75_v2_r53_m30
+  file: captures/aeq9ss5k36r_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_9_g100_b50_t50_v4_r70_m30
+  file: captures/68locejae9x_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_6_g62_b32_t60_v4_r50_m30
+  file: captures/zi8nypk5ma_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_6_g62_b32_t60_v4_r50_m30
+  file: captures/m2xycqi4q1h_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_hf_6_g62_b50_mb53_v3_r50_m30
+  file: captures/77u1r1ls2qn_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_7_g75_b42_t50_v4_r53_m30
+  file: captures/lccbiiwfb2e_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_8_g87_b32_t63_v4_r58_m30
+  file: captures/wkv61iodrn_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_8_g87_b32_t63_v4_r58_m30
+  file: captures/ioehxqm09p_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_9_g100_b50_t50_v4_r70_m30
+  file: captures/416nq0et50o_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_9_g100_b50_t50_v4_r70_m30
+  file: captures/60v528m88r7_a2.nam
+- values:
+    model: syn20ir_imp_c2_b_9_g100_b40_mb80_v2_r70_m30
+  file: captures/w453lcumyjr_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_6_g62_b32_t60_v4_r50_m30
+  file: captures/hcjb5gpd4cr_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_8_g87_b32_t63_v4_r58_m30
+  file: captures/ogkgwmj4msf_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_hf_5_g56_b45_t54_v5_r47_m30
+  file: captures/5i17nyyvxw_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_9_g100_b50_t50_v4_r70_m30
+  file: captures/icmkbe2axso_a2.nam
+- values:
+    model: syn20ir_imp_c1_a_hf_9_g100_b50_t50_v4_r70_m30
+  file: captures/zh8198b62x_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_5_g56_b56_mb45_v3_r47_m30
+  file: captures/ur520qaecy_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_6_g62_b50_mb53_v3_r50_m30
+  file: captures/ihdc8m7vj7_a2.nam
+- values:
+    model: syn20ir_imp_c1_b_hf_7_g75_b42_t50_v4_r53_m30
+  file: captures/hzqidluy2z_a2.nam
+- values:
+    model: syn20ir_imp_c1_c_7_g75_b42_t50_v4_r53_m30
+  file: captures/skhkjxku7l_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_9_g100_b40_mb80_v2_r70_m30
+  file: captures/czp9a57qhlp_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_7_g75_b42_mb66_v2_r53_m30
+  file: captures/52oa83m6awi_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_7_g75_b42_mb66_v2_r53_m30
+  file: captures/axe60c6rkdp_a2.nam
+- values:
+    model: syn20ir_imp_c2_c_hf_8_g87_b51_mb75_v2_r53_m30
+  file: captures/7xm07n6acz_a2.nam
+- values:
+    model: syn20ir_imp_c2_a_hf_9_g100_b40_mb80_v2_r70_m30
+  file: captures/w08xp6qmj6_a2.nam

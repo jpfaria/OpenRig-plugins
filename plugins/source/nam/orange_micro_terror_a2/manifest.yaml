@@ -1,0 +1,56 @@
+manifest_version: 1
+id: nam_orange_micro_terror_a2
+display_name: Micro Terror
+brand: orange
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/68313
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - v9t12g12
+  - v2t12g11_ds_1_t11l10d1
+  - v12t11g1_ds_1_t11l10d1
+  - v12t12g3
+  - v3t12g10
+  - v12t12g11_ds_1_t11l10d10
+  - v12t11g1
+  - v12t11g11
+  - v12t12g11
+  - v5t1g9
+captures:
+- values:
+    model: v9t12g12
+  file: captures/hkgp11nj73f_a2.nam
+- values:
+    model: v2t12g11_ds_1_t11l10d1
+  file: captures/rfc41knshge_a2.nam
+- values:
+    model: v12t11g1_ds_1_t11l10d1
+  file: captures/6dl72ruskhc_a2.nam
+- values:
+    model: v12t12g3
+  file: captures/zncrmbvwfna_a2.nam
+- values:
+    model: v3t12g10
+  file: captures/3cli48b7e5v_a2.nam
+- values:
+    model: v12t12g11_ds_1_t11l10d10
+  file: captures/ns9zawns0r_a2.nam
+- values:
+    model: v12t11g1
+  file: captures/0p5clzyfck5g_a2.nam
+- values:
+    model: v12t11g11
+  file: captures/26ibclalm7l_a2.nam
+- values:
+    model: v12t12g11
+  file: captures/bnvq2aoz35_a2.nam
+- values:
+    model: v5t1g9
+  file: captures/hmylofk1ru5_a2.nam

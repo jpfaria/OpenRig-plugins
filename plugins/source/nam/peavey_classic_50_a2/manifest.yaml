@@ -1,0 +1,60 @@
+manifest_version: 1
+id: nam_peavey_classic_50_a2
+display_name: Classic 50
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6281
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - peavey_classic_50_vol_7
+  - peavey_classic_50_bright_vol_5
+  - peavey_classic_50_crunch_ch
+  - peavey_classic_50_vol_3
+  - peavey_classic_50_bright_vol_7
+  - peavey_classic_50_vol_5
+  - peavey_classic_50_vol_11
+  - peavey_classic_50_bright_vol_9
+  - peavey_classic_50_bright_vol_11
+  - peavey_classic_50_vol_9
+  - peavey_classic_50_bright_vol_3
+captures:
+- values:
+    model: peavey_classic_50_vol_7
+  file: captures/6f0d7c1bd15bc56a_a2.nam
+- values:
+    model: peavey_classic_50_bright_vol_5
+  file: captures/3631fc5215bf3abd_a2.nam
+- values:
+    model: peavey_classic_50_crunch_ch
+  file: captures/410f8d13d7a61252_a2.nam
+- values:
+    model: peavey_classic_50_vol_3
+  file: captures/f541d2b3cd510e0b_a2.nam
+- values:
+    model: peavey_classic_50_bright_vol_7
+  file: captures/e14f3608fb534c40_a2.nam
+- values:
+    model: peavey_classic_50_vol_5
+  file: captures/6f2edb342c325d21_a2.nam
+- values:
+    model: peavey_classic_50_vol_11
+  file: captures/86b2dc620dc36a2a_a2.nam
+- values:
+    model: peavey_classic_50_bright_vol_9
+  file: captures/f3ee23b5463f5c0a_a2.nam
+- values:
+    model: peavey_classic_50_bright_vol_11
+  file: captures/973b033dea69a8c6_a2.nam
+- values:
+    model: peavey_classic_50_vol_9
+  file: captures/729534e3c0365d2d_a2.nam
+- values:
+    model: peavey_classic_50_bright_vol_3
+  file: captures/01bf131695862a8c_a2.nam

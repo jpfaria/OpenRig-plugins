@@ -1,0 +1,75 @@
+manifest_version: 1
+id: nam_hudson_broadcast_a2
+display_name: Hudson Broadcast
+brand: hudson
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/36540
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_700
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_1200
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_500
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_900
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_700
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_300
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_500
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_500
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_1200
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_300
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_900
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_1200
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_700
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_900
+  - hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_300
+captures:
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_700
+  file: captures/yobqkk3u1x_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_1200
+  file: captures/cl9culzlugo_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_500
+  file: captures/8zfu512s5cb_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_900
+  file: captures/f896dogjlf7_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_700
+  file: captures/lm9uo6ea7qk_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_300
+  file: captures/y1gawbej0os_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_500
+  file: captures/l5u5mcpxsvo_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_500
+  file: captures/dyheswvmnn8_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level1200_gain_low_1200
+  file: captures/xhzvlf1we19_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_300
+  file: captures/5spkdlbu6o8_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_900
+  file: captures/p5ibiuif03b_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_1200
+  file: captures/wluu8tqsaus_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_med_700
+  file: captures/ybn1gmxwckq_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_900
+  file: captures/d83jwwtgcdt_a2.nam
+- values:
+    model: hudson_broadcast_bc_24v_ltd_low_cut900_level130_gain_high_300
+  file: captures/412byeko30y_a2.nam

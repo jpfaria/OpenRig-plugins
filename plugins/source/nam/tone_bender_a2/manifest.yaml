@@ -1,0 +1,124 @@
+manifest_version: 1
+id: nam_tone_bender_a2
+display_name: Tone Bender
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/56147
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - tone_bender_mk_ii_jimmy_page_lg_loweq_loinput
+  - tone_bender_mk_ii_jimmy_page_hg_loweq_loinput
+  - tone_bender_mk_ii_jimmy_page_hg_loweq_hiinput
+  - tone_bender_mk_ii_jimmy_page_lg_mideq_loinput
+  - tone_bender_mk_ii_jimmy_page_lg_vloweq_midinput
+  - tone_bender_mk_ii_jimmy_page_lg_vloweq_loinput
+  - tone_bender_mk_ii_jimmy_page_mg_mideq_hiinput
+  - tone_bender_mk_ii_jimmy_page_lg_loweq_hiinput
+  - tone_bender_mk_ii_jimmy_page_mg_mideq_midinput
+  - tone_bender_mk_ii_jimmy_page_mg_mideq_loinput
+  - tone_bender_mk_ii_jimmy_page_mg_loweq_hiinput
+  - tone_bender_mk_ii_jimmy_page_hg_vloweq_midinput
+  - tone_bender_mk_ii_jimmy_page_lg_vloweq_hiinput
+  - tone_bender_mk_ii_jimmy_page_hg_loweq_midinput
+  - tone_bender_mk_ii_jimmy_page_mg_vloweq_midinput
+  - tone_bender_mk_ii_jimmy_page_mg_vloweq_hiinput
+  - tone_bender_mk_ii_jimmy_page_hg_mideq_loinput
+  - tone_bender_mk_ii_jimmy_page_mg_vloweq_loinput
+  - tone_bender_mk_ii_jimmy_page_lg_loweq_midinput
+  - tone_bender_mk_ii_jimmy_page_hg_mideq_hiinput
+  - tone_bender_mk_ii_jimmy_page_hg_vloweq_hiinput
+  - tone_bender_mk_ii_jimmy_page_lg_mideq_midinput
+  - tone_bender_mk_ii_jimmy_page_lg_mideq_hiinput
+  - tone_bender_mk_ii_jimmy_page_hg_vloweq_loinput
+  - tone_bender_mk_ii_jimmy_page_hg_mideq_midinput
+  - tone_bender_mk_ii_jimmy_page_mg_loweq_midinput
+  - tone_bender_mk_ii_jimmy_page_mg_loweq_loinput
+captures:
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_loweq_loinput
+  file: captures/i9qiv3b4vd_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_loweq_loinput
+  file: captures/542wqi8i6p5_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_loweq_hiinput
+  file: captures/wxrkle720db_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_mideq_loinput
+  file: captures/ao9otmq3iy8_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_vloweq_midinput
+  file: captures/wz9h1gnqbe_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_vloweq_loinput
+  file: captures/zhni87zcweg_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_mideq_hiinput
+  file: captures/28o5azm88cy_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_loweq_hiinput
+  file: captures/cuvdz3pms1_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_mideq_midinput
+  file: captures/yghlnqoqwoa_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_mideq_loinput
+  file: captures/dcmwvkdhm5c_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_loweq_hiinput
+  file: captures/av7f8lp03ab_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_vloweq_midinput
+  file: captures/ta5ecl5oty8_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_vloweq_hiinput
+  file: captures/pnaiha3qmri_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_loweq_midinput
+  file: captures/bs3hl9jqipl_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_vloweq_midinput
+  file: captures/3u6e4w29nej_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_vloweq_hiinput
+  file: captures/pw7di9p3xx_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_mideq_loinput
+  file: captures/7hhk8if3zcj_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_vloweq_loinput
+  file: captures/pr18yn7wqyi_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_loweq_midinput
+  file: captures/98q6374kroo_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_mideq_hiinput
+  file: captures/5z4qqtxtogf_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_vloweq_hiinput
+  file: captures/biyk387uh74_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_mideq_midinput
+  file: captures/rlfje3t5fu_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_lg_mideq_hiinput
+  file: captures/z2x2nsgtkh_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_vloweq_loinput
+  file: captures/n6zajh1zo0m_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_hg_mideq_midinput
+  file: captures/of3yysu73m_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_loweq_midinput
+  file: captures/nt2p9hva53_a2.nam
+- values:
+    model: tone_bender_mk_ii_jimmy_page_mg_loweq_loinput
+  file: captures/nppax77f5cd_a2.nam

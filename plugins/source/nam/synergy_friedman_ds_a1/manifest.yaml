@@ -1,0 +1,30 @@
+manifest_version: 1
+id: nam_synergy_friedman_ds_a1
+display_name: Friedman DS Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - ch1_a
+  - ch2_b
+  - ch2_b_brt
+  - ch2_c_brt
+captures:
+- values:
+    preset: ch1_a
+  file: captures/syn20ir_ds_c1_a_2_g37_b68_m51_t40_v51_r51_m32.nam
+- values:
+    preset: ch2_b
+  file: captures/syn20ir_ds_c2_b_2_g37_b68_m51_t40_v45_r51_m32.nam
+- values:
+    preset: ch2_b_brt
+  file: captures/syn20ir_ds_c2_b_brt_2_g37_b68_m51_t40_v45_r51_m32.nam
+- values:
+    preset: ch2_c_brt
+  file: captures/syn20ir_ds_c2_c_brt_3_g44_b50_m61_t48_v37_r51_m32.nam

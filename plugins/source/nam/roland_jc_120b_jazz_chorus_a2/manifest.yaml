@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_roland_jc_120b_jazz_chorus_a2
+display_name: JC-120B Jazz Chorus
+brand: roland
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/127
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - tim_r_jc_120_ch1_low
+  - tim_r_jc_120_ch_2_hi
+  - tim_r_jc_120_ch_1_hi
+  - tim_r_jc_120_ch_2_low
+captures:
+- values:
+    model: tim_r_jc_120_ch1_low
+  file: captures/bd671f6b77c18633_a2.nam
+- values:
+    model: tim_r_jc_120_ch_2_hi
+  file: captures/fd34537a663a03cf_a2.nam
+- values:
+    model: tim_r_jc_120_ch_1_hi
+  file: captures/85544127d25fc38a_a2.nam
+- values:
+    model: tim_r_jc_120_ch_2_low
+  file: captures/6e1748866cace0b0_a2.nam

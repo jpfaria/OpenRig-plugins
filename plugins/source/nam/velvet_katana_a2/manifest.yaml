@@ -1,0 +1,63 @@
+manifest_version: 1
+id: nam_velvet_katana_a2
+display_name: Velvet Katana
+brand: velvet
+output_gain_db: -3.7444315
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/52528
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - velvet_katana_a_a_blues
+  - velvet_katana_a_a_rock
+  - velvet_katana_a_a_rock_2
+  - velvet_katana_a_a_blues_2
+  - velvet_katana_a_a_robben_2
+  - velvet_katana_a_a_fusion
+  - velvet_katana_a_a_robben_1
+  - velvet_katana_a_a_all_noon
+  - velvet_katana_a_a_crunch
+  - velvet_katana_a_a_edge
+  - velvet_katana_a_a_rock_bright
+  - velvet_katana_a_a_rock_warm
+captures:
+- values:
+    model: velvet_katana_a_a_blues
+  file: captures/w5dbv0b2w1e_a2.nam
+- values:
+    model: velvet_katana_a_a_rock
+  file: captures/2j9rifmylbb_a2.nam
+- values:
+    model: velvet_katana_a_a_rock_2
+  file: captures/axo2whskm2_a2.nam
+- values:
+    model: velvet_katana_a_a_blues_2
+  file: captures/ajpul5hb4x9_a2.nam
+- values:
+    model: velvet_katana_a_a_robben_2
+  file: captures/9k479uys5do_a2.nam
+- values:
+    model: velvet_katana_a_a_fusion
+  file: captures/w0ez3ziepvp_a2.nam
+- values:
+    model: velvet_katana_a_a_robben_1
+  file: captures/i78lpf33r8q_a2.nam
+- values:
+    model: velvet_katana_a_a_all_noon
+  file: captures/6qheoolocy8_a2.nam
+- values:
+    model: velvet_katana_a_a_crunch
+  file: captures/nbd94wot4pg_a2.nam
+- values:
+    model: velvet_katana_a_a_edge
+  file: captures/p7xijcougzg_a2.nam
+- values:
+    model: velvet_katana_a_a_rock_bright
+  file: captures/gevcmav715w_a2.nam
+- values:
+    model: velvet_katana_a_a_rock_warm
+  file: captures/ez8df5qzoyw_a2.nam

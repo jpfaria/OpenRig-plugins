@@ -1,0 +1,40 @@
+manifest_version: 1
+id: nam_marshall_jtm45_a2
+display_name: JTM45
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 1.9394646
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1538
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - marshall_jtm45_jtm45_normal5_jtm45_n5
+  - marshall_jtm45_jtm45_blend_treb5_norm5_jtm45_t5n5
+  - marshall_jtm45_jtm45_treble10_jtm45_t10
+  - marshall_jtm45_jtm45_treble5_jtm45_t5
+  - marshall_jtm45_jtm45_blend_treb10_norm10_jtm45_t10n10
+  - marshall_jtm45_jtm45_normal10_jtm45_n10
+captures:
+- values:
+    model: marshall_jtm45_jtm45_normal5_jtm45_n5
+  file: captures/82f774cfcd23ce9f_a2.nam
+- values:
+    model: marshall_jtm45_jtm45_blend_treb5_norm5_jtm45_t5n5
+  file: captures/1589664abd0c9911_a2.nam
+- values:
+    model: marshall_jtm45_jtm45_treble10_jtm45_t10
+  file: captures/1a09cbcc7f75964a_a2.nam
+- values:
+    model: marshall_jtm45_jtm45_treble5_jtm45_t5
+  file: captures/1c8111c4dc6eb287_a2.nam
+- values:
+    model: marshall_jtm45_jtm45_blend_treb10_norm10_jtm45_t10n10
+  file: captures/c9e44aeda5ffc465_a2.nam
+- values:
+    model: marshall_jtm45_jtm45_normal10_jtm45_n10
+  file: captures/bc1b909b39d9011e_a2.nam

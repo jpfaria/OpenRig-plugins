@@ -1,0 +1,35 @@
+manifest_version: 1
+id: nam_randall_rg100es_a2
+display_name: Randall RG100es
+brand: randall
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/41209
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5
+  - randall_rg100es_100w_1987_ch_crunch_sustain_engaged
+  - randall_rg100es_100w_1987_ch_crunch
+  - randall_rg100es_100w_1987_ch_clean
+  - randall_rg100es_100w_1987_ch_crunch_gain_8_5
+captures:
+- values:
+    model: randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5
+  file: captures/3ln2ro162ut_a2.nam
+- values:
+    model: randall_rg100es_100w_1987_ch_crunch_sustain_engaged
+  file: captures/kfb61kh0cee_a2.nam
+- values:
+    model: randall_rg100es_100w_1987_ch_crunch
+  file: captures/7fpps5w2eu_a2.nam
+- values:
+    model: randall_rg100es_100w_1987_ch_clean
+  file: captures/v64t4iy2rd_a2.nam
+- values:
+    model: randall_rg100es_100w_1987_ch_crunch_gain_8_5
+  file: captures/3kim32fcegx_a2.nam

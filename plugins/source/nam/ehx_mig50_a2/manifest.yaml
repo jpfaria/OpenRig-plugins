@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_ehx_mig50_a2
+display_name: MIG-50
+brand: electro-harmonix
+output_gain_db: 3.0248909
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30580
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - electroharmonix_mig50_clean_700epochs
+  - electroharmonix_mig50_od_1300epochs
+  - electroharmonix_mig50_crunch_1000epochs
+captures:
+- values:
+    model: electroharmonix_mig50_clean_700epochs
+  file: captures/fg2hd85wsye_a2.nam
+- values:
+    model: electroharmonix_mig50_od_1300epochs
+  file: captures/lsbvw4w6amk_a2.nam
+- values:
+    model: electroharmonix_mig50_crunch_1000epochs
+  file: captures/nnnyvl1pvjl_a2.nam

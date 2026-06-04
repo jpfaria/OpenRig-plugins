@@ -1,0 +1,181 @@
+manifest_version: 1
+id: nam_wampler_tumnus_a1
+display_name: Wampler Tumnus
+brand: wampler
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: bass
+  display_name: Bass
+  values:
+  - 4.0
+  - 5.0
+- name: gain
+  display_name: Gain
+  values:
+  - 2.0
+  - 3.0
+  - 4.0
+  - 5.0
+  - 6.0
+  - 7.0
+  - 8.0
+  - 10.0
+- name: mid
+  display_name: Mid
+  values:
+  - 5.0
+  - 6.0
+- name: treble
+  display_name: Treble
+  values:
+  - 5.0
+  - 6.0
+  - 7.0
+captures:
+- values:
+    bass: 4.0
+    gain: 10.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_hot_b_4_m_6_t_7_l_6_g_10.nam
+- values:
+    bass: 4.0
+    gain: 8.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_hot_b_4_m_6_t_7_l_6_g_8.nam
+- values:
+    bass: 5.0
+    gain: 10.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_hot_b_5_m_5_t_5_l_6_g_10.nam
+- values:
+    bass: 5.0
+    gain: 8.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_hot_b_5_m_5_t_5_l_6_g_8.nam
+- values:
+    bass: 5.0
+    gain: 10.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_hot_b_5_m_6_t_6_l_6_g_10.nam
+- values:
+    bass: 5.0
+    gain: 8.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_hot_b_5_m_6_t_6_l_6_g_8.nam
+- values:
+    bass: 4.0
+    gain: 2.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_2.nam
+- values:
+    bass: 4.0
+    gain: 3.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_3.nam
+- values:
+    bass: 4.0
+    gain: 4.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_4.nam
+- values:
+    bass: 4.0
+    gain: 5.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_5.nam
+- values:
+    bass: 4.0
+    gain: 6.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_6.nam
+- values:
+    bass: 4.0
+    gain: 7.0
+    mid: 6.0
+    treble: 7.0
+  file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_7.nam
+- values:
+    bass: 5.0
+    gain: 2.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_2.nam
+- values:
+    bass: 5.0
+    gain: 3.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_3.nam
+- values:
+    bass: 5.0
+    gain: 4.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_4.nam
+- values:
+    bass: 5.0
+    gain: 5.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_5.nam
+- values:
+    bass: 5.0
+    gain: 6.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_6.nam
+- values:
+    bass: 5.0
+    gain: 7.0
+    mid: 5.0
+    treble: 5.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_7.nam
+- values:
+    bass: 5.0
+    gain: 2.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_2.nam
+- values:
+    bass: 5.0
+    gain: 3.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_3.nam
+- values:
+    bass: 5.0
+    gain: 4.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_4.nam
+- values:
+    bass: 5.0
+    gain: 5.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_5.nam
+- values:
+    bass: 5.0
+    gain: 6.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_6.nam
+- values:
+    bass: 5.0
+    gain: 7.0
+    mid: 6.0
+    treble: 6.0
+  file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_7.nam

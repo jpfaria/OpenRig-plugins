@@ -19,8 +19,8 @@
 //!         --source /path/to/OpenRig-plugins/plugins/source \
 //!         --plugins nam/mesa_rectifier,ir/marshall_4x12
 //!
-//! Also runs a per-chain check (default: `nam_ibanez_ts9` →
-//! `nam_mesa_rectifier`) so the chained-gain failure mode that
+//! Also runs a per-chain check (default: `nam_ibanez_ts9_a1` →
+//! `nam_mesa_rectifier_a1`) so the chained-gain failure mode that
 //! gutted the cpm 22 preset is now caught automatically. When a
 //! `--plugins` filter excludes any chain member, that chain step is
 //! skipped (not a failure) — the flag exists to focus on one plugin.
@@ -160,7 +160,7 @@ fn run() -> Result<()> {
     // (not a failure): the flag exists for fast iteration on a single
     // plugin, and failing on chain summation the user didn't touch is
     // noise.
-    let chain_specs: &[&[&str]] = &[&["ibanez_ts9", "mesa_rectifier"]];
+    let chain_specs: &[&[&str]] = &[&["ibanez_ts9_a1", "mesa_rectifier_a1"]];
     eprintln!();
     eprintln!("-- chain checks --");
     for chain in chain_specs {

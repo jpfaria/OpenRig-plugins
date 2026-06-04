@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_warm_audio_centavo_a2
+display_name: Warm Audio Centavo
+brand: warm_audio
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/46295
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - rr_golden_clone_5_4
+  - rr_golden_clone_2_7
+  - rr_golden_clone_6_6
+captures:
+- values:
+    model: rr_golden_clone_5_4
+  file: captures/uyrb7ednccb_a2.nam
+- values:
+    model: rr_golden_clone_2_7
+  file: captures/56ragixkhuy_a2.nam
+- values:
+    model: rr_golden_clone_6_6
+  file: captures/f67b67s97pf_a2.nam

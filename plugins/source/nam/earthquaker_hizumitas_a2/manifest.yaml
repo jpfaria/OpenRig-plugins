@@ -1,0 +1,111 @@
+manifest_version: 1
+id: nam_earthquaker_hizumitas_a2
+display_name: EarthQuaker Hizumitas
+brand: earthquaker
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/36748
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 1_hizumitas_vol_5_sustain_0_tone_0
+  - 2_hizumitas_vol_5_sustain_3_tone_0
+  - 3_hizumitas_vol_5_sustain_5_tone_0
+  - 4_hizumitas_vol_5_sustain_7_tone_0
+  - 5_hizumitas_vol_5_sustain_10_tone_0
+  - 6_hizumitas_vol_5_sustain_3_tone_3
+  - 7_hizumitas_vol_5_sustain_5_tone_3
+  - 8_hizumitas_vol_5_sustain_7_tone_3
+  - 9_hizumitas_vol_5_sustain_10_tone_3
+  - 10_hizumitas_vol_5_sustain_0_tone_5
+  - 11_hizumitas_vol_5_sustain_3_tone_5
+  - 12_hizumitas_vol_5_sustain_5_tone_5
+  - 13_hizumitas_vol_5_sustain_7_tone_5
+  - 14_hizumitas_vol_5_sustain_10_tone_5
+  - 15_hizumitas_vol_5_sustain_0_tone_7
+  - 16_hizumitas_vol_5_sustain_3_tone_7
+  - 17_hizumitas_vol_5_sustain_5_tone_7
+  - 18_hizumitas_vol_5_sustain_7_tone_7
+  - 19_hizumitas_vol_5_sustain_10_tone_7
+  - 20_hizumitas_vol_5_sustain_0_tone_10
+  - 21_hizumitas_vol_5_sustain_3_tone_10
+  - 22_hizumitas_vol_5_sustain_5_tone_10
+  - 23_hizumitas_vol_5_sustain_7_tone_10
+  - 24_hizumitas_vol_5_sustain_10_tone_10
+captures:
+- values:
+    model: 1_hizumitas_vol_5_sustain_0_tone_0
+  file: captures/3waikscr3jg_a2.nam
+- values:
+    model: 2_hizumitas_vol_5_sustain_3_tone_0
+  file: captures/61v5kydpdga_a2.nam
+- values:
+    model: 3_hizumitas_vol_5_sustain_5_tone_0
+  file: captures/tbdp6z6o0v_a2.nam
+- values:
+    model: 4_hizumitas_vol_5_sustain_7_tone_0
+  file: captures/l7vce02sz4a_a2.nam
+- values:
+    model: 5_hizumitas_vol_5_sustain_10_tone_0
+  file: captures/wh77i2zaas8_a2.nam
+- values:
+    model: 6_hizumitas_vol_5_sustain_3_tone_3
+  file: captures/72tcl5ekpl_a2.nam
+- values:
+    model: 7_hizumitas_vol_5_sustain_5_tone_3
+  file: captures/a5zkk4kq7ft_a2.nam
+- values:
+    model: 8_hizumitas_vol_5_sustain_7_tone_3
+  file: captures/2f2kuuamtim_a2.nam
+- values:
+    model: 9_hizumitas_vol_5_sustain_10_tone_3
+  file: captures/b6letquk87_a2.nam
+- values:
+    model: 10_hizumitas_vol_5_sustain_0_tone_5
+  file: captures/k6yvfzrtohj_a2.nam
+- values:
+    model: 11_hizumitas_vol_5_sustain_3_tone_5
+  file: captures/pcpxfc8hkf_a2.nam
+- values:
+    model: 12_hizumitas_vol_5_sustain_5_tone_5
+  file: captures/g19ne14sjw_a2.nam
+- values:
+    model: 13_hizumitas_vol_5_sustain_7_tone_5
+  file: captures/df3w99jtwz5_a2.nam
+- values:
+    model: 14_hizumitas_vol_5_sustain_10_tone_5
+  file: captures/x0zrrhqkar_a2.nam
+- values:
+    model: 15_hizumitas_vol_5_sustain_0_tone_7
+  file: captures/66bc35m4w7d_a2.nam
+- values:
+    model: 16_hizumitas_vol_5_sustain_3_tone_7
+  file: captures/4wqe1i9qp9r_a2.nam
+- values:
+    model: 17_hizumitas_vol_5_sustain_5_tone_7
+  file: captures/gtx6gib7pg_a2.nam
+- values:
+    model: 18_hizumitas_vol_5_sustain_7_tone_7
+  file: captures/r4v4x4yujxq_a2.nam
+- values:
+    model: 19_hizumitas_vol_5_sustain_10_tone_7
+  file: captures/78espmsva6_a2.nam
+- values:
+    model: 20_hizumitas_vol_5_sustain_0_tone_10
+  file: captures/ugiueuf4wl8_a2.nam
+- values:
+    model: 21_hizumitas_vol_5_sustain_3_tone_10
+  file: captures/xx3zwtpw7m_a2.nam
+- values:
+    model: 22_hizumitas_vol_5_sustain_5_tone_10
+  file: captures/ajtu14uduh_a2.nam
+- values:
+    model: 23_hizumitas_vol_5_sustain_7_tone_10
+  file: captures/exom6k4si9_a2.nam
+- values:
+    model: 24_hizumitas_vol_5_sustain_10_tone_10
+  file: captures/g7fzbwz7j1_a2.nam

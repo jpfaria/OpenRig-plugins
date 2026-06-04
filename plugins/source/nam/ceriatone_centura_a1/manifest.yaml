@@ -1,0 +1,45 @@
+manifest_version: 1
+id: nam_ceriatone_centura_a1
+display_name: Ceriatone Centura
+brand: ceriatone
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 3.0
+  - 9.0
+  - 12.0
+- name: treble
+  display_name: Treble
+  values:
+  - 1.3
+  - 12.0
+captures:
+- values:
+    gain: 3.0
+    treble: 1.3
+  file: captures/ceriatone_centura_a_a_g_03_00_t_01_30_o_10_30.nam
+- values:
+    gain: 3.0
+    treble: 12.0
+  file: captures/ceriatone_centura_a_a_g_03_00_t_12_00_o_10_30.nam
+- values:
+    gain: 9.0
+    treble: 1.3
+  file: captures/ceriatone_centura_a_a_g_09_00_t_01_30_o_10_30.nam
+- values:
+    gain: 9.0
+    treble: 12.0
+  file: captures/ceriatone_centura_a_a_g_09_00_t_12_00_o_10_30.nam
+- values:
+    gain: 12.0
+    treble: 1.3
+  file: captures/ceriatone_centura_a_a_g_12_00_t_01_30_o_10_30.nam
+- values:
+    gain: 12.0
+    treble: 12.0
+  file: captures/ceriatone_centura_a_a_g_12_00_t_12_00_o_10_30.nam

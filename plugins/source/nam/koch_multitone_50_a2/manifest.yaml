@@ -1,0 +1,47 @@
+manifest_version: 1
+id: nam_koch_multitone_50_a2
+display_name: Multitone 50
+brand: koch
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6132
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - koch_multitone50_od_1
+  - koch_multitone50_crunch_3
+  - koch_multitone50_od_2
+  - koch_multitone50_crunch_2
+  - koch_multitone50_crunch_1
+  - koch_multitone50_clean_1
+  - koch_multitone50_clean_2
+  - koch_multitone50_od_3
+captures:
+- values:
+    model: koch_multitone50_od_1
+  file: captures/0156c87e5ba80c22_a2.nam
+- values:
+    model: koch_multitone50_crunch_3
+  file: captures/c57a182b17840098_a2.nam
+- values:
+    model: koch_multitone50_od_2
+  file: captures/7915a2cc1f899dc0_a2.nam
+- values:
+    model: koch_multitone50_crunch_2
+  file: captures/217c3cf8dbf625f0_a2.nam
+- values:
+    model: koch_multitone50_crunch_1
+  file: captures/0b95529b3b3dfd53_a2.nam
+- values:
+    model: koch_multitone50_clean_1
+  file: captures/fed018709ff6b99e_a2.nam
+- values:
+    model: koch_multitone50_clean_2
+  file: captures/e5c53b7bdf68ca26_a2.nam
+- values:
+    model: koch_multitone50_od_3
+  file: captures/7b562b766d910842_a2.nam

@@ -1,0 +1,12 @@
+manifest_version: 1
+id: nam_klone_a1
+display_name: Klone
+brand: electro-harmonix
+output_gain_db: 1.4084206
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters: []
+captures:
+- values: {}
+  file: captures/klone.nam

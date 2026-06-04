@@ -1,0 +1,43 @@
+manifest_version: 1
+id: nam_lokajaudio_der_blend_a2
+display_name: Der Blend
+brand: lokajaudio
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/59604
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 7sus_7tone_7level_7blend_100boost_t3k_s1000
+  - 7sus_7tone_7level_7blend_0boost_t3k_s1000
+  - 5sus_5tone_5level_5blend_0boost_t3k_s1000
+  - 0sus_0tone_9level_0blend_0boost_t3k_s1000
+  - 0sus_0tone_5level_0blend_0boost_t3k_s1000
+  - 0sus_0tone_0level_0blend_0boost_t3k_s1000
+  - 9sus_9tone_5level_9blend_0boost_t3k_s1000
+captures:
+- values:
+    model: 7sus_7tone_7level_7blend_100boost_t3k_s1000
+  file: captures/dk1mpd221bn_a2.nam
+- values:
+    model: 7sus_7tone_7level_7blend_0boost_t3k_s1000
+  file: captures/4p4dnw23n0f_a2.nam
+- values:
+    model: 5sus_5tone_5level_5blend_0boost_t3k_s1000
+  file: captures/xl5fkxjsveb_a2.nam
+- values:
+    model: 0sus_0tone_9level_0blend_0boost_t3k_s1000
+  file: captures/vgbpzdgv9yl_a2.nam
+- values:
+    model: 0sus_0tone_5level_0blend_0boost_t3k_s1000
+  file: captures/v23oid9duef_a2.nam
+- values:
+    model: 0sus_0tone_0level_0blend_0boost_t3k_s1000
+  file: captures/p6r3mha1ei_a2.nam
+- values:
+    model: 9sus_9tone_5level_9blend_0boost_t3k_s1000
+  file: captures/tgtilazibq8_a2.nam

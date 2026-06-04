@@ -1,0 +1,80 @@
+manifest_version: 1
+id: nam_marshall_dsl40cr_a2
+display_name: DSL40CR
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/53272
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 09_mayweather_od1_gain_1_5_vol_3_pres_4_5_res_5_5
+  - 03_edge_glow_clean_gain_7_5_vol_5_5_pres_5_res_4_5
+  - 16_marla_singer_od2_gain_10_vol_1_pres_7_res_7_5
+  - 11_kat_dennings_od1_gain_7_vol_2_pres_5_5_res_6_5
+  - 07_driven_crunch_gain_6_5_vol_2_pres_5_5_res_6
+  - 10_silk_od1_gain_4_vol_3_pres_5_res_6
+  - 06_open_crunch_gain_3_5_vol_2_pres_5_res_5_5
+  - 12_unleashed_od1_gain_10_vol_1_pres_6_res_7
+  - 05_straightjacket_crunch_gain_1_5_vol_3_pres_5_res_5
+  - 13_t_1000_od2_gain_1_vol_3_pres_5_res_6
+  - 08_jaws_crunch_gain_10_vol_2_pres_6_res_6_5
+  - 01_pristine_clean_gain_1_5_vol_7_5_pres_4_5_res_4_5
+  - 14_samurai_od2_gain_4_vol_2_pres_6_res_6_5
+  - 15_pushed_od2_gain_7_vol_1_5_pres_6_5_res_7
+  - 04_point_break_clean_gain_10_vol_5_pres_5_res_5
+  - 02_dynamic_clean_gain_4_vol_7_5_pres_5_res_4_5
+captures:
+- values:
+    model: 09_mayweather_od1_gain_1_5_vol_3_pres_4_5_res_5_5
+  file: captures/3serxjda3h_a2.nam
+- values:
+    model: 03_edge_glow_clean_gain_7_5_vol_5_5_pres_5_res_4_5
+  file: captures/oa2z8reku5o_a2.nam
+- values:
+    model: 16_marla_singer_od2_gain_10_vol_1_pres_7_res_7_5
+  file: captures/9khtsvuyj58_a2.nam
+- values:
+    model: 11_kat_dennings_od1_gain_7_vol_2_pres_5_5_res_6_5
+  file: captures/zxnxkf9u9e_a2.nam
+- values:
+    model: 07_driven_crunch_gain_6_5_vol_2_pres_5_5_res_6
+  file: captures/48oc926odq6_a2.nam
+- values:
+    model: 10_silk_od1_gain_4_vol_3_pres_5_res_6
+  file: captures/ubbjuvsqda_a2.nam
+- values:
+    model: 06_open_crunch_gain_3_5_vol_2_pres_5_res_5_5
+  file: captures/mlhli320wg_a2.nam
+- values:
+    model: 12_unleashed_od1_gain_10_vol_1_pres_6_res_7
+  file: captures/wwl42kzwlrn_a2.nam
+- values:
+    model: 05_straightjacket_crunch_gain_1_5_vol_3_pres_5_res_5
+  file: captures/t5wo921y1_a2.nam
+- values:
+    model: 13_t_1000_od2_gain_1_vol_3_pres_5_res_6
+  file: captures/2vodoj3ecz2_a2.nam
+- values:
+    model: 08_jaws_crunch_gain_10_vol_2_pres_6_res_6_5
+  file: captures/amrjcmmwcxo_a2.nam
+- values:
+    model: 01_pristine_clean_gain_1_5_vol_7_5_pres_4_5_res_4_5
+  file: captures/tvwfvno8ea_a2.nam
+- values:
+    model: 14_samurai_od2_gain_4_vol_2_pres_6_res_6_5
+  file: captures/rnpowkiv8g_a2.nam
+- values:
+    model: 15_pushed_od2_gain_7_vol_1_5_pres_6_5_res_7
+  file: captures/icytqomcia_a2.nam
+- values:
+    model: 04_point_break_clean_gain_10_vol_5_pres_5_res_5
+  file: captures/s7sl5ymmpe_a2.nam
+- values:
+    model: 02_dynamic_clean_gain_4_vol_7_5_pres_5_res_4_5
+  file: captures/hypkcz47778_a2.nam

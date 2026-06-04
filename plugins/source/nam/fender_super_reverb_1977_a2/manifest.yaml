@@ -1,0 +1,264 @@
+manifest_version: 1
+id: nam_fender_super_reverb_1977_a2
+display_name: Super Reverb 1977
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/68651
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - bfsr_nrm_v_7_t_5_b_2_srl
+  - bfsr_nrm_v_7_t_6_b_3_srl
+  - bfsr_nrm_v_7_t_7_b_1_srl
+  - bfsr_nrm_v_4_t_5_b_4_srl_6db
+  - bfsr_nrm_v_6_t_5_b_4_srl
+  - bfsr_nrm_v_7_t_8_b_1_srl
+  - bfsr_nrm_v_5_t_5_b_4_srl
+  - bfsr_nrm_v_5_t_3_b_4_srl
+  - bfsr_nrm_v_7_t_5_b_3_srl
+  - bfsr_nrm_v_4_t_1_b_4_brt_srl_6db
+  - bfsr_nrm_v_7_t_6_b_1_srl
+  - bfsr_nrm_v_4_t_4_b_4_srl_6db
+  - bfsr_nrm_v_5_t_6_b_4_srl
+  - bfsr_nrm_v_4_t_6_b_4_srl_6db
+  - bfsr_nrm_v_6_t_4_b_4_srl
+  - bfsr_nrm_v_7_t_7_b_3_srl
+  - bfsr_nrm_v_7_t_8_b_2_srl
+  - bfsr_nrm_v_8_t_8_b_2_srl
+  - bfsr_nrm_v_7_t_6_b_2_srl
+  - bfsr_nrm_v_7_t_8_b_3_srl
+  - bfsr_nrm_v_8_t_6_b_1_srl
+  - bfsr_nrm_v_9_t_5_b_2_srl
+  - bfsr_nrm_v_8_t_8_b_1_srl
+  - bfsr_nrm_v_10_t_10_b_2_srl
+  - bfsr_nrm_v_10_t_8_b_2_srl
+  - bfsr_nrm_v_9_t_7_b_1_srl
+  - bfsr_nrm_v_10_t_7_b_1_srl
+  - bfsr_nrm_v_10_t_7_b_2_srl
+  - bfsr_nrm_v_10_t_6_b_1_srl
+  - bfsr_nrm_v_10_t_5_b_1_srl
+  - bfsr_nrm_v_9_t_9_b_1_srl
+  - bfsr_nrm_v_7_t_7_b_2_srl
+  - bfsr_nrm_v_10_t_5_b_2_srl
+  - bfsr_nrm_v_9_t_6_b_2_srl
+  - bfsr_nrm_v_8_t_10_b_2_srl
+  - bfsr_nrm_v_10_t_9_b_2_srl
+  - bfsr_nrm_v_6_t_3_b_4_srl
+  - bfsr_nrm_v_9_t_8_b_1_srl
+  - bfsr_nrm_v_10_t_8_b_1_srl
+  - bfsr_nrm_v_10_t_9_b_1_srl
+  - bfsr_nrm_v_8_t_9_b_1_srl
+  - bfsr_nrm_v_10_t_10_b_1_srl
+  - bfsr_nrm_v_8_t_5_b_1_srl
+  - bfsr_nrm_v_7_t_5_b_1_srl
+  - bfsr_nrm_v_4_t_3_b_4_srl_6db
+  - bfsr_nrm_v_10_t_6_b_2_srl
+  - bfsr_nrm_v_9_t_7_b_2_srl
+  - bfsr_nrm_v_8_t_9_b_2_srl
+  - bfsr_nrm_v_8_t_7_b_2_srl
+  - bfsr_nrm_v_9_t_6_b_1_srl
+  - bfsr_nrm_v_8_t_6_b_2_srl
+  - bfsr_nrm_v_9_t_10_b_1_srl
+  - bfsr_nrm_v_9_t_5_b_1_srl
+  - bfsr_nrm_v_8_t_10_b_1_srl
+  - bfsr_nrm_v_9_t_10_b_2_srl
+  - bfsr_nrm_v_4_t_2_b_4_brt_srl_6db
+  - bfsr_nrm_v_9_t_8_b_2_srl
+  - bfsr_nrm_v_9_t_9_b_2_srl
+  - bfsr_nrm_v_8_t_5_b_2_srl
+  - bfsr_nrm_v_6_t_6_b_4_srl
+  - bfsr_nrm_v_8_t_7_b_1_srl
+  - bfsr_nrm_v_5_t_4_b_4_srl
+captures:
+- values:
+    model: bfsr_nrm_v_7_t_5_b_2_srl
+  file: captures/mramzeih1yf_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_6_b_3_srl
+  file: captures/vvdpjnf9xh_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_7_b_1_srl
+  file: captures/kxqeimvoye_a2.nam
+- values:
+    model: bfsr_nrm_v_4_t_5_b_4_srl_6db
+  file: captures/8c2bidnhx64_a2.nam
+- values:
+    model: bfsr_nrm_v_6_t_5_b_4_srl
+  file: captures/d7o2bxiejc_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_8_b_1_srl
+  file: captures/zykqpkb1jao_a2.nam
+- values:
+    model: bfsr_nrm_v_5_t_5_b_4_srl
+  file: captures/i3onoe8mlt_a2.nam
+- values:
+    model: bfsr_nrm_v_5_t_3_b_4_srl
+  file: captures/wie9sglu4m_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_5_b_3_srl
+  file: captures/ymy90qkay5f_a2.nam
+- values:
+    model: bfsr_nrm_v_4_t_1_b_4_brt_srl_6db
+  file: captures/dvqsj7zr1j_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_6_b_1_srl
+  file: captures/s26jmv9jopn_a2.nam
+- values:
+    model: bfsr_nrm_v_4_t_4_b_4_srl_6db
+  file: captures/66y82ri3njt_a2.nam
+- values:
+    model: bfsr_nrm_v_5_t_6_b_4_srl
+  file: captures/ewinsfnc3r7_a2.nam
+- values:
+    model: bfsr_nrm_v_4_t_6_b_4_srl_6db
+  file: captures/ae8bhlm805l_a2.nam
+- values:
+    model: bfsr_nrm_v_6_t_4_b_4_srl
+  file: captures/47qhcp49yog_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_7_b_3_srl
+  file: captures/85a53re5elj_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_8_b_2_srl
+  file: captures/6qewf989g6t_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_8_b_2_srl
+  file: captures/j7vlilfqw2_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_6_b_2_srl
+  file: captures/w7bc44u9zi_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_8_b_3_srl
+  file: captures/nely3seone_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_6_b_1_srl
+  file: captures/d8bgl29hhni_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_5_b_2_srl
+  file: captures/mex1lxjdob8_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_8_b_1_srl
+  file: captures/48hk1xffpwg_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_10_b_2_srl
+  file: captures/nlw18cgb4pb_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_8_b_2_srl
+  file: captures/hs07r149lkh_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_7_b_1_srl
+  file: captures/t2pfjffi3yc_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_7_b_1_srl
+  file: captures/z8c4724chr7_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_7_b_2_srl
+  file: captures/ycyaqhp34gp_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_6_b_1_srl
+  file: captures/5jgdkw0a8kk_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_5_b_1_srl
+  file: captures/5744b3oeh42_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_9_b_1_srl
+  file: captures/mxii75dtotf_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_7_b_2_srl
+  file: captures/y33mtop939n_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_5_b_2_srl
+  file: captures/e0eypvd4r3g_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_6_b_2_srl
+  file: captures/wb3idznc4q8_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_10_b_2_srl
+  file: captures/2swvqksqfyx_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_9_b_2_srl
+  file: captures/jx3rp2cjxfs_a2.nam
+- values:
+    model: bfsr_nrm_v_6_t_3_b_4_srl
+  file: captures/k3l58qjge5_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_8_b_1_srl
+  file: captures/svtpq6jw5r8_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_8_b_1_srl
+  file: captures/c7onarqqs4f_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_9_b_1_srl
+  file: captures/7nmoy49ztqt_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_9_b_1_srl
+  file: captures/gn1aa3pkkx9_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_10_b_1_srl
+  file: captures/aeu6for1gn_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_5_b_1_srl
+  file: captures/bvf51k27nsk_a2.nam
+- values:
+    model: bfsr_nrm_v_7_t_5_b_1_srl
+  file: captures/w6iijz8wqsf_a2.nam
+- values:
+    model: bfsr_nrm_v_4_t_3_b_4_srl_6db
+  file: captures/eg3ufuiu527_a2.nam
+- values:
+    model: bfsr_nrm_v_10_t_6_b_2_srl
+  file: captures/5s2kqp07feb_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_7_b_2_srl
+  file: captures/87i8kg0zeqm_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_9_b_2_srl
+  file: captures/b43drojrqel_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_7_b_2_srl
+  file: captures/exs95go62dq_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_6_b_1_srl
+  file: captures/rm9979vdxzj_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_6_b_2_srl
+  file: captures/5ktjyttu9ba_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_10_b_1_srl
+  file: captures/5qoqgu4wbe7_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_5_b_1_srl
+  file: captures/76hh6u8y45k_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_10_b_1_srl
+  file: captures/glztowyfhyu_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_10_b_2_srl
+  file: captures/w2ia9tvdi7_a2.nam
+- values:
+    model: bfsr_nrm_v_4_t_2_b_4_brt_srl_6db
+  file: captures/zq6b2tyzyfg_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_8_b_2_srl
+  file: captures/dwr1hvp7muj_a2.nam
+- values:
+    model: bfsr_nrm_v_9_t_9_b_2_srl
+  file: captures/mx0o641hvv_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_5_b_2_srl
+  file: captures/4w61w6fwr9r_a2.nam
+- values:
+    model: bfsr_nrm_v_6_t_6_b_4_srl
+  file: captures/4we7fxanpi7_a2.nam
+- values:
+    model: bfsr_nrm_v_8_t_7_b_1_srl
+  file: captures/69s886bhl52_a2.nam
+- values:
+    model: bfsr_nrm_v_5_t_4_b_4_srl
+  file: captures/5mowhs3tuxv_a2.nam

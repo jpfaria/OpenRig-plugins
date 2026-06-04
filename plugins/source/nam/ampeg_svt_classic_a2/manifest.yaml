@@ -1,0 +1,64 @@
+manifest_version: 1
+id: nam_ampeg_svt_classic_a2
+display_name: SVT Classic
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45809
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - svt_dirty_pushed
+  - svt_pushed
+  - svt_sans_rock_drive
+  - svt_darkglass_shreded
+  - svt_sans_bright_drive
+  - svt_dirty
+  - svt_sans_hype_my_d_i
+  - svt_darkglass_shred_my_d_i
+  - svt_clean
+  - svt_sans_hairy_drive
+  - svt_sans_subdrive
+  - svt_clean_pushed
+captures:
+- values:
+    model: svt_dirty_pushed
+  file: captures/xq66z36685_a2.nam
+- values:
+    model: svt_pushed
+  file: captures/xfj2avdyq4c_a2.nam
+- values:
+    model: svt_sans_rock_drive
+  file: captures/76pi4i14wen_a2.nam
+- values:
+    model: svt_darkglass_shreded
+  file: captures/gp1b6gh3iau_a2.nam
+- values:
+    model: svt_sans_bright_drive
+  file: captures/xjxftf7hno_a2.nam
+- values:
+    model: svt_dirty
+  file: captures/6mdw2kzijp_a2.nam
+- values:
+    model: svt_sans_hype_my_d_i
+  file: captures/31a57cvymcg_a2.nam
+- values:
+    model: svt_darkglass_shred_my_d_i
+  file: captures/j1zkesvcpg_a2.nam
+- values:
+    model: svt_clean
+  file: captures/7d86dr42iet_a2.nam
+- values:
+    model: svt_sans_hairy_drive
+  file: captures/pmjdpfcok9j_a2.nam
+- values:
+    model: svt_sans_subdrive
+  file: captures/l0mbzet6lah_a2.nam
+- values:
+    model: svt_clean_pushed
+  file: captures/5ciiulzwbpr_a2.nam

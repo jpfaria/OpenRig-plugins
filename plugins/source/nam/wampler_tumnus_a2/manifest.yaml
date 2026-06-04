@@ -1,0 +1,23 @@
+manifest_version: 1
+id: nam_wampler_tumnus_a2
+display_name: Wampler Tumnus
+brand: wampler
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6338
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - tumnus_high_gain
+  - tumnus_medium_gain
+captures:
+- values:
+    model: tumnus_high_gain
+  file: captures/4152b7095fbb0e05_a2.nam
+- values:
+    model: tumnus_medium_gain
+  file: captures/5099aeb29c12a701_a2.nam

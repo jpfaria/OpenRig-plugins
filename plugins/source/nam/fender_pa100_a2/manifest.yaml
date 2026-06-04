@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_fender_pa100_a2
+display_name: PA100
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30581
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - fender_pa100_clean_700epochs
+captures:
+- values:
+    model: fender_pa100_clean_700epochs
+  file: captures/mjgpr67aa6l_a2.nam

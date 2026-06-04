@@ -1,0 +1,132 @@
+manifest_version: 1
+id: nam_marshall_jtm50_hw_plexi_a2
+display_name: JTM50 HW (Plexi)
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5750
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - jtm50_custom_hw_v1_0_v2_10_t_6_m_6_b_0_p_6
+  - jtm50_custom_hw_v1_0_v2_3_t_6_m_6_b_5_p_6
+  - jtm50_custom_hw_v1_3_v2_2_t_5_m_5_b_5_p_5_jump
+  - jtm50_custom_hw_v1_3_v2_0_t_5_m_6_b_7_p_5
+  - jtm50_custom_hw_v1_0_v2_8_t_6_m_6_b_2_p_6
+  - jtm50_custom_hw_v1_8_v2_0_t_5_m_6_b_5_p_5
+  - jtm50_custom_hw_v1_7_v2_0_t_5_m_6_b_6_p_5
+  - jtm50_custom_hw_v1_6_v2_5_t_5_m_5_b_4_p_5_jump
+  - jtm50_custom_hw_v1_1_v2_0_t_5_m_6_b_7_p_5
+  - jtm50_custom_hw_v1_6_v2_0_t_5_m_6_b_7_p_5
+  - jtm50_custom_hw_v1_8_v2_7_t_5_m_5_b_2_p_5_jump
+  - jtm50_custom_hw_v1_7_v2_6_t_5_m_5_b_3_p_5_jump
+  - jtm50_custom_hw_v1_0_v2_1_t_6_m_6_b_5_p_6
+  - jtm50_custom_hw_v1_10_v2_0_t_5_m_6_b_3_p_5
+  - jtm50_custom_hw_v1_0_v2_2_t_6_m_6_b_5_p_6
+  - jtm50_custom_hw_v1_0_v2_6_t_6_m_6_b_4_p_6
+  - jtm50_custom_hw_v1_10_v2_9_t_5_m_5_b_0_p_5_jump
+  - jtm50_custom_hw_v1_5_v2_0_t_5_m_6_b_7_p_5
+  - jtm50_custom_hw_v1_0_v2_9_t_6_m_6_b_1_p_6
+  - jtm50_custom_hw_v1_4_v2_3_t_5_m_5_b_5_p_5_jump
+  - jtm50_custom_hw_v1_0_v2_5_t_6_m_6_b_5_p_6
+  - jtm50_custom_hw_v1_5_v2_4_t_5_m_5_b_5_p_5_jump
+  - jtm50_custom_hw_v1_0_v2_4_t_6_m_6_b_5_p_6
+  - jtm50_custom_hw_v1_0_v2_7_t_6_m_6_b_3_p_6
+  - jtm50_custom_hw_v1_2_v2_0_t_5_m_6_b_7_p_5
+  - jtm50_custom_hw_v1_2_v2_1_t_5_m_5_b_5_p_5_jump
+  - jtm50_custom_hw_v1_9_v2_8_t_5_m_5_b_1_p_5_jump
+  - jtm50_custom_hw_v1_4_v2_0_t_5_m_6_b_7_p_5
+  - jtm50_custom_hw_v1_9_v2_0_t_5_m_6_b_4_p_5
+captures:
+- values:
+    model: jtm50_custom_hw_v1_0_v2_10_t_6_m_6_b_0_p_6
+  file: captures/d0dfa940a8d71966_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_3_t_6_m_6_b_5_p_6
+  file: captures/ef0f00c92dcccb55_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_3_v2_2_t_5_m_5_b_5_p_5_jump
+  file: captures/a185f271dcc3519d_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_3_v2_0_t_5_m_6_b_7_p_5
+  file: captures/f14c25c60e3247e7_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_8_t_6_m_6_b_2_p_6
+  file: captures/6b30fa8618a0ddaf_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_8_v2_0_t_5_m_6_b_5_p_5
+  file: captures/472f2e4dc9599741_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_7_v2_0_t_5_m_6_b_6_p_5
+  file: captures/b332fd5abd75ba95_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_6_v2_5_t_5_m_5_b_4_p_5_jump
+  file: captures/bf385dc25c2a29fb_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_1_v2_0_t_5_m_6_b_7_p_5
+  file: captures/c1ea8294e520c28a_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_6_v2_0_t_5_m_6_b_7_p_5
+  file: captures/d8388c7cb5fdbbd2_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_8_v2_7_t_5_m_5_b_2_p_5_jump
+  file: captures/961fccca89601234_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_7_v2_6_t_5_m_5_b_3_p_5_jump
+  file: captures/b292eebec2c05bd1_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_1_t_6_m_6_b_5_p_6
+  file: captures/851e77b312d9dcd3_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_10_v2_0_t_5_m_6_b_3_p_5
+  file: captures/965e832c9d30385a_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_2_t_6_m_6_b_5_p_6
+  file: captures/d0a654ce12cb6a5a_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_6_t_6_m_6_b_4_p_6
+  file: captures/2ab8aeee417f9efa_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_10_v2_9_t_5_m_5_b_0_p_5_jump
+  file: captures/76c80a2aef71a81e_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_5_v2_0_t_5_m_6_b_7_p_5
+  file: captures/cfa7b842531eea4b_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_9_t_6_m_6_b_1_p_6
+  file: captures/4df7f8dade8425cb_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_4_v2_3_t_5_m_5_b_5_p_5_jump
+  file: captures/1f26faadf4c16fe4_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_5_t_6_m_6_b_5_p_6
+  file: captures/2d855aa331f4cef1_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_5_v2_4_t_5_m_5_b_5_p_5_jump
+  file: captures/328c3c36f4614e8c_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_4_t_6_m_6_b_5_p_6
+  file: captures/c711f2cfe8ebe0e1_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_0_v2_7_t_6_m_6_b_3_p_6
+  file: captures/d96af25a08ce7b94_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_2_v2_0_t_5_m_6_b_7_p_5
+  file: captures/25a087ad8afd55fd_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_2_v2_1_t_5_m_5_b_5_p_5_jump
+  file: captures/e98acf85ec956bed_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_9_v2_8_t_5_m_5_b_1_p_5_jump
+  file: captures/71d2934d75de72fd_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_4_v2_0_t_5_m_6_b_7_p_5
+  file: captures/1aed4f138deba73d_a2.nam
+- values:
+    model: jtm50_custom_hw_v1_9_v2_0_t_5_m_6_b_4_p_5
+  file: captures/e4370f99e61ec5a1_a2.nam

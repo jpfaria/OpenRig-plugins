@@ -1,0 +1,28 @@
+manifest_version: 1
+id: nam_award_session_blues_baby_22_a1
+display_name: Blues Baby 22
+description: Neural capture of the Award-Session Blues Baby 22 — low-wattage British-voiced combo.
+brand: award-session
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - crunch
+  - od
+captures:
+- values:
+    voicing: clean
+  file: captures/clean.nam
+- values:
+    voicing: crunch
+  file: captures/crunch.nam
+- values:
+    voicing: od
+  file: captures/od.nam

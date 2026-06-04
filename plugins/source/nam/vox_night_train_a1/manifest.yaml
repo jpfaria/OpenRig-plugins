@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_vox_night_train_a1
+display_name: Night Train
+brand: vox
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - boost_ts9
+  - od_low_ts9
+captures:
+- values:
+    preset: boost_ts9
+  file: captures/vox_night_train_nt15h_boost_ts9.nam
+- values:
+    preset: od_low_ts9
+  file: captures/vox_night_train_nt15h_overdrive_ts9_low_boosted.nam

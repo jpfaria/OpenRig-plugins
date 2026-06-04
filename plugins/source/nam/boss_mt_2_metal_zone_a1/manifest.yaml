@@ -1,0 +1,46 @@
+manifest_version: 1
+id: nam_boss_mt_2_metal_zone_a1
+display_name: Boss MT-2 Metal Zone
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - 5_battery_powered
+  - 6_battery_powered
+  - 7_battery_powered
+  - 8_battery_powered
+  - setting
+  - setting_2
+  - setting_3
+  - setting_4
+captures:
+- values:
+    tone: 5_battery_powered
+  file: captures/boss_metalzone_clean_boost_5_battery_powered.nam
+- values:
+    tone: 6_battery_powered
+  file: captures/boss_metalzone_clean_boost_6_battery_powered.nam
+- values:
+    tone: 7_battery_powered
+  file: captures/boss_metalzone_clean_boost_7_battery_powered.nam
+- values:
+    tone: 8_battery_powered
+  file: captures/boss_metalzone_clean_boost_8_battery_powered.nam
+- values:
+    tone: setting
+  file: captures/boss_metalzone_clean_boost_setting.nam
+- values:
+    tone: setting_2
+  file: captures/boss_metalzone_clean_boost_setting_2.nam
+- values:
+    tone: setting_3
+  file: captures/boss_metalzone_clean_boost_setting_3.nam
+- values:
+    tone: setting_4
+  file: captures/boss_metalzone_clean_boost_setting_4.nam

@@ -1,0 +1,54 @@
+manifest_version: 1
+id: nam_evh_5150_iii_a1
+display_name: 5150 III
+brand: evh
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - blue
+  - red
+- name: boost
+  display_name: Boost
+  values:
+  - fortin_33
+  - tc_805
+  - tc_spark
+  - precision_drive
+captures:
+- values:
+    boost: fortin_33
+    channel: blue
+  file: captures/ob1_evh_blue_fortin_33_full_rig.nam
+- values:
+    boost: tc_805
+    channel: blue
+  file: captures/ob1_evh_blue_805_full_rig.nam
+- values:
+    boost: tc_spark
+    channel: blue
+  file: captures/ob1_evh_blue_tc_spark_full_rig.nam
+- values:
+    boost: precision_drive
+    channel: blue
+  file: captures/ob1_evh_blue_precision_drive_full_rig.nam
+- values:
+    boost: fortin_33
+    channel: red
+  file: captures/ob1_evh_red_fortin_33_full_rig.nam
+- values:
+    boost: tc_805
+    channel: red
+  file: captures/ob1_evh_red_805_full_rig.nam
+- values:
+    boost: tc_spark
+    channel: red
+  file: captures/ob1_evh_red_tc_spark_full_rig.nam
+- values:
+    boost: precision_drive
+    channel: red
+  file: captures/ob1_evh_red_precision_drive_full_rig.nam

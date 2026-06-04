@@ -1,0 +1,152 @@
+manifest_version: 1
+id: nam_fender_deluxe_reverb_a2
+display_name: Deluxe Reverb
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/15222
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - 66_dr_v6_all_on_5_bright_v5_t5_b5
+  - 66_dr_v10_t10_b1_bright
+  - 66_dr_mild_drive_norm_v6_t5_b3_75
+  - 66_dr_mild_drive_bright_v6_t5_b3_75
+  - 66_dr_cranked_norm_v10_t5_b2_75
+  - 66_dr_v6_driven_norm_v8_t5_b3
+  - 66_dr_v6_clean_bright_v3_t5_b5
+  - 66_dr_v6_all_on_5_normal_v5_t5_b5
+  - 66_dr_v6_vib_ts9_ds_1_boosted_v3_t3_b2_5
+  - 66_dr_v6_v10_t10_b1_norm
+  - 66_dr_v6_v10_t10_b1_bright
+  - 66_dr_v6_mild_drive_norm_v6_t5_b3_75
+  - 66_dr_80_s_clean_v6_v3_t6_b6
+  - 66_dr_driven_norm_v8_t5_b3
+  - 66_dr_v6_sweet_spot_norm_v4_t5_b5
+  - 66_dr_v6_v1_pulled
+  - 66_dr_v6_cranked_bright_v10_t5_b2_75
+  - 66_dr_v10_t10_b1_normal
+  - 66_dr_v6_norm_ts9_ds_1_boosted_v3_t3_b2_5
+  - 66_dr_v6_jumpered_bright
+  - 66_dr_80_s_clean_v3_t6_b6
+  - 66_dr_v6_driven_bright_v8_t5_b3
+  - 66_dr_v6_jumpered_thick_n_sweet
+  - 66_dr_sweet_spot_bright_v4_t5_b5
+  - 66_dr_cranked_bright_v10_t5_b2_75
+  - 66_dr_v6_clean_norm_v3_t5_b5
+  - 66_dr_jumpered_thick_n_sweet
+  - 66_dr_v6_sweet_spot_bright_v4_t5_b5
+  - 66_dr_v6_cranked_norm_v10_t5_b2_75
+  - 66_dr_sweet_spot_norm_v4_t5_b5
+  - 66_dr_v1_pulled
+  - 66_dr_clean_bright_v3_t5_b5
+  - 66_dr_clean_norm_v3_t5_b5
+  - 66_dr_driven_bright_v8_t5_b3
+captures:
+- values:
+    model: 66_dr_v6_all_on_5_bright_v5_t5_b5
+  file: captures/yv89zxio61_a2.nam
+- values:
+    model: 66_dr_v10_t10_b1_bright
+  file: captures/1usvnvuo7ja_a2.nam
+- values:
+    model: 66_dr_mild_drive_norm_v6_t5_b3_75
+  file: captures/a03i4g7e27_a2.nam
+- values:
+    model: 66_dr_mild_drive_bright_v6_t5_b3_75
+  file: captures/bts5034p68c_a2.nam
+- values:
+    model: 66_dr_cranked_norm_v10_t5_b2_75
+  file: captures/5bc53du74vv_a2.nam
+- values:
+    model: 66_dr_v6_driven_norm_v8_t5_b3
+  file: captures/tddntyg828m_a2.nam
+- values:
+    model: 66_dr_v6_clean_bright_v3_t5_b5
+  file: captures/413bex6izgl_a2.nam
+- values:
+    model: 66_dr_v6_all_on_5_normal_v5_t5_b5
+  file: captures/fpjz6nrc6vv_a2.nam
+- values:
+    model: 66_dr_v6_vib_ts9_ds_1_boosted_v3_t3_b2_5
+  file: captures/11wr98r240d_a2.nam
+- values:
+    model: 66_dr_v6_v10_t10_b1_norm
+  file: captures/ir59vpfv1t9_a2.nam
+- values:
+    model: 66_dr_v6_v10_t10_b1_bright
+  file: captures/des7xqybc8f_a2.nam
+- values:
+    model: 66_dr_v6_mild_drive_norm_v6_t5_b3_75
+  file: captures/790e62f3so_a2.nam
+- values:
+    model: 66_dr_80_s_clean_v6_v3_t6_b6
+  file: captures/zgzjhux4obe_a2.nam
+- values:
+    model: 66_dr_driven_norm_v8_t5_b3
+  file: captures/gftvaw59puu_a2.nam
+- values:
+    model: 66_dr_v6_sweet_spot_norm_v4_t5_b5
+  file: captures/k81e6d0lv7_a2.nam
+- values:
+    model: 66_dr_v6_v1_pulled
+  file: captures/scv9eqj3sra_a2.nam
+- values:
+    model: 66_dr_v6_cranked_bright_v10_t5_b2_75
+  file: captures/x7mq8mkdxu_a2.nam
+- values:
+    model: 66_dr_v10_t10_b1_normal
+  file: captures/yimzze4w3tk_a2.nam
+- values:
+    model: 66_dr_v6_norm_ts9_ds_1_boosted_v3_t3_b2_5
+  file: captures/w8qog7z7l_a2.nam
+- values:
+    model: 66_dr_v6_jumpered_bright
+  file: captures/wlkfo56ii7j_a2.nam
+- values:
+    model: 66_dr_80_s_clean_v3_t6_b6
+  file: captures/687wu4zquce_a2.nam
+- values:
+    model: 66_dr_v6_driven_bright_v8_t5_b3
+  file: captures/ut0p03e3zsl_a2.nam
+- values:
+    model: 66_dr_v6_jumpered_thick_n_sweet
+  file: captures/9nojjjvtt8n_a2.nam
+- values:
+    model: 66_dr_sweet_spot_bright_v4_t5_b5
+  file: captures/w8e07s98k5_a2.nam
+- values:
+    model: 66_dr_cranked_bright_v10_t5_b2_75
+  file: captures/5oukx2jcsqs_a2.nam
+- values:
+    model: 66_dr_v6_clean_norm_v3_t5_b5
+  file: captures/z4nvkah2zyj_a2.nam
+- values:
+    model: 66_dr_jumpered_thick_n_sweet
+  file: captures/s1g7exkf4qe_a2.nam
+- values:
+    model: 66_dr_v6_sweet_spot_bright_v4_t5_b5
+  file: captures/eacloy24p44_a2.nam
+- values:
+    model: 66_dr_v6_cranked_norm_v10_t5_b2_75
+  file: captures/gd6hrfg5lxv_a2.nam
+- values:
+    model: 66_dr_sweet_spot_norm_v4_t5_b5
+  file: captures/7d2ja1np165_a2.nam
+- values:
+    model: 66_dr_v1_pulled
+  file: captures/0uqm6q96ze59_a2.nam
+- values:
+    model: 66_dr_clean_bright_v3_t5_b5
+  file: captures/1dug8xrobnf_a2.nam
+- values:
+    model: 66_dr_clean_norm_v3_t5_b5
+  file: captures/iok1bt8lhub_a2.nam
+- values:
+    model: 66_dr_driven_bright_v8_t5_b3
+  file: captures/duo347w9ef_a2.nam

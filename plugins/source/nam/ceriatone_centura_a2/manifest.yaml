@@ -1,0 +1,71 @@
+manifest_version: 1
+id: nam_ceriatone_centura_a2
+display_name: Ceriatone Centura
+brand: ceriatone
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5876
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - ceriatone_centura_g_05_00_t_01_30_o_12_00
+  - ceriatone_centura_g_12_00_t_01_30_o_12_00
+  - ceriatone_centura_g_12_00_t_12_00_o_12_00
+  - ceriatone_centura_g_01_30_t_12_00_o_12_00
+  - ceriatone_centura_g_07_00_t_12_00_o_12_00
+  - ceriatone_centura_g_03_00_t_12_00_o_12_00
+  - ceriatone_centura_g_10_30_t_01_30_o_12_00
+  - ceriatone_centura_g_01_30_t_01_30_o_12_00
+  - ceriatone_centura_g_03_00_t_01_30_o_12_00
+  - ceriatone_centura_g_05_00_t_12_00_o_12_00
+  - ceriatone_centura_g_10_30_t_12_00_o_12_00
+  - ceriatone_centura_g_07_00_t_01_30_o_12_00
+  - ceriatone_centura_g_09_00_t_01_30_o_12_00
+  - ceriatone_centura_g_09_00_t_12_00_o_12_00
+captures:
+- values:
+    model: ceriatone_centura_g_05_00_t_01_30_o_12_00
+  file: captures/bdb7a2143dfc6ff1_a2.nam
+- values:
+    model: ceriatone_centura_g_12_00_t_01_30_o_12_00
+  file: captures/abbd5aa053ef1458_a2.nam
+- values:
+    model: ceriatone_centura_g_12_00_t_12_00_o_12_00
+  file: captures/0457ad5104559baa_a2.nam
+- values:
+    model: ceriatone_centura_g_01_30_t_12_00_o_12_00
+  file: captures/169741df30012ae5_a2.nam
+- values:
+    model: ceriatone_centura_g_07_00_t_12_00_o_12_00
+  file: captures/9f0164e0db5aa58f_a2.nam
+- values:
+    model: ceriatone_centura_g_03_00_t_12_00_o_12_00
+  file: captures/1a50448c108184ee_a2.nam
+- values:
+    model: ceriatone_centura_g_10_30_t_01_30_o_12_00
+  file: captures/929f96526c24cee4_a2.nam
+- values:
+    model: ceriatone_centura_g_01_30_t_01_30_o_12_00
+  file: captures/6d5f6afb780c4a21_a2.nam
+- values:
+    model: ceriatone_centura_g_03_00_t_01_30_o_12_00
+  file: captures/3581729ed3404a8e_a2.nam
+- values:
+    model: ceriatone_centura_g_05_00_t_12_00_o_12_00
+  file: captures/ec41fe0d4e29ed19_a2.nam
+- values:
+    model: ceriatone_centura_g_10_30_t_12_00_o_12_00
+  file: captures/492fc1abfa6e4fd5_a2.nam
+- values:
+    model: ceriatone_centura_g_07_00_t_01_30_o_12_00
+  file: captures/8d1d6d8fc6649175_a2.nam
+- values:
+    model: ceriatone_centura_g_09_00_t_01_30_o_12_00
+  file: captures/ff892a5c9c5b1d24_a2.nam
+- values:
+    model: ceriatone_centura_g_09_00_t_12_00_o_12_00
+  file: captures/9b48f1ba6d7fff01_a2.nam

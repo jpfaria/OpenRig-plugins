@@ -1,0 +1,41 @@
+manifest_version: 1
+id: nam_boss_fz_2_hyper_fuzz_a1
+display_name: Boss FZ-2 Hyper Fuzz
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: bass
+  display_name: Bass
+  values:
+  - 7.0
+  - 8.0
+- name: gain
+  display_name: Gain
+  values:
+  - 5.0
+  - 10.0
+- name: tone
+  display_name: Tone
+  values:
+  - 5.0
+  - 6.0
+captures:
+- values:
+    bass: 8.0
+    gain: 10.0
+    tone: 6.0
+  file: captures/fz_2_boost_b8_t6_g10.nam
+- values:
+    bass: 7.0
+    gain: 10.0
+    tone: 5.0
+  file: captures/fz_2_fuzz_i_l8_b7_t5_g10.nam
+- values:
+    bass: 7.0
+    gain: 5.0
+    tone: 5.0
+  file: captures/fz_2_fuzz_i_l8_b7_t5_g5.nam

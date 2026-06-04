@@ -1,0 +1,88 @@
+manifest_version: 1
+id: nam_metal_zone_a2
+display_name: Metal Zone MT-2
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64957
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - drps_boss_metal_zone_mt_2_l5_h5_m5_mf5_dist_8
+  - drps_boss_metal_zone_mt_2_l6_h4_m4_8_mf_0_dist_5
+  - drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist2_7
+  - drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_10
+  - drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_10
+  - drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist10
+  - drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_4
+  - drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_3
+  - drps_boss_metal_zone_mt_2_everything_12_0_clock
+  - drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist2_7_2
+  - drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist4_9
+  - drps_boss_metal_zone_mt_2_l5_h5_m5_mf5_dist_10
+  - drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_3
+  - drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_5
+  - drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist6
+  - drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_7_8
+  - drps_boss_metal_zone_mt_2_l5_h5_m5_mf5_dist_3
+  - drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_6
+captures:
+- values:
+    model: drps_boss_metal_zone_mt_2_l5_h5_m5_mf5_dist_8
+  file: captures/nsdvd2d8zvd_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l6_h4_m4_8_mf_0_dist_5
+  file: captures/6c00ozsm9lm_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist2_7
+  file: captures/06xj8ox6zqnt_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_10
+  file: captures/sshwik10dxc_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_10
+  file: captures/cw2u8iwwlcr_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist10
+  file: captures/vhtaxlc4duk_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_4
+  file: captures/6lg0zlw1y2l_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_3
+  file: captures/iqmy9w7x36r_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_everything_12_0_clock
+  file: captures/ahr5v2l8ml8_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist2_7_2
+  file: captures/2qj2tg6x6pu_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist4_9
+  file: captures/n37iej0e0qp_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l5_h5_m5_mf5_dist_10
+  file: captures/9qxm6rahl5_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_3
+  file: captures/166zn2go2qa_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_5
+  file: captures/vi47t8atzag_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l6_h4_m6_mf5_dist6
+  file: captures/tbf7tbiww0d_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l9_h7_m7_mf_7_8_dist_7_8
+  file: captures/gwlbdau2rl5_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l5_h5_m5_mf5_dist_3
+  file: captures/1ik04dvrhczi_a2.nam
+- values:
+    model: drps_boss_metal_zone_mt_2_l8_h3_8_m10_mf_5_5_dist_6
+  file: captures/24tseba0wgu_a2.nam

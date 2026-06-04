@@ -1,0 +1,40 @@
+manifest_version: 1
+id: nam_fender_57_custom_deluxe_a2
+display_name: 57 Custom Deluxe
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30585
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - fender_57customdeluxe_clean_in1_700epochs
+  - fender_57customdeluxe_clean_in2_700epochs
+  - fender_57customdeluxe_crunch_in2_1000epochs
+  - fender_57customdeluxe_crunch_in1_1000epochs
+  - fender_57customdeluxe_od_in2_1300epochs
+  - fender_57customdeluxe_od_in1_1300epochs
+captures:
+- values:
+    model: fender_57customdeluxe_clean_in1_700epochs
+  file: captures/3tykw0jjkrp_a2.nam
+- values:
+    model: fender_57customdeluxe_clean_in2_700epochs
+  file: captures/tmmvfbx0bt_a2.nam
+- values:
+    model: fender_57customdeluxe_crunch_in2_1000epochs
+  file: captures/kv28aourjqe_a2.nam
+- values:
+    model: fender_57customdeluxe_crunch_in1_1000epochs
+  file: captures/r9cbv1vefom_a2.nam
+- values:
+    model: fender_57customdeluxe_od_in2_1300epochs
+  file: captures/q9wn42l62ei_a2.nam
+- values:
+    model: fender_57customdeluxe_od_in1_1300epochs
+  file: captures/oryve0r2cba_a2.nam

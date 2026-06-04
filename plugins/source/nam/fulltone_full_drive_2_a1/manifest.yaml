@@ -1,0 +1,601 @@
+manifest_version: 1
+id: nam_fulltone_full_drive_2_a1
+display_name: Fulltone Full-Drive 2
+brand: fulltone
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - 1200_od_1200_com
+  - 1200_od_1200_com_1
+  - 1200_od_1200_com_2
+  - 1200_od_1200_fla
+  - 1200_od_1200_fla_1
+  - 1200_od_1200_fla_2
+  - 1200_od_1200_vin
+  - 1200_od_1200_vin_1
+  - 1200_od_1200_vin_2
+  - 1200_od_300_comp
+  - 1200_od_300_comp_1
+  - 1200_od_300_comp_2
+  - 1200_od_300_flat
+  - 1200_od_300_flat_1
+  - 1200_od_300_flat_2
+  - 1200_od_300_vint
+  - 1200_od_300_vint_1
+  - 1200_od_300_vint_2
+  - 1200_od_500_comp
+  - 1200_od_500_comp_1
+  - 1200_od_500_comp_2
+  - 1200_od_500_flat
+  - 1200_od_500_flat_1
+  - 1200_od_500_flat_2
+  - 1200_od_500_vint
+  - 1200_od_500_vint_1
+  - 1200_od_500_vint_2
+  - 1200_od_700_comp
+  - 1200_od_700_flat
+  - 1200_od_700_vint
+  - 1200_od_900_comp
+  - 1200_od_900_comp_1
+  - 1200_od_900_comp_2
+  - 1200_od_900_flat
+  - 1200_od_900_flat_1
+  - 1200_od_900_flat_2
+  - 1200_od_900_vint
+  - 1200_od_900_vint_1
+  - 1200_od_900_vint_2
+  - 300_od_1200_comp
+  - 300_od_1200_comp_1
+  - 300_od_1200_comp_2
+  - 300_od_1200_flat
+  - 300_od_1200_flat_1
+  - 300_od_1200_flat_2
+  - 300_od_1200_vint
+  - 300_od_1200_vint_1
+  - 300_od_1200_vint_2
+  - 300_od_300_comp
+  - 300_od_300_comp_1
+  - 300_od_300_comp_2
+  - 300_od_300_flat
+  - 300_od_300_flat_1
+  - 300_od_300_flat_2
+  - 300_od_300_vinta
+  - 300_od_300_vinta_1
+  - 300_od_300_vinta_2
+  - 300_od_500_comp
+  - 300_od_500_comp_1
+  - 300_od_500_comp_2
+  - 300_od_500_flat
+  - 300_od_500_flat_1
+  - 300_od_500_flat_2
+  - 300_od_500_vinta
+  - 300_od_500_vinta_1
+  - 300_od_500_vinta_2
+  - 300_od_700_comp
+  - 300_od_700_flat
+  - 300_od_700_vinta
+  - 300_od_900_comp
+  - 300_od_900_comp_1
+  - 300_od_900_comp_2
+  - 300_od_900_flat
+  - 300_od_900_flat_1
+  - 300_od_900_flat_2
+  - 300_od_900_vinta
+  - 300_od_900_vinta_1
+  - 300_od_900_vinta_2
+  - 500_od_1200_comp
+  - 500_od_1200_flat
+  - 500_od_1200_vint
+  - 500_od_300_comp
+  - 500_od_300_flat
+  - 500_od_300_vinta
+  - 500_od_500_comp
+  - 500_od_500_flat
+  - 500_od_500_vinta
+  - 500_od_700_comp
+  - 500_od_700_flat
+  - 500_od_700_vinta
+  - 500_od_900_comp
+  - 500_od_900_flat
+  - 500_od_900_vinta
+  - 700_od_1200_comp
+  - 700_od_1200_flat
+  - 700_od_1200_vint
+  - 700_od_300_comp
+  - 700_od_300_flat
+  - 700_od_300_vinta
+  - 700_od_500_comp
+  - 700_od_500_flat
+  - 700_od_500_vinta
+  - 700_od_700_comp
+  - 700_od_700_flat
+  - 700_od_700_vinta
+  - 700_od_900_comp
+  - 700_od_900_flat
+  - 700_od_900_vinta
+  - 900_od_1200_comp
+  - 900_od_1200_comp_1
+  - 900_od_1200_comp_2
+  - 900_od_1200_flat
+  - 900_od_1200_flat_1
+  - 900_od_1200_flat_2
+  - 900_od_1200_vint
+  - 900_od_1200_vint_1
+  - 900_od_1200_vint_2
+  - 900_od_300_comp
+  - 900_od_300_comp_1
+  - 900_od_300_comp_2
+  - 900_od_300_flat
+  - 900_od_300_flat_1
+  - 900_od_300_flat_2
+  - 900_od_300_vinta
+  - 900_od_300_vinta_1
+  - 900_od_300_vinta_2
+  - 900_od_500_comp
+  - 900_od_500_comp_1
+  - 900_od_500_comp_2
+  - 900_od_500_flat
+  - 900_od_500_flat_1
+  - 900_od_500_flat_2
+  - 900_od_500_vinta
+  - 900_od_500_vinta_1
+  - 900_od_500_vinta_2
+  - 900_od_700_comp
+  - 900_od_700_flat
+  - 900_od_700_vinta
+  - 900_od_900_comp
+  - 900_od_900_comp_1
+  - 900_od_900_comp_2
+  - 900_od_900_flat
+  - 900_od_900_flat_1
+  - 900_od_900_flat_2
+  - 900_od_900_vinta
+  - 900_od_900_vinta_1
+  - 900_od_900_vinta_2
+captures:
+- values:
+    tone: 1200_od_1200_com
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_com.nam
+- values:
+    tone: 1200_od_1200_com_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_com_1.nam
+- values:
+    tone: 1200_od_1200_com_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_com_2.nam
+- values:
+    tone: 1200_od_1200_fla
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_fla.nam
+- values:
+    tone: 1200_od_1200_fla_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_fla_1.nam
+- values:
+    tone: 1200_od_1200_fla_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_fla_2.nam
+- values:
+    tone: 1200_od_1200_vin
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_vin.nam
+- values:
+    tone: 1200_od_1200_vin_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_vin_1.nam
+- values:
+    tone: 1200_od_1200_vin_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_vin_2.nam
+- values:
+    tone: 1200_od_300_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_comp.nam
+- values:
+    tone: 1200_od_300_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_comp_1.nam
+- values:
+    tone: 1200_od_300_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_comp_2.nam
+- values:
+    tone: 1200_od_300_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_flat.nam
+- values:
+    tone: 1200_od_300_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_flat_1.nam
+- values:
+    tone: 1200_od_300_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_flat_2.nam
+- values:
+    tone: 1200_od_300_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_vint.nam
+- values:
+    tone: 1200_od_300_vint_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_vint_1.nam
+- values:
+    tone: 1200_od_300_vint_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_vint_2.nam
+- values:
+    tone: 1200_od_500_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_comp.nam
+- values:
+    tone: 1200_od_500_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_comp_1.nam
+- values:
+    tone: 1200_od_500_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_comp_2.nam
+- values:
+    tone: 1200_od_500_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_flat.nam
+- values:
+    tone: 1200_od_500_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_flat_1.nam
+- values:
+    tone: 1200_od_500_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_flat_2.nam
+- values:
+    tone: 1200_od_500_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_vint.nam
+- values:
+    tone: 1200_od_500_vint_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_vint_1.nam
+- values:
+    tone: 1200_od_500_vint_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_vint_2.nam
+- values:
+    tone: 1200_od_700_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_700_comp.nam
+- values:
+    tone: 1200_od_700_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_700_flat.nam
+- values:
+    tone: 1200_od_700_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_700_vint.nam
+- values:
+    tone: 1200_od_900_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_comp.nam
+- values:
+    tone: 1200_od_900_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_comp_1.nam
+- values:
+    tone: 1200_od_900_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_comp_2.nam
+- values:
+    tone: 1200_od_900_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_flat.nam
+- values:
+    tone: 1200_od_900_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_flat_1.nam
+- values:
+    tone: 1200_od_900_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_flat_2.nam
+- values:
+    tone: 1200_od_900_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_vint.nam
+- values:
+    tone: 1200_od_900_vint_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_vint_1.nam
+- values:
+    tone: 1200_od_900_vint_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_vint_2.nam
+- values:
+    tone: 300_od_1200_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_comp.nam
+- values:
+    tone: 300_od_1200_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_comp_1.nam
+- values:
+    tone: 300_od_1200_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_comp_2.nam
+- values:
+    tone: 300_od_1200_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_flat.nam
+- values:
+    tone: 300_od_1200_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_flat_1.nam
+- values:
+    tone: 300_od_1200_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_flat_2.nam
+- values:
+    tone: 300_od_1200_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_vint.nam
+- values:
+    tone: 300_od_1200_vint_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_vint_1.nam
+- values:
+    tone: 300_od_1200_vint_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_vint_2.nam
+- values:
+    tone: 300_od_300_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_comp_.nam
+- values:
+    tone: 300_od_300_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_comp__1.nam
+- values:
+    tone: 300_od_300_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_comp__2.nam
+- values:
+    tone: 300_od_300_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_flat_.nam
+- values:
+    tone: 300_od_300_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_flat__1.nam
+- values:
+    tone: 300_od_300_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_flat__2.nam
+- values:
+    tone: 300_od_300_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_vinta.nam
+- values:
+    tone: 300_od_300_vinta_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_vinta_1.nam
+- values:
+    tone: 300_od_300_vinta_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_vinta_2.nam
+- values:
+    tone: 300_od_500_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_comp_.nam
+- values:
+    tone: 300_od_500_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_comp__1.nam
+- values:
+    tone: 300_od_500_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_comp__2.nam
+- values:
+    tone: 300_od_500_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_flat_.nam
+- values:
+    tone: 300_od_500_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_flat__1.nam
+- values:
+    tone: 300_od_500_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_flat__2.nam
+- values:
+    tone: 300_od_500_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_vinta.nam
+- values:
+    tone: 300_od_500_vinta_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_vinta_1.nam
+- values:
+    tone: 300_od_500_vinta_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_vinta_2.nam
+- values:
+    tone: 300_od_700_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_700_comp_.nam
+- values:
+    tone: 300_od_700_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_700_flat_.nam
+- values:
+    tone: 300_od_700_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_700_vinta.nam
+- values:
+    tone: 300_od_900_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_comp_.nam
+- values:
+    tone: 300_od_900_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_comp__1.nam
+- values:
+    tone: 300_od_900_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_comp__2.nam
+- values:
+    tone: 300_od_900_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_flat_.nam
+- values:
+    tone: 300_od_900_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_flat__1.nam
+- values:
+    tone: 300_od_900_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_flat__2.nam
+- values:
+    tone: 300_od_900_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_vinta.nam
+- values:
+    tone: 300_od_900_vinta_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_vinta_1.nam
+- values:
+    tone: 300_od_900_vinta_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_vinta_2.nam
+- values:
+    tone: 500_od_1200_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_1200_comp.nam
+- values:
+    tone: 500_od_1200_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_1200_flat.nam
+- values:
+    tone: 500_od_1200_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_1200_vint.nam
+- values:
+    tone: 500_od_300_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_300_comp_.nam
+- values:
+    tone: 500_od_300_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_300_flat_.nam
+- values:
+    tone: 500_od_300_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_300_vinta.nam
+- values:
+    tone: 500_od_500_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_500_comp_.nam
+- values:
+    tone: 500_od_500_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_500_flat_.nam
+- values:
+    tone: 500_od_500_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_500_vinta.nam
+- values:
+    tone: 500_od_700_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_700_comp_.nam
+- values:
+    tone: 500_od_700_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_700_flat_.nam
+- values:
+    tone: 500_od_700_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_700_vinta.nam
+- values:
+    tone: 500_od_900_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_900_comp_.nam
+- values:
+    tone: 500_od_900_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_900_flat_.nam
+- values:
+    tone: 500_od_900_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_900_vinta.nam
+- values:
+    tone: 700_od_1200_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_1200_comp.nam
+- values:
+    tone: 700_od_1200_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_1200_flat.nam
+- values:
+    tone: 700_od_1200_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_1200_vint.nam
+- values:
+    tone: 700_od_300_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_300_comp_.nam
+- values:
+    tone: 700_od_300_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_300_flat_.nam
+- values:
+    tone: 700_od_300_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_300_vinta.nam
+- values:
+    tone: 700_od_500_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_500_comp_.nam
+- values:
+    tone: 700_od_500_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_500_flat_.nam
+- values:
+    tone: 700_od_500_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_500_vinta.nam
+- values:
+    tone: 700_od_700_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_700_comp_.nam
+- values:
+    tone: 700_od_700_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_700_flat_.nam
+- values:
+    tone: 700_od_700_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_700_vinta.nam
+- values:
+    tone: 700_od_900_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_900_comp_.nam
+- values:
+    tone: 700_od_900_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_900_flat_.nam
+- values:
+    tone: 700_od_900_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_900_vinta.nam
+- values:
+    tone: 900_od_1200_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_comp.nam
+- values:
+    tone: 900_od_1200_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_comp_1.nam
+- values:
+    tone: 900_od_1200_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_comp_2.nam
+- values:
+    tone: 900_od_1200_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_flat.nam
+- values:
+    tone: 900_od_1200_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_flat_1.nam
+- values:
+    tone: 900_od_1200_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_flat_2.nam
+- values:
+    tone: 900_od_1200_vint
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_vint.nam
+- values:
+    tone: 900_od_1200_vint_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_vint_1.nam
+- values:
+    tone: 900_od_1200_vint_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_vint_2.nam
+- values:
+    tone: 900_od_300_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_comp_.nam
+- values:
+    tone: 900_od_300_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_comp__1.nam
+- values:
+    tone: 900_od_300_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_comp__2.nam
+- values:
+    tone: 900_od_300_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_flat_.nam
+- values:
+    tone: 900_od_300_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_flat__1.nam
+- values:
+    tone: 900_od_300_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_flat__2.nam
+- values:
+    tone: 900_od_300_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_vinta.nam
+- values:
+    tone: 900_od_300_vinta_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_vinta_1.nam
+- values:
+    tone: 900_od_300_vinta_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_vinta_2.nam
+- values:
+    tone: 900_od_500_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_comp_.nam
+- values:
+    tone: 900_od_500_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_comp__1.nam
+- values:
+    tone: 900_od_500_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_comp__2.nam
+- values:
+    tone: 900_od_500_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_flat_.nam
+- values:
+    tone: 900_od_500_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_flat__1.nam
+- values:
+    tone: 900_od_500_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_flat__2.nam
+- values:
+    tone: 900_od_500_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_vinta.nam
+- values:
+    tone: 900_od_500_vinta_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_vinta_1.nam
+- values:
+    tone: 900_od_500_vinta_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_vinta_2.nam
+- values:
+    tone: 900_od_700_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_700_comp_.nam
+- values:
+    tone: 900_od_700_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_700_flat_.nam
+- values:
+    tone: 900_od_700_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_700_vinta.nam
+- values:
+    tone: 900_od_900_comp
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_comp_.nam
+- values:
+    tone: 900_od_900_comp_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_comp__1.nam
+- values:
+    tone: 900_od_900_comp_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_comp__2.nam
+- values:
+    tone: 900_od_900_flat
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_flat_.nam
+- values:
+    tone: 900_od_900_flat_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_flat__1.nam
+- values:
+    tone: 900_od_900_flat_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_flat__2.nam
+- values:
+    tone: 900_od_900_vinta
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_vinta.nam
+- values:
+    tone: 900_od_900_vinta_1
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_vinta_1.nam
+- values:
+    tone: 900_od_900_vinta_2
+  file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_vinta_2.nam

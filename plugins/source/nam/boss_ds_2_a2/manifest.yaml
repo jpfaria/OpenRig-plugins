@@ -1,0 +1,40 @@
+manifest_version: 1
+id: nam_boss_ds_2_a2
+display_name: Boss DS-2
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5475
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - ds2_2_boost
+  - ds2_2_turbo_default
+  - ds2_1_max_dist
+  - ds2_2_turbo_max_dist
+  - ds2_1_default
+  - ds2_1_boost
+captures:
+- values:
+    model: ds2_2_boost
+  file: captures/894f5d01b1a0beda_a2.nam
+- values:
+    model: ds2_2_turbo_default
+  file: captures/1c8bfdfe570baf29_a2.nam
+- values:
+    model: ds2_1_max_dist
+  file: captures/13183ee5f00fe749_a2.nam
+- values:
+    model: ds2_2_turbo_max_dist
+  file: captures/8145f25c9a1b7351_a2.nam
+- values:
+    model: ds2_1_default
+  file: captures/74482f287a548f5e_a2.nam
+- values:
+    model: ds2_1_boost
+  file: captures/147150c30537ff32_a2.nam

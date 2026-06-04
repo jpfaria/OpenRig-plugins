@@ -1,0 +1,22 @@
+manifest_version: 1
+id: nam_tc_spark_a1
+display_name: Spark
+brand: tc-electronic
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: character
+  display_name: Character
+  values:
+  - clean
+  - mid
+captures:
+- values:
+    character: clean
+  file: captures/tc_spark_clean.nam
+- values:
+    character: mid
+  file: captures/tc_spark_mid.nam

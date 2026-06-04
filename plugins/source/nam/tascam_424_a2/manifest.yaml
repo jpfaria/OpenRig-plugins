@@ -1,0 +1,35 @@
+manifest_version: 1
+id: nam_tascam_424_a2
+display_name: Tascam 424 Preamp
+brand: tascam
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/47292
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - tascam_424_preamp_gain_9_bass_5_high_5
+  - tascam_424_preamp_gain_7_bass_5_high_5
+  - tascam_424_preamp_gain_8_bass_7_high_7
+  - tascam_424_preamp_gain_max_bass_5_high_5
+  - tascam_424_preamp_gain_8_bass_5_high_5
+captures:
+- values:
+    model: tascam_424_preamp_gain_9_bass_5_high_5
+  file: captures/ff965az16x5_a2.nam
+- values:
+    model: tascam_424_preamp_gain_7_bass_5_high_5
+  file: captures/duj2jmn3zbk_a2.nam
+- values:
+    model: tascam_424_preamp_gain_8_bass_7_high_7
+  file: captures/erj8uwilz9_a2.nam
+- values:
+    model: tascam_424_preamp_gain_max_bass_5_high_5
+  file: captures/qzpqs35noq_a2.nam
+- values:
+    model: tascam_424_preamp_gain_8_bass_5_high_5
+  file: captures/syjjj9csasq_a2.nam

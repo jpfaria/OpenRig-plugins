@@ -1,0 +1,17 @@
+manifest_version: 1
+id: nam_evh_5150_iii_50w_red_channel_a1
+display_name: 5150 III 50w Red Channel
+brand: evh
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - daily_driver
+captures:
+- values:
+    preset: daily_driver
+  file: captures/5153_red_dailydriver.nam

@@ -1,0 +1,28 @@
+manifest_version: 1
+id: nam_blackstar_fly_a2
+display_name: Fly
+brand: blackstar
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6132
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - blackstar_fly_clean
+  - blackstar_fly_crunch
+  - blackstar_fly_od
+captures:
+- values:
+    model: blackstar_fly_clean
+  file: captures/b628bcf66e52b011_a2.nam
+- values:
+    model: blackstar_fly_crunch
+  file: captures/8cd09564345bd7fe_a2.nam
+- values:
+    model: blackstar_fly_od
+  file: captures/658ee51406d554fc_a2.nam

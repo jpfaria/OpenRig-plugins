@@ -1,0 +1,20 @@
+manifest_version: 1
+id: nam_marshall_super_100_1966_a2
+display_name: Super 100 1966
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1831
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mrsh_jt100_i_crunch_bal_di
+captures:
+- values:
+    model: mrsh_jt100_i_crunch_bal_di
+  file: captures/4618b31465a37e78_a2.nam

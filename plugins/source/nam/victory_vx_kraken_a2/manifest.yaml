@@ -1,0 +1,87 @@
+manifest_version: 1
+id: nam_victory_vx_kraken_a2
+display_name: VX Kraken
+brand: victory
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/47732
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - kraken_g6_euna
+  - kraken_g7_euna
+  - kraken_g3_euna_b
+  - kraken_g4_euna_h
+  - kraken_g6_euna_h
+  - kraken_g5_euna_h
+  - kraken_g7_euna_h
+  - kraken_g3_euna_h
+  - kraken_g3_euna
+  - kraken_g4_euna_b
+  - kraken_g8_euna_h
+  - kraken_g5_euna_b
+  - kraken_g8_euna
+  - kraken_g8_euna_b
+  - kraken_g4_euna
+  - kraken_g7_euna_b
+  - kraken_g6_euna_b
+  - kraken_g5_euna
+captures:
+- values:
+    model: kraken_g6_euna
+  file: captures/tiov11u221_a2.nam
+- values:
+    model: kraken_g7_euna
+  file: captures/alqmi8x6dlw_a2.nam
+- values:
+    model: kraken_g3_euna_b
+  file: captures/yqyxb9c7lyi_a2.nam
+- values:
+    model: kraken_g4_euna_h
+  file: captures/k4myly6cpih_a2.nam
+- values:
+    model: kraken_g6_euna_h
+  file: captures/u8ss35ah22k_a2.nam
+- values:
+    model: kraken_g5_euna_h
+  file: captures/iildeylids8_a2.nam
+- values:
+    model: kraken_g7_euna_h
+  file: captures/1el61aolhr1_a2.nam
+- values:
+    model: kraken_g3_euna_h
+  file: captures/t49xap7qb0h_a2.nam
+- values:
+    model: kraken_g3_euna
+  file: captures/0najo77xvzyr_a2.nam
+- values:
+    model: kraken_g4_euna_b
+  file: captures/la2clpy42yp_a2.nam
+- values:
+    model: kraken_g8_euna_h
+  file: captures/56993hv5twy_a2.nam
+- values:
+    model: kraken_g5_euna_b
+  file: captures/r6je4rr3i1e_a2.nam
+- values:
+    model: kraken_g8_euna
+  file: captures/unqrl6lunzn_a2.nam
+- values:
+    model: kraken_g8_euna_b
+  file: captures/4f7ofmgv4wm_a2.nam
+- values:
+    model: kraken_g4_euna
+  file: captures/5upfj78a66p_a2.nam
+- values:
+    model: kraken_g7_euna_b
+  file: captures/6ussr8ratvj_a2.nam
+- values:
+    model: kraken_g6_euna_b
+  file: captures/uuj76xqarp_a2.nam
+- values:
+    model: kraken_g5_euna
+  file: captures/iyyjhp64fc9_a2.nam

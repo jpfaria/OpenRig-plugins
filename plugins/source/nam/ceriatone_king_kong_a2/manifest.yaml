@@ -1,0 +1,191 @@
+manifest_version: 1
+id: nam_ceriatone_king_kong_a2
+display_name: Kong
+brand: ceriatone
+output_gain_db: -2.0382786
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6165
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - reacteq_kk100_scary_deep_off_02
+  - reacteq_kk100_clean_01
+  - reacteq_kk100_scary_deep_on_06
+  - reacteq_kk100_scary_deep_off_01
+  - reacteq_kk100_scary_deep_on_10
+  - reacteq_kk100_clean_08
+  - reacteq_kk100_instant_gratification_02
+  - reacteq_kk100_clean_05
+  - reacteq_kk100_scary_deep_off_06
+  - reacteq_kk100_scary_deep_on_04
+  - reacteq_kk50w_instant_gratification_01
+  - reacteq_kk100_clean_02
+  - reacteq_kk100_scary_deep_on_07
+  - reacteq_kk50w_instant_gratification_02
+  - reacteq_kk100_clean_10
+  - reacteq_kk100_scary_deep_off_03
+  - reacteq_kk100_clean_03
+  - reacteq_kk100_scary_deep_on_02
+  - reacteq_kk100_scary_deep_on_03
+  - reacteq_kk100_clean_09
+  - reacteq_kk100_instant_gratification_01
+  - reacteq_kk100_scary_deep_on_09
+  - reacteq_kk100_scary_deep_off_05
+  - reacteq_kk100_scary_deep_off_08
+  - reacteq_kk100_clean_04
+  - reacteq_kk100_clean_07
+  - reacteq_kk100_clean_06
+  - reacteq_kk100_scary_deep_off_04
+  - reacteq_kk100_scary_deep_off_07
+  - reacteq_kk100_scary_deep_off_09
+  - reacteq_kk100_scary_deep_on_08
+  - reacteq_kk100_scary_deep_off_10
+  - reacteq_kk100_scary_deep_on_01
+  - reacteq_kk100_scary_deep_on_05
+  - reactir2_kk100_jose_04
+  - reactir2_kk100_jose_01
+  - reactir2_kk100_jose_10
+  - reactir2_kk100_jose_08
+  - reactir2_kk100_jose_06
+  - reactir2_kk100_jose_07
+  - reactir2_kk100_jose_09
+  - reactir2_kk100_jose_05
+  - reactir2_kk100_jose_03
+  - reactir2_kk100_jose_02
+captures:
+- values:
+    model: reacteq_kk100_scary_deep_off_02
+  file: captures/kchrvl78q3r_a2.nam
+- values:
+    model: reacteq_kk100_clean_01
+  file: captures/camagh4g9xh_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_06
+  file: captures/xku68771er_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_01
+  file: captures/944iyd6w1th_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_10
+  file: captures/aiif2se2ibu_a2.nam
+- values:
+    model: reacteq_kk100_clean_08
+  file: captures/l6n4w6ofceh_a2.nam
+- values:
+    model: reacteq_kk100_instant_gratification_02
+  file: captures/9gykr46pps_a2.nam
+- values:
+    model: reacteq_kk100_clean_05
+  file: captures/pt6232jhgh_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_06
+  file: captures/rrngytxvx8_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_04
+  file: captures/z0yhfs3rgd_a2.nam
+- values:
+    model: reacteq_kk50w_instant_gratification_01
+  file: captures/16rzsljd8np_a2.nam
+- values:
+    model: reacteq_kk100_clean_02
+  file: captures/osqv5o4rvnl_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_07
+  file: captures/jlk9jdaatx9_a2.nam
+- values:
+    model: reacteq_kk50w_instant_gratification_02
+  file: captures/6urfev371g9_a2.nam
+- values:
+    model: reacteq_kk100_clean_10
+  file: captures/b60i575no7_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_03
+  file: captures/bjl46cv96mt_a2.nam
+- values:
+    model: reacteq_kk100_clean_03
+  file: captures/gtsnlek4p3_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_02
+  file: captures/rsosjzaa8j_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_03
+  file: captures/g0vx4qkcsvu_a2.nam
+- values:
+    model: reacteq_kk100_clean_09
+  file: captures/8dmomcxinh3_a2.nam
+- values:
+    model: reacteq_kk100_instant_gratification_01
+  file: captures/5uhpo54zu42_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_09
+  file: captures/x8wwepw21zp_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_05
+  file: captures/y64d13hio2_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_08
+  file: captures/3vecquluaqj_a2.nam
+- values:
+    model: reacteq_kk100_clean_04
+  file: captures/pvhezmv0we8_a2.nam
+- values:
+    model: reacteq_kk100_clean_07
+  file: captures/7dat51yt6zi_a2.nam
+- values:
+    model: reacteq_kk100_clean_06
+  file: captures/7cq4lj00f65_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_04
+  file: captures/0k2xpdfzomku_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_07
+  file: captures/7qqtuzfabzw_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_09
+  file: captures/m8p2jg6pcop_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_08
+  file: captures/d5yvlk0z96k_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_off_10
+  file: captures/odxujihc1xf_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_01
+  file: captures/tj9q08lojqg_a2.nam
+- values:
+    model: reacteq_kk100_scary_deep_on_05
+  file: captures/8dxcvhnnrbn_a2.nam
+- values:
+    model: reactir2_kk100_jose_04
+  file: captures/pqv4lsihkr_a2.nam
+- values:
+    model: reactir2_kk100_jose_01
+  file: captures/xth4aj6zhwc_a2.nam
+- values:
+    model: reactir2_kk100_jose_10
+  file: captures/kde7ewlpy6_a2.nam
+- values:
+    model: reactir2_kk100_jose_08
+  file: captures/6t7uosrfhrp_a2.nam
+- values:
+    model: reactir2_kk100_jose_06
+  file: captures/l4hc1i0px9j_a2.nam
+- values:
+    model: reactir2_kk100_jose_07
+  file: captures/mrxq2fhcvrt_a2.nam
+- values:
+    model: reactir2_kk100_jose_09
+  file: captures/zgg5pfpydy_a2.nam
+- values:
+    model: reactir2_kk100_jose_05
+  file: captures/ybq50voyxo_a2.nam
+- values:
+    model: reactir2_kk100_jose_03
+  file: captures/u08ogtw2cql_a2.nam
+- values:
+    model: reactir2_kk100_jose_02
+  file: captures/4ssjodh46gs_a2.nam

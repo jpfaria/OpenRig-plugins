@@ -1,0 +1,40 @@
+manifest_version: 1
+id: nam_marshall_dsl_20_hr_a2
+display_name: DSL 20 HR
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/43981
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - marshall_dsl_20_drive_pre_pa_gain12
+  - marshall_dsl_20_drive_boost_pre_pa_gain10
+  - marshall_dsl_20_drive_boost_tight_pre_pa_gain10
+  - marshall_dsl_20_drive_boost_tight_pre_pa_gain12
+  - marshall_dsl_20_drive_pre_pa_gain10
+  - marshall_dsl_20_drive_boost_pre_pa_gain12
+captures:
+- values:
+    model: marshall_dsl_20_drive_pre_pa_gain12
+  file: captures/s42mudyv2zj_a2.nam
+- values:
+    model: marshall_dsl_20_drive_boost_pre_pa_gain10
+  file: captures/8qq9x5461t2_a2.nam
+- values:
+    model: marshall_dsl_20_drive_boost_tight_pre_pa_gain10
+  file: captures/yq1fwaqxwys_a2.nam
+- values:
+    model: marshall_dsl_20_drive_boost_tight_pre_pa_gain12
+  file: captures/c18b4lgvjyi_a2.nam
+- values:
+    model: marshall_dsl_20_drive_pre_pa_gain10
+  file: captures/dnoc22y5o6s_a2.nam
+- values:
+    model: marshall_dsl_20_drive_boost_pre_pa_gain12
+  file: captures/okgqv4dpkbj_a2.nam

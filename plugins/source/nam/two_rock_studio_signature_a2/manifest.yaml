@@ -1,0 +1,207 @@
+manifest_version: 1
+id: nam_two_rock_studio_signature_a2
+display_name: Two Rock Studio Signature
+brand: two
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5599
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - trss_g3_bmd_t6m3b6_o8_p9_bf
+  - trss_g5_bd_t6m3b6_o8_p5_bf_bs_4
+  - trss_g3_b_t5m5b5_o7_p4_trad
+  - trss_g3_md_t5m5b5_o7_p8_trad
+  - trss_g5_md_t6m3b6_o8_p9_bf
+  - trss_g3_t6m3b6_o8_p5_bf
+  - trss_g3_b_t6m3b6_o8_p5_bf
+  - trss_g3_md_t6m3b6_o8_p9_bf
+  - trss_g3_t5m5b5_o6_p5_ms
+  - trss_g8_md_t5m5b5_o7_p4_trad
+  - trss_g3_md_t6m3b6_o8_p5_bf
+  - trss_g5_bd_t6m3b6_o8_p5_bf
+  - trss_g3_md_t5m5b5_o7_p4_trad
+  - trss_g5_md_t5m5b5_o7_p4_trad
+  - trss_g8_t6m3b6_o8_p9_bf
+  - trss_g5_b_t5m5b5_o6_p5_ms
+  - trss_g5_bmd_t6m3b6_o8_p5_bf
+  - trss_g3_bd_t6m3b6_o8_p5_bf
+  - trss_g8_bmd_t5m5b5_o6_p5_ms
+  - trss_g5_t5m5b5_o7_p4_trad
+  - trss_g8_t6m3b6_o8_p5_bf
+  - trss_g8_bmd_t6m3b6_o8_p9_bf
+  - trss_g8_t5m5b5_o6_p5_ms
+  - trss_g3_bmd_t5m5b5_o7_p4_trad
+  - trss_g3_t5m5b5_o7_p4_trad
+  - trss_g3_t5m5b5_o7_p8_trad
+  - trss_g5_bmd_t5m5b5_o6_p5_ms
+  - trss_g5_b_t6m3b6_o8_p5_bf
+  - trss_g5_t6m3b6_o8_p9_bf
+  - trss_g5_md_t6m3b6_o8_p5_bf
+  - trss_g5_t6m3b6_o8_p5_bf
+  - trss_g8_md_t6m3b6_o8_p5_bf
+  - trss_g5_bmd_t6m3b6_o8_p9_bf
+  - trss_g8_bmd_t5m5b5_o7_p4_trad
+  - trss_g8_b_t5m5b5_o6_p5_ms
+  - trss_g5_bmd_t5m5b5_o7_p4_trad
+  - trss_g5_b_t5m5b5_o7_p4_trad
+  - trss_g3_t6m3b6_o8_p9_bf
+  - trss_g3_bmd_t5m5b5_o6_p5_ms
+  - trss_g5_t5m5b5_o7_p8_trad
+  - trss_g3_bmd_t6m3b6_o8_p5_bf
+  - trss_g3_md_t5m5b5_o6_p5_ms
+  - trss_g5_md_t5m5b5_o7_p8_trad
+  - trss_g5_t5m5b5_o6_p5_ms
+  - trss_g5_md_t5m5b5_o6_p5_ms
+  - trss_g8_bd_t6m3b6_o8_p5_bf
+  - trss_g8_t5m5b5_o7_p4_trad
+  - trss_g3_b_t5m5b5_o6_p5_ms
+captures:
+- values:
+    model: trss_g3_bmd_t6m3b6_o8_p9_bf
+  file: captures/3d7d15b25317d231_a2.nam
+- values:
+    model: trss_g5_bd_t6m3b6_o8_p5_bf_bs_4
+  file: captures/bc5991e071a66a7f_a2.nam
+- values:
+    model: trss_g3_b_t5m5b5_o7_p4_trad
+  file: captures/86fed97159509640_a2.nam
+- values:
+    model: trss_g3_md_t5m5b5_o7_p8_trad
+  file: captures/4e529c0ebc80bb20_a2.nam
+- values:
+    model: trss_g5_md_t6m3b6_o8_p9_bf
+  file: captures/cea0c19fef1d860c_a2.nam
+- values:
+    model: trss_g3_t6m3b6_o8_p5_bf
+  file: captures/7dca32f89280b6e6_a2.nam
+- values:
+    model: trss_g3_b_t6m3b6_o8_p5_bf
+  file: captures/2282da8333a29f3d_a2.nam
+- values:
+    model: trss_g3_md_t6m3b6_o8_p9_bf
+  file: captures/ae8916962b4abe89_a2.nam
+- values:
+    model: trss_g3_t5m5b5_o6_p5_ms
+  file: captures/39a6e74f99236830_a2.nam
+- values:
+    model: trss_g8_md_t5m5b5_o7_p4_trad
+  file: captures/38d09e3429708f7a_a2.nam
+- values:
+    model: trss_g3_md_t6m3b6_o8_p5_bf
+  file: captures/2ba5692a4d919e16_a2.nam
+- values:
+    model: trss_g5_bd_t6m3b6_o8_p5_bf
+  file: captures/db21cb486b490a7c_a2.nam
+- values:
+    model: trss_g3_md_t5m5b5_o7_p4_trad
+  file: captures/735aba81e5bbaf90_a2.nam
+- values:
+    model: trss_g5_md_t5m5b5_o7_p4_trad
+  file: captures/725b23a9ca1c45aa_a2.nam
+- values:
+    model: trss_g8_t6m3b6_o8_p9_bf
+  file: captures/22603a57f8b74bc9_a2.nam
+- values:
+    model: trss_g5_b_t5m5b5_o6_p5_ms
+  file: captures/6a5fa78c2bed70dd_a2.nam
+- values:
+    model: trss_g5_bmd_t6m3b6_o8_p5_bf
+  file: captures/57275de63901c467_a2.nam
+- values:
+    model: trss_g3_bd_t6m3b6_o8_p5_bf
+  file: captures/68ceff2b28a97e4e_a2.nam
+- values:
+    model: trss_g8_bmd_t5m5b5_o6_p5_ms
+  file: captures/cffae9aa7b25acf7_a2.nam
+- values:
+    model: trss_g5_t5m5b5_o7_p4_trad
+  file: captures/208b8c2fcedbe11a_a2.nam
+- values:
+    model: trss_g8_t6m3b6_o8_p5_bf
+  file: captures/556b4d70958f8bcd_a2.nam
+- values:
+    model: trss_g8_bmd_t6m3b6_o8_p9_bf
+  file: captures/c8f3973e89e4c344_a2.nam
+- values:
+    model: trss_g8_t5m5b5_o6_p5_ms
+  file: captures/cb7b7cc01c951490_a2.nam
+- values:
+    model: trss_g3_bmd_t5m5b5_o7_p4_trad
+  file: captures/2b15501153543eee_a2.nam
+- values:
+    model: trss_g3_t5m5b5_o7_p4_trad
+  file: captures/3a1ee9bff6f51fa1_a2.nam
+- values:
+    model: trss_g3_t5m5b5_o7_p8_trad
+  file: captures/17f341c492831f80_a2.nam
+- values:
+    model: trss_g5_bmd_t5m5b5_o6_p5_ms
+  file: captures/fa8b21a82495f9ca_a2.nam
+- values:
+    model: trss_g5_b_t6m3b6_o8_p5_bf
+  file: captures/f3b4dab6f6c93e41_a2.nam
+- values:
+    model: trss_g5_t6m3b6_o8_p9_bf
+  file: captures/1944262de511cead_a2.nam
+- values:
+    model: trss_g5_md_t6m3b6_o8_p5_bf
+  file: captures/d624dced76d99030_a2.nam
+- values:
+    model: trss_g5_t6m3b6_o8_p5_bf
+  file: captures/49001a48e01e988a_a2.nam
+- values:
+    model: trss_g8_md_t6m3b6_o8_p5_bf
+  file: captures/8d3d1b5e6a32b835_a2.nam
+- values:
+    model: trss_g5_bmd_t6m3b6_o8_p9_bf
+  file: captures/41c74e502e039b0b_a2.nam
+- values:
+    model: trss_g8_bmd_t5m5b5_o7_p4_trad
+  file: captures/eece81af28adf624_a2.nam
+- values:
+    model: trss_g8_b_t5m5b5_o6_p5_ms
+  file: captures/f539eb515d11378e_a2.nam
+- values:
+    model: trss_g5_bmd_t5m5b5_o7_p4_trad
+  file: captures/6809495b6ee704fc_a2.nam
+- values:
+    model: trss_g5_b_t5m5b5_o7_p4_trad
+  file: captures/4fd8979a732e3e34_a2.nam
+- values:
+    model: trss_g3_t6m3b6_o8_p9_bf
+  file: captures/c88dde6e800deed4_a2.nam
+- values:
+    model: trss_g3_bmd_t5m5b5_o6_p5_ms
+  file: captures/37ed48933a04f177_a2.nam
+- values:
+    model: trss_g5_t5m5b5_o7_p8_trad
+  file: captures/795d216467b07baa_a2.nam
+- values:
+    model: trss_g3_bmd_t6m3b6_o8_p5_bf
+  file: captures/e48094f7afedef6a_a2.nam
+- values:
+    model: trss_g3_md_t5m5b5_o6_p5_ms
+  file: captures/450211b2b50d992d_a2.nam
+- values:
+    model: trss_g5_md_t5m5b5_o7_p8_trad
+  file: captures/9d0c1abdd3b08b3e_a2.nam
+- values:
+    model: trss_g5_t5m5b5_o6_p5_ms
+  file: captures/0ade4d13907c4724_a2.nam
+- values:
+    model: trss_g5_md_t5m5b5_o6_p5_ms
+  file: captures/896aaf425eeeb0a4_a2.nam
+- values:
+    model: trss_g8_bd_t6m3b6_o8_p5_bf
+  file: captures/343f400f385a0df0_a2.nam
+- values:
+    model: trss_g8_t5m5b5_o7_p4_trad
+  file: captures/efc0db40e984fe5a_a2.nam
+- values:
+    model: trss_g3_b_t5m5b5_o6_p5_ms
+  file: captures/1efc6349039977b1_a2.nam

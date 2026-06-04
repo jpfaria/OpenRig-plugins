@@ -1,0 +1,42 @@
+manifest_version: 1
+id: nam_supro_black_magick_a1
+display_name: Supro Black Magick
+brand: supro
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+- name: speaker
+  display_name: Speaker
+  values:
+  - srl
+  - p12q
+captures:
+- values:
+    speaker: srl
+    tone: '3'
+  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_3_srl.nam
+- values:
+    speaker: srl
+    tone: '4'
+  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_4_srl.nam
+- values:
+    speaker: srl
+    tone: '5'
+  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_5_srl.nam
+- values:
+    speaker: p12q
+    tone: '5'
+  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_5_p12q.nam
+- values:
+    speaker: srl
+    tone: '6'
+  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_6_srl.nam

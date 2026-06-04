@@ -1,0 +1,175 @@
+manifest_version: 1
+id: nam_mxr_classic_108_fuzz_a2
+display_name: MXR Classic 108 Fuzz
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/31556
+parameters:
+- name: model
+  display_name: Model
+  values:
+  - mxr_108_fuzz_v_max_f_4_00_ttsv10
+  - mxr_108_fuzz_v_max_f_11_00_ttsv10
+  - mxr_108_fuzz_v_max_f_min_ttsv10
+  - mxr_108_fuzz_v_max_f_2_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_12_00_ttsv10
+  - mxr_108_fuzz_v_max_f_1_00_ttsv10
+  - mxr_108_fuzz_v_max_f_11_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_9_00_ttsv10
+  - mxr_108_fuzz_v_max_f_3_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_1_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_9_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_min_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_3_00_ttsv10
+  - mxr_108_fuzz_v_max_f_10_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_4_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_max_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_2_00_ttsv10
+  - mxr_108_fuzz_v_max_f_10_00_ttsv10
+  - mxr_108_fuzz_v_max_f_12_00_buffer_ttsv10
+  - mxr_108_fuzz_v_max_f_max_ttsv10
+  - mxr_108_fuzz_v_8_f_6
+  - mxr_108_fuzz_v_8_f_7_buf
+  - mxr_108_fuzz_v_8_f_8_buf
+  - mxr_108_fuzz_v_8_f_7
+  - mxr_108_fuzz_v_8_f_0_buf
+  - mxr_108_fuzz_v_8_f_10_buf
+  - mxr_108_fuzz_v_8_f_6_buf
+  - mxr_108_fuzz_v_8_f_2_buf
+  - mxr_108_fuzz_v_8_f_3_buf
+  - mxr_108_fuzz_v_8_f_10
+  - mxr_108_fuzz_v_8_f_8
+  - mxr_108_fuzz_v_8_f_9_buf
+  - mxr_108_fuzz_v_8_f_5_buf
+  - mxr_108_fuzz_v_8_f_5
+  - mxr_108_fuzz_v_8_f_4
+  - mxr_108_fuzz_v_8_f_3
+  - mxr_108_fuzz_v_8_f_2
+  - mxr_108_fuzz_v_8_f_9
+  - mxr_108_fuzz_v_8_f_0
+  - mxr_108_fuzz_v_8_f_4_buf
+captures:
+- values:
+    model: mxr_108_fuzz_v_max_f_4_00_ttsv10
+  file: captures/5miznqpn9yx_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_11_00_ttsv10
+  file: captures/dwpu52na5u_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_min_ttsv10
+  file: captures/exkxi69vgwd_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_2_00_buffer_ttsv10
+  file: captures/nku0ddrsgpe_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_12_00_ttsv10
+  file: captures/wbfxg2laqka_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_1_00_ttsv10
+  file: captures/j3t604o1qhh_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_11_00_buffer_ttsv10
+  file: captures/ggt0u3zw0pc_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_9_00_ttsv10
+  file: captures/s4l52vqrk1_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_3_00_buffer_ttsv10
+  file: captures/y7ukgrssosf_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_1_00_buffer_ttsv10
+  file: captures/htvp2ecjbmd_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_9_00_buffer_ttsv10
+  file: captures/7prxa6znmlo_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_min_buffer_ttsv10
+  file: captures/2omq0x3simp_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_3_00_ttsv10
+  file: captures/8eaaak0xbej_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_10_00_buffer_ttsv10
+  file: captures/29cspf7fzn_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_4_00_buffer_ttsv10
+  file: captures/1k6tvxubu2o_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_max_buffer_ttsv10
+  file: captures/00331kfgl2b4y_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_2_00_ttsv10
+  file: captures/y732h4eyp8_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_10_00_ttsv10
+  file: captures/yv4z3wrztbq_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_12_00_buffer_ttsv10
+  file: captures/g4wj9gowdn_a2.nam
+- values:
+    model: mxr_108_fuzz_v_max_f_max_ttsv10
+  file: captures/xz2vtriob5s_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_6
+  file: captures/elkmz0m2n2q_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_7_buf
+  file: captures/mr225mi2m3_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_8_buf
+  file: captures/f8q63yyulcr_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_7
+  file: captures/0ca7p0ehc7jj_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_0_buf
+  file: captures/wkht3drbs5i_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_10_buf
+  file: captures/ghq7s6x2k8m_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_6_buf
+  file: captures/lzupsypl2ra_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_2_buf
+  file: captures/6amskl3l40t_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_3_buf
+  file: captures/j20oqsfrn4_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_10
+  file: captures/k6wgwhgacfi_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_8
+  file: captures/pvebbcxr2v_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_9_buf
+  file: captures/n4aje83j8qq_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_5_buf
+  file: captures/gif7tcnlnd8_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_5
+  file: captures/7fvz208fkru_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_4
+  file: captures/sxewxrlsiml_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_3
+  file: captures/gsh9pk5q9lq_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_2
+  file: captures/sxex7zi687_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_9
+  file: captures/jp5re4llagc_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_0
+  file: captures/swcancq0hvg_a2.nam
+- values:
+    model: mxr_108_fuzz_v_8_f_4_buf
+  file: captures/gx8c9cc047g_a2.nam
