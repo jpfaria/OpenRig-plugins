@@ -9,75 +9,107 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/28736
 parameters:
-- name: model
-  display_name: Model
+- name: mode
+  display_name: Mode
   values:
-  - laney_irt60_rhythm_pre_od_b1_1_m3_t2_g6_5_d100_tn1_8
-  - laney_irt60_rhythm_pwr_od_b1_1_m3_t2_g6_5_d100_tn1_8
-  - laney_irt60_rhythm_pwr_b1_1_m2_t2_g6_5_d100_tn1
-  - laney_irt60_rhythm_pre_b1_1_m2_t2_g6_5_d100_tn1_8
-  - laney_irt60_lead_pre_b0_m2_9_t2_g7_2_d100_tn1_8
-  - laney_irt60_lead_pwr_od_b0_m2_9_t2_g7_2_d100_tn1_8
-  - laney_irt60_lead_pwr_b0_m2_9_t2_g7_2_d100_tn1_8
-  - rhythm_poweramp
-  - clean_preamp
-  - lead_preamp
-  - clean_poweramp
-  - lead_boosted_preamp
-  - lead_poweramp
-  - rhythm_preamp
-  - lead_boosted_poweramp
-  - rhythm_boosted_preamp
-  - rhythm_boosted_poweramp
+  - clean
+  - rhythm
+  - rhythm_boosted
+  - lead
+  - lead_boosted
+- name: stage
+  display_name: Stage
+  values:
+  - preamp
+  - power_amp
+- name: eq
+  display_name: EQ
+  values:
+  - stock
+  - voiced
 captures:
 - values:
-    model: laney_irt60_rhythm_pre_od_b1_1_m3_t2_g6_5_d100_tn1_8
+    eq: voiced
+    mode: rhythm_boosted
+    stage: preamp
   file: captures/it2elpm391q_a2.nam
 - values:
-    model: laney_irt60_rhythm_pwr_od_b1_1_m3_t2_g6_5_d100_tn1_8
+    eq: voiced
+    mode: rhythm_boosted
+    stage: power_amp
   file: captures/hbesdi7wl75_a2.nam
 - values:
-    model: laney_irt60_rhythm_pwr_b1_1_m2_t2_g6_5_d100_tn1
+    eq: voiced
+    mode: rhythm
+    stage: power_amp
   file: captures/5gykdhl1ia9_a2.nam
 - values:
-    model: laney_irt60_rhythm_pre_b1_1_m2_t2_g6_5_d100_tn1_8
+    eq: voiced
+    mode: rhythm
+    stage: preamp
   file: captures/v4rx2ngg4a_a2.nam
 - values:
-    model: laney_irt60_lead_pre_b0_m2_9_t2_g7_2_d100_tn1_8
+    eq: voiced
+    mode: lead
+    stage: preamp
   file: captures/h011wogvwov_a2.nam
 - values:
-    model: laney_irt60_lead_pwr_od_b0_m2_9_t2_g7_2_d100_tn1_8
+    eq: voiced
+    mode: lead_boosted
+    stage: power_amp
   file: captures/az1c1oy8hi_a2.nam
 - values:
-    model: laney_irt60_lead_pwr_b0_m2_9_t2_g7_2_d100_tn1_8
+    eq: voiced
+    mode: lead
+    stage: power_amp
   file: captures/tjilek1hpe_a2.nam
 - values:
-    model: rhythm_poweramp
+    eq: stock
+    mode: rhythm
+    stage: power_amp
   file: captures/yatywlby7zg_a2.nam
 - values:
-    model: clean_preamp
+    eq: stock
+    mode: clean
+    stage: preamp
   file: captures/bcezk7cxmw_a2.nam
 - values:
-    model: lead_preamp
+    eq: stock
+    mode: lead
+    stage: preamp
   file: captures/ivjnt3evj5i_a2.nam
 - values:
-    model: clean_poweramp
+    eq: stock
+    mode: clean
+    stage: power_amp
   file: captures/fdets7xcog6_a2.nam
 - values:
-    model: lead_boosted_preamp
+    eq: stock
+    mode: lead_boosted
+    stage: preamp
   file: captures/3stwpe4p5b6_a2.nam
 - values:
-    model: lead_poweramp
+    eq: stock
+    mode: lead
+    stage: power_amp
   file: captures/8qtv7o4ay36_a2.nam
 - values:
-    model: rhythm_preamp
+    eq: stock
+    mode: rhythm
+    stage: preamp
   file: captures/h3shxj7vtpi_a2.nam
 - values:
-    model: lead_boosted_poweramp
+    eq: stock
+    mode: lead_boosted
+    stage: power_amp
   file: captures/qlndm80dsg_a2.nam
 - values:
-    model: rhythm_boosted_preamp
+    eq: stock
+    mode: rhythm_boosted
+    stage: preamp
   file: captures/dvz959f82d_a2.nam
 - values:
-    model: rhythm_boosted_poweramp
+    eq: stock
+    mode: rhythm_boosted
+    stage: power_amp
   file: captures/kmdkrbh4lm_a2.nam

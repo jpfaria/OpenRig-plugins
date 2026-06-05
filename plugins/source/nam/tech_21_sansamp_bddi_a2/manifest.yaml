@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - sansamp_bddi_v1
+  - v1
 captures:
 - values:
-    model: sansamp_bddi_v1
+    model: v1
   file: captures/fw5fhksdmba_a2.nam

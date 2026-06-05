@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6132
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - awardsession_bluesbaby22_clean
-  - awardsession_bluesbaby22_crunch
-  - awardsession_bluesbaby22_od
+  - clean
+  - crunch
+  - od
 captures:
 - values:
-    model: awardsession_bluesbaby22_clean
+    voicing: clean
   file: captures/a0edb06da0b22d63_a2.nam
 - values:
-    model: awardsession_bluesbaby22_crunch
+    voicing: crunch
   file: captures/a5a9390d74d07250_a2.nam
 - values:
-    model: awardsession_bluesbaby22_od
+    voicing: od
   file: captures/fa0ad8f260886c99_a2.nam

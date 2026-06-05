@@ -9,191 +9,408 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/55167
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - timmy_09_07_07_u_m_m
-  - timmy_10_09_09_m_u_d
-  - timmy_12_07_07_m_m_m
-  - timmy_10_09_09_m_m_u
-  - timmy_12_07_07_u_m_m
-  - timmy_10_09_09_m_d_u
-  - timmy_03_07_07_m_m_m
-  - timmy_12_07_07_d_m_m
-  - timmy_10_09_09_m_m_m
-  - timmy_10_09_09_m_u_m
-  - timmy_10_09_09_m_d_d
-  - timmy_09_07_07_d_m_m
-  - timmy_10_09_09_m_m_d
-  - timmy_10_09_09_m_u_u
-  - timmy_03_07_07_d_m_m
-  - timmy_09_07_07_m_m_m
-  - timmy_10_09_09_m_d_m
-  - timmy_03_07_07_u_m_m
-  - timmy_12_12_09_u_d_u
-  - timmy_12_12_09_m_d_u
-  - timmy_10_12_09_m_m_u
-  - timmy_12_12_09_d_d_u
-  - timmy_03_12_09_u_m_d
-  - timmy_12_12_09_d_d_d
-  - timmy_03_12_09_u_d_d
-  - timmy_03_12_09_d_d_d
-  - timmy_03_12_09_m_m_d
-  - timmy_12_12_09_u_m_u
-  - timmy_10_12_09_d_m_m
-  - timmy_12_12_09_m_u_m
-  - timmy_12_12_09_d_m_m
-  - timmy_10_12_09_m_m_m
-  - timmy_03_12_09_d_u_m
-  - timmy_03_12_09_d_d_u
-  - timmy_12_12_09_m_m_u
-  - timmy_12_12_09_d_u_m
-  - timmy_03_12_09_m_u_u
-  - timmy_10_12_09_m_u_m
-  - timmy_10_12_09_m_u_u
-  - timmy_03_12_09_d_m_u
-  - timmy_12_12_09_m_m_m
-  - timmy_12_12_09_m_u_u
-  - timmy_03_12_09_m_m_m
-  - timmy_12_12_09_d_u_u
-  - timmy_03_12_09_d_u_u
-  - timmy_03_12_09_m_d_d
+  - 3
+  - 9
+  - 10
+  - 12
+- name: bass
+  display_name: Bass
+  values:
+  - 7
+  - 9
+  - 12
+- name: tone
+  display_name: Tone
+  values:
+  - 7
+  - 9
+- name: sw1
+  display_name: Switch 1
+  values:
+  - u
+  - m
+  - d
+- name: sw2
+  display_name: Switch 2
+  values:
+  - u
+  - m
+  - d
+- name: sw3
+  display_name: Switch 3
+  values:
+  - u
+  - m
+  - d
 captures:
 - values:
-    model: timmy_09_07_07_u_m_m
+    bass: 7
+    gain: 9
+    sw1: u
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/ncavknq7me_a2.nam
 - values:
-    model: timmy_10_09_09_m_u_d
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: u
+    sw3: d
+    tone: 9
   file: captures/rc1aprl6oc_a2.nam
 - values:
-    model: timmy_12_07_07_m_m_m
+    bass: 7
+    gain: 12
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/gpg4rrc59km_a2.nam
 - values:
-    model: timmy_10_09_09_m_m_u
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: m
+    sw3: u
+    tone: 9
   file: captures/dxuxe6gum7f_a2.nam
 - values:
-    model: timmy_12_07_07_u_m_m
+    bass: 7
+    gain: 12
+    sw1: u
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/xb1hptnwjsh_a2.nam
 - values:
-    model: timmy_10_09_09_m_d_u
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: d
+    sw3: u
+    tone: 9
   file: captures/juyicnwya5_a2.nam
 - values:
-    model: timmy_03_07_07_m_m_m
+    bass: 7
+    gain: 3
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/7wbqa0ahbhu_a2.nam
 - values:
-    model: timmy_12_07_07_d_m_m
+    bass: 7
+    gain: 12
+    sw1: d
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/nthj2tl18lj_a2.nam
 - values:
-    model: timmy_10_09_09_m_m_m
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 9
   file: captures/jvf903avmqb_a2.nam
 - values:
-    model: timmy_10_09_09_m_u_m
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: u
+    sw3: m
+    tone: 9
   file: captures/ztn0f5oix0o_a2.nam
 - values:
-    model: timmy_10_09_09_m_d_d
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: d
+    sw3: d
+    tone: 9
   file: captures/92mjk5md75b_a2.nam
 - values:
-    model: timmy_09_07_07_d_m_m
+    bass: 7
+    gain: 9
+    sw1: d
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/x8mxo9xl16t_a2.nam
 - values:
-    model: timmy_10_09_09_m_m_d
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: m
+    sw3: d
+    tone: 9
   file: captures/wb5r68vd3w_a2.nam
 - values:
-    model: timmy_10_09_09_m_u_u
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: u
+    sw3: u
+    tone: 9
   file: captures/ybyr7b5sygi_a2.nam
 - values:
-    model: timmy_03_07_07_d_m_m
+    bass: 7
+    gain: 3
+    sw1: d
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/4e767mj5m6r_a2.nam
 - values:
-    model: timmy_09_07_07_m_m_m
+    bass: 7
+    gain: 9
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/uf4kaow2xgp_a2.nam
 - values:
-    model: timmy_10_09_09_m_d_m
+    bass: 9
+    gain: 10
+    sw1: m
+    sw2: d
+    sw3: m
+    tone: 9
   file: captures/u2ekdelfw9i_a2.nam
 - values:
-    model: timmy_03_07_07_u_m_m
+    bass: 7
+    gain: 3
+    sw1: u
+    sw2: m
+    sw3: m
+    tone: 7
   file: captures/rixusduszl_a2.nam
 - values:
-    model: timmy_12_12_09_u_d_u
+    bass: 12
+    gain: 12
+    sw1: u
+    sw2: d
+    sw3: u
+    tone: 9
   file: captures/pmt0cm51mr_a2.nam
 - values:
-    model: timmy_12_12_09_m_d_u
+    bass: 12
+    gain: 12
+    sw1: m
+    sw2: d
+    sw3: u
+    tone: 9
   file: captures/c1nb32tebxn_a2.nam
 - values:
-    model: timmy_10_12_09_m_m_u
+    bass: 12
+    gain: 10
+    sw1: m
+    sw2: m
+    sw3: u
+    tone: 9
   file: captures/6u9ig3o68be_a2.nam
 - values:
-    model: timmy_12_12_09_d_d_u
+    bass: 12
+    gain: 12
+    sw1: d
+    sw2: d
+    sw3: u
+    tone: 9
   file: captures/3bue1camevq_a2.nam
 - values:
-    model: timmy_03_12_09_u_m_d
+    bass: 12
+    gain: 3
+    sw1: u
+    sw2: m
+    sw3: d
+    tone: 9
   file: captures/y3sr75wknn_a2.nam
 - values:
-    model: timmy_12_12_09_d_d_d
+    bass: 12
+    gain: 12
+    sw1: d
+    sw2: d
+    sw3: d
+    tone: 9
   file: captures/o1vb7l8xmu_a2.nam
 - values:
-    model: timmy_03_12_09_u_d_d
+    bass: 12
+    gain: 3
+    sw1: u
+    sw2: d
+    sw3: d
+    tone: 9
   file: captures/b3s5j4hs8b_a2.nam
 - values:
-    model: timmy_03_12_09_d_d_d
+    bass: 12
+    gain: 3
+    sw1: d
+    sw2: d
+    sw3: d
+    tone: 9
   file: captures/v7purm1xmym_a2.nam
 - values:
-    model: timmy_03_12_09_m_m_d
+    bass: 12
+    gain: 3
+    sw1: m
+    sw2: m
+    sw3: d
+    tone: 9
   file: captures/y6y4x59ouri_a2.nam
 - values:
-    model: timmy_12_12_09_u_m_u
+    bass: 12
+    gain: 12
+    sw1: u
+    sw2: m
+    sw3: u
+    tone: 9
   file: captures/ozgqro6tsol_a2.nam
 - values:
-    model: timmy_10_12_09_d_m_m
+    bass: 12
+    gain: 10
+    sw1: d
+    sw2: m
+    sw3: m
+    tone: 9
   file: captures/o47twkp984d_a2.nam
 - values:
-    model: timmy_12_12_09_m_u_m
+    bass: 12
+    gain: 12
+    sw1: m
+    sw2: u
+    sw3: m
+    tone: 9
   file: captures/f0ozsb642ri_a2.nam
 - values:
-    model: timmy_12_12_09_d_m_m
+    bass: 12
+    gain: 12
+    sw1: d
+    sw2: m
+    sw3: m
+    tone: 9
   file: captures/im7karklzi_a2.nam
 - values:
-    model: timmy_10_12_09_m_m_m
+    bass: 12
+    gain: 10
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 9
   file: captures/lw3lbciob9_a2.nam
 - values:
-    model: timmy_03_12_09_d_u_m
+    bass: 12
+    gain: 3
+    sw1: d
+    sw2: u
+    sw3: m
+    tone: 9
   file: captures/03206i9xpcgl_a2.nam
 - values:
-    model: timmy_03_12_09_d_d_u
+    bass: 12
+    gain: 3
+    sw1: d
+    sw2: d
+    sw3: u
+    tone: 9
   file: captures/403rnw1nfug_a2.nam
 - values:
-    model: timmy_12_12_09_m_m_u
+    bass: 12
+    gain: 12
+    sw1: m
+    sw2: m
+    sw3: u
+    tone: 9
   file: captures/fflwq306oib_a2.nam
 - values:
-    model: timmy_12_12_09_d_u_m
+    bass: 12
+    gain: 12
+    sw1: d
+    sw2: u
+    sw3: m
+    tone: 9
   file: captures/ntymxk69ako_a2.nam
 - values:
-    model: timmy_03_12_09_m_u_u
+    bass: 12
+    gain: 3
+    sw1: m
+    sw2: u
+    sw3: u
+    tone: 9
   file: captures/ccnwd2b4i_a2.nam
 - values:
-    model: timmy_10_12_09_m_u_m
+    bass: 12
+    gain: 10
+    sw1: m
+    sw2: u
+    sw3: m
+    tone: 9
   file: captures/yvh2v3nt4_a2.nam
 - values:
-    model: timmy_10_12_09_m_u_u
+    bass: 12
+    gain: 10
+    sw1: m
+    sw2: u
+    sw3: u
+    tone: 9
   file: captures/1zhh0nrjic4h_a2.nam
 - values:
-    model: timmy_03_12_09_d_m_u
+    bass: 12
+    gain: 3
+    sw1: d
+    sw2: m
+    sw3: u
+    tone: 9
   file: captures/u36rbmh6rhq_a2.nam
 - values:
-    model: timmy_12_12_09_m_m_m
+    bass: 12
+    gain: 12
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 9
   file: captures/e5vzaz5n3la_a2.nam
 - values:
-    model: timmy_12_12_09_m_u_u
+    bass: 12
+    gain: 12
+    sw1: m
+    sw2: u
+    sw3: u
+    tone: 9
   file: captures/ewknj7thu76_a2.nam
 - values:
-    model: timmy_03_12_09_m_m_m
+    bass: 12
+    gain: 3
+    sw1: m
+    sw2: m
+    sw3: m
+    tone: 9
   file: captures/sa1mqr2457_a2.nam
 - values:
-    model: timmy_12_12_09_d_u_u
+    bass: 12
+    gain: 12
+    sw1: d
+    sw2: u
+    sw3: u
+    tone: 9
   file: captures/p3gb2gcwmti_a2.nam
 - values:
-    model: timmy_03_12_09_d_u_u
+    bass: 12
+    gain: 3
+    sw1: d
+    sw2: u
+    sw3: u
+    tone: 9
   file: captures/azynkmkveye_a2.nam
 - values:
-    model: timmy_03_12_09_m_d_d
+    bass: 12
+    gain: 3
+    sw1: m
+    sw2: d
+    sw3: d
+    tone: 9
   file: captures/vtttzcbinj_a2.nam

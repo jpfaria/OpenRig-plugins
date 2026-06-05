@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - randall_warhead
+  - default
 captures:
 - values:
-    model: randall_warhead
+    model: default
   file: captures/ac603356b43230b9_a2.nam

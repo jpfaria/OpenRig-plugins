@@ -13,44 +13,44 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - e530_vintage_no_boost
-  - e530_modern_no_boost
-  - e530_modern_no_boost_contour
-  - e530_vintage_no_boost_contour
-  - e530_modern_boost_contour
-  - e530_modern_boost
-  - e530_clean
-  - e530_clean_cr
-  - e530_vintage_boost_contour
-  - e530_vintage_boost
+  - vintage
+  - vintage_ctr
+  - vintage_boost
+  - vintage_boost_ctr
+  - modern
+  - modern_ctr
+  - modern_boost
+  - modern_boost_ctr
+  - clean
+  - clean_cr
 captures:
 - values:
-    model: e530_vintage_no_boost
+    model: vintage
   file: captures/b90b71d3e76f0d39_a2.nam
 - values:
-    model: e530_modern_no_boost
+    model: modern
   file: captures/c2632c0ba9877dee_a2.nam
 - values:
-    model: e530_modern_no_boost_contour
+    model: modern_ctr
   file: captures/bf4e87df407e33f4_a2.nam
 - values:
-    model: e530_vintage_no_boost_contour
+    model: vintage_ctr
   file: captures/ebfdc74183dd7ee2_a2.nam
 - values:
-    model: e530_modern_boost_contour
+    model: modern_boost_ctr
   file: captures/d91a83779ce79ffd_a2.nam
 - values:
-    model: e530_modern_boost
+    model: modern_boost
   file: captures/bbb723aff3697a2c_a2.nam
 - values:
-    model: e530_clean
+    model: clean
   file: captures/9b23437d018e869e_a2.nam
 - values:
-    model: e530_clean_cr
+    model: clean_cr
   file: captures/ac960cd184d6e550_a2.nam
 - values:
-    model: e530_vintage_boost_contour
+    model: vintage_boost_ctr
   file: captures/bfc7c4559a08af3b_a2.nam
 - values:
-    model: e530_vintage_boost
+    model: vintage_boost
   file: captures/366db587689eee59_a2.nam

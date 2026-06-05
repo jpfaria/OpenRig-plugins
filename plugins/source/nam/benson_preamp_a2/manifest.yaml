@@ -12,52 +12,52 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - benson_preamp_pedal_t6_b6_v8_g2
-  - benson_preamp_pedal_t5_b6_v10_g1
-  - benson_preamp_pedal_t5_b8_v7_g4
-  - benson_preamp_pedal_t6_b8_v7_g8
-  - benson_preamp_pedal_t6_b5_v6_g7
-  - benson_preamp_pedal_t6_b6_v6_g7
-  - benson_preamp_pedal_t6_5_b6_v6_5_g8
-  - benson_preamp_pedal_t4_b8_v7_g8
-  - benson_preamp_pedal_t4_b7_v7_g6
-  - benson_preamp_pedal_t6_b6_v9_g3
-  - benson_preamp_pedal_t5_b6_v10_g2
-  - benson_preamp_pedal_t6_b5_v5_g7
+  - t6_b6_v8_g2
+  - t5_b6_v10_g1
+  - t5_b8_v7_g4
+  - t6_b8_v7_g8
+  - t6_b5_v6_g7
+  - t6_b6_v6_g7
+  - t6_5_b6_v6_5_g8
+  - t4_b8_v7_g8
+  - t4_b7_v7_g6
+  - t6_b6_v9_g3
+  - t5_b6_v10_g2
+  - t6_b5_v5_g7
 captures:
 - values:
-    model: benson_preamp_pedal_t6_b6_v8_g2
+    model: t6_b6_v8_g2
   file: captures/0d4a01f69c56bde1_a2.nam
 - values:
-    model: benson_preamp_pedal_t5_b6_v10_g1
+    model: t5_b6_v10_g1
   file: captures/31a6b173e42c07bf_a2.nam
 - values:
-    model: benson_preamp_pedal_t5_b8_v7_g4
+    model: t5_b8_v7_g4
   file: captures/2f6c150d4897ad75_a2.nam
 - values:
-    model: benson_preamp_pedal_t6_b8_v7_g8
+    model: t6_b8_v7_g8
   file: captures/9dba46699afedb06_a2.nam
 - values:
-    model: benson_preamp_pedal_t6_b5_v6_g7
+    model: t6_b5_v6_g7
   file: captures/664642f74ed6377e_a2.nam
 - values:
-    model: benson_preamp_pedal_t6_b6_v6_g7
+    model: t6_b6_v6_g7
   file: captures/5262add64c2e3281_a2.nam
 - values:
-    model: benson_preamp_pedal_t6_5_b6_v6_5_g8
+    model: t6_5_b6_v6_5_g8
   file: captures/5127b75ad9e99da4_a2.nam
 - values:
-    model: benson_preamp_pedal_t4_b8_v7_g8
+    model: t4_b8_v7_g8
   file: captures/31d53c47b28f6c78_a2.nam
 - values:
-    model: benson_preamp_pedal_t4_b7_v7_g6
+    model: t4_b7_v7_g6
   file: captures/4feef824659c9382_a2.nam
 - values:
-    model: benson_preamp_pedal_t6_b6_v9_g3
+    model: t6_b6_v9_g3
   file: captures/0c8ce54d7544286d_a2.nam
 - values:
-    model: benson_preamp_pedal_t5_b6_v10_g2
+    model: t5_b6_v10_g2
   file: captures/001e4594dbd1cf64_a2.nam
 - values:
-    model: benson_preamp_pedal_t6_b5_v5_g7
+    model: t6_b5_v5_g7
   file: captures/2967447385a3f9b3_a2.nam

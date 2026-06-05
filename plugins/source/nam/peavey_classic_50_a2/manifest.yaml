@@ -13,48 +13,48 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - peavey_classic_50_vol_7
-  - peavey_classic_50_bright_vol_5
-  - peavey_classic_50_crunch_ch
-  - peavey_classic_50_vol_3
-  - peavey_classic_50_bright_vol_7
-  - peavey_classic_50_vol_5
-  - peavey_classic_50_vol_11
-  - peavey_classic_50_bright_vol_9
-  - peavey_classic_50_bright_vol_11
-  - peavey_classic_50_vol_9
-  - peavey_classic_50_bright_vol_3
+  - vol3
+  - vol5
+  - vol7
+  - vol9
+  - vol11
+  - bright_vol3
+  - bright_vol5
+  - bright_vol7
+  - bright_vol9
+  - bright_vol11
+  - crunch
 captures:
 - values:
-    model: peavey_classic_50_vol_7
-  file: captures/6f0d7c1bd15bc56a_a2.nam
-- values:
-    model: peavey_classic_50_bright_vol_5
-  file: captures/3631fc5215bf3abd_a2.nam
-- values:
-    model: peavey_classic_50_crunch_ch
-  file: captures/410f8d13d7a61252_a2.nam
-- values:
-    model: peavey_classic_50_vol_3
+    model: vol3
   file: captures/f541d2b3cd510e0b_a2.nam
 - values:
-    model: peavey_classic_50_bright_vol_7
-  file: captures/e14f3608fb534c40_a2.nam
-- values:
-    model: peavey_classic_50_vol_5
+    model: vol5
   file: captures/6f2edb342c325d21_a2.nam
 - values:
-    model: peavey_classic_50_vol_11
-  file: captures/86b2dc620dc36a2a_a2.nam
+    model: vol7
+  file: captures/6f0d7c1bd15bc56a_a2.nam
 - values:
-    model: peavey_classic_50_bright_vol_9
-  file: captures/f3ee23b5463f5c0a_a2.nam
-- values:
-    model: peavey_classic_50_bright_vol_11
-  file: captures/973b033dea69a8c6_a2.nam
-- values:
-    model: peavey_classic_50_vol_9
+    model: vol9
   file: captures/729534e3c0365d2d_a2.nam
 - values:
-    model: peavey_classic_50_bright_vol_3
+    model: vol11
+  file: captures/86b2dc620dc36a2a_a2.nam
+- values:
+    model: bright_vol3
   file: captures/01bf131695862a8c_a2.nam
+- values:
+    model: bright_vol5
+  file: captures/3631fc5215bf3abd_a2.nam
+- values:
+    model: bright_vol7
+  file: captures/e14f3608fb534c40_a2.nam
+- values:
+    model: bright_vol9
+  file: captures/f3ee23b5463f5c0a_a2.nam
+- values:
+    model: bright_vol11
+  file: captures/973b033dea69a8c6_a2.nam
+- values:
+    model: crunch
+  file: captures/410f8d13d7a61252_a2.nam

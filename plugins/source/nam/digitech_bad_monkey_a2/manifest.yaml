@@ -9,87 +9,102 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/696
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - badmonkey_boost2_v10_b4_t6_g4_lite
-  - badmonkey_boost1_v10_b4_t6_g0_lite
-  - badmonkey_klon_lite
-  - badmonkey_zen_standard
-  - badmonkey_boost3_v10_b7_t6_g4_standard
-  - badmonkey_klon_standard
-  - badmonkey_noble_odr_1_lite
-  - badmonkey_boost3_v10_b7_t6_g0_lite
-  - badmonkey_boost2_v10_b4_t6_g4_standard
-  - badmonkey_glory_lite
-  - badmonkey_ts10_lite
-  - badmonkey_noble_odr_1_standard
-  - badmonkey_fulltone_lite
-  - badmonkey_boost3_v10_b7_t6_g4_lite
-  - badmonkey_ts10_standard
-  - badmonkey_boost3_v10_b7_t6_g0_standard
-  - badmonkey_zen_lite
-  - badmonkey_fulltone_standard
-  - badmonkey_boost1_v10_b4_t6_g0_standard
-  - badmonkey_glory_standard
+  - boost1
+  - boost2
+  - boost3_g0
+  - boost3_g4
+  - fulltone
+  - glory
+  - klon
+  - noble_odr_1
+  - ts10
+  - zen
+- name: size
+  display_name: Model Size
+  values:
+  - lite
+  - standard
 captures:
 - values:
-    model: badmonkey_boost2_v10_b4_t6_g4_lite
+    size: lite
+    voicing: boost2
   file: captures/ebc4b8974a0f3b9d_a2.nam
 - values:
-    model: badmonkey_boost1_v10_b4_t6_g0_lite
+    size: lite
+    voicing: boost1
   file: captures/7d193c4d2da8c4d3_a2.nam
 - values:
-    model: badmonkey_klon_lite
+    size: lite
+    voicing: klon
   file: captures/470b4ddffaab6e39_a2.nam
 - values:
-    model: badmonkey_zen_standard
+    size: standard
+    voicing: zen
   file: captures/28a8018a3b951b56_a2.nam
 - values:
-    model: badmonkey_boost3_v10_b7_t6_g4_standard
+    size: standard
+    voicing: boost3_g4
   file: captures/4b97ee6b6f7a9450_a2.nam
 - values:
-    model: badmonkey_klon_standard
+    size: standard
+    voicing: klon
   file: captures/e3255fa1d92a874e_a2.nam
 - values:
-    model: badmonkey_noble_odr_1_lite
+    size: lite
+    voicing: noble_odr_1
   file: captures/fc8d9485d9bd7bda_a2.nam
 - values:
-    model: badmonkey_boost3_v10_b7_t6_g0_lite
+    size: lite
+    voicing: boost3_g0
   file: captures/a72c9c90cc01c351_a2.nam
 - values:
-    model: badmonkey_boost2_v10_b4_t6_g4_standard
+    size: standard
+    voicing: boost2
   file: captures/032974b7872f2d2d_a2.nam
 - values:
-    model: badmonkey_glory_lite
+    size: lite
+    voicing: glory
   file: captures/e749ef9779c190e1_a2.nam
 - values:
-    model: badmonkey_ts10_lite
+    size: lite
+    voicing: ts10
   file: captures/ac5185f6d4d2edc6_a2.nam
 - values:
-    model: badmonkey_noble_odr_1_standard
+    size: standard
+    voicing: noble_odr_1
   file: captures/e780efeaee469afd_a2.nam
 - values:
-    model: badmonkey_fulltone_lite
+    size: lite
+    voicing: fulltone
   file: captures/d0d4e4e1d65af46b_a2.nam
 - values:
-    model: badmonkey_boost3_v10_b7_t6_g4_lite
+    size: lite
+    voicing: boost3_g4
   file: captures/82468d8a2261a5f5_a2.nam
 - values:
-    model: badmonkey_ts10_standard
+    size: standard
+    voicing: ts10
   file: captures/618d8974ea99470f_a2.nam
 - values:
-    model: badmonkey_boost3_v10_b7_t6_g0_standard
+    size: standard
+    voicing: boost3_g0
   file: captures/6263d1bc91092b09_a2.nam
 - values:
-    model: badmonkey_zen_lite
+    size: lite
+    voicing: zen
   file: captures/e5074d6281942e0d_a2.nam
 - values:
-    model: badmonkey_fulltone_standard
+    size: standard
+    voicing: fulltone
   file: captures/65cec7d6528a4e74_a2.nam
 - values:
-    model: badmonkey_boost1_v10_b4_t6_g0_standard
+    size: standard
+    voicing: boost1
   file: captures/205d9d836991556b_a2.nam
 - values:
-    model: badmonkey_glory_standard
+    size: standard
+    voicing: glory
   file: captures/2cf15fb867832013_a2.nam

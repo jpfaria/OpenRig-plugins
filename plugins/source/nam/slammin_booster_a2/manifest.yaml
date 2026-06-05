@@ -9,59 +9,59 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6176
 parameters:
-- name: model
-  display_name: Model
+- name: character
+  display_name: Character
   values:
-  - slammin_echopre_mid
-  - slammin_fulltone_ocd_lp_t5_g0
-  - slammin_echopre_dark
-  - slammin_mooer_rat_f5_g1
-  - slammin_maxon_od808_t5_g0
-  - slammin_goldenpearl_t6_g3
-  - slammin_fulltone_ocd_hp_t5_g0
-  - slammin_goldenpearl_t5_g0
-  - slammin_echopre_bright
-  - slammin_fulltone_ocd_lp_t7_g0
-  - slammin_boss_sd1_t7_g0
-  - slammin_maxon_od808_t7_g0
-  - slammin_boss_sd1_t5_g0
+  - echopre_mid
+  - echopre_dark
+  - echopre_bright
+  - ocd_lp_t5
+  - ocd_hp_t5
+  - ocd_lp_t7
+  - rat_f5_g1
+  - od808_t5
+  - od808_t7
+  - goldenpearl_t6_g3
+  - goldenpearl_t5
+  - sd1_t7
+  - sd1_t5
 captures:
 - values:
-    model: slammin_echopre_mid
+    character: echopre_mid
   file: captures/e26c3be9049083c7_a2.nam
 - values:
-    model: slammin_fulltone_ocd_lp_t5_g0
+    character: ocd_lp_t5
   file: captures/658a31890982904d_a2.nam
 - values:
-    model: slammin_echopre_dark
+    character: echopre_dark
   file: captures/1d5fdf08408d0817_a2.nam
 - values:
-    model: slammin_mooer_rat_f5_g1
+    character: rat_f5_g1
   file: captures/e5d5f970e636515a_a2.nam
 - values:
-    model: slammin_maxon_od808_t5_g0
+    character: od808_t5
   file: captures/24d73e0d6e0e9bdc_a2.nam
 - values:
-    model: slammin_goldenpearl_t6_g3
+    character: goldenpearl_t6_g3
   file: captures/d331a35ee269435d_a2.nam
 - values:
-    model: slammin_fulltone_ocd_hp_t5_g0
+    character: ocd_hp_t5
   file: captures/b5a590708adf90c8_a2.nam
 - values:
-    model: slammin_goldenpearl_t5_g0
+    character: goldenpearl_t5
   file: captures/e4bbe24591717666_a2.nam
 - values:
-    model: slammin_echopre_bright
+    character: echopre_bright
   file: captures/7097850f2050545d_a2.nam
 - values:
-    model: slammin_fulltone_ocd_lp_t7_g0
+    character: ocd_lp_t7
   file: captures/3b7b5b12a7489be6_a2.nam
 - values:
-    model: slammin_boss_sd1_t7_g0
+    character: sd1_t7
   file: captures/601e6873496c0c87_a2.nam
 - values:
-    model: slammin_maxon_od808_t7_g0
+    character: od808_t7
   file: captures/d03a98570f96d6ef_a2.nam
 - values:
-    model: slammin_boss_sd1_t5_g0
+    character: sd1_t5
   file: captures/bc58bb69c08634d2_a2.nam

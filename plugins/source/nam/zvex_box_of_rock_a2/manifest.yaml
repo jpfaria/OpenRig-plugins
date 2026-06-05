@@ -9,27 +9,27 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/28894
 parameters:
-- name: model
-  display_name: Model
+- name: drive
+  display_name: Drive
   values:
-  - 1_box_of_rock_vol_7_tone_1_drive_1
-  - 2_box_of_rock_vol_7_tone_3_drive_3
-  - 3_box_of_rock_vol_7_tone_5_drive_5
-  - 4_box_of_rock_vol_7_tone_7_drive_7
-  - 5_box_of_rock_vol_7_tone_9_drive_9
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
 captures:
 - values:
-    model: 1_box_of_rock_vol_7_tone_1_drive_1
+    drive: 1
   file: captures/c7xihu3qejo_a2.nam
 - values:
-    model: 2_box_of_rock_vol_7_tone_3_drive_3
+    drive: 3
   file: captures/1accwubecf_a2.nam
 - values:
-    model: 3_box_of_rock_vol_7_tone_5_drive_5
+    drive: 5
   file: captures/kxq7ydw639j_a2.nam
 - values:
-    model: 4_box_of_rock_vol_7_tone_7_drive_7
+    drive: 7
   file: captures/96ism27btp4_a2.nam
 - values:
-    model: 5_box_of_rock_vol_7_tone_9_drive_9
+    drive: 9
   file: captures/s27b7rczyij_a2.nam

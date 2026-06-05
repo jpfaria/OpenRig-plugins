@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30580
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - electroharmonix_mig50_clean_700epochs
-  - electroharmonix_mig50_od_1300epochs
-  - electroharmonix_mig50_crunch_1000epochs
+  - clean
+  - crunch
+  - od
 captures:
 - values:
-    model: electroharmonix_mig50_clean_700epochs
+    voicing: clean
   file: captures/fg2hd85wsye_a2.nam
 - values:
-    model: electroharmonix_mig50_od_1300epochs
-  file: captures/lsbvw4w6amk_a2.nam
-- values:
-    model: electroharmonix_mig50_crunch_1000epochs
+    voicing: crunch
   file: captures/nnnyvl1pvjl_a2.nam
+- values:
+    voicing: od
+  file: captures/lsbvw4w6amk_a2.nam

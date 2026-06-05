@@ -10,11 +10,16 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64481
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - 01_fr_marshall_1987x_hi_input_crunch_bal_di
+  - crunch
+- name: input
+  display_name: Input
+  values:
+  - hi
 captures:
 - values:
-    model: 01_fr_marshall_1987x_hi_input_crunch_bal_di
+    gain: crunch
+    input: hi
   file: captures/hhk4rm5e0ue_a2.nam

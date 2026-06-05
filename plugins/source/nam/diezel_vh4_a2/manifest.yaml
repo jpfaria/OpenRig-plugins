@@ -9,55 +9,81 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/68062
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - dzlvh4_ch3_lowgain1_di
-  - dzlvh4_ch4_ts808_lowgain2_di
-  - dzlvh4_ch3_ts808_midgain1_di
-  - dzlvh4_ch4_ts808_highgain1_di
-  - dzlvh4_ch4_highgain1_di
-  - dzlvh4_ch3_midgain1_di
-  - dzlvh4_ch4_lowgain1_di
-  - dzlvh4_ch3_ts808_lowgain1_di
-  - dzlvh4_ch4_ts808_midgain1_di
-  - dzlvh4_ch3_highgain1_di
-  - dzlvh4_ch3_ts808_highgain1_di
-  - dzlvh4_ch4_midgain1_di
+  - 3
+  - 4
+- name: boost
+  display_name: Boost
+  values:
+  - false
+  - true
+- name: gain
+  display_name: Gain
+  values:
+  - low1
+  - low2
+  - mid1
+  - high1
 captures:
 - values:
-    model: dzlvh4_ch3_lowgain1_di
+    boost: false
+    channel: 3
+    gain: low1
   file: captures/hhwpipaxpst_a2.nam
 - values:
-    model: dzlvh4_ch4_ts808_lowgain2_di
+    boost: true
+    channel: 4
+    gain: low2
   file: captures/pb3zwrer6m_a2.nam
 - values:
-    model: dzlvh4_ch3_ts808_midgain1_di
+    boost: true
+    channel: 3
+    gain: mid1
   file: captures/exzcjiknlpv_a2.nam
 - values:
-    model: dzlvh4_ch4_ts808_highgain1_di
+    boost: true
+    channel: 4
+    gain: high1
   file: captures/gx04xs7my96_a2.nam
 - values:
-    model: dzlvh4_ch4_highgain1_di
+    boost: false
+    channel: 4
+    gain: high1
   file: captures/q0cs0nqhr6_a2.nam
 - values:
-    model: dzlvh4_ch3_midgain1_di
+    boost: false
+    channel: 3
+    gain: mid1
   file: captures/vj0iw18yqs_a2.nam
 - values:
-    model: dzlvh4_ch4_lowgain1_di
+    boost: false
+    channel: 4
+    gain: low1
   file: captures/kmulurllzej_a2.nam
 - values:
-    model: dzlvh4_ch3_ts808_lowgain1_di
+    boost: true
+    channel: 3
+    gain: low1
   file: captures/wv0450pw9vf_a2.nam
 - values:
-    model: dzlvh4_ch4_ts808_midgain1_di
+    boost: true
+    channel: 4
+    gain: mid1
   file: captures/zikmfryifuq_a2.nam
 - values:
-    model: dzlvh4_ch3_highgain1_di
+    boost: false
+    channel: 3
+    gain: high1
   file: captures/ksmgt1n8uxl_a2.nam
 - values:
-    model: dzlvh4_ch3_ts808_highgain1_di
+    boost: true
+    channel: 3
+    gain: high1
   file: captures/86r5pz8l9wg_a2.nam
 - values:
-    model: dzlvh4_ch4_midgain1_di
+    boost: false
+    channel: 4
+    gain: mid1
   file: captures/799pdqv52ly_a2.nam

@@ -9,55 +9,80 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/36541
 parameters:
-- name: model
-  display_name: Model
+- name: voice
+  display_name: Voice
   values:
-  - pickle_low_drive_with_blend
-  - pickle_mid_drive_with_blend
-  - pickle_high_drive_no_blend
-  - pork_low_drive_with_blend
-  - pickle_low_drive_no_blend
-  - pork_high_drive_no_blend
-  - pork_low_drive_no_blend
-  - pickle_mid_drive_no_blend
-  - pickle_high_drive_with_blend
-  - pork_mid_drive_no_blend
-  - pork_mid_drive_with_blend
-  - pork_high_drive_with_blend
+  - pork
+  - brine
+- name: drive
+  display_name: Drive
+  values:
+  - low
+  - mid
+  - high
+- name: blend
+  display_name: Clean Blend
+  values:
+  - no
+  - with
 captures:
 - values:
-    model: pickle_low_drive_with_blend
+    blend: with
+    drive: low
+    voice: brine
   file: captures/cd7c1b7ljje_a2.nam
 - values:
-    model: pickle_mid_drive_with_blend
+    blend: with
+    drive: mid
+    voice: brine
   file: captures/ozg85asvzg_a2.nam
 - values:
-    model: pickle_high_drive_no_blend
+    blend: no
+    drive: high
+    voice: brine
   file: captures/dhhcnxu4gdi_a2.nam
 - values:
-    model: pork_low_drive_with_blend
+    blend: with
+    drive: low
+    voice: pork
   file: captures/eco7g1bgkbj_a2.nam
 - values:
-    model: pickle_low_drive_no_blend
+    blend: no
+    drive: low
+    voice: brine
   file: captures/wpekxfftha_a2.nam
 - values:
-    model: pork_high_drive_no_blend
+    blend: no
+    drive: high
+    voice: pork
   file: captures/lkn86e3o3cn_a2.nam
 - values:
-    model: pork_low_drive_no_blend
+    blend: no
+    drive: low
+    voice: pork
   file: captures/qhyqdq2qtnq_a2.nam
 - values:
-    model: pickle_mid_drive_no_blend
+    blend: no
+    drive: mid
+    voice: brine
   file: captures/pmmmpob6rp_a2.nam
 - values:
-    model: pickle_high_drive_with_blend
+    blend: with
+    drive: high
+    voice: brine
   file: captures/eflpb8yvyt_a2.nam
 - values:
-    model: pork_mid_drive_no_blend
+    blend: no
+    drive: mid
+    voice: pork
   file: captures/ewvy65f28v_a2.nam
 - values:
-    model: pork_mid_drive_with_blend
+    blend: with
+    drive: mid
+    voice: pork
   file: captures/dgez5sg1cdg_a2.nam
 - values:
-    model: pork_high_drive_with_blend
+    blend: with
+    drive: high
+    voice: pork
   file: captures/cm0ls023aa_a2.nam

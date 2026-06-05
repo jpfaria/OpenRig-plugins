@@ -10,35 +10,35 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/66768
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - mark_iii_scream_lead
-  - mark_iii_lead
-  - mark_iii_jp_hi_gain
-  - mark_iii_old_school_rhy
-  - mark_iii_crunch
-  - mark_iii_monorhythmia
-  - mark_iii_clean
+  - clean
+  - crunch
+  - monorhythmia
+  - old_school_rhythm
+  - jp_hi_gain
+  - lead
+  - scream_lead
 captures:
 - values:
-    model: mark_iii_scream_lead
+    voicing: scream_lead
   file: captures/vpwdqtjugx_a2.nam
 - values:
-    model: mark_iii_lead
+    voicing: lead
   file: captures/kkgsenwa6en_a2.nam
 - values:
-    model: mark_iii_jp_hi_gain
+    voicing: jp_hi_gain
   file: captures/fmhsr4plffo_a2.nam
 - values:
-    model: mark_iii_old_school_rhy
+    voicing: old_school_rhythm
   file: captures/702lxqeqsrc_a2.nam
 - values:
-    model: mark_iii_crunch
+    voicing: crunch
   file: captures/hi29g1hvu0t_a2.nam
 - values:
-    model: mark_iii_monorhythmia
+    voicing: monorhythmia
   file: captures/kcms6ypitgh_a2.nam
 - values:
-    model: mark_iii_clean
+    voicing: clean
   file: captures/5v406cnlrzv_a2.nam

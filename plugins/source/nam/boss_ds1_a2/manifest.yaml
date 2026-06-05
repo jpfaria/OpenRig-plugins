@@ -10,51 +10,51 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/38560
 parameters:
-- name: model
-  display_name: Model
+- name: dist
+  display_name: Dist
   values:
-  - boss_ds_1_t5_v10_g6
-  - boss_ds_1_t5_v10_g9
-  - boss_ds_1_t5_v10_g3
-  - boss_ds_1_t5_v10_g4
-  - boss_ds_1_t5_v10_g10
-  - boss_ds_1_t5_v10_g8
-  - boss_ds_1_t5_v10_g1
-  - boss_ds_1_t5_v10_g7
-  - boss_ds_1_t5_v10_g0
-  - boss_ds_1_t5_v10_g5
-  - boss_ds_1_t5_v10_g2
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 captures:
 - values:
-    model: boss_ds_1_t5_v10_g6
+    dist: 6
   file: captures/ziwfyyn2smb_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g9
+    dist: 9
   file: captures/zv8azdkej87_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g3
+    dist: 3
   file: captures/wvzntsqoff_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g4
+    dist: 4
   file: captures/otamxq1pm8m_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g10
+    dist: 10
   file: captures/xyzrujia2g_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g8
+    dist: 8
   file: captures/3e7w4q4yasi_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g1
+    dist: 1
   file: captures/at9bz0k2mi4_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g7
+    dist: 7
   file: captures/77y64gdblhn_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g0
+    dist: 0
   file: captures/jp8dktp1hm9_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g5
+    dist: 5
   file: captures/gnpkd7m2fhq_a2.nam
 - values:
-    model: boss_ds_1_t5_v10_g2
+    dist: 2
   file: captures/1wajk42hssth_a2.nam

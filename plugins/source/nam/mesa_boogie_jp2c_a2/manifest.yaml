@@ -13,108 +13,108 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - jp2c_capture_5_ch3_g8_t7_m4_b2_p6_emil_rohbe
-  - jp2c_capture_8_ch3_g8_t7_m2_b2_p5_emil_rohbe
-  - jp2c_capture_15_jp_lead_ch3_g9_t6_m3_b3_p6_ts808_emil_rohbe
-  - jp2c_capture_17_clean_ch1_g10_t6_m1_b4_p6_emil_rohbe
-  - jp2c_capture_7_ch3_g8_t7_m4_b2_p4_eq_less_bass_emil_rohbe
-  - jp2c_capture_14_jp_lead_ch3_g9_t6_m3_b3_p6_shred_emil_rohbe
-  - jp2c_capture_6_ch3_g8_t7_m4_b2_p4_shred_emil_rohbe
-  - jp2c_capture_19_petrucci_lead_current_settings_emil_rohbe
-  - jp2c_capture_16_clean_ch1_g6_t6_m1_b4_p6_emil_rohbe
-  - warning_bonus_capture_11_old_bad_ts808
-  - jp2c_capture_13_jp_rhy_ch2_g8_t6_m4_b3_p6_emil_rohbe
-  - jp2c_capture_10_ch3_g8_t7_m2_b2_p5_shred_emil_rohbe
-  - jp2c_capture_3_ch3_g10_t7_m4_b2_p4_emil_rohbe
-  - warning_bonus_capture_4_old_bad_ts808
-  - warning_bonus_capture_9_old_bad_ts808
-  - jp2c_capture_11_ch3_g8_t7_m2_b2_p5_ts808_emil_rohbe
-  - warning_bonus_capture_10_old_bad_ts808
-  - jp2c_capture_4_ch3_g8_t7_m4_b2_p4_ts808_emil_rohbe
-  - jp2c_capture_1_ch3_g8_t7_m4_b2_p4_emil_rohbe
-  - warning_bonus_capture_15_old_bad_ts808
-  - jp2c_capture_9_ch3_g10_t7_m2_b2_p5_emil_rohbe
-  - jp2c_capture_20_power_amp_only_no_eq_emil_rohbe
-  - jp2c_capture_2_ch3_g6_t7_m4_b2_p4_emil_rohbe
-  - jp2c_capture_21_power_amp_only_with_eq_emil_rohbe
-  - jp2c_capture_18_ultimate_lead_emil_rohbe
-  - jp2c_capture_12_jp_lead_ch3_g9_t6_m3_b3_p6_emil_rohbe
+  - ch3_g8_p6
+  - ch3_g8_m2
+  - lead_ts808
+  - clean_g10
+  - ch3_eq_less_bass
+  - lead_shred
+  - ch3_shred_p4
+  - petrucci_lead
+  - clean_g6
+  - bonus11_old_ts808
+  - rhythm_ch2
+  - ch3_m2_shred
+  - ch3_g10_p4
+  - bonus4_old_ts808
+  - bonus9_old_ts808
+  - ch3_m2_ts808
+  - bonus10_old_ts808
+  - ch3_ts808_p4
+  - ch3_g8_p4
+  - bonus15_old_ts808
+  - ch3_g10_m2
+  - power_amp_no_eq
+  - ch3_g6_p4
+  - power_amp_eq
+  - ultimate_lead
+  - lead_ch3
 captures:
 - values:
-    model: jp2c_capture_5_ch3_g8_t7_m4_b2_p6_emil_rohbe
+    model: ch3_g8_p6
   file: captures/4594686b6a493678_a2.nam
 - values:
-    model: jp2c_capture_8_ch3_g8_t7_m2_b2_p5_emil_rohbe
+    model: ch3_g8_m2
   file: captures/957ccebea95aefa9_a2.nam
 - values:
-    model: jp2c_capture_15_jp_lead_ch3_g9_t6_m3_b3_p6_ts808_emil_rohbe
+    model: lead_ts808
   file: captures/cff4b480369e9c7b_a2.nam
 - values:
-    model: jp2c_capture_17_clean_ch1_g10_t6_m1_b4_p6_emil_rohbe
+    model: clean_g10
   file: captures/7cd609759455a520_a2.nam
 - values:
-    model: jp2c_capture_7_ch3_g8_t7_m4_b2_p4_eq_less_bass_emil_rohbe
+    model: ch3_eq_less_bass
   file: captures/686413edb02e0065_a2.nam
 - values:
-    model: jp2c_capture_14_jp_lead_ch3_g9_t6_m3_b3_p6_shred_emil_rohbe
+    model: lead_shred
   file: captures/5787dc2b296b1c26_a2.nam
 - values:
-    model: jp2c_capture_6_ch3_g8_t7_m4_b2_p4_shred_emil_rohbe
+    model: ch3_shred_p4
   file: captures/9c0099751669e2af_a2.nam
 - values:
-    model: jp2c_capture_19_petrucci_lead_current_settings_emil_rohbe
+    model: petrucci_lead
   file: captures/0bc71ff483bb42a8_a2.nam
 - values:
-    model: jp2c_capture_16_clean_ch1_g6_t6_m1_b4_p6_emil_rohbe
+    model: clean_g6
   file: captures/a8adc9ab1a97a24a_a2.nam
 - values:
-    model: warning_bonus_capture_11_old_bad_ts808
+    model: bonus11_old_ts808
   file: captures/a706b801e590f1bf_a2.nam
 - values:
-    model: jp2c_capture_13_jp_rhy_ch2_g8_t6_m4_b3_p6_emil_rohbe
+    model: rhythm_ch2
   file: captures/5867b37b9c78642c_a2.nam
 - values:
-    model: jp2c_capture_10_ch3_g8_t7_m2_b2_p5_shred_emil_rohbe
+    model: ch3_m2_shred
   file: captures/483c2eec25dfdca4_a2.nam
 - values:
-    model: jp2c_capture_3_ch3_g10_t7_m4_b2_p4_emil_rohbe
+    model: ch3_g10_p4
   file: captures/f73cfbb0ee6359c1_a2.nam
 - values:
-    model: warning_bonus_capture_4_old_bad_ts808
+    model: bonus4_old_ts808
   file: captures/ae13dc2529fcae5b_a2.nam
 - values:
-    model: warning_bonus_capture_9_old_bad_ts808
+    model: bonus9_old_ts808
   file: captures/2cd1265145c85aa0_a2.nam
 - values:
-    model: jp2c_capture_11_ch3_g8_t7_m2_b2_p5_ts808_emil_rohbe
+    model: ch3_m2_ts808
   file: captures/14ecc42e71d5ba3d_a2.nam
 - values:
-    model: warning_bonus_capture_10_old_bad_ts808
+    model: bonus10_old_ts808
   file: captures/e7c3904593d40654_a2.nam
 - values:
-    model: jp2c_capture_4_ch3_g8_t7_m4_b2_p4_ts808_emil_rohbe
+    model: ch3_ts808_p4
   file: captures/c5fbe8926719bab7_a2.nam
 - values:
-    model: jp2c_capture_1_ch3_g8_t7_m4_b2_p4_emil_rohbe
+    model: ch3_g8_p4
   file: captures/9afa235befbbc5c8_a2.nam
 - values:
-    model: warning_bonus_capture_15_old_bad_ts808
+    model: bonus15_old_ts808
   file: captures/e3196fc9cf4a4d2e_a2.nam
 - values:
-    model: jp2c_capture_9_ch3_g10_t7_m2_b2_p5_emil_rohbe
+    model: ch3_g10_m2
   file: captures/fdd4044de580ef28_a2.nam
 - values:
-    model: jp2c_capture_20_power_amp_only_no_eq_emil_rohbe
+    model: power_amp_no_eq
   file: captures/36b9236c5778022a_a2.nam
 - values:
-    model: jp2c_capture_2_ch3_g6_t7_m4_b2_p4_emil_rohbe
+    model: ch3_g6_p4
   file: captures/2588c5279e4cd7ad_a2.nam
 - values:
-    model: jp2c_capture_21_power_amp_only_with_eq_emil_rohbe
+    model: power_amp_eq
   file: captures/fc67071feda81813_a2.nam
 - values:
-    model: jp2c_capture_18_ultimate_lead_emil_rohbe
+    model: ultimate_lead
   file: captures/da9783355abbca9f_a2.nam
 - values:
-    model: jp2c_capture_12_jp_lead_ch3_g9_t6_m3_b3_p6_emil_rohbe
+    model: lead_ch3
   file: captures/7d99a20152dc7321_a2.nam

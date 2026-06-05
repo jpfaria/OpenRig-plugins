@@ -10,19 +10,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/43498
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - fender_15g_clean_flat
-  - fender_15g_clean_boost_mid_bass_cut_treble_slightly
-  - high_gain_4
+  - clean
+  - clean_boost
+  - high_gain
 captures:
 - values:
-    model: fender_15g_clean_flat
+    voicing: clean
   file: captures/7aj7bv8ysgq_a2.nam
 - values:
-    model: fender_15g_clean_boost_mid_bass_cut_treble_slightly
+    voicing: clean_boost
   file: captures/ubm4rzj82f8_a2.nam
 - values:
-    model: high_gain_4
+    voicing: high_gain
   file: captures/fwfgdnltdaf_a2.nam

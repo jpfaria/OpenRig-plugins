@@ -9,79 +9,91 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/47732
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - kraken_g6_euna
-  - kraken_g7_euna
-  - kraken_g3_euna_b
-  - kraken_g4_euna_h
-  - kraken_g6_euna_h
-  - kraken_g5_euna_h
-  - kraken_g7_euna_h
-  - kraken_g3_euna_h
-  - kraken_g3_euna
-  - kraken_g4_euna_b
-  - kraken_g8_euna_h
-  - kraken_g5_euna_b
-  - kraken_g8_euna
-  - kraken_g8_euna_b
-  - kraken_g4_euna
-  - kraken_g7_euna_b
-  - kraken_g6_euna_b
-  - kraken_g5_euna
+  - g3
+  - g4
+  - g5
+  - g6
+  - g7
+  - g8
+- name: variant
+  display_name: Variant
+  values:
+  - std
+  - boost
+  - hot
 captures:
 - values:
-    model: kraken_g6_euna
+    gain: g6
+    variant: std
   file: captures/tiov11u221_a2.nam
 - values:
-    model: kraken_g7_euna
+    gain: g7
+    variant: std
   file: captures/alqmi8x6dlw_a2.nam
 - values:
-    model: kraken_g3_euna_b
+    gain: g3
+    variant: boost
   file: captures/yqyxb9c7lyi_a2.nam
 - values:
-    model: kraken_g4_euna_h
+    gain: g4
+    variant: hot
   file: captures/k4myly6cpih_a2.nam
 - values:
-    model: kraken_g6_euna_h
+    gain: g6
+    variant: hot
   file: captures/u8ss35ah22k_a2.nam
 - values:
-    model: kraken_g5_euna_h
+    gain: g5
+    variant: hot
   file: captures/iildeylids8_a2.nam
 - values:
-    model: kraken_g7_euna_h
+    gain: g7
+    variant: hot
   file: captures/1el61aolhr1_a2.nam
 - values:
-    model: kraken_g3_euna_h
+    gain: g3
+    variant: hot
   file: captures/t49xap7qb0h_a2.nam
 - values:
-    model: kraken_g3_euna
+    gain: g3
+    variant: std
   file: captures/0najo77xvzyr_a2.nam
 - values:
-    model: kraken_g4_euna_b
+    gain: g4
+    variant: boost
   file: captures/la2clpy42yp_a2.nam
 - values:
-    model: kraken_g8_euna_h
+    gain: g8
+    variant: hot
   file: captures/56993hv5twy_a2.nam
 - values:
-    model: kraken_g5_euna_b
+    gain: g5
+    variant: boost
   file: captures/r6je4rr3i1e_a2.nam
 - values:
-    model: kraken_g8_euna
+    gain: g8
+    variant: std
   file: captures/unqrl6lunzn_a2.nam
 - values:
-    model: kraken_g8_euna_b
+    gain: g8
+    variant: boost
   file: captures/4f7ofmgv4wm_a2.nam
 - values:
-    model: kraken_g4_euna
+    gain: g4
+    variant: std
   file: captures/5upfj78a66p_a2.nam
 - values:
-    model: kraken_g7_euna_b
+    gain: g7
+    variant: boost
   file: captures/6ussr8ratvj_a2.nam
 - values:
-    model: kraken_g6_euna_b
+    gain: g6
+    variant: boost
   file: captures/uuj76xqarp_a2.nam
 - values:
-    model: kraken_g5_euna
+    gain: g5
+    variant: std
   file: captures/iyyjhp64fc9_a2.nam

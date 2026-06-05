@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - synergy_ds_full_gain
+  - full_gain
 captures:
 - values:
-    model: synergy_ds_full_gain
+    model: full_gain
   file: captures/rygprhswtdb_a2.nam

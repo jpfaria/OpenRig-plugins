@@ -9,51 +9,63 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/44519
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - ksr_ceres_one_48khz_lead2
-  - ksr_ceres_one_48khz_rhythm4
-  - ksr_ceres_one_48khz_rhythm3
-  - ksr_ceres_one_48khz_rhythm2
-  - ksr_ceres_one_48khz_clean1
-  - ksr_ceres_one_48khz_clean2
-  - ksr_ceres_one_48khz_rhythm5
-  - ksr_ceres_one_48khz_rhythm1
-  - ksr_ceres_one_48khz_lead1
-  - ksr_ceres_one_48khz_rhythm6
-  - ksr_ceres_one_48khz_lead3
+  - clean
+  - rhythm
+  - lead
+- name: variant
+  display_name: Variant
+  values:
+  - v1
+  - v2
+  - v3
+  - v4
+  - v5
+  - v6
 captures:
 - values:
-    model: ksr_ceres_one_48khz_lead2
+    channel: lead
+    variant: v2
   file: captures/0tqyygtyly9f_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_rhythm4
+    channel: rhythm
+    variant: v4
   file: captures/77717mkcuer_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_rhythm3
+    channel: rhythm
+    variant: v3
   file: captures/g71owdyw6b_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_rhythm2
+    channel: rhythm
+    variant: v2
   file: captures/te462vitmyd_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_clean1
+    channel: clean
+    variant: v1
   file: captures/cnrmfbv708d_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_clean2
+    channel: clean
+    variant: v2
   file: captures/yixrzuihm6p_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_rhythm5
+    channel: rhythm
+    variant: v5
   file: captures/gw8mggu1vv_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_rhythm1
+    channel: rhythm
+    variant: v1
   file: captures/facr3882bol_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_lead1
+    channel: lead
+    variant: v1
   file: captures/y3dq27vir1_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_rhythm6
+    channel: rhythm
+    variant: v6
   file: captures/d1a4g0mipxu_a2.nam
 - values:
-    model: ksr_ceres_one_48khz_lead3
+    channel: lead
+    variant: v3
   file: captures/a46ncbq2jwq_a2.nam

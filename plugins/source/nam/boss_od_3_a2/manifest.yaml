@@ -10,55 +10,65 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/39066
 parameters:
-- name: model
-  display_name: Model
+- name: drive
+  display_name: Drive
   values:
-  - bossod3_middrive_hightone
-  - bossod3_lowdrive_centertone
-  - bossod3_nodrive_hightone
-  - bossod3_nodrive_lowtone
-  - bossod3_lowdrive_hightone
-  - bossod3_middrive_lowtone
-  - bossod3_hidrive_lowtone
-  - bossod3_lowdrive_lowtone
-  - bossod3_hidrive_hightone
-  - bossod3_middrive_centertone
-  - bossod3_hidrive_centertone
-  - bossod3_nodrive_centertone
+  - no
+  - low
+  - mid
+  - hi
+- name: tone
+  display_name: Tone
+  values:
+  - low
+  - center
+  - high
 captures:
 - values:
-    model: bossod3_middrive_hightone
+    drive: mid
+    tone: high
   file: captures/44nzyud7oze_a2.nam
 - values:
-    model: bossod3_lowdrive_centertone
+    drive: low
+    tone: center
   file: captures/4uhzl0bmgu5_a2.nam
 - values:
-    model: bossod3_nodrive_hightone
+    drive: no
+    tone: high
   file: captures/kkbidr4ihjk_a2.nam
 - values:
-    model: bossod3_nodrive_lowtone
+    drive: no
+    tone: low
   file: captures/99ygxk3df7r_a2.nam
 - values:
-    model: bossod3_lowdrive_hightone
+    drive: low
+    tone: high
   file: captures/jgklgbhm6yq_a2.nam
 - values:
-    model: bossod3_middrive_lowtone
+    drive: mid
+    tone: low
   file: captures/miqtnd85cf_a2.nam
 - values:
-    model: bossod3_hidrive_lowtone
+    drive: hi
+    tone: low
   file: captures/4is5wfzpuud_a2.nam
 - values:
-    model: bossod3_lowdrive_lowtone
+    drive: low
+    tone: low
   file: captures/oebq7y5fe1n_a2.nam
 - values:
-    model: bossod3_hidrive_hightone
+    drive: hi
+    tone: high
   file: captures/6a0amr6lp7y_a2.nam
 - values:
-    model: bossod3_middrive_centertone
+    drive: mid
+    tone: center
   file: captures/amoolnidh9n_a2.nam
 - values:
-    model: bossod3_hidrive_centertone
+    drive: hi
+    tone: center
   file: captures/fe4m8rg4xwf_a2.nam
 - values:
-    model: bossod3_nodrive_centertone
+    drive: no
+    tone: center
   file: captures/kpdgk9lwmc_a2.nam

@@ -10,23 +10,23 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/52421
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - avt50h_hg_midcut
-  - avt50h_hg_trebcut
-  - avt50h_hg_basscut
-  - avt50h_hg_dimed
+  - hg_bass_cut
+  - hg_dimed
+  - hg_mid_cut
+  - hg_treb_cut
 captures:
 - values:
-    model: avt50h_hg_midcut
+    voicing: hg_mid_cut
   file: captures/h8bwwazpnee_a2.nam
 - values:
-    model: avt50h_hg_trebcut
+    voicing: hg_treb_cut
   file: captures/og9vq3bhnsa_a2.nam
 - values:
-    model: avt50h_hg_basscut
+    voicing: hg_bass_cut
   file: captures/q0c95j3y2cl_a2.nam
 - values:
-    model: avt50h_hg_dimed
+    voicing: hg_dimed
   file: captures/u0ypd0qod6k_a2.nam

@@ -10,39 +10,39 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/62386
 parameters:
-- name: model
-  display_name: Model
+- name: boost
+  display_name: Boost
   values:
-  - 6505_lead
-  - 6505_lead_tkiy
-  - 6505_lead_808x
-  - 6505_lead_dualitydx_green
-  - 6505_lead_808
-  - 6505_lead_dualitydx_red
-  - 6505_lead_dualitydx_blue
-  - 6505_lead_sd1
+  - none
+  - tkiy
+  - ts808
+  - ts808x
+  - sd1
+  - duality_green
+  - duality_red
+  - duality_blue
 captures:
 - values:
-    model: 6505_lead
+    boost: none
   file: captures/vy7otxwdyz_a2.nam
 - values:
-    model: 6505_lead_tkiy
+    boost: tkiy
   file: captures/j02o5ohhqno_a2.nam
 - values:
-    model: 6505_lead_808x
+    boost: ts808x
   file: captures/vxljwcfcc9_a2.nam
 - values:
-    model: 6505_lead_dualitydx_green
+    boost: duality_green
   file: captures/njbi48c5gc9_a2.nam
 - values:
-    model: 6505_lead_808
+    boost: ts808
   file: captures/breqy4hpq0t_a2.nam
 - values:
-    model: 6505_lead_dualitydx_red
+    boost: duality_red
   file: captures/ma26ofr5ro8_a2.nam
 - values:
-    model: 6505_lead_dualitydx_blue
+    boost: duality_blue
   file: captures/4vsckdj4cw2_a2.nam
 - values:
-    model: 6505_lead_sd1
+    boost: sd1
   file: captures/tz0wbxnies_a2.nam

@@ -12,24 +12,24 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - keith_b_klone_plus_bb_lowgain
-  - keith_b_klone_maxg_t6_o5
-  - keith_b_klone_g6_t6_o5
-  - keith_b_klone_plus_bb_medgain
-  - keith_b_klone_plus_bb_highgain
+  - plus_bb_lowgain
+  - plus_bb_medgain
+  - plus_bb_highgain
+  - maxg_t6_o5
+  - g6_t6_o5
 captures:
 - values:
-    model: keith_b_klone_plus_bb_lowgain
+    model: plus_bb_lowgain
   file: captures/7f6abaaf83836843_a2.nam
 - values:
-    model: keith_b_klone_maxg_t6_o5
-  file: captures/5e0e6e06edea66fc_a2.nam
-- values:
-    model: keith_b_klone_g6_t6_o5
-  file: captures/e4718a50234e7196_a2.nam
-- values:
-    model: keith_b_klone_plus_bb_medgain
+    model: plus_bb_medgain
   file: captures/3e947995b86b7972_a2.nam
 - values:
-    model: keith_b_klone_plus_bb_highgain
+    model: plus_bb_highgain
   file: captures/23b543735e90d5d5_a2.nam
+- values:
+    model: maxg_t6_o5
+  file: captures/5e0e6e06edea66fc_a2.nam
+- values:
+    model: g6_t6_o5
+  file: captures/e4718a50234e7196_a2.nam

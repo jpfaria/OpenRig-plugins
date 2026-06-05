@@ -9,19 +9,27 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/29285
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - dumble_steel_ss_clean
-  - dumble_steel_ss_drive_2
-  - dumble_steel_ss_drive_1
+  - clean
+  - drive
+- name: variant
+  display_name: Variant
+  values:
+  - default
+  - 1
+  - 2
 captures:
 - values:
-    model: dumble_steel_ss_clean
+    channel: clean
+    variant: default
   file: captures/mgcozwq3yg_a2.nam
 - values:
-    model: dumble_steel_ss_drive_2
-  file: captures/ofart7ekzt_a2.nam
-- values:
-    model: dumble_steel_ss_drive_1
+    channel: drive
+    variant: 1
   file: captures/zo4h7fmfjcn_a2.nam
+- values:
+    channel: drive
+    variant: 2
+  file: captures/ofart7ekzt_a2.nam

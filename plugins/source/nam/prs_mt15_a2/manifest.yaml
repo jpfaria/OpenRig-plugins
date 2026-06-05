@@ -12,20 +12,20 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - prs_mt_15_unboosted_g3
-  - prs_mt_15_unboosted_g5
-  - prs_mt_15_merciless_drive
-  - prs_mt_15_fortin_14
+  - unboosted_g3
+  - unboosted_g5
+  - merciless_drive
+  - fortin_14
 captures:
 - values:
-    model: prs_mt_15_unboosted_g3
+    model: unboosted_g3
   file: captures/egqhgw4j1wg_a2.nam
 - values:
-    model: prs_mt_15_unboosted_g5
+    model: unboosted_g5
   file: captures/qrok7dgk85_a2.nam
 - values:
-    model: prs_mt_15_merciless_drive
+    model: merciless_drive
   file: captures/gvrn8bacakg_a2.nam
 - values:
-    model: prs_mt_15_fortin_14
+    model: fortin_14
   file: captures/hz12mb1emxv_a2.nam

@@ -9,79 +9,93 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5925
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - neutral_xr
-  - boost_ts10
-  - boost_jhs
-  - boost_keeley
-  - neutral_od1
-  - boost_msl
-  - boost_xr
-  - neutral_ts9
-  - neutral_808
-  - neutral_keeley
-  - boost_808
-  - neutral_jhs
-  - boost_ts9
-  - neutral_ts7
-  - boost_od1
-  - boost_ts7
-  - neutral_msl
-  - neutral_ts10
+  - neutral
+  - boost
+- name: mode
+  display_name: Mode
+  values:
+  - 808
+  - ts9
+  - ts7
+  - ts10
+  - od1
+  - jhs
+  - keeley
+  - xr
+  - msl
 captures:
 - values:
-    model: neutral_xr
+    gain: neutral
+    mode: xr
   file: captures/cd07210c86a6c3d6_a2.nam
 - values:
-    model: boost_ts10
+    gain: boost
+    mode: ts10
   file: captures/bd3f6de6c9e3ab36_a2.nam
 - values:
-    model: boost_jhs
+    gain: boost
+    mode: jhs
   file: captures/5a870836ecdfe068_a2.nam
 - values:
-    model: boost_keeley
+    gain: boost
+    mode: keeley
   file: captures/b9f952450c92d1e5_a2.nam
 - values:
-    model: neutral_od1
+    gain: neutral
+    mode: od1
   file: captures/c5a23908edd52a90_a2.nam
 - values:
-    model: boost_msl
+    gain: boost
+    mode: msl
   file: captures/806f259935a8efd4_a2.nam
 - values:
-    model: boost_xr
+    gain: boost
+    mode: xr
   file: captures/0c21a36c6c0ad4df_a2.nam
 - values:
-    model: neutral_ts9
+    gain: neutral
+    mode: ts9
   file: captures/d78ea7b7a0980832_a2.nam
 - values:
-    model: neutral_808
+    gain: neutral
+    mode: 808
   file: captures/daabc2911faa21ad_a2.nam
 - values:
-    model: neutral_keeley
+    gain: neutral
+    mode: keeley
   file: captures/b4770beb3f67d7e1_a2.nam
 - values:
-    model: boost_808
+    gain: boost
+    mode: 808
   file: captures/23b0d2b4ca9571aa_a2.nam
 - values:
-    model: neutral_jhs
+    gain: neutral
+    mode: jhs
   file: captures/93eb41c60eec27bf_a2.nam
 - values:
-    model: boost_ts9
+    gain: boost
+    mode: ts9
   file: captures/fcc32219ee96fe6c_a2.nam
 - values:
-    model: neutral_ts7
+    gain: neutral
+    mode: ts7
   file: captures/f1818e26de2af66d_a2.nam
 - values:
-    model: boost_od1
+    gain: boost
+    mode: od1
   file: captures/006f55c1fa969390_a2.nam
 - values:
-    model: boost_ts7
+    gain: boost
+    mode: ts7
   file: captures/9dbdafbbfdce701a_a2.nam
 - values:
-    model: neutral_msl
+    gain: neutral
+    mode: msl
   file: captures/09494df847d56333_a2.nam
 - values:
-    model: neutral_ts10
+    gain: neutral
+    mode: ts10
   file: captures/a16209e6f850ebb9_a2.nam

@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - earthquaker_devices_acapulco_gold
+  - clone
 captures:
 - values:
-    model: earthquaker_devices_acapulco_gold
+    model: clone
   file: captures/nurdvw8nn6_a2.nam

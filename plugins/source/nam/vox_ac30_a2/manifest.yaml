@@ -13,388 +13,388 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - slammin_vox_ac30_n_v5_tc5_s
-  - slammin_vox_ac30_tb_v3_tc0_b7_t7_push_s
-  - slammin_vox_ac30_tb_v8_tc5_b7_t4_warm_s
-  - slammin_vox_ac30_tb_v3_tc0_b1_t5_locut_s
-  - slammin_vox_ac30_n_v8_tc3_s
-  - slammin_vox_ac30_n_v10_tc0_dallastreble_4_s
-  - slammin_vox_ac30_tb_v2_tc5_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v3_tc0_b4_t7_bright_s
-  - slammin_vox_ac30_tb_v3_tc8_b4_t7_bright_s
-  - slammin_vox_ac30_tb_v5_tc4_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v8_tc5_b7_t8_push_s
-  - slammin_vox_ac30_tb_v8_tc2_b0_t0_mids_s
-  - slammin_vox_ac30_tb_v8_tc7_b10_t10_cranked_s
-  - slammin_vox_ac30_tb_v10_tc0_b10_t10_fullcrank_s
-  - slammin_vox_ac30_tb_v7_tc5_b10_t10_cranked_s
-  - slammin_vox_ac30_tb_v2_tc10_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v3_tc5_b4_t7_bright_s
-  - slammin_vox_ac30_tb_v3_tc8_b7_t7_push_s
-  - slammin_vox_ac30_tb_v5_tc0_b1_t7_locut_s
-  - slammin_vox_ac30_tb_v8_tc4_b1_t6_locut_s
-  - slammin_vox_ac30_tb_v8_tc8_b1_t6_locut_s
-  - slammin_vox_ac30_tb_v7_tc4_b1_t6_locut_s
-  - slammin_vox_ac30_n_v7_tc0_dallastreble_7_s
-  - slammin_vox_ac30_n_v8_tc10_s
-  - slammin_vox_ac30_tb_v5_tc0_b7_t4_warm_s
-  - slammin_vox_ac30_tb_v10_tc6_b1_t6_locut_s
-  - slammin_vox_ac30_tb_v7_tc0_b7_t3_warm_s
-  - slammin_vox_ac30_tb_v7_tc5_b7_t3_warm_s
-  - slammin_vox_ac30_n_v3_tc5_s
-  - slammin_vox_ac30_n_v10_tc0_dallastreble_6_s
-  - slammin_vox_ac30_tb_v3_tc4_b1_t5_streets_s
-  - slammin_vox_ac30_tb_v3_tc4_b6_t4_warm_s
-  - slammin_vox_ac30_tb_v5_tc4_b3_t8_bright_s
-  - slammin_vox_ac30_tb_v8_tc0_b1_t6_locut_s
-  - slammin_vox_ac30_tb_v10_tc6_b10_t10_fullcrank_s
-  - slammin_vox_ac30_tb_v7_tc4_b2_t7_bright_s
-  - slammin_vox_ac30_n_v3_tc8_s
-  - slammin_vox_ac30_n_v10_tc3_s
-  - slammin_vox_ac30_tb_v2_tc3_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v5_tc0_b7_t8_push_s
-  - slammin_vox_ac30_tb_v8_tc0_b7_t4_warm_s
-  - slammin_vox_ac30_tb_v8_tc0_b10_t10_cranked_s
-  - slammin_vox_ac30_tb_v10_tc0_b5_t6_noonish_s
-  - slammin_vox_ac30_n_v5_tc3_s
-  - slammin_vox_ac30_n_v5_tc8_s
-  - slammin_vox_ac30_tb_v2_tc8_b5_t5_noon_s
-  - slammin_vox_ac30_n_v10_tc0_s
-  - slammin_vox_ac30_tb_v7_tc5_b7_t8_push_s
-  - slammin_vox_ac30_n_v3_tc3_s
-  - slammin_vox_ac30_n_v5_tc10_s
-  - slammin_vox_ac30_n_v8_tc0_s
-  - slammin_vox_ac30_tb_v5_tc0_b3_t8_bright_s
-  - slammin_vox_ac30_tb_v5_tc7_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v5_tc7_b7_t8_push_s
-  - slammin_vox_ac30_tb_v8_tc0_b5_t5_noon_s
-  - slammin_vox_ac30_n_v3_tc10_s
-  - slammin_vox_ac30_tb_v3_tc0_b6_t4_warm_s
-  - slammin_vox_ac30_tb_v5_tc0_b10_t10_cranked_s
-  - slammin_vox_ac30_tb_v5_tc4_b7_t8_push_s
-  - slammin_vox_ac30_tb_v8_tc0_b3_t8_bright_s
-  - slammin_vox_ac30_tb_v7_tc7_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v7_tc8_b7_t8_push_s
-  - slammin_vox_ac30_n_v8_tc8_s
-  - slammin_vox_ac30_tb_v5_tc4_b1_t7_locut_s
-  - slammin_vox_ac30_tb_v5_tc7_b1_t7_locut_s
-  - slammin_vox_ac30_tb_v8_tc0_b7_t8_push_s
-  - slammin_vox_ac30_tb_v5_tc0_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v5_tc2_b0_t0_mids_s
-  - slammin_vox_ac30_tb_v5_tc7_b7_t4_warm_s
-  - slammin_vox_ac30_tb_v8_tc4_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v8_tc5_b3_t8_bright_s
-  - slammin_vox_ac30_tb_v7_tc0_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v7_tc0_b10_t10_cranked_s
-  - slammin_vox_ac30_tb_v7_tc4_b5_t5_noon_s
-  - slammin_vox_ac30_n_v5_tc0_s
-  - slammin_vox_ac30_n_v8_tc5_s
-  - slammin_vox_ac30_tb_v3_tc5_b7_t7_push_s
-  - slammin_vox_ac30_tb_v7_tc7_b7_t3_warm_s
-  - slammin_vox_ac30_n_v3_tc0_s
-  - slammin_vox_ac30_n_v10_tc0_dallastreble_8_s
-  - slammin_vox_ac30_tb_v2_tc0_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v3_tc6_b1_t5_locut_s
-  - slammin_vox_ac30_tb_v7_tc0_b1_t6_locut_s
-  - slammin_vox_ac30_tb_v8_tc7_b5_t5_noon_s
-  - slammin_vox_ac30_tb_v10_tc7_b5_t6_noonish_s
-  - slammin_vox_ac30_tb_v7_tc7_b2_t7_bright_s
-  - slammin_vox_ac30_tb_v3_tc7_b6_t4_warm_s
-  - slammin_vox_ac30_tb_v5_tc3_b7_t4_warm_s
-  - slammin_vox_ac30_tb_v5_tc8_b3_t8_bright_s
-  - slammin_vox_ac30_tb_v8_tc7_b3_t8_bright_s
-  - slammin_vox_ac30_tb_v10_tc0_b1_t6_locut_s
-  - slammin_vox_ac30_tb_v8_tc7_b7_t8_push_s
-  - slammin_vox_ac30_tb_v8_tc8_b7_t4_warm_s
-  - slammin_vox_ac30_tb_v7_tc0_b2_t7_bright_s
-  - slammin_vox_ac30_tb_v7_tc0_b7_t8_push_s
-  - slammin_vox_ac30_tb_v7_tc7_b1_t6_locut_s
+  - n_v5_tc5
+  - tb_v3_tc0_b7_t7_push
+  - tb_v8_tc5_b7_t4_warm
+  - tb_v3_tc0_b1_t5_locut
+  - n_v8_tc3
+  - n_v10_tc0_dallastreble_4
+  - tb_v2_tc5_b5_t5_noon
+  - tb_v3_tc0_b4_t7_bright
+  - tb_v3_tc8_b4_t7_bright
+  - tb_v5_tc4_b5_t5_noon
+  - tb_v8_tc5_b7_t8_push
+  - tb_v8_tc2_b0_t0_mids
+  - tb_v8_tc7_b10_t10_cranked
+  - tb_v10_tc0_b10_t10_fullcrank
+  - tb_v7_tc5_b10_t10_cranked
+  - tb_v2_tc10_b5_t5_noon
+  - tb_v3_tc5_b4_t7_bright
+  - tb_v3_tc8_b7_t7_push
+  - tb_v5_tc0_b1_t7_locut
+  - tb_v8_tc4_b1_t6_locut
+  - tb_v8_tc8_b1_t6_locut
+  - tb_v7_tc4_b1_t6_locut
+  - n_v7_tc0_dallastreble_7
+  - n_v8_tc10
+  - tb_v5_tc0_b7_t4_warm
+  - tb_v10_tc6_b1_t6_locut
+  - tb_v7_tc0_b7_t3_warm
+  - tb_v7_tc5_b7_t3_warm
+  - n_v3_tc5
+  - n_v10_tc0_dallastreble_6
+  - tb_v3_tc4_b1_t5_streets
+  - tb_v3_tc4_b6_t4_warm
+  - tb_v5_tc4_b3_t8_bright
+  - tb_v8_tc0_b1_t6_locut
+  - tb_v10_tc6_b10_t10_fullcrank
+  - tb_v7_tc4_b2_t7_bright
+  - n_v3_tc8
+  - n_v10_tc3
+  - tb_v2_tc3_b5_t5_noon
+  - tb_v5_tc0_b7_t8_push
+  - tb_v8_tc0_b7_t4_warm
+  - tb_v8_tc0_b10_t10_cranked
+  - tb_v10_tc0_b5_t6_noonish
+  - n_v5_tc3
+  - n_v5_tc8
+  - tb_v2_tc8_b5_t5_noon
+  - n_v10_tc0
+  - tb_v7_tc5_b7_t8_push
+  - n_v3_tc3
+  - n_v5_tc10
+  - n_v8_tc0
+  - tb_v5_tc0_b3_t8_bright
+  - tb_v5_tc7_b5_t5_noon
+  - tb_v5_tc7_b7_t8_push
+  - tb_v8_tc0_b5_t5_noon
+  - n_v3_tc10
+  - tb_v3_tc0_b6_t4_warm
+  - tb_v5_tc0_b10_t10_cranked
+  - tb_v5_tc4_b7_t8_push
+  - tb_v8_tc0_b3_t8_bright
+  - tb_v7_tc7_b5_t5_noon
+  - tb_v7_tc8_b7_t8_push
+  - n_v8_tc8
+  - tb_v5_tc4_b1_t7_locut
+  - tb_v5_tc7_b1_t7_locut
+  - tb_v8_tc0_b7_t8_push
+  - tb_v5_tc0_b5_t5_noon
+  - tb_v5_tc2_b0_t0_mids
+  - tb_v5_tc7_b7_t4_warm
+  - tb_v8_tc4_b5_t5_noon
+  - tb_v8_tc5_b3_t8_bright
+  - tb_v7_tc0_b5_t5_noon
+  - tb_v7_tc0_b10_t10_cranked
+  - tb_v7_tc4_b5_t5_noon
+  - n_v5_tc0
+  - n_v8_tc5
+  - tb_v3_tc5_b7_t7_push
+  - tb_v7_tc7_b7_t3_warm
+  - n_v3_tc0
+  - n_v10_tc0_dallastreble_8
+  - tb_v2_tc0_b5_t5_noon
+  - tb_v3_tc6_b1_t5_locut
+  - tb_v7_tc0_b1_t6_locut
+  - tb_v8_tc7_b5_t5_noon
+  - tb_v10_tc7_b5_t6_noonish
+  - tb_v7_tc7_b2_t7_bright
+  - tb_v3_tc7_b6_t4_warm
+  - tb_v5_tc3_b7_t4_warm
+  - tb_v5_tc8_b3_t8_bright
+  - tb_v8_tc7_b3_t8_bright
+  - tb_v10_tc0_b1_t6_locut
+  - tb_v8_tc7_b7_t8_push
+  - tb_v8_tc8_b7_t4_warm
+  - tb_v7_tc0_b2_t7_bright
+  - tb_v7_tc0_b7_t8_push
+  - tb_v7_tc7_b1_t6_locut
 captures:
 - values:
-    model: slammin_vox_ac30_n_v5_tc5_s
+    model: n_v5_tc5
   file: captures/pzpfr9cnau8_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc0_b7_t7_push_s
+    model: tb_v3_tc0_b7_t7_push
   file: captures/6ad4zn7b2gu_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc5_b7_t4_warm_s
+    model: tb_v8_tc5_b7_t4_warm
   file: captures/idtkzrqmapn_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc0_b1_t5_locut_s
+    model: tb_v3_tc0_b1_t5_locut
   file: captures/di0w0ydall4_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v8_tc3_s
+    model: n_v8_tc3
   file: captures/1gp6s7qx7qd_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v10_tc0_dallastreble_4_s
+    model: n_v10_tc0_dallastreble_4
   file: captures/kr3uxs3afff_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v2_tc5_b5_t5_noon_s
+    model: tb_v2_tc5_b5_t5_noon
   file: captures/o2a9im626ci_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc0_b4_t7_bright_s
+    model: tb_v3_tc0_b4_t7_bright
   file: captures/3lofpkfgncn_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc8_b4_t7_bright_s
+    model: tb_v3_tc8_b4_t7_bright
   file: captures/9i7hh3znigs_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc4_b5_t5_noon_s
+    model: tb_v5_tc4_b5_t5_noon
   file: captures/agw8e6ujdkw_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc5_b7_t8_push_s
+    model: tb_v8_tc5_b7_t8_push
   file: captures/tjeu90r45bj_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc2_b0_t0_mids_s
+    model: tb_v8_tc2_b0_t0_mids
   file: captures/6pm351xi7wp_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc7_b10_t10_cranked_s
+    model: tb_v8_tc7_b10_t10_cranked
   file: captures/f2la0r5xnxi_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v10_tc0_b10_t10_fullcrank_s
+    model: tb_v10_tc0_b10_t10_fullcrank
   file: captures/o4embh6zood_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc5_b10_t10_cranked_s
+    model: tb_v7_tc5_b10_t10_cranked
   file: captures/g0my2ia7yef_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v2_tc10_b5_t5_noon_s
+    model: tb_v2_tc10_b5_t5_noon
   file: captures/ewrgbufhu2r_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc5_b4_t7_bright_s
+    model: tb_v3_tc5_b4_t7_bright
   file: captures/44meglg3goz_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc8_b7_t7_push_s
+    model: tb_v3_tc8_b7_t7_push
   file: captures/9mu43qwf05a_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc0_b1_t7_locut_s
+    model: tb_v5_tc0_b1_t7_locut
   file: captures/49v0as3xqcc_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc4_b1_t6_locut_s
+    model: tb_v8_tc4_b1_t6_locut
   file: captures/v6ki14evg8_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc8_b1_t6_locut_s
+    model: tb_v8_tc8_b1_t6_locut
   file: captures/peaq54vjfh_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc4_b1_t6_locut_s
+    model: tb_v7_tc4_b1_t6_locut
   file: captures/wfi5mk0s29e_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v7_tc0_dallastreble_7_s
+    model: n_v7_tc0_dallastreble_7
   file: captures/mlula26pu9_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v8_tc10_s
+    model: n_v8_tc10
   file: captures/lypmrdefxrn_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc0_b7_t4_warm_s
+    model: tb_v5_tc0_b7_t4_warm
   file: captures/ybxkuot2vyo_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v10_tc6_b1_t6_locut_s
+    model: tb_v10_tc6_b1_t6_locut
   file: captures/xr6uo7jnxv_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc0_b7_t3_warm_s
+    model: tb_v7_tc0_b7_t3_warm
   file: captures/y631j7c5t2l_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc5_b7_t3_warm_s
+    model: tb_v7_tc5_b7_t3_warm
   file: captures/1lttjcaacpa_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v3_tc5_s
+    model: n_v3_tc5
   file: captures/5ogedrol1x_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v10_tc0_dallastreble_6_s
+    model: n_v10_tc0_dallastreble_6
   file: captures/xs6jf23a9ka_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc4_b1_t5_streets_s
+    model: tb_v3_tc4_b1_t5_streets
   file: captures/nbb3mki5iqc_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc4_b6_t4_warm_s
+    model: tb_v3_tc4_b6_t4_warm
   file: captures/332cohue3ap_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc4_b3_t8_bright_s
+    model: tb_v5_tc4_b3_t8_bright
   file: captures/lb1tkaqr129_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc0_b1_t6_locut_s
+    model: tb_v8_tc0_b1_t6_locut
   file: captures/o4w8ciguthp_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v10_tc6_b10_t10_fullcrank_s
+    model: tb_v10_tc6_b10_t10_fullcrank
   file: captures/djehg2ej9h_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc4_b2_t7_bright_s
+    model: tb_v7_tc4_b2_t7_bright
   file: captures/h0hze34lchd_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v3_tc8_s
+    model: n_v3_tc8
   file: captures/6lg5fio1dpq_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v10_tc3_s
+    model: n_v10_tc3
   file: captures/fxap7qjhizl_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v2_tc3_b5_t5_noon_s
+    model: tb_v2_tc3_b5_t5_noon
   file: captures/h2otj0gtt3s_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc0_b7_t8_push_s
+    model: tb_v5_tc0_b7_t8_push
   file: captures/p3yd33rvq6k_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc0_b7_t4_warm_s
+    model: tb_v8_tc0_b7_t4_warm
   file: captures/zukubazwadd_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc0_b10_t10_cranked_s
+    model: tb_v8_tc0_b10_t10_cranked
   file: captures/l7wfj09cjbs_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v10_tc0_b5_t6_noonish_s
+    model: tb_v10_tc0_b5_t6_noonish
   file: captures/m5vcd85ppsj_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v5_tc3_s
+    model: n_v5_tc3
   file: captures/42nh4qs714r_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v5_tc8_s
+    model: n_v5_tc8
   file: captures/pi6mohnkrdl_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v2_tc8_b5_t5_noon_s
+    model: tb_v2_tc8_b5_t5_noon
   file: captures/785shn4gn7i_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v10_tc0_s
+    model: n_v10_tc0
   file: captures/uplqi4kcpdj_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc5_b7_t8_push_s
+    model: tb_v7_tc5_b7_t8_push
   file: captures/m7ciuk778ki_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v3_tc3_s
+    model: n_v3_tc3
   file: captures/l3aaa7rrp3_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v5_tc10_s
+    model: n_v5_tc10
   file: captures/4tvu9qa3xxx_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v8_tc0_s
+    model: n_v8_tc0
   file: captures/yu6879yajo_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc0_b3_t8_bright_s
+    model: tb_v5_tc0_b3_t8_bright
   file: captures/1ifqza7ixmn_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc7_b5_t5_noon_s
+    model: tb_v5_tc7_b5_t5_noon
   file: captures/mkn801givhg_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc7_b7_t8_push_s
+    model: tb_v5_tc7_b7_t8_push
   file: captures/f5tz0ztci9_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc0_b5_t5_noon_s
+    model: tb_v8_tc0_b5_t5_noon
   file: captures/wl0rnww8py_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v3_tc10_s
+    model: n_v3_tc10
   file: captures/253vtqvlu23_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc0_b6_t4_warm_s
+    model: tb_v3_tc0_b6_t4_warm
   file: captures/0rylinx4nl7_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc0_b10_t10_cranked_s
+    model: tb_v5_tc0_b10_t10_cranked
   file: captures/mjiysngjbeg_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc4_b7_t8_push_s
+    model: tb_v5_tc4_b7_t8_push
   file: captures/rqs5q1aqf4g_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc0_b3_t8_bright_s
+    model: tb_v8_tc0_b3_t8_bright
   file: captures/jfh2mn0b8l_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc7_b5_t5_noon_s
+    model: tb_v7_tc7_b5_t5_noon
   file: captures/ycjodh9huae_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc8_b7_t8_push_s
+    model: tb_v7_tc8_b7_t8_push
   file: captures/6gpxftxb1z8_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v8_tc8_s
+    model: n_v8_tc8
   file: captures/5ji7hq0m3ix_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc4_b1_t7_locut_s
+    model: tb_v5_tc4_b1_t7_locut
   file: captures/cgu91ug8iza_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc7_b1_t7_locut_s
+    model: tb_v5_tc7_b1_t7_locut
   file: captures/guwxv2hulyl_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc0_b7_t8_push_s
+    model: tb_v8_tc0_b7_t8_push
   file: captures/eijnm33br1m_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc0_b5_t5_noon_s
+    model: tb_v5_tc0_b5_t5_noon
   file: captures/6m0aa5cqubr_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc2_b0_t0_mids_s
+    model: tb_v5_tc2_b0_t0_mids
   file: captures/z0371rn3ekg_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc7_b7_t4_warm_s
+    model: tb_v5_tc7_b7_t4_warm
   file: captures/fh4ex4jwqr8_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc4_b5_t5_noon_s
+    model: tb_v8_tc4_b5_t5_noon
   file: captures/3b50p555ac6_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc5_b3_t8_bright_s
+    model: tb_v8_tc5_b3_t8_bright
   file: captures/xk8u0p0bbq_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc0_b5_t5_noon_s
+    model: tb_v7_tc0_b5_t5_noon
   file: captures/mzjhalzgtw_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc0_b10_t10_cranked_s
+    model: tb_v7_tc0_b10_t10_cranked
   file: captures/74y8g3om69f_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc4_b5_t5_noon_s
+    model: tb_v7_tc4_b5_t5_noon
   file: captures/a6pifknh1a8_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v5_tc0_s
+    model: n_v5_tc0
   file: captures/mohavxe42kr_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v8_tc5_s
+    model: n_v8_tc5
   file: captures/7dlojffor1q_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc5_b7_t7_push_s
+    model: tb_v3_tc5_b7_t7_push
   file: captures/kv6tvbk5zo_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc7_b7_t3_warm_s
+    model: tb_v7_tc7_b7_t3_warm
   file: captures/4j0mhelhhkh_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v3_tc0_s
+    model: n_v3_tc0
   file: captures/i4alyx349uq_a2.nam
 - values:
-    model: slammin_vox_ac30_n_v10_tc0_dallastreble_8_s
+    model: n_v10_tc0_dallastreble_8
   file: captures/lcrklrg4ima_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v2_tc0_b5_t5_noon_s
+    model: tb_v2_tc0_b5_t5_noon
   file: captures/hkwwdpaej35_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc6_b1_t5_locut_s
+    model: tb_v3_tc6_b1_t5_locut
   file: captures/mj51ls1udpn_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc0_b1_t6_locut_s
+    model: tb_v7_tc0_b1_t6_locut
   file: captures/3l1xvv9rskl_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc7_b5_t5_noon_s
+    model: tb_v8_tc7_b5_t5_noon
   file: captures/s234x6exw7_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v10_tc7_b5_t6_noonish_s
+    model: tb_v10_tc7_b5_t6_noonish
   file: captures/c9m855diupp_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc7_b2_t7_bright_s
+    model: tb_v7_tc7_b2_t7_bright
   file: captures/49982j098sy_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v3_tc7_b6_t4_warm_s
+    model: tb_v3_tc7_b6_t4_warm
   file: captures/1hlbmmfm5ar_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc3_b7_t4_warm_s
+    model: tb_v5_tc3_b7_t4_warm
   file: captures/ltpm6uc2cjo_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v5_tc8_b3_t8_bright_s
+    model: tb_v5_tc8_b3_t8_bright
   file: captures/5v186q20r4s_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc7_b3_t8_bright_s
+    model: tb_v8_tc7_b3_t8_bright
   file: captures/anl2acbiuww_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v10_tc0_b1_t6_locut_s
+    model: tb_v10_tc0_b1_t6_locut
   file: captures/p43ibao6wjo_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc7_b7_t8_push_s
+    model: tb_v8_tc7_b7_t8_push
   file: captures/w4da4dw74df_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v8_tc8_b7_t4_warm_s
+    model: tb_v8_tc8_b7_t4_warm
   file: captures/frqhfhqm4wf_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc0_b2_t7_bright_s
+    model: tb_v7_tc0_b2_t7_bright
   file: captures/bwe0wktb2ug_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc0_b7_t8_push_s
+    model: tb_v7_tc0_b7_t8_push
   file: captures/zjxn6c2lion_a2.nam
 - values:
-    model: slammin_vox_ac30_tb_v7_tc7_b1_t6_locut_s
+    model: tb_v7_tc7_b1_t6_locut
   file: captures/58t3brt524_a2.nam

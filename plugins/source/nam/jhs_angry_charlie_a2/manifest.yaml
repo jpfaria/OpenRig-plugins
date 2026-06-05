@@ -9,11 +9,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/37413
 parameters:
-- name: model
-  display_name: Model
+- name: tone
+  display_name: Tone
   values:
   - angry_charlie_v2
 captures:
 - values:
-    model: angry_charlie_v2
+    tone: angry_charlie_v2
   file: captures/mwp1twdokni_a2.nam

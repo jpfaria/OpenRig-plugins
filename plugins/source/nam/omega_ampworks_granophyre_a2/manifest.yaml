@@ -12,12 +12,12 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - omega_test_100_epochs
-  - omega_granophyre_2000_epochs
+  - test
+  - final
 captures:
 - values:
-    model: omega_test_100_epochs
+    model: test
   file: captures/o978slj7ote_a2.nam
 - values:
-    model: omega_granophyre_2000_epochs
+    model: final
   file: captures/xpyopfwym5n_a2.nam

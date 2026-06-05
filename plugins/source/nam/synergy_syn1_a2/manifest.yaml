@@ -10,43 +10,55 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/54165
 parameters:
-- name: model
-  display_name: Model
+- name: module
+  display_name: Module
   values:
-  - syn20ir_k_kali_red
-  - syn20ir_k_kali_loomis
-  - jcm800_k_kali_red
-  - syn20ir_k_kali_green
-  - syn20ir_k_kali_red_v2
-  - dzl_herbert_k_kali_red
-  - dzl_herbert_k_kali_red_more_gain
-  - dzl_herbert_k_kali_green
-  - evh5153s_k_kali_red
+  - syn20ir
+  - jcm800
+  - dzl_herbert
+  - evh5153s
+- name: voicing
+  display_name: Voicing
+  values:
+  - red
+  - red_v2
+  - green
+  - loomis
+  - more_gain
 captures:
 - values:
-    model: syn20ir_k_kali_red
+    module: syn20ir
+    voicing: red
   file: captures/c5j9vc5xyal_a2.nam
 - values:
-    model: syn20ir_k_kali_loomis
+    module: syn20ir
+    voicing: loomis
   file: captures/uew1fned1io_a2.nam
 - values:
-    model: jcm800_k_kali_red
+    module: jcm800
+    voicing: red
   file: captures/jgeeu8ndef_a2.nam
 - values:
-    model: syn20ir_k_kali_green
+    module: syn20ir
+    voicing: green
   file: captures/0r20977z08hc_a2.nam
 - values:
-    model: syn20ir_k_kali_red_v2
+    module: syn20ir
+    voicing: red_v2
   file: captures/rtlyovba7aq_a2.nam
 - values:
-    model: dzl_herbert_k_kali_red
+    module: dzl_herbert
+    voicing: red
   file: captures/qxab1v7ullf_a2.nam
 - values:
-    model: dzl_herbert_k_kali_red_more_gain
+    module: dzl_herbert
+    voicing: more_gain
   file: captures/7g5faia9vvx_a2.nam
 - values:
-    model: dzl_herbert_k_kali_green
+    module: dzl_herbert
+    voicing: green
   file: captures/ybvx4h86aj_a2.nam
 - values:
-    model: evh5153s_k_kali_red
+    module: evh5153s
+    voicing: red
   file: captures/70l6yail9v7_a2.nam

@@ -10,63 +10,116 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/65906
 parameters:
-- name: model
-  display_name: Model
+- name: volume
+  display_name: Volume
   values:
-  - da15h_v6s6g6_od
-  - da15h_v4s6g7_od
-  - da15h_v4s6g7
-  - da15h_v6s6g5_od
-  - da15h_v10s8g3
-  - da15h_v2s6g3
-  - da15h_v1s6g7
-  - da15h_v1s6g5_3
-  - da15h_v1s6g4
-  - da15h_v6s4g6_od
-  - da15h_v6s6g4_od
-  - da15h_v6s4g5_od
-  - da15h_v4s4g7_od
-  - da15h_v6s4g4_od
+  - v1
+  - v2
+  - v4
+  - v6
+  - v10
+- name: shape
+  display_name: Shape
+  values:
+  - s4
+  - s6
+  - s8
+- name: gain
+  display_name: Gain
+  values:
+  - g3
+  - g4
+  - g5
+  - g6
+  - g7
+  - g5_3
+- name: mode
+  display_name: Mode
+  values:
+  - clean
+  - od
 captures:
 - values:
-    model: da15h_v6s6g6_od
+    gain: g6
+    mode: od
+    shape: s6
+    volume: v6
   file: captures/3r77bot039d_a2.nam
 - values:
-    model: da15h_v4s6g7_od
+    gain: g7
+    mode: od
+    shape: s6
+    volume: v4
   file: captures/ukadxxqhxnf_a2.nam
 - values:
-    model: da15h_v4s6g7
+    gain: g7
+    mode: clean
+    shape: s6
+    volume: v4
   file: captures/6dos043tmg_a2.nam
 - values:
-    model: da15h_v6s6g5_od
+    gain: g5
+    mode: od
+    shape: s6
+    volume: v6
   file: captures/ketziscltp_a2.nam
 - values:
-    model: da15h_v10s8g3
+    gain: g3
+    mode: clean
+    shape: s8
+    volume: v10
   file: captures/7f3y95lptzc_a2.nam
 - values:
-    model: da15h_v2s6g3
+    gain: g3
+    mode: clean
+    shape: s6
+    volume: v2
   file: captures/bntjff7iheu_a2.nam
 - values:
-    model: da15h_v1s6g7
+    gain: g7
+    mode: clean
+    shape: s6
+    volume: v1
   file: captures/35atixfravb_a2.nam
 - values:
-    model: da15h_v1s6g5_3
+    gain: g5_3
+    mode: clean
+    shape: s6
+    volume: v1
   file: captures/lyyobzp6wnr_a2.nam
 - values:
-    model: da15h_v1s6g4
+    gain: g4
+    mode: clean
+    shape: s6
+    volume: v1
   file: captures/x8t644wlspn_a2.nam
 - values:
-    model: da15h_v6s4g6_od
+    gain: g6
+    mode: od
+    shape: s4
+    volume: v6
   file: captures/q61czgc8n1l_a2.nam
 - values:
-    model: da15h_v6s6g4_od
+    gain: g4
+    mode: od
+    shape: s6
+    volume: v6
   file: captures/qshmiozhmdq_a2.nam
 - values:
-    model: da15h_v6s4g5_od
+    gain: g5
+    mode: od
+    shape: s4
+    volume: v6
   file: captures/28zw0zfb439_a2.nam
 - values:
-    model: da15h_v4s4g7_od
+    gain: g7
+    mode: od
+    shape: s4
+    volume: v4
   file: captures/yzs4nom561_a2.nam
 - values:
-    model: da15h_v6s4g4_od
+    gain: g4
+    mode: od
+    shape: s4
+    volume: v6
   file: captures/15hbpcn960a_a2.nam

@@ -9,31 +9,31 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/45914
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - irt120_clean
-  - irt120_crunchy_red
-  - irt120_modern_green
-  - irt120_doom
-  - irt120_growl_red
-  - irt120_lead_red
+  - clean
+  - crunchy_red
+  - modern_green
+  - doom
+  - growl_red
+  - lead_red
 captures:
 - values:
-    model: irt120_clean
+    preset: clean
   file: captures/0jnj48gul2h9_a2.nam
 - values:
-    model: irt120_crunchy_red
+    preset: crunchy_red
   file: captures/jp24dq0ls9_a2.nam
 - values:
-    model: irt120_modern_green
+    preset: modern_green
   file: captures/hjfofulzq3q_a2.nam
 - values:
-    model: irt120_doom
+    preset: doom
   file: captures/yztdtsvt1g_a2.nam
 - values:
-    model: irt120_growl_red
+    preset: growl_red
   file: captures/45hq6an3uc3_a2.nam
 - values:
-    model: irt120_lead_red
+    preset: lead_red
   file: captures/m1wqc1gzxyq_a2.nam

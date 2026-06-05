@@ -10,87 +10,102 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64728
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - amp_mesa_mkvii_90w_ch3_mkiib_pony_rawness_di
-  - amp_mesa_mkvii_90w_ch2_mkvii_chunky_di_revyhi
-  - amp_mesa_mkvii_90w_ch1_cln_factory_bright_clean_di
-  - pow_mesa_mkvii_90w_eq_off_pres_5_di
-  - amp_mesa_mkvii_90w_ch3_mkiic_bull_sheet_di_revyhi
-  - pre_mesa_mkvii_90w_ch3_mkiic_eet_faq_revyhi
-  - amp_mesa_mkvii_90w_ch1_fat_factory_country_clean_di_revyhi
-  - amp_mesa_mkvii_90w_ch1_cln_factory_bright_clean_di_revyhi
-  - amp_mesa_mkvii_90w_ch3_mkiic_bull_sheet_di
-  - amp_mesa_mkvii_90w_ch3_mkiib_pony_rawness_di_revyhi
-  - amp_mesa_mkvii_90w_ch1_fat_factory_country_clean_di
-  - amp_mesa_mkvii_90w_ch2_mkvii_chunky_di
-  - amp_mesa_mkvii_90w_ch3_mkiv_war_never_changes_di
-  - pow_mesa_mkvii_90w_eq_on_pres_5_di_revyhi
-  - amp_mesa_mkvii_90w_ch2_crnch_factory_classic_crunch_di_revyhi
-  - amp_mesa_mkvii_90w_ch2_crnch_factory_classic_crunch_di
-  - pre_mesa_mkvii_90w_ch3_mkiic_eet_faq
-  - amp_mesa_mkvii_90w_ch3_mkiv_war_never_changes_di_revyhi
-  - pow_mesa_mkvii_90w_eq_off_pres_5_di_revyhi
-  - pow_mesa_mkvii_90w_eq_on_pres_5_di
+  - ch1_clean
+  - ch1_fat
+  - ch2_crunch
+  - ch2_chunky
+  - ch3_pony
+  - ch3_bull
+  - ch3_eet
+  - ch3_war
+  - eq_on
+  - eq_off
+- name: rev
+  display_name: Revision
+  values:
+  - base
+  - revyhi
 captures:
 - values:
-    model: amp_mesa_mkvii_90w_ch3_mkiib_pony_rawness_di
+    rev: base
+    voicing: ch3_pony
   file: captures/dl0nszxp6fp_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch2_mkvii_chunky_di_revyhi
+    rev: revyhi
+    voicing: ch2_chunky
   file: captures/376ctzetu85_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch1_cln_factory_bright_clean_di
+    rev: base
+    voicing: ch1_clean
   file: captures/1prmenvoauw_a2.nam
 - values:
-    model: pow_mesa_mkvii_90w_eq_off_pres_5_di
+    rev: base
+    voicing: eq_off
   file: captures/zpeqrs3f0ms_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch3_mkiic_bull_sheet_di_revyhi
+    rev: revyhi
+    voicing: ch3_bull
   file: captures/ehshqr57xpd_a2.nam
 - values:
-    model: pre_mesa_mkvii_90w_ch3_mkiic_eet_faq_revyhi
+    rev: revyhi
+    voicing: ch3_eet
   file: captures/mxbjimfyh27_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch1_fat_factory_country_clean_di_revyhi
+    rev: revyhi
+    voicing: ch1_fat
   file: captures/2se2pvoj7mo_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch1_cln_factory_bright_clean_di_revyhi
+    rev: revyhi
+    voicing: ch1_clean
   file: captures/gf2yjbv2rxs_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch3_mkiic_bull_sheet_di
+    rev: base
+    voicing: ch3_bull
   file: captures/vxkba7uarji_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch3_mkiib_pony_rawness_di_revyhi
+    rev: revyhi
+    voicing: ch3_pony
   file: captures/1os0bie9r6e_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch1_fat_factory_country_clean_di
+    rev: base
+    voicing: ch1_fat
   file: captures/cq9to6lptcs_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch2_mkvii_chunky_di
+    rev: base
+    voicing: ch2_chunky
   file: captures/n4jh3mqpfpr_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch3_mkiv_war_never_changes_di
+    rev: base
+    voicing: ch3_war
   file: captures/hd2uqz049rg_a2.nam
 - values:
-    model: pow_mesa_mkvii_90w_eq_on_pres_5_di_revyhi
+    rev: revyhi
+    voicing: eq_on
   file: captures/iv1tgjtqzsi_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch2_crnch_factory_classic_crunch_di_revyhi
+    rev: revyhi
+    voicing: ch2_crunch
   file: captures/ec0tnwbwehf_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch2_crnch_factory_classic_crunch_di
+    rev: base
+    voicing: ch2_crunch
   file: captures/941etyyw96t_a2.nam
 - values:
-    model: pre_mesa_mkvii_90w_ch3_mkiic_eet_faq
+    rev: base
+    voicing: ch3_eet
   file: captures/thdwda3ucn_a2.nam
 - values:
-    model: amp_mesa_mkvii_90w_ch3_mkiv_war_never_changes_di_revyhi
+    rev: revyhi
+    voicing: ch3_war
   file: captures/s32ux9ipscm_a2.nam
 - values:
-    model: pow_mesa_mkvii_90w_eq_off_pres_5_di_revyhi
+    rev: revyhi
+    voicing: eq_off
   file: captures/rez9lm0jv4e_a2.nam
 - values:
-    model: pow_mesa_mkvii_90w_eq_on_pres_5_di
+    rev: base
+    voicing: eq_on
   file: captures/k11wd4qbxqe_a2.nam

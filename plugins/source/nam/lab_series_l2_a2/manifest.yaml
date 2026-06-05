@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6132
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - labseries_l2_clean
-  - labseries_l2_crunch
-  - labseries_l2_od
+  - clean
+  - crunch
+  - od
 captures:
 - values:
-    model: labseries_l2_clean
+    voicing: clean
   file: captures/7500a8f57f53a65a_a2.nam
 - values:
-    model: labseries_l2_crunch
+    voicing: crunch
   file: captures/a053ec844c0b1b8b_a2.nam
 - values:
-    model: labseries_l2_od
+    voicing: od
   file: captures/3c1dd407c823bdac_a2.nam

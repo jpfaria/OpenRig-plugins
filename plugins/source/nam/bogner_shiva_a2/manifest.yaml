@@ -13,12 +13,12 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - shiva_ch2_b
-  - shiva_ch2_b_2
+  - ch2_b
+  - ch2_b_alt
 captures:
 - values:
-    model: shiva_ch2_b
+    model: ch2_b
   file: captures/je5w4rthyf_a2.nam
 - values:
-    model: shiva_ch2_b_2
+    model: ch2_b_alt
   file: captures/vg098v5d3q_a2.nam

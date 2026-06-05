@@ -13,48 +13,48 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - whsp_8_cs
-  - whsp_2
-  - whsp_7
-  - whsp_4
-  - whsp_3
-  - whsp_5
-  - whsp_6
-  - whsp_1
-  - whsp_5150
-  - whsp_5150_mesa4x12os
-  - whsp_owner_setting
+  - s8_cs
+  - s2
+  - s7
+  - s4
+  - s3
+  - s5
+  - s6
+  - s1
+  - s5150
+  - s5150_mesa4x12
+  - owner
 captures:
 - values:
-    model: whsp_8_cs
+    model: s8_cs
   file: captures/a7aasxzlnlo_a2.nam
 - values:
-    model: whsp_2
+    model: s2
   file: captures/ss2t6ytr01_a2.nam
 - values:
-    model: whsp_7
+    model: s7
   file: captures/4ri7092ph2s_a2.nam
 - values:
-    model: whsp_4
+    model: s4
   file: captures/o7bxu55vmy_a2.nam
 - values:
-    model: whsp_3
+    model: s3
   file: captures/k7t8g05scon_a2.nam
 - values:
-    model: whsp_5
+    model: s5
   file: captures/fvtbxy0boyc_a2.nam
 - values:
-    model: whsp_6
+    model: s6
   file: captures/r5vqk3ylsta_a2.nam
 - values:
-    model: whsp_1
+    model: s1
   file: captures/n66fzt6zweh_a2.nam
 - values:
-    model: whsp_5150
+    model: s5150
   file: captures/md6ec4l9lmj_a2.nam
 - values:
-    model: whsp_5150_mesa4x12os
+    model: s5150_mesa4x12
   file: captures/f2nfilyvq4_a2.nam
 - values:
-    model: whsp_owner_setting
+    model: owner
   file: captures/e2e24e8ja4h_a2.nam

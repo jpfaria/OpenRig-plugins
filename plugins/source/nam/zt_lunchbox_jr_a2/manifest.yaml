@@ -9,19 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6132
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - ztamplifiers_lunchboxjr_clean
-  - ztamplifiers_lunchboxjr_crunch
-  - ztamplifiers_lunchboxjr_od
+  - clean
+  - crunch
+  - od
 captures:
 - values:
-    model: ztamplifiers_lunchboxjr_clean
+    voicing: clean
   file: captures/c5d64653c354c87f_a2.nam
 - values:
-    model: ztamplifiers_lunchboxjr_crunch
+    voicing: crunch
   file: captures/f9f982b2dbca7610_a2.nam
 - values:
-    model: ztamplifiers_lunchboxjr_od
+    voicing: od
   file: captures/37583a85e325bd13_a2.nam

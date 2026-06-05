@@ -10,23 +10,23 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/50204
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - peavey_6505_red_ch
-  - peavey_6505_green_ch_maxon_st9pro
-  - peavey_6505_red_ch_boss_hm_2w
-  - peavey_6505_red_ch_maxon_st9pro
+  - red
+  - red_hm2w
+  - red_maxon
+  - green_maxon
 captures:
 - values:
-    model: peavey_6505_red_ch
+    preset: red
   file: captures/tc0hy04o8p_a2.nam
 - values:
-    model: peavey_6505_green_ch_maxon_st9pro
-  file: captures/9mqbub8tr6_a2.nam
-- values:
-    model: peavey_6505_red_ch_boss_hm_2w
+    preset: red_hm2w
   file: captures/4qi9etwyigr_a2.nam
 - values:
-    model: peavey_6505_red_ch_maxon_st9pro
+    preset: red_maxon
   file: captures/q9a3ux38z1_a2.nam
+- values:
+    preset: green_maxon
+  file: captures/9mqbub8tr6_a2.nam

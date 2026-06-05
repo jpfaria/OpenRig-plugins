@@ -12,24 +12,24 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - dr_ehx_soul_food_edge_sweet_spot
-  - dr_ehx_soul_food_max_sustain
-  - dr_ehx_soul_food_light_breakup
-  - dr_ehx_soul_food_lead
-  - dr_ehx_soul_food_med_transparent
+  - edge_sweet_spot
+  - max_sustain
+  - light_breakup
+  - lead
+  - med_transparent
 captures:
 - values:
-    model: dr_ehx_soul_food_edge_sweet_spot
+    model: edge_sweet_spot
   file: captures/4e1bed88c1f29e51_a2.nam
 - values:
-    model: dr_ehx_soul_food_max_sustain
+    model: max_sustain
   file: captures/cf7747c9966f3c45_a2.nam
 - values:
-    model: dr_ehx_soul_food_light_breakup
+    model: light_breakup
   file: captures/27f7ee7286ec701f_a2.nam
 - values:
-    model: dr_ehx_soul_food_lead
+    model: lead
   file: captures/b47555f808af0bf5_a2.nam
 - values:
-    model: dr_ehx_soul_food_med_transparent
+    model: med_transparent
   file: captures/a77dd4dfd11b94c7_a2.nam

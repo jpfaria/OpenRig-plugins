@@ -9,67 +9,98 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/68604
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - fuzz_factory_v_4_g_8_c_5_d_5_s_7
-  - fuzz_factory_v_4_g_6_c_10_d_5_s_0
-  - fuzz_factory_v_4_g_6_c_8_d_5_s_5
-  - fuzz_factory_v_4_g_6_c_10_d_5_s_10
-  - fuzz_factory_v_4_g_8_c_5_d_5_s_0
-  - fuzz_factory_v_4_g_6_c_8_d_5_s_7
-  - fuzz_factory_v_4_g_6_c_10_d_5_s_3
-  - fuzz_factory_v_4_g_6_c_8_d_5_s_3
-  - fuzz_factory_v_4_g_8_c_5_d_5_s_5
-  - fuzz_factory_v_4_g_8_c_5_d_5_s_3
-  - fuzz_factory_v_4_g_8_c_5_d_5_s_10
-  - fuzz_factory_v_4_g_6_c_8_d_5_s_10
-  - fuzz_factory_v_4_g_6_c_10_d_5_s_5
-  - fuzz_factory_v_4_g_6_c_10_d_5_s_7
-  - fuzz_factory_v_4_g_6_c_8_d_5_s_0
+  - 6
+  - 8
+- name: comp
+  display_name: Comp
+  values:
+  - 5
+  - 8
+  - 10
+- name: stab
+  display_name: Stab
+  values:
+  - 0
+  - 3
+  - 5
+  - 7
+  - 10
 captures:
 - values:
-    model: fuzz_factory_v_4_g_8_c_5_d_5_s_7
+    comp: 5
+    gain: 8
+    stab: 7
   file: captures/30egw3xvvng_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_10_d_5_s_0
+    comp: 10
+    gain: 6
+    stab: 0
   file: captures/twgvb3bbate_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_8_d_5_s_5
+    comp: 8
+    gain: 6
+    stab: 5
   file: captures/xfcr0b5s51f_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_10_d_5_s_10
+    comp: 10
+    gain: 6
+    stab: 10
   file: captures/lb7wtz9j2qi_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_8_c_5_d_5_s_0
+    comp: 5
+    gain: 8
+    stab: 0
   file: captures/2e7yh9ywz4u_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_8_d_5_s_7
+    comp: 8
+    gain: 6
+    stab: 7
   file: captures/jel1br2os9a_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_10_d_5_s_3
+    comp: 10
+    gain: 6
+    stab: 3
   file: captures/qcauadedo3_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_8_d_5_s_3
+    comp: 8
+    gain: 6
+    stab: 3
   file: captures/nvccs7taq1f_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_8_c_5_d_5_s_5
+    comp: 5
+    gain: 8
+    stab: 5
   file: captures/hd6fw5ywexm_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_8_c_5_d_5_s_3
+    comp: 5
+    gain: 8
+    stab: 3
   file: captures/xjjucvy6ws_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_8_c_5_d_5_s_10
+    comp: 5
+    gain: 8
+    stab: 10
   file: captures/mdf6i94izei_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_8_d_5_s_10
+    comp: 8
+    gain: 6
+    stab: 10
   file: captures/oiimz4joarb_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_10_d_5_s_5
+    comp: 10
+    gain: 6
+    stab: 5
   file: captures/j31e5j2s5ck_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_10_d_5_s_7
+    comp: 10
+    gain: 6
+    stab: 7
   file: captures/51jrzt8osdf_a2.nam
 - values:
-    model: fuzz_factory_v_4_g_6_c_8_d_5_s_0
+    comp: 8
+    gain: 6
+    stab: 0
   file: captures/i4822izmmg_a2.nam

@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - mrsh_jt100_i_crunch_bal_di
+  - crunch
 captures:
 - values:
-    model: mrsh_jt100_i_crunch_bal_di
+    model: crunch
   file: captures/4618b31465a37e78_a2.nam

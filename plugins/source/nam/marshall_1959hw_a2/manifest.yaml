@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - marshall_1959hw
+  - 1959hw
 captures:
 - values:
-    model: marshall_1959hw
+    model: 1959hw
   file: captures/82apbolrg0f_a2.nam

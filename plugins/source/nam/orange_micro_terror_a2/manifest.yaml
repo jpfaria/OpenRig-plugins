@@ -10,47 +10,93 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/68313
 parameters:
-- name: model
-  display_name: Model
+- name: volume
+  display_name: Volume
   values:
-  - v9t12g12
-  - v2t12g11_ds_1_t11l10d1
-  - v12t11g1_ds_1_t11l10d1
-  - v12t12g3
-  - v3t12g10
-  - v12t12g11_ds_1_t11l10d10
-  - v12t11g1
-  - v12t11g11
-  - v12t12g11
-  - v5t1g9
+  - vol2
+  - vol3
+  - vol5
+  - vol9
+  - vol12
+- name: tone
+  display_name: Tone
+  values:
+  - tone1
+  - tone11
+  - tone12
+- name: gain
+  display_name: Gain
+  values:
+  - gain1
+  - gain3
+  - gain9
+  - gain10
+  - gain11
+  - gain12
+- name: boost
+  display_name: Boost
+  values:
+  - off
+  - t11l10d1
+  - t11l10d10
 captures:
 - values:
-    model: v9t12g12
+    boost: off
+    gain: gain12
+    tone: tone12
+    volume: vol9
   file: captures/hkgp11nj73f_a2.nam
 - values:
-    model: v2t12g11_ds_1_t11l10d1
+    boost: t11l10d1
+    gain: gain11
+    tone: tone12
+    volume: vol2
   file: captures/rfc41knshge_a2.nam
 - values:
-    model: v12t11g1_ds_1_t11l10d1
+    boost: t11l10d1
+    gain: gain1
+    tone: tone11
+    volume: vol12
   file: captures/6dl72ruskhc_a2.nam
 - values:
-    model: v12t12g3
+    boost: off
+    gain: gain3
+    tone: tone12
+    volume: vol12
   file: captures/zncrmbvwfna_a2.nam
 - values:
-    model: v3t12g10
+    boost: off
+    gain: gain10
+    tone: tone12
+    volume: vol3
   file: captures/3cli48b7e5v_a2.nam
 - values:
-    model: v12t12g11_ds_1_t11l10d10
+    boost: t11l10d10
+    gain: gain11
+    tone: tone12
+    volume: vol12
   file: captures/ns9zawns0r_a2.nam
 - values:
-    model: v12t11g1
+    boost: off
+    gain: gain1
+    tone: tone11
+    volume: vol12
   file: captures/0p5clzyfck5g_a2.nam
 - values:
-    model: v12t11g11
+    boost: off
+    gain: gain11
+    tone: tone11
+    volume: vol12
   file: captures/26ibclalm7l_a2.nam
 - values:
-    model: v12t12g11
+    boost: off
+    gain: gain11
+    tone: tone12
+    volume: vol12
   file: captures/bnvq2aoz35_a2.nam
 - values:
-    model: v5t1g9
+    boost: off
+    gain: gain9
+    tone: tone1
+    volume: vol5
   file: captures/hmylofk1ru5_a2.nam

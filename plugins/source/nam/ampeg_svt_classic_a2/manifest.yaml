@@ -10,55 +10,73 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/45809
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - svt_dirty_pushed
-  - svt_pushed
-  - svt_sans_rock_drive
-  - svt_darkglass_shreded
-  - svt_sans_bright_drive
-  - svt_dirty
-  - svt_sans_hype_my_d_i
-  - svt_darkglass_shred_my_d_i
-  - svt_clean
-  - svt_sans_hairy_drive
-  - svt_sans_subdrive
-  - svt_clean_pushed
+  - amp
+  - sansamp
+  - darkglass
+- name: mode
+  display_name: Mode
+  values:
+  - clean
+  - clean_pushed
+  - pushed
+  - dirty
+  - dirty_pushed
+  - rock_drive
+  - bright_drive
+  - hairy_drive
+  - subdrive
+  - hype_di
+  - shred
+  - shred_di
 captures:
 - values:
-    model: svt_dirty_pushed
+    mode: dirty_pushed
+    voicing: amp
   file: captures/xq66z36685_a2.nam
 - values:
-    model: svt_pushed
+    mode: pushed
+    voicing: amp
   file: captures/xfj2avdyq4c_a2.nam
 - values:
-    model: svt_sans_rock_drive
+    mode: rock_drive
+    voicing: sansamp
   file: captures/76pi4i14wen_a2.nam
 - values:
-    model: svt_darkglass_shreded
+    mode: shred
+    voicing: darkglass
   file: captures/gp1b6gh3iau_a2.nam
 - values:
-    model: svt_sans_bright_drive
+    mode: bright_drive
+    voicing: sansamp
   file: captures/xjxftf7hno_a2.nam
 - values:
-    model: svt_dirty
+    mode: dirty
+    voicing: amp
   file: captures/6mdw2kzijp_a2.nam
 - values:
-    model: svt_sans_hype_my_d_i
+    mode: hype_di
+    voicing: sansamp
   file: captures/31a57cvymcg_a2.nam
 - values:
-    model: svt_darkglass_shred_my_d_i
+    mode: shred_di
+    voicing: darkglass
   file: captures/j1zkesvcpg_a2.nam
 - values:
-    model: svt_clean
+    mode: clean
+    voicing: amp
   file: captures/7d86dr42iet_a2.nam
 - values:
-    model: svt_sans_hairy_drive
+    mode: hairy_drive
+    voicing: sansamp
   file: captures/pmjdpfcok9j_a2.nam
 - values:
-    model: svt_sans_subdrive
+    mode: subdrive
+    voicing: sansamp
   file: captures/l0mbzet6lah_a2.nam
 - values:
-    model: svt_clean_pushed
+    mode: clean_pushed
+    voicing: amp
   file: captures/5ciiulzwbpr_a2.nam

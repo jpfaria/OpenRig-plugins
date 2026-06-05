@@ -9,23 +9,32 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/45294
 parameters:
-- name: model
-  display_name: Model
+- name: dist
+  display_name: Distortion
   values:
-  - st_rat_dist_0900_filter_1200
-  - st_rat_dist_1100_filter_1300
-  - st_rat_dist_max_filter_1200
-  - st_rat_dist_1300_filter_1200
+  - d9
+  - d11
+  - d13
+  - max
+- name: filter
+  display_name: Filter
+  values:
+  - f12
+  - f13
 captures:
 - values:
-    model: st_rat_dist_0900_filter_1200
+    dist: d9
+    filter: f12
   file: captures/70gax1dujr9_a2.nam
 - values:
-    model: st_rat_dist_1100_filter_1300
+    dist: d11
+    filter: f13
   file: captures/mzq9mng1xi_a2.nam
 - values:
-    model: st_rat_dist_max_filter_1200
+    dist: max
+    filter: f12
   file: captures/i3c2uwi3oj7_a2.nam
 - values:
-    model: st_rat_dist_1300_filter_1200
+    dist: d13
+    filter: f12
   file: captures/wdpwdfaw22_a2.nam

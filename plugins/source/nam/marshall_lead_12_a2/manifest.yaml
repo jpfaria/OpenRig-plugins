@@ -10,11 +10,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/52034
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - marshall_lead12_amp_g9_t8_m5_b3_48_24_amp
+  - g9
 captures:
 - values:
-    model: marshall_lead12_amp_g9_t8_m5_b3_48_24_amp
+    gain: g9
   file: captures/msr3gc4ck4r_a2.nam

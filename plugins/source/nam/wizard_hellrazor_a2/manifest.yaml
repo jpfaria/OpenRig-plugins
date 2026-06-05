@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - 20241109_wizard_hellrazor
+  - default
 captures:
 - values:
-    model: 20241109_wizard_hellrazor
+    model: default
   file: captures/416cf7a0e7d324e1_a2.nam

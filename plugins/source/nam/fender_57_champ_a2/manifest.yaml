@@ -10,31 +10,39 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30583
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - fender_57customchamp_crunch_in1_1000epochs
-  - fender_57customchamp_clean_in2_700epochs
-  - fender_57customchamp_od_in2_1300epochs
-  - fender_57customchamp_clean_in1_700epochs
-  - fender_57customchamp_crunch_in2_1000epochs
-  - fender_57customchamp_od_in1_1300epochs
+  - clean
+  - crunch
+  - od
+- name: input
+  display_name: Input
+  values:
+  - 1
+  - 2
 captures:
 - values:
-    model: fender_57customchamp_crunch_in1_1000epochs
+    input: 1
+    voicing: crunch
   file: captures/ybjuslofrqm_a2.nam
 - values:
-    model: fender_57customchamp_clean_in2_700epochs
+    input: 2
+    voicing: clean
   file: captures/mr1tfnzjd3o_a2.nam
 - values:
-    model: fender_57customchamp_od_in2_1300epochs
+    input: 2
+    voicing: od
   file: captures/9afy8ick4ig_a2.nam
 - values:
-    model: fender_57customchamp_clean_in1_700epochs
+    input: 1
+    voicing: clean
   file: captures/keca365zk1k_a2.nam
 - values:
-    model: fender_57customchamp_crunch_in2_1000epochs
+    input: 2
+    voicing: crunch
   file: captures/2ocmhs1g75_a2.nam
 - values:
-    model: fender_57customchamp_od_in1_1300epochs
+    input: 1
+    voicing: od
   file: captures/o7mojmh639o_a2.nam

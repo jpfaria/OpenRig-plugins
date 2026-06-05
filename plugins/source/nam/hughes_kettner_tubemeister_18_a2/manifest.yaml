@@ -9,11 +9,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64521
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - hughie_crunch_no_cab_v2_fredm_d_e906_b6m
+  - crunch
 captures:
 - values:
-    model: hughie_crunch_no_cab_v2_fredm_d_e906_b6m
+    preset: crunch
   file: captures/upccmouh28l_a2.nam

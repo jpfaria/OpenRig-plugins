@@ -10,23 +10,30 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/127
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - tim_r_jc_120_ch1_low
-  - tim_r_jc_120_ch_2_hi
-  - tim_r_jc_120_ch_1_hi
-  - tim_r_jc_120_ch_2_low
+  - ch1
+  - ch2
+- name: level
+  display_name: Level
+  values:
+  - low
+  - hi
 captures:
 - values:
-    model: tim_r_jc_120_ch1_low
+    channel: ch1
+    level: low
   file: captures/bd671f6b77c18633_a2.nam
 - values:
-    model: tim_r_jc_120_ch_2_hi
+    channel: ch2
+    level: hi
   file: captures/fd34537a663a03cf_a2.nam
 - values:
-    model: tim_r_jc_120_ch_1_hi
+    channel: ch1
+    level: hi
   file: captures/85544127d25fc38a_a2.nam
 - values:
-    model: tim_r_jc_120_ch_2_low
+    channel: ch2
+    level: low
   file: captures/6e1748866cace0b0_a2.nam

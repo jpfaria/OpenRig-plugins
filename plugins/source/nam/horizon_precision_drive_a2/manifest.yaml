@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - va_horizon_boost_l7
+  - l7
 captures:
 - values:
-    model: va_horizon_boost_l7
+    model: l7
   file: captures/vddf6bkzsf_a2.nam

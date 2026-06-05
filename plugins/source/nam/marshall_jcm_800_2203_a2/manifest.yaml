@@ -10,23 +10,23 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/37987
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - jcm800_2203_d_i_g3_b5_m5_t5_p5_v5_std
-  - jcm800_2203_d_i_g5_b5_m5_t5_p5_v5_std
-  - jcm800_2203_d_i_g7_b5_m5_t5_p5_v5_std
-  - jcm800_2203_d_i_g10_b5_m5_t5_p5_v5_std
+  - g3
+  - g5
+  - g7
+  - g10
 captures:
 - values:
-    model: jcm800_2203_d_i_g3_b5_m5_t5_p5_v5_std
+    gain: g3
   file: captures/8o3wwsorlho_a2.nam
 - values:
-    model: jcm800_2203_d_i_g5_b5_m5_t5_p5_v5_std
+    gain: g5
   file: captures/p6aza7linw_a2.nam
 - values:
-    model: jcm800_2203_d_i_g7_b5_m5_t5_p5_v5_std
+    gain: g7
   file: captures/xaibvbrmxr_a2.nam
 - values:
-    model: jcm800_2203_d_i_g10_b5_m5_t5_p5_v5_std
+    gain: g10
   file: captures/wknh92cfuk9_a2.nam

@@ -9,35 +9,46 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6791
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - 25_zerrer_od_g4_t3_m7_b3_v1_p3_d11_48hz_24bit
-  - 06_zerrer_od_g9_t2_m10_b11_v12_p3_d11_48hz_24bit
-  - 04_zerrer_od_g12_t2_m10_b11_v12_p3_d11_48hz_24bit
-  - 27_zerrer_od_g11_t4_m3_b1_v1_p3_d11_48hz_24bit
-  - 26_zerrer_od_g3_t3_m12_b3_v1_p3_d11_48hz_24bit
-  - 28_zerrer_od_g10_t4_m12_b3_v2_p3_d11_48hz_24bit
-  - 05_zerrer_od_g3_t2_m10_b11_v12_p3_d11_48hz_24bit
+  - od
+- name: preset
+  display_name: Preset
+  values:
+  - preset_04
+  - preset_05
+  - preset_06
+  - preset_25
+  - preset_26
+  - preset_27
+  - preset_28
 captures:
 - values:
-    model: 25_zerrer_od_g4_t3_m7_b3_v1_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_25
   file: captures/4c6b2da01304d6be_a2.nam
 - values:
-    model: 06_zerrer_od_g9_t2_m10_b11_v12_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_06
   file: captures/8be3cce411c2eb52_a2.nam
 - values:
-    model: 04_zerrer_od_g12_t2_m10_b11_v12_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_04
   file: captures/260c2d767a96d8aa_a2.nam
 - values:
-    model: 27_zerrer_od_g11_t4_m3_b1_v1_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_27
   file: captures/37cf95fce49ca30e_a2.nam
 - values:
-    model: 26_zerrer_od_g3_t3_m12_b3_v1_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_26
   file: captures/e76d2cd926365eb7_a2.nam
 - values:
-    model: 28_zerrer_od_g10_t4_m12_b3_v2_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_28
   file: captures/b9cbcc5a75354d6a_a2.nam
 - values:
-    model: 05_zerrer_od_g3_t2_m10_b11_v12_p3_d11_48hz_24bit
+    channel: od
+    preset: preset_05
   file: captures/306b4b0ba6f4de3f_a2.nam

@@ -13,56 +13,56 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - bogner_ecstasy_dumble_crunch
-  - bogner_ecstasy_vai_ftlog_tone
-  - bogner_ecstasy_channel_2_warm_rock_tone
-  - bogner_ecstasy_vai_ftlog_tone_b_off
-  - bogner_ecstasy_vai_imdwy_tone
-  - bogner_ecstasy_basic_clean
-  - bogner_ecstasy_thick_lead
-  - bogner_ecstasy_plexi_crunch
-  - bogner_ecstasy_bright_crunchy_rock
-  - bogner_ecstasy_ch_2_eq_at_5_exc_m
-  - bogner_ecstasy_ch_2_eq_at_5_exc_t
-  - bogner_ecstasy_fender_clean
-  - bogner_ecstasy_crunchier_rock_tone
+  - basic_clean
+  - fender_clean
+  - plexi_crunch
+  - dumble_crunch
+  - bright_crunchy
+  - crunchier_rock
+  - ch2_warm_rock
+  - ch2_eq5_exc_m
+  - ch2_eq5_exc_t
+  - thick_lead
+  - vai_ftlog
+  - vai_ftlog_b_off
+  - vai_imdwy
 captures:
 - values:
-    model: bogner_ecstasy_dumble_crunch
-  file: captures/1uc1vqxhefj_a2.nam
-- values:
-    model: bogner_ecstasy_vai_ftlog_tone
-  file: captures/mm4aunww0v_a2.nam
-- values:
-    model: bogner_ecstasy_channel_2_warm_rock_tone
-  file: captures/z2vkazwogi_a2.nam
-- values:
-    model: bogner_ecstasy_vai_ftlog_tone_b_off
-  file: captures/fwnajbkn4bi_a2.nam
-- values:
-    model: bogner_ecstasy_vai_imdwy_tone
-  file: captures/ov7pxdduoui_a2.nam
-- values:
-    model: bogner_ecstasy_basic_clean
+    model: basic_clean
   file: captures/saa8ybqmi7h_a2.nam
 - values:
-    model: bogner_ecstasy_thick_lead
-  file: captures/87jq63fmeex_a2.nam
-- values:
-    model: bogner_ecstasy_plexi_crunch
-  file: captures/w6c963pozd9_a2.nam
-- values:
-    model: bogner_ecstasy_bright_crunchy_rock
-  file: captures/6uv1m2hyk2g_a2.nam
-- values:
-    model: bogner_ecstasy_ch_2_eq_at_5_exc_m
-  file: captures/7ll6he2ucxh_a2.nam
-- values:
-    model: bogner_ecstasy_ch_2_eq_at_5_exc_t
-  file: captures/ril53lo56y_a2.nam
-- values:
-    model: bogner_ecstasy_fender_clean
+    model: fender_clean
   file: captures/3w79j7y3v19_a2.nam
 - values:
-    model: bogner_ecstasy_crunchier_rock_tone
+    model: plexi_crunch
+  file: captures/w6c963pozd9_a2.nam
+- values:
+    model: dumble_crunch
+  file: captures/1uc1vqxhefj_a2.nam
+- values:
+    model: bright_crunchy
+  file: captures/6uv1m2hyk2g_a2.nam
+- values:
+    model: crunchier_rock
   file: captures/6ieo5lm3062_a2.nam
+- values:
+    model: ch2_warm_rock
+  file: captures/z2vkazwogi_a2.nam
+- values:
+    model: ch2_eq5_exc_m
+  file: captures/7ll6he2ucxh_a2.nam
+- values:
+    model: ch2_eq5_exc_t
+  file: captures/ril53lo56y_a2.nam
+- values:
+    model: thick_lead
+  file: captures/87jq63fmeex_a2.nam
+- values:
+    model: vai_ftlog
+  file: captures/mm4aunww0v_a2.nam
+- values:
+    model: vai_ftlog_b_off
+  file: captures/fwnajbkn4bi_a2.nam
+- values:
+    model: vai_imdwy
+  file: captures/ov7pxdduoui_a2.nam

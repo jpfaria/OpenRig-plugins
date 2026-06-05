@@ -13,112 +13,112 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - slammin_marshall_jmp_anthrax_ian_mids2_paraeq_s
-  - slammin_marshall_jmp_ktt_grind_s
-  - slammin_marshall_jmp_anthrax_ian_lesscut_s
-  - slammin_marshall_jmp_ktt_paraeq_locut2_s
-  - slammin_marshall_jmp_rtl_amponly_s
-  - slammin_marshall_jmp_grind_ktt_brighter_s
-  - slammin_marshall_jmp_anthrax_ian_mids2_moregain_s
-  - slammin_marshall_jmp_anthrax_ian_mids2_presence4_s
-  - slammin_marshall_jmp_anthrax_ian_nopedal_zeromids_s
-  - slammin_marshall_jmp_grind_ktt_evenbrighter_s
-  - slammin_marshall_jmp_rtl_s
-  - slammin_marshall_jmp_anthrax_ian_zeromids_s
-  - slammin_marshall_jmp_ktt_brighter_s
-  - slammin_marshall_jmp_rat_s
-  - slammin_marshall_jmp_goldenpearl_s
-  - slammin_marshall_jmp_paraeq_medium_bass_s
-  - slammin_marshall_jmp_ktt_amponly_s
-  - slammin_marshall_jmp_metallica_od808_s
-  - slammin_marshall_jmp_lg_krunch_s
-  - slammin_marshall_jmp_ktt_paraeq_locut_s
-  - slammin_marshall_jmp_anthrax_ian_mids2_nopedal_s
-  - slammin_marshall_jmp_ian_grind_s
-  - slammin_marshall_jmp_krunch_s
-  - slammin_marshall_jmp_od808_s
-  - slammin_marshall_jmp_paraeq_low_bass_s
-  - slammin_marshall_jmp_metal_brighter_s
-  - slammin_marshall_jmp_ktt_s
+  - anthrax_mids_paraeq
+  - ktt_grind
+  - anthrax_lesscut
+  - ktt_paraeq_locut2
+  - rtl_amponly
+  - grind_ktt_brighter
+  - anthrax_mids_moregain
+  - anthrax_mids_presence
+  - anthrax_nopedal_zeromids
+  - grind_ktt_brightest
+  - rtl
+  - anthrax_zeromids
+  - ktt_brighter
+  - rat
+  - goldenpearl
+  - paraeq_mid_bass
+  - ktt_amponly
+  - metallica_od808
+  - lg_krunch
+  - ktt_paraeq_locut
+  - anthrax_mids_nopedal
+  - ian_grind
+  - krunch
+  - od808
+  - paraeq_low_bass
+  - metal_brighter
+  - ktt
 captures:
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_mids2_paraeq_s
+    model: anthrax_mids_paraeq
   file: captures/d95621f22ed956f0_a2.nam
 - values:
-    model: slammin_marshall_jmp_ktt_grind_s
+    model: ktt_grind
   file: captures/7726645f0654a981_a2.nam
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_lesscut_s
+    model: anthrax_lesscut
   file: captures/72c31ee64230e59b_a2.nam
 - values:
-    model: slammin_marshall_jmp_ktt_paraeq_locut2_s
+    model: ktt_paraeq_locut2
   file: captures/63cbcf66031d50a2_a2.nam
 - values:
-    model: slammin_marshall_jmp_rtl_amponly_s
+    model: rtl_amponly
   file: captures/b9c8e3f14518f66f_a2.nam
 - values:
-    model: slammin_marshall_jmp_grind_ktt_brighter_s
+    model: grind_ktt_brighter
   file: captures/9f5a45c1f8029e47_a2.nam
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_mids2_moregain_s
+    model: anthrax_mids_moregain
   file: captures/f50968c9232ba598_a2.nam
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_mids2_presence4_s
+    model: anthrax_mids_presence
   file: captures/eccb55923719d4bd_a2.nam
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_nopedal_zeromids_s
+    model: anthrax_nopedal_zeromids
   file: captures/15bf99d50f8f9d52_a2.nam
 - values:
-    model: slammin_marshall_jmp_grind_ktt_evenbrighter_s
+    model: grind_ktt_brightest
   file: captures/1c01bd3a91f581cd_a2.nam
 - values:
-    model: slammin_marshall_jmp_rtl_s
+    model: rtl
   file: captures/7fe6847b49a6efc8_a2.nam
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_zeromids_s
+    model: anthrax_zeromids
   file: captures/cc6e583320f8dc5c_a2.nam
 - values:
-    model: slammin_marshall_jmp_ktt_brighter_s
+    model: ktt_brighter
   file: captures/5bd7d3c92cd862d3_a2.nam
 - values:
-    model: slammin_marshall_jmp_rat_s
+    model: rat
   file: captures/9853a1e9e19d64ec_a2.nam
 - values:
-    model: slammin_marshall_jmp_goldenpearl_s
+    model: goldenpearl
   file: captures/2364a0496d04d682_a2.nam
 - values:
-    model: slammin_marshall_jmp_paraeq_medium_bass_s
+    model: paraeq_mid_bass
   file: captures/d15e2de37a8e011f_a2.nam
 - values:
-    model: slammin_marshall_jmp_ktt_amponly_s
+    model: ktt_amponly
   file: captures/bbf9c0d1ded2c4e4_a2.nam
 - values:
-    model: slammin_marshall_jmp_metallica_od808_s
+    model: metallica_od808
   file: captures/02c7914ba730b77e_a2.nam
 - values:
-    model: slammin_marshall_jmp_lg_krunch_s
+    model: lg_krunch
   file: captures/751924d431a86744_a2.nam
 - values:
-    model: slammin_marshall_jmp_ktt_paraeq_locut_s
+    model: ktt_paraeq_locut
   file: captures/48c2555f3c46daef_a2.nam
 - values:
-    model: slammin_marshall_jmp_anthrax_ian_mids2_nopedal_s
+    model: anthrax_mids_nopedal
   file: captures/7e16a50983f97a5c_a2.nam
 - values:
-    model: slammin_marshall_jmp_ian_grind_s
+    model: ian_grind
   file: captures/10a296f5d79c9965_a2.nam
 - values:
-    model: slammin_marshall_jmp_krunch_s
+    model: krunch
   file: captures/4cea0cf99bb20639_a2.nam
 - values:
-    model: slammin_marshall_jmp_od808_s
+    model: od808
   file: captures/ce72b0e68fcb46bb_a2.nam
 - values:
-    model: slammin_marshall_jmp_paraeq_low_bass_s
+    model: paraeq_low_bass
   file: captures/5613cdf270785b58_a2.nam
 - values:
-    model: slammin_marshall_jmp_metal_brighter_s
+    model: metal_brighter
   file: captures/e95645b5772cdb13_a2.nam
 - values:
-    model: slammin_marshall_jmp_ktt_s
+    model: ktt
   file: captures/ad788e31e5701584_a2.nam

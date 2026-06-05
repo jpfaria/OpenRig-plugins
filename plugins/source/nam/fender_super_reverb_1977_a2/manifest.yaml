@@ -10,255 +10,412 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/68651
 parameters:
-- name: model
-  display_name: Model
+- name: volume
+  display_name: Volume
   values:
-  - bfsr_nrm_v_7_t_5_b_2_srl
-  - bfsr_nrm_v_7_t_6_b_3_srl
-  - bfsr_nrm_v_7_t_7_b_1_srl
-  - bfsr_nrm_v_4_t_5_b_4_srl_6db
-  - bfsr_nrm_v_6_t_5_b_4_srl
-  - bfsr_nrm_v_7_t_8_b_1_srl
-  - bfsr_nrm_v_5_t_5_b_4_srl
-  - bfsr_nrm_v_5_t_3_b_4_srl
-  - bfsr_nrm_v_7_t_5_b_3_srl
-  - bfsr_nrm_v_4_t_1_b_4_brt_srl_6db
-  - bfsr_nrm_v_7_t_6_b_1_srl
-  - bfsr_nrm_v_4_t_4_b_4_srl_6db
-  - bfsr_nrm_v_5_t_6_b_4_srl
-  - bfsr_nrm_v_4_t_6_b_4_srl_6db
-  - bfsr_nrm_v_6_t_4_b_4_srl
-  - bfsr_nrm_v_7_t_7_b_3_srl
-  - bfsr_nrm_v_7_t_8_b_2_srl
-  - bfsr_nrm_v_8_t_8_b_2_srl
-  - bfsr_nrm_v_7_t_6_b_2_srl
-  - bfsr_nrm_v_7_t_8_b_3_srl
-  - bfsr_nrm_v_8_t_6_b_1_srl
-  - bfsr_nrm_v_9_t_5_b_2_srl
-  - bfsr_nrm_v_8_t_8_b_1_srl
-  - bfsr_nrm_v_10_t_10_b_2_srl
-  - bfsr_nrm_v_10_t_8_b_2_srl
-  - bfsr_nrm_v_9_t_7_b_1_srl
-  - bfsr_nrm_v_10_t_7_b_1_srl
-  - bfsr_nrm_v_10_t_7_b_2_srl
-  - bfsr_nrm_v_10_t_6_b_1_srl
-  - bfsr_nrm_v_10_t_5_b_1_srl
-  - bfsr_nrm_v_9_t_9_b_1_srl
-  - bfsr_nrm_v_7_t_7_b_2_srl
-  - bfsr_nrm_v_10_t_5_b_2_srl
-  - bfsr_nrm_v_9_t_6_b_2_srl
-  - bfsr_nrm_v_8_t_10_b_2_srl
-  - bfsr_nrm_v_10_t_9_b_2_srl
-  - bfsr_nrm_v_6_t_3_b_4_srl
-  - bfsr_nrm_v_9_t_8_b_1_srl
-  - bfsr_nrm_v_10_t_8_b_1_srl
-  - bfsr_nrm_v_10_t_9_b_1_srl
-  - bfsr_nrm_v_8_t_9_b_1_srl
-  - bfsr_nrm_v_10_t_10_b_1_srl
-  - bfsr_nrm_v_8_t_5_b_1_srl
-  - bfsr_nrm_v_7_t_5_b_1_srl
-  - bfsr_nrm_v_4_t_3_b_4_srl_6db
-  - bfsr_nrm_v_10_t_6_b_2_srl
-  - bfsr_nrm_v_9_t_7_b_2_srl
-  - bfsr_nrm_v_8_t_9_b_2_srl
-  - bfsr_nrm_v_8_t_7_b_2_srl
-  - bfsr_nrm_v_9_t_6_b_1_srl
-  - bfsr_nrm_v_8_t_6_b_2_srl
-  - bfsr_nrm_v_9_t_10_b_1_srl
-  - bfsr_nrm_v_9_t_5_b_1_srl
-  - bfsr_nrm_v_8_t_10_b_1_srl
-  - bfsr_nrm_v_9_t_10_b_2_srl
-  - bfsr_nrm_v_4_t_2_b_4_brt_srl_6db
-  - bfsr_nrm_v_9_t_8_b_2_srl
-  - bfsr_nrm_v_9_t_9_b_2_srl
-  - bfsr_nrm_v_8_t_5_b_2_srl
-  - bfsr_nrm_v_6_t_6_b_4_srl
-  - bfsr_nrm_v_8_t_7_b_1_srl
-  - bfsr_nrm_v_5_t_4_b_4_srl
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+- name: treble
+  display_name: Treble
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+- name: bass
+  display_name: Bass
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+- name: voicing
+  display_name: Voicing
+  values:
+  - std
+  - brt
+  - boost
 captures:
 - values:
-    model: bfsr_nrm_v_7_t_5_b_2_srl
+    bass: 2
+    treble: 5
+    voicing: std
+    volume: 7
   file: captures/mramzeih1yf_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_6_b_3_srl
+    bass: 3
+    treble: 6
+    voicing: std
+    volume: 7
   file: captures/vvdpjnf9xh_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_7_b_1_srl
+    bass: 1
+    treble: 7
+    voicing: std
+    volume: 7
   file: captures/kxqeimvoye_a2.nam
 - values:
-    model: bfsr_nrm_v_4_t_5_b_4_srl_6db
+    bass: 4
+    treble: 5
+    voicing: boost
+    volume: 4
   file: captures/8c2bidnhx64_a2.nam
 - values:
-    model: bfsr_nrm_v_6_t_5_b_4_srl
+    bass: 4
+    treble: 5
+    voicing: std
+    volume: 6
   file: captures/d7o2bxiejc_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_8_b_1_srl
+    bass: 1
+    treble: 8
+    voicing: std
+    volume: 7
   file: captures/zykqpkb1jao_a2.nam
 - values:
-    model: bfsr_nrm_v_5_t_5_b_4_srl
+    bass: 4
+    treble: 5
+    voicing: std
+    volume: 5
   file: captures/i3onoe8mlt_a2.nam
 - values:
-    model: bfsr_nrm_v_5_t_3_b_4_srl
+    bass: 4
+    treble: 3
+    voicing: std
+    volume: 5
   file: captures/wie9sglu4m_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_5_b_3_srl
+    bass: 3
+    treble: 5
+    voicing: std
+    volume: 7
   file: captures/ymy90qkay5f_a2.nam
 - values:
-    model: bfsr_nrm_v_4_t_1_b_4_brt_srl_6db
+    bass: 4
+    treble: 1
+    voicing: brt
+    volume: 4
   file: captures/dvqsj7zr1j_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_6_b_1_srl
+    bass: 1
+    treble: 6
+    voicing: std
+    volume: 7
   file: captures/s26jmv9jopn_a2.nam
 - values:
-    model: bfsr_nrm_v_4_t_4_b_4_srl_6db
+    bass: 4
+    treble: 4
+    voicing: boost
+    volume: 4
   file: captures/66y82ri3njt_a2.nam
 - values:
-    model: bfsr_nrm_v_5_t_6_b_4_srl
+    bass: 4
+    treble: 6
+    voicing: std
+    volume: 5
   file: captures/ewinsfnc3r7_a2.nam
 - values:
-    model: bfsr_nrm_v_4_t_6_b_4_srl_6db
+    bass: 4
+    treble: 6
+    voicing: boost
+    volume: 4
   file: captures/ae8bhlm805l_a2.nam
 - values:
-    model: bfsr_nrm_v_6_t_4_b_4_srl
+    bass: 4
+    treble: 4
+    voicing: std
+    volume: 6
   file: captures/47qhcp49yog_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_7_b_3_srl
+    bass: 3
+    treble: 7
+    voicing: std
+    volume: 7
   file: captures/85a53re5elj_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_8_b_2_srl
+    bass: 2
+    treble: 8
+    voicing: std
+    volume: 7
   file: captures/6qewf989g6t_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_8_b_2_srl
+    bass: 2
+    treble: 8
+    voicing: std
+    volume: 8
   file: captures/j7vlilfqw2_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_6_b_2_srl
+    bass: 2
+    treble: 6
+    voicing: std
+    volume: 7
   file: captures/w7bc44u9zi_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_8_b_3_srl
+    bass: 3
+    treble: 8
+    voicing: std
+    volume: 7
   file: captures/nely3seone_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_6_b_1_srl
+    bass: 1
+    treble: 6
+    voicing: std
+    volume: 8
   file: captures/d8bgl29hhni_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_5_b_2_srl
+    bass: 2
+    treble: 5
+    voicing: std
+    volume: 9
   file: captures/mex1lxjdob8_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_8_b_1_srl
+    bass: 1
+    treble: 8
+    voicing: std
+    volume: 8
   file: captures/48hk1xffpwg_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_10_b_2_srl
+    bass: 2
+    treble: 10
+    voicing: std
+    volume: 10
   file: captures/nlw18cgb4pb_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_8_b_2_srl
+    bass: 2
+    treble: 8
+    voicing: std
+    volume: 10
   file: captures/hs07r149lkh_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_7_b_1_srl
+    bass: 1
+    treble: 7
+    voicing: std
+    volume: 9
   file: captures/t2pfjffi3yc_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_7_b_1_srl
+    bass: 1
+    treble: 7
+    voicing: std
+    volume: 10
   file: captures/z8c4724chr7_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_7_b_2_srl
+    bass: 2
+    treble: 7
+    voicing: std
+    volume: 10
   file: captures/ycyaqhp34gp_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_6_b_1_srl
+    bass: 1
+    treble: 6
+    voicing: std
+    volume: 10
   file: captures/5jgdkw0a8kk_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_5_b_1_srl
+    bass: 1
+    treble: 5
+    voicing: std
+    volume: 10
   file: captures/5744b3oeh42_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_9_b_1_srl
+    bass: 1
+    treble: 9
+    voicing: std
+    volume: 9
   file: captures/mxii75dtotf_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_7_b_2_srl
+    bass: 2
+    treble: 7
+    voicing: std
+    volume: 7
   file: captures/y33mtop939n_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_5_b_2_srl
+    bass: 2
+    treble: 5
+    voicing: std
+    volume: 10
   file: captures/e0eypvd4r3g_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_6_b_2_srl
+    bass: 2
+    treble: 6
+    voicing: std
+    volume: 9
   file: captures/wb3idznc4q8_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_10_b_2_srl
+    bass: 2
+    treble: 10
+    voicing: std
+    volume: 8
   file: captures/2swvqksqfyx_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_9_b_2_srl
+    bass: 2
+    treble: 9
+    voicing: std
+    volume: 10
   file: captures/jx3rp2cjxfs_a2.nam
 - values:
-    model: bfsr_nrm_v_6_t_3_b_4_srl
+    bass: 4
+    treble: 3
+    voicing: std
+    volume: 6
   file: captures/k3l58qjge5_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_8_b_1_srl
+    bass: 1
+    treble: 8
+    voicing: std
+    volume: 9
   file: captures/svtpq6jw5r8_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_8_b_1_srl
+    bass: 1
+    treble: 8
+    voicing: std
+    volume: 10
   file: captures/c7onarqqs4f_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_9_b_1_srl
+    bass: 1
+    treble: 9
+    voicing: std
+    volume: 10
   file: captures/7nmoy49ztqt_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_9_b_1_srl
+    bass: 1
+    treble: 9
+    voicing: std
+    volume: 8
   file: captures/gn1aa3pkkx9_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_10_b_1_srl
+    bass: 1
+    treble: 10
+    voicing: std
+    volume: 10
   file: captures/aeu6for1gn_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_5_b_1_srl
+    bass: 1
+    treble: 5
+    voicing: std
+    volume: 8
   file: captures/bvf51k27nsk_a2.nam
 - values:
-    model: bfsr_nrm_v_7_t_5_b_1_srl
+    bass: 1
+    treble: 5
+    voicing: std
+    volume: 7
   file: captures/w6iijz8wqsf_a2.nam
 - values:
-    model: bfsr_nrm_v_4_t_3_b_4_srl_6db
+    bass: 4
+    treble: 3
+    voicing: boost
+    volume: 4
   file: captures/eg3ufuiu527_a2.nam
 - values:
-    model: bfsr_nrm_v_10_t_6_b_2_srl
+    bass: 2
+    treble: 6
+    voicing: std
+    volume: 10
   file: captures/5s2kqp07feb_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_7_b_2_srl
+    bass: 2
+    treble: 7
+    voicing: std
+    volume: 9
   file: captures/87i8kg0zeqm_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_9_b_2_srl
+    bass: 2
+    treble: 9
+    voicing: std
+    volume: 8
   file: captures/b43drojrqel_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_7_b_2_srl
+    bass: 2
+    treble: 7
+    voicing: std
+    volume: 8
   file: captures/exs95go62dq_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_6_b_1_srl
+    bass: 1
+    treble: 6
+    voicing: std
+    volume: 9
   file: captures/rm9979vdxzj_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_6_b_2_srl
+    bass: 2
+    treble: 6
+    voicing: std
+    volume: 8
   file: captures/5ktjyttu9ba_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_10_b_1_srl
+    bass: 1
+    treble: 10
+    voicing: std
+    volume: 9
   file: captures/5qoqgu4wbe7_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_5_b_1_srl
+    bass: 1
+    treble: 5
+    voicing: std
+    volume: 9
   file: captures/76hh6u8y45k_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_10_b_1_srl
+    bass: 1
+    treble: 10
+    voicing: std
+    volume: 8
   file: captures/glztowyfhyu_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_10_b_2_srl
+    bass: 2
+    treble: 10
+    voicing: std
+    volume: 9
   file: captures/w2ia9tvdi7_a2.nam
 - values:
-    model: bfsr_nrm_v_4_t_2_b_4_brt_srl_6db
+    bass: 4
+    treble: 2
+    voicing: brt
+    volume: 4
   file: captures/zq6b2tyzyfg_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_8_b_2_srl
+    bass: 2
+    treble: 8
+    voicing: std
+    volume: 9
   file: captures/dwr1hvp7muj_a2.nam
 - values:
-    model: bfsr_nrm_v_9_t_9_b_2_srl
+    bass: 2
+    treble: 9
+    voicing: std
+    volume: 9
   file: captures/mx0o641hvv_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_5_b_2_srl
+    bass: 2
+    treble: 5
+    voicing: std
+    volume: 8
   file: captures/4w61w6fwr9r_a2.nam
 - values:
-    model: bfsr_nrm_v_6_t_6_b_4_srl
+    bass: 4
+    treble: 6
+    voicing: std
+    volume: 6
   file: captures/4we7fxanpi7_a2.nam
 - values:
-    model: bfsr_nrm_v_8_t_7_b_1_srl
+    bass: 1
+    treble: 7
+    voicing: std
+    volume: 8
   file: captures/69s886bhl52_a2.nam
 - values:
-    model: bfsr_nrm_v_5_t_4_b_4_srl
+    bass: 4
+    treble: 4
+    voicing: std
+    volume: 5
   file: captures/5mowhs3tuxv_a2.nam

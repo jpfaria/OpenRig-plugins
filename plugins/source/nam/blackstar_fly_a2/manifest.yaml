@@ -10,19 +10,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6132
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - blackstar_fly_clean
-  - blackstar_fly_crunch
-  - blackstar_fly_od
+  - clean
+  - crunch
+  - od
 captures:
 - values:
-    model: blackstar_fly_clean
+    voicing: clean
   file: captures/b628bcf66e52b011_a2.nam
 - values:
-    model: blackstar_fly_crunch
+    voicing: crunch
   file: captures/8cd09564345bd7fe_a2.nam
 - values:
-    model: blackstar_fly_od
+    voicing: od
   file: captures/658ee51406d554fc_a2.nam

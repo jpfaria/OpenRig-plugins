@@ -13,60 +13,60 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - pow_be100dlx_el34_juice_28_di_std
-  - pre_be100dlx_hbe_noon_hbe_01_std
-  - pre_be100dlx_be_noon_be_01_std
-  - pre_be100dlx_be_noon_be_13_std
-  - amp_be100dlx_cln_rock_01_di_std
-  - pre_be100dlx_cln_noon_cln_02_std
-  - amp_be100dlx_be_man_in_the_cogs_01_di_std
-  - amp_be100dlx_hbe_mammoth_di_std
-  - amp_be100dlx_hbe_tallica_di_std
-  - pre_be100dlx_hbe_noon_hbe_13_std
-  - pre_be100dlx_cln_noon_cln_03_std
-  - amp_be100dlx_cln_tender_clean_di_std
-  - amp_be100dlx_be_eddie_01_di_std
-  - amp_be100dlx_be_test_di_std
+  - el34_juice
+  - pre_hbe_01
+  - pre_hbe_13
+  - pre_be_01
+  - pre_be_13
+  - pre_cln_02
+  - pre_cln_03
+  - cln_rock
+  - cln_tender
+  - be_eddie
+  - be_cogs
+  - be_test
+  - hbe_mammoth
+  - hbe_tallica
 captures:
 - values:
-    model: pow_be100dlx_el34_juice_28_di_std
+    model: el34_juice
   file: captures/g2ufcfcik7k_a2.nam
 - values:
-    model: pre_be100dlx_hbe_noon_hbe_01_std
+    model: pre_hbe_01
   file: captures/157fm9cf2ea_a2.nam
 - values:
-    model: pre_be100dlx_be_noon_be_01_std
+    model: pre_be_01
   file: captures/2gzm1geqta_a2.nam
 - values:
-    model: pre_be100dlx_be_noon_be_13_std
+    model: pre_be_13
   file: captures/3693apnmfkx_a2.nam
 - values:
-    model: amp_be100dlx_cln_rock_01_di_std
+    model: cln_rock
   file: captures/tr9ecbm8v9_a2.nam
 - values:
-    model: pre_be100dlx_cln_noon_cln_02_std
+    model: pre_cln_02
   file: captures/bdp8ota7ll9_a2.nam
 - values:
-    model: amp_be100dlx_be_man_in_the_cogs_01_di_std
+    model: be_cogs
   file: captures/w8c999evm9_a2.nam
 - values:
-    model: amp_be100dlx_hbe_mammoth_di_std
+    model: hbe_mammoth
   file: captures/7deazet4ck7_a2.nam
 - values:
-    model: amp_be100dlx_hbe_tallica_di_std
+    model: hbe_tallica
   file: captures/r9hba58ccca_a2.nam
 - values:
-    model: pre_be100dlx_hbe_noon_hbe_13_std
+    model: pre_hbe_13
   file: captures/dcw841i99r7_a2.nam
 - values:
-    model: pre_be100dlx_cln_noon_cln_03_std
+    model: pre_cln_03
   file: captures/twjt8djuuud_a2.nam
 - values:
-    model: amp_be100dlx_cln_tender_clean_di_std
+    model: cln_tender
   file: captures/be081mrxmr_a2.nam
 - values:
-    model: amp_be100dlx_be_eddie_01_di_std
+    model: be_eddie
   file: captures/nur5fjp7yy_a2.nam
 - values:
-    model: amp_be100dlx_be_test_di_std
+    model: be_test
   file: captures/clpf2wat64a_a2.nam

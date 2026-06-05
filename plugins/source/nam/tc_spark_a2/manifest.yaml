@@ -10,51 +10,67 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5099
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - tc_electronic_spark_boost_gain_4_level_6_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_8_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_5_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_1_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_9_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_4_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_7_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_5_level_5_bass_5_treble_5_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_2_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_4_level_3_bass_6_treble_6_mid_boost
-  - tc_electronic_spark_boost_gain_0_level_10_bass_5_treble_5_mid_boost
+  - 0
+  - 4
+  - 5
+- name: level
+  display_name: Level
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 captures:
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_6_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 6
   file: captures/5868d2c68977d291_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_8_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 8
   file: captures/0314c0638ca69107_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_5_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 5
   file: captures/a37a4a3a83f7ec99_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_1_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 1
   file: captures/1983c15c8fddb66c_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_9_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 9
   file: captures/078f13a73634b286_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_4_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 4
   file: captures/d6e64a622a288ebd_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_7_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 7
   file: captures/21537eed34398c86_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_5_level_5_bass_5_treble_5_mid_boost
+    gain: 5
+    level: 5
   file: captures/285b4ee7b5028bda_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_2_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 2
   file: captures/d4cb95a50db5a497_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_4_level_3_bass_6_treble_6_mid_boost
+    gain: 4
+    level: 3
   file: captures/9046a863bab84d94_a2.nam
 - values:
-    model: tc_electronic_spark_boost_gain_0_level_10_bass_5_treble_5_mid_boost
+    gain: 0
+    level: 10
   file: captures/91996bcdf7455fcc_a2.nam

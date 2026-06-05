@@ -10,151 +10,218 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/67214
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
-  - di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_srl
-  - di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_srl
-  - di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_fat_srl
-  - di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_2_p_5_srl_6db
-  - di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_srl
-  - di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_fat_srl
-  - di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
-  - di_jsx_cln_v_8_t_6_m_4_b_4_ma_1_r_0_p_3_srl_6db
-  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_srl
-  - di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_srl
-  - di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_fat_srl
-  - di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_fat_srl
-  - di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_srl
-  - di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
-  - di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_3_p_6_srl_6db
-  - di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_fat_srl
-  - di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_fat_srl
-  - di_jsx_cln_v_8_t_5_m_5_b_5_ma_1_r_2_p_2_srl_6db
-  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_fat_srl
-  - di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_srl
-  - di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_srl
-  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_srl
-  - di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_fat_srl
-  - di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_srl
-  - di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_srl
-  - di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_fat_srl
-  - di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_srl
-  - di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
-  - di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_fat_srl
-  - di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_fat_srl
-  - di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_fat_srl
-  - di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_fat_srl
-  - di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_srl
-  - di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_srl
-  - di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_fat_srl
-  - di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+  - clean
+  - crunch
+  - ultra
+- name: tone
+  display_name: Tone
+  values:
+  - normal
+  - fat
+- name: voicing
+  display_name: Voicing
+  values:
+  - g4_t4_b6_p5_r2
+  - g6_t6_m6_p2_r3
+  - g6_t6_m5_p2_r1
+  - v5_t6_r2_p5
+  - g6_t45_p4_r3
+  - g6_t5_m7_p4_r4
+  - g4_t5_m4_p3_r5
+  - g4_t5_m4_p3_r5_b
+  - v8_t6_r0_p3
+  - g4_t5_m5_p3_r4
+  - g6_t6_m4_p4_r5
+  - g8_t7_p3_r55
+  - v5_t6_r3_p6
+  - g4_t6_b7_p2_r3
+  - g5_t55_p3_r7
+  - v8_t5_r2_p2
+  - g4_t6_m6_p45_r45
+  - g4_t5_m5_p6_r6
+  - g8_t5_p3_r3
+  - g4_t55_m3_p6_r5
 captures:
 - values:
-    model: di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t4_b6_p5_r2
   file: captures/2d4to6tmw8k_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_srl
+    channel: crunch
+    tone: normal
+    voicing: g6_t6_m6_p2_r3
   file: captures/20e3ja7msm3_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g6_t6_m5_p2_r1
   file: captures/slif9w0t90i_a2.nam
 - values:
-    model: di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_2_p_5_srl_6db
+    channel: clean
+    tone: normal
+    voicing: v5_t6_r2_p5
   file: captures/ldl7ssk3md_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_srl
+    channel: crunch
+    tone: normal
+    voicing: g6_t45_p4_r3
   file: captures/5sl2oo9tkxu_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g6_t5_m7_p4_r4
   file: captures/k1nigwd1tir_a2.nam
 - values:
-    model: di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
+    channel: crunch
+    tone: normal
+    voicing: g4_t5_m4_p3_r5
   file: captures/f0cjsxhghnj_a2.nam
 - values:
-    model: di_jsx_cln_v_8_t_6_m_4_b_4_ma_1_r_0_p_3_srl_6db
+    channel: clean
+    tone: normal
+    voicing: v8_t6_r0_p3
   file: captures/88esnjeq39x_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t5_m5_p3_r4
   file: captures/i0ddqnwifh_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_srl
+    channel: crunch
+    tone: normal
+    voicing: g6_t6_m4_p4_r5
   file: captures/iygwamb13v_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_6_m_4_b_6_ma_1_p_4_r_5_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g6_t6_m4_p4_r5
   file: captures/yo9n0phdj3k_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_4_5_m_6_b_6_5_ma_1_p_4_r_3_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g6_t45_p4_r3
   file: captures/vlx1dw9h99n_a2.nam
 - values:
-    model: di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_srl
+    channel: crunch
+    tone: normal
+    voicing: g8_t7_p3_r55
   file: captures/8e2q7p4fh57_a2.nam
 - values:
-    model: di_jsx_cr_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g4_t5_m4_p3_r5
   file: captures/ek923vji7ub_a2.nam
 - values:
-    model: di_jsx_cln_v_5_t_6_m_4_b_4_ma_1_r_3_p_6_srl_6db
+    channel: clean
+    tone: normal
+    voicing: v5_t6_r3_p6
   file: captures/4a1h4egnm93_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g4_t6_b7_p2_r3
   file: captures/37gj335byyo_a2.nam
 - values:
-    model: di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g5_t55_p3_r7
   file: captures/7ykohvplodu_a2.nam
 - values:
-    model: di_jsx_cln_v_8_t_5_m_5_b_5_ma_1_r_2_p_2_srl_6db
+    channel: clean
+    tone: normal
+    voicing: v8_t5_r2_p2
   file: captures/mip12jckpvc_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_3_r_4_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g4_t5_m5_p3_r4
   file: captures/o4stk9ba9es_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_6_m_4_b_7_ma_1_p_2_r_3_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t6_b7_p2_r3
   file: captures/8fev9bneo0j_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t6_m6_p45_r45
   file: captures/yh19dzcfdh_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t5_m5_p6_r6
   file: captures/waqbxwidaio_a2.nam
 - values:
-    model: di_jsx_cr_g_8_t_7_m_4_b_6_ma_1_p_3_r_5_5_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g8_t7_p3_r55
   file: captures/pdjazrq7s3a_a2.nam
 - values:
-    model: di_jsx_ult_g_5_t_5_5_m_5_5_b_4_ma_1_p_3_r_7_srl
+    channel: ultra
+    tone: normal
+    voicing: g5_t55_p3_r7
   file: captures/6umollp5twy_a2.nam
 - values:
-    model: di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_srl
+    channel: crunch
+    tone: normal
+    voicing: g8_t5_p3_r3
   file: captures/zux8prjrbwh_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g4_t55_m3_p6_r5
   file: captures/kumeza5fcr8_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_6_m_5_b_6_ma_1_p_2_r_1_srl
+    channel: crunch
+    tone: normal
+    voicing: g6_t6_m5_p2_r1
   file: captures/zrcts6bdvul_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t5_m4_p3_r5
   file: captures/iln2e9op68_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_m_5_b_5_ma_1_p_6_r_6_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g4_t5_m5_p6_r6
   file: captures/8y6xihu36o_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_6_m_6_b_6_ma_1_p_4_5_r_4_5_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g4_t6_m6_p45_r45
   file: captures/rp8x255jzj_a2.nam
 - values:
-    model: di_jsx_cr_g_8_t_5_m_5_b_5_ma_1_p_3_r_3_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g8_t5_p3_r3
   file: captures/ivrckhub0fa_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_4_m_5_b_6_ma_1_p_5_r_2_fat_srl
+    channel: ultra
+    tone: fat
+    voicing: g4_t4_b6_p5_r2
   file: captures/nhs7t69hyk_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_5_m_7_b_4_ma_1_p_4_r_4_srl
+    channel: crunch
+    tone: normal
+    voicing: g6_t5_m7_p4_r4
   file: captures/08mdt3uo1u2_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_5_m_3_b_5_5_ma_1_p_6_r_5_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t55_m3_p6_r5
   file: captures/zbn9owws5xq_a2.nam
 - values:
-    model: di_jsx_cr_g_6_t_6_m_6_b_5_ma_1_p_2_r_3_fat_srl
+    channel: crunch
+    tone: fat
+    voicing: g6_t6_m6_p2_r3
   file: captures/q8xb6xs4o4_a2.nam
 - values:
-    model: di_jsx_ult_g_4_t_5_m_4_b_6_ma_1_p_3_r_5_fat_srl
+    channel: ultra
+    tone: normal
+    voicing: g4_t5_m4_p3_r5_b
   file: captures/dzed5vxrtv_a2.nam

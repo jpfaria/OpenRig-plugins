@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - fender_pa100_clean_700epochs
+  - clean
 captures:
 - values:
-    model: fender_pa100_clean_700epochs
+    model: clean
   file: captures/mjgpr67aa6l_a2.nam

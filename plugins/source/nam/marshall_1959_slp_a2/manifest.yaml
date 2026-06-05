@@ -10,23 +10,23 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/43379
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - marshall_1959_slp_dookie_mod_ch1_gain_at_9_o_clock
-  - marshall_1959_slp_dookie_mod_ch1_gain_at_3_o_clock
-  - marshall_1959_slp_dookie_mod_ch1_gain_at_noon
-  - marshall_1959_slp_dookie_mod_ch1_gain_at_max
+  - 9_oclock
+  - noon
+  - 3_oclock
+  - max
 captures:
 - values:
-    model: marshall_1959_slp_dookie_mod_ch1_gain_at_9_o_clock
+    gain: 9_oclock
   file: captures/5kmishqrc1f_a2.nam
 - values:
-    model: marshall_1959_slp_dookie_mod_ch1_gain_at_3_o_clock
-  file: captures/jyvh0wd2bk_a2.nam
-- values:
-    model: marshall_1959_slp_dookie_mod_ch1_gain_at_noon
+    gain: noon
   file: captures/zvduhfukrol_a2.nam
 - values:
-    model: marshall_1959_slp_dookie_mod_ch1_gain_at_max
+    gain: 3_oclock
+  file: captures/jyvh0wd2bk_a2.nam
+- values:
+    gain: max
   file: captures/yjyewoevvm_a2.nam

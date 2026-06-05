@@ -9,55 +9,80 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/46293
 parameters:
-- name: model
-  display_name: Model
+- name: mode
+  display_name: Mode
   values:
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_12_00_lp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_3_00_lp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_9_00_lp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_9_00_hp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_12_00_hp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_9_00_hp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_3_00_lp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_12_00_hp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_3_00_hp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_9_00_lp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_3_00_hp
-  - fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_12_00_lp
+  - lp
+  - hp
+- name: drive
+  display_name: Drive
+  values:
+  - 3
+  - 9
+  - 12
+- name: tone
+  display_name: Tone
+  values:
+  - lo
+  - hi
 captures:
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_12_00_lp
+    drive: 12
+    mode: lp
+    tone: hi
   file: captures/tfll0vmylm_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_3_00_lp
+    drive: 3
+    mode: lp
+    tone: hi
   file: captures/ejfhc3700jq_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_9_00_lp
+    drive: 9
+    mode: lp
+    tone: hi
   file: captures/3c1yh45s657_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_9_00_hp
+    drive: 9
+    mode: hp
+    tone: lo
   file: captures/dodvu24ek44_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_12_00_hp
+    drive: 12
+    mode: hp
+    tone: lo
   file: captures/n553hrz18i_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_9_00_hp
+    drive: 9
+    mode: hp
+    tone: hi
   file: captures/i7mk4fpwpo_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_3_00_lp
+    drive: 3
+    mode: lp
+    tone: lo
   file: captures/z6qyqveh6d_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_12_00_hp
+    drive: 12
+    mode: hp
+    tone: hi
   file: captures/5agaqaqzn0r_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_3_00_hp
+    drive: 3
+    mode: hp
+    tone: lo
   file: captures/3pu1co7zhh9_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_9_00_lp
+    drive: 9
+    mode: lp
+    tone: lo
   file: captures/ww9lic0s33_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_12_00_d_3_00_hp
+    drive: 3
+    mode: hp
+    tone: hi
   file: captures/0ykep8lk1vb_a2.nam
 - values:
-    model: fulltone_ocd_v1_5_12v_a_a_v_5_00_t_1_30_d_12_00_lp
+    drive: 12
+    mode: lp
+    tone: lo
   file: captures/hfx8w4eygdu_a2.nam
