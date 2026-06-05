@@ -11,37 +11,37 @@ parameters:
 - name: blend
   display_name: Blend
   values:
-  - '25'
-  - '70'
-  - '100'
+  - 25
+  - 70
+  - 100
 - name: gain
   display_name: Gain
   values:
-  - '0'
-  - '5'
-  - 7_5
+  - 0
+  - 5
+  - 7.5
 captures:
 - values:
-    blend: '25'
-    gain: '5'
+    blend: 25
+    gain: 5
   file: captures/boss_odb3_v7_5_h5_l6_blend_25_gain_5.nam
 - values:
-    blend: '25'
-    gain: 7_5
+    blend: 25
+    gain: 7.5
   file: captures/boss_odb3_v7_5_h5_l6_blend_25_gain_7_5.nam
 - values:
-    blend: '70'
-    gain: '0'
+    blend: 70
+    gain: 0
   file: captures/boss_odb3_v7_5_h5_l6_blend_70_gain_0.nam
 - values:
-    blend: '100'
-    gain: '0'
+    blend: 100
+    gain: 0
   file: captures/boss_odb3_v7_5_h5_l6_blend_100_gain_0.nam
 - values:
-    blend: '100'
-    gain: '5'
+    blend: 100
+    gain: 5
   file: captures/boss_odb3_v7_5_h5_l6_blend_100_gain_5.nam
 - values:
-    blend: '100'
-    gain: 7_5
+    blend: 100
+    gain: 7.5
   file: captures/boss_odb3_v7_5_h5_l6_blend_100_gain_7_5.nam

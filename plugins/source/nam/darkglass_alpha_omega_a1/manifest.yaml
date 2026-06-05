@@ -16,40 +16,40 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - '2'
-  - '5'
-  - '8'
-  - '10'
+  - 2
+  - 5
+  - 8
+  - 10
 captures:
 - values:
     channel: alpha
-    gain: '2'
+    gain: 2
   file: captures/alpha_omega_alpha_g2.nam
 - values:
     channel: alpha
-    gain: '5'
+    gain: 5
   file: captures/alpha_omega_alpha_g5.nam
 - values:
     channel: alpha
-    gain: '8'
+    gain: 8
   file: captures/alpha_omega_alpha_g8.nam
 - values:
     channel: alpha
-    gain: '10'
+    gain: 10
   file: captures/alpha_omega_alpha_g10.nam
 - values:
     channel: omega
-    gain: '2'
+    gain: 2
   file: captures/alpha_omega_omega_g2.nam
 - values:
     channel: omega
-    gain: '5'
+    gain: 5
   file: captures/alpha_omega_omega_g5.nam
 - values:
     channel: omega
-    gain: '8'
+    gain: 8
   file: captures/alpha_omega_omega_g8.nam
 - values:
     channel: omega
-    gain: '10'
+    gain: 10
   file: captures/alpha_omega_omega_g10.nam

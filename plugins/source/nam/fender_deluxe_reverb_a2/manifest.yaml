@@ -10,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/15222
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - all_on_5_bright
   - v10_t10_b1_bright
@@ -49,104 +49,104 @@ parameters:
   - driven_bright
 captures:
 - values:
-    model: all_on_5_bright
+    preset: all_on_5_bright
   file: captures/yv89zxio61_a2.nam
 - values:
-    model: v10_t10_b1_bright
+    preset: v10_t10_b1_bright
   file: captures/1usvnvuo7ja_a2.nam
 - values:
-    model: mild_drive_norm
+    preset: mild_drive_norm
   file: captures/a03i4g7e27_a2.nam
 - values:
-    model: mild_drive_bright
+    preset: mild_drive_bright
   file: captures/bts5034p68c_a2.nam
 - values:
-    model: cranked_norm
+    preset: cranked_norm
   file: captures/5bc53du74vv_a2.nam
 - values:
-    model: v6_driven_norm
+    preset: v6_driven_norm
   file: captures/tddntyg828m_a2.nam
 - values:
-    model: v6_clean_bright
+    preset: v6_clean_bright
   file: captures/413bex6izgl_a2.nam
 - values:
-    model: v6_all_on_5_norm
+    preset: v6_all_on_5_norm
   file: captures/fpjz6nrc6vv_a2.nam
 - values:
-    model: v6_vib_ts9_boost
+    preset: v6_vib_ts9_boost
   file: captures/11wr98r240d_a2.nam
 - values:
-    model: v6_v10_t10_b1_norm
+    preset: v6_v10_t10_b1_norm
   file: captures/ir59vpfv1t9_a2.nam
 - values:
-    model: v6_v10_t10_b1_bright
+    preset: v6_v10_t10_b1_bright
   file: captures/des7xqybc8f_a2.nam
 - values:
-    model: v6_mild_drive_norm
+    preset: v6_mild_drive_norm
   file: captures/790e62f3so_a2.nam
 - values:
-    model: 80s_clean_v6
+    preset: 80s_clean_v6
   file: captures/zgzjhux4obe_a2.nam
 - values:
-    model: driven_norm
+    preset: driven_norm
   file: captures/gftvaw59puu_a2.nam
 - values:
-    model: v6_sweet_spot_norm
+    preset: v6_sweet_spot_norm
   file: captures/k81e6d0lv7_a2.nam
 - values:
-    model: v6_v1_pulled
+    preset: v6_v1_pulled
   file: captures/scv9eqj3sra_a2.nam
 - values:
-    model: v6_cranked_bright
+    preset: v6_cranked_bright
   file: captures/x7mq8mkdxu_a2.nam
 - values:
-    model: v10_t10_b1_norm
+    preset: v10_t10_b1_norm
   file: captures/yimzze4w3tk_a2.nam
 - values:
-    model: v6_norm_ts9_boost
+    preset: v6_norm_ts9_boost
   file: captures/w8qog7z7l_a2.nam
 - values:
-    model: v6_jumpered_bright
+    preset: v6_jumpered_bright
   file: captures/wlkfo56ii7j_a2.nam
 - values:
-    model: 80s_clean
+    preset: 80s_clean
   file: captures/687wu4zquce_a2.nam
 - values:
-    model: v6_driven_bright
+    preset: v6_driven_bright
   file: captures/ut0p03e3zsl_a2.nam
 - values:
-    model: v6_jumpered_sweet
+    preset: v6_jumpered_sweet
   file: captures/9nojjjvtt8n_a2.nam
 - values:
-    model: sweet_spot_bright
+    preset: sweet_spot_bright
   file: captures/w8e07s98k5_a2.nam
 - values:
-    model: cranked_bright
+    preset: cranked_bright
   file: captures/5oukx2jcsqs_a2.nam
 - values:
-    model: v6_clean_norm
+    preset: v6_clean_norm
   file: captures/z4nvkah2zyj_a2.nam
 - values:
-    model: jumpered_sweet
+    preset: jumpered_sweet
   file: captures/s1g7exkf4qe_a2.nam
 - values:
-    model: v6_sweet_spot_bright
+    preset: v6_sweet_spot_bright
   file: captures/eacloy24p44_a2.nam
 - values:
-    model: v6_cranked_norm
+    preset: v6_cranked_norm
   file: captures/gd6hrfg5lxv_a2.nam
 - values:
-    model: sweet_spot_norm
+    preset: sweet_spot_norm
   file: captures/7d2ja1np165_a2.nam
 - values:
-    model: v1_pulled
+    preset: v1_pulled
   file: captures/0uqm6q96ze59_a2.nam
 - values:
-    model: clean_bright
+    preset: clean_bright
   file: captures/1dug8xrobnf_a2.nam
 - values:
-    model: clean_norm
+    preset: clean_norm
   file: captures/iok1bt8lhub_a2.nam
 - values:
-    model: driven_bright
+    preset: driven_bright
   file: captures/duo347w9ef_a2.nam

@@ -10,102 +10,102 @@ parameters:
 - name: voice
   display_name: Voice
   values:
-  - '130'
-  - '1030'
-  - '1200'
+  - 130
+  - 1030
+  - 1200
 - name: gain
   display_name: Gain
   values:
-  - '130'
-  - '300'
-  - '500'
-  - '700'
-  - '900'
-  - '1030'
-  - '1200'
-  - '1300'
+  - 130
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1030
+  - 1200
+  - 1300
 captures:
 - values:
-    gain: '300'
-    voice: '130'
+    gain: 300
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain300.nam
 - values:
-    gain: '500'
-    voice: '130'
+    gain: 500
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain500.nam
 - values:
-    gain: '700'
-    voice: '130'
+    gain: 700
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain700.nam
 - values:
-    gain: '900'
-    voice: '130'
+    gain: 900
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain900.nam
 - values:
-    gain: '1030'
-    voice: '130'
+    gain: 1030
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain1030.nam
 - values:
-    gain: '1200'
-    voice: '130'
+    gain: 1200
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain1200.nam
 - values:
-    gain: '1300'
-    voice: '130'
+    gain: 1300
+    voice: 130
   file: captures/zendrive_vol100_tone130_voice130_gain1300.nam
 - values:
-    gain: '130'
-    voice: '1030'
+    gain: 130
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain130.nam
 - values:
-    gain: '300'
-    voice: '1030'
+    gain: 300
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain300.nam
 - values:
-    gain: '500'
-    voice: '1030'
+    gain: 500
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain500.nam
 - values:
-    gain: '700'
-    voice: '1030'
+    gain: 700
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain700.nam
 - values:
-    gain: '900'
-    voice: '1030'
+    gain: 900
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain900.nam
 - values:
-    gain: '1030'
-    voice: '1030'
+    gain: 1030
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain1030.nam
 - values:
-    gain: '1200'
-    voice: '1030'
+    gain: 1200
+    voice: 1030
   file: captures/zendrive_vol100_tone130_voice1030_gain1200.nam
 - values:
-    gain: '130'
-    voice: '1200'
+    gain: 130
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain130.nam
 - values:
-    gain: '300'
-    voice: '1200'
+    gain: 300
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain300.nam
 - values:
-    gain: '500'
-    voice: '1200'
+    gain: 500
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain500.nam
 - values:
-    gain: '700'
-    voice: '1200'
+    gain: 700
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain700.nam
 - values:
-    gain: '900'
-    voice: '1200'
+    gain: 900
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain900.nam
 - values:
-    gain: '1030'
-    voice: '1200'
+    gain: 1030
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain1030.nam
 - values:
-    gain: '1200'
-    voice: '1200'
+    gain: 1200
+    voice: 1200
   file: captures/zendrive_vol100_tone130_voice1200_gain1200.nam

@@ -13,7 +13,7 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - 8_5
+  - 8.5
   - 9
   - 14
   - 17
@@ -26,7 +26,7 @@ parameters:
 captures:
 - values:
     balance: 8
-    gain: 8_5
+    gain: 8.5
   file: captures/m7dik2p61pa_a2.nam
 - values:
     balance: 8
