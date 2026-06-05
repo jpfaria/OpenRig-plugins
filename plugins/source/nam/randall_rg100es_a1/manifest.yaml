@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): power=100w, year=1987.
 manifest_version: 1
 id: nam_randall_rg100es_a1
 display_name: Randall RG100es
@@ -20,31 +21,31 @@ parameters:
 - name: sustain
   display_name: Sustain
   values:
-  - off
-  - on
+  - none
+  - engaged
 captures:
 - values:
     channel: clean
     gain: default
-    sustain: off
+    sustain: none
   file: captures/randall_rg100es_100w_1987_ch_clean.nam
 - values:
     channel: crunch
     gain: default
-    sustain: off
+    sustain: none
   file: captures/randall_rg100es_100w_1987_ch_crunch.nam
 - values:
     channel: crunch
     gain: default
-    sustain: on
+    sustain: engaged
   file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged.nam
 - values:
     channel: crunch
     gain: 8_5
-    sustain: off
+    sustain: none
   file: captures/randall_rg100es_100w_1987_ch_crunch_gain_8_5.nam
 - values:
     channel: crunch
     gain: 8_5
-    sustain: on
+    sustain: engaged
   file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5.nam

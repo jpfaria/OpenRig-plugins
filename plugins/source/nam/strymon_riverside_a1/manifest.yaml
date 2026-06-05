@@ -7,11 +7,11 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: default
+  display_name: Default
   values:
-  - strymon_riverside
+  - default
 captures:
 - values:
-    tone: strymon_riverside
+    default: default
   file: captures/strymon_riverside.nam

@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): di (direct input),
+# supro_1695tj (amp model), in1_2 (input), v1_5 (volume 1 = 5), v2_0 (volume 2 = 0).
 manifest_version: 1
 id: nam_supro_black_magick_a1
 display_name: Supro Black Magick
@@ -10,10 +12,10 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - 3
+  - 4
+  - 5
+  - 6
 - name: speaker
   display_name: Speaker
   values:
@@ -21,22 +23,22 @@ parameters:
   - p12q
 captures:
 - values:
+    tone: 3
     speaker: srl
-    tone: '3'
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_3_srl.nam
 - values:
+    tone: 4
     speaker: srl
-    tone: '4'
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_4_srl.nam
 - values:
+    tone: 5
     speaker: srl
-    tone: '5'
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_5_srl.nam
 - values:
-    speaker: p12q
-    tone: '5'
-  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_5_p12q.nam
-- values:
+    tone: 6
     speaker: srl
-    tone: '6'
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_6_srl.nam
+- values:
+    tone: 5
+    speaker: p12q
+  file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_5_p12q.nam

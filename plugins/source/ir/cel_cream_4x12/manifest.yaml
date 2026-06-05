@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): mic = sm57
 manifest_version: 1
 id: ir_cel_cream_4x12
 display_name: Celestion Cream 4x12
@@ -6,17 +7,17 @@ brand_logo: assets/brand_logo.svg
 type: cab
 backend: ir
 parameters:
-- name: mic
-  display_name: Mic
+- name: voicing
+  display_name: Voicing
   values:
-  - sm57_dark
-  - sm57_fat
+  - dark
+  - fat
 captures:
 - values:
-    mic: sm57_dark
+    voicing: dark
   file: ir/sm57_dark.wav
   output_gain_db: -21.3479176
 - values:
-    mic: sm57_fat
+    voicing: fat
   file: ir/sm57_fat.wav
   output_gain_db: -20.9968052

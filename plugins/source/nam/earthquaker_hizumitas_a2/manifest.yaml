@@ -1,3 +1,4 @@
+# Dropped constant across all captures: Vol 5
 manifest_version: 1
 id: nam_earthquaker_hizumitas_a2
 display_name: EarthQuaker Hizumitas
@@ -29,96 +30,96 @@ captures:
 - values:
     sustain: 0
     tone: 0
-  file: captures/3waikscr3jg_a2.nam
+  file: captures/sustain_0_tone_0_a2.nam
 - values:
     sustain: 3
     tone: 0
-  file: captures/61v5kydpdga_a2.nam
+  file: captures/sustain_3_tone_0_a2.nam
 - values:
     sustain: 5
     tone: 0
-  file: captures/tbdp6z6o0v_a2.nam
+  file: captures/sustain_5_tone_0_a2.nam
 - values:
     sustain: 7
     tone: 0
-  file: captures/l7vce02sz4a_a2.nam
+  file: captures/sustain_7_tone_0_a2.nam
 - values:
     sustain: 10
     tone: 0
-  file: captures/wh77i2zaas8_a2.nam
+  file: captures/sustain_10_tone_0_a2.nam
 - values:
     sustain: 3
     tone: 3
-  file: captures/72tcl5ekpl_a2.nam
+  file: captures/sustain_3_tone_3_a2.nam
 - values:
     sustain: 5
     tone: 3
-  file: captures/a5zkk4kq7ft_a2.nam
+  file: captures/sustain_5_tone_3_a2.nam
 - values:
     sustain: 7
     tone: 3
-  file: captures/2f2kuuamtim_a2.nam
+  file: captures/sustain_7_tone_3_a2.nam
 - values:
     sustain: 10
     tone: 3
-  file: captures/b6letquk87_a2.nam
+  file: captures/sustain_10_tone_3_a2.nam
 - values:
     sustain: 0
     tone: 5
-  file: captures/k6yvfzrtohj_a2.nam
+  file: captures/sustain_0_tone_5_a2.nam
 - values:
     sustain: 3
     tone: 5
-  file: captures/pcpxfc8hkf_a2.nam
+  file: captures/sustain_3_tone_5_a2.nam
 - values:
     sustain: 5
     tone: 5
-  file: captures/g19ne14sjw_a2.nam
+  file: captures/sustain_5_tone_5_a2.nam
 - values:
     sustain: 7
     tone: 5
-  file: captures/df3w99jtwz5_a2.nam
+  file: captures/sustain_7_tone_5_a2.nam
 - values:
     sustain: 10
     tone: 5
-  file: captures/x0zrrhqkar_a2.nam
+  file: captures/sustain_10_tone_5_a2.nam
 - values:
     sustain: 0
     tone: 7
-  file: captures/66bc35m4w7d_a2.nam
+  file: captures/sustain_0_tone_7_a2.nam
 - values:
     sustain: 3
     tone: 7
-  file: captures/4wqe1i9qp9r_a2.nam
+  file: captures/sustain_3_tone_7_a2.nam
 - values:
     sustain: 5
     tone: 7
-  file: captures/gtx6gib7pg_a2.nam
+  file: captures/sustain_5_tone_7_a2.nam
 - values:
     sustain: 7
     tone: 7
-  file: captures/r4v4x4yujxq_a2.nam
+  file: captures/sustain_7_tone_7_a2.nam
 - values:
     sustain: 10
     tone: 7
-  file: captures/78espmsva6_a2.nam
+  file: captures/sustain_10_tone_7_a2.nam
 - values:
     sustain: 0
     tone: 10
-  file: captures/ugiueuf4wl8_a2.nam
+  file: captures/sustain_0_tone_10_a2.nam
 - values:
     sustain: 3
     tone: 10
-  file: captures/xx3zwtpw7m_a2.nam
+  file: captures/sustain_3_tone_10_a2.nam
 - values:
     sustain: 5
     tone: 10
-  file: captures/ajtu14uduh_a2.nam
+  file: captures/sustain_5_tone_10_a2.nam
 - values:
     sustain: 7
     tone: 10
-  file: captures/exom6k4si9_a2.nam
+  file: captures/sustain_7_tone_10_a2.nam
 - values:
     sustain: 10
     tone: 10
-  file: captures/g7fzbwz7j1_a2.nam
+  file: captures/sustain_10_tone_10_a2.nam

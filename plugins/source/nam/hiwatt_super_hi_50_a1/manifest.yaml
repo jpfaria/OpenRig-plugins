@@ -1,3 +1,4 @@
+# Dropped constant: "04" appears only in the noon captures (take/version marker), not a varying axis.
 manifest_version: 1
 id: nam_hiwatt_super_hi_50_a1
 display_name: Super-Hi 50

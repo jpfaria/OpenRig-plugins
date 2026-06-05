@@ -8,12 +8,13 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/42103
+# Single capture (Tech 21 Steve Harris SH1); no varying control tokens -> single 'default' axis.
 parameters:
-- name: character
-  display_name: Character
+- name: default
+  display_name: Default
   values:
-  - standard
+  - default
 captures:
 - values:
-    character: standard
-  file: captures/u640sl4k9ld_a2.nam
+    default: default
+  file: captures/tech_21_steve_harris_sh1_a2.nam

@@ -9,6 +9,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/5750
+# Tone3000 names: "JTM50_Custom_HW V1-<n> V2-<n> T-<n> M-<n> B-<n> P-<n> [Jump]".
+# V1=Volume I, V2=Volume II, T=Treble, M=Middle, B=Bass, P=Presence, Jump=jumpered channels.
+# Dropped constant: amp model "JTM50_Custom_HW" identical in every capture.
 parameters:
 - name: volume1
   display_name: Volume I
@@ -67,267 +70,267 @@ parameters:
 - name: jump
   display_name: Jumpered
   values:
-  - off
-  - on
+  - "off"
+  - "on"
 captures:
 - values:
     bass: 0
-    jump: off
+    jump: "off"
     mid: 6
     presence: 6
     tone: 6
     volume1: 0
     volume2: 10
-  file: captures/d0dfa940a8d71966_a2.nam
+  file: captures/jtm50_custom_hw_v1_0_v2_10_t_6_m_6_b_0_p_6_a2.nam
 - values:
     bass: 5
-    jump: off
+    jump: "off"
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 1
+  file: captures/jtm50_custom_hw_v1_0_v2_1_t_6_m_6_b_5_p_6_a2.nam
+- values:
+    bass: 5
+    jump: "off"
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 2
+  file: captures/jtm50_custom_hw_v1_0_v2_2_t_6_m_6_b_5_p_6_a2.nam
+- values:
+    bass: 5
+    jump: "off"
     mid: 6
     presence: 6
     tone: 6
     volume1: 0
     volume2: 3
-  file: captures/ef0f00c92dcccb55_a2.nam
+  file: captures/jtm50_custom_hw_v1_0_v2_3_t_6_m_6_b_5_p_6_a2.nam
 - values:
     bass: 5
-    jump: on
-    mid: 5
-    presence: 5
-    tone: 5
-    volume1: 3
-    volume2: 2
-  file: captures/a185f271dcc3519d_a2.nam
-- values:
-    bass: 7
-    jump: off
+    jump: "off"
     mid: 6
-    presence: 5
-    tone: 5
-    volume1: 3
-    volume2: 0
-  file: captures/f14c25c60e3247e7_a2.nam
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 4
+  file: captures/jtm50_custom_hw_v1_0_v2_4_t_6_m_6_b_5_p_6_a2.nam
+- values:
+    bass: 5
+    jump: "off"
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 5
+  file: captures/jtm50_custom_hw_v1_0_v2_5_t_6_m_6_b_5_p_6_a2.nam
+- values:
+    bass: 4
+    jump: "off"
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 6
+  file: captures/jtm50_custom_hw_v1_0_v2_6_t_6_m_6_b_4_p_6_a2.nam
+- values:
+    bass: 3
+    jump: "off"
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 7
+  file: captures/jtm50_custom_hw_v1_0_v2_7_t_6_m_6_b_3_p_6_a2.nam
 - values:
     bass: 2
-    jump: off
+    jump: "off"
     mid: 6
     presence: 6
     tone: 6
     volume1: 0
     volume2: 8
-  file: captures/6b30fa8618a0ddaf_a2.nam
+  file: captures/jtm50_custom_hw_v1_0_v2_8_t_6_m_6_b_2_p_6_a2.nam
 - values:
-    bass: 5
-    jump: off
+    bass: 1
+    jump: "off"
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 9
+  file: captures/jtm50_custom_hw_v1_0_v2_9_t_6_m_6_b_1_p_6_a2.nam
+- values:
+    bass: 3
+    jump: "off"
     mid: 6
     presence: 5
     tone: 5
-    volume1: 8
+    volume1: 10
     volume2: 0
-  file: captures/472f2e4dc9599741_a2.nam
+  file: captures/jtm50_custom_hw_v1_10_v2_0_t_5_m_6_b_3_p_5_a2.nam
 - values:
-    bass: 6
-    jump: off
-    mid: 6
-    presence: 5
-    tone: 5
-    volume1: 7
-    volume2: 0
-  file: captures/b332fd5abd75ba95_a2.nam
-- values:
-    bass: 4
-    jump: on
+    bass: 0
+    jump: "on"
     mid: 5
     presence: 5
     tone: 5
-    volume1: 6
-    volume2: 5
-  file: captures/bf385dc25c2a29fb_a2.nam
+    volume1: 10
+    volume2: 9
+  file: captures/jtm50_custom_hw_v1_10_v2_9_t_5_m_5_b_0_p_5_jump_a2.nam
 - values:
     bass: 7
-    jump: off
+    jump: "off"
     mid: 6
     presence: 5
     tone: 5
     volume1: 1
     volume2: 0
-  file: captures/c1ea8294e520c28a_a2.nam
+  file: captures/jtm50_custom_hw_v1_1_v2_0_t_5_m_6_b_7_p_5_a2.nam
 - values:
     bass: 7
-    jump: off
+    jump: "off"
     mid: 6
     presence: 5
     tone: 5
-    volume1: 6
+    volume1: 2
     volume2: 0
-  file: captures/d8388c7cb5fdbbd2_a2.nam
-- values:
-    bass: 2
-    jump: on
-    mid: 5
-    presence: 5
-    tone: 5
-    volume1: 8
-    volume2: 7
-  file: captures/961fccca89601234_a2.nam
-- values:
-    bass: 3
-    jump: on
-    mid: 5
-    presence: 5
-    tone: 5
-    volume1: 7
-    volume2: 6
-  file: captures/b292eebec2c05bd1_a2.nam
+  file: captures/jtm50_custom_hw_v1_2_v2_0_t_5_m_6_b_7_p_5_a2.nam
 - values:
     bass: 5
-    jump: off
-    mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
+    jump: "on"
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 2
     volume2: 1
-  file: captures/851e77b312d9dcd3_a2.nam
+  file: captures/jtm50_custom_hw_v1_2_v2_1_t_5_m_5_b_5_p_5_jump_a2.nam
 - values:
-    bass: 3
-    jump: off
+    bass: 7
+    jump: "off"
     mid: 6
     presence: 5
     tone: 5
-    volume1: 10
+    volume1: 3
     volume2: 0
-  file: captures/965e832c9d30385a_a2.nam
+  file: captures/jtm50_custom_hw_v1_3_v2_0_t_5_m_6_b_7_p_5_a2.nam
 - values:
     bass: 5
-    jump: off
-    mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
-    volume2: 2
-  file: captures/d0a654ce12cb6a5a_a2.nam
-- values:
-    bass: 4
-    jump: off
-    mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
-    volume2: 6
-  file: captures/2ab8aeee417f9efa_a2.nam
-- values:
-    bass: 0
-    jump: on
+    jump: "on"
     mid: 5
     presence: 5
     tone: 5
-    volume1: 10
-    volume2: 9
-  file: captures/76c80a2aef71a81e_a2.nam
+    volume1: 3
+    volume2: 2
+  file: captures/jtm50_custom_hw_v1_3_v2_2_t_5_m_5_b_5_p_5_jump_a2.nam
 - values:
     bass: 7
-    jump: off
+    jump: "off"
     mid: 6
     presence: 5
     tone: 5
-    volume1: 5
+    volume1: 4
     volume2: 0
-  file: captures/cfa7b842531eea4b_a2.nam
-- values:
-    bass: 1
-    jump: off
-    mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
-    volume2: 9
-  file: captures/4df7f8dade8425cb_a2.nam
+  file: captures/jtm50_custom_hw_v1_4_v2_0_t_5_m_6_b_7_p_5_a2.nam
 - values:
     bass: 5
-    jump: on
+    jump: "on"
     mid: 5
     presence: 5
     tone: 5
     volume1: 4
     volume2: 3
-  file: captures/1f26faadf4c16fe4_a2.nam
+  file: captures/jtm50_custom_hw_v1_4_v2_3_t_5_m_5_b_5_p_5_jump_a2.nam
 - values:
-    bass: 5
-    jump: off
+    bass: 7
+    jump: "off"
     mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
-    volume2: 5
-  file: captures/2d855aa331f4cef1_a2.nam
+    presence: 5
+    tone: 5
+    volume1: 5
+    volume2: 0
+  file: captures/jtm50_custom_hw_v1_5_v2_0_t_5_m_6_b_7_p_5_a2.nam
 - values:
     bass: 5
-    jump: on
+    jump: "on"
     mid: 5
     presence: 5
     tone: 5
     volume1: 5
     volume2: 4
-  file: captures/328c3c36f4614e8c_a2.nam
-- values:
-    bass: 5
-    jump: off
-    mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
-    volume2: 4
-  file: captures/c711f2cfe8ebe0e1_a2.nam
-- values:
-    bass: 3
-    jump: off
-    mid: 6
-    presence: 6
-    tone: 6
-    volume1: 0
-    volume2: 7
-  file: captures/d96af25a08ce7b94_a2.nam
+  file: captures/jtm50_custom_hw_v1_5_v2_4_t_5_m_5_b_5_p_5_jump_a2.nam
 - values:
     bass: 7
-    jump: off
+    jump: "off"
     mid: 6
     presence: 5
     tone: 5
-    volume1: 2
+    volume1: 6
     volume2: 0
-  file: captures/25a087ad8afd55fd_a2.nam
+  file: captures/jtm50_custom_hw_v1_6_v2_0_t_5_m_6_b_7_p_5_a2.nam
 - values:
-    bass: 5
-    jump: on
+    bass: 4
+    jump: "on"
     mid: 5
     presence: 5
     tone: 5
-    volume1: 2
-    volume2: 1
-  file: captures/e98acf85ec956bed_a2.nam
+    volume1: 6
+    volume2: 5
+  file: captures/jtm50_custom_hw_v1_6_v2_5_t_5_m_5_b_4_p_5_jump_a2.nam
+- values:
+    bass: 6
+    jump: "off"
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 7
+    volume2: 0
+  file: captures/jtm50_custom_hw_v1_7_v2_0_t_5_m_6_b_6_p_5_a2.nam
+- values:
+    bass: 3
+    jump: "on"
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 7
+    volume2: 6
+  file: captures/jtm50_custom_hw_v1_7_v2_6_t_5_m_5_b_3_p_5_jump_a2.nam
+- values:
+    bass: 5
+    jump: "off"
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 8
+    volume2: 0
+  file: captures/jtm50_custom_hw_v1_8_v2_0_t_5_m_6_b_5_p_5_a2.nam
+- values:
+    bass: 2
+    jump: "on"
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 8
+    volume2: 7
+  file: captures/jtm50_custom_hw_v1_8_v2_7_t_5_m_5_b_2_p_5_jump_a2.nam
+- values:
+    bass: 4
+    jump: "off"
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 9
+    volume2: 0
+  file: captures/jtm50_custom_hw_v1_9_v2_0_t_5_m_6_b_4_p_5_a2.nam
 - values:
     bass: 1
-    jump: on
+    jump: "on"
     mid: 5
     presence: 5
     tone: 5
     volume1: 9
     volume2: 8
-  file: captures/71d2934d75de72fd_a2.nam
-- values:
-    bass: 7
-    jump: off
-    mid: 6
-    presence: 5
-    tone: 5
-    volume1: 4
-    volume2: 0
-  file: captures/1aed4f138deba73d_a2.nam
-- values:
-    bass: 4
-    jump: off
-    mid: 6
-    presence: 5
-    tone: 5
-    volume1: 9
-    volume2: 0
-  file: captures/e4370f99e61ec5a1_a2.nam
+  file: captures/jtm50_custom_hw_v1_9_v2_8_t_5_m_5_b_1_p_5_jump_a2.nam

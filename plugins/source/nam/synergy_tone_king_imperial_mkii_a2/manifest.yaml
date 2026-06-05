@@ -9,6 +9,10 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/29949
+# Dropped constants (identical across every capture): brand prefix "Syn20IR Imp"
+# (Synergy 20W IR-loaded Imperial MKII module) and master "M30". The per-setting
+# knob suffix (g/b/t/v/r for C1, g/b/mb/v/r for C2) is a deterministic function of
+# the numbered "setting" dial position, so it is folded into the setting axis.
 parameters:
 - name: channel
   display_name: Channel
@@ -24,8 +28,8 @@ parameters:
 - name: bright
   display_name: Bright
   values:
-  - off
-  - on
+  - 'off'
+  - 'on'
 - name: setting
   display_name: Setting
   values:
@@ -40,650 +44,650 @@ parameters:
   - 9
 captures:
 - values:
-    bright: off
     channel: c1
-    setting: 4
     voicing: a
-  file: captures/5njjmpvfsfm_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 3
-    voicing: a
-  file: captures/5dgsmzus92t_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 2
-    voicing: a
-  file: captures/pkv0hmz653k_a2.nam
-- values:
-    bright: on
-    channel: c1
+    bright: 'off'
     setting: 1
-    voicing: c
-  file: captures/evn9arskfs_a2.nam
+  file: captures/syn20ir_imp_c1_a_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
-    bright: off
     channel: c1
-    setting: 8
-    voicing: c
-  file: captures/fd2r16plsvl_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 3
     voicing: a
-  file: captures/7nu7ijqk91m_a2.nam
-- values:
-    bright: on
-    channel: c2
+    bright: 'off'
     setting: 2
-    voicing: c
-  file: captures/9hc9bdtzv3m_a2.nam
+  file: captures/syn20ir_imp_c1_a_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
-    bright: on
-    channel: c2
-    setting: 2
-    voicing: b
-  file: captures/xcjvtfgoj7_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 4
-    voicing: c
-  file: captures/vtwtrjekpk_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 7
-    voicing: c
-  file: captures/jrq79t0y8c_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 8
+    channel: c1
     voicing: a
-  file: captures/9k8hh24ux4s_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 8
-    voicing: a
-  file: captures/5iq7p5gcy9h_a2.nam
-- values:
-    bright: off
-    channel: c2
+    bright: 'off'
     setting: 3
-    voicing: c
-  file: captures/rwm36t1yiji_a2.nam
+  file: captures/syn20ir_imp_c1_a_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
-    bright: off
-    channel: c2
+    channel: c1
+    voicing: a
+    bright: 'off'
+    setting: 4
+  file: captures/syn20ir_imp_c1_a_4_g50_b50_t50_v5_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: a
+    bright: 'off'
+    setting: 5
+  file: captures/syn20ir_imp_c1_a_5_g56_b45_t54_v5_r47_m30_a2.nam
+- values:
+    channel: c1
+    voicing: a
+    bright: 'off'
     setting: 6
+  file: captures/syn20ir_imp_c1_a_6_g62_b32_t60_v4_r50_m30_a2.nam
+- values:
+    channel: c1
     voicing: a
-  file: captures/t9l6pogfdy_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 1
-    voicing: a
-  file: captures/qkbhxqboaw_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 1
-    voicing: a
-  file: captures/pqbwdxduyl_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 4
-    voicing: a
-  file: captures/3i74bewqyq9_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 5
-    voicing: a
-  file: captures/uhr0e7wycm_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 5
-    voicing: b
-  file: captures/xd54xclo1jh_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 2
-    voicing: c
-  file: captures/3kwww56knhv_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 2
-    voicing: b
-  file: captures/02pomlik8vt5_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 5
-    voicing: b
-  file: captures/e0mby0yhenc_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 5
-    voicing: a
-  file: captures/kpofqxg6eid_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 3
-    voicing: a
-  file: captures/2ledsxcfscu_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 3
-    voicing: c
-  file: captures/hh09arr9u5g_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 5
-    voicing: c
-  file: captures/pa3rclwqv89_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 4
-    voicing: b
-  file: captures/c4naoeu181_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 3
-    voicing: b
-  file: captures/qtplr5216h_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 3
-    voicing: b
-  file: captures/iq3u4f14btb_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 2
-    voicing: b
-  file: captures/nr5y53yx8ns_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 2
-    voicing: b
-  file: captures/25btc8y5rsb_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 4
-    voicing: b
-  file: captures/kd359ahrw7b_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 4
-    voicing: b
-  file: captures/1kufdzxzogu_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 4
-    voicing: c
-  file: captures/c19df9au62a_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 1
-    voicing: c
-  file: captures/rl1u5tfi6gc_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 6
-    voicing: c
-  file: captures/gior3wbxk6_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 6
-    voicing: b
-  file: captures/7mt8ngqsxpe_a2.nam
-- values:
-    bright: off
-    channel: c1
+    bright: 'off'
     setting: 7
-    voicing: b
-  file: captures/09dok1t0to8p_a2.nam
+  file: captures/syn20ir_imp_c1_a_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
-    bright: off
     channel: c1
-    setting: 7
     voicing: a
-  file: captures/hwos8lht71k_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 9
-    voicing: c
-  file: captures/j10nj45px6l_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 3
-    voicing: a
-  file: captures/qhjxauuboeq_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 3
-    voicing: c
-  file: captures/dxe0yqdaiwt_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 2
-    voicing: a
-  file: captures/03en7pxg8cs8_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 1
-    voicing: a
-  file: captures/2i3p4rehtjd_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 4
-    voicing: a
-  file: captures/6iy9f6mgtsq_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 5
-    voicing: c
-  file: captures/v3d76glt3b_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 7
-    voicing: a
-  file: captures/32kclcihpcv_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 9
-    voicing: b
-  file: captures/kl8ify9aok_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 4
-    voicing: c
-  file: captures/emkbdfjisvj_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 7
-    voicing: b
-  file: captures/tz5govvgk2_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 4
-    voicing: c
-  file: captures/4mtbrmlhnfj_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 2
-    voicing: c
-  file: captures/913pxdiltsr_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 1
-    voicing: a
-  file: captures/6hxh3gudcxr_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 6
-    voicing: c
-  file: captures/rjazc5ijo9_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 9
-    voicing: c
-  file: captures/7k6gz0pj86o_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 3
-    voicing: b
-  file: captures/5c1z42hgqnr_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 3
-    voicing: b
-  file: captures/gb2u4qiq0l_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 2
-    voicing: c
-  file: captures/ucslqbr668_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 3
-    voicing: c
-  file: captures/hn2isil3urs_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 1
-    voicing: b
-  file: captures/oa8yaz1dtk_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 2
-    voicing: a
-  file: captures/jhynelkbkf_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 1
-    voicing: b
-  file: captures/rb0ttvlzmb_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 5
-    voicing: c
-  file: captures/c6k3v06vw1_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 5
-    voicing: b
-  file: captures/f4q0wg0x77g_a2.nam
-- values:
-    bright: off
-    channel: c1
+    bright: 'off'
     setting: 8
+  file: captures/syn20ir_imp_c1_a_8_g87_b32_t63_v4_r58_m30_a2.nam
+- values:
+    channel: c1
     voicing: a
-  file: captures/zv8iuuihvkj_a2.nam
+    bright: 'off'
+    setting: 9
+  file: captures/syn20ir_imp_c1_a_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
-    bright: on
     channel: c1
-    setting: 8
-    voicing: c
-  file: captures/7us1zd2u5lc_a2.nam
+    voicing: a
+    bright: 'on'
+    setting: 1
+  file: captures/syn20ir_imp_c1_a_hf_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
-    bright: off
-    channel: c2
-    setting: 8
-    voicing: b
-  file: captures/ej04ewiz8nu_a2.nam
-- values:
-    bright: off
     channel: c1
+    voicing: a
+    bright: 'on'
     setting: 2
+  file: captures/syn20ir_imp_c1_a_hf_2_g37_b39_t50_v6_r42_m30_a2.nam
+- values:
+    channel: c1
     voicing: a
-  file: captures/pgubko7r4n_a2.nam
+    bright: 'on'
+    setting: 3
+  file: captures/syn20ir_imp_c1_a_hf_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
-    bright: off
-    channel: c2
-    setting: 1
-    voicing: b
-  file: captures/sm8336n9dx_a2.nam
-- values:
-    bright: off
-    channel: c2
+    channel: c1
+    voicing: a
+    bright: 'on'
     setting: 4
-    voicing: b
-  file: captures/rh703wc0y3_a2.nam
+  file: captures/syn20ir_imp_c1_a_hf_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
-    bright: on
     channel: c1
-    setting: 1
-    voicing: b
-  file: captures/zeym4tm3rmo_a2.nam
+    voicing: a
+    bright: 'on'
+    setting: 5
+  file: captures/syn20ir_imp_c1_a_hf_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
-    bright: off
-    channel: c2
+    channel: c1
+    voicing: a
+    bright: 'on'
+    setting: 6
+  file: captures/syn20ir_imp_c1_a_hf_6_g62_b32_t60_v4_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: a
+    bright: 'on'
+    setting: 7
+  file: captures/syn20ir_imp_c1_a_hf_7_g75_b42_t50_v4_r53_m30_a2.nam
+- values:
+    channel: c1
+    voicing: a
+    bright: 'on'
+    setting: 8
+  file: captures/syn20ir_imp_c1_a_hf_8_g87_b32_t63_v4_r58_m30_a2.nam
+- values:
+    channel: c1
+    voicing: a
+    bright: 'on'
+    setting: 9
+  file: captures/syn20ir_imp_c1_a_hf_9_g100_b50_t50_v4_r70_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 1
+  file: captures/syn20ir_imp_c1_b_1_g25_b51_t70_v7_r32_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 2
+  file: captures/syn20ir_imp_c1_b_2_g37_b39_t50_v6_r42_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 3
+  file: captures/syn20ir_imp_c1_b_3_g42_b62_t63_v6_r40_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
     setting: 4
-    voicing: a
-  file: captures/ukxnu56wxhg_a2.nam
+  file: captures/syn20ir_imp_c1_b_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
-    bright: off
     channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 5
+  file: captures/syn20ir_imp_c1_b_5_g56_b45_t54_v5_r47_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 6
+  file: captures/syn20ir_imp_c1_b_6_g62_b32_t60_v4_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 7
+  file: captures/syn20ir_imp_c1_b_7_g75_b42_t50_v4_r53_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 8
+  file: captures/syn20ir_imp_c1_b_8_g87_b32_t63_v4_r58_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'off'
+    setting: 9
+  file: captures/syn20ir_imp_c1_b_9_g100_b50_t50_v4_r70_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
     setting: 1
-    voicing: c
-  file: captures/bz9gbskelgo_a2.nam
+  file: captures/syn20ir_imp_c1_b_hf_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
-    bright: on
-    channel: c2
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 2
+  file: captures/syn20ir_imp_c1_b_hf_2_g37_b39_t50_v6_r42_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 3
+  file: captures/syn20ir_imp_c1_b_hf_3_g42_b62_t63_v6_r40_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 4
+  file: captures/syn20ir_imp_c1_b_hf_4_g50_b50_t50_v5_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 5
+  file: captures/syn20ir_imp_c1_b_hf_5_g56_b45_t54_v5_r47_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 6
+  file: captures/syn20ir_imp_c1_b_hf_6_g62_b32_t60_v4_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 7
+  file: captures/syn20ir_imp_c1_b_hf_7_g75_b42_t50_v4_r53_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 8
+  file: captures/syn20ir_imp_c1_b_hf_8_g87_b32_t63_v4_r58_m30_a2.nam
+- values:
+    channel: c1
+    voicing: b
+    bright: 'on'
+    setting: 9
+  file: captures/syn20ir_imp_c1_b_hf_9_g100_b50_t50_v4_r70_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'off'
     setting: 1
-    voicing: c
-  file: captures/rqziuxr6d5_a2.nam
+  file: captures/syn20ir_imp_c1_c_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
-    bright: off
     channel: c1
+    voicing: c
+    bright: 'off'
+    setting: 2
+  file: captures/syn20ir_imp_c1_c_2_g37_b39_t50_v6_r42_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'off'
+    setting: 3
+  file: captures/syn20ir_imp_c1_c_3_g42_b62_t63_v6_r40_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'off'
+    setting: 4
+  file: captures/syn20ir_imp_c1_c_4_g50_b50_t50_v5_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'off'
     setting: 5
-    voicing: a
-  file: captures/ycp7zieya0d_a2.nam
+  file: captures/syn20ir_imp_c1_c_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
-    bright: on
     channel: c1
+    voicing: c
+    bright: 'off'
     setting: 6
-    voicing: a
-  file: captures/7ae0u0axn49_a2.nam
+  file: captures/syn20ir_imp_c1_c_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
-    bright: on
     channel: c1
-    setting: 6
-    voicing: b
-  file: captures/pq42ffyndx_a2.nam
+    voicing: c
+    bright: 'off'
+    setting: 7
+  file: captures/syn20ir_imp_c1_c_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
-    bright: off
-    channel: c2
+    channel: c1
+    voicing: c
+    bright: 'off'
     setting: 8
-    voicing: c
-  file: captures/9lk7oikohcm_a2.nam
+  file: captures/syn20ir_imp_c1_c_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
-    bright: on
     channel: c1
-    setting: 9
     voicing: c
-  file: captures/pd5lj9gw1o_a2.nam
+    bright: 'off'
+    setting: 9
+  file: captures/syn20ir_imp_c1_c_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
-    bright: off
-    channel: c2
+    channel: c1
+    voicing: c
+    bright: 'on'
+    setting: 1
+  file: captures/syn20ir_imp_c1_c_hf_1_g25_b51_t70_v7_r32_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'on'
+    setting: 2
+  file: captures/syn20ir_imp_c1_c_hf_2_g37_b39_t50_v6_r42_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'on'
+    setting: 3
+  file: captures/syn20ir_imp_c1_c_hf_3_g42_b62_t63_v6_r40_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'on'
+    setting: 4
+  file: captures/syn20ir_imp_c1_c_hf_4_g50_b50_t50_v5_r50_m30_a2.nam
+- values:
+    channel: c1
+    voicing: c
+    bright: 'on'
     setting: 5
-    voicing: b
-  file: captures/2nd67ml3382_a2.nam
+  file: captures/syn20ir_imp_c1_c_hf_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
-    bright: on
-    channel: c2
-    setting: 6
-    voicing: a
-  file: captures/uep88ch88bd_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 7
+    channel: c1
     voicing: c
-  file: captures/x6lbhbnzfw_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 7
-    voicing: b
-  file: captures/cuehoalym77_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 8
-    voicing: b
-  file: captures/aeq9ss5k36r_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 9
-    voicing: a
-  file: captures/68locejae9x_a2.nam
-- values:
-    bright: off
-    channel: c1
+    bright: 'on'
     setting: 6
-    voicing: b
-  file: captures/zi8nypk5ma_a2.nam
+  file: captures/syn20ir_imp_c1_c_hf_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
-    bright: off
     channel: c1
-    setting: 6
-    voicing: a
-  file: captures/m2xycqi4q1h_a2.nam
-- values:
-    bright: on
-    channel: c2
-    setting: 6
-    voicing: b
-  file: captures/77u1r1ls2qn_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 7
     voicing: c
-  file: captures/lccbiiwfb2e_a2.nam
+    bright: 'on'
+    setting: 7
+  file: captures/syn20ir_imp_c1_c_hf_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
-    bright: off
     channel: c1
-    setting: 8
-    voicing: b
-  file: captures/wkv61iodrn_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 8
-    voicing: a
-  file: captures/ioehxqm09p_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 9
-    voicing: b
-  file: captures/416nq0et50o_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 9
-    voicing: b
-  file: captures/60v528m88r7_a2.nam
-- values:
-    bright: off
-    channel: c2
-    setting: 9
-    voicing: b
-  file: captures/w453lcumyjr_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 6
     voicing: c
-  file: captures/hcjb5gpd4cr_a2.nam
-- values:
-    bright: on
-    channel: c1
+    bright: 'on'
     setting: 8
-    voicing: b
-  file: captures/ogkgwmj4msf_a2.nam
+  file: captures/syn20ir_imp_c1_c_hf_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
-    bright: on
     channel: c1
+    voicing: c
+    bright: 'on'
+    setting: 9
+  file: captures/syn20ir_imp_c1_c_hf_9_g100_b50_t50_v4_r70_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'off'
+    setting: 1
+  file: captures/syn20ir_imp_c2_a_1_g25_b56_mb18_v3_r32_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'off'
+    setting: 2
+  file: captures/syn20ir_imp_c2_a_2_g37_b32_mb30_v3_r42_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'off'
+    setting: 3
+  file: captures/syn20ir_imp_c2_a_3_g42_b30_mb42_v3_r40_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'off'
+    setting: 4
+  file: captures/syn20ir_imp_c2_a_4_g50_b60_mb42_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'off'
     setting: 5
-    voicing: c
-  file: captures/5i17nyyvxw_a2.nam
+  file: captures/syn20ir_imp_c2_a_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
-    bright: off
-    channel: c1
-    setting: 9
-    voicing: c
-  file: captures/icmkbe2axso_a2.nam
-- values:
-    bright: on
-    channel: c1
-    setting: 9
-    voicing: a
-  file: captures/zh8198b62x_a2.nam
-- values:
-    bright: off
     channel: c2
-    setting: 5
     voicing: a
-  file: captures/ur520qaecy_a2.nam
-- values:
-    bright: on
-    channel: c2
+    bright: 'off'
     setting: 6
-    voicing: c
-  file: captures/ihdc8m7vj7_a2.nam
+  file: captures/syn20ir_imp_c2_a_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
-    bright: on
-    channel: c1
-    setting: 7
-    voicing: b
-  file: captures/hzqidluy2z_a2.nam
-- values:
-    bright: off
-    channel: c1
-    setting: 7
-    voicing: c
-  file: captures/skhkjxku7l_a2.nam
-- values:
-    bright: off
     channel: c2
-    setting: 9
     voicing: a
-  file: captures/czp9a57qhlp_a2.nam
-- values:
-    bright: off
-    channel: c2
+    bright: 'off'
     setting: 7
-    voicing: a
-  file: captures/52oa83m6awi_a2.nam
+  file: captures/syn20ir_imp_c2_a_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
-    bright: on
     channel: c2
-    setting: 7
     voicing: a
-  file: captures/axe60c6rkdp_a2.nam
-- values:
-    bright: on
-    channel: c2
+    bright: 'off'
     setting: 8
-    voicing: c
-  file: captures/7xm07n6acz_a2.nam
+  file: captures/syn20ir_imp_c2_a_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
-    bright: on
     channel: c2
-    setting: 9
     voicing: a
-  file: captures/w08xp6qmj6_a2.nam
+    bright: 'off'
+    setting: 9
+  file: captures/syn20ir_imp_c2_a_9_g100_b40_mb80_v2_r70_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 1
+  file: captures/syn20ir_imp_c2_a_hf_1_g25_b56_mb18_v3_r32_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 2
+  file: captures/syn20ir_imp_c2_a_hf_2_g37_b32_mb30_v3_r42_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 3
+  file: captures/syn20ir_imp_c2_a_hf_3_g42_b30_mb42_v3_r40_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 4
+  file: captures/syn20ir_imp_c2_a_hf_4_g50_b60_mb42_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 5
+  file: captures/syn20ir_imp_c2_a_hf_5_g56_b56_mb45_v3_r47_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 6
+  file: captures/syn20ir_imp_c2_a_hf_6_g62_b50_mb53_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 7
+  file: captures/syn20ir_imp_c2_a_hf_7_g75_b42_mb66_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 8
+  file: captures/syn20ir_imp_c2_a_hf_8_g87_b51_mb75_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: a
+    bright: 'on'
+    setting: 9
+  file: captures/syn20ir_imp_c2_a_hf_9_g100_b40_mb80_v2_r70_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 1
+  file: captures/syn20ir_imp_c2_b_1_g25_b56_mb18_v3_r32_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 2
+  file: captures/syn20ir_imp_c2_b_2_g37_b32_mb30_v3_r42_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 3
+  file: captures/syn20ir_imp_c2_b_3_g42_b30_mb42_v3_r40_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 4
+  file: captures/syn20ir_imp_c2_b_4_g50_b60_mb42_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 5
+  file: captures/syn20ir_imp_c2_b_5_g56_b56_mb45_v3_r47_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 6
+  file: captures/syn20ir_imp_c2_b_6_g62_b50_mb53_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 7
+  file: captures/syn20ir_imp_c2_b_7_g75_b42_mb66_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 8
+  file: captures/syn20ir_imp_c2_b_8_g87_b51_mb75_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'off'
+    setting: 9
+  file: captures/syn20ir_imp_c2_b_9_g100_b40_mb80_v2_r70_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 1
+  file: captures/syn20ir_imp_c2_b_hf_1_g25_b56_mb18_v3_r32_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 2
+  file: captures/syn20ir_imp_c2_b_hf_2_g37_b32_mb30_v3_r42_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 3
+  file: captures/syn20ir_imp_c2_b_hf_3_g42_b30_mb42_v3_r40_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 4
+  file: captures/syn20ir_imp_c2_b_hf_4_g50_b60_mb42_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 5
+  file: captures/syn20ir_imp_c2_b_hf_5_g56_b56_mb45_v3_r47_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 6
+  file: captures/syn20ir_imp_c2_b_hf_6_g62_b50_mb53_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 7
+  file: captures/syn20ir_imp_c2_b_hf_7_g75_b42_mb66_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 8
+  file: captures/syn20ir_imp_c2_b_hf_8_g87_b51_mb75_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: b
+    bright: 'on'
+    setting: 9
+  file: captures/syn20ir_imp_c2_b_hf_9_g100_b40_mb80_v2_r70_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 1
+  file: captures/syn20ir_imp_c2_c_1_g25_b56_mb18_v3_r32_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 2
+  file: captures/syn20ir_imp_c2_c_2_g37_b32_mb30_v3_r42_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 3
+  file: captures/syn20ir_imp_c2_c_3_g42_b30_mb42_v3_r40_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 4
+  file: captures/syn20ir_imp_c2_c_4_g50_b60_mb42_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 5
+  file: captures/syn20ir_imp_c2_c_5_g56_b56_mb45_v3_r47_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 6
+  file: captures/syn20ir_imp_c2_c_6_g62_b50_mb53_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 7
+  file: captures/syn20ir_imp_c2_c_7_g75_b42_mb66_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 8
+  file: captures/syn20ir_imp_c2_c_8_g87_b51_mb75_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'off'
+    setting: 9
+  file: captures/syn20ir_imp_c2_c_9_g100_b40_mb80_v2_r70_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 1
+  file: captures/syn20ir_imp_c2_c_hf_1_g25_b56_mb18_v3_r32_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 2
+  file: captures/syn20ir_imp_c2_c_hf_2_g37_b32_mb30_v3_r42_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 3
+  file: captures/syn20ir_imp_c2_c_hf_3_g42_b30_mb42_v3_r40_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 4
+  file: captures/syn20ir_imp_c2_c_hf_4_g50_b60_mb42_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 5
+  file: captures/syn20ir_imp_c2_c_hf_5_g56_b56_mb45_v3_r47_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 6
+  file: captures/syn20ir_imp_c2_c_hf_6_g62_b50_mb53_v3_r50_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 7
+  file: captures/syn20ir_imp_c2_c_hf_7_g75_b42_mb66_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 8
+  file: captures/syn20ir_imp_c2_c_hf_8_g87_b51_mb75_v2_r53_m30_a2.nam
+- values:
+    channel: c2
+    voicing: c
+    bright: 'on'
+    setting: 9
+  file: captures/syn20ir_imp_c2_c_hf_9_g100_b40_mb80_v2_r70_m30_a2.nam

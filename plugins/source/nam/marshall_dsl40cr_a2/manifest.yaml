@@ -9,9 +9,12 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/53272
+# Curated factory-voicing pack: each capture is a complete named preset with its own
+# Gain/Vol/Pres/Res setting (the four knobs co-vary per preset and do not factor into
+# independent axes), so a single discrete `preset` selector is the honest representation.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - pristine_clean
   - dynamic_clean
@@ -31,50 +34,50 @@ parameters:
   - marla_singer_od2
 captures:
 - values:
-    model: pristine_clean
-  file: captures/tvwfvno8ea_a2.nam
+    preset: pristine_clean
+  file: captures/pristine_clean_a2.nam
 - values:
-    model: dynamic_clean
-  file: captures/hypkcz47778_a2.nam
+    preset: dynamic_clean
+  file: captures/dynamic_clean_a2.nam
 - values:
-    model: edge_glow_clean
-  file: captures/oa2z8reku5o_a2.nam
+    preset: edge_glow_clean
+  file: captures/edge_glow_clean_a2.nam
 - values:
-    model: point_break_clean
-  file: captures/s7sl5ymmpe_a2.nam
+    preset: point_break_clean
+  file: captures/point_break_clean_a2.nam
 - values:
-    model: straightjacket_crunch
-  file: captures/t5wo921y1_a2.nam
+    preset: straightjacket_crunch
+  file: captures/straightjacket_crunch_a2.nam
 - values:
-    model: open_crunch
-  file: captures/mlhli320wg_a2.nam
+    preset: open_crunch
+  file: captures/open_crunch_a2.nam
 - values:
-    model: driven_crunch
-  file: captures/48oc926odq6_a2.nam
+    preset: driven_crunch
+  file: captures/driven_crunch_a2.nam
 - values:
-    model: jaws_crunch
-  file: captures/amrjcmmwcxo_a2.nam
+    preset: jaws_crunch
+  file: captures/jaws_crunch_a2.nam
 - values:
-    model: mayweather_od1
-  file: captures/3serxjda3h_a2.nam
+    preset: mayweather_od1
+  file: captures/mayweather_od1_a2.nam
 - values:
-    model: silk_od1
-  file: captures/ubbjuvsqda_a2.nam
+    preset: silk_od1
+  file: captures/silk_od1_a2.nam
 - values:
-    model: kat_dennings_od1
-  file: captures/zxnxkf9u9e_a2.nam
+    preset: kat_dennings_od1
+  file: captures/kat_dennings_od1_a2.nam
 - values:
-    model: unleashed_od1
-  file: captures/wwl42kzwlrn_a2.nam
+    preset: unleashed_od1
+  file: captures/unleashed_od1_a2.nam
 - values:
-    model: t_1000_od2
-  file: captures/2vodoj3ecz2_a2.nam
+    preset: t_1000_od2
+  file: captures/t_1000_od2_a2.nam
 - values:
-    model: samurai_od2
-  file: captures/rnpowkiv8g_a2.nam
+    preset: samurai_od2
+  file: captures/samurai_od2_a2.nam
 - values:
-    model: pushed_od2
-  file: captures/icytqomcia_a2.nam
+    preset: pushed_od2
+  file: captures/pushed_od2_a2.nam
 - values:
-    model: marla_singer_od2
-  file: captures/9khtsvuyj58_a2.nam
+    preset: marla_singer_od2
+  file: captures/marla_singer_od2_a2.nam

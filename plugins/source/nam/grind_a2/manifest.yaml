@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): amp = "Fortin Grind" (the "Boost Knob" control becomes the `boost` axis).
 manifest_version: 1
 id: nam_grind_a2
 display_name: Grind
@@ -21,16 +22,16 @@ parameters:
 captures:
 - values:
     boost: 9
-  file: captures/66a6b9ybzcd_a2.nam
+  file: captures/fortin_grind_boost_knob_at_9_a2.nam
 - values:
     boost: 8
-  file: captures/3swceiwzw5u_a2.nam
+  file: captures/fortin_grind_boost_knob_at_8_a2.nam
 - values:
     boost: 5
-  file: captures/j4yio4at05_a2.nam
+  file: captures/fortin_grind_boost_knob_at_5_a2.nam
 - values:
     boost: 9_5
-  file: captures/v0cr5li78z_a2.nam
+  file: captures/fortin_grind_boost_knob_at_9_5_a2.nam
 - values:
     boost: 6
-  file: captures/h9ap6s6cqr_a2.nam
+  file: captures/fortin_grind_boost_knob_at_6_a2.nam

@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): brand "Bogner Ecstasy", capture tag "[ReactEQ]".
 manifest_version: 1
 id: nam_synergy_bogner_ecstasy_a2
 display_name: Bogner Ecstasy Module
@@ -34,80 +35,80 @@ captures:
 - values:
     channel: red
     position: 03
-  file: captures/b6dz2bztfj5_a2.nam
+  file: captures/bogner_ecstasy_red_03_a2.nam
 - values:
     channel: red
     position: 01
-  file: captures/u6j18hgz04c_a2.nam
+  file: captures/bogner_ecstasy_red_01_a2.nam
 - values:
     channel: blue
     position: 05
-  file: captures/phceji09z4r_a2.nam
+  file: captures/bogner_ecstasy_blue_05_a2.nam
 - values:
     channel: blue
     position: 04
-  file: captures/ummngzglnki_a2.nam
+  file: captures/bogner_ecstasy_blue_04_a2.nam
 - values:
     channel: red
     position: 12
-  file: captures/6tnm0gnyx9q_a2.nam
+  file: captures/bogner_ecstasy_red_12_a2.nam
 - values:
     channel: blue
     position: 08
-  file: captures/5ujxlvzx974_a2.nam
+  file: captures/bogner_ecstasy_blue_08_a2.nam
 - values:
     channel: blue
     position: 07
-  file: captures/t9l5z597kx9_a2.nam
+  file: captures/bogner_ecstasy_blue_07_a2.nam
 - values:
     channel: red
     position: 05
-  file: captures/h53oozwwkju_a2.nam
+  file: captures/bogner_ecstasy_red_05_a2.nam
 - values:
     channel: red
     position: 04
-  file: captures/nclk8j4211g_a2.nam
+  file: captures/bogner_ecstasy_red_04_a2.nam
 - values:
     channel: red
     position: 10
-  file: captures/e9sqzqj4z8d_a2.nam
+  file: captures/bogner_ecstasy_red_10_a2.nam
 - values:
     channel: red
     position: 07
-  file: captures/0vm8c62re6qb_a2.nam
+  file: captures/bogner_ecstasy_red_07_a2.nam
 - values:
     channel: blue
     position: 02
-  file: captures/9iqsdiep3oh_a2.nam
+  file: captures/bogner_ecstasy_blue_02_a2.nam
 - values:
     channel: blue
     position: 01
-  file: captures/ndm53cwtpmc_a2.nam
+  file: captures/bogner_ecstasy_blue_01_a2.nam
 - values:
     channel: red
     position: 06
-  file: captures/k30mja7yjhb_a2.nam
+  file: captures/bogner_ecstasy_red_06_a2.nam
 - values:
     channel: red
     position: 11
-  file: captures/mydn2e7uurm_a2.nam
+  file: captures/bogner_ecstasy_red_11_a2.nam
 - values:
     channel: red
     position: 02
-  file: captures/bwjq7rb71ai_a2.nam
+  file: captures/bogner_ecstasy_red_02_a2.nam
 - values:
     channel: red
     position: 09
-  file: captures/3g6kwcgsk49_a2.nam
+  file: captures/bogner_ecstasy_red_09_a2.nam
 - values:
     channel: red
     position: 08
-  file: captures/fmyt4z9jcxn_a2.nam
+  file: captures/bogner_ecstasy_red_08_a2.nam
 - values:
     channel: blue
     position: 06
-  file: captures/3hgvvnp08kf_a2.nam
+  file: captures/bogner_ecstasy_blue_06_a2.nam
 - values:
     channel: blue
     position: 03
-  file: captures/k00ptpfebh9_a2.nam
+  file: captures/bogner_ecstasy_blue_03_a2.nam

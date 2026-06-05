@@ -1,3 +1,4 @@
+# Dropped constant from capture names: SLAMMIN_MB_290_6L6GC (290 power amp / 6L6GC tubes), identical across all 78 captures.
 manifest_version: 1
 id: nam_mesaboogie_290_simul_class_a2
 display_name: MesaBoogie 290 Simul-Class
@@ -19,344 +20,344 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - 2_0
-  - 2_2
-  - 2_5
-  - 2_8
-  - 4_0
-  - 4_2
-  - 4_5
-  - 4_8
-  - 6_0
-  - 6_2
-  - 6_5
-  - 6_8
-  - 7_0
-  - 7_2
-  - 7_5
-  - 7_8
-  - 8_0
-  - 8_2
-  - 8_5
-  - 8_8
-  - 10_0
-  - 10_2
-  - 10_5
-  - 10_8
-  - 13_0
-  - 13_2
-  - 13_5
-  - 13_8
+  - '2_0'
+  - '2_2'
+  - '2_5'
+  - '2_8'
+  - '4_0'
+  - '4_2'
+  - '4_5'
+  - '4_8'
+  - '6_0'
+  - '6_2'
+  - '6_5'
+  - '6_8'
+  - '7_0'
+  - '7_2'
+  - '7_5'
+  - '7_8'
+  - '8_0'
+  - '8_2'
+  - '8_5'
+  - '8_8'
+  - '10_0'
+  - '10_2'
+  - '10_5'
+  - '10_8'
+  - '13_0'
+  - '13_2'
+  - '13_5'
+  - '13_8'
 captures:
 - values:
-    drive: 6_8
+    drive: '10_0'
     voicing: full
-  file: captures/539a19ecbe9d1460_a2.nam
+  file: captures/slammin_mb_290_6l6gc_10_0_a2.nam
 - values:
-    drive: 13_0
+    drive: '10_2'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_10_2_a2.nam
+- values:
+    drive: '10_5'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_10_5_a2.nam
+- values:
+    drive: '10_8'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_10_8_a2.nam
+- values:
+    drive: '13_0'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_13_0_a2.nam
+- values:
+    drive: '13_2'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_13_2_a2.nam
+- values:
+    drive: '13_5'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_13_5_a2.nam
+- values:
+    drive: '13_8'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_13_8_a2.nam
+- values:
+    drive: '2_0'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_2_0_a2.nam
+- values:
+    drive: '2_2'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_2_2_a2.nam
+- values:
+    drive: '2_5'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_2_5_a2.nam
+- values:
+    drive: '2_8'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_2_8_a2.nam
+- values:
+    drive: '4_0'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_4_0_a2.nam
+- values:
+    drive: '4_2'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_4_2_a2.nam
+- values:
+    drive: '4_5'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_4_5_a2.nam
+- values:
+    drive: '4_8'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_4_8_a2.nam
+- values:
+    drive: '6_0'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_6_0_a2.nam
+- values:
+    drive: '6_2'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_6_2_a2.nam
+- values:
+    drive: '6_5'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_6_5_a2.nam
+- values:
+    drive: '6_8'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_6_8_a2.nam
+- values:
+    drive: '8_0'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_8_0_a2.nam
+- values:
+    drive: '8_2'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_8_2_a2.nam
+- values:
+    drive: '8_5'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_8_5_a2.nam
+- values:
+    drive: '8_8'
+    voicing: full
+  file: captures/slammin_mb_290_6l6gc_8_8_a2.nam
+- values:
+    drive: '10_0'
     voicing: deep
-  file: captures/ba79008cba919c7c_a2.nam
+  file: captures/slammin_mb_290_6l6gc_d_10_0_a2.nam
 - values:
-    drive: 13_2
+    drive: '10_2'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_10_2_a2.nam
+- values:
+    drive: '10_5'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_10_5_a2.nam
+- values:
+    drive: '10_8'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_10_8_a2.nam
+- values:
+    drive: '13_0'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_13_0_a2.nam
+- values:
+    drive: '13_2'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_13_2_a2.nam
+- values:
+    drive: '13_5'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_13_5_a2.nam
+- values:
+    drive: '13_8'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_13_8_a2.nam
+- values:
+    drive: '2_0'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_2_0_a2.nam
+- values:
+    drive: '2_2'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_2_2_a2.nam
+- values:
+    drive: '2_5'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_2_5_a2.nam
+- values:
+    drive: '2_8'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_2_8_a2.nam
+- values:
+    drive: '4_0'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_4_0_a2.nam
+- values:
+    drive: '4_2'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_4_2_a2.nam
+- values:
+    drive: '4_5'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_4_5_a2.nam
+- values:
+    drive: '4_8'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_4_8_a2.nam
+- values:
+    drive: '6_0'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_6_0_a2.nam
+- values:
+    drive: '6_2'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_6_2_a2.nam
+- values:
+    drive: '6_5'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_6_5_a2.nam
+- values:
+    drive: '6_8'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_6_8_a2.nam
+- values:
+    drive: '8_0'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_8_0_a2.nam
+- values:
+    drive: '8_2'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_8_2_a2.nam
+- values:
+    drive: '8_5'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_8_5_a2.nam
+- values:
+    drive: '8_8'
+    voicing: deep
+  file: captures/slammin_mb_290_6l6gc_d_8_8_a2.nam
+- values:
+    drive: '13_0'
     voicing: mid
-  file: captures/9fe5262a2b227172_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_13_0_a2.nam
 - values:
-    drive: 13_5
-    voicing: full
-  file: captures/de790dd13b4ad666_a2.nam
-- values:
-    drive: 10_2
-    voicing: full
-  file: captures/a33e3c95ef35dcd5_a2.nam
-- values:
-    drive: 8_5
-    voicing: mid_deep
-  file: captures/1df0a4311cd9f16f_a2.nam
-- values:
-    drive: 8_0
-    voicing: full
-  file: captures/b728f3e93ae1883d_a2.nam
-- values:
-    drive: 13_8
-    voicing: mid_deep
-  file: captures/080301bf43af6578_a2.nam
-- values:
-    drive: 6_5
-    voicing: full
-  file: captures/7bf4eb6538093d4d_a2.nam
-- values:
-    drive: 10_5
-    voicing: mid_deep
-  file: captures/9b00035e0530b1d2_a2.nam
-- values:
-    drive: 6_2
-    voicing: deep
-  file: captures/9aef0318d349d213_a2.nam
-- values:
-    drive: 2_0
-    voicing: deep
-  file: captures/ec7f2d7d9c2f0e89_a2.nam
-- values:
-    drive: 2_5
-    voicing: deep
-  file: captures/6136fd9e749dd374_a2.nam
-- values:
-    drive: 10_8
-    voicing: mid_deep
-  file: captures/f9f1db8e63dfee5a_a2.nam
-- values:
-    drive: 10_0
-    voicing: deep
-  file: captures/9ddf59916f5dc3d7_a2.nam
-- values:
-    drive: 13_5
+    drive: '13_2'
     voicing: mid
-  file: captures/5c58627ba971ee2f_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_13_2_a2.nam
 - values:
-    drive: 8_0
-    voicing: deep
-  file: captures/e8e2b2774f536a2d_a2.nam
-- values:
-    drive: 13_8
-    voicing: full
-  file: captures/1e030d017b41fffd_a2.nam
-- values:
-    drive: 4_5
-    voicing: full
-  file: captures/87aec2dc605a10da_a2.nam
-- values:
-    drive: 6_2
-    voicing: mid_deep
-  file: captures/099cee9b276828c7_a2.nam
-- values:
-    drive: 2_0
-    voicing: full
-  file: captures/5ec76b7579ba9cef_a2.nam
-- values:
-    drive: 4_0
-    voicing: full
-  file: captures/16673d01460190b3_a2.nam
-- values:
-    drive: 4_5
-    voicing: mid_deep
-  file: captures/611e147536c5e5a3_a2.nam
-- values:
-    drive: 6_0
-    voicing: deep
-  file: captures/c00e838d46a24414_a2.nam
-- values:
-    drive: 8_8
-    voicing: mid_deep
-  file: captures/547959ad7d8d76b3_a2.nam
-- values:
-    drive: 6_5
-    voicing: deep
-  file: captures/4adf125292f93ddc_a2.nam
-- values:
-    drive: 13_0
-    voicing: mid_deep
-  file: captures/80d6b8b926045c52_a2.nam
-- values:
-    drive: 4_8
-    voicing: deep
-  file: captures/7041830b97d4825c_a2.nam
-- values:
-    drive: 2_0
-    voicing: mid_deep
-  file: captures/ef7a5e6b2add454e_a2.nam
-- values:
-    drive: 8_8
-    voicing: deep
-  file: captures/6ed2b15bf73128f6_a2.nam
-- values:
-    drive: 10_0
-    voicing: mid_deep
-  file: captures/362e51132beb7e30_a2.nam
-- values:
-    drive: 6_8
-    voicing: deep
-  file: captures/fc577263d698df68_a2.nam
-- values:
-    drive: 2_2
-    voicing: mid_deep
-  file: captures/e8f3d372a3338d77_a2.nam
-- values:
-    drive: 7_8
+    drive: '13_5'
     voicing: mid
-  file: captures/d33d56e320262b79_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_13_5_a2.nam
 - values:
-    drive: 13_5
-    voicing: mid_deep
-  file: captures/a3ce2f7e8667f810_a2.nam
-- values:
-    drive: 6_8
-    voicing: mid_deep
-  file: captures/4910c413356fb2b6_a2.nam
-- values:
-    drive: 7_5
+    drive: '13_8'
     voicing: mid
-  file: captures/1f054bbe971741b5_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_13_8_a2.nam
 - values:
-    drive: 6_0
-    voicing: full
-  file: captures/8215b31ba981e377_a2.nam
-- values:
-    drive: 7_0
+    drive: '7_0'
     voicing: mid
-  file: captures/f0d90b437fd9ad44_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_7_0_a2.nam
 - values:
-    drive: 13_0
-    voicing: full
-  file: captures/722d15a965b84ff4_a2.nam
-- values:
-    drive: 10_8
-    voicing: deep
-  file: captures/61376c9e7df55271_a2.nam
-- values:
-    drive: 13_2
-    voicing: full
-  file: captures/a1c6a3a8b06ddf37_a2.nam
-- values:
-    drive: 4_0
-    voicing: deep
-  file: captures/f2967f5b881a8365_a2.nam
-- values:
-    drive: 4_8
-    voicing: full
-  file: captures/a0ef9d89f81079c5_a2.nam
-- values:
-    drive: 4_8
-    voicing: mid_deep
-  file: captures/aae4b7f4467516a6_a2.nam
-- values:
-    drive: 10_2
-    voicing: mid_deep
-  file: captures/8508192c60e26b7f_a2.nam
-- values:
-    drive: 13_2
-    voicing: mid_deep
-  file: captures/246da79444bcb369_a2.nam
-- values:
-    drive: 10_5
-    voicing: full
-  file: captures/03100904cac51876_a2.nam
-- values:
-    drive: 10_8
-    voicing: full
-  file: captures/99452f2797954e00_a2.nam
-- values:
-    drive: 13_8
-    voicing: deep
-  file: captures/83d0d70952627467_a2.nam
-- values:
-    drive: 6_5
-    voicing: mid_deep
-  file: captures/ba6e00d996707099_a2.nam
-- values:
-    drive: 8_5
-    voicing: deep
-  file: captures/fb93f5eb9240a5da_a2.nam
-- values:
-    drive: 6_0
-    voicing: mid_deep
-  file: captures/287b8f6145e42605_a2.nam
-- values:
-    drive: 4_2
-    voicing: mid_deep
-  file: captures/0d533a246d9a6efd_a2.nam
-- values:
-    drive: 10_2
-    voicing: deep
-  file: captures/d7469b63f326f6d9_a2.nam
-- values:
-    drive: 10_0
-    voicing: full
-  file: captures/d7c17dca6280cf67_a2.nam
-- values:
-    drive: 13_8
+    drive: '7_2'
     voicing: mid
-  file: captures/3e8b338214b01489_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_7_2_a2.nam
 - values:
-    drive: 13_0
+    drive: '7_5'
     voicing: mid
-  file: captures/0812b6d744fa2d0a_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_7_5_a2.nam
 - values:
-    drive: 8_2
-    voicing: mid_deep
-  file: captures/0cfee463a1301d4a_a2.nam
-- values:
-    drive: 4_0
-    voicing: mid_deep
-  file: captures/12e854cceb7270aa_a2.nam
-- values:
-    drive: 7_2
+    drive: '7_8'
     voicing: mid
-  file: captures/89228044e99aee0e_a2.nam
+  file: captures/slammin_mb_290_6l6gc_m_7_8_a2.nam
 - values:
-    drive: 2_5
-    voicing: full
-  file: captures/bf9552ea3a0b5962_a2.nam
-- values:
-    drive: 13_2
-    voicing: deep
-  file: captures/25ae87c3b2b4b751_a2.nam
-- values:
-    drive: 2_8
-    voicing: full
-  file: captures/f141e51cbc804420_a2.nam
-- values:
-    drive: 2_8
-    voicing: deep
-  file: captures/e09e7c84eee36e5e_a2.nam
-- values:
-    drive: 4_5
-    voicing: deep
-  file: captures/3ea12812a75860af_a2.nam
-- values:
-    drive: 2_2
-    voicing: deep
-  file: captures/fc10996045418812_a2.nam
-- values:
-    drive: 6_2
-    voicing: full
-  file: captures/1aca54acd64e4e37_a2.nam
-- values:
-    drive: 8_5
-    voicing: full
-  file: captures/0fff8d6c09a0b6a4_a2.nam
-- values:
-    drive: 2_2
-    voicing: full
-  file: captures/66228f5b5b64e0da_a2.nam
-- values:
-    drive: 8_2
-    voicing: full
-  file: captures/c8299c34505fb97e_a2.nam
-- values:
-    drive: 8_0
+    drive: '10_0'
     voicing: mid_deep
-  file: captures/7b93a1fa61df5cab_a2.nam
+  file: captures/slammin_mb_290_6l6gc_md_10_0_a2.nam
 - values:
-    drive: 4_2
-    voicing: full
-  file: captures/169dc7ff64770a47_a2.nam
+    drive: '10_2'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_10_2_a2.nam
 - values:
-    drive: 8_2
-    voicing: deep
-  file: captures/c60d5c5b57a48d91_a2.nam
+    drive: '10_5'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_10_5_a2.nam
 - values:
-    drive: 10_5
-    voicing: deep
-  file: captures/155d06b977601e29_a2.nam
+    drive: '10_8'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_10_8_a2.nam
 - values:
-    drive: 13_5
-    voicing: deep
-  file: captures/c5be680ebabfc679_a2.nam
+    drive: '13_0'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_13_0_a2.nam
 - values:
-    drive: 4_2
-    voicing: deep
-  file: captures/319e006368cdbfe1_a2.nam
+    drive: '13_2'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_13_2_a2.nam
 - values:
-    drive: 8_8
-    voicing: full
-  file: captures/724c49925e6bf28d_a2.nam
+    drive: '13_5'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_13_5_a2.nam
+- values:
+    drive: '13_8'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_13_8_a2.nam
+- values:
+    drive: '2_0'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_2_0_a2.nam
+- values:
+    drive: '2_2'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_2_2_a2.nam
+- values:
+    drive: '4_0'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_4_0_a2.nam
+- values:
+    drive: '4_2'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_4_2_a2.nam
+- values:
+    drive: '4_5'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_4_5_a2.nam
+- values:
+    drive: '4_8'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_4_8_a2.nam
+- values:
+    drive: '6_0'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_6_0_a2.nam
+- values:
+    drive: '6_2'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_6_2_a2.nam
+- values:
+    drive: '6_5'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_6_5_a2.nam
+- values:
+    drive: '6_8'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_6_8_a2.nam
+- values:
+    drive: '8_0'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_8_0_a2.nam
+- values:
+    drive: '8_2'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_8_2_a2.nam
+- values:
+    drive: '8_5'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_8_5_a2.nam
+- values:
+    drive: '8_8'
+    voicing: mid_deep
+  file: captures/slammin_mb_290_6l6gc_md_8_8_a2.nam

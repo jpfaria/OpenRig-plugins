@@ -1,3 +1,4 @@
+# Dropped constants (identical in every capture): brand/model/channel = fender_drri_clean (Fender DRRI clean channel).
 manifest_version: 1
 id: nam_fender_deluxe_reverb_a1
 display_name: Deluxe Reverb

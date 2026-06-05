@@ -7,6 +7,7 @@ output_gain_db: 2.3582420
 type: gain_pedal
 backend: nam
 architecture: A1
+# Dropped constants (identical across every capture): level=50, voicing=mid (vmid)
 parameters:
 - name: drive
   display_name: Distortion

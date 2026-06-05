@@ -11,6 +11,7 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
+# Dropped constant: level = 10 (identical across all captures)
 parameters:
 - name: gain
   display_name: Gain
@@ -24,16 +25,12 @@ parameters:
   - "5"
   - "8"
   - "10"
-- name: level
-  display_name: Level
-  values:
-  - "10"
 captures:
-- values: { gain: "0", tone: "10", level: "10" }
-  file: captures/cs5ac2bll44.nam
-- values: { gain: "3", tone: "8",  level: "10" }
-  file: captures/44siotvd2sh.nam
-- values: { gain: "8", tone: "5",  level: "10" }
-  file: captures/qjzjh7rodtp.nam
-- values: { gain: "0", tone: "5",  level: "10" }
-  file: captures/dfwapy8ymrs.nam
+- values: { gain: "0", tone: "10" }
+  file: captures/g0_t10.nam
+- values: { gain: "3", tone: "8" }
+  file: captures/g3_t8.nam
+- values: { gain: "8", tone: "5" }
+  file: captures/g8_t5.nam
+- values: { gain: "0", tone: "5" }
+  file: captures/g0_t5.nam

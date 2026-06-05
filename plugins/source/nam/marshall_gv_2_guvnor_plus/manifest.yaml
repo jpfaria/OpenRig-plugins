@@ -16,138 +16,138 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - "3"
-  - "3.2"
-  - "4.3"
-  - "5"
-  - "5.2"
-  - "6"
-  - "7"
-  - "7.5"
-  - "10"
+  - 3
+  - 3.2
+  - 4.3
+  - 5
+  - 5.2
+  - 6
+  - 7
+  - 7.5
+  - 10
 - name: bass
   display_name: Bass
   values:
-  - "0"
-  - "5"
-  - "7"
-  - "10"
+  - 0
+  - 5
+  - 7
+  - 10
 - name: deep
   display_name: Deep
   values:
-  - "0"
-  - "5"
-  - "9"
-  - "10"
+  - 0
+  - 5
+  - 9
+  - 10
 - name: treble
   display_name: Treble
   values:
-  - "0"
-  - "5"
-  - "8"
-  - "10"
+  - 0
+  - 5
+  - 8
+  - 10
 - name: mid
   display_name: Mid
   values:
-  - "0"
-  - "3"
-  - "5"
-  - "10"
+  - 0
+  - 3
+  - 5
+  - 10
 - name: arch
   display_name: Arch
   values:
-  - "v1"
-  - "v2"
+  - v1
+  - v2
 captures:
-- values: { gain: "5", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v1" }
-  file: captures/oh4mpvuan48.nam
-- values: { gain: "10", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v1" }
-  file: captures/47qsx917yu5.nam
-- values: { gain: "10", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v1" }
-  file: captures/l8w0y6phc8n.nam
-- values: { gain: "3", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v1" }
-  file: captures/g1ea29fo09e.nam
-- values: { gain: "5", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v1" }
-  file: captures/dgiwu1xxq3d.nam
-- values: { gain: "4.3", bass: "0", deep: "0", treble: "10", mid: "10", arch: "v1" }
-  file: captures/4znvmczcz3s.nam
-- values: { gain: "5.2", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v1" }
-  file: captures/nwwvnbdfcm.nam
-- values: { gain: "3", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v1" }
-  file: captures/el5j7odox2.nam
-- values: { gain: "7", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v1" }
-  file: captures/ukg3vs6oago.nam
-- values: { gain: "10", bass: "0", deep: "0", treble: "10", mid: "10", arch: "v1" }
-  file: captures/u4d0ilrsg4.nam
-- values: { gain: "3.2", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v1" }
-  file: captures/ul1fu2i8a4.nam
-- values: { gain: "7", bass: "0", deep: "0", treble: "10", mid: "10", arch: "v1" }
-  file: captures/6ah12q2r9as.nam
-- values: { gain: "5", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v1" }
-  file: captures/3br1sx6800y.nam
-- values: { gain: "6", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v1" }
-  file: captures/pkl2q121ofm.nam
-- values: { gain: "5", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v1" }
-  file: captures/d0sfqqfmcvn.nam
-- values: { gain: "10", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v1" }
-  file: captures/494sg1arl4y.nam
-- values: { gain: "3", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v1" }
-  file: captures/nbxw0g3lvqf.nam
-- values: { gain: "10", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v1" }
-  file: captures/nfnvdb47ev.nam
-- values: { gain: "7", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v1" }
-  file: captures/lsxn9en4g6e.nam
-- values: { gain: "7", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v1" }
-  file: captures/48a31rr9tak.nam
-- values: { gain: "10", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v1" }
-  file: captures/3sa1bd6k4m5.nam
-- values: { gain: "3", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v1" }
-  file: captures/6t75paze735.nam
-- values: { gain: "7.5", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v1" }
-  file: captures/at2wroew3am.nam
-- values: { gain: "7", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v2" }
-  file: captures/48a31rr9tak_a2.nam
-- values: { gain: "3", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v2" }
-  file: captures/6t75paze735_a2.nam
-- values: { gain: "5", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v2" }
-  file: captures/dgiwu1xxq3d_a2.nam
-- values: { gain: "5.2", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v2" }
-  file: captures/nwwvnbdfcm_a2.nam
-- values: { gain: "6", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v2" }
-  file: captures/pkl2q121ofm_a2.nam
-- values: { gain: "10", bass: "0", deep: "0", treble: "10", mid: "10", arch: "v2" }
-  file: captures/u4d0ilrsg4_a2.nam
-- values: { gain: "10", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v2" }
-  file: captures/494sg1arl4y_a2.nam
-- values: { gain: "10", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v2" }
-  file: captures/3sa1bd6k4m5_a2.nam
-- values: { gain: "5", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v2" }
-  file: captures/d0sfqqfmcvn_a2.nam
-- values: { gain: "7", bass: "0", deep: "0", treble: "10", mid: "10", arch: "v2" }
-  file: captures/6ah12q2r9as_a2.nam
-- values: { gain: "7", bass: "7", deep: "0", treble: "0", mid: "10", arch: "v2" }
-  file: captures/ukg3vs6oago_a2.nam
-- values: { gain: "3.2", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v2" }
-  file: captures/ul1fu2i8a4_a2.nam
-- values: { gain: "3", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v2" }
-  file: captures/nbxw0g3lvqf_a2.nam
-- values: { gain: "10", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v2" }
-  file: captures/l8w0y6phc8n_a2.nam
-- values: { gain: "3", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v2" }
-  file: captures/g1ea29fo09e_a2.nam
-- values: { gain: "4.3", bass: "0", deep: "0", treble: "10", mid: "10", arch: "v2" }
-  file: captures/4znvmczcz3s_a2.nam
-- values: { gain: "7", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v2" }
-  file: captures/lsxn9en4g6e_a2.nam
-- values: { gain: "7.5", bass: "5", deep: "10", treble: "8", mid: "3", arch: "v2" }
-  file: captures/at2wroew3am_a2.nam
-- values: { gain: "3", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v2" }
-  file: captures/el5j7odox2_a2.nam
-- values: { gain: "5", bass: "10", deep: "9", treble: "0", mid: "0", arch: "v2" }
-  file: captures/3br1sx6800y_a2.nam
-- values: { gain: "5", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v2" }
-  file: captures/oh4mpvuan48_a2.nam
-- values: { gain: "10", bass: "10", deep: "10", treble: "10", mid: "10", arch: "v2" }
-  file: captures/47qsx917yu5_a2.nam
-- values: { gain: "10", bass: "5", deep: "5", treble: "5", mid: "5", arch: "v2" }
-  file: captures/nfnvdb47ev_a2.nam
+- values: { gain: 5, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+  file: captures/gain_5_bass_5_deep_5_treble_5_mid_5.nam
+- values: { gain: 10, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_10_bass_10_deep_10_treble_10_mid_10.nam
+- values: { gain: 10, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+  file: captures/gain_10_bass_5_deep_10_treble_8_mid_3.nam
+- values: { gain: 3, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+  file: captures/gain_3_bass_5_deep_5_treble_5_mid_5.nam
+- values: { gain: 5, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+  file: captures/gain_5_bass_7_deep_0_treble_0_mid_10.nam
+- values: { gain: 4.3, bass: 0, deep: 0, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_4_3_bass_0_deep_0_treble_10_mid_10.nam
+- values: { gain: 5.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+  file: captures/gain_5_2_bass_5_deep_10_treble_8_mid_3.nam
+- values: { gain: 3, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_3_bass_10_deep_10_treble_10_mid_10.nam
+- values: { gain: 7, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+  file: captures/gain_7_bass_7_deep_0_treble_0_mid_10.nam
+- values: { gain: 10, bass: 0, deep: 0, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_10_bass_0_deep_0_treble_10_mid_10.nam
+- values: { gain: 3.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+  file: captures/gain_3_2_bass_5_deep_10_treble_8_mid_3.nam
+- values: { gain: 7, bass: 0, deep: 0, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_7_bass_0_deep_0_treble_10_mid_10.nam
+- values: { gain: 5, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+  file: captures/gain_5_bass_10_deep_9_treble_0_mid_0.nam
+- values: { gain: 6, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+  file: captures/gain_6_bass_5_deep_5_treble_5_mid_5.nam
+- values: { gain: 5, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_5_bass_10_deep_10_treble_10_mid_10.nam
+- values: { gain: 10, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+  file: captures/gain_10_bass_10_deep_9_treble_0_mid_0.nam
+- values: { gain: 3, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+  file: captures/gain_3_bass_10_deep_9_treble_0_mid_0.nam
+- values: { gain: 10, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+  file: captures/gain_10_bass_5_deep_5_treble_5_mid_5.nam
+- values: { gain: 7, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+  file: captures/gain_7_bass_10_deep_9_treble_0_mid_0.nam
+- values: { gain: 7, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+  file: captures/gain_7_bass_10_deep_10_treble_10_mid_10.nam
+- values: { gain: 10, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+  file: captures/gain_10_bass_7_deep_0_treble_0_mid_10.nam
+- values: { gain: 3, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+  file: captures/gain_3_bass_7_deep_0_treble_0_mid_10.nam
+- values: { gain: 7.5, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+  file: captures/gain_7_5_bass_5_deep_10_treble_8_mid_3.nam
+- values: { gain: 7, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_7_bass_10_deep_10_treble_10_mid_10_a2.nam
+- values: { gain: 3, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+  file: captures/gain_3_bass_7_deep_0_treble_0_mid_10_a2.nam
+- values: { gain: 5, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+  file: captures/gain_5_bass_7_deep_0_treble_0_mid_10_a2.nam
+- values: { gain: 5.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+  file: captures/gain_5_2_bass_5_deep_10_treble_8_mid_3_a2.nam
+- values: { gain: 6, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+  file: captures/gain_6_bass_5_deep_5_treble_5_mid_5_a2.nam
+- values: { gain: 10, bass: 0, deep: 0, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_10_bass_0_deep_0_treble_10_mid_10_a2.nam
+- values: { gain: 10, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+  file: captures/gain_10_bass_10_deep_9_treble_0_mid_0_a2.nam
+- values: { gain: 10, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+  file: captures/gain_10_bass_7_deep_0_treble_0_mid_10_a2.nam
+- values: { gain: 5, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_5_bass_10_deep_10_treble_10_mid_10_a2.nam
+- values: { gain: 7, bass: 0, deep: 0, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_7_bass_0_deep_0_treble_10_mid_10_a2.nam
+- values: { gain: 7, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+  file: captures/gain_7_bass_7_deep_0_treble_0_mid_10_a2.nam
+- values: { gain: 3.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+  file: captures/gain_3_2_bass_5_deep_10_treble_8_mid_3_a2.nam
+- values: { gain: 3, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+  file: captures/gain_3_bass_10_deep_9_treble_0_mid_0_a2.nam
+- values: { gain: 10, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+  file: captures/gain_10_bass_5_deep_10_treble_8_mid_3_a2.nam
+- values: { gain: 3, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+  file: captures/gain_3_bass_5_deep_5_treble_5_mid_5_a2.nam
+- values: { gain: 4.3, bass: 0, deep: 0, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_4_3_bass_0_deep_0_treble_10_mid_10_a2.nam
+- values: { gain: 7, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+  file: captures/gain_7_bass_10_deep_9_treble_0_mid_0_a2.nam
+- values: { gain: 7.5, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+  file: captures/gain_7_5_bass_5_deep_10_treble_8_mid_3_a2.nam
+- values: { gain: 3, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_3_bass_10_deep_10_treble_10_mid_10_a2.nam
+- values: { gain: 5, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+  file: captures/gain_5_bass_10_deep_9_treble_0_mid_0_a2.nam
+- values: { gain: 5, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+  file: captures/gain_5_bass_5_deep_5_treble_5_mid_5_a2.nam
+- values: { gain: 10, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+  file: captures/gain_10_bass_10_deep_10_treble_10_mid_10_a2.nam
+- values: { gain: 10, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+  file: captures/gain_10_bass_5_deep_5_treble_5_mid_5_a2.nam

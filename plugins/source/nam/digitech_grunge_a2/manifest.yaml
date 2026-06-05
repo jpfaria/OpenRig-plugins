@@ -23,34 +23,34 @@ parameters:
   - 9
 captures:
 - values:
+    tone: 7
     grunge: 7
-    tone: 7
-  file: captures/lh1cw7pk8xs_a2.nam
+  file: captures/digitech_grunge_tone_7_grunge_7_a2.nam
 - values:
+    tone: 7
     grunge: 3
-    tone: 7
-  file: captures/2c8iuule7mn_a2.nam
+  file: captures/digitech_grunge_tone_7_grunge_3_a2.nam
 - values:
-    grunge: 5
     tone: 5
-  file: captures/ld8drcqyihn_a2.nam
+    grunge: 5
+  file: captures/digitech_grunge_tone_5_grunge_5_a2.nam
 - values:
+    tone: 5
     grunge: 7
-    tone: 5
-  file: captures/xtgiwicf1b_a2.nam
+  file: captures/digitech_grunge_tone_5_grunge_7_a2.nam
 - values:
+    tone: 5
     grunge: 9
-    tone: 5
-  file: captures/2l61zqdgoz8_a2.nam
+  file: captures/digitech_grunge_tone_5_grunge_9_a2.nam
 - values:
+    tone: 7
     grunge: 5
-    tone: 7
-  file: captures/qjbiauy4ac_a2.nam
+  file: captures/digitech_grunge_tone_7_grunge_5_a2.nam
 - values:
-    grunge: 3
     tone: 5
-  file: captures/71fcf79sl16_a2.nam
+    grunge: 3
+  file: captures/digitech_grunge_tone_5_grunge_3_a2.nam
 - values:
-    grunge: 9
     tone: 7
-  file: captures/f9c55w7us0i_a2.nam
+    grunge: 9
+  file: captures/digitech_grunge_tone_7_grunge_9_a2.nam

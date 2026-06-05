@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: "3" (trailing _3, identical everywhere)
 manifest_version: 1
 id: ir_orange_2x12_v30
 display_name: Orange 2x12 V30

@@ -1,3 +1,4 @@
+# Single capture; descriptive filename tokens are constants: od2 (OD2 channel/voicing), v30 (Vintage 30 cab used in capture), head.
 manifest_version: 1
 id: nam_marshall_jmp_1_head_a1
 display_name: JMP-1 Head
@@ -7,7 +8,11 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/jmp_1_od2_v30_head.nam

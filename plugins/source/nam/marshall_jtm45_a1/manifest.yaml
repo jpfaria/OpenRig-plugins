@@ -17,30 +17,30 @@ parameters:
 - name: volume
   display_name: Volume
   values:
-  - '5'
-  - '10'
+  - 5
+  - 10
 captures:
 - values:
     channel: normal
-    volume: '5'
+    volume: 5
   file: captures/marshall_jtm45_jtm45_normal5_jtm45_n5.nam
 - values:
     channel: normal
-    volume: '10'
+    volume: 10
   file: captures/marshall_jtm45_jtm45_normal10_jtm45_n10.nam
 - values:
     channel: treble
-    volume: '5'
+    volume: 5
   file: captures/marshall_jtm45_jtm45_treble5_jtm45_t5.nam
 - values:
     channel: treble
-    volume: '10'
+    volume: 10
   file: captures/marshall_jtm45_jtm45_treble10_jtm45_t10.nam
 - values:
     channel: blend
-    volume: '5'
+    volume: 5
   file: captures/marshall_jtm45_jtm45_blend_treb5_norm5_jtm45_t5n5.nam
 - values:
     channel: blend
-    volume: '10'
+    volume: 10
   file: captures/marshall_jtm45_jtm45_blend_treb10_norm10_jtm45_t10n10.nam

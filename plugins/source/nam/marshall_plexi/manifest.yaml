@@ -1,3 +1,4 @@
+# Single capture (tone3000 model "Angus", nano size). No varying control → 'default' axis.
 manifest_version: 1
 id: nam_marshall_plexi
 display_name: Plexi
@@ -10,11 +11,11 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - angus
+  - default
 captures:
 - values:
-    preset: angus
+    default: default
   file: captures/angus_nano.nam

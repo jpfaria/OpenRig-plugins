@@ -1,3 +1,4 @@
+# Single capture (friedman_ds40 — DS40 model); no varying control across captures.
 manifest_version: 1
 id: nam_friedman_dirty_shirley
 display_name: Dirty Shirley
@@ -10,11 +11,11 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - ds40
+  - default
 captures:
 - values:
-    preset: ds40
+    default: default
   file: captures/friedman_ds40.nam

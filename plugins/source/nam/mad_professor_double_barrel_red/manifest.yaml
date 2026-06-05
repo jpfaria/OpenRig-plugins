@@ -1,3 +1,4 @@
+# Single capture (tone3000 model "RED_DoubleBarrel"); no varying control tokens.
 manifest_version: 1
 id: nam_mad_professor_double_barrel_red
 display_name: Double Barrel (Red)
@@ -8,7 +9,11 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
-  file: captures/mnyvz3m761.nam
+- values:
+    default: default
+  file: captures/red_double_barrel.nam

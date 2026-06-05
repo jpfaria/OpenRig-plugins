@@ -1,3 +1,4 @@
+# Dropped constant token: fuzz_war_clone (amp/model name, identical in every capture)
 manifest_version: 1
 id: nam_death_by_audio_fuzz_war_a1
 display_name: Death By Audio Fuzz War
@@ -10,36 +11,36 @@ parameters:
 - name: sustain
   display_name: Sustain
   values:
-  - '5'
-  - '10'
+  - 5
+  - 10
 - name: tone
   display_name: Tone
   values:
-  - '1'
-  - '5'
-  - '10'
+  - 1
+  - 5
+  - 10
 captures:
 - values:
-    sustain: '5'
-    tone: '1'
+    sustain: 5
+    tone: 1
   file: captures/fuzz_war_clone_sustain_5_tone_1_fuzz_war_sus5_ton1.nam
 - values:
-    sustain: '5'
-    tone: '5'
+    sustain: 5
+    tone: 5
   file: captures/fuzz_war_clone_sustain_5_tone_5_fuzz_ware_sus5_ton.nam
 - values:
-    sustain: '5'
-    tone: '10'
+    sustain: 5
+    tone: 10
   file: captures/fuzz_war_clone_sustain_5_tone_10_fuzz_war_sus5_ton.nam
 - values:
-    sustain: '10'
-    tone: '1'
+    sustain: 10
+    tone: 1
   file: captures/fuzz_war_clone_sustain_10_tone_1_fuzz_war_sus10_to.nam
 - values:
-    sustain: '10'
-    tone: '5'
+    sustain: 10
+    tone: 5
   file: captures/fuzz_war_clone_sustain_10_tone_5_fuzz_war_sus10_to.nam
 - values:
-    sustain: '10'
-    tone: '10'
+    sustain: 10
+    tone: 10
   file: captures/fuzz_war_clone_sustain_10_tone_10_fuzz_war_sus10_t.nam

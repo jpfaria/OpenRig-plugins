@@ -7,6 +7,8 @@ output_gain_db: 5.9153023
 type: amp
 backend: nam
 architecture: A1
+# Dropped constant token across all captures: fender_super_reverb (matches the plugin).
+# Varying token: mic (sm57, akg414, and their sm57_akg414 blend).
 parameters:
 - name: mic
   display_name: Mic

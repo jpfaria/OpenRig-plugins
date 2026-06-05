@@ -1,3 +1,5 @@
+# Dropped constant: "1000 epochs" (NAM training detail, not an amp control).
+# Single capture -> single 'default' axis (mirrors strymon_riverside_a1).
 manifest_version: 1
 id: nam_strymon_riverside_a2
 display_name: Strymon Riverside
@@ -9,11 +11,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/4977
 parameters:
-- name: tone
-  display_name: Tone
+- name: default
+  display_name: Default
   values:
   - default
 captures:
 - values:
-    tone: default
-  file: captures/87ed8b78641068b4_a2.nam
+    default: default
+  file: captures/strymon_riverside_a2.nam

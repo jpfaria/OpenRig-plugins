@@ -9,6 +9,8 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/37987
+# Constant across all captures (dropped from axes): bass 5, mid 5, treble 5,
+# presence 5, volume 5, D.I., STD.
 parameters:
 - name: gain
   display_name: Gain
@@ -20,13 +22,13 @@ parameters:
 captures:
 - values:
     gain: 3
-  file: captures/8o3wwsorlho_a2.nam
+  file: captures/jcm800_2203_di_g3_b5_m5_t5_p5_v5_std_a2.nam
 - values:
     gain: 5
-  file: captures/p6aza7linw_a2.nam
+  file: captures/jcm800_2203_di_g5_b5_m5_t5_p5_v5_std_a2.nam
 - values:
     gain: 7
-  file: captures/xaibvbrmxr_a2.nam
+  file: captures/jcm800_2203_di_g7_b5_m5_t5_p5_v5_std_a2.nam
 - values:
     gain: 10
-  file: captures/wknh92cfuk9_a2.nam
+  file: captures/jcm800_2203_di_g10_b5_m5_t5_p5_v5_std_a2.nam

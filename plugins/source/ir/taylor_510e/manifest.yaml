@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): taylor_510e, xbraced, 48000 (sample rate).
+# Varying token -> axis 'flavor': '' (none) -> standard, bld -> blend, match -> match, jf_flavor -> jf.
 manifest_version: 1
 id: ir_taylor_510e
 display_name: 510e

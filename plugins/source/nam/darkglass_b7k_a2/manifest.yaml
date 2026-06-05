@@ -1,3 +1,4 @@
+# Single capture: "DARKGLASS B7K ULTRA (NO CAB)" — no varying control, single 'default' axis.
 manifest_version: 1
 id: nam_darkglass_b7k_a2
 display_name: B7K Ultra
@@ -10,11 +11,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/39351
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
-  - no_cab
+  - default
 captures:
 - values:
-    model: no_cab
-  file: captures/a32uluqipen_a2.nam
+    default: default
+  file: captures/darkglass_b7k_ultra_no_cab_a2.nam

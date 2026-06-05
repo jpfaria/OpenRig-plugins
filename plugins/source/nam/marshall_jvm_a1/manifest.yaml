@@ -1,3 +1,4 @@
+# Dropped constants: jvm (amp name), 4x12 (cab size — every capture is a 4x12).
 manifest_version: 1
 id: nam_marshall_jvm_a1
 display_name: JVM
@@ -12,52 +13,52 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: gain
-  display_name: Gain
+- name: channel
+  display_name: Channel
   values:
   - clean
   - crunch
   - drive
-- name: cabinet
-  display_name: Cabinet
+- name: speaker
+  display_name: Speaker
   values:
-  - 4x12_v30
-  - 4x12_greenback
-  - 4x12_g12t
+  - v30
+  - greenback
+  - g12t
 captures:
 - values:
-    cabinet: 4x12_v30
-    gain: clean
+    channel: clean
+    speaker: v30
   file: captures/jvm_clean_4x12_v30.nam
 - values:
-    cabinet: 4x12_greenback
-    gain: clean
+    channel: clean
+    speaker: greenback
   file: captures/jvm_clean_4x12_greenback.nam
 - values:
-    cabinet: 4x12_g12t
-    gain: clean
+    channel: clean
+    speaker: g12t
   file: captures/jvm_clean_4x12_g12t.nam
 - values:
-    cabinet: 4x12_v30
-    gain: crunch
+    channel: crunch
+    speaker: v30
   file: captures/jvm_crunch_4x12_v30.nam
 - values:
-    cabinet: 4x12_greenback
-    gain: crunch
+    channel: crunch
+    speaker: greenback
   file: captures/jvm_crunch_4x12_greenback.nam
 - values:
-    cabinet: 4x12_g12t
-    gain: crunch
+    channel: crunch
+    speaker: g12t
   file: captures/jvm_crunch_4x12_g12t.nam
 - values:
-    cabinet: 4x12_v30
-    gain: drive
+    channel: drive
+    speaker: v30
   file: captures/jvm_drive_4x12_v30.nam
 - values:
-    cabinet: 4x12_greenback
-    gain: drive
+    channel: drive
+    speaker: greenback
   file: captures/jvm_drive_4x12_greenback.nam
 - values:
-    cabinet: 4x12_g12t
-    gain: drive
+    channel: drive
+    speaker: g12t
   file: captures/jvm_drive_4x12_g12t.nam

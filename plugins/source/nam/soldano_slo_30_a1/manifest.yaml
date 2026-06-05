@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): bass/mid/treble bmt_466, presence pres_8, depth depth_5
 manifest_version: 1
 id: nam_soldano_slo_30_a1
 display_name: slo 30
@@ -12,10 +13,17 @@ parameters:
   values:
   - crunch
   - lead
+- name: gain
+  display_name: Gain
+  values:
+  - 3
+  - 5
 captures:
 - values:
     channel: crunch
+    gain: 3
   file: captures/slo_30_crunch_gain_3_bmt_466_pres_8_depth_5.nam
 - values:
     channel: lead
+    gain: 5
   file: captures/slo_30_lead_gain_5_bmt_466_pres_8_depth_5.nam

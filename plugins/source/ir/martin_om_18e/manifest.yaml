@@ -1,3 +1,4 @@
+# dropped constants: aura_vte (Aura VTE acoustic system), 48000 (sample rate)
 manifest_version: 1
 id: ir_martin_om_18e
 display_name: OM-18E

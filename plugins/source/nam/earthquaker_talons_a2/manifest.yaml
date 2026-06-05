@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): gain 5
 manifest_version: 1
 id: nam_earthquaker_talons_a2
 display_name: EarthQuaker Talons
@@ -19,13 +20,13 @@ parameters:
 captures:
 - values:
     tone: flat
-  file: captures/kaez65xeze_a2.nam
+  file: captures/talons_gain_5_flat_a2.nam
 - values:
     tone: mid_boost
-  file: captures/q2qf5rvqfuf_a2.nam
+  file: captures/talons_gain_5_mid_boost_a2.nam
 - values:
     tone: presence_boost
-  file: captures/00er3h2wuo3qh_a2.nam
+  file: captures/talons_gain_5_presence_boost_a2.nam
 - values:
     tone: trebel_boost
-  file: captures/o9lldla30bl_a2.nam
+  file: captures/talons_gain_5_trebel_boost_a2.nam

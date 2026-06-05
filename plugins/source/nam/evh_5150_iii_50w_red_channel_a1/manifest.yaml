@@ -1,3 +1,4 @@
+# Single capture; dropped constant tokens: 5153 (model), red (channel, already in display_name). Filename setting token: dailydriver.
 manifest_version: 1
 id: nam_evh_5150_iii_50w_red_channel_a1
 display_name: 5150 III 50w Red Channel
@@ -7,11 +8,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - daily_driver
+  - default
 captures:
 - values:
-    preset: daily_driver
+    default: default
   file: captures/5153_red_dailydriver.nam

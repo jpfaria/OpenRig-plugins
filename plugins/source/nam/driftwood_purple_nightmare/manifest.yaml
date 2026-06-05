@@ -1,3 +1,4 @@
+# Dropped constants (identical across every capture): profiler prefix "va", amp "nightmare", mic "md" (MD421).
 manifest_version: 1
 id: nam_driftwood_purple_nightmare
 display_name: Purple Nightmare

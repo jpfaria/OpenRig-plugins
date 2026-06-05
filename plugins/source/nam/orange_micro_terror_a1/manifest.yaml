@@ -1,3 +1,4 @@
+# Single capture; fixed amp settings: volume=5, tone=7, gain=5.
 manifest_version: 1
 id: nam_orange_micro_terror_a1
 display_name: Micro Terror
@@ -10,7 +11,11 @@ output_gain_db: 0.0000000
 type: preamp
 backend: nam
 architecture: A1
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/volume5_tone7_gain5.nam

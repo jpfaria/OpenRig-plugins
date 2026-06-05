@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): amp = Fender 57 Custom Deluxe.
+# Dropped non-control token: training epochs (700/1000/1300), an artifact correlated with the gain voicing.
 manifest_version: 1
 id: nam_fender_57_custom_deluxe_a2
 display_name: 57 Custom Deluxe
@@ -25,24 +27,24 @@ captures:
 - values:
     gain: clean
     input: in1
-  file: captures/3tykw0jjkrp_a2.nam
+  file: captures/fender_57customdeluxe_clean_in1_a2.nam
 - values:
     gain: clean
     input: in2
-  file: captures/tmmvfbx0bt_a2.nam
+  file: captures/fender_57customdeluxe_clean_in2_a2.nam
 - values:
     gain: crunch
     input: in1
-  file: captures/r9cbv1vefom_a2.nam
+  file: captures/fender_57customdeluxe_crunch_in1_a2.nam
 - values:
     gain: crunch
     input: in2
-  file: captures/kv28aourjqe_a2.nam
+  file: captures/fender_57customdeluxe_crunch_in2_a2.nam
 - values:
     gain: od
     input: in1
-  file: captures/oryve0r2cba_a2.nam
+  file: captures/fender_57customdeluxe_od_in1_a2.nam
 - values:
     gain: od
     input: in2
-  file: captures/q9wn42l62ei_a2.nam
+  file: captures/fender_57customdeluxe_od_in2_a2.nam

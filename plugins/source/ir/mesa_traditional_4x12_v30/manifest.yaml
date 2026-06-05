@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): speaker v30, 4fb, cab 4x12, mic sm57, second-axis distance 0_0in, take _3
 manifest_version: 1
 id: ir_mesa_traditional_4x12_v30
 display_name: Traditional 4x12 V30
@@ -17,13 +18,13 @@ parameters:
 - name: distance
   display_name: Distance
   values:
-  - '0.25'
-  - '0.50'
-  - '0.75'
-  - '1.25'
-  - '1.50'
-  - '2.00'
-  - '2.50'
+  - 0.25
+  - 0.5
+  - 0.75
+  - 1.25
+  - 1.5
+  - 2.0
+  - 2.5
 - name: preamp
   display_name: Mic Preamp
   values:
@@ -33,61 +34,61 @@ parameters:
   - oa30_sa73
 captures:
 - values:
-    distance: '0.50'
+    distance: 0.5
     mic_position: ll
     preamp: neve_7603
   file: ir/v30_ll_4fb_4x12_sm57_0_50in_0_0in_7603_3.wav
   output_gain_db: -18.3461800
 - values:
-    distance: '0.75'
+    distance: 0.75
     mic_position: ll
     preamp: vp28
   file: ir/v30_ll_4fb_4x12_sm57_0_75in_0_0in_vp28_3.wav
   output_gain_db: -17.4846420
 - values:
-    distance: '1.25'
+    distance: 1.25
     mic_position: ll
     preamp: sa73
   file: ir/v30_ll_4fb_4x12_sm57_1_25in_0_0in_sa73_3.wav
   output_gain_db: -17.6755142
 - values:
-    distance: '2.50'
+    distance: 2.5
     mic_position: ll
     preamp: neve_7603
   file: ir/v30_ll_4fb_4x12_sm57_2_50in_0_0in_7603_3.wav
   output_gain_db: -20.9213943
 - values:
-    distance: '0.25'
+    distance: 0.25
     mic_position: lr
     preamp: neve_7603
   file: ir/v30_lr_4fb_4x12_sm57_0_25in_0_0in_7603_3.wav
   output_gain_db: -18.1113834
 - values:
-    distance: '0.75'
+    distance: 0.75
     mic_position: lr
     preamp: vp28
   file: ir/v30_lr_4fb_4x12_sm57_0_75in_0_0in_vp28_3.wav
   output_gain_db: -17.6544418
 - values:
-    distance: '2.00'
+    distance: 2.0
     mic_position: lr
     preamp: vp28
   file: ir/v30_lr_4fb_4x12_sm57_2_00in_0_0in_vp28_3.wav
   output_gain_db: -20.1976719
 - values:
-    distance: '0.50'
+    distance: 0.5
     mic_position: ul
     preamp: oa30_sa73
   file: ir/v30_ul_4fb_4x12_sm57_0_50in_0_0in_oa30_sa73_3.wav
   output_gain_db: -18.2533112
 - values:
-    distance: '1.25'
+    distance: 1.25
     mic_position: ul
     preamp: neve_7603
   file: ir/v30_ul_4fb_4x12_sm57_1_25in_0_0in_7603_3.wav
   output_gain_db: -19.0542831
 - values:
-    distance: '1.50'
+    distance: 1.5
     mic_position: ul
     preamp: sa73
   file: ir/v30_ul_4fb_4x12_sm57_1_50in_0_0in_sa73_3.wav

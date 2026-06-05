@@ -8,6 +8,7 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/68604
+# Dropped constants (identical in every capture): Volume V-4, Drive D-5.
 parameters:
 - name: gain
   display_name: Gain
@@ -33,74 +34,74 @@ captures:
     comp: 5
     gain: 8
     stab: 7
-  file: captures/30egw3xvvng_a2.nam
+  file: captures/fuzz_factory_g8_c5_s7_a2.nam
 - values:
     comp: 10
     gain: 6
     stab: 0
-  file: captures/twgvb3bbate_a2.nam
+  file: captures/fuzz_factory_g6_c10_s0_a2.nam
 - values:
     comp: 8
     gain: 6
     stab: 5
-  file: captures/xfcr0b5s51f_a2.nam
+  file: captures/fuzz_factory_g6_c8_s5_a2.nam
 - values:
     comp: 10
     gain: 6
     stab: 10
-  file: captures/lb7wtz9j2qi_a2.nam
+  file: captures/fuzz_factory_g6_c10_s10_a2.nam
 - values:
     comp: 5
     gain: 8
     stab: 0
-  file: captures/2e7yh9ywz4u_a2.nam
+  file: captures/fuzz_factory_g8_c5_s0_a2.nam
 - values:
     comp: 8
     gain: 6
     stab: 7
-  file: captures/jel1br2os9a_a2.nam
+  file: captures/fuzz_factory_g6_c8_s7_a2.nam
 - values:
     comp: 10
     gain: 6
     stab: 3
-  file: captures/qcauadedo3_a2.nam
+  file: captures/fuzz_factory_g6_c10_s3_a2.nam
 - values:
     comp: 8
     gain: 6
     stab: 3
-  file: captures/nvccs7taq1f_a2.nam
+  file: captures/fuzz_factory_g6_c8_s3_a2.nam
 - values:
     comp: 5
     gain: 8
     stab: 5
-  file: captures/hd6fw5ywexm_a2.nam
+  file: captures/fuzz_factory_g8_c5_s5_a2.nam
 - values:
     comp: 5
     gain: 8
     stab: 3
-  file: captures/xjjucvy6ws_a2.nam
+  file: captures/fuzz_factory_g8_c5_s3_a2.nam
 - values:
     comp: 5
     gain: 8
     stab: 10
-  file: captures/mdf6i94izei_a2.nam
+  file: captures/fuzz_factory_g8_c5_s10_a2.nam
 - values:
     comp: 8
     gain: 6
     stab: 10
-  file: captures/oiimz4joarb_a2.nam
+  file: captures/fuzz_factory_g6_c8_s10_a2.nam
 - values:
     comp: 10
     gain: 6
     stab: 5
-  file: captures/j31e5j2s5ck_a2.nam
+  file: captures/fuzz_factory_g6_c10_s5_a2.nam
 - values:
     comp: 10
     gain: 6
     stab: 7
-  file: captures/51jrzt8osdf_a2.nam
+  file: captures/fuzz_factory_g6_c10_s7_a2.nam
 - values:
     comp: 8
     gain: 6
     stab: 0
-  file: captures/i4822izmmg_a2.nam
+  file: captures/fuzz_factory_g6_c8_s0_a2.nam

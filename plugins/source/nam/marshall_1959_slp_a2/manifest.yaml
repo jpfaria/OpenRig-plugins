@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): model "Marshall 1959 SLP Dookie Mod", channel ch1.
 manifest_version: 1
 id: nam_marshall_1959_slp_a2
 display_name: 1959 SLP
@@ -20,13 +21,13 @@ parameters:
 captures:
 - values:
     gain: 9_oclock
-  file: captures/5kmishqrc1f_a2.nam
+  file: captures/marshall_1959_slp_dookie_mod_ch1_gain_9_oclock_a2.nam
 - values:
     gain: noon
-  file: captures/zvduhfukrol_a2.nam
+  file: captures/marshall_1959_slp_dookie_mod_ch1_gain_noon_a2.nam
 - values:
     gain: 3_oclock
-  file: captures/jyvh0wd2bk_a2.nam
+  file: captures/marshall_1959_slp_dookie_mod_ch1_gain_3_oclock_a2.nam
 - values:
     gain: max
-  file: captures/yjyewoevvm_a2.nam
+  file: captures/marshall_1959_slp_dookie_mod_ch1_gain_max_a2.nam

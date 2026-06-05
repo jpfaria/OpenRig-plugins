@@ -1,3 +1,4 @@
+# Dropped constant filename token: ds1 (pedal name, identical in every capture)
 manifest_version: 1
 id: nam_boss_ds1_a1
 display_name: DS-1 Distortion

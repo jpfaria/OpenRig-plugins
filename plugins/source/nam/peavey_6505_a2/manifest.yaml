@@ -9,6 +9,7 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/62386
+# Dropped constant across all captures: amp model + lead channel ("6505_lead").
 parameters:
 - name: boost
   display_name: Boost
@@ -24,25 +25,25 @@ parameters:
 captures:
 - values:
     boost: none
-  file: captures/vy7otxwdyz_a2.nam
+  file: captures/6505_lead_a2.nam
 - values:
     boost: tkiy
-  file: captures/j02o5ohhqno_a2.nam
-- values:
-    boost: ts808x
-  file: captures/vxljwcfcc9_a2.nam
-- values:
-    boost: duality_green
-  file: captures/njbi48c5gc9_a2.nam
+  file: captures/6505_lead_tkiy_a2.nam
 - values:
     boost: ts808
-  file: captures/breqy4hpq0t_a2.nam
+  file: captures/6505_lead_808_a2.nam
 - values:
-    boost: duality_red
-  file: captures/ma26ofr5ro8_a2.nam
-- values:
-    boost: duality_blue
-  file: captures/4vsckdj4cw2_a2.nam
+    boost: ts808x
+  file: captures/6505_lead_808x_a2.nam
 - values:
     boost: sd1
-  file: captures/tz0wbxnies_a2.nam
+  file: captures/6505_lead_sd1_a2.nam
+- values:
+    boost: duality_green
+  file: captures/6505_lead_dualitydx_green_a2.nam
+- values:
+    boost: duality_red
+  file: captures/6505_lead_dualitydx_red_a2.nam
+- values:
+    boost: duality_blue
+  file: captures/6505_lead_dualitydx_blue_a2.nam

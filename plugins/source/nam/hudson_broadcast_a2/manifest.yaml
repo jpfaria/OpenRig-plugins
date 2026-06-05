@@ -1,3 +1,7 @@
+# Dropped constants (identical across every capture): Low Cut 900.
+# Note: the "Level" token is coupled to gain_range (low -> Level1200, med/high -> Level130),
+# so it is not an independent axis. The two free factors are the gain range selector and the
+# numeric Gain knob value.
 manifest_version: 1
 id: nam_hudson_broadcast_a2
 display_name: Hudson Broadcast
@@ -9,78 +13,78 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/36540
 parameters:
-- name: gain
-  display_name: Gain
+- name: gain_range
+  display_name: Gain Range
   values:
   - low
   - med
   - high
-- name: take
-  display_name: Take
+- name: gain
+  display_name: Gain
   values:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1200
 captures:
 - values:
-    gain: low
-    take: 1
-  file: captures/y1gawbej0os_a2.nam
+    gain_range: low
+    gain: 300
+  file: captures/gain_low_300_a2.nam
 - values:
-    gain: low
-    take: 2
-  file: captures/dyheswvmnn8_a2.nam
+    gain_range: low
+    gain: 500
+  file: captures/gain_low_500_a2.nam
 - values:
-    gain: low
-    take: 3
-  file: captures/yobqkk3u1x_a2.nam
+    gain_range: low
+    gain: 700
+  file: captures/gain_low_700_a2.nam
 - values:
-    gain: low
-    take: 4
-  file: captures/f896dogjlf7_a2.nam
+    gain_range: low
+    gain: 900
+  file: captures/gain_low_900_a2.nam
 - values:
-    gain: low
-    take: 5
-  file: captures/xhzvlf1we19_a2.nam
+    gain_range: low
+    gain: 1200
+  file: captures/gain_low_1200_a2.nam
 - values:
-    gain: med
-    take: 1
-  file: captures/5spkdlbu6o8_a2.nam
+    gain_range: med
+    gain: 300
+  file: captures/gain_med_300_a2.nam
 - values:
-    gain: med
-    take: 2
-  file: captures/l5u5mcpxsvo_a2.nam
+    gain_range: med
+    gain: 500
+  file: captures/gain_med_500_a2.nam
 - values:
-    gain: med
-    take: 3
-  file: captures/ybn1gmxwckq_a2.nam
+    gain_range: med
+    gain: 700
+  file: captures/gain_med_700_a2.nam
 - values:
-    gain: med
-    take: 4
-  file: captures/p5ibiuif03b_a2.nam
+    gain_range: med
+    gain: 900
+  file: captures/gain_med_900_a2.nam
 - values:
-    gain: med
-    take: 5
-  file: captures/cl9culzlugo_a2.nam
+    gain_range: med
+    gain: 1200
+  file: captures/gain_med_1200_a2.nam
 - values:
-    gain: high
-    take: 1
-  file: captures/412byeko30y_a2.nam
+    gain_range: high
+    gain: 300
+  file: captures/gain_high_300_a2.nam
 - values:
-    gain: high
-    take: 2
-  file: captures/8zfu512s5cb_a2.nam
+    gain_range: high
+    gain: 500
+  file: captures/gain_high_500_a2.nam
 - values:
-    gain: high
-    take: 3
-  file: captures/lm9uo6ea7qk_a2.nam
+    gain_range: high
+    gain: 700
+  file: captures/gain_high_700_a2.nam
 - values:
-    gain: high
-    take: 4
-  file: captures/d83jwwtgcdt_a2.nam
+    gain_range: high
+    gain: 900
+  file: captures/gain_high_900_a2.nam
 - values:
-    gain: high
-    take: 5
-  file: captures/wluu8tqsaus_a2.nam
+    gain_range: high
+    gain: 1200
+  file: captures/gain_high_1200_a2.nam

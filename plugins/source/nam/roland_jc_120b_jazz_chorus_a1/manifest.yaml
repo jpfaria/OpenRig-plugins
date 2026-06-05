@@ -8,7 +8,12 @@ output_gain_db: 0.2067833
 type: amp
 backend: nam
 architecture: A1
-parameters: []
+# Single capture; fixed config dropped as constants: bright switch off, Royer R-101 mic.
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/roland_jc_120b_jazz_chorus_bright_off_royer_101.nam

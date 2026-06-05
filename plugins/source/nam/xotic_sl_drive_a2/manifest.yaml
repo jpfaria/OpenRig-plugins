@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): level=10
 manifest_version: 1
 id: nam_xotic_sl_drive_a2
 display_name: Xotic SL Drive
@@ -24,12 +25,12 @@ captures:
 - values:
     drive: 6.5
     tone: 8.0
-  file: captures/1pqa32oatrv_a2.nam
+  file: captures/xotic_sl_drive_d6_5_t8_l10_a2.nam
 - values:
     drive: 3.0
     tone: 8.0
-  file: captures/939g0ubudk6_a2.nam
+  file: captures/xotic_sl_drive_d3_t8_l10_a2.nam
 - values:
     drive: 5.0
     tone: 5.0
-  file: captures/ld75yl70pi_a2.nam
+  file: captures/xotic_sl_drive_d5_t5_l10_a2.nam

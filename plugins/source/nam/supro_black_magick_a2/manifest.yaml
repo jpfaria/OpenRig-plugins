@@ -1,3 +1,6 @@
+# DI direct-out captures of a Supro 1695TJ Black Magick (tone3000 #64590).
+# Dropped constant present in every source name: 'DI Supro 1695TJ' (amp model + DI capture type).
+# vol1 'none' = Input 2 signal path, which does not engage Volume 1 (source name has no V1 token).
 manifest_version: 1
 id: nam_supro_black_magick_a2
 display_name: Supro Black Magick
@@ -17,7 +20,7 @@ parameters:
 - name: vol1
   display_name: Volume 1
   values:
-  - off
+  - none
   - 5
   - 7
   - 8
@@ -48,813 +51,813 @@ parameters:
 captures:
 - values:
     input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 7
-    vol2: 0
-  file: captures/xz6ooai5kie_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 8
-    vol2: 0
-  file: captures/sgv20x39cw_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 3
-    vol1: 10
-    vol2: 0
-  file: captures/polfnrm2gc_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 3
-    vol1: off
-    vol2: 5
-  file: captures/jdlkd875w2_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 3
-    vol1: 5
-    vol2: 0
-  file: captures/3dycpwgxra7_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 9
-    vol1: off
-    vol2: 5
-  file: captures/ilf527jl2i_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 3
-    vol1: off
-    vol2: 10
-  file: captures/twu90uw389_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 8
-    vol1: off
-    vol2: 10
-  file: captures/kyvjwso35zm_a2.nam
-- values:
-    input: in1_2
     speaker: p12q
-    tone: 7
-    vol1: 5
-    vol2: 0
-  file: captures/lssb5tnrm3i_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 6
-    vol1: 8
-    vol2: 0
-  file: captures/gruee45730l_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 10
-    vol2: 10
-  file: captures/cx5373mqqnd_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 7
-    vol1: off
-    vol2: 5
-  file: captures/4nbyw3s4zto_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 5
-    vol1: 10
-    vol2: 0
-  file: captures/dj6jpzczvk_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 5
-    vol2: 0
-  file: captures/nrtn6stle6_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 8
-    vol1: 7
-    vol2: 0
-  file: captures/fxowrnxrhg_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 9
-    vol1: 8
-    vol2: 0
-  file: captures/apxp6ic71lb_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 8
-    vol2: 0
-  file: captures/xvm48nzly6_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 4
-    vol1: 10
-    vol2: 5
-  file: captures/yvoyx95afdk_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 3
-    vol1: 10
-    vol2: 5
-  file: captures/y6uhjh39kok_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 8
-    vol1: 5
-    vol2: 0
-  file: captures/rfiwegt8mop_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 5
-    vol1: 8
-    vol2: 0
-  file: captures/oqoe6f2u86_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 10
-    vol2: 10
-  file: captures/evfalvpauke_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 5
-    vol2: 10
-  file: captures/v1cjumnpen_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 8
-    vol1: 10
-    vol2: 8
-  file: captures/sq7awrf1iw_a2.nam
-- values:
-    input: in2
-    speaker: p12q
-    tone: 8
-    vol1: off
-    vol2: 8
-  file: captures/k6acpbis52e_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 9
-    vol1: 5
-    vol2: 0
-  file: captures/u5599a200rn_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 4
-    vol1: 7
-    vol2: 0
-  file: captures/5xquuwv84s3_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 7
-    vol2: 0
-  file: captures/elwvjpt1fdq_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 5
-    vol1: 7
-    vol2: 0
-  file: captures/ze9g4ww7338_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 10
-    vol2: 8
-  file: captures/ffwfu4gzpkc_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 8
-    vol1: 10
-    vol2: 10
-  file: captures/h2hlxke5jzi_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 10
-    vol2: 5
-  file: captures/96tybn7r0n_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
     tone: 10
     vol1: 10
-    vol2: 5
-  file: captures/r7jualzo6hp_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 6
-    vol1: off
-    vol2: 10
-  file: captures/jgg8os9n1vp_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 9
-    vol1: 7
     vol2: 0
-  file: captures/oou3vvnyd0d_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 4
-    vol1: 8
-    vol2: 0
-  file: captures/rjuuox9orvk_a2.nam
+  file: captures/in1_2_v1_10_v2_0_t_10_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
     vol1: 10
     vol2: 0
-  file: captures/z2ao06usje_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 8
-    vol1: 10
-    vol2: 5
-  file: captures/9gq55fjtbsd_a2.nam
+  file: captures/in1_2_v1_10_v2_0_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
-    tone: 4
-    vol1: 10
-    vol2: 8
-  file: captures/ogb1n2gczcd_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 5
-    vol1: off
-    vol2: 5
-  file: captures/hplk6cb1d3v_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 10
-    vol1: off
-    vol2: 5
-  file: captures/7zlzer5metp_a2.nam
-- values:
-    input: in2
-    speaker: p12q
-    tone: 8
-    vol1: off
-    vol2: 10
-  file: captures/w7j3zp2jlu_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 6
-    vol1: 7
-    vol2: 0
-  file: captures/y3se021h8l_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 10
-    vol1: 8
-    vol2: 0
-  file: captures/bkc8bhtc6rg_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 8
-    vol1: 8
-    vol2: 0
-  file: captures/ctj0uv6za5j_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 6
+    tone: 3
     vol1: 10
     vol2: 0
-  file: captures/s2z5pqjvgc_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 9
-    vol1: 10
-    vol2: 0
-  file: captures/em4wamfn1kt_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 5
-    vol1: 10
-    vol2: 5
-  file: captures/1v7virvndjz_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 6
-    vol1: 10
-    vol2: 5
-  file: captures/x6rkvc5hz6l_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 10
-    vol1: 5
-    vol2: 0
-  file: captures/efctredcgxi_a2.nam
+  file: captures/in1_2_v1_10_v2_0_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
     vol1: 10
     vol2: 0
-  file: captures/7i0iz1gl99v_a2.nam
+  file: captures/in1_2_v1_10_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
     vol1: 10
-    vol2: 5
-  file: captures/s3xqo4mgwdn_a2.nam
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
-    tone: 4
+    tone: 5
     vol1: 10
-    vol2: 10
-  file: captures/1xhyghda158_a2.nam
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_5_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 6
+    vol1: 10
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 10
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 7
+    vol1: 10
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
     vol1: 10
-    vol2: 10
-  file: captures/gi8a0vhjkv7_a2.nam
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_8_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 8
+    vol1: 10
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_8_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 9
+    vol1: 10
+    vol2: 0
+  file: captures/in1_2_v1_10_v2_0_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 10
     vol1: 10
     vol2: 10
-  file: captures/18ge7v9pcx1_a2.nam
+  file: captures/in1_2_v1_10_v2_10_t_10_p12q_a2.nam
 - values:
-    input: in2
+    input: in1_2
     speaker: srl
-    tone: 8
-    vol1: off
-    vol2: 5
-  file: captures/oqb4hd2krqe_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 4
-    vol1: off
-    vol2: 8
-  file: captures/m9ul1xhe6lc_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 6
-    vol1: off
-    vol2: 8
-  file: captures/uwaprajmur_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 7
-    vol1: off
-    vol2: 8
-  file: captures/67k2r6xbaw7_a2.nam
+    tone: 10
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 7
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_3_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 4
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_4_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 5
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_5_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 5
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_5_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 6
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 7
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_7_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 8
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_8_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 8
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_8_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 9
+    vol1: 10
+    vol2: 10
+  file: captures/in1_2_v1_10_v2_10_t_9_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 10
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_10_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 10
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_10_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 3
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_3_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 4
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_4_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 5
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_5_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 5
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_5_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 6
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 7
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_7_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 8
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_8_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 8
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_8_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 9
+    vol1: 10
+    vol2: 5
+  file: captures/in1_2_v1_10_v2_5_t_9_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 10
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_10_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 10
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_10_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 3
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_3_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 4
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_4_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 5
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_5_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 5
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_5_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 6
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 7
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_7_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 8
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_8_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 8
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_8_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 9
+    vol1: 10
+    vol2: 8
+  file: captures/in1_2_v1_10_v2_8_t_9_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 10
+    vol1: 5
     vol2: 0
-  file: captures/fzy6u0zoxls_a2.nam
+  file: captures/in1_2_v1_5_v2_0_t_10_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 3
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_3_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 4
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
     vol1: 5
     vol2: 0
-  file: captures/uo91u31i31m_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 4
-    vol1: 5
-    vol2: 0
-  file: captures/o3qnr8kyzwf_a2.nam
+  file: captures/in1_2_v1_5_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
     vol1: 5
     vol2: 0
-  file: captures/c0pmc9gyywo_a2.nam
+  file: captures/in1_2_v1_5_v2_0_t_5_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 6
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 7
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_7_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 8
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_8_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 8
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_8_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 9
+    vol1: 5
+    vol2: 0
+  file: captures/in1_2_v1_5_v2_0_t_9_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 5
+    vol2: 10
+  file: captures/in1_2_v1_5_v2_10_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 10
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_10_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 3
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_3_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 4
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_4_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 5
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_5_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 5
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_5_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 6
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_7_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 7
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_7_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 8
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_8_p12q_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 8
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_8_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 9
+    vol1: 7
+    vol2: 0
+  file: captures/in1_2_v1_7_v2_0_t_9_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: srl
+    tone: 10
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
     vol1: 8
     vol2: 0
-  file: captures/3wpslhcy6dv_a2.nam
+  file: captures/in1_2_v1_8_v2_0_t_3_srl_a2.nam
 - values:
     input: in1_2
-    speaker: srl
-    tone: 8
-    vol1: 8
-    vol2: 0
-  file: captures/roj1hnep6ho_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 5
-    vol1: 10
-    vol2: 0
-  file: captures/dgk0m8mgdfp_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 8
-    vol1: 5
-    vol2: 0
-  file: captures/2686zyxpya4_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 6
-    vol1: 5
-    vol2: 0
-  file: captures/m4f8l5z1g9_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 9
-    vol1: off
-    vol2: 8
-  file: captures/jssv8tz4q4p_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 5
-    vol1: 7
-    vol2: 0
-  file: captures/zog1pz68ew_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 7
-    vol1: 10
-    vol2: 0
-  file: captures/fni30b7zgli_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 3
-    vol1: 10
-    vol2: 10
-  file: captures/oo1obev9bd_a2.nam
-- values:
-    input: in2
-    speaker: p12q
-    tone: 3
-    vol1: off
-    vol2: 10
-  file: captures/bfrmv86csoh_a2.nam
-- values:
-    input: in2
     speaker: srl
     tone: 4
-    vol1: off
-    vol2: 10
-  file: captures/my2a8youn5_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 5
-    vol1: 10
-    vol2: 8
-  file: captures/qrpgw5r4xpk_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 10
-    vol1: 7
+    vol1: 8
     vol2: 0
-  file: captures/jzseypuxad_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 10
-    vol1: 10
-    vol2: 5
-  file: captures/52eqo5ry2y_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 8
-    vol1: 7
-    vol2: 0
-  file: captures/3hkk4yltwnd_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 10
-    vol2: 8
-  file: captures/vaafdjbr2cl_a2.nam
-- values:
-    input: in2
-    speaker: p12q
-    tone: 7
-    vol1: off
-    vol2: 5
-  file: captures/0g762p3ll4dg_a2.nam
+  file: captures/in1_2_v1_8_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
     vol1: 8
     vol2: 0
-  file: captures/yzigil45wx_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 10
-    vol2: 0
-  file: captures/ij9sk3pqdg_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 8
-    vol1: 10
-    vol2: 0
-  file: captures/0ep06tjcfykc_a2.nam
+  file: captures/in1_2_v1_8_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
-    tone: 8
-    vol1: 10
+    tone: 5
+    vol1: 8
     vol2: 0
-  file: captures/yx5zjzyqm5_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 10
-    vol1: 10
-    vol2: 0
-  file: captures/8zr2mdyowno_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 9
-    vol1: 10
-    vol2: 5
-  file: captures/hwizpsvtb1a_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 8
-    vol1: 10
-    vol2: 5
-  file: captures/bkv0j47w16d_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 7
-    vol1: 10
-    vol2: 5
-  file: captures/hoeebua6uhm_a2.nam
+  file: captures/in1_2_v1_8_v2_0_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 10
-    vol2: 8
-  file: captures/aw703qfa5aq_a2.nam
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_6_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 7
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
-    tone: 9
-    vol1: 10
-    vol2: 8
-  file: captures/d8virq242j_a2.nam
+    tone: 7
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_7_srl_a2.nam
+- values:
+    input: in1_2
+    speaker: p12q
+    tone: 8
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 10
-    vol2: 8
-  file: captures/3tpbzrih8zk_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 5
-    vol1: 10
-    vol2: 10
-  file: captures/clwuyxxtrqh_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 5
-    vol1: 10
-    vol2: 10
-  file: captures/dx9yr4ddrg_a2.nam
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 10
-    vol2: 10
-  file: captures/2ajs7pqdi1p_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 10
-    vol1: 10
-    vol2: 10
-  file: captures/mznduprxqk9_a2.nam
+    vol1: 8
+    vol2: 0
+  file: captures/in1_2_v1_8_v2_0_t_9_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 10
-    vol1: off
+    vol1: none
     vol2: 10
-  file: captures/y6ymil2jpkk_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 5
-    vol1: 10
-    vol2: 8
-  file: captures/2543blfup6b_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 6
-    vol1: 10
-    vol2: 10
-  file: captures/x1a9q26wqhp_a2.nam
+  file: captures/in2_v2_10_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
-    tone: 5
-    vol1: off
-    vol2: 8
-  file: captures/g1f3jbo3rgn_a2.nam
-- values:
-    input: in2
-    speaker: p12q
-    tone: 7
-    vol1: off
-    vol2: 10
-  file: captures/tc0oxvpruw_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
     tone: 3
-    vol1: 10
-    vol2: 8
-  file: captures/xbkjdnc64sd_a2.nam
-- values:
-    input: in1_2
-    speaker: srl
-    tone: 10
-    vol1: 10
-    vol2: 8
-  file: captures/wlmpy8qzqz_a2.nam
-- values:
-    input: in2
-    speaker: p12q
-    tone: 5
-    vol1: off
-    vol2: 5
-  file: captures/67q4fth6dsj_a2.nam
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_3_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    vol1: off
-    vol2: 8
-  file: captures/h3pn4vkt1ch_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 5
-    vol1: off
+    vol1: none
     vol2: 10
-  file: captures/0sjgdt3h1ek_a2.nam
-- values:
-    input: in1_2
-    speaker: p12q
-    tone: 10
-    vol1: 10
-    vol2: 8
-  file: captures/htqpahjts06_a2.nam
+  file: captures/in2_v2_10_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    vol1: off
-    vol2: 5
-  file: captures/4l1m3xfat0v_a2.nam
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
-    tone: 8
-    vol1: off
-    vol2: 5
-  file: captures/u1no8wt8bsf_a2.nam
+    tone: 5
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_5_p12q_a2.nam
 - values:
     input: in2
-    speaker: p12q
-    tone: 7
-    vol1: off
-    vol2: 8
-  file: captures/yimmpcieuwt_a2.nam
+    speaker: srl
+    tone: 5
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    vol1: off
-    vol2: 5
-  file: captures/ufs82qynrjf_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 5
-    vol1: off
-    vol2: 8
-  file: captures/u7buwbla5kn_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 8
-    vol1: off
-    vol2: 8
-  file: captures/9dd67th7vgv_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 9
-    vol1: off
+    vol1: none
     vol2: 10
-  file: captures/3toewm5rm2j_a2.nam
-- values:
-    input: in2
-    speaker: srl
-    tone: 10
-    vol1: off
-    vol2: 8
-  file: captures/mnm821bb9l9_a2.nam
+  file: captures/in2_v2_10_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
-    tone: 5
-    vol1: off
+    tone: 7
+    vol1: none
     vol2: 10
-  file: captures/wmqzybdh0h7_a2.nam
+  file: captures/in2_v2_10_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    vol1: off
+    vol1: none
     vol2: 10
-  file: captures/1dbcf4et697_a2.nam
+  file: captures/in2_v2_10_t_7_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 8
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_8_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 8
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_8_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 9
+    vol1: none
+    vol2: 10
+  file: captures/in2_v2_10_t_9_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 10
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_10_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 3
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_3_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 4
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_4_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 5
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_5_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 5
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_5_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 6
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_6_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 7
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_7_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 7
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_7_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 8
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_8_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 8
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_8_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 9
+    vol1: none
+    vol2: 5
+  file: captures/in2_v2_5_t_9_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 10
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_10_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 3
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_3_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 4
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_4_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 5
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_5_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 5
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_5_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 6
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_6_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 7
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_7_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 7
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_7_srl_a2.nam
+- values:
+    input: in2
+    speaker: p12q
+    tone: 8
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_8_p12q_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 8
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_8_srl_a2.nam
+- values:
+    input: in2
+    speaker: srl
+    tone: 9
+    vol1: none
+    vol2: 8
+  file: captures/in2_v2_8_t_9_srl_a2.nam

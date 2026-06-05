@@ -25,24 +25,24 @@ captures:
 - values:
     channel: normal
     volume: 5
-  file: captures/82f774cfcd23ce9f_a2.nam
+  file: captures/jtm45_normal5_a2.nam
 - values:
     channel: normal
     volume: 10
-  file: captures/bc1b909b39d9011e_a2.nam
+  file: captures/jtm45_normal10_a2.nam
 - values:
     channel: treble
     volume: 5
-  file: captures/1c8111c4dc6eb287_a2.nam
+  file: captures/jtm45_treble5_a2.nam
 - values:
     channel: treble
     volume: 10
-  file: captures/1a09cbcc7f75964a_a2.nam
+  file: captures/jtm45_treble10_a2.nam
 - values:
     channel: blend
     volume: 5
-  file: captures/1589664abd0c9911_a2.nam
+  file: captures/jtm45_blend_treb5_norm5_a2.nam
 - values:
     channel: blend
     volume: 10
-  file: captures/c9e44aeda5ffc465_a2.nam
+  file: captures/jtm45_blend_treb10_norm10_a2.nam

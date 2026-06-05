@@ -11,7 +11,7 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - no
+  - none
   - low
   - mid
   - hi
@@ -28,32 +28,32 @@ parameters:
   - nano
 captures:
 - values:
-    drive: no
+    drive: none
     size: standard
     tone: low
   file: captures/bossod3_nodrive_lowtone.nam
 - values:
-    drive: no
+    drive: none
     size: nano
     tone: low
   file: captures/bossod3_nodrive_lowtone_nano.nam
 - values:
-    drive: no
+    drive: none
     size: standard
     tone: center
   file: captures/bossod3_nodrive_centertone.nam
 - values:
-    drive: no
+    drive: none
     size: nano
     tone: center
   file: captures/bossod3_nodrive_centertone_nano.nam
 - values:
-    drive: no
+    drive: none
     size: standard
     tone: high
   file: captures/bossod3_nodrive_hightone.nam
 - values:
-    drive: no
+    drive: none
     size: nano
     tone: high
   file: captures/bossod3_nodrive_hightone_nano.nam

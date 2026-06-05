@@ -1,3 +1,6 @@
+# Constant across all captures (dropped): "MXR EVH 5150 Overdrive" (plugin identity).
+# Varying control: Boost footswitch (off/on) -> 'boost' selector.
+# Labels disengaged/engaged used instead of off/on to avoid YAML bool coercion.
 manifest_version: 1
 id: nam_mxr_evh_5150_overdrive_a2
 display_name: MXR EVH 5150 Overdrive
@@ -9,15 +12,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/34605
 parameters:
-- name: tone
-  display_name: Tone
+- name: boost
+  display_name: Boost
   values:
-  - off
-  - on
+  - disengaged
+  - engaged
 captures:
 - values:
-    tone: off
-  file: captures/2hrcu751rnf_a2.nam
+    boost: disengaged
+  file: captures/mxr_evh_5150_overdrive_boost_off_a2.nam
 - values:
-    tone: on
-  file: captures/5tirovgtm5s_a2.nam
+    boost: engaged
+  file: captures/mxr_evh_5150_overdrive_boost_on_a2.nam

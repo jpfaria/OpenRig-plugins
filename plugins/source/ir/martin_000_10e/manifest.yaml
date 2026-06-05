@@ -1,3 +1,5 @@
+# Descriptive IR filenames. Dropped constant tokens: martin_000_10e (body identity) · 48000 (sample rate).
+# Single varying axis: flavor (IR voicing) — same convention as siblings ir/gibson_j_45, ir/gibson_sj_200.
 manifest_version: 1
 id: ir_martin_000_10e
 display_name: 000-10E

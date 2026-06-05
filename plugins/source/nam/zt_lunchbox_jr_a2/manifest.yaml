@@ -1,3 +1,4 @@
+# Dropped constant across all captures: amp = ZTAmplifiers_LunchboxJr (already in display_name).
 manifest_version: 1
 id: nam_zt_lunchbox_jr_a2
 display_name: Lunchbox Jr
@@ -18,10 +19,10 @@ parameters:
 captures:
 - values:
     voicing: clean
-  file: captures/c5d64653c354c87f_a2.nam
+  file: captures/ztamplifiers_lunchboxjr_clean_a2.nam
 - values:
     voicing: crunch
-  file: captures/f9f982b2dbca7610_a2.nam
+  file: captures/ztamplifiers_lunchboxjr_crunch_a2.nam
 - values:
     voicing: od
-  file: captures/37583a85e325bd13_a2.nam
+  file: captures/ztamplifiers_lunchboxjr_od_a2.nam

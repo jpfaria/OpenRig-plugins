@@ -1,3 +1,6 @@
+# Dropped constant across all captures: amp = Dover DA-50.
+# The only varying factor is the front-end boost: bypassed vs. a
+# Horizon Devices Tokyo Drive overdrive in front of the amp.
 manifest_version: 1
 id: nam_dover_da50_mesa_a2
 display_name: DA-50 + Mesa 4u{00d7}12
@@ -12,12 +15,12 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - clean
-  - boosted
+  - "off"
+  - tokyo_drive
 captures:
 - values:
-    boost: clean
-  file: captures/d0knx11gq2_a2.nam
+    boost: "off"
+  file: captures/dover_da50_a2.nam
 - values:
-    boost: boosted
-  file: captures/prpcl4lu42a_a2.nam
+    boost: tokyo_drive
+  file: captures/dover_da50_tokyo_drive_a2.nam

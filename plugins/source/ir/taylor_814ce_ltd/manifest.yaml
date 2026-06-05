@@ -1,3 +1,4 @@
+# dropped constant across all captures: 48000 (sample rate, not a control)
 manifest_version: 1
 id: ir_taylor_814ce_ltd
 display_name: 814ce LTD

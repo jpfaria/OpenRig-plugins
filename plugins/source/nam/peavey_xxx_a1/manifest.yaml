@@ -7,17 +7,18 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Dropped constants (identical across all captures): peavey, xxx, ch2, kt_77
 parameters:
 - name: boost
   display_name: Boost
   values:
-  - b_higain
+  - unboosted
   - weeping_chaos
   - tall_font
-  - os2
+  - os_2
 captures:
 - values:
-    boost: b_higain
+    boost: unboosted
   file: captures/12_peavey_xxx_ch2_kt_77_unboosted_b_higain.nam
 - values:
     boost: weeping_chaos
@@ -26,5 +27,5 @@ captures:
     boost: tall_font
   file: captures/20_peavey_xxx_ch2_kt_77_tall_font_d_fuzz.nam
 - values:
-    boost: os2
+    boost: os_2
   file: captures/31_peavey_xxx_ch2_kt_77_os_2_distortion.nam

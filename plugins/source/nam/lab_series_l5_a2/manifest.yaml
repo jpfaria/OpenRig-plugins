@@ -1,3 +1,5 @@
+# Single capture: "B.B.King Lab Series 5 - High Input" (tone3000 id 61114).
+# No setting varies across captures, so the only axis is 'default'.
 manifest_version: 1
 id: nam_lab_series_l5_a2
 display_name: L5
@@ -9,11 +11,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/61114
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - bb_king_high
+  - default
 captures:
 - values:
-    preset: bb_king_high
-  file: captures/5gwxc50dg2t_a2.nam
+    default: default
+  file: captures/bbking_lab_series_5_high_input_a2.nam

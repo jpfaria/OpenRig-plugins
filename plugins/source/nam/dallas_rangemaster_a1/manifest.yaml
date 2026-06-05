@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): slammin, dallas, boost, c.
+# The "_main" token on the t10 files is a curator annotation, not a control axis.
 manifest_version: 1
 id: nam_dallas_rangemaster_a1
 display_name: Dallas Rangemaster

@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: jet_city_jca22h (amp model) and V-2 (volume/master).
 manifest_version: 1
 id: nam_jet_city_jca22h_a2
 display_name: Jet City - JCA22H
@@ -49,157 +50,21 @@ parameters:
   - 4
 captures:
 - values:
+    bass: 5
+    channel: 5
+    drive: 2
+    mid: 6
+    presence: 8
+    treble: 5
+  file: captures/jet_city_jca22h_cr5_b5_m6_t5_p8_d2_a2.nam
+- values:
     bass: 4
     channel: 4
     drive: 4
     mid: 5
     presence: 6
     treble: 6
-  file: captures/09jx1wsrq54p_a2.nam
-- values:
-    bass: 3
-    channel: 5
-    drive: 2
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/noz6liljdpl_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 2
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/mbd5vtkwwjq_a2.nam
-- values:
-    bass: 5
-    channel: 6
-    drive: 3
-    mid: 6
-    presence: 8
-    treble: 5
-  file: captures/abiw7xj64h_a2.nam
-- values:
-    bass: 3
-    channel: 5
-    drive: 4
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/5a7s6jrdse9_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 4
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/b1y3qkethdb_a2.nam
-- values:
-    bass: 5
-    channel: 5
-    drive: 4
-    mid: 6
-    presence: 8
-    treble: 5
-  file: captures/8e4194v28br_a2.nam
-- values:
-    bass: 3
-    channel: 5
-    drive: 3
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/wk369iewpa_a2.nam
-- values:
-    bass: 5
-    channel: 5
-    drive: 3
-    mid: 6
-    presence: 8
-    treble: 5
-  file: captures/vscvqfmfr6_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 4
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/byar1vc3rwp_a2.nam
-- values:
-    bass: 5
-    channel: 4
-    drive: 4
-    mid: 6
-    presence: 8
-    treble: 5
-  file: captures/dnmbkpwf6af_a2.nam
-- values:
-    bass: 3
-    channel: 6
-    drive: 4
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/brp2foe4xru_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 2
-    mid: 4
-    presence: 7
-    treble: 6
-  file: captures/xogyl4d3hs_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 4
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/c473dvm0hvu_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 4
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/wljfnqhi0u_a2.nam
-- values:
-    bass: 4
-    channel: 4
-    drive: 2
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/dyku0qinvrs_a2.nam
-- values:
-    bass: 4
-    channel: 4
-    drive: 2
-    mid: 4
-    presence: 7
-    treble: 6
-  file: captures/3vpbhnu77qx_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 3
-    mid: 4
-    presence: 7
-    treble: 6
-  file: captures/zltw1az5jv_a2.nam
-- values:
-    bass: 5
-    channel: 4
-    drive: 2
-    mid: 6
-    presence: 8
-    treble: 5
-  file: captures/zaqf6ubjqes_a2.nam
+  file: captures/jet_city_jca22h_cr4_b4_m5_t6_p6_d4_a2.nam
 - values:
     bass: 4
     channel: 6
@@ -207,39 +72,7 @@ captures:
     mid: 4
     presence: 7
     treble: 6
-  file: captures/1wrikamhprp_a2.nam
-- values:
-    bass: 3
-    channel: 4
-    drive: 4
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/i7giriye6ad_a2.nam
-- values:
-    bass: 4
-    channel: 4
-    drive: 4
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/qn6rrhgrqsa_a2.nam
-- values:
-    bass: 4
-    channel: 4
-    drive: 4
-    mid: 4
-    presence: 7
-    treble: 6
-  file: captures/i4473amv1jg_a2.nam
-- values:
-    bass: 3
-    channel: 6
-    drive: 2
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/9j8d9obraet_a2.nam
+  file: captures/jet_city_jca22h_cr6_b4_m4_t6_p7_d4_a2.nam
 - values:
     bass: 4
     channel: 4
@@ -247,135 +80,55 @@ captures:
     mid: 3
     presence: 5
     treble: 7
-  file: captures/1yx7e4dmh4b_a2.nam
+  file: captures/jet_city_jca22h_cr4_b4_m3_t7_p5_d3_a2.nam
 - values:
     bass: 4
     channel: 4
     drive: 2
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/eutft06mzg6_a2.nam
-- values:
-    bass: 4
-    channel: 4
-    drive: 3
     mid: 4
     presence: 7
     treble: 6
-  file: captures/9ltpgkszwgm_a2.nam
+  file: captures/jet_city_jca22h_cr4_b4_m4_t6_p7_d2_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 4
+    mid: 4
+    presence: 7
+    treble: 6
+  file: captures/jet_city_jca22h_cr5_b4_m4_t6_p7_d4_a2.nam
+- values:
+    bass: 3
+    channel: 5
+    drive: 4
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr5_b3_m6_t5_p6_d4_a2.nam
 - values:
     bass: 5
     channel: 5
-    drive: 2
-    mid: 6
-    presence: 8
-    treble: 5
-  file: captures/06c2ynlmzb8b_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 4
-    mid: 4
-    presence: 7
-    treble: 6
-  file: captures/3wzomsitd17_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 3
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/qucwnsto5l_a2.nam
-- values:
-    bass: 3
-    channel: 6
-    drive: 3
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/x3kydl04x5h_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 2
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/w339epb76sm_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 2
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/o6ib2nhsauc_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 2
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/tj119mqlw9r_a2.nam
-- values:
-    bass: 5
-    channel: 6
     drive: 4
     mid: 6
     presence: 8
     treble: 5
-  file: captures/avms9hvnfpj_a2.nam
+  file: captures/jet_city_jca22h_cr5_b5_m6_t5_p8_d4_a2.nam
 - values:
     bass: 3
-    channel: 4
+    channel: 6
     drive: 2
     mid: 6
     presence: 6
     treble: 5
-  file: captures/noywncy4rt_a2.nam
-- values:
-    bass: 3
-    channel: 4
-    drive: 3
-    mid: 6
-    presence: 6
-    treble: 5
-  file: captures/pqlq0btxtom_a2.nam
+  file: captures/jet_city_jca22h_cr6_b3_m6_t5_p6_d2_a2.nam
 - values:
     bass: 4
-    channel: 5
+    channel: 4
     drive: 3
     mid: 4
     presence: 7
     treble: 6
-  file: captures/dpy8fpt9v0c_a2.nam
-- values:
-    bass: 4
-    channel: 5
-    drive: 3
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/i3atvtva4k_a2.nam
-- values:
-    bass: 4
-    channel: 4
-    drive: 3
-    mid: 5
-    presence: 6
-    treble: 6
-  file: captures/zy2ku69ywsi_a2.nam
-- values:
-    bass: 4
-    channel: 6
-    drive: 3
-    mid: 3
-    presence: 5
-    treble: 7
-  file: captures/kz992khgraq_a2.nam
+  file: captures/jet_city_jca22h_cr4_b4_m4_t6_p7_d3_a2.nam
 - values:
     bass: 5
     channel: 4
@@ -383,23 +136,175 @@ captures:
     mid: 6
     presence: 8
     treble: 5
-  file: captures/a5c9oc8ysd7_a2.nam
+  file: captures/jet_city_jca22h_cr4_b5_m6_t5_p8_d3_a2.nam
+- values:
+    bass: 5
+    channel: 6
+    drive: 3
+    mid: 6
+    presence: 8
+    treble: 5
+  file: captures/jet_city_jca22h_cr6_b5_m6_t5_p8_d3_a2.nam
+- values:
+    bass: 5
+    channel: 6
+    drive: 4
+    mid: 6
+    presence: 8
+    treble: 5
+  file: captures/jet_city_jca22h_cr6_b5_m6_t5_p8_d4_a2.nam
 - values:
     bass: 4
     channel: 5
-    drive: 2
+    drive: 4
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr5_b4_m5_t6_p6_d4_a2.nam
+- values:
+    bass: 3
+    channel: 6
+    drive: 4
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr6_b3_m6_t5_p6_d4_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 4
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr6_b4_m3_t7_p5_d4_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 4
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr6_b4_m5_t6_p6_d4_a2.nam
+- values:
+    bass: 5
+    channel: 4
+    drive: 4
+    mid: 6
+    presence: 8
+    treble: 5
+  file: captures/jet_city_jca22h_cr4_b5_m6_t5_p8_d4_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 3
     mid: 4
     presence: 7
     treble: 6
-  file: captures/u0vt2n50snd_a2.nam
+  file: captures/jet_city_jca22h_cr5_b4_m4_t6_p7_d3_a2.nam
+- values:
+    bass: 4
+    channel: 4
+    drive: 2
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr4_b4_m3_t7_p5_d2_a2.nam
+- values:
+    bass: 4
+    channel: 4
+    drive: 2
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr4_b4_m5_t6_p6_d2_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 3
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr5_b4_m3_t7_p5_d3_a2.nam
+- values:
+    bass: 4
+    channel: 4
+    drive: 4
+    mid: 4
+    presence: 7
+    treble: 6
+  file: captures/jet_city_jca22h_cr4_b4_m4_t6_p7_d4_a2.nam
+- values:
+    bass: 3
+    channel: 4
+    drive: 4
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr4_b3_m6_t5_p6_d4_a2.nam
 - values:
     bass: 4
     channel: 6
     drive: 3
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr6_b4_m3_t7_p5_d3_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 2
     mid: 5
     presence: 6
     treble: 6
-  file: captures/zbam8yoo45_a2.nam
+  file: captures/jet_city_jca22h_cr5_b4_m5_t6_p6_d2_a2.nam
+- values:
+    bass: 3
+    channel: 4
+    drive: 2
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr4_b3_m6_t5_p6_d2_a2.nam
+- values:
+    bass: 3
+    channel: 5
+    drive: 2
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr5_b3_m6_t5_p6_d2_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 2
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr6_b4_m3_t7_p5_d2_a2.nam
+- values:
+    bass: 3
+    channel: 4
+    drive: 3
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr4_b3_m6_t5_p6_d3_a2.nam
+- values:
+    bass: 4
+    channel: 4
+    drive: 4
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr4_b4_m3_t7_p5_d4_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 3
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr5_b4_m5_t6_p6_d3_a2.nam
 - values:
     bass: 5
     channel: 6
@@ -407,4 +312,100 @@ captures:
     mid: 6
     presence: 8
     treble: 5
-  file: captures/tdprs45cj0o_a2.nam
+  file: captures/jet_city_jca22h_cr6_b5_m6_t5_p8_d2_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 2
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr6_b4_m5_t6_p6_d2_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 2
+    mid: 4
+    presence: 7
+    treble: 6
+  file: captures/jet_city_jca22h_cr5_b4_m4_t6_p7_d2_a2.nam
+- values:
+    bass: 5
+    channel: 5
+    drive: 3
+    mid: 6
+    presence: 8
+    treble: 5
+  file: captures/jet_city_jca22h_cr5_b5_m6_t5_p8_d3_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 2
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr5_b4_m3_t7_p5_d2_a2.nam
+- values:
+    bass: 3
+    channel: 5
+    drive: 3
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr5_b3_m6_t5_p6_d3_a2.nam
+- values:
+    bass: 4
+    channel: 5
+    drive: 4
+    mid: 3
+    presence: 5
+    treble: 7
+  file: captures/jet_city_jca22h_cr5_b4_m3_t7_p5_d4_a2.nam
+- values:
+    bass: 3
+    channel: 6
+    drive: 3
+    mid: 6
+    presence: 6
+    treble: 5
+  file: captures/jet_city_jca22h_cr6_b3_m6_t5_p6_d3_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 2
+    mid: 4
+    presence: 7
+    treble: 6
+  file: captures/jet_city_jca22h_cr6_b4_m4_t6_p7_d2_a2.nam
+- values:
+    bass: 5
+    channel: 4
+    drive: 2
+    mid: 6
+    presence: 8
+    treble: 5
+  file: captures/jet_city_jca22h_cr4_b5_m6_t5_p8_d2_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 3
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr6_b4_m5_t6_p6_d3_a2.nam
+- values:
+    bass: 4
+    channel: 6
+    drive: 3
+    mid: 4
+    presence: 7
+    treble: 6
+  file: captures/jet_city_jca22h_cr6_b4_m4_t6_p7_d3_a2.nam
+- values:
+    bass: 4
+    channel: 4
+    drive: 3
+    mid: 5
+    presence: 6
+    treble: 6
+  file: captures/jet_city_jca22h_cr4_b4_m5_t6_p6_d3_a2.nam

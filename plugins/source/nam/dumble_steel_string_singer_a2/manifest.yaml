@@ -1,3 +1,4 @@
+# Dropped constant across all captures: amp identity "Dumble Steel SS" (Dumble Steel String Singer).
 manifest_version: 1
 id: nam_dumble_steel_string_singer_a2
 display_name: Steel String Singer
@@ -24,12 +25,12 @@ captures:
 - values:
     channel: clean
     variant: default
-  file: captures/mgcozwq3yg_a2.nam
+  file: captures/dumble_steel_ss_clean_a2.nam
 - values:
     channel: drive
     variant: 1
-  file: captures/zo4h7fmfjcn_a2.nam
+  file: captures/dumble_steel_ss_drive_1_a2.nam
 - values:
     channel: drive
     variant: 2
-  file: captures/ofart7ekzt_a2.nam
+  file: captures/dumble_steel_ss_drive_2_a2.nam

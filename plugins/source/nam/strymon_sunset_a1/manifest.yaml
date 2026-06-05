@@ -1,3 +1,4 @@
+# Single capture; dropped constant token: 1000_epochs (training epochs, not a control)
 manifest_version: 1
 id: nam_strymon_sunset_a1
 display_name: Strymon Sunset
@@ -7,11 +8,11 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: default
+  display_name: Default
   values:
-  - strymon_sunset_1000_epochs
+  - default
 captures:
 - values:
-    tone: strymon_sunset_1000_epochs
+    default: default
   file: captures/strymon_sunset_1000_epochs.nam

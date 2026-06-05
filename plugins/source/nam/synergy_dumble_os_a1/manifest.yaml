@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): os (Overdrive Special module), el34ab (EL34 power tubes, class AB), 19_4
 manifest_version: 1
 id: nam_synergy_dumble_os_a1
 display_name: Dumble OS Module

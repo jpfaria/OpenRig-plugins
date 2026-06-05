@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): vol=12.0
 manifest_version: 1
 id: nam_blues_overdrive_bd_2_a2
 display_name: Blues Driver BD-2
@@ -30,84 +31,84 @@ captures:
 - values:
     gain: 5.0
     tone: 9.0
-  file: captures/sasjj8flui9_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain500_a2.nam
 - values:
     gain: 7.0
     tone: 9.0
-  file: captures/ivtta0yh0ms_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain700_a2.nam
 - values:
     gain: 10.3
     tone: 9.0
-  file: captures/gi8koijelp4_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain1030_a2.nam
 - values:
     gain: 9.0
     tone: 9.0
-  file: captures/t42zwlsrqb_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain900_a2.nam
 - values:
     gain: 7.0
     tone: 12.0
-  file: captures/3w6lsko1yzr_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain700_a2.nam
 - values:
     gain: 9.0
     tone: 1.3
-  file: captures/h7tq0kqtfhm_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain900_a2.nam
 - values:
     gain: 12.0
     tone: 1.3
-  file: captures/eooxa85w6jt_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain1200_a2.nam
 - values:
     gain: 5.0
     tone: 1.3
-  file: captures/q1ksad4pca_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain500_a2.nam
 - values:
     gain: 12.0
     tone: 12.0
-  file: captures/29u8nxf5u8e_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain1200_a2.nam
 - values:
     gain: 10.3
     tone: 1.3
-  file: captures/93b010klgea_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain1030_a2.nam
 - values:
     gain: 1.3
     tone: 1.3
-  file: captures/wbwmvyqx1s_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain130_a2.nam
 - values:
     gain: 9.0
     tone: 12.0
-  file: captures/8k5rdji8j9q_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain900_a2.nam
 - values:
     gain: 7.0
     tone: 1.3
-  file: captures/5764opcp72q_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain700_a2.nam
 - values:
     gain: 3.0
     tone: 9.0
-  file: captures/xi940ww97d_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain300_a2.nam
 - values:
     gain: 3.0
     tone: 12.0
-  file: captures/vcwpzx3wmdj_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain300_a2.nam
 - values:
     gain: 3.0
     tone: 1.3
-  file: captures/fjh7wxh854s_a2.nam
+  file: captures/blues_driver_bd_2_tone130_gain300_a2.nam
 - values:
     gain: 5.0
     tone: 12.0
-  file: captures/c7jnez0qjau_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain500_a2.nam
 - values:
     gain: 10.3
     tone: 12.0
-  file: captures/6e1ld0wisnr_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain1030_a2.nam
 - values:
     gain: 1.3
     tone: 9.0
-  file: captures/5e7e1hrh2w_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain130_a2.nam
 - values:
     gain: 12.0
     tone: 9.0
-  file: captures/kkc49g9ofr_a2.nam
+  file: captures/blues_driver_bd_2_tone900_gain1200_a2.nam
 - values:
     gain: 1.3
     tone: 12.0
-  file: captures/3kiysefs5dc_a2.nam
+  file: captures/blues_driver_bd_2_tone1200_gain130_a2.nam

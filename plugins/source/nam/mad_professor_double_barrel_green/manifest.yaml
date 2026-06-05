@@ -8,7 +8,12 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
-parameters: []
+# Single capture (MS_DoubleBarrel); no varying controls -> default axis.
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
-  file: captures/gpkrkuhz11t.nam
+- values:
+    default: default
+  file: captures/ms_double_barrel.nam

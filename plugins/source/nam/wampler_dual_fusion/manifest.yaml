@@ -1,3 +1,4 @@
+# Single capture "Dual Fusion" (tone3000 id 2285) — no per-control variation; one default axis.
 manifest_version: 1
 id: nam_wampler_dual_fusion
 display_name: Wampler Dual Fusion
@@ -8,7 +9,11 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
-  file: captures/9c6ace21ce666084.nam
+- values:
+    default: default
+  file: captures/dual_fusion.nam

@@ -10,23 +10,23 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: channel
+  display_name: Channel
   values:
   - clean
-  - overdrive_2
-  - overdrive_1
   - crunch
+  - overdrive_1
+  - overdrive_2
 captures:
 - values:
-    preset: clean
+    channel: clean
   file: captures/engl_powerball_clean.nam
 - values:
-    preset: overdrive_2
-  file: captures/engl_powerball_overdrive_2.nam
+    channel: crunch
+  file: captures/engl_powerball_crunch.nam
 - values:
-    preset: overdrive_1
+    channel: overdrive_1
   file: captures/engl_powerball_overdrive_1.nam
 - values:
-    preset: crunch
-  file: captures/engl_powerball_crunch.nam
+    channel: overdrive_2
+  file: captures/engl_powerball_overdrive_2.nam

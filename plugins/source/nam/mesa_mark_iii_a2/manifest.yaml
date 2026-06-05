@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: "MARK III" (amp model).
 manifest_version: 1
 id: nam_mesa_mark_iii_a2
 display_name: Mark III
@@ -23,22 +24,22 @@ parameters:
 captures:
 - values:
     voicing: scream_lead
-  file: captures/vpwdqtjugx_a2.nam
+  file: captures/mark_iii_scream_lead_a2.nam
 - values:
     voicing: lead
-  file: captures/kkgsenwa6en_a2.nam
+  file: captures/mark_iii_lead_a2.nam
 - values:
     voicing: jp_hi_gain
-  file: captures/fmhsr4plffo_a2.nam
+  file: captures/mark_iii_jp_hi_gain_a2.nam
 - values:
     voicing: old_school_rhythm
-  file: captures/702lxqeqsrc_a2.nam
+  file: captures/mark_iii_old_school_rhy_a2.nam
 - values:
     voicing: crunch
-  file: captures/hi29g1hvu0t_a2.nam
+  file: captures/mark_iii_crunch_a2.nam
 - values:
     voicing: monorhythmia
-  file: captures/kcms6ypitgh_a2.nam
+  file: captures/mark_iii_monorhythmia_a2.nam
 - values:
     voicing: clean
-  file: captures/5v406cnlrzv_a2.nam
+  file: captures/mark_iii_clean_a2.nam

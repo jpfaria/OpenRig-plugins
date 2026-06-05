@@ -1,3 +1,4 @@
+# dropped constants: brand=maestro, model=fz_m (FZ-1M)
 manifest_version: 1
 id: nam_maestro_fuzz_tone_fz_1_a1
 display_name: Maestro Fuzz-Tone FZ-1

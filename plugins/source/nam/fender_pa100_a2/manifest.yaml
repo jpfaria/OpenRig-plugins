@@ -9,12 +9,13 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/30581
+# Single capture: Fender PA100, clean channel, 700 epochs (training metadata, dropped).
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
-  - clean
+  - default
 captures:
 - values:
-    model: clean
-  file: captures/mjgpr67aa6l_a2.nam
+    default: default
+  file: captures/fender_pa100_clean_700epochs_a2.nam

@@ -1,3 +1,4 @@
+# Single capture: c50 clean channel, controls at noon. Dropped constants: c50 (amp model), clean (channel), noon (knob position).
 manifest_version: 1
 id: nam_peavey_classic_50_a1
 display_name: Classic 50
@@ -8,11 +9,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - clean_noon
+  - default
 captures:
 - values:
-    preset: clean_noon
+    default: default
   file: captures/c50_clean_noon.nam

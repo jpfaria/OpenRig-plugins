@@ -1,3 +1,4 @@
+# Dropped constant tokens: tone=5 (T5), level/volume=10 (V10) — identical in every capture
 manifest_version: 1
 id: nam_boss_ds1_a2
 display_name: DS-1 Distortion
@@ -26,35 +27,35 @@ parameters:
   - 10
 captures:
 - values:
-    dist: 6
-  file: captures/ziwfyyn2smb_a2.nam
-- values:
-    dist: 9
-  file: captures/zv8azdkej87_a2.nam
-- values:
-    dist: 3
-  file: captures/wvzntsqoff_a2.nam
-- values:
-    dist: 4
-  file: captures/otamxq1pm8m_a2.nam
-- values:
-    dist: 10
-  file: captures/xyzrujia2g_a2.nam
-- values:
-    dist: 8
-  file: captures/3e7w4q4yasi_a2.nam
+    dist: 0
+  file: captures/boss_ds1_t5_v10_g0_a2.nam
 - values:
     dist: 1
-  file: captures/at9bz0k2mi4_a2.nam
-- values:
-    dist: 7
-  file: captures/77y64gdblhn_a2.nam
-- values:
-    dist: 0
-  file: captures/jp8dktp1hm9_a2.nam
-- values:
-    dist: 5
-  file: captures/gnpkd7m2fhq_a2.nam
+  file: captures/boss_ds1_t5_v10_g1_a2.nam
 - values:
     dist: 2
-  file: captures/1wajk42hssth_a2.nam
+  file: captures/boss_ds1_t5_v10_g2_a2.nam
+- values:
+    dist: 3
+  file: captures/boss_ds1_t5_v10_g3_a2.nam
+- values:
+    dist: 4
+  file: captures/boss_ds1_t5_v10_g4_a2.nam
+- values:
+    dist: 5
+  file: captures/boss_ds1_t5_v10_g5_a2.nam
+- values:
+    dist: 6
+  file: captures/boss_ds1_t5_v10_g6_a2.nam
+- values:
+    dist: 7
+  file: captures/boss_ds1_t5_v10_g7_a2.nam
+- values:
+    dist: 8
+  file: captures/boss_ds1_t5_v10_g8_a2.nam
+- values:
+    dist: 9
+  file: captures/boss_ds1_t5_v10_g9_a2.nam
+- values:
+    dist: 10
+  file: captures/boss_ds1_t5_v10_g10_a2.nam

@@ -8,7 +8,12 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
-parameters: []
+# Single capture (tone3000 model name "Greer Lightspeed"); no varying controls.
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
-  file: captures/edotgneazi7.nam
+- values:
+    default: default
+  file: captures/greer_lightspeed.nam

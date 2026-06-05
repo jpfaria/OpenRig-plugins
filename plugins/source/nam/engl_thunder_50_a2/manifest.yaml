@@ -1,3 +1,4 @@
+# Single capture. Fixed settings (constants): channel lead7, gain 3, bass 5, mid 5, treble 5, FX loop out.
 manifest_version: 1
 id: nam_engl_thunder_50_a2
 display_name: Thunder 50
@@ -10,11 +11,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64137
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
-  - lead
+  - default
 captures:
 - values:
-    model: lead
-  file: captures/4898gc7rxlz_a2.nam
+    default: default
+  file: captures/engl_thunder_50_head_fx_loop_out_lead7_gain3_b5_m5_t5_a2.nam

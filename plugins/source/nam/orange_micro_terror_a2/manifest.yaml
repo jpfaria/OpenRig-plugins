@@ -9,6 +9,8 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/68313
+# Boosted captures use a DS-1 with constant Tone 11 / Level 10 (T11L10);
+# only the distortion knob varies (D1 / D10), encoded in the boost selector.
 parameters:
 - name: volume
   display_name: Volume
@@ -36,67 +38,67 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - off
+  - none
   - t11l10d1
   - t11l10d10
 captures:
 - values:
-    boost: off
+    boost: none
     gain: 12
     tone: 12
     volume: 9
-  file: captures/hkgp11nj73f_a2.nam
+  file: captures/v9t12g12_a2.nam
 - values:
     boost: t11l10d1
     gain: 11
     tone: 12
     volume: 2
-  file: captures/rfc41knshge_a2.nam
+  file: captures/v2t12g11_ds1_t11l10d1_a2.nam
 - values:
     boost: t11l10d1
     gain: 1
     tone: 11
     volume: 12
-  file: captures/6dl72ruskhc_a2.nam
+  file: captures/v12t11g1_ds1_t11l10d1_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 3
     tone: 12
     volume: 12
-  file: captures/zncrmbvwfna_a2.nam
+  file: captures/v12t12g3_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 10
     tone: 12
     volume: 3
-  file: captures/3cli48b7e5v_a2.nam
+  file: captures/v3t12g10_a2.nam
 - values:
     boost: t11l10d10
     gain: 11
     tone: 12
     volume: 12
-  file: captures/ns9zawns0r_a2.nam
+  file: captures/v12t12g11_ds1_t11l10d10_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 1
     tone: 11
     volume: 12
-  file: captures/0p5clzyfck5g_a2.nam
+  file: captures/v12t11g1_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 11
     tone: 11
     volume: 12
-  file: captures/26ibclalm7l_a2.nam
+  file: captures/v12t11g11_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 11
     tone: 12
     volume: 12
-  file: captures/bnvq2aoz35_a2.nam
+  file: captures/v12t12g11_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 9
     tone: 1
     volume: 5
-  file: captures/hmylofk1ru5_a2.nam
+  file: captures/v5t1g9_a2.nam

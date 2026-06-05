@@ -9,6 +9,10 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/57410
+# Captures decoded from tone3000 model names (tone 57410). Four discrete
+# selectors: channel (Ch 1/2/3), voicing (the channel mode), boost (the drive
+# pedal in front, "none" when absent), and mode (the gain/tone variant). All are
+# selector switches, not swept knobs, so every axis is an enum.
 parameters:
 - name: channel
   display_name: Channel
@@ -16,192 +20,260 @@ parameters:
   - ch1
   - ch2
   - ch3
-- name: tone
-  display_name: Tone
+- name: voicing
+  display_name: Voicing
   values:
-  - clean_cln
-  - fat_cln_sc
-  - tweed_lg
-  - tweed_eob
-  - tweed_eob_sc
-  - mk_i_lg
-  - mk_i_mg
-  - mk_i_hg
-  - mk_i_sd1_hg
-  - mk_i_808_hg
-  - mk_i_ts9_hg
-  - cru_lg
-  - cru_mg
-  - cru_eob
-  - edge_lg
-  - edge_mg
-  - edge_eob
-  - ext_hg_bal
-  - ext_hg_mids
-  - ext_hg_scoop
-  - ext_sd1_hg
-  - ext_808_hg
-  - ext_ts9_hg
-  - ext_black_metal_i
-  - ext_black_metal_ii
-  - mk_iic_hg_bal
-  - mk_iic_hg_mids
-  - mk_iic_hg_scoop
-  - mk_iic_sd1_hg
-  - mk_iic_808_hg
-  - mk_iic_ts9_hg
-  - mk_iv_hg_bal
-  - mk_iv_hg_mids
-  - mk_iv_hg_scoop
-  - mk_iv_sd1_hg
-  - mk_iv_808_hg
-  - mk_iv_ts9_hg
+  - clean
+  - fat
+  - tweed
+  - mk_i
+  - cru
+  - edge
+  - mk_iic
+  - mk_iv
+  - ext
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - sd1
+  - "808"
+  - ts9
+- name: mode
+  display_name: Mode
+  values:
+  - cln
+  - cln_sc
+  - lg
+  - mg
+  - hg
+  - hg_bal
+  - hg_mids
+  - hg_scoop
+  - eob
+  - eob_sc
+  - black_metal_i
+  - black_metal_ii
 captures:
 - values:
-    channel: ch3
-    tone: ext_sd1_hg
-  file: captures/7r7rb54tzxe_a2.nam
-- values:
-    channel: ch3
-    tone: ext_808_hg
-  file: captures/ag21gt3ufhv_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iic_hg_scoop
-  file: captures/zo3ozmbi94g_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iv_808_hg
-  file: captures/wd8vx9zvnb_a2.nam
-- values:
-    channel: ch3
-    tone: ext_black_metal_ii
-  file: captures/pnopzpjfpca_a2.nam
-- values:
-    channel: ch3
-    tone: ext_hg_bal
-  file: captures/cs3abf6393_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iv_hg_mids
-  file: captures/gfd04kv5tx5_a2.nam
-- values:
-    channel: ch2
-    tone: mk_i_ts9_hg
-  file: captures/o3wnhu7bsso_a2.nam
-- values:
-    channel: ch3
-    tone: ext_hg_mids
-  file: captures/01tzca3uon8h_a2.nam
-- values:
-    channel: ch3
-    tone: ext_ts9_hg
-  file: captures/rjekfxaqz9_a2.nam
-- values:
-    channel: ch2
-    tone: edge_lg
-  file: captures/5eb7ionnf3h_a2.nam
+    channel: ch1
+    voicing: clean
+    boost: none
+    mode: cln
+  file: captures/mark_v_ch1_clean_cln_a2.nam
 - values:
     channel: ch1
-    tone: tweed_lg
-  file: captures/0u168jjmlbx_a2.nam
-- values:
-    channel: ch3
-    tone: ext_hg_scoop
-  file: captures/j2ue9q8clx_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iv_hg_scoop
-  file: captures/2simgwrg5uu_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iv_hg_bal
-  file: captures/etosdcqrzsv_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iic_sd1_hg
-  file: captures/vg74ssh8wkj_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iic_ts9_hg
-  file: captures/u4hjjva5jll_a2.nam
-- values:
-    channel: ch2
-    tone: mk_i_hg
-  file: captures/zqlz6tak6c_a2.nam
-- values:
-    channel: ch2
-    tone: mk_i_sd1_hg
-  file: captures/kblu9eovund_a2.nam
-- values:
-    channel: ch2
-    tone: cru_eob
-  file: captures/r9czr6mxpq_a2.nam
+    voicing: fat
+    boost: none
+    mode: cln_sc
+  file: captures/mark_v_ch1_fat_cln_sc_a2.nam
 - values:
     channel: ch1
-    tone: tweed_eob
-  file: captures/fgd97lga51u_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iv_sd1_hg
-  file: captures/5ajt3ql7zwk_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iic_hg_mids
-  file: captures/nqju0z5oll_a2.nam
-- values:
-    channel: ch2
-    tone: mk_i_mg
-  file: captures/y5phhi7hr3_a2.nam
-- values:
-    channel: ch2
-    tone: cru_mg
-  file: captures/vncr9f8vgvt_a2.nam
-- values:
-    channel: ch2
-    tone: edge_mg
-  file: captures/4w2isavhncd_a2.nam
+    voicing: tweed
+    boost: none
+    mode: lg
+  file: captures/mark_v_ch1_tweed_lg_a2.nam
 - values:
     channel: ch1
-    tone: fat_cln_sc
-  file: captures/3nl29rma711_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iic_hg_bal
-  file: captures/2zhorj52gy2_a2.nam
-- values:
-    channel: ch2
-    tone: mk_i_lg
-  file: captures/u20vo2pm69b_a2.nam
-- values:
-    channel: ch2
-    tone: cru_lg
-  file: captures/tp1vvsus78h_a2.nam
+    voicing: tweed
+    boost: none
+    mode: eob
+  file: captures/mark_v_ch1_tweed_eob_a2.nam
 - values:
     channel: ch1
-    tone: clean_cln
-  file: captures/63xeh0k9fzc_a2.nam
-- values:
-    channel: ch3
-    tone: ext_black_metal_i
-  file: captures/mjcgmj9p2ko_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iv_ts9_hg
-  file: captures/bn610q6knfw_a2.nam
+    voicing: tweed
+    boost: none
+    mode: eob_sc
+  file: captures/mark_v_ch1_tweed_eob_sc_a2.nam
 - values:
     channel: ch2
-    tone: edge_eob
-  file: captures/29mfudh2hna_a2.nam
-- values:
-    channel: ch3
-    tone: mk_iic_808_hg
-  file: captures/nn6ukyvmqx_a2.nam
+    voicing: mk_i
+    boost: none
+    mode: lg
+  file: captures/mark_v_ch2_mk_i_lg_a2.nam
 - values:
     channel: ch2
-    tone: mk_i_808_hg
-  file: captures/771dchjriv5_a2.nam
+    voicing: mk_i
+    boost: none
+    mode: mg
+  file: captures/mark_v_ch2_mk_i_mg_a2.nam
 - values:
-    channel: ch1
-    tone: tweed_eob_sc
-  file: captures/cg3r97oew1s_a2.nam
+    channel: ch2
+    voicing: mk_i
+    boost: none
+    mode: hg
+  file: captures/mark_v_ch2_mk_i_hg_a2.nam
+- values:
+    channel: ch2
+    voicing: mk_i
+    boost: sd1
+    mode: hg
+  file: captures/mark_v_ch2_mk_i_sd1_hg_a2.nam
+- values:
+    channel: ch2
+    voicing: mk_i
+    boost: "808"
+    mode: hg
+  file: captures/mark_v_ch2_mk_i_808_hg_a2.nam
+- values:
+    channel: ch2
+    voicing: mk_i
+    boost: ts9
+    mode: hg
+  file: captures/mark_v_ch2_mk_i_ts9_hg_a2.nam
+- values:
+    channel: ch2
+    voicing: cru
+    boost: none
+    mode: lg
+  file: captures/mark_v_ch2_cru_lg_a2.nam
+- values:
+    channel: ch2
+    voicing: cru
+    boost: none
+    mode: mg
+  file: captures/mark_v_ch2_cru_mg_a2.nam
+- values:
+    channel: ch2
+    voicing: cru
+    boost: none
+    mode: eob
+  file: captures/mark_v_ch2_cru_eob_a2.nam
+- values:
+    channel: ch2
+    voicing: edge
+    boost: none
+    mode: lg
+  file: captures/mark_v_ch2_edge_lg_a2.nam
+- values:
+    channel: ch2
+    voicing: edge
+    boost: none
+    mode: mg
+  file: captures/mark_v_ch2_edge_mg_a2.nam
+- values:
+    channel: ch2
+    voicing: edge
+    boost: none
+    mode: eob
+  file: captures/mark_v_ch2_edge_eob_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iic
+    boost: none
+    mode: hg_bal
+  file: captures/mark_v_ch3_mk_iic_hg_bal_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iic
+    boost: none
+    mode: hg_mids
+  file: captures/mark_v_ch3_mk_iic_hg_mids_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iic
+    boost: none
+    mode: hg_scoop
+  file: captures/mark_v_ch3_mk_iic_hg_scoop_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iic
+    boost: sd1
+    mode: hg
+  file: captures/mark_v_ch3_mk_iic_sd1_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iic
+    boost: "808"
+    mode: hg
+  file: captures/mark_v_ch3_mk_iic_808_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iic
+    boost: ts9
+    mode: hg
+  file: captures/mark_v_ch3_mk_iic_ts9_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iv
+    boost: none
+    mode: hg_bal
+  file: captures/mark_v_ch3_mk_iv_hg_bal_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iv
+    boost: none
+    mode: hg_mids
+  file: captures/mark_v_ch3_mk_iv_hg_mids_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iv
+    boost: none
+    mode: hg_scoop
+  file: captures/mark_v_ch3_mk_iv_hg_scoop_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iv
+    boost: sd1
+    mode: hg
+  file: captures/mark_v_ch3_mk_iv_sd1_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iv
+    boost: "808"
+    mode: hg
+  file: captures/mark_v_ch3_mk_iv_808_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: mk_iv
+    boost: ts9
+    mode: hg
+  file: captures/mark_v_ch3_mk_iv_ts9_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: none
+    mode: hg_bal
+  file: captures/mark_v_ch3_ext_hg_bal_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: none
+    mode: hg_mids
+  file: captures/mark_v_ch3_ext_hg_mids_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: none
+    mode: hg_scoop
+  file: captures/mark_v_ch3_ext_hg_scoop_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: sd1
+    mode: hg
+  file: captures/mark_v_ch3_ext_sd1_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: "808"
+    mode: hg
+  file: captures/mark_v_ch3_ext_808_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: ts9
+    mode: hg
+  file: captures/mark_v_ch3_ext_ts9_hg_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: none
+    mode: black_metal_i
+  file: captures/mark_v_ch3_ext_black_metal_i_a2.nam
+- values:
+    channel: ch3
+    voicing: ext
+    boost: none
+    mode: black_metal_ii
+  file: captures/mark_v_ch3_ext_black_metal_ii_a2.nam

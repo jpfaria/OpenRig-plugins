@@ -1,3 +1,4 @@
+# Dropped constant across all captures: da15h (Dark Terror 15H model identifier).
 manifest_version: 1
 id: nam_orange_dark_terror_a2
 display_name: Dark Terror
@@ -32,7 +33,6 @@ parameters:
   - 5
   - 6
   - 7
-  - 5.3
 - name: mode
   display_name: Mode
   values:
@@ -40,86 +40,86 @@ parameters:
   - od
 captures:
 - values:
+    volume: 6
+    shape: 6
     gain: 6
     mode: od
-    shape: 6
-    volume: 6
-  file: captures/3r77bot039d_a2.nam
+  file: captures/da15h_v6s6g6_od_a2.nam
 - values:
+    volume: 4
+    shape: 6
     gain: 7
     mode: od
-    shape: 6
-    volume: 4
-  file: captures/ukadxxqhxnf_a2.nam
+  file: captures/da15h_v4s6g7_od_a2.nam
 - values:
+    volume: 4
+    shape: 6
     gain: 7
     mode: clean
-    shape: 6
-    volume: 4
-  file: captures/6dos043tmg_a2.nam
+  file: captures/da15h_v4s6g7_a2.nam
 - values:
+    volume: 6
+    shape: 6
     gain: 5
     mode: od
-    shape: 6
-    volume: 6
-  file: captures/ketziscltp_a2.nam
+  file: captures/da15h_v6s6g5_od_a2.nam
 - values:
-    gain: 3
-    mode: clean
-    shape: 8
     volume: 10
-  file: captures/7f3y95lptzc_a2.nam
-- values:
+    shape: 8
     gain: 3
     mode: clean
-    shape: 6
-    volume: 2
-  file: captures/bntjff7iheu_a2.nam
+  file: captures/da15h_v10s8g3_a2.nam
 - values:
+    volume: 2
+    shape: 6
+    gain: 3
+    mode: clean
+  file: captures/da15h_v2s6g3_a2.nam
+- values:
+    volume: 1
+    shape: 6
     gain: 7
     mode: clean
-    shape: 6
-    volume: 1
-  file: captures/35atixfravb_a2.nam
+  file: captures/da15h_v1s6g7_a2.nam
 - values:
-    gain: 5.3
+    volume: 1
+    shape: 6
+    gain: 5
     mode: clean
-    shape: 6
-    volume: 1
-  file: captures/lyyobzp6wnr_a2.nam
+  file: captures/da15h_v1s6g5_a2.nam
 - values:
+    volume: 1
+    shape: 6
     gain: 4
     mode: clean
-    shape: 6
-    volume: 1
-  file: captures/x8t644wlspn_a2.nam
+  file: captures/da15h_v1s6g4_a2.nam
 - values:
+    volume: 6
+    shape: 4
     gain: 6
     mode: od
-    shape: 4
-    volume: 6
-  file: captures/q61czgc8n1l_a2.nam
+  file: captures/da15h_v6s4g6_od_a2.nam
 - values:
+    volume: 6
+    shape: 6
     gain: 4
     mode: od
-    shape: 6
-    volume: 6
-  file: captures/qshmiozhmdq_a2.nam
+  file: captures/da15h_v6s6g4_od_a2.nam
 - values:
+    volume: 6
+    shape: 4
     gain: 5
     mode: od
-    shape: 4
-    volume: 6
-  file: captures/28zw0zfb439_a2.nam
+  file: captures/da15h_v6s4g5_od_a2.nam
 - values:
+    volume: 4
+    shape: 4
     gain: 7
     mode: od
-    shape: 4
-    volume: 4
-  file: captures/yzs4nom561_a2.nam
+  file: captures/da15h_v4s4g7_od_a2.nam
 - values:
+    volume: 4
+    shape: 4
     gain: 4
     mode: od
-    shape: 4
-    volume: 6
-  file: captures/15hbpcn960a_a2.nam
+  file: captures/da15h_v4s4g4_od_a2.nam

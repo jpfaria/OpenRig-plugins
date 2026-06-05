@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): model prefix "MXR 108 Fuzz",
+# capture-tool tag "TTSV10". Axes: volume (V knob), fuzz (F knob), buffer toggle.
 manifest_version: 1
 id: nam_mxr_classic_108_fuzz_a2
 display_name: MXR Classic 108 Fuzz
@@ -9,13 +11,13 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/31556
 parameters:
-- name: take
-  display_name: Take
+- name: volume
+  display_name: Volume
   values:
-  - a
-  - b
-- name: filter
-  display_name: Filter
+  - 8
+  - max
+- name: fuzz
+  display_name: Fuzz
   values:
   - min
   - 0
@@ -35,206 +37,206 @@ parameters:
 - name: buffer
   display_name: Buffer
   values:
-  - off
-  - on
+  - bypass
+  - buffered
 captures:
 - values:
-    buffer: off
-    filter: 4
-    take: a
-  file: captures/5miznqpn9yx_a2.nam
+    buffer: bypass
+    fuzz: 0
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f0_a2.nam
 - values:
-    buffer: off
-    filter: 11
-    take: a
-  file: captures/dwpu52na5u_a2.nam
+    buffer: bypass
+    fuzz: 2
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f2_a2.nam
 - values:
-    buffer: off
-    filter: min
-    take: a
-  file: captures/exkxi69vgwd_a2.nam
+    buffer: bypass
+    fuzz: 3
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f3_a2.nam
 - values:
-    buffer: on
-    filter: 2
-    take: a
-  file: captures/nku0ddrsgpe_a2.nam
+    buffer: bypass
+    fuzz: 4
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f4_a2.nam
 - values:
-    buffer: off
-    filter: 12
-    take: a
-  file: captures/wbfxg2laqka_a2.nam
+    buffer: bypass
+    fuzz: 5
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f5_a2.nam
 - values:
-    buffer: off
-    filter: 1
-    take: a
-  file: captures/j3t604o1qhh_a2.nam
+    buffer: bypass
+    fuzz: 6
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f6_a2.nam
 - values:
-    buffer: on
-    filter: 11
-    take: a
-  file: captures/ggt0u3zw0pc_a2.nam
+    buffer: bypass
+    fuzz: 7
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f7_a2.nam
 - values:
-    buffer: off
-    filter: 9
-    take: a
-  file: captures/s4l52vqrk1_a2.nam
+    buffer: bypass
+    fuzz: 8
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f8_a2.nam
 - values:
-    buffer: on
-    filter: 3
-    take: a
-  file: captures/y7ukgrssosf_a2.nam
+    buffer: bypass
+    fuzz: 9
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f9_a2.nam
 - values:
-    buffer: on
-    filter: 1
-    take: a
-  file: captures/htvp2ecjbmd_a2.nam
+    buffer: bypass
+    fuzz: 10
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f10_a2.nam
 - values:
-    buffer: on
-    filter: 9
-    take: a
-  file: captures/7prxa6znmlo_a2.nam
+    buffer: buffered
+    fuzz: 0
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f0_buf_a2.nam
 - values:
-    buffer: on
-    filter: min
-    take: a
-  file: captures/2omq0x3simp_a2.nam
+    buffer: buffered
+    fuzz: 2
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f2_buf_a2.nam
 - values:
-    buffer: off
-    filter: 3
-    take: a
-  file: captures/8eaaak0xbej_a2.nam
+    buffer: buffered
+    fuzz: 3
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f3_buf_a2.nam
 - values:
-    buffer: on
-    filter: 10
-    take: a
-  file: captures/29cspf7fzn_a2.nam
+    buffer: buffered
+    fuzz: 4
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f4_buf_a2.nam
 - values:
-    buffer: on
-    filter: 4
-    take: a
-  file: captures/1k6tvxubu2o_a2.nam
+    buffer: buffered
+    fuzz: 5
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f5_buf_a2.nam
 - values:
-    buffer: on
-    filter: max
-    take: a
-  file: captures/00331kfgl2b4y_a2.nam
+    buffer: buffered
+    fuzz: 6
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f6_buf_a2.nam
 - values:
-    buffer: off
-    filter: 2
-    take: a
-  file: captures/y732h4eyp8_a2.nam
+    buffer: buffered
+    fuzz: 7
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f7_buf_a2.nam
 - values:
-    buffer: off
-    filter: 10
-    take: a
-  file: captures/yv4z3wrztbq_a2.nam
+    buffer: buffered
+    fuzz: 8
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f8_buf_a2.nam
 - values:
-    buffer: on
-    filter: 12
-    take: a
-  file: captures/g4wj9gowdn_a2.nam
+    buffer: buffered
+    fuzz: 9
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f9_buf_a2.nam
 - values:
-    buffer: off
-    filter: max
-    take: a
-  file: captures/xz2vtriob5s_a2.nam
+    buffer: buffered
+    fuzz: 10
+    volume: 8
+  file: captures/mxr_108_fuzz_v8_f10_buf_a2.nam
 - values:
-    buffer: off
-    filter: 6
-    take: b
-  file: captures/elkmz0m2n2q_a2.nam
+    buffer: bypass
+    fuzz: 'min'
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_fmin_a2.nam
 - values:
-    buffer: on
-    filter: 7
-    take: b
-  file: captures/mr225mi2m3_a2.nam
+    buffer: bypass
+    fuzz: 1
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f1_a2.nam
 - values:
-    buffer: on
-    filter: 8
-    take: b
-  file: captures/f8q63yyulcr_a2.nam
+    buffer: bypass
+    fuzz: 2
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f2_a2.nam
 - values:
-    buffer: off
-    filter: 7
-    take: b
-  file: captures/0ca7p0ehc7jj_a2.nam
+    buffer: bypass
+    fuzz: 3
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f3_a2.nam
 - values:
-    buffer: on
-    filter: 0
-    take: b
-  file: captures/wkht3drbs5i_a2.nam
+    buffer: bypass
+    fuzz: 4
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f4_a2.nam
 - values:
-    buffer: on
-    filter: 10
-    take: b
-  file: captures/ghq7s6x2k8m_a2.nam
+    buffer: bypass
+    fuzz: 9
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f9_a2.nam
 - values:
-    buffer: on
-    filter: 6
-    take: b
-  file: captures/lzupsypl2ra_a2.nam
+    buffer: bypass
+    fuzz: 10
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f10_a2.nam
 - values:
-    buffer: on
-    filter: 2
-    take: b
-  file: captures/6amskl3l40t_a2.nam
+    buffer: bypass
+    fuzz: 11
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f11_a2.nam
 - values:
-    buffer: on
-    filter: 3
-    take: b
-  file: captures/j20oqsfrn4_a2.nam
+    buffer: bypass
+    fuzz: 12
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f12_a2.nam
 - values:
-    buffer: off
-    filter: 10
-    take: b
-  file: captures/k6wgwhgacfi_a2.nam
+    buffer: bypass
+    fuzz: 'max'
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_fmax_a2.nam
 - values:
-    buffer: off
-    filter: 8
-    take: b
-  file: captures/pvebbcxr2v_a2.nam
+    buffer: buffered
+    fuzz: 'min'
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_fmin_buf_a2.nam
 - values:
-    buffer: on
-    filter: 9
-    take: b
-  file: captures/n4aje83j8qq_a2.nam
+    buffer: buffered
+    fuzz: 1
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f1_buf_a2.nam
 - values:
-    buffer: on
-    filter: 5
-    take: b
-  file: captures/gif7tcnlnd8_a2.nam
+    buffer: buffered
+    fuzz: 2
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f2_buf_a2.nam
 - values:
-    buffer: off
-    filter: 5
-    take: b
-  file: captures/7fvz208fkru_a2.nam
+    buffer: buffered
+    fuzz: 3
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f3_buf_a2.nam
 - values:
-    buffer: off
-    filter: 4
-    take: b
-  file: captures/sxewxrlsiml_a2.nam
+    buffer: buffered
+    fuzz: 4
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f4_buf_a2.nam
 - values:
-    buffer: off
-    filter: 3
-    take: b
-  file: captures/gsh9pk5q9lq_a2.nam
+    buffer: buffered
+    fuzz: 9
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f9_buf_a2.nam
 - values:
-    buffer: off
-    filter: 2
-    take: b
-  file: captures/sxex7zi687_a2.nam
+    buffer: buffered
+    fuzz: 10
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f10_buf_a2.nam
 - values:
-    buffer: off
-    filter: 9
-    take: b
-  file: captures/jp5re4llagc_a2.nam
+    buffer: buffered
+    fuzz: 11
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f11_buf_a2.nam
 - values:
-    buffer: off
-    filter: 0
-    take: b
-  file: captures/swcancq0hvg_a2.nam
+    buffer: buffered
+    fuzz: 12
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_f12_buf_a2.nam
 - values:
-    buffer: on
-    filter: 4
-    take: b
-  file: captures/gx8c9cc047g_a2.nam
+    buffer: buffered
+    fuzz: 'max'
+    volume: 'max'
+  file: captures/mxr_108_fuzz_vmax_fmax_buf_a2.nam

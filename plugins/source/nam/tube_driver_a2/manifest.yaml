@@ -1,3 +1,5 @@
+# Two distinct tube-driver units captured into one plugin (no shared knob axis);
+# honest representation is a selector between the two models.
 manifest_version: 1
 id: nam_tube_driver_a2
 display_name: Tube Driver
@@ -9,15 +11,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/44767
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - tube_drive
-  - butler
+  - bk_butler
 captures:
 - values:
-    model: tube_drive
-  file: captures/e7o8wzvjgt_a2.nam
+    preset: tube_drive
+  file: captures/tube_drive_a2.nam
 - values:
-    model: butler
-  file: captures/p6tmbm1ys5f_a2.nam
+    preset: bk_butler
+  file: captures/bk_butler_tube_driver_a2.nam

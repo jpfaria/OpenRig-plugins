@@ -11,6 +11,7 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
+# Dropped constants (identical across every capture): A-A (amp setting), V-03_00 (volume held at 3).
 parameters:
 - name: drive
   display_name: Drive
@@ -27,26 +28,26 @@ parameters:
   - 12.00
 captures:
 - values: { drive: 3,  tone: 1.30  }
-  file: captures/cskqupd6tph.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_03_00_t_01_30_v_03_00.nam
 - values: { drive: 3,  tone: 10.30 }
-  file: captures/56pv2cytwlh.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_03_00_t_10_30_v_03_00.nam
 - values: { drive: 3,  tone: 12.00 }
-  file: captures/e40y30duri.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_03_00_t_12_00_v_03_00.nam
 - values: { drive: 5,  tone: 1.30  }
-  file: captures/pyd91s4w42.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_05_00_t_01_30_v_03_00.nam
 - values: { drive: 5,  tone: 10.30 }
-  file: captures/p6vdnxnk98h.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_05_00_t_10_30_v_03_00.nam
 - values: { drive: 5,  tone: 12.00 }
-  file: captures/l6ttmhdvb4.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_05_00_t_12_00_v_03_00.nam
 - values: { drive: 9,  tone: 1.30  }
-  file: captures/r3znv7ba7.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_09_00_t_01_30_v_03_00.nam
 - values: { drive: 9,  tone: 10.30 }
-  file: captures/pvy45taa56c.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_09_00_t_10_30_v_03_00.nam
 - values: { drive: 9,  tone: 12.00 }
-  file: captures/g501yx55iqo.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_09_00_t_12_00_v_03_00.nam
 - values: { drive: 12, tone: 1.30  }
-  file: captures/8hwefvjkoms.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_12_00_t_01_30_v_03_00.nam
 - values: { drive: 12, tone: 10.30 }
-  file: captures/7u4pwr9lp4w.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_12_00_t_10_30_v_03_00.nam
 - values: { drive: 12, tone: 12.00 }
-  file: captures/nbz5dtxphsd.nam
+  file: captures/green_russian_big_muff_clone_a_a_d_12_00_t_12_00_v_03_00.nam

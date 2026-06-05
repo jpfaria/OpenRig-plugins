@@ -7,6 +7,7 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Dropped constants (identical across all captures): level (v) = 7.5, high EQ (h) = 5, low EQ (l) = 6
 parameters:
 - name: blend
   display_name: Blend

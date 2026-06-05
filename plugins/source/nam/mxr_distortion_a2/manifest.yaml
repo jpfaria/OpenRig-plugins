@@ -28,74 +28,74 @@ parameters:
   - 10
 captures:
 - values:
+    output: 8
     distortion: 9
-    output: 8
-  file: captures/z9wm64fmw4r_a2.nam
+  file: captures/mxr_dist_plus_o8_d9_a2.nam
 - values:
+    output: 10
     distortion: 6
-    output: 10
-  file: captures/oohuqhet02j_a2.nam
+  file: captures/mxr_dist_plus_o10_d6_a2.nam
 - values:
-    distortion: 2
     output: 8
-  file: captures/p079osyg0nf_a2.nam
+    distortion: 2
+  file: captures/mxr_dist_plus_o8_d2_a2.nam
 - values:
+    output: 8
     distortion: 4
-    output: 8
-  file: captures/fz57lfla28_a2.nam
+  file: captures/mxr_dist_plus_o8_d4_a2.nam
 - values:
+    output: 8
     distortion: 7
-    output: 8
-  file: captures/9ym161e0zyt_a2.nam
+  file: captures/mxr_dist_plus_o8_d7_a2.nam
 - values:
+    output: 10
     distortion: 2
-    output: 10
-  file: captures/y9268mzb4ga_a2.nam
+  file: captures/mxr_dist_plus_o10_d2_a2.nam
 - values:
+    output: 10
     distortion: 8
-    output: 10
-  file: captures/4g7golvfix5_a2.nam
+  file: captures/mxr_dist_plus_o10_d8_a2.nam
 - values:
+    output: 10
     distortion: 5
-    output: 10
-  file: captures/nsm83tv312_a2.nam
+  file: captures/mxr_dist_plus_o10_d5_a2.nam
 - values:
+    output: 10
     distortion: 10
-    output: 10
-  file: captures/omn4w6xafa_a2.nam
+  file: captures/mxr_dist_plus_o10_d10_a2.nam
 - values:
-    distortion: 5
     output: 8
-  file: captures/mybpsaffkc_a2.nam
+    distortion: 5
+  file: captures/mxr_dist_plus_o8_d5_a2.nam
 - values:
+    output: 8
     distortion: 6
-    output: 8
-  file: captures/i7xzbsfoo5f_a2.nam
+  file: captures/mxr_dist_plus_o8_d6_a2.nam
 - values:
+    output: 8
     distortion: 3
-    output: 8
-  file: captures/amd6m4ex85h_a2.nam
+  file: captures/mxr_dist_plus_o8_d3_a2.nam
 - values:
+    output: 8
     distortion: 10
-    output: 8
-  file: captures/d9j0kua2tuw_a2.nam
+  file: captures/mxr_dist_plus_o8_d10_a2.nam
 - values:
+    output: 8
     distortion: 8
-    output: 8
-  file: captures/drsopxio33g_a2.nam
+  file: captures/mxr_dist_plus_o8_d8_a2.nam
 - values:
+    output: 10
     distortion: 7
-    output: 10
-  file: captures/pdothm751f_a2.nam
+  file: captures/mxr_dist_plus_o10_d7_a2.nam
 - values:
+    output: 10
     distortion: 4
-    output: 10
-  file: captures/ado5e8qjiuc_a2.nam
+  file: captures/mxr_dist_plus_o10_d4_a2.nam
 - values:
+    output: 10
     distortion: 3
-    output: 10
-  file: captures/qds1fvrj7de_a2.nam
+  file: captures/mxr_dist_plus_o10_d3_a2.nam
 - values:
+    output: 10
     distortion: 9
-    output: 10
-  file: captures/sjbkhxcdeu_a2.nam
+  file: captures/mxr_dist_plus_o10_d9_a2.nam

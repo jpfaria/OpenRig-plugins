@@ -1,3 +1,4 @@
+# Dropped constant token: "ampeg_svt" (brand/model prefix, identical in every capture)
 manifest_version: 1
 id: nam_ampeg_svt_classic_a1
 display_name: SVT Classic

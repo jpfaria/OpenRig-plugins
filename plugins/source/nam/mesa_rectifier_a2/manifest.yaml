@@ -1,3 +1,10 @@
+# Dropped constants (identical in every capture name):
+#   DI (direct input), MBDR (Mesa Boogie Dual Rectifier), MW (Modern),
+#   Red (red channel), Mdn (Modern voicing), G-7 (gain 7), Ma-2 (master 2).
+# The eq axis encodes the per-capture presence/treble/mid/bass knob bundle
+# (P-T-M-B) verbatim from the tone3000 model names; these four knobs move
+# together as fixed bundles, so they are one self-describing selector rather
+# than four independent knobs (only the listed combinations were captured).
 manifest_version: 1
 id: nam_mesa_rectifier_a2
 display_name: Rectifier
@@ -22,12 +29,12 @@ parameters:
 - name: eq
   display_name: EQ
   values:
-  - eq_a
-  - eq_b
-  - eq_c
-  - eq_d
-  - eq_e
-  - eq_f
+  - p2_t5_m4_b2
+  - p6_t0_m7_b3
+  - p3_t6_m4_b3
+  - p3_t6_m6_b3
+  - p5_t4_m5_b3
+  - p4_t4_m3_b4
 - name: loop
   display_name: FX Loop
   values:
@@ -36,111 +43,111 @@ parameters:
 captures:
 - values:
     boost: tdlx
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: 4cm
-  file: captures/vz7iubwxc5s.nam
+  file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: tmb66
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: 4cm
-  file: captures/dv2oljg7kac.nam
+  file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: od808
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: 4cm
-  file: captures/31vjap9fcg.nam
+  file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: tmb73
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: 4cm
-  file: captures/tneykc21y2d.nam
+  file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: sd1
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: 4cm
-  file: captures/6jbphrsarjg.nam
+  file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: none
-    eq: eq_b
+    eq: p6_t0_m7_b3
     loop: 4cm
-  file: captures/13ek0jd00b4c.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: eq_c
+    eq: p3_t6_m4_b3
     loop: 4cm
-  file: captures/ct6ll7bqolk.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: 4cm
-  file: captures/poknxhnksxg.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: none
-    eq: eq_d
+    eq: p3_t6_m6_b3
     loop: 4cm
-  file: captures/hwvrghlizua.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: eq_e
+    eq: p5_t4_m5_b3
     loop: 4cm
-  file: captures/jcdxppzgnkc.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: eq_f
+    eq: p4_t4_m3_b4
     loop: 4cm
-  file: captures/b1reayj9zj.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_4fb_a2.nam
 - values:
     boost: sd1
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: series
-  file: captures/ua55qyq5y9i.nam
+  file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tdlx
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: series
-  file: captures/z24aa0s9lgl.nam
+  file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: od808
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: series
-  file: captures/f190e9593yj.nam
+  file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tmb66
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: series
-  file: captures/90vvtx3os18.nam
+  file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tmb73
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: series
-  file: captures/kb2q15xm0bh.nam
+  file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: none
-    eq: eq_b
+    eq: p6_t0_m7_b3
     loop: series
-  file: captures/gvvy8ltw6ef.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_srl_a2.nam
 - values:
     boost: none
-    eq: eq_e
+    eq: p5_t4_m5_b3
     loop: series
-  file: captures/6s5favt9rya.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_srl_a2.nam
 - values:
     boost: none
-    eq: eq_a
+    eq: p2_t5_m4_b2
     loop: series
-  file: captures/d4xmhms0sqf.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: none
-    eq: eq_d
+    eq: p3_t6_m6_b3
     loop: series
-  file: captures/i8r8r3qz6sq.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_srl_a2.nam
 - values:
     boost: none
-    eq: eq_f
+    eq: p4_t4_m3_b4
     loop: series
-  file: captures/04czsdjy3h0a.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_srl_a2.nam
 - values:
     boost: none
-    eq: eq_c
+    eq: p3_t6_m4_b3
     loop: series
-  file: captures/2ya2j3wps85.nam
+  file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_srl_a2.nam

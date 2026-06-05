@@ -7,11 +7,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
   - default
 captures:
 - values:
-    preset: default
+    default: default
   file: captures/granophyre.nam

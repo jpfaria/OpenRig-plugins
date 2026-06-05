@@ -9,12 +9,13 @@ output_gain_db: 0.0000000
 type: preamp
 backend: nam
 architecture: A2
+# Single capture; constant controls: channel=clean, bass=4, mid=4, treble=6, bright=on, volume=2 (esr=0.008 is a training metric, not a control)
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - clean_bright
+  - default
 captures:
 - values:
-    preset: clean_bright
+    default: default
   file: captures/studiopreclean_b4_m4_t6_bright_v2_esr_0_008.nam

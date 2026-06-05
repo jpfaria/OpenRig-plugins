@@ -1,3 +1,4 @@
+# Single capture: "Strymon Sunset 1000 epochs" (tone3000 id 4979); no varying controls.
 manifest_version: 1
 id: nam_strymon_sunset_a2
 display_name: Strymon Sunset
@@ -9,11 +10,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/4979
 parameters:
-- name: tone
-  display_name: Tone
+- name: default
+  display_name: Default
   values:
   - default
 captures:
 - values:
-    tone: default
-  file: captures/e8d5860d6cae28fe_a2.nam
+    default: default
+  file: captures/strymon_sunset_1000_epochs_a2.nam

@@ -9,6 +9,7 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Dropped constant token (identical across all captures): 5150 (amp name).
 parameters:
 - name: gain
   display_name: Gain

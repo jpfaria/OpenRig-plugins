@@ -1,3 +1,5 @@
+# Single capture. Real name: Marshall_Lead12_Amp_G9_T8_M5_B3_48_24_Amp.
+# Constants (single fixed setting): gain 9, treble 8, mid 5, bass 3 (48/24 = sample-rate/bit-depth, not amp controls).
 manifest_version: 1
 id: nam_marshall_lead_12_a2
 display_name: Lead 12
@@ -10,11 +12,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/52034
 parameters:
-- name: gain
-  display_name: Gain
+- name: default
+  display_name: Default
   values:
-  - 9
+  - default
 captures:
 - values:
-    gain: 9
-  file: captures/msr3gc4ck4r_a2.nam
+    default: default
+  file: captures/marshall_lead12_amp_g9_t8_m5_b3_48_24_amp_a2.nam

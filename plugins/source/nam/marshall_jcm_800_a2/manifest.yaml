@@ -9,12 +9,15 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/61834
+# Single capture "2203X - B8M4.5T7P4 - P7M7".
+# Fixed settings (constant, single capture): bass 8, mid 4.5, treble 7,
+# presence 4, plus a second group presence 7 / mid 7.
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
-  - 2203x
+  - default
 captures:
 - values:
-    model: 2203x
-  file: captures/sq2xp1jky0i_a2.nam
+    default: default
+  file: captures/2203x_b8m4_5t7p4_p7m7_a2.nam

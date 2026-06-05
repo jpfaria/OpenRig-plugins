@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): mandolin, gibson (brand), wayne_benson (player)
 manifest_version: 1
 id: ir_gibson_mandolin
 display_name: Mandolin
@@ -6,22 +7,22 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: mic
+  display_name: Mic
   values:
-  - mandolin_gibson_wayne_benson_dpa_4011
-  - mandolin_gibson_wayne_benson_neumann_m147
-  - mandolin_gibson_wayne_benson_soundelux_e47
+  - dpa_4011
+  - neumann_m147
+  - soundelux_e47
 captures:
 - values:
-    voicing: mandolin_gibson_wayne_benson_dpa_4011
+    mic: dpa_4011
   file: ir/mandolin_gibson_wayne_benson_dpa_4011.wav
   output_gain_db: -28.4085312
 - values:
-    voicing: mandolin_gibson_wayne_benson_neumann_m147
+    mic: neumann_m147
   file: ir/mandolin_gibson_wayne_benson_neumann_m147.wav
   output_gain_db: -24.0834484
 - values:
-    voicing: mandolin_gibson_wayne_benson_soundelux_e47
+    mic: soundelux_e47
   file: ir/mandolin_gibson_wayne_benson_soundelux_e47.wav
   output_gain_db: -28.7240105

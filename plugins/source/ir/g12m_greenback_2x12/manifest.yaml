@@ -1,3 +1,4 @@
+# Constant across all captures (dropped from axes): mic = sm57.
 manifest_version: 1
 id: ir_g12m_greenback_2x12
 display_name: G12M Greenback 2x12

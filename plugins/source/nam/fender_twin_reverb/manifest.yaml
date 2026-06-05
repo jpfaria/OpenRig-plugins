@@ -9,6 +9,7 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Dropped constants (identical across all captures): bright (treble-bright voicing).
 parameters:
 - name: channel
   display_name: Channel

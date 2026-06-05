@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): amp = Fender '57 Custom Champ.
+# epochs token (700/1000/1300) co-varies 1:1 with voicing (training artifact, not a control) — dropped.
 manifest_version: 1
 id: nam_fender_57_champ_a2
 display_name: '''57 Custom Champ'
@@ -24,25 +26,25 @@ parameters:
 captures:
 - values:
     input: 1
-    voicing: crunch
-  file: captures/ybjuslofrqm_a2.nam
+    voicing: clean
+  file: captures/fender_57_custom_champ_clean_in1_a2.nam
 - values:
     input: 2
     voicing: clean
-  file: captures/mr1tfnzjd3o_a2.nam
-- values:
-    input: 2
-    voicing: od
-  file: captures/9afy8ick4ig_a2.nam
+  file: captures/fender_57_custom_champ_clean_in2_a2.nam
 - values:
     input: 1
-    voicing: clean
-  file: captures/keca365zk1k_a2.nam
+    voicing: crunch
+  file: captures/fender_57_custom_champ_crunch_in1_a2.nam
 - values:
     input: 2
     voicing: crunch
-  file: captures/2ocmhs1g75_a2.nam
+  file: captures/fender_57_custom_champ_crunch_in2_a2.nam
 - values:
     input: 1
     voicing: od
-  file: captures/o7mojmh639o_a2.nam
+  file: captures/fender_57_custom_champ_od_in1_a2.nam
+- values:
+    input: 2
+    voicing: od
+  file: captures/fender_57_custom_champ_od_in2_a2.nam

@@ -1,3 +1,5 @@
+# Dropped constants: brand=ElectroHarmonix, amp=MIG50. The epochs count
+# (700/1000/1300) is a training-run artifact, not an amp control.
 manifest_version: 1
 id: nam_ehx_mig50_a2
 display_name: MIG-50
@@ -18,10 +20,10 @@ parameters:
 captures:
 - values:
     voicing: clean
-  file: captures/fg2hd85wsye_a2.nam
+  file: captures/electroharmonix_mig50_clean_a2.nam
 - values:
     voicing: crunch
-  file: captures/nnnyvl1pvjl_a2.nam
+  file: captures/electroharmonix_mig50_crunch_a2.nam
 - values:
     voicing: od
-  file: captures/lsbvw4w6amk_a2.nam
+  file: captures/electroharmonix_mig50_od_a2.nam

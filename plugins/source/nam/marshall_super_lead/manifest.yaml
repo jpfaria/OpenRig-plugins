@@ -1,3 +1,5 @@
+# Single capture: "Marshall Super Lead Gain" (tone3000 id 1058, A2).
+# No setting varies across captures, so the sole axis is 'default'.
 manifest_version: 1
 id: nam_marshall_super_lead
 display_name: Super Lead
@@ -10,11 +12,11 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - gain
+  - default
 captures:
 - values:
-    preset: gain
+    default: default
   file: captures/marshall_super_lead_gain.nam

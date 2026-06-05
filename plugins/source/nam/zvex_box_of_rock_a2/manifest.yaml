@@ -1,3 +1,4 @@
+# Dropped constant across all captures: "Vol 7" (pack volume designator).
 manifest_version: 1
 id: nam_zvex_box_of_rock_a2
 display_name: ZVEX Box of Rock
@@ -17,19 +18,32 @@ parameters:
   - 5
   - 7
   - 9
+- name: tone
+  display_name: Tone
+  values:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
 captures:
 - values:
     drive: 1
-  file: captures/c7xihu3qejo_a2.nam
+    tone: 1
+  file: captures/box_of_rock_drive1_tone1_a2.nam
 - values:
     drive: 3
-  file: captures/1accwubecf_a2.nam
+    tone: 3
+  file: captures/box_of_rock_drive3_tone3_a2.nam
 - values:
     drive: 5
-  file: captures/kxq7ydw639j_a2.nam
+    tone: 5
+  file: captures/box_of_rock_drive5_tone5_a2.nam
 - values:
     drive: 7
-  file: captures/96ism27btp4_a2.nam
+    tone: 7
+  file: captures/box_of_rock_drive7_tone7_a2.nam
 - values:
     drive: 9
-  file: captures/s27b7rczyij_a2.nam
+    tone: 9
+  file: captures/box_of_rock_drive9_tone9_a2.nam

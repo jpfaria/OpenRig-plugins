@@ -8,6 +8,7 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/30435
+# Dropped constant token (identical in every capture name): SLAMMIN_DUMBLE_FORD
 parameters:
 - name: gain
   display_name: Gain
@@ -85,421 +86,421 @@ parameters:
 - name: take
   display_name: Take
   values:
-  - xs
   - s
+  - xs
 captures:
-- values:
-    gain: od
-    take: xs
-    voicing: pab_clear_drive
-  file: captures/6jqjs9yb1al_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_mick
-  file: captures/5tkxmeh5l6s_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: high_mv_allswitches
-  file: captures/4pbfk0zzbk7_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_main_gainy
-  file: captures/ctixinqlf5w_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_high_mv
-  file: captures/by35kif4iug_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: thick_logain
-  file: captures/rfmte02exjl_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_brite
-  file: captures/s0kap2nmi5l_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: high_mv_fat
-  file: captures/s3h7p2tsq7_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_sparkly
-  file: captures/dtop85lu30d_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: main
-  file: captures/eu9neznpfrg_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_thick
-  file: captures/f42fqlbkrf5_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: high_mv_scoop
-  file: captures/7o9dhfb68ws_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: vhigh_mv_higain_all
-  file: captures/4wz5vmgxfx_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_higain_alt
-  file: captures/zeiqyf5wodo_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_crunch
-  file: captures/l8wvvexnxfr_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_higain
-  file: captures/rpreyt3k9sa_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: pab_high_mv_mellow
-  file: captures/jh45dkwr2z_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: carltonish
-  file: captures/mba3imkwqp_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: ford_2
-  file: captures/z61qncya0y_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: ford_3
-  file: captures/3pt05b2hztj_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: warm
-  file: captures/pzuazyglu9n_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: crunchy_allswitches
-  file: captures/k39n4xzv1do_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: ford
-  file: captures/81jax3istxh_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_drive
-  file: captures/r0qhh8xc8el_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: treble
-  file: captures/6af3euzasje_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: main_warm
-  file: captures/yiq90b3ept_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_scoop
-  file: captures/gzc26d92d44_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: open_robben
-  file: captures/2wbrsivf05m_a2.nam
 - values:
     gain: clean
     take: s
     voicing: balanced
-  file: captures/rs9egftnudh_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: carlton_2
-  file: captures/p7medrjvis_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: ford_5
-  file: captures/qvc8ylpiem_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_bright
-  file: captures/jpbi5hqvfm_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_mids
-  file: captures/w6l24ajwb3b_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_sparkly
-  file: captures/98kyey1vvu5_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_thick
-  file: captures/8bk1flch2i5_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: bright_gainy
-  file: captures/229vakzbaog_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: bright_logain
-  file: captures/yydr1ongelc_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_crunch
-  file: captures/kaps5ste94_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: smooth
-  file: captures/hs3q25vptzk_a2.nam
+  file: captures/slammin_dumble_ford_cln_balanced_s_a2.nam
 - values:
     gain: clean
     take: s
-    voicing: pab_crunchy
-  file: captures/41ltd8ej5k_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: crunchy_allswitches_2
-  file: captures/ywpslspjfna_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_high_mv_sharp
-  file: captures/dlpl859wp6o_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: open_larry
-  file: captures/h6ry0jc42tj_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: gritty
-  file: captures/danat5kmu3s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: hermans_2
-  file: captures/azaggdbzruw_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: crunchy_mids
-  file: captures/b8bbqww77r9_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: ford_6
-  file: captures/afz3mjl39c7_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: hermans
-  file: captures/7zvok1u96yb_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_brite
-  file: captures/aqutfggzt96_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_clear_drive
-  file: captures/99bttl00n7b_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: vhigh_mv_higain_tight
-  file: captures/rrka02t9qs8_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: mick_2
-  file: captures/hgcjbgpitq9_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: smooth_2
-  file: captures/s0pdo2wijv_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_main
-  file: captures/aea5rlr9r8_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: carlosanta
-  file: captures/dmbe6avvt84_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: main
-  file: captures/9nyzmce8zlt_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: scoop
-  file: captures/66hql9svge_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: carlton_4
-  file: captures/1pc550leud_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: crunchy_allswitches_3
-  file: captures/tkn89kt7p1q_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_allswitches
-  file: captures/7kcscm84vy_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_main_gainy
-  file: captures/9237c5c5jjh_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_jazz
-  file: captures/6hxzckwaxbw_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: fordish
-  file: captures/jagquz44wqa_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_mick
-  file: captures/gpolyxdo87m_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_high_mv
-  file: captures/ydnq1651w0r_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: thick_logain
-  file: captures/ut7y2ld3w4p_a2.nam
+    voicing: carltonish
+  file: captures/slammin_dumble_ford_cln_carltonish_s_a2.nam
 - values:
     gain: clean
     take: s
     voicing: carltonish_2
-  file: captures/07efv6ivdbek_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: carlton_3
-  file: captures/r05jq7o73f_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: carlton
-  file: captures/e6mv3bfo6kq_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_fat
-  file: captures/9tfyd422l5_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: vhigh_mv_higain_all
-  file: captures/mvea2r8je9t_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_mick_2
-  file: captures/uadcj9ahbl_a2.nam
+  file: captures/slammin_dumble_ford_cln_carltonish_2_s_a2.nam
 - values:
     gain: clean
     take: s
-    voicing: klean
-  file: captures/0ilqwlp1ab09_a2.nam
+    voicing: fordish
+  file: captures/slammin_dumble_ford_cln_fordish_s_a2.nam
 - values:
-    gain: od
+    gain: clean
     take: s
-    voicing: ford_4
-  file: captures/hw938l2chxv_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: main
-  file: captures/kwh6fb8bk5i_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_higain_alt
-  file: captures/3ih5qnxgv0d_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: bluesy
-  file: captures/ccav4n8vlfk_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_higain
-  file: captures/qida30zz1vk_a2.nam
+    voicing: gritty
+  file: captures/slammin_dumble_ford_cln_gritty_s_a2.nam
 - values:
     gain: clean
     take: s
     voicing: highmv_cinnamon
-  file: captures/qy14zlrg0j_a2.nam
+  file: captures/slammin_dumble_ford_cln_highmv_cinnamon_s_a2.nam
 - values:
     gain: clean
     take: s
     voicing: highmv_locutdrive
-  file: captures/tveompv10wc_a2.nam
+  file: captures/slammin_dumble_ford_cln_highmv_locutdrive_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: klean
+  file: captures/slammin_dumble_ford_cln_klean_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: main
+  file: captures/slammin_dumble_ford_cln_main_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: main_warm
+  file: captures/slammin_dumble_ford_cln_main_warm_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: pab_crunchy
+  file: captures/slammin_dumble_ford_cln_pab_crunchy_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: scoop
+  file: captures/slammin_dumble_ford_cln_scoop_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: treble
+  file: captures/slammin_dumble_ford_cln_treble_s_a2.nam
+- values:
+    gain: clean
+    take: s
+    voicing: warm
+  file: captures/slammin_dumble_ford_cln_warm_s_a2.nam
 - values:
     gain: od
     take: s
-    voicing: pab_high_mv_mellow
-  file: captures/272a0gsb7a8_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: vhigh_mv_higain
-  file: captures/by6lllzp5b6_a2.nam
+    voicing: bluesy
+  file: captures/slammin_dumble_ford_od_bluesy_s_a2.nam
 - values:
     gain: od
     take: s
     voicing: bluesy_2
-  file: captures/zsrlkii4tjl_a2.nam
+  file: captures/slammin_dumble_ford_od_bluesy_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: bright_gainy
+  file: captures/slammin_dumble_ford_od_bright_gainy_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: bright_logain
+  file: captures/slammin_dumble_ford_od_bright_logain_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: carlosanta
+  file: captures/slammin_dumble_ford_od_carlosanta_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: carlton
+  file: captures/slammin_dumble_ford_od_carlton_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: carlton_2
+  file: captures/slammin_dumble_ford_od_carlton_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: carlton_3
+  file: captures/slammin_dumble_ford_od_carlton_3_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: carlton_4
+  file: captures/slammin_dumble_ford_od_carlton_4_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: crunchy_allswitches
+  file: captures/slammin_dumble_ford_od_crunchy_allswitches_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: crunchy_allswitches_2
+  file: captures/slammin_dumble_ford_od_crunchy_allswitches_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: crunchy_allswitches_3
+  file: captures/slammin_dumble_ford_od_crunchy_allswitches_3_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: crunchy_mids
+  file: captures/slammin_dumble_ford_od_crunchy_mids_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: ford
+  file: captures/slammin_dumble_ford_od_ford_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: ford_2
+  file: captures/slammin_dumble_ford_od_ford_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: ford_3
+  file: captures/slammin_dumble_ford_od_ford_3_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: ford_4
+  file: captures/slammin_dumble_ford_od_ford_4_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: ford_5
+  file: captures/slammin_dumble_ford_od_ford_5_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: ford_6
+  file: captures/slammin_dumble_ford_od_ford_6_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: hermans
+  file: captures/slammin_dumble_ford_od_hermans_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: hermans_2
+  file: captures/slammin_dumble_ford_od_hermans_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: high_mv_allswitches
+  file: captures/slammin_dumble_ford_od_high_mv_allswitches_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: high_mv_bright
+  file: captures/slammin_dumble_ford_od_high_mv_bright_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: high_mv_fat
+  file: captures/slammin_dumble_ford_od_high_mv_fat_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: high_mv_mids
+  file: captures/slammin_dumble_ford_od_high_mv_mids_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: high_mv_scoop
+  file: captures/slammin_dumble_ford_od_high_mv_scoop_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: main
+  file: captures/slammin_dumble_ford_od_main_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: mick_2
+  file: captures/slammin_dumble_ford_od_mick_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: open_larry
+  file: captures/slammin_dumble_ford_od_open_larry_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: open_robben
+  file: captures/slammin_dumble_ford_od_open_robben_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_brite
+  file: captures/slammin_dumble_ford_od_pab_brite_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_clear_drive
+  file: captures/slammin_dumble_ford_od_pab_clear_drive_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_crunch
+  file: captures/slammin_dumble_ford_od_pab_crunch_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_drive
+  file: captures/slammin_dumble_ford_od_pab_drive_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_higain
+  file: captures/slammin_dumble_ford_od_pab_higain_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_higain_alt
+  file: captures/slammin_dumble_ford_od_pab_higain_alt_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_high_mv
+  file: captures/slammin_dumble_ford_od_pab_high_mv_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_high_mv_mellow
+  file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_high_mv_sharp
+  file: captures/slammin_dumble_ford_od_pab_high_mv_sharp_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_jazz
+  file: captures/slammin_dumble_ford_od_pab_jazz_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_main
+  file: captures/slammin_dumble_ford_od_pab_main_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_main_gainy
+  file: captures/slammin_dumble_ford_od_pab_main_gainy_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_mick
+  file: captures/slammin_dumble_ford_od_pab_mick_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_mick_2
+  file: captures/slammin_dumble_ford_od_pab_mick_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_sparkly
+  file: captures/slammin_dumble_ford_od_pab_sparkly_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: pab_thick
+  file: captures/slammin_dumble_ford_od_pab_thick_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: smooth
+  file: captures/slammin_dumble_ford_od_smooth_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: smooth_2
+  file: captures/slammin_dumble_ford_od_smooth_2_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: thick_logain
+  file: captures/slammin_dumble_ford_od_thick_logain_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: vhigh_mv_higain
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: vhigh_mv_higain_all
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_s_a2.nam
+- values:
+    gain: od
+    take: s
+    voicing: vhigh_mv_higain_tight
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_tight_s_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: high_mv_allswitches
+  file: captures/slammin_dumble_ford_od_high_mv_allswitches_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: high_mv_fat
+  file: captures/slammin_dumble_ford_od_high_mv_fat_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: high_mv_scoop
+  file: captures/slammin_dumble_ford_od_high_mv_scoop_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: main
+  file: captures/slammin_dumble_ford_od_main_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_brite
+  file: captures/slammin_dumble_ford_od_pab_brite_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_clear_drive
+  file: captures/slammin_dumble_ford_od_pab_clear_drive_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_crunch
+  file: captures/slammin_dumble_ford_od_pab_crunch_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_higain
+  file: captures/slammin_dumble_ford_od_pab_higain_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_higain_alt
+  file: captures/slammin_dumble_ford_od_pab_higain_alt_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_high_mv
+  file: captures/slammin_dumble_ford_od_pab_high_mv_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_high_mv_mellow
+  file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_main_gainy
+  file: captures/slammin_dumble_ford_od_pab_main_gainy_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_mick
+  file: captures/slammin_dumble_ford_od_pab_mick_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_sparkly
+  file: captures/slammin_dumble_ford_od_pab_sparkly_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: pab_thick
+  file: captures/slammin_dumble_ford_od_pab_thick_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: thick_logain
+  file: captures/slammin_dumble_ford_od_thick_logain_xs_a2.nam
+- values:
+    gain: od
+    take: xs
+    voicing: vhigh_mv_higain_all
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_xs_a2.nam

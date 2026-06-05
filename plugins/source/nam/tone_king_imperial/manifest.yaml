@@ -1,3 +1,4 @@
+# Single capture (TJ-Empire-7v2, tone3000 id 190) — no varying controls; one 'default' axis.
 manifest_version: 1
 id: nam_tone_king_imperial
 display_name: Imperial
@@ -9,11 +10,11 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - tj_empire_7v2
+  - default
 captures:
 - values:
-    preset: tj_empire_7v2
+    default: default
   file: captures/tj_empire_7v2.nam

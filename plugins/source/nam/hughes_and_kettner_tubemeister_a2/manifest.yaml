@@ -1,3 +1,6 @@
+# Dropped constant across all captures: "HK40 Full Amp No Cab".
+# The "V2" tag on tone3000 only appears on the MV1 re-recordings; it tracks
+# mv=1 exactly and is not an independent control, so it is not an axis.
 manifest_version: 1
 id: nam_hughes_and_kettner_tubemeister_a2
 display_name: and TubeMeister
@@ -31,89 +34,89 @@ captures:
     channel: crunch
     mv: 3
     variant: std
-  file: captures/132bovboyev_a2.nam
+  file: captures/mv3_crunch_a2.nam
 - values:
     channel: crunch
     mv: 1
     variant: dco
-  file: captures/tf20lrp3i1l_a2.nam
+  file: captures/mv1_crunch_dco_a2.nam
 - values:
     channel: crunch
     mv: 3
     variant: dco
-  file: captures/m4ao5nydysf_a2.nam
+  file: captures/mv3_crunch_dco_a2.nam
 - values:
     channel: clean
     mv: 1
     variant: dco
-  file: captures/yblbqrppgpc_a2.nam
+  file: captures/mv1_clean_dco_a2.nam
 - values:
     channel: crunch
     mv: 2
     variant: dco
-  file: captures/qsd7wcvzrd_a2.nam
+  file: captures/mv2_crunch_dco_a2.nam
 - values:
     channel: lead
     mv: 3
     variant: dco
-  file: captures/ijw8f2ji7i_a2.nam
+  file: captures/mv3_lead_dco_a2.nam
 - values:
     channel: clean
     mv: 2
     variant: dco
-  file: captures/388g6lenled_a2.nam
+  file: captures/mv2_clean_dco_a2.nam
 - values:
     channel: lead
     mv: 3
     variant: std
-  file: captures/podrw2r77u_a2.nam
+  file: captures/mv3_lead_a2.nam
 - values:
     channel: crunch
     mv: 2
     variant: std
-  file: captures/0abkgr803o74_a2.nam
+  file: captures/mv2_crunch_a2.nam
 - values:
     channel: clean
     mv: 3
     variant: dco
-  file: captures/qs2qlagwgxd_a2.nam
+  file: captures/mv3_clean_dco_a2.nam
 - values:
     channel: crunch
     mv: 1
     variant: std
-  file: captures/sz110eh3bx8_a2.nam
+  file: captures/mv1_crunch_a2.nam
 - values:
     channel: clean
     mv: 3
     variant: std
-  file: captures/bdcafx3khh_a2.nam
+  file: captures/mv3_clean_a2.nam
 - values:
     channel: lead
     mv: 2
     variant: std
-  file: captures/ez3wh5a76sb_a2.nam
+  file: captures/mv2_lead_a2.nam
 - values:
     channel: lead
     mv: 1
     variant: std
-  file: captures/jnek5pqqgaa_a2.nam
+  file: captures/mv1_lead_a2.nam
 - values:
     channel: clean
     mv: 2
     variant: std
-  file: captures/9ljti9r39i9_a2.nam
+  file: captures/mv2_clean_a2.nam
 - values:
     channel: lead
     mv: 2
     variant: dco
-  file: captures/jbylzcaqnbc_a2.nam
+  file: captures/mv2_lead_dco_a2.nam
 - values:
     channel: clean
     mv: 1
     variant: std
-  file: captures/0k4btw9euhsr_a2.nam
+  file: captures/mv1_clean_a2.nam
 - values:
     channel: lead
     mv: 1
     variant: dco
-  file: captures/42mqgl34rcc_a2.nam
+  file: captures/mv1_lead_dco_a2.nam

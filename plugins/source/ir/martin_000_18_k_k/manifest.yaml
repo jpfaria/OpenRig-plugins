@@ -1,3 +1,6 @@
+# Descriptive IR filenames. Dropped constant tokens: sc_martin_000_18 (body identity) · 44100 (sample rate).
+# position: K&K pickup capture (knk1/knk2). flavor: IR voicing variant — standard is the raw IR,
+# blend (bld), match (EQ-match) and jf (jf_flavor) are alternative voicings. Mirrors sibling ir/gibson_j_45.
 manifest_version: 1
 id: ir_martin_000_18_k_k
 display_name: 000-18 K&K
@@ -6,42 +9,51 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: position
+  display_name: Position
   values:
-  - sc_martin_000_18_knk1_44100
-  - sc_martin_000_18_knk1_44100_bld
-  - sc_martin_000_18_knk1_44100_match
-  - sc_martin_000_18_knk1_44100_jf_flavor
-  - sc_martin_000_18_knk2_44100
-  - sc_martin_000_18_knk2_44100_bld
-  - sc_martin_000_18_knk2_44100_jf_flavor
+  - 1
+  - 2
+- name: flavor
+  display_name: Flavor
+  values:
+  - standard
+  - blend
+  - match
+  - jf
 captures:
 - values:
-    voicing: sc_martin_000_18_knk1_44100
+    position: 1
+    flavor: standard
   file: ir/sc_martin_000_18_knk1_44100.wav
   output_gain_db: -15.5726328
 - values:
-    voicing: sc_martin_000_18_knk1_44100_bld
+    position: 1
+    flavor: blend
   file: ir/sc_martin_000_18_knk1_44100_bld.wav
   output_gain_db: -10.5739269
 - values:
-    voicing: sc_martin_000_18_knk1_44100_match
+    position: 1
+    flavor: match
   file: ir/sc_martin_000_18_knk1_44100_match.wav
   output_gain_db: -13.6742144
 - values:
-    voicing: sc_martin_000_18_knk1_44100_jf_flavor
+    position: 1
+    flavor: jf
   file: ir/sc_martin_000_18_knk1_44100_jf_flavor.wav
   output_gain_db: -13.7202024
 - values:
-    voicing: sc_martin_000_18_knk2_44100
+    position: 2
+    flavor: standard
   file: ir/sc_martin_000_18_knk2_44100.wav
   output_gain_db: -15.6961279
 - values:
-    voicing: sc_martin_000_18_knk2_44100_bld
+    position: 2
+    flavor: blend
   file: ir/sc_martin_000_18_knk2_44100_bld.wav
   output_gain_db: -10.6128464
 - values:
-    voicing: sc_martin_000_18_knk2_44100_jf_flavor
+    position: 2
+    flavor: jf
   file: ir/sc_martin_000_18_knk2_44100_jf_flavor.wav
   output_gain_db: -10.5150213

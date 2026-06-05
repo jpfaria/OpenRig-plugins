@@ -1,3 +1,4 @@
+# Dropped constants: F10 (fuzz=10 on every capture); V (bias) couples 1:1 with transistor (BART=V8, others=V7).
 manifest_version: 1
 id: nam_analog_man_sun_face_a2
 display_name: Analog Man Sun Face
@@ -29,64 +30,64 @@ captures:
 - values:
     compression: 0
     transistor: nkt_red_dot
-  file: captures/3cb859ccd179652d_a2.nam
+  file: captures/sunface_nkt_red_dot_lg_v7_f10_c0_a2.nam
 - values:
     compression: 10
     transistor: bc109
-  file: captures/3ea44916a42eda65_a2.nam
+  file: captures/sunface_bc109_v7_f10_c10_a2.nam
 - values:
     compression: 8
     transistor: bart
-  file: captures/856b3b5a8b3a00d4_a2.nam
+  file: captures/sunface_bart_v8_f10_c8_a2.nam
 - values:
     compression: 5
     transistor: rca
-  file: captures/0676c16c9afe8f2e_a2.nam
+  file: captures/sunface_rca_v7_f10_c5_a2.nam
 - values:
     compression: 3
     transistor: rca
-  file: captures/a5d7205cc1ae2a36_a2.nam
+  file: captures/sunface_rca_v7_f10_c3_a2.nam
 - values:
     compression: 5
     transistor: bc109
-  file: captures/251969a25e572f13_a2.nam
+  file: captures/sunface_bc109_v7_f10_c5_a2.nam
 - values:
     compression: 7
     transistor: bc109
-  file: captures/457528255cce8d63_a2.nam
+  file: captures/sunface_bc109_v7_f10_c7_a2.nam
 - values:
     compression: 10
     transistor: nkt_red_dot
-  file: captures/347dfb235d378234_a2.nam
+  file: captures/sunface_nkt_red_dot_lg_v7_f10_c10_a2.nam
 - values:
     compression: 3
     transistor: bart
-  file: captures/05131604d9836d10_a2.nam
+  file: captures/sunface_bart_v8_f10_c3_a2.nam
 - values:
     compression: 3
     transistor: nkt_red_dot
-  file: captures/db2d2a2082d17901_a2.nam
+  file: captures/sunface_nkt_red_dot_lg_v7_f10_c3_a2.nam
 - values:
     compression: 8
     transistor: rca
-  file: captures/e8af13842b577ce9_a2.nam
+  file: captures/sunface_rca_v7_f10_c8_a2.nam
 - values:
     compression: 7
     transistor: nkt_red_dot
-  file: captures/cc1ec73d8f7697e5_a2.nam
+  file: captures/sunface_nkt_red_dot_lg_v7_f10_c7_a2.nam
 - values:
     compression: 5
     transistor: bart
-  file: captures/c2d5f2af565763c5_a2.nam
+  file: captures/sunface_bart_v8_f10_c5_a2.nam
 - values:
     compression: 3
     transistor: bc109
-  file: captures/b45bf21a20f86adb_a2.nam
+  file: captures/sunface_bc109_v7_f10_c3_a2.nam
 - values:
     compression: 5
     transistor: nkt_red_dot
-  file: captures/b93053a4f054aac8_a2.nam
+  file: captures/sunface_nkt_red_dot_lg_v7_f10_c5_a2.nam
 - values:
     compression: 10
     transistor: rca
-  file: captures/fb41b26bd9bd9be8_a2.nam
+  file: captures/sunface_rca_v7_f10_c10_a2.nam

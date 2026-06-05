@@ -1,3 +1,6 @@
+# Dropped constants: Vol = 330 (identical across all captures).
+# Drive is collinear with Voicing (med=1200, cranked=500, low=900, color=700,
+# high=300), so it is represented by the named Voicing positions, not a free axis.
 manifest_version: 1
 id: nam_mxr_duke_of_tone_a2
 display_name: MXR Duke of Tone
@@ -33,149 +36,149 @@ captures:
     mode: dist
     tone: 1200
     voicing: med
-  file: captures/v0liotvlk6j_a2.nam
+  file: captures/dot_dist_med_t1200_a2.nam
 - values:
     mode: od
     tone: 1200
     voicing: med
-  file: captures/h30t2vwgul_a2.nam
+  file: captures/dot_od_med_t1200_a2.nam
 - values:
     mode: od
     tone: 1030
     voicing: med
-  file: captures/yw7uud19ef_a2.nam
+  file: captures/dot_od_med_t1030_a2.nam
 - values:
     mode: od
     tone: 1030
     voicing: cranked
-  file: captures/hx02k9mabr7_a2.nam
+  file: captures/dot_od_cranked_t1030_a2.nam
 - values:
     mode: od
     tone: 1030
     voicing: low
-  file: captures/sj092u0y0fe_a2.nam
+  file: captures/dot_od_low_t1030_a2.nam
 - values:
     mode: dist
     tone: 1030
     voicing: color
-  file: captures/ssvwp72ini_a2.nam
+  file: captures/dot_dist_color_t1030_a2.nam
 - values:
     mode: dist
     tone: 1200
     voicing: cranked
-  file: captures/81cjf29z1sn_a2.nam
+  file: captures/dot_dist_cranked_t1200_a2.nam
 - values:
     mode: od
     tone: 230
     voicing: cranked
-  file: captures/fg1vdo6by55_a2.nam
+  file: captures/dot_od_cranked_t230_a2.nam
 - values:
     mode: od
     tone: 1200
     voicing: high
-  file: captures/eqfwvwpj2bm_a2.nam
+  file: captures/dot_od_high_t1200_a2.nam
 - values:
     mode: od
     tone: 1200
     voicing: cranked
-  file: captures/vm5p5mpgxir_a2.nam
+  file: captures/dot_od_cranked_t1200_a2.nam
 - values:
     mode: od
     tone: 230
     voicing: high
-  file: captures/ev64jghgot8_a2.nam
+  file: captures/dot_od_high_t230_a2.nam
 - values:
     mode: dist
     tone: 1200
     voicing: low
-  file: captures/rstxgqvgkwr_a2.nam
+  file: captures/dot_dist_low_t1200_a2.nam
 - values:
     mode: dist
     tone: 230
     voicing: color
-  file: captures/jrqxe6w6x7n_a2.nam
+  file: captures/dot_dist_color_t230_a2.nam
 - values:
     mode: dist
     tone: 1030
     voicing: low
-  file: captures/ini1wqwpll_a2.nam
+  file: captures/dot_dist_low_t1030_a2.nam
 - values:
     mode: dist
     tone: 1200
     voicing: high
-  file: captures/d6uiln1vqgs_a2.nam
+  file: captures/dot_dist_high_t1200_a2.nam
 - values:
     mode: dist
     tone: 1030
     voicing: high
-  file: captures/e5mew4f315c_a2.nam
+  file: captures/dot_dist_high_t1030_a2.nam
 - values:
     mode: dist
     tone: 230
     voicing: low
-  file: captures/r84igf8iyti_a2.nam
+  file: captures/dot_dist_low_t230_a2.nam
 - values:
     mode: dist
     tone: 230
     voicing: high
-  file: captures/ifhqmjzdlpf_a2.nam
+  file: captures/dot_dist_high_t230_a2.nam
 - values:
     mode: dist
     tone: 1200
     voicing: color
-  file: captures/77hd1n5hiwu_a2.nam
+  file: captures/dot_dist_color_t1200_a2.nam
 - values:
     mode: dist
     tone: 1030
     voicing: med
-  file: captures/q95kh4zmib_a2.nam
+  file: captures/dot_dist_med_t1030_a2.nam
 - values:
     mode: od
     tone: 1200
     voicing: color
-  file: captures/ijt2404c8rn_a2.nam
+  file: captures/dot_od_color_t1200_a2.nam
 - values:
     mode: od
     tone: 1200
     voicing: low
-  file: captures/uxu5vzvnqd_a2.nam
+  file: captures/dot_od_low_t1200_a2.nam
 - values:
     mode: od
     tone: 1030
     voicing: high
-  file: captures/3o9868t4phc_a2.nam
+  file: captures/dot_od_high_t1030_a2.nam
 - values:
     mode: dist
     tone: 1030
     voicing: cranked
-  file: captures/7cvnkx32n67_a2.nam
+  file: captures/dot_dist_cranked_t1030_a2.nam
 - values:
     mode: dist
     tone: 230
     voicing: cranked
-  file: captures/zjq7rdswpqf_a2.nam
+  file: captures/dot_dist_cranked_t230_a2.nam
 - values:
     mode: od
     tone: 230
     voicing: color
-  file: captures/8qjk7pwgpac_a2.nam
+  file: captures/dot_od_color_t230_a2.nam
 - values:
     mode: dist
     tone: 230
     voicing: med
-  file: captures/5y9h5our86n_a2.nam
+  file: captures/dot_dist_med_t230_a2.nam
 - values:
     mode: od
     tone: 1030
     voicing: color
-  file: captures/zojbzju0kg_a2.nam
+  file: captures/dot_od_color_t1030_a2.nam
 - values:
     mode: od
     tone: 230
     voicing: med
-  file: captures/5jare0wz0li_a2.nam
+  file: captures/dot_od_med_t230_a2.nam
 - values:
     mode: od
     tone: 230
     voicing: low
-  file: captures/7cn0lxmrq7h_a2.nam
+  file: captures/dot_od_low_t230_a2.nam

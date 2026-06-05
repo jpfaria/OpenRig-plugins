@@ -12,11 +12,11 @@ parameters:
 - name: gain
   display_name: Gain (%)
   values:
-  - '0'
-  - '25'
-  - '50'
-  - '75'
-  - '100'
+  - 0
+  - 25
+  - 50
+  - 75
+  - 100
 - name: tight
   display_name: Tight
   values:
@@ -25,8 +25,8 @@ parameters:
 - name: pres
   display_name: Presence (%)
   values:
-  - '50'
-  - '100'
+  - 50
+  - 100
 - name: mid_high
   display_name: Mid/High Balance
   values:
@@ -34,152 +34,152 @@ parameters:
   - 5050
 captures:
 - values:
-    gain: '100'
+    gain: 0
+    tight: up
+    pres: 100
+    mid_high: 5050
+  file: captures/gain_0_tight_up_pres_100_mid_high_5050.nam
+- values:
+    gain: 0
     tight: down
-    pres: '100'
+    pres: 100
+    mid_high: 5050
+  file: captures/gain_0_tight_down_pres_100_mid_high_5050.nam
+- values:
+    gain: 25
+    tight: up
+    pres: 100
+    mid_high: 5050
+  file: captures/gain_25_tight_up_pres_100_mid_high_5050.nam
+- values:
+    gain: 25
+    tight: down
+    pres: 100
+    mid_high: 5050
+  file: captures/gain_25_tight_down_pres_100_mid_high_5050.nam
+- values:
+    gain: 50
+    tight: up
+    pres: 50
     mid_high: 4060
-  file: captures/j9rjee3ifbf.nam
+  file: captures/gain_50_tight_up_pres_50_mid_high_4060.nam
 - values:
-    gain: '100'
-    tight: down
-    pres: '50'
+    gain: 50
+    tight: up
+    pres: 50
+    mid_high: 5050
+  file: captures/gain_50_tight_up_pres_50_mid_high_5050.nam
+- values:
+    gain: 50
+    tight: up
+    pres: 100
     mid_high: 4060
-  file: captures/vcsk1kfc0ut.nam
+  file: captures/gain_50_tight_up_pres_100_mid_high_4060.nam
 - values:
-    gain: '75'
+    gain: 50
     tight: up
-    pres: '100'
+    pres: 100
     mid_high: 5050
-  file: captures/o6dgxxioqgq.nam
+  file: captures/gain_50_tight_up_pres_100_mid_high_5050.nam
 - values:
-    gain: '50'
+    gain: 50
     tight: down
-    pres: '50'
-    mid_high: 5050
-  file: captures/abhiiygxji.nam
-- values:
-    gain: '100'
-    tight: up
-    pres: '100'
-    mid_high: 5050
-  file: captures/u5p4vdlrag.nam
-- values:
-    gain: '50'
-    tight: up
-    pres: '50'
+    pres: 50
     mid_high: 4060
-  file: captures/vks5gfvmmlk.nam
+  file: captures/gain_50_tight_down_pres_50_mid_high_4060.nam
 - values:
-    gain: '50'
+    gain: 50
     tight: down
-    pres: '100'
+    pres: 50
     mid_high: 5050
-  file: captures/0qcjke2rjrx.nam
+  file: captures/gain_50_tight_down_pres_50_mid_high_5050.nam
 - values:
-    gain: '100'
+    gain: 50
     tight: down
-    pres: '100'
-    mid_high: 5050
-  file: captures/7jomkeke1yd.nam
-- values:
-    gain: '100'
-    tight: up
-    pres: '50'
-    mid_high: 5050
-  file: captures/zvxtul04ug.nam
-- values:
-    gain: '50'
-    tight: down
-    pres: '50'
+    pres: 100
     mid_high: 4060
-  file: captures/6wue2awitgn.nam
+  file: captures/gain_50_tight_down_pres_100_mid_high_4060.nam
 - values:
-    gain: '75'
+    gain: 50
     tight: down
-    pres: '50'
+    pres: 100
     mid_high: 5050
-  file: captures/v9tytorbnd.nam
+  file: captures/gain_50_tight_down_pres_100_mid_high_5050.nam
 - values:
-    gain: '50'
+    gain: 75
     tight: up
-    pres: '100'
+    pres: 50
+    mid_high: 5050
+  file: captures/gain_75_tight_up_pres_50_mid_high_5050.nam
+- values:
+    gain: 75
+    tight: up
+    pres: 100
     mid_high: 4060
-  file: captures/cjlwgc045d.nam
+  file: captures/gain_75_tight_up_pres_100_mid_high_4060.nam
 - values:
-    gain: '50'
+    gain: 75
     tight: up
-    pres: '100'
+    pres: 100
     mid_high: 5050
-  file: captures/6cn3j8gpmog.nam
+  file: captures/gain_75_tight_up_pres_100_mid_high_5050.nam
 - values:
-    gain: '50'
-    tight: up
-    pres: '50'
-    mid_high: 5050
-  file: captures/p5ohdp2aujd.nam
-- values:
-    gain: '75'
-    tight: up
-    pres: '100'
-    mid_high: 4060
-  file: captures/8pgqmexuv0u.nam
-- values:
-    gain: '75'
+    gain: 75
     tight: down
-    pres: '50'
+    pres: 50
     mid_high: 4060
-  file: captures/680i5e5mmzy.nam
+  file: captures/gain_75_tight_down_pres_50_mid_high_4060.nam
 - values:
-    gain: '100'
-    tight: up
-    pres: '100'
-    mid_high: 4060
-  file: captures/jrjzlpvaqza.nam
-- values:
-    gain: '50'
+    gain: 75
     tight: down
-    pres: '100'
-    mid_high: 4060
-  file: captures/viuha6tnvz.nam
+    pres: 50
+    mid_high: 5050
+  file: captures/gain_75_tight_down_pres_50_mid_high_5050.nam
 - values:
-    gain: '100'
-    tight: up
-    pres: '50'
-    mid_high: 4060
-  file: captures/uylkb54zp6.nam
-- values:
-    gain: '75'
+    gain: 75
     tight: down
-    pres: '100'
+    pres: 100
     mid_high: 4060
-  file: captures/c7gqekpf07l.nam
+  file: captures/gain_75_tight_down_pres_100_mid_high_4060.nam
 - values:
-    gain: '75'
+    gain: 100
     tight: up
-    pres: '50'
-    mid_high: 5050
-  file: captures/3nislqpea3q.nam
+    pres: 50
+    mid_high: 4060
+  file: captures/gain_100_tight_up_pres_50_mid_high_4060.nam
 - values:
-    gain: '25'
+    gain: 100
     tight: up
-    pres: '100'
+    pres: 50
     mid_high: 5050
-  file: captures/jp3yxc5oaw.nam
+  file: captures/gain_100_tight_up_pres_50_mid_high_5050.nam
 - values:
-    gain: '25'
+    gain: 100
+    tight: up
+    pres: 100
+    mid_high: 4060
+  file: captures/gain_100_tight_up_pres_100_mid_high_4060.nam
+- values:
+    gain: 100
+    tight: up
+    pres: 100
+    mid_high: 5050
+  file: captures/gain_100_tight_up_pres_100_mid_high_5050.nam
+- values:
+    gain: 100
     tight: down
-    pres: '100'
-    mid_high: 5050
-  file: captures/8hl5x835cro.nam
+    pres: 50
+    mid_high: 4060
+  file: captures/gain_100_tight_down_pres_50_mid_high_4060.nam
 - values:
-    gain: '0'
-    tight: up
-    pres: '100'
-    mid_high: 5050
-  file: captures/t5vhbr6npgd.nam
-- values:
-    gain: '0'
+    gain: 100
     tight: down
-    pres: '100'
+    pres: 100
+    mid_high: 4060
+  file: captures/gain_100_tight_down_pres_100_mid_high_4060.nam
+- values:
+    gain: 100
+    tight: down
+    pres: 100
     mid_high: 5050
-  file: captures/u17jb1iwxq.nam
+  file: captures/gain_100_tight_down_pres_100_mid_high_5050.nam

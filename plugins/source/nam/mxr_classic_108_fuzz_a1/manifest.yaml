@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): volume=max, buffer mode on, capture tool ttsv10.
 manifest_version: 1
 id: nam_mxr_classic_108_fuzz_a1
 display_name: MXR Classic 108 Fuzz
@@ -20,15 +21,6 @@ parameters:
   - 12.0
 captures:
 - values:
-    filter: 10.0
-  file: captures/mxr_108_fuzz_v_max_f_10_00_buffer_ttsv10.nam
-- values:
-    filter: 11.0
-  file: captures/mxr_108_fuzz_v_max_f_11_00_buffer_ttsv10.nam
-- values:
-    filter: 12.0
-  file: captures/mxr_108_fuzz_v_max_f_12_00_buffer_ttsv10.nam
-- values:
     filter: 1.0
   file: captures/mxr_108_fuzz_v_max_f_1_00_buffer_ttsv10.nam
 - values:
@@ -43,3 +35,12 @@ captures:
 - values:
     filter: 9.0
   file: captures/mxr_108_fuzz_v_max_f_9_00_buffer_ttsv10.nam
+- values:
+    filter: 10.0
+  file: captures/mxr_108_fuzz_v_max_f_10_00_buffer_ttsv10.nam
+- values:
+    filter: 11.0
+  file: captures/mxr_108_fuzz_v_max_f_11_00_buffer_ttsv10.nam
+- values:
+    filter: 12.0
+  file: captures/mxr_108_fuzz_v_max_f_12_00_buffer_ttsv10.nam

@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): amp = E305 CLINE,
+# pedal = Boss OD-3, Level = 12, Tone = 12. Only the OD-3 Drive knob varies.
 manifest_version: 1
 id: nam_engl_e305_gigmaster_30_head_a2
 display_name: E305 Gigmaster 30 Head
@@ -27,34 +29,34 @@ parameters:
 captures:
 - values:
     drive: 0
-  file: captures/1owdvqgryo6_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_0min_a2.nam
 - values:
     drive: 3
-  file: captures/5oyq71rb1o7_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_3_a2.nam
 - values:
     drive: 5
-  file: captures/65q4oaoiilk_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_5_a2.nam
 - values:
     drive: 7
-  file: captures/l9mgiqowr9_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_7_a2.nam
 - values:
     drive: 10
-  file: captures/kgur6tdq3nj_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_10_a2.nam
 - values:
     drive: 12
-  file: captures/5g297f4nlhp_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_12_a2.nam
 - values:
     drive: 14
-  file: captures/uqma9hwto0i_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_14_a2.nam
 - values:
     drive: 16
-  file: captures/hkc66pe17t6_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_16_a2.nam
 - values:
     drive: 18
-  file: captures/bmk1jml8t2g_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_18_a2.nam
 - values:
     drive: 20
-  file: captures/j0el9et8byg_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_20_a2.nam
 - values:
     drive: 22
-  file: captures/1r5tu9msis6_a2.nam
+  file: captures/e305_cline_boss_od3_level_12_tone_12_drive_22max_a2.nam

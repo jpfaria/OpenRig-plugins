@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): model MKVII, power 90W, Pres@5, DI (direct, no cab).
 manifest_version: 1
 id: nam_mesa_boogie_mark_vii_a2
 display_name: Mark VII
@@ -30,82 +31,82 @@ parameters:
   - revyhi
 captures:
 - values:
-    rev: base
     voicing: ch3_pony
-  file: captures/dl0nszxp6fp_a2.nam
+    rev: base
+  file: captures/ch3_mkiib_pony_rawness_a2.nam
 - values:
-    rev: revyhi
     voicing: ch2_chunky
-  file: captures/376ctzetu85_a2.nam
+    rev: revyhi
+  file: captures/ch2_mkvii_chunky_revyhi_a2.nam
 - values:
-    rev: base
     voicing: ch1_clean
-  file: captures/1prmenvoauw_a2.nam
-- values:
     rev: base
+  file: captures/ch1_cln_factory_bright_clean_a2.nam
+- values:
     voicing: eq_off
-  file: captures/zpeqrs3f0ms_a2.nam
-- values:
-    rev: revyhi
-    voicing: ch3_bull
-  file: captures/ehshqr57xpd_a2.nam
-- values:
-    rev: revyhi
-    voicing: ch3_eet
-  file: captures/mxbjimfyh27_a2.nam
-- values:
-    rev: revyhi
-    voicing: ch1_fat
-  file: captures/2se2pvoj7mo_a2.nam
-- values:
-    rev: revyhi
-    voicing: ch1_clean
-  file: captures/gf2yjbv2rxs_a2.nam
-- values:
     rev: base
-    voicing: ch3_bull
-  file: captures/vxkba7uarji_a2.nam
+  file: captures/eqoff_pres5_a2.nam
 - values:
+    voicing: ch3_bull
     rev: revyhi
+  file: captures/ch3_mkiic_bull_sheet_revyhi_a2.nam
+- values:
+    voicing: ch3_eet
+    rev: revyhi
+  file: captures/ch3_mkiic_eet_faq_revyhi_a2.nam
+- values:
+    voicing: ch1_fat
+    rev: revyhi
+  file: captures/ch1_fat_factory_country_clean_revyhi_a2.nam
+- values:
+    voicing: ch1_clean
+    rev: revyhi
+  file: captures/ch1_cln_factory_bright_clean_revyhi_a2.nam
+- values:
+    voicing: ch3_bull
+    rev: base
+  file: captures/ch3_mkiic_bull_sheet_a2.nam
+- values:
     voicing: ch3_pony
-  file: captures/1os0bie9r6e_a2.nam
+    rev: revyhi
+  file: captures/ch3_mkiib_pony_rawness_revyhi_a2.nam
 - values:
-    rev: base
     voicing: ch1_fat
-  file: captures/cq9to6lptcs_a2.nam
-- values:
     rev: base
+  file: captures/ch1_fat_factory_country_clean_a2.nam
+- values:
     voicing: ch2_chunky
-  file: captures/n4jh3mqpfpr_a2.nam
-- values:
     rev: base
+  file: captures/ch2_mkvii_chunky_a2.nam
+- values:
     voicing: ch3_war
-  file: captures/hd2uqz049rg_a2.nam
+    rev: base
+  file: captures/ch3_mkiv_war_never_changes_a2.nam
 - values:
-    rev: revyhi
     voicing: eq_on
-  file: captures/iv1tgjtqzsi_a2.nam
-- values:
     rev: revyhi
-    voicing: ch2_crunch
-  file: captures/ec0tnwbwehf_a2.nam
+  file: captures/eqon_pres5_revyhi_a2.nam
 - values:
-    rev: base
     voicing: ch2_crunch
-  file: captures/941etyyw96t_a2.nam
+    rev: revyhi
+  file: captures/ch2_crnch_factory_classic_crunch_revyhi_a2.nam
 - values:
+    voicing: ch2_crunch
     rev: base
+  file: captures/ch2_crnch_factory_classic_crunch_a2.nam
+- values:
     voicing: ch3_eet
-  file: captures/thdwda3ucn_a2.nam
-- values:
-    rev: revyhi
-    voicing: ch3_war
-  file: captures/s32ux9ipscm_a2.nam
-- values:
-    rev: revyhi
-    voicing: eq_off
-  file: captures/rez9lm0jv4e_a2.nam
-- values:
     rev: base
+  file: captures/ch3_mkiic_eet_faq_a2.nam
+- values:
+    voicing: ch3_war
+    rev: revyhi
+  file: captures/ch3_mkiv_war_never_changes_revyhi_a2.nam
+- values:
+    voicing: eq_off
+    rev: revyhi
+  file: captures/eqoff_pres5_revyhi_a2.nam
+- values:
     voicing: eq_on
-  file: captures/k11wd4qbxqe_a2.nam
+    rev: base
+  file: captures/eqon_pres5_a2.nam

@@ -1,3 +1,4 @@
+# dropped constant: pedal name "jan_ray" (the plugin itself)
 manifest_version: 1
 id: nam_vemuram_jan_ray_a1
 display_name: Jan Ray
@@ -7,15 +8,15 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: character
-  display_name: Character
+- name: gain
+  display_name: Gain
   values:
-  - mid_gain
-  - high_gain
+  - mid
+  - high
 captures:
 - values:
-    character: mid_gain
+    gain: mid
   file: captures/jan_ray_mid_gain.nam
 - values:
-    character: high_gain
+    gain: high
   file: captures/jan_ray_high_gain.nam

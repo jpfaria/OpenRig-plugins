@@ -1,3 +1,4 @@
+# Dropped constant: amp setting 6_8 (identical in every capture).
 manifest_version: 1
 id: nam_marshall_1959_slp_a1
 display_name: 1959 SLP
@@ -11,11 +12,11 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - off
+  - none
   - ts8
 captures:
 - values:
-    boost: off
+    boost: none
   file: captures/marshall_1959_slp_6_8.nam
 - values:
     boost: ts8

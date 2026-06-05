@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): cab = marshall_cabinet
 manifest_version: 1
 id: nam_badcat_wildcat_40r
 display_name: WildCat 40R

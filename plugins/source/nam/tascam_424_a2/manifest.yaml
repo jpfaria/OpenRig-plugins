@@ -28,27 +28,27 @@ parameters:
   - 7
 captures:
 - values:
-    bass: 5
     gain: 9
-    high: 5
-  file: captures/ff965az16x5_a2.nam
-- values:
     bass: 5
+    high: 5
+  file: captures/tascam_424_preamp_gain_9_bass_5_high_5_a2.nam
+- values:
     gain: 7
+    bass: 5
     high: 5
-  file: captures/duj2jmn3zbk_a2.nam
+  file: captures/tascam_424_preamp_gain_7_bass_5_high_5_a2.nam
 - values:
+    gain: 8
     bass: 7
-    gain: 8
     high: 7
-  file: captures/erj8uwilz9_a2.nam
+  file: captures/tascam_424_preamp_gain_8_bass_7_high_7_a2.nam
 - values:
-    bass: 5
     gain: max
-    high: 5
-  file: captures/qzpqs35noq_a2.nam
-- values:
     bass: 5
-    gain: 8
     high: 5
-  file: captures/syjjj9csasq_a2.nam
+  file: captures/tascam_424_preamp_gain_max_bass_5_high_5_a2.nam
+- values:
+    gain: 8
+    bass: 5
+    high: 5
+  file: captures/tascam_424_preamp_gain_8_bass_5_high_5_a2.nam

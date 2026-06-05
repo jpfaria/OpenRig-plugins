@@ -1,3 +1,4 @@
+# Constant tokens dropped (identical in every capture): speaker p10r, ur, cab 4x10, mic bu87ic (U87 IC), secondary axis-distance 1_0in, trailing index 3.
 manifest_version: 1
 id: ir_fender_super_reverb_4x10
 display_name: Super Reverb 4x10
@@ -11,34 +12,34 @@ parameters:
 - name: distance
   display_name: Mic Distance
   values:
-  - 1_75
-  - 2_00
-  - 2_25
-  - 2_50
-  - 2_75
-  - 3_50
+  - 1.75
+  - 2.0
+  - 2.25
+  - 2.5
+  - 2.75
+  - 3.5
 captures:
 - values:
-    distance: 1_75
+    distance: 1.75
   file: ir/p10r_ur_4x10_bu87ic_1_75in_1_0in_3.wav
   output_gain_db: -19.8525066
 - values:
-    distance: 2_00
+    distance: 2.0
   file: ir/p10r_ur_4x10_bu87ic_2_00in_1_0in_3.wav
   output_gain_db: -20.2393494
 - values:
-    distance: 2_25
+    distance: 2.25
   file: ir/p10r_ur_4x10_bu87ic_2_25in_1_0in_3.wav
   output_gain_db: -20.1081028
 - values:
-    distance: 2_50
+    distance: 2.5
   file: ir/p10r_ur_4x10_bu87ic_2_50in_1_0in_3.wav
   output_gain_db: -19.7095184
 - values:
-    distance: 2_75
+    distance: 2.75
   file: ir/p10r_ur_4x10_bu87ic_2_75in_1_0in_3.wav
   output_gain_db: -19.8645096
 - values:
-    distance: 3_50
+    distance: 3.5
   file: ir/p10r_ur_4x10_bu87ic_3_50in_1_0in_3.wav
   output_gain_db: -21.6372089

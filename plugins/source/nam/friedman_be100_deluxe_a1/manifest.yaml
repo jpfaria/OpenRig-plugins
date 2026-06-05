@@ -1,3 +1,4 @@
+# Dropped constant token: be100 (amp model name, identical across all captures)
 manifest_version: 1
 id: nam_friedman_be100_deluxe_a1
 display_name: BE100 Deluxe
@@ -13,7 +14,7 @@ parameters:
   values:
   - cln_tender
   - cln_rock
-  - be
+  - be_eddie
   - hbe_tallica
   - hbe_mammoth
 - name: mic
@@ -48,15 +49,15 @@ captures:
     mic: blend
   file: captures/be100_cln_rock_blend.nam
 - values:
-    channel: be
+    channel: be_eddie
     mic: sm57
   file: captures/be100_be_eddie_sm57.nam
 - values:
-    channel: be
+    channel: be_eddie
     mic: sm58
   file: captures/be100_be_eddie_sm58.nam
 - values:
-    channel: be
+    channel: be_eddie
     mic: blend
   file: captures/be100_be_eddie_blend.nam
 - values:

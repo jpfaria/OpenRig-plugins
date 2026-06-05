@@ -1,3 +1,4 @@
+# Dropped constant: shred (Shred voicing, identical across both captures)
 manifest_version: 1
 id: nam_victory_vx_kraken_a1
 display_name: VX Kraken
@@ -10,15 +11,15 @@ type: preamp
 backend: nam
 architecture: A1
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: output
+  display_name: Output
   values:
-  - shred_di
-  - shred_full
+  - di
+  - full
 captures:
 - values:
-    voicing: shred_di
+    output: di
   file: captures/shred_di.nam
 - values:
-    voicing: shred_full
+    output: full
   file: captures/shred_full.nam

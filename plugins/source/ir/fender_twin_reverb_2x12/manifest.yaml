@@ -1,3 +1,4 @@
+# dropped constants: cab=twin_reverb, take=3
 manifest_version: 1
 id: ir_fender_twin_reverb_2x12
 display_name: Twin Reverb 2x12

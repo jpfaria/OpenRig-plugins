@@ -1,3 +1,4 @@
+# Dropped constant: volume (v) = 10 on every capture.
 manifest_version: 1
 id: nam_pete_cornish_ss_3_a1
 display_name: Pete Cornish SS-3
@@ -7,14 +8,6 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: bass
-  display_name: Bass
-  values:
-  - 0.0
-  - 2.0
-  - 4.0
-  - 6.0
-  - 10.0
 - name: sustain
   display_name: Sustain
   values:
@@ -23,6 +16,14 @@ parameters:
   - 4.0
   - 6.0
   - 8.0
+  - 10.0
+- name: bass
+  display_name: Bass
+  values:
+  - 0.0
+  - 2.0
+  - 4.0
+  - 6.0
   - 10.0
 - name: tone
   display_name: Tone
@@ -34,102 +35,102 @@ parameters:
   - 10.0
 captures:
 - values:
-    bass: 0.0
     sustain: 0.0
+    bass: 0.0
     tone: 6.0
   file: captures/tts_corn_ss3_s00_b00_t06_v10_a1.nam
 - values:
-    bass: 10.0
     sustain: 0.0
+    bass: 10.0
     tone: 6.0
   file: captures/tts_corn_ss3_s00_b10_t06_v10_a1.nam
 - values:
-    bass: 2.0
     sustain: 2.0
+    bass: 2.0
     tone: 4.0
   file: captures/tts_corn_ss3_s02_b02_t04_v10_a1.nam
 - values:
-    bass: 2.0
     sustain: 2.0
+    bass: 2.0
     tone: 10.0
   file: captures/tts_corn_ss3_s02_b02_t10_v10_a1.nam
 - values:
-    bass: 10.0
     sustain: 2.0
+    bass: 10.0
     tone: 6.0
   file: captures/tts_corn_ss3_s02_b10_t06_v10_a1.nam
 - values:
-    bass: 4.0
     sustain: 4.0
+    bass: 4.0
     tone: 6.0
   file: captures/tts_corn_ss3_s04_b04_t06_v10_a1.nam
 - values:
-    bass: 10.0
     sustain: 4.0
+    bass: 10.0
     tone: 6.0
   file: captures/tts_corn_ss3_s04_b10_t06_v10_a1.nam
 - values:
-    bass: 0.0
     sustain: 6.0
+    bass: 0.0
     tone: 0.0
   file: captures/tts_corn_ss3_s06_b00_t00_v10_a1.nam
 - values:
-    bass: 0.0
     sustain: 6.0
+    bass: 0.0
     tone: 2.0
   file: captures/tts_corn_ss3_s06_b00_t02_v10_a1.nam
 - values:
-    bass: 0.0
     sustain: 6.0
+    bass: 0.0
     tone: 4.0
   file: captures/tts_corn_ss3_s06_b00_t04_v10_a1.nam
 - values:
-    bass: 0.0
     sustain: 6.0
+    bass: 0.0
     tone: 6.0
   file: captures/tts_corn_ss3_s06_b00_t06_v10_a1.nam
 - values:
-    bass: 6.0
     sustain: 6.0
+    bass: 6.0
     tone: 4.0
   file: captures/tts_corn_ss3_s06_b06_t04_v10_a1.nam
 - values:
-    bass: 6.0
     sustain: 6.0
+    bass: 6.0
     tone: 10.0
   file: captures/tts_corn_ss3_s06_b06_t10_v10_a1.nam
 - values:
-    bass: 10.0
     sustain: 6.0
+    bass: 10.0
     tone: 6.0
   file: captures/tts_corn_ss3_s06_b10_t06_v10_a1.nam
 - values:
-    bass: 0.0
     sustain: 8.0
+    bass: 0.0
     tone: 10.0
   file: captures/tts_corn_ss3_s08_b00_t10_v10_a1.nam
 - values:
-    bass: 4.0
     sustain: 8.0
+    bass: 4.0
     tone: 6.0
   file: captures/tts_corn_ss3_s08_b04_t06_v10_a1.nam
 - values:
-    bass: 10.0
     sustain: 8.0
+    bass: 10.0
     tone: 0.0
   file: captures/tts_corn_ss3_s08_b10_t00_v10_a1.nam
 - values:
-    bass: 0.0
     sustain: 10.0
+    bass: 0.0
     tone: 6.0
   file: captures/tts_corn_ss3_s10_b00_t06_v10_a1.nam
 - values:
-    bass: 6.0
     sustain: 10.0
+    bass: 6.0
     tone: 6.0
   file: captures/tts_corn_ss3_s10_b06_t06_v10_a1.nam
 - values:
-    bass: 10.0
     sustain: 10.0
+    bass: 10.0
     tone: 10.0
   file: captures/tts_corn_ss3_s10_b10_t10_v10_a1.nam

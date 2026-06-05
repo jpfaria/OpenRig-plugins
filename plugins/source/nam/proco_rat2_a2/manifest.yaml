@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: "ST_RAT" (the pedal model identifier).
 manifest_version: 1
 id: nam_proco_rat2_a2
 display_name: RAT 2
@@ -25,16 +26,16 @@ captures:
 - values:
     dist: 9
     filter: 12
-  file: captures/70gax1dujr9_a2.nam
+  file: captures/st_rat_dist_0900_filter_1200_a2.nam
 - values:
     dist: 11
     filter: 13
-  file: captures/mzq9mng1xi_a2.nam
+  file: captures/st_rat_dist_1100_filter_1300_a2.nam
 - values:
     dist: max
     filter: 12
-  file: captures/i3c2uwi3oj7_a2.nam
+  file: captures/st_rat_dist_max_filter_1200_a2.nam
 - values:
     dist: 13
     filter: 12
-  file: captures/wdpwdfaw22_a2.nam
+  file: captures/st_rat_dist_1300_filter_1200_a2.nam

@@ -1,3 +1,4 @@
+# Dropped constants (identical across every capture): jtm50, replica, angus
 manifest_version: 1
 id: nam_marshall_jtm50_hw_plexi_a1
 display_name: JTM50 HW (Plexi)
@@ -11,36 +12,36 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - v5
-  - v6
-  - v7
+  - 5
+  - 6
+  - 7
 - name: bright
   display_name: Bright
   values:
-  - off
-  - on
+  - normal
+  - bright
 captures:
 - values:
-    bright: off
-    tone: v5
+    tone: 5
+    bright: normal
   file: captures/jtm50_replica_angus_tone_v5.nam
 - values:
-    bright: on
-    tone: v5
+    tone: 5
+    bright: bright
   file: captures/jtm50_replica_angus_tone_v5_bright.nam
 - values:
-    bright: off
-    tone: v6
+    tone: 6
+    bright: normal
   file: captures/jtm50_replica_angus_tone_v6.nam
 - values:
-    bright: on
-    tone: v6
+    tone: 6
+    bright: bright
   file: captures/jtm50_replica_angus_tone_v6_bright.nam
 - values:
-    bright: off
-    tone: v7
+    tone: 7
+    bright: normal
   file: captures/jtm50_replica_angus_tone_v7.nam
 - values:
-    bright: on
-    tone: v7
+    tone: 7
+    bright: bright
   file: captures/jtm50_replica_angus_tone_v7_bright.nam

@@ -10,6 +10,8 @@ output_gain_db: 2.2125587
 type: amp
 backend: nam
 architecture: A1
+# Axes decoded from descriptive filenames shiva_<gain>_<cabinet>.nam.
+# No constant tokens dropped — both gain and cabinet vary (full 3x3 product).
 parameters:
 - name: gain
   display_name: Gain

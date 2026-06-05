@@ -1,3 +1,6 @@
+# dropped constant tokens: dy_martinom_dazzo (IR slug) · 44100 (sample rate)
+# voicing: discrete EQ-match profile of the IR — `default` is the raw IR,
+# matcheq1/2/3 are the EQ-matched alternative voicings.
 manifest_version: 1
 id: ir_dy_martin_om_dazzo
 display_name: OM Dazzo
@@ -9,24 +12,24 @@ parameters:
 - name: voicing
   display_name: Voicing
   values:
-  - dy_martinom_dazzo_44100
-  - dy_martinom_dazzo_44100_matcheq1
-  - dy_martinom_dazzo_44100_matcheq2
-  - dy_martinom_dazzo_44100_matcheq3
+  - default
+  - matcheq1
+  - matcheq2
+  - matcheq3
 captures:
 - values:
-    voicing: dy_martinom_dazzo_44100
+    voicing: default
   file: ir/dy_martinom_dazzo_44100.wav
   output_gain_db: -21.8376675
 - values:
-    voicing: dy_martinom_dazzo_44100_matcheq1
+    voicing: matcheq1
   file: ir/dy_martinom_dazzo_44100_matcheq1.wav
   output_gain_db: -13.9600792
 - values:
-    voicing: dy_martinom_dazzo_44100_matcheq2
+    voicing: matcheq2
   file: ir/dy_martinom_dazzo_44100_matcheq2.wav
   output_gain_db: -14.0633469
 - values:
-    voicing: dy_martinom_dazzo_44100_matcheq3
+    voicing: matcheq3
   file: ir/dy_martinom_dazzo_44100_matcheq3.wav
   output_gain_db: -12.8541269

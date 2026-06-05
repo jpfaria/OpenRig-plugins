@@ -15,31 +15,31 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - '3'
-  - '9'
-  - '12'
+  - 3
+  - 9
+  - 12
 captures:
 - values:
-    drive: '3'
+    drive: 3
     mode: lp
   file: captures/ocd15_lp_d3.nam
 - values:
-    drive: '9'
+    drive: 9
     mode: lp
   file: captures/ocd15_lp_d9.nam
 - values:
-    drive: '12'
+    drive: 12
     mode: lp
   file: captures/ocd15_lp_d12.nam
 - values:
-    drive: '3'
+    drive: 3
     mode: hp
   file: captures/ocd15_hp_d3.nam
 - values:
-    drive: '9'
+    drive: 9
     mode: hp
   file: captures/ocd15_hp_d9.nam
 - values:
-    drive: '12'
+    drive: 12
     mode: hp
   file: captures/ocd15_hp_d12.nam

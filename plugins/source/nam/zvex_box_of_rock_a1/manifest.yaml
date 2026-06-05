@@ -6,6 +6,7 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Dropped constant across all captures: tone = 5
 parameters:
 - name: gain
   display_name: Gain

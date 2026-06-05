@@ -1,3 +1,6 @@
+# Dropped constants (identical in every capture): pow, trec (triple rectifier),
+# 150bld, dio (diode rectifier), 6l6 (power tube), juice. The 01/36 indices
+# correlate 1:1 with the voicing token and are capture sequence numbers, not a knob.
 manifest_version: 1
 id: nam_mesa_triple_rectifier_a2
 display_name: Triple Rectifier
@@ -13,8 +16,8 @@ parameters:
 - name: voicing
   display_name: Voicing
   values:
-  - mdn_juice
-  - vnt_juice
+  - modern
+  - vintage
 - name: mic
   display_name: Mic
   values:
@@ -25,38 +28,38 @@ parameters:
   - blend3
 captures:
 - values:
+    voicing: modern
     mic: sm57
-    voicing: mdn_juice
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm57.nam
 - values:
+    voicing: modern
     mic: sm58
-    voicing: mdn_juice
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm58.nam
 - values:
+    voicing: modern
     mic: blend2
-    voicing: mdn_juice
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_2.nam
 - values:
+    voicing: modern
     mic: blend3
-    voicing: mdn_juice
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_3.nam
 - values:
+    voicing: vintage
     mic: sm57
-    voicing: vnt_juice
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm57.nam
 - values:
+    voicing: vintage
     mic: sm58
-    voicing: vnt_juice
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm58.nam
 - values:
+    voicing: vintage
     mic: blend1
-    voicing: vnt_juice
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_1.nam
 - values:
+    voicing: vintage
     mic: blend2
-    voicing: vnt_juice
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_2.nam
 - values:
+    voicing: vintage
     mic: blend3
-    voicing: vnt_juice
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_3.nam

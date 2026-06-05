@@ -1,3 +1,4 @@
+# Dropped constant tokens (identical across all captures): taylor_220ce_k_dlx, 48000 (model/body name + sample rate).
 manifest_version: 1
 id: ir_taylor_220ce_k_dlx
 display_name: 220ce K DLX

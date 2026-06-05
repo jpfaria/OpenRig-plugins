@@ -1,3 +1,7 @@
+# Dropped constants (identical in every capture name): "KSR Ceres One", "48khz".
+# Real names from tone3000 id 44519 are "KSR Ceres One - 48khz - <Channel><N>".
+# channel = clean/rhythm/lead selector; variant = take index within a channel
+# (the trailing integer is a capture index, not a knob position).
 manifest_version: 1
 id: nam_ksr_ceres_a2
 display_name: KSR Ceres
@@ -26,46 +30,46 @@ parameters:
   - v6
 captures:
 - values:
-    channel: lead
+    channel: clean
+    variant: v1
+  file: captures/ksr_ceres_one_clean1_a2.nam
+- values:
+    channel: clean
     variant: v2
-  file: captures/0tqyygtyly9f_a2.nam
+  file: captures/ksr_ceres_one_clean2_a2.nam
+- values:
+    channel: rhythm
+    variant: v1
+  file: captures/ksr_ceres_one_rhythm1_a2.nam
+- values:
+    channel: rhythm
+    variant: v2
+  file: captures/ksr_ceres_one_rhythm2_a2.nam
+- values:
+    channel: rhythm
+    variant: v3
+  file: captures/ksr_ceres_one_rhythm3_a2.nam
 - values:
     channel: rhythm
     variant: v4
-  file: captures/77717mkcuer_a2.nam
-- values:
-    channel: rhythm
-    variant: v3
-  file: captures/g71owdyw6b_a2.nam
-- values:
-    channel: rhythm
-    variant: v2
-  file: captures/te462vitmyd_a2.nam
-- values:
-    channel: clean
-    variant: v1
-  file: captures/cnrmfbv708d_a2.nam
-- values:
-    channel: clean
-    variant: v2
-  file: captures/yixrzuihm6p_a2.nam
+  file: captures/ksr_ceres_one_rhythm4_a2.nam
 - values:
     channel: rhythm
     variant: v5
-  file: captures/gw8mggu1vv_a2.nam
-- values:
-    channel: rhythm
-    variant: v1
-  file: captures/facr3882bol_a2.nam
-- values:
-    channel: lead
-    variant: v1
-  file: captures/y3dq27vir1_a2.nam
+  file: captures/ksr_ceres_one_rhythm5_a2.nam
 - values:
     channel: rhythm
     variant: v6
-  file: captures/d1a4g0mipxu_a2.nam
+  file: captures/ksr_ceres_one_rhythm6_a2.nam
+- values:
+    channel: lead
+    variant: v1
+  file: captures/ksr_ceres_one_lead1_a2.nam
+- values:
+    channel: lead
+    variant: v2
+  file: captures/ksr_ceres_one_lead2_a2.nam
 - values:
     channel: lead
     variant: v3
-  file: captures/a46ncbq2jwq_a2.nam
+  file: captures/ksr_ceres_one_lead3_a2.nam

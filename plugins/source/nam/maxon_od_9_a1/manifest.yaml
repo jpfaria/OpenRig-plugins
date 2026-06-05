@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): opamp=vintage_rc4558p, level=10, a_a
 manifest_version: 1
 id: nam_maxon_od_9_a1
 display_name: Maxon OD-9
@@ -30,14 +31,6 @@ captures:
     tone: 7.0
   file: captures/maxon_od_9_vintage_rc4558p_a_a_d0_t7_l10.nam
 - values:
-    drive: 10.0
-    tone: 5.0
-  file: captures/maxon_od_9_vintage_rc4558p_a_a_d10_t5_l10.nam
-- values:
-    drive: 10.0
-    tone: 7.0
-  file: captures/maxon_od_9_vintage_rc4558p_a_a_d10_t7_l10.nam
-- values:
     drive: 2.0
     tone: 5.0
   file: captures/maxon_od_9_vintage_rc4558p_a_a_d2_t5_l10.nam
@@ -61,3 +54,11 @@ captures:
     drive: 8.0
     tone: 7.0
   file: captures/maxon_od_9_vintage_rc4558p_a_a_d8_t7_l10.nam
+- values:
+    drive: 10.0
+    tone: 5.0
+  file: captures/maxon_od_9_vintage_rc4558p_a_a_d10_t5_l10.nam
+- values:
+    drive: 10.0
+    tone: 7.0
+  file: captures/maxon_od_9_vintage_rc4558p_a_a_d10_t7_l10.nam

@@ -1,3 +1,4 @@
+# dropped constant token: hummingbird (Gibson Hummingbird body, same in every capture)
 manifest_version: 1
 id: ir_gibson_hummingbird
 display_name: Hummingbird
@@ -6,27 +7,27 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: mic
+  display_name: Mic
   values:
-  - hummingbird_dpa_4011
-  - hummingbird_neumann_m147
-  - hummingbird_shure_beta_58a
-  - hummingbird_soundelux_e47
+  - dpa_4011
+  - neumann_m147
+  - shure_beta_58a
+  - soundelux_e47
 captures:
 - values:
-    voicing: hummingbird_dpa_4011
+    mic: dpa_4011
   file: ir/hummingbird_dpa_4011.wav
   output_gain_db: -29.3227692
 - values:
-    voicing: hummingbird_neumann_m147
+    mic: neumann_m147
   file: ir/hummingbird_neumann_m147.wav
   output_gain_db: -24.4315681
 - values:
-    voicing: hummingbird_shure_beta_58a
+    mic: shure_beta_58a
   file: ir/hummingbird_shure_beta_58a.wav
   output_gain_db: -29.8074341
 - values:
-    voicing: hummingbird_soundelux_e47
+    mic: soundelux_e47
   file: ir/hummingbird_soundelux_e47.wav
   output_gain_db: -29.1260376

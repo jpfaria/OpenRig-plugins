@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): brand Fender, amp model '57CustomDeluxe'.
+# 'epochs' token is training metadata correlated 1:1 with voicing, not an amp control — dropped.
 manifest_version: 1
 id: nam_fender_57_deluxe_a2
 display_name: '''57 Custom Deluxe'
@@ -23,26 +25,26 @@ parameters:
   - 2
 captures:
 - values:
-    input: 1
     voicing: clean
-  file: captures/3tykw0jjkrp_a2.nam
+    input: 1
+  file: captures/clean_in1_a2.nam
 - values:
-    input: 2
     voicing: clean
-  file: captures/tmmvfbx0bt_a2.nam
-- values:
-    input: 1
-    voicing: crunch
-  file: captures/r9cbv1vefom_a2.nam
-- values:
     input: 2
+  file: captures/clean_in2_a2.nam
+- values:
     voicing: crunch
-  file: captures/kv28aourjqe_a2.nam
-- values:
     input: 1
-    voicing: od
-  file: captures/oryve0r2cba_a2.nam
+  file: captures/crunch_in1_a2.nam
 - values:
+    voicing: crunch
     input: 2
+  file: captures/crunch_in2_a2.nam
+- values:
     voicing: od
-  file: captures/q9wn42l62ei_a2.nam
+    input: 1
+  file: captures/od_in1_a2.nam
+- values:
+    voicing: od
+    input: 2
+  file: captures/od_in2_a2.nam

@@ -1,3 +1,4 @@
+# Dropped constants (identical across every capture): "Channel 2 Hi".
 manifest_version: 1
 id: nam_laney_vh100r_a2
 display_name: VH100R
@@ -27,64 +28,64 @@ captures:
 - values:
     gain: 10
     voicing: treble
-  file: captures/led0kw114g_a2.nam
+  file: captures/vh100r_treble_g10_a2.nam
 - values:
     gain: 5
     voicing: treble
-  file: captures/rx9xgrsfjbb_a2.nam
+  file: captures/vh100r_treble_g5_a2.nam
 - values:
     gain: 8
     voicing: treble_drive
-  file: captures/05831ruvahgw_a2.nam
+  file: captures/vh100r_treble_drive_g8_a2.nam
 - values:
     gain: 5
     voicing: neutral_drive
-  file: captures/r4n1crjltv_a2.nam
+  file: captures/vh100r_neutral_drive_g5_a2.nam
 - values:
     gain: 7
     voicing: neutral_drive
-  file: captures/0rsr6dr8ndu_a2.nam
+  file: captures/vh100r_neutral_drive_g7_a2.nam
 - values:
     gain: 7
     voicing: neutral
-  file: captures/6no0am11fu3_a2.nam
+  file: captures/vh100r_neutral_g7_a2.nam
 - values:
     gain: 10
     voicing: neutral_drive
-  file: captures/gfgvw1eq1gq_a2.nam
+  file: captures/vh100r_neutral_drive_g10_a2.nam
 - values:
     gain: 7
     voicing: treble_drive
-  file: captures/qwdlsdv73n_a2.nam
+  file: captures/vh100r_treble_drive_g7_a2.nam
 - values:
     gain: 5
     voicing: neutral
-  file: captures/u0jn5dg48am_a2.nam
+  file: captures/vh100r_neutral_g5_a2.nam
 - values:
     gain: 8
     voicing: neutral_drive
-  file: captures/53ogkjibfai_a2.nam
+  file: captures/vh100r_neutral_drive_g8_a2.nam
 - values:
     gain: 5
     voicing: treble_drive
-  file: captures/10evgvl4jabm_a2.nam
+  file: captures/vh100r_treble_drive_g5_a2.nam
 - values:
     gain: 8
     voicing: neutral
-  file: captures/1c7bop9hbm1_a2.nam
+  file: captures/vh100r_neutral_g8_a2.nam
 - values:
     gain: 10
     voicing: neutral
-  file: captures/y63qk0rupg8_a2.nam
+  file: captures/vh100r_neutral_g10_a2.nam
 - values:
     gain: 7
     voicing: treble
-  file: captures/ypm0j3nlxu_a2.nam
+  file: captures/vh100r_treble_g7_a2.nam
 - values:
     gain: 8
     voicing: treble
-  file: captures/qo4fprdejnk_a2.nam
+  file: captures/vh100r_treble_g8_a2.nam
 - values:
     gain: 10
     voicing: treble_drive
-  file: captures/ungma0ye1st_a2.nam
+  file: captures/vh100r_treble_drive_g10_a2.nam

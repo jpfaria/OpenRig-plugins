@@ -9,12 +9,13 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# single capture (MBFriedMan4ATAmpCab) — no varying controls
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - amp_cab_4at
+  - default
 captures:
 - values:
-    preset: amp_cab_4at
+    default: default
   file: captures/mbfriedman4atampcab.nam

@@ -8,6 +8,7 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/6132
+# Dropped constant across captures: amp = ElectroHarmonix_22Caliber.
 parameters:
 - name: voicing
   display_name: Voicing
@@ -17,7 +18,7 @@ parameters:
 captures:
 - values:
     voicing: clean
-  file: captures/56aff3e3a9ff1b07_a2.nam
+  file: captures/electro_harmonix_22_caliber_clean_a2.nam
 - values:
     voicing: crunch
-  file: captures/a1b76d2d68574098_a2.nam
+  file: captures/electro_harmonix_22_caliber_crunch_a2.nam

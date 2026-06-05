@@ -1,3 +1,4 @@
+# Single capture; constant token dropped: deimos (preset/voicing name)
 manifest_version: 1
 id: nam_engl_powerball_ii_a1
 display_name: Powerball II
@@ -8,11 +9,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - deimos
+  - default
 captures:
 - values:
-    preset: deimos
+    default: default
   file: captures/engl_powerball_deimos.nam

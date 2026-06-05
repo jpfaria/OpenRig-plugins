@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): clean/lead channel, Ibanez Tube Screamer boost in front.
 manifest_version: 1
 id: nam_engl_e305_gigmaster_30_head_a1
 display_name: E305 Gigmaster 30 Head
@@ -11,24 +12,24 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g2
-  - g6
-  - g8
-  - g10
-  - g11
+  - 2
+  - 6
+  - 8
+  - 10
+  - 11
 captures:
 - values:
-    gain: g2
+    gain: 2
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_2.nam
 - values:
-    gain: g6
+    gain: 6
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_6.nam
 - values:
-    gain: g8
+    gain: 8
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_8.nam
 - values:
-    gain: g10
+    gain: 10
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_10.nam
 - values:
-    gain: g11
+    gain: 11
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_11.nam
