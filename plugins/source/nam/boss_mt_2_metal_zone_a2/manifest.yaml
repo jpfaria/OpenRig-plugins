@@ -10,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64957
 parameters:
-- name: model
-  display_name: Model
+- name: tone
+  display_name: Tone
   values:
   - eqa_dist8
   - eqa_dist10
@@ -33,56 +33,56 @@ parameters:
   - noon
 captures:
 - values:
-    model: eqa_dist8
+    tone: eqa_dist8
   file: captures/nsdvd2d8zvd_a2.nam
 - values:
-    model: eqa_dist10
+    tone: eqa_dist10
   file: captures/9qxm6rahl5_a2.nam
 - values:
-    model: eqa_dist3
+    tone: eqa_dist3
   file: captures/1ik04dvrhczi_a2.nam
 - values:
-    model: eqb_dist5
+    tone: eqb_dist5
   file: captures/6c00ozsm9lm_a2.nam
 - values:
-    model: eqc_dist2_7
+    tone: eqc_dist2_7
   file: captures/06xj8ox6zqnt_a2.nam
 - values:
-    model: eqc_dist2_7b
+    tone: eqc_dist2_7b
   file: captures/2qj2tg6x6pu_a2.nam
 - values:
-    model: eqc_dist10
+    tone: eqc_dist10
   file: captures/vhtaxlc4duk_a2.nam
 - values:
-    model: eqc_dist4_9
+    tone: eqc_dist4_9
   file: captures/n37iej0e0qp_a2.nam
 - values:
-    model: eqc_dist6
+    tone: eqc_dist6
   file: captures/tbf7tbiww0d_a2.nam
 - values:
-    model: eqd_dist10
+    tone: eqd_dist10
   file: captures/sshwik10dxc_a2.nam
 - values:
-    model: eqd_dist4
+    tone: eqd_dist4
   file: captures/6lg0zlw1y2l_a2.nam
 - values:
-    model: eqd_dist3
+    tone: eqd_dist3
   file: captures/166zn2go2qa_a2.nam
 - values:
-    model: eqd_dist6
+    tone: eqd_dist6
   file: captures/24tseba0wgu_a2.nam
 - values:
-    model: eqe_dist10
+    tone: eqe_dist10
   file: captures/cw2u8iwwlcr_a2.nam
 - values:
-    model: eqe_dist3
+    tone: eqe_dist3
   file: captures/iqmy9w7x36r_a2.nam
 - values:
-    model: eqe_dist5
+    tone: eqe_dist5
   file: captures/vi47t8atzag_a2.nam
 - values:
-    model: eqe_dist7_8
+    tone: eqe_dist7_8
   file: captures/gwlbdau2rl5_a2.nam
 - values:
-    model: noon
+    tone: noon
   file: captures/ahr5v2l8ml8_a2.nam

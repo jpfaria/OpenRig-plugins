@@ -13,20 +13,20 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g3
-  - g5
-  - g7
-  - g10
+  - 3
+  - 5
+  - 7
+  - 10
 captures:
 - values:
-    gain: g3
+    gain: 3
   file: captures/8o3wwsorlho_a2.nam
 - values:
-    gain: g5
+    gain: 5
   file: captures/p6aza7linw_a2.nam
 - values:
-    gain: g7
+    gain: 7
   file: captures/xaibvbrmxr_a2.nam
 - values:
-    gain: g10
+    gain: 10
   file: captures/wknh92cfuk9_a2.nam

@@ -13,316 +13,316 @@ parameters:
 - name: level
   display_name: Level
   values:
-  - lv5
-  - lv7
-  - lv10
+  - 5
+  - 7
+  - 10
 - name: low
   display_name: Low
   values:
-  - l5
-  - l7
-  - l9
-  - l10
+  - 5
+  - 7
+  - 9
+  - 10
 - name: high
   display_name: High
   values:
-  - h5
-  - h8
-  - h9
-  - h10
+  - 5
+  - 8
+  - 9
+  - 10
 - name: dist
   display_name: Distortion
   values:
-  - d0
-  - d2
-  - d5
-  - d10
+  - 0
+  - 2
+  - 5
+  - 10
 captures:
 - values:
-    dist: d0
-    high: h5
-    level: lv10
-    low: l7
+    dist: 0
+    high: 5
+    level: 10
+    low: 7
   file: captures/0dp2cg9yw1th_a2.nam
 - values:
-    dist: d2
-    high: h5
-    level: lv10
-    low: l7
+    dist: 2
+    high: 5
+    level: 10
+    low: 7
   file: captures/fxo61bsloia_a2.nam
 - values:
-    dist: d0
-    high: h5
-    level: lv5
-    low: l7
+    dist: 0
+    high: 5
+    level: 5
+    low: 7
   file: captures/20ecwqcrj45_a2.nam
 - values:
-    dist: d2
-    high: h8
-    level: lv7
-    low: l5
+    dist: 2
+    high: 8
+    level: 7
+    low: 5
   file: captures/13h6pzzmgtgp_a2.nam
 - values:
-    dist: d2
-    high: h10
-    level: lv5
-    low: l10
+    dist: 2
+    high: 10
+    level: 5
+    low: 10
   file: captures/3umejjhadba_a2.nam
 - values:
-    dist: d2
-    high: h10
-    level: lv10
-    low: l10
+    dist: 2
+    high: 10
+    level: 10
+    low: 10
   file: captures/8tsdhnt6nap_a2.nam
 - values:
-    dist: d5
-    high: h9
-    level: lv10
-    low: l9
+    dist: 5
+    high: 9
+    level: 10
+    low: 9
   file: captures/8bx0pn9dqjx_a2.nam
 - values:
-    dist: d5
-    high: h8
-    level: lv10
-    low: l5
+    dist: 5
+    high: 8
+    level: 10
+    low: 5
   file: captures/2iuso2a3gq5_a2.nam
 - values:
-    dist: d10
-    high: h5
-    level: lv10
-    low: l7
+    dist: 10
+    high: 5
+    level: 10
+    low: 7
   file: captures/050arf6mxl3m_a2.nam
 - values:
-    dist: d0
-    high: h10
-    level: lv10
-    low: l10
+    dist: 0
+    high: 10
+    level: 10
+    low: 10
   file: captures/2eo75mzfsfs_a2.nam
 - values:
-    dist: d0
-    high: h9
-    level: lv5
-    low: l9
+    dist: 0
+    high: 9
+    level: 5
+    low: 9
   file: captures/vk3cr8bofie_a2.nam
 - values:
-    dist: d2
-    high: h9
-    level: lv7
-    low: l9
+    dist: 2
+    high: 9
+    level: 7
+    low: 9
   file: captures/qatrg1q07b_a2.nam
 - values:
-    dist: d0
-    high: h9
-    level: lv10
-    low: l9
+    dist: 0
+    high: 9
+    level: 10
+    low: 9
   file: captures/pgd8mlue0lt_a2.nam
 - values:
-    dist: d0
-    high: h8
-    level: lv10
-    low: l5
+    dist: 0
+    high: 8
+    level: 10
+    low: 5
   file: captures/wnb49z0ktzp_a2.nam
 - values:
-    dist: d10
-    high: h8
-    level: lv10
-    low: l5
+    dist: 10
+    high: 8
+    level: 10
+    low: 5
   file: captures/zg248rn9sy_a2.nam
 - values:
-    dist: d2
-    high: h5
-    level: lv7
-    low: l7
+    dist: 2
+    high: 5
+    level: 7
+    low: 7
   file: captures/edjmtpt8ha_a2.nam
 - values:
-    dist: d5
-    high: h8
-    level: lv5
-    low: l5
+    dist: 5
+    high: 8
+    level: 5
+    low: 5
   file: captures/so1ctd82gaf_a2.nam
 - values:
-    dist: d10
-    high: h8
-    level: lv5
-    low: l5
+    dist: 10
+    high: 8
+    level: 5
+    low: 5
   file: captures/h8f34y6lmfs_a2.nam
 - values:
-    dist: d5
-    high: h10
-    level: lv5
-    low: l10
+    dist: 5
+    high: 10
+    level: 5
+    low: 10
   file: captures/l22ixq1n0lo_a2.nam
 - values:
-    dist: d5
-    high: h10
-    level: lv10
-    low: l10
+    dist: 5
+    high: 10
+    level: 10
+    low: 10
   file: captures/vwtbzc622ug_a2.nam
 - values:
-    dist: d0
-    high: h10
-    level: lv7
-    low: l10
+    dist: 0
+    high: 10
+    level: 7
+    low: 10
   file: captures/5k6vhtg4zme_a2.nam
 - values:
-    dist: d2
-    high: h8
-    level: lv5
-    low: l5
+    dist: 2
+    high: 8
+    level: 5
+    low: 5
   file: captures/o5dwoz94onc_a2.nam
 - values:
-    dist: d0
-    high: h10
-    level: lv5
-    low: l10
+    dist: 0
+    high: 10
+    level: 5
+    low: 10
   file: captures/ih9qlll1cj8_a2.nam
 - values:
-    dist: d5
-    high: h9
-    level: lv7
-    low: l9
+    dist: 5
+    high: 9
+    level: 7
+    low: 9
   file: captures/hithsstxyik_a2.nam
 - values:
-    dist: d2
-    high: h8
-    level: lv10
-    low: l5
+    dist: 2
+    high: 8
+    level: 10
+    low: 5
   file: captures/kbtyz5jshy_a2.nam
 - values:
-    dist: d5
-    high: h5
-    level: lv10
-    low: l7
+    dist: 5
+    high: 5
+    level: 10
+    low: 7
   file: captures/8osmyzb3unk_a2.nam
 - values:
-    dist: d5
-    high: h5
-    level: lv5
-    low: l7
+    dist: 5
+    high: 5
+    level: 5
+    low: 7
   file: captures/c9e1xq8ywc8_a2.nam
 - values:
-    dist: d5
-    high: h5
-    level: lv7
-    low: l7
+    dist: 5
+    high: 5
+    level: 7
+    low: 7
   file: captures/03rkbcpsovrb_a2.nam
 - values:
-    dist: d0
-    high: h8
-    level: lv5
-    low: l5
+    dist: 0
+    high: 8
+    level: 5
+    low: 5
   file: captures/f0hhoej2u9_a2.nam
 - values:
-    dist: d5
-    high: h10
-    level: lv7
-    low: l10
+    dist: 5
+    high: 10
+    level: 7
+    low: 10
   file: captures/nm6mev4n0a_a2.nam
 - values:
-    dist: d10
-    high: h10
-    level: lv7
-    low: l10
+    dist: 10
+    high: 10
+    level: 7
+    low: 10
   file: captures/f7o7bgqy2lo_a2.nam
 - values:
-    dist: d2
-    high: h9
-    level: lv10
-    low: l9
+    dist: 2
+    high: 9
+    level: 10
+    low: 9
   file: captures/t7u8b8gltpk_a2.nam
 - values:
-    dist: d5
-    high: h8
-    level: lv7
-    low: l5
+    dist: 5
+    high: 8
+    level: 7
+    low: 5
   file: captures/5fpqqphbuus_a2.nam
 - values:
-    dist: d0
-    high: h8
-    level: lv7
-    low: l5
+    dist: 0
+    high: 8
+    level: 7
+    low: 5
   file: captures/spxsw237th_a2.nam
 - values:
-    dist: d10
-    high: h8
-    level: lv7
-    low: l5
+    dist: 10
+    high: 8
+    level: 7
+    low: 5
   file: captures/rpl5sm5r3ne_a2.nam
 - values:
-    dist: d5
-    high: h9
-    level: lv5
-    low: l9
+    dist: 5
+    high: 9
+    level: 5
+    low: 9
   file: captures/py22mxe32hi_a2.nam
 - values:
-    dist: d10
-    high: h10
-    level: lv5
-    low: l10
+    dist: 10
+    high: 10
+    level: 5
+    low: 10
   file: captures/5bxcubc1upd_a2.nam
 - values:
-    dist: d10
-    high: h9
-    level: lv10
-    low: l9
+    dist: 10
+    high: 9
+    level: 10
+    low: 9
   file: captures/k9s9vfxbf39_a2.nam
 - values:
-    dist: d10
-    high: h5
-    level: lv7
-    low: l7
+    dist: 10
+    high: 5
+    level: 7
+    low: 7
   file: captures/c7pzniz1b5_a2.nam
 - values:
-    dist: d10
-    high: h9
-    level: lv5
-    low: l9
+    dist: 10
+    high: 9
+    level: 5
+    low: 9
   file: captures/v0mh3nii6mh_a2.nam
 - values:
-    dist: d2
-    high: h5
-    level: lv5
-    low: l7
+    dist: 2
+    high: 5
+    level: 5
+    low: 7
   file: captures/y75bidigkyf_a2.nam
 - values:
-    dist: d0
-    high: h9
-    level: lv7
-    low: l9
+    dist: 0
+    high: 9
+    level: 7
+    low: 9
   file: captures/xlkagi3m4ak_a2.nam
 - values:
-    dist: d2
-    high: h9
-    level: lv5
-    low: l9
+    dist: 2
+    high: 9
+    level: 5
+    low: 9
   file: captures/m5k046m7s8_a2.nam
 - values:
-    dist: d2
-    high: h10
-    level: lv7
-    low: l10
+    dist: 2
+    high: 10
+    level: 7
+    low: 10
   file: captures/p6z8jmqrt0b_a2.nam
 - values:
-    dist: d10
-    high: h5
-    level: lv5
-    low: l7
+    dist: 10
+    high: 5
+    level: 5
+    low: 7
   file: captures/dww8v6yv2mn_a2.nam
 - values:
-    dist: d10
-    high: h9
-    level: lv7
-    low: l9
+    dist: 10
+    high: 9
+    level: 7
+    low: 9
   file: captures/7bxyh3wa3i_a2.nam
 - values:
-    dist: d0
-    high: h5
-    level: lv7
-    low: l7
+    dist: 0
+    high: 5
+    level: 7
+    low: 7
   file: captures/ed68sgs9qtk_a2.nam
 - values:
-    dist: d10
-    high: h10
-    level: lv10
-    low: l10
+    dist: 10
+    high: 10
+    level: 10
+    low: 10
   file: captures/7ed6bf2vym3_a2.nam

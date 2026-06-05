@@ -10,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64322
 parameters:
-- name: model
-  display_name: Model
+- name: channel
+  display_name: Channel
   values:
   - el34_juice
   - pre_hbe_01
@@ -29,44 +29,44 @@ parameters:
   - hbe_tallica
 captures:
 - values:
-    model: el34_juice
+    channel: el34_juice
   file: captures/g2ufcfcik7k_a2.nam
 - values:
-    model: pre_hbe_01
+    channel: pre_hbe_01
   file: captures/157fm9cf2ea_a2.nam
 - values:
-    model: pre_be_01
+    channel: pre_be_01
   file: captures/2gzm1geqta_a2.nam
 - values:
-    model: pre_be_13
+    channel: pre_be_13
   file: captures/3693apnmfkx_a2.nam
 - values:
-    model: cln_rock
+    channel: cln_rock
   file: captures/tr9ecbm8v9_a2.nam
 - values:
-    model: pre_cln_02
+    channel: pre_cln_02
   file: captures/bdp8ota7ll9_a2.nam
 - values:
-    model: be_cogs
+    channel: be_cogs
   file: captures/w8c999evm9_a2.nam
 - values:
-    model: hbe_mammoth
+    channel: hbe_mammoth
   file: captures/7deazet4ck7_a2.nam
 - values:
-    model: hbe_tallica
+    channel: hbe_tallica
   file: captures/r9hba58ccca_a2.nam
 - values:
-    model: pre_hbe_13
+    channel: pre_hbe_13
   file: captures/dcw841i99r7_a2.nam
 - values:
-    model: pre_cln_03
+    channel: pre_cln_03
   file: captures/twjt8djuuud_a2.nam
 - values:
-    model: cln_tender
+    channel: cln_tender
   file: captures/be081mrxmr_a2.nam
 - values:
-    model: be_eddie
+    channel: be_eddie
   file: captures/nur5fjp7yy_a2.nam
 - values:
-    model: be_test
+    channel: be_test
   file: captures/clpf2wat64a_a2.nam

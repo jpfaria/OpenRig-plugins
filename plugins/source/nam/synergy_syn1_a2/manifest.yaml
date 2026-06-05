@@ -17,8 +17,8 @@ parameters:
   - jcm800
   - dzl_herbert
   - evh5153s
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
   - red
   - red_v2
@@ -28,37 +28,37 @@ parameters:
 captures:
 - values:
     module: syn20ir
-    voicing: red
+    preset: red
   file: captures/c5j9vc5xyal_a2.nam
 - values:
     module: syn20ir
-    voicing: loomis
+    preset: loomis
   file: captures/uew1fned1io_a2.nam
 - values:
     module: jcm800
-    voicing: red
+    preset: red
   file: captures/jgeeu8ndef_a2.nam
 - values:
     module: syn20ir
-    voicing: green
+    preset: green
   file: captures/0r20977z08hc_a2.nam
 - values:
     module: syn20ir
-    voicing: red_v2
+    preset: red_v2
   file: captures/rtlyovba7aq_a2.nam
 - values:
     module: dzl_herbert
-    voicing: red
+    preset: red
   file: captures/qxab1v7ullf_a2.nam
 - values:
     module: dzl_herbert
-    voicing: more_gain
+    preset: more_gain
   file: captures/7g5faia9vvx_a2.nam
 - values:
     module: dzl_herbert
-    voicing: green
+    preset: green
   file: captures/ybvx4h86aj_a2.nam
 - values:
     module: evh5153s
-    voicing: red
+    preset: red
   file: captures/70l6yail9v7_a2.nam

@@ -15,58 +15,58 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
 captures:
 - values:
     channel: blue
-    gain: '1'
+    gain: 1
   file: captures/blue_gain_1.nam
 - values:
     channel: blue
-    gain: '2'
+    gain: 2
   file: captures/blue_gain_2.nam
 - values:
     channel: blue
-    gain: '3'
+    gain: 3
   file: captures/blue_gain_3.nam
 - values:
     channel: blue
-    gain: '4'
+    gain: 4
   file: captures/blue_gain_4.nam
 - values:
     channel: blue
-    gain: '5'
+    gain: 5
   file: captures/blue_gain_5.nam
 - values:
     channel: blue
-    gain: '6'
+    gain: 6
   file: captures/blue_gain_6.nam
 - values:
     channel: green
-    gain: '1'
+    gain: 1
   file: captures/green_gain_1.nam
 - values:
     channel: green
-    gain: '2'
+    gain: 2
   file: captures/green_gain_2.nam
 - values:
     channel: green
-    gain: '3'
+    gain: 3
   file: captures/green_gain_3.nam
 - values:
     channel: green
-    gain: '4'
+    gain: 4
   file: captures/green_gain_4.nam
 - values:
     channel: green
-    gain: '5'
+    gain: 5
   file: captures/green_gain_5.nam
 - values:
     channel: green
-    gain: '6'
+    gain: 6
   file: captures/green_gain_6.nam

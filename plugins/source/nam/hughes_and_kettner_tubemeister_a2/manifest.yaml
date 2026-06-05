@@ -12,9 +12,9 @@ parameters:
 - name: mv
   display_name: Master Volume
   values:
-  - mv1
-  - mv2
-  - mv3
+  - 1
+  - 2
+  - 3
 - name: channel
   display_name: Channel
   values:
@@ -29,91 +29,91 @@ parameters:
 captures:
 - values:
     channel: crunch
-    mv: mv3
+    mv: 3
     variant: std
   file: captures/132bovboyev_a2.nam
 - values:
     channel: crunch
-    mv: mv1
+    mv: 1
     variant: dco
   file: captures/tf20lrp3i1l_a2.nam
 - values:
     channel: crunch
-    mv: mv3
+    mv: 3
     variant: dco
   file: captures/m4ao5nydysf_a2.nam
 - values:
     channel: clean
-    mv: mv1
+    mv: 1
     variant: dco
   file: captures/yblbqrppgpc_a2.nam
 - values:
     channel: crunch
-    mv: mv2
+    mv: 2
     variant: dco
   file: captures/qsd7wcvzrd_a2.nam
 - values:
     channel: lead
-    mv: mv3
+    mv: 3
     variant: dco
   file: captures/ijw8f2ji7i_a2.nam
 - values:
     channel: clean
-    mv: mv2
+    mv: 2
     variant: dco
   file: captures/388g6lenled_a2.nam
 - values:
     channel: lead
-    mv: mv3
+    mv: 3
     variant: std
   file: captures/podrw2r77u_a2.nam
 - values:
     channel: crunch
-    mv: mv2
+    mv: 2
     variant: std
   file: captures/0abkgr803o74_a2.nam
 - values:
     channel: clean
-    mv: mv3
+    mv: 3
     variant: dco
   file: captures/qs2qlagwgxd_a2.nam
 - values:
     channel: crunch
-    mv: mv1
+    mv: 1
     variant: std
   file: captures/sz110eh3bx8_a2.nam
 - values:
     channel: clean
-    mv: mv3
+    mv: 3
     variant: std
   file: captures/bdcafx3khh_a2.nam
 - values:
     channel: lead
-    mv: mv2
+    mv: 2
     variant: std
   file: captures/ez3wh5a76sb_a2.nam
 - values:
     channel: lead
-    mv: mv1
+    mv: 1
     variant: std
   file: captures/jnek5pqqgaa_a2.nam
 - values:
     channel: clean
-    mv: mv2
+    mv: 2
     variant: std
   file: captures/9ljti9r39i9_a2.nam
 - values:
     channel: lead
-    mv: mv2
+    mv: 2
     variant: dco
   file: captures/jbylzcaqnbc_a2.nam
 - values:
     channel: clean
-    mv: mv1
+    mv: 1
     variant: std
   file: captures/0k4btw9euhsr_a2.nam
 - values:
     channel: lead
-    mv: mv1
+    mv: 1
     variant: dco
   file: captures/42mqgl34rcc_a2.nam

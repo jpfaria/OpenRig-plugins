@@ -19,30 +19,30 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g10
-  - g12
+  - 10
+  - 12
 captures:
 - values:
     boost: off
-    gain: g12
+    gain: 12
   file: captures/s42mudyv2zj_a2.nam
 - values:
     boost: off
-    gain: g10
+    gain: 10
   file: captures/dnoc22y5o6s_a2.nam
 - values:
     boost: on
-    gain: g10
+    gain: 10
   file: captures/8qq9x5461t2_a2.nam
 - values:
     boost: on
-    gain: g12
+    gain: 12
   file: captures/okgqv4dpkbj_a2.nam
 - values:
     boost: tight
-    gain: g10
+    gain: 10
   file: captures/yq1fwaqxwys_a2.nam
 - values:
     boost: tight
-    gain: g12
+    gain: 12
   file: captures/c18b4lgvjyi_a2.nam

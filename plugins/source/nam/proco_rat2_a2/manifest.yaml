@@ -12,29 +12,29 @@ parameters:
 - name: dist
   display_name: Distortion
   values:
-  - d9
-  - d11
-  - d13
+  - 9
+  - 11
+  - 13
   - max
 - name: filter
   display_name: Filter
   values:
-  - f12
-  - f13
+  - 12
+  - 13
 captures:
 - values:
-    dist: d9
-    filter: f12
+    dist: 9
+    filter: 12
   file: captures/70gax1dujr9_a2.nam
 - values:
-    dist: d11
-    filter: f13
+    dist: 11
+    filter: 13
   file: captures/mzq9mng1xi_a2.nam
 - values:
     dist: max
-    filter: f12
+    filter: 12
   file: captures/i3c2uwi3oj7_a2.nam
 - values:
-    dist: d13
-    filter: f12
+    dist: 13
+    filter: 12
   file: captures/wdpwdfaw22_a2.nam

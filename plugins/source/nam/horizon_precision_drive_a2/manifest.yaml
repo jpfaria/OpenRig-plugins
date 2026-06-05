@@ -12,8 +12,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - l7
+  - default
 captures:
 - values:
-    model: l7
+    model: default
   file: captures/vddf6bkzsf_a2.nam

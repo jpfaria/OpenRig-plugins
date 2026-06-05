@@ -10,32 +10,32 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - '0'
-  - '25'
-  - '40'
-  - '50'
-  - '60'
-  - '75'
-  - '100'
+  - 0
+  - 25
+  - 40
+  - 50
+  - 60
+  - 75
+  - 100
 captures:
 - values:
-    drive: '0'
+    drive: 0
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_00.nam
 - values:
-    drive: '25'
+    drive: 25
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_25.nam
 - values:
-    drive: '40'
+    drive: 40
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_40.nam
 - values:
-    drive: '50'
+    drive: 50
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_50.nam
 - values:
-    drive: '60'
+    drive: 60
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_60.nam
 - values:
-    drive: '75'
+    drive: 75
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_75.nam
 - values:
-    drive: '100'
+    drive: 100
   file: captures/gp_eh_soul_food_vol_10_treb_05_drive_100.nam

@@ -19,12 +19,12 @@ parameters:
 - name: gain_level
   display_name: Gain Level
   values:
-  - g1_5
-  - g3
-  - g5
-  - g7
-  - g8
-  - g9
+  - 1.5
+  - 3
+  - 5
+  - 7
+  - 8
+  - 9
 - name: rev
   display_name: Revision
   values:
@@ -33,82 +33,82 @@ parameters:
   - v8
 captures:
 - values:
-    gain_level: g3
+    gain_level: 3
     rev: v5
     voicing: clean
   file: captures/pdozx0xu7o9_a2.nam
 - values:
-    gain_level: g7
+    gain_level: 7
     rev: v7
     voicing: hg
   file: captures/cy2pf2r9r5l_a2.nam
 - values:
-    gain_level: g5
+    gain_level: 5
     rev: v7
     voicing: od
   file: captures/o07u6yik5s_a2.nam
 - values:
-    gain_level: g1_5
+    gain_level: 1.5
     rev: v7
     voicing: crunch
   file: captures/n5n3eqvyq2_a2.nam
 - values:
-    gain_level: g5
+    gain_level: 5
     rev: v7
     voicing: crunch
   file: captures/dksy2v5yeip_a2.nam
 - values:
-    gain_level: g3
+    gain_level: 3
     rev: v7
     voicing: crunch
   file: captures/9jx45afueae_a2.nam
 - values:
-    gain_level: g8
+    gain_level: 8
     rev: v8
     voicing: crunch
   file: captures/st48rmwwub8_a2.nam
 - values:
-    gain_level: g7
+    gain_level: 7
     rev: v7
     voicing: clean
   file: captures/gkwar8m4ei5_a2.nam
 - values:
-    gain_level: g5
+    gain_level: 5
     rev: v5
     voicing: clean
   file: captures/drjbv3ofgna_a2.nam
 - values:
-    gain_level: g7
+    gain_level: 7
     rev: v7
     voicing: crunch
   file: captures/wsvr2dx6gw_a2.nam
 - values:
-    gain_level: g3
+    gain_level: 3
     rev: v7
     voicing: hg
   file: captures/kv9zhhvuv5s_a2.nam
 - values:
-    gain_level: g1_5
+    gain_level: 1.5
     rev: v7
     voicing: od
   file: captures/xh64s24a86_a2.nam
 - values:
-    gain_level: g7
+    gain_level: 7
     rev: v7
     voicing: od
   file: captures/tspf608zzmp_a2.nam
 - values:
-    gain_level: g3
+    gain_level: 3
     rev: v7
     voicing: od
   file: captures/d6go47cmngq_a2.nam
 - values:
-    gain_level: g9
+    gain_level: 9
     rev: v5
     voicing: clean
   file: captures/cameftppjw9_a2.nam
 - values:
-    gain_level: g7
+    gain_level: 7
     rev: v5
     voicing: clean
   file: captures/vyxduvqjs9_a2.nam

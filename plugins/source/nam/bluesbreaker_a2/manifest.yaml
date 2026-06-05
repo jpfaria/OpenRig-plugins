@@ -13,8 +13,8 @@ parameters:
 - name: model
   display_name: Model
   values:
-  - setting1
+  - default
 captures:
 - values:
-    model: setting1
+    model: default
   file: captures/31aeae1256b36839_a2.nam

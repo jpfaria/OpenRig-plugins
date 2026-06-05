@@ -12,8 +12,8 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - angry_charlie_v2
+  - default
 captures:
 - values:
-    tone: angry_charlie_v2
+    tone: default
   file: captures/mwp1twdokni_a2.nam

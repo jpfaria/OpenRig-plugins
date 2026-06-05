@@ -13,57 +13,57 @@ parameters:
 - name: volume1
   display_name: Volume I
   values:
-  - v0
-  - v1
-  - v2
-  - v3
-  - v4
-  - v5
-  - v6
-  - v7
-  - v8
-  - v9
-  - v10
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 - name: volume2
   display_name: Volume II
   values:
-  - v0
-  - v1
-  - v2
-  - v3
-  - v4
-  - v5
-  - v6
-  - v7
-  - v8
-  - v9
-  - v10
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 - name: tone
   display_name: Treble
   values:
-  - v5
-  - v6
+  - 5
+  - 6
 - name: mid
   display_name: Middle
   values:
-  - v5
-  - v6
+  - 5
+  - 6
 - name: bass
   display_name: Bass
   values:
-  - v0
-  - v1
-  - v2
-  - v3
-  - v4
-  - v5
-  - v6
-  - v7
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
 - name: presence
   display_name: Presence
   values:
-  - v5
-  - v6
+  - 5
+  - 6
 - name: jump
   display_name: Jumpered
   values:
@@ -71,263 +71,263 @@ parameters:
   - on
 captures:
 - values:
-    bass: v0
+    bass: 0
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v10
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 10
   file: captures/d0dfa940a8d71966_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v3
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 3
   file: captures/ef0f00c92dcccb55_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v3
-    volume2: v2
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 3
+    volume2: 2
   file: captures/a185f271dcc3519d_a2.nam
 - values:
-    bass: v7
+    bass: 7
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v3
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 3
+    volume2: 0
   file: captures/f14c25c60e3247e7_a2.nam
 - values:
-    bass: v2
+    bass: 2
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v8
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 8
   file: captures/6b30fa8618a0ddaf_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v8
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 8
+    volume2: 0
   file: captures/472f2e4dc9599741_a2.nam
 - values:
-    bass: v6
+    bass: 6
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v7
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 7
+    volume2: 0
   file: captures/b332fd5abd75ba95_a2.nam
 - values:
-    bass: v4
+    bass: 4
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v6
-    volume2: v5
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 6
+    volume2: 5
   file: captures/bf385dc25c2a29fb_a2.nam
 - values:
-    bass: v7
+    bass: 7
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v1
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 1
+    volume2: 0
   file: captures/c1ea8294e520c28a_a2.nam
 - values:
-    bass: v7
+    bass: 7
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v6
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 6
+    volume2: 0
   file: captures/d8388c7cb5fdbbd2_a2.nam
 - values:
-    bass: v2
+    bass: 2
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v8
-    volume2: v7
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 8
+    volume2: 7
   file: captures/961fccca89601234_a2.nam
 - values:
-    bass: v3
+    bass: 3
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v7
-    volume2: v6
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 7
+    volume2: 6
   file: captures/b292eebec2c05bd1_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v1
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 1
   file: captures/851e77b312d9dcd3_a2.nam
 - values:
-    bass: v3
+    bass: 3
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v10
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 10
+    volume2: 0
   file: captures/965e832c9d30385a_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v2
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 2
   file: captures/d0a654ce12cb6a5a_a2.nam
 - values:
-    bass: v4
+    bass: 4
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v6
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 6
   file: captures/2ab8aeee417f9efa_a2.nam
 - values:
-    bass: v0
+    bass: 0
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v10
-    volume2: v9
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 10
+    volume2: 9
   file: captures/76c80a2aef71a81e_a2.nam
 - values:
-    bass: v7
+    bass: 7
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v5
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 5
+    volume2: 0
   file: captures/cfa7b842531eea4b_a2.nam
 - values:
-    bass: v1
+    bass: 1
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v9
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 9
   file: captures/4df7f8dade8425cb_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v4
-    volume2: v3
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 4
+    volume2: 3
   file: captures/1f26faadf4c16fe4_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v5
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 5
   file: captures/2d855aa331f4cef1_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v5
-    volume2: v4
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 5
+    volume2: 4
   file: captures/328c3c36f4614e8c_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v4
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 4
   file: captures/c711f2cfe8ebe0e1_a2.nam
 - values:
-    bass: v3
+    bass: 3
     jump: off
-    mid: v6
-    presence: v6
-    tone: v6
-    volume1: v0
-    volume2: v7
+    mid: 6
+    presence: 6
+    tone: 6
+    volume1: 0
+    volume2: 7
   file: captures/d96af25a08ce7b94_a2.nam
 - values:
-    bass: v7
+    bass: 7
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v2
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 2
+    volume2: 0
   file: captures/25a087ad8afd55fd_a2.nam
 - values:
-    bass: v5
+    bass: 5
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v2
-    volume2: v1
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 2
+    volume2: 1
   file: captures/e98acf85ec956bed_a2.nam
 - values:
-    bass: v1
+    bass: 1
     jump: on
-    mid: v5
-    presence: v5
-    tone: v5
-    volume1: v9
-    volume2: v8
+    mid: 5
+    presence: 5
+    tone: 5
+    volume1: 9
+    volume2: 8
   file: captures/71d2934d75de72fd_a2.nam
 - values:
-    bass: v7
+    bass: 7
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v4
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 4
+    volume2: 0
   file: captures/1aed4f138deba73d_a2.nam
 - values:
-    bass: v4
+    bass: 4
     jump: off
-    mid: v6
-    presence: v5
-    tone: v5
-    volume1: v9
-    volume2: v0
+    mid: 6
+    presence: 5
+    tone: 5
+    volume1: 9
+    volume2: 0
   file: captures/e4370f99e61ec5a1_a2.nam

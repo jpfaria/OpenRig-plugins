@@ -10,45 +10,45 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - '5'
-  - '7'
+  - 5
+  - 7
 - name: grunge
   display_name: Grunge
   values:
-  - '3'
-  - '5'
-  - '7'
-  - '9'
+  - 3
+  - 5
+  - 7
+  - 9
 captures:
 - values:
-    grunge: '3'
-    tone: '5'
+    grunge: 3
+    tone: 5
   file: captures/digitech_grunge_tone_5_grunge_3.nam
 - values:
-    grunge: '5'
-    tone: '5'
+    grunge: 5
+    tone: 5
   file: captures/digitech_grunge_tone_5_grunge_5.nam
 - values:
-    grunge: '7'
-    tone: '5'
+    grunge: 7
+    tone: 5
   file: captures/digitech_grunge_tone_5_grunge_7.nam
 - values:
-    grunge: '9'
-    tone: '5'
+    grunge: 9
+    tone: 5
   file: captures/digitech_grunge_tone_5_grunge_9.nam
 - values:
-    grunge: '3'
-    tone: '7'
+    grunge: 3
+    tone: 7
   file: captures/digitech_grunge_tone_7_grunge_3.nam
 - values:
-    grunge: '5'
-    tone: '7'
+    grunge: 5
+    tone: 7
   file: captures/digitech_grunge_tone_7_grunge_5.nam
 - values:
-    grunge: '7'
-    tone: '7'
+    grunge: 7
+    tone: 7
   file: captures/digitech_grunge_tone_7_grunge_7.nam
 - values:
-    grunge: '9'
-    tone: '7'
+    grunge: 9
+    tone: 7
   file: captures/digitech_grunge_tone_7_grunge_9.nam

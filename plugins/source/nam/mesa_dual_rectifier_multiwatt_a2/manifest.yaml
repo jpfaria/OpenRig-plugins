@@ -18,9 +18,9 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g1
-  - g2
-  - g3
+  - 1
+  - 2
+  - 3
 - name: rectifier
   display_name: Rectifier
   values:
@@ -29,249 +29,249 @@ parameters:
 - name: take
   display_name: Take
   values:
-  - t1
-  - t2
-  - t3
-  - t4
-  - t5
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 captures:
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t3
+    take: 3
   file: captures/rce2ek7tr3_a2.nam
 - values:
     channel: orange
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t2
+    take: 2
   file: captures/ae4yw43noio_a2.nam
 - values:
     channel: red
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t1
+    take: 1
   file: captures/qm798wcq9q_a2.nam
 - values:
     channel: red
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t5
+    take: 5
   file: captures/fxo7zhxozdc_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t5
+    take: 5
   file: captures/kcu2nyhtc5h_a2.nam
 - values:
     channel: red
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t2
+    take: 2
   file: captures/8yluq2axggl_a2.nam
 - values:
     channel: orange
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t2
+    take: 2
   file: captures/e1hurfm9g4_a2.nam
 - values:
     channel: orange
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t4
+    take: 4
   file: captures/ss8u7frj68_a2.nam
 - values:
     channel: orange
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t3
+    take: 3
   file: captures/lm9egingmmb_a2.nam
 - values:
     channel: red
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t5
+    take: 5
   file: captures/epupe733nml_a2.nam
 - values:
     channel: red
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t4
+    take: 4
   file: captures/f2kbap0hyb_a2.nam
 - values:
     channel: red
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t1
+    take: 1
   file: captures/p19a98ockd9_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t2
+    take: 2
   file: captures/80behkg9tqk_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t2
+    take: 2
   file: captures/802zm1cvhcm_a2.nam
 - values:
     channel: orange
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t1
+    take: 1
   file: captures/51isw1etx82_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t1
+    take: 1
   file: captures/zk0jwp2e43_a2.nam
 - values:
     channel: orange
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t3
+    take: 3
   file: captures/l4iaqxn1z5_a2.nam
 - values:
     channel: red
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t3
+    take: 3
   file: captures/uqgxmfnp80i_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t4
+    take: 4
   file: captures/hg6hrjl3nth_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t2
+    take: 2
   file: captures/ynl2a9kvv6_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t3
+    take: 3
   file: captures/79r0x6e4z3o_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t5
+    take: 5
   file: captures/munq8epfnp_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t1
+    take: 1
   file: captures/231gqhnf0t9_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t4
+    take: 4
   file: captures/fz1knbpsj8i_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t1
+    take: 1
   file: captures/4o2cywgdzwj_a2.nam
 - values:
     channel: orange
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t1
+    take: 1
   file: captures/yofu2uyiocr_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t3
+    take: 3
   file: captures/sbcn7p4gp9g_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t4
+    take: 4
   file: captures/6lblkcsfz6t_a2.nam
 - values:
     channel: orange
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t5
+    take: 5
   file: captures/lraf9ixmii_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t1
+    take: 1
   file: captures/a9kj82uj8zt_a2.nam
 - values:
     channel: orange
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t4
+    take: 4
   file: captures/jfa2tj42xuo_a2.nam
 - values:
     channel: red
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t4
+    take: 4
   file: captures/l711oa5njb_a2.nam
 - values:
     channel: orange
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t5
+    take: 5
   file: captures/pqz3y3gk4z_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t5
+    take: 5
   file: captures/0rx28mw364b_a2.nam
 - values:
     channel: orange
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t4
+    take: 4
   file: captures/oyg87clzs1_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: 5u4
-    take: t5
+    take: 5
   file: captures/tie57n12de_a2.nam
 - values:
     channel: red
-    gain: g1
+    gain: 1
     rectifier: diode
-    take: t2
+    take: 2
   file: captures/1rwuoomfwvl_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t3
+    take: 3
   file: captures/j04zo1fxkgr_a2.nam
 - values:
     channel: red
-    gain: g2
+    gain: 2
     rectifier: diode
-    take: t2
+    take: 2
   file: captures/y42karu9nf_a2.nam
 - values:
     channel: red
-    gain: g3
+    gain: 3
     rectifier: diode
-    take: t3
+    take: 3
   file: captures/3cx3n0xmknk_a2.nam
