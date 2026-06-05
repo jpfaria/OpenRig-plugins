@@ -14,301 +14,301 @@ parameters:
   values:
   - bc
   - fl
-- name: drive
-  display_name: Drive
+- name: gain
+  display_name: Gain
   values:
-  - d3
-  - d4
-  - d5
-  - d6
-  - d7
-  - d8
-  - d9
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
 - name: tone
   display_name: Tone
   values:
-  - t4
-  - t5
-  - t6
-  - t7
+  - 4
+  - 5
+  - 6
+  - 7
 captures:
 - values:
-    drive: d3
-    tone: t6
+    gain: 3
+    tone: 6
     voicing: bc
   file: captures/ndk19pym4n_a2.nam
 - values:
-    drive: d4
-    tone: t6
+    gain: 4
+    tone: 6
     voicing: bc
   file: captures/7zwydmgoszs_a2.nam
 - values:
-    drive: d8
-    tone: t5
+    gain: 8
+    tone: 5
     voicing: fl
   file: captures/dtb68jmddzj_a2.nam
 - values:
-    drive: d4
-    tone: t5
+    gain: 4
+    tone: 5
     voicing: fl
   file: captures/x0bbb3vgm_a2.nam
 - values:
-    drive: d3
-    tone: t5
+    gain: 3
+    tone: 5
     voicing: fl
   file: captures/aczg83w58fd_a2.nam
 - values:
-    drive: d5
-    tone: t7
+    gain: 5
+    tone: 7
     voicing: bc
   file: captures/ftbv0eh47wu_a2.nam
 - values:
-    drive: d6
-    tone: t6
+    gain: 6
+    tone: 6
     voicing: bc
   file: captures/y98fpb2gje_a2.nam
 - values:
-    drive: d3
-    tone: t6
+    gain: 3
+    tone: 6
     voicing: fl
   file: captures/bxfwxgwfknv_a2.nam
 - values:
-    drive: d5
-    tone: t7
+    gain: 5
+    tone: 7
     voicing: fl
   file: captures/sa0k433uz1_a2.nam
 - values:
-    drive: d5
-    tone: t6
+    gain: 5
+    tone: 6
     voicing: fl
   file: captures/8q4140lw3pn_a2.nam
 - values:
-    drive: d3
-    tone: t4
+    gain: 3
+    tone: 4
     voicing: fl
   file: captures/4qfh9qlhsl4_a2.nam
 - values:
-    drive: d7
-    tone: t5
+    gain: 7
+    tone: 5
     voicing: fl
   file: captures/gonf1a6u2zm_a2.nam
 - values:
-    drive: d4
-    tone: t4
+    gain: 4
+    tone: 4
     voicing: bc
   file: captures/3ptsz2lgrd9_a2.nam
 - values:
-    drive: d9
-    tone: t4
+    gain: 9
+    tone: 4
     voicing: bc
   file: captures/sr1br1sr9sq_a2.nam
 - values:
-    drive: d3
-    tone: t5
+    gain: 3
+    tone: 5
     voicing: bc
   file: captures/py8ryxgpvbe_a2.nam
 - values:
-    drive: d4
-    tone: t7
+    gain: 4
+    tone: 7
     voicing: fl
   file: captures/vmttg15f8j_a2.nam
 - values:
-    drive: d9
-    tone: t7
+    gain: 9
+    tone: 7
     voicing: fl
   file: captures/tivw50cw4ti_a2.nam
 - values:
-    drive: d5
-    tone: t6
+    gain: 5
+    tone: 6
     voicing: bc
   file: captures/so2larm8g8_a2.nam
 - values:
-    drive: d5
-    tone: t4
+    gain: 5
+    tone: 4
     voicing: bc
   file: captures/8kg1z6rmyd_a2.nam
 - values:
-    drive: d7
-    tone: t5
+    gain: 7
+    tone: 5
     voicing: bc
   file: captures/emj4x9mw6uj_a2.nam
 - values:
-    drive: d5
-    tone: t4
+    gain: 5
+    tone: 4
     voicing: fl
   file: captures/mi0pii3xxxe_a2.nam
 - values:
-    drive: d9
-    tone: t4
+    gain: 9
+    tone: 4
     voicing: fl
   file: captures/meoewedk0qk_a2.nam
 - values:
-    drive: d9
-    tone: t6
+    gain: 9
+    tone: 6
     voicing: fl
   file: captures/y5uei9jkv2c_a2.nam
 - values:
-    drive: d9
-    tone: t5
+    gain: 9
+    tone: 5
     voicing: fl
   file: captures/ex2j964qrss_a2.nam
 - values:
-    drive: d4
-    tone: t6
+    gain: 4
+    tone: 6
     voicing: fl
   file: captures/wa3rkem4njf_a2.nam
 - values:
-    drive: d6
-    tone: t7
+    gain: 6
+    tone: 7
     voicing: fl
   file: captures/fwkiixnu03_a2.nam
 - values:
-    drive: d8
-    tone: t5
+    gain: 8
+    tone: 5
     voicing: bc
   file: captures/bql7lz8kbr_a2.nam
 - values:
-    drive: d4
-    tone: t7
+    gain: 4
+    tone: 7
     voicing: bc
   file: captures/k8srek358vf_a2.nam
 - values:
-    drive: d8
-    tone: t7
+    gain: 8
+    tone: 7
     voicing: bc
   file: captures/9mxvd702f45_a2.nam
 - values:
-    drive: d3
-    tone: t7
+    gain: 3
+    tone: 7
     voicing: bc
   file: captures/1tkrc4wjtmv_a2.nam
 - values:
-    drive: d3
-    tone: t4
+    gain: 3
+    tone: 4
     voicing: bc
   file: captures/qc5gmi0es9d_a2.nam
 - values:
-    drive: d4
-    tone: t4
+    gain: 4
+    tone: 4
     voicing: fl
   file: captures/u3ppyd8r7w_a2.nam
 - values:
-    drive: d6
-    tone: t4
+    gain: 6
+    tone: 4
     voicing: fl
   file: captures/ljlpz3oic4_a2.nam
 - values:
-    drive: d7
-    tone: t4
+    gain: 7
+    tone: 4
     voicing: bc
   file: captures/prqml7v09dd_a2.nam
 - values:
-    drive: d6
-    tone: t5
+    gain: 6
+    tone: 5
     voicing: bc
   file: captures/33mileym8y6_a2.nam
 - values:
-    drive: d8
-    tone: t7
+    gain: 8
+    tone: 7
     voicing: fl
   file: captures/bsdfru4cdb_a2.nam
 - values:
-    drive: d3
-    tone: t7
+    gain: 3
+    tone: 7
     voicing: fl
   file: captures/qn7cq8r0za_a2.nam
 - values:
-    drive: d7
-    tone: t6
+    gain: 7
+    tone: 6
     voicing: bc
   file: captures/0xz4fekrqafb_a2.nam
 - values:
-    drive: d8
-    tone: t6
+    gain: 8
+    tone: 6
     voicing: bc
   file: captures/fbj2lf9l2vs_a2.nam
 - values:
-    drive: d8
-    tone: t4
+    gain: 8
+    tone: 4
     voicing: bc
   file: captures/7tj34cj2geh_a2.nam
 - values:
-    drive: d5
-    tone: t5
+    gain: 5
+    tone: 5
     voicing: fl
   file: captures/g46ssst63ws_a2.nam
 - values:
-    drive: d7
-    tone: t7
+    gain: 7
+    tone: 7
     voicing: bc
   file: captures/ry6y3haoueb_a2.nam
 - values:
-    drive: d9
-    tone: t5
+    gain: 9
+    tone: 5
     voicing: bc
   file: captures/cd5kxkwi25s_a2.nam
 - values:
-    drive: d5
-    tone: t5
+    gain: 5
+    tone: 5
     voicing: bc
   file: captures/7pv7rywusrj_a2.nam
 - values:
-    drive: d9
-    tone: t6
+    gain: 9
+    tone: 6
     voicing: bc
   file: captures/gt5s39t5mp_a2.nam
 - values:
-    drive: d7
-    tone: t6
+    gain: 7
+    tone: 6
     voicing: fl
   file: captures/9g3jx8o3t2q_a2.nam
 - values:
-    drive: d7
-    tone: t4
+    gain: 7
+    tone: 4
     voicing: fl
   file: captures/u14pwdqb04m_a2.nam
 - values:
-    drive: d6
-    tone: t7
+    gain: 6
+    tone: 7
     voicing: bc
   file: captures/10yt7la6h_a2.nam
 - values:
-    drive: d8
-    tone: t6
+    gain: 8
+    tone: 6
     voicing: fl
   file: captures/lout7gr2uzl_a2.nam
 - values:
-    drive: d6
-    tone: t5
+    gain: 6
+    tone: 5
     voicing: fl
   file: captures/673dwntklfq_a2.nam
 - values:
-    drive: d4
-    tone: t5
+    gain: 4
+    tone: 5
     voicing: bc
   file: captures/x4gthke4kz_a2.nam
 - values:
-    drive: d8
-    tone: t4
+    gain: 8
+    tone: 4
     voicing: fl
   file: captures/c38zgbso1cp_a2.nam
 - values:
-    drive: d6
-    tone: t4
+    gain: 6
+    tone: 4
     voicing: bc
   file: captures/o5h7ulm6rub_a2.nam
 - values:
-    drive: d9
-    tone: t7
+    gain: 9
+    tone: 7
     voicing: bc
   file: captures/ier51l1arxe_a2.nam
 - values:
-    drive: d7
-    tone: t7
+    gain: 7
+    tone: 7
     voicing: fl
   file: captures/p3txtuhbzg_a2.nam
 - values:
-    drive: d6
-    tone: t6
+    gain: 6
+    tone: 6
     voicing: fl
   file: captures/r1uacg9bje7_a2.nam

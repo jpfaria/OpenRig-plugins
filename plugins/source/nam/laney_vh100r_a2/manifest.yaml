@@ -19,72 +19,72 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g5
-  - g7
-  - g8
-  - g10
+  - 5
+  - 7
+  - 8
+  - 10
 captures:
 - values:
-    gain: g10
+    gain: 10
     voicing: treble
   file: captures/led0kw114g_a2.nam
 - values:
-    gain: g5
+    gain: 5
     voicing: treble
   file: captures/rx9xgrsfjbb_a2.nam
 - values:
-    gain: g8
+    gain: 8
     voicing: treble_drive
   file: captures/05831ruvahgw_a2.nam
 - values:
-    gain: g5
+    gain: 5
     voicing: neutral_drive
   file: captures/r4n1crjltv_a2.nam
 - values:
-    gain: g7
+    gain: 7
     voicing: neutral_drive
   file: captures/0rsr6dr8ndu_a2.nam
 - values:
-    gain: g7
+    gain: 7
     voicing: neutral
   file: captures/6no0am11fu3_a2.nam
 - values:
-    gain: g10
+    gain: 10
     voicing: neutral_drive
   file: captures/gfgvw1eq1gq_a2.nam
 - values:
-    gain: g7
+    gain: 7
     voicing: treble_drive
   file: captures/qwdlsdv73n_a2.nam
 - values:
-    gain: g5
+    gain: 5
     voicing: neutral
   file: captures/u0jn5dg48am_a2.nam
 - values:
-    gain: g8
+    gain: 8
     voicing: neutral_drive
   file: captures/53ogkjibfai_a2.nam
 - values:
-    gain: g5
+    gain: 5
     voicing: treble_drive
   file: captures/10evgvl4jabm_a2.nam
 - values:
-    gain: g8
+    gain: 8
     voicing: neutral
   file: captures/1c7bop9hbm1_a2.nam
 - values:
-    gain: g10
+    gain: 10
     voicing: neutral
   file: captures/y63qk0rupg8_a2.nam
 - values:
-    gain: g7
+    gain: 7
     voicing: treble
   file: captures/ypm0j3nlxu_a2.nam
 - values:
-    gain: g8
+    gain: 8
     voicing: treble
   file: captures/qo4fprdejnk_a2.nam
 - values:
-    gain: g10
+    gain: 10
     voicing: treble_drive
   file: captures/ungma0ye1st_a2.nam

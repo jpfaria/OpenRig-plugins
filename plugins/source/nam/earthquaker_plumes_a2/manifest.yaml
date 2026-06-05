@@ -20,8 +20,8 @@ captures:
     mode: ch1
   file: captures/2wi8hcm0nbf_a2.nam
 - values:
-    mode: ch3
-  file: captures/moj7bnwsmv_a2.nam
-- values:
     mode: ch2
   file: captures/58jj6cby2u4_a2.nam
+- values:
+    mode: ch3
+  file: captures/moj7bnwsmv_a2.nam

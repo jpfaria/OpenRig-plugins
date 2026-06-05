@@ -18,42 +18,42 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g4
-  - g8
-  - g10
-  - g12
-  - g16
-  - g20
+  - 4
+  - 8
+  - 10
+  - 12
+  - 16
+  - 20
 captures:
 - values:
     channel: ch2
-    gain: g20
+    gain: 20
   file: captures/nsezmqc33ts_a2.nam
 - values:
     channel: ch2
-    gain: g8
+    gain: 8
   file: captures/jw950rvo84_a2.nam
 - values:
     channel: ch2
-    gain: g16
+    gain: 16
   file: captures/kuo3bz6gyr_a2.nam
 - values:
     channel: ch2
-    gain: g4
+    gain: 4
   file: captures/zc1087eyw88_a2.nam
 - values:
     channel: ch1
-    gain: g10
+    gain: 10
   file: captures/f5jog4z2ue_a2.nam
 - values:
     channel: ch1
-    gain: g8
+    gain: 8
   file: captures/ce3i5g2uep_a2.nam
 - values:
     channel: ch2
-    gain: g12
+    gain: 12
   file: captures/rhl2ygrgsqe_a2.nam
 - values:
     channel: ch1
-    gain: g4
+    gain: 4
   file: captures/v60v54a3l0a_a2.nam

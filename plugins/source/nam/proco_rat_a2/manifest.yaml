@@ -19,22 +19,22 @@ parameters:
 - name: filter
   display_name: Filter
   values:
-  - f1200
-  - f1300
+  - 1.2
+  - 1.3
 captures:
 - values:
     dist: d0900
-    filter: f1200
+    filter: 1.2
   file: captures/70gax1dujr9_a2.nam
 - values:
     dist: d1100
-    filter: f1300
+    filter: 1.3
   file: captures/mzq9mng1xi_a2.nam
 - values:
     dist: dmax
-    filter: f1200
+    filter: 1.2
   file: captures/i3c2uwi3oj7_a2.nam
 - values:
     dist: d1300
-    filter: f1200
+    filter: 1.2
   file: captures/wdpwdfaw22_a2.nam

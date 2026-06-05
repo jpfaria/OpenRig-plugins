@@ -13,278 +13,278 @@ parameters:
 - name: level
   display_name: Level
   values:
-  - lvl6
-  - lvlmax
+  - 6
+  - max
 - name: drive
   display_name: Drive
   values:
-  - od0
-  - od1
-  - od2
-  - od3
-  - od4
-  - od5
-  - od6
-  - od7
-  - od8
-  - od9
-  - odmax
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - max
 - name: tone
   display_name: Tone
   values:
-  - t1
-  - t2
-  - t3
-  - t4
-  - t5
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 captures:
 - values:
-    drive: od0
-    level: lvl6
-    tone: t1
+    drive: 0
+    level: 6
+    tone: 1
   file: captures/x62179d6mg_a2.nam
 - values:
-    drive: od1
-    level: lvl6
-    tone: t1
+    drive: 1
+    level: 6
+    tone: 1
   file: captures/0jlevh64lt8g_a2.nam
 - values:
-    drive: od2
-    level: lvl6
-    tone: t1
+    drive: 2
+    level: 6
+    tone: 1
   file: captures/2brhjygpy6l_a2.nam
 - values:
-    drive: od3
-    level: lvl6
-    tone: t1
+    drive: 3
+    level: 6
+    tone: 1
   file: captures/m1ghmbbrrld_a2.nam
 - values:
-    drive: od4
-    level: lvl6
-    tone: t1
+    drive: 4
+    level: 6
+    tone: 1
   file: captures/hsu38ywckon_a2.nam
 - values:
-    drive: od5
-    level: lvl6
-    tone: t1
+    drive: 5
+    level: 6
+    tone: 1
   file: captures/dzqqtmj35mm_a2.nam
 - values:
-    drive: od6
-    level: lvl6
-    tone: t1
+    drive: 6
+    level: 6
+    tone: 1
   file: captures/7xzbr53w6xk_a2.nam
 - values:
-    drive: od7
-    level: lvl6
-    tone: t1
+    drive: 7
+    level: 6
+    tone: 1
   file: captures/yxaeirknc6_a2.nam
 - values:
-    drive: od8
-    level: lvl6
-    tone: t1
+    drive: 8
+    level: 6
+    tone: 1
   file: captures/z8xrbtc0hs_a2.nam
 - values:
-    drive: od9
-    level: lvl6
-    tone: t1
+    drive: 9
+    level: 6
+    tone: 1
   file: captures/qsw9ywlehw_a2.nam
 - values:
-    drive: odmax
-    level: lvl6
-    tone: t1
+    drive: max
+    level: 6
+    tone: 1
   file: captures/bbn3fean81_a2.nam
 - values:
-    drive: od0
-    level: lvl6
-    tone: t2
+    drive: 0
+    level: 6
+    tone: 2
   file: captures/qkgvsin4e5k_a2.nam
 - values:
-    drive: od1
-    level: lvl6
-    tone: t2
+    drive: 1
+    level: 6
+    tone: 2
   file: captures/klel8yeaan_a2.nam
 - values:
-    drive: od2
-    level: lvl6
-    tone: t2
+    drive: 2
+    level: 6
+    tone: 2
   file: captures/uwv3doom7wd_a2.nam
 - values:
-    drive: od3
-    level: lvl6
-    tone: t2
+    drive: 3
+    level: 6
+    tone: 2
   file: captures/3pih5apmskf_a2.nam
 - values:
-    drive: od4
-    level: lvl6
-    tone: t2
+    drive: 4
+    level: 6
+    tone: 2
   file: captures/nwh9lwhz7vm_a2.nam
 - values:
-    drive: od5
-    level: lvl6
-    tone: t2
+    drive: 5
+    level: 6
+    tone: 2
   file: captures/5enwbg8efe3_a2.nam
 - values:
-    drive: od6
-    level: lvl6
-    tone: t2
+    drive: 6
+    level: 6
+    tone: 2
   file: captures/57aj71d1bn6_a2.nam
 - values:
-    drive: od7
-    level: lvl6
-    tone: t2
+    drive: 7
+    level: 6
+    tone: 2
   file: captures/2381b4zihls_a2.nam
 - values:
-    drive: od8
-    level: lvl6
-    tone: t2
+    drive: 8
+    level: 6
+    tone: 2
   file: captures/vi4mezytc4m_a2.nam
 - values:
-    drive: od9
-    level: lvl6
-    tone: t2
+    drive: 9
+    level: 6
+    tone: 2
   file: captures/64dcnxghtsm_a2.nam
 - values:
-    drive: odmax
-    level: lvl6
-    tone: t2
+    drive: max
+    level: 6
+    tone: 2
   file: captures/qxd16qpkdin_a2.nam
 - values:
-    drive: od0
-    level: lvl6
-    tone: t3
+    drive: 0
+    level: 6
+    tone: 3
   file: captures/dfn5br4ecr_a2.nam
 - values:
-    drive: od1
-    level: lvl6
-    tone: t3
+    drive: 1
+    level: 6
+    tone: 3
   file: captures/dnqx4ebrpp7_a2.nam
 - values:
-    drive: od2
-    level: lvl6
-    tone: t3
+    drive: 2
+    level: 6
+    tone: 3
   file: captures/wmjw1umgym_a2.nam
 - values:
-    drive: od3
-    level: lvl6
-    tone: t3
+    drive: 3
+    level: 6
+    tone: 3
   file: captures/s08li9y90an_a2.nam
 - values:
-    drive: od4
-    level: lvl6
-    tone: t3
+    drive: 4
+    level: 6
+    tone: 3
   file: captures/2w24fwrsa9d_a2.nam
 - values:
-    drive: od5
-    level: lvl6
-    tone: t3
+    drive: 5
+    level: 6
+    tone: 3
   file: captures/i2ad9qo9v1b_a2.nam
 - values:
-    drive: od6
-    level: lvl6
-    tone: t3
+    drive: 6
+    level: 6
+    tone: 3
   file: captures/mc0ujs7mpo_a2.nam
 - values:
-    drive: od7
-    level: lvl6
-    tone: t3
+    drive: 7
+    level: 6
+    tone: 3
   file: captures/i9o7qykde1_a2.nam
 - values:
-    drive: od8
-    level: lvl6
-    tone: t3
+    drive: 8
+    level: 6
+    tone: 3
   file: captures/di9n184jat_a2.nam
 - values:
-    drive: od9
-    level: lvl6
-    tone: t3
+    drive: 9
+    level: 6
+    tone: 3
   file: captures/46dflgt22tq_a2.nam
 - values:
-    drive: odmax
-    level: lvl6
-    tone: t3
+    drive: max
+    level: 6
+    tone: 3
   file: captures/400j3t0fzxo_a2.nam
 - values:
-    drive: od0
-    level: lvlmax
-    tone: t4
+    drive: 0
+    level: max
+    tone: 4
   file: captures/6998znx3goi_a2.nam
 - values:
-    drive: od1
-    level: lvlmax
-    tone: t4
+    drive: 1
+    level: max
+    tone: 4
   file: captures/7n06hdfiht_a2.nam
 - values:
-    drive: od2
-    level: lvlmax
-    tone: t4
+    drive: 2
+    level: max
+    tone: 4
   file: captures/jqmwd9jcbx_a2.nam
 - values:
-    drive: od3
-    level: lvlmax
-    tone: t4
+    drive: 3
+    level: max
+    tone: 4
   file: captures/b57gn5o7veb_a2.nam
 - values:
-    drive: od4
-    level: lvlmax
-    tone: t4
+    drive: 4
+    level: max
+    tone: 4
   file: captures/vo7utrjht1q_a2.nam
 - values:
-    drive: od5
-    level: lvlmax
-    tone: t4
+    drive: 5
+    level: max
+    tone: 4
   file: captures/163bhxx9kus_a2.nam
 - values:
-    drive: od6
-    level: lvlmax
-    tone: t4
+    drive: 6
+    level: max
+    tone: 4
   file: captures/zwf85es9y0a_a2.nam
 - values:
-    drive: od7
-    level: lvlmax
-    tone: t4
+    drive: 7
+    level: max
+    tone: 4
   file: captures/r3b0s6a1t3s_a2.nam
 - values:
-    drive: od8
-    level: lvlmax
-    tone: t4
+    drive: 8
+    level: max
+    tone: 4
   file: captures/y7thtyqrpn_a2.nam
 - values:
-    drive: od9
-    level: lvlmax
-    tone: t4
+    drive: 9
+    level: max
+    tone: 4
   file: captures/ko607gzsn0l_a2.nam
 - values:
-    drive: odmax
-    level: lvlmax
-    tone: t4
+    drive: max
+    level: max
+    tone: 4
   file: captures/tj4wdpovask_a2.nam
 - values:
-    drive: od0
-    level: lvl6
-    tone: t5
+    drive: 0
+    level: 6
+    tone: 5
   file: captures/cr8fgwibu94_a2.nam
 - values:
-    drive: od1
-    level: lvl6
-    tone: t5
+    drive: 1
+    level: 6
+    tone: 5
   file: captures/ja3v6ydbia_a2.nam
 - values:
-    drive: od2
-    level: lvl6
-    tone: t5
+    drive: 2
+    level: 6
+    tone: 5
   file: captures/kskgqjz07_a2.nam
 - values:
-    drive: od3
-    level: lvl6
-    tone: t5
+    drive: 3
+    level: 6
+    tone: 5
   file: captures/ch2ymg8a4l_a2.nam
 - values:
-    drive: od4
-    level: lvl6
-    tone: t5
+    drive: 4
+    level: 6
+    tone: 5
   file: captures/8bs531zuqi5_a2.nam
 - values:
-    drive: od5
-    level: lvl6
-    tone: t5
+    drive: 5
+    level: 6
+    tone: 5
   file: captures/ayp3pq6dfbs_a2.nam

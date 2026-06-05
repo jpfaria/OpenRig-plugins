@@ -13,26 +13,26 @@ parameters:
 - name: volume
   display_name: Volume
   values:
-  - vol2
-  - vol3
-  - vol5
-  - vol9
-  - vol12
+  - 2
+  - 3
+  - 5
+  - 9
+  - 12
 - name: tone
   display_name: Tone
   values:
-  - tone1
-  - tone11
-  - tone12
+  - 1
+  - 11
+  - 12
 - name: gain
   display_name: Gain
   values:
-  - gain1
-  - gain3
-  - gain9
-  - gain10
-  - gain11
-  - gain12
+  - 1
+  - 3
+  - 9
+  - 10
+  - 11
+  - 12
 - name: boost
   display_name: Boost
   values:
@@ -42,61 +42,61 @@ parameters:
 captures:
 - values:
     boost: off
-    gain: gain12
-    tone: tone12
-    volume: vol9
+    gain: 12
+    tone: 12
+    volume: 9
   file: captures/hkgp11nj73f_a2.nam
 - values:
     boost: t11l10d1
-    gain: gain11
-    tone: tone12
-    volume: vol2
+    gain: 11
+    tone: 12
+    volume: 2
   file: captures/rfc41knshge_a2.nam
 - values:
     boost: t11l10d1
-    gain: gain1
-    tone: tone11
-    volume: vol12
+    gain: 1
+    tone: 11
+    volume: 12
   file: captures/6dl72ruskhc_a2.nam
 - values:
     boost: off
-    gain: gain3
-    tone: tone12
-    volume: vol12
+    gain: 3
+    tone: 12
+    volume: 12
   file: captures/zncrmbvwfna_a2.nam
 - values:
     boost: off
-    gain: gain10
-    tone: tone12
-    volume: vol3
+    gain: 10
+    tone: 12
+    volume: 3
   file: captures/3cli48b7e5v_a2.nam
 - values:
     boost: t11l10d10
-    gain: gain11
-    tone: tone12
-    volume: vol12
+    gain: 11
+    tone: 12
+    volume: 12
   file: captures/ns9zawns0r_a2.nam
 - values:
     boost: off
-    gain: gain1
-    tone: tone11
-    volume: vol12
+    gain: 1
+    tone: 11
+    volume: 12
   file: captures/0p5clzyfck5g_a2.nam
 - values:
     boost: off
-    gain: gain11
-    tone: tone11
-    volume: vol12
+    gain: 11
+    tone: 11
+    volume: 12
   file: captures/26ibclalm7l_a2.nam
 - values:
     boost: off
-    gain: gain11
-    tone: tone12
-    volume: vol12
+    gain: 11
+    tone: 12
+    volume: 12
   file: captures/bnvq2aoz35_a2.nam
 - values:
     boost: off
-    gain: gain9
-    tone: tone1
-    volume: vol5
+    gain: 9
+    tone: 1
+    volume: 5
   file: captures/hmylofk1ru5_a2.nam

@@ -12,13 +12,13 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - noon
-  - 2pm
+  - 12
+  - 14
 - name: tone
   display_name: Tone
   values:
-  - noon
-  - 2pm
+  - 12
+  - 14
 - name: variant
   display_name: Variant
   values:
@@ -26,32 +26,32 @@ parameters:
   - v6
 captures:
 - values:
-    drive: noon
-    tone: 2pm
+    drive: 12
+    tone: 14
     variant: default
   file: captures/vifuwn6rcl_a2.nam
 - values:
-    drive: noon
-    tone: noon
+    drive: 12
+    tone: 12
     variant: default
   file: captures/glkik4ijh7o_a2.nam
 - values:
-    drive: 2pm
-    tone: 2pm
+    drive: 14
+    tone: 14
     variant: v6
   file: captures/0tmt624g6fy9_a2.nam
 - values:
-    drive: noon
-    tone: noon
+    drive: 12
+    tone: 12
     variant: v6
   file: captures/5ogdee6hom_a2.nam
 - values:
-    drive: noon
-    tone: 2pm
+    drive: 12
+    tone: 14
     variant: v6
   file: captures/l4ixysp0ono_a2.nam
 - values:
-    drive: 2pm
-    tone: 2pm
+    drive: 14
+    tone: 14
     variant: default
   file: captures/f8cfr9633j_a2.nam

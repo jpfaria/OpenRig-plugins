@@ -30,39 +30,39 @@ parameters:
 - name: take
   display_name: Take
   values:
-  - 01
-  - 02
-  - 03
-  - 04
-  - 05
-  - 06
-  - 07
-  - 08
-  - 09
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
   - 10
 captures:
 - values:
     capture: reacteq
     power: 100w
-    take: 02
+    take: 2
     voicing: scary_deep_off
   file: captures/kchrvl78q3r_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 01
+    take: 1
     voicing: clean
   file: captures/camagh4g9xh_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 06
+    take: 6
     voicing: scary_deep_on
   file: captures/xku68771er_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 01
+    take: 1
     voicing: scary_deep_off
   file: captures/944iyd6w1th_a2.nam
 - values:
@@ -74,55 +74,55 @@ captures:
 - values:
     capture: reacteq
     power: 100w
-    take: 08
+    take: 8
     voicing: clean
   file: captures/l6n4w6ofceh_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 02
+    take: 2
     voicing: instant_gratification
   file: captures/9gykr46pps_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 05
+    take: 5
     voicing: clean
   file: captures/pt6232jhgh_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 06
+    take: 6
     voicing: scary_deep_off
   file: captures/rrngytxvx8_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 04
+    take: 4
     voicing: scary_deep_on
   file: captures/z0yhfs3rgd_a2.nam
 - values:
     capture: reacteq
     power: 50w
-    take: 01
+    take: 1
     voicing: instant_gratification
   file: captures/16rzsljd8np_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 02
+    take: 2
     voicing: clean
   file: captures/osqv5o4rvnl_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 07
+    take: 7
     voicing: scary_deep_on
   file: captures/jlk9jdaatx9_a2.nam
 - values:
     capture: reacteq
     power: 50w
-    take: 02
+    take: 2
     voicing: instant_gratification
   file: captures/6urfev371g9_a2.nam
 - values:
@@ -134,97 +134,97 @@ captures:
 - values:
     capture: reacteq
     power: 100w
-    take: 03
+    take: 3
     voicing: scary_deep_off
   file: captures/bjl46cv96mt_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 03
+    take: 3
     voicing: clean
   file: captures/gtsnlek4p3_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 02
+    take: 2
     voicing: scary_deep_on
   file: captures/rsosjzaa8j_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 03
+    take: 3
     voicing: scary_deep_on
   file: captures/g0vx4qkcsvu_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 09
+    take: 9
     voicing: clean
   file: captures/8dmomcxinh3_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 01
+    take: 1
     voicing: instant_gratification
   file: captures/5uhpo54zu42_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 09
+    take: 9
     voicing: scary_deep_on
   file: captures/x8wwepw21zp_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 05
+    take: 5
     voicing: scary_deep_off
   file: captures/y64d13hio2_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 08
+    take: 8
     voicing: scary_deep_off
   file: captures/3vecquluaqj_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 04
+    take: 4
     voicing: clean
   file: captures/pvhezmv0we8_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 07
+    take: 7
     voicing: clean
   file: captures/7dat51yt6zi_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 06
+    take: 6
     voicing: clean
   file: captures/7cq4lj00f65_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 04
+    take: 4
     voicing: scary_deep_off
   file: captures/0k2xpdfzomku_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 07
+    take: 7
     voicing: scary_deep_off
   file: captures/7qqtuzfabzw_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 09
+    take: 9
     voicing: scary_deep_off
   file: captures/m8p2jg6pcop_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 08
+    take: 8
     voicing: scary_deep_on
   file: captures/d5yvlk0z96k_a2.nam
 - values:
@@ -236,25 +236,25 @@ captures:
 - values:
     capture: reacteq
     power: 100w
-    take: 01
+    take: 1
     voicing: scary_deep_on
   file: captures/tj9q08lojqg_a2.nam
 - values:
     capture: reacteq
     power: 100w
-    take: 05
+    take: 5
     voicing: scary_deep_on
   file: captures/8dxcvhnnrbn_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 04
+    take: 4
     voicing: jose
   file: captures/pqv4lsihkr_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 01
+    take: 1
     voicing: jose
   file: captures/xth4aj6zhwc_a2.nam
 - values:
@@ -266,42 +266,42 @@ captures:
 - values:
     capture: reactir2
     power: 100w
-    take: 08
+    take: 8
     voicing: jose
   file: captures/6t7uosrfhrp_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 06
+    take: 6
     voicing: jose
   file: captures/l4hc1i0px9j_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 07
+    take: 7
     voicing: jose
   file: captures/mrxq2fhcvrt_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 09
+    take: 9
     voicing: jose
   file: captures/zgg5pfpydy_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 05
+    take: 5
     voicing: jose
   file: captures/ybq50voyxo_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 03
+    take: 3
     voicing: jose
   file: captures/u08ogtw2cql_a2.nam
 - values:
     capture: reactir2
     power: 100w
-    take: 02
+    take: 2
     voicing: jose
   file: captures/4ssjodh46gs_a2.nam

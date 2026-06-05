@@ -9,8 +9,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6233
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - vol3_bright
   - vol8_bright
@@ -27,41 +27,41 @@ parameters:
   - vol3
 captures:
 - values:
-    model: vol3_bright
+    preset: vol3_bright
   file: captures/20a0aedd9bec5b4f_a2.nam
 - values:
-    model: vol8_bright
+    preset: vol8_bright
   file: captures/8da162a7bfcc736a_a2.nam
 - values:
-    model: cranked
+    preset: cranked
   file: captures/3a5c22ecb2da81fe_a2.nam
 - values:
-    model: bridged
+    preset: bridged
   file: captures/66b14d554d3ea916_a2.nam
 - values:
-    model: clean_bright
+    preset: clean_bright
   file: captures/c11c5815c39c30f5_a2.nam
 - values:
-    model: vol5
+    preset: vol5
   file: captures/c33d40d10b5869c8_a2.nam
 - values:
-    model: crunch_bridged
+    preset: crunch_bridged
   file: captures/1f267e039dfdfdc2_a2.nam
 - values:
-    model: ts808_klon
+    preset: ts808_klon
   file: captures/53a8d701179cd8c4_a2.nam
 - values:
-    model: klon_pushed
+    preset: klon_pushed
   file: captures/1d44e63745c56f00_a2.nam
 - values:
-    model: edgy_bridged
+    preset: edgy_bridged
   file: captures/33184d946ebda7cc_a2.nam
 - values:
-    model: vol8
+    preset: vol8
   file: captures/0ca198aa668af56c_a2.nam
 - values:
-    model: klon_drive
+    preset: klon_drive
   file: captures/26d032215e750ea0_a2.nam
 - values:
-    model: vol3
+    preset: vol3
   file: captures/c9a54845bea79831_a2.nam

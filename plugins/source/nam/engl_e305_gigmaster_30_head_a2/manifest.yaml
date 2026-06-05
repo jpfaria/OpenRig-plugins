@@ -13,48 +13,48 @@ parameters:
 - name: drive
   display_name: OD-3 Drive
   values:
-  - d0
-  - d3
-  - d5
-  - d7
-  - d10
-  - d12
-  - d14
-  - d16
-  - d18
-  - d20
-  - d22
+  - 0
+  - 3
+  - 5
+  - 7
+  - 10
+  - 12
+  - 14
+  - 16
+  - 18
+  - 20
+  - 22
 captures:
 - values:
-    drive: d0
+    drive: 0
   file: captures/1owdvqgryo6_a2.nam
 - values:
-    drive: d3
+    drive: 3
   file: captures/5oyq71rb1o7_a2.nam
 - values:
-    drive: d5
+    drive: 5
   file: captures/65q4oaoiilk_a2.nam
 - values:
-    drive: d7
+    drive: 7
   file: captures/l9mgiqowr9_a2.nam
 - values:
-    drive: d10
+    drive: 10
   file: captures/kgur6tdq3nj_a2.nam
 - values:
-    drive: d12
+    drive: 12
   file: captures/5g297f4nlhp_a2.nam
 - values:
-    drive: d14
+    drive: 14
   file: captures/uqma9hwto0i_a2.nam
 - values:
-    drive: d16
+    drive: 16
   file: captures/hkc66pe17t6_a2.nam
 - values:
-    drive: d18
+    drive: 18
   file: captures/bmk1jml8t2g_a2.nam
 - values:
-    drive: d20
+    drive: 20
   file: captures/j0el9et8byg_a2.nam
 - values:
-    drive: d22
+    drive: 22
   file: captures/1r5tu9msis6_a2.nam

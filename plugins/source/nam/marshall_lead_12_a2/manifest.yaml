@@ -13,8 +13,8 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g9
+  - 9
 captures:
 - values:
-    gain: g9
+    gain: 9
   file: captures/msr3gc4ck4r_a2.nam

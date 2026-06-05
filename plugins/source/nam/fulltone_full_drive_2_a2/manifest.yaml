@@ -12,19 +12,19 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - tone_300
-  - tone_500
-  - tone_700
-  - tone_900
-  - tone_1200
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1200
 - name: od
   display_name: Overdrive
   values:
-  - od_300
-  - od_500
-  - od_700
-  - od_900
-  - od_1200
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1200
 - name: mode
   display_name: Mode
   values:
@@ -41,882 +41,882 @@ captures:
 - values:
     boost: off
     mode: vintage
-    od: od_300
-    tone: tone_500
+    od: 300
+    tone: 500
   file: captures/rx3g3rk3y8q_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_300
-    tone: tone_700
+    od: 300
+    tone: 700
   file: captures/o3ltl2ro12_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_300
-    tone: tone_700
+    od: 300
+    tone: 700
   file: captures/e8iz56gamsl_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/xocimigok8e_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/0u956jca666p_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_1200
-    tone: tone_500
+    od: 1200
+    tone: 500
   file: captures/8j5qj8ox5u3_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/1ocsu7wq789_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_700
-    tone: tone_500
+    od: 700
+    tone: 500
   file: captures/2bt04x6ex36_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_900
-    tone: tone_500
+    od: 900
+    tone: 500
   file: captures/du19ztzwy98_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/o9eg370b209_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_700
-    tone: tone_900
+    od: 700
+    tone: 900
   file: captures/ke7bpm9nq4_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/c4boe6b8j9_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/m2wvkmr636i_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/t96yfm5ktco_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/ot3alqrr64s_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_500
-    tone: tone_700
+    od: 500
+    tone: 700
   file: captures/h64x2jxfpyw_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_500
-    tone: tone_500
+    od: 500
+    tone: 500
   file: captures/phn82evbik_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/no3o6taoav_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/20m0sjiuvf_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_900
-    tone: tone_700
+    od: 900
+    tone: 700
   file: captures/z6b4oxtg8vh_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/zuzedx7uern_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_1200
-    tone: tone_700
+    od: 1200
+    tone: 700
   file: captures/7631zm5ircm_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/5teigulydrw_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/sw4lxvtjfq9_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_700
-    tone: tone_900
+    od: 700
+    tone: 900
   file: captures/b6g5o10ci9c_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/boa7pm3j345_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/tu7it5mrna_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_700
-    tone: tone_1200
+    od: 700
+    tone: 1200
   file: captures/ievumxac8a_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/duiom2h13so_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_300
-    tone: tone_500
+    od: 300
+    tone: 500
   file: captures/02faeusm1e8h_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/kc6h4oo0wjf_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/a1dz3a2uzik_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/16w3y32d5ct_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/bo7u666d59g_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/8pa4wto4m4m_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/kjy080vb5js_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/g6grg891neh_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/e7q7d7yty_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/j03r4ct20n_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_500
-    tone: tone_500
+    od: 500
+    tone: 500
   file: captures/5dblce273vs_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/mrga7od7fjb_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_300
-    tone: tone_700
+    od: 300
+    tone: 700
   file: captures/mrmxamvu3hq_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_900
-    tone: tone_700
+    od: 900
+    tone: 700
   file: captures/choqndwyxz_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/5252nzu1q8w_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/60hf7lqyx9d_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_700
-    tone: tone_900
+    od: 700
+    tone: 900
   file: captures/4x6i77zchtn_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/907ti83n1xe_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_500
-    tone: tone_500
+    od: 500
+    tone: 500
   file: captures/dxd7coumpws_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/1wewa5ii64d_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/n0nag0jgdj_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/aqut2opbrj_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/tbrb9nhc8wr_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/qbizs0nvxo_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/srlnnd9b7l_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/3kicvxu0ixj_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/57ifts1ktrt_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/2tn4iuwbjvp_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/ev8cv7hbtum_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/jnbmcfh3su_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/gr3s7c4n0a4_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_700
-    tone: tone_700
+    od: 700
+    tone: 700
   file: captures/dxsnlx36ewe_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/a61km54pxjq_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/pxwvydi5pri_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/jdwpjeyavr_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_500
-    tone: tone_700
+    od: 500
+    tone: 700
   file: captures/s67jw07x41l_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_900
-    tone: tone_500
+    od: 900
+    tone: 500
   file: captures/s5lgjdok88_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/420oy52h6gz_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/wosilqa7zbk_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/4codal8zhii_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/41ln7s1sb3s_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/tho578694z9_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_900
-    tone: tone_500
+    od: 900
+    tone: 500
   file: captures/xabsfl45qu_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_700
-    tone: tone_500
+    od: 700
+    tone: 500
   file: captures/btnwv0j975_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/nmu04qmmwb_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/ltyjtq7yvg_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/oduhp07hwn_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/w0zfphp8wci_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/ebc8j8j0uhk_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_1200
-    tone: tone_500
+    od: 1200
+    tone: 500
   file: captures/qmi7k83zd7_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_1200
-    tone: tone_700
+    od: 1200
+    tone: 700
   file: captures/prbfeu2rzn_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/n9n600find_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/lxhy97zvh3i_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/lkac7ovbwhj_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/zj0w8ena4w_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/x6lgkv1kicm_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/bdcgf648s8n_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/cp1sux7edjc_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_900
-    tone: tone_700
+    od: 900
+    tone: 700
   file: captures/f9mwk24dzfd_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_500
-    tone: tone_700
+    od: 500
+    tone: 700
   file: captures/bpiojkcs6dv_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_300
-    tone: tone_500
+    od: 300
+    tone: 500
   file: captures/vnyxiledlr8_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/n8zz3osyh2j_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_700
-    tone: tone_300
+    od: 700
+    tone: 300
   file: captures/abkmre4wvp7_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_700
-    tone: tone_500
+    od: 700
+    tone: 500
   file: captures/447mpjupc7o_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/05bgkpimyvcl_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/asafgpcpk6p_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/keo5p14is1_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/kfgsaj9s1vq_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/659w1fbu4i_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/95yv1fx0hk_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/i5oifqmxvw_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/qsoguggbyce_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/6xvm2gb9q2f_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/jseitw6wf3_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_700
-    tone: tone_1200
+    od: 700
+    tone: 1200
   file: captures/m9vzdj3jyl_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/ne2d75coxod_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/j0nb123df4_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/1a48otdakho_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/42vh5hd3s44_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/2z0tp9ddzsi_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/rsmfvwoo08k_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_700
-    tone: tone_1200
+    od: 700
+    tone: 1200
   file: captures/eo9tc4qww7p_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/z6giqmbe5ee_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_500
-    tone: tone_1200
+    od: 500
+    tone: 1200
   file: captures/gdejuoh4wil_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_700
-    tone: tone_700
+    od: 700
+    tone: 700
   file: captures/hjxkht42fsh_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/mu6vl903uy_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/1ipej27k2o1_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/rc1x41xsxcr_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/gd7pvmktxn_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/xkof4iqo38_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/1k3lzgquhs_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/9cu7xu14jl4_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/mgyrmndsfzs_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/g5pd4d3csnm_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_500
-    tone: tone_300
+    od: 500
+    tone: 300
   file: captures/is9kg50vjj_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_300
-    tone: tone_300
+    od: 300
+    tone: 300
   file: captures/r66xa88qoof_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/yuv4y2mvx8k_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_700
-    tone: tone_300
+    od: 700
+    tone: 300
   file: captures/fufcumuspoq_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/c73g2istw3t_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_1200
-    tone: tone_1200
+    od: 1200
+    tone: 1200
   file: captures/jy3q29mgoyp_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/j8d6hlqkay_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_500
-    tone: tone_900
+    od: 500
+    tone: 900
   file: captures/uxq4jzq7ce_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/lrdlcxyl4qa_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: od_900
-    tone: tone_1200
+    od: 900
+    tone: 1200
   file: captures/40zi6hcklhp_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_700
-    tone: tone_300
+    od: 700
+    tone: 300
   file: captures/mf7vxeb0ny_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/p0bw9ldx9c_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/d6k0nq6zvvc_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_700
-    tone: tone_700
+    od: 700
+    tone: 700
   file: captures/9j2x3wx1ogd_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_300
-    tone: tone_900
+    od: 300
+    tone: 900
   file: captures/uh5chd5syxr_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: od_900
-    tone: tone_300
+    od: 900
+    tone: 300
   file: captures/aomfoy9qwjl_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_1200
-    tone: tone_500
+    od: 1200
+    tone: 500
   file: captures/pinz324a4fh_a2.nam
 - values:
     boost: off
     mode: vintage
-    od: od_1200
-    tone: tone_700
+    od: 1200
+    tone: 700
   file: captures/rl1po2f6x4f_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_900
-    tone: tone_900
+    od: 900
+    tone: 900
   file: captures/970h6y4e5vj_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/qzq1hn6ij0g_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/c9pax58hgau_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: od_1200
-    tone: tone_900
+    od: 1200
+    tone: 900
   file: captures/ggbc4if7w2b_a2.nam
 - values:
     boost: off
     mode: comp_cut
-    od: od_300
-    tone: tone_1200
+    od: 300
+    tone: 1200
   file: captures/jn3egnw4r5d_a2.nam
 - values:
     boost: off
     mode: flat_mids
-    od: od_1200
-    tone: tone_300
+    od: 1200
+    tone: 300
   file: captures/vmjjivguce_a2.nam

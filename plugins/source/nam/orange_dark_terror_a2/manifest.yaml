@@ -13,26 +13,26 @@ parameters:
 - name: volume
   display_name: Volume
   values:
-  - v1
-  - v2
-  - v4
-  - v6
-  - v10
+  - 1
+  - 2
+  - 4
+  - 6
+  - 10
 - name: shape
   display_name: Shape
   values:
-  - s4
-  - s6
-  - s8
+  - 4
+  - 6
+  - 8
 - name: gain
   display_name: Gain
   values:
-  - g3
-  - g4
-  - g5
-  - g6
-  - g7
-  - g5_3
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 5.3
 - name: mode
   display_name: Mode
   values:
@@ -40,86 +40,86 @@ parameters:
   - od
 captures:
 - values:
-    gain: g6
+    gain: 6
     mode: od
-    shape: s6
-    volume: v6
+    shape: 6
+    volume: 6
   file: captures/3r77bot039d_a2.nam
 - values:
-    gain: g7
+    gain: 7
     mode: od
-    shape: s6
-    volume: v4
+    shape: 6
+    volume: 4
   file: captures/ukadxxqhxnf_a2.nam
 - values:
-    gain: g7
+    gain: 7
     mode: clean
-    shape: s6
-    volume: v4
+    shape: 6
+    volume: 4
   file: captures/6dos043tmg_a2.nam
 - values:
-    gain: g5
+    gain: 5
     mode: od
-    shape: s6
-    volume: v6
+    shape: 6
+    volume: 6
   file: captures/ketziscltp_a2.nam
 - values:
-    gain: g3
+    gain: 3
     mode: clean
-    shape: s8
-    volume: v10
+    shape: 8
+    volume: 10
   file: captures/7f3y95lptzc_a2.nam
 - values:
-    gain: g3
+    gain: 3
     mode: clean
-    shape: s6
-    volume: v2
+    shape: 6
+    volume: 2
   file: captures/bntjff7iheu_a2.nam
 - values:
-    gain: g7
+    gain: 7
     mode: clean
-    shape: s6
-    volume: v1
+    shape: 6
+    volume: 1
   file: captures/35atixfravb_a2.nam
 - values:
-    gain: g5_3
+    gain: 5.3
     mode: clean
-    shape: s6
-    volume: v1
+    shape: 6
+    volume: 1
   file: captures/lyyobzp6wnr_a2.nam
 - values:
-    gain: g4
+    gain: 4
     mode: clean
-    shape: s6
-    volume: v1
+    shape: 6
+    volume: 1
   file: captures/x8t644wlspn_a2.nam
 - values:
-    gain: g6
+    gain: 6
     mode: od
-    shape: s4
-    volume: v6
+    shape: 4
+    volume: 6
   file: captures/q61czgc8n1l_a2.nam
 - values:
-    gain: g4
+    gain: 4
     mode: od
-    shape: s6
-    volume: v6
+    shape: 6
+    volume: 6
   file: captures/qshmiozhmdq_a2.nam
 - values:
-    gain: g5
+    gain: 5
     mode: od
-    shape: s4
-    volume: v6
+    shape: 4
+    volume: 6
   file: captures/28zw0zfb439_a2.nam
 - values:
-    gain: g7
+    gain: 7
     mode: od
-    shape: s4
-    volume: v4
+    shape: 4
+    volume: 4
   file: captures/yzs4nom561_a2.nam
 - values:
-    gain: g4
+    gain: 4
     mode: od
-    shape: s4
-    volume: v6
+    shape: 4
+    volume: 6
   file: captures/15hbpcn960a_a2.nam
