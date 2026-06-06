@@ -1,0 +1,95 @@
+manifest_version: 1
+id: nam_friedman_be_100_a2
+display_name: BE 100
+brand: friedman
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/57378
+# Constant across all captures (dropped): "Friedman BE-100", "SAT" voicing switch.
+# Source rig per tone description: Maxon OD808 in front (boost axis), HBE/BE/CLN channels,
+# gain stages HG/MG/LG/CLN, EQ voicings flat/mids/scoop.
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - hbe
+  - be
+  - cln
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - od808
+- name: voicing
+  display_name: Voicing
+  values:
+  - flat
+  - mids
+  - scoop
+  - none
+- name: gain
+  display_name: Gain
+  values:
+  - hg
+  - mg
+  - lg
+  - cln
+captures:
+- values:
+    channel: hbe
+    boost: od808
+    voicing: flat
+    gain: hg
+  file: captures/hbe_808_flat_hg_a2.nam
+- values:
+    channel: hbe
+    boost: none
+    voicing: flat
+    gain: hg
+  file: captures/hbe_flat_hg_a2.nam
+- values:
+    channel: be
+    boost: none
+    voicing: none
+    gain: mg
+  file: captures/be_mg_a2.nam
+- values:
+    channel: hbe
+    boost: od808
+    voicing: scoop
+    gain: hg
+  file: captures/hbe_808_scoop_hg_a2.nam
+- values:
+    channel: be
+    boost: none
+    voicing: none
+    gain: lg
+  file: captures/be_lg_a2.nam
+- values:
+    channel: hbe
+    boost: none
+    voicing: mids
+    gain: hg
+  file: captures/hbe_mids_hg_a2.nam
+- values:
+    channel: hbe
+    boost: od808
+    voicing: mids
+    gain: hg
+  file: captures/hbe_808_mids_hg_a2.nam
+- values:
+    channel: hbe
+    boost: none
+    voicing: scoop
+    gain: hg
+  file: captures/hbe_scoop_hg_a2.nam
+- values:
+    channel: cln
+    boost: none
+    voicing: none
+    gain: cln
+  file: captures/cln_a2.nam

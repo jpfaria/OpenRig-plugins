@@ -1,0 +1,80 @@
+manifest_version: 1
+id: nam_mesa_triple_rectifier_a1
+display_name: Triple Rectifier
+brand: mesa
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/52642
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+# Constant across all captures (dropped): TREC-150BLD-DIO = Triple Rectifier,
+# 150-watt mode, Bold poweramp tracking, Diode rectifier. The amp/pow block
+# and the vnt/mdn channel mode are locked per preset, so they fold into the
+# preset label instead of becoming redundant single-value axes.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - chaosball
+  - juice_01
+  - juice_36
+- name: mic
+  display_name: Mic
+  values:
+  - di
+  - sm57
+  - sm58
+  - blend1
+  - blend2
+  - blend3
+captures:
+- values:
+    preset: chaosball
+    mic: di
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_di.nam
+- values:
+    preset: juice_01
+    mic: di
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_di.nam
+- values:
+    preset: juice_01
+    mic: sm57
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm57.nam
+- values:
+    preset: juice_01
+    mic: sm58
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm58.nam
+- values:
+    preset: juice_01
+    mic: blend2
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_2.nam
+- values:
+    preset: juice_01
+    mic: blend3
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_3.nam
+- values:
+    preset: juice_36
+    mic: di
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_di.nam
+- values:
+    preset: juice_36
+    mic: sm57
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm57.nam
+- values:
+    preset: juice_36
+    mic: sm58
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm58.nam
+- values:
+    preset: juice_36
+    mic: blend1
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_1.nam
+- values:
+    preset: juice_36
+    mic: blend2
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_2.nam
+- values:
+    preset: juice_36
+    mic: blend3
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_3.nam

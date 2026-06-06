@@ -1,0 +1,155 @@
+# Dropped constant token present in every capture name: "71 Bassman".
+# tone = the descriptive variant/voicing of each capture (channel, pedal, tube-swap, all-on setting).
+# eq = the amp's Volume/Treble/Bass knob string for that capture (V/T/B); "jumpered" for the two-channel
+#      jumpered captures (no single V/T/B triplet) and "none" for TS9-DS-1 Boosted (no V/T/B in its name).
+manifest_version: 1
+id: nam_fender_bassman_1971_a2
+display_name: Bassman 1971
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6107
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - clean
+  - bright_clean
+  - warm_clean
+  - mid_forward_clean
+  - 80s_clean
+  - big_clean
+  - sweet_spot
+  - warm_sweet_spot
+  - v1_pulled
+  - v1_pulled_12ax7
+  - all_on_5_bright
+  - all_on_5_norm
+  - all_on_10_bright
+  - all_on_10_norm
+  - cranked
+  - cranked_fd2
+  - fd2_low
+  - fd2_mid
+  - fd2_high
+  - ts9_ds1_boost
+  - jumpered_v6t10
+  - jumpered_v6t8
+  - jumpered_alt
+  - warm_fuzz
+- name: eq
+  display_name: EQ
+  values:
+  - v10_t10_b10
+  - v5_t8_b5
+  - v5_t4_b3
+  - v7_t8_b5
+  - v5_t8_b3
+  - v5_t4_b4
+  - v10_t7_b4
+  - v5_t8_b4
+  - v7_t5_b5
+  - v7_t4_b4
+  - jumpered
+  - none
+captures:
+- values:
+    eq: v10_t10_b10
+    tone: v1_pulled
+  file: captures/v1_pulled_v10_t10_b10_a2.nam
+- values:
+    eq: v5_t8_b5
+    tone: mid_forward_clean
+  file: captures/mid_forward_clean_wmxr_eq_v5_t8_b5_a2.nam
+- values:
+    eq: v5_t4_b3
+    tone: warm_clean
+  file: captures/warm_clean_v5_t4_b3_a2.nam
+- values:
+    eq: v10_t10_b10
+    tone: all_on_5_bright
+  file: captures/all_on_5_bright_v10_t10_b10_a2.nam
+- values:
+    eq: v7_t8_b5
+    tone: sweet_spot
+  file: captures/sweet_spot_v7_t8_b5_a2.nam
+- values:
+    eq: jumpered
+    tone: jumpered_v6t10
+  file: captures/norm_ch_v6_t10_b1_bright_jumpered_into_bass_ch_v8_t1_b10_a2.nam
+- values:
+    eq: v5_t8_b5
+    tone: fd2_low
+  file: captures/fd2_boosted_low_v5_t8_b5_a2.nam
+- values:
+    eq: v10_t10_b10
+    tone: v1_pulled_12ax7
+  file: captures/v1_pulled_12ax7_in_v4_v10_t10_b10_a2.nam
+- values:
+    eq: v5_t8_b3
+    tone: fd2_high
+  file: captures/fd2_boosted_high_v5_t8_b3_a2.nam
+- values:
+    eq: jumpered
+    tone: jumpered_v6t8
+  file: captures/norm_ch_v6_t8_b1_bright_jumpered_into_bass_ch_v8_t1_b8_a2.nam
+- values:
+    eq: none
+    tone: ts9_ds1_boost
+  file: captures/ts9_ds_1_boosted_a2.nam
+- values:
+    eq: v5_t4_b4
+    tone: bright_clean
+  file: captures/bright_clean_v5_t4_b4_a2.nam
+- values:
+    eq: v5_t8_b5
+    tone: clean
+  file: captures/clean_v5_t8_b5_a2.nam
+- values:
+    eq: v5_t8_b5
+    tone: 80s_clean
+  file: captures/80s_clean_v5_t8_b5_a2.nam
+- values:
+    eq: v10_t7_b4
+    tone: cranked_fd2
+  file: captures/cranked_and_fd2_boosted_v10_t7_b4_a2.nam
+- values:
+    eq: v10_t7_b4
+    tone: cranked
+  file: captures/cranked_v10_t7_b4_a2.nam
+- values:
+    eq: v5_t8_b4
+    tone: fd2_mid
+  file: captures/fd2_boosted_mid_v5_t8_b4_a2.nam
+- values:
+    eq: v7_t5_b5
+    tone: big_clean
+  file: captures/big_clean_v7_t5_b5_a2.nam
+- values:
+    eq: v10_t10_b10
+    tone: all_on_5_norm
+  file: captures/all_on_5_norm_v10_t10_b10_a2.nam
+- values:
+    eq: v10_t10_b10
+    tone: all_on_10_norm
+  file: captures/all_on_10_norm_v10_t10_b10_a2.nam
+- values:
+    eq: jumpered
+    tone: jumpered_alt
+  file: captures/jumpered_channels_norm_ch_v6_t8_b1_bright_into_bass_ch_v8_t1_b8_a2.nam
+- values:
+    eq: v10_t10_b10
+    tone: all_on_10_bright
+  file: captures/all_on_10_bright_v10_t10_b10_a2.nam
+- values:
+    eq: v7_t4_b4
+    tone: warm_sweet_spot
+  file: captures/warm_sweet_spot_v7_t4_b4_a2.nam
+- values:
+    eq: v5_t4_b4
+    tone: warm_fuzz
+  file: captures/warm_fuzz_v5_t4_b4_a2.nam

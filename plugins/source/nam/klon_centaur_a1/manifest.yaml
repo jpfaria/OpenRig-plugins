@@ -1,0 +1,65 @@
+# Dropped constant token: "klon" (brand, identical across all captures).
+# Names decode the Klon Centaur's three knobs as Gain,Treble,Output.
+# The "john_mayer" capture decodes to gain 3.5, treble 6.5, output 3 (mirrors the _a2 sibling).
+manifest_version: 1
+id: nam_klon_centaur_a1
+display_name: Klon Centaur Silver
+brand: klon
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 2
+  - 3.5
+  - 4
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 6
+  - 6.5
+  - 7
+- name: output
+  display_name: Output
+  values:
+  - 3
+  - 5
+  - 7
+  - 8
+captures:
+- values:
+    gain: 2
+    treble: 5
+    output: 5
+  file: captures/klon_255.nam
+- values:
+    gain: 2
+    treble: 7
+    output: 7
+  file: captures/klon_277.nam
+- values:
+    gain: 4
+    treble: 6
+    output: 8
+  file: captures/klon_468.nam
+- values:
+    gain: 5
+    treble: 5
+    output: 5
+  file: captures/klon_555.nam
+- values:
+    gain: 6
+    treble: 6
+    output: 8
+  file: captures/klon_668.nam
+- values:
+    gain: 3.5
+    treble: 6.5
+    output: 3
+  file: captures/klon_john_mayer.nam

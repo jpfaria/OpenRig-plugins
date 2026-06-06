@@ -1,0 +1,83 @@
+# Constant across all captures (dropped): prs_mt100 (model), std (STD architecture, == A1 header).
+manifest_version: 1
+id: nam_prs_mt100_tremonti_a1
+display_name: MT-100 Tremonti
+brand: prs
+sources:
+- https://www.tone3000.com/tones/38592
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - overdrive
+- name: preset
+  display_name: Preset
+  values:
+  - cleanly
+  - noon
+  - live_2023
+  - dime_it
+  - bitey
+  - sin_after_sin
+  - single_coil_leads
+- name: mic
+  display_name: Mic
+  values:
+  - di
+  - sm57
+captures:
+- values:
+    channel: clean
+    preset: cleanly
+    mic: di
+  file: captures/amp_prs_mt100_clean_cleanly_di_std.nam
+- values:
+    channel: clean
+    preset: noon
+    mic: di
+  file: captures/amp_prs_mt100_clean_noon_di_std.nam
+- values:
+    channel: clean
+    preset: noon
+    mic: sm57
+  file: captures/amp_prs_mt100_clean_noon_sm57_std.nam
+- values:
+    channel: clean
+    preset: live_2023
+    mic: di
+  file: captures/amp_prs_mt100_clean_live_2023_di_std.nam
+- values:
+    channel: clean
+    preset: live_2023
+    mic: sm57
+  file: captures/amp_prs_mt100_clean_live_2023_sm57_std.nam
+- values:
+    channel: overdrive
+    preset: dime_it
+    mic: sm57
+  file: captures/amp_prs_mt100_overdrive_dime_it_sm57.nam
+- values:
+    channel: overdrive
+    preset: bitey
+    mic: di
+  file: captures/amp_prs_mt100_overdrive_bitey_di_std.nam
+- values:
+    channel: overdrive
+    preset: sin_after_sin
+    mic: di
+  file: captures/amp_prs_mt100_overdrive_sin_after_sin_di_std.nam
+- values:
+    channel: overdrive
+    preset: sin_after_sin
+    mic: sm57
+  file: captures/amp_prs_mt100_overdrive_sin_after_sin_sm57_std.nam
+- values:
+    channel: overdrive
+    preset: single_coil_leads
+    mic: sm57
+  file: captures/amp_prs_mt100_overdrive_single_coil_leads_sm57_std.nam

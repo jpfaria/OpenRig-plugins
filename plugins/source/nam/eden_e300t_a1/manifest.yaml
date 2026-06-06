@@ -1,0 +1,43 @@
+manifest_version: 1
+id: nam_eden_e300t_a1
+display_name: E300T
+brand: eden
+sources:
+- https://www.tone3000.com/tones/39392
+output_gain_db: 0.5761604
+type: amp
+backend: nam
+architecture: A1
+# Grab-bag of three Eden devices captured under one pack: E300T Tubehead
+# (flat + two EQ presets, all at gain 6, shift on, treble 0), the Glowplug
+# tube preamp pedal, and the WTDI preamp pedal (two takes). No shared control
+# grid across the devices, so a single clean preset axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - e300t_flat
+  - e300t_eq1
+  - e300t_eq2
+  - glowplug
+  - wtdi
+  - wtdi_2
+captures:
+- values:
+    preset: e300t_flat
+  file: captures/e300t_flat_gain_6.nam
+- values:
+    preset: e300t_eq1
+  file: captures/e300t_eq_1_gain_6_bass_2_mid_3_shift_on_treb_0.nam
+- values:
+    preset: e300t_eq2
+  file: captures/e300t_eq_2_gain_6_bass_3_mid_2_shift_on_treb_0.nam
+- values:
+    preset: glowplug
+  file: captures/glowplug.nam
+- values:
+    preset: wtdi
+  file: captures/wtdi.nam
+- values:
+    preset: wtdi_2
+  file: captures/wtdi_2.nam

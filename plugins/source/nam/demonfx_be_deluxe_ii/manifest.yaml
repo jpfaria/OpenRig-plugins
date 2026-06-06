@@ -22,164 +22,194 @@ parameters:
   values:
   - up
   - down
-- name: pres
+- name: presence
   display_name: Presence (%)
   values:
   - 50
   - 100
-- name: mid_high
-  display_name: Mid/High Balance
+- name: mid
+  display_name: Mid (%)
   values:
-  - 4060
-  - 5050
+  - 40
+  - 50
+- name: high
+  display_name: High (%)
+  values:
+  - 50
+  - 60
 captures:
 - values:
     gain: 0
     tight: up
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_0_tight_up_pres_100_mid_high_5050.nam
 - values:
     gain: 0
     tight: down
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_0_tight_down_pres_100_mid_high_5050.nam
 - values:
     gain: 25
     tight: up
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_25_tight_up_pres_100_mid_high_5050.nam
 - values:
     gain: 25
     tight: down
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_25_tight_down_pres_100_mid_high_5050.nam
 - values:
     gain: 50
     tight: up
-    pres: 50
-    mid_high: 4060
+    presence: 50
+    mid: 40
+    high: 60
   file: captures/gain_50_tight_up_pres_50_mid_high_4060.nam
 - values:
     gain: 50
     tight: up
-    pres: 50
-    mid_high: 5050
+    presence: 50
+    mid: 50
+    high: 50
   file: captures/gain_50_tight_up_pres_50_mid_high_5050.nam
 - values:
     gain: 50
     tight: up
-    pres: 100
-    mid_high: 4060
+    presence: 100
+    mid: 40
+    high: 60
   file: captures/gain_50_tight_up_pres_100_mid_high_4060.nam
 - values:
     gain: 50
     tight: up
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_50_tight_up_pres_100_mid_high_5050.nam
 - values:
     gain: 50
     tight: down
-    pres: 50
-    mid_high: 4060
+    presence: 50
+    mid: 40
+    high: 60
   file: captures/gain_50_tight_down_pres_50_mid_high_4060.nam
 - values:
     gain: 50
     tight: down
-    pres: 50
-    mid_high: 5050
+    presence: 50
+    mid: 50
+    high: 50
   file: captures/gain_50_tight_down_pres_50_mid_high_5050.nam
 - values:
     gain: 50
     tight: down
-    pres: 100
-    mid_high: 4060
+    presence: 100
+    mid: 40
+    high: 60
   file: captures/gain_50_tight_down_pres_100_mid_high_4060.nam
 - values:
     gain: 50
     tight: down
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_50_tight_down_pres_100_mid_high_5050.nam
 - values:
     gain: 75
     tight: up
-    pres: 50
-    mid_high: 5050
+    presence: 50
+    mid: 50
+    high: 50
   file: captures/gain_75_tight_up_pres_50_mid_high_5050.nam
 - values:
     gain: 75
     tight: up
-    pres: 100
-    mid_high: 4060
+    presence: 100
+    mid: 40
+    high: 60
   file: captures/gain_75_tight_up_pres_100_mid_high_4060.nam
 - values:
     gain: 75
     tight: up
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_75_tight_up_pres_100_mid_high_5050.nam
 - values:
     gain: 75
     tight: down
-    pres: 50
-    mid_high: 4060
+    presence: 50
+    mid: 40
+    high: 60
   file: captures/gain_75_tight_down_pres_50_mid_high_4060.nam
 - values:
     gain: 75
     tight: down
-    pres: 50
-    mid_high: 5050
+    presence: 50
+    mid: 50
+    high: 50
   file: captures/gain_75_tight_down_pres_50_mid_high_5050.nam
 - values:
     gain: 75
     tight: down
-    pres: 100
-    mid_high: 4060
+    presence: 100
+    mid: 40
+    high: 60
   file: captures/gain_75_tight_down_pres_100_mid_high_4060.nam
 - values:
     gain: 100
     tight: up
-    pres: 50
-    mid_high: 4060
+    presence: 50
+    mid: 40
+    high: 60
   file: captures/gain_100_tight_up_pres_50_mid_high_4060.nam
 - values:
     gain: 100
     tight: up
-    pres: 50
-    mid_high: 5050
+    presence: 50
+    mid: 50
+    high: 50
   file: captures/gain_100_tight_up_pres_50_mid_high_5050.nam
 - values:
     gain: 100
     tight: up
-    pres: 100
-    mid_high: 4060
+    presence: 100
+    mid: 40
+    high: 60
   file: captures/gain_100_tight_up_pres_100_mid_high_4060.nam
 - values:
     gain: 100
     tight: up
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_100_tight_up_pres_100_mid_high_5050.nam
 - values:
     gain: 100
     tight: down
-    pres: 50
-    mid_high: 4060
+    presence: 50
+    mid: 40
+    high: 60
   file: captures/gain_100_tight_down_pres_50_mid_high_4060.nam
 - values:
     gain: 100
     tight: down
-    pres: 100
-    mid_high: 4060
+    presence: 100
+    mid: 40
+    high: 60
   file: captures/gain_100_tight_down_pres_100_mid_high_4060.nam
 - values:
     gain: 100
     tight: down
-    pres: 100
-    mid_high: 5050
+    presence: 100
+    mid: 50
+    high: 50
   file: captures/gain_100_tight_down_pres_100_mid_high_5050.nam

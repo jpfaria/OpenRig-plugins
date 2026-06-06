@@ -1,0 +1,69 @@
+manifest_version: 1
+id: nam_diezel_vh4_a1
+display_name: VH4
+description: Neural capture of the Diezel VH4 — a modern high-gain German amp.
+brand: diezel
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+# constant across all captures (dropped): diezel_vh4
+parameters:
+- name: channel
+  display_name: Channel
+  values: ['2', '3', '4']
+- name: gain
+  display_name: Gain
+  values: [lg, mg, hg]
+- name: bright
+  display_name: Bright
+  values: [normal, bright]
+- name: boost
+  display_name: Boost
+  values: [none, ts9]
+- name: preset
+  display_name: Preset
+  values: [v1, v2, v3]
+captures:
+- values: { channel: '2', gain: lg, bright: bright, boost: none, preset: v1 }
+  file: captures/diezel_vh4_ch_2_br_lg.nam
+- values: { channel: '2', gain: mg, bright: bright, boost: none, preset: v1 }
+  file: captures/diezel_vh4_ch_2_br_mg.nam
+- values: { channel: '2', gain: lg, bright: normal, boost: none, preset: v1 }
+  file: captures/diezel_vh4_ch_2_lg_01.nam
+- values: { channel: '2', gain: lg, bright: normal, boost: none, preset: v2 }
+  file: captures/diezel_vh4_ch_2_lg_02.nam
+- values: { channel: '2', gain: lg, bright: normal, boost: none, preset: v3 }
+  file: captures/diezel_vh4_ch_2_lg_03.nam
+- values: { channel: '2', gain: mg, bright: normal, boost: none, preset: v1 }
+  file: captures/diezel_vh4_ch_2_mg_01.nam
+- values: { channel: '2', gain: mg, bright: normal, boost: none, preset: v2 }
+  file: captures/diezel_vh4_ch_2_mg_02.nam
+- values: { channel: '2', gain: mg, bright: normal, boost: none, preset: v3 }
+  file: captures/diezel_vh4_ch_2_mg_03.nam
+- values: { channel: '3', gain: hg, bright: normal, boost: none, preset: v1 }
+  file: captures/diezel_vh4_ch_3_hg_01.nam
+- values: { channel: '3', gain: hg, bright: normal, boost: none, preset: v2 }
+  file: captures/diezel_vh4_ch_3_hg_02.nam
+- values: { channel: '3', gain: hg, bright: normal, boost: none, preset: v3 }
+  file: captures/diezel_vh4_ch_3_hg_03.nam
+- values: { channel: '3', gain: hg, bright: normal, boost: ts9, preset: v1 }
+  file: captures/diezel_vh4_ch_3_ts9_hg_01.nam
+- values: { channel: '3', gain: hg, bright: normal, boost: ts9, preset: v2 }
+  file: captures/diezel_vh4_ch_3_ts9_hg_02.nam
+- values: { channel: '3', gain: hg, bright: normal, boost: ts9, preset: v3 }
+  file: captures/diezel_vh4_ch_3_ts9_hg_03.nam
+- values: { channel: '4', gain: hg, bright: normal, boost: none, preset: v1 }
+  file: captures/diezel_vh4_ch_4_hg_01.nam
+- values: { channel: '4', gain: hg, bright: normal, boost: none, preset: v2 }
+  file: captures/diezel_vh4_ch_4_hg_02.nam
+- values: { channel: '4', gain: hg, bright: normal, boost: none, preset: v3 }
+  file: captures/diezel_vh4_ch_4_hg_03.nam
+- values: { channel: '4', gain: hg, bright: normal, boost: ts9, preset: v1 }
+  file: captures/diezel_vh4_ch_4_ts9_hg_01.nam
+- values: { channel: '4', gain: hg, bright: normal, boost: ts9, preset: v2 }
+  file: captures/diezel_vh4_ch_4_ts9_hg_02.nam
+- values: { channel: '4', gain: hg, bright: normal, boost: ts9, preset: v3 }
+  file: captures/diezel_vh4_ch_4_ts9_hg_03.nam

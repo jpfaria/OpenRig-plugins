@@ -1,0 +1,58 @@
+manifest_version: 1
+id: nam_marshall_jmp_2203_a1
+display_name: JMP 2203
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+# constant across all captures (dropped): slammin (capturer), marshall_2203 (this amp), 48k (sample rate), standard (capture profile)
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - noon
+  - scooped
+  - dark
+  - wylde
+  - rock
+- name: master
+  display_name: Master
+  values:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - sd1
+captures:
+- values:
+    boost: none
+    master: 3
+    voicing: noon
+  file: captures/slammin_marshall_2203_noon_mv3_48k_standard.nam
+- values:
+    boost: none
+    master: 4
+    voicing: scooped
+  file: captures/slammin_marshall_2203_scooped_mv4_48k_standard.nam
+- values:
+    boost: none
+    master: 5
+    voicing: dark
+  file: captures/slammin_marshall_2203_dark_mv5_48k_standard.nam
+- values:
+    boost: sd1
+    master: 6
+    voicing: wylde
+  file: captures/slammin_marshall_2203_wylde_sd1_mv6_48k.nam
+- values:
+    boost: none
+    master: 7
+    voicing: rock
+  file: captures/slammin_marshall_2203_rock_mv7_48k.nam

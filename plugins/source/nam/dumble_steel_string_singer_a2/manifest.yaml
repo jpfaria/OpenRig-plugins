@@ -10,27 +10,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/29285
 parameters:
-- name: channel
-  display_name: Channel
+- name: preset
+  display_name: Preset
   values:
   - clean
-  - drive
-- name: variant
-  display_name: Variant
-  values:
-  - default
-  - 1
-  - 2
+  - drive 1
+  - drive 2
 captures:
 - values:
-    channel: clean
-    variant: default
+    preset: clean
   file: captures/dumble_steel_ss_clean_a2.nam
 - values:
-    channel: drive
-    variant: 1
+    preset: drive 1
   file: captures/dumble_steel_ss_drive_1_a2.nam
 - values:
-    channel: drive
-    variant: 2
+    preset: drive 2
   file: captures/dumble_steel_ss_drive_2_a2.nam

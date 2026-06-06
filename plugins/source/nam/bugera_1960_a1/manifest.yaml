@@ -1,0 +1,30 @@
+# Dropped constants (identical across all captures): voicing=meshuggah
+manifest_version: 1
+id: nam_bugera_1960_a1
+display_name: Bugera 1960
+brand: bugera
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 2
+  - 3
+  - 4
+  - 5
+captures:
+- values:
+    preset: 2
+  file: captures/bugera_meshuggah_2.nam
+- values:
+    preset: 3
+  file: captures/bugera_meshuggah_3.nam
+- values:
+    preset: 4
+  file: captures/bugera_meshuggah_4.nam
+- values:
+    preset: 5
+  file: captures/bugera_meshuggah_5.nam

@@ -1,0 +1,64 @@
+# All captures are a 1986 MIJ BOSS HM-2 (constant brand/unit → omitted).
+# The numeric presets encode the four HM-2 knobs as v=level h=high l=low g=dist;
+# they sit alongside three named "Chainsaw" presets that have no knob grid, so a
+# single clean 'preset' axis with the real capture names is the honest decode.
+manifest_version: 1
+id: nam_boss_hm2_1986_a2
+display_name: Heavy Metal HM-2 '86
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6778
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - v10_l4_h6_g10
+  - v10_l10_h4_g10
+  - chainsaw
+  - hm2_eq_pedal_chainsaw
+  - v10_l10_h9_g10
+  - v6_l5_h5_g5
+  - v10_l6_h10_g10
+  - v8_l8_h2_g2
+  - v10_l10_h6_g10
+  - v6_l6_h4_g4
+  - chainsaw_0_gain
+captures:
+- values:
+    preset: v10_l4_h6_g10
+  file: captures/v10_l4_h6_g10_a2.nam
+- values:
+    preset: v10_l10_h4_g10
+  file: captures/v10_l10_h4_g10_a2.nam
+- values:
+    preset: chainsaw
+  file: captures/chainsaw_a2.nam
+- values:
+    preset: hm2_eq_pedal_chainsaw
+  file: captures/hm2_eq_pedal_chainsaw_a2.nam
+- values:
+    preset: v10_l10_h9_g10
+  file: captures/v10_l10_h9_g10_a2.nam
+- values:
+    preset: v6_l5_h5_g5
+  file: captures/v6_l5_h5_g5_a2.nam
+- values:
+    preset: v10_l6_h10_g10
+  file: captures/v10_l6_h10_g10_a2.nam
+- values:
+    preset: v8_l8_h2_g2
+  file: captures/v8_l8_h2_g2_a2.nam
+- values:
+    preset: v10_l10_h6_g10
+  file: captures/v10_l10_h6_g10_a2.nam
+- values:
+    preset: v6_l6_h4_g4
+  file: captures/v6_l6_h4_g4_a2.nam
+- values:
+    preset: chainsaw_0_gain
+  file: captures/chainsaw_0_gain_a2.nam

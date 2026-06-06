@@ -1,0 +1,40 @@
+manifest_version: 1
+id: nam_dallas_rangemaster_a2
+display_name: Dallas Rangemaster
+brand: dallas
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45843
+# Dropped constant token across all captures: "rangemaster" (the pedal name).
+parameters:
+- name: boost
+  display_name: Boost
+  values:
+  - 1200
+  - 1300
+  - 1400
+  - 1500
+  - 1600
+  - max
+captures:
+- values:
+    boost: 1200
+  file: captures/boost_1200_a2.nam
+- values:
+    boost: 1300
+  file: captures/boost_1300_a2.nam
+- values:
+    boost: 1400
+  file: captures/boost_1400_a2.nam
+- values:
+    boost: 1500
+  file: captures/boost_1500_a2.nam
+- values:
+    boost: 1600
+  file: captures/boost_1600_a2.nam
+- values:
+    boost: max
+  file: captures/boost_max_a2.nam

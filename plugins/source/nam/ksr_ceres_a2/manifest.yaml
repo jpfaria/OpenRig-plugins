@@ -1,7 +1,12 @@
 # Dropped constants (identical in every capture name): "KSR Ceres One", "48khz".
 # Real names from tone3000 id 44519 are "KSR Ceres One - 48khz - <Channel><N>".
-# channel = clean/rhythm/lead selector; variant = take index within a channel
-# (the trailing integer is a capture index, not a knob position).
+# The Ceres One is a preamp pedal with a channel/voicing selector plus a 3-way
+# Feel toggle (V2 layout: Up=Thick, Mid=Tight, Down=Fat). The description spells
+# out each capture's voicing + Feel position; Gain and EQ sit at noon throughout.
+#   Clean1 Pedal Platform / Clean2 Chimey          -> two clean voicings (no Feel)
+#   Rhythm1-3 Ares/Orthos Crunch  -> Thick/Tight/Fat
+#   Rhythm4-6 Artemis/Gemini Red  -> Thick/Tight/Fat
+#   Lead1-3   Colossus Lead       -> Thick/Tight/Fat
 manifest_version: 1
 id: nam_ksr_ceres_a2
 display_name: KSR Ceres
@@ -13,63 +18,62 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/44519
 parameters:
-- name: channel
-  display_name: Channel
+- name: voicing
+  display_name: Voicing
   values:
-  - clean
-  - rhythm
+  - clean_platform
+  - clean_chimey
+  - crunch
+  - red
   - lead
-- name: variant
-  display_name: Variant
+- name: feel
+  display_name: Feel
   values:
-  - v1
-  - v2
-  - v3
-  - v4
-  - v5
-  - v6
+  - thick
+  - tight
+  - fat
 captures:
 - values:
-    channel: clean
-    variant: v1
+    voicing: clean_platform
+    feel: thick
   file: captures/ksr_ceres_one_clean1_a2.nam
 - values:
-    channel: clean
-    variant: v2
+    voicing: clean_chimey
+    feel: thick
   file: captures/ksr_ceres_one_clean2_a2.nam
 - values:
-    channel: rhythm
-    variant: v1
+    voicing: crunch
+    feel: thick
   file: captures/ksr_ceres_one_rhythm1_a2.nam
 - values:
-    channel: rhythm
-    variant: v2
+    voicing: crunch
+    feel: tight
   file: captures/ksr_ceres_one_rhythm2_a2.nam
 - values:
-    channel: rhythm
-    variant: v3
+    voicing: crunch
+    feel: fat
   file: captures/ksr_ceres_one_rhythm3_a2.nam
 - values:
-    channel: rhythm
-    variant: v4
+    voicing: red
+    feel: thick
   file: captures/ksr_ceres_one_rhythm4_a2.nam
 - values:
-    channel: rhythm
-    variant: v5
+    voicing: red
+    feel: tight
   file: captures/ksr_ceres_one_rhythm5_a2.nam
 - values:
-    channel: rhythm
-    variant: v6
+    voicing: red
+    feel: fat
   file: captures/ksr_ceres_one_rhythm6_a2.nam
 - values:
-    channel: lead
-    variant: v1
+    voicing: lead
+    feel: thick
   file: captures/ksr_ceres_one_lead1_a2.nam
 - values:
-    channel: lead
-    variant: v2
+    voicing: lead
+    feel: tight
   file: captures/ksr_ceres_one_lead2_a2.nam
 - values:
-    channel: lead
-    variant: v3
+    voicing: lead
+    feel: fat
   file: captures/ksr_ceres_one_lead3_a2.nam

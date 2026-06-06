@@ -1,0 +1,126 @@
+# Constant token dropped from all capture names: jp2c (model), "Emil Rohbe" (author).
+# Curated grab-bag of specific amp settings (varying channel, gain, EQ, boost,
+# plus named leads / power-amp-only / bonus captures) that does not factor into a
+# clean cross-product of numeric knobs -> single 'preset' axis. Each preset label
+# preserves the real control settings from the capture name (ch=channel,
+# g=gain, t=treble, m=mid, b=bass, p=presence; ts808 = TS808 boost).
+manifest_version: 1
+id: nam_mesa_boogie_jp2c_a2
+display_name: JP2C
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1686
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - ch3_g8_t7_m4_b2_p4
+  - ch3_g6_t7_m4_b2_p4
+  - ch3_g10_t7_m4_b2_p4
+  - ch3_g8_t7_m4_b2_p4_ts808
+  - ch3_g8_t7_m4_b2_p6
+  - ch3_g8_t7_m4_b2_p4_shred
+  - ch3_g8_t7_m4_b2_p4_eq_less_bass
+  - ch3_g8_t7_m2_b2_p5
+  - ch3_g10_t7_m2_b2_p5
+  - ch3_g8_t7_m2_b2_p5_shred
+  - ch3_g8_t7_m2_b2_p5_ts808
+  - jp_lead_ch3_g9_t6_m3_b3_p6
+  - jp_rhythm_ch2_g8_t6_m4_b3_p6
+  - jp_lead_ch3_g9_t6_m3_b3_p6_shred
+  - jp_lead_ch3_g9_t6_m3_b3_p6_ts808
+  - clean_ch1_g6_t6_m1_b4_p6
+  - clean_ch1_g10_t6_m1_b4_p6
+  - ultimate_lead
+  - petrucci_lead
+  - power_amp_no_eq
+  - power_amp_with_eq
+  - bonus4_old_bad_ts808
+  - bonus9_old_bad_ts808
+  - bonus10_old_bad_ts808
+  - bonus11_old_bad_ts808
+  - bonus15_old_bad_ts808
+captures:
+- values:
+    preset: ch3_g8_t7_m4_b2_p4
+  file: captures/ch3_g8_t7_m4_b2_p4_a2.nam
+- values:
+    preset: ch3_g6_t7_m4_b2_p4
+  file: captures/ch3_g6_t7_m4_b2_p4_a2.nam
+- values:
+    preset: ch3_g10_t7_m4_b2_p4
+  file: captures/ch3_g10_t7_m4_b2_p4_a2.nam
+- values:
+    preset: ch3_g8_t7_m4_b2_p4_ts808
+  file: captures/ch3_g8_t7_m4_b2_p4_ts808_a2.nam
+- values:
+    preset: ch3_g8_t7_m4_b2_p6
+  file: captures/ch3_g8_t7_m4_b2_p6_a2.nam
+- values:
+    preset: ch3_g8_t7_m4_b2_p4_shred
+  file: captures/ch3_g8_t7_m4_b2_p4_shred_a2.nam
+- values:
+    preset: ch3_g8_t7_m4_b2_p4_eq_less_bass
+  file: captures/ch3_g8_t7_m4_b2_p4_eq_less_bass_a2.nam
+- values:
+    preset: ch3_g8_t7_m2_b2_p5
+  file: captures/ch3_g8_t7_m2_b2_p5_a2.nam
+- values:
+    preset: ch3_g10_t7_m2_b2_p5
+  file: captures/ch3_g10_t7_m2_b2_p5_a2.nam
+- values:
+    preset: ch3_g8_t7_m2_b2_p5_shred
+  file: captures/ch3_g8_t7_m2_b2_p5_shred_a2.nam
+- values:
+    preset: ch3_g8_t7_m2_b2_p5_ts808
+  file: captures/ch3_g8_t7_m2_b2_p5_ts808_a2.nam
+- values:
+    preset: jp_lead_ch3_g9_t6_m3_b3_p6
+  file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_a2.nam
+- values:
+    preset: jp_rhythm_ch2_g8_t6_m4_b3_p6
+  file: captures/jp_rhythm_ch2_g8_t6_m4_b3_p6_a2.nam
+- values:
+    preset: jp_lead_ch3_g9_t6_m3_b3_p6_shred
+  file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_shred_a2.nam
+- values:
+    preset: jp_lead_ch3_g9_t6_m3_b3_p6_ts808
+  file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_ts808_a2.nam
+- values:
+    preset: clean_ch1_g6_t6_m1_b4_p6
+  file: captures/clean_ch1_g6_t6_m1_b4_p6_a2.nam
+- values:
+    preset: clean_ch1_g10_t6_m1_b4_p6
+  file: captures/clean_ch1_g10_t6_m1_b4_p6_a2.nam
+- values:
+    preset: ultimate_lead
+  file: captures/ultimate_lead_a2.nam
+- values:
+    preset: petrucci_lead
+  file: captures/petrucci_lead_a2.nam
+- values:
+    preset: power_amp_no_eq
+  file: captures/power_amp_no_eq_a2.nam
+- values:
+    preset: power_amp_with_eq
+  file: captures/power_amp_with_eq_a2.nam
+- values:
+    preset: bonus4_old_bad_ts808
+  file: captures/bonus4_old_bad_ts808_a2.nam
+- values:
+    preset: bonus9_old_bad_ts808
+  file: captures/bonus9_old_bad_ts808_a2.nam
+- values:
+    preset: bonus10_old_bad_ts808
+  file: captures/bonus10_old_bad_ts808_a2.nam
+- values:
+    preset: bonus11_old_bad_ts808
+  file: captures/bonus11_old_bad_ts808_a2.nam
+- values:
+    preset: bonus15_old_bad_ts808
+  file: captures/bonus15_old_bad_ts808_a2.nam

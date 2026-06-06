@@ -1,0 +1,41 @@
+# Constant across all captures: brand/model prefix "ST_RAT_".
+manifest_version: 1
+id: nam_proco_rat_a2
+display_name: RAT
+brand: proco
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45294
+parameters:
+- name: dist
+  display_name: Distortion
+  values:
+  - p0900
+  - p1100
+  - p1300
+  - max
+- name: filter
+  display_name: Filter
+  values:
+  - 1200
+  - 1300
+captures:
+- values:
+    dist: p0900
+    filter: 1200
+  file: captures/rat_dist_0900_filter_1200_a2.nam
+- values:
+    dist: p1100
+    filter: 1300
+  file: captures/rat_dist_1100_filter_1300_a2.nam
+- values:
+    dist: max
+    filter: 1200
+  file: captures/rat_dist_max_filter_1200_a2.nam
+- values:
+    dist: p1300
+    filter: 1200
+  file: captures/rat_dist_1300_filter_1200_a2.nam

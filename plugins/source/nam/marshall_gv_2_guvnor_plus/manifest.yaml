@@ -11,7 +11,7 @@ type: gain_pedal
 backend: nam
 architecture: A2
 homepage: https://www.tone3000.com/tones/65163
-description: Neural capture of the Marshall GV-2 Guv'Nor Plus (1999) hi-gain distortion pedal. 23 curated settings across Gain / Bass / Deep / Treble / Mid, each shipped with two NAM architecture revisions (v1 and v2). Captures by DRPS.
+description: Neural capture of the Marshall GV-2 Guv'Nor Plus (1999) hi-gain distortion pedal. 23 curated DRPS settings sweeping the real GV-2 knobs Gain (3, 3.2, 4.3, 5, 5.2, 6, 7, 7.5, 10), Bass (0, 5, 7, 10), Deep (0, 5, 9, 10), Treble (0, 5, 8, 10) and Mid (0, 3, 5, 10), each shipped in two NAM model versions (v1 and v2). The Gain 5 Bass 5 Deep 5 Treble 5 Mid 5 capture is the "everything at 12 o'clock" (noon) setting. Captures by DRPS.
 parameters:
 - name: gain
   display_name: Gain
@@ -53,101 +53,101 @@ parameters:
   - 3
   - 5
   - 10
-- name: arch
-  display_name: Arch
+- name: version
+  display_name: Version
   values:
   - v1
   - v2
 captures:
-- values: { gain: 5, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+- values: { gain: 5, bass: 5, deep: 5, treble: 5, mid: 5, version: v1 }
   file: captures/gain_5_bass_5_deep_5_treble_5_mid_5.nam
-- values: { gain: 10, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 10, bass: 10, deep: 10, treble: 10, mid: 10, version: v1 }
   file: captures/gain_10_bass_10_deep_10_treble_10_mid_10.nam
-- values: { gain: 10, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+- values: { gain: 10, bass: 5, deep: 10, treble: 8, mid: 3, version: v1 }
   file: captures/gain_10_bass_5_deep_10_treble_8_mid_3.nam
-- values: { gain: 3, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+- values: { gain: 3, bass: 5, deep: 5, treble: 5, mid: 5, version: v1 }
   file: captures/gain_3_bass_5_deep_5_treble_5_mid_5.nam
-- values: { gain: 5, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+- values: { gain: 5, bass: 7, deep: 0, treble: 0, mid: 10, version: v1 }
   file: captures/gain_5_bass_7_deep_0_treble_0_mid_10.nam
-- values: { gain: 4.3, bass: 0, deep: 0, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 4.3, bass: 0, deep: 0, treble: 10, mid: 10, version: v1 }
   file: captures/gain_4_3_bass_0_deep_0_treble_10_mid_10.nam
-- values: { gain: 5.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+- values: { gain: 5.2, bass: 5, deep: 10, treble: 8, mid: 3, version: v1 }
   file: captures/gain_5_2_bass_5_deep_10_treble_8_mid_3.nam
-- values: { gain: 3, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 3, bass: 10, deep: 10, treble: 10, mid: 10, version: v1 }
   file: captures/gain_3_bass_10_deep_10_treble_10_mid_10.nam
-- values: { gain: 7, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+- values: { gain: 7, bass: 7, deep: 0, treble: 0, mid: 10, version: v1 }
   file: captures/gain_7_bass_7_deep_0_treble_0_mid_10.nam
-- values: { gain: 10, bass: 0, deep: 0, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 10, bass: 0, deep: 0, treble: 10, mid: 10, version: v1 }
   file: captures/gain_10_bass_0_deep_0_treble_10_mid_10.nam
-- values: { gain: 3.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+- values: { gain: 3.2, bass: 5, deep: 10, treble: 8, mid: 3, version: v1 }
   file: captures/gain_3_2_bass_5_deep_10_treble_8_mid_3.nam
-- values: { gain: 7, bass: 0, deep: 0, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 7, bass: 0, deep: 0, treble: 10, mid: 10, version: v1 }
   file: captures/gain_7_bass_0_deep_0_treble_10_mid_10.nam
-- values: { gain: 5, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+- values: { gain: 5, bass: 10, deep: 9, treble: 0, mid: 0, version: v1 }
   file: captures/gain_5_bass_10_deep_9_treble_0_mid_0.nam
-- values: { gain: 6, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+- values: { gain: 6, bass: 5, deep: 5, treble: 5, mid: 5, version: v1 }
   file: captures/gain_6_bass_5_deep_5_treble_5_mid_5.nam
-- values: { gain: 5, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 5, bass: 10, deep: 10, treble: 10, mid: 10, version: v1 }
   file: captures/gain_5_bass_10_deep_10_treble_10_mid_10.nam
-- values: { gain: 10, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+- values: { gain: 10, bass: 10, deep: 9, treble: 0, mid: 0, version: v1 }
   file: captures/gain_10_bass_10_deep_9_treble_0_mid_0.nam
-- values: { gain: 3, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+- values: { gain: 3, bass: 10, deep: 9, treble: 0, mid: 0, version: v1 }
   file: captures/gain_3_bass_10_deep_9_treble_0_mid_0.nam
-- values: { gain: 10, bass: 5, deep: 5, treble: 5, mid: 5, arch: v1 }
+- values: { gain: 10, bass: 5, deep: 5, treble: 5, mid: 5, version: v1 }
   file: captures/gain_10_bass_5_deep_5_treble_5_mid_5.nam
-- values: { gain: 7, bass: 10, deep: 9, treble: 0, mid: 0, arch: v1 }
+- values: { gain: 7, bass: 10, deep: 9, treble: 0, mid: 0, version: v1 }
   file: captures/gain_7_bass_10_deep_9_treble_0_mid_0.nam
-- values: { gain: 7, bass: 10, deep: 10, treble: 10, mid: 10, arch: v1 }
+- values: { gain: 7, bass: 10, deep: 10, treble: 10, mid: 10, version: v1 }
   file: captures/gain_7_bass_10_deep_10_treble_10_mid_10.nam
-- values: { gain: 10, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+- values: { gain: 10, bass: 7, deep: 0, treble: 0, mid: 10, version: v1 }
   file: captures/gain_10_bass_7_deep_0_treble_0_mid_10.nam
-- values: { gain: 3, bass: 7, deep: 0, treble: 0, mid: 10, arch: v1 }
+- values: { gain: 3, bass: 7, deep: 0, treble: 0, mid: 10, version: v1 }
   file: captures/gain_3_bass_7_deep_0_treble_0_mid_10.nam
-- values: { gain: 7.5, bass: 5, deep: 10, treble: 8, mid: 3, arch: v1 }
+- values: { gain: 7.5, bass: 5, deep: 10, treble: 8, mid: 3, version: v1 }
   file: captures/gain_7_5_bass_5_deep_10_treble_8_mid_3.nam
-- values: { gain: 7, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 7, bass: 10, deep: 10, treble: 10, mid: 10, version: v2 }
   file: captures/gain_7_bass_10_deep_10_treble_10_mid_10_a2.nam
-- values: { gain: 3, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+- values: { gain: 3, bass: 7, deep: 0, treble: 0, mid: 10, version: v2 }
   file: captures/gain_3_bass_7_deep_0_treble_0_mid_10_a2.nam
-- values: { gain: 5, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+- values: { gain: 5, bass: 7, deep: 0, treble: 0, mid: 10, version: v2 }
   file: captures/gain_5_bass_7_deep_0_treble_0_mid_10_a2.nam
-- values: { gain: 5.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+- values: { gain: 5.2, bass: 5, deep: 10, treble: 8, mid: 3, version: v2 }
   file: captures/gain_5_2_bass_5_deep_10_treble_8_mid_3_a2.nam
-- values: { gain: 6, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+- values: { gain: 6, bass: 5, deep: 5, treble: 5, mid: 5, version: v2 }
   file: captures/gain_6_bass_5_deep_5_treble_5_mid_5_a2.nam
-- values: { gain: 10, bass: 0, deep: 0, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 10, bass: 0, deep: 0, treble: 10, mid: 10, version: v2 }
   file: captures/gain_10_bass_0_deep_0_treble_10_mid_10_a2.nam
-- values: { gain: 10, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+- values: { gain: 10, bass: 10, deep: 9, treble: 0, mid: 0, version: v2 }
   file: captures/gain_10_bass_10_deep_9_treble_0_mid_0_a2.nam
-- values: { gain: 10, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+- values: { gain: 10, bass: 7, deep: 0, treble: 0, mid: 10, version: v2 }
   file: captures/gain_10_bass_7_deep_0_treble_0_mid_10_a2.nam
-- values: { gain: 5, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 5, bass: 10, deep: 10, treble: 10, mid: 10, version: v2 }
   file: captures/gain_5_bass_10_deep_10_treble_10_mid_10_a2.nam
-- values: { gain: 7, bass: 0, deep: 0, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 7, bass: 0, deep: 0, treble: 10, mid: 10, version: v2 }
   file: captures/gain_7_bass_0_deep_0_treble_10_mid_10_a2.nam
-- values: { gain: 7, bass: 7, deep: 0, treble: 0, mid: 10, arch: v2 }
+- values: { gain: 7, bass: 7, deep: 0, treble: 0, mid: 10, version: v2 }
   file: captures/gain_7_bass_7_deep_0_treble_0_mid_10_a2.nam
-- values: { gain: 3.2, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+- values: { gain: 3.2, bass: 5, deep: 10, treble: 8, mid: 3, version: v2 }
   file: captures/gain_3_2_bass_5_deep_10_treble_8_mid_3_a2.nam
-- values: { gain: 3, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+- values: { gain: 3, bass: 10, deep: 9, treble: 0, mid: 0, version: v2 }
   file: captures/gain_3_bass_10_deep_9_treble_0_mid_0_a2.nam
-- values: { gain: 10, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+- values: { gain: 10, bass: 5, deep: 10, treble: 8, mid: 3, version: v2 }
   file: captures/gain_10_bass_5_deep_10_treble_8_mid_3_a2.nam
-- values: { gain: 3, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+- values: { gain: 3, bass: 5, deep: 5, treble: 5, mid: 5, version: v2 }
   file: captures/gain_3_bass_5_deep_5_treble_5_mid_5_a2.nam
-- values: { gain: 4.3, bass: 0, deep: 0, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 4.3, bass: 0, deep: 0, treble: 10, mid: 10, version: v2 }
   file: captures/gain_4_3_bass_0_deep_0_treble_10_mid_10_a2.nam
-- values: { gain: 7, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+- values: { gain: 7, bass: 10, deep: 9, treble: 0, mid: 0, version: v2 }
   file: captures/gain_7_bass_10_deep_9_treble_0_mid_0_a2.nam
-- values: { gain: 7.5, bass: 5, deep: 10, treble: 8, mid: 3, arch: v2 }
+- values: { gain: 7.5, bass: 5, deep: 10, treble: 8, mid: 3, version: v2 }
   file: captures/gain_7_5_bass_5_deep_10_treble_8_mid_3_a2.nam
-- values: { gain: 3, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 3, bass: 10, deep: 10, treble: 10, mid: 10, version: v2 }
   file: captures/gain_3_bass_10_deep_10_treble_10_mid_10_a2.nam
-- values: { gain: 5, bass: 10, deep: 9, treble: 0, mid: 0, arch: v2 }
+- values: { gain: 5, bass: 10, deep: 9, treble: 0, mid: 0, version: v2 }
   file: captures/gain_5_bass_10_deep_9_treble_0_mid_0_a2.nam
-- values: { gain: 5, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+- values: { gain: 5, bass: 5, deep: 5, treble: 5, mid: 5, version: v2 }
   file: captures/gain_5_bass_5_deep_5_treble_5_mid_5_a2.nam
-- values: { gain: 10, bass: 10, deep: 10, treble: 10, mid: 10, arch: v2 }
+- values: { gain: 10, bass: 10, deep: 10, treble: 10, mid: 10, version: v2 }
   file: captures/gain_10_bass_10_deep_10_treble_10_mid_10_a2.nam
-- values: { gain: 10, bass: 5, deep: 5, treble: 5, mid: 5, arch: v2 }
+- values: { gain: 10, bass: 5, deep: 5, treble: 5, mid: 5, version: v2 }
   file: captures/gain_10_bass_5_deep_5_treble_5_mid_5_a2.nam

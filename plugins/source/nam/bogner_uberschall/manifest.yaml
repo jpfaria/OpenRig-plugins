@@ -1,0 +1,60 @@
+manifest_version: 1
+id: nam_bogner_uberschall
+display_name: Uberschall
+brand: bogner
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/1628
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+# Captures are a grab-bag of the same amp at different named settings (no
+# consistent knob grid) → single 'preset' axis. Constant tokens dropped:
+# uberschall, capture, emil(_rohbe). 'cap_4' keeps its index (no descriptive
+# token to distinguish it).
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - g7
+  - cap_4
+  - g6
+  - lo
+  - hi_p
+  - g6_boosted
+  - new_2
+  - new_3
+  - new_boosted
+  - clean
+captures:
+- values:
+    preset: g7
+  file: captures/uberschall_capture_2_g7_emil_rohbe.nam
+- values:
+    preset: cap_4
+  file: captures/uberschall_capture_4_emil_rohbe.nam
+- values:
+    preset: g6
+  file: captures/uberschall_capture_5_emil_settings_g6_emil_rohbe.nam
+- values:
+    preset: lo
+  file: captures/uberschall_capture_7_emil_settings_lo_emil_rohbe.nam
+- values:
+    preset: hi_p
+  file: captures/uberschall_capture_8_emil_settings_hi_p_emil_rohbe.nam
+- values:
+    preset: g6_boosted
+  file: captures/uberschall_capture_9_g6_boosted_emil_rohbe.nam
+- values:
+    preset: new_2
+  file: captures/uberschall_capture_13_new_settings_2_emil_rohbe.nam
+- values:
+    preset: new_3
+  file: captures/uberschall_capture_14_new_settings_3_emil_rohbe.nam
+- values:
+    preset: new_boosted
+  file: captures/uberschall_capture_15_new_settings_boosted_emil_rohbe.nam
+- values:
+    preset: clean
+  file: captures/uberschall_capture_17_clean_2_emil_rohbe.nam

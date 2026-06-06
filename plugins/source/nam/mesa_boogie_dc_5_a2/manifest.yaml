@@ -1,0 +1,121 @@
+manifest_version: 1
+id: nam_mesa_boogie_dc_5_a2
+display_name: DC-5
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/37731
+# Constant token dropped from every capture name: "Mesa DC-5" (amp/brand).
+# Names are a grab-bag of named voicings (graphic-EQ curves + boost states)
+# with variant indices (SD 805 1-3, Mean 1-5) and per-capture gain settings
+# that do not form a consistent control grid, so they collapse to one clean
+# 'preset' axis rather than separate voicing/gain knobs.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - sd_805_1
+  - sd_805_2
+  - sd_805_3
+  - thick_g4
+  - thick_g6_5
+  - thick_g7_5
+  - thick_g8_5
+  - less_thick_g4
+  - less_thick_g5_5
+  - less_thick_g7_5
+  - less_thick_g8_5
+  - mids_g4
+  - mids_g5_5
+  - mids_g7_5
+  - mids_g9
+  - scoop_g5_5
+  - scoop_g7
+  - mean_1
+  - mean_2_g6
+  - mean_3_g7_5
+  - mean_4_g5_5
+  - mean_5_g5_5
+  - mean_5_g7
+  - mean_5_g8
+  - new
+captures:
+- values:
+    preset: sd_805_1
+  file: captures/sd_805_1_a2.nam
+- values:
+    preset: sd_805_2
+  file: captures/sd_805_2_a2.nam
+- values:
+    preset: sd_805_3
+  file: captures/sd_805_3_a2.nam
+- values:
+    preset: thick_g4
+  file: captures/thick_g4_a2.nam
+- values:
+    preset: thick_g6_5
+  file: captures/thick_g6_5_a2.nam
+- values:
+    preset: thick_g7_5
+  file: captures/thick_g7_5_a2.nam
+- values:
+    preset: thick_g8_5
+  file: captures/thick_g8_5_a2.nam
+- values:
+    preset: less_thick_g4
+  file: captures/less_thick_g4_a2.nam
+- values:
+    preset: less_thick_g5_5
+  file: captures/less_thick_g5_5_a2.nam
+- values:
+    preset: less_thick_g7_5
+  file: captures/less_thick_g7_5_a2.nam
+- values:
+    preset: less_thick_g8_5
+  file: captures/less_thick_g8_5_a2.nam
+- values:
+    preset: mids_g4
+  file: captures/mids_g4_a2.nam
+- values:
+    preset: mids_g5_5
+  file: captures/mids_g5_5_a2.nam
+- values:
+    preset: mids_g7_5
+  file: captures/mids_g7_5_a2.nam
+- values:
+    preset: mids_g9
+  file: captures/mids_g9_a2.nam
+- values:
+    preset: scoop_g5_5
+  file: captures/scoop_g5_5_a2.nam
+- values:
+    preset: scoop_g7
+  file: captures/scoop_g7_a2.nam
+- values:
+    preset: mean_1
+  file: captures/mean_1_a2.nam
+- values:
+    preset: mean_2_g6
+  file: captures/mean_2_g6_a2.nam
+- values:
+    preset: mean_3_g7_5
+  file: captures/mean_3_g7_5_a2.nam
+- values:
+    preset: mean_4_g5_5
+  file: captures/mean_4_g5_5_a2.nam
+- values:
+    preset: mean_5_g5_5
+  file: captures/mean_5_g5_5_a2.nam
+- values:
+    preset: mean_5_g7
+  file: captures/mean_5_g7_a2.nam
+- values:
+    preset: mean_5_g8
+  file: captures/mean_5_g8_a2.nam
+- values:
+    preset: new
+  file: captures/new_a2.nam

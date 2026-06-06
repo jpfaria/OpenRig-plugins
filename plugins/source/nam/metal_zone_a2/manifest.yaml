@@ -1,0 +1,211 @@
+manifest_version: 1
+id: nam_metal_zone_a2
+display_name: Metal Zone MT-2
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64957
+# Constant across all captures, omitted: "DRPS BOSS Metal Zone MT-2" (brand/profiler/model).
+# Knobs decode the MT-2 controls: low (L), high (H), mid level (M),
+# mid frequency (MF), and dist (DIST). The "Everything 12 o'clock"
+# capture is L5 H5 M5 MF5 DIST5. Two captures share the exact same
+# labeled settings (L6 H4 M6 MF5 DIST2.7) and no labeled control tells
+# them apart (same author, captured seconds apart); they are exposed as
+# two `preset` entries (a / b) so both ship as distinct profiles.
+parameters:
+- name: low
+  display_name: Low
+  values:
+  - 5
+  - 6
+  - 8
+  - 9
+- name: high
+  display_name: High
+  values:
+  - 3.8
+  - 4
+  - 5
+  - 7
+- name: mid
+  display_name: Mid
+  values:
+  - 4.8
+  - 5
+  - 6
+  - 7
+  - 10
+- name: mid_freq
+  display_name: Mid Freq
+  values:
+  - 0
+  - 5
+  - 5.5
+  - 7.8
+- name: dist
+  display_name: Dist
+  values:
+  - 2.7
+  - 3
+  - 4
+  - 4.9
+  - 5
+  - 6
+  - 7.8
+  - 8
+  - 10
+- name: preset
+  display_name: Preset
+  values:
+  - default
+  - a
+  - b
+captures:
+- values:
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 3
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist3_a2.nam
+- values:
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 5
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist5_a2.nam
+- values:
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 8
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist8_a2.nam
+- values:
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 10
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist10_a2.nam
+- values:
+    low: 6
+    high: 4
+    mid: 4.8
+    mid_freq: 0
+    dist: 5
+    preset: default
+  file: captures/l6_h4_m4_8_mf0_dist5_a2.nam
+- values:
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 2.7
+    preset: a
+  file: captures/l6_h4_m6_mf5_dist2_7_a_a2.nam
+- values:
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 2.7
+    preset: b
+  file: captures/l6_h4_m6_mf5_dist2_7_b_a2.nam
+- values:
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 4.9
+    preset: default
+  file: captures/l6_h4_m6_mf5_dist4_9_a2.nam
+- values:
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 6
+    preset: default
+  file: captures/l6_h4_m6_mf5_dist6_a2.nam
+- values:
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 10
+    preset: default
+  file: captures/l6_h4_m6_mf5_dist10_a2.nam
+- values:
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 3
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist3_a2.nam
+- values:
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 4
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist4_a2.nam
+- values:
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 6
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist6_a2.nam
+- values:
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 10
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist10_a2.nam
+- values:
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 3
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist3_a2.nam
+- values:
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 5
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist5_a2.nam
+- values:
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 7.8
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist7_8_a2.nam
+- values:
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 10
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist10_a2.nam

@@ -11,55 +11,43 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/54165
 parameters:
-- name: module
-  display_name: Module
-  values:
-  - syn20ir
-  - jcm800
-  - dzl_herbert
-  - evh5153s
 - name: preset
   display_name: Preset
   values:
-  - red
-  - red_v2
-  - green
-  - loomis
-  - more_gain
+  - syn20ir_red
+  - syn20ir_red_v2
+  - syn20ir_green
+  - syn20ir_loomis
+  - jcm800_red
+  - dzl_herbert_red
+  - dzl_herbert_more_gain
+  - dzl_herbert_green
+  - evh5153s_red
 captures:
 - values:
-    module: syn20ir
-    preset: red
+    preset: syn20ir_red
   file: captures/syn20ir_k_kali_red_a2.nam
 - values:
-    module: syn20ir
-    preset: loomis
+    preset: syn20ir_loomis
   file: captures/syn20ir_k_kali_loomis_a2.nam
 - values:
-    module: syn20ir
-    preset: green
+    preset: syn20ir_green
   file: captures/syn20ir_k_kali_green_a2.nam
 - values:
-    module: syn20ir
-    preset: red_v2
+    preset: syn20ir_red_v2
   file: captures/syn20ir_k_kali_red_v2_a2.nam
 - values:
-    module: jcm800
-    preset: red
+    preset: jcm800_red
   file: captures/jcm800_k_kali_red_a2.nam
 - values:
-    module: dzl_herbert
-    preset: red
+    preset: dzl_herbert_red
   file: captures/dzl_herbert_k_kali_red_a2.nam
 - values:
-    module: dzl_herbert
-    preset: more_gain
+    preset: dzl_herbert_more_gain
   file: captures/dzl_herbert_k_kali_more_gain_a2.nam
 - values:
-    module: dzl_herbert
-    preset: green
+    preset: dzl_herbert_green
   file: captures/dzl_herbert_k_kali_green_a2.nam
 - values:
-    module: evh5153s
-    preset: red
+    preset: evh5153s_red
   file: captures/evh5153s_k_kali_red_a2.nam

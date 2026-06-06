@@ -16,32 +16,32 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - fortin_33
-  - tc_805
-  - tc_spark
-  - precision_drive
+  - f33
+  - "805"
+  - spark
+  - precision
 captures:
 - values:
     channel: blue
-    boost: fortin_33
+    boost: f33
   file: captures/ob1_evh_blue_fortin_33_full_rig.nam
 - values:
     channel: blue
-    boost: tc_805
+    boost: "805"
   file: captures/ob1_evh_blue_805_full_rig.nam
 - values:
     channel: blue
-    boost: precision_drive
+    boost: precision
   file: captures/ob1_evh_blue_precision_drive_full_rig.nam
 - values:
     channel: red
-    boost: fortin_33
+    boost: f33
   file: captures/ob1_evh_red_fortin_33_full_rig.nam
 - values:
     channel: red
-    boost: tc_spark
+    boost: spark
   file: captures/ob1_evh_red_tc_spark_full_rig.nam
 - values:
     channel: red
-    boost: precision_drive
+    boost: precision
   file: captures/ob1_evh_red_precision_drive_full_rig.nam

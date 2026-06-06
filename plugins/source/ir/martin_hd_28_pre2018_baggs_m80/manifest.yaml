@@ -7,45 +7,45 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: strings
-  display_name: Strings
+- name: flavor
+  display_name: Flavor
   values:
-  - all
+  - full
   - e
-- name: match
-  display_name: Match
+- name: version
+  display_name: Version
   values:
   - base
   - match1
   - match2
 captures:
 - values:
-    strings: all
-    match: base
+    flavor: full
+    version: base
   file: ir/ir_hd28_m80_allstr_44100.wav
   output_gain_db: -6.9695930
 - values:
-    strings: all
-    match: match1
+    flavor: full
+    version: match1
   file: ir/ir_hd28_m80_allstr_44100_match1.wav
   output_gain_db: -9.5857077
 - values:
-    strings: all
-    match: match2
+    flavor: full
+    version: match2
   file: ir/ir_hd28_m80_allstr_44100_match2.wav
   output_gain_db: -9.6990433
 - values:
-    strings: e
-    match: base
+    flavor: e
+    version: base
   file: ir/ir_hd28_m80_estr_44100.wav
   output_gain_db: -5.7599998
 - values:
-    strings: e
-    match: match1
+    flavor: e
+    version: match1
   file: ir/ir_hd28_m80_estr_44100_match1.wav
   output_gain_db: -9.9284449
 - values:
-    strings: e
-    match: match2
+    flavor: e
+    version: match2
   file: ir/ir_hd28_m80_estr_44100_match2.wav
   output_gain_db: -10.1314526

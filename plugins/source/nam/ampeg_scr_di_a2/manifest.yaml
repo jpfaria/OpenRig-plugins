@@ -1,0 +1,60 @@
+manifest_version: 1
+id: nam_ampeg_scr_di_a2
+display_name: SCR-DI
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/58940
+# Constant token dropped from every capture name: "SCR-DI" (the pedal model).
+# Names form a grab-bag (ultra-switch combos, a fixed EQ voicing, and scrambler
+# drive/blend variants) that does not factor into orthogonal control axes, so a
+# single clean 'preset' axis is used.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - standard
+  - ultra_lo
+  - ultra_hi
+  - ultra_lo_hi
+  - ultra_scrambler_d50_b50
+  - ultra_scrambler_d100_b100
+  - ultra_scrambler_d100_b50
+  - eq_v65_b65_m50_t65
+  - eq_scrambler_d50_b100
+  - eq_scrambler_d100_b100
+captures:
+- values:
+    preset: standard
+  file: captures/standard_a2.nam
+- values:
+    preset: ultra_lo
+  file: captures/ultra_lo_a2.nam
+- values:
+    preset: ultra_hi
+  file: captures/ultra_hi_a2.nam
+- values:
+    preset: ultra_lo_hi
+  file: captures/ultra_lo_hi_a2.nam
+- values:
+    preset: ultra_scrambler_d50_b50
+  file: captures/ultra_scrambler_d50_b50_a2.nam
+- values:
+    preset: ultra_scrambler_d100_b100
+  file: captures/ultra_scrambler_d100_b100_a2.nam
+- values:
+    preset: ultra_scrambler_d100_b50
+  file: captures/ultra_scrambler_d100_b50_a2.nam
+- values:
+    preset: eq_v65_b65_m50_t65
+  file: captures/eq_v65_b65_m50_t65_a2.nam
+- values:
+    preset: eq_scrambler_d50_b100
+  file: captures/eq_scrambler_d50_b100_a2.nam
+- values:
+    preset: eq_scrambler_d100_b100
+  file: captures/eq_scrambler_d100_b100_a2.nam

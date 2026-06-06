@@ -1,0 +1,25 @@
+manifest_version: 1
+id: nam_mxr_gt_od_a2
+display_name: GT-OD (Zakk Wylde)
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/58881
+# Constant across both captures (Zakk Wylde mode on): output max, tone 1 o'clock, gain 10 o'clock.
+# The two captures are alternate renders of the same setting (HQ vs new-test v1) → preset axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - hq
+  - new_test
+captures:
+- values:
+    preset: hq
+  file: captures/gt_od_v1_hq_a2.nam
+- values:
+    preset: new_test
+  file: captures/gt_od_new_test_v1_a2.nam

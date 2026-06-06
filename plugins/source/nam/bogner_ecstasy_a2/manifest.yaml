@@ -1,0 +1,71 @@
+# Constant token "Bogner Ecstasy" dropped from every capture name (amp identity, not a control).
+# Names are a grab-bag of named voicings (clean/crunch/lead/Vai signature tones) that do not
+# factor into consistent control axes -> single clean 'preset' axis.
+manifest_version: 1
+id: nam_bogner_ecstasy_a2
+display_name: Ecstasy
+brand: bogner
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/15223
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - basic_clean
+  - fender_clean
+  - plexi_crunch
+  - dumble_crunch
+  - ch2_warm_rock
+  - bright_crunchy_rock
+  - crunchier_rock
+  - ch2_eq5_exc_m
+  - ch2_eq5_exc_t
+  - thick_lead
+  - vai_ftlog
+  - vai_ftlog_b_off
+  - vai_imdwy
+captures:
+- values:
+    preset: basic_clean
+  file: captures/basic_clean_a2.nam
+- values:
+    preset: fender_clean
+  file: captures/fender_clean_a2.nam
+- values:
+    preset: plexi_crunch
+  file: captures/plexi_crunch_a2.nam
+- values:
+    preset: dumble_crunch
+  file: captures/dumble_crunch_a2.nam
+- values:
+    preset: ch2_warm_rock
+  file: captures/ch2_warm_rock_a2.nam
+- values:
+    preset: bright_crunchy_rock
+  file: captures/bright_crunchy_rock_a2.nam
+- values:
+    preset: crunchier_rock
+  file: captures/crunchier_rock_a2.nam
+- values:
+    preset: ch2_eq5_exc_m
+  file: captures/ch2_eq5_exc_m_a2.nam
+- values:
+    preset: ch2_eq5_exc_t
+  file: captures/ch2_eq5_exc_t_a2.nam
+- values:
+    preset: thick_lead
+  file: captures/thick_lead_a2.nam
+- values:
+    preset: vai_ftlog
+  file: captures/vai_ftlog_a2.nam
+- values:
+    preset: vai_ftlog_b_off
+  file: captures/vai_ftlog_b_off_a2.nam
+- values:
+    preset: vai_imdwy
+  file: captures/vai_imdwy_a2.nam

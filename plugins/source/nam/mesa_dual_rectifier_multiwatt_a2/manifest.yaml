@@ -9,7 +9,13 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/27915
-# Dropped constants (identical across all captures): model prefix "MBDR MW" (Mesa Boogie Dual Rectifier Multi-Watt), "Raw" (direct, no boost/pedal in front).
+# Dropped constants (identical across all captures): model prefix "MBDR MW" (Mesa Boogie Dual Rectifier Multi-Watt), "Raw" (direct, no boost/pedal in front), Master Volume (MV-10:00 on every capture).
+# The numbered "settings 1-5" in the source description are distinct EQ dial combos, not recording takes. Each number encodes Presence/Treble/Middle/Bass clock positions, decomposed below into the real tone-stack knobs (clock -> knob: 7:00=0, 12:00/noon=5, 5:00=10; one hour per unit).
+#   1 - P-1:00(6)  T-1:00(6)  M-1:00(6)  B-11:00(4)
+#   2 - P-11:00(4) T-2:00(7)  M-1:00(6)  B-9:00(2)
+#   3 - P-11:00(4) T-11:00(4) M-1:00(6)  B-10:00(3)
+#   4 - P-11:00(4) T-12:00(5) M-2:00(7)  B-10:00(3)
+#   5 - P-12:00(5) T-12:00(5) M-12:00(5) B-9:00(2)
 parameters:
 - name: channel
   display_name: Channel
@@ -27,252 +33,389 @@ parameters:
   values:
   - diode
   - 5u4
-- name: take
-  display_name: Take
+- name: presence
+  display_name: Presence
   values:
-  - 1
+  - 4
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 4
+  - 5
+  - 6
+  - 7
+- name: middle
+  display_name: Middle
+  values:
+  - 5
+  - 6
+  - 7
+- name: bass
+  display_name: Bass
+  values:
   - 2
   - 3
   - 4
-  - 5
 captures:
 - values:
     channel: orange
-    gain: 2
-    rectifier: diode
-    take: 5
-  file: captures/mbdr_mw_or_raw_g_2_00_5_a2.nam
-- values:
-    channel: red
     gain: 1
     rectifier: diode
-    take: 2
-  file: captures/mbdr_mw_red_raw_g_1_00_2_a2.nam
-- values:
-    channel: orange
-    gain: 2
-    rectifier: 5u4
-    take: 1
-  file: captures/mbdr_mw_or_raw_g_2_00_1_5u4_a2.nam
-- values:
-    channel: red
-    gain: 3
-    rectifier: diode
-    take: 3
-  file: captures/mbdr_mw_red_raw_g_3_00_3_a2.nam
-- values:
-    channel: red
-    gain: 2
-    rectifier: 5u4
-    take: 1
-  file: captures/mbdr_mw_red_raw_g_2_00_1_5u4_a2.nam
-- values:
-    channel: orange
-    gain: 1
-    rectifier: diode
-    take: 1
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
   file: captures/mbdr_mw_or_raw_g_1_00_1_a2.nam
 - values:
-    channel: red
+    channel: orange
+    gain: 1
+    rectifier: diode
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
+  file: captures/mbdr_mw_or_raw_g_1_00_2_a2.nam
+- values:
+    channel: orange
+    gain: 1
+    rectifier: diode
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_1_00_3_a2.nam
+- values:
+    channel: orange
+    gain: 1
+    rectifier: diode
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_1_00_4_a2.nam
+- values:
+    channel: orange
+    gain: 1
+    rectifier: diode
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_or_raw_g_1_00_5_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: 5u4
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_or_raw_g_2_00_1_5u4_a2.nam
+- values:
+    channel: orange
     gain: 2
     rectifier: diode
-    take: 4
-  file: captures/mbdr_mw_red_raw_g_2_00_4_a2.nam
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_or_raw_g_2_00_1_a2.nam
 - values:
     channel: orange
     gain: 2
     rectifier: 5u4
-    take: 3
-  file: captures/mbdr_mw_or_raw_g_2_00_3_5u4_a2.nam
-- values:
-    channel: red
-    gain: 2
-    rectifier: 5u4
-    take: 2
-  file: captures/mbdr_mw_red_raw_g_2_00_2_5u4_a2.nam
-- values:
-    channel: orange
-    gain: 2
-    rectifier: 5u4
-    take: 2
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
   file: captures/mbdr_mw_or_raw_g_2_00_2_5u4_a2.nam
 - values:
-    channel: red
-    gain: 3
-    rectifier: diode
-    take: 2
-  file: captures/mbdr_mw_red_raw_g_3_00_2_a2.nam
-- values:
-    channel: red
+    channel: orange
     gain: 2
     rectifier: diode
-    take: 1
-  file: captures/mbdr_mw_red_raw_g_2_00_1_a2.nam
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
+  file: captures/mbdr_mw_or_raw_g_2_00_2_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: 5u4
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_2_00_3_5u4_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: diode
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_2_00_3_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: 5u4
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_2_00_4_5u4_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: diode
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_2_00_4_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: 5u4
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_or_raw_g_2_00_5_5u4_a2.nam
+- values:
+    channel: orange
+    gain: 2
+    rectifier: diode
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_or_raw_g_2_00_5_a2.nam
 - values:
     channel: orange
     gain: 3
     rectifier: diode
-    take: 2
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_or_raw_g_3_00_1_a2.nam
+- values:
+    channel: orange
+    gain: 3
+    rectifier: diode
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
   file: captures/mbdr_mw_or_raw_g_3_00_2_a2.nam
 - values:
     channel: orange
-    gain: 1
-    rectifier: diode
-    take: 2
-  file: captures/mbdr_mw_or_raw_g_1_00_2_a2.nam
-- values:
-    channel: red
-    gain: 1
-    rectifier: diode
-    take: 5
-  file: captures/mbdr_mw_red_raw_g_1_00_5_a2.nam
-- values:
-    channel: red
     gain: 3
     rectifier: diode
-    take: 4
-  file: captures/mbdr_mw_red_raw_g_3_00_4_a2.nam
-- values:
-    channel: red
-    gain: 3
-    rectifier: diode
-    take: 5
-  file: captures/mbdr_mw_red_raw_g_3_00_5_a2.nam
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_3_00_3_a2.nam
 - values:
     channel: orange
-    gain: 2
+    gain: 3
     rectifier: diode
-    take: 4
-  file: captures/mbdr_mw_or_raw_g_2_00_4_a2.nam
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_or_raw_g_3_00_4_a2.nam
+- values:
+    channel: orange
+    gain: 3
+    rectifier: diode
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_or_raw_g_3_00_5_a2.nam
+- values:
+    channel: red
+    gain: 1
+    rectifier: diode
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_red_raw_g_1_00_1_a2.nam
+- values:
+    channel: red
+    gain: 1
+    rectifier: diode
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_1_00_2_a2.nam
+- values:
+    channel: red
+    gain: 1
+    rectifier: diode
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_1_00_3_a2.nam
+- values:
+    channel: red
+    gain: 1
+    rectifier: diode
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_1_00_4_a2.nam
+- values:
+    channel: red
+    gain: 1
+    rectifier: diode
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_1_00_5_a2.nam
 - values:
     channel: red
     gain: 2
     rectifier: 5u4
-    take: 4
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_red_raw_g_2_00_1_5u4_a2.nam
+- values:
+    channel: red
+    gain: 2
+    rectifier: diode
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_red_raw_g_2_00_1_a2.nam
+- values:
+    channel: red
+    gain: 2
+    rectifier: 5u4
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_2_00_2_5u4_a2.nam
+- values:
+    channel: red
+    gain: 2
+    rectifier: diode
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_2_00_2_a2.nam
+- values:
+    channel: red
+    gain: 2
+    rectifier: 5u4
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_2_00_3_5u4_a2.nam
+- values:
+    channel: red
+    gain: 2
+    rectifier: diode
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_2_00_3_a2.nam
+- values:
+    channel: red
+    gain: 2
+    rectifier: 5u4
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
   file: captures/mbdr_mw_red_raw_g_2_00_4_5u4_a2.nam
 - values:
     channel: red
     gain: 2
     rectifier: diode
-    take: 3
-  file: captures/mbdr_mw_red_raw_g_2_00_3_a2.nam
-- values:
-    channel: orange
-    gain: 3
-    rectifier: diode
-    take: 4
-  file: captures/mbdr_mw_or_raw_g_3_00_4_a2.nam
-- values:
-    channel: red
-    gain: 2
-    rectifier: diode
-    take: 5
-  file: captures/mbdr_mw_red_raw_g_2_00_5_a2.nam
-- values:
-    channel: orange
-    gain: 3
-    rectifier: diode
-    take: 3
-  file: captures/mbdr_mw_or_raw_g_3_00_3_a2.nam
-- values:
-    channel: red
-    gain: 1
-    rectifier: diode
-    take: 4
-  file: captures/mbdr_mw_red_raw_g_1_00_4_a2.nam
-- values:
-    channel: orange
-    gain: 1
-    rectifier: diode
-    take: 3
-  file: captures/mbdr_mw_or_raw_g_1_00_3_a2.nam
-- values:
-    channel: orange
-    gain: 3
-    rectifier: diode
-    take: 5
-  file: captures/mbdr_mw_or_raw_g_3_00_5_a2.nam
-- values:
-    channel: orange
-    gain: 2
-    rectifier: 5u4
-    take: 5
-  file: captures/mbdr_mw_or_raw_g_2_00_5_5u4_a2.nam
-- values:
-    channel: orange
-    gain: 2
-    rectifier: 5u4
-    take: 4
-  file: captures/mbdr_mw_or_raw_g_2_00_4_5u4_a2.nam
-- values:
-    channel: red
-    gain: 3
-    rectifier: diode
-    take: 1
-  file: captures/mbdr_mw_red_raw_g_3_00_1_a2.nam
-- values:
-    channel: orange
-    gain: 1
-    rectifier: diode
-    take: 5
-  file: captures/mbdr_mw_or_raw_g_1_00_5_a2.nam
-- values:
-    channel: red
-    gain: 1
-    rectifier: diode
-    take: 1
-  file: captures/mbdr_mw_red_raw_g_1_00_1_a2.nam
-- values:
-    channel: orange
-    gain: 2
-    rectifier: diode
-    take: 3
-  file: captures/mbdr_mw_or_raw_g_2_00_3_a2.nam
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_2_00_4_a2.nam
 - values:
     channel: red
     gain: 2
     rectifier: 5u4
-    take: 3
-  file: captures/mbdr_mw_red_raw_g_2_00_3_5u4_a2.nam
-- values:
-    channel: orange
-    gain: 1
-    rectifier: diode
-    take: 4
-  file: captures/mbdr_mw_or_raw_g_1_00_4_a2.nam
-- values:
-    channel: red
-    gain: 2
-    rectifier: 5u4
-    take: 5
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
   file: captures/mbdr_mw_red_raw_g_2_00_5_5u4_a2.nam
 - values:
     channel: red
-    gain: 1
+    gain: 2
     rectifier: diode
-    take: 3
-  file: captures/mbdr_mw_red_raw_g_1_00_3_a2.nam
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_2_00_5_a2.nam
 - values:
     channel: red
-    gain: 2
-    rectifier: diode
-    take: 2
-  file: captures/mbdr_mw_red_raw_g_2_00_2_a2.nam
-- values:
-    channel: orange
-    gain: 2
-    rectifier: diode
-    take: 2
-  file: captures/mbdr_mw_or_raw_g_2_00_2_a2.nam
-- values:
-    channel: orange
     gain: 3
     rectifier: diode
-    take: 1
-  file: captures/mbdr_mw_or_raw_g_3_00_1_a2.nam
+    presence: 6
+    treble: 6
+    middle: 6
+    bass: 4
+  file: captures/mbdr_mw_red_raw_g_3_00_1_a2.nam
 - values:
-    channel: orange
-    gain: 2
+    channel: red
+    gain: 3
     rectifier: diode
-    take: 1
-  file: captures/mbdr_mw_or_raw_g_2_00_1_a2.nam
+    presence: 4
+    treble: 7
+    middle: 6
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_3_00_2_a2.nam
+- values:
+    channel: red
+    gain: 3
+    rectifier: diode
+    presence: 4
+    treble: 4
+    middle: 6
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_3_00_3_a2.nam
+- values:
+    channel: red
+    gain: 3
+    rectifier: diode
+    presence: 4
+    treble: 5
+    middle: 7
+    bass: 3
+  file: captures/mbdr_mw_red_raw_g_3_00_4_a2.nam
+- values:
+    channel: red
+    gain: 3
+    rectifier: diode
+    presence: 5
+    treble: 5
+    middle: 5
+    bass: 2
+  file: captures/mbdr_mw_red_raw_g_3_00_5_a2.nam

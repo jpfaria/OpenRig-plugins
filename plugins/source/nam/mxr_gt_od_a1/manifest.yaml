@@ -1,0 +1,22 @@
+# Constant across all captures: gt_od (the pedal, already in id/display_name).
+manifest_version: 1
+id: nam_mxr_gt_od_a1
+display_name: GT-OD (Zakk Wylde)
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - hq
+  - v2
+captures:
+- values:
+    preset: hq
+  file: captures/gt_od_hq.nam
+- values:
+    preset: v2
+  file: captures/gt_od_v2.nam

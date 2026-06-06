@@ -1,0 +1,42 @@
+manifest_version: 1
+id: nam_marshall_jcm900_a1
+display_name: JCM900
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - vox_ac15_clean
+  - vox_ac15_crunch
+  - vox_ac15_crunch_2
+  - jtm_45_clean
+  - jtm_45_crunch
+  - jcm_900_high_gain
+  - dumble_clean
+captures:
+- values:
+    preset: vox_ac15_clean
+  file: captures/vox_ac15_clean.nam
+- values:
+    preset: vox_ac15_crunch
+  file: captures/vox_ac15_crunsh.nam
+- values:
+    preset: vox_ac15_crunch_2
+  file: captures/vox_ac15_crsh_2.nam
+- values:
+    preset: jtm_45_clean
+  file: captures/marshall_jtm_45_clean.nam
+- values:
+    preset: jtm_45_crunch
+  file: captures/jtm_45_crsh.nam
+- values:
+    preset: jcm_900_high_gain
+  file: captures/marshall_jcm_900_higain.nam
+- values:
+    preset: dumble_clean
+  file: captures/ods_dumble_clean.nam

@@ -10,50 +10,50 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/32514
 parameters:
-- name: vol
-  display_name: Vol
+- name: volume
+  display_name: Volume
   values:
   - 4
   - 7
   - 10
-  - 5_5
+  - 5.5
 - name: tone
   display_name: Tone
   values:
   - 4
   - 7
   - 10
-  - 5_5
+  - 5.5
 captures:
 - values:
-    vol: 4
+    volume: 4
     tone: 7
   file: captures/64_princeton_clean_vol_4_tone_7_a2.nam
 - values:
-    vol: 10
+    volume: 10
     tone: 7
   file: captures/64_princeton_cranked_vol_10_tone_7_a2.nam
 - values:
-    vol: 7
+    volume: 7
     tone: 7
   file: captures/64_princeton_sweet_spot_vol_7_tone_7_a2.nam
 - values:
-    vol: 7
+    volume: 7
     tone: 4
   file: captures/64_princeton_sweet_spot_vol_7_tone_4_a2.nam
 - values:
-    vol: 10
+    volume: 10
     tone: 10
   file: captures/64_princeton_all_on_10_v10_t10_a2.nam
 - values:
-    vol: 5_5
-    tone: 5_5
+    volume: 5.5
+    tone: 5.5
   file: captures/64_princeton_all_on_5_5_v5_5_t5_5_a2.nam
 - values:
-    vol: 10
+    volume: 10
     tone: 4
   file: captures/64_princeton_cranked_vol_10_tone_4_a2.nam
 - values:
-    vol: 4
+    volume: 4
     tone: 4
   file: captures/64_princeton_clean_vol_4_tone_4_a2.nam

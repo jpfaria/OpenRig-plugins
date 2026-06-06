@@ -1,0 +1,46 @@
+manifest_version: 1
+id: nam_fuzz_face_a1
+display_name: Fuzz Face
+brand: dunlop
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+# constant across all captures: dunlop, eric_johnson, fuzz (the pedal itself)
+parameters:
+- name: fuzz
+  display_name: Fuzz
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+captures:
+- values:
+    fuzz: 1
+  file: captures/dunlop_eric_johnson_fuzz_01.nam
+- values:
+    fuzz: 2
+  file: captures/dunlop_eric_johnson_fuzz_02.nam
+- values:
+    fuzz: 3
+  file: captures/dunlop_eric_johnson_fuzz_03.nam
+- values:
+    fuzz: 4
+  file: captures/dunlop_eric_johnson_fuzz_04.nam
+- values:
+    fuzz: 5
+  file: captures/dunlop_eric_johnson_fuzz_05.nam
+- values:
+    fuzz: 6
+  file: captures/dunlop_eric_johnson_fuzz_06.nam
+- values:
+    fuzz: 7
+  file: captures/dunlop_eric_johnson_fuzz_07.nam
+- values:
+    fuzz: 8
+  file: captures/dunlop_eric_johnson_fuzz_08.nam

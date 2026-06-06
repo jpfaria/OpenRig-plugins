@@ -1,0 +1,31 @@
+manifest_version: 1
+id: nam_fender_frontman_15g_a2
+display_name: Frontman 15G
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.9237862
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/43498
+# Names are a grab-bag of named voicings ("fender 15g clean flat", "fender 15g
+# clean boost mid/bass cut treble slightly", "high gain 4") that do not
+# decompose into a consistent control grid; exposed as a single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean_flat
+  - clean_boost
+  - high_gain
+captures:
+- values:
+    preset: clean_flat
+  file: captures/clean_flat_a2.nam
+- values:
+    preset: clean_boost
+  file: captures/clean_boost_a2.nam
+- values:
+    preset: high_gain
+  file: captures/high_gain_a2.nam

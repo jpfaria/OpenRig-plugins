@@ -1,0 +1,64 @@
+manifest_version: 1
+id: nam_engl_ironball
+display_name: Ironball
+brand: engl
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/30522
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+# All local captures are the Standard architecture variant ("_s" suffix) at the
+# brand/amp constant "slammin_engl_iron_lead" — both constant across every file,
+# so dropped. Per the tone3000 description: "two different gain levels, rhythm and
+# solo, that I captured for each EQ setting" — so gain is the rhythm/solo axis and
+# voicing is the EQ setting.
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - balanced
+  - bright
+  - chunky
+  - mids
+  - scoop
+  - slight_scoop
+- name: gain
+  display_name: Gain
+  values:
+  - rhythm
+  - solo
+captures:
+- values:
+    gain: solo
+    voicing: scoop
+  file: captures/slammin_engl_iron_lead_scoop_solo_s.nam
+- values:
+    gain: rhythm
+    voicing: balanced
+  file: captures/slammin_engl_iron_lead_balanced_rhythm_s.nam
+- values:
+    gain: rhythm
+    voicing: bright
+  file: captures/slammin_engl_iron_lead_bright_rhythm_s.nam
+- values:
+    gain: solo
+    voicing: bright
+  file: captures/slammin_engl_iron_lead_bright_solo_s.nam
+- values:
+    gain: rhythm
+    voicing: chunky
+  file: captures/slammin_engl_iron_lead_chunky_rhythm_s.nam
+- values:
+    gain: rhythm
+    voicing: slight_scoop
+  file: captures/slammin_engl_iron_lead_slightscoop_rhythm_s.nam
+- values:
+    gain: solo
+    voicing: mids
+  file: captures/slammin_engl_iron_lead_mids_solo_s.nam
+- values:
+    gain: solo
+    voicing: chunky
+  file: captures/slammin_engl_iron_lead_chunky_solo_s.nam

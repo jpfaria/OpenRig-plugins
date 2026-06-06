@@ -1,0 +1,49 @@
+manifest_version: 1
+id: nam_marshall_jmp_1_head_a2
+display_name: JMP-1 Head
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45918
+# Dropped constant token across all captures: "JMP" (amp model name).
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - crunch_breakup
+  - rhythm_1
+  - rhythm_2
+  - rhythm_3
+  - rhythm_deftoned
+  - rhythm_od808
+  - lead_creamy
+captures:
+- values:
+    preset: clean
+  file: captures/clean_a2.nam
+- values:
+    preset: crunch_breakup
+  file: captures/crunch_breakup_a2.nam
+- values:
+    preset: rhythm_1
+  file: captures/rhythm_1_a2.nam
+- values:
+    preset: rhythm_2
+  file: captures/rhythm_2_a2.nam
+- values:
+    preset: rhythm_3
+  file: captures/rhythm_3_a2.nam
+- values:
+    preset: rhythm_deftoned
+  file: captures/rhythm_deftoned_a2.nam
+- values:
+    preset: rhythm_od808
+  file: captures/rhythm_od808_a2.nam
+- values:
+    preset: lead_creamy
+  file: captures/lead_creamy_a2.nam

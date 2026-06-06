@@ -1,0 +1,97 @@
+# Constant across all captures (dropped): amp "Dual Rectifier 2ch Rev. F".
+# voicing = the amp channel/mode colour (Orange vs Red).
+# preset = gain-mode / pedal-boost grab-bag (clean amp gain stages g5-g8,
+#          named crunch/rock modes, and TS/F33/Mudkiller/Blink182 boosts) —
+#          does not decompose into numeric knobs.
+manifest_version: 1
+id: nam_mesa_dual_rectifier_rev_f_a2
+display_name: Dual Rectifier Rev F
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1635
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - orange
+  - red
+- name: preset
+  display_name: Preset
+  values:
+  - crunch
+  - heavy_crunch
+  - rock
+  - f33
+  - mudkiller
+  - blink182
+  - ts9_nevermore
+  - g5
+  - g6_ts808
+  - g7
+  - g8
+captures:
+- values:
+    voicing: orange
+    preset: crunch
+  file: captures/orange_crunch_a2.nam
+- values:
+    voicing: red
+    preset: rock
+  file: captures/red_rock_a2.nam
+- values:
+    voicing: orange
+    preset: heavy_crunch
+  file: captures/orange_heavy_crunch_a2.nam
+- values:
+    voicing: red
+    preset: g8
+  file: captures/red_g8_a2.nam
+- values:
+    voicing: red
+    preset: f33
+  file: captures/red_f33_a2.nam
+- values:
+    voicing: orange
+    preset: g6_ts808
+  file: captures/orange_g6_ts808_a2.nam
+- values:
+    voicing: red
+    preset: mudkiller
+  file: captures/red_mudkiller_a2.nam
+- values:
+    voicing: red
+    preset: blink182
+  file: captures/red_blink182_a2.nam
+- values:
+    voicing: orange
+    preset: g8
+  file: captures/orange_g8_a2.nam
+- values:
+    voicing: red
+    preset: ts9_nevermore
+  file: captures/red_ts9_nevermore_a2.nam
+- values:
+    voicing: orange
+    preset: g7
+  file: captures/orange_g7_a2.nam
+- values:
+    voicing: red
+    preset: g7
+  file: captures/red_g7_a2.nam
+- values:
+    voicing: orange
+    preset: g5
+  file: captures/orange_g5_a2.nam
+- values:
+    voicing: red
+    preset: g5
+  file: captures/red_g5_a2.nam
+- values:
+    voicing: orange
+    preset: f33
+  file: captures/orange_f33_a2.nam

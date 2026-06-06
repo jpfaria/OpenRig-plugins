@@ -10,102 +10,87 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/41228
 parameters:
-- name: chassis
-  display_name: Chassis
+- name: preset
+  display_name: Preset
   values:
-  - head
-  - combo
-- name: voicing
-  display_name: Voicing
-  values:
-  - clean
-  - compressed_clean
-  - 80s_clean
-  - single_coil
-  - marshall_coil
-  - rock
-  - fat_gain
-  - solo
-  - architects
-  - deth_lead
+  - head_clean
+  - head_compressed_clean
+  - head_80s_clean
+  - head_single_coil
+  - head_marshall_coil
+  - head_rock
+  - head_fat_gain
+  - head_solo
+  - head_architects
+  - head_deth_lead
+  - combo_clean
+  - combo_compressed_clean
+  - combo_80s_clean
+  - combo_single_coil
+  - combo_marshall_coil
+  - combo_rock
+  - combo_fat_gain
+  - combo_solo
+  - combo_architects
+  - combo_deth_lead
 captures:
 - values:
-    chassis: head
-    voicing: clean
+    preset: head_clean
   file: captures/clean_head_a2.nam
 - values:
-    chassis: head
-    voicing: compressed_clean
+    preset: head_compressed_clean
   file: captures/compressed_clean_head_a2.nam
 - values:
-    chassis: head
-    voicing: 80s_clean
+    preset: head_80s_clean
   file: captures/80s_clean_head_a2.nam
 - values:
-    chassis: head
-    voicing: single_coil
+    preset: head_single_coil
   file: captures/single_coil_head_a2.nam
 - values:
-    chassis: head
-    voicing: marshall_coil
+    preset: head_marshall_coil
   file: captures/marshall_coil_head_a2.nam
 - values:
-    chassis: head
-    voicing: rock
+    preset: head_rock
   file: captures/rock_head_a2.nam
 - values:
-    chassis: head
-    voicing: fat_gain
+    preset: head_fat_gain
   file: captures/fat_gain_head_a2.nam
 - values:
-    chassis: head
-    voicing: solo
+    preset: head_solo
   file: captures/solo_head_a2.nam
 - values:
-    chassis: head
-    voicing: architects
+    preset: head_architects
   file: captures/architects_head_a2.nam
 - values:
-    chassis: head
-    voicing: deth_lead
+    preset: head_deth_lead
   file: captures/deth_lead_head_a2.nam
 - values:
-    chassis: combo
-    voicing: clean
+    preset: combo_clean
   file: captures/clean_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: compressed_clean
+    preset: combo_compressed_clean
   file: captures/compressed_clean_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: 80s_clean
+    preset: combo_80s_clean
   file: captures/80s_clean_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: single_coil
+    preset: combo_single_coil
   file: captures/single_coil_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: marshall_coil
+    preset: combo_marshall_coil
   file: captures/marshall_coil_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: rock
+    preset: combo_rock
   file: captures/rock_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: fat_gain
+    preset: combo_fat_gain
   file: captures/fat_gain_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: solo
+    preset: combo_solo
   file: captures/solo_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: architects
+    preset: combo_architects
   file: captures/architects_combo_a2.nam
 - values:
-    chassis: combo
-    voicing: deth_lead
+    preset: combo_deth_lead
   file: captures/deth_lead_combo_a2.nam

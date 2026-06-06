@@ -10,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/29380
 parameters:
-- name: vol1
-  display_name: Volume 1
+- name: volume1
+  display_name: Volume I
   values:
   - 2
   - 3
@@ -22,81 +22,81 @@ parameters:
   - 8
   - 9
   - 10
-- name: vol2
-  display_name: Volume 2
+- name: volume2
+  display_name: Volume II
   values:
   - 2
   - 5
 captures:
 - values:
-    vol1: 4
-    vol2: 2
+    volume1: 4
+    volume2: 2
   file: captures/in1_v1_4_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 9
-    vol2: 2
+    volume1: 9
+    volume2: 2
   file: captures/in1_v1_9_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 2
-    vol2: 5
+    volume1: 2
+    volume2: 5
   file: captures/in1_v1_2_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 7
-    vol2: 2
+    volume1: 7
+    volume2: 2
   file: captures/in1_v1_7_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 6
-    vol2: 2
+    volume1: 6
+    volume2: 2
   file: captures/in1_v1_6_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 5
-    vol2: 5
+    volume1: 5
+    volume2: 5
   file: captures/in1_v1_5_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 3
-    vol2: 5
+    volume1: 3
+    volume2: 5
   file: captures/in1_v1_3_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 10
-    vol2: 2
+    volume1: 10
+    volume2: 2
   file: captures/in1_v1_10_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 4
-    vol2: 5
+    volume1: 4
+    volume2: 5
   file: captures/in1_v1_4_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 8
-    vol2: 2
+    volume1: 8
+    volume2: 2
   file: captures/in1_v1_8_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 3
-    vol2: 2
+    volume1: 3
+    volume2: 2
   file: captures/in1_v1_3_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 2
-    vol2: 2
+    volume1: 2
+    volume2: 2
   file: captures/in1_v1_2_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 9
-    vol2: 5
+    volume1: 9
+    volume2: 5
   file: captures/in1_v1_9_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 8
-    vol2: 5
+    volume1: 8
+    volume2: 5
   file: captures/in1_v1_8_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 7
-    vol2: 5
+    volume1: 7
+    volume2: 5
   file: captures/in1_v1_7_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 5
-    vol2: 2
+    volume1: 5
+    volume2: 2
   file: captures/in1_v1_5_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 6
-    vol2: 5
+    volume1: 6
+    volume2: 5
   file: captures/in1_v1_6_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_v1_10_v2_5_t10_m_10_b_10_p_0_a2.nam

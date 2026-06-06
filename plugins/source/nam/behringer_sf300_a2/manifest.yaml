@@ -1,0 +1,63 @@
+manifest_version: 1
+id: nam_behringer_sf300_a2
+display_name: SF300 Super Fuzz
+brand: behringer
+brand_logo: assets/brand_logo.svg
+output_gain_db: 2.0777245
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/44505
+# Constant tokens dropped from every capture name: ST, SF300.
+# The 4 captures map cleanly onto the SF300's real controls: the Fuzz 1/Fuzz 2
+# mode switch plus the gain, bass and treble knobs. Knob values use the pack's
+# clock-position scale (9/12/15 o'clock); MAX (fully clockwise) is encoded as 17.
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - fuzz1
+  - fuzz2
+- name: gain
+  display_name: Gain
+  values:
+  - 9
+  - 15
+  - 17
+- name: bass
+  display_name: Bass
+  values:
+  - 9
+  - 12
+  - 17
+- name: treble
+  display_name: Treble
+  values:
+  - 12
+  - 17
+captures:
+- values:
+    mode: fuzz1
+    gain: 9
+    bass: 12
+    treble: 12
+  file: captures/fuzz1_gain9_bass12_treble12_a2.nam
+- values:
+    mode: fuzz2
+    gain: 9
+    bass: 9
+    treble: 12
+  file: captures/fuzz2_gain9_bass9_treble12_a2.nam
+- values:
+    mode: fuzz2
+    gain: 15
+    bass: 17
+    treble: 17
+  file: captures/fuzz2_gain15_bass_max_treble_max_a2.nam
+- values:
+    mode: fuzz2
+    gain: 17
+    bass: 17
+    treble: 17
+  file: captures/fuzz2_gain_max_bass_max_treble_max_a2.nam

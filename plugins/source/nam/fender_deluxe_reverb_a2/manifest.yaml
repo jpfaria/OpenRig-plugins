@@ -1,0 +1,215 @@
+# Constant across all captures (dropped): "66 DR" amp-model token (Fender 1966 Deluxe Reverb).
+# Real-control axes recovered from tone3000 model names (tone 15222):
+#   tube    — stock 6V6 vs the V6-position tube swapped for a 12AX7 ("V6" prefix in the names) for extra gain.
+#   channel — Deluxe Reverb voice: norm / bright (bright-switch) / vib (vibrato channel); none = preset names that omit it.
+#   voicing — the named knob setting; its V/T/B numbers are fixed per voicing, so V/T/B is not an independent axis.
+manifest_version: 1
+id: nam_fender_deluxe_reverb_a2
+display_name: Deluxe Reverb
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/15222
+parameters:
+- name: tube
+  display_name: Tube
+  values:
+  - stock
+  - mod_12ax7
+- name: channel
+  display_name: Channel
+  values:
+  - norm
+  - bright
+  - vib
+  - none
+- name: voicing
+  display_name: Voicing
+  values:
+  - clean
+  - 80s_clean
+  - sweet_spot
+  - mild_drive
+  - driven
+  - cranked
+  - all_on_5
+  - v10_t10_b1
+  - v1_pulled
+  - jumpered
+  - jumpered_sweet
+  - ts9_ds1_boost
+captures:
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: all_on_5
+  file: captures/v6_all_on_5_bright_v5_t5_b5_a2.nam
+- values:
+    tube: stock
+    channel: bright
+    voicing: v10_t10_b1
+  file: captures/v10_t10_b1_bright_a2.nam
+- values:
+    tube: stock
+    channel: norm
+    voicing: mild_drive
+  file: captures/mild_drive_norm_v6_t5_b3_75_a2.nam
+- values:
+    tube: stock
+    channel: bright
+    voicing: mild_drive
+  file: captures/mild_drive_bright_v6_t5_b3_75_a2.nam
+- values:
+    tube: stock
+    channel: norm
+    voicing: cranked
+  file: captures/cranked_norm_v10_t5_b2_75_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: driven
+  file: captures/v6_driven_norm_v8_t5_b3_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: clean
+  file: captures/v6_clean_bright_v3_t5_b5_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: all_on_5
+  file: captures/v6_all_on_5_normal_v5_t5_b5_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: vib
+    voicing: ts9_ds1_boost
+  file: captures/v6_vib_ts9_ds_1_boosted_v3_t3_b2_5_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: v10_t10_b1
+  file: captures/v6_v10_t10_b1_norm_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: v10_t10_b1
+  file: captures/v6_v10_t10_b1_bright_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: mild_drive
+  file: captures/v6_mild_drive_norm_v6_t5_b3_75_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: none
+    voicing: 80s_clean
+  file: captures/80s_clean_v6_v3_t6_b6_a2.nam
+- values:
+    tube: stock
+    channel: norm
+    voicing: driven
+  file: captures/driven_norm_v8_t5_b3_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: sweet_spot
+  file: captures/v6_sweet_spot_norm_v4_t5_b5_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: none
+    voicing: v1_pulled
+  file: captures/v6_v1_pulled_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: cranked
+  file: captures/v6_cranked_bright_v10_t5_b2_75_a2.nam
+- values:
+    tube: stock
+    channel: norm
+    voicing: v10_t10_b1
+  file: captures/v10_t10_b1_normal_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: ts9_ds1_boost
+  file: captures/v6_norm_ts9_ds_1_boosted_v3_t3_b2_5_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: jumpered
+  file: captures/v6_jumpered_bright_a2.nam
+- values:
+    tube: stock
+    channel: none
+    voicing: 80s_clean
+  file: captures/80s_clean_v3_t6_b6_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: driven
+  file: captures/v6_driven_bright_v8_t5_b3_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: none
+    voicing: jumpered_sweet
+  file: captures/v6_jumpered_thick_n_sweet_a2.nam
+- values:
+    tube: stock
+    channel: bright
+    voicing: sweet_spot
+  file: captures/sweet_spot_bright_v4_t5_b5_a2.nam
+- values:
+    tube: stock
+    channel: bright
+    voicing: cranked
+  file: captures/cranked_bright_v10_t5_b2_75_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: clean
+  file: captures/v6_clean_norm_v3_t5_b5_a2.nam
+- values:
+    tube: stock
+    channel: none
+    voicing: jumpered_sweet
+  file: captures/jumpered_thick_n_sweet_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: bright
+    voicing: sweet_spot
+  file: captures/v6_sweet_spot_bright_v4_t5_b5_a2.nam
+- values:
+    tube: mod_12ax7
+    channel: norm
+    voicing: cranked
+  file: captures/v6_cranked_norm_v10_t5_b2_75_a2.nam
+- values:
+    tube: stock
+    channel: norm
+    voicing: sweet_spot
+  file: captures/sweet_spot_norm_v4_t5_b5_a2.nam
+- values:
+    tube: stock
+    channel: none
+    voicing: v1_pulled
+  file: captures/v1_pulled_a2.nam
+- values:
+    tube: stock
+    channel: bright
+    voicing: clean
+  file: captures/clean_bright_v3_t5_b5_a2.nam
+- values:
+    tube: stock
+    channel: norm
+    voicing: clean
+  file: captures/clean_norm_v3_t5_b5_a2.nam
+- values:
+    tube: stock
+    channel: bright
+    voicing: driven
+  file: captures/driven_bright_v8_t5_b3_a2.nam

@@ -1,0 +1,50 @@
+manifest_version: 1
+id: nam_boss_mt_2_metal_zone_a1
+display_name: Boss MT-2 Metal Zone
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+# Constant across all captures (dropped): clean_boost mode.
+# The varying names are a grab-bag of named settings (battery_powered
+# positions 5-8 + four generic "setting" snapshots) that do not factor
+# into real pedal control axes, so they collapse into a single 'preset'.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - battery_5
+  - battery_6
+  - battery_7
+  - battery_8
+  - setting_1
+  - setting_2
+  - setting_3
+  - setting_4
+captures:
+- values:
+    preset: battery_5
+  file: captures/boss_metalzone_clean_boost_5_battery_powered.nam
+- values:
+    preset: battery_6
+  file: captures/boss_metalzone_clean_boost_6_battery_powered.nam
+- values:
+    preset: battery_7
+  file: captures/boss_metalzone_clean_boost_7_battery_powered.nam
+- values:
+    preset: battery_8
+  file: captures/boss_metalzone_clean_boost_8_battery_powered.nam
+- values:
+    preset: setting_1
+  file: captures/boss_metalzone_clean_boost_setting.nam
+- values:
+    preset: setting_2
+  file: captures/boss_metalzone_clean_boost_setting_2.nam
+- values:
+    preset: setting_3
+  file: captures/boss_metalzone_clean_boost_setting_3.nam
+- values:
+    preset: setting_4
+  file: captures/boss_metalzone_clean_boost_setting_4.nam

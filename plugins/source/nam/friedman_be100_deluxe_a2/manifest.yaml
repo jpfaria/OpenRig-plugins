@@ -1,0 +1,100 @@
+# Constant across all captures (dropped): amp slug "BE100DLX", architecture tag "STD",
+# and DI (direct, no mic) on every AMP/POW capture.
+# Axes:
+#   channel = the real amp channel switch (CLN clean / BE Brown Eye / HBE Hairy Brown Eye;
+#             the poweramp-only profile has no channel -> none).
+#   preset  = the named profile / "settings & inspiration" from the pack spreadsheet. These are a
+#             grab-bag of named tones (Noon = knobs at noon, plus Mammoth/Tallica/Eddie/etc.) that
+#             do not decompose into individual knob values; the captured stage (preamp/full head/
+#             poweramp) is folded into the preset name so each capture stays a unique combo.
+manifest_version: 1
+id: nam_friedman_be100_deluxe_a2
+display_name: BE100 Deluxe
+brand: friedman
+brand_logo: assets/brand_logo.svg
+output_gain_db: -6.4707098
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64322
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - cln
+  - be
+  - hbe
+  - none
+- name: preset
+  display_name: Preset
+  values:
+  - pre_noon_01
+  - pre_noon_13
+  - pre_noon_02
+  - pre_noon_03
+  - amp_rock_01
+  - amp_tender_clean
+  - amp_mammoth
+  - amp_tallica
+  - amp_eddie_01
+  - amp_man_in_the_cogs_01
+  - amp_test
+  - pow_el34_juice_28
+captures:
+- values:
+    channel: hbe
+    preset: pre_noon_01
+  file: captures/pre_hbe_noon_01_a2.nam
+- values:
+    channel: hbe
+    preset: pre_noon_13
+  file: captures/pre_hbe_noon_13_a2.nam
+- values:
+    channel: be
+    preset: pre_noon_01
+  file: captures/pre_be_noon_01_a2.nam
+- values:
+    channel: be
+    preset: pre_noon_13
+  file: captures/pre_be_noon_13_a2.nam
+- values:
+    channel: cln
+    preset: pre_noon_02
+  file: captures/pre_cln_noon_02_a2.nam
+- values:
+    channel: cln
+    preset: pre_noon_03
+  file: captures/pre_cln_noon_03_a2.nam
+- values:
+    channel: cln
+    preset: amp_rock_01
+  file: captures/amp_cln_rock_01_a2.nam
+- values:
+    channel: cln
+    preset: amp_tender_clean
+  file: captures/amp_cln_tender_clean_a2.nam
+- values:
+    channel: hbe
+    preset: amp_mammoth
+  file: captures/amp_hbe_mammoth_a2.nam
+- values:
+    channel: hbe
+    preset: amp_tallica
+  file: captures/amp_hbe_tallica_a2.nam
+- values:
+    channel: be
+    preset: amp_eddie_01
+  file: captures/amp_be_eddie_01_a2.nam
+- values:
+    channel: be
+    preset: amp_man_in_the_cogs_01
+  file: captures/amp_be_man_in_the_cogs_01_a2.nam
+- values:
+    channel: be
+    preset: amp_test
+  file: captures/amp_be_test_a2.nam
+- values:
+    channel: none
+    preset: pow_el34_juice_28
+  file: captures/pow_el34_juice_28_a2.nam

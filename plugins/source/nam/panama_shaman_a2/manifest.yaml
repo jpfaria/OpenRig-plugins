@@ -17,8 +17,8 @@ parameters:
   - crunch
   - hg
   - od
-- name: gain_level
-  display_name: Gain Level
+- name: gain
+  display_name: Gain
   values:
   - 1.5
   - 3
@@ -26,90 +26,90 @@ parameters:
   - 7
   - 8
   - 9
-- name: rev
-  display_name: Revision
+- name: volume
+  display_name: Volume
   values:
-  - v5
-  - v7
-  - v8
+  - 5
+  - 7
+  - 8
 captures:
 - values:
-    gain_level: 3
-    rev: v5
+    gain: 3
+    volume: 5
     voicing: clean
   file: captures/panama_shaman_clean_g3_v5_a2.nam
 - values:
-    gain_level: 7
-    rev: v7
+    gain: 7
+    volume: 7
     voicing: hg
   file: captures/panama_shaman_hg_g7_v7_a2.nam
 - values:
-    gain_level: 5
-    rev: v7
+    gain: 5
+    volume: 7
     voicing: od
   file: captures/panama_shaman_od_g5_v7_a2.nam
 - values:
-    gain_level: 1.5
-    rev: v7
+    gain: 1.5
+    volume: 7
     voicing: crunch
   file: captures/panama_shaman_crunch_g1_5_v7_a2.nam
 - values:
-    gain_level: 5
-    rev: v7
+    gain: 5
+    volume: 7
     voicing: crunch
   file: captures/panama_shaman_crunch_g5_v7_a2.nam
 - values:
-    gain_level: 3
-    rev: v7
+    gain: 3
+    volume: 7
     voicing: crunch
   file: captures/panama_shaman_crunch_g3_v7_a2.nam
 - values:
-    gain_level: 8
-    rev: v8
+    gain: 8
+    volume: 8
     voicing: crunch
   file: captures/panama_shaman_crunch_g8_v8_a2.nam
 - values:
-    gain_level: 7
-    rev: v7
+    gain: 7
+    volume: 7
     voicing: clean
   file: captures/panama_shaman_clean_g7_v7_a2.nam
 - values:
-    gain_level: 5
-    rev: v5
+    gain: 5
+    volume: 5
     voicing: clean
   file: captures/panama_shaman_clean_g5_v5_a2.nam
 - values:
-    gain_level: 7
-    rev: v7
+    gain: 7
+    volume: 7
     voicing: crunch
   file: captures/panama_shaman_crunch_g7_v7_a2.nam
 - values:
-    gain_level: 3
-    rev: v7
+    gain: 3
+    volume: 7
     voicing: hg
   file: captures/panama_shaman_hg_g3_v7_a2.nam
 - values:
-    gain_level: 1.5
-    rev: v7
+    gain: 1.5
+    volume: 7
     voicing: od
   file: captures/panama_shaman_od_g1_5_v7_a2.nam
 - values:
-    gain_level: 7
-    rev: v7
+    gain: 7
+    volume: 7
     voicing: od
   file: captures/panama_shaman_od_g7_v7_a2.nam
 - values:
-    gain_level: 3
-    rev: v7
+    gain: 3
+    volume: 7
     voicing: od
   file: captures/panama_shaman_od_g3_v7_a2.nam
 - values:
-    gain_level: 9
-    rev: v5
+    gain: 9
+    volume: 5
     voicing: clean
   file: captures/panama_shaman_clean_g9_v5_a2.nam
 - values:
-    gain_level: 7
-    rev: v5
+    gain: 7
+    volume: 5
     voicing: clean
   file: captures/panama_shaman_clean_g7_v5_a2.nam

@@ -16,42 +16,42 @@ parameters:
   - clean
   - crunch
   - od
-- name: variant
-  display_name: Variant
+- name: preset
+  display_name: Preset
   values:
   - 1
   - 2
   - 3
 captures:
 - values:
-    variant: 1
+    preset: 1
     voicing: clean
   file: captures/koch_multitone50_clean_1_a2.nam
 - values:
-    variant: 2
+    preset: 2
     voicing: clean
   file: captures/koch_multitone50_clean_2_a2.nam
 - values:
-    variant: 1
+    preset: 1
     voicing: crunch
   file: captures/koch_multitone50_crunch_1_a2.nam
 - values:
-    variant: 2
+    preset: 2
     voicing: crunch
   file: captures/koch_multitone50_crunch_2_a2.nam
 - values:
-    variant: 3
+    preset: 3
     voicing: crunch
   file: captures/koch_multitone50_crunch_3_a2.nam
 - values:
-    variant: 1
+    preset: 1
     voicing: od
   file: captures/koch_multitone50_od_1_a2.nam
 - values:
-    variant: 2
+    preset: 2
     voicing: od
   file: captures/koch_multitone50_od_2_a2.nam
 - values:
-    variant: 3
+    preset: 3
     voicing: od
   file: captures/koch_multitone50_od_3_a2.nam

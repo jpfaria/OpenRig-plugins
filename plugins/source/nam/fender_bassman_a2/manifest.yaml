@@ -1,0 +1,135 @@
+manifest_version: 1
+id: nam_fender_bassman_a2
+display_name: Bassman
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/13776
+# Constant across all captures (dropped): "71 Bassman" amp name, normal-channel-only.
+# Named voicings share V/T/B numbers (six are V10 T10 B10), so they do not form a
+# unique knob grid; modeled as a single 'preset' axis. V=volume, T=treble, B=bass.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - jumpered_norm_v6_t10_b1_bright_into_bass_v8_t1_b10
+  - jumpered_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
+  - jumpered_channels_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
+  - warm_fuzz_v5_t4_b4
+  - v1_pulled_v10_t10_b10
+  - v1_pulled_12ax7_in_v4_v10_t10_b10
+  - bright_clean_v5_t4_b4
+  - 80s_bass_v3_t8_5_b4
+  - ts9_ds1_boosted
+  - all_on_5_norm_v10_t10_b10
+  - all_on_5_bright_v10_t10_b10
+  - all_on_10_bright_v10_t10_b10
+  - all_on_10_norm_v10_t10_b10
+  - mid_forward_clean_mxr_eq_v5_t8_b5
+  - warm_sweet_spot_v7_t4_b4
+  - sweet_spot_v7_t8_b5
+  - fd2_boosted_low_v5_t8_b5
+  - fd2_boosted_high_v5_t8_b3
+  - fd2_boosted_mid_v5_t8_b4
+  - cranked_fd2_boosted_v10_t7_b4
+  - big_clean_v7_t5_b5
+  - big_clean_bright_switch_v7_t6_b4
+  - 80s_clean_v5_t8_b5
+  - clean_v5_t8_b5
+  - clean_v5_t7_b4
+  - clean_v6_t7_b4
+  - driven_norm_v8_5_t7_b4
+  - driven_bright_v8_5_t7_b4
+  - warm_clean_v5_t4_b3
+captures:
+- values:
+    preset: jumpered_norm_v6_t10_b1_bright_into_bass_v8_t1_b10
+  file: captures/jumpered_norm_v6_t10_b1_bright_into_bass_v8_t1_b10_a2.nam
+- values:
+    preset: jumpered_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
+  file: captures/jumpered_norm_v6_t8_b1_bright_into_bass_v8_t1_b8_a2.nam
+- values:
+    preset: jumpered_channels_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
+  file: captures/jumpered_channels_norm_v6_t8_b1_bright_into_bass_v8_t1_b8_a2.nam
+- values:
+    preset: warm_fuzz_v5_t4_b4
+  file: captures/warm_fuzz_v5_t4_b4_a2.nam
+- values:
+    preset: v1_pulled_v10_t10_b10
+  file: captures/v1_pulled_v10_t10_b10_a2.nam
+- values:
+    preset: v1_pulled_12ax7_in_v4_v10_t10_b10
+  file: captures/v1_pulled_12ax7_in_v4_v10_t10_b10_a2.nam
+- values:
+    preset: bright_clean_v5_t4_b4
+  file: captures/bright_clean_v5_t4_b4_a2.nam
+- values:
+    preset: 80s_bass_v3_t8_5_b4
+  file: captures/80s_bass_v3_t8_5_b4_a2.nam
+- values:
+    preset: ts9_ds1_boosted
+  file: captures/ts9_ds1_boosted_a2.nam
+- values:
+    preset: all_on_5_norm_v10_t10_b10
+  file: captures/all_on_5_norm_v10_t10_b10_a2.nam
+- values:
+    preset: all_on_5_bright_v10_t10_b10
+  file: captures/all_on_5_bright_v10_t10_b10_a2.nam
+- values:
+    preset: all_on_10_bright_v10_t10_b10
+  file: captures/all_on_10_bright_v10_t10_b10_a2.nam
+- values:
+    preset: all_on_10_norm_v10_t10_b10
+  file: captures/all_on_10_norm_v10_t10_b10_a2.nam
+- values:
+    preset: mid_forward_clean_mxr_eq_v5_t8_b5
+  file: captures/mid_forward_clean_mxr_eq_v5_t8_b5_a2.nam
+- values:
+    preset: warm_sweet_spot_v7_t4_b4
+  file: captures/warm_sweet_spot_v7_t4_b4_a2.nam
+- values:
+    preset: sweet_spot_v7_t8_b5
+  file: captures/sweet_spot_v7_t8_b5_a2.nam
+- values:
+    preset: fd2_boosted_low_v5_t8_b5
+  file: captures/fd2_boosted_low_v5_t8_b5_a2.nam
+- values:
+    preset: fd2_boosted_high_v5_t8_b3
+  file: captures/fd2_boosted_high_v5_t8_b3_a2.nam
+- values:
+    preset: fd2_boosted_mid_v5_t8_b4
+  file: captures/fd2_boosted_mid_v5_t8_b4_a2.nam
+- values:
+    preset: cranked_fd2_boosted_v10_t7_b4
+  file: captures/cranked_fd2_boosted_v10_t7_b4_a2.nam
+- values:
+    preset: big_clean_v7_t5_b5
+  file: captures/big_clean_v7_t5_b5_a2.nam
+- values:
+    preset: big_clean_bright_switch_v7_t6_b4
+  file: captures/big_clean_bright_switch_v7_t6_b4_a2.nam
+- values:
+    preset: 80s_clean_v5_t8_b5
+  file: captures/80s_clean_v5_t8_b5_a2.nam
+- values:
+    preset: clean_v5_t8_b5
+  file: captures/clean_v5_t8_b5_a2.nam
+- values:
+    preset: clean_v5_t7_b4
+  file: captures/clean_v5_t7_b4_a2.nam
+- values:
+    preset: clean_v6_t7_b4
+  file: captures/clean_v6_t7_b4_a2.nam
+- values:
+    preset: driven_norm_v8_5_t7_b4
+  file: captures/driven_norm_v8_5_t7_b4_a2.nam
+- values:
+    preset: driven_bright_v8_5_t7_b4
+  file: captures/driven_bright_v8_5_t7_b4_a2.nam
+- values:
+    preset: warm_clean_v5_t4_b3
+  file: captures/warm_clean_v5_t4_b3_a2.nam

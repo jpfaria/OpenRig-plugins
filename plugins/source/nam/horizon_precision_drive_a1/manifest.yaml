@@ -1,0 +1,290 @@
+# Filenames decode to the Horizon Devices Precision Drive controls:
+# v=Volume, d=Drive, b=Bright, a_p=Attack (knob position).
+# Constant 'pdrive' slug dropped.
+# Each capture also exists in two NAM model sizes (lite/standard), which is
+# training metadata, not a control. Per the grab-bag rule, the whole set is
+# exposed as a single 'preset' axis with one unique value per capture (the
+# real knob settings + size folded into the value), so no metadata axis
+# ('size', 'nam_size', 'model') is invented.
+manifest_version: 1
+id: nam_horizon_precision_drive_a1
+display_name: Horizon Precision Drive
+brand: horizon_devices
+output_gain_db: 2.5213127
+type: gain_pedal
+backend: nam
+architecture: A1
+# Decomposed from the per-file knob settings: Volume, Drive, Bright, Attack (Horizon
+# Precision Drive controls). 'version' = lite vs standard NAM model build (provenance).
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 6
+  - 8
+- name: drive
+  display_name: Drive
+  values:
+  - 0
+  - 1.8
+- name: bright
+  display_name: Bright
+  values:
+  - 0
+  - 2
+  - 3
+- name: attack
+  display_name: Attack
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+- name: version
+  display_name: Model Version
+  values:
+  - lite
+  - standard
+captures:
+- values:
+    volume: 6
+    drive: 1.8
+    bright: 3
+    attack: 5
+    version: lite
+  file: captures/pdrive_v_06_d_1_8_b_03_a_p5_lite.nam
+- values:
+    volume: 6
+    drive: 1.8
+    bright: 3
+    attack: 5
+    version: standard
+  file: captures/pdrive_v_06_d_1_8_b_03_a_p5_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 1
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p1_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 1
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p1_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 2
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p2_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 2
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p2_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 3
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p3_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 3
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p3_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 4
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p4_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 4
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p4_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 5
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p5_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 5
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p5_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 6
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p6_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 6
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p6_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 7
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p7_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 7
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p7_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 8
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_00_a_p8_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 0
+    attack: 8
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_00_a_p8_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 1
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p1_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 1
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p1_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 2
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p2_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 2
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p2_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 3
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p3_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 3
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p3_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 4
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p4_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 4
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p4_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 5
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p5_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 5
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p5_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 6
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p6_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 6
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p6_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 7
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p7_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 7
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p7_std.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 8
+    version: lite
+  file: captures/pdrive_v_08_d_00_b_02_a_p8_lite.nam
+- values:
+    volume: 8
+    drive: 0
+    bright: 2
+    attack: 8
+    version: standard
+  file: captures/pdrive_v_08_d_00_b_02_a_p8_std.nam

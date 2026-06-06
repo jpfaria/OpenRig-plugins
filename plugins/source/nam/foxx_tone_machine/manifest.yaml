@@ -1,0 +1,30 @@
+manifest_version: 1
+id: nam_foxx_tone_machine
+display_name: Foxx Tone Machine
+brand: foxx
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+# constant token dropped from every capture: fox_tone_machine (plugin slug)
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 8va
+  - hg
+  - hg_8va
+  - lg
+captures:
+- values:
+    preset: 8va
+  file: captures/fox_tone_machine_8va.nam
+- values:
+    preset: hg
+  file: captures/fox_tone_machine_hg.nam
+- values:
+    preset: hg_8va
+  file: captures/fox_tone_machine_hg_8va.nam
+- values:
+    preset: lg
+  file: captures/fox_tone_machine_lg.nam

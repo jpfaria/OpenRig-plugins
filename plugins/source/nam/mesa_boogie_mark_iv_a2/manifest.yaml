@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_mesa_boogie_mark_iv_a2
+display_name: Mark IV
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/65923
+# Constant across all captures (Mark Morton settings, Lead channel, EQ on): mark_iv, m_morton, lead_ch, eq.
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - midgain
+  - harmonics
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - ts808
+captures:
+- values:
+    mode: midgain
+    boost: none
+  file: captures/midgain_a2.nam
+- values:
+    mode: harmonics
+    boost: ts808
+  file: captures/harmonics_ts808_a2.nam

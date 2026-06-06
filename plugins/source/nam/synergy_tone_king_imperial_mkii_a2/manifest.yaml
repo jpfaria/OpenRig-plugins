@@ -10,9 +10,13 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/29949
 # Dropped constants (identical across every capture): brand prefix "Syn20IR Imp"
-# (Synergy 20W IR-loaded Imperial MKII module) and master "M30". The per-setting
-# knob suffix (g/b/t/v/r for C1, g/b/mb/v/r for C2) is a deterministic function of
-# the numbered "setting" dial position, so it is folded into the setting axis.
+# (Synergy 20W IR-loaded Imperial MKII module) and master "M30". The numbered
+# "setting" suffix (1-9) is only a gain-sweep index and is NOT a control, so it is
+# dropped: each capture's REAL knob positions are decoded straight from the filename
+# (g=gain, b=bass, t=tone[treble on C1 / mid-bite on C2], v=volume, r=reverb).
+# Channel 1 = Deluxe-Reverb voicing (treble knob); Channel 2 = Tweed voicing whose
+# tone knob is the mid-bite. HF = High-Frequency Compensation switch (darker/smoother
+# when on). A/B/C = Syn20IR power-amp structure (Fender / Marshall-Vox / Modern).
 parameters:
 - name: channel
   display_name: Channel
@@ -25,669 +29,1151 @@ parameters:
   - a
   - b
   - c
-- name: bright
-  display_name: Bright
+- name: hf
+  display_name: HF
   values:
   - 'off'
   - 'on'
-- name: setting
-  display_name: Setting
+- name: gain
+  display_name: Gain
   values:
-  - 1
+  - 25
+  - 37
+  - 42
+  - 50
+  - 56
+  - 62
+  - 75
+  - 87
+  - 100
+- name: bass
+  display_name: Bass
+  values:
+  - 30
+  - 32
+  - 39
+  - 40
+  - 42
+  - 45
+  - 50
+  - 51
+  - 56
+  - 60
+  - 62
+- name: tone
+  display_name: Tone
+  values:
+  - 18
+  - 30
+  - 42
+  - 45
+  - 50
+  - 53
+  - 54
+  - 60
+  - 63
+  - 66
+  - 70
+  - 75
+  - 80
+- name: volume
+  display_name: Volume
+  values:
   - 2
   - 3
   - 4
   - 5
   - 6
   - 7
-  - 8
-  - 9
+- name: reverb
+  display_name: Reverb
+  values:
+  - 32
+  - 40
+  - 42
+  - 47
+  - 50
+  - 53
+  - 58
+  - 70
 captures:
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 1
+    hf: 'off'
+    gain: 25
+    bass: 51
+    tone: 70
+    volume: 7
+    reverb: 32
   file: captures/syn20ir_imp_c1_a_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 2
+    hf: 'off'
+    gain: 37
+    bass: 39
+    tone: 50
+    volume: 6
+    reverb: 42
   file: captures/syn20ir_imp_c1_a_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 3
+    hf: 'off'
+    gain: 42
+    bass: 62
+    tone: 63
+    volume: 6
+    reverb: 40
   file: captures/syn20ir_imp_c1_a_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 4
+    hf: 'off'
+    gain: 50
+    bass: 50
+    tone: 50
+    volume: 5
+    reverb: 50
   file: captures/syn20ir_imp_c1_a_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 5
+    hf: 'off'
+    gain: 56
+    bass: 45
+    tone: 54
+    volume: 5
+    reverb: 47
   file: captures/syn20ir_imp_c1_a_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 6
+    hf: 'off'
+    gain: 62
+    bass: 32
+    tone: 60
+    volume: 4
+    reverb: 50
   file: captures/syn20ir_imp_c1_a_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 7
+    hf: 'off'
+    gain: 75
+    bass: 42
+    tone: 50
+    volume: 4
+    reverb: 53
   file: captures/syn20ir_imp_c1_a_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 8
+    hf: 'off'
+    gain: 87
+    bass: 32
+    tone: 63
+    volume: 4
+    reverb: 58
   file: captures/syn20ir_imp_c1_a_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'off'
-    setting: 9
+    hf: 'off'
+    gain: 100
+    bass: 50
+    tone: 50
+    volume: 4
+    reverb: 70
   file: captures/syn20ir_imp_c1_a_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 1
+    hf: 'on'
+    gain: 25
+    bass: 51
+    tone: 70
+    volume: 7
+    reverb: 32
   file: captures/syn20ir_imp_c1_a_hf_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 2
+    hf: 'on'
+    gain: 37
+    bass: 39
+    tone: 50
+    volume: 6
+    reverb: 42
   file: captures/syn20ir_imp_c1_a_hf_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 3
+    hf: 'on'
+    gain: 42
+    bass: 62
+    tone: 63
+    volume: 6
+    reverb: 40
   file: captures/syn20ir_imp_c1_a_hf_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 4
+    hf: 'on'
+    gain: 50
+    bass: 50
+    tone: 50
+    volume: 5
+    reverb: 50
   file: captures/syn20ir_imp_c1_a_hf_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 5
+    hf: 'on'
+    gain: 56
+    bass: 45
+    tone: 54
+    volume: 5
+    reverb: 47
   file: captures/syn20ir_imp_c1_a_hf_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 6
+    hf: 'on'
+    gain: 62
+    bass: 32
+    tone: 60
+    volume: 4
+    reverb: 50
   file: captures/syn20ir_imp_c1_a_hf_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 7
+    hf: 'on'
+    gain: 75
+    bass: 42
+    tone: 50
+    volume: 4
+    reverb: 53
   file: captures/syn20ir_imp_c1_a_hf_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 8
+    hf: 'on'
+    gain: 87
+    bass: 32
+    tone: 63
+    volume: 4
+    reverb: 58
   file: captures/syn20ir_imp_c1_a_hf_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
     channel: c1
     voicing: a
-    bright: 'on'
-    setting: 9
+    hf: 'on'
+    gain: 100
+    bass: 50
+    tone: 50
+    volume: 4
+    reverb: 70
   file: captures/syn20ir_imp_c1_a_hf_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 1
+    hf: 'off'
+    gain: 25
+    bass: 51
+    tone: 70
+    volume: 7
+    reverb: 32
   file: captures/syn20ir_imp_c1_b_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 2
+    hf: 'off'
+    gain: 37
+    bass: 39
+    tone: 50
+    volume: 6
+    reverb: 42
   file: captures/syn20ir_imp_c1_b_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 3
+    hf: 'off'
+    gain: 42
+    bass: 62
+    tone: 63
+    volume: 6
+    reverb: 40
   file: captures/syn20ir_imp_c1_b_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 4
+    hf: 'off'
+    gain: 50
+    bass: 50
+    tone: 50
+    volume: 5
+    reverb: 50
   file: captures/syn20ir_imp_c1_b_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 5
+    hf: 'off'
+    gain: 56
+    bass: 45
+    tone: 54
+    volume: 5
+    reverb: 47
   file: captures/syn20ir_imp_c1_b_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 6
+    hf: 'off'
+    gain: 62
+    bass: 32
+    tone: 60
+    volume: 4
+    reverb: 50
   file: captures/syn20ir_imp_c1_b_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 7
+    hf: 'off'
+    gain: 75
+    bass: 42
+    tone: 50
+    volume: 4
+    reverb: 53
   file: captures/syn20ir_imp_c1_b_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 8
+    hf: 'off'
+    gain: 87
+    bass: 32
+    tone: 63
+    volume: 4
+    reverb: 58
   file: captures/syn20ir_imp_c1_b_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'off'
-    setting: 9
+    hf: 'off'
+    gain: 100
+    bass: 50
+    tone: 50
+    volume: 4
+    reverb: 70
   file: captures/syn20ir_imp_c1_b_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 1
+    hf: 'on'
+    gain: 25
+    bass: 51
+    tone: 70
+    volume: 7
+    reverb: 32
   file: captures/syn20ir_imp_c1_b_hf_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 2
+    hf: 'on'
+    gain: 37
+    bass: 39
+    tone: 50
+    volume: 6
+    reverb: 42
   file: captures/syn20ir_imp_c1_b_hf_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 3
+    hf: 'on'
+    gain: 42
+    bass: 62
+    tone: 63
+    volume: 6
+    reverb: 40
   file: captures/syn20ir_imp_c1_b_hf_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 4
+    hf: 'on'
+    gain: 50
+    bass: 50
+    tone: 50
+    volume: 5
+    reverb: 50
   file: captures/syn20ir_imp_c1_b_hf_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 5
+    hf: 'on'
+    gain: 56
+    bass: 45
+    tone: 54
+    volume: 5
+    reverb: 47
   file: captures/syn20ir_imp_c1_b_hf_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 6
+    hf: 'on'
+    gain: 62
+    bass: 32
+    tone: 60
+    volume: 4
+    reverb: 50
   file: captures/syn20ir_imp_c1_b_hf_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 7
+    hf: 'on'
+    gain: 75
+    bass: 42
+    tone: 50
+    volume: 4
+    reverb: 53
   file: captures/syn20ir_imp_c1_b_hf_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 8
+    hf: 'on'
+    gain: 87
+    bass: 32
+    tone: 63
+    volume: 4
+    reverb: 58
   file: captures/syn20ir_imp_c1_b_hf_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
     channel: c1
     voicing: b
-    bright: 'on'
-    setting: 9
+    hf: 'on'
+    gain: 100
+    bass: 50
+    tone: 50
+    volume: 4
+    reverb: 70
   file: captures/syn20ir_imp_c1_b_hf_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 1
+    hf: 'off'
+    gain: 25
+    bass: 51
+    tone: 70
+    volume: 7
+    reverb: 32
   file: captures/syn20ir_imp_c1_c_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 2
+    hf: 'off'
+    gain: 37
+    bass: 39
+    tone: 50
+    volume: 6
+    reverb: 42
   file: captures/syn20ir_imp_c1_c_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 3
+    hf: 'off'
+    gain: 42
+    bass: 62
+    tone: 63
+    volume: 6
+    reverb: 40
   file: captures/syn20ir_imp_c1_c_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 4
+    hf: 'off'
+    gain: 50
+    bass: 50
+    tone: 50
+    volume: 5
+    reverb: 50
   file: captures/syn20ir_imp_c1_c_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 5
+    hf: 'off'
+    gain: 56
+    bass: 45
+    tone: 54
+    volume: 5
+    reverb: 47
   file: captures/syn20ir_imp_c1_c_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 6
+    hf: 'off'
+    gain: 62
+    bass: 32
+    tone: 60
+    volume: 4
+    reverb: 50
   file: captures/syn20ir_imp_c1_c_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 7
+    hf: 'off'
+    gain: 75
+    bass: 42
+    tone: 50
+    volume: 4
+    reverb: 53
   file: captures/syn20ir_imp_c1_c_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 8
+    hf: 'off'
+    gain: 87
+    bass: 32
+    tone: 63
+    volume: 4
+    reverb: 58
   file: captures/syn20ir_imp_c1_c_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'off'
-    setting: 9
+    hf: 'off'
+    gain: 100
+    bass: 50
+    tone: 50
+    volume: 4
+    reverb: 70
   file: captures/syn20ir_imp_c1_c_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 1
+    hf: 'on'
+    gain: 25
+    bass: 51
+    tone: 70
+    volume: 7
+    reverb: 32
   file: captures/syn20ir_imp_c1_c_hf_1_g25_b51_t70_v7_r32_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 2
+    hf: 'on'
+    gain: 37
+    bass: 39
+    tone: 50
+    volume: 6
+    reverb: 42
   file: captures/syn20ir_imp_c1_c_hf_2_g37_b39_t50_v6_r42_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 3
+    hf: 'on'
+    gain: 42
+    bass: 62
+    tone: 63
+    volume: 6
+    reverb: 40
   file: captures/syn20ir_imp_c1_c_hf_3_g42_b62_t63_v6_r40_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 4
+    hf: 'on'
+    gain: 50
+    bass: 50
+    tone: 50
+    volume: 5
+    reverb: 50
   file: captures/syn20ir_imp_c1_c_hf_4_g50_b50_t50_v5_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 5
+    hf: 'on'
+    gain: 56
+    bass: 45
+    tone: 54
+    volume: 5
+    reverb: 47
   file: captures/syn20ir_imp_c1_c_hf_5_g56_b45_t54_v5_r47_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 6
+    hf: 'on'
+    gain: 62
+    bass: 32
+    tone: 60
+    volume: 4
+    reverb: 50
   file: captures/syn20ir_imp_c1_c_hf_6_g62_b32_t60_v4_r50_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 7
+    hf: 'on'
+    gain: 75
+    bass: 42
+    tone: 50
+    volume: 4
+    reverb: 53
   file: captures/syn20ir_imp_c1_c_hf_7_g75_b42_t50_v4_r53_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 8
+    hf: 'on'
+    gain: 87
+    bass: 32
+    tone: 63
+    volume: 4
+    reverb: 58
   file: captures/syn20ir_imp_c1_c_hf_8_g87_b32_t63_v4_r58_m30_a2.nam
 - values:
     channel: c1
     voicing: c
-    bright: 'on'
-    setting: 9
+    hf: 'on'
+    gain: 100
+    bass: 50
+    tone: 50
+    volume: 4
+    reverb: 70
   file: captures/syn20ir_imp_c1_c_hf_9_g100_b50_t50_v4_r70_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 1
+    hf: 'off'
+    gain: 25
+    bass: 56
+    tone: 18
+    volume: 3
+    reverb: 32
   file: captures/syn20ir_imp_c2_a_1_g25_b56_mb18_v3_r32_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 2
+    hf: 'off'
+    gain: 37
+    bass: 32
+    tone: 30
+    volume: 3
+    reverb: 42
   file: captures/syn20ir_imp_c2_a_2_g37_b32_mb30_v3_r42_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 3
+    hf: 'off'
+    gain: 42
+    bass: 30
+    tone: 42
+    volume: 3
+    reverb: 40
   file: captures/syn20ir_imp_c2_a_3_g42_b30_mb42_v3_r40_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 4
+    hf: 'off'
+    gain: 50
+    bass: 60
+    tone: 42
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_a_4_g50_b60_mb42_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 5
+    hf: 'off'
+    gain: 56
+    bass: 56
+    tone: 45
+    volume: 3
+    reverb: 47
   file: captures/syn20ir_imp_c2_a_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 6
+    hf: 'off'
+    gain: 62
+    bass: 50
+    tone: 53
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_a_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 7
+    hf: 'off'
+    gain: 75
+    bass: 42
+    tone: 66
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_a_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 8
+    hf: 'off'
+    gain: 87
+    bass: 51
+    tone: 75
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_a_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'off'
-    setting: 9
+    hf: 'off'
+    gain: 100
+    bass: 40
+    tone: 80
+    volume: 2
+    reverb: 70
   file: captures/syn20ir_imp_c2_a_9_g100_b40_mb80_v2_r70_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 1
+    hf: 'on'
+    gain: 25
+    bass: 56
+    tone: 18
+    volume: 3
+    reverb: 32
   file: captures/syn20ir_imp_c2_a_hf_1_g25_b56_mb18_v3_r32_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 2
+    hf: 'on'
+    gain: 37
+    bass: 32
+    tone: 30
+    volume: 3
+    reverb: 42
   file: captures/syn20ir_imp_c2_a_hf_2_g37_b32_mb30_v3_r42_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 3
+    hf: 'on'
+    gain: 42
+    bass: 30
+    tone: 42
+    volume: 3
+    reverb: 40
   file: captures/syn20ir_imp_c2_a_hf_3_g42_b30_mb42_v3_r40_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 4
+    hf: 'on'
+    gain: 50
+    bass: 60
+    tone: 42
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_a_hf_4_g50_b60_mb42_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 5
+    hf: 'on'
+    gain: 56
+    bass: 56
+    tone: 45
+    volume: 3
+    reverb: 47
   file: captures/syn20ir_imp_c2_a_hf_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 6
+    hf: 'on'
+    gain: 62
+    bass: 50
+    tone: 53
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_a_hf_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 7
+    hf: 'on'
+    gain: 75
+    bass: 42
+    tone: 66
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_a_hf_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 8
+    hf: 'on'
+    gain: 87
+    bass: 51
+    tone: 75
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_a_hf_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: a
-    bright: 'on'
-    setting: 9
+    hf: 'on'
+    gain: 100
+    bass: 40
+    tone: 80
+    volume: 2
+    reverb: 70
   file: captures/syn20ir_imp_c2_a_hf_9_g100_b40_mb80_v2_r70_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 1
+    hf: 'off'
+    gain: 25
+    bass: 56
+    tone: 18
+    volume: 3
+    reverb: 32
   file: captures/syn20ir_imp_c2_b_1_g25_b56_mb18_v3_r32_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 2
+    hf: 'off'
+    gain: 37
+    bass: 32
+    tone: 30
+    volume: 3
+    reverb: 42
   file: captures/syn20ir_imp_c2_b_2_g37_b32_mb30_v3_r42_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 3
+    hf: 'off'
+    gain: 42
+    bass: 30
+    tone: 42
+    volume: 3
+    reverb: 40
   file: captures/syn20ir_imp_c2_b_3_g42_b30_mb42_v3_r40_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 4
+    hf: 'off'
+    gain: 50
+    bass: 60
+    tone: 42
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_b_4_g50_b60_mb42_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 5
+    hf: 'off'
+    gain: 56
+    bass: 56
+    tone: 45
+    volume: 3
+    reverb: 47
   file: captures/syn20ir_imp_c2_b_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 6
+    hf: 'off'
+    gain: 62
+    bass: 50
+    tone: 53
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_b_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 7
+    hf: 'off'
+    gain: 75
+    bass: 42
+    tone: 66
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_b_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 8
+    hf: 'off'
+    gain: 87
+    bass: 51
+    tone: 75
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_b_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'off'
-    setting: 9
+    hf: 'off'
+    gain: 100
+    bass: 40
+    tone: 80
+    volume: 2
+    reverb: 70
   file: captures/syn20ir_imp_c2_b_9_g100_b40_mb80_v2_r70_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 1
+    hf: 'on'
+    gain: 25
+    bass: 56
+    tone: 18
+    volume: 3
+    reverb: 32
   file: captures/syn20ir_imp_c2_b_hf_1_g25_b56_mb18_v3_r32_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 2
+    hf: 'on'
+    gain: 37
+    bass: 32
+    tone: 30
+    volume: 3
+    reverb: 42
   file: captures/syn20ir_imp_c2_b_hf_2_g37_b32_mb30_v3_r42_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 3
+    hf: 'on'
+    gain: 42
+    bass: 30
+    tone: 42
+    volume: 3
+    reverb: 40
   file: captures/syn20ir_imp_c2_b_hf_3_g42_b30_mb42_v3_r40_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 4
+    hf: 'on'
+    gain: 50
+    bass: 60
+    tone: 42
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_b_hf_4_g50_b60_mb42_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 5
+    hf: 'on'
+    gain: 56
+    bass: 56
+    tone: 45
+    volume: 3
+    reverb: 47
   file: captures/syn20ir_imp_c2_b_hf_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 6
+    hf: 'on'
+    gain: 62
+    bass: 50
+    tone: 53
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_b_hf_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 7
+    hf: 'on'
+    gain: 75
+    bass: 42
+    tone: 66
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_b_hf_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 8
+    hf: 'on'
+    gain: 87
+    bass: 51
+    tone: 75
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_b_hf_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: b
-    bright: 'on'
-    setting: 9
+    hf: 'on'
+    gain: 100
+    bass: 40
+    tone: 80
+    volume: 2
+    reverb: 70
   file: captures/syn20ir_imp_c2_b_hf_9_g100_b40_mb80_v2_r70_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 1
+    hf: 'off'
+    gain: 25
+    bass: 56
+    tone: 18
+    volume: 3
+    reverb: 32
   file: captures/syn20ir_imp_c2_c_1_g25_b56_mb18_v3_r32_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 2
+    hf: 'off'
+    gain: 37
+    bass: 32
+    tone: 30
+    volume: 3
+    reverb: 42
   file: captures/syn20ir_imp_c2_c_2_g37_b32_mb30_v3_r42_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 3
+    hf: 'off'
+    gain: 42
+    bass: 30
+    tone: 42
+    volume: 3
+    reverb: 40
   file: captures/syn20ir_imp_c2_c_3_g42_b30_mb42_v3_r40_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 4
+    hf: 'off'
+    gain: 50
+    bass: 60
+    tone: 42
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_c_4_g50_b60_mb42_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 5
+    hf: 'off'
+    gain: 56
+    bass: 56
+    tone: 45
+    volume: 3
+    reverb: 47
   file: captures/syn20ir_imp_c2_c_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 6
+    hf: 'off'
+    gain: 62
+    bass: 50
+    tone: 53
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_c_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 7
+    hf: 'off'
+    gain: 75
+    bass: 42
+    tone: 66
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_c_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 8
+    hf: 'off'
+    gain: 87
+    bass: 51
+    tone: 75
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_c_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'off'
-    setting: 9
+    hf: 'off'
+    gain: 100
+    bass: 40
+    tone: 80
+    volume: 2
+    reverb: 70
   file: captures/syn20ir_imp_c2_c_9_g100_b40_mb80_v2_r70_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 1
+    hf: 'on'
+    gain: 25
+    bass: 56
+    tone: 18
+    volume: 3
+    reverb: 32
   file: captures/syn20ir_imp_c2_c_hf_1_g25_b56_mb18_v3_r32_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 2
+    hf: 'on'
+    gain: 37
+    bass: 32
+    tone: 30
+    volume: 3
+    reverb: 42
   file: captures/syn20ir_imp_c2_c_hf_2_g37_b32_mb30_v3_r42_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 3
+    hf: 'on'
+    gain: 42
+    bass: 30
+    tone: 42
+    volume: 3
+    reverb: 40
   file: captures/syn20ir_imp_c2_c_hf_3_g42_b30_mb42_v3_r40_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 4
+    hf: 'on'
+    gain: 50
+    bass: 60
+    tone: 42
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_c_hf_4_g50_b60_mb42_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 5
+    hf: 'on'
+    gain: 56
+    bass: 56
+    tone: 45
+    volume: 3
+    reverb: 47
   file: captures/syn20ir_imp_c2_c_hf_5_g56_b56_mb45_v3_r47_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 6
+    hf: 'on'
+    gain: 62
+    bass: 50
+    tone: 53
+    volume: 3
+    reverb: 50
   file: captures/syn20ir_imp_c2_c_hf_6_g62_b50_mb53_v3_r50_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 7
+    hf: 'on'
+    gain: 75
+    bass: 42
+    tone: 66
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_c_hf_7_g75_b42_mb66_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 8
+    hf: 'on'
+    gain: 87
+    bass: 51
+    tone: 75
+    volume: 2
+    reverb: 53
   file: captures/syn20ir_imp_c2_c_hf_8_g87_b51_mb75_v2_r53_m30_a2.nam
 - values:
     channel: c2
     voicing: c
-    bright: 'on'
-    setting: 9
+    hf: 'on'
+    gain: 100
+    bass: 40
+    tone: 80
+    volume: 2
+    reverb: 70
   file: captures/syn20ir_imp_c2_c_hf_9_g100_b40_mb80_v2_r70_m30_a2.nam

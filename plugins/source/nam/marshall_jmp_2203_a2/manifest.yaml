@@ -1,0 +1,126 @@
+# Constant tokens dropped from every capture name: SLAMMIN MARSHALL JMP (amp/brand/slug) and the trailing S variant marker.
+# The remaining names are a grab-bag of pedal / player / EQ presets that do not factor into a numeric control grid, so they map to a single 'preset' axis.
+manifest_version: 1
+id: nam_marshall_jmp_2203_a2
+display_name: JMP 2203
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6367
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - anthrax_ian_mids2_paraeq
+  - ktt_grind
+  - anthrax_ian_lesscut
+  - ktt_paraeq_locut2
+  - rtl_amponly
+  - grind_ktt_brighter
+  - anthrax_ian_mids2_moregain
+  - anthrax_ian_mids2_presence4
+  - anthrax_ian_nopedal_zeromids
+  - grind_ktt_evenbrighter
+  - rtl
+  - anthrax_ian_zeromids
+  - ktt_brighter
+  - rat
+  - goldenpearl
+  - paraeq_medium_bass
+  - ktt_amponly
+  - metallica_od808
+  - lg_krunch
+  - ktt_paraeq_locut
+  - anthrax_ian_mids2_nopedal
+  - ian_grind
+  - krunch
+  - od808
+  - paraeq_low_bass
+  - metal_brighter
+  - ktt
+captures:
+- values:
+    preset: anthrax_ian_mids2_paraeq
+  file: captures/anthrax_ian_mids2_paraeq_a2.nam
+- values:
+    preset: ktt_grind
+  file: captures/ktt_grind_a2.nam
+- values:
+    preset: anthrax_ian_lesscut
+  file: captures/anthrax_ian_lesscut_a2.nam
+- values:
+    preset: ktt_paraeq_locut2
+  file: captures/ktt_paraeq_locut2_a2.nam
+- values:
+    preset: rtl_amponly
+  file: captures/rtl_amponly_a2.nam
+- values:
+    preset: grind_ktt_brighter
+  file: captures/grind_ktt_brighter_a2.nam
+- values:
+    preset: anthrax_ian_mids2_moregain
+  file: captures/anthrax_ian_mids2_moregain_a2.nam
+- values:
+    preset: anthrax_ian_mids2_presence4
+  file: captures/anthrax_ian_mids2_presence4_a2.nam
+- values:
+    preset: anthrax_ian_nopedal_zeromids
+  file: captures/anthrax_ian_nopedal_zeromids_a2.nam
+- values:
+    preset: grind_ktt_evenbrighter
+  file: captures/grind_ktt_evenbrighter_a2.nam
+- values:
+    preset: rtl
+  file: captures/rtl_a2.nam
+- values:
+    preset: anthrax_ian_zeromids
+  file: captures/anthrax_ian_zeromids_a2.nam
+- values:
+    preset: ktt_brighter
+  file: captures/ktt_brighter_a2.nam
+- values:
+    preset: rat
+  file: captures/rat_a2.nam
+- values:
+    preset: goldenpearl
+  file: captures/goldenpearl_a2.nam
+- values:
+    preset: paraeq_medium_bass
+  file: captures/paraeq_medium_bass_a2.nam
+- values:
+    preset: ktt_amponly
+  file: captures/ktt_amponly_a2.nam
+- values:
+    preset: metallica_od808
+  file: captures/metallica_od808_a2.nam
+- values:
+    preset: lg_krunch
+  file: captures/lg_krunch_a2.nam
+- values:
+    preset: ktt_paraeq_locut
+  file: captures/ktt_paraeq_locut_a2.nam
+- values:
+    preset: anthrax_ian_mids2_nopedal
+  file: captures/anthrax_ian_mids2_nopedal_a2.nam
+- values:
+    preset: ian_grind
+  file: captures/ian_grind_a2.nam
+- values:
+    preset: krunch
+  file: captures/krunch_a2.nam
+- values:
+    preset: od808
+  file: captures/od808_a2.nam
+- values:
+    preset: paraeq_low_bass
+  file: captures/paraeq_low_bass_a2.nam
+- values:
+    preset: metal_brighter
+  file: captures/metal_brighter_a2.nam
+- values:
+    preset: ktt
+  file: captures/ktt_a2.nam

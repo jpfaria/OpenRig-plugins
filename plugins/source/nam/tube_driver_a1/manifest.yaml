@@ -8,15 +8,15 @@ backend: nam
 architecture: A1
 # dropped constant token: 400ep (identical in every capture)
 parameters:
-- name: setting
-  display_name: Setting
+- name: mode
+  display_name: Mode
   values:
   - boost
   - drive
 captures:
 - values:
-    setting: boost
+    mode: boost
   file: captures/tube_driver_butler_boost_setting_8481_400ep.nam
 - values:
-    setting: drive
+    mode: drive
   file: captures/tube_driver_butler_drive_setting_4386_400ep.nam

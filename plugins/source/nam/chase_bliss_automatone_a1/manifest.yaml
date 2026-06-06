@@ -1,0 +1,56 @@
+# Constant across all captures (dropped): pre_mkii (Chase Bliss Automatone Preamp MkII).
+# Filenames carry only a sequential capture index (00..09) with no real control axis;
+# exposed as a single clean 'preset' selector.
+manifest_version: 1
+id: nam_chase_bliss_automatone_a1
+display_name: Chase Bliss Automatone
+brand: chase_bliss
+output_gain_db: 5.5387535
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+captures:
+- values:
+    preset: '0'
+  file: captures/pre_mkii_00.nam
+- values:
+    preset: '1'
+  file: captures/pre_mkii_01.nam
+- values:
+    preset: '2'
+  file: captures/pre_mkii_02.nam
+- values:
+    preset: '3'
+  file: captures/pre_mkii_03.nam
+- values:
+    preset: '4'
+  file: captures/pre_mkii_04.nam
+- values:
+    preset: '5'
+  file: captures/pre_mkii_05.nam
+- values:
+    preset: '6'
+  file: captures/pre_mkii_06.nam
+- values:
+    preset: '7'
+  file: captures/pre_mkii_07.nam
+- values:
+    preset: '8'
+  file: captures/pre_mkii_08.nam
+- values:
+    preset: '9'
+  file: captures/pre_mkii_09.nam

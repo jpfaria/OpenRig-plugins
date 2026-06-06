@@ -17,7 +17,7 @@ parameters:
   display_name: Gain
   values:
   - default
-  - 8_5
+  - 8.5
 - name: sustain
   display_name: Sustain
   values:
@@ -41,11 +41,11 @@ captures:
   file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged.nam
 - values:
     channel: crunch
-    gain: 8_5
+    gain: 8.5
     sustain: none
   file: captures/randall_rg100es_100w_1987_ch_crunch_gain_8_5.nam
 - values:
     channel: crunch
-    gain: 8_5
+    gain: 8.5
     sustain: engaged
   file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5.nam

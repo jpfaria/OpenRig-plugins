@@ -1,0 +1,111 @@
+# Volume constant at 12 o'clock (5) across all captures — dropped.
+# Knob legend from tone3000 description: B=Bass T=Treble P=Presence G=Gain T=Tight.
+manifest_version: 1
+id: nam_friedman_be_od
+display_name: Friedman BE-OD
+brand: friedman
+sources:
+- https://www.tone3000.com/tones/65779
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: bass
+  display_name: Bass
+  values:
+  - 3
+  - 5
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 9
+- name: presence
+  display_name: Presence
+  values:
+  - 3
+  - 4
+  - 5
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 3
+  - 4
+  - 5
+  - 7
+  - 7.5
+  - 10
+- name: tight
+  display_name: Tight
+  values:
+  - 0
+  - 5
+  - 6
+  - 8
+  - 10
+captures:
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 5
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain5_tight5.nam
+- values:
+    bass: 3
+    treble: 9
+    presence: 4
+    gain: 4
+    tight: 6
+  file: captures/bass3_treble9_presence4_gain4_tight6.nam
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 0
+    tight: 0
+  file: captures/bass5_treble5_presence5_gain0_tight0.nam
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 0
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain0_tight5.nam
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 3
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain3_tight5.nam
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 5
+    tight: 10
+  file: captures/bass5_treble5_presence5_gain5_tight10.nam
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 7.5
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain7_5_tight5.nam
+- values:
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 10
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain10_tight5.nam
+- values:
+    bass: 5
+    treble: 9
+    presence: 3
+    gain: 7
+    tight: 8
+  file: captures/bass5_treble9_presence3_gain7_tight8.nam

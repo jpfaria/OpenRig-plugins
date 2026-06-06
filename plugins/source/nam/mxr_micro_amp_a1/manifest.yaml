@@ -1,0 +1,26 @@
+manifest_version: 1
+id: nam_mxr_micro_amp_a1
+display_name: MXR Micro Amp
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+# constant across all captures: mxr_microamp (the pedal itself)
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - low
+  - mid
+  - full
+captures:
+- values:
+    gain: full
+  file: captures/mxr_microamp_fullgain.nam
+- values:
+    gain: low
+  file: captures/mxr_microamp_lowgain.nam
+- values:
+    gain: mid
+  file: captures/mxr_microamp_midgain.nam

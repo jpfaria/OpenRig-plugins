@@ -1,0 +1,38 @@
+manifest_version: 1
+id: nam_klone_a2
+display_name: Klone
+brand: electro-harmonix
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/565
+# Constant author/pedal token "Keith B Klone" dropped from every name.
+# Names are a grab-bag: a "plus BB" gain-stage family (low/med/high) and a
+# numeric g/t/o family with no shared control grid -> single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - plus_bb_low
+  - plus_bb_med
+  - plus_bb_high
+  - maxg_t6_o5
+  - g6_t6_o5
+captures:
+- values:
+    preset: plus_bb_low
+  file: captures/plus_bb_low_a2.nam
+- values:
+    preset: plus_bb_med
+  file: captures/plus_bb_med_a2.nam
+- values:
+    preset: plus_bb_high
+  file: captures/plus_bb_high_a2.nam
+- values:
+    preset: maxg_t6_o5
+  file: captures/maxg_t6_o5_a2.nam
+- values:
+    preset: g6_t6_o5
+  file: captures/g6_t6_o5_a2.nam

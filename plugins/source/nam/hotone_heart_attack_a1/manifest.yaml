@@ -1,0 +1,32 @@
+# Constant across all captures (dropped): hotone (brand), mesa, mackie.
+# Names carry only a bare sequence index (2..5) with no real control token,
+# so they do not factor into amp controls -> single clean 'preset' axis.
+manifest_version: 1
+id: nam_hotone_heart_attack_a1
+display_name: Hotone Heart Attack
+brand: hotone
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - preset_2
+  - preset_3
+  - preset_4
+  - preset_5
+captures:
+- values:
+    preset: preset_2
+  file: captures/2_hotone_mesa_mackie.nam
+- values:
+    preset: preset_3
+  file: captures/3_hotone_mesa_mackie.nam
+- values:
+    preset: preset_4
+  file: captures/4_hotone_mesa_mackie.nam
+- values:
+    preset: preset_5
+  file: captures/5_hotone_mesa_mackie.nam

@@ -1,0 +1,138 @@
+manifest_version: 1
+id: nam_laney_ironheart_irt60h_a2
+display_name: Ironheart IRT60H
+brand: laney
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/28736
+# Constant across all captures (dropped): Laney IRT60 amp; Dynamics D100%.
+# 'eq: voiced' = the 2026-03 re-captures with explicit B/M/T pot settings;
+# 'eq: stock' = the earlier captures taken at the default EQ.
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - clean
+  - rhythm
+  - lead
+- name: stage
+  display_name: Stage
+  values:
+  - preamp
+  - power_amp
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - od
+- name: eq
+  display_name: EQ
+  values:
+  - stock
+  - voiced
+captures:
+- values:
+    mode: rhythm
+    stage: preamp
+    boost: od
+    eq: voiced
+  file: captures/laney_irt60_rhythm_pre_od_b1_1_m3_t2_g6_5_d100_tn1_8_a2.nam
+- values:
+    mode: rhythm
+    stage: power_amp
+    boost: od
+    eq: voiced
+  file: captures/laney_irt60_rhythm_pwr_od_b1_1_m3_t2_g6_5_d100_tn1_8_a2.nam
+- values:
+    mode: rhythm
+    stage: power_amp
+    boost: none
+    eq: voiced
+  file: captures/laney_irt60_rhythm_pwr_b1_1_m2_t2_g6_5_d100_tn1_a2.nam
+- values:
+    mode: rhythm
+    stage: preamp
+    boost: none
+    eq: voiced
+  file: captures/laney_irt60_rhythm_pre_b1_1_m2_t2_g6_5_d100_tn1_8_a2.nam
+- values:
+    mode: lead
+    stage: preamp
+    boost: none
+    eq: voiced
+  file: captures/laney_irt60_lead_pre_b0_m2_9_t2_g7_2_d100_tn1_8_a2.nam
+- values:
+    mode: lead
+    stage: power_amp
+    boost: od
+    eq: voiced
+  file: captures/laney_irt60_lead_pwr_od_b0_m2_9_t2_g7_2_d100_tn1_8_a2.nam
+- values:
+    mode: lead
+    stage: power_amp
+    boost: none
+    eq: voiced
+  file: captures/laney_irt60_lead_pwr_b0_m2_9_t2_g7_2_d100_tn1_8_a2.nam
+- values:
+    mode: rhythm
+    stage: power_amp
+    boost: none
+    eq: stock
+  file: captures/rhythm_poweramp_a2.nam
+- values:
+    mode: clean
+    stage: preamp
+    boost: none
+    eq: stock
+  file: captures/clean_preamp_a2.nam
+- values:
+    mode: lead
+    stage: preamp
+    boost: none
+    eq: stock
+  file: captures/lead_preamp_a2.nam
+- values:
+    mode: clean
+    stage: power_amp
+    boost: none
+    eq: stock
+  file: captures/clean_poweramp_a2.nam
+- values:
+    mode: lead
+    stage: preamp
+    boost: od
+    eq: stock
+  file: captures/lead_boosted_preamp_a2.nam
+- values:
+    mode: lead
+    stage: power_amp
+    boost: none
+    eq: stock
+  file: captures/lead_poweramp_a2.nam
+- values:
+    mode: rhythm
+    stage: preamp
+    boost: none
+    eq: stock
+  file: captures/rhythm_preamp_a2.nam
+- values:
+    mode: lead
+    stage: power_amp
+    boost: od
+    eq: stock
+  file: captures/lead_boosted_poweramp_a2.nam
+- values:
+    mode: rhythm
+    stage: preamp
+    boost: od
+    eq: stock
+  file: captures/rhythm_boosted_preamp_a2.nam
+- values:
+    mode: rhythm
+    stage: power_amp
+    boost: od
+    eq: stock
+  file: captures/rhythm_boosted_poweramp_a2.nam

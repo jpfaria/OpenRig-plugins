@@ -1,0 +1,28 @@
+manifest_version: 1
+id: nam_hiwatt_dr103_a1
+display_name: HiWatt DR103
+brand: hiwatt
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+# Constant token dropped from all captures: hiwatt_dr103 (amp slug).
+# Names are a grab-bag of stock/edgy bridged-input captures and a pedal-stacked
+# high-gain capture -> no shared knob grid, so a single clean 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bridged
+  - edgy_bridged
+  - ts808_klon
+captures:
+- values:
+    preset: bridged
+  file: captures/hiwatt_dr103_bridged.nam
+- values:
+    preset: edgy_bridged
+  file: captures/hiwatt_dr_103_edgy_bridged.nam
+- values:
+    preset: ts808_klon
+  file: captures/hiwatt_dr_103_ts808_archer_klon_high_gain.nam

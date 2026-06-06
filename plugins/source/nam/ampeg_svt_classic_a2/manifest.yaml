@@ -1,0 +1,83 @@
+# Constant token dropped from every capture: "svt" (the amp model, present in all names).
+manifest_version: 1
+id: nam_ampeg_svt_classic_a2
+display_name: SVT Classic
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45809
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - amp
+  - sansamp
+  - darkglass
+- name: mode
+  display_name: Mode
+  values:
+  - clean
+  - clean_pushed
+  - pushed
+  - dirty
+  - dirty_pushed
+  - rock_drive
+  - bright_drive
+  - hairy_drive
+  - subdrive
+  - hype_di
+  - shred
+  - shred_di
+captures:
+- values:
+    mode: dirty_pushed
+    voicing: amp
+  file: captures/svt_dirty_pushed_a2.nam
+- values:
+    mode: pushed
+    voicing: amp
+  file: captures/svt_pushed_a2.nam
+- values:
+    mode: rock_drive
+    voicing: sansamp
+  file: captures/svt_sans_rock_drive_a2.nam
+- values:
+    mode: shred
+    voicing: darkglass
+  file: captures/svt_darkglass_shreded_a2.nam
+- values:
+    mode: bright_drive
+    voicing: sansamp
+  file: captures/svt_sans_bright_drive_a2.nam
+- values:
+    mode: dirty
+    voicing: amp
+  file: captures/svt_dirty_a2.nam
+- values:
+    mode: hype_di
+    voicing: sansamp
+  file: captures/svt_sans_hype_my_di_a2.nam
+- values:
+    mode: shred_di
+    voicing: darkglass
+  file: captures/svt_darkglass_shred_my_di_a2.nam
+- values:
+    mode: clean
+    voicing: amp
+  file: captures/svt_clean_a2.nam
+- values:
+    mode: hairy_drive
+    voicing: sansamp
+  file: captures/svt_sans_hairy_drive_a2.nam
+- values:
+    mode: subdrive
+    voicing: sansamp
+  file: captures/svt_sans_subdrive_a2.nam
+- values:
+    mode: clean_pushed
+    voicing: amp
+  file: captures/svt_clean_pushed_a2.nam

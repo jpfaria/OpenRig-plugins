@@ -17,7 +17,7 @@ parameters:
   values:
   - in1_2
   - in2
-- name: vol1
+- name: volume1
   display_name: Volume 1
   values:
   - none
@@ -25,7 +25,7 @@ parameters:
   - 7
   - 8
   - 10
-- name: vol2
+- name: volume2
   display_name: Volume 2
   values:
   - 0
@@ -53,811 +53,811 @@ captures:
     input: in1_2
     speaker: p12q
     tone: 10
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_10_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 10
-    vol2: 0
+    volume1: 10
+    volume2: 0
   file: captures/in1_2_v1_10_v2_0_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 10
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_10_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 10
-    vol2: 10
+    volume1: 10
+    volume2: 10
   file: captures/in1_2_v1_10_v2_10_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 10
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_10_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 10
-    vol2: 5
+    volume1: 10
+    volume2: 5
   file: captures/in1_2_v1_10_v2_5_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 10
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_10_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 10
-    vol2: 8
+    volume1: 10
+    volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 5
-    vol2: 0
+    volume1: 5
+    volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 5
-    vol2: 10
+    volume1: 5
+    volume2: 10
   file: captures/in1_2_v1_5_v2_10_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 7
-    vol2: 0
+    volume1: 7
+    volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_9_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 10
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_10_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 3
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_3_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 4
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_4_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 5
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_5_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 5
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_5_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 6
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_6_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 7
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_7_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 7
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_7_srl_a2.nam
 - values:
     input: in1_2
     speaker: p12q
     tone: 8
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_8_p12q_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 8
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_8_srl_a2.nam
 - values:
     input: in1_2
     speaker: srl
     tone: 9
-    vol1: 8
-    vol2: 0
+    volume1: 8
+    volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_9_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 10
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 3
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_3_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 5
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_5_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 5
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 7
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_7_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 8
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_8_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 8
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_8_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 9
-    vol1: none
-    vol2: 10
+    volume1: none
+    volume2: 10
   file: captures/in2_v2_10_t_9_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 10
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 5
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_5_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 5
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 7
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_7_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 8
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_8_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 8
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_8_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 9
-    vol1: none
-    vol2: 5
+    volume1: none
+    volume2: 5
   file: captures/in2_v2_5_t_9_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 10
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 5
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_5_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 5
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 7
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_7_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 8
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_8_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 8
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_8_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 9
-    vol1: none
-    vol2: 8
+    volume1: none
+    volume2: 8
   file: captures/in2_v2_8_t_9_srl_a2.nam

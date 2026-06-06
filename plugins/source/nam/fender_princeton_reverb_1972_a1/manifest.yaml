@@ -1,0 +1,83 @@
+# Constant across all captures (dropped): princ (plugin slug)
+manifest_version: 1
+id: nam_fender_princeton_reverb_1972_a1
+display_name: Princeton Reverb 1972
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 4.0939827
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 3
+  - 3.5
+  - 4
+  - 5
+- name: treble
+  display_name: Treble
+  values:
+  - 6
+  - 7
+  - 8
+- name: bass
+  display_name: Bass
+  values:
+  - 2
+  - 3
+- name: mic
+  display_name: Mic
+  values:
+  - sm57
+  - sm57_offcenter
+  - heil_pr30
+- name: speaker
+  display_name: Speaker
+  values:
+  - original
+  - jensen_c10q
+captures:
+- values:
+    volume: 3
+    treble: 8
+    bass: 2
+    mic: sm57
+    speaker: original
+  file: captures/princ_v3_t8_b2_sm57_orig_spkr.nam
+- values:
+    volume: 3.5
+    treble: 6
+    bass: 3
+    mic: sm57
+    speaker: original
+  file: captures/princ_v3_5_t6_b3_sm57_orig_spkr.nam
+- values:
+    volume: 4
+    treble: 7
+    bass: 2
+    mic: sm57_offcenter
+    speaker: jensen_c10q
+  file: captures/princ_v4_t7_b2_sm57offcntr_jensen_c10q.nam
+- values:
+    volume: 4
+    treble: 7
+    bass: 2
+    mic: heil_pr30
+    speaker: jensen_c10q
+  file: captures/princ_v4_t7_b2_heil_pr30center_jensen_c10q.nam
+- values:
+    volume: 5
+    treble: 7
+    bass: 2
+    mic: sm57
+    speaker: jensen_c10q
+  file: captures/princ_v5_t7_b2_sm57_jensen_c10q.nam
+- values:
+    volume: 5
+    treble: 7
+    bass: 2
+    mic: heil_pr30
+    speaker: jensen_c10q
+  file: captures/princ_v5_t7_b2_heil_pr_30_jensen_c10q.nam

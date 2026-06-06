@@ -1,0 +1,39 @@
+manifest_version: 1
+id: nam_boss_hm2_mij_a1
+display_name: Heavy Metal HM-2 MiJ
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+# constant across all captures (dropped): hm2_mij (the pedal itself)
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - swede
+  - godflesh
+  - atg
+  - boost_sharp
+  - boost_blunt
+  - boost_che
+captures:
+- values:
+    preset: swede
+  file: captures/hm2_mij_swede.nam
+- values:
+    preset: godflesh
+  file: captures/hm2_mij_godflesh.nam
+- values:
+    preset: atg
+  file: captures/hm2_mij_atg.nam
+- values:
+    preset: boost_sharp
+  file: captures/hm2_mij_boost_sharp.nam
+- values:
+    preset: boost_blunt
+  file: captures/hm2_mij_boost_blunt.nam
+- values:
+    preset: boost_che
+  file: captures/hm2_mij_boost_che.nam

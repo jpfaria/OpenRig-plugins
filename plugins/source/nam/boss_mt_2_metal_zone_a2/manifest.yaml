@@ -1,0 +1,97 @@
+manifest_version: 1
+id: nam_boss_mt_2_metal_zone_a2
+display_name: Boss MT-2 Metal Zone
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64957
+# Constant across all captures (dropped): "DRPS BOSS Metal Zone MT-2".
+# The tone3000 names spell out the MT-2 front panel — L=Level, H=High,
+# M=Mid level, MF=Mid Frequency, DIST=Distortion — but the set is NOT a
+# clean grid: the "Everything 12 o'clock" snapshot has no dial numbers
+# (noon, not a labelled setting), and TWO captures share the IDENTICAL
+# panel L6 H4 M6 MF5 DIST2.7 (two separate profiles uploaded under the
+# same name). With a duplicate knob-combo there is no MT-2 control left
+# to disambiguate them, so the captures collapse into a single 'preset'
+# axis whose labels are the verbatim tone3000 setting names.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - everything_noon
+  - l5_h5_m5_mf5_dist3
+  - l5_h5_m5_mf5_dist8
+  - l5_h5_m5_mf5_dist10
+  - l6_h4_m4_8_mf0_dist5
+  - l6_h4_m6_mf5_dist2_7_a
+  - l6_h4_m6_mf5_dist2_7_b
+  - l6_h4_m6_mf5_dist4_9
+  - l6_h4_m6_mf5_dist6
+  - l6_h4_m6_mf5_dist10
+  - l8_h3_8_m10_mf5_5_dist3
+  - l8_h3_8_m10_mf5_5_dist4
+  - l8_h3_8_m10_mf5_5_dist6
+  - l8_h3_8_m10_mf5_5_dist10
+  - l9_h7_m7_mf7_8_dist3
+  - l9_h7_m7_mf7_8_dist5
+  - l9_h7_m7_mf7_8_dist7_8
+  - l9_h7_m7_mf7_8_dist10
+captures:
+- values:
+    preset: everything_noon
+  file: captures/l5_h5_m5_mf5_dist5_a2.nam
+- values:
+    preset: l5_h5_m5_mf5_dist3
+  file: captures/l5_h5_m5_mf5_dist3_a2.nam
+- values:
+    preset: l5_h5_m5_mf5_dist8
+  file: captures/l5_h5_m5_mf5_dist8_a2.nam
+- values:
+    preset: l5_h5_m5_mf5_dist10
+  file: captures/l5_h5_m5_mf5_dist10_a2.nam
+- values:
+    preset: l6_h4_m4_8_mf0_dist5
+  file: captures/l6_h4_m4_8_mf0_dist5_a2.nam
+- values:
+    preset: l6_h4_m6_mf5_dist2_7_a
+  file: captures/l6_h4_m6_mf5_dist2_7_a_a2.nam
+- values:
+    preset: l6_h4_m6_mf5_dist2_7_b
+  file: captures/l6_h4_m6_mf5_dist2_7_b_a2.nam
+- values:
+    preset: l6_h4_m6_mf5_dist4_9
+  file: captures/l6_h4_m6_mf5_dist4_9_a2.nam
+- values:
+    preset: l6_h4_m6_mf5_dist6
+  file: captures/l6_h4_m6_mf5_dist6_a2.nam
+- values:
+    preset: l6_h4_m6_mf5_dist10
+  file: captures/l6_h4_m6_mf5_dist10_a2.nam
+- values:
+    preset: l8_h3_8_m10_mf5_5_dist3
+  file: captures/l8_h3_8_m10_mf5_5_dist3_a2.nam
+- values:
+    preset: l8_h3_8_m10_mf5_5_dist4
+  file: captures/l8_h3_8_m10_mf5_5_dist4_a2.nam
+- values:
+    preset: l8_h3_8_m10_mf5_5_dist6
+  file: captures/l8_h3_8_m10_mf5_5_dist6_a2.nam
+- values:
+    preset: l8_h3_8_m10_mf5_5_dist10
+  file: captures/l8_h3_8_m10_mf5_5_dist10_a2.nam
+- values:
+    preset: l9_h7_m7_mf7_8_dist3
+  file: captures/l9_h7_m7_mf7_8_dist3_a2.nam
+- values:
+    preset: l9_h7_m7_mf7_8_dist5
+  file: captures/l9_h7_m7_mf7_8_dist5_a2.nam
+- values:
+    preset: l9_h7_m7_mf7_8_dist7_8
+  file: captures/l9_h7_m7_mf7_8_dist7_8_a2.nam
+- values:
+    preset: l9_h7_m7_mf7_8_dist10
+  file: captures/l9_h7_m7_mf7_8_dist10_a2.nam

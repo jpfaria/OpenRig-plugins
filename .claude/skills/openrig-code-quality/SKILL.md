@@ -154,6 +154,53 @@ passing AND a failing unit test before the fix lands.
 
 ---
 
+## LAW — parameter names are REAL controls; read the description (issue #66)
+
+A plugin's parameter NAME must be a control that actually exists on the gear —
+an amp/preamp/pedal knob or switch (`gain`, `drive`, `tone`, `level`, `treble`,
+`bass`, `mid`, `presence`, `master`, `volume`, `depth`, `reverb`, `channel`,
+`mic`, `voicing`, `mode`, `boost`, `bias`, `comp`, `blend`, `filter`, `stab`,
+`balance`, `transistor`, `voltage`, `feel`, `hf`, `load`, …) — or, for **IR**
+plugins (cabs AND acoustic-guitar bodies), a real mic-ing / version axis
+(`mic`, `position`, `distance`, `version`, `flavor`, `pickup`). The sanctioned
+catch-all is `preset` (a genuine grab-bag) and the single-capture sentinel is
+`default`.
+
+**FORBIDDEN as a parameter name:** anything that is not a real control —
+especially NAM training/capture metadata (`epochs`, `train`, `capture`,
+`buffer`, `nam_size`, `arch`, `block`, `loop`, `module`, `take`), and the
+invented abstractions (`model`, `size`, `variant`, `setting`, `version` on an
+amp, `flavor` on an amp). If you reached for one of these, you did not decode
+the real control — go back to the filename and the description.
+
+**Two sources of truth, not one:** the capture **filename** AND the tone3000
+**description**. Many tones spell the dial settings out only in the description
+(e.g. *"File numbers = Presence, Bass, Middle, Treble, Volume I, Volume II"*,
+*"everything at 12 o'clock"* = noon = 5, *"BCL_HG_2: Gain 5, Bass 7…"*).
+Reading only the filename is how the #66 import produced 120+ plugins with
+invented/metadata axis names. Always fetch and read both:
+
+```
+curl …/rest/v1/tones?id=eq.<id>&select=title,description
+curl …/rest/v1/models?tone_id=eq.<id>&select=name,model_url
+```
+
+**Enforcement:** `scripts/param_gate.py` is the deterministic gate for this —
+it flags any non-control axis name, any value that is not in the
+filename+description, decimals written `N_M` (parse wrong), multi-knob enum
+values, leftover tone3000 hash filenames, and capture data loss vs the baseline
+commit. Run it; RED is a defect, not an opinion. See the canonical
+`openrig-manifest-parameters` skill for the full derivation method.
+
+```
+❌ name: epochs / take / flavor(on an amp) / model / variant   → not a control
+❌ decoded only from the filename, ignored the description       → missed settings
+❌ value 8_5 (parses as 85/string)                               → write 8.5
+✅ name ∈ real controls; values cross-checked against filename + description
+```
+
+---
+
 ## Communication with the user — terse, objective
 
 User reply default = **1-3 sentences**. No essays.

@@ -1,0 +1,34 @@
+manifest_version: 1
+id: nam_lokajaudio_der_blend_a1
+display_name: Der Blend
+brand: lokajaudio
+output_gain_db: 2.4049721
+type: gain_pedal
+backend: nam
+architecture: A1
+# Constant across all captures: der_blend (the pedal name).
+parameters:
+- name: character
+  display_name: Character
+  values:
+  - min
+  - mid
+  - high
+  - high_boost
+  - max
+captures:
+- values:
+    character: min
+  file: captures/der_blend_off.nam
+- values:
+    character: mid
+  file: captures/der_blend_mid.nam
+- values:
+    character: high
+  file: captures/der_blend_high.nam
+- values:
+    character: high_boost
+  file: captures/der_blend_high_boost.nam
+- values:
+    character: max
+  file: captures/der_blend_max.nam

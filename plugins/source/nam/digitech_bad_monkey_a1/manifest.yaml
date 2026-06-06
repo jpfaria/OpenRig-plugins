@@ -1,0 +1,144 @@
+manifest_version: 1
+id: nam_digitech_bad_monkey_a1
+display_name: DigiTech Bad Monkey
+brand: digitech
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+# Constant token dropped from every capture: badmonkey (brand/slug).
+# Two non-overlapping capture regimes that do not share a knob grid:
+#   - boost captures encode real Bad Monkey knobs (Level v10, Low b4/b7,
+#     High t6, Gain g0/g4), with Level and High constant across them;
+#   - fulltone/glory/klon/noble_odr_1/ts10/zen are named pedal voicings
+#     with no knob grid at all.
+# Each capture also exists in three NAM model sizes (feather/lite/standard),
+# which is training metadata, not a control. Per the grab-bag rule, the
+# whole set is exposed as a single 'preset' axis with one unique value per
+# capture (knobs/voicing + size folded into the value), so no metadata
+# axis ('size', 'nam_size', 'model') is invented.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - boost_low4_gain0_feather
+  - boost_low4_gain0_lite
+  - boost_low4_gain0_standard
+  - boost_low4_gain4_feather
+  - boost_low4_gain4_lite
+  - boost_low4_gain4_standard
+  - boost_low7_gain0_feather
+  - boost_low7_gain0_lite
+  - boost_low7_gain0_standard
+  - boost_low7_gain4_feather
+  - boost_low7_gain4_lite
+  - boost_low7_gain4_standard
+  - fulltone_feather
+  - fulltone_lite
+  - fulltone_standard
+  - glory_feather
+  - glory_lite
+  - glory_standard
+  - klon_feather
+  - klon_lite
+  - klon_standard
+  - noble_odr1_feather
+  - noble_odr1_lite
+  - noble_odr1_standard
+  - ts10_feather
+  - ts10_lite
+  - ts10_standard
+  - zen_feather
+  - zen_lite
+  - zen_standard
+captures:
+- values:
+    preset: boost_low4_gain0_feather
+  file: captures/badmonkey_boost1_v10_b4_t6_g0_feather.nam
+- values:
+    preset: boost_low4_gain0_lite
+  file: captures/badmonkey_boost1_v10_b4_t6_g0_lite.nam
+- values:
+    preset: boost_low4_gain0_standard
+  file: captures/badmonkey_boost1_v10_b4_t6_g0_standard.nam
+- values:
+    preset: boost_low4_gain4_feather
+  file: captures/badmonkey_boost2_v10_b4_t6_g4_feather.nam
+- values:
+    preset: boost_low4_gain4_lite
+  file: captures/badmonkey_boost2_v10_b4_t6_g4_lite.nam
+- values:
+    preset: boost_low4_gain4_standard
+  file: captures/badmonkey_boost2_v10_b4_t6_g4_standard.nam
+- values:
+    preset: boost_low7_gain0_feather
+  file: captures/badmonkey_boost3_v10_b7_t6_g0_feather.nam
+- values:
+    preset: boost_low7_gain0_lite
+  file: captures/badmonkey_boost3_v10_b7_t6_g0_lite.nam
+- values:
+    preset: boost_low7_gain0_standard
+  file: captures/badmonkey_boost3_v10_b7_t6_g0_standard.nam
+- values:
+    preset: boost_low7_gain4_feather
+  file: captures/badmonkey_boost3_v10_b7_t6_g4_feather.nam
+- values:
+    preset: boost_low7_gain4_lite
+  file: captures/badmonkey_boost3_v10_b7_t6_g4_lite.nam
+- values:
+    preset: boost_low7_gain4_standard
+  file: captures/badmonkey_boost3_v10_b7_t6_g4_standard.nam
+- values:
+    preset: fulltone_feather
+  file: captures/badmonkey_fulltone_feather.nam
+- values:
+    preset: fulltone_lite
+  file: captures/badmonkey_fulltone_lite.nam
+- values:
+    preset: fulltone_standard
+  file: captures/badmonkey_fulltone_standard.nam
+- values:
+    preset: glory_feather
+  file: captures/badmonkey_glory_feather.nam
+- values:
+    preset: glory_lite
+  file: captures/badmonkey_glory_lite.nam
+- values:
+    preset: glory_standard
+  file: captures/badmonkey_glory_standard.nam
+- values:
+    preset: klon_feather
+  file: captures/badmonkey_klon_feather.nam
+- values:
+    preset: klon_lite
+  file: captures/badmonkey_klon_lite.nam
+- values:
+    preset: klon_standard
+  file: captures/badmonkey_klon_standard.nam
+- values:
+    preset: noble_odr1_feather
+  file: captures/badmonkey_noble_odr_1_feather.nam
+- values:
+    preset: noble_odr1_lite
+  file: captures/badmonkey_noble_odr_1_lite.nam
+- values:
+    preset: noble_odr1_standard
+  file: captures/badmonkey_noble_odr_1_standard.nam
+- values:
+    preset: ts10_feather
+  file: captures/badmonkey_ts10_feather.nam
+- values:
+    preset: ts10_lite
+  file: captures/badmonkey_ts10_lite.nam
+- values:
+    preset: ts10_standard
+  file: captures/badmonkey_ts10_standard.nam
+- values:
+    preset: zen_feather
+  file: captures/badmonkey_zen_feather.nam
+- values:
+    preset: zen_lite
+  file: captures/badmonkey_zen_lite.nam
+- values:
+    preset: zen_standard
+  file: captures/badmonkey_zen_standard.nam

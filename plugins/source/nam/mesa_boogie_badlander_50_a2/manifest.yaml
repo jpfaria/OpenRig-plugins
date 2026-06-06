@@ -9,7 +9,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/35162
+# Crunch channel, Bold mode. Dial format from tone3000: (G)ain (T)reble (M)iddle (B)ass (P)resence (M)aster, approximated 0-10.
 # Constant across all captures (dropped): master (Ma) = 3; channel = Cr (crunch).
+# Both Standard and xSTD NAM training architectures are published; that is capture/training metadata, not an amp control, so it is not an axis. Every 5-knob combo is already unique.
 parameters:
 - name: gain
   display_name: Gain
@@ -46,18 +48,12 @@ parameters:
   - 4
   - 5
   - 6
-- name: train
-  display_name: Train
-  values:
-  - std
-  - xstd
 captures:
 - values:
     bass: 6
     gain: 10
     mid: 7
     presence: 5
-    train: std
     treble: 2
   file: captures/mb_bl50_cr_g_10_t_2_m_7_b_6_p_5_ma_3_a2.nam
 - values:
@@ -65,7 +61,6 @@ captures:
     gain: 10
     mid: 2
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_2_b_6_p_4_ma_3_a2.nam
 - values:
@@ -73,7 +68,6 @@ captures:
     gain: 10
     mid: 3
     presence: 5
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_3_b_4_p_5_ma_3_a2.nam
 - values:
@@ -81,7 +75,6 @@ captures:
     gain: 10
     mid: 4
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_4_b_5_p_4_ma_3_a2.nam
 - values:
@@ -89,7 +82,6 @@ captures:
     gain: 10
     mid: 5
     presence: 5
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_5_b_5_p_5_ma_3_a2.nam
 - values:
@@ -97,7 +89,6 @@ captures:
     gain: 10
     mid: 6
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_6_b_6_p_6_ma_3_a2.nam
 - values:
@@ -105,7 +96,6 @@ captures:
     gain: 10
     mid: 4
     presence: 4
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_10_t_5_m_4_b_4_p_4_ma_3_a2.nam
 - values:
@@ -113,7 +103,6 @@ captures:
     gain: 10
     mid: 5
     presence: 5
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_10_t_5_m_5_b_5_p_5_ma_3_a2.nam
 - values:
@@ -121,7 +110,6 @@ captures:
     gain: 6
     mid: 7
     presence: 5
-    train: std
     treble: 2
   file: captures/mb_bl50_cr_g_6_t_2_m_7_b_6_p_5_ma_3_a2.nam
 - values:
@@ -129,7 +117,6 @@ captures:
     gain: 6
     mid: 7
     presence: 5
-    train: xstd
     treble: 3
   file: captures/mb_bl50_cr_g_6_t_3_m_7_b_6_p_5_ma_3_xstd_a2.nam
 - values:
@@ -137,7 +124,6 @@ captures:
     gain: 6
     mid: 2
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_2_b_6_p_4_ma_3_a2.nam
 - values:
@@ -145,7 +131,6 @@ captures:
     gain: 6
     mid: 3
     presence: 5
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_3_b_4_p_5_ma_3_a2.nam
 - values:
@@ -153,7 +138,6 @@ captures:
     gain: 6
     mid: 4
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_4_b_5_p_4_ma_3_a2.nam
 - values:
@@ -161,7 +145,6 @@ captures:
     gain: 6
     mid: 5
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_5_b_5_p_6_ma_3_a2.nam
 - values:
@@ -169,7 +152,6 @@ captures:
     gain: 6
     mid: 6
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_6_b_6_p_6_ma_3_a2.nam
 - values:
@@ -177,7 +159,6 @@ captures:
     gain: 6
     mid: 4
     presence: 4
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_6_t_5_m_4_b_4_p_4_ma_3_a2.nam
 - values:
@@ -185,7 +166,6 @@ captures:
     gain: 6
     mid: 5
     presence: 5
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_6_t_5_m_5_b_5_p_5_ma_3_a2.nam
 - values:
@@ -193,7 +173,6 @@ captures:
     gain: 7
     mid: 7
     presence: 5
-    train: std
     treble: 2
   file: captures/mb_bl50_cr_g_7_t_2_m_7_b_6_p_5_ma_3_a2.nam
 - values:
@@ -201,7 +180,6 @@ captures:
     gain: 7
     mid: 2
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_2_b_6_p_4_ma_3_a2.nam
 - values:
@@ -209,7 +187,6 @@ captures:
     gain: 7
     mid: 3
     presence: 5
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_3_b_4_p_5_ma_3_a2.nam
 - values:
@@ -217,7 +194,6 @@ captures:
     gain: 7
     mid: 4
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_4_b_5_p_4_ma_3_a2.nam
 - values:
@@ -225,7 +201,6 @@ captures:
     gain: 7
     mid: 5
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_5_b_5_p_6_ma_3_a2.nam
 - values:
@@ -233,7 +208,6 @@ captures:
     gain: 7
     mid: 4
     presence: 4
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_4_b_4_p_4_ma_3_a2.nam
 - values:
@@ -241,7 +215,6 @@ captures:
     gain: 7
     mid: 5
     presence: 5
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_5_b_5_p_5_ma_3_a2.nam
 - values:
@@ -249,7 +222,6 @@ captures:
     gain: 7
     mid: 6
     presence: 6
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_6_b_6_p_6_ma_3_a2.nam
 - values:
@@ -257,7 +229,6 @@ captures:
     gain: 8
     mid: 7
     presence: 5
-    train: std
     treble: 2
   file: captures/mb_bl50_cr_g_8_t_2_m_7_b_6_p_5_ma_3_a2.nam
 - values:
@@ -265,7 +236,6 @@ captures:
     gain: 8
     mid: 2
     presence: 4
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_2_b_6_p_4_ma_3_a2.nam
 - values:
@@ -273,7 +243,6 @@ captures:
     gain: 8
     mid: 3
     presence: 5
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_3_b_4_p_5_ma_3_a2.nam
 - values:
@@ -281,7 +250,6 @@ captures:
     gain: 8
     mid: 4
     presence: 4
-    train: xstd
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_4_b_5_p_4_ma_3_xstd_a2.nam
 - values:
@@ -289,7 +257,6 @@ captures:
     gain: 8
     mid: 4
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_4_b_5_p_6_ma_3_a2.nam
 - values:
@@ -297,7 +264,6 @@ captures:
     gain: 8
     mid: 5
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_5_b_5_p_6_ma_3_a2.nam
 - values:
@@ -305,7 +271,6 @@ captures:
     gain: 8
     mid: 6
     presence: 6
-    train: std
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_6_b_6_p_6_ma_3_a2.nam
 - values:
@@ -313,7 +278,6 @@ captures:
     gain: 8
     mid: 4
     presence: 4
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_8_t_5_m_4_b_4_p_4_ma_3_a2.nam
 - values:
@@ -321,6 +285,5 @@ captures:
     gain: 8
     mid: 5
     presence: 5
-    train: std
     treble: 5
   file: captures/mb_bl50_cr_g_8_t_5_m_5_b_5_p_5_ma_3_a2.nam

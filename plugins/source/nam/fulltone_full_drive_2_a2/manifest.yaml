@@ -18,7 +18,7 @@ parameters:
   - 700
   - 900
   - 1200
-- name: od
+- name: overdrive
   display_name: Overdrive
   values:
   - 300
@@ -42,882 +42,882 @@ captures:
 - values:
     boost: "off"
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od300_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od500_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 700
+    overdrive: 700
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od700_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 700
+    overdrive: 700
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od700_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 700
+    overdrive: 700
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od700_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od900_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 300
   file: captures/fulltone_fulldrive_2_vol200_tone300_od1200_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od300_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od300_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od300_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od500_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od500_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od500_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 700
+    overdrive: 700
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od700_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 700
+    overdrive: 700
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od700_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 700
+    overdrive: 700
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od700_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od900_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od900_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od900_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od1200_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od1200_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 500
   file: captures/fulltone_fulldrive_2_vol200_tone500_od1200_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od300_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od300_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od300_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od500_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od500_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od500_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 700
+    overdrive: 700
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od700_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 700
+    overdrive: 700
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od700_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 700
+    overdrive: 700
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od700_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od900_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od900_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od900_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od1200_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od1200_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 700
   file: captures/fulltone_fulldrive_2_vol200_tone700_od1200_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od300_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od500_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 700
+    overdrive: 700
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od700_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 700
+    overdrive: 700
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od700_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 700
+    overdrive: 700
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od700_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od900_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 900
   file: captures/fulltone_fulldrive_2_vol200_tone900_od1200_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 300
+    overdrive: 300
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od300_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 500
+    overdrive: 500
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od500_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 700
+    overdrive: 700
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od700_vintage_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 700
+    overdrive: 700
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od700_comp_cut_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 700
+    overdrive: 700
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od700_flat_mids_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 900
+    overdrive: 900
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od900_flat_mids_boost1200_a2.nam
 - values:
     boost: "off"
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_vintage_a2.nam
 - values:
     boost: boost_500
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_vintage_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: vintage
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_vintage_boost1200_a2.nam
 - values:
     boost: "off"
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_comp_cut_a2.nam
 - values:
     boost: boost_500
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_comp_cut_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: comp_cut
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_comp_cut_boost1200_a2.nam
 - values:
     boost: "off"
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_flat_mids_a2.nam
 - values:
     boost: boost_500
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_flat_mids_boost500_a2.nam
 - values:
     boost: boost_1200
     mode: flat_mids
-    od: 1200
+    overdrive: 1200
     tone: 1200
   file: captures/fulltone_fulldrive_2_vol200_tone1200_od1200_flat_mids_boost1200_a2.nam

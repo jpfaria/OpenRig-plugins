@@ -1,0 +1,70 @@
+manifest_version: 1
+id: nam_hiwatt_dr103_a2
+display_name: HiWatt DR103
+brand: hiwatt
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6233
+# Constant across all captures (dropped): "Hiwatt DR 103" (the amp itself).
+# Names are a grab-bag of amp volume settings, bridged-channel variants, and
+# external boost/overdrive stacks (Archer Klon, TS808) -> single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean_bright
+  - vol3
+  - vol3_bright
+  - vol5
+  - vol8
+  - vol8_bright
+  - cranked
+  - bridged
+  - crunch_bridged
+  - edgy_bridged
+  - klon_drive
+  - klon_pushed
+  - ts808_klon_high_gain
+captures:
+- values:
+    preset: clean_bright
+  file: captures/clean_bright_a2.nam
+- values:
+    preset: vol3
+  file: captures/vol3_a2.nam
+- values:
+    preset: vol3_bright
+  file: captures/vol3_bright_a2.nam
+- values:
+    preset: vol5
+  file: captures/vol5_a2.nam
+- values:
+    preset: vol8
+  file: captures/vol8_a2.nam
+- values:
+    preset: vol8_bright
+  file: captures/vol8_bright_a2.nam
+- values:
+    preset: cranked
+  file: captures/cranked_a2.nam
+- values:
+    preset: bridged
+  file: captures/bridged_a2.nam
+- values:
+    preset: crunch_bridged
+  file: captures/crunch_bridged_a2.nam
+- values:
+    preset: edgy_bridged
+  file: captures/edgy_bridged_a2.nam
+- values:
+    preset: klon_drive
+  file: captures/klon_drive_a2.nam
+- values:
+    preset: klon_pushed
+  file: captures/klon_pushed_a2.nam
+- values:
+    preset: ts808_klon_high_gain
+  file: captures/ts808_klon_high_gain_a2.nam

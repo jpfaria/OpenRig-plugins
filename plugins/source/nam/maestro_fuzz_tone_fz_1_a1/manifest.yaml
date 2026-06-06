@@ -8,8 +8,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: era
-  display_name: Era
+- name: mode
+  display_name: Mode
   values:
   - vintage
   - modern
@@ -21,22 +21,22 @@ parameters:
   - high
 captures:
 - values:
-    era: vintage
+    mode: vintage
     gain: low
   file: captures/maestro_fz_m_vintage_low_gain.nam
 - values:
-    era: vintage
+    mode: vintage
     gain: mid
   file: captures/maestro_fz_m_vintage_mid_gain.nam
 - values:
-    era: vintage
+    mode: vintage
     gain: high
   file: captures/maestro_fz_m_vintage_high_gain.nam
 - values:
-    era: modern
+    mode: modern
     gain: mid
   file: captures/maestro_fz_m_modern_mid_gain.nam
 - values:
-    era: modern
+    mode: modern
     gain: high
   file: captures/maestro_fz_m_modern_high_gain.nam

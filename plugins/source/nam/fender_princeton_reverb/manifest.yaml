@@ -1,0 +1,60 @@
+manifest_version: 1
+id: nam_fender_princeton_reverb
+display_name: Princeton Reverb
+brand: fender
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/42319
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+# Constant tokens dropped: fender, princeton (brand/amp name).
+# volume is the amp Volume knob (3=clean, 5=edge of breakup, 7=crunch per tone3000 description);
+# mic selects Shure SM57, Beyerdynamic M160, or the sum of both into API 1608 pres.
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 3
+  - 5
+  - 7
+- name: mic
+  display_name: Mic
+  values:
+  - m160
+  - sm57
+  - sum
+captures:
+- values:
+    volume: 3
+    mic: m160
+  file: captures/fender_princeton_clean_3_m160.nam
+- values:
+    volume: 3
+    mic: sm57
+  file: captures/fender_princeton_clean_3_sm57.nam
+- values:
+    volume: 3
+    mic: sum
+  file: captures/fender_princeton_clean_3_sum_m160_sm57.nam
+- values:
+    volume: 5
+    mic: m160
+  file: captures/fender_princeton_eob_vol_5_m160.nam
+- values:
+    volume: 5
+    mic: sm57
+  file: captures/fender_princeton_eob_vol_5_sm57.nam
+- values:
+    volume: 5
+    mic: sum
+  file: captures/fender_princeton_eob_vol_5_sum_m160_sm57.nam
+- values:
+    volume: 7
+    mic: sm57
+  file: captures/fender_princeton_crunch_vol_7_sm57.nam
+- values:
+    volume: 7
+    mic: sum
+  file: captures/fender_princeton_crunch_7_sum_m160_sm57.nam

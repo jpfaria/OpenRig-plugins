@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_dumble_ods_john_mayer_a1
+display_name: Dumble ODS — John Mayer
+description: Neural capture of a Dumble ODS dialed to John Mayer's Continuum / Battle Studies tone. The ODS is the original of the Two-Rock CRS clone Mayer is associated with.
+brand: dumble
+license: MIT
+homepage: https://www.tone3000.com/tones/65812
+sources:
+- https://www.tone3000.com/tones/65812
+output_gain_db: 1.9840660
+type: amp
+backend: nam
+architecture: A1
+# tone3000 model names are a grab-bag of voicing labels (nam / nam hiz / odsfd)
+# that do not factor into amp control axes → exposed as a single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - nam
+  - hiz
+  - odsfd
+captures:
+- values:
+    preset: nam
+  file: captures/nam_a1.nam
+- values:
+    preset: hiz
+  file: captures/nam_hiz_a1.nam
+- values:
+    preset: odsfd
+  file: captures/odsfd_a1.nam

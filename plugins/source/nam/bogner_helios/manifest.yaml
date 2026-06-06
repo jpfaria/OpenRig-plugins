@@ -1,0 +1,26 @@
+# Constant across all captures (dropped): "Fig" (MattFig creator tag), "H-Lios" (the amp = Helios), "MG" (Marshall guitar cab).
+# Voicing and cab co-vary 1:1 across the two captures (70s plexi + 4x12, 80s hot + 2x12) — a grab-bag, not an orthogonal grid — so a single clean 'preset' axis.
+manifest_version: 1
+id: nam_bogner_helios
+display_name: Helios
+brand: bogner
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/6304
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 70s_plexi_412
+  - 80s_hot_212
+captures:
+- values:
+    preset: 70s_plexi_412
+  file: captures/fig_h_lios_70s_plex_mg_412.nam
+- values:
+    preset: 80s_hot_212
+  file: captures/fig_h_lios_80s_hot_mg_212.nam

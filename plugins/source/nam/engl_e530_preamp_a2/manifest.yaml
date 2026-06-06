@@ -1,0 +1,84 @@
+manifest_version: 1
+id: nam_engl_e530_preamp_a2
+display_name: E530 Preamp
+brand: engl
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5561
+# Constant token dropped from every capture: "E530" (the amp/plugin name).
+# Axes are the real ENGL E530 preamp controls: voicing (Vintage / Modern /
+# Clean — the "CR" clean is exposed as clean_cr), and the Boost and Contour
+# switches. Clean captures have no Boost/Contour variants → sparse grid.
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - vintage
+  - modern
+  - clean
+  - clean_cr
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - enabled
+- name: contour
+  display_name: Contour
+  values:
+  - none
+  - enabled
+captures:
+- values:
+    voicing: vintage
+    boost: none
+    contour: none
+  file: captures/vintage_no_boost_a2.nam
+- values:
+    voicing: vintage
+    boost: none
+    contour: enabled
+  file: captures/vintage_no_boost_contour_a2.nam
+- values:
+    voicing: vintage
+    boost: enabled
+    contour: none
+  file: captures/vintage_boost_a2.nam
+- values:
+    voicing: vintage
+    boost: enabled
+    contour: enabled
+  file: captures/vintage_boost_contour_a2.nam
+- values:
+    voicing: modern
+    boost: none
+    contour: none
+  file: captures/modern_no_boost_a2.nam
+- values:
+    voicing: modern
+    boost: none
+    contour: enabled
+  file: captures/modern_no_boost_contour_a2.nam
+- values:
+    voicing: modern
+    boost: enabled
+    contour: none
+  file: captures/modern_boost_a2.nam
+- values:
+    voicing: modern
+    boost: enabled
+    contour: enabled
+  file: captures/modern_boost_contour_a2.nam
+- values:
+    voicing: clean
+    boost: none
+    contour: none
+  file: captures/clean_a2.nam
+- values:
+    voicing: clean_cr
+    boost: none
+    contour: none
+  file: captures/clean_cr_a2.nam

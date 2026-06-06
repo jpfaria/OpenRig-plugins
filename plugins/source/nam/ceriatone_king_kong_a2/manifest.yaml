@@ -1,3 +1,7 @@
+# dropped constant: kk (King Kong amp) — identical across all captures
+# eq: ReactEQ = EQ-matched to Mesa 4x12 cab response · ReactIR2 = raw reactive-load response (IR required either way)
+# voicing: clean / scary_deep_off / scary_deep_on = Mr. Scary mod hi-gain ch v2 with the Deep switch · instant_gratification · jose = clipping-diode hi-gain channel
+# preset: alternate takes of the same eq/power/voicing setting (#01..#10 on tone3000)
 manifest_version: 1
 id: nam_ceriatone_king_kong_a2
 display_name: Kong
@@ -9,11 +13,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6165
 parameters:
-- name: capture
-  display_name: Capture
+- name: eq
+  display_name: EQ
   values:
-  - reacteq
-  - reactir2
+  - matched
+  - raw
 - name: voicing
   display_name: Voicing
   values:
@@ -27,8 +31,8 @@ parameters:
   values:
   - 100w
   - 50w
-- name: take
-  display_name: Take
+- name: preset
+  display_name: Preset
   values:
   - 1
   - 2
@@ -42,266 +46,266 @@ parameters:
   - 10
 captures:
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 1
+    preset: 1
   file: captures/reacteq_kk100_clean_01_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 2
+    preset: 2
   file: captures/reacteq_kk100_clean_02_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 3
+    preset: 3
   file: captures/reacteq_kk100_clean_03_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 4
+    preset: 4
   file: captures/reacteq_kk100_clean_04_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 5
+    preset: 5
   file: captures/reacteq_kk100_clean_05_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 6
+    preset: 6
   file: captures/reacteq_kk100_clean_06_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 7
+    preset: 7
   file: captures/reacteq_kk100_clean_07_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 8
+    preset: 8
   file: captures/reacteq_kk100_clean_08_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 9
+    preset: 9
   file: captures/reacteq_kk100_clean_09_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: clean
     power: 100w
-    take: 10
+    preset: 10
   file: captures/reacteq_kk100_clean_10_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 1
+    preset: 1
   file: captures/reacteq_kk100_scary_deep_off_01_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 2
+    preset: 2
   file: captures/reacteq_kk100_scary_deep_off_02_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 3
+    preset: 3
   file: captures/reacteq_kk100_scary_deep_off_03_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 4
+    preset: 4
   file: captures/reacteq_kk100_scary_deep_off_04_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 5
+    preset: 5
   file: captures/reacteq_kk100_scary_deep_off_05_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 6
+    preset: 6
   file: captures/reacteq_kk100_scary_deep_off_06_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 7
+    preset: 7
   file: captures/reacteq_kk100_scary_deep_off_07_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 8
+    preset: 8
   file: captures/reacteq_kk100_scary_deep_off_08_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 9
+    preset: 9
   file: captures/reacteq_kk100_scary_deep_off_09_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_off
     power: 100w
-    take: 10
+    preset: 10
   file: captures/reacteq_kk100_scary_deep_off_10_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 1
+    preset: 1
   file: captures/reacteq_kk100_scary_deep_on_01_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 2
+    preset: 2
   file: captures/reacteq_kk100_scary_deep_on_02_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 3
+    preset: 3
   file: captures/reacteq_kk100_scary_deep_on_03_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 4
+    preset: 4
   file: captures/reacteq_kk100_scary_deep_on_04_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 5
+    preset: 5
   file: captures/reacteq_kk100_scary_deep_on_05_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 6
+    preset: 6
   file: captures/reacteq_kk100_scary_deep_on_06_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 7
+    preset: 7
   file: captures/reacteq_kk100_scary_deep_on_07_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 8
+    preset: 8
   file: captures/reacteq_kk100_scary_deep_on_08_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 9
+    preset: 9
   file: captures/reacteq_kk100_scary_deep_on_09_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: scary_deep_on
     power: 100w
-    take: 10
+    preset: 10
   file: captures/reacteq_kk100_scary_deep_on_10_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: instant_gratification
     power: 100w
-    take: 1
+    preset: 1
   file: captures/reacteq_kk100_instant_gratification_01_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: instant_gratification
     power: 100w
-    take: 2
+    preset: 2
   file: captures/reacteq_kk100_instant_gratification_02_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: instant_gratification
     power: 50w
-    take: 1
+    preset: 1
   file: captures/reacteq_kk50w_instant_gratification_01_a2.nam
 - values:
-    capture: reacteq
+    eq: matched
     voicing: instant_gratification
     power: 50w
-    take: 2
+    preset: 2
   file: captures/reacteq_kk50w_instant_gratification_02_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 1
+    preset: 1
   file: captures/reactir2_kk100_jose_01_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 2
+    preset: 2
   file: captures/reactir2_kk100_jose_02_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 3
+    preset: 3
   file: captures/reactir2_kk100_jose_03_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 4
+    preset: 4
   file: captures/reactir2_kk100_jose_04_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 5
+    preset: 5
   file: captures/reactir2_kk100_jose_05_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 6
+    preset: 6
   file: captures/reactir2_kk100_jose_06_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 7
+    preset: 7
   file: captures/reactir2_kk100_jose_07_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 8
+    preset: 8
   file: captures/reactir2_kk100_jose_08_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 9
+    preset: 9
   file: captures/reactir2_kk100_jose_09_a2.nam
 - values:
-    capture: reactir2
+    eq: raw
     voicing: jose
     power: 100w
-    take: 10
+    preset: 10
   file: captures/reactir2_kk100_jose_10_a2.nam

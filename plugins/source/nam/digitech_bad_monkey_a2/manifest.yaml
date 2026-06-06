@@ -1,0 +1,101 @@
+# Grab-bag of Bad Monkey boost settings plus the Bad Monkey driving other overdrives
+# (Klon, Fulltone, Glory, Noble ODR-1, TS10, Zen). Boost captures carry the pedal's own
+# dials in the filename: V10 (volume 10), B4/B7 (low), T6 (tone 6), G0/G4 (gain).
+# These do not factor into a single consistent knob grid, so a single `preset` axis is used.
+# The lite/standard suffix is NAM model size (training metadata), folded into the preset
+# label only to keep every capture mapped to a unique combo.
+manifest_version: 1
+id: nam_digitech_bad_monkey_a2
+display_name: DigiTech Bad Monkey
+brand: digitech
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/696
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - boost1_g0_standard
+  - boost1_g0_lite
+  - boost2_g4_standard
+  - boost2_g4_lite
+  - boost3_g0_standard
+  - boost3_g0_lite
+  - boost3_g4_standard
+  - boost3_g4_lite
+  - fulltone_standard
+  - fulltone_lite
+  - glory_standard
+  - glory_lite
+  - klon_standard
+  - klon_lite
+  - noble_odr_1_standard
+  - noble_odr_1_lite
+  - ts10_standard
+  - ts10_lite
+  - zen_standard
+  - zen_lite
+captures:
+- values:
+    preset: boost2_g4_standard
+  file: captures/boost2_v10_b4_t6_g4_standard_a2.nam
+- values:
+    preset: boost1_g0_standard
+  file: captures/boost1_v10_b4_t6_g0_standard_a2.nam
+- values:
+    preset: zen_standard
+  file: captures/zen_standard_a2.nam
+- values:
+    preset: glory_standard
+  file: captures/glory_standard_a2.nam
+- values:
+    preset: klon_lite
+  file: captures/klon_lite_a2.nam
+- values:
+    preset: boost3_g4_standard
+  file: captures/boost3_v10_b7_t6_g4_standard_a2.nam
+- values:
+    preset: ts10_standard
+  file: captures/ts10_standard_a2.nam
+- values:
+    preset: boost3_g0_standard
+  file: captures/boost3_v10_b7_t6_g0_standard_a2.nam
+- values:
+    preset: fulltone_standard
+  file: captures/fulltone_standard_a2.nam
+- values:
+    preset: boost1_g0_lite
+  file: captures/boost1_v10_b4_t6_g0_lite_a2.nam
+- values:
+    preset: boost3_g4_lite
+  file: captures/boost3_v10_b7_t6_g4_lite_a2.nam
+- values:
+    preset: boost3_g0_lite
+  file: captures/boost3_v10_b7_t6_g0_lite_a2.nam
+- values:
+    preset: ts10_lite
+  file: captures/ts10_lite_a2.nam
+- values:
+    preset: fulltone_lite
+  file: captures/fulltone_lite_a2.nam
+- values:
+    preset: klon_standard
+  file: captures/klon_standard_a2.nam
+- values:
+    preset: zen_lite
+  file: captures/zen_lite_a2.nam
+- values:
+    preset: glory_lite
+  file: captures/glory_lite_a2.nam
+- values:
+    preset: noble_odr_1_standard
+  file: captures/noble_odr_1_standard_a2.nam
+- values:
+    preset: boost2_g4_lite
+  file: captures/boost2_v10_b4_t6_g4_lite_a2.nam
+- values:
+    preset: noble_odr_1_lite
+  file: captures/noble_odr_1_lite_a2.nam

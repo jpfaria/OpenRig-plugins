@@ -1,6 +1,8 @@
 # Dropped constant across all captures: "HK40 Full Amp No Cab".
-# The "V2" tag on tone3000 only appears on the MV1 re-recordings; it tracks
-# mv=1 exactly and is not an independent control, so it is not an axis.
+# The "V2" tag on tone3000 only appears on the master=1 re-recordings; it
+# tracks master=1 exactly and is not an independent control, so it is not
+# an axis. The "dco" boost value selects the DCO Deviltoy overdrive pedal
+# in front of the amp; "off" is the bare amp (tone3000 SCO/std variants).
 manifest_version: 1
 id: nam_hughes_and_kettner_tubemeister_a2
 display_name: and TubeMeister
@@ -12,7 +14,7 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/39045
 parameters:
-- name: mv
+- name: master
   display_name: Master Volume
   values:
   - 1
@@ -24,99 +26,99 @@ parameters:
   - clean
   - crunch
   - lead
-- name: variant
-  display_name: Variant
+- name: boost
+  display_name: Boost
   values:
-  - std
+  - "off"
   - dco
 captures:
 - values:
     channel: crunch
-    mv: 3
-    variant: std
+    master: 3
+    boost: "off"
   file: captures/mv3_crunch_a2.nam
 - values:
     channel: crunch
-    mv: 1
-    variant: dco
+    master: 1
+    boost: dco
   file: captures/mv1_crunch_dco_a2.nam
 - values:
     channel: crunch
-    mv: 3
-    variant: dco
+    master: 3
+    boost: dco
   file: captures/mv3_crunch_dco_a2.nam
 - values:
     channel: clean
-    mv: 1
-    variant: dco
+    master: 1
+    boost: dco
   file: captures/mv1_clean_dco_a2.nam
 - values:
     channel: crunch
-    mv: 2
-    variant: dco
+    master: 2
+    boost: dco
   file: captures/mv2_crunch_dco_a2.nam
 - values:
     channel: lead
-    mv: 3
-    variant: dco
+    master: 3
+    boost: dco
   file: captures/mv3_lead_dco_a2.nam
 - values:
     channel: clean
-    mv: 2
-    variant: dco
+    master: 2
+    boost: dco
   file: captures/mv2_clean_dco_a2.nam
 - values:
     channel: lead
-    mv: 3
-    variant: std
+    master: 3
+    boost: "off"
   file: captures/mv3_lead_a2.nam
 - values:
     channel: crunch
-    mv: 2
-    variant: std
+    master: 2
+    boost: "off"
   file: captures/mv2_crunch_a2.nam
 - values:
     channel: clean
-    mv: 3
-    variant: dco
+    master: 3
+    boost: dco
   file: captures/mv3_clean_dco_a2.nam
 - values:
     channel: crunch
-    mv: 1
-    variant: std
+    master: 1
+    boost: "off"
   file: captures/mv1_crunch_a2.nam
 - values:
     channel: clean
-    mv: 3
-    variant: std
+    master: 3
+    boost: "off"
   file: captures/mv3_clean_a2.nam
 - values:
     channel: lead
-    mv: 2
-    variant: std
+    master: 2
+    boost: "off"
   file: captures/mv2_lead_a2.nam
 - values:
     channel: lead
-    mv: 1
-    variant: std
+    master: 1
+    boost: "off"
   file: captures/mv1_lead_a2.nam
 - values:
     channel: clean
-    mv: 2
-    variant: std
+    master: 2
+    boost: "off"
   file: captures/mv2_clean_a2.nam
 - values:
     channel: lead
-    mv: 2
-    variant: dco
+    master: 2
+    boost: dco
   file: captures/mv2_lead_dco_a2.nam
 - values:
     channel: clean
-    mv: 1
-    variant: std
+    master: 1
+    boost: "off"
   file: captures/mv1_clean_a2.nam
 - values:
     channel: lead
-    mv: 1
-    variant: dco
+    master: 1
+    boost: dco
   file: captures/mv1_lead_dco_a2.nam

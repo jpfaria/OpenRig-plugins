@@ -1,7 +1,8 @@
 # Dropped constants (identical across every capture): Low Cut 900.
-# Note: the "Level" token is coupled to gain_range (low -> Level1200, med/high -> Level130),
-# so it is not an independent axis. The two free factors are the gain range selector and the
-# numeric Gain knob value.
+# Real controls on the Hudson Broadcast: Low Cut (knob), Gain Trim (knob), Level (knob),
+# Gain Switch (low/high mode). The "Level" token is coupled to the gain switch
+# (low -> Level1200, med/high -> Level130), so it is not an independent axis. The two free
+# factors are the Gain Switch (mode) and the numeric Gain Trim knob (gain).
 manifest_version: 1
 id: nam_hudson_broadcast_a2
 display_name: Hudson Broadcast
@@ -13,8 +14,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/36540
 parameters:
-- name: gain_range
-  display_name: Gain Range
+- name: mode
+  display_name: Gain Switch
   values:
   - low
   - med
@@ -29,62 +30,62 @@ parameters:
   - 1200
 captures:
 - values:
-    gain_range: low
+    mode: low
     gain: 300
   file: captures/gain_low_300_a2.nam
 - values:
-    gain_range: low
+    mode: low
     gain: 500
   file: captures/gain_low_500_a2.nam
 - values:
-    gain_range: low
+    mode: low
     gain: 700
   file: captures/gain_low_700_a2.nam
 - values:
-    gain_range: low
+    mode: low
     gain: 900
   file: captures/gain_low_900_a2.nam
 - values:
-    gain_range: low
+    mode: low
     gain: 1200
   file: captures/gain_low_1200_a2.nam
 - values:
-    gain_range: med
+    mode: med
     gain: 300
   file: captures/gain_med_300_a2.nam
 - values:
-    gain_range: med
+    mode: med
     gain: 500
   file: captures/gain_med_500_a2.nam
 - values:
-    gain_range: med
+    mode: med
     gain: 700
   file: captures/gain_med_700_a2.nam
 - values:
-    gain_range: med
+    mode: med
     gain: 900
   file: captures/gain_med_900_a2.nam
 - values:
-    gain_range: med
+    mode: med
     gain: 1200
   file: captures/gain_med_1200_a2.nam
 - values:
-    gain_range: high
+    mode: high
     gain: 300
   file: captures/gain_high_300_a2.nam
 - values:
-    gain_range: high
+    mode: high
     gain: 500
   file: captures/gain_high_500_a2.nam
 - values:
-    gain_range: high
+    mode: high
     gain: 700
   file: captures/gain_high_700_a2.nam
 - values:
-    gain_range: high
+    mode: high
     gain: 900
   file: captures/gain_high_900_a2.nam
 - values:
-    gain_range: high
+    mode: high
     gain: 1200
   file: captures/gain_high_1200_a2.nam

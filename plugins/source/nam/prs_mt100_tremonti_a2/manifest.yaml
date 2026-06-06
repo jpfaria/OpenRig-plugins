@@ -1,0 +1,47 @@
+# Constant across all captures (dropped): mic=sm57, architecture=STD.
+# channel = the amp's voice (clean / dumble-derived overdrive); preset = the dialed-in voicing.
+manifest_version: 1
+id: nam_prs_mt100_tremonti_a2
+display_name: MT-100 Tremonti
+brand: prs
+sources:
+- https://www.tone3000.com/tones/38592
+output_gain_db: -2.8992209
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - overdrive
+- name: preset
+  display_name: Preset
+  values:
+  - noon
+  - live_2023
+  - dime_it
+  - sin_after_sin
+  - single_coil_leads
+captures:
+- values:
+    channel: clean
+    preset: noon
+  file: captures/amp_prs_mt100_clean_noon_sm57_std.nam
+- values:
+    channel: clean
+    preset: live_2023
+  file: captures/amp_prs_mt100_clean_live_2023_sm57_std.nam
+- values:
+    channel: overdrive
+    preset: dime_it
+  file: captures/amp_prs_mt100_overdrive_dime_it_sm57.nam
+- values:
+    channel: overdrive
+    preset: sin_after_sin
+  file: captures/amp_prs_mt100_overdrive_sin_after_sin_sm57_std.nam
+- values:
+    channel: overdrive
+    preset: single_coil_leads
+  file: captures/amp_prs_mt100_overdrive_single_coil_leads_sm57_std.nam

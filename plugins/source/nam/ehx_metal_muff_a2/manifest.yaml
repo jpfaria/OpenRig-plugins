@@ -1,0 +1,58 @@
+manifest_version: 1
+id: nam_ehx_metal_muff_a2
+display_name: EHX Metal Muff
+brand: ehx
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/4975
+# Constant token dropped from preset labels: "metal_muff" (the pedal name, already in display_name).
+# The tone3000 pack is a grab-bag of named pedal settings ("Various tones from this iconic
+# pedal"), not a consistent knob grid — modelled as a single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - as_an_overdrive
+  - eq_noon
+  - eq_noon_full_gain
+  - evil
+  - mega_scoop
+  - my_settings
+  - nattens_madrigal
+  - swedish_chainsaw_ish
+  - tob_boost_low_distortion
+  - trve_kult
+captures:
+- values:
+    preset: eq_noon_full_gain
+  file: captures/metal_muff_eq_noon_full_gain_a2.nam
+- values:
+    preset: evil
+  file: captures/metal_muff_evil_a2.nam
+- values:
+    preset: as_an_overdrive
+  file: captures/metal_muff_as_an_overdrive_a2.nam
+- values:
+    preset: trve_kult
+  file: captures/metal_muff_trve_kult_a2.nam
+- values:
+    preset: mega_scoop
+  file: captures/metal_muff_mega_scoop_a2.nam
+- values:
+    preset: tob_boost_low_distortion
+  file: captures/metal_muff_tob_boost_low_distortion_a2.nam
+- values:
+    preset: my_settings
+  file: captures/metal_muff_my_settings_a2.nam
+- values:
+    preset: eq_noon
+  file: captures/metal_muff_eq_noon_a2.nam
+- values:
+    preset: swedish_chainsaw_ish
+  file: captures/metal_muff_swedish_chainsaw_ish_a2.nam
+- values:
+    preset: nattens_madrigal
+  file: captures/metal_muff_nattens_madrigal_a2.nam

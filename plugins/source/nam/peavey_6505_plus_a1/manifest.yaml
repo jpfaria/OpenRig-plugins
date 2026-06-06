@@ -13,8 +13,8 @@ parameters:
   values:
   - red
   - green
-- name: pedal
-  display_name: Pedal
+- name: boost
+  display_name: Boost
   values:
   - none
   - boss_hm_2w
@@ -22,17 +22,17 @@ parameters:
 captures:
 - values:
     channel: red
-    pedal: none
+    boost: none
   file: captures/peavey_6505_red_ch.nam
 - values:
     channel: red
-    pedal: boss_hm_2w
+    boost: boss_hm_2w
   file: captures/peavey_6505_red_ch_boss_hm_2w.nam
 - values:
     channel: red
-    pedal: maxon_st9pro
+    boost: maxon_st9pro
   file: captures/peavey_6505_red_ch_maxon_st9pro.nam
 - values:
     channel: green
-    pedal: maxon_st9pro
+    boost: maxon_st9pro
   file: captures/peavey_6505_green_ch_maxon_st9pro.nam

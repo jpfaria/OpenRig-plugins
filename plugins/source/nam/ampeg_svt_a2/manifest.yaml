@@ -1,0 +1,68 @@
+manifest_version: 1
+id: nam_ampeg_svt_a2
+display_name: SVT
+brand: ampeg
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/45809
+# Dropped constant across all captures: "svt" (the amp head, == display_name).
+# Names form a curated grab-bag (stock clean/pushed/dirty character variants plus
+# Sansamp- and Darkglass-driven captures) that does not factor into amp-knob axes,
+# so a single clean 'preset' axis is used.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - clean_pushed
+  - pushed
+  - dirty
+  - dirty_pushed
+  - sans_rock_drive
+  - sans_bright_drive
+  - sans_hype_di
+  - sans_hairy_drive
+  - sans_subdrive
+  - darkglass_shred
+  - darkglass_shred_di
+captures:
+- values:
+    preset: clean
+  file: captures/clean_a2.nam
+- values:
+    preset: clean_pushed
+  file: captures/clean_pushed_a2.nam
+- values:
+    preset: pushed
+  file: captures/pushed_a2.nam
+- values:
+    preset: dirty
+  file: captures/dirty_a2.nam
+- values:
+    preset: dirty_pushed
+  file: captures/dirty_pushed_a2.nam
+- values:
+    preset: sans_rock_drive
+  file: captures/sans_rock_drive_a2.nam
+- values:
+    preset: sans_bright_drive
+  file: captures/sans_bright_drive_a2.nam
+- values:
+    preset: sans_hype_di
+  file: captures/sans_hype_di_a2.nam
+- values:
+    preset: sans_hairy_drive
+  file: captures/sans_hairy_drive_a2.nam
+- values:
+    preset: sans_subdrive
+  file: captures/sans_subdrive_a2.nam
+- values:
+    preset: darkglass_shred
+  file: captures/darkglass_shred_a2.nam
+- values:
+    preset: darkglass_shred_di
+  file: captures/darkglass_shred_di_a2.nam

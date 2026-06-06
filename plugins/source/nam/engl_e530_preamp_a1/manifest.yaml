@@ -1,0 +1,42 @@
+manifest_version: 1
+id: nam_engl_e530_preamp_a1
+display_name: E530 Preamp
+brand: engl
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+# Constant tokens dropped from every capture name: engl, e530 (plugin slug).
+# Names form a grab-bag of named captures (channel 1/2, DI/contour variants,
+# modern voicing, modern + TS boost) that do not factor into orthogonal
+# control axes -> single 'preset' selector.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - ch1
+  - ch1_di_ctr
+  - ch2_di
+  - ch2_di_ctr
+  - modern
+  - modern_ts
+captures:
+- values:
+    preset: ch1
+  file: captures/e530_1.nam
+- values:
+    preset: ch1_di_ctr
+  file: captures/e530_1_di_ctr.nam
+- values:
+    preset: ch2_di
+  file: captures/e530_2_di.nam
+- values:
+    preset: ch2_di_ctr
+  file: captures/e530_2_di_ctr.nam
+- values:
+    preset: modern
+  file: captures/engl_e530_modern.nam
+- values:
+    preset: modern_ts
+  file: captures/engl_e530_modern_ts1.nam

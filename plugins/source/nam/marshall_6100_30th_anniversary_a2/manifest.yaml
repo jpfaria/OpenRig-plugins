@@ -1,5 +1,5 @@
 # Dropped constants (identical across all captures): channel3-lead (channel 3 / lead).
-# Variant "gb" = the "-gb" naming variant on tone3000; "std" = without it.
+# boost = the amp's onboard gain-boost switch ("-gb" in tone3000 names = switch engaged).
 manifest_version: 1
 id: nam_marshall_6100_30th_anniversary_a2
 display_name: 6100 - 30th anniversary
@@ -11,174 +11,176 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/61531
+# boost = amp onboard Gain Boost switch (gb in filename). gain = lo/mid/hi.
+# drive = overdrive/boost pedal in front (none/ts9/sd1/precision_drive/aesahaettr).
 parameters:
-- name: variant
-  display_name: Variant
+- name: boost
+  display_name: Gain Boost
   values:
-  - std
-  - gb
+  - off
+  - on
 - name: gain
   display_name: Gain
   values:
   - low
   - mid
   - high
-- name: boost
-  display_name: Boost
+- name: drive
+  display_name: Front Pedal
   values:
-  - none
-  - ibanez_ts9
-  - boss_sd1
-  - precision_drive
   - aesahaettr
+  - boss_sd1
+  - ibanez_ts9
+  - none
+  - precision_drive
 captures:
 - values:
-    variant: gb
-    gain: low
-    boost: none
-  file: captures/marshall_6100_gb_low_gain_no_boost_a2.nam
-- values:
-    variant: std
-    gain: mid
-    boost: ibanez_ts9
-  file: captures/marshall_6100_mid_gain_ibanez_ts9_a2.nam
-- values:
-    variant: gb
-    gain: low
-    boost: boss_sd1
-  file: captures/marshall_6100_gb_low_gain_boss_sd1_a2.nam
-- values:
-    variant: std
+    boost: on
     gain: high
-    boost: aesahaettr
-  file: captures/marshall_6100_high_gain_aesahaettr_a2.nam
-- values:
-    variant: gb
-    gain: high
-    boost: precision_drive
-  file: captures/marshall_6100_gb_high_gain_precision_drive_a2.nam
-- values:
-    variant: gb
-    gain: mid
-    boost: aesahaettr
-  file: captures/marshall_6100_gb_mid_gain_aesahaettr_a2.nam
-- values:
-    variant: gb
-    gain: mid
-    boost: precision_drive
-  file: captures/marshall_6100_gb_mid_gain_precision_drive_a2.nam
-- values:
-    variant: std
-    gain: mid
-    boost: none
-  file: captures/marshall_6100_mid_gain_no_boost_a2.nam
-- values:
-    variant: gb
-    gain: low
-    boost: aesahaettr
-  file: captures/marshall_6100_gb_low_gain_aesahaettr_a2.nam
-- values:
-    variant: std
-    gain: high
-    boost: precision_drive
-  file: captures/marshall_6100_high_gain_precision_drive_a2.nam
-- values:
-    variant: std
-    gain: low
-    boost: precision_drive
-  file: captures/marshall_6100_low_gain_precision_drive_a2.nam
-- values:
-    variant: std
-    gain: mid
-    boost: aesahaettr
-  file: captures/marshall_6100_mid_gain_aesahaettr_a2.nam
-- values:
-    variant: gb
-    gain: mid
-    boost: boss_sd1
-  file: captures/marshall_6100_gb_mid_gain_boss_sd1_a2.nam
-- values:
-    variant: std
-    gain: high
-    boost: boss_sd1
-  file: captures/marshall_6100_high_gain_boss_sd1_a2.nam
-- values:
-    variant: std
-    gain: high
-    boost: ibanez_ts9
-  file: captures/marshall_6100_high_gain_ibanez_ts9_a2.nam
-- values:
-    variant: gb
-    gain: high
-    boost: aesahaettr
+    drive: aesahaettr
   file: captures/marshall_6100_gb_high_gain_aesahaettr_a2.nam
 - values:
-    variant: gb
+    boost: on
     gain: high
-    boost: ibanez_ts9
-  file: captures/marshall_6100_gb_high_gain_ibanez_ts9_a2.nam
-- values:
-    variant: std
-    gain: low
-    boost: boss_sd1
-  file: captures/marshall_6100_low_gain_boss_sd1_a2.nam
-- values:
-    variant: std
-    gain: mid
-    boost: precision_drive
-  file: captures/marshall_6100_mid_gain_precision_drive_a2.nam
-- values:
-    variant: gb
-    gain: low
-    boost: precision_drive
-  file: captures/marshall_6100_gb_low_gain_precision_drive_a2.nam
-- values:
-    variant: gb
-    gain: high
-    boost: boss_sd1
+    drive: boss_sd1
   file: captures/marshall_6100_gb_high_gain_boss_sd1_a2.nam
 - values:
-    variant: gb
-    gain: mid
-    boost: ibanez_ts9
-  file: captures/marshall_6100_gb_mid_gain_ibanez_ts9_a2.nam
-- values:
-    variant: std
-    gain: low
-    boost: ibanez_ts9
-  file: captures/marshall_6100_low_gain_ibanez_ts9_a2.nam
-- values:
-    variant: gb
+    boost: on
     gain: high
-    boost: none
+    drive: ibanez_ts9
+  file: captures/marshall_6100_gb_high_gain_ibanez_ts9_a2.nam
+- values:
+    boost: on
+    gain: high
+    drive: none
   file: captures/marshall_6100_gb_high_gain_no_boost_a2.nam
 - values:
-    variant: gb
+    boost: on
+    gain: high
+    drive: precision_drive
+  file: captures/marshall_6100_gb_high_gain_precision_drive_a2.nam
+- values:
+    boost: on
     gain: low
-    boost: ibanez_ts9
+    drive: aesahaettr
+  file: captures/marshall_6100_gb_low_gain_aesahaettr_a2.nam
+- values:
+    boost: on
+    gain: low
+    drive: boss_sd1
+  file: captures/marshall_6100_gb_low_gain_boss_sd1_a2.nam
+- values:
+    boost: on
+    gain: low
+    drive: ibanez_ts9
   file: captures/marshall_6100_gb_low_gain_ibanez_ts9_a2.nam
 - values:
-    variant: gb
+    boost: on
+    gain: low
+    drive: none
+  file: captures/marshall_6100_gb_low_gain_no_boost_a2.nam
+- values:
+    boost: on
+    gain: low
+    drive: precision_drive
+  file: captures/marshall_6100_gb_low_gain_precision_drive_a2.nam
+- values:
+    boost: on
     gain: mid
-    boost: none
+    drive: aesahaettr
+  file: captures/marshall_6100_gb_mid_gain_aesahaettr_a2.nam
+- values:
+    boost: on
+    gain: mid
+    drive: boss_sd1
+  file: captures/marshall_6100_gb_mid_gain_boss_sd1_a2.nam
+- values:
+    boost: on
+    gain: mid
+    drive: ibanez_ts9
+  file: captures/marshall_6100_gb_mid_gain_ibanez_ts9_a2.nam
+- values:
+    boost: on
+    gain: mid
+    drive: none
   file: captures/marshall_6100_gb_mid_gain_no_boost_a2.nam
 - values:
-    variant: std
+    boost: on
+    gain: mid
+    drive: precision_drive
+  file: captures/marshall_6100_gb_mid_gain_precision_drive_a2.nam
+- values:
+    boost: off
     gain: high
-    boost: none
+    drive: aesahaettr
+  file: captures/marshall_6100_high_gain_aesahaettr_a2.nam
+- values:
+    boost: off
+    gain: high
+    drive: boss_sd1
+  file: captures/marshall_6100_high_gain_boss_sd1_a2.nam
+- values:
+    boost: off
+    gain: high
+    drive: ibanez_ts9
+  file: captures/marshall_6100_high_gain_ibanez_ts9_a2.nam
+- values:
+    boost: off
+    gain: high
+    drive: none
   file: captures/marshall_6100_high_gain_no_boost_a2.nam
 - values:
-    variant: std
-    gain: mid
-    boost: boss_sd1
-  file: captures/marshall_6100_mid_gain_boss_sd1_a2.nam
+    boost: off
+    gain: high
+    drive: precision_drive
+  file: captures/marshall_6100_high_gain_precision_drive_a2.nam
 - values:
-    variant: std
+    boost: off
     gain: low
-    boost: aesahaettr
+    drive: aesahaettr
   file: captures/marshall_6100_low_gain_aesahaettr_a2.nam
 - values:
-    variant: std
+    boost: off
     gain: low
-    boost: none
+    drive: boss_sd1
+  file: captures/marshall_6100_low_gain_boss_sd1_a2.nam
+- values:
+    boost: off
+    gain: low
+    drive: ibanez_ts9
+  file: captures/marshall_6100_low_gain_ibanez_ts9_a2.nam
+- values:
+    boost: off
+    gain: low
+    drive: none
   file: captures/marshall_6100_low_gain_no_boost_a2.nam
+- values:
+    boost: off
+    gain: low
+    drive: precision_drive
+  file: captures/marshall_6100_low_gain_precision_drive_a2.nam
+- values:
+    boost: off
+    gain: mid
+    drive: aesahaettr
+  file: captures/marshall_6100_mid_gain_aesahaettr_a2.nam
+- values:
+    boost: off
+    gain: mid
+    drive: boss_sd1
+  file: captures/marshall_6100_mid_gain_boss_sd1_a2.nam
+- values:
+    boost: off
+    gain: mid
+    drive: ibanez_ts9
+  file: captures/marshall_6100_mid_gain_ibanez_ts9_a2.nam
+- values:
+    boost: off
+    gain: mid
+    drive: none
+  file: captures/marshall_6100_mid_gain_no_boost_a2.nam
+- values:
+    boost: off
+    gain: mid
+    drive: precision_drive
+  file: captures/marshall_6100_mid_gain_precision_drive_a2.nam

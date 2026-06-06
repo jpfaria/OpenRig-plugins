@@ -1,0 +1,104 @@
+manifest_version: 1
+id: nam_hotone_heart_attack_a2
+display_name: Hotone Heart Attack
+brand: hotone
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/29760
+# Constant across all captures (dropped): hotone, mesa, mackie (the rig identity).
+# voicing = the Hotone Heart Attack ID4 channel-light selector baked into the
+# capture names (no suffix -> standard; ID4_Yellow -> id4_yellow; ID4_Red -> id4_red).
+# The tone3000 description spells out no dial settings, and the names carry only a
+# capture index, so within each voicing the captures are an undifferentiated grab-bag
+# exposed as a 'preset' axis (never the capture index, never 'model').
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - standard
+  - id4_yellow
+  - id4_red
+- name: preset
+  display_name: Preset
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+captures:
+- values:
+    voicing: standard
+    preset: 1
+  file: captures/1_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 2
+  file: captures/2_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 3
+  file: captures/3_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 4
+  file: captures/4_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 5
+  file: captures/5_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 6
+  file: captures/6_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 7
+  file: captures/7_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 8
+  file: captures/8_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: standard
+    preset: 9
+  file: captures/9_hotone_mesa_mackie_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 1
+  file: captures/10_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 2
+  file: captures/11_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 3
+  file: captures/12_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 4
+  file: captures/13_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 5
+  file: captures/14_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 6
+  file: captures/15_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_yellow
+    preset: 7
+  file: captures/20_hotone_mesa_mackie_id4_yellow_a2.nam
+- values:
+    voicing: id4_red
+    preset: 1
+  file: captures/19_hotone_mesa_mackie_id4_red_a2.nam

@@ -5,6 +5,10 @@
 # (P-T-M-B) verbatim from the tone3000 model names; these four knobs move
 # together as fixed bundles, so they are one self-describing selector rather
 # than four independent knobs (only the listed combinations were captured).
+# The load axis is the speaker load the amp was captured through (the author
+# says "scroll through loads in the plugin, consider it an extra tone
+# control"): 4x12 = Mesa Traditional 4x12 V30 (4FB suffix), srl = Suhr
+# Reactive Load (SRL suffix).
 manifest_version: 1
 id: nam_mesa_rectifier_a2
 display_name: Rectifier
@@ -35,119 +39,119 @@ parameters:
   - p3_t6_m6_b3
   - p5_t4_m5_b3
   - p4_t4_m3_b4
-- name: loop
-  display_name: FX Loop
+- name: load
+  display_name: Load
   values:
-  - 4cm
-  - series
+  - 4x12
+  - srl
 captures:
 - values:
     boost: tdlx
     eq: p2_t5_m4_b2
-    loop: 4cm
+    load: 4x12
   file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: tmb66
     eq: p2_t5_m4_b2
-    loop: 4cm
+    load: 4x12
   file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: od808
     eq: p2_t5_m4_b2
-    loop: 4cm
+    load: 4x12
   file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: tmb73
     eq: p2_t5_m4_b2
-    loop: 4cm
+    load: 4x12
   file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: sd1
     eq: p2_t5_m4_b2
-    loop: 4cm
+    load: 4x12
   file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: none
     eq: p6_t0_m7_b3
-    loop: 4cm
+    load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_4fb_a2.nam
 - values:
     boost: none
     eq: p3_t6_m4_b3
-    loop: 4cm
+    load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_4fb_a2.nam
 - values:
     boost: none
     eq: p2_t5_m4_b2
-    loop: 4cm
+    load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: none
     eq: p3_t6_m6_b3
-    loop: 4cm
+    load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_4fb_a2.nam
 - values:
     boost: none
     eq: p5_t4_m5_b3
-    loop: 4cm
+    load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_4fb_a2.nam
 - values:
     boost: none
     eq: p4_t4_m3_b4
-    loop: 4cm
+    load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_4fb_a2.nam
 - values:
     boost: sd1
     eq: p2_t5_m4_b2
-    loop: series
+    load: srl
   file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tdlx
     eq: p2_t5_m4_b2
-    loop: series
+    load: srl
   file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: od808
     eq: p2_t5_m4_b2
-    loop: series
+    load: srl
   file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tmb66
     eq: p2_t5_m4_b2
-    loop: series
+    load: srl
   file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tmb73
     eq: p2_t5_m4_b2
-    loop: series
+    load: srl
   file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: none
     eq: p6_t0_m7_b3
-    loop: series
+    load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_srl_a2.nam
 - values:
     boost: none
     eq: p5_t4_m5_b3
-    loop: series
+    load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_srl_a2.nam
 - values:
     boost: none
     eq: p2_t5_m4_b2
-    loop: series
+    load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: none
     eq: p3_t6_m6_b3
-    loop: series
+    load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_srl_a2.nam
 - values:
     boost: none
     eq: p4_t4_m3_b4
-    loop: series
+    load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_srl_a2.nam
 - values:
     boost: none
     eq: p3_t6_m4_b3
-    loop: series
+    load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_srl_a2.nam

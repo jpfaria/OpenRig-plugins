@@ -9,44 +9,35 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: version
-  display_name: Version
+- name: preset
+  display_name: Preset
   values:
-  - original
-  - new
-- name: capture_kind
-  display_name: Capture Kind
-  values:
-  - di_no_cab
-  - room_only
-  - sm57_royer_dry
-  - sm57_royer_room
+  - di
+  - room
+  - mic_dry
+  - mic_room
+  - room_v2
+  - mic_dry_v2
+  - mic_room_v2
 captures:
 - values:
-    capture_kind: di_no_cab
-    version: original
+    preset: di
   file: captures/fender_drri_clean_di_capture_no_cab.nam
 - values:
-    capture_kind: room_only
-    version: original
+    preset: room
   file: captures/fender_drri_clean_room_only_full_rig.nam
 - values:
-    capture_kind: sm57_royer_dry
-    version: original
+    preset: mic_dry
   file: captures/fender_drri_clean_sm57_royer_r_121_no_room_full_rig.nam
 - values:
-    capture_kind: sm57_royer_room
-    version: original
+    preset: mic_room
   file: captures/fender_drri_clean_sm57_royer_r_121_room_full_rig.nam
 - values:
-    capture_kind: room_only
-    version: new
+    preset: room_v2
   file: captures/new_version_fender_drri_clean_room_only_full_rig.nam
 - values:
-    capture_kind: sm57_royer_dry
-    version: new
+    preset: mic_dry_v2
   file: captures/new_version_fender_drri_clean_sm57_royer_r_121_no_room_full_.nam
 - values:
-    capture_kind: sm57_royer_room
-    version: new
+    preset: mic_room_v2
   file: captures/new_version_fender_drri_clean_sm57_royer_r_121_room_full_rig.nam

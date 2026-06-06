@@ -1,0 +1,108 @@
+manifest_version: 1
+id: nam_marshall_1987_a2
+display_name: '1987'
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/48523
+# Capture names encode six dial settings left-to-right: Presence, Bass, Middle,
+# Treble, Volume I, Volume II. Presence/bass/middle/treble are swept together
+# (all 5 or all 10) but each real control gets its own axis (sparse grid).
+parameters:
+- name: presence
+  display_name: Presence
+  values:
+  - 5
+  - 10
+- name: bass
+  display_name: Bass
+  values:
+  - 5
+  - 10
+- name: middle
+  display_name: Middle
+  values:
+  - 5
+  - 10
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 10
+- name: volume1
+  display_name: Volume I
+  values:
+  - 0
+  - 2
+  - 5
+  - 8
+  - 10
+- name: volume2
+  display_name: Volume II
+  values:
+  - 0
+  - 2
+  - 5
+  - 8
+  - 10
+captures:
+- values:
+    presence: 10
+    bass: 10
+    middle: 10
+    treble: 10
+    volume1: 10
+    volume2: 0
+  file: captures/marshall_1987_10_10_10_10_10_00_a2.nam
+- values:
+    presence: 10
+    bass: 10
+    middle: 10
+    treble: 10
+    volume1: 10
+    volume2: 10
+  file: captures/marshall_1987_10_10_10_10_10_10_a2.nam
+- values:
+    presence: 10
+    bass: 10
+    middle: 10
+    treble: 10
+    volume1: 0
+    volume2: 10
+  file: captures/marshall_1987_10_10_10_10_00_10_a2.nam
+- values:
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 2
+    volume2: 2
+  file: captures/marshall_1987_05_05_05_05_02_02_a2.nam
+- values:
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 5
+    volume2: 5
+  file: captures/marshall_1987_05_05_05_05_05_05_a2.nam
+- values:
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 8
+    volume2: 8
+  file: captures/marshall_1987_05_05_05_05_08_08_a2.nam
+- values:
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 10
+    volume2: 10
+  file: captures/marshall_1987_05_05_05_05_10_10_a2.nam

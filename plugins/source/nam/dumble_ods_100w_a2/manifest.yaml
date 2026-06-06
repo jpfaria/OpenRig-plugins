@@ -9,14 +9,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30435
 # Dropped constant token (identical in every capture name): SLAMMIN_DUMBLE_FORD
+# gain: clean ("cln") vs overdrive ("od") input voicing.
+# preset: grab-bag of named amp settings (switch combos -- "Ford"=Rock,
+# "Carlton"=Rock+Mids, "AllSwitches"=all three -- plus knob tweaks); the
+# "_xstd" suffix marks the xStandard NAM architecture sibling of a Standard
+# capture (same dial settings, higher accuracy), kept as a distinct preset.
 parameters:
 - name: gain
   display_name: Gain
   values:
   - clean
   - od
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
   - balanced
   - bluesy
@@ -45,462 +50,391 @@ parameters:
   - hermans
   - hermans_2
   - high_mv_allswitches
+  - high_mv_allswitches_xstd
   - high_mv_bright
   - high_mv_fat
+  - high_mv_fat_xstd
   - high_mv_mids
   - high_mv_scoop
+  - high_mv_scoop_xstd
   - highmv_cinnamon
   - highmv_locutdrive
   - klean
   - main
   - main_warm
+  - main_xstd
   - mick_2
   - open_larry
   - open_robben
   - pab_brite
+  - pab_brite_xstd
   - pab_clear_drive
+  - pab_clear_drive_xstd
   - pab_crunch
+  - pab_crunch_xstd
   - pab_crunchy
   - pab_drive
   - pab_higain
   - pab_higain_alt
+  - pab_higain_alt_xstd
+  - pab_higain_xstd
   - pab_high_mv
   - pab_high_mv_mellow
+  - pab_high_mv_mellow_xstd
   - pab_high_mv_sharp
+  - pab_high_mv_xstd
   - pab_jazz
   - pab_main
   - pab_main_gainy
+  - pab_main_gainy_xstd
   - pab_mick
   - pab_mick_2
+  - pab_mick_xstd
   - pab_sparkly
+  - pab_sparkly_xstd
   - pab_thick
+  - pab_thick_xstd
   - scoop
   - smooth
   - smooth_2
   - thick_logain
+  - thick_logain_xstd
   - treble
   - vhigh_mv_higain
   - vhigh_mv_higain_all
+  - vhigh_mv_higain_all_xstd
   - vhigh_mv_higain_tight
   - warm
-- name: take
-  display_name: Take
-  values:
-  - s
-  - xs
 captures:
 - values:
     gain: clean
-    take: s
-    voicing: balanced
+    preset: balanced
   file: captures/slammin_dumble_ford_cln_balanced_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: carltonish
-  file: captures/slammin_dumble_ford_cln_carltonish_s_a2.nam
-- values:
-    gain: clean
-    take: s
-    voicing: carltonish_2
+    preset: carltonish_2
   file: captures/slammin_dumble_ford_cln_carltonish_2_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: fordish
+    preset: carltonish
+  file: captures/slammin_dumble_ford_cln_carltonish_s_a2.nam
+- values:
+    gain: clean
+    preset: fordish
   file: captures/slammin_dumble_ford_cln_fordish_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: gritty
+    preset: gritty
   file: captures/slammin_dumble_ford_cln_gritty_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: highmv_cinnamon
+    preset: highmv_cinnamon
   file: captures/slammin_dumble_ford_cln_highmv_cinnamon_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: highmv_locutdrive
+    preset: highmv_locutdrive
   file: captures/slammin_dumble_ford_cln_highmv_locutdrive_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: klean
+    preset: klean
   file: captures/slammin_dumble_ford_cln_klean_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: main
+    preset: main
   file: captures/slammin_dumble_ford_cln_main_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: main_warm
+    preset: main_warm
   file: captures/slammin_dumble_ford_cln_main_warm_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: pab_crunchy
+    preset: pab_crunchy
   file: captures/slammin_dumble_ford_cln_pab_crunchy_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: scoop
+    preset: scoop
   file: captures/slammin_dumble_ford_cln_scoop_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: treble
+    preset: treble
   file: captures/slammin_dumble_ford_cln_treble_s_a2.nam
 - values:
     gain: clean
-    take: s
-    voicing: warm
+    preset: warm
   file: captures/slammin_dumble_ford_cln_warm_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: bluesy
-  file: captures/slammin_dumble_ford_od_bluesy_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: bluesy_2
+    preset: bluesy_2
   file: captures/slammin_dumble_ford_od_bluesy_2_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: bright_gainy
+    preset: bluesy
+  file: captures/slammin_dumble_ford_od_bluesy_s_a2.nam
+- values:
+    gain: od
+    preset: bright_gainy
   file: captures/slammin_dumble_ford_od_bright_gainy_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: bright_logain
+    preset: bright_logain
   file: captures/slammin_dumble_ford_od_bright_logain_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: carlosanta
+    preset: carlosanta
   file: captures/slammin_dumble_ford_od_carlosanta_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: carlton
-  file: captures/slammin_dumble_ford_od_carlton_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: carlton_2
+    preset: carlton_2
   file: captures/slammin_dumble_ford_od_carlton_2_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: carlton_3
+    preset: carlton_3
   file: captures/slammin_dumble_ford_od_carlton_3_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: carlton_4
+    preset: carlton_4
   file: captures/slammin_dumble_ford_od_carlton_4_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: crunchy_allswitches
-  file: captures/slammin_dumble_ford_od_crunchy_allswitches_s_a2.nam
+    preset: carlton
+  file: captures/slammin_dumble_ford_od_carlton_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: crunchy_allswitches_2
+    preset: crunchy_allswitches_2
   file: captures/slammin_dumble_ford_od_crunchy_allswitches_2_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: crunchy_allswitches_3
+    preset: crunchy_allswitches_3
   file: captures/slammin_dumble_ford_od_crunchy_allswitches_3_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: crunchy_mids
+    preset: crunchy_allswitches
+  file: captures/slammin_dumble_ford_od_crunchy_allswitches_s_a2.nam
+- values:
+    gain: od
+    preset: crunchy_mids
   file: captures/slammin_dumble_ford_od_crunchy_mids_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: ford
-  file: captures/slammin_dumble_ford_od_ford_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: ford_2
+    preset: ford_2
   file: captures/slammin_dumble_ford_od_ford_2_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: ford_3
+    preset: ford_3
   file: captures/slammin_dumble_ford_od_ford_3_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: ford_4
+    preset: ford_4
   file: captures/slammin_dumble_ford_od_ford_4_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: ford_5
+    preset: ford_5
   file: captures/slammin_dumble_ford_od_ford_5_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: ford_6
+    preset: ford_6
   file: captures/slammin_dumble_ford_od_ford_6_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: hermans
-  file: captures/slammin_dumble_ford_od_hermans_s_a2.nam
+    preset: ford
+  file: captures/slammin_dumble_ford_od_ford_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: hermans_2
+    preset: hermans_2
   file: captures/slammin_dumble_ford_od_hermans_2_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: high_mv_allswitches
+    preset: hermans
+  file: captures/slammin_dumble_ford_od_hermans_s_a2.nam
+- values:
+    gain: od
+    preset: high_mv_allswitches
   file: captures/slammin_dumble_ford_od_high_mv_allswitches_s_a2.nam
 - values:
     gain: od
-    take: s
-    voicing: high_mv_bright
-  file: captures/slammin_dumble_ford_od_high_mv_bright_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_fat
-  file: captures/slammin_dumble_ford_od_high_mv_fat_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_mids
-  file: captures/slammin_dumble_ford_od_high_mv_mids_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: high_mv_scoop
-  file: captures/slammin_dumble_ford_od_high_mv_scoop_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: main
-  file: captures/slammin_dumble_ford_od_main_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: mick_2
-  file: captures/slammin_dumble_ford_od_mick_2_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: open_larry
-  file: captures/slammin_dumble_ford_od_open_larry_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: open_robben
-  file: captures/slammin_dumble_ford_od_open_robben_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_brite
-  file: captures/slammin_dumble_ford_od_pab_brite_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_clear_drive
-  file: captures/slammin_dumble_ford_od_pab_clear_drive_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_crunch
-  file: captures/slammin_dumble_ford_od_pab_crunch_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_drive
-  file: captures/slammin_dumble_ford_od_pab_drive_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_higain
-  file: captures/slammin_dumble_ford_od_pab_higain_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_higain_alt
-  file: captures/slammin_dumble_ford_od_pab_higain_alt_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_high_mv
-  file: captures/slammin_dumble_ford_od_pab_high_mv_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_high_mv_mellow
-  file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_high_mv_sharp
-  file: captures/slammin_dumble_ford_od_pab_high_mv_sharp_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_jazz
-  file: captures/slammin_dumble_ford_od_pab_jazz_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_main
-  file: captures/slammin_dumble_ford_od_pab_main_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_main_gainy
-  file: captures/slammin_dumble_ford_od_pab_main_gainy_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_mick
-  file: captures/slammin_dumble_ford_od_pab_mick_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_mick_2
-  file: captures/slammin_dumble_ford_od_pab_mick_2_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_sparkly
-  file: captures/slammin_dumble_ford_od_pab_sparkly_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: pab_thick
-  file: captures/slammin_dumble_ford_od_pab_thick_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: smooth
-  file: captures/slammin_dumble_ford_od_smooth_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: smooth_2
-  file: captures/slammin_dumble_ford_od_smooth_2_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: thick_logain
-  file: captures/slammin_dumble_ford_od_thick_logain_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: vhigh_mv_higain
-  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: vhigh_mv_higain_all
-  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_s_a2.nam
-- values:
-    gain: od
-    take: s
-    voicing: vhigh_mv_higain_tight
-  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_tight_s_a2.nam
-- values:
-    gain: od
-    take: xs
-    voicing: high_mv_allswitches
+    preset: high_mv_allswitches_xstd
   file: captures/slammin_dumble_ford_od_high_mv_allswitches_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: high_mv_fat
+    preset: high_mv_bright
+  file: captures/slammin_dumble_ford_od_high_mv_bright_s_a2.nam
+- values:
+    gain: od
+    preset: high_mv_fat
+  file: captures/slammin_dumble_ford_od_high_mv_fat_s_a2.nam
+- values:
+    gain: od
+    preset: high_mv_fat_xstd
   file: captures/slammin_dumble_ford_od_high_mv_fat_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: high_mv_scoop
+    preset: high_mv_mids
+  file: captures/slammin_dumble_ford_od_high_mv_mids_s_a2.nam
+- values:
+    gain: od
+    preset: high_mv_scoop
+  file: captures/slammin_dumble_ford_od_high_mv_scoop_s_a2.nam
+- values:
+    gain: od
+    preset: high_mv_scoop_xstd
   file: captures/slammin_dumble_ford_od_high_mv_scoop_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: main
+    preset: main
+  file: captures/slammin_dumble_ford_od_main_s_a2.nam
+- values:
+    gain: od
+    preset: main_xstd
   file: captures/slammin_dumble_ford_od_main_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_brite
+    preset: mick_2
+  file: captures/slammin_dumble_ford_od_mick_2_s_a2.nam
+- values:
+    gain: od
+    preset: open_larry
+  file: captures/slammin_dumble_ford_od_open_larry_s_a2.nam
+- values:
+    gain: od
+    preset: open_robben
+  file: captures/slammin_dumble_ford_od_open_robben_s_a2.nam
+- values:
+    gain: od
+    preset: pab_brite
+  file: captures/slammin_dumble_ford_od_pab_brite_s_a2.nam
+- values:
+    gain: od
+    preset: pab_brite_xstd
   file: captures/slammin_dumble_ford_od_pab_brite_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_clear_drive
+    preset: pab_clear_drive
+  file: captures/slammin_dumble_ford_od_pab_clear_drive_s_a2.nam
+- values:
+    gain: od
+    preset: pab_clear_drive_xstd
   file: captures/slammin_dumble_ford_od_pab_clear_drive_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_crunch
+    preset: pab_crunch
+  file: captures/slammin_dumble_ford_od_pab_crunch_s_a2.nam
+- values:
+    gain: od
+    preset: pab_crunch_xstd
   file: captures/slammin_dumble_ford_od_pab_crunch_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_higain
-  file: captures/slammin_dumble_ford_od_pab_higain_xs_a2.nam
+    preset: pab_drive
+  file: captures/slammin_dumble_ford_od_pab_drive_s_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_higain_alt
+    preset: pab_higain_alt
+  file: captures/slammin_dumble_ford_od_pab_higain_alt_s_a2.nam
+- values:
+    gain: od
+    preset: pab_higain_alt_xstd
   file: captures/slammin_dumble_ford_od_pab_higain_alt_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_high_mv
-  file: captures/slammin_dumble_ford_od_pab_high_mv_xs_a2.nam
+    preset: pab_higain
+  file: captures/slammin_dumble_ford_od_pab_higain_s_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_high_mv_mellow
+    preset: pab_higain_xstd
+  file: captures/slammin_dumble_ford_od_pab_higain_xs_a2.nam
+- values:
+    gain: od
+    preset: pab_high_mv_mellow
+  file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_s_a2.nam
+- values:
+    gain: od
+    preset: pab_high_mv_mellow_xstd
   file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_main_gainy
+    preset: pab_high_mv
+  file: captures/slammin_dumble_ford_od_pab_high_mv_s_a2.nam
+- values:
+    gain: od
+    preset: pab_high_mv_sharp
+  file: captures/slammin_dumble_ford_od_pab_high_mv_sharp_s_a2.nam
+- values:
+    gain: od
+    preset: pab_high_mv_xstd
+  file: captures/slammin_dumble_ford_od_pab_high_mv_xs_a2.nam
+- values:
+    gain: od
+    preset: pab_jazz
+  file: captures/slammin_dumble_ford_od_pab_jazz_s_a2.nam
+- values:
+    gain: od
+    preset: pab_main_gainy
+  file: captures/slammin_dumble_ford_od_pab_main_gainy_s_a2.nam
+- values:
+    gain: od
+    preset: pab_main_gainy_xstd
   file: captures/slammin_dumble_ford_od_pab_main_gainy_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_mick
+    preset: pab_main
+  file: captures/slammin_dumble_ford_od_pab_main_s_a2.nam
+- values:
+    gain: od
+    preset: pab_mick_2
+  file: captures/slammin_dumble_ford_od_pab_mick_2_s_a2.nam
+- values:
+    gain: od
+    preset: pab_mick
+  file: captures/slammin_dumble_ford_od_pab_mick_s_a2.nam
+- values:
+    gain: od
+    preset: pab_mick_xstd
   file: captures/slammin_dumble_ford_od_pab_mick_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_sparkly
+    preset: pab_sparkly
+  file: captures/slammin_dumble_ford_od_pab_sparkly_s_a2.nam
+- values:
+    gain: od
+    preset: pab_sparkly_xstd
   file: captures/slammin_dumble_ford_od_pab_sparkly_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: pab_thick
+    preset: pab_thick
+  file: captures/slammin_dumble_ford_od_pab_thick_s_a2.nam
+- values:
+    gain: od
+    preset: pab_thick_xstd
   file: captures/slammin_dumble_ford_od_pab_thick_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: thick_logain
+    preset: smooth_2
+  file: captures/slammin_dumble_ford_od_smooth_2_s_a2.nam
+- values:
+    gain: od
+    preset: smooth
+  file: captures/slammin_dumble_ford_od_smooth_s_a2.nam
+- values:
+    gain: od
+    preset: thick_logain
+  file: captures/slammin_dumble_ford_od_thick_logain_s_a2.nam
+- values:
+    gain: od
+    preset: thick_logain_xstd
   file: captures/slammin_dumble_ford_od_thick_logain_xs_a2.nam
 - values:
     gain: od
-    take: xs
-    voicing: vhigh_mv_higain_all
+    preset: vhigh_mv_higain_all
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_s_a2.nam
+- values:
+    gain: od
+    preset: vhigh_mv_higain_all_xstd
   file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_xs_a2.nam
+- values:
+    gain: od
+    preset: vhigh_mv_higain
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_s_a2.nam
+- values:
+    gain: od
+    preset: vhigh_mv_higain_tight
+  file: captures/slammin_dumble_ford_od_vhigh_mv_higain_tight_s_a2.nam

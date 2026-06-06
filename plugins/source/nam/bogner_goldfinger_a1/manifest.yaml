@@ -1,0 +1,49 @@
+# Constant across all captures (dropped): brand/amp name "bogner_goldfinger".
+manifest_version: 1
+id: nam_bogner_goldfinger_a1
+display_name: Goldfinger
+brand: bogner
+brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/35435
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - clean_dark
+  - midgain
+  - crunch
+  - crunch_old
+  - higain
+  - higain_dark
+  - higain_ir
+captures:
+- values:
+    preset: clean
+  file: captures/bogner_goldfinger_clean.nam
+- values:
+    preset: clean_dark
+  file: captures/bogner_goldfinger_clean_4db_10k.nam
+- values:
+    preset: midgain
+  file: captures/bogner_goldfinger_discusting_midgain.nam
+- values:
+    preset: crunch
+  file: captures/bogner_goldfinger_crunch.nam
+- values:
+    preset: crunch_old
+  file: captures/bogner_goldfinger_crunch_old_version_but_its_ok.nam
+- values:
+    preset: higain
+  file: captures/bogner_goldfinger_higain.nam
+- values:
+    preset: higain_dark
+  file: captures/bogner_goldfinger_higain_4db_10k.nam
+- values:
+    preset: higain_ir
+  file: captures/bogner_goldfinger_higain_with_ir_sorry_my_falt.nam

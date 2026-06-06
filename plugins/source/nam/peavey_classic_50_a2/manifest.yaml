@@ -1,0 +1,66 @@
+manifest_version: 1
+id: nam_peavey_classic_50_a2
+display_name: Classic 50
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6281
+# Dropped constant across all captures: amp/brand name "Peavey Classic 50".
+# The 10 "vol N" / "bright vol N" captures factor into voicing (normal/bright)
+# + a numeric volume knob; the 11th capture is the separate "crunch" channel
+# which carries no volume setting, so a closed voicing x volume grid is not
+# possible without inventing a volume value. A single clean "preset" axis keeps
+# every real distinction (volume level, bright voicing, crunch channel) honestly.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - vol_3
+  - vol_5
+  - vol_7
+  - vol_9
+  - vol_11
+  - bright_vol_3
+  - bright_vol_5
+  - bright_vol_7
+  - bright_vol_9
+  - bright_vol_11
+  - crunch
+captures:
+- values:
+    preset: vol_3
+  file: captures/vol_3_a2.nam
+- values:
+    preset: vol_5
+  file: captures/vol_5_a2.nam
+- values:
+    preset: vol_7
+  file: captures/vol_7_a2.nam
+- values:
+    preset: vol_9
+  file: captures/vol_9_a2.nam
+- values:
+    preset: vol_11
+  file: captures/vol_11_a2.nam
+- values:
+    preset: bright_vol_3
+  file: captures/bright_vol_3_a2.nam
+- values:
+    preset: bright_vol_5
+  file: captures/bright_vol_5_a2.nam
+- values:
+    preset: bright_vol_7
+  file: captures/bright_vol_7_a2.nam
+- values:
+    preset: bright_vol_9
+  file: captures/bright_vol_9_a2.nam
+- values:
+    preset: bright_vol_11
+  file: captures/bright_vol_11_a2.nam
+- values:
+    preset: crunch
+  file: captures/crunch_a2.nam

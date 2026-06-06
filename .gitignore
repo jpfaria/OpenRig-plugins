@@ -16,3 +16,4 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.DS_Store
+scripts/.param_gate_reds.json
