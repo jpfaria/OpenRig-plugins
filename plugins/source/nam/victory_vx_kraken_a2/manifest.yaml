@@ -1,0 +1,100 @@
+# Dropped constants: "KRAKEN" (amp/plugin slug) and "EUNA" (29Pedals Euna pedal in front, present in every capture).
+manifest_version: 1
+id: nam_victory_vx_kraken_a2
+display_name: VX Kraken
+brand: victory
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/47732
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+- name: voicing
+  display_name: Voicing
+  values:
+  - flat
+  - boost
+  - hot
+captures:
+- values:
+    gain: 3
+    voicing: flat
+  file: captures/kraken_g3_flat_a2.nam
+- values:
+    gain: 4
+    voicing: flat
+  file: captures/kraken_g4_flat_a2.nam
+- values:
+    gain: 5
+    voicing: flat
+  file: captures/kraken_g5_flat_a2.nam
+- values:
+    gain: 6
+    voicing: flat
+  file: captures/kraken_g6_flat_a2.nam
+- values:
+    gain: 7
+    voicing: flat
+  file: captures/kraken_g7_flat_a2.nam
+- values:
+    gain: 8
+    voicing: flat
+  file: captures/kraken_g8_flat_a2.nam
+- values:
+    gain: 3
+    voicing: boost
+  file: captures/kraken_g3_boost_a2.nam
+- values:
+    gain: 4
+    voicing: boost
+  file: captures/kraken_g4_boost_a2.nam
+- values:
+    gain: 5
+    voicing: boost
+  file: captures/kraken_g5_boost_a2.nam
+- values:
+    gain: 6
+    voicing: boost
+  file: captures/kraken_g6_boost_a2.nam
+- values:
+    gain: 7
+    voicing: boost
+  file: captures/kraken_g7_boost_a2.nam
+- values:
+    gain: 8
+    voicing: boost
+  file: captures/kraken_g8_boost_a2.nam
+- values:
+    gain: 3
+    voicing: hot
+  file: captures/kraken_g3_hot_a2.nam
+- values:
+    gain: 4
+    voicing: hot
+  file: captures/kraken_g4_hot_a2.nam
+- values:
+    gain: 5
+    voicing: hot
+  file: captures/kraken_g5_hot_a2.nam
+- values:
+    gain: 6
+    voicing: hot
+  file: captures/kraken_g6_hot_a2.nam
+- values:
+    gain: 7
+    voicing: hot
+  file: captures/kraken_g7_hot_a2.nam
+- values:
+    gain: 8
+    voicing: hot
+  file: captures/kraken_g8_hot_a2.nam

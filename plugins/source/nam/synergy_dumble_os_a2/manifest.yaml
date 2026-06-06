@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_synergy_dumble_os_a2
+display_name: Dumble OS Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/52557
+# Constant token dropped: 'os' (Overdrive Special module name) present in every capture.
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - ch1
+  - ch2
+- name: tubes
+  display_name: Tubes
+  values:
+  - 6l6ab
+  - 6l6a
+captures:
+- values:
+    channel: ch1
+    tubes: 6l6ab
+  file: captures/os_ch1_6l6ab_ns_a2.nam
+- values:
+    channel: ch2
+    tubes: 6l6a
+  file: captures/os_ch2_6l6a_ns2_a2.nam

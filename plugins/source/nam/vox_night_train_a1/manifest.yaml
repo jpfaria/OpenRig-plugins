@@ -1,0 +1,23 @@
+manifest_version: 1
+id: nam_vox_night_train_a1
+display_name: Night Train
+brand: vox
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A1
+# Constant across all captures (omitted from axes): nt15h model, ts9 boost pedal.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - boost
+  - od_low
+captures:
+- values:
+    preset: boost
+  file: captures/vox_night_train_nt15h_boost_ts9.nam
+- values:
+    preset: od_low
+  file: captures/vox_night_train_nt15h_overdrive_ts9_low_boosted.nam

@@ -1,0 +1,34 @@
+# Constant tokens dropped from every capture name: kb (source tag), dx1ae (model), 48k (sample rate).
+# Names are a grab-bag of IR variants (length/processing) that do not factor into real-control axes → single 'preset' axis.
+manifest_version: 1
+id: ir_martin_dx1ae
+display_name: DX1AE
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - len_9
+  - len_9_mffqn
+  - len_9_m
+  - len_18_m
+captures:
+- values:
+    preset: len_9
+  file: ir/kb_dx1ae_9_48k.wav
+  output_gain_db: -17.0159073
+- values:
+    preset: len_9_mffqn
+  file: ir/kb_dx1ae_9_48k_mffqn.wav
+  output_gain_db: -24.3357220
+- values:
+    preset: len_9_m
+  file: ir/kb_dx1ae_9_48k_m.wav
+  output_gain_db: -9.8824377
+- values:
+    preset: len_18_m
+  file: ir/kb_dx1ae_18_48k_m.wav
+  output_gain_db: -23.7245979

@@ -1,0 +1,66 @@
+manifest_version: 1
+id: nam_sansamp_di_2112_a2
+display_name: SansAmp DI-2112
+brand: tech21
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/5989
+# Dropped constant token across all captures: "DI-2112" (the device itself).
+# Names are a grab-bag of factory/artist presets from the DI-2112 manual plus
+# three custom settings and one pure-DI deep-saturation capture -> single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - geddy_lee_standard
+  - geddy_lee_roundabout
+  - yyz_jazz_bass
+  - jack_bruce
+  - john_paul_jones_heartbreaker
+  - les_claypool
+  - john_entwistle_leeds
+  - radiohead_national_anthem
+  - deep_saturation_maxed
+  - custom1
+  - custom2
+  - custom3
+captures:
+- values:
+    preset: geddy_lee_standard
+  file: captures/geddy_lee_standard_a2.nam
+- values:
+    preset: geddy_lee_roundabout
+  file: captures/geddy_lee_roundabout_a2.nam
+- values:
+    preset: yyz_jazz_bass
+  file: captures/yyz_jazz_bass_a2.nam
+- values:
+    preset: jack_bruce
+  file: captures/jack_bruce_a2.nam
+- values:
+    preset: john_paul_jones_heartbreaker
+  file: captures/john_paul_jones_heartbreaker_a2.nam
+- values:
+    preset: les_claypool
+  file: captures/les_claypool_a2.nam
+- values:
+    preset: john_entwistle_leeds
+  file: captures/john_entwistle_leeds_a2.nam
+- values:
+    preset: radiohead_national_anthem
+  file: captures/radiohead_national_anthem_a2.nam
+- values:
+    preset: deep_saturation_maxed
+  file: captures/deep_saturation_maxed_a2.nam
+- values:
+    preset: custom1
+  file: captures/custom1_a2.nam
+- values:
+    preset: custom2
+  file: captures/custom2_a2.nam
+- values:
+    preset: custom3
+  file: captures/custom3_a2.nam

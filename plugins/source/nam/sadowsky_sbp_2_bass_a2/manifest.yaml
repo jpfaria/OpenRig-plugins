@@ -1,0 +1,50 @@
+manifest_version: 1
+id: nam_sadowsky_sbp_2_bass_a2
+display_name: Sadowsky SBP-2 Bass
+brand: sadowsky
+output_gain_db: 0.9611320
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/32439
+# Knob values are the preamp's 12-hour clock positions (treble/bass), per the
+# tone3000 description. Volume is constant at 12:00 across all captures (dropped).
+# Capture 05 is flat (treble/bass at 0%) -> treble: 0, bass: 0.
+parameters:
+- name: treble
+  display_name: Treble
+  values:
+  - 0
+  - 1.00
+  - 2.30
+  - 9.00
+  - 12.00
+- name: bass
+  display_name: Bass
+  values:
+  - 0
+  - 9.00
+  - 11.00
+  - 12.00
+captures:
+- values:
+    treble: 1.00
+    bass: 11.00
+  file: captures/sadowsky_sbp_2_bass_preamp_01_a2.nam
+- values:
+    treble: 12.00
+    bass: 12.00
+  file: captures/sadowsky_sbp_2_bass_preamp_02_a2.nam
+- values:
+    treble: 2.30
+    bass: 9.00
+  file: captures/sadowsky_sbp_2_bass_preamp_03_a2.nam
+- values:
+    treble: 9.00
+    bass: 9.00
+  file: captures/sadowsky_sbp_2_bass_preamp_04_a2.nam
+- values:
+    treble: 0
+    bass: 0
+  file: captures/sadowsky_sbp_2_bass_preamp_05_a2.nam

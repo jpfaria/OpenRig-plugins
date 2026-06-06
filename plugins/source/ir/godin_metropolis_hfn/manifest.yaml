@@ -1,0 +1,27 @@
+# constant tokens dropped from every capture: jf45ir (capture author + ir), godin_metropolis (cab slug)
+manifest_version: 1
+id: ir_godin_metropolis_hfn
+display_name: Metropolis HFN
+brand: godin
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - len_1024
+  - blend_5050
+  - full
+captures:
+- values:
+    preset: len_1024
+  file: ir/jf45ir1024godin_metropolis.wav
+  output_gain_db: -6.2275934
+- values:
+    preset: blend_5050
+  file: ir/jf45ir5050godin_metropolis.wav
+  output_gain_db: -3.2627776
+- values:
+    preset: full
+  file: ir/jf45irgodin_metropolis.wav
+  output_gain_db: -10.9678059

@@ -1,0 +1,28 @@
+# constant across all captures (dropped): taylor522e (plugin id), 44100 (sample rate)
+manifest_version: 1
+id: ir_taylor_522e
+display_name: 522e
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - base
+  - match1
+  - match2
+captures:
+- values:
+    voicing: base
+  file: ir/taylor522e_44100.wav
+  output_gain_db: -16.0425758
+- values:
+    voicing: match1
+  file: ir/taylor522e_44100_match1.wav
+  output_gain_db: -14.3770733
+- values:
+    voicing: match2
+  file: ir/taylor522e_44100_match2.wav
+  output_gain_db: -14.6674137

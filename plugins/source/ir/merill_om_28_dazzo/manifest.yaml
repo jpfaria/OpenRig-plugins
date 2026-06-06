@@ -1,0 +1,27 @@
+# constant tokens dropped (redundant with header): merill, om28, dazzo, 44100 (sample rate)
+manifest_version: 1
+id: ir_merill_om_28_dazzo
+display_name: Merill OM-28 Dazzo
+brand: merill
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raw
+  - match2
+  - match2_lessroom
+captures:
+- values:
+    preset: raw
+  file: ir/ir_merill_om28_dazzo_44100.wav
+  output_gain_db: -15.6355658
+- values:
+    preset: match2
+  file: ir/ir_merill_om28_dazzo_44100_match2.wav
+  output_gain_db: -16.6478577
+- values:
+    preset: match2_lessroom
+  file: ir/ir_merill_om28_dazzo_44100_match2_lessroom.wav
+  output_gain_db: -16.4810829

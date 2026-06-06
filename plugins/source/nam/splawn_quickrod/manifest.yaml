@@ -1,0 +1,64 @@
+manifest_version: 1
+id: nam_splawn_quickrod
+display_name: Quickrod
+brand: splawn
+sources:
+- https://www.tone3000.com/tones/5169
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+# dropped constants across all captures: brand token "splawn", "7M"
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - normal
+  - hg
+  - hgt
+- name: gain
+  display_name: Gain
+  values:
+  - 3
+  - 5
+- name: mids
+  display_name: Mids
+  values:
+  - 3
+  - 5
+captures:
+- values:
+    voicing: normal
+    gain: 3
+    mids: 3
+  file: captures/splawn3g7m_mids_3.nam
+- values:
+    voicing: normal
+    gain: 3
+    mids: 5
+  file: captures/splawn3g7m_mids_5.nam
+- values:
+    voicing: normal
+    gain: 5
+    mids: 5
+  file: captures/splawn5g7m_mids_5.nam
+- values:
+    voicing: hg
+    gain: 3
+    mids: 5
+  file: captures/splawn_hg3g7m_mids5.nam
+- values:
+    voicing: hg
+    gain: 5
+    mids: 5
+  file: captures/splawn_hg5g7m_mids5.nam
+- values:
+    voicing: hgt
+    gain: 3
+    mids: 5
+  file: captures/splawnhgt3g7m.nam
+- values:
+    voicing: hgt
+    gain: 5
+    mids: 5
+  file: captures/splawnhgt5g7m.nam

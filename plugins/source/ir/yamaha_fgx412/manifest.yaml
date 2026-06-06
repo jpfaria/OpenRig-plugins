@@ -1,0 +1,32 @@
+# constant across all captures (dropped): yamaha_fgx412 (brand/model slug), 48000 (sample rate)
+manifest_version: 1
+id: ir_yamaha_fgx412
+display_name: FGX412
+brand: yamaha
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - flat
+  - blend
+  - match
+  - jf_flavor
+captures:
+- values:
+    preset: flat
+  file: ir/yamaha_fgx412_48000.wav
+  output_gain_db: -32.4854546
+- values:
+    preset: blend
+  file: ir/yamaha_fgx412_48000_bld.wav
+  output_gain_db: -31.9970798
+- values:
+    preset: match
+  file: ir/yamaha_fgx412_48000_match.wav
+  output_gain_db: -25.2726746
+- values:
+    preset: jf_flavor
+  file: ir/yamaha_fgx412_48000_jf_flavor.wav
+  output_gain_db: -31.0003128

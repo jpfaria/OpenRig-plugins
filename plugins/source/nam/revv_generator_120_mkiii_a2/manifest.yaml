@@ -1,0 +1,1350 @@
+manifest_version: 1
+id: nam_revv_generator_120_mkiii_a2
+display_name: Revv Generator 120 MKIII
+brand: revv
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/42067
+# Constant across all captures (dropped): cab/load = Torpedo Captor EQ-matched to a real ENGL 4x12.
+# Decoded from the tone3000 model names.
+# channel = Revv channel selector (blue/green/purple/red).
+# drive = green-channel gain setting; mode = purple/red Aggression switch position.
+# bright/cut/fat = the b/c/f voicing switches; voicing = blue/green character tag.
+# boost = overdrive pedal in front of the amp.
+# preset = disambiguator for otherwise-identical captures: take index (01/02/03),
+#          the Solo boost engaged (solo), or an extra OD808 stacked on top (od808).
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - blue
+  - green
+  - purple
+  - red
+- name: mode
+  display_name: Mode
+  values:
+  - none
+  - 0
+  - 1
+  - 2
+- name: drive
+  display_name: Drive
+  values:
+  - none
+  - 0
+  - 1
+  - 2
+- name: bright
+  display_name: Bright
+  values:
+  - 'no'
+  - 'yes'
+- name: cut
+  display_name: Cut
+  values:
+  - 'no'
+  - 'yes'
+- name: fat
+  display_name: Fat
+  values:
+  - 'no'
+  - 'yes'
+- name: voicing
+  display_name: Voicing
+  values:
+  - none
+  - clean
+  - dist
+  - wide
+  - stacked
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - sd1
+  - tkiy
+  - '66'
+  - bb
+  - kot
+  - bd2
+  - duality_green
+  - duality_blue
+- name: preset
+  display_name: Preset
+  values:
+  - default
+  - '01'
+  - '02'
+  - '03'
+  - solo
+  - od808
+captures:
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: none
+    preset: default
+  file: captures/Revv_blue_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: none
+    preset: default
+  file: captures/Revv_blue_b_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: wide
+    boost: none
+    preset: default
+  file: captures/Revv_blue_b_wide_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bd2
+    preset: '01'
+  file: captures/Revv_blue_bd2_01_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bd2
+    preset: '02'
+  file: captures/Revv_blue_bd2_02_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bd2
+    preset: '03'
+  file: captures/Revv_blue_bd2_03_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bd2
+    preset: od808
+  file: captures/Revv_blue_bd2_03_od808_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: clean
+    boost: kot
+    preset: '01'
+  file: captures/Revv_blue_kot-clean_01_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: clean
+    boost: kot
+    preset: '02'
+  file: captures/Revv_blue_kot-clean_02_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: dist
+    boost: kot
+    preset: '01'
+  file: captures/Revv_blue_kot-dist_01_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: dist
+    boost: kot
+    preset: '02'
+  file: captures/Revv_blue_kot-dist_02_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: stacked
+    boost: kot
+    preset: default
+  file: captures/Revv_blue_kot-stacked_a2.nam
+- values:
+    channel: blue
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: wide
+    boost: none
+    preset: default
+  file: captures/Revv_blue_wide_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: clean
+    boost: none
+    preset: default
+  file: captures/Revv_green_b_clean_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: clean
+    boost: duality_blue
+    preset: default
+  file: captures/Revv_green_b_clean_dualitydx-blue_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bb
+    preset: default
+  file: captures/Revv_green_b_drive0_bb_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '01'
+  file: captures/Revv_green_b_drive0_dualitydx-blue_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '02'
+  file: captures/Revv_green_b_drive0_dualitydx-blue_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '01'
+  file: captures/Revv_green_b_drive0_dualitydx-green_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '02'
+  file: captures/Revv_green_b_drive0_dualitydx-green_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bb
+    preset: default
+  file: captures/Revv_green_b_drive1_bb_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '01'
+  file: captures/Revv_green_b_drive1_dualitydx-blue_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '02'
+  file: captures/Revv_green_b_drive1_dualitydx-blue_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '01'
+  file: captures/Revv_green_b_drive1_dualitydx-green_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '02'
+  file: captures/Revv_green_b_drive1_dualitydx-green_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bb
+    preset: default
+  file: captures/Revv_green_b_drive2_bb_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '01'
+  file: captures/Revv_green_b_drive2_dualitydx-blue_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '02'
+  file: captures/Revv_green_b_drive2_dualitydx-blue_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '01'
+  file: captures/Revv_green_b_drive2_dualitydx-green_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '02'
+  file: captures/Revv_green_b_drive2_dualitydx-green_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: clean
+    boost: none
+    preset: default
+  file: captures/Revv_green_clean_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: clean
+    boost: duality_blue
+    preset: default
+  file: captures/Revv_green_clean_dualitydx-blue_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bb
+    preset: default
+  file: captures/Revv_green_drive0_bb_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '01'
+  file: captures/Revv_green_drive0_dualitydx-blue_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '02'
+  file: captures/Revv_green_drive0_dualitydx-blue_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '01'
+  file: captures/Revv_green_drive0_dualitydx-green_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 0
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '02'
+  file: captures/Revv_green_drive0_dualitydx-green_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bb
+    preset: default
+  file: captures/Revv_green_drive1_bb_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '01'
+  file: captures/Revv_green_drive1_dualitydx-blue_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '02'
+  file: captures/Revv_green_drive1_dualitydx-blue_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '01'
+  file: captures/Revv_green_drive1_dualitydx-green_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 1
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '02'
+  file: captures/Revv_green_drive1_dualitydx-green_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: bb
+    preset: default
+  file: captures/Revv_green_drive2_bb_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '01'
+  file: captures/Revv_green_drive2_dualitydx-blue_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_blue
+    preset: '02'
+  file: captures/Revv_green_drive2_dualitydx-blue_02_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '01'
+  file: captures/Revv_green_drive2_dualitydx-green_01_a2.nam
+- values:
+    channel: green
+    mode: none
+    drive: 2
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: '02'
+  file: captures/Revv_green_drive2_dualitydx-green_02_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_b_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_b_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_bc_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_bc_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_bcf_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_bcf_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_bf_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_bf_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_c_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_c_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_cf_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_cf_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_f_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_f_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_purple_aggr0_x_dualitydx-green_a2.nam
+- values:
+    channel: purple
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_purple_aggr0_x_sd1_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_b_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_b_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_bc_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_bc_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_bcf_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_bcf_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_bf_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_bf_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_c_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_c_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_cf_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_cf_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_f_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_f_tkiy_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_purple_aggr1_x_66_a2.nam
+- values:
+    channel: purple
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_purple_aggr1_x_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_b_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_b_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_bc_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_bc_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_bcf_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_bcf_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_bf_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_bf_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_c_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_c_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_cf_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_cf_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_f_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_f_sd1_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: default
+  file: captures/Revv_red_aggr0_x_dualitydx-green_a2.nam
+- values:
+    channel: red
+    mode: 0
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: sd1
+    preset: default
+  file: captures/Revv_red_aggr0_x_sd1_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_b_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_b_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_bc_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_bc_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_bcf_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_bcf_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_bf_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_bf_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_c_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_c_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_cf_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'yes'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_cf_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_f_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'yes'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_f_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: 66
+    preset: default
+  file: captures/Revv_red_aggr1_x_66_a2.nam
+- values:
+    channel: red
+    mode: 1
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: default
+  file: captures/Revv_red_aggr1_x_tkiy_a2.nam
+- values:
+    channel: red
+    mode: 2
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: solo
+  file: captures/Revv_red_aggr2_b_dualitydx-green_solo_a2.nam
+- values:
+    channel: red
+    mode: 2
+    drive: none
+    bright: 'yes'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: solo
+  file: captures/Revv_red_aggr2_b_tkiy_solo_a2.nam
+- values:
+    channel: red
+    mode: 2
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: duality_green
+    preset: solo
+  file: captures/Revv_red_aggr2_x_dualitydx-green_solo_a2.nam
+- values:
+    channel: red
+    mode: 2
+    drive: none
+    bright: 'no'
+    cut: 'no'
+    fat: 'no'
+    voicing: none
+    boost: tkiy
+    preset: solo
+  file: captures/Revv_red_aggr2_x_tkiy_solo_a2.nam

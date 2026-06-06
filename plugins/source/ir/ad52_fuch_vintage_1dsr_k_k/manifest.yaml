@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_ad52_fuch_vintage_1dsr_k_k
+display_name: AD52 Fuch Vintage 1DSR K&K
+brand: furch
+type: body
+backend: ir
+# constant across all captures (dropped): furch_vintage1d_sr (body model), 48k (sample rate)
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - plain
+  - mic
+  - mic_ffq
+captures:
+- values:
+    preset: plain
+  file: ir/furch_vintage1d_sr_48k.wav
+  output_gain_db: -11.1471205
+- values:
+    preset: mic
+  file: ir/furch_vintage1d_sr_48k_m.wav
+  output_gain_db: -9.6549644
+- values:
+    preset: mic_ffq
+  file: ir/furch_vintage1d_sr_48k_m_ffq.wav
+  output_gain_db: -22.4591579

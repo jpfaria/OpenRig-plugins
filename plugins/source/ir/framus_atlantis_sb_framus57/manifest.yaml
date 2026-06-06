@@ -1,0 +1,48 @@
+# constant across all captures, dropped: framus57 (plugin slug) · 44100 (sample rate)
+# remaining variants are IR processing presets: full-length vs 1024-tap truncation, plus EQ-match passes
+manifest_version: 1
+id: ir_framus_atlantis_sb_framus57
+display_name: Atlantis SB Framus57
+brand: framus
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - full
+  - full_match1
+  - full_match2
+  - len1024
+  - len1024_match1
+  - len1024_match2
+  - len1024_match3
+captures:
+- values:
+    preset: full
+  file: ir/framus57_44100.wav
+  output_gain_db: -23.1767693
+- values:
+    preset: full_match1
+  file: ir/framus57_44100_match1.wav
+  output_gain_db: -19.7005920
+- values:
+    preset: full_match2
+  file: ir/framus57_44100_match2.wav
+  output_gain_db: -20.2235203
+- values:
+    preset: len1024
+  file: ir/framus57_44100_1024.wav
+  output_gain_db: -23.9034843
+- values:
+    preset: len1024_match1
+  file: ir/framus57_44100_1024_match1.wav
+  output_gain_db: -17.6887875
+- values:
+    preset: len1024_match2
+  file: ir/framus57_44100_1024_match2.wav
+  output_gain_db: -16.7847118
+- values:
+    preset: len1024_match3
+  file: ir/framus57_44100_1024_match3.wav
+  output_gain_db: -16.2147141

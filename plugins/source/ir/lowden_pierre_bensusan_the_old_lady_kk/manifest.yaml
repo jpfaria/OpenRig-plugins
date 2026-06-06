@@ -1,0 +1,27 @@
+manifest_version: 1
+id: ir_lowden_pierre_bensusan_the_old_lady_kk
+display_name: Pierre Bensusan The Old Lady K&K
+brand: lowden
+type: body
+backend: ir
+# constants dropped from capture names: ir, lowden, old_lady, 48k
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - base
+  - m
+  - mffqn
+captures:
+- values:
+    preset: base
+  file: ir/ir_lowden_old_lady_48k.wav
+  output_gain_db: -28.0654316
+- values:
+    preset: m
+  file: ir/ir_lowden_old_lady_48k_m.wav
+  output_gain_db: -12.6847801
+- values:
+    preset: mffqn
+  file: ir/ir_lowden_old_lady_48k_mffqn.wav
+  output_gain_db: -19.8096333

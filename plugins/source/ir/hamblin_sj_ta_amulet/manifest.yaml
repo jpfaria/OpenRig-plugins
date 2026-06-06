@@ -1,0 +1,47 @@
+manifest_version: 1
+id: ir_hamblin_sj_ta_amulet
+display_name: SJ TA Amulet
+brand: hamblin
+type: body
+backend: ir
+# dropped constants across all capture names: dy, hamblinsj, 44100 (sample rate)
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - v1
+  - v1_blend
+  - v1_jf_flavor
+  - v2
+  - v2_blend
+  - v2_match
+  - v2_jf_flavor
+captures:
+- values:
+    preset: v1
+  file: ir/dy_hamblinsj_1_44100.wav
+  output_gain_db: -14.9428015
+- values:
+    preset: v1_blend
+  file: ir/dy_hamblinsj_1_44100_bld.wav
+  output_gain_db: -8.8300095
+- values:
+    preset: v1_jf_flavor
+  file: ir/dy_hamblinsj_1_44100_jf_flavor.wav
+  output_gain_db: -12.4069948
+- values:
+    preset: v2
+  file: ir/dy_hamblinsj_2_44100.wav
+  output_gain_db: -7.6266818
+- values:
+    preset: v2_blend
+  file: ir/dy_hamblinsj_2_44100_bld.wav
+  output_gain_db: -4.4049134
+- values:
+    preset: v2_match
+  file: ir/dy_hamblinsj_2_44100_match.wav
+  output_gain_db: -17.3618279
+- values:
+    preset: v2_jf_flavor
+  file: ir/dy_hamblinsj_2_44100_jf_flavor.wav
+  output_gain_db: -7.3020883

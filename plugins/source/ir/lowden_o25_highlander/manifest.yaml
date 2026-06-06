@@ -1,0 +1,45 @@
+# Constant across all captures (dropped): lowden / o25 / highlander (brand + body model = the plugin slug).
+# The names do not factor into shared amp controls — they are distinct IR-capture variants
+# of the same body (a 48 kHz direct IR plus two EQ-matched siblings, and three JF45-tool IRs:
+# bare, 1024-tap, and a 50/50 blend). Exposed as a single clean 'preset' axis.
+manifest_version: 1
+id: ir_lowden_o25_highlander
+display_name: O25 Highlander
+brand: lowden
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - direct
+  - match1
+  - match2
+  - jf45
+  - jf45_1024
+  - jf45_5050
+captures:
+- values:
+    preset: direct
+  file: ir/ir_lowdeno25_highlander_48000.wav
+  output_gain_db: -24.9270992
+- values:
+    preset: match1
+  file: ir/ir_lowdeno25_highlander_48000_match1.wav
+  output_gain_db: -17.7509632
+- values:
+    preset: match2
+  file: ir/ir_lowdeno25_highlander_48000_match2.wav
+  output_gain_db: -18.2653942
+- values:
+    preset: jf45
+  file: ir/jf45irlowden_o25_highlander.wav
+  output_gain_db: -9.8701038
+- values:
+    preset: jf45_1024
+  file: ir/jf45ir1024lowden_o25_highlander.wav
+  output_gain_db: -8.1934538
+- values:
+    preset: jf45_5050
+  file: ir/jf45ir5050lowden_o25_highlander.wav
+  output_gain_db: -4.2000513

@@ -1,0 +1,28 @@
+# Constant across all captures (dropped): jf45 (source rig token), ir, yam (Yamaha tag).
+# Names form a grab-bag of distinct IR variants (no real control axis) -> single 'preset' axis.
+manifest_version: 1
+id: ir_yamaha_ll_ta_system_70
+display_name: LL-TA System 70
+brand: yamaha
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - len_1024
+  - blend_5050
+  - full
+captures:
+- values:
+    preset: len_1024
+  file: ir/jf45ir1024yam.wav
+  output_gain_db: -9.1804285
+- values:
+    preset: blend_5050
+  file: ir/jf45ir5050yam.wav
+  output_gain_db: -6.6929026
+- values:
+    preset: full
+  file: ir/jf45iryam.wav
+  output_gain_db: -13.7358732

@@ -1,0 +1,103 @@
+# Dropped constant slug token 'sans'/'sansamp' (plugin name, present in every capture).
+# Two naming families do not share a single control grid: the 'sans_*' family carries a
+# voicing contour (midfocus/neutral/scooped) crossed with a drive amount, while the
+# 'sansamp_*' family carries only a drive amount plus a blend variant and no voicing token.
+# Forcing them into shared knob axes would require inventing absent values, so the captures
+# are exposed as one clean 'preset' selector with labels derived from the real filenames.
+manifest_version: 1
+id: nam_tech_21_sansamp_bddi_a1
+display_name: Tech 21 SansAmp BDDI
+brand: sansamp
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A1
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - midfocus_clean
+  - midfocus_drive_low
+  - midfocus_drive_mid
+  - midfocus_drive_high
+  - midfocus_maxed
+  - neutral_clean
+  - neutral_drive_low
+  - neutral_drive_mid
+  - neutral_drive_high
+  - neutral_maxed
+  - scooped_clean
+  - scooped_drive_low
+  - scooped_drive_mid
+  - scooped_drive_high
+  - scooped_maxed
+  - amp_low_drive
+  - amp_mid_drive
+  - amp_mid_drive_less_blend
+  - amp_high_drive
+  - amp_max_drive
+  - amp_max_drive_less_blend
+captures:
+- values:
+    preset: midfocus_clean
+  file: captures/sans_midfocus_clean.nam
+- values:
+    preset: midfocus_drive_low
+  file: captures/sans_midfocus_drive_low.nam
+- values:
+    preset: midfocus_drive_mid
+  file: captures/sans_midfocus_drive_mid.nam
+- values:
+    preset: midfocus_drive_high
+  file: captures/sans_midfocus_drive_high.nam
+- values:
+    preset: midfocus_maxed
+  file: captures/sans_midfocus_maxed.nam
+- values:
+    preset: neutral_clean
+  file: captures/sans_neutral_clean.nam
+- values:
+    preset: neutral_drive_low
+  file: captures/sans_neutral_drive_low.nam
+- values:
+    preset: neutral_drive_mid
+  file: captures/sans_neutral_drive_mid.nam
+- values:
+    preset: neutral_drive_high
+  file: captures/sans_neutral_drive_high.nam
+- values:
+    preset: neutral_maxed
+  file: captures/sans_neutral_maxed.nam
+- values:
+    preset: scooped_clean
+  file: captures/sans_scooped_clean.nam
+- values:
+    preset: scooped_drive_low
+  file: captures/sans_scooped_drive_low.nam
+- values:
+    preset: scooped_drive_mid
+  file: captures/sans_scooped_drive_mid.nam
+- values:
+    preset: scooped_drive_high
+  file: captures/sans_scooped_drive_high.nam
+- values:
+    preset: scooped_maxed
+  file: captures/sans_scooped_maxed.nam
+- values:
+    preset: amp_low_drive
+  file: captures/sansamp_low_drive.nam
+- values:
+    preset: amp_mid_drive
+  file: captures/sansamp_mid_drive.nam
+- values:
+    preset: amp_mid_drive_less_blend
+  file: captures/sansamp_mid_drive_less_blend.nam
+- values:
+    preset: amp_high_drive
+  file: captures/sansamp_high_drive.nam
+- values:
+    preset: amp_max_drive
+  file: captures/sansamp_max_drive.nam
+- values:
+    preset: amp_max_drive_less_blend
+  file: captures/sansamp_max_drive_less_blend.nam

@@ -1,0 +1,39 @@
+# Dropped constant tokens across all captures: brand "taylor", model "717e", sample rate "48000"/"48k", "ir" prefix.
+# Remaining tokens form a grab-bag of distinct IR variants, mapped to a clean 'preset' axis.
+manifest_version: 1
+id: ir_taylor_717e
+display_name: 717e
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - stock
+  - bld
+  - match
+  - jf_flavor
+  - mffq
+captures:
+- values:
+    preset: stock
+  file: ir/taylor_717e_48000.wav
+  output_gain_db: -29.3451538
+- values:
+    preset: bld
+  file: ir/taylor_717e_48000_bld.wav
+  output_gain_db: -25.7190876
+- values:
+    preset: match
+  file: ir/taylor_717e_48000_match.wav
+  output_gain_db: -26.6539841
+- values:
+    preset: jf_flavor
+  file: ir/taylor_717e_48000_jf_flavor.wav
+  output_gain_db: -28.1491184
+- values:
+    preset: mffq
+  file: ir/ir_717e_48k_mffq.wav
+  output_gain_db: -17.4618397

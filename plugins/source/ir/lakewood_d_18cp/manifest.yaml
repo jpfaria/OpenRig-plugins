@@ -1,0 +1,32 @@
+# Dropped constant across all captures: lakewood_d_18cp_48000 (brand/model/samplerate)
+manifest_version: 1
+id: ir_lakewood_d_18cp
+display_name: D-18 CP
+brand: lakewood
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raw
+  - bld
+  - jf_flavor
+  - match
+captures:
+- values:
+    preset: raw
+  file: ir/lakewood_d_18cp_48000.wav
+  output_gain_db: -14.8620539
+- values:
+    preset: bld
+  file: ir/lakewood_d_18cp_48000_bld.wav
+  output_gain_db: -8.4791422
+- values:
+    preset: jf_flavor
+  file: ir/lakewood_d_18cp_48000_jf_flavor.wav
+  output_gain_db: -16.3290367
+- values:
+    preset: match
+  file: ir/lakewood_d_18cp_48000_match.wav
+  output_gain_db: -13.2005405

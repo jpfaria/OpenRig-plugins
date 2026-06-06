@@ -1,0 +1,46 @@
+manifest_version: 1
+id: ir_martin_hd28_highlander
+display_name: HD-28 Highlander
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+# Constant across all captures (dropped): martin, hd28, highlander (brand/model/pickup,
+# already in display_name) and the 48000 sample-rate token. The remaining tokens are a
+# grab-bag of distinct IR renders (mic variants m1/m2, jf45 toolchain variants, 1024-tap,
+# 5050) that do not factor into real control axes, so they collapse into one 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - base
+  - m1
+  - m2
+  - jf45
+  - jf45_1024
+  - jf45_5050
+captures:
+- values:
+    preset: base
+  file: ir/ir_martin_hd28_highlander_48000.wav
+  output_gain_db: -29.5728912
+- values:
+    preset: m1
+  file: ir/ir_martin_hd28_highlander_48000_m1.wav
+  output_gain_db: -16.1575146
+- values:
+    preset: m2
+  file: ir/ir_martin_hd28_highlander_48000_m2.wav
+  output_gain_db: -16.5674973
+- values:
+    preset: jf45
+  file: ir/jf45irmartin_hd28_highlander.wav
+  output_gain_db: -11.1751957
+- values:
+    preset: jf45_1024
+  file: ir/jf45ir1024martin_hd28_highlander.wav
+  output_gain_db: -6.9276066
+- values:
+    preset: jf45_5050
+  file: ir/jf45ir5050martin_hd28_highlander.wav
+  output_gain_db: -4.3468714

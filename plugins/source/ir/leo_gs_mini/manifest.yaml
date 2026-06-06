@@ -1,0 +1,33 @@
+# Dropped constants across all captures: leo / gs_mini / es2 (ES2 pickup) / 44100 (sample rate).
+manifest_version: 1
+id: ir_leo_gs_mini
+display_name: GS Mini
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - direct
+  - blend
+  - jf_flavor
+  - match
+captures:
+- values:
+    preset: direct
+  file: ir/leo_gs_mini_es2_44100.wav
+  output_gain_db: -16.6194973
+- values:
+    preset: blend
+  file: ir/leo_gs_mini_es2_44100_bld.wav
+  output_gain_db: -11.7330103
+- values:
+    preset: jf_flavor
+  file: ir/leo_gs_mini_es2_44100_jf_flavor.wav
+  output_gain_db: -19.0023937
+- values:
+    preset: match
+  file: ir/leo_gs_mini_es2_44100_match.wav
+  output_gain_db: -16.3977070

@@ -27,6 +27,7 @@ CANON={
  'stab','balance','pull_gain','tube','clip','jump','sw1','sw2','sw3','comp',
  'feel','hf','load',
  'version',  # honest NAM model-version/size variant (v1/v2, lite/standard) — provenance, not a fake control
+ 'aggression','solo','tubes',
 }
 # obvious real controls under a non-canonical spelling -> normalize (fixable, not invented)
 NORMALIZE={'mv':'master','vol':'volume','pres':'presence','master_volume':'master','brightness':'bright',
@@ -43,8 +44,9 @@ for line in subprocess.run(["git","ls-tree","-r","0deec200"],capture_output=True
         orig[m.group(1)]=os.path.basename(m.group(2))
         pm=re.match(r'(plugins/source/(?:ir|nam)/[^/]+)/',m.group(2))
         if pm: origcount[pm.group(1)]=origcount.get(pm.group(1),0)+1
-tcache=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),".tone_cache.json"))) if os.path.isfile(os.path.join(os.path.dirname(os.path.abspath(__file__)),".tone_cache.json")) else {}
-import atexit; atexit.register(lambda: json.dump(tcache,open(os.path.join(os.path.dirname(os.path.abspath(__file__)),".tone_cache.json"),"w")))
+CACHE=os.path.join(WS,"scripts",".tone_cache.json")
+tcache=json.load(open(CACHE)) if os.path.isfile(CACHE) else {}
+import atexit; atexit.register(lambda c=tcache,p=CACHE: json.dump(c,open(p,"w")))
 def tone(tid):
     if tid in tcache: return tcache[tid]
     res={"names":{}, "desc":""}
@@ -90,7 +92,7 @@ for m in mans:
     # IR plugins (cabs AND acoustic-guitar bodies) are not amps/pedals: their
     # valid params are mic-ing / processing-version, not amp knobs.
     IR_OK={'mic','mic_position','position','distance','angle','axis','speaker','cab','cabinet',
-           'version','flavor','match','pickup','body','take','preamp','voicing','default','preset'}
+           'version','flavor','match','pickup','body','take','preamp','voicing','default','preset','mode'}
     allowed = IR_OK if kind=="ir" else CANON
     # RULE 1: param names
     badnames=[]

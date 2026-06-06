@@ -1,0 +1,32 @@
+# constant across all captures (dropped): cort luce 550w 48000 (plugin slug + sample rate)
+manifest_version: 1
+id: ir_cort_luce_550w
+display_name: Luce 550W
+brand: cort
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raw
+  - blend
+  - jf_flavor
+  - match
+captures:
+- values:
+    preset: raw
+  file: ir/cort_luce_550w_48000.wav
+  output_gain_db: -24.0692768
+- values:
+    preset: blend
+  file: ir/cort_luce_550w_48000_bld.wav
+  output_gain_db: -17.7348156
+- values:
+    preset: jf_flavor
+  file: ir/cort_luce_550w_48000_jf_flavor.wav
+  output_gain_db: -18.5618610
+- values:
+    preset: match
+  file: ir/cort_luce_550w_48000_match.wav
+  output_gain_db: -24.1989765

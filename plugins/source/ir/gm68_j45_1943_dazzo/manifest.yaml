@@ -1,0 +1,28 @@
+manifest_version: 1
+id: ir_gm68_j45_1943_dazzo
+display_name: J-45 1943 Dazzo
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+# Dropped constants across all captures: ir_gibson_j45_1943_dazzo (plugin identity), 44100 (sample rate).
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raw
+  - matched
+  - matched_dry
+captures:
+- values:
+    preset: raw
+  file: ir/ir_gibson_j45_1943_dazzo_44100.wav
+  output_gain_db: -16.3105545
+- values:
+    preset: matched
+  file: ir/ir_gibson_j45_1943_dazzo_44100_match1.wav
+  output_gain_db: -10.3450899
+- values:
+    preset: matched_dry
+  file: ir/ir_gibson_j45_1943_dazzo_44100_match1_lessroom.wav
+  output_gain_db: -9.4092722

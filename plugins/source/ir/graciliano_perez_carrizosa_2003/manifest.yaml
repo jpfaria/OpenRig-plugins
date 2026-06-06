@@ -1,0 +1,29 @@
+# Constant across all captures (dropped): brand slug "ir_graciliano_perez" + 48k sample rate.
+# Suffixes (none / m / mffqn) are opaque post-processing variants of the same IR,
+# not real amp controls, so they collapse to a single clean 'preset' axis.
+manifest_version: 1
+id: ir_graciliano_perez_carrizosa_2003
+display_name: Graciliano Perez Carrizosa 2003
+brand: graciliano-perez
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raw
+  - m
+  - mffqn
+captures:
+- values:
+    preset: raw
+  file: ir/ir_graciliano_perez_48k.wav
+  output_gain_db: -28.1524506
+- values:
+    preset: m
+  file: ir/ir_graciliano_perez_48k_m.wav
+  output_gain_db: -16.5855713
+- values:
+    preset: mffqn
+  file: ir/ir_graciliano_perez_48k_mffqn.wav
+  output_gain_db: -18.8813782

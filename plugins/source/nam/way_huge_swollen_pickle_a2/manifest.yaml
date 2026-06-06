@@ -1,0 +1,64 @@
+manifest_version: 1
+id: nam_way_huge_swollen_pickle_a2
+display_name: Way Huge Swollen Pickle
+brand: boss
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/50490
+# Captures are a grab-bag of named pedal settings (WHSP_1..8, a CS variant,
+# two 5150 amp-blend variants and the author's owner setting) that do not
+# factor into real knob axes; constant 'whsp_' prefix dropped. Modelled as a
+# single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - s1
+  - s2
+  - s3
+  - s4
+  - s5
+  - s6
+  - s7
+  - s8_cs
+  - s5150
+  - s5150_mesa4x12os
+  - owner_setting
+captures:
+- values:
+    preset: s1
+  file: captures/whsp_1_a2.nam
+- values:
+    preset: s2
+  file: captures/whsp_2_a2.nam
+- values:
+    preset: s3
+  file: captures/whsp_3_a2.nam
+- values:
+    preset: s4
+  file: captures/whsp_4_a2.nam
+- values:
+    preset: s5
+  file: captures/whsp_5_a2.nam
+- values:
+    preset: s6
+  file: captures/whsp_6_a2.nam
+- values:
+    preset: s7
+  file: captures/whsp_7_a2.nam
+- values:
+    preset: s8_cs
+  file: captures/whsp_8_cs_a2.nam
+- values:
+    preset: s5150
+  file: captures/whsp_5150_a2.nam
+- values:
+    preset: s5150_mesa4x12os
+  file: captures/whsp_5150_mesa4x12os_a2.nam
+- values:
+    preset: owner_setting
+  file: captures/whsp_owner_setting_a2.nam

@@ -1,0 +1,36 @@
+manifest_version: 1
+id: nam_rr_golden_clone_a2
+display_name: Golden Clone
+brand: klon
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/46295
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 2
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 4
+  - 6
+  - 7
+captures:
+- values:
+    gain: 5
+    treble: 4
+  file: captures/gain_5_treble_4_a2.nam
+- values:
+    gain: 2
+    treble: 7
+  file: captures/gain_2_treble_7_a2.nam
+- values:
+    gain: 6
+    treble: 6
+  file: captures/gain_6_treble_6_a2.nam

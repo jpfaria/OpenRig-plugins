@@ -1,0 +1,30 @@
+# Constant tokens dropped from every capture name: jf45ir (IR maker), gibson (brand).
+# The remaining tokens (1024, 5050, bare) are a grab-bag of distinct IR variants
+# that do not factor into a real cab/mic control, so they collapse into one preset axis.
+manifest_version: 1
+id: ir_gibson_songwriter_deluxe_custom_hfn
+display_name: Songwriter Deluxe Custom HFN
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - plain
+  - mix_1024
+  - mix_5050
+captures:
+- values:
+    preset: plain
+  file: ir/jf45irgibson.wav
+  output_gain_db: 7.8214684
+- values:
+    preset: mix_1024
+  file: ir/jf45ir1024gibson.wav
+  output_gain_db: 8.3829565
+- values:
+    preset: mix_5050
+  file: ir/jf45ir5050gibson.wav
+  output_gain_db: 9.8116398

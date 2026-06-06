@@ -1,0 +1,32 @@
+# constant across all captures (omitted): rainsong brand, ch-pa1100nsg body, 44100 sample rate
+manifest_version: 1
+id: ir_rainsong_ch_pa1100nsg
+display_name: CH-PA1100NSG
+brand: rainsong
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - standard
+  - blend
+  - match
+  - jf
+captures:
+- values:
+    preset: standard
+  file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100.wav
+  output_gain_db: -24.7118454
+- values:
+    preset: blend
+  file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100_bld.wav
+  output_gain_db: -19.1462860
+- values:
+    preset: match
+  file: ir/rainsong_parlor_44100_matcheq.wav
+  output_gain_db: -14.6887960
+- values:
+    preset: jf
+  file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100_jf_flavor.wav
+  output_gain_db: -21.4627972

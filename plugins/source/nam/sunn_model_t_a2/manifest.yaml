@@ -1,0 +1,62 @@
+manifest_version: 1
+id: nam_sunn_model_t_a2
+display_name: Sunn Model T
+brand: sunn
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/13705
+# Constant token dropped from every capture name: "Model T" (the amp model).
+# Names are a grab-bag of named voicings/settings that do not share a knob
+# grid (only ~half spell G/T/B/M/V/P), so they collapse to a single 'preset' axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - ej_lead
+  - crunchier_rock
+  - power_amp_only
+  - warm_zen_lead
+  - crunchier_mids_rock
+  - drive_pedal_platform
+  - doom
+  - high_gain
+  - mid_gain
+  - low_gain
+  - crunchy_rock
+captures:
+- values:
+    preset: ej_lead
+  file: captures/ej_lead_a2.nam
+- values:
+    preset: crunchier_rock
+  file: captures/crunchier_rock_a2.nam
+- values:
+    preset: power_amp_only
+  file: captures/power_amp_only_a2.nam
+- values:
+    preset: warm_zen_lead
+  file: captures/warm_zen_lead_a2.nam
+- values:
+    preset: crunchier_mids_rock
+  file: captures/crunchier_mids_rock_a2.nam
+- values:
+    preset: drive_pedal_platform
+  file: captures/drive_pedal_platform_a2.nam
+- values:
+    preset: doom
+  file: captures/doom_a2.nam
+- values:
+    preset: high_gain
+  file: captures/high_gain_a2.nam
+- values:
+    preset: mid_gain
+  file: captures/mid_gain_a2.nam
+- values:
+    preset: low_gain
+  file: captures/low_gain_a2.nam
+- values:
+    preset: crunchy_rock
+  file: captures/crunchy_rock_a2.nam

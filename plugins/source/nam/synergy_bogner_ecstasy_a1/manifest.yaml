@@ -1,0 +1,40 @@
+# Constant across all captures: reacteq (capture rig), bogner, ecstasy (the amp module itself).
+manifest_version: 1
+id: nam_synergy_bogner_ecstasy_a1
+display_name: Bogner Ecstasy Module
+brand: synergy
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: preamp
+backend: nam
+architecture: A1
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - blue
+  - red
+- name: gain
+  display_name: Gain
+  values:
+  - 3
+  - 7
+  - 8
+  - 9
+captures:
+- values:
+    channel: blue
+    gain: 8
+  file: captures/reacteq_bogner_ecstasy_blue_08.nam
+- values:
+    channel: red
+    gain: 3
+  file: captures/reacteq_bogner_ecstasy_red_03.nam
+- values:
+    channel: red
+    gain: 7
+  file: captures/reacteq_bogner_ecstasy_red_07.nam
+- values:
+    channel: red
+    gain: 9
+  file: captures/reacteq_bogner_ecstasy_red_09.nam

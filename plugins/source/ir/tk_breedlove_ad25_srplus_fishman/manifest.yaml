@@ -1,0 +1,45 @@
+# Constant across all captures (dropped): breedlove ad25sr plus body, 44100 Hz sample rate.
+manifest_version: 1
+id: ir_tk_breedlove_ad25_srplus_fishman
+display_name: Breedlove AD25 SR Plus Fishman
+brand: breedlove
+type: body
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - sm
+  - bb
+- name: match
+  display_name: Match
+  values:
+  - none
+  - match1
+  - match2
+captures:
+- values:
+    mic: sm
+    match: none
+  file: ir/ir_breedlove_ad25sr_plus_sm44100.wav
+  output_gain_db: -21.7791729
+- values:
+    mic: sm
+    match: match1
+  file: ir/ir_breedlove_ad25sr_plus_sm44100_match1.wav
+  output_gain_db: -19.8579140
+- values:
+    mic: bb
+    match: none
+  file: ir/ir_breedlove_ad25sr_plus_bb44100.wav
+  output_gain_db: -26.1023788
+- values:
+    mic: bb
+    match: match1
+  file: ir/ir_breedlove_ad25sr_plus_bb44100_match1.wav
+  output_gain_db: -18.2186623
+- values:
+    mic: bb
+    match: match2
+  file: ir/ir_breedlove_ad25sr_plus_bb44100_match2.wav
+  output_gain_db: -19.6941891

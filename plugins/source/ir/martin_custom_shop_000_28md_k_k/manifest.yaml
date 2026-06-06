@@ -1,0 +1,40 @@
+# Dropped constant token across all captures: 00028 (the 000-28 body, already in the plugin name).
+# Names form a grab-bag (K&K pickup captures vs JF45 IRs, with length/match variants) that
+# does not factor into real control axes, so they become a single clean 'preset' axis.
+manifest_version: 1
+id: ir_martin_custom_shop_000_28md_k_k
+display_name: Custom Shop 000-28MD K&K
+brand: martin
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - knk
+  - knk_match
+  - jf45
+  - jf45_1024
+  - jf45_5050
+captures:
+- values:
+    preset: knk
+  file: ir/00028md_knk_44100.wav
+  output_gain_db: -34.6129265
+- values:
+    preset: knk_match
+  file: ir/00028md_knk_44100_match1.wav
+  output_gain_db: -28.6652374
+- values:
+    preset: jf45
+  file: ir/jf45ir00028jf.wav
+  output_gain_db: -15.8345737
+- values:
+    preset: jf45_1024
+  file: ir/jf45ir102400028jf.wav
+  output_gain_db: -12.0713425
+- values:
+    preset: jf45_5050
+  file: ir/jf45ir505000028jf.wav
+  output_gain_db: -11.0030661

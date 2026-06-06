@@ -1,0 +1,39 @@
+# constant across all captures: murphy_custom (body name), 44100 (sample rate)
+manifest_version: 1
+id: ir_murphy_custom_k_k
+display_name: Murphy Custom K&K
+brand: murphy
+type: body
+backend: ir
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - a
+  - b
+- name: mode
+  display_name: Mode
+  values:
+  - raw
+  - match
+captures:
+- values:
+    voicing: a
+    mode: raw
+  file: ir/murphy_custom_44100.wav
+  output_gain_db: -30.3454342
+- values:
+    voicing: b
+    mode: raw
+  file: ir/murphy_custom_44100b.wav
+  output_gain_db: -20.6569233
+- values:
+    voicing: a
+    mode: match
+  file: ir/murphy_custom_44100_match1.wav
+  output_gain_db: -26.3955822
+- values:
+    voicing: b
+    mode: match
+  file: ir/murphy_custom_44100b_match1.wav
+  output_gain_db: -18.9141788

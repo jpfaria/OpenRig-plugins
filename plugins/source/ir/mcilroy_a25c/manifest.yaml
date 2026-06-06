@@ -1,0 +1,56 @@
+# Constant tokens dropped from every capture name: sc (source prefix), 44100 (sample rate).
+manifest_version: 1
+id: ir_mcilroy_a25c
+display_name: A25C
+brand: mcilroy
+type: body
+backend: ir
+parameters:
+- name: position
+  display_name: Position
+  values:
+  - pos1
+  - pos2
+- name: voicing
+  display_name: Voicing
+  values:
+  - raw
+  - blend
+  - match
+  - jf_flavor
+captures:
+- values:
+    position: pos1
+    voicing: raw
+  file: ir/sc_mcilroy1_44100.wav
+  output_gain_db: -29.9288483
+- values:
+    position: pos1
+    voicing: blend
+  file: ir/sc_mcilroy1_44100_bld.wav
+  output_gain_db: -28.5695438
+- values:
+    position: pos1
+    voicing: match
+  file: ir/sc_mcilroy1_44100_match.wav
+  output_gain_db: -26.2344284
+- values:
+    position: pos1
+    voicing: jf_flavor
+  file: ir/sc_mcilroy1_44100_jf_flavor.wav
+  output_gain_db: -29.8055897
+- values:
+    position: pos2
+    voicing: raw
+  file: ir/sc_mcilroy2_44100.wav
+  output_gain_db: -24.4179573
+- values:
+    position: pos2
+    voicing: blend
+  file: ir/sc_mcilroy2_44100_bld.wav
+  output_gain_db: -18.8493099
+- values:
+    position: pos2
+    voicing: jf_flavor
+  file: ir/sc_mcilroy2_44100_jf_flavor.wav
+  output_gain_db: -19.4805126

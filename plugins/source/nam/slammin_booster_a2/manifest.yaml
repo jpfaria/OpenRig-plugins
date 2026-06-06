@@ -1,0 +1,74 @@
+# Constant across all captures (dropped): slammin (plugin slug), the _a2
+# architecture marker, and g0 (default gain, present on all but two names).
+# Names are a grab-bag of distinct boost/overdrive voicings (od808, ocd,
+# rat, sd1, goldenpearl, echopre) whose secondary tokens (t5/t6/t7 tone,
+# lp/hp switch, f5/bright/mid/dark voicing, g1/g3 gain) differ per pedal
+# and do not form a single consistent control grid, so they collapse to
+# one 'preset' axis (mirrors the slammin_booster_a1 sibling).
+manifest_version: 1
+id: nam_slammin_booster_a2
+display_name: Slammin Clean Booster
+brand: jhs
+output_gain_db: 0.4731712
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/6176
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - echopre_mid
+  - echopre_dark
+  - echopre_bright
+  - ocd_lp_t5
+  - ocd_hp_t5
+  - ocd_lp_t7
+  - rat_f5_g1
+  - od808_t5
+  - od808_t7
+  - goldenpearl_t6_g3
+  - goldenpearl_t5
+  - sd1_t7
+  - sd1_t5
+captures:
+- values:
+    preset: echopre_mid
+  file: captures/slammin_echopre_mid_a2.nam
+- values:
+    preset: ocd_lp_t5
+  file: captures/slammin_ocd_lp_t5_a2.nam
+- values:
+    preset: echopre_dark
+  file: captures/slammin_echopre_dark_a2.nam
+- values:
+    preset: rat_f5_g1
+  file: captures/slammin_rat_f5_g1_a2.nam
+- values:
+    preset: od808_t5
+  file: captures/slammin_od808_t5_a2.nam
+- values:
+    preset: goldenpearl_t6_g3
+  file: captures/slammin_goldenpearl_t6_g3_a2.nam
+- values:
+    preset: ocd_hp_t5
+  file: captures/slammin_ocd_hp_t5_a2.nam
+- values:
+    preset: goldenpearl_t5
+  file: captures/slammin_goldenpearl_t5_a2.nam
+- values:
+    preset: echopre_bright
+  file: captures/slammin_echopre_bright_a2.nam
+- values:
+    preset: ocd_lp_t7
+  file: captures/slammin_ocd_lp_t7_a2.nam
+- values:
+    preset: sd1_t7
+  file: captures/slammin_sd1_t7_a2.nam
+- values:
+    preset: od808_t7
+  file: captures/slammin_od808_t7_a2.nam
+- values:
+    preset: sd1_t5
+  file: captures/slammin_sd1_t5_a2.nam

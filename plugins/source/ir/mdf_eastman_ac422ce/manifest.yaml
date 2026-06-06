@@ -1,0 +1,32 @@
+# constant across all captures: eastman_ac422ce (body, in display_name), 44100 (sample rate)
+manifest_version: 1
+id: ir_mdf_eastman_ac422ce
+display_name: MDF Eastman AC422CE
+brand: eastman
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - a
+  - b
+  - b_match1
+  - a_match2
+captures:
+- values:
+    preset: a
+  file: ir/eastman_ac422ce_44100.wav
+  output_gain_db: -25.4239254
+- values:
+    preset: b
+  file: ir/eastman_ac422ce_44100b.wav
+  output_gain_db: -27.0089588
+- values:
+    preset: b_match1
+  file: ir/eastman_ac422ce_44100b_match1.wav
+  output_gain_db: -22.5477486
+- values:
+    preset: a_match2
+  file: ir/eastman_ac422ce_44100_match2.wav
+  output_gain_db: -21.1798363

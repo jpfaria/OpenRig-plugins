@@ -1,0 +1,27 @@
+# dropped constant tokens across all captures: ir / 44k / 2048 (impulse response, 44.1 kHz, 2048-tap) — technical encoding, not a control
+manifest_version: 1
+id: ir_boucher_sg51_dazzo
+display_name: Boucher SG-51 Dazzo
+brand: boucher
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - reca
+  - reca_m
+  - reca_mffqn
+captures:
+- values:
+    preset: reca
+  file: ir/ir_reca_44k_2048.wav
+  output_gain_db: -27.1693878
+- values:
+    preset: reca_m
+  file: ir/ir_reca_44k_2048_m.wav
+  output_gain_db: -21.8500576
+- values:
+    preset: reca_mffqn
+  file: ir/ir_reca_44k_2048_mffqn.wav
+  output_gain_db: -26.0302620

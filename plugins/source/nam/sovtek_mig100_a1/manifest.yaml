@@ -1,0 +1,32 @@
+manifest_version: 1
+id: nam_sovtek_mig100_a1
+display_name: MIG-100 KT88
+description: Neural capture of the Sovtek MIG-100 KT88 — Russian-built full-power head with raw, punchy tone.
+brand: sovtek
+license: MIT
+homepage: https://github.com/sdatkinson/neural-amp-modeler
+output_gain_db: 0.7574501
+type: preamp
+backend: nam
+architecture: A1
+# Constant across all captures (dropped): "Sovtek Bassov Blues Boy Mig 100".
+# Source (tone3000 30054) gives three sequential captures "1/2/3" described as
+# "from clean(ish) to slightly driven" — a clean->driven sweep, not labeled knob
+# values. Decoded as an ordered preset axis.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - clean
+  - edge
+  - driven
+captures:
+- values:
+    preset: clean
+  file: captures/v1.nam
+- values:
+    preset: edge
+  file: captures/v2.nam
+- values:
+    preset: driven
+  file: captures/v3.nam

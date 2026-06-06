@@ -1,0 +1,58 @@
+# constant across all captures (dropped): gibson hummingbird hfn (instrument), 44100 (sample rate)
+manifest_version: 1
+id: ir_hm_gibsonhummingbird_hfn
+display_name: Hummingbird HFN
+brand: gibson
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - len2048
+  - len2048_match1
+  - len2048_match2
+  - len8096_match2
+  - len1024
+  - len1024_match1
+  - len1024_match2
+  - st_len2048_match2
+  - st_len2048_match2c
+captures:
+- values:
+    preset: len2048
+  file: ir/hm_gibsonhummingbird_hfn_2048_44100.wav
+  output_gain_db: -12.7261515
+- values:
+    preset: len2048_match1
+  file: ir/hm_gibsonhummingbird_hfn_2048_44100_match1.wav
+  output_gain_db: -17.5472279
+- values:
+    preset: len2048_match2
+  file: ir/hm_gibsonhummingbird_hfn_2048_44100_match2.wav
+  output_gain_db: -18.7734165
+- values:
+    preset: len8096_match2
+  file: ir/hm_gibsonhummingbird_hfn_8096_44100_match2.wav
+  output_gain_db: -27.3733234
+- values:
+    preset: len1024
+  file: ir/hm_gibson_hummingbird_hfn_1024_44100.wav
+  output_gain_db: -4.7067633
+- values:
+    preset: len1024_match1
+  file: ir/hm_gibson_hummingbird_hfn_1024_44100_match1.wav
+  output_gain_db: -13.5013638
+- values:
+    preset: len1024_match2
+  file: ir/hm_gibson_hummingbird_hfn_1024_44100_match2.wav
+  output_gain_db: -14.4822111
+- values:
+    preset: st_len2048_match2
+  file: ir/ir_st_2048_gibsonhummingbird_match2.wav
+  output_gain_db: -18.7734203
+- values:
+    preset: st_len2048_match2c
+  file: ir/ir_st_2048_gibsonhummingbird_match2c.wav
+  output_gain_db: -18.7734165

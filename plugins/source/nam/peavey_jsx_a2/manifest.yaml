@@ -1,0 +1,444 @@
+manifest_version: 1
+id: nam_peavey_jsx_a2
+display_name: JSX
+brand: peavey
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/67214
+# Constant across all captures (dropped): DI, JSX, master (Ma-1), SRL (Suhr Reactive
+# Load), and the clean-channel output trim note (6dB). The clean channel labels its
+# pre-gain knob "Volume" (V) and the crunch/ultra channels label it "Gain" (G); both
+# are the same physical control, exposed here as the numeric "gain" knob.
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - clean
+  - crunch
+  - ultra
+- name: gain
+  display_name: Gain
+  values:
+  - 4
+  - 5
+  - 6
+  - 8
+- name: tone
+  display_name: Tone
+  values:
+  - 4
+  - 4.5
+  - 5
+  - 5.5
+  - 6
+  - 7
+- name: mid
+  display_name: Mid
+  values:
+  - 3
+  - 4
+  - 5
+  - 5.5
+  - 6
+  - 7
+- name: bass
+  display_name: Bass
+  values:
+  - 4
+  - 5
+  - 5.5
+  - 6
+  - 6.5
+  - 7
+- name: presence
+  display_name: Presence
+  values:
+  - 2
+  - 3
+  - 4
+  - 4.5
+  - 5
+  - 6
+- name: resonance
+  display_name: Resonance
+  values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 4.5
+  - 5
+  - 5.5
+  - 6
+  - 7
+- name: voicing
+  display_name: Voicing
+  values:
+  - normal
+  - fat
+captures:
+- values:
+    channel: crunch
+    gain: 6
+    tone: 5
+    mid: 7
+    bass: 4
+    presence: 4
+    resonance: 4
+    voicing: normal
+  file: captures/cr_g_6_t_5_m_7_b_4_p_4_r_4_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 6
+    mid: 6
+    bass: 5
+    presence: 2
+    resonance: 3
+    voicing: normal
+  file: captures/cr_g_6_t_6_m_6_b_5_p_2_r_3_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 4
+    mid: 5
+    bass: 6
+    presence: 5
+    resonance: 2
+    voicing: normal
+  file: captures/ult_g_4_t_4_m_5_b_6_p_5_r_2_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 6
+    mid: 4
+    bass: 7
+    presence: 2
+    resonance: 3
+    voicing: fat
+  file: captures/ult_g_4_t_6_m_4_b_7_p_2_r_3_fat_a2.nam
+- values:
+    channel: clean
+    gain: 5
+    tone: 6
+    mid: 4
+    bass: 4
+    presence: 6
+    resonance: 3
+    voicing: normal
+  file: captures/cln_v_5_t_6_m_4_b_4_r_3_p_6_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 4.5
+    mid: 6
+    bass: 6.5
+    presence: 4
+    resonance: 3
+    voicing: normal
+  file: captures/cr_g_6_t_4_5_m_6_b_6_5_p_4_r_3_a2.nam
+- values:
+    channel: ultra
+    gain: 5
+    tone: 5.5
+    mid: 5.5
+    bass: 4
+    presence: 3
+    resonance: 7
+    voicing: normal
+  file: captures/ult_g_5_t_5_5_m_5_5_b_4_p_3_r_7_a2.nam
+- values:
+    channel: ultra
+    gain: 5
+    tone: 5.5
+    mid: 5.5
+    bass: 4
+    presence: 3
+    resonance: 7
+    voicing: fat
+  file: captures/ult_g_5_t_5_5_m_5_5_b_4_p_3_r_7_fat_a2.nam
+- values:
+    channel: clean
+    gain: 8
+    tone: 6
+    mid: 4
+    bass: 4
+    presence: 3
+    resonance: 0
+    voicing: normal
+  file: captures/cln_v_8_t_6_m_4_b_4_r_0_p_3_a2.nam
+- values:
+    channel: crunch
+    gain: 8
+    tone: 7
+    mid: 4
+    bass: 6
+    presence: 3
+    resonance: 5.5
+    voicing: normal
+  file: captures/cr_g_8_t_7_m_4_b_6_p_3_r_5_5_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 6
+    mid: 4
+    bass: 7
+    presence: 2
+    resonance: 3
+    voicing: normal
+  file: captures/ult_g_4_t_6_m_4_b_7_p_2_r_3_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 6
+    resonance: 6
+    voicing: fat
+  file: captures/ult_g_4_t_5_m_5_b_5_p_6_r_6_fat_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5
+    mid: 4
+    bass: 6
+    presence: 3
+    resonance: 5
+    voicing: fat
+  file: captures/ult_g_4_t_5_m_4_b_6_p_3_r_5_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 4
+    tone: 5
+    mid: 4
+    bass: 6
+    presence: 3
+    resonance: 5
+    voicing: fat
+  file: captures/cr_g_4_t_5_m_4_b_6_p_3_r_5_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 4
+    tone: 5
+    mid: 4
+    bass: 6
+    presence: 3
+    resonance: 5
+    voicing: normal
+  file: captures/cr_g_4_t_5_m_4_b_6_p_3_r_5_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 3
+    resonance: 4
+    voicing: normal
+  file: captures/ult_g_4_t_5_m_5_b_5_p_3_r_4_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5
+    mid: 4
+    bass: 6
+    presence: 3
+    resonance: 5
+    voicing: normal
+  file: captures/ult_g_4_t_5_m_4_b_6_p_3_r_5_a2.nam
+- values:
+    channel: crunch
+    gain: 8
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 3
+    resonance: 3
+    voicing: fat
+  file: captures/cr_g_8_t_5_m_5_b_5_p_3_r_3_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 6
+    mid: 4
+    bass: 6
+    presence: 4
+    resonance: 5
+    voicing: normal
+  file: captures/cr_g_6_t_6_m_4_b_6_p_4_r_5_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 5
+    mid: 7
+    bass: 4
+    presence: 4
+    resonance: 4
+    voicing: fat
+  file: captures/cr_g_6_t_5_m_7_b_4_p_4_r_4_fat_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5.5
+    mid: 3
+    bass: 5.5
+    presence: 6
+    resonance: 5
+    voicing: fat
+  file: captures/ult_g_4_t_5_5_m_3_b_5_5_p_6_r_5_fat_a2.nam
+- values:
+    channel: clean
+    gain: 5
+    tone: 6
+    mid: 4
+    bass: 4
+    presence: 5
+    resonance: 2
+    voicing: normal
+  file: captures/cln_v_5_t_6_m_4_b_4_r_2_p_5_a2.nam
+- values:
+    channel: clean
+    gain: 8
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 2
+    resonance: 2
+    voicing: normal
+  file: captures/cln_v_8_t_5_m_5_b_5_r_2_p_2_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 4
+    mid: 5
+    bass: 6
+    presence: 5
+    resonance: 2
+    voicing: fat
+  file: captures/ult_g_4_t_4_m_5_b_6_p_5_r_2_fat_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 3
+    resonance: 4
+    voicing: fat
+  file: captures/ult_g_4_t_5_m_5_b_5_p_3_r_4_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 8
+    tone: 7
+    mid: 4
+    bass: 6
+    presence: 3
+    resonance: 5.5
+    voicing: fat
+  file: captures/cr_g_8_t_7_m_4_b_6_p_3_r_5_5_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 6
+    mid: 6
+    bass: 5
+    presence: 2
+    resonance: 3
+    voicing: fat
+  file: captures/cr_g_6_t_6_m_6_b_5_p_2_r_3_fat_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 6
+    mid: 6
+    bass: 6
+    presence: 4.5
+    resonance: 4.5
+    voicing: fat
+  file: captures/ult_g_4_t_6_m_6_b_6_p_4_5_r_4_5_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 6
+    mid: 5
+    bass: 6
+    presence: 2
+    resonance: 1
+    voicing: fat
+  file: captures/cr_g_6_t_6_m_5_b_6_p_2_r_1_fat_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 4.5
+    mid: 6
+    bass: 6.5
+    presence: 4
+    resonance: 3
+    voicing: fat
+  file: captures/cr_g_6_t_4_5_m_6_b_6_5_p_4_r_3_fat_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 6
+    resonance: 6
+    voicing: normal
+  file: captures/ult_g_4_t_5_m_5_b_5_p_6_r_6_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 6
+    mid: 6
+    bass: 6
+    presence: 4.5
+    resonance: 4.5
+    voicing: normal
+  file: captures/ult_g_4_t_6_m_6_b_6_p_4_5_r_4_5_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 6
+    mid: 4
+    bass: 6
+    presence: 4
+    resonance: 5
+    voicing: fat
+  file: captures/cr_g_6_t_6_m_4_b_6_p_4_r_5_fat_a2.nam
+- values:
+    channel: ultra
+    gain: 4
+    tone: 5.5
+    mid: 3
+    bass: 5.5
+    presence: 6
+    resonance: 5
+    voicing: normal
+  file: captures/ult_g_4_t_5_5_m_3_b_5_5_p_6_r_5_a2.nam
+- values:
+    channel: crunch
+    gain: 6
+    tone: 6
+    mid: 5
+    bass: 6
+    presence: 2
+    resonance: 1
+    voicing: normal
+  file: captures/cr_g_6_t_6_m_5_b_6_p_2_r_1_a2.nam
+- values:
+    channel: crunch
+    gain: 8
+    tone: 5
+    mid: 5
+    bass: 5
+    presence: 3
+    resonance: 3
+    voicing: normal
+  file: captures/cr_g_8_t_5_m_5_b_5_p_3_r_3_a2.nam

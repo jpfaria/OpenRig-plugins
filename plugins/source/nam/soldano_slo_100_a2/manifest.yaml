@@ -1,0 +1,27 @@
+manifest_version: 1
+id: nam_soldano_slo_100_a2
+display_name: SLO 100
+brand: soldano
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/64894
+# Constant across all captures (dropped): "Soldano Poulin" amp/capturer name
+# (already in brand/display_name). Tone "MASSIVE GAIN NO PEDAL" — all amp
+# controls fixed; the only variation is the post-capture EQ treatment, so a
+# single 'preset' axis (raw vs linear-eq-post) rather than knob axes.
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raw
+  - eq_post
+captures:
+- values:
+    preset: raw
+  file: captures/soldano_poulin_a2.nam
+- values:
+    preset: eq_post
+  file: captures/soldano_poulin_linear_eq_post_a2.nam

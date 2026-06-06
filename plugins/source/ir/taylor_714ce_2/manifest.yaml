@@ -1,0 +1,56 @@
+# Grab-bag of IR variants for the Taylor 714ce; names do not factor into
+# real recording-control axes (sample rate / mono / ffqn processing / mic
+# distance / bespoke captures), so a single clean 'preset' axis is used.
+# Dropped constants: model token (714 / 714ce, already in the plugin slug).
+manifest_version: 1
+id: ir_taylor_714ce_2
+display_name: 714ce V2
+brand: taylor
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 48k
+  - 48k_mono
+  - 48k_mono_ffqn
+  - 44k_mono_ffqn
+  - ktb
+  - kb_9in_ffqn
+  - kb_9in
+  - kb_18in
+captures:
+- values:
+    preset: 48k
+  file: ir/ir_48k.wav
+  output_gain_db: -19.1194344
+- values:
+    preset: 48k_mono
+  file: ir/ir_48k_m.wav
+  output_gain_db: -15.8289413
+- values:
+    preset: 48k_mono_ffqn
+  file: ir/ir_48k_m_ffqn.wav
+  output_gain_db: -19.5627670
+- values:
+    preset: 44k_mono_ffqn
+  file: ir/ir_44k_m_ffqn.wav
+  output_gain_db: -20.7600517
+- values:
+    preset: ktb
+  file: ir/ktb714cenux.wav
+  output_gain_db: -11.5303230
+- values:
+    preset: kb_9in_ffqn
+  file: ir/kb_714_9inch_48k_mffqn.wav
+  output_gain_db: -23.6810017
+- values:
+    preset: kb_9in
+  file: ir/kb_714_9inch_48k_m.wav
+  output_gain_db: -15.6606436
+- values:
+    preset: kb_18in
+  file: ir/kb_714_18inch_48k_m.wav
+  output_gain_db: -18.2634048

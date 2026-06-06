@@ -1,0 +1,34 @@
+# Constant across all captures (dropped): guild_d_150ce_48000 (brand/model/sample-rate).
+# Variants are named flavors of the same IR, not real control settings → single 'preset' axis.
+manifest_version: 1
+id: ir_guild_d_150ce
+display_name: D-150CE
+brand: guild
+brand_logo: assets/brand_logo.svg
+type: body
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - flat
+  - blend
+  - jf_flavor
+  - match
+captures:
+- values:
+    preset: flat
+  file: ir/guild_d_150ce_48000.wav
+  output_gain_db: -24.1630573
+- values:
+    preset: blend
+  file: ir/guild_d_150ce_48000_bld.wav
+  output_gain_db: -18.0175819
+- values:
+    preset: jf_flavor
+  file: ir/guild_d_150ce_48000_jf_flavor.wav
+  output_gain_db: -29.0279846
+- values:
+    preset: match
+  file: ir/guild_d_150ce_48000_match.wav
+  output_gain_db: -17.0724030
