@@ -1,10 +1,10 @@
 # Dropped constants (identical in every capture name):
 #   DI (direct input), MBDR (Mesa Boogie Dual Rectifier), MW (Modern),
 #   Red (red channel), Mdn (Modern voicing), G-7 (gain 7), Ma-2 (master 2).
-# The eq axis encodes the per-capture presence/treble/mid/bass knob bundle
-# (P-T-M-B) verbatim from the tone3000 model names; these four knobs move
-# together as fixed bundles, so they are one self-describing selector rather
-# than four independent knobs (only the listed combinations were captured).
+# The per-capture presence/treble/middle/bass knob settings come verbatim
+# from the tone3000 model names (e.g. "P-2 T-5 M-4 B-2") and are exposed as
+# four independent numeric knob axes. Only the six listed combinations were
+# captured by the author.
 # The load axis is the speaker load the amp was captured through (the author
 # says "scroll through loads in the plugin, consider it an extra tone
 # control"): 4x12 = Mesa Traditional 4x12 V30 (4FB suffix), srl = Suhr
@@ -30,15 +30,35 @@ parameters:
   - od808
   - tmb73
   - sd1
-- name: eq
-  display_name: EQ
+- name: presence
+  display_name: Presence
   values:
-  - p2_t5_m4_b2
-  - p6_t0_m7_b3
-  - p3_t6_m4_b3
-  - p3_t6_m6_b3
-  - p5_t4_m5_b3
-  - p4_t4_m3_b4
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 0
+  - 4
+  - 5
+  - 6
+- name: middle
+  display_name: Middle
+  values:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+- name: bass
+  display_name: Bass
+  values:
+  - 2
+  - 3
+  - 4
 - name: load
   display_name: Load
   values:
@@ -47,111 +67,177 @@ parameters:
 captures:
 - values:
     boost: tdlx
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: 4x12
   file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: tmb66
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: 4x12
   file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: od808
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: 4x12
   file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: tmb73
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: 4x12
   file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: sd1
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: 4x12
   file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: none
-    eq: p6_t0_m7_b3
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
     load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: p3_t6_m4_b3
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
     load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
 - values:
     boost: none
-    eq: p3_t6_m6_b3
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
     load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: p5_t4_m5_b3
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
     load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_4fb_a2.nam
 - values:
     boost: none
-    eq: p4_t4_m3_b4
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
     load: 4x12
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_4fb_a2.nam
 - values:
     boost: sd1
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: srl
   file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tdlx
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: srl
   file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: od808
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: srl
   file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tmb66
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: srl
   file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: tmb73
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: srl
   file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: none
-    eq: p6_t0_m7_b3
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
     load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_srl_a2.nam
 - values:
     boost: none
-    eq: p5_t4_m5_b3
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
     load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_srl_a2.nam
 - values:
     boost: none
-    eq: p2_t5_m4_b2
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
     load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
 - values:
     boost: none
-    eq: p3_t6_m6_b3
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
     load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_srl_a2.nam
 - values:
     boost: none
-    eq: p4_t4_m3_b4
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
     load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_srl_a2.nam
 - values:
     boost: none
-    eq: p3_t6_m4_b3
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
     load: srl
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_srl_a2.nam

@@ -2,7 +2,12 @@
 # Real-control axes recovered from tone3000 model names (tone 15222):
 #   tube    — stock 6V6 vs the V6-position tube swapped for a 12AX7 ("V6" prefix in the names) for extra gain.
 #   channel — Deluxe Reverb voice: norm / bright (bright-switch) / vib (vibrato channel); none = preset names that omit it.
-#   voicing — the named knob setting; its V/T/B numbers are fixed per voicing, so V/T/B is not an independent axis.
+#   voicing — named amp setting (preset-style label). Each label is a fixed
+#     volume/treble/bass dial position the author named (e.g. "cranked",
+#     "sweet_spot"), or a wiring/signal state with no dial grid
+#     (v1_pulled, jumpered, jumpered_sweet, ts9_ds1_boost). V/T/B are
+#     locked per label, so they are not independent axes. The "v10 t10 b1"
+#     dimed-treble/rolled-off-bass lead tone is named bright_lead.
 manifest_version: 1
 id: nam_fender_deluxe_reverb_a2
 display_name: Deluxe Reverb
@@ -37,7 +42,7 @@ parameters:
   - driven
   - cranked
   - all_on_5
-  - v10_t10_b1
+  - bright_lead
   - v1_pulled
   - jumpered
   - jumpered_sweet
@@ -51,7 +56,7 @@ captures:
 - values:
     tube: stock
     channel: bright
-    voicing: v10_t10_b1
+    voicing: bright_lead
   file: captures/v10_t10_b1_bright_a2.nam
 - values:
     tube: stock
@@ -91,12 +96,12 @@ captures:
 - values:
     tube: mod_12ax7
     channel: norm
-    voicing: v10_t10_b1
+    voicing: bright_lead
   file: captures/v6_v10_t10_b1_norm_a2.nam
 - values:
     tube: mod_12ax7
     channel: bright
-    voicing: v10_t10_b1
+    voicing: bright_lead
   file: captures/v6_v10_t10_b1_bright_a2.nam
 - values:
     tube: mod_12ax7
@@ -131,7 +136,7 @@ captures:
 - values:
     tube: stock
     channel: norm
-    voicing: v10_t10_b1
+    voicing: bright_lead
   file: captures/v10_t10_b1_normal_a2.nam
 - values:
     tube: mod_12ax7

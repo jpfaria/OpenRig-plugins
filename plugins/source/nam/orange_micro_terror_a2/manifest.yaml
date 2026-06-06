@@ -9,8 +9,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/68313
-# Boosted captures use a DS-1 with constant Tone 11 / Level 10 (T11L10);
-# only the distortion knob varies (D1 / D10), encoded in the boost selector.
+# Three captures stack a Boss DS-1 in front of the amp. The DS-1 runs a
+# constant Tone 11 / Level 10; only its distortion knob varies (1 or 10).
+# Amp knobs: Volume / Tone / Gain. Boost = DS-1 engaged (on) or bypassed (none).
 parameters:
 - name: volume
   display_name: Volume
@@ -39,65 +40,80 @@ parameters:
   display_name: Boost
   values:
   - none
-  - t11l10d1
-  - t11l10d10
+  - on
+- name: dist
+  display_name: DS-1 Dist
+  values:
+  - 0
+  - 1
+  - 10
 captures:
 - values:
     boost: none
+    dist: 0
     gain: 12
     tone: 12
     volume: 9
   file: captures/v9t12g12_a2.nam
 - values:
-    boost: t11l10d1
+    boost: on
+    dist: 1
     gain: 11
     tone: 12
     volume: 2
   file: captures/v2t12g11_ds1_t11l10d1_a2.nam
 - values:
-    boost: t11l10d1
+    boost: on
+    dist: 1
     gain: 1
     tone: 11
     volume: 12
   file: captures/v12t11g1_ds1_t11l10d1_a2.nam
 - values:
     boost: none
+    dist: 0
     gain: 3
     tone: 12
     volume: 12
   file: captures/v12t12g3_a2.nam
 - values:
     boost: none
+    dist: 0
     gain: 10
     tone: 12
     volume: 3
   file: captures/v3t12g10_a2.nam
 - values:
-    boost: t11l10d10
+    boost: on
+    dist: 10
     gain: 11
     tone: 12
     volume: 12
   file: captures/v12t12g11_ds1_t11l10d10_a2.nam
 - values:
     boost: none
+    dist: 0
     gain: 1
     tone: 11
     volume: 12
   file: captures/v12t11g1_a2.nam
 - values:
     boost: none
+    dist: 0
     gain: 11
     tone: 11
     volume: 12
   file: captures/v12t11g11_a2.nam
 - values:
     boost: none
+    dist: 0
     gain: 11
     tone: 12
     volume: 12
   file: captures/v12t12g11_a2.nam
 - values:
     boost: none
+    dist: 0
     gain: 9
     tone: 1
     volume: 5

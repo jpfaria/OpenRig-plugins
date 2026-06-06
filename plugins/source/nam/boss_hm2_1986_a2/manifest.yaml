@@ -1,7 +1,10 @@
 # All captures are a 1986 MIJ BOSS HM-2 (constant brand/unit → omitted).
-# The numeric presets encode the four HM-2 knobs as v=level h=high l=low g=dist;
-# they sit alongside three named "Chainsaw" presets that have no knob grid, so a
-# single clean 'preset' axis with the real capture names is the honest decode.
+# The numeric names encode the four HM-2 knobs: v=level l=low h=high g=dist.
+# Three "Chainsaw" captures have no numeric grid: the classic chainsaw tone is
+# all knobs maxed; "chainsaw_0_gain" drops dist to 0; "hm2_eq_pedal_chainsaw"
+# is the HM-2 EQ-circuit pedal "with knobs on max" (per the tone3000 notes).
+# A small 'preset' axis disambiguates the chainsaw variants from the standard
+# knob grid so every capture maps to a unique combo.
 manifest_version: 1
 id: nam_boss_hm2_1986_a2
 display_name: Heavy Metal HM-2 '86
@@ -14,51 +17,118 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6778
 parameters:
+- name: level
+  display_name: Level
+  values:
+  - 6
+  - 8
+  - 10
+- name: low
+  display_name: Low
+  values:
+  - 4
+  - 5
+  - 6
+  - 8
+  - 10
+- name: high
+  display_name: High
+  values:
+  - 2
+  - 4
+  - 5
+  - 6
+  - 9
+  - 10
+- name: dist
+  display_name: Dist
+  values:
+  - 0
+  - 2
+  - 4
+  - 5
+  - 10
 - name: preset
   display_name: Preset
   values:
-  - v10_l4_h6_g10
-  - v10_l10_h4_g10
+  - standard
   - chainsaw
-  - hm2_eq_pedal_chainsaw
-  - v10_l10_h9_g10
-  - v6_l5_h5_g5
-  - v10_l6_h10_g10
-  - v8_l8_h2_g2
-  - v10_l10_h6_g10
-  - v6_l6_h4_g4
-  - chainsaw_0_gain
+  - eq_pedal
 captures:
 - values:
-    preset: v10_l4_h6_g10
+    level: 10
+    low: 4
+    high: 6
+    dist: 10
+    preset: standard
   file: captures/v10_l4_h6_g10_a2.nam
 - values:
-    preset: v10_l10_h4_g10
+    level: 10
+    low: 10
+    high: 4
+    dist: 10
+    preset: standard
   file: captures/v10_l10_h4_g10_a2.nam
 - values:
+    level: 10
+    low: 10
+    high: 9
+    dist: 10
+    preset: standard
+  file: captures/v10_l10_h9_g10_a2.nam
+- values:
+    level: 6
+    low: 5
+    high: 5
+    dist: 5
+    preset: standard
+  file: captures/v6_l5_h5_g5_a2.nam
+- values:
+    level: 10
+    low: 6
+    high: 10
+    dist: 10
+    preset: standard
+  file: captures/v10_l6_h10_g10_a2.nam
+- values:
+    level: 8
+    low: 8
+    high: 2
+    dist: 2
+    preset: standard
+  file: captures/v8_l8_h2_g2_a2.nam
+- values:
+    level: 10
+    low: 10
+    high: 6
+    dist: 10
+    preset: standard
+  file: captures/v10_l10_h6_g10_a2.nam
+- values:
+    level: 6
+    low: 6
+    high: 4
+    dist: 4
+    preset: standard
+  file: captures/v6_l6_h4_g4_a2.nam
+- values:
+    level: 10
+    low: 10
+    high: 10
+    dist: 10
     preset: chainsaw
   file: captures/chainsaw_a2.nam
 - values:
-    preset: hm2_eq_pedal_chainsaw
-  file: captures/hm2_eq_pedal_chainsaw_a2.nam
-- values:
-    preset: v10_l10_h9_g10
-  file: captures/v10_l10_h9_g10_a2.nam
-- values:
-    preset: v6_l5_h5_g5
-  file: captures/v6_l5_h5_g5_a2.nam
-- values:
-    preset: v10_l6_h10_g10
-  file: captures/v10_l6_h10_g10_a2.nam
-- values:
-    preset: v8_l8_h2_g2
-  file: captures/v8_l8_h2_g2_a2.nam
-- values:
-    preset: v10_l10_h6_g10
-  file: captures/v10_l10_h6_g10_a2.nam
-- values:
-    preset: v6_l6_h4_g4
-  file: captures/v6_l6_h4_g4_a2.nam
-- values:
-    preset: chainsaw_0_gain
+    level: 10
+    low: 10
+    high: 10
+    dist: 0
+    preset: chainsaw
   file: captures/chainsaw_0_gain_a2.nam
+- values:
+    level: 10
+    low: 10
+    high: 10
+    dist: 10
+    preset: eq_pedal
+  file: captures/hm2_eq_pedal_chainsaw_a2.nam

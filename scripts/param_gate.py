@@ -28,6 +28,8 @@ CANON={
  'feel','hf','load',
  'version',  # honest NAM model-version/size variant (v1/v2, lite/standard) — provenance, not a fake control
  'aggression','solo','tubes',
+ 'ultra_lo','ultra_hi','scrambler',  # real Ampeg SCR-DI switches
+ 'take',  # last-resort disambiguator for two captures at IDENTICAL real settings (avoids forbidden dup grid)
 }
 # obvious real controls under a non-canonical spelling -> normalize (fixable, not invented)
 NORMALIZE={'mv':'master','vol':'volume','pres':'presence','master_volume':'master','brightness':'bright',
@@ -123,7 +125,8 @@ for m in mans:
         vals=[str(v) for v in (p.get("values") or [])]
         def bad(v):
             if name in v: return True                          # contains plugin slug
-            if len(knobtok.findall(v))>=2: return True         # encodes 2+ knob settings -> should be separate axes
+            if len(knobtok.findall(v))>=2: return True         # encodes 2+ named knob settings
+            if len(re.findall(r'(?<![a-z])[a-z]{1,3}\d',v))>=3: return True  # v10_l4_h6_g10 etc. (letter+digit x3+) -> knobs disguised as a preset
             return False
         hit=next((v for v in vals if bad(v)),None)
         if hit:
