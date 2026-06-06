@@ -10,126 +10,223 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/13776
 # Constant across all captures (dropped): "71 Bassman" amp name, normal-channel-only.
-# Named voicings share V/T/B numbers (six are V10 T10 B10), so they do not form a
-# unique knob grid; modeled as a single 'preset' axis. V=volume, T=treble, B=bass.
+# Filenames encode real knobs V=volume, T=treble, B=bass (tone3000 dial settings).
+# These are decomposed into numeric knob axes. The descriptive voicing/setup that
+# disambiguates captures sharing the same V/T/B (six are V10 T10 B10; several V5 T8 B5)
+# is kept as a 'preset' axis alongside the knobs. ts9_ds1 is a pedal-boosted capture
+# with no dial settings stated, so it carries only the preset value. For the jumpered
+# captures the knob values are the normal (input) channel's V/T/B.
 parameters:
+- name: volume
+  display_name: Volume
+  values: [3, 5, 6, 7, 8.5, 10]
+- name: treble
+  display_name: Treble
+  values: [4, 5, 6, 7, 8, 8.5, 10]
+- name: bass
+  display_name: Bass
+  values: [1, 3, 4, 5, 6, 10]
 - name: preset
   display_name: Preset
   values:
-  - jumpered_norm_v6_t10_b1_bright_into_bass_v8_t1_b10
-  - jumpered_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
-  - jumpered_channels_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
-  - warm_fuzz_v5_t4_b4
-  - v1_pulled_v10_t10_b10
-  - v1_pulled_12ax7_in_v4_v10_t10_b10
-  - bright_clean_v5_t4_b4
-  - 80s_bass_v3_t8_5_b4
-  - ts9_ds1_boosted
-  - all_on_5_norm_v10_t10_b10
-  - all_on_5_bright_v10_t10_b10
-  - all_on_10_bright_v10_t10_b10
-  - all_on_10_norm_v10_t10_b10
-  - mid_forward_clean_mxr_eq_v5_t8_b5
-  - warm_sweet_spot_v7_t4_b4
-  - sweet_spot_v7_t8_b5
-  - fd2_boosted_low_v5_t8_b5
-  - fd2_boosted_high_v5_t8_b3
-  - fd2_boosted_mid_v5_t8_b4
-  - cranked_fd2_boosted_v10_t7_b4
-  - big_clean_v7_t5_b5
-  - big_clean_bright_switch_v7_t6_b4
-  - 80s_clean_v5_t8_b5
-  - clean_v5_t8_b5
-  - clean_v5_t7_b4
-  - clean_v6_t7_b4
-  - driven_norm_v8_5_t7_b4
-  - driven_bright_v8_5_t7_b4
-  - warm_clean_v5_t4_b3
+  - jumpered_t10
+  - jumpered_t8
+  - jumpered_channels
+  - warm_fuzz
+  - v1_pulled
+  - v1_pulled_12ax7
+  - bright_clean
+  - 80s_bass
+  - ts9_ds1
+  - all_on_5_norm
+  - all_on_5_bright
+  - all_on_10_bright
+  - all_on_10_norm
+  - mid_forward
+  - warm_sweet_spot
+  - sweet_spot
+  - fd2_low
+  - fd2_high
+  - fd2_mid
+  - cranked_fd2
+  - big_clean
+  - big_clean_bright
+  - 80s_clean
+  - clean_t8_b5
+  - clean_t7_b4
+  - clean_v6
+  - driven_norm
+  - driven_bright
+  - warm_clean
 captures:
 - values:
-    preset: jumpered_norm_v6_t10_b1_bright_into_bass_v8_t1_b10
+    volume: 6
+    treble: 10
+    bass: 1
+    preset: jumpered_t10
   file: captures/jumpered_norm_v6_t10_b1_bright_into_bass_v8_t1_b10_a2.nam
 - values:
-    preset: jumpered_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
+    volume: 6
+    treble: 8
+    bass: 1
+    preset: jumpered_t8
   file: captures/jumpered_norm_v6_t8_b1_bright_into_bass_v8_t1_b8_a2.nam
 - values:
-    preset: jumpered_channels_norm_v6_t8_b1_bright_into_bass_v8_t1_b8
+    volume: 6
+    treble: 8
+    bass: 1
+    preset: jumpered_channels
   file: captures/jumpered_channels_norm_v6_t8_b1_bright_into_bass_v8_t1_b8_a2.nam
 - values:
-    preset: warm_fuzz_v5_t4_b4
+    volume: 5
+    treble: 4
+    bass: 4
+    preset: warm_fuzz
   file: captures/warm_fuzz_v5_t4_b4_a2.nam
 - values:
-    preset: v1_pulled_v10_t10_b10
+    volume: 10
+    treble: 10
+    bass: 10
+    preset: v1_pulled
   file: captures/v1_pulled_v10_t10_b10_a2.nam
 - values:
-    preset: v1_pulled_12ax7_in_v4_v10_t10_b10
+    volume: 10
+    treble: 10
+    bass: 10
+    preset: v1_pulled_12ax7
   file: captures/v1_pulled_12ax7_in_v4_v10_t10_b10_a2.nam
 - values:
-    preset: bright_clean_v5_t4_b4
+    volume: 5
+    treble: 4
+    bass: 4
+    preset: bright_clean
   file: captures/bright_clean_v5_t4_b4_a2.nam
 - values:
-    preset: 80s_bass_v3_t8_5_b4
+    volume: 3
+    treble: 8.5
+    bass: 4
+    preset: 80s_bass
   file: captures/80s_bass_v3_t8_5_b4_a2.nam
 - values:
-    preset: ts9_ds1_boosted
+    preset: ts9_ds1
   file: captures/ts9_ds1_boosted_a2.nam
 - values:
-    preset: all_on_5_norm_v10_t10_b10
+    volume: 10
+    treble: 10
+    bass: 10
+    preset: all_on_5_norm
   file: captures/all_on_5_norm_v10_t10_b10_a2.nam
 - values:
-    preset: all_on_5_bright_v10_t10_b10
+    volume: 10
+    treble: 10
+    bass: 10
+    preset: all_on_5_bright
   file: captures/all_on_5_bright_v10_t10_b10_a2.nam
 - values:
-    preset: all_on_10_bright_v10_t10_b10
+    volume: 10
+    treble: 10
+    bass: 10
+    preset: all_on_10_bright
   file: captures/all_on_10_bright_v10_t10_b10_a2.nam
 - values:
-    preset: all_on_10_norm_v10_t10_b10
+    volume: 10
+    treble: 10
+    bass: 10
+    preset: all_on_10_norm
   file: captures/all_on_10_norm_v10_t10_b10_a2.nam
 - values:
-    preset: mid_forward_clean_mxr_eq_v5_t8_b5
+    volume: 5
+    treble: 8
+    bass: 5
+    preset: mid_forward
   file: captures/mid_forward_clean_mxr_eq_v5_t8_b5_a2.nam
 - values:
-    preset: warm_sweet_spot_v7_t4_b4
+    volume: 7
+    treble: 4
+    bass: 4
+    preset: warm_sweet_spot
   file: captures/warm_sweet_spot_v7_t4_b4_a2.nam
 - values:
-    preset: sweet_spot_v7_t8_b5
+    volume: 7
+    treble: 8
+    bass: 5
+    preset: sweet_spot
   file: captures/sweet_spot_v7_t8_b5_a2.nam
 - values:
-    preset: fd2_boosted_low_v5_t8_b5
+    volume: 5
+    treble: 8
+    bass: 5
+    preset: fd2_low
   file: captures/fd2_boosted_low_v5_t8_b5_a2.nam
 - values:
-    preset: fd2_boosted_high_v5_t8_b3
+    volume: 5
+    treble: 8
+    bass: 3
+    preset: fd2_high
   file: captures/fd2_boosted_high_v5_t8_b3_a2.nam
 - values:
-    preset: fd2_boosted_mid_v5_t8_b4
+    volume: 5
+    treble: 8
+    bass: 4
+    preset: fd2_mid
   file: captures/fd2_boosted_mid_v5_t8_b4_a2.nam
 - values:
-    preset: cranked_fd2_boosted_v10_t7_b4
+    volume: 10
+    treble: 7
+    bass: 4
+    preset: cranked_fd2
   file: captures/cranked_fd2_boosted_v10_t7_b4_a2.nam
 - values:
-    preset: big_clean_v7_t5_b5
+    volume: 7
+    treble: 5
+    bass: 5
+    preset: big_clean
   file: captures/big_clean_v7_t5_b5_a2.nam
 - values:
-    preset: big_clean_bright_switch_v7_t6_b4
+    volume: 7
+    treble: 6
+    bass: 4
+    preset: big_clean_bright
   file: captures/big_clean_bright_switch_v7_t6_b4_a2.nam
 - values:
-    preset: 80s_clean_v5_t8_b5
+    volume: 5
+    treble: 8
+    bass: 5
+    preset: 80s_clean
   file: captures/80s_clean_v5_t8_b5_a2.nam
 - values:
-    preset: clean_v5_t8_b5
+    volume: 5
+    treble: 8
+    bass: 5
+    preset: clean_t8_b5
   file: captures/clean_v5_t8_b5_a2.nam
 - values:
-    preset: clean_v5_t7_b4
+    volume: 5
+    treble: 7
+    bass: 4
+    preset: clean_t7_b4
   file: captures/clean_v5_t7_b4_a2.nam
 - values:
-    preset: clean_v6_t7_b4
+    volume: 6
+    treble: 7
+    bass: 4
+    preset: clean_v6
   file: captures/clean_v6_t7_b4_a2.nam
 - values:
-    preset: driven_norm_v8_5_t7_b4
+    volume: 8.5
+    treble: 7
+    bass: 4
+    preset: driven_norm
   file: captures/driven_norm_v8_5_t7_b4_a2.nam
 - values:
-    preset: driven_bright_v8_5_t7_b4
+    volume: 8.5
+    treble: 7
+    bass: 4
+    preset: driven_bright
   file: captures/driven_bright_v8_5_t7_b4_a2.nam
 - values:
-    preset: warm_clean_v5_t4_b3
+    volume: 5
+    treble: 4
+    bass: 3
+    preset: warm_clean
   file: captures/warm_clean_v5_t4_b3_a2.nam

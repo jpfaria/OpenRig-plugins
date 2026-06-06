@@ -9,52 +9,153 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/58940
-# Constant token dropped from every capture name: "SCR-DI" (the pedal model).
-# Names form a grab-bag (ultra-switch combos, a fixed EQ voicing, and scrambler
-# drive/blend variants) that does not factor into orthogonal control axes, so a
-# single clean 'preset' axis is used.
+# Constant token dropped from every capture name: "SCR-DI" (the pedal model)
+# and Mid (M50 on every capture, never varies). Real SCR-DI controls per the
+# tone3000 description: Volume / Bass / Mid / Treble knobs, Ultra Lo + Ultra Hi
+# switches, and a Scrambler distortion switch with its own Drive + Blend knobs.
+# Each model name decodes into those settings (e.g. "V65 B65 M50 T65 SCR On
+# D100 B100" -> volume 65, bass 65, treble 65, scrambler on, drive 100, blend 100).
 parameters:
-- name: preset
-  display_name: Preset
+- name: volume
+  display_name: Volume
   values:
-  - standard
-  - ultra_lo
-  - ultra_hi
-  - ultra_lo_hi
-  - ultra_scrambler_d50_b50
-  - ultra_scrambler_d100_b100
-  - ultra_scrambler_d100_b50
-  - eq_v65_b65_m50_t65
-  - eq_scrambler_d50_b100
-  - eq_scrambler_d100_b100
+  - 50
+  - 65
+- name: bass
+  display_name: Bass
+  values:
+  - 50
+  - 65
+- name: treble
+  display_name: Treble
+  values:
+  - 50
+  - 65
+- name: ultra_lo
+  display_name: Ultra Lo
+  values:
+  - 'off'
+  - 'on'
+- name: ultra_hi
+  display_name: Ultra Hi
+  values:
+  - 'off'
+  - 'on'
+- name: scrambler
+  display_name: Scrambler
+  values:
+  - 'off'
+  - 'on'
+- name: drive
+  display_name: Drive
+  values:
+  - 0
+  - 50
+  - 100
+- name: blend
+  display_name: Blend
+  values:
+  - 0
+  - 50
+  - 100
 captures:
 - values:
-    preset: standard
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'off'
+    ultra_hi: 'off'
+    scrambler: 'off'
+    drive: 0
+    blend: 0
   file: captures/standard_a2.nam
 - values:
-    preset: ultra_lo
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'on'
+    ultra_hi: 'off'
+    scrambler: 'off'
+    drive: 0
+    blend: 0
   file: captures/ultra_lo_a2.nam
 - values:
-    preset: ultra_hi
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'off'
+    ultra_hi: 'on'
+    scrambler: 'off'
+    drive: 0
+    blend: 0
   file: captures/ultra_hi_a2.nam
 - values:
-    preset: ultra_lo_hi
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'on'
+    ultra_hi: 'on'
+    scrambler: 'off'
+    drive: 0
+    blend: 0
   file: captures/ultra_lo_hi_a2.nam
 - values:
-    preset: ultra_scrambler_d50_b50
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'on'
+    ultra_hi: 'on'
+    scrambler: 'on'
+    drive: 50
+    blend: 50
   file: captures/ultra_scrambler_d50_b50_a2.nam
 - values:
-    preset: ultra_scrambler_d100_b100
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'on'
+    ultra_hi: 'on'
+    scrambler: 'on'
+    drive: 100
+    blend: 100
   file: captures/ultra_scrambler_d100_b100_a2.nam
 - values:
-    preset: ultra_scrambler_d100_b50
+    volume: 50
+    bass: 50
+    treble: 50
+    ultra_lo: 'on'
+    ultra_hi: 'on'
+    scrambler: 'on'
+    drive: 100
+    blend: 50
   file: captures/ultra_scrambler_d100_b50_a2.nam
 - values:
-    preset: eq_v65_b65_m50_t65
+    volume: 65
+    bass: 65
+    treble: 65
+    ultra_lo: 'off'
+    ultra_hi: 'off'
+    scrambler: 'off'
+    drive: 0
+    blend: 0
   file: captures/eq_v65_b65_m50_t65_a2.nam
 - values:
-    preset: eq_scrambler_d50_b100
+    volume: 65
+    bass: 65
+    treble: 65
+    ultra_lo: 'off'
+    ultra_hi: 'off'
+    scrambler: 'on'
+    drive: 50
+    blend: 100
   file: captures/eq_scrambler_d50_b100_a2.nam
 - values:
-    preset: eq_scrambler_d100_b100
+    volume: 65
+    bass: 65
+    treble: 65
+    ultra_lo: 'off'
+    ultra_hi: 'off'
+    scrambler: 'on'
+    drive: 100
+    blend: 100
   file: captures/eq_scrambler_d100_b100_a2.nam

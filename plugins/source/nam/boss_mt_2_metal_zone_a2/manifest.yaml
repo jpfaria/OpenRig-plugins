@@ -10,88 +10,175 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64957
 # Constant across all captures (dropped): "DRPS BOSS Metal Zone MT-2".
-# The tone3000 names spell out the MT-2 front panel — L=Level, H=High,
-# M=Mid level, MF=Mid Frequency, DIST=Distortion — but the set is NOT a
-# clean grid: the "Everything 12 o'clock" snapshot has no dial numbers
-# (noon, not a labelled setting), and TWO captures share the IDENTICAL
-# panel L6 H4 M6 MF5 DIST2.7 (two separate profiles uploaded under the
-# same name). With a duplicate knob-combo there is no MT-2 control left
-# to disambiguate them, so the captures collapse into a single 'preset'
-# axis whose labels are the verbatim tone3000 setting names.
+# The tone3000 names spell out the MT-2 front panel knobs, so they are
+# exposed as real numeric axes: L=Level, H=High, M=Mid level,
+# MF=Mid Frequency, DIST=Distortion. The "Everything 12 o'clock"
+# snapshot is noon on every dial -> all knobs at 5
+# (file: l5_h5_m5_mf5_dist5). TWO profiles were uploaded at the
+# IDENTICAL panel L6 H4 M6 MF5 DIST2.7 (a/b); the 'take' axis
+# disambiguates that single collision while every other capture keeps
+# take=a, so all knob combos stay unique.
 parameters:
-- name: preset
-  display_name: Preset
-  values:
-  - everything_noon
-  - l5_h5_m5_mf5_dist3
-  - l5_h5_m5_mf5_dist8
-  - l5_h5_m5_mf5_dist10
-  - l6_h4_m4_8_mf0_dist5
-  - l6_h4_m6_mf5_dist2_7_a
-  - l6_h4_m6_mf5_dist2_7_b
-  - l6_h4_m6_mf5_dist4_9
-  - l6_h4_m6_mf5_dist6
-  - l6_h4_m6_mf5_dist10
-  - l8_h3_8_m10_mf5_5_dist3
-  - l8_h3_8_m10_mf5_5_dist4
-  - l8_h3_8_m10_mf5_5_dist6
-  - l8_h3_8_m10_mf5_5_dist10
-  - l9_h7_m7_mf7_8_dist3
-  - l9_h7_m7_mf7_8_dist5
-  - l9_h7_m7_mf7_8_dist7_8
-  - l9_h7_m7_mf7_8_dist10
+- name: level
+  display_name: Level
+  values: [5, 6, 8, 9]
+- name: high
+  display_name: High
+  values: [3.8, 4, 5, 7]
+- name: mid
+  display_name: Mid
+  values: [4.8, 5, 6, 7, 10]
+- name: mid_freq
+  display_name: Mid Freq
+  values: [0, 5, 5.5, 7.8]
+- name: dist
+  display_name: Dist
+  values: [2.7, 3, 4, 4.9, 5, 6, 7.8, 8, 10]
+- name: take
+  display_name: Take
+  values: [a, b]
 captures:
 - values:
-    preset: everything_noon
+    level: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 5
+    take: a
   file: captures/l5_h5_m5_mf5_dist5_a2.nam
 - values:
-    preset: l5_h5_m5_mf5_dist3
+    level: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 3
+    take: a
   file: captures/l5_h5_m5_mf5_dist3_a2.nam
 - values:
-    preset: l5_h5_m5_mf5_dist8
+    level: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 8
+    take: a
   file: captures/l5_h5_m5_mf5_dist8_a2.nam
 - values:
-    preset: l5_h5_m5_mf5_dist10
+    level: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 10
+    take: a
   file: captures/l5_h5_m5_mf5_dist10_a2.nam
 - values:
-    preset: l6_h4_m4_8_mf0_dist5
+    level: 6
+    high: 4
+    mid: 4.8
+    mid_freq: 0
+    dist: 5
+    take: a
   file: captures/l6_h4_m4_8_mf0_dist5_a2.nam
 - values:
-    preset: l6_h4_m6_mf5_dist2_7_a
+    level: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 2.7
+    take: a
   file: captures/l6_h4_m6_mf5_dist2_7_a_a2.nam
 - values:
-    preset: l6_h4_m6_mf5_dist2_7_b
+    level: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 2.7
+    take: b
   file: captures/l6_h4_m6_mf5_dist2_7_b_a2.nam
 - values:
-    preset: l6_h4_m6_mf5_dist4_9
+    level: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 4.9
+    take: a
   file: captures/l6_h4_m6_mf5_dist4_9_a2.nam
 - values:
-    preset: l6_h4_m6_mf5_dist6
+    level: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 6
+    take: a
   file: captures/l6_h4_m6_mf5_dist6_a2.nam
 - values:
-    preset: l6_h4_m6_mf5_dist10
+    level: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 10
+    take: a
   file: captures/l6_h4_m6_mf5_dist10_a2.nam
 - values:
-    preset: l8_h3_8_m10_mf5_5_dist3
+    level: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 3
+    take: a
   file: captures/l8_h3_8_m10_mf5_5_dist3_a2.nam
 - values:
-    preset: l8_h3_8_m10_mf5_5_dist4
+    level: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 4
+    take: a
   file: captures/l8_h3_8_m10_mf5_5_dist4_a2.nam
 - values:
-    preset: l8_h3_8_m10_mf5_5_dist6
+    level: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 6
+    take: a
   file: captures/l8_h3_8_m10_mf5_5_dist6_a2.nam
 - values:
-    preset: l8_h3_8_m10_mf5_5_dist10
+    level: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 10
+    take: a
   file: captures/l8_h3_8_m10_mf5_5_dist10_a2.nam
 - values:
-    preset: l9_h7_m7_mf7_8_dist3
+    level: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 3
+    take: a
   file: captures/l9_h7_m7_mf7_8_dist3_a2.nam
 - values:
-    preset: l9_h7_m7_mf7_8_dist5
+    level: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 5
+    take: a
   file: captures/l9_h7_m7_mf7_8_dist5_a2.nam
 - values:
-    preset: l9_h7_m7_mf7_8_dist7_8
+    level: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 7.8
+    take: a
   file: captures/l9_h7_m7_mf7_8_dist7_8_a2.nam
 - values:
-    preset: l9_h7_m7_mf7_8_dist10
+    level: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 10
+    take: a
   file: captures/l9_h7_m7_mf7_8_dist10_a2.nam

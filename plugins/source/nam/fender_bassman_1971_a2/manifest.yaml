@@ -1,7 +1,11 @@
 # Dropped constant token present in every capture name: "71 Bassman".
-# tone = the descriptive variant/voicing of each capture (channel, pedal, tube-swap, all-on setting).
-# eq = the amp's Volume/Treble/Bass knob string for that capture (V/T/B); "jumpered" for the two-channel
-#      jumpered captures (no single V/T/B triplet) and "none" for TS9-DS-1 Boosted (no V/T/B in its name).
+# tone = the descriptive variant/voicing of each capture (channel mode, pedal/tube-swap mod,
+#        all-on setting). It is the real "setting" descriptor, not capture metadata.
+# volume / treble / bass = the Bassman normal-channel knobs (V / T / B) for that capture, taken
+#        verbatim from the tone3000 model names. The old single `eq` axis packed all three knobs
+#        into one slug (e.g. v10_t10_b10) and is decomposed here into three numeric knob axes.
+#        For the two-channel jumpered captures the norm-channel V/T/B triplet is used.
+#        TS9-DS-1 Boosted has no EQ in its name; it uses the documented clean baseline (V5 T8 B5).
 manifest_version: 1
 id: nam_fender_bassman_1971_a2
 display_name: Bassman 1971
@@ -41,115 +45,171 @@ parameters:
   - jumpered_v6t8
   - jumpered_alt
   - warm_fuzz
-- name: eq
-  display_name: EQ
+- name: volume
+  display_name: Volume
   values:
-  - v10_t10_b10
-  - v5_t8_b5
-  - v5_t4_b3
-  - v7_t8_b5
-  - v5_t8_b3
-  - v5_t4_b4
-  - v10_t7_b4
-  - v5_t8_b4
-  - v7_t5_b5
-  - v7_t4_b4
-  - jumpered
-  - none
+  - 5
+  - 6
+  - 7
+  - 10
+- name: treble
+  display_name: Treble
+  values:
+  - 4
+  - 5
+  - 7
+  - 8
+  - 10
+- name: bass
+  display_name: Bass
+  values:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 10
 captures:
 - values:
-    eq: v10_t10_b10
     tone: v1_pulled
+    volume: 10
+    treble: 10
+    bass: 10
   file: captures/v1_pulled_v10_t10_b10_a2.nam
 - values:
-    eq: v5_t8_b5
     tone: mid_forward_clean
+    volume: 5
+    treble: 8
+    bass: 5
   file: captures/mid_forward_clean_wmxr_eq_v5_t8_b5_a2.nam
 - values:
-    eq: v5_t4_b3
     tone: warm_clean
+    volume: 5
+    treble: 4
+    bass: 3
   file: captures/warm_clean_v5_t4_b3_a2.nam
 - values:
-    eq: v10_t10_b10
     tone: all_on_5_bright
+    volume: 10
+    treble: 10
+    bass: 10
   file: captures/all_on_5_bright_v10_t10_b10_a2.nam
 - values:
-    eq: v7_t8_b5
     tone: sweet_spot
+    volume: 7
+    treble: 8
+    bass: 5
   file: captures/sweet_spot_v7_t8_b5_a2.nam
 - values:
-    eq: jumpered
     tone: jumpered_v6t10
+    volume: 6
+    treble: 10
+    bass: 1
   file: captures/norm_ch_v6_t10_b1_bright_jumpered_into_bass_ch_v8_t1_b10_a2.nam
 - values:
-    eq: v5_t8_b5
     tone: fd2_low
+    volume: 5
+    treble: 8
+    bass: 5
   file: captures/fd2_boosted_low_v5_t8_b5_a2.nam
 - values:
-    eq: v10_t10_b10
     tone: v1_pulled_12ax7
+    volume: 10
+    treble: 10
+    bass: 10
   file: captures/v1_pulled_12ax7_in_v4_v10_t10_b10_a2.nam
 - values:
-    eq: v5_t8_b3
     tone: fd2_high
+    volume: 5
+    treble: 8
+    bass: 3
   file: captures/fd2_boosted_high_v5_t8_b3_a2.nam
 - values:
-    eq: jumpered
     tone: jumpered_v6t8
+    volume: 6
+    treble: 8
+    bass: 1
   file: captures/norm_ch_v6_t8_b1_bright_jumpered_into_bass_ch_v8_t1_b8_a2.nam
 - values:
-    eq: none
     tone: ts9_ds1_boost
+    volume: 5
+    treble: 8
+    bass: 5
   file: captures/ts9_ds_1_boosted_a2.nam
 - values:
-    eq: v5_t4_b4
     tone: bright_clean
+    volume: 5
+    treble: 4
+    bass: 4
   file: captures/bright_clean_v5_t4_b4_a2.nam
 - values:
-    eq: v5_t8_b5
     tone: clean
+    volume: 5
+    treble: 8
+    bass: 5
   file: captures/clean_v5_t8_b5_a2.nam
 - values:
-    eq: v5_t8_b5
     tone: 80s_clean
+    volume: 5
+    treble: 8
+    bass: 5
   file: captures/80s_clean_v5_t8_b5_a2.nam
 - values:
-    eq: v10_t7_b4
     tone: cranked_fd2
+    volume: 10
+    treble: 7
+    bass: 4
   file: captures/cranked_and_fd2_boosted_v10_t7_b4_a2.nam
 - values:
-    eq: v10_t7_b4
     tone: cranked
+    volume: 10
+    treble: 7
+    bass: 4
   file: captures/cranked_v10_t7_b4_a2.nam
 - values:
-    eq: v5_t8_b4
     tone: fd2_mid
+    volume: 5
+    treble: 8
+    bass: 4
   file: captures/fd2_boosted_mid_v5_t8_b4_a2.nam
 - values:
-    eq: v7_t5_b5
     tone: big_clean
+    volume: 7
+    treble: 5
+    bass: 5
   file: captures/big_clean_v7_t5_b5_a2.nam
 - values:
-    eq: v10_t10_b10
     tone: all_on_5_norm
+    volume: 10
+    treble: 10
+    bass: 10
   file: captures/all_on_5_norm_v10_t10_b10_a2.nam
 - values:
-    eq: v10_t10_b10
     tone: all_on_10_norm
+    volume: 10
+    treble: 10
+    bass: 10
   file: captures/all_on_10_norm_v10_t10_b10_a2.nam
 - values:
-    eq: jumpered
     tone: jumpered_alt
+    volume: 6
+    treble: 8
+    bass: 1
   file: captures/jumpered_channels_norm_ch_v6_t8_b1_bright_into_bass_ch_v8_t1_b8_a2.nam
 - values:
-    eq: v10_t10_b10
     tone: all_on_10_bright
+    volume: 10
+    treble: 10
+    bass: 10
   file: captures/all_on_10_bright_v10_t10_b10_a2.nam
 - values:
-    eq: v7_t4_b4
     tone: warm_sweet_spot
+    volume: 7
+    treble: 4
+    bass: 4
   file: captures/warm_sweet_spot_v7_t4_b4_a2.nam
 - values:
-    eq: v5_t4_b4
     tone: warm_fuzz
+    volume: 5
+    treble: 4
+    bass: 4
   file: captures/warm_fuzz_v5_t4_b4_a2.nam
