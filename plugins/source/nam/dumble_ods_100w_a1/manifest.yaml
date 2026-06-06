@@ -7,11 +7,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - mayer_clean
+  - default
 captures:
 - values:
-    preset: mayer_clean
+    default: default
   file: captures/john_mayer_clean_001.nam

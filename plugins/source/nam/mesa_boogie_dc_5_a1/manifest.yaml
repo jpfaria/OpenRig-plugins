@@ -1,3 +1,4 @@
+# Single capture (Mesa DC-5, Black Shadow speaker, SM57 mic, full-range) — no varying control; collapsed to a default axis.
 manifest_version: 1
 id: nam_mesa_boogie_dc_5_a1
 display_name: DC-5
@@ -8,11 +9,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - black_shadow_sm57
+  - default
 captures:
 - values:
-    preset: black_shadow_sm57
+    default: default
   file: captures/mesa_dc_5_black_shadow_sm57_fr.nam

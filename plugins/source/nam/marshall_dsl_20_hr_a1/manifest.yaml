@@ -1,3 +1,6 @@
+# Dropped constant (identical across every capture): dsl800.
+# Grab-bag of channel/voicing captures -> single 'preset' axis.
+# clean / crunch / lead = amp channels; crunch_bad_horse = a named crunch variant.
 manifest_version: 1
 id: nam_marshall_dsl_20_hr_a1
 display_name: DSL 20 HR

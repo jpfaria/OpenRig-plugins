@@ -38,46 +38,46 @@ parameters:
 captures:
 - values:
     drive: 7
-    level: 9
     tone: 7
-  file: captures/itu7imwb6c_a2.nam
+    level: 9
+  file: captures/ibanez_ts9_tube_screamer_drive_7_tone_7_level_9_a2.nam
 - values:
     drive: 2
-    level: 10
     tone: 7
-  file: captures/746yyja6wrs_a2.nam
+    level: 10
+  file: captures/ibanez_ts9_tube_screamer_drive_2_tone_7_level_10_a2.nam
 - values:
     drive: 0
-    level: 6
     tone: 6
-  file: captures/39amrfqu1mj_a2.nam
+    level: 6
+  file: captures/ibanez_ts9_tube_screamer_drive_0_tone_6_level_6_a2.nam
 - values:
     drive: 8
-    level: 8
     tone: 8
-  file: captures/mvke3t7jcsk_a2.nam
+    level: 8
+  file: captures/ibanez_ts9_tube_screamer_drive_8_tone_8_level_8_a2.nam
 - values:
     drive: 10
-    level: 7
     tone: 9
-  file: captures/l4kq1oztmsk_a2.nam
+    level: 7
+  file: captures/ibanez_ts9_tube_screamer_drive_10_tone_9_level_7_a2.nam
 - values:
     drive: 8
-    level: 5
     tone: 4
-  file: captures/0i7e95mt1iae_a2.nam
+    level: 5
+  file: captures/ibanez_ts9_tube_screamer_drive_8_tone_4_level_5_a2.nam
 - values:
     drive: 0
-    level: 7
     tone: 7
-  file: captures/hgq0drws0sl_a2.nam
+    level: 7
+  file: captures/ibanez_ts9_tube_screamer_drive_0_tone_7_level_7_a2.nam
 - values:
     drive: 7
-    level: 7
     tone: 7
-  file: captures/hru6ayb72y_a2.nam
+    level: 7
+  file: captures/ibanez_ts9_tube_screamer_drive_7_tone_7_level_7_a2.nam
 - values:
     drive: 0
-    level: 9
     tone: 9
-  file: captures/2jiahriw4g2_a2.nam
+    level: 9
+  file: captures/ibanez_ts9_tube_screamer_drive_0_tone_9_level_9_a2.nam

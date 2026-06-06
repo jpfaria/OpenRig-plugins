@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): dumble, steel, ss (brand/amp slug).
 manifest_version: 1
 id: nam_dumble_steel_string_singer_a1
 display_name: Steel String Singer
@@ -12,8 +13,8 @@ parameters:
   values:
   - clean
   - drive
-- name: variant
-  display_name: Variant
+- name: voicing
+  display_name: Voicing
   values:
   - default
   - '1'
@@ -22,21 +23,21 @@ parameters:
 captures:
 - values:
     channel: clean
-    variant: default
+    voicing: default
   file: captures/dumble_steel_ss_clean.nam
 - values:
     channel: clean
-    variant: full
+    voicing: full
   file: captures/dumble_steel_ss_clean_full.nam
 - values:
     channel: drive
-    variant: '1'
+    voicing: '1'
   file: captures/dumble_steel_ss_drive_1.nam
 - values:
     channel: drive
-    variant: '2'
+    voicing: '2'
   file: captures/dumble_steel_ss_drive_2.nam
 - values:
     channel: drive
-    variant: full
+    voicing: full
   file: captures/dumble_steel_ss_drive_full.nam

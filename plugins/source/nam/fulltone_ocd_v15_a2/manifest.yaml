@@ -1,3 +1,4 @@
+# Constants across all captures (dropped): power 12v, V (volume) 5.00.
 manifest_version: 1
 id: nam_fulltone_ocd_v15_a2
 display_name: OCD v1.5
@@ -9,80 +10,80 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/46293
 parameters:
-- name: mode
-  display_name: Mode
+- name: tone
+  display_name: Tone
   values:
-  - lp
-  - hp
+  - 1.3
+  - 12
 - name: drive
   display_name: Drive
   values:
   - 3
   - 9
   - 12
-- name: tone
-  display_name: Tone
+- name: mode
+  display_name: Mode
   values:
-  - lo
-  - hi
+  - lp
+  - hp
 captures:
 - values:
+    tone: 12
     drive: 12
     mode: lp
-    tone: hi
-  file: captures/tfll0vmylm_a2.nam
+  file: captures/fulltone_ocd_v15_t12_d12_lp_a2.nam
 - values:
+    tone: 12
     drive: 3
     mode: lp
-    tone: hi
-  file: captures/ejfhc3700jq_a2.nam
+  file: captures/fulltone_ocd_v15_t12_d3_lp_a2.nam
 - values:
+    tone: 12
     drive: 9
     mode: lp
-    tone: hi
-  file: captures/3c1yh45s657_a2.nam
+  file: captures/fulltone_ocd_v15_t12_d9_lp_a2.nam
 - values:
+    tone: 1.3
     drive: 9
     mode: hp
-    tone: lo
-  file: captures/dodvu24ek44_a2.nam
+  file: captures/fulltone_ocd_v15_t1_3_d9_hp_a2.nam
 - values:
+    tone: 1.3
     drive: 12
     mode: hp
-    tone: lo
-  file: captures/n553hrz18i_a2.nam
+  file: captures/fulltone_ocd_v15_t1_3_d12_hp_a2.nam
 - values:
+    tone: 12
     drive: 9
     mode: hp
-    tone: hi
-  file: captures/i7mk4fpwpo_a2.nam
+  file: captures/fulltone_ocd_v15_t12_d9_hp_a2.nam
 - values:
+    tone: 1.3
     drive: 3
     mode: lp
-    tone: lo
-  file: captures/z6qyqveh6d_a2.nam
+  file: captures/fulltone_ocd_v15_t1_3_d3_lp_a2.nam
 - values:
+    tone: 12
     drive: 12
     mode: hp
-    tone: hi
-  file: captures/5agaqaqzn0r_a2.nam
+  file: captures/fulltone_ocd_v15_t12_d12_hp_a2.nam
 - values:
+    tone: 1.3
     drive: 3
     mode: hp
-    tone: lo
-  file: captures/3pu1co7zhh9_a2.nam
+  file: captures/fulltone_ocd_v15_t1_3_d3_hp_a2.nam
 - values:
+    tone: 1.3
     drive: 9
     mode: lp
-    tone: lo
-  file: captures/ww9lic0s33_a2.nam
+  file: captures/fulltone_ocd_v15_t1_3_d9_lp_a2.nam
 - values:
+    tone: 12
     drive: 3
     mode: hp
-    tone: hi
-  file: captures/0ykep8lk1vb_a2.nam
+  file: captures/fulltone_ocd_v15_t12_d3_hp_a2.nam
 - values:
+    tone: 1.3
     drive: 12
     mode: lp
-    tone: lo
-  file: captures/hfx8w4eygdu_a2.nam
+  file: captures/fulltone_ocd_v15_t1_3_d12_lp_a2.nam

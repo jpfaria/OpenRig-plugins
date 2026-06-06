@@ -7,11 +7,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - preset_3
+  - default
 captures:
 - values:
-    preset: preset_3
+    default: default
   file: captures/wizard_hellrazor_3.nam

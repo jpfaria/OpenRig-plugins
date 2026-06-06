@@ -17,72 +17,73 @@ parameters:
   - crunch
   - hg
   - od
-- name: gain_level
+- name: gain
+  display_name: Gain
   values:
-  - g3
-  - g5
-  - g7
-  - g9
-  - g1
-  - g8
+  - 1
+  - 3
+  - 5
+  - 7
+  - 8
+  - 9
 captures:
 - values:
-    gain_level: g3
     voicing: clean
+    gain: 3
   file: captures/clean_g3.nam
 - values:
-    gain_level: g5
     voicing: clean
+    gain: 5
   file: captures/clean_g5.nam
 - values:
-    gain_level: g7
     voicing: clean
+    gain: 7
   file: captures/clean_g7.nam
 - values:
-    gain_level: g9
     voicing: clean
+    gain: 9
   file: captures/clean_g9.nam
 - values:
-    gain_level: g1
     voicing: crunch
+    gain: 1
   file: captures/crunch_g1.nam
 - values:
-    gain_level: g3
     voicing: crunch
+    gain: 3
   file: captures/crunch_g3.nam
 - values:
-    gain_level: g5
     voicing: crunch
+    gain: 5
   file: captures/crunch_g5.nam
 - values:
-    gain_level: g7
     voicing: crunch
+    gain: 7
   file: captures/crunch_g7.nam
 - values:
-    gain_level: g8
     voicing: crunch
+    gain: 8
   file: captures/crunch_g8.nam
 - values:
-    gain_level: g3
     voicing: hg
+    gain: 3
   file: captures/hg_g3.nam
 - values:
-    gain_level: g7
     voicing: hg
+    gain: 7
   file: captures/hg_g7.nam
 - values:
-    gain_level: g1
     voicing: od
+    gain: 1
   file: captures/od_g1.nam
 - values:
-    gain_level: g3
     voicing: od
+    gain: 3
   file: captures/od_g3.nam
 - values:
-    gain_level: g5
     voicing: od
+    gain: 5
   file: captures/od_g5.nam
 - values:
-    gain_level: g7
     voicing: od
+    gain: 7
   file: captures/od_g7.nam

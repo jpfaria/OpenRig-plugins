@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): syn20ir, k_kali (capturer).
+# Varying token = Synergy SYN-1 swappable module / voicing.
 manifest_version: 1
 id: nam_synergy_syn1_a1
 display_name: SYN-1 Chassis

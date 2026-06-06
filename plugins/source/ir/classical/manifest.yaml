@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): position/room = ambu2f
 manifest_version: 1
 id: ir_classical
 display_name: Classical Guitar
@@ -5,22 +6,22 @@ brand: ''
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: mic
+  display_name: Mic
   values:
-  - classical_ambu2f_akg_cs1000
-  - classical_ambu2f_dpa_4011
-  - classical_ambu2f_neumann_m147
+  - akg_cs1000
+  - dpa_4011
+  - neumann_m147
 captures:
 - values:
-    voicing: classical_ambu2f_akg_cs1000
+    mic: akg_cs1000
   file: ir/classical_ambu2f_akg_cs1000.wav
   output_gain_db: -22.3985558
 - values:
-    voicing: classical_ambu2f_dpa_4011
+    mic: dpa_4011
   file: ir/classical_ambu2f_dpa_4011.wav
   output_gain_db: -25.4852962
 - values:
-    voicing: classical_ambu2f_neumann_m147
+    mic: neumann_m147
   file: ir/classical_ambu2f_neumann_m147.wav
   output_gain_db: -17.1647415

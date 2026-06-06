@@ -1,3 +1,4 @@
+# Constant across all captures: brand/model prefix "ST_RAT_".
 manifest_version: 1
 id: nam_proco_rat_a2
 display_name: RAT
@@ -12,29 +13,29 @@ parameters:
 - name: dist
   display_name: Distortion
   values:
-  - d0900
-  - d1100
-  - d1300
-  - dmax
+  - p0900
+  - p1100
+  - p1300
+  - max
 - name: filter
   display_name: Filter
   values:
-  - 1.2
-  - 1.3
+  - 1200
+  - 1300
 captures:
 - values:
-    dist: d0900
-    filter: 1.2
-  file: captures/70gax1dujr9_a2.nam
+    dist: p0900
+    filter: 1200
+  file: captures/rat_dist_0900_filter_1200_a2.nam
 - values:
-    dist: d1100
-    filter: 1.3
-  file: captures/mzq9mng1xi_a2.nam
+    dist: p1100
+    filter: 1300
+  file: captures/rat_dist_1100_filter_1300_a2.nam
 - values:
-    dist: dmax
-    filter: 1.2
-  file: captures/i3c2uwi3oj7_a2.nam
+    dist: max
+    filter: 1200
+  file: captures/rat_dist_max_filter_1200_a2.nam
 - values:
-    dist: d1300
-    filter: 1.2
-  file: captures/wdpwdfaw22_a2.nam
+    dist: p1300
+    filter: 1200
+  file: captures/rat_dist_1300_filter_1200_a2.nam

@@ -1,3 +1,4 @@
+# Single capture; constant token dropped: channel=lead
 manifest_version: 1
 id: nam_engl_thunder_50_a1
 display_name: Thunder 50
@@ -10,7 +11,10 @@ output_gain_db: 0.0000000
 type: preamp
 backend: nam
 architecture: A1
-parameters: []
+parameters:
+- name: default
+  values: [default]
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/lead.nam

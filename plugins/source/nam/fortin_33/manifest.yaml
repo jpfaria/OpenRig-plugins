@@ -1,3 +1,4 @@
+# dropped constants (identical across all captures): ob1, evh, full_rig
 manifest_version: 1
 id: nam_fortin_33
 display_name: '33'
@@ -15,32 +16,32 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - fortin_33
-  - tc_805
-  - tc_spark
-  - precision_drive
+  - f33
+  - "805"
+  - spark
+  - precision
 captures:
 - values:
-    boost: fortin_33
     channel: blue
+    boost: f33
   file: captures/ob1_evh_blue_fortin_33_full_rig.nam
 - values:
-    boost: tc_805
     channel: blue
+    boost: "805"
   file: captures/ob1_evh_blue_805_full_rig.nam
 - values:
-    boost: precision_drive
     channel: blue
+    boost: precision
   file: captures/ob1_evh_blue_precision_drive_full_rig.nam
 - values:
-    boost: fortin_33
     channel: red
+    boost: f33
   file: captures/ob1_evh_red_fortin_33_full_rig.nam
 - values:
-    boost: tc_spark
     channel: red
+    boost: spark
   file: captures/ob1_evh_red_tc_spark_full_rig.nam
 - values:
-    boost: precision_drive
     channel: red
+    boost: precision
   file: captures/ob1_evh_red_precision_drive_full_rig.nam

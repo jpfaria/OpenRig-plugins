@@ -8,6 +8,7 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# dropped constants across all captures: brand token "splawn", "7M"
 parameters:
 - name: voicing
   display_name: Voicing
@@ -18,46 +19,46 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - '3'
-  - '5'
+  - 3
+  - 5
 - name: mids
   display_name: Mids
   values:
-  - '3'
-  - '5'
+  - 3
+  - 5
 captures:
 - values:
-    gain: '3'
-    mids: '3'
     voicing: normal
+    gain: 3
+    mids: 3
   file: captures/splawn3g7m_mids_3.nam
 - values:
-    gain: '3'
-    mids: '5'
     voicing: normal
+    gain: 3
+    mids: 5
   file: captures/splawn3g7m_mids_5.nam
 - values:
-    gain: '5'
-    mids: '5'
     voicing: normal
+    gain: 5
+    mids: 5
   file: captures/splawn5g7m_mids_5.nam
 - values:
-    gain: '3'
-    mids: '5'
     voicing: hg
+    gain: 3
+    mids: 5
   file: captures/splawn_hg3g7m_mids5.nam
 - values:
-    gain: '5'
-    mids: '5'
     voicing: hg
+    gain: 5
+    mids: 5
   file: captures/splawn_hg5g7m_mids5.nam
 - values:
-    gain: '3'
-    mids: '5'
     voicing: hgt
+    gain: 3
+    mids: 5
   file: captures/splawnhgt3g7m.nam
 - values:
-    gain: '5'
-    mids: '5'
     voicing: hgt
+    gain: 5
+    mids: 5
   file: captures/splawnhgt5g7m.nam

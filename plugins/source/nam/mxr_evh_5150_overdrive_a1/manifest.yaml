@@ -7,15 +7,15 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: boost
+  display_name: Boost
   values:
-  - off
-  - on
+  - disengaged
+  - engaged
 captures:
 - values:
-    tone: off
+    boost: disengaged
   file: captures/mxr_evh_5150_overdrive_boost_off.nam
 - values:
-    tone: on
+    boost: engaged
   file: captures/mxr_evh_5150_overdrive_boost_on.nam

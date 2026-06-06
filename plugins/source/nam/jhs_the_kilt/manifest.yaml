@@ -12,20 +12,28 @@ parameters:
 - name: mode
   display_name: Mode
   values:
-  - v1_fuzz_g3
-  - v2_od_g3
-  - v2_od_g5
-  - v2_od_g10
+  - v1_fuzz
+  - v2_od
+- name: gain
+  display_name: Gain
+  values:
+  - 3
+  - 5
+  - 10
 captures:
 - values:
-    mode: v2_od_g10
-  file: captures/zusft5bycpq.nam
+    mode: v1_fuzz
+    gain: 3
+  file: captures/kilt_v1_fuzz_gain_3.nam
 - values:
-    mode: v1_fuzz_g3
-  file: captures/91mjjgbxydl.nam
+    mode: v2_od
+    gain: 3
+  file: captures/kilt_v2_od_gain_3.nam
 - values:
-    mode: v2_od_g3
-  file: captures/yxqy9j4xe9h.nam
+    mode: v2_od
+    gain: 5
+  file: captures/kilt_v2_od_gain_5.nam
 - values:
-    mode: v2_od_g5
-  file: captures/alj6cld9pfw.nam
+    mode: v2_od
+    gain: 10
+  file: captures/kilt_v2_od_gain_10.nam

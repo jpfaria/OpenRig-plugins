@@ -1,3 +1,4 @@
+# Constant dropped from capture names: brand "Koch", model "Multitone50".
 manifest_version: 1
 id: nam_koch_multitone_50_a2
 display_name: Multitone 50
@@ -15,42 +16,42 @@ parameters:
   - clean
   - crunch
   - od
-- name: variant
-  display_name: Variant
+- name: preset
+  display_name: Preset
   values:
   - 1
   - 2
   - 3
 captures:
 - values:
-    variant: 1
-    voicing: od
-  file: captures/0156c87e5ba80c22_a2.nam
-- values:
-    variant: 3
-    voicing: crunch
-  file: captures/c57a182b17840098_a2.nam
-- values:
-    variant: 2
-    voicing: od
-  file: captures/7915a2cc1f899dc0_a2.nam
-- values:
-    variant: 2
-    voicing: crunch
-  file: captures/217c3cf8dbf625f0_a2.nam
-- values:
-    variant: 1
-    voicing: crunch
-  file: captures/0b95529b3b3dfd53_a2.nam
-- values:
-    variant: 1
+    preset: 1
     voicing: clean
-  file: captures/fed018709ff6b99e_a2.nam
+  file: captures/koch_multitone50_clean_1_a2.nam
 - values:
-    variant: 2
+    preset: 2
     voicing: clean
-  file: captures/e5c53b7bdf68ca26_a2.nam
+  file: captures/koch_multitone50_clean_2_a2.nam
 - values:
-    variant: 3
+    preset: 1
+    voicing: crunch
+  file: captures/koch_multitone50_crunch_1_a2.nam
+- values:
+    preset: 2
+    voicing: crunch
+  file: captures/koch_multitone50_crunch_2_a2.nam
+- values:
+    preset: 3
+    voicing: crunch
+  file: captures/koch_multitone50_crunch_3_a2.nam
+- values:
+    preset: 1
     voicing: od
-  file: captures/7b562b766d910842_a2.nam
+  file: captures/koch_multitone50_od_1_a2.nam
+- values:
+    preset: 2
+    voicing: od
+  file: captures/koch_multitone50_od_2_a2.nam
+- values:
+    preset: 3
+    voicing: od
+  file: captures/koch_multitone50_od_3_a2.nam

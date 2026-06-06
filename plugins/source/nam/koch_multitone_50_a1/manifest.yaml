@@ -10,48 +10,39 @@ type: preamp
 backend: nam
 architecture: A1
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - clean
-  - crunch
-  - od
-- name: variant
-  display_name: Variant
-  values:
-  - '1'
-  - '2'
-  - '3'
+  - clean 1
+  - clean 2
+  - crunch 1
+  - crunch 2
+  - crunch 3
+  - od 1
+  - od 2
+  - od 3
 captures:
 - values:
-    variant: '1'
-    voicing: clean
+    preset: clean 1
   file: captures/clean_1.nam
 - values:
-    variant: '2'
-    voicing: clean
+    preset: clean 2
   file: captures/clean_2.nam
 - values:
-    variant: '1'
-    voicing: crunch
+    preset: crunch 1
   file: captures/crunch_1.nam
 - values:
-    variant: '2'
-    voicing: crunch
+    preset: crunch 2
   file: captures/crunch_2.nam
 - values:
-    variant: '3'
-    voicing: crunch
+    preset: crunch 3
   file: captures/crunch_3.nam
 - values:
-    variant: '1'
-    voicing: od
+    preset: od 1
   file: captures/od_1.nam
 - values:
-    variant: '2'
-    voicing: od
+    preset: od 2
   file: captures/od_2.nam
 - values:
-    variant: '3'
-    voicing: od
+    preset: od 3
   file: captures/od_3.nam

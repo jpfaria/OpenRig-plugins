@@ -1,3 +1,8 @@
+# Constant across all captures (dropped): the `engl_fireball` amp slug.
+# `boost` = pedal in front of the amp (none / ts9 / ts808 / line_driver /
+# precision_drive). `voicing` = amp EQ variant of the unboosted capture:
+# `mid` (mid control) and `presence_0` / `presence_9h` (presence knob at two
+# distinct positions) do not share a numeric scale, so this stays an enum.
 manifest_version: 1
 id: nam_engl_fireball
 display_name: Fireball

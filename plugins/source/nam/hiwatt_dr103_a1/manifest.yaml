@@ -6,6 +6,9 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Constant token dropped from all captures: hiwatt_dr103 (amp slug).
+# Names are a grab-bag of stock/edgy bridged-input captures and a pedal-stacked
+# high-gain capture -> no shared knob grid, so a single clean 'preset' axis.
 parameters:
 - name: preset
   display_name: Preset

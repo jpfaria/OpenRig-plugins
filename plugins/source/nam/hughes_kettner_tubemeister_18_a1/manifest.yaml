@@ -1,3 +1,4 @@
+# Single capture; dropped constant token: clean (voicing of the only capture)
 manifest_version: 1
 id: nam_hughes_kettner_tubemeister_18_a1
 display_name: Hughes Kettner TubeMeister 18
@@ -7,11 +8,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - clean
+  - default
 captures:
 - values:
-    preset: clean
+    default: default
   file: captures/hughes_kettner_clean.nam

@@ -8,19 +8,26 @@ output_gain_db: -12.9101162
 type: preamp
 backend: nam
 architecture: A2
+# Dropped constants across all captures: pre (preamp-only section), unnamed
+# (the "UNNAMED" preamp model), std (Standard architecture). Per the tone3000
+# description: input = Input switch (lo=Low / hi=High); pull_gain = "Pull Gain"
+# pull switch (down=clipping diodes engaged / up=no clipping diodes). The take
+# number (#01..#05) is capture metadata, not a control — it only disambiguates
+# repeated captures at the same input/pull_gain settings, so it is exposed as
+# a neutral 'preset' axis.
 parameters:
-- name: range
-  display_name: Range
+- name: input
+  display_name: Input
   values:
   - lo
   - hi
-- name: direction
-  display_name: Direction
+- name: pull_gain
+  display_name: Pull Gain
   values:
   - down
   - up
-- name: take
-  display_name: Take
+- name: preset
+  display_name: Preset
   values:
   - '01'
   - '02'
@@ -28,42 +35,42 @@ parameters:
   - '04'
 captures:
 - values:
-    direction: down
-    range: lo
-    take: '02'
+    input: lo
+    pull_gain: down
+    preset: '02'
   file: captures/pre_unnamed_lo_down_02_std.nam
 - values:
-    direction: down
-    range: lo
-    take: '03'
+    input: lo
+    pull_gain: down
+    preset: '03'
   file: captures/pre_unnamed_lo_down_03_std.nam
 - values:
-    direction: down
-    range: lo
-    take: '04'
+    input: lo
+    pull_gain: down
+    preset: '04'
   file: captures/pre_unnamed_lo_down_04_std.nam
 - values:
-    direction: up
-    range: lo
-    take: '01'
+    input: lo
+    pull_gain: up
+    preset: '01'
   file: captures/pre_unnamed_lo_up_01_std.nam
 - values:
-    direction: down
-    range: hi
-    take: '02'
+    input: hi
+    pull_gain: down
+    preset: '02'
   file: captures/pre_unnamed_hi_down_02_std.nam
 - values:
-    direction: down
-    range: hi
-    take: '04'
+    input: hi
+    pull_gain: down
+    preset: '04'
   file: captures/pre_unnamed_hi_down_04_std.nam
 - values:
-    direction: up
-    range: hi
-    take: '01'
+    input: hi
+    pull_gain: up
+    preset: '01'
   file: captures/pre_unnamed_hi_up_01_std.nam
 - values:
-    direction: up
-    range: hi
-    take: '04'
+    input: hi
+    pull_gain: up
+    preset: '04'
   file: captures/pre_unnamed_hi_up_04_std.nam

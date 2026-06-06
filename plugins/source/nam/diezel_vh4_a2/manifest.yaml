@@ -1,3 +1,4 @@
+# Constants dropped from axes (identical in every capture): all are "DI" direct captures.
 manifest_version: 1
 id: nam_diezel_vh4_a2
 display_name: VH4
@@ -12,13 +13,13 @@ parameters:
 - name: channel
   display_name: Channel
   values:
-  - 3
-  - 4
+  - ch3
+  - ch4
 - name: boost
   display_name: Boost
   values:
-  - false
-  - true
+  - 'off'
+  - 'on'
 - name: gain
   display_name: Gain
   values:
@@ -28,62 +29,62 @@ parameters:
   - high1
 captures:
 - values:
-    boost: false
-    channel: 3
+    channel: ch3
+    boost: 'off'
     gain: low1
-  file: captures/hhwpipaxpst_a2.nam
+  file: captures/dzlvh4_ch3_lowgain1_a2.nam
 - values:
-    boost: true
-    channel: 4
+    channel: ch4
+    boost: 'on'
     gain: low2
-  file: captures/pb3zwrer6m_a2.nam
+  file: captures/dzlvh4_ch4_ts808_lowgain2_a2.nam
 - values:
-    boost: true
-    channel: 3
+    channel: ch3
+    boost: 'on'
     gain: mid1
-  file: captures/exzcjiknlpv_a2.nam
+  file: captures/dzlvh4_ch3_ts808_midgain1_a2.nam
 - values:
-    boost: true
-    channel: 4
+    channel: ch4
+    boost: 'on'
     gain: high1
-  file: captures/gx04xs7my96_a2.nam
+  file: captures/dzlvh4_ch4_ts808_highgain1_a2.nam
 - values:
-    boost: false
-    channel: 4
+    channel: ch4
+    boost: 'off'
     gain: high1
-  file: captures/q0cs0nqhr6_a2.nam
+  file: captures/dzlvh4_ch4_highgain1_a2.nam
 - values:
-    boost: false
-    channel: 3
+    channel: ch3
+    boost: 'off'
     gain: mid1
-  file: captures/vj0iw18yqs_a2.nam
+  file: captures/dzlvh4_ch3_midgain1_a2.nam
 - values:
-    boost: false
-    channel: 4
+    channel: ch4
+    boost: 'off'
     gain: low1
-  file: captures/kmulurllzej_a2.nam
+  file: captures/dzlvh4_ch4_lowgain1_a2.nam
 - values:
-    boost: true
-    channel: 3
+    channel: ch3
+    boost: 'on'
     gain: low1
-  file: captures/wv0450pw9vf_a2.nam
+  file: captures/dzlvh4_ch3_ts808_lowgain1_a2.nam
 - values:
-    boost: true
-    channel: 4
+    channel: ch4
+    boost: 'on'
     gain: mid1
-  file: captures/zikmfryifuq_a2.nam
+  file: captures/dzlvh4_ch4_ts808_midgain1_a2.nam
 - values:
-    boost: false
-    channel: 3
+    channel: ch3
+    boost: 'off'
     gain: high1
-  file: captures/ksmgt1n8uxl_a2.nam
+  file: captures/dzlvh4_ch3_highgain1_a2.nam
 - values:
-    boost: true
-    channel: 3
+    channel: ch3
+    boost: 'on'
     gain: high1
-  file: captures/86r5pz8l9wg_a2.nam
+  file: captures/dzlvh4_ch3_ts808_highgain1_a2.nam
 - values:
-    boost: false
-    channel: 4
+    channel: ch4
+    boost: 'off'
     gain: mid1
-  file: captures/799pdqv52ly_a2.nam
+  file: captures/dzlvh4_ch4_midgain1_a2.nam

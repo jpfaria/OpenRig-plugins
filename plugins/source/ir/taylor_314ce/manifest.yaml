@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: taylor_314ce (the body model, already in id/display_name/brand).
 manifest_version: 1
 id: ir_taylor_314ce
 display_name: 314ce
@@ -6,42 +7,42 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: mic
+  display_name: Mic
   values:
-  - taylor_314ce_dpa_4011
-  - taylor_314ce_earthworks_qtc30
-  - taylor_314ce_neumann_m147
-  - taylor_314ce_neumann_u87
-  - taylor_314ce_scheops_cmc64g
-  - taylor_314ce_shure_sm57
-  - taylor_314ce_soundelux_e47
+  - dpa_4011
+  - earthworks_qtc30
+  - neumann_m147
+  - neumann_u87
+  - scheops_cmc64g
+  - shure_sm57
+  - soundelux_e47
 captures:
 - values:
-    voicing: taylor_314ce_dpa_4011
+    mic: dpa_4011
   file: ir/taylor_314ce_dpa_4011.wav
   output_gain_db: -24.7559605
 - values:
-    voicing: taylor_314ce_earthworks_qtc30
+    mic: earthworks_qtc30
   file: ir/taylor_314ce_earthworks_qtc30.wav
   output_gain_db: -33.6791458
 - values:
-    voicing: taylor_314ce_neumann_m147
+    mic: neumann_m147
   file: ir/taylor_314ce_neumann_m147.wav
   output_gain_db: -25.1549892
 - values:
-    voicing: taylor_314ce_neumann_u87
+    mic: neumann_u87
   file: ir/taylor_314ce_neumann_u87.wav
   output_gain_db: -23.0548840
 - values:
-    voicing: taylor_314ce_scheops_cmc64g
+    mic: scheops_cmc64g
   file: ir/taylor_314ce_scheops_cmc64g.wav
   output_gain_db: -25.0810032
 - values:
-    voicing: taylor_314ce_shure_sm57
+    mic: shure_sm57
   file: ir/taylor_314ce_shure_sm57.wav
   output_gain_db: -23.2601891
 - values:
-    voicing: taylor_314ce_soundelux_e47
+    mic: soundelux_e47
   file: ir/taylor_314ce_soundelux_e47.wav
   output_gain_db: -22.4466763

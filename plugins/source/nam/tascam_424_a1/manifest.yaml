@@ -1,3 +1,4 @@
+# Dropped constant token: "tascam" (amp/preamp name, identical in every capture).
 manifest_version: 1
 id: nam_tascam_424_a1
 display_name: Tascam 424 Preamp
@@ -10,19 +11,19 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - '7'
-  - '8'
-  - '9'
+  - 7
+  - 8
+  - 9
   - max
 captures:
 - values:
-    gain: '7'
+    gain: 7
   file: captures/tascam_g7.nam
 - values:
-    gain: '8'
+    gain: 8
   file: captures/tascam_g8.nam
 - values:
-    gain: '9'
+    gain: 9
   file: captures/tascam_g9.nam
 - values:
     gain: max

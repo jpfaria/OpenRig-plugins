@@ -1,3 +1,4 @@
+# Single capture — fixed: jmp_1 amp, od2 channel, v30 speaker, full_rig.
 manifest_version: 1
 id: nam_marshall_jmp_1_full_rig_a1
 display_name: JMP-1 Full Rig
@@ -7,7 +8,11 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/jmp_1_od2_v30_full_rig.nam

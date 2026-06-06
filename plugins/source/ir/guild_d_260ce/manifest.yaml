@@ -5,28 +5,30 @@ brand: guild
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
+# Constant tokens dropped from every capture name: guild_d_260ce (model slug), 48000 (sample rate).
+# The variants do not factor into real control axes, so they collapse into a single 'preset' axis.
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - guild_d_260ce_48000
-  - guild_d_260ce_48000_bld
-  - guild_d_260ce_48000_jf_flavor
-  - guild_d_260ce_48000_match
+  - stock
+  - bld
+  - jf_flavor
+  - match
 captures:
 - values:
-    voicing: guild_d_260ce_48000
+    preset: stock
   file: ir/guild_d_260ce_48000.wav
   output_gain_db: -28.0417900
 - values:
-    voicing: guild_d_260ce_48000_bld
+    preset: bld
   file: ir/guild_d_260ce_48000_bld.wav
   output_gain_db: -25.7107868
 - values:
-    voicing: guild_d_260ce_48000_jf_flavor
+    preset: jf_flavor
   file: ir/guild_d_260ce_48000_jf_flavor.wav
   output_gain_db: -24.7873898
 - values:
-    voicing: guild_d_260ce_48000_match
+    preset: match
   file: ir/guild_d_260ce_48000_match.wav
   output_gain_db: -26.4112148

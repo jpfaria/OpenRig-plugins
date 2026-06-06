@@ -1,3 +1,5 @@
+# Descriptive IR filenames. Dropped constants across all captures: amp/cab identity (ampeg/svt/8x10) and take suffix "_3".
+# Two varying axes: mic (microphone selector) and position (mic placement / DI tap).
 manifest_version: 1
 id: ir_ampeg_svt_8x10
 display_name: SVT 4x10/8x10
@@ -12,8 +14,8 @@ parameters:
   display_name: Mic
   values:
   - d6
-  - '57'
-  - '4033'
+  - 57
+  - 4033
   - e602
   - beta52
   - neumann
@@ -31,17 +33,17 @@ captures:
   file: ir/ampeg_8x10_d6_ah_3.wav
   output_gain_db: -25.9187469
 - values:
-    mic: '57'
+    mic: 57
     position: ah
   file: ir/ampeg_8x10_57_ah_3.wav
   output_gain_db: -24.9383183
 - values:
-    mic: '4033'
+    mic: 4033
     position: ah
   file: ir/ampeg_8x10_4033_ah_3.wav
   output_gain_db: -24.1218433
 - values:
-    mic: '4033'
+    mic: 4033
     position: a107
   file: ir/ampeg_8x10_4033_a107_3.wav
   output_gain_db: -23.1266117

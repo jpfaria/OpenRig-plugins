@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): amp = clubman, master = 12.
 manifest_version: 1
 id: nam_matchless_clubman_35_head_a1
 display_name: Matchless Clubman 35 head
@@ -20,24 +21,68 @@ parameters:
   values:
   - lo
   - hi
+- name: volume
+  display_name: Volume
+  values:
+  - 3
+  - 4
+  - 10
+  - 12
+- name: bass
+  display_name: Bass
+  values:
+  - 9
+  - 10
+  - 10.5
+- name: treble
+  display_name: Treble
+  values:
+  - 11
+  - 12
+- name: bright
+  display_name: Bright
+  values:
+  - 1
+  - 10
+  - 11
 captures:
 - values:
-    input: hi
     voicing: ssr_lead_2
+    input: hi
+    volume: 3
+    bass: 10
+    treble: 12
+    bright: 10
   file: captures/clubman_ssr_lead_2_hi_v03_b10_t12_br10_ma12.nam
 - values:
-    input: lo
     voicing: ssr_lead
+    input: lo
+    volume: 4
+    bass: 9
+    treble: 11
+    bright: 10
   file: captures/clubman_ssr_lead_lo_v04_b09_t11_br10_ma12.nam
 - values:
-    input: lo
     voicing: ssr_push
+    input: lo
+    volume: 12
+    bass: 10.5
+    treble: 12
+    bright: 11
   file: captures/clubman_ssr_push_lo_v12_b10_5_t12_br11_ma12.nam
 - values:
-    input: lo
     voicing: ssr_eob
+    input: lo
+    volume: 10
+    bass: 10.5
+    treble: 12
+    bright: 11
   file: captures/clubman_ssr_eob_lo_v10_b10_5_t12_br11_ma12.nam
 - values:
-    input: lo
     voicing: bright_push
+    input: lo
+    volume: 12
+    bass: 10
+    treble: 12
+    bright: 1
   file: captures/clubman_bright_push_lo_v12_b10_t12_br01_m12.nam

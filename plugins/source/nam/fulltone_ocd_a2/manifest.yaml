@@ -1,3 +1,4 @@
+# Dropped constant across all captures: volume (V1030, i.e. 10.30).
 manifest_version: 1
 id: nam_fulltone_ocd_a2
 display_name: OCD Overdrive
@@ -24,86 +25,86 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - 1_30
+  - 1.3
   - 3
   - 5
   - 7
   - 9
-  - 10_30
+  - 10.3
   - 12
 captures:
 - values:
     drive: 7
     mode: hp
     tone: 12
-  file: captures/zmcw43oqgib_a2.nam
+  file: captures/ocd_v2_t1200_d700_hp_a2.nam
 - values:
-    drive: 10_30
+    drive: 10.3
     mode: lp
     tone: 3
-  file: captures/s7nfxskyai_a2.nam
+  file: captures/ocd_v2_t300_d1030_lp_a2.nam
 - values:
-    drive: 1_30
+    drive: 1.3
     mode: hp
     tone: 9
-  file: captures/0vij36mfw4ng_a2.nam
+  file: captures/ocd_v2_t900_d130_hp_a2.nam
 - values:
     drive: 5
     mode: hp
     tone: 12
-  file: captures/sta3jghvqn_a2.nam
+  file: captures/ocd_v2_t1200_d500_hp_a2.nam
 - values:
-    drive: 10_30
+    drive: 10.3
     mode: hp
     tone: 12
-  file: captures/td7egk4fxq_a2.nam
+  file: captures/ocd_v2_t1200_d1030_hp_a2.nam
 - values:
     drive: 9
     mode: hp
     tone: 12
-  file: captures/90lrmr119ku_a2.nam
+  file: captures/ocd_v2_t1200_d900_hp_a2.nam
 - values:
     drive: 5
     mode: lp
     tone: 3
-  file: captures/rpelr5wyjqa_a2.nam
+  file: captures/ocd_v2_t300_d500_lp_a2.nam
 - values:
     drive: 12
     mode: hp
     tone: 12
-  file: captures/fq138d074jj_a2.nam
+  file: captures/ocd_v2_t1200_d1200_hp_a2.nam
 - values:
     drive: 7
     mode: lp
     tone: 5
-  file: captures/3psc6vfoe3k_a2.nam
+  file: captures/ocd_v2_t500_d700_lp_a2.nam
 - values:
     drive: 3
     mode: hp
     tone: 12
-  file: captures/ph6ph4xdy6_a2.nam
+  file: captures/ocd_v2_t1200_d300_hp_a2.nam
 - values:
-    drive: 1_30
+    drive: 1.3
     mode: lp
     tone: 3
-  file: captures/3zqgkycfenr_a2.nam
+  file: captures/ocd_v2_t300_d130_lp_a2.nam
 - values:
     drive: 9
     mode: lp
     tone: 3
-  file: captures/y37wojxw8ya_a2.nam
+  file: captures/ocd_v2_t300_d900_lp_a2.nam
 - values:
     drive: 12
     mode: lp
     tone: 3
-  file: captures/oi6awk2efz_a2.nam
+  file: captures/ocd_v2_t300_d1200_lp_a2.nam
 - values:
     drive: 3
     mode: lp
     tone: 3
-  file: captures/zgkafn7mggj_a2.nam
+  file: captures/ocd_v2_t300_d300_lp_a2.nam
 - values:
-    drive: 1_30
+    drive: 1.3
     mode: hp
     tone: 12
-  file: captures/hrkmb0dh1v_a2.nam
+  file: captures/ocd_v2_t1200_d130_hp_a2.nam

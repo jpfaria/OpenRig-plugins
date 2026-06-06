@@ -6,20 +6,25 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Three captures of the same single-knob (Level) pedal; original filenames
+# (clone / clone_1 / clone_2) carried no settings and the embedded NAM name
+# ("1981 inv") is constant across all three. Labelled by the pedal Level knob,
+# tiered from the captures' measured loudness (clone -6.70 LUFS = high,
+# clone_2 -14.09 = mid, clone_1 -16.58 = low).
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Level
   values:
-  - clone
-  - clone_1
-  - clone_2
+  - low
+  - mid
+  - high
 captures:
 - values:
-    tone: clone
-  file: captures/eqd_acapulco_gold_clone.nam
+    preset: low
+  file: captures/eqd_acapulco_gold_level_low_a1.nam
 - values:
-    tone: clone_1
-  file: captures/eqd_acapulco_gold_clone_1.nam
+    preset: mid
+  file: captures/eqd_acapulco_gold_level_mid_a1.nam
 - values:
-    tone: clone_2
-  file: captures/eqd_acapulco_gold_clone_2.nam
+    preset: high
+  file: captures/eqd_acapulco_gold_level_high_a1.nam

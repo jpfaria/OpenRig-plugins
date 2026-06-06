@@ -8,20 +8,22 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/40366
+# Captured at Gain 1, Tone 5, Level 5 (constant across all three); only the
+# 3-position clipping Channel switch varies.
 parameters:
-- name: mode
-  display_name: Mode
+- name: channel
+  display_name: Channel
   values:
-  - ch1
-  - ch2
-  - ch3
+  - 1
+  - 2
+  - 3
 captures:
 - values:
-    mode: ch1
-  file: captures/2wi8hcm0nbf_a2.nam
+    channel: 1
+  file: captures/plumes_ch1_g1_t5_l5_a2.nam
 - values:
-    mode: ch2
-  file: captures/58jj6cby2u4_a2.nam
+    channel: 2
+  file: captures/plumes_ch2_g1_t5_l5_a2.nam
 - values:
-    mode: ch3
-  file: captures/moj7bnwsmv_a2.nam
+    channel: 3
+  file: captures/plumes_ch3_g1_t5_l5_a2.nam

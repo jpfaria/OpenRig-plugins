@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): martin_hd_28, ta_amulet, 48000 (sample rate), cuki (capturer)
+# Axis 'flavor' = IR voicing variant: standard (base), blend (bld), match (matcheq3), jf (jf_flavor)
 manifest_version: 1
 id: ir_martin_hd_28_2014_ta_amulet
 display_name: HD-28 2014 TA Amulet

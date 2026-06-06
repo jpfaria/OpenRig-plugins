@@ -1,3 +1,7 @@
+# Marshall GV-2 Guv'Nor Plus captures (tone3000 id 65163).
+# Real control names from the model titles: Gain, Bass, Deep, Treble, Mid (0-10 knobs).
+# Dropped constant prefix present in every capture name: "DRPS Marshall GV-2 Guv'Nor Plus".
+# "everything_noon" = the "Everything at 12 o'clock" capture: all five knobs at center (5).
 manifest_version: 1
 id: nam_marshall_guvnor_a2
 display_name: Marshall Guvnor
@@ -22,106 +26,193 @@ parameters:
   - 7
   - 7.5
   - 10
-- name: eq
-  display_name: EQ
+- name: bass
+  display_name: Bass
   values:
-  - max
-  - bright
-  - dark_mid
-  - deep_scoop
-  - flat5
-  - dark_deep
-  - noon
+  - 0
+  - 5
+  - 7
+  - 10
+- name: deep
+  display_name: Deep
+  values:
+  - 0
+  - 5
+  - 9
+  - 10
+- name: treble
+  display_name: Treble
+  values:
+  - 0
+  - 5
+  - 8
+  - 10
+- name: mid
+  display_name: Mid
+  values:
+  - 0
+  - 3
+  - 5
+  - 10
 captures:
 - values:
-    eq: max
     gain: 7
-  file: captures/48a31rr9tak_a2.nam
+    bass: 10
+    deep: 10
+    treble: 10
+    mid: 10
+  file: captures/gain_7_bass_10_deep_10_treble_10_mid_10_a2.nam
 - values:
-    eq: dark_mid
     gain: 3
-  file: captures/6t75paze735_a2.nam
+    bass: 7
+    deep: 0
+    treble: 0
+    mid: 10
+  file: captures/gain_3_bass_7_deep_0_treble_0_mid_10_a2.nam
 - values:
-    eq: dark_mid
     gain: 5
-  file: captures/dgiwu1xxq3d_a2.nam
+    bass: 7
+    deep: 0
+    treble: 0
+    mid: 10
+  file: captures/gain_5_bass_7_deep_0_treble_0_mid_10_a2.nam
 - values:
-    eq: deep_scoop
     gain: 5.2
-  file: captures/nwwvnbdfcm_a2.nam
+    bass: 5
+    deep: 10
+    treble: 8
+    mid: 3
+  file: captures/gain_5_2_bass_5_deep_10_treble_8_mid_3_a2.nam
 - values:
-    eq: flat5
     gain: 6
-  file: captures/pkl2q121ofm_a2.nam
+    bass: 5
+    deep: 5
+    treble: 5
+    mid: 5
+  file: captures/gain_6_bass_5_deep_5_treble_5_mid_5_a2.nam
 - values:
-    eq: bright
     gain: 10
-  file: captures/u4d0ilrsg4_a2.nam
+    bass: 0
+    deep: 0
+    treble: 10
+    mid: 10
+  file: captures/gain_10_bass_0_deep_0_treble_10_mid_10_a2.nam
 - values:
-    eq: dark_deep
     gain: 10
-  file: captures/494sg1arl4y_a2.nam
+    bass: 10
+    deep: 9
+    treble: 0
+    mid: 0
+  file: captures/gain_10_bass_10_deep_9_treble_0_mid_0_a2.nam
 - values:
-    eq: dark_mid
     gain: 10
-  file: captures/3sa1bd6k4m5_a2.nam
+    bass: 7
+    deep: 0
+    treble: 0
+    mid: 10
+  file: captures/gain_10_bass_7_deep_0_treble_0_mid_10_a2.nam
 - values:
-    eq: max
     gain: 5
-  file: captures/d0sfqqfmcvn_a2.nam
+    bass: 10
+    deep: 10
+    treble: 10
+    mid: 10
+  file: captures/gain_5_bass_10_deep_10_treble_10_mid_10_a2.nam
 - values:
-    eq: bright
     gain: 7
-  file: captures/6ah12q2r9as_a2.nam
+    bass: 0
+    deep: 0
+    treble: 10
+    mid: 10
+  file: captures/gain_7_bass_0_deep_0_treble_10_mid_10_a2.nam
 - values:
-    eq: dark_mid
     gain: 7
-  file: captures/ukg3vs6oago_a2.nam
+    bass: 7
+    deep: 0
+    treble: 0
+    mid: 10
+  file: captures/gain_7_bass_7_deep_0_treble_0_mid_10_a2.nam
 - values:
-    eq: deep_scoop
     gain: 3.2
-  file: captures/ul1fu2i8a4_a2.nam
+    bass: 5
+    deep: 10
+    treble: 8
+    mid: 3
+  file: captures/gain_3_2_bass_5_deep_10_treble_8_mid_3_a2.nam
 - values:
-    eq: dark_deep
     gain: 3
-  file: captures/nbxw0g3lvqf_a2.nam
+    bass: 10
+    deep: 9
+    treble: 0
+    mid: 0
+  file: captures/gain_3_bass_10_deep_9_treble_0_mid_0_a2.nam
 - values:
-    eq: deep_scoop
     gain: 10
-  file: captures/l8w0y6phc8n_a2.nam
+    bass: 5
+    deep: 10
+    treble: 8
+    mid: 3
+  file: captures/gain_10_bass_5_deep_10_treble_8_mid_3_a2.nam
 - values:
-    eq: flat5
     gain: 3
-  file: captures/g1ea29fo09e_a2.nam
+    bass: 5
+    deep: 5
+    treble: 5
+    mid: 5
+  file: captures/gain_3_bass_5_deep_5_treble_5_mid_5_a2.nam
 - values:
-    eq: bright
     gain: 4.3
-  file: captures/4znvmczcz3s_a2.nam
+    bass: 0
+    deep: 0
+    treble: 10
+    mid: 10
+  file: captures/gain_4_3_bass_0_deep_0_treble_10_mid_10_a2.nam
 - values:
-    eq: dark_deep
     gain: 7
-  file: captures/lsxn9en4g6e_a2.nam
+    bass: 10
+    deep: 9
+    treble: 0
+    mid: 0
+  file: captures/gain_7_bass_10_deep_9_treble_0_mid_0_a2.nam
 - values:
-    eq: deep_scoop
     gain: 7.5
-  file: captures/at2wroew3am_a2.nam
+    bass: 5
+    deep: 10
+    treble: 8
+    mid: 3
+  file: captures/gain_7_5_bass_5_deep_10_treble_8_mid_3_a2.nam
 - values:
-    eq: max
     gain: 3
-  file: captures/el5j7odox2_a2.nam
+    bass: 10
+    deep: 10
+    treble: 10
+    mid: 10
+  file: captures/gain_3_bass_10_deep_10_treble_10_mid_10_a2.nam
 - values:
-    eq: dark_deep
     gain: 5
-  file: captures/3br1sx6800y_a2.nam
+    bass: 10
+    deep: 9
+    treble: 0
+    mid: 0
+  file: captures/gain_5_bass_10_deep_9_treble_0_mid_0_a2.nam
 - values:
-    eq: noon
-    gain: 6
-  file: captures/oh4mpvuan48_a2.nam
+    gain: 5
+    bass: 5
+    deep: 5
+    treble: 5
+    mid: 5
+  file: captures/everything_noon_a2.nam
 - values:
-    eq: max
     gain: 10
-  file: captures/47qsx917yu5_a2.nam
+    bass: 10
+    deep: 10
+    treble: 10
+    mid: 10
+  file: captures/gain_10_bass_10_deep_10_treble_10_mid_10_a2.nam
 - values:
-    eq: flat5
     gain: 10
-  file: captures/nfnvdb47ev_a2.nam
+    bass: 5
+    deep: 5
+    treble: 5
+    mid: 5
+  file: captures/gain_10_bass_5_deep_5_treble_5_mid_5_a2.nam

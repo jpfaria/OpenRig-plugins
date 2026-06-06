@@ -1,3 +1,8 @@
+# Constant tokens dropped from every capture name: slammin, plexi, cranked (the "Slammin' Plexi Cranked" model family).
+# gain = the cranked dial position (6 / 7) baked into each capture — a real numeric amp control.
+# preset = the NAM training variant + epoch count (standard/complex_custom + Xe). These are NAM
+#   training-metadata tokens, not amp controls, so they collapse into a single clean selector that
+#   keeps every capture unique (the two gain-7 standards differ only by epoch count: 1500e vs 2000e).
 manifest_version: 1
 id: nam_marshall_1959hw_a1
 display_name: 1959HW
@@ -11,28 +16,29 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g6
-  - g7
-- name: tone
-  display_name: Tone
+  - 6
+  - 7
+- name: preset
+  display_name: Preset
   values:
-  - standard
+  - complex_1700e
+  - standard_1500e
+  - complex_2000e
   - standard_2000e
-  - complex
 captures:
 - values:
-    gain: g6
-    tone: complex
+    gain: 6
+    preset: complex_1700e
   file: captures/slammin_plexi_cranked_6_1700e_complex_custom.nam
 - values:
-    gain: g7
-    tone: standard
+    gain: 7
+    preset: standard_1500e
   file: captures/slammin_plexi_cranked_7_1500e_standard.nam
 - values:
-    gain: g7
-    tone: standard_2000e
-  file: captures/slammin_plexi_cranked_7_2000e_standard.nam
-- values:
-    gain: g7
-    tone: complex
+    gain: 7
+    preset: complex_2000e
   file: captures/slammin_plexi_cranked_7_2000e_complex_custom.nam
+- values:
+    gain: 7
+    preset: standard_2000e
+  file: captures/slammin_plexi_cranked_7_2000e_standard.nam

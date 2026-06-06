@@ -1,3 +1,5 @@
+# Tone Bender MK II (Jimmy Page) — full 3x3x3 grid of gain x EQ x input settings.
+# Constant across all captures (dropped): model "Tone_Bender_MK_II_Jimmy_Page".
 manifest_version: 1
 id: nam_tone_bender_a2
 display_name: Tone Bender
@@ -25,142 +27,142 @@ parameters:
 - name: input
   display_name: Input
   values:
-  - in_lo
-  - in_mid
-  - in_hi
+  - lo
+  - mid
+  - hi
 captures:
 - values:
-    eq: low
-    gain: low
-    input: in_lo
-  file: captures/i9qiv3b4vd_a2.nam
-- values:
-    eq: low
     gain: high
-    input: in_lo
-  file: captures/542wqi8i6p5_a2.nam
-- values:
     eq: low
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_loweq_hiinput_a2.nam
+- values:
     gain: high
-    input: in_hi
-  file: captures/wxrkle720db_a2.nam
-- values:
-    eq: mid
-    gain: low
-    input: in_lo
-  file: captures/ao9otmq3iy8_a2.nam
-- values:
-    eq: vlow
-    gain: low
-    input: in_mid
-  file: captures/wz9h1gnqbe_a2.nam
-- values:
-    eq: vlow
-    gain: low
-    input: in_lo
-  file: captures/zhni87zcweg_a2.nam
-- values:
-    eq: mid
-    gain: mid
-    input: in_hi
-  file: captures/28o5azm88cy_a2.nam
-- values:
     eq: low
-    gain: low
-    input: in_hi
-  file: captures/cuvdz3pms1_a2.nam
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_loweq_loinput_a2.nam
 - values:
-    eq: mid
-    gain: mid
-    input: in_mid
-  file: captures/yghlnqoqwoa_a2.nam
-- values:
-    eq: mid
-    gain: mid
-    input: in_lo
-  file: captures/dcmwvkdhm5c_a2.nam
-- values:
+    gain: high
     eq: low
-    gain: mid
-    input: in_hi
-  file: captures/av7f8lp03ab_a2.nam
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_loweq_midinput_a2.nam
 - values:
-    eq: vlow
     gain: high
-    input: in_mid
-  file: captures/ta5ecl5oty8_a2.nam
+    eq: mid
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_mideq_hiinput_a2.nam
 - values:
+    gain: high
+    eq: mid
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_mideq_loinput_a2.nam
+- values:
+    gain: high
+    eq: mid
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_mideq_midinput_a2.nam
+- values:
+    gain: high
     eq: vlow
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_vloweq_hiinput_a2.nam
+- values:
+    gain: high
+    eq: vlow
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_vloweq_loinput_a2.nam
+- values:
+    gain: high
+    eq: vlow
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_hg_vloweq_midinput_a2.nam
+- values:
     gain: low
-    input: in_hi
-  file: captures/pnaiha3qmri_a2.nam
-- values:
     eq: low
-    gain: high
-    input: in_mid
-  file: captures/bs3hl9jqipl_a2.nam
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_loweq_hiinput_a2.nam
 - values:
-    eq: vlow
-    gain: mid
-    input: in_mid
-  file: captures/3u6e4w29nej_a2.nam
-- values:
-    eq: vlow
-    gain: mid
-    input: in_hi
-  file: captures/pw7di9p3xx_a2.nam
-- values:
-    eq: mid
-    gain: high
-    input: in_lo
-  file: captures/7hhk8if3zcj_a2.nam
-- values:
-    eq: vlow
-    gain: mid
-    input: in_lo
-  file: captures/pr18yn7wqyi_a2.nam
-- values:
-    eq: low
     gain: low
-    input: in_mid
-  file: captures/98q6374kroo_a2.nam
-- values:
-    eq: mid
-    gain: high
-    input: in_hi
-  file: captures/5z4qqtxtogf_a2.nam
-- values:
-    eq: vlow
-    gain: high
-    input: in_hi
-  file: captures/biyk387uh74_a2.nam
-- values:
-    eq: mid
-    gain: low
-    input: in_mid
-  file: captures/rlfje3t5fu_a2.nam
-- values:
-    eq: mid
-    gain: low
-    input: in_hi
-  file: captures/z2x2nsgtkh_a2.nam
-- values:
-    eq: vlow
-    gain: high
-    input: in_lo
-  file: captures/n6zajh1zo0m_a2.nam
-- values:
-    eq: mid
-    gain: high
-    input: in_mid
-  file: captures/of3yysu73m_a2.nam
-- values:
     eq: low
-    gain: mid
-    input: in_mid
-  file: captures/nt2p9hva53_a2.nam
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_loweq_loinput_a2.nam
 - values:
+    gain: low
     eq: low
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_loweq_midinput_a2.nam
+- values:
+    gain: low
+    eq: mid
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_mideq_hiinput_a2.nam
+- values:
+    gain: low
+    eq: mid
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_mideq_loinput_a2.nam
+- values:
+    gain: low
+    eq: mid
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_mideq_midinput_a2.nam
+- values:
+    gain: low
+    eq: vlow
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_vloweq_hiinput_a2.nam
+- values:
+    gain: low
+    eq: vlow
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_vloweq_loinput_a2.nam
+- values:
+    gain: low
+    eq: vlow
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_lg_vloweq_midinput_a2.nam
+- values:
     gain: mid
-    input: in_lo
-  file: captures/nppax77f5cd_a2.nam
+    eq: low
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_loweq_hiinput_a2.nam
+- values:
+    gain: mid
+    eq: low
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_loweq_loinput_a2.nam
+- values:
+    gain: mid
+    eq: low
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_loweq_midinput_a2.nam
+- values:
+    gain: mid
+    eq: mid
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_mideq_hiinput_a2.nam
+- values:
+    gain: mid
+    eq: mid
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_mideq_loinput_a2.nam
+- values:
+    gain: mid
+    eq: mid
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_mideq_midinput_a2.nam
+- values:
+    gain: mid
+    eq: vlow
+    input: hi
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_vloweq_hiinput_a2.nam
+- values:
+    gain: mid
+    eq: vlow
+    input: lo
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_vloweq_loinput_a2.nam
+- values:
+    gain: mid
+    eq: vlow
+    input: mid
+  file: captures/tone_bender_mk_ii_jimmy_page_mg_vloweq_midinput_a2.nam

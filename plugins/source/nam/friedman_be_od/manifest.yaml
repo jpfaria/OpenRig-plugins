@@ -1,3 +1,5 @@
+# Volume constant at 12 o'clock (5) across all captures — dropped.
+# Knob legend from tone3000 description: B=Bass T=Treble P=Presence G=Gain T=Tight.
 manifest_version: 1
 id: nam_friedman_be_od
 display_name: Friedman BE-OD
@@ -9,43 +11,101 @@ type: gain_pedal
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: bass
+  display_name: Bass
   values:
-  - 12_oclock
-  - b3_t9_p4_g4_t6
-  - b5_t5_p5_g0_t0
-  - b5_t5_p5_g0_t5
-  - b5_t5_p5_g3_t5
-  - b5_t5_p5_g5_t10
-  - b5_t5_p5_g7_5_t5
-  - b5_t5_p5_g10_t5
-  - b5_t9_p3_g7_t8
+  - 3
+  - 5
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 9
+- name: presence
+  display_name: Presence
+  values:
+  - 3
+  - 4
+  - 5
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 3
+  - 4
+  - 5
+  - 7
+  - 7.5
+  - 10
+- name: tight
+  display_name: Tight
+  values:
+  - 0
+  - 5
+  - 6
+  - 8
+  - 10
 captures:
 - values:
-    preset: 12_oclock
-  file: captures/hqwp6w8d37i.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 5
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain5_tight5.nam
 - values:
-    preset: b3_t9_p4_g4_t6
-  file: captures/lb5zfz8xll.nam
+    bass: 3
+    treble: 9
+    presence: 4
+    gain: 4
+    tight: 6
+  file: captures/bass3_treble9_presence4_gain4_tight6.nam
 - values:
-    preset: b5_t5_p5_g5_t10
-  file: captures/q7kju78cocn.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 0
+    tight: 0
+  file: captures/bass5_treble5_presence5_gain0_tight0.nam
 - values:
-    preset: b5_t5_p5_g0_t5
-  file: captures/qyokdudf64.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 0
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain0_tight5.nam
 - values:
-    preset: b5_t5_p5_g10_t5
-  file: captures/a2wpdnlrlgo.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 3
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain3_tight5.nam
 - values:
-    preset: b5_t5_p5_g0_t0
-  file: captures/wcd2ta3icgb.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 5
+    tight: 10
+  file: captures/bass5_treble5_presence5_gain5_tight10.nam
 - values:
-    preset: b5_t9_p3_g7_t8
-  file: captures/88wa6715omm.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 7.5
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain7_5_tight5.nam
 - values:
-    preset: b5_t5_p5_g3_t5
-  file: captures/dyj2ni14vqc.nam
+    bass: 5
+    treble: 5
+    presence: 5
+    gain: 10
+    tight: 5
+  file: captures/bass5_treble5_presence5_gain10_tight5.nam
 - values:
-    preset: b5_t5_p5_g7_5_t5
-  file: captures/hqa4r2akpd7.nam
+    bass: 5
+    treble: 9
+    presence: 3
+    gain: 7
+    tight: 8
+  file: captures/bass5_treble9_presence3_gain7_tight8.nam

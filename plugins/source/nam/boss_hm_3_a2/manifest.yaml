@@ -9,36 +9,81 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/2709
+# Constant across all captures: brand/pedal name "Boss Hyper Metal" (HM-3) and
+# the capture index (01..07). Gain (G), Low (L) and High (H) are the three HM-3
+# knobs. "Boost" is a discrete on/off selector (front-end boost). Capture 07
+# additionally carries a "T10" tone note in its source name; since no other
+# capture states a tone setting it forms no grid, so it is preserved in the
+# filename but not exposed as an axis (its g9/l1/h2 combo is already unique).
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - g3_l8_h8
-  - g7_l4_h7
-  - g8_l6_h8
-  - g3_l8_h8_boost
-  - g6_l8_h10_boost
-  - g7_l6_h5_boost
-  - g9_l1_h2_boost
+  - 3
+  - 6
+  - 7
+  - 8
+  - 9
+- name: low
+  display_name: Low
+  values:
+  - 1
+  - 4
+  - 6
+  - 8
+- name: high
+  display_name: High
+  values:
+  - 2
+  - 5
+  - 7
+  - 8
+  - 10
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - boost
 captures:
 - values:
-    model: g3_l8_h8
-  file: captures/7d9803c925dd8b4e_a2.nam
+    gain: 3
+    low: 8
+    high: 8
+    boost: none
+  file: captures/g3_l8_h8_a2.nam
 - values:
-    model: g7_l4_h7
-  file: captures/28b9e0966ffc178c_a2.nam
+    gain: 7
+    low: 4
+    high: 7
+    boost: none
+  file: captures/g7_l4_h7_a2.nam
 - values:
-    model: g8_l6_h8
-  file: captures/457c181941af33cd_a2.nam
+    gain: 8
+    low: 6
+    high: 8
+    boost: none
+  file: captures/g8_l6_h8_a2.nam
 - values:
-    model: g3_l8_h8_boost
-  file: captures/ea6a1d68c8cd64c2_a2.nam
+    gain: 3
+    low: 8
+    high: 8
+    boost: boost
+  file: captures/g3_l8_h8_boost_a2.nam
 - values:
-    model: g6_l8_h10_boost
-  file: captures/1d978f5762d1c693_a2.nam
+    gain: 6
+    low: 8
+    high: 10
+    boost: boost
+  file: captures/g6_l8_h10_boost_a2.nam
 - values:
-    model: g7_l6_h5_boost
-  file: captures/5c3a7a6973c901ed_a2.nam
+    gain: 7
+    low: 6
+    high: 5
+    boost: boost
+  file: captures/g7_l6_h5_boost_a2.nam
 - values:
-    model: g9_l1_h2_boost
-  file: captures/2820cbd7d67882fe_a2.nam
+    gain: 9
+    low: 1
+    high: 2
+    boost: boost
+  file: captures/g9_l1_h2_boost_t10_a2.nam

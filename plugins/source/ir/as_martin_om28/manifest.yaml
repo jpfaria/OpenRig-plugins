@@ -1,3 +1,4 @@
+# Constant across all captures, dropped: as (author), om28 (model, in display_name), matrix (Fishman Matrix pickup), 44100 (sample rate).
 manifest_version: 1
 id: ir_as_martin_om28
 display_name: OM-28
@@ -6,27 +7,27 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - as_om28_matrix_44100
-  - as_om28_matrix_44100_bld
-  - as_om28_matrix_44100_jf_flavor
-  - as_om28_matrix_44100_match
+  - flat
+  - blend
+  - jf_flavor
+  - match
 captures:
 - values:
-    voicing: as_om28_matrix_44100
+    preset: flat
   file: ir/as_om28_matrix_44100.wav
   output_gain_db: -27.2035542
 - values:
-    voicing: as_om28_matrix_44100_bld
+    preset: blend
   file: ir/as_om28_matrix_44100_bld.wav
   output_gain_db: -21.5372066
 - values:
-    voicing: as_om28_matrix_44100_jf_flavor
+    preset: jf_flavor
   file: ir/as_om28_matrix_44100_jf_flavor.wav
   output_gain_db: -30.8762150
 - values:
-    voicing: as_om28_matrix_44100_match
+    preset: match
   file: ir/as_om28_matrix_44100_match.wav
   output_gain_db: -19.2420921

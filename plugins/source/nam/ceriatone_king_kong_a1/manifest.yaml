@@ -1,3 +1,4 @@
+# dropped constants: reactir2 (React IR 2 reactive load), kk100 (King Kong 100 amp), jose (Jose channel/mod) — identical across all captures
 manifest_version: 1
 id: nam_ceriatone_king_kong_a1
 display_name: Kong
@@ -7,23 +8,23 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: gain
+  display_name: Gain
   values:
-  - jose_04
-  - jose_06
-  - jose_07
-  - jose_09
+  - 4
+  - 6
+  - 7
+  - 9
 captures:
 - values:
-    preset: jose_04
+    gain: 4
   file: captures/reactir2_kk100_jose_04.nam
 - values:
-    preset: jose_06
+    gain: 6
   file: captures/reactir2_kk100_jose_06.nam
 - values:
-    preset: jose_07
+    gain: 7
   file: captures/reactir2_kk100_jose_07.nam
 - values:
-    preset: jose_09
+    gain: 9
   file: captures/reactir2_kk100_jose_09.nam

@@ -1,3 +1,4 @@
+# dropped constants: tm40 (model identifier, identical across all captures)
 manifest_version: 1
 id: nam_hughes_and_kettner_tubemeister_a1
 display_name: and TubeMeister

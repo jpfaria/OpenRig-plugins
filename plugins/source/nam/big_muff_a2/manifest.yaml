@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): volume knob (not encoded in capture names).
 manifest_version: 1
 id: nam_big_muff_a2
 display_name: Big Muff
@@ -9,6 +10,14 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/61106
 parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - 1.0
+  - 3.0
+  - 5.0
+  - 7.0
+  - 9.0
 - name: sustain
   display_name: Sustain
   values:
@@ -17,112 +26,104 @@ parameters:
   - 5.0
   - 7.0
   - 9.0
-- name: size
-  display_name: Model Size
-  values:
-  - 1.0
-  - 3.0
-  - 5.0
-  - 7.0
-  - 9.0
 captures:
 - values:
-    size: 3.0
-    sustain: 3.0
-  file: captures/jrgs61dhtv_a2.nam
-- values:
-    size: 9.0
-    sustain: 9.0
-  file: captures/kyptnkb1qfp_a2.nam
-- values:
-    size: 1.0
-    sustain: 5.0
-  file: captures/pol5qwvvqq_a2.nam
-- values:
-    size: 1.0
-    sustain: 9.0
-  file: captures/m1u0e8v9vk_a2.nam
-- values:
-    size: 9.0
-    sustain: 7.0
-  file: captures/flcobute438_a2.nam
-- values:
-    size: 9.0
-    sustain: 5.0
-  file: captures/bd76r8ec3w_a2.nam
-- values:
-    size: 5.0
-    sustain: 7.0
-  file: captures/kvitea5y2um_a2.nam
-- values:
-    size: 7.0
-    sustain: 5.0
-  file: captures/3w6odxp7wna_a2.nam
-- values:
-    size: 1.0
-    sustain: 7.0
-  file: captures/7fm2jljuqwv_a2.nam
-- values:
-    size: 3.0
-    sustain: 7.0
-  file: captures/l2gjyx4zpsi_a2.nam
-- values:
-    size: 3.0
-    sustain: 5.0
-  file: captures/u1h3kpvzgg_a2.nam
-- values:
-    size: 5.0
+    tone: 1.0
     sustain: 1.0
-  file: captures/wydbghoofmq_a2.nam
+  file: captures/big_muff_pi_t1_s1_a2.nam
 - values:
-    size: 3.0
-    sustain: 1.0
-  file: captures/ci8ebyfiqsh_a2.nam
+    tone: 1.0
+    sustain: 3.0
+  file: captures/big_muff_pi_t1_s3_a2.nam
 - values:
-    size: 5.0
+    tone: 1.0
     sustain: 5.0
-  file: captures/1t2sxsa46sx_a2.nam
+  file: captures/big_muff_pi_t1_s5_a2.nam
 - values:
-    size: 5.0
-    sustain: 3.0
-  file: captures/1u4jeduneky_a2.nam
-- values:
-    size: 7.0
-    sustain: 1.0
-  file: captures/6enlljrpgad_a2.nam
-- values:
-    size: 7.0
-    sustain: 3.0
-  file: captures/d9apxt7y7q_a2.nam
-- values:
-    size: 7.0
+    tone: 1.0
     sustain: 7.0
-  file: captures/bnk6prbdr2e_a2.nam
+  file: captures/big_muff_pi_t1_s7_a2.nam
 - values:
-    size: 1.0
-    sustain: 3.0
-  file: captures/m4vjwf8e1x_a2.nam
-- values:
-    size: 7.0
+    tone: 1.0
     sustain: 9.0
-  file: captures/z0vxmkr6hr_a2.nam
+  file: captures/big_muff_pi_t1_s9_a2.nam
 - values:
-    size: 9.0
-    sustain: 3.0
-  file: captures/lp7ua3mvq0c_a2.nam
-- values:
-    size: 1.0
+    tone: 3.0
     sustain: 1.0
-  file: captures/bvsurft8vh_a2.nam
+  file: captures/big_muff_pi_t3_s1_a2.nam
 - values:
-    size: 3.0
+    tone: 3.0
+    sustain: 3.0
+  file: captures/big_muff_pi_t3_s3_a2.nam
+- values:
+    tone: 3.0
+    sustain: 5.0
+  file: captures/big_muff_pi_t3_s5_a2.nam
+- values:
+    tone: 3.0
+    sustain: 7.0
+  file: captures/big_muff_pi_t3_s7_a2.nam
+- values:
+    tone: 3.0
     sustain: 9.0
-  file: captures/jey11a8fj4_a2.nam
+  file: captures/big_muff_pi_t3_s9_a2.nam
 - values:
-    size: 9.0
+    tone: 5.0
     sustain: 1.0
-  file: captures/p3tfms2rmva_a2.nam
+  file: captures/big_muff_pi_t5_s1_a2.nam
 - values:
-    size: 5.0
+    tone: 5.0
+    sustain: 3.0
+  file: captures/big_muff_pi_t5_s3_a2.nam
+- values:
+    tone: 5.0
+    sustain: 5.0
+  file: captures/big_muff_pi_t5_s5_a2.nam
+- values:
+    tone: 5.0
+    sustain: 7.0
+  file: captures/big_muff_pi_t5_s7_a2.nam
+- values:
+    tone: 5.0
     sustain: 9.0
-  file: captures/9pbde7itjf_a2.nam
+  file: captures/big_muff_pi_t5_s9_a2.nam
+- values:
+    tone: 7.0
+    sustain: 1.0
+  file: captures/big_muff_pi_t7_s1_a2.nam
+- values:
+    tone: 7.0
+    sustain: 3.0
+  file: captures/big_muff_pi_t7_s3_a2.nam
+- values:
+    tone: 7.0
+    sustain: 5.0
+  file: captures/big_muff_pi_t7_s5_a2.nam
+- values:
+    tone: 7.0
+    sustain: 7.0
+  file: captures/big_muff_pi_t7_s7_a2.nam
+- values:
+    tone: 7.0
+    sustain: 9.0
+  file: captures/big_muff_pi_t7_s9_a2.nam
+- values:
+    tone: 9.0
+    sustain: 1.0
+  file: captures/big_muff_pi_t9_s1_a2.nam
+- values:
+    tone: 9.0
+    sustain: 3.0
+  file: captures/big_muff_pi_t9_s3_a2.nam
+- values:
+    tone: 9.0
+    sustain: 5.0
+  file: captures/big_muff_pi_t9_s5_a2.nam
+- values:
+    tone: 9.0
+    sustain: 7.0
+  file: captures/big_muff_pi_t9_s7_a2.nam
+- values:
+    tone: 9.0
+    sustain: 9.0
+  file: captures/big_muff_pi_t9_s9_a2.nam

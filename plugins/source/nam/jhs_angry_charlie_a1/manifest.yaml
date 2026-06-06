@@ -7,12 +7,13 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Single capture (angry_charlie_v2); no controls vary, so one 'default' axis.
 parameters:
-- name: tone
-  display_name: Tone
+- name: default
+  display_name: Default
   values:
-  - angry_charlie_v2
+  - default
 captures:
 - values:
-    tone: angry_charlie_v2
+    default: default
   file: captures/angry_charlie_v2.nam

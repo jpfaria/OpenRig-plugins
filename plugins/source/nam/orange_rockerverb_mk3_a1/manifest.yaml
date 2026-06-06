@@ -1,3 +1,4 @@
+# Dropped constant token (identical across all captures): rockerverb_mk3 (amp name)
 manifest_version: 1
 id: nam_orange_rockerverb_mk3_a1
 display_name: Rockerverb MK3
@@ -8,15 +9,15 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: voicing
+  display_name: Voicing
   values:
-  - hi_gain
   - crunch
+  - hi_gain
 captures:
 - values:
-    preset: hi_gain
-  file: captures/rockerverb_mk3_hi_gain.nam
-- values:
-    preset: crunch
+    voicing: crunch
   file: captures/rockerverb_mk3_crunch.nam
+- values:
+    voicing: hi_gain
+  file: captures/rockerverb_mk3_hi_gain.nam

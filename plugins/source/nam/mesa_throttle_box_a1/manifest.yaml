@@ -1,3 +1,4 @@
+# dropped constants: voicing=high (identical in every capture)
 manifest_version: 1
 id: nam_mesa_throttle_box_a1
 display_name: Mesa Throttle Box

@@ -1,3 +1,4 @@
+# Dropped constant across all captures: level=10
 manifest_version: 1
 id: nam_ibanez_tube_screamer_a2
 display_name: Ibanez Tube Screamer
@@ -21,28 +22,20 @@ parameters:
   - 5.0
   - 8.0
   - 10.0
-- name: level
-  display_name: Level
-  values:
-  - 10.0
 captures:
 - values:
     drive: 0.0
-    level: 10.0
     tone: 5.0
-  file: captures/dfwapy8ymrs_a2.nam
+  file: captures/g_0_t_5_l_10_a2.nam
 - values:
     drive: 3.0
-    level: 10.0
     tone: 8.0
-  file: captures/44siotvd2sh_a2.nam
+  file: captures/g_3_t_8_l_10_a2.nam
 - values:
     drive: 0.0
-    level: 10.0
     tone: 10.0
-  file: captures/cs5ac2bll44_a2.nam
+  file: captures/g_0_t_10_l_10_a2.nam
 - values:
     drive: 8.0
-    level: 10.0
     tone: 5.0
-  file: captures/qjzjh7rodtp_a2.nam
+  file: captures/g_8_t_5_l_10_a2.nam

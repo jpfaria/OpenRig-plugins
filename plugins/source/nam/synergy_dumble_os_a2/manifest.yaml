@@ -9,6 +9,7 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/52557
+# Constant token dropped: 'os' (Overdrive Special module name) present in every capture.
 parameters:
 - name: channel
   display_name: Channel
@@ -24,8 +25,8 @@ captures:
 - values:
     channel: ch1
     tubes: 6l6ab
-  file: captures/md4ivyezu6r_a2.nam
+  file: captures/os_ch1_6l6ab_ns_a2.nam
 - values:
     channel: ch2
     tubes: 6l6a
-  file: captures/ob2mcd5knw_a2.nam
+  file: captures/os_ch2_6l6a_ns2_a2.nam

@@ -1,3 +1,6 @@
+# Dropped constants (identical across all captures): model MKVII, power 90W, Pres@5, DI (direct, no cab).
+# Captures are a grab-bag of channel/mode/EQ settings, each in STD and REVyHI architectures.
+# They do not factor into knob positions, so a single `preset` axis is used.
 manifest_version: 1
 id: nam_mesa_boogie_mark_vii_a2
 display_name: Mark VII
@@ -10,102 +13,87 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/64728
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ch1_clean
-  - ch1_fat
-  - ch2_crunch
-  - ch2_chunky
-  - ch3_pony
-  - ch3_bull
-  - ch3_eet
-  - ch3_war
-  - eq_on
-  - eq_off
-- name: rev
-  display_name: Revision
-  values:
-  - base
-  - revyhi
+  - ch1_clean_std
+  - ch1_clean_revyhi
+  - ch1_fat_std
+  - ch1_fat_revyhi
+  - ch2_crunch_std
+  - ch2_crunch_revyhi
+  - ch2_chunky_std
+  - ch2_chunky_revyhi
+  - ch3_pony_std
+  - ch3_pony_revyhi
+  - ch3_bull_std
+  - ch3_bull_revyhi
+  - ch3_eet_std
+  - ch3_eet_revyhi
+  - ch3_war_std
+  - ch3_war_revyhi
+  - eq_on_std
+  - eq_on_revyhi
+  - eq_off_std
+  - eq_off_revyhi
 captures:
 - values:
-    rev: base
-    voicing: ch3_pony
-  file: captures/dl0nszxp6fp_a2.nam
+    preset: ch3_pony_std
+  file: captures/ch3_mkiib_pony_rawness_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch2_chunky
-  file: captures/376ctzetu85_a2.nam
+    preset: ch2_chunky_revyhi
+  file: captures/ch2_mkvii_chunky_revyhi_a2.nam
 - values:
-    rev: base
-    voicing: ch1_clean
-  file: captures/1prmenvoauw_a2.nam
+    preset: ch1_clean_std
+  file: captures/ch1_cln_factory_bright_clean_a2.nam
 - values:
-    rev: base
-    voicing: eq_off
-  file: captures/zpeqrs3f0ms_a2.nam
+    preset: eq_off_std
+  file: captures/eqoff_pres5_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch3_bull
-  file: captures/ehshqr57xpd_a2.nam
+    preset: ch3_bull_revyhi
+  file: captures/ch3_mkiic_bull_sheet_revyhi_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch3_eet
-  file: captures/mxbjimfyh27_a2.nam
+    preset: ch3_eet_revyhi
+  file: captures/ch3_mkiic_eet_faq_revyhi_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch1_fat
-  file: captures/2se2pvoj7mo_a2.nam
+    preset: ch1_fat_revyhi
+  file: captures/ch1_fat_factory_country_clean_revyhi_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch1_clean
-  file: captures/gf2yjbv2rxs_a2.nam
+    preset: ch1_clean_revyhi
+  file: captures/ch1_cln_factory_bright_clean_revyhi_a2.nam
 - values:
-    rev: base
-    voicing: ch3_bull
-  file: captures/vxkba7uarji_a2.nam
+    preset: ch3_bull_std
+  file: captures/ch3_mkiic_bull_sheet_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch3_pony
-  file: captures/1os0bie9r6e_a2.nam
+    preset: ch3_pony_revyhi
+  file: captures/ch3_mkiib_pony_rawness_revyhi_a2.nam
 - values:
-    rev: base
-    voicing: ch1_fat
-  file: captures/cq9to6lptcs_a2.nam
+    preset: ch1_fat_std
+  file: captures/ch1_fat_factory_country_clean_a2.nam
 - values:
-    rev: base
-    voicing: ch2_chunky
-  file: captures/n4jh3mqpfpr_a2.nam
+    preset: ch2_chunky_std
+  file: captures/ch2_mkvii_chunky_a2.nam
 - values:
-    rev: base
-    voicing: ch3_war
-  file: captures/hd2uqz049rg_a2.nam
+    preset: ch3_war_std
+  file: captures/ch3_mkiv_war_never_changes_a2.nam
 - values:
-    rev: revyhi
-    voicing: eq_on
-  file: captures/iv1tgjtqzsi_a2.nam
+    preset: eq_on_revyhi
+  file: captures/eqon_pres5_revyhi_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch2_crunch
-  file: captures/ec0tnwbwehf_a2.nam
+    preset: ch2_crunch_revyhi
+  file: captures/ch2_crnch_factory_classic_crunch_revyhi_a2.nam
 - values:
-    rev: base
-    voicing: ch2_crunch
-  file: captures/941etyyw96t_a2.nam
+    preset: ch2_crunch_std
+  file: captures/ch2_crnch_factory_classic_crunch_a2.nam
 - values:
-    rev: base
-    voicing: ch3_eet
-  file: captures/thdwda3ucn_a2.nam
+    preset: ch3_eet_std
+  file: captures/ch3_mkiic_eet_faq_a2.nam
 - values:
-    rev: revyhi
-    voicing: ch3_war
-  file: captures/s32ux9ipscm_a2.nam
+    preset: ch3_war_revyhi
+  file: captures/ch3_mkiv_war_never_changes_revyhi_a2.nam
 - values:
-    rev: revyhi
-    voicing: eq_off
-  file: captures/rez9lm0jv4e_a2.nam
+    preset: eq_off_revyhi
+  file: captures/eqoff_pres5_revyhi_a2.nam
 - values:
-    rev: base
-    voicing: eq_on
-  file: captures/k11wd4qbxqe_a2.nam
+    preset: eq_on_std
+  file: captures/eqon_pres5_a2.nam

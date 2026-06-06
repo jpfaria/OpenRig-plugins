@@ -33,178 +33,178 @@ parameters:
   - 10
 captures:
 - values:
-    dist: 4
-    tone: 2
-  file: captures/65eslsd9irv_a2.nam
-- values:
     dist: 0
-    tone: 8
-  file: captures/dtmhitvhbud_a2.nam
-- values:
-    dist: 1
-    tone: 8
-  file: captures/721x5ftw5q_a2.nam
-- values:
-    dist: 9
-    tone: 8
-  file: captures/zj8dib9w27_a2.nam
-- values:
-    dist: 7
     tone: 2
-  file: captures/chxn938h8np_a2.nam
-- values:
-    dist: 5
-    tone: 4
-  file: captures/4t76mkxyuuy_a2.nam
+  file: captures/ds1_mod_tone2_dist0_a2.nam
 - values:
     dist: 1
     tone: 2
-  file: captures/30rx1nse7bq_a2.nam
-- values:
-    dist: 8
-    tone: 2
-  file: captures/ijg7eus43qk_a2.nam
+  file: captures/ds1_mod_tone2_dist1_a2.nam
 - values:
     dist: 2
-    tone: 4
-  file: captures/huj1cqlum5m_a2.nam
-- values:
-    dist: 3
-    tone: 6
-  file: captures/r937v6aqk_a2.nam
-- values:
-    dist: 4
-    tone: 6
-  file: captures/i3pkz2uybh9_a2.nam
-- values:
-    dist: 8
-    tone: 6
-  file: captures/usxqg73d0kr_a2.nam
-- values:
-    dist: 4
-    tone: 8
-  file: captures/pq7cklguemm_a2.nam
+    tone: 2
+  file: captures/ds1_mod_tone2_dist2_a2.nam
 - values:
     dist: 3
     tone: 2
-  file: captures/io2besn7ssd_a2.nam
+  file: captures/ds1_mod_tone2_dist3_a2.nam
+- values:
+    dist: 4
+    tone: 2
+  file: captures/ds1_mod_tone2_dist4_a2.nam
+- values:
+    dist: 5
+    tone: 2
+  file: captures/ds1_mod_tone2_dist5_a2.nam
+- values:
+    dist: 6
+    tone: 2
+  file: captures/ds1_mod_tone2_dist6_a2.nam
+- values:
+    dist: 7
+    tone: 2
+  file: captures/ds1_mod_tone2_dist7_a2.nam
+- values:
+    dist: 8
+    tone: 2
+  file: captures/ds1_mod_tone2_dist8_a2.nam
+- values:
+    dist: 9
+    tone: 2
+  file: captures/ds1_mod_tone2_dist9_a2.nam
+- values:
+    dist: 10
+    tone: 2
+  file: captures/ds1_mod_tone2_dist10_a2.nam
+- values:
+    dist: 0
+    tone: 4
+  file: captures/ds1_mod_tone4_dist0_a2.nam
 - values:
     dist: 1
     tone: 4
-  file: captures/o6c9518lc3_a2.nam
-- values:
-    dist: 5
-    tone: 6
-  file: captures/mx85dc13dho_a2.nam
-- values:
-    dist: 7
-    tone: 8
-  file: captures/iul37gwrjy_a2.nam
-- values:
-    dist: 5
-    tone: 2
-  file: captures/sgpksqfrz6b_a2.nam
-- values:
-    dist: 10
-    tone: 4
-  file: captures/u885qoxyzcp_a2.nam
-- values:
-    dist: 6
-    tone: 6
-  file: captures/b5ll3oyokqf_a2.nam
-- values:
-    dist: 10
-    tone: 6
-  file: captures/sjxdwuvlc9_a2.nam
-- values:
-    dist: 6
-    tone: 2
-  file: captures/evdsxytsd6d_a2.nam
-- values:
-    dist: 10
-    tone: 2
-  file: captures/u887buc042r_a2.nam
-- values:
-    dist: 0
-    tone: 2
-  file: captures/gpwd2m62ra6_a2.nam
+  file: captures/ds1_mod_tone4_dist1_a2.nam
 - values:
     dist: 2
-    tone: 2
-  file: captures/87hrry4x4w3_a2.nam
-- values:
-    dist: 9
-    tone: 2
-  file: captures/a5q0ipk9bi8_a2.nam
-- values:
-    dist: 7
-    tone: 6
-  file: captures/q93uyoixx6b_a2.nam
-- values:
-    dist: 9
-    tone: 6
-  file: captures/3iajo18km1i_a2.nam
-- values:
-    dist: 10
-    tone: 8
-  file: captures/6r39y6yelhv_a2.nam
-- values:
-    dist: 6
     tone: 4
-  file: captures/xhol9muku5_a2.nam
+  file: captures/ds1_mod_tone4_dist2_a2.nam
 - values:
     dist: 3
-    tone: 8
-  file: captures/wns784dhfg_a2.nam
-- values:
-    dist: 0
     tone: 4
-  file: captures/hjuwsyw3dlp_a2.nam
+  file: captures/ds1_mod_tone4_dist3_a2.nam
 - values:
     dist: 4
     tone: 4
-  file: captures/58504xl2ogv_a2.nam
+  file: captures/ds1_mod_tone4_dist4_a2.nam
 - values:
-    dist: 0
-    tone: 6
-  file: captures/hkx0afhlsm_a2.nam
+    dist: 5
+    tone: 4
+  file: captures/ds1_mod_tone4_dist5_a2.nam
 - values:
-    dist: 1
-    tone: 6
-  file: captures/l80vx0r7p5f_a2.nam
-- values:
-    dist: 2
-    tone: 6
-  file: captures/v5ttfpro0w8_a2.nam
+    dist: 6
+    tone: 4
+  file: captures/ds1_mod_tone4_dist6_a2.nam
 - values:
     dist: 7
     tone: 4
-  file: captures/uv05mn7bzh_a2.nam
+  file: captures/ds1_mod_tone4_dist7_a2.nam
 - values:
     dist: 8
     tone: 4
-  file: captures/0emdr4avqxuf_a2.nam
-- values:
-    dist: 2
-    tone: 8
-  file: captures/u9u57tkohda_a2.nam
+  file: captures/ds1_mod_tone4_dist8_a2.nam
 - values:
     dist: 9
     tone: 4
-  file: captures/qittyy5u76n_a2.nam
+  file: captures/ds1_mod_tone4_dist9_a2.nam
 - values:
-    dist: 6
-    tone: 8
-  file: captures/s0t384q951_a2.nam
+    dist: 10
+    tone: 4
+  file: captures/ds1_mod_tone4_dist10_a2.nam
 - values:
-    dist: 8
-    tone: 8
-  file: captures/qit63qnmwbe_a2.nam
+    dist: 0
+    tone: 6
+  file: captures/ds1_mod_tone6_dist0_a2.nam
+- values:
+    dist: 1
+    tone: 6
+  file: captures/ds1_mod_tone6_dist1_a2.nam
+- values:
+    dist: 2
+    tone: 6
+  file: captures/ds1_mod_tone6_dist2_a2.nam
 - values:
     dist: 3
-    tone: 4
-  file: captures/2erf09n5n0z_a2.nam
+    tone: 6
+  file: captures/ds1_mod_tone6_dist3_a2.nam
+- values:
+    dist: 4
+    tone: 6
+  file: captures/ds1_mod_tone6_dist4_a2.nam
+- values:
+    dist: 5
+    tone: 6
+  file: captures/ds1_mod_tone6_dist5_a2.nam
+- values:
+    dist: 6
+    tone: 6
+  file: captures/ds1_mod_tone6_dist6_a2.nam
+- values:
+    dist: 7
+    tone: 6
+  file: captures/ds1_mod_tone6_dist7_a2.nam
+- values:
+    dist: 8
+    tone: 6
+  file: captures/ds1_mod_tone6_dist8_a2.nam
+- values:
+    dist: 9
+    tone: 6
+  file: captures/ds1_mod_tone6_dist9_a2.nam
+- values:
+    dist: 10
+    tone: 6
+  file: captures/ds1_mod_tone6_dist10_a2.nam
+- values:
+    dist: 0
+    tone: 8
+  file: captures/ds1_mod_tone8_dist0_a2.nam
+- values:
+    dist: 1
+    tone: 8
+  file: captures/ds1_mod_tone8_dist1_a2.nam
+- values:
+    dist: 2
+    tone: 8
+  file: captures/ds1_mod_tone8_dist2_a2.nam
+- values:
+    dist: 3
+    tone: 8
+  file: captures/ds1_mod_tone8_dist3_a2.nam
+- values:
+    dist: 4
+    tone: 8
+  file: captures/ds1_mod_tone8_dist4_a2.nam
 - values:
     dist: 5
     tone: 8
-  file: captures/b0uqjtdwdoi_a2.nam
+  file: captures/ds1_mod_tone8_dist5_a2.nam
+- values:
+    dist: 6
+    tone: 8
+  file: captures/ds1_mod_tone8_dist6_a2.nam
+- values:
+    dist: 7
+    tone: 8
+  file: captures/ds1_mod_tone8_dist7_a2.nam
+- values:
+    dist: 8
+    tone: 8
+  file: captures/ds1_mod_tone8_dist8_a2.nam
+- values:
+    dist: 9
+    tone: 8
+  file: captures/ds1_mod_tone8_dist9_a2.nam
+- values:
+    dist: 10
+    tone: 8
+  file: captures/ds1_mod_tone8_dist10_a2.nam

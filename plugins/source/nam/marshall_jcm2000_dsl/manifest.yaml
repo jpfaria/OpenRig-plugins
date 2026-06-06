@@ -9,6 +9,8 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Dropped constant tokens: bmr (author), marshall_jcm2000 (amp slug),
+# esr0 + trailing epoch/ESR id (training metadata).
 parameters:
 - name: channel
   display_name: Channel
@@ -17,8 +19,8 @@ parameters:
   - crunch
   - od1
   - od2
-- name: style
-  display_name: Style
+- name: voicing
+  display_name: Voicing
   values:
   - default
   - altrock
@@ -26,25 +28,25 @@ parameters:
 captures:
 - values:
     channel: clean
-    style: default
+    voicing: default
   file: captures/bmr_marshall_jcm2000_clean_esr0_0020.nam
 - values:
     channel: crunch
-    style: default
+    voicing: default
   file: captures/bmr_marshall_jcm2000_crunch_esr0_0021.nam
 - values:
     channel: od1
-    style: altrock
+    voicing: altrock
   file: captures/bmr_marshall_jcm2000_od1_altrock_esr0_0055.nam
 - values:
     channel: od1
-    style: dimed
+    voicing: dimed
   file: captures/bmr_marshall_jcm2000_od1_dimed_esr0_0357.nam
 - values:
     channel: od2
-    style: altrock
+    voicing: altrock
   file: captures/bmr_marshall_jcm2000_od2_altrock_esr0_0050.nam
 - values:
     channel: od2
-    style: dimed
+    voicing: dimed
   file: captures/bmr_marshall_jcm2000_od2_dimed_esr0_0813.nam

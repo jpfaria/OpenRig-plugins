@@ -9,20 +9,21 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/64607
+# Constant across all captures (dropped): PV6505-OG1992 amp, Mesa 4x12 cab, DI tap.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - lead_pink_gator
-  - lead_heartbrake
-  - power_reso7_pres7
+  - lead_ending_heartbrake
+  - pow_reso7_pres7
 captures:
 - values:
-    model: lead_pink_gator
-  file: captures/x0vxc93jzml_a2.nam
+    preset: lead_pink_gator
+  file: captures/lead_pink_gator_a2.nam
 - values:
-    model: lead_heartbrake
-  file: captures/lhxu3zhhhvr_a2.nam
+    preset: lead_ending_heartbrake
+  file: captures/lead_ending_heartbrake_a2.nam
 - values:
-    model: power_reso7_pres7
-  file: captures/4fk0d9r2pho_a2.nam
+    preset: pow_reso7_pres7
+  file: captures/pow_reso7_pres7_a2.nam

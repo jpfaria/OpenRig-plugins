@@ -1,3 +1,6 @@
+# Constant across all captures (dropped): brand/model slug "cort_gold_a8" and sample rate "48000".
+# Remaining suffixes are a grab-bag of named IR treatments (none, bld, jf_flavor, match)
+# that do not decompose into real control axes → single 'preset' axis.
 manifest_version: 1
 id: ir_cort_gold_a8
 display_name: Gold A8
@@ -5,27 +8,27 @@ brand: cort
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - cort_gold_a8_48000
-  - cort_gold_a8_48000_bld
-  - cort_gold_a8_48000_jf_flavor
-  - cort_gold_a8_48000_match
+  - flat
+  - bld
+  - jf
+  - match
 captures:
 - values:
-    voicing: cort_gold_a8_48000
+    preset: flat
   file: ir/cort_gold_a8_48000.wav
   output_gain_db: -25.2975101
 - values:
-    voicing: cort_gold_a8_48000_bld
+    preset: bld
   file: ir/cort_gold_a8_48000_bld.wav
   output_gain_db: -19.2656422
 - values:
-    voicing: cort_gold_a8_48000_jf_flavor
+    preset: jf
   file: ir/cort_gold_a8_48000_jf_flavor.wav
   output_gain_db: -17.9176769
 - values:
-    voicing: cort_gold_a8_48000_match
+    preset: match
   file: ir/cort_gold_a8_48000_match.wav
   output_gain_db: -16.5356026

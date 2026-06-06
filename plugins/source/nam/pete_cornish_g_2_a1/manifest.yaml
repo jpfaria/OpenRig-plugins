@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): volume=10 (v10), arch=a1.
 manifest_version: 1
 id: nam_pete_cornish_g_2_a1
 display_name: Pete Cornish G-2

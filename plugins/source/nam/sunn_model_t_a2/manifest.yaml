@@ -8,9 +8,12 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/13705
+# Constant token dropped from every capture name: "Model T" (the amp model).
+# Names are a grab-bag of named voicings/settings that do not share a knob
+# grid (only ~half spell G/T/B/M/V/P), so they collapse to a single 'preset' axis.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - ej_lead
   - crunchier_rock
@@ -25,35 +28,35 @@ parameters:
   - crunchy_rock
 captures:
 - values:
-    model: ej_lead
-  file: captures/4xacu0aymhj_a2.nam
+    preset: ej_lead
+  file: captures/ej_lead_a2.nam
 - values:
-    model: crunchier_rock
-  file: captures/1usvrpi07tb_a2.nam
+    preset: crunchier_rock
+  file: captures/crunchier_rock_a2.nam
 - values:
-    model: power_amp_only
-  file: captures/nqaupnyu6qh_a2.nam
+    preset: power_amp_only
+  file: captures/power_amp_only_a2.nam
 - values:
-    model: warm_zen_lead
-  file: captures/7shlp05oua7_a2.nam
+    preset: warm_zen_lead
+  file: captures/warm_zen_lead_a2.nam
 - values:
-    model: crunchier_mids_rock
-  file: captures/0yfgx3nl4se_a2.nam
+    preset: crunchier_mids_rock
+  file: captures/crunchier_mids_rock_a2.nam
 - values:
-    model: drive_pedal_platform
-  file: captures/veoc40rzd7a_a2.nam
+    preset: drive_pedal_platform
+  file: captures/drive_pedal_platform_a2.nam
 - values:
-    model: doom
-  file: captures/ryy8huwnd4s_a2.nam
+    preset: doom
+  file: captures/doom_a2.nam
 - values:
-    model: high_gain
-  file: captures/d8fcnrdwvf_a2.nam
+    preset: high_gain
+  file: captures/high_gain_a2.nam
 - values:
-    model: mid_gain
-  file: captures/712r3fk6opq_a2.nam
+    preset: mid_gain
+  file: captures/mid_gain_a2.nam
 - values:
-    model: low_gain
-  file: captures/doeatzobf2_a2.nam
+    preset: low_gain
+  file: captures/low_gain_a2.nam
 - values:
-    model: crunchy_rock
-  file: captures/3faky8gb1yc_a2.nam
+    preset: crunchy_rock
+  file: captures/crunchy_rock_a2.nam

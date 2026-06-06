@@ -13,7 +13,7 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - no
+  - none
   - low
   - mid
   - hi
@@ -27,48 +27,48 @@ captures:
 - values:
     drive: mid
     tone: high
-  file: captures/44nzyud7oze_a2.nam
+  file: captures/boss_od3_mid_drive_high_tone_a2.nam
 - values:
     drive: low
     tone: center
-  file: captures/4uhzl0bmgu5_a2.nam
+  file: captures/boss_od3_low_drive_center_tone_a2.nam
 - values:
-    drive: no
+    drive: none
     tone: high
-  file: captures/kkbidr4ihjk_a2.nam
+  file: captures/boss_od3_no_drive_high_tone_a2.nam
 - values:
-    drive: no
+    drive: none
     tone: low
-  file: captures/99ygxk3df7r_a2.nam
+  file: captures/boss_od3_no_drive_low_tone_a2.nam
 - values:
     drive: low
     tone: high
-  file: captures/jgklgbhm6yq_a2.nam
+  file: captures/boss_od3_low_drive_high_tone_a2.nam
 - values:
     drive: mid
     tone: low
-  file: captures/miqtnd85cf_a2.nam
+  file: captures/boss_od3_mid_drive_low_tone_a2.nam
 - values:
     drive: hi
     tone: low
-  file: captures/4is5wfzpuud_a2.nam
+  file: captures/boss_od3_hi_drive_low_tone_a2.nam
 - values:
     drive: low
     tone: low
-  file: captures/oebq7y5fe1n_a2.nam
+  file: captures/boss_od3_low_drive_low_tone_a2.nam
 - values:
     drive: hi
     tone: high
-  file: captures/6a0amr6lp7y_a2.nam
+  file: captures/boss_od3_hi_drive_high_tone_a2.nam
 - values:
     drive: mid
     tone: center
-  file: captures/amoolnidh9n_a2.nam
+  file: captures/boss_od3_mid_drive_center_tone_a2.nam
 - values:
     drive: hi
     tone: center
-  file: captures/fe4m8rg4xwf_a2.nam
+  file: captures/boss_od3_hi_drive_center_tone_a2.nam
 - values:
-    drive: no
+    drive: none
     tone: center
-  file: captures/kpdgk9lwmc_a2.nam
+  file: captures/boss_od3_no_drive_center_tone_a2.nam

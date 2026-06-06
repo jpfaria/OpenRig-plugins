@@ -1,3 +1,4 @@
+# gain axis: a2 captured both neutral and boost positions; a1 sibling only captured neutral.
 manifest_version: 1
 id: nam_jhs_bonsai_a2
 display_name: Bonsai (9 TS)
@@ -17,85 +18,85 @@ parameters:
 - name: mode
   display_name: Mode
   values:
-  - 808
+  - '808'
   - ts9
-  - ts7
-  - ts10
   - od1
   - jhs
   - keeley
+  - ts7
+  - ts10
   - xr
   - msl
 captures:
 - values:
     gain: neutral
     mode: xr
-  file: captures/cd07210c86a6c3d6_a2.nam
+  file: captures/bonsai_xr_neutral_a2.nam
 - values:
     gain: boost
     mode: ts10
-  file: captures/bd3f6de6c9e3ab36_a2.nam
+  file: captures/bonsai_ts10_boost_a2.nam
 - values:
     gain: boost
     mode: jhs
-  file: captures/5a870836ecdfe068_a2.nam
+  file: captures/bonsai_jhs_boost_a2.nam
 - values:
     gain: boost
     mode: keeley
-  file: captures/b9f952450c92d1e5_a2.nam
+  file: captures/bonsai_keeley_boost_a2.nam
 - values:
     gain: neutral
     mode: od1
-  file: captures/c5a23908edd52a90_a2.nam
+  file: captures/bonsai_od1_neutral_a2.nam
 - values:
     gain: boost
     mode: msl
-  file: captures/806f259935a8efd4_a2.nam
+  file: captures/bonsai_msl_boost_a2.nam
 - values:
     gain: boost
     mode: xr
-  file: captures/0c21a36c6c0ad4df_a2.nam
+  file: captures/bonsai_xr_boost_a2.nam
 - values:
     gain: neutral
     mode: ts9
-  file: captures/d78ea7b7a0980832_a2.nam
+  file: captures/bonsai_ts9_neutral_a2.nam
 - values:
     gain: neutral
-    mode: 808
-  file: captures/daabc2911faa21ad_a2.nam
+    mode: '808'
+  file: captures/bonsai_808_neutral_a2.nam
 - values:
     gain: neutral
     mode: keeley
-  file: captures/b4770beb3f67d7e1_a2.nam
+  file: captures/bonsai_keeley_neutral_a2.nam
 - values:
     gain: boost
-    mode: 808
-  file: captures/23b0d2b4ca9571aa_a2.nam
+    mode: '808'
+  file: captures/bonsai_808_boost_a2.nam
 - values:
     gain: neutral
     mode: jhs
-  file: captures/93eb41c60eec27bf_a2.nam
+  file: captures/bonsai_jhs_neutral_a2.nam
 - values:
     gain: boost
     mode: ts9
-  file: captures/fcc32219ee96fe6c_a2.nam
+  file: captures/bonsai_ts9_boost_a2.nam
 - values:
     gain: neutral
     mode: ts7
-  file: captures/f1818e26de2af66d_a2.nam
+  file: captures/bonsai_ts7_neutral_a2.nam
 - values:
     gain: boost
     mode: od1
-  file: captures/006f55c1fa969390_a2.nam
+  file: captures/bonsai_od1_boost_a2.nam
 - values:
     gain: boost
     mode: ts7
-  file: captures/9dbdafbbfdce701a_a2.nam
+  file: captures/bonsai_ts7_boost_a2.nam
 - values:
     gain: neutral
     mode: msl
-  file: captures/09494df847d56333_a2.nam
+  file: captures/bonsai_msl_neutral_a2.nam
 - values:
     gain: neutral
     mode: ts10
-  file: captures/a16209e6f850ebb9_a2.nam
+  file: captures/bonsai_ts10_neutral_a2.nam

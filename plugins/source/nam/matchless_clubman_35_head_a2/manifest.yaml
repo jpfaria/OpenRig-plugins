@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): amp = clubman.
 manifest_version: 1
 id: nam_matchless_clubman_35_head_a2
 display_name: Matchless Clubman 35 head
@@ -9,119 +10,313 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/24643
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - bright_lead_lo_v04_b09_t01_br12_m12
-  - bright_push_lo_v12_b10_t12_br01_m12
-  - power_amp_lo
-  - balanced_push_v12_b09_t12_br10_m12
-  - ssr_clean_1_lo_v08_b10_5_t10_br10_ma12
-  - dark_pushed_hi_v12_b09_t10_b09_m10
-  - ssr_clean_2_lo_v08_b10_5_t11_br11_ma12
-  - bright_clean_lo_v08_b12_t12_br02_m12
-  - bright_clean_hi_v08_b12_t12_br02_m12
-  - balanced_eob_v10_b09_t12_br10_m12
-  - power_amp_hi
-  - dark_clean_hi_v08_b09_t10_b09_m10
-  - balanced_od_v02_b09_t12_br10_m12
-  - bright_eob_lo_v10_b12_t12_br01_m12
-  - ssr_push_lo_v12_b10_5_t12_br11_ma12
-  - bright_clean_lo_v08_b12_t12_br12_m12
-  - ssr_lead_2_hi_v03_b10_t12_br10_ma12
-  - ssr_lead_lo_v04_b09_t11_br10_ma12
-  - dark_eob_hi_v10_b09_t10_b09_m10
-  - dark_od_hi_v02_b09_t10_br09_m10
-  - ssr_clean_3_lo_v08_b10_5_t12_br11_ma12
-  - balanced_clean_v08_b09_t12_br10_m12
-  - ssr_eob_lo_v10_b10_5_t12_br11_ma12
-  - ssr_od_lo_v02_b10_t10_br10_ma12
-  - bright_od_lo_v02_b10_t12_br01_m12
-  - dark_lead_hi_v04_b08_t11_br09_m10
-  - balanced_lead_v04_b08_t12_br10_m12
-  - bright_lead2_hi_v04_b08_t02_br01_m12
+  - dark_eob
+  - balanced_lead
+  - ssr_clean_1
+  - bright_lead
+  - dark_od
+  - ssr_push
+  - balanced_od
+  - ssr_eob
+  - bright_lead_2
+  - ssr_od
+  - dark_pushed
+  - power_amp
+  - bright_push
+  - ssr_clean_3
+  - dark_clean
+  - bright_od
+  - balanced_push
+  - ssr_clean_2
+  - bright_clean
+  - dark_lead
+  - ssr_lead
+  - bright_eob
+  - balanced_clean
+  - ssr_lead_2
+  - balanced_eob
+- name: input
+  display_name: Input
+  values:
+  - lo
+  - hi
+- name: volume
+  display_name: Volume
+  values:
+  - 2
+  - 3
+  - 4
+  - 8
+  - 10
+  - 12
+- name: bass
+  display_name: Bass
+  values:
+  - 8
+  - 9
+  - 10
+  - 10.5
+  - 12
+- name: treble
+  display_name: Treble
+  values:
+  - 1
+  - 2
+  - 10
+  - 11
+  - 12
+- name: bright
+  display_name: Bright
+  values:
+  - 1
+  - 2
+  - 9
+  - 10
+  - 11
+  - 12
+- name: master
+  display_name: Master
+  values:
+  - 10
+  - 12
 captures:
 - values:
-    model: bright_lead_lo_v04_b09_t01_br12_m12
-  file: captures/3df287ebb105cbdb_a2.nam
+    voicing: dark_eob
+    input: hi
+    volume: 10
+    bass: 9
+    treble: 10
+    bright: 9
+    master: 10
+  file: captures/clubman_dark_eob_hi_v10_b09_t10_br09_m10_a2.nam
 - values:
-    model: bright_push_lo_v12_b10_t12_br01_m12
-  file: captures/c6bb5222cd9aae18_a2.nam
+    voicing: balanced_lead
+    volume: 4
+    bass: 8
+    treble: 12
+    bright: 10
+    master: 12
+  file: captures/clubman_balanced_lead_v04_b08_t12_br10_m12_a2.nam
 - values:
-    model: power_amp_lo
-  file: captures/b0748b3f5f3b1cf4_a2.nam
+    voicing: ssr_clean_1
+    input: lo
+    volume: 8
+    bass: 10.5
+    treble: 10
+    bright: 10
+    master: 12
+  file: captures/clubman_ssr_clean_1_lo_v08_b10_5_t10_br10_ma12_a2.nam
 - values:
-    model: balanced_push_v12_b09_t12_br10_m12
-  file: captures/344e1e4316b72020_a2.nam
+    voicing: bright_lead
+    input: lo
+    volume: 4
+    bass: 9
+    treble: 1
+    bright: 12
+    master: 12
+  file: captures/clubman_bright_lead_lo_v04_b09_t01_br12_m12_a2.nam
 - values:
-    model: ssr_clean_1_lo_v08_b10_5_t10_br10_ma12
-  file: captures/153557cdef211c11_a2.nam
+    voicing: dark_od
+    input: hi
+    volume: 2
+    bass: 9
+    treble: 10
+    bright: 9
+    master: 10
+  file: captures/clubman_dark_od_hi_v02_b09_t10_br09_m10_a2.nam
 - values:
-    model: dark_pushed_hi_v12_b09_t10_b09_m10
-  file: captures/caa24913b0fe6721_a2.nam
+    voicing: ssr_push
+    input: lo
+    volume: 12
+    bass: 10.5
+    treble: 12
+    bright: 11
+    master: 12
+  file: captures/clubman_ssr_push_lo_v12_b10_5_t12_br11_ma12_a2.nam
 - values:
-    model: ssr_clean_2_lo_v08_b10_5_t11_br11_ma12
-  file: captures/863814802ec4627c_a2.nam
+    voicing: balanced_od
+    volume: 2
+    bass: 9
+    treble: 12
+    bright: 10
+    master: 12
+  file: captures/clubman_balanced_od_v02_b09_t12_br10_m12_a2.nam
 - values:
-    model: bright_clean_lo_v08_b12_t12_br02_m12
-  file: captures/dd3cbcd656190779_a2.nam
+    voicing: ssr_eob
+    input: lo
+    volume: 10
+    bass: 10.5
+    treble: 12
+    bright: 11
+    master: 12
+  file: captures/clubman_ssr_eob_lo_v10_b10_5_t12_br11_ma12_a2.nam
 - values:
-    model: bright_clean_hi_v08_b12_t12_br02_m12
-  file: captures/e9931a068db2b7e4_a2.nam
+    voicing: bright_lead_2
+    input: hi
+    volume: 4
+    bass: 8
+    treble: 2
+    bright: 1
+    master: 12
+  file: captures/clubman_bright_lead_2_hi_v04_b08_t02_br01_m12_a2.nam
 - values:
-    model: balanced_eob_v10_b09_t12_br10_m12
-  file: captures/b5fd4a713c75143d_a2.nam
+    voicing: ssr_od
+    input: lo
+    volume: 2
+    bass: 10
+    treble: 10
+    bright: 10
+    master: 12
+  file: captures/clubman_ssr_od_lo_v02_b10_t10_br10_ma12_a2.nam
 - values:
-    model: power_amp_hi
-  file: captures/6dc31597171de9bd_a2.nam
+    voicing: dark_pushed
+    input: hi
+    volume: 12
+    bass: 9
+    treble: 10
+    bright: 9
+    master: 10
+  file: captures/clubman_dark_pushed_hi_v12_b09_t10_br09_m10_a2.nam
 - values:
-    model: dark_clean_hi_v08_b09_t10_b09_m10
-  file: captures/da01d93abb7c927d_a2.nam
+    voicing: power_amp
+    input: lo
+  file: captures/clubman_power_amp_lo_a2.nam
 - values:
-    model: balanced_od_v02_b09_t12_br10_m12
-  file: captures/6b29afd14e46892f_a2.nam
+    voicing: bright_push
+    input: lo
+    volume: 12
+    bass: 10
+    treble: 12
+    bright: 1
+    master: 12
+  file: captures/clubman_bright_push_lo_v12_b10_t12_br01_m12_a2.nam
 - values:
-    model: bright_eob_lo_v10_b12_t12_br01_m12
-  file: captures/162f9a6981e2dcee_a2.nam
+    voicing: ssr_clean_3
+    input: lo
+    volume: 8
+    bass: 10.5
+    treble: 12
+    bright: 11
+    master: 12
+  file: captures/clubman_ssr_clean_3_lo_v08_b10_5_t12_br11_ma12_a2.nam
 - values:
-    model: ssr_push_lo_v12_b10_5_t12_br11_ma12
-  file: captures/4a2114855fedd7fb_a2.nam
+    voicing: dark_clean
+    input: hi
+    volume: 8
+    bass: 9
+    treble: 10
+    bright: 9
+    master: 10
+  file: captures/clubman_dark_clean_hi_v08_b09_t10_br09_m10_a2.nam
 - values:
-    model: bright_clean_lo_v08_b12_t12_br12_m12
-  file: captures/df78aa93d8241093_a2.nam
+    voicing: bright_od
+    input: lo
+    volume: 2
+    bass: 10
+    treble: 12
+    bright: 1
+    master: 12
+  file: captures/clubman_bright_od_lo_v02_b10_t12_br01_m12_a2.nam
 - values:
-    model: ssr_lead_2_hi_v03_b10_t12_br10_ma12
-  file: captures/6037a60508b18f38_a2.nam
+    voicing: power_amp
+    input: hi
+  file: captures/clubman_power_amp_hi_a2.nam
 - values:
-    model: ssr_lead_lo_v04_b09_t11_br10_ma12
-  file: captures/4bd4bc1c8121f3a1_a2.nam
+    voicing: balanced_push
+    volume: 12
+    bass: 9
+    treble: 12
+    bright: 10
+    master: 12
+  file: captures/clubman_balanced_push_v12_b09_t12_br10_m12_a2.nam
 - values:
-    model: dark_eob_hi_v10_b09_t10_b09_m10
-  file: captures/e3c4ff2a240b1341_a2.nam
+    voicing: ssr_clean_2
+    input: lo
+    volume: 8
+    bass: 10.5
+    treble: 11
+    bright: 11
+    master: 12
+  file: captures/clubman_ssr_clean_2_lo_v08_b10_5_t11_br11_ma12_a2.nam
 - values:
-    model: dark_od_hi_v02_b09_t10_br09_m10
-  file: captures/16ae0f1d63f1db3f_a2.nam
+    voicing: bright_clean
+    input: lo
+    volume: 8
+    bass: 12
+    treble: 12
+    bright: 2
+    master: 12
+  file: captures/clubman_bright_clean_lo_v08_b12_t12_br02_m12_a2.nam
 - values:
-    model: ssr_clean_3_lo_v08_b10_5_t12_br11_ma12
-  file: captures/9b4fa344ea111d04_a2.nam
+    voicing: bright_clean
+    input: lo
+    volume: 8
+    bass: 12
+    treble: 12
+    bright: 12
+    master: 12
+  file: captures/clubman_bright_clean_lo_v08_b12_t12_br12_m12_a2.nam
 - values:
-    model: balanced_clean_v08_b09_t12_br10_m12
-  file: captures/b7a19894e22859dc_a2.nam
+    voicing: dark_lead
+    input: hi
+    volume: 4
+    bass: 8
+    treble: 11
+    bright: 9
+    master: 10
+  file: captures/clubman_dark_lead_hi_v04_b08_t11_br09_m10_a2.nam
 - values:
-    model: ssr_eob_lo_v10_b10_5_t12_br11_ma12
-  file: captures/08b2a2d98af4a14d_a2.nam
+    voicing: ssr_lead
+    input: lo
+    volume: 4
+    bass: 9
+    treble: 11
+    bright: 10
+    master: 12
+  file: captures/clubman_ssr_lead_lo_v04_b09_t11_br10_ma12_a2.nam
 - values:
-    model: ssr_od_lo_v02_b10_t10_br10_ma12
-  file: captures/35b2c5bf8b6e4206_a2.nam
+    voicing: bright_eob
+    input: lo
+    volume: 10
+    bass: 12
+    treble: 12
+    bright: 1
+    master: 12
+  file: captures/clubman_bright_eob_lo_v10_b12_t12_br01_m12_a2.nam
 - values:
-    model: bright_od_lo_v02_b10_t12_br01_m12
-  file: captures/29be7fc9172869cf_a2.nam
+    voicing: balanced_clean
+    volume: 8
+    bass: 9
+    treble: 12
+    bright: 10
+    master: 12
+  file: captures/clubman_balanced_clean_v08_b09_t12_br10_m12_a2.nam
 - values:
-    model: dark_lead_hi_v04_b08_t11_br09_m10
-  file: captures/f7418639c3e1e7d1_a2.nam
+    voicing: ssr_lead_2
+    input: hi
+    volume: 3
+    bass: 10
+    treble: 12
+    bright: 10
+    master: 12
+  file: captures/clubman_ssr_lead_2_hi_v03_b10_t12_br10_ma12_a2.nam
 - values:
-    model: balanced_lead_v04_b08_t12_br10_m12
-  file: captures/2483677b4ce270bf_a2.nam
+    voicing: bright_clean
+    input: hi
+    volume: 8
+    bass: 12
+    treble: 12
+    bright: 2
+    master: 12
+  file: captures/clubman_bright_clean_hi_v08_b12_t12_br02_m12_a2.nam
 - values:
-    model: bright_lead2_hi_v04_b08_t02_br01_m12
-  file: captures/4c16f247dece76a8_a2.nam
+    voicing: balanced_eob
+    volume: 10
+    bass: 9
+    treble: 12
+    bright: 10
+    master: 12
+  file: captures/clubman_balanced_eob_v10_b09_t12_br10_m12_a2.nam

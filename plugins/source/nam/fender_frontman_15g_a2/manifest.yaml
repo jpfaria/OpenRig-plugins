@@ -9,20 +9,23 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/43498
+# Names are a grab-bag of named voicings ("fender 15g clean flat", "fender 15g
+# clean boost mid/bass cut treble slightly", "high gain 4") that do not
+# decompose into a consistent control grid; exposed as a single 'preset' axis.
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - clean
+  - clean_flat
   - clean_boost
   - high_gain
 captures:
 - values:
-    voicing: clean
-  file: captures/7aj7bv8ysgq_a2.nam
+    preset: clean_flat
+  file: captures/clean_flat_a2.nam
 - values:
-    voicing: clean_boost
-  file: captures/ubm4rzj82f8_a2.nam
+    preset: clean_boost
+  file: captures/clean_boost_a2.nam
 - values:
-    voicing: high_gain
-  file: captures/fwfgdnltdaf_a2.nam
+    preset: high_gain
+  file: captures/high_gain_a2.nam

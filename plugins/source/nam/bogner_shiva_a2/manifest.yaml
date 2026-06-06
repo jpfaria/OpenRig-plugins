@@ -1,3 +1,4 @@
+# Dropped constant: channel = ch2 (both captures are channel 2)
 manifest_version: 1
 id: nam_bogner_shiva_a2
 display_name: Shiva
@@ -10,15 +11,15 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/26875
 parameters:
-- name: model
-  display_name: Model
+- name: bright
+  display_name: Bright
   values:
-  - ch2_b
-  - ch2_b_alt
+  - 'on'
+  - 'off'
 captures:
 - values:
-    model: ch2_b
-  file: captures/je5w4rthyf_a2.nam
+    bright: 'on'
+  file: captures/shiva_ch2_bright_on_a2.nam
 - values:
-    model: ch2_b_alt
-  file: captures/vg098v5d3q_a2.nam
+    bright: 'off'
+  file: captures/shiva_ch2_bright_off_a2.nam

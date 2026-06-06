@@ -1,3 +1,4 @@
+# Single capture: VA Horizon Boost L7 (tone3000 33864). No varying control across captures.
 manifest_version: 1
 id: nam_horizon_precision_drive_a2
 display_name: Horizon Precision Drive
@@ -9,11 +10,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/33864
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
   - default
 captures:
 - values:
-    model: default
-  file: captures/vddf6bkzsf_a2.nam
+    default: default
+  file: captures/va_horizon_boost_l7_a2.nam

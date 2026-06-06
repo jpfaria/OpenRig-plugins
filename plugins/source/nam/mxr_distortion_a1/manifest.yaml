@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): output=300
 manifest_version: 1
 id: nam_mxr_distortion_a1
 display_name: MXR Distortion+
@@ -10,32 +11,32 @@ parameters:
 - name: distortion
   display_name: Distortion
   values:
-  - '130'
-  - '300'
-  - '500'
-  - '700'
-  - '900'
-  - '1030'
-  - '1200'
+  - 130
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1030
+  - 1200
 captures:
 - values:
-    distortion: '130'
+    distortion: 130
   file: captures/mxr_distortion_output300_dist130.nam
 - values:
-    distortion: '300'
+    distortion: 300
   file: captures/mxr_distortion_output300_dist300.nam
 - values:
-    distortion: '500'
+    distortion: 500
   file: captures/mxr_distortion_output300_dist500.nam
 - values:
-    distortion: '700'
+    distortion: 700
   file: captures/mxr_distortion_output300_dist700.nam
 - values:
-    distortion: '900'
+    distortion: 900
   file: captures/mxr_distortion_output300_dist900.nam
 - values:
-    distortion: '1030'
+    distortion: 1030
   file: captures/mxr_distortion_output300_dist1030.nam
 - values:
-    distortion: '1200'
+    distortion: 1200
   file: captures/mxr_distortion_output300_dist1200.nam

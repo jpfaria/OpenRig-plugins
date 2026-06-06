@@ -7,6 +7,10 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Constant across all captures (dropped): bogner_ecstasy (amp/brand slug).
+# Names are a grab-bag of voiced tones (clean styles, crunch characters,
+# rock tones, a Vai "for the love of god" tone) that do not factor into
+# numeric knob axes -> single clean 'preset' axis.
 parameters:
 - name: preset
   display_name: Preset

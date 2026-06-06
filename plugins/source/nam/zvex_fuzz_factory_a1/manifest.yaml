@@ -1,3 +1,4 @@
+# volume constant at 10.00 across all captures (dropped); min=0, max=12 (knob ceiling) per the embedded NAM names
 manifest_version: 1
 id: nam_zvex_fuzz_factory_a1
 display_name: ZVEX Fuzz Factory
@@ -7,53 +8,68 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: compression
-  display_name: Compression
+- name: gate
+  display_name: Gate
   values:
-  - 3.0
-  - 4.0
-  - 9.0
-- name: filter
-  display_name: Filter
-  values:
-  - 3.0
-  - 9.0
-  - 12.0
-- name: gain
-  display_name: Gain
-  values:
-  - 3.0
-  - 9.0
-  - 12.0
+  - 0
+  - 3
+  - 9
+  - 12
   - 12.3
+- name: comp
+  display_name: Comp
+  values:
+  - 0
+  - 3
+  - 4
+  - 9
+- name: drive
+  display_name: Drive
+  values:
+  - 0
+  - 3
+  - 9
+  - 12
+- name: stab
+  display_name: Stab
+  values:
+  - 0
+  - 2
+  - 12
 captures:
 - values:
-    compression: 3.0
-    filter: 12.0
-    gain: 12.0
+    gate: 12
+    comp: 3
+    drive: 12
+    stab: 12
   file: captures/fuzz_factory_clone_v_10_00_g_12_00_c_3_00_f_12_00_.nam
 - values:
-    compression: 3.0
-    filter: 3.0
-    gain: 12.0
+    gate: 12
+    comp: 3
+    drive: 0
+    stab: 0
   file: captures/fuzz_factory_clone_v_10_00_g_12_00_c_3_00_f_min_s_.nam
 - values:
-    compression: 3.0
-    filter: 3.0
-    gain: 12.3
+    gate: 12.3
+    comp: 0
+    drive: 0
+    stab: 12
   file: captures/fuzz_factory_clone_v_10_00_g_12_30_c_min_f_min_s_m.nam
 - values:
-    compression: 9.0
-    filter: 3.0
-    gain: 3.0
+    gate: 3
+    comp: 9
+    drive: 3
+    stab: 12
   file: captures/fuzz_factory_clone_v_10_00_g_3_00_c_9_00_f_3_00_s_.nam
 - values:
-    compression: 4.0
-    filter: 9.0
-    gain: 9.0
+    gate: 9
+    comp: 4
+    drive: 9
+    stab: 12
   file: captures/fuzz_factory_clone_v_10_00_g_9_00_c_4_00_f_9_00_s_.nam
 - values:
-    compression: 4.0
-    filter: 12.0
-    gain: 3.0
+    gate: 0
+    comp: 4
+    drive: 12
+    stab: 2
   file: captures/fuzz_factory_clone_v_10_00_g_min_c_4_00_f_max_s_2_.nam

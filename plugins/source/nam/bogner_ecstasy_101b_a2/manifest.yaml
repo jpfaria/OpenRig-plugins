@@ -9,15 +9,18 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/15223
+# Constant "Bogner Ecstasy -" prefix dropped from every capture name (= display_name).
+# Names are a grab-bag of distinct voicings (cleans, crunches, leads, Vai settings)
+# that do not decompose into a consistent knob grid, so a single clean 'preset' axis is used.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - basic_clean
   - fender_clean
   - plexi_crunch
   - dumble_crunch
-  - bright_crunchy
+  - bright_crunchy_rock
   - crunchier_rock
   - ch2_warm_rock
   - ch2_eq5_exc_m
@@ -28,41 +31,41 @@ parameters:
   - vai_imdwy
 captures:
 - values:
-    model: basic_clean
-  file: captures/saa8ybqmi7h_a2.nam
+    preset: basic_clean
+  file: captures/basic_clean_a2.nam
 - values:
-    model: fender_clean
-  file: captures/3w79j7y3v19_a2.nam
+    preset: fender_clean
+  file: captures/fender_clean_a2.nam
 - values:
-    model: plexi_crunch
-  file: captures/w6c963pozd9_a2.nam
+    preset: plexi_crunch
+  file: captures/plexi_crunch_a2.nam
 - values:
-    model: dumble_crunch
-  file: captures/1uc1vqxhefj_a2.nam
+    preset: dumble_crunch
+  file: captures/dumble_crunch_a2.nam
 - values:
-    model: bright_crunchy
-  file: captures/6uv1m2hyk2g_a2.nam
+    preset: bright_crunchy_rock
+  file: captures/bright_crunchy_rock_a2.nam
 - values:
-    model: crunchier_rock
-  file: captures/6ieo5lm3062_a2.nam
+    preset: crunchier_rock
+  file: captures/crunchier_rock_a2.nam
 - values:
-    model: ch2_warm_rock
-  file: captures/z2vkazwogi_a2.nam
+    preset: ch2_warm_rock
+  file: captures/ch2_warm_rock_a2.nam
 - values:
-    model: ch2_eq5_exc_m
-  file: captures/7ll6he2ucxh_a2.nam
+    preset: ch2_eq5_exc_m
+  file: captures/ch2_eq5_exc_m_a2.nam
 - values:
-    model: ch2_eq5_exc_t
-  file: captures/ril53lo56y_a2.nam
+    preset: ch2_eq5_exc_t
+  file: captures/ch2_eq5_exc_t_a2.nam
 - values:
-    model: thick_lead
-  file: captures/87jq63fmeex_a2.nam
+    preset: thick_lead
+  file: captures/thick_lead_a2.nam
 - values:
-    model: vai_ftlog
-  file: captures/mm4aunww0v_a2.nam
+    preset: vai_ftlog
+  file: captures/vai_ftlog_a2.nam
 - values:
-    model: vai_ftlog_b_off
-  file: captures/fwnajbkn4bi_a2.nam
+    preset: vai_ftlog_b_off
+  file: captures/vai_ftlog_b_off_a2.nam
 - values:
-    model: vai_imdwy
-  file: captures/ov7pxdduoui_a2.nam
+    preset: vai_imdwy
+  file: captures/vai_imdwy_a2.nam

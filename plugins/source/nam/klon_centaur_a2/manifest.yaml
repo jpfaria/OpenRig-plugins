@@ -1,3 +1,6 @@
+# Dropped constant token: "Klon" (brand, identical across all captures).
+# Names decode the Klon Centaur's three knobs as Gain,Treble,Output.
+# The "John Mayer" capture name "3.5,6.5,3" confirms the 3-value layout.
 manifest_version: 1
 id: nam_klon_centaur_a2
 display_name: Klon Centaur Silver
@@ -9,31 +12,56 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5196
 parameters:
-- name: setting
-  display_name: Setting
+- name: gain
+  display_name: Gain
   values:
-  - 255
-  - 277
-  - 468
-  - 555
-  - 668
-  - john_mayer
+  - 2
+  - 3.5
+  - 4
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 6
+  - 6.5
+  - 7
+- name: output
+  display_name: Output
+  values:
+  - 3
+  - 5
+  - 7
+  - 8
 captures:
 - values:
-    setting: 555
-  file: captures/af34a4386da9fe44_a2.nam
+    gain: 5
+    treble: 5
+    output: 5
+  file: captures/klon_555_a2.nam
 - values:
-    setting: 255
-  file: captures/e4a2e5367770ee1c_a2.nam
+    gain: 2
+    treble: 5
+    output: 5
+  file: captures/klon_255_a2.nam
 - values:
-    setting: 277
-  file: captures/79183eda116aa7bf_a2.nam
+    gain: 2
+    treble: 7
+    output: 7
+  file: captures/klon_277_a2.nam
 - values:
-    setting: john_mayer
-  file: captures/e49b29690178bc8a_a2.nam
+    gain: 3.5
+    treble: 6.5
+    output: 3
+  file: captures/klon_john_mayer_a2.nam
 - values:
-    setting: 668
-  file: captures/544566175e615d10_a2.nam
+    gain: 6
+    treble: 6
+    output: 8
+  file: captures/klon_668_a2.nam
 - values:
-    setting: 468
-  file: captures/c775f8a5bd068579_a2.nam
+    gain: 4
+    treble: 6
+    output: 8
+  file: captures/klon_468_a2.nam

@@ -6,9 +6,12 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Constant token dropped from every capture name: metal_muff (the pedal slug).
+# The remaining names are a grab-bag of named tone presets that do not decompose
+# into consistent knob axes, so they collapse into a single 'preset' selector.
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - as_an_overdrive
   - eq_noon
@@ -22,32 +25,32 @@ parameters:
   - trve_kult
 captures:
 - values:
-    tone: as_an_overdrive
+    preset: as_an_overdrive
   file: captures/metal_muff_as_an_overdrive.nam
 - values:
-    tone: eq_noon
+    preset: eq_noon
   file: captures/metal_muff_eq_noon.nam
 - values:
-    tone: eq_noon_full_gain
+    preset: eq_noon_full_gain
   file: captures/metal_muff_eq_noon_full_gain.nam
 - values:
-    tone: evil
+    preset: evil
   file: captures/metal_muff_evil.nam
 - values:
-    tone: mega_scoop
+    preset: mega_scoop
   file: captures/metal_muff_mega_scoop.nam
 - values:
-    tone: my_settings
+    preset: my_settings
   file: captures/metal_muff_my_settings.nam
 - values:
-    tone: nattens_madrigal
+    preset: nattens_madrigal
   file: captures/metal_muff_nattens_madrigal.nam
 - values:
-    tone: swedish_chainsaw_ish
+    preset: swedish_chainsaw_ish
   file: captures/metal_muff_swedish_chainsaw_ish.nam
 - values:
-    tone: tob_boost_low_distortion
+    preset: tob_boost_low_distortion
   file: captures/metal_muff_tob_boost_low_distortion.nam
 - values:
-    tone: trve_kult
+    preset: trve_kult
   file: captures/metal_muff_trve_kult.nam

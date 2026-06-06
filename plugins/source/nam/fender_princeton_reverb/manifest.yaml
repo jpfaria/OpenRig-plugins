@@ -9,13 +9,16 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Constant tokens dropped: fender, princeton (brand/amp name).
+# volume is the amp Volume knob (3=clean, 5=edge of breakup, 7=crunch per tone3000 description);
+# mic selects Shure SM57, Beyerdynamic M160, or the sum of both into API 1608 pres.
 parameters:
-- name: gain
-  display_name: Gain
+- name: volume
+  display_name: Volume
   values:
-  - clean_3
-  - eob_5
-  - crunch_7
+  - 3
+  - 5
+  - 7
 - name: mic
   display_name: Mic
   values:
@@ -24,34 +27,34 @@ parameters:
   - sum
 captures:
 - values:
-    gain: clean_3
+    volume: 3
     mic: m160
   file: captures/fender_princeton_clean_3_m160.nam
 - values:
-    gain: clean_3
+    volume: 3
     mic: sm57
   file: captures/fender_princeton_clean_3_sm57.nam
 - values:
-    gain: clean_3
+    volume: 3
     mic: sum
   file: captures/fender_princeton_clean_3_sum_m160_sm57.nam
 - values:
-    gain: eob_5
+    volume: 5
     mic: m160
   file: captures/fender_princeton_eob_vol_5_m160.nam
 - values:
-    gain: eob_5
+    volume: 5
     mic: sm57
   file: captures/fender_princeton_eob_vol_5_sm57.nam
 - values:
-    gain: eob_5
+    volume: 5
     mic: sum
   file: captures/fender_princeton_eob_vol_5_sum_m160_sm57.nam
 - values:
-    gain: crunch_7
+    volume: 7
     mic: sm57
   file: captures/fender_princeton_crunch_vol_7_sm57.nam
 - values:
-    gain: crunch_7
+    volume: 7
     mic: sum
   file: captures/fender_princeton_crunch_7_sum_m160_sm57.nam

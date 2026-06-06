@@ -1,3 +1,8 @@
+# sf300 (plugin slug) dropped — constant across all captures.
+# SF300 Super Fuzz has a Fuzz 1 / Fuzz 2 mode switch; Fuzz 2 was swept
+# across three tone positions (low/high/max). Captures do not form a
+# consistent mode×tone grid (Fuzz 1 has no sweep), so a single clean
+# 'mode' axis carries each distinct captured position.
 manifest_version: 1
 id: nam_behringer_sf300_a1
 display_name: SF300 Super Fuzz
@@ -8,8 +13,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: mode
+  display_name: Mode
   values:
   - fuzz1
   - fuzz2_low
@@ -17,14 +22,14 @@ parameters:
   - fuzz2_max
 captures:
 - values:
-    tone: fuzz1
+    mode: fuzz1
   file: captures/sf300_fuzz1.nam
 - values:
-    tone: fuzz2_low
+    mode: fuzz2_low
   file: captures/sf300_fuzz2_low.nam
 - values:
-    tone: fuzz2_high
+    mode: fuzz2_high
   file: captures/sf300_fuzz2_high.nam
 - values:
-    tone: fuzz2_max
+    mode: fuzz2_max
   file: captures/sf300_fuzz2_max.nam

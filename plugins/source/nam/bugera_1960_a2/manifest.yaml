@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): input=in1, treble=10, mid=10, bass=10, presence=0
 manifest_version: 1
 id: nam_bugera_1960_a2
 display_name: Bugera 1960
@@ -9,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/29380
 parameters:
-- name: vol1
-  display_name: Volume 1
+- name: volume1
+  display_name: Volume I
   values:
   - 2
   - 3
@@ -21,81 +22,81 @@ parameters:
   - 8
   - 9
   - 10
-- name: vol2
-  display_name: Volume 2
+- name: volume2
+  display_name: Volume II
   values:
   - 2
   - 5
 captures:
 - values:
-    vol1: 4
-    vol2: 2
-  file: captures/o1gg2iml4o8_a2.nam
+    volume1: 4
+    volume2: 2
+  file: captures/in1_v1_4_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 9
-    vol2: 2
-  file: captures/bgqh3mnd36_a2.nam
+    volume1: 9
+    volume2: 2
+  file: captures/in1_v1_9_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 2
-    vol2: 5
-  file: captures/plejpkg3zhb_a2.nam
+    volume1: 2
+    volume2: 5
+  file: captures/in1_v1_2_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 7
-    vol2: 2
-  file: captures/rur23fznvmr_a2.nam
+    volume1: 7
+    volume2: 2
+  file: captures/in1_v1_7_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 6
-    vol2: 2
-  file: captures/7o1y21qefhb_a2.nam
+    volume1: 6
+    volume2: 2
+  file: captures/in1_v1_6_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 5
-    vol2: 5
-  file: captures/h12qla3ngr_a2.nam
+    volume1: 5
+    volume2: 5
+  file: captures/in1_v1_5_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 3
-    vol2: 5
-  file: captures/2b9efer7f8c_a2.nam
+    volume1: 3
+    volume2: 5
+  file: captures/in1_v1_3_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 10
-    vol2: 2
-  file: captures/hapgzsjbaaa_a2.nam
+    volume1: 10
+    volume2: 2
+  file: captures/in1_v1_10_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 4
-    vol2: 5
-  file: captures/3alfn6xgnyu_a2.nam
+    volume1: 4
+    volume2: 5
+  file: captures/in1_v1_4_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 8
-    vol2: 2
-  file: captures/f8at25ob4oj_a2.nam
+    volume1: 8
+    volume2: 2
+  file: captures/in1_v1_8_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 3
-    vol2: 2
-  file: captures/50opdsl7il3_a2.nam
+    volume1: 3
+    volume2: 2
+  file: captures/in1_v1_3_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 2
-    vol2: 2
-  file: captures/lmakwdh9onc_a2.nam
+    volume1: 2
+    volume2: 2
+  file: captures/in1_v1_2_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 9
-    vol2: 5
-  file: captures/rd25mio8t0b_a2.nam
+    volume1: 9
+    volume2: 5
+  file: captures/in1_v1_9_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 8
-    vol2: 5
-  file: captures/vqygmvwpy9f_a2.nam
+    volume1: 8
+    volume2: 5
+  file: captures/in1_v1_8_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 7
-    vol2: 5
-  file: captures/0t2rfveon0d_a2.nam
+    volume1: 7
+    volume2: 5
+  file: captures/in1_v1_7_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 5
-    vol2: 2
-  file: captures/by1wpuaiej9_a2.nam
+    volume1: 5
+    volume2: 2
+  file: captures/in1_v1_5_v2_2_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 6
-    vol2: 5
-  file: captures/1pga86m0f_a2.nam
+    volume1: 6
+    volume2: 5
+  file: captures/in1_v1_6_v2_5_t10_m_10_b_10_p_0_a2.nam
 - values:
-    vol1: 10
-    vol2: 5
-  file: captures/0l3dqmhkar6_a2.nam
+    volume1: 10
+    volume2: 5
+  file: captures/in1_v1_10_v2_5_t10_m_10_b_10_p_0_a2.nam

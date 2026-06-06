@@ -7,6 +7,9 @@ sources:
 - https://www.tone3000.com/tones/51086
 type: cab
 backend: ir
+# Constant across all captures (dropped from axes): trailing "_3" tag in every
+# filename. Speaker positions: g12_1/g12_4 = the two G12T-75 cones, v30_2/v30_3 =
+# the two Vintage 30 cones on the 1960BV 4x12 (per tone3000 description).
 parameters:
 - name: speaker
   display_name: Speaker

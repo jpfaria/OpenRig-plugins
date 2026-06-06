@@ -7,32 +7,37 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# constant across all captures (dropped): slammin plexi cranked (creator tag).
+# "Cranked 6/7" is the amp gain setting -> gain knob. The standard/complex
+# distinction plus the NAM training epoch count (1500e/1700e/2000e) are
+# training-recipe variants, not a real amp control -> a single 'preset' axis.
 parameters:
 - name: gain
   display_name: Gain
   values:
-  - g6
-  - g7
-- name: tone
-  display_name: Tone
+  - 6
+  - 7
+- name: preset
+  display_name: Preset
   values:
-  - standard
+  - complex_1700e
+  - standard_1500e
   - standard_2000e
-  - complex
+  - complex_2000e
 captures:
 - values:
-    gain: g6
-    tone: complex
+    gain: 6
+    preset: complex_1700e
   file: captures/slammin_plexi_cranked_6_1700e_complex_custom.nam
 - values:
-    gain: g7
-    tone: standard
+    gain: 7
+    preset: standard_1500e
   file: captures/slammin_plexi_cranked_7_1500e_standard.nam
 - values:
-    gain: g7
-    tone: standard_2000e
+    gain: 7
+    preset: standard_2000e
   file: captures/slammin_plexi_cranked_7_2000e_standard.nam
 - values:
-    gain: g7
-    tone: complex
+    gain: 7
+    preset: complex_2000e
   file: captures/slammin_plexi_cranked_7_2000e_complex_custom.nam

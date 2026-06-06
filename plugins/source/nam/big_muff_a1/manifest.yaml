@@ -6,17 +6,10 @@ output_gain_db: 2.9812737
 type: gain_pedal
 backend: nam
 architecture: A1
+# Constant across all captures (dropped): volume = 6
 parameters:
-- name: size
-  display_name: Model Size
-  values:
-  - 0.0
-  - 2.0
-  - 5.0
-  - 8.0
-  - 10.0
-- name: sustain
-  display_name: Sustain
+- name: tone
+  display_name: Tone
   values:
   - 2.0
   - 3.0
@@ -24,308 +17,317 @@ parameters:
   - 5.0
   - 6.0
   - 7.0
-- name: nam_size
+- name: sustain
+  display_name: Sustain
+  values:
+  - 0.0
+  - 2.0
+  - 5.0
+  - 8.0
+  - 10.0
+- name: preset
+  display_name: Preset
   values:
   - standard
   - feather
 captures:
 - values:
-    nam_size: standard
-    size: 0.0
-    sustain: 2.0
-  file: captures/ehx_ic_big_muff_v_6_t_2_s_0.nam
-- values:
-    nam_size: feather
-    size: 0.0
-    sustain: 2.0
+    tone: 2.0
+    sustain: 0.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_0_feather.nam
 - values:
-    nam_size: standard
-    size: 10.0
+    tone: 2.0
     sustain: 2.0
-  file: captures/ehx_ic_big_muff_v_6_t_2_s_10.nam
-- values:
-    nam_size: feather
-    size: 10.0
-    sustain: 2.0
-  file: captures/ehx_ic_big_muff_v_6_t_2_s_10_feather.nam
-- values:
-    nam_size: standard
-    size: 2.0
-    sustain: 2.0
-  file: captures/ehx_ic_big_muff_v_6_t_2_s_2.nam
-- values:
-    nam_size: feather
-    size: 2.0
-    sustain: 2.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_2_feather.nam
 - values:
-    nam_size: standard
-    size: 5.0
-    sustain: 2.0
-  file: captures/ehx_ic_big_muff_v_6_t_2_s_5.nam
-- values:
-    nam_size: feather
-    size: 5.0
-    sustain: 2.0
+    tone: 2.0
+    sustain: 5.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_5_feather.nam
 - values:
-    nam_size: standard
-    size: 8.0
-    sustain: 2.0
-  file: captures/ehx_ic_big_muff_v_6_t_2_s_8.nam
-- values:
-    nam_size: feather
-    size: 8.0
-    sustain: 2.0
+    tone: 2.0
+    sustain: 8.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_8_feather.nam
 - values:
-    nam_size: standard
-    size: 0.0
-    sustain: 3.0
-  file: captures/ehx_ic_big_muff_v_6_t_3_s_0.nam
+    tone: 2.0
+    sustain: 10.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_2_s_10_feather.nam
 - values:
-    nam_size: feather
-    size: 0.0
-    sustain: 3.0
+    tone: 3.0
+    sustain: 0.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_0_feather.nam
 - values:
-    nam_size: standard
-    size: 10.0
-    sustain: 3.0
-  file: captures/ehx_ic_big_muff_v_6_t_3_s_10.nam
-- values:
-    nam_size: feather
-    size: 10.0
-    sustain: 3.0
-  file: captures/ehx_ic_big_muff_v_6_t_3_s_10_feather.nam
-- values:
-    nam_size: standard
-    size: 2.0
-    sustain: 3.0
-  file: captures/ehx_ic_big_muff_v_6_t_3_s_2.nam
-- values:
-    nam_size: feather
-    size: 2.0
-    sustain: 3.0
+    tone: 3.0
+    sustain: 2.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_2_feather.nam
 - values:
-    nam_size: standard
-    size: 5.0
-    sustain: 3.0
-  file: captures/ehx_ic_big_muff_v_6_t_3_s_5.nam
-- values:
-    nam_size: feather
-    size: 5.0
-    sustain: 3.0
+    tone: 3.0
+    sustain: 5.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_5_feather.nam
 - values:
-    nam_size: standard
-    size: 8.0
-    sustain: 3.0
-  file: captures/ehx_ic_big_muff_v_6_t_3_s_8.nam
-- values:
-    nam_size: feather
-    size: 8.0
-    sustain: 3.0
+    tone: 3.0
+    sustain: 8.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_8_feather.nam
 - values:
-    nam_size: standard
-    size: 0.0
-    sustain: 4.0
-  file: captures/ehx_ic_big_muff_v_6_t_4_s_0.nam
+    tone: 3.0
+    sustain: 10.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_3_s_10_feather.nam
 - values:
-    nam_size: feather
-    size: 0.0
-    sustain: 4.0
+    tone: 4.0
+    sustain: 0.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_4_s_0_feather.nam
 - values:
-    nam_size: standard
-    size: 10.0
-    sustain: 4.0
-  file: captures/ehx_ic_big_muff_v_6_t_4_s_10.nam
-- values:
-    nam_size: feather
-    size: 10.0
-    sustain: 4.0
-  file: captures/ehx_ic_big_muff_v_6_t_4_s_10_feather.nam
-- values:
-    nam_size: standard
-    size: 2.0
-    sustain: 4.0
-  file: captures/ehx_ic_big_muff_v_6_t_4_s_2.nam
-- values:
-    nam_size: feather
-    size: 2.0
-    sustain: 4.0
+    tone: 4.0
+    sustain: 2.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_4_s_2_feather.nam
 - values:
-    nam_size: standard
-    size: 5.0
-    sustain: 4.0
-  file: captures/ehx_ic_big_muff_v_6_t_4_s_5.nam
-- values:
-    nam_size: feather
-    size: 5.0
-    sustain: 4.0
+    tone: 4.0
+    sustain: 5.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_4_s_5_feather.nam
 - values:
-    nam_size: standard
-    size: 8.0
-    sustain: 4.0
-  file: captures/ehx_ic_big_muff_v_6_t_4_s_8.nam
-- values:
-    nam_size: feather
-    size: 8.0
-    sustain: 4.0
+    tone: 4.0
+    sustain: 8.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_4_s_8_feather.nam
 - values:
-    nam_size: standard
-    size: 0.0
-    sustain: 5.0
-  file: captures/ehx_ic_big_muff_v_6_t_5_s_0.nam
+    tone: 4.0
+    sustain: 10.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_4_s_10_feather.nam
 - values:
-    nam_size: feather
-    size: 0.0
-    sustain: 5.0
+    tone: 5.0
+    sustain: 0.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_5_s_0_feather.nam
 - values:
-    nam_size: standard
-    size: 10.0
-    sustain: 5.0
-  file: captures/ehx_ic_big_muff_v_6_t_5_s_10.nam
-- values:
-    nam_size: feather
-    size: 10.0
-    sustain: 5.0
-  file: captures/ehx_ic_big_muff_v_6_t_5_s_10_feather.nam
-- values:
-    nam_size: standard
-    size: 2.0
-    sustain: 5.0
-  file: captures/ehx_ic_big_muff_v_6_t_5_s_2.nam
-- values:
-    nam_size: feather
-    size: 2.0
-    sustain: 5.0
+    tone: 5.0
+    sustain: 2.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_5_s_2_feather.nam
 - values:
-    nam_size: standard
-    size: 5.0
+    tone: 5.0
     sustain: 5.0
-  file: captures/ehx_ic_big_muff_v_6_t_5_s_5.nam
-- values:
-    nam_size: feather
-    size: 5.0
-    sustain: 5.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_5_s_5_feather.nam
 - values:
-    nam_size: standard
-    size: 8.0
-    sustain: 5.0
-  file: captures/ehx_ic_big_muff_v_6_t_5_s_8.nam
-- values:
-    nam_size: feather
-    size: 8.0
-    sustain: 5.0
+    tone: 5.0
+    sustain: 8.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_5_s_8_feather.nam
 - values:
-    nam_size: standard
-    size: 0.0
-    sustain: 6.0
-  file: captures/ehx_ic_big_muff_v_6_t_6_s_0.nam
+    tone: 5.0
+    sustain: 10.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_5_s_10_feather.nam
 - values:
-    nam_size: feather
-    size: 0.0
-    sustain: 6.0
+    tone: 6.0
+    sustain: 0.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_6_s_0_feather.nam
 - values:
-    nam_size: standard
-    size: 10.0
-    sustain: 6.0
-  file: captures/ehx_ic_big_muff_v_6_t_6_s_10.nam
-- values:
-    nam_size: feather
-    size: 10.0
-    sustain: 6.0
-  file: captures/ehx_ic_big_muff_v_6_t_6_s_10_feather.nam
-- values:
-    nam_size: standard
-    size: 2.0
-    sustain: 6.0
-  file: captures/ehx_ic_big_muff_v_6_t_6_s_2.nam
-- values:
-    nam_size: feather
-    size: 2.0
-    sustain: 6.0
+    tone: 6.0
+    sustain: 2.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_6_s_2_feather.nam
 - values:
-    nam_size: standard
-    size: 5.0
-    sustain: 6.0
-  file: captures/ehx_ic_big_muff_v_6_t_6_s_5.nam
-- values:
-    nam_size: feather
-    size: 5.0
-    sustain: 6.0
+    tone: 6.0
+    sustain: 5.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_6_s_5_feather.nam
 - values:
-    nam_size: standard
-    size: 8.0
-    sustain: 6.0
-  file: captures/ehx_ic_big_muff_v_6_t_6_s_8.nam
-- values:
-    nam_size: feather
-    size: 8.0
-    sustain: 6.0
+    tone: 6.0
+    sustain: 8.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_6_s_8_feather.nam
 - values:
-    nam_size: standard
-    size: 0.0
-    sustain: 7.0
-  file: captures/ehx_ic_big_muff_v_6_t_7_s_0.nam
+    tone: 6.0
+    sustain: 10.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_6_s_10_feather.nam
 - values:
-    nam_size: feather
-    size: 0.0
-    sustain: 7.0
+    tone: 7.0
+    sustain: 0.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_7_s_0_feather.nam
 - values:
-    nam_size: standard
-    size: 10.0
-    sustain: 7.0
-  file: captures/ehx_ic_big_muff_v_6_t_7_s_10.nam
-- values:
-    nam_size: feather
-    size: 10.0
-    sustain: 7.0
-  file: captures/ehx_ic_big_muff_v_6_t_7_s_10_feather.nam
-- values:
-    nam_size: standard
-    size: 2.0
-    sustain: 7.0
-  file: captures/ehx_ic_big_muff_v_6_t_7_s_2.nam
-- values:
-    nam_size: feather
-    size: 2.0
-    sustain: 7.0
+    tone: 7.0
+    sustain: 2.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_7_s_2_feather.nam
 - values:
-    nam_size: standard
-    size: 5.0
-    sustain: 7.0
-  file: captures/ehx_ic_big_muff_v_6_t_7_s_5.nam
-- values:
-    nam_size: feather
-    size: 5.0
-    sustain: 7.0
+    tone: 7.0
+    sustain: 5.0
+    preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_7_s_5_feather.nam
 - values:
-    nam_size: standard
-    size: 8.0
-    sustain: 7.0
+    tone: 7.0
+    sustain: 8.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_7_s_8_feather.nam
+- values:
+    tone: 7.0
+    sustain: 10.0
+    preset: feather
+  file: captures/ehx_ic_big_muff_v_6_t_7_s_10_feather.nam
+- values:
+    tone: 2.0
+    sustain: 0.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_2_s_0.nam
+- values:
+    tone: 2.0
+    sustain: 2.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_2_s_2.nam
+- values:
+    tone: 2.0
+    sustain: 5.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_2_s_5.nam
+- values:
+    tone: 2.0
+    sustain: 8.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_2_s_8.nam
+- values:
+    tone: 2.0
+    sustain: 10.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_2_s_10.nam
+- values:
+    tone: 3.0
+    sustain: 0.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_3_s_0.nam
+- values:
+    tone: 3.0
+    sustain: 2.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_3_s_2.nam
+- values:
+    tone: 3.0
+    sustain: 5.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_3_s_5.nam
+- values:
+    tone: 3.0
+    sustain: 8.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_3_s_8.nam
+- values:
+    tone: 3.0
+    sustain: 10.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_3_s_10.nam
+- values:
+    tone: 4.0
+    sustain: 0.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_4_s_0.nam
+- values:
+    tone: 4.0
+    sustain: 2.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_4_s_2.nam
+- values:
+    tone: 4.0
+    sustain: 5.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_4_s_5.nam
+- values:
+    tone: 4.0
+    sustain: 8.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_4_s_8.nam
+- values:
+    tone: 4.0
+    sustain: 10.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_4_s_10.nam
+- values:
+    tone: 5.0
+    sustain: 0.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_5_s_0.nam
+- values:
+    tone: 5.0
+    sustain: 2.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_5_s_2.nam
+- values:
+    tone: 5.0
+    sustain: 5.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_5_s_5.nam
+- values:
+    tone: 5.0
+    sustain: 8.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_5_s_8.nam
+- values:
+    tone: 5.0
+    sustain: 10.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_5_s_10.nam
+- values:
+    tone: 6.0
+    sustain: 0.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_6_s_0.nam
+- values:
+    tone: 6.0
+    sustain: 2.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_6_s_2.nam
+- values:
+    tone: 6.0
+    sustain: 5.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_6_s_5.nam
+- values:
+    tone: 6.0
+    sustain: 8.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_6_s_8.nam
+- values:
+    tone: 6.0
+    sustain: 10.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_6_s_10.nam
+- values:
+    tone: 7.0
+    sustain: 0.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_7_s_0.nam
+- values:
+    tone: 7.0
+    sustain: 2.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_7_s_2.nam
+- values:
+    tone: 7.0
+    sustain: 5.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_7_s_5.nam
+- values:
+    tone: 7.0
+    sustain: 8.0
+    preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_7_s_8.nam
 - values:
-    nam_size: feather
-    size: 8.0
-    sustain: 7.0
-  file: captures/ehx_ic_big_muff_v_6_t_7_s_8_feather.nam
+    tone: 7.0
+    sustain: 10.0
+    preset: standard
+  file: captures/ehx_ic_big_muff_v_6_t_7_s_10.nam

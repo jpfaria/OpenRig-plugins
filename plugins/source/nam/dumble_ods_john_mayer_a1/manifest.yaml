@@ -11,20 +11,22 @@ output_gain_db: 1.9840660
 type: amp
 backend: nam
 architecture: A1
+# tone3000 model names are a grab-bag of voicing labels (nam / nam hiz / odsfd)
+# that do not factor into amp control axes → exposed as a single 'preset' axis.
 parameters:
-- name: character
-  display_name: Character
+- name: preset
+  display_name: Preset
   values:
-  - normal
+  - nam
   - hiz
   - odsfd
 captures:
 - values:
-    character: normal
-  file: captures/vob4fnulb2d.nam
+    preset: nam
+  file: captures/nam_a1.nam
 - values:
-    character: hiz
-  file: captures/1ii63hjo8ov.nam
+    preset: hiz
+  file: captures/nam_hiz_a1.nam
 - values:
-    character: odsfd
-  file: captures/5mexm1sytg5.nam
+    preset: odsfd
+  file: captures/odsfd_a1.nam

@@ -1,3 +1,6 @@
+# Dropped constant token across all captures: taka_pdc (brand + model slug, already in the header).
+# Two real axes factor the names: pickup (piezo vs soundhole source on the Takamine P2DC) and
+# position (the 1a..5c setting grid — a non-numeric discrete selector, so an enum, not a knob).
 manifest_version: 1
 id: ir_takamine_p2dc
 display_name: P2DC
@@ -6,157 +9,177 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: pickup
+  display_name: Pickup
   values:
-  - piezo_taka_pdc_piezo_1a
-  - piezo_taka_pdc_piezo_1b
-  - piezo_taka_pdc_piezo_1c
-  - piezo_taka_pdc_piezo_2a
-  - piezo_taka_pdc_piezo_2b
-  - piezo_taka_pdc_piezo_2c
-  - piezo_taka_pdc_piezo_3a
-  - piezo_taka_pdc_piezo_3b
-  - piezo_taka_pdc_piezo_3c
-  - piezo_taka_pdc_piezo_4a
-  - piezo_taka_pdc_piezo_4b
-  - piezo_taka_pdc_piezo_4c
-  - piezo_taka_pdc_piezo_5a
-  - piezo_taka_pdc_piezo_5b
-  - piezo_taka_pdc_piezo_5c
-  - soundhole_taka_pdc_soundhole_1a
-  - soundhole_taka_pdc_soundhole_1b
-  - soundhole_taka_pdc_soundhole_1c
-  - soundhole_taka_pdc_soundhole_2a
-  - soundhole_taka_pdc_soundhole_2b
-  - soundhole_taka_pdc_soundhole_2c
-  - soundhole_taka_pdc_soundhole_3a
-  - soundhole_taka_pdc_soundhole_3b
-  - soundhole_taka_pdc_soundhole_3c
-  - soundhole_taka_pdc_soundhole_4a
-  - soundhole_taka_pdc_soundhole_4b
-  - soundhole_taka_pdc_soundhole_4c
-  - soundhole_taka_pdc_soundhole_5a
-  - soundhole_taka_pdc_soundhole_5b
-  - soundhole_taka_pdc_soundhole_5c
+  - piezo
+  - soundhole
+- name: position
+  display_name: Position
+  values:
+  - 1a
+  - 1b
+  - 1c
+  - 2a
+  - 2b
+  - 2c
+  - 3a
+  - 3b
+  - 3c
+  - 4a
+  - 4b
+  - 4c
+  - 5a
+  - 5b
+  - 5c
 captures:
 - values:
-    voicing: piezo_taka_pdc_piezo_1a
+    pickup: piezo
+    position: 1a
   file: ir/piezo_taka_pdc_piezo_1a.wav
   output_gain_db: -22.9497547
 - values:
-    voicing: piezo_taka_pdc_piezo_1b
+    pickup: piezo
+    position: 1b
   file: ir/piezo_taka_pdc_piezo_1b.wav
   output_gain_db: -22.7497616
 - values:
-    voicing: piezo_taka_pdc_piezo_1c
+    pickup: piezo
+    position: 1c
   file: ir/piezo_taka_pdc_piezo_1c.wav
   output_gain_db: -22.7500496
 - values:
-    voicing: piezo_taka_pdc_piezo_2a
+    pickup: piezo
+    position: 2a
   file: ir/piezo_taka_pdc_piezo_2a.wav
   output_gain_db: -20.0157681
 - values:
-    voicing: piezo_taka_pdc_piezo_2b
+    pickup: piezo
+    position: 2b
   file: ir/piezo_taka_pdc_piezo_2b.wav
   output_gain_db: -19.8153572
 - values:
-    voicing: piezo_taka_pdc_piezo_2c
+    pickup: piezo
+    position: 2c
   file: ir/piezo_taka_pdc_piezo_2c.wav
   output_gain_db: -20.2190876
 - values:
-    voicing: piezo_taka_pdc_piezo_3a
+    pickup: piezo
+    position: 3a
   file: ir/piezo_taka_pdc_piezo_3a.wav
   output_gain_db: -17.0140266
 - values:
-    voicing: piezo_taka_pdc_piezo_3b
+    pickup: piezo
+    position: 3b
   file: ir/piezo_taka_pdc_piezo_3b.wav
   output_gain_db: -16.8138428
 - values:
-    voicing: piezo_taka_pdc_piezo_3c
+    pickup: piezo
+    position: 3c
   file: ir/piezo_taka_pdc_piezo_3c.wav
   output_gain_db: -17.1069889
 - values:
-    voicing: piezo_taka_pdc_piezo_4a
+    pickup: piezo
+    position: 4a
   file: ir/piezo_taka_pdc_piezo_4a.wav
   output_gain_db: -19.8200035
 - values:
-    voicing: piezo_taka_pdc_piezo_4b
+    pickup: piezo
+    position: 4b
   file: ir/piezo_taka_pdc_piezo_4b.wav
   output_gain_db: -19.3189716
 - values:
-    voicing: piezo_taka_pdc_piezo_4c
+    pickup: piezo
+    position: 4c
   file: ir/piezo_taka_pdc_piezo_4c.wav
   output_gain_db: -21.4616222
 - values:
-    voicing: piezo_taka_pdc_piezo_5a
+    pickup: piezo
+    position: 5a
   file: ir/piezo_taka_pdc_piezo_5a.wav
   output_gain_db: -19.6947174
 - values:
-    voicing: piezo_taka_pdc_piezo_5b
+    pickup: piezo
+    position: 5b
   file: ir/piezo_taka_pdc_piezo_5b.wav
   output_gain_db: -19.4945774
 - values:
-    voicing: piezo_taka_pdc_piezo_5c
+    pickup: piezo
+    position: 5c
   file: ir/piezo_taka_pdc_piezo_5c.wav
   output_gain_db: -19.6985798
 - values:
-    voicing: soundhole_taka_pdc_soundhole_1a
+    pickup: soundhole
+    position: 1a
   file: ir/soundhole_taka_pdc_soundhole_1a.wav
   output_gain_db: -21.6221352
 - values:
-    voicing: soundhole_taka_pdc_soundhole_1b
+    pickup: soundhole
+    position: 1b
   file: ir/soundhole_taka_pdc_soundhole_1b.wav
   output_gain_db: -21.6555519
 - values:
-    voicing: soundhole_taka_pdc_soundhole_1c
+    pickup: soundhole
+    position: 1c
   file: ir/soundhole_taka_pdc_soundhole_1c.wav
   output_gain_db: -27.3971233
 - values:
-    voicing: soundhole_taka_pdc_soundhole_2a
+    pickup: soundhole
+    position: 2a
   file: ir/soundhole_taka_pdc_soundhole_2a.wav
   output_gain_db: -19.6750736
 - values:
-    voicing: soundhole_taka_pdc_soundhole_2b
+    pickup: soundhole
+    position: 2b
   file: ir/soundhole_taka_pdc_soundhole_2b.wav
   output_gain_db: -16.7269726
 - values:
-    voicing: soundhole_taka_pdc_soundhole_2c
+    pickup: soundhole
+    position: 2c
   file: ir/soundhole_taka_pdc_soundhole_2c.wav
   output_gain_db: -27.2532959
 - values:
-    voicing: soundhole_taka_pdc_soundhole_3a
+    pickup: soundhole
+    position: 3a
   file: ir/soundhole_taka_pdc_soundhole_3a.wav
   output_gain_db: -22.1463203
 - values:
-    voicing: soundhole_taka_pdc_soundhole_3b
+    pickup: soundhole
+    position: 3b
   file: ir/soundhole_taka_pdc_soundhole_3b.wav
   output_gain_db: -16.8849449
 - values:
-    voicing: soundhole_taka_pdc_soundhole_3c
+    pickup: soundhole
+    position: 3c
   file: ir/soundhole_taka_pdc_soundhole_3c.wav
   output_gain_db: -29.3601131
 - values:
-    voicing: soundhole_taka_pdc_soundhole_4a
+    pickup: soundhole
+    position: 4a
   file: ir/soundhole_taka_pdc_soundhole_4a.wav
   output_gain_db: -21.0994644
 - values:
-    voicing: soundhole_taka_pdc_soundhole_4b
+    pickup: soundhole
+    position: 4b
   file: ir/soundhole_taka_pdc_soundhole_4b.wav
   output_gain_db: -17.9559650
 - values:
-    voicing: soundhole_taka_pdc_soundhole_4c
+    pickup: soundhole
+    position: 4c
   file: ir/soundhole_taka_pdc_soundhole_4c.wav
   output_gain_db: -28.6275444
 - values:
-    voicing: soundhole_taka_pdc_soundhole_5a
+    pickup: soundhole
+    position: 5a
   file: ir/soundhole_taka_pdc_soundhole_5a.wav
   output_gain_db: -23.1355209
 - values:
-    voicing: soundhole_taka_pdc_soundhole_5b
+    pickup: soundhole
+    position: 5b
   file: ir/soundhole_taka_pdc_soundhole_5b.wav
   output_gain_db: -16.6335449
 - values:
-    voicing: soundhole_taka_pdc_soundhole_5c
+    pickup: soundhole
+    position: 5c
   file: ir/soundhole_taka_pdc_soundhole_5c.wav
   output_gain_db: -30.4426327

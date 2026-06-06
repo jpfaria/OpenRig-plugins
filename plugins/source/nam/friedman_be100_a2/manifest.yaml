@@ -9,44 +9,89 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/57378
+# Constant across all captures (dropped): "Friedman BE-100" amp, "SAT" rig tag.
+# Axes decoded from tone3000 names + tone description:
+#   voicing — be (BE channel) / hbe (Hairy BE, hotter) / cln (clean)
+#   boost   — Maxon OD808 in front (808) or none
+#   eq      — tone-stack shape (flat / scoop / mids)
+#   gain    — HG high / MG mid / LG low / CLN clean (from description)
 parameters:
-- name: model
-  display_name: Model
+- name: voicing
+  display_name: Voicing
   values:
-  - hbe_808_flat_hg
-  - hbe_flat_hg
-  - be_mg
-  - hbe_808_scoop_hg
-  - be_lg
-  - hbe_mids_hg
-  - hbe_808_mids_hg
-  - hbe_scoop_hg
-  - clean
+  - be
+  - hbe
+  - cln
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - '808'
+- name: eq
+  display_name: EQ
+  values:
+  - flat
+  - scoop
+  - mids
+- name: gain
+  display_name: Gain
+  values:
+  - hg
+  - mg
+  - lg
+  - cln
 captures:
 - values:
-    model: hbe_808_flat_hg
-  file: captures/lba9cnum4u_a2.nam
+    voicing: hbe
+    boost: '808'
+    eq: flat
+    gain: hg
+  file: captures/hbe_808_flat_hg_a2.nam
 - values:
-    model: hbe_flat_hg
-  file: captures/lr4cqo7qavq_a2.nam
+    voicing: hbe
+    boost: none
+    eq: flat
+    gain: hg
+  file: captures/hbe_flat_hg_a2.nam
 - values:
-    model: be_mg
-  file: captures/tddx6vvqiu_a2.nam
+    voicing: be
+    boost: none
+    eq: flat
+    gain: mg
+  file: captures/be_mg_a2.nam
 - values:
-    model: hbe_808_scoop_hg
-  file: captures/olmka5orvz_a2.nam
+    voicing: hbe
+    boost: '808'
+    eq: scoop
+    gain: hg
+  file: captures/hbe_808_scoop_hg_a2.nam
 - values:
-    model: be_lg
-  file: captures/57679asomx3_a2.nam
+    voicing: be
+    boost: none
+    eq: flat
+    gain: lg
+  file: captures/be_lg_a2.nam
 - values:
-    model: hbe_mids_hg
-  file: captures/lc767rd40a_a2.nam
+    voicing: hbe
+    boost: none
+    eq: mids
+    gain: hg
+  file: captures/hbe_mids_hg_a2.nam
 - values:
-    model: hbe_808_mids_hg
-  file: captures/o7z4pe7vdpo_a2.nam
+    voicing: hbe
+    boost: '808'
+    eq: mids
+    gain: hg
+  file: captures/hbe_808_mids_hg_a2.nam
 - values:
-    model: hbe_scoop_hg
-  file: captures/h9a5egb5le5_a2.nam
+    voicing: hbe
+    boost: none
+    eq: scoop
+    gain: hg
+  file: captures/hbe_scoop_hg_a2.nam
 - values:
-    model: clean
-  file: captures/svaajhthwfe_a2.nam
+    voicing: cln
+    boost: none
+    eq: flat
+    gain: cln
+  file: captures/clean_a2.nam

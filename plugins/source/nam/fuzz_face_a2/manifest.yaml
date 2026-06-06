@@ -1,3 +1,4 @@
+# Dropped constant token: "RR Blue Fuzz" (model name prefix, identical across all captures).
 manifest_version: 1
 id: nam_fuzz_face_a2
 display_name: Fuzz Face
@@ -17,7 +18,7 @@ parameters:
 captures:
 - values:
     fuzz: 9
-  file: captures/t5bbwbi3sr_a2.nam
+  file: captures/rr_blue_fuzz_9_a2.nam
 - values:
     fuzz: 5
-  file: captures/jjqpdxeccya_a2.nam
+  file: captures/rr_blue_fuzz_5_a2.nam

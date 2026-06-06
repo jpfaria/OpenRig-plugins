@@ -1,3 +1,5 @@
+# Capture names embed two knob positions as "RR Klon Centaur [X Y]" = [gain treble].
+# Constant tokens dropped: brand/model ("RR Klon Centaur"), modeled_by (robyrocks).
 manifest_version: 1
 id: nam_rr_golden_clone_a1
 display_name: Golden Clone
@@ -7,19 +9,28 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: setting
-  display_name: Setting
+- name: gain
+  display_name: Gain
   values:
-  - 5_4
-  - 6_6
-  - 2_7
+  - 2
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 4
+  - 6
+  - 7
 captures:
 - values:
-    setting: 5_4
+    gain: 2
+    treble: 7
+  file: captures/golden_clone_27.nam
+- values:
+    gain: 5
+    treble: 4
   file: captures/golden_clone_54.nam
 - values:
-    setting: 6_6
+    gain: 6
+    treble: 6
   file: captures/golden_clone_66.nam
-- values:
-    setting: 2_7
-  file: captures/golden_clone_27.nam

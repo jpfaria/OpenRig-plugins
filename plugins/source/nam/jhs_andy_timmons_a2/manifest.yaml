@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): SLAMMIN, TIMMONS, quality=S
 manifest_version: 1
 id: nam_jhs_andy_timmons_a2
 display_name: Andy Timmons
@@ -21,46 +22,46 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - off
-  - on
+  - none
+  - boost
 captures:
 - values:
-    boost: off
+    boost: none
     voicing: dark
-  file: captures/33wyz242l4i_a2.nam
+  file: captures/slammin_jhs_timmons_dark_a2.nam
 - values:
-    boost: on
+    boost: boost
     voicing: main_brighter
-  file: captures/orx13xoow4p_a2.nam
+  file: captures/slammin_timmons_rivera_main_brighter_boost_a2.nam
 - values:
-    boost: off
+    boost: none
     voicing: main_brighter
-  file: captures/xc7e23kfi9n_a2.nam
+  file: captures/slammin_timmons_rivera_main_brighter_a2.nam
 - values:
-    boost: off
+    boost: none
     voicing: main
-  file: captures/y19wugzuabb_a2.nam
+  file: captures/slammin_jhs_timmons_main_a2.nam
 - values:
-    boost: on
+    boost: boost
     voicing: main
-  file: captures/xyytpbwqmsb_a2.nam
+  file: captures/slammin_jhs_timmons_main_boost_a2.nam
 - values:
-    boost: off
+    boost: none
     voicing: deliver_us
-  file: captures/y3pq8nyrhb_a2.nam
+  file: captures/slammin_timmons_rivera_deliver_us_a2.nam
 - values:
-    boost: on
+    boost: boost
     voicing: scoopy
-  file: captures/v6rtgfm8tm_a2.nam
+  file: captures/slammin_timmons_rivera_scoopy_boost_a2.nam
 - values:
-    boost: on
+    boost: boost
     voicing: bright
-  file: captures/3mdqs4xfvim_a2.nam
+  file: captures/slammin_jhs_timmons_bright_boost_a2.nam
 - values:
-    boost: off
+    boost: none
     voicing: bright
-  file: captures/kfce8mmys2_a2.nam
+  file: captures/slammin_jhs_timmons_bright_a2.nam
 - values:
-    boost: on
+    boost: boost
     voicing: dark
-  file: captures/gfnj8l643yg_a2.nam
+  file: captures/slammin_jhs_timmons_dark_boost_a2.nam

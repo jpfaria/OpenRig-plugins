@@ -9,12 +9,13 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/54473
+# Single capture "Syn SLO" — no varying controls, single axis.
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
-  - slo
+  - default
 captures:
 - values:
-    model: slo
-  file: captures/cfzq14zrhli_a2.nam
+    default: default
+  file: captures/syn_slo_a2.nam

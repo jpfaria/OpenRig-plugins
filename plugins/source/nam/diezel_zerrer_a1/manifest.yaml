@@ -10,53 +10,114 @@ output_gain_db: 2.8873558
 type: preamp
 backend: nam
 architecture: A1
+# Knob values are clock positions (per tone description: 10 = 10 o'clock).
+# Dropped constants: presence (p3) and deep (d11) are fixed across every od
+# capture; the ch1 capture has no master-section knobs (volume: none).
 parameters:
 - name: channel
   display_name: Channel
   values:
   - ch1
   - od
-- name: preset
-  display_name: Preset
+- name: gain
+  display_name: Gain
   values:
-  - preset_04
-  - preset_05
-  - preset_06
-  - preset_12
-  - preset_25
-  - preset_26
-  - preset_27
-  - preset_28
+  - 3
+  - 4
+  - 9
+  - 10
+  - 11
+  - 12
+- name: treble
+  display_name: Treble
+  values:
+  - 2
+  - 3
+  - 4
+  - 12
+- name: mid
+  display_name: Mid
+  values:
+  - 2
+  - 3
+  - 7
+  - 10
+  - 12
+- name: bass
+  display_name: Bass
+  values:
+  - 1
+  - 3
+  - 11
+- name: volume
+  display_name: Volume
+  values:
+  - none
+  - 1
+  - 2
+  - 12
 captures:
 - values:
     channel: ch1
-    preset: preset_12
+    gain: 10
+    treble: 12
+    mid: 2
+    bass: 3
+    volume: none
   file: captures/12_zerrer_ch1_g10_t12_m2_b3_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_04
+    gain: 12
+    treble: 2
+    mid: 10
+    bass: 11
+    volume: 12
   file: captures/04_zerrer_od_g12_t2_m10_b11_v12_p3_d11_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_05
+    gain: 3
+    treble: 2
+    mid: 10
+    bass: 11
+    volume: 12
   file: captures/05_zerrer_od_g3_t2_m10_b11_v12_p3_d11_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_06
+    gain: 9
+    treble: 2
+    mid: 10
+    bass: 11
+    volume: 12
   file: captures/06_zerrer_od_g9_t2_m10_b11_v12_p3_d11_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_25
+    gain: 4
+    treble: 3
+    mid: 7
+    bass: 3
+    volume: 1
   file: captures/25_zerrer_od_g4_t3_m7_b3_v1_p3_d11_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_26
+    gain: 3
+    treble: 3
+    mid: 12
+    bass: 3
+    volume: 1
   file: captures/26_zerrer_od_g3_t3_m12_b3_v1_p3_d11_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_27
+    gain: 11
+    treble: 4
+    mid: 3
+    bass: 1
+    volume: 1
   file: captures/27_zerrer_od_g11_t4_m3_b1_v1_p3_d11_48hz_24bit.nam
 - values:
     channel: od
-    preset: preset_28
+    gain: 10
+    treble: 4
+    mid: 12
+    bass: 3
+    volume: 2
   file: captures/28_zerrer_od_g10_t4_m12_b3_v2_p3_d11_48hz_24bit.nam

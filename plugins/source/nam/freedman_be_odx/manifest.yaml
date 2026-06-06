@@ -8,7 +8,11 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
-  file: captures/fcxzo7pve1.nam
+- values:
+    default: default
+  file: captures/freedman_be_odx.nam

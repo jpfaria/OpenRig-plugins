@@ -5,23 +5,24 @@ brand: martin
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
+# constant across all captures (dropped): gpc28e (Martin GPC-28E body), 2048 (IR tap length)
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - gpc28e_2048_44k
-  - gpc28e_2048_44k_m
-  - gpc28e_2048_48k_mffqn
+  - 44k
+  - 44k_m
+  - 48k_mffqn
 captures:
 - values:
-    voicing: gpc28e_2048_44k
+    preset: 44k
   file: ir/gpc28e_2048_44k.wav
   output_gain_db: -9.2697477
 - values:
-    voicing: gpc28e_2048_44k_m
+    preset: 44k_m
   file: ir/gpc28e_2048_44k_m.wav
   output_gain_db: -6.9673715
 - values:
-    voicing: gpc28e_2048_48k_mffqn
+    preset: 48k_mffqn
   file: ir/gpc28e_2048_48k_mffqn.wav
   output_gain_db: -9.3378830

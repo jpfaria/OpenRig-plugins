@@ -1,3 +1,4 @@
+# Constant tokens dropped from capture names: level=50, voicing=MID (vMID)
 manifest_version: 1
 id: nam_suhr_riot_a2
 display_name: Suhr Riot
@@ -31,120 +32,120 @@ captures:
 - values:
     drive: 50
     tone: 25
-  file: captures/57c2160a72d828ba_a2.nam
+  file: captures/suhr_riot_drive50_level50_tone25_vmid_a2.nam
 - values:
     drive: 75
     tone: 25
-  file: captures/03c097b33ed4bc7b_a2.nam
+  file: captures/suhr_riot_drive75_level50_tone25_vmid_a2.nam
 - values:
     drive: 25
     tone: 25
-  file: captures/09b99216e83e777d_a2.nam
+  file: captures/suhr_riot_drive25_level50_tone25_vmid_a2.nam
 - values:
     drive: 75
     tone: 0
-  file: captures/2850cfacca1bb4d9_a2.nam
+  file: captures/suhr_riot_drive75_level50_tone0_vmid_a2.nam
 - values:
     drive: 85
     tone: 25
-  file: captures/1e8a0da1eabcf31b_a2.nam
+  file: captures/suhr_riot_drive85_level50_tone25_vmid_a2.nam
 - values:
     drive: 10
     tone: 25
-  file: captures/afe836d3718edd0f_a2.nam
+  file: captures/suhr_riot_drive10_level50_tone25_vmid_a2.nam
 - values:
     drive: 85
     tone: 0
-  file: captures/d64e0487e9aaf59c_a2.nam
+  file: captures/suhr_riot_drive85_level50_tone0_vmid_a2.nam
 - values:
     drive: 10
     tone: 75
-  file: captures/cd2cb3923f50068f_a2.nam
+  file: captures/suhr_riot_drive10_level50_tone75_vmid_a2.nam
 - values:
     drive: 10
     tone: 100
-  file: captures/ac2d3641377f500a_a2.nam
+  file: captures/suhr_riot_drive10_level50_tone100_vmid_a2.nam
 - values:
     drive: 100
     tone: 0
-  file: captures/c528b3162c49b462_a2.nam
+  file: captures/suhr_riot_drive100_level50_tone0_vmid_a2.nam
 - values:
     drive: 25
     tone: 0
-  file: captures/04ad4449df70f1ad_a2.nam
+  file: captures/suhr_riot_drive25_level50_tone0_vmid_a2.nam
 - values:
     drive: 25
     tone: 75
-  file: captures/e5962466157abe5c_a2.nam
+  file: captures/suhr_riot_drive25_level50_tone75_vmid_a2.nam
 - values:
     drive: 100
     tone: 50
-  file: captures/8ae243f2edb95c01_a2.nam
+  file: captures/suhr_riot_drive100_level50_tone50_vmid_a2.nam
 - values:
     drive: 85
     tone: 50
-  file: captures/5e2d10054c8aa6dd_a2.nam
+  file: captures/suhr_riot_drive85_level50_tone50_vmid_a2.nam
 - values:
     drive: 10
     tone: 0
-  file: captures/9f0f2719668b6d80_a2.nam
+  file: captures/suhr_riot_drive10_level50_tone0_vmid_a2.nam
 - values:
     drive: 50
     tone: 50
-  file: captures/6f37b1235696ebba_a2.nam
+  file: captures/suhr_riot_drive50_level50_tone50_vmid_a2.nam
 - values:
     drive: 75
     tone: 75
-  file: captures/3eab765226e6e044_a2.nam
+  file: captures/suhr_riot_drive75_level50_tone75_vmid_a2.nam
 - values:
     drive: 100
     tone: 100
-  file: captures/3cff80a35a876925_a2.nam
+  file: captures/suhr_riot_drive100_level50_tone100_vmid_a2.nam
 - values:
     drive: 50
     tone: 0
-  file: captures/bc69e3598e290a3e_a2.nam
+  file: captures/suhr_riot_drive50_level50_tone0_vmid_a2.nam
 - values:
     drive: 50
     tone: 100
-  file: captures/23b89c50e8c2dc54_a2.nam
+  file: captures/suhr_riot_drive50_level50_tone100_vmid_a2.nam
 - values:
     drive: 100
     tone: 75
-  file: captures/fb9a9cb7fb515066_a2.nam
+  file: captures/suhr_riot_drive100_level50_tone75_vmid_a2.nam
 - values:
     drive: 25
     tone: 50
-  file: captures/98bdf7ed8ad5340d_a2.nam
+  file: captures/suhr_riot_drive25_level50_tone50_vmid_a2.nam
 - values:
     drive: 75
     tone: 100
-  file: captures/7f6997420bfbbdfb_a2.nam
+  file: captures/suhr_riot_drive75_level50_tone100_vmid_a2.nam
 - values:
     drive: 75
     tone: 50
-  file: captures/a94d0d4602ad1316_a2.nam
+  file: captures/suhr_riot_drive75_level50_tone50_vmid_a2.nam
 - values:
     drive: 10
     tone: 50
-  file: captures/756e0c60c70bd247_a2.nam
+  file: captures/suhr_riot_drive10_level50_tone50_vmid_a2.nam
 - values:
     drive: 100
     tone: 25
-  file: captures/750b4e2462c24428_a2.nam
+  file: captures/suhr_riot_drive100_level50_tone25_vmid_a2.nam
 - values:
     drive: 85
     tone: 75
-  file: captures/67100b8ad3f12f44_a2.nam
+  file: captures/suhr_riot_drive85_level50_tone75_vmid_a2.nam
 - values:
     drive: 25
     tone: 100
-  file: captures/219715550f18f304_a2.nam
+  file: captures/suhr_riot_drive25_level50_tone100_vmid_a2.nam
 - values:
     drive: 50
     tone: 75
-  file: captures/862d9ed8796b9e1c_a2.nam
+  file: captures/suhr_riot_drive50_level50_tone75_vmid_a2.nam
 - values:
     drive: 85
     tone: 100
-  file: captures/59e6e57655f9dce3_a2.nam
+  file: captures/suhr_riot_drive85_level50_tone100_vmid_a2.nam

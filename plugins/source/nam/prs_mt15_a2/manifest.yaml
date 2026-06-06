@@ -1,3 +1,7 @@
+# Constant across all captures (dropped): amp "PRS MT-15".
+# preset axis mirrors the prs_mt15_a1 sibling's single 'preset' axis: the
+# four A2 captures are distinct amp configs (two unboosted gain settings,
+# two external-boost variants), not a single continuous knob.
 manifest_version: 1
 id: nam_prs_mt15_a2
 display_name: MT15
@@ -9,8 +13,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/48000
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - unboosted_g3
   - unboosted_g5
@@ -18,14 +22,14 @@ parameters:
   - fortin_14
 captures:
 - values:
-    model: unboosted_g3
-  file: captures/egqhgw4j1wg_a2.nam
+    preset: unboosted_g3
+  file: captures/unboosted_g3_a2.nam
 - values:
-    model: unboosted_g5
-  file: captures/qrok7dgk85_a2.nam
+    preset: unboosted_g5
+  file: captures/unboosted_g5_a2.nam
 - values:
-    model: merciless_drive
-  file: captures/gvrn8bacakg_a2.nam
+    preset: merciless_drive
+  file: captures/merciless_drive_a2.nam
 - values:
-    model: fortin_14
-  file: captures/hz12mb1emxv_a2.nam
+    preset: fortin_14
+  file: captures/fortin_14_a2.nam

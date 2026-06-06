@@ -9,6 +9,9 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Dropped constants across all captures: "15" (capture-pack prefix), "hot_rod_deluxe" (amp name).
+# Names are nicknamed voicings/settings ("Bright Clean", "Warm Lead", "Southern Snap", "Womanly", ...)
+# that do not factor into numeric control knobs, so they collapse to a single clean 'preset' axis.
 parameters:
 - name: preset
   display_name: Preset

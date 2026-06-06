@@ -1,3 +1,8 @@
+# Constant across all captures (dropped): slammin (plugin slug).
+# Names are a grab-bag of distinct boost/overdrive voicings (od808, ocd,
+# sd1, goldenpearl, echopre) whose secondary tokens (t5/t7 tone, lp/hp
+# switch, bright/mid/dark voicing) differ per pedal and do not form a
+# single consistent control grid, so they collapse to one 'preset' axis.
 manifest_version: 1
 id: nam_slammin_booster_a1
 display_name: Slammin Clean Booster
@@ -8,8 +13,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: character
-  display_name: Character
+- name: preset
+  display_name: Preset
   values:
   - od808_t5
   - od808_t7
@@ -23,32 +28,32 @@ parameters:
   - echopre_dark
 captures:
 - values:
-    character: od808_t5
+    preset: od808_t5
   file: captures/slammin_od808_t5.nam
 - values:
-    character: od808_t7
+    preset: od808_t7
   file: captures/slammin_od808_t7.nam
 - values:
-    character: ocd_lp_t5
+    preset: ocd_lp_t5
   file: captures/slammin_ocd_lp_t5.nam
 - values:
-    character: ocd_hp_t5
+    preset: ocd_hp_t5
   file: captures/slammin_ocd_hp_t5.nam
 - values:
-    character: sd1_t5
+    preset: sd1_t5
   file: captures/slammin_sd1_t5.nam
 - values:
-    character: sd1_t7
+    preset: sd1_t7
   file: captures/slammin_sd1_t7.nam
 - values:
-    character: goldenpearl_t5
+    preset: goldenpearl_t5
   file: captures/slammin_goldenpearl_t5.nam
 - values:
-    character: echopre_bright
+    preset: echopre_bright
   file: captures/slammin_echopre_bright.nam
 - values:
-    character: echopre_mid
+    preset: echopre_mid
   file: captures/slammin_echopre_mid.nam
 - values:
-    character: echopre_dark
+    preset: echopre_dark
   file: captures/slammin_echopre_dark.nam

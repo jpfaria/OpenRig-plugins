@@ -7,11 +7,11 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: default
+  display_name: Default
   values:
-  - thorpy_fx_peacekeeper_esr_0_0004
+  - default
 captures:
 - values:
-    tone: thorpy_fx_peacekeeper_esr_0_0004
+    default: default
   file: captures/thorpy_fx_peacekeeper_esr_0_0004.nam

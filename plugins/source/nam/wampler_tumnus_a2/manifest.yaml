@@ -1,3 +1,4 @@
+# Dropped constant across all captures: "Tumnus" (pedal name, already in display_name).
 manifest_version: 1
 id: nam_wampler_tumnus_a2
 display_name: Wampler Tumnus
@@ -17,7 +18,7 @@ parameters:
 captures:
 - values:
     gain: high
-  file: captures/4152b7095fbb0e05_a2.nam
+  file: captures/tumnus_high_gain_a2.nam
 - values:
     gain: medium
-  file: captures/5099aeb29c12a701_a2.nam
+  file: captures/tumnus_medium_gain_a2.nam

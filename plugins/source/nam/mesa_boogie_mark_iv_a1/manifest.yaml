@@ -1,3 +1,8 @@
+# Dropped constant tokens across all captures: kdm, slammin, mkiv, trailing s
+# (and redundant mark_iv in the petrucci capture); the NN prefix is a capture
+# sequence number, not a control. The remaining names are signature voicings /
+# preset identities that do not decompose into real amp control axes, so they
+# collapse into a single clean 'preset' axis.
 manifest_version: 1
 id: nam_mesa_boogie_mark_iv_a1
 display_name: Mark IV
@@ -8,53 +13,39 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - tight_iic
-  - fat_iic
-  - petrucci
-  - metallica_85
+  - tight_iic_rhythm_1
+  - tight_iic_rhythm_2
+  - fat_iic_rhythm_1
+  - fat_iic_rhythm_2
+  - petrucci_crunch
+  - metallica_85_notes
   - metallica_tba
   - log_sacrament
-- name: take
-  display_name: Take
-  values:
-  - rhythm_1
-  - rhythm_2
-  - crunch
-  - notes
-  - default
 captures:
 - values:
-    take: rhythm_1
-    voicing: tight_iic
+    preset: tight_iic_rhythm_1
   file: captures/kdm_slammin_mkiv_28_tight_iic_rhythm_1_s.nam
 - values:
-    take: rhythm_2
-    voicing: tight_iic
+    preset: tight_iic_rhythm_2
   file: captures/kdm_slammin_mkiv_29_tight_iic_rhythm_2_s.nam
 - values:
-    take: rhythm_1
-    voicing: fat_iic
+    preset: fat_iic_rhythm_1
   file: captures/kdm_slammin_mkiv_31_fat_iic_rhythm_1_s.nam
 - values:
-    take: rhythm_2
-    voicing: fat_iic
+    preset: fat_iic_rhythm_2
   file: captures/kdm_slammin_mkiv_32_fat_iic_rhythm_2_s.nam
 - values:
-    take: crunch
-    voicing: petrucci
+    preset: petrucci_crunch
   file: captures/kdm_slammin_mkiv_34_petrucci_mark_iv_crunch_s.nam
 - values:
-    take: notes
-    voicing: metallica_85
+    preset: metallica_85_notes
   file: captures/kdm_slammin_mkiv_37_metallica_85_notes_s.nam
 - values:
-    take: default
-    voicing: metallica_tba
+    preset: metallica_tba
   file: captures/kdm_slammin_mkiv_39_metallica_tba_s.nam
 - values:
-    take: default
-    voicing: log_sacrament
+    preset: log_sacrament
   file: captures/kdm_slammin_mkiv_41_log_sacrament_s.nam

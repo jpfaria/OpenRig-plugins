@@ -4,9 +4,10 @@ display_name: H-DR1100N2
 brand: rainsong
 type: body
 backend: ir
+# constant across all captures (dropped): rainsong brand, dread/h_dr1100n2 body model, 44100 sample rate, hfn
 parameters:
-- name: flavor
-  display_name: Flavor
+- name: preset
+  display_name: Preset
   values:
   - standard
   - blend
@@ -14,18 +15,18 @@ parameters:
   - jf
 captures:
 - values:
-    flavor: standard
+    preset: standard
   file: ir/jf_rainsong_h_dr1100n2_hfn_44100.wav
   output_gain_db: -25.0790997
 - values:
-    flavor: blend
+    preset: blend
   file: ir/jf_rainsong_h_dr1100n2_hfn_44100_bld.wav
   output_gain_db: -19.0849037
 - values:
-    flavor: match
+    preset: match
   file: ir/rainsong_dread_44100_matcheq.wav
   output_gain_db: -21.5536060
 - values:
-    flavor: jf
+    preset: jf
   file: ir/jf_rainsong_h_dr1100n2_hfn_44100_jf_flavor.wav
   output_gain_db: -28.2626781

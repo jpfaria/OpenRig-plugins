@@ -1,3 +1,6 @@
+# Constant across all captures (dropped): amp/brand name (lescotton/faith/venus), "ir" marker.
+# Varying tokens are IR-treatment variants (maker tags cuki / cuki+jf / jf45, plus tap-length
+# variants 2048 / 1024 / 5050) that do not factor into real amp controls -> single 'preset' axis.
 manifest_version: 1
 id: ir_les_cotton_faith_venus
 display_name: Les Cotton Faith Venus
@@ -5,37 +8,37 @@ brand: les-cotton
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - lescotton_faith_venus
-  - cukiirlescottonfaith2048at48
-  - cukijfirlescottonfaith2048at48
-  - jf45irlescotton_faith_venus
-  - jf45ir1024lescotton_faith_venus
-  - jf45ir5050lescotton_faith_venus
+  - raw
+  - cuki_2048
+  - cuki_jf_2048
+  - jf45
+  - jf45_1024
+  - jf45_5050
 captures:
 - values:
-    voicing: lescotton_faith_venus
+    preset: raw
   file: ir/lescotton_faith_venus.wav
   output_gain_db: -44.7778931
 - values:
-    voicing: cukiirlescottonfaith2048at48
+    preset: cuki_2048
   file: ir/cukiirlescottonfaith2048at48.wav
   output_gain_db: -14.2374115
 - values:
-    voicing: cukijfirlescottonfaith2048at48
+    preset: cuki_jf_2048
   file: ir/cukijfirlescottonfaith2048at48.wav
   output_gain_db: -13.0732441
 - values:
-    voicing: jf45irlescotton_faith_venus
+    preset: jf45
   file: ir/jf45irlescotton_faith_venus.wav
   output_gain_db: -16.9445343
 - values:
-    voicing: jf45ir1024lescotton_faith_venus
+    preset: jf45_1024
   file: ir/jf45ir1024lescotton_faith_venus.wav
   output_gain_db: -15.4193707
 - values:
-    voicing: jf45ir5050lescotton_faith_venus
+    preset: jf45_5050
   file: ir/jf45ir5050lescotton_faith_venus.wav
   output_gain_db: -11.8912992

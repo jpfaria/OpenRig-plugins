@@ -20,30 +20,30 @@ parameters:
 - name: input
   display_name: Input
   values:
-  - '1'
-  - '2'
+  - 1
+  - 2
 captures:
 - values:
-    input: '1'
     voicing: clean
+    input: 1
   file: captures/clean_in1.nam
 - values:
-    input: '2'
     voicing: clean
+    input: 2
   file: captures/clean_in2.nam
 - values:
-    input: '1'
     voicing: crunch
+    input: 1
   file: captures/crunch_in1.nam
 - values:
-    input: '2'
     voicing: crunch
+    input: 2
   file: captures/crunch_in2.nam
 - values:
-    input: '1'
     voicing: od
+    input: 1
   file: captures/od_in1.nam
 - values:
-    input: '2'
     voicing: od
+    input: 2
   file: captures/od_in2.nam

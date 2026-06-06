@@ -4,38 +4,42 @@ display_name: Les Cotton Westfield
 brand: les-cotton
 type: body
 backend: ir
+# Constant tokens dropped from every capture name (the cab itself): "ir" and
+# the "lescotton_westfield" / "lescottonwest" slug. The captures are distinct
+# IR renderings of the same Westfield cab (different makers + tap/processing
+# variants), so they collapse to a single clean 'preset' selector.
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - lescotton_westfield
-  - cukiirlescottonwest2048_48
-  - cukijfirlescottonwest2048at48
-  - jf45irlescotton_westfield
-  - jf45ir1024lescotton_westfield
-  - jf45ir5050lescotton_westfield
+  - stock
+  - cuki_2048
+  - cuki_jf_2048
+  - jf45
+  - jf45_1024
+  - jf45_5050
 captures:
 - values:
-    voicing: lescotton_westfield
+    preset: stock
   file: ir/lescotton_westfield.wav
   output_gain_db: -46.9438744
 - values:
-    voicing: cukiirlescottonwest2048_48
+    preset: cuki_2048
   file: ir/cukiirlescottonwest2048_48.wav
   output_gain_db: -14.0499191
 - values:
-    voicing: cukijfirlescottonwest2048at48
+    preset: cuki_jf_2048
   file: ir/cukijfirlescottonwest2048at48.wav
   output_gain_db: -11.6991644
 - values:
-    voicing: jf45irlescotton_westfield
+    preset: jf45
   file: ir/jf45irlescotton_westfield.wav
   output_gain_db: -13.7050810
 - values:
-    voicing: jf45ir1024lescotton_westfield
+    preset: jf45_1024
   file: ir/jf45ir1024lescotton_westfield.wav
   output_gain_db: -11.1113682
 - values:
-    voicing: jf45ir5050lescotton_westfield
+    preset: jf45_5050
   file: ir/jf45ir5050lescotton_westfield.wav
   output_gain_db: -7.7523422

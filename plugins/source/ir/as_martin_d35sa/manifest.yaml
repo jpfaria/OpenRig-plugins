@@ -1,3 +1,4 @@
+# constant across all captures (dropped): gplus pickup, 44100 sample rate
 manifest_version: 1
 id: ir_as_martin_d35sa
 display_name: D-35 SA
@@ -6,27 +7,27 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - as_martin_d35sa_gplus_44100
-  - as_martin_d35sa_gplus_44100_bld
-  - as_martin_d35sa_gplus_44100_jf_flavor
-  - as_martin_d35sa_gplus_44100_match
+  - stock
+  - bld
+  - jf_flavor
+  - match
 captures:
 - values:
-    voicing: as_martin_d35sa_gplus_44100
+    preset: stock
   file: ir/as_martin_d35sa_gplus_44100.wav
   output_gain_db: -15.9323015
 - values:
-    voicing: as_martin_d35sa_gplus_44100_bld
+    preset: bld
   file: ir/as_martin_d35sa_gplus_44100_bld.wav
   output_gain_db: -10.7433586
 - values:
-    voicing: as_martin_d35sa_gplus_44100_jf_flavor
+    preset: jf_flavor
   file: ir/as_martin_d35sa_gplus_44100_jf_flavor.wav
   output_gain_db: -18.4204369
 - values:
-    voicing: as_martin_d35sa_gplus_44100_match
+    preset: match
   file: ir/as_martin_d35sa_gplus_44100_match.wav
   output_gain_db: -12.9569368

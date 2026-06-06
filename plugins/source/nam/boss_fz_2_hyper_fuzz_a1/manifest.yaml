@@ -7,35 +7,44 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Dropped constants: fz_2 (pedal name), level (8 where present)
 parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - fuzz_i
+  - boost
 - name: bass
   display_name: Bass
   values:
   - 7.0
   - 8.0
-- name: gain
-  display_name: Gain
-  values:
-  - 5.0
-  - 10.0
 - name: tone
   display_name: Tone
   values:
   - 5.0
   - 6.0
+- name: gain
+  display_name: Gain
+  values:
+  - 5.0
+  - 10.0
 captures:
 - values:
+    mode: boost
     bass: 8.0
-    gain: 10.0
     tone: 6.0
+    gain: 10.0
   file: captures/fz_2_boost_b8_t6_g10.nam
 - values:
+    mode: fuzz_i
     bass: 7.0
-    gain: 10.0
     tone: 5.0
+    gain: 10.0
   file: captures/fz_2_fuzz_i_l8_b7_t5_g10.nam
 - values:
+    mode: fuzz_i
     bass: 7.0
-    gain: 5.0
     tone: 5.0
+    gain: 5.0
   file: captures/fz_2_fuzz_i_l8_b7_t5_g5.nam

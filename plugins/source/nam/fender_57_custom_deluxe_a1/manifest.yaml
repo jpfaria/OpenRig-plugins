@@ -7,6 +7,8 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# dropped constant token: training epoch count (700/1000/1300) is a NAM training
+# artifact tied to each voicing, not a user-facing amp control.
 parameters:
 - name: gain
   display_name: Gain

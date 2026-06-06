@@ -5,9 +5,10 @@ brand: martin
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
+# dropped constants across all captures: martin_dc_16e (model), 48000 (sample rate)
 parameters:
-- name: flavor
-  display_name: Flavor
+- name: voicing
+  display_name: Voicing
   values:
   - standard
   - blend
@@ -15,18 +16,18 @@ parameters:
   - jf
 captures:
 - values:
-    flavor: standard
+    voicing: standard
   file: ir/martin_dc_16e_48000.wav
   output_gain_db: -21.8520260
 - values:
-    flavor: blend
+    voicing: blend
   file: ir/martin_dc_16e_48000_bld.wav
   output_gain_db: -16.0174294
 - values:
-    flavor: match
+    voicing: match
   file: ir/martin_dc_16e_48000_match.wav
   output_gain_db: -18.0284538
 - values:
-    flavor: jf
+    voicing: jf
   file: ir/martin_dc_16e_48000_jf_flavor.wav
   output_gain_db: -16.7622967

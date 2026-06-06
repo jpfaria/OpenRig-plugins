@@ -9,19 +9,35 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: drive
+  display_name: Drive
   values:
-  - d2_t5_v5
-  - d4_t6_v5
-  - d5_t5_v4
+  - 2
+  - 4
+  - 5
+- name: tone
+  display_name: Tone
+  values:
+  - 5
+  - 6
+- name: volume
+  display_name: Volume
+  values:
+  - 4
+  - 5
 captures:
 - values:
-    preset: d4_t6_v5
-  file: captures/2ueuf01io5t.nam
+    drive: 4
+    tone: 6
+    volume: 5
+  file: captures/lovepedal_eternity_burst_d4_t6_v5.nam
 - values:
-    preset: d2_t5_v5
-  file: captures/12pdtwk35xca.nam
+    drive: 2
+    tone: 5
+    volume: 5
+  file: captures/lovepedal_eternity_burst_d2_t5_v5.nam
 - values:
-    preset: d5_t5_v4
-  file: captures/4klr1dfal4w.nam
+    drive: 5
+    tone: 5
+    volume: 4
+  file: captures/lovepedal_eternity_burst_d5_t5_v4.nam

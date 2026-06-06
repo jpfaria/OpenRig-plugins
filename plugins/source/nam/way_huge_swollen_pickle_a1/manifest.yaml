@@ -8,8 +8,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - boss_os_2
   - buxom_boost_1
@@ -22,29 +22,29 @@ parameters:
   - swollen_pickle
 captures:
 - values:
-    tone: boss_os_2
+    preset: boss_os_2
   file: captures/boss_os_2.nam
 - values:
-    tone: buxom_boost_1
+    preset: buxom_boost_1
   file: captures/buxom_boost_1.nam
 - values:
-    tone: buxom_boost_2
+    preset: buxom_boost_2
   file: captures/buxom_boost_2.nam
 - values:
-    tone: buxom_boost_3
+    preset: buxom_boost_3
   file: captures/buxom_boost_3.nam
 - values:
-    tone: gci_jugendstil
+    preset: gci_jugendstil
   file: captures/gci_jugendstil.nam
 - values:
-    tone: pp_rot_mid_boost
+    preset: pp_rot_mid_boost
   file: captures/pp_rot_mid_boost.nam
 - values:
-    tone: pp_rot_mid_scoop
+    preset: pp_rot_mid_scoop
   file: captures/pp_rot_mid_scoop.nam
 - values:
-    tone: pp_wendigo
+    preset: pp_wendigo
   file: captures/pp_wendigo.nam
 - values:
-    tone: swollen_pickle
+    preset: swollen_pickle
   file: captures/swollen_pickle.nam

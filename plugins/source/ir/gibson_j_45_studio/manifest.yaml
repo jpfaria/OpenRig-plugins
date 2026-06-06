@@ -1,3 +1,4 @@
+# constant tokens dropped: gibson_j_45_studio (plugin slug), 48000 (sample rate)
 manifest_version: 1
 id: ir_gibson_j_45_studio
 display_name: J-45 Studio
@@ -6,27 +7,27 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - gibson_j_45_studio_48000
-  - gibson_j_45_studio_48000_bld
-  - gibson_j_45_studio_48000_jf_flavor
-  - gibson_j_45_studio_48000_match
+  - flat
+  - blend
+  - jf
+  - match
 captures:
 - values:
-    voicing: gibson_j_45_studio_48000
+    preset: flat
   file: ir/gibson_j_45_studio_48000.wav
   output_gain_db: -25.5995884
 - values:
-    voicing: gibson_j_45_studio_48000_bld
+    preset: blend
   file: ir/gibson_j_45_studio_48000_bld.wav
   output_gain_db: -19.4251766
 - values:
-    voicing: gibson_j_45_studio_48000_jf_flavor
+    preset: jf
   file: ir/gibson_j_45_studio_48000_jf_flavor.wav
   output_gain_db: -23.1870861
 - values:
-    voicing: gibson_j_45_studio_48000_match
+    preset: match
   file: ir/gibson_j_45_studio_48000_match.wav
   output_gain_db: -17.8108044

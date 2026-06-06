@@ -6,68 +6,100 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Constant across all captures (dropped): Low Cut 900.
 parameters:
-- name: tone
-  display_name: Tone
+- name: level
+  display_name: Level
   values:
-  - level1200_g
-  - level1200_g_1
-  - level1200_g_2
-  - level1200_g_3
-  - level1200_g_4
-  - level130_ga
-  - level130_ga_1
-  - level130_ga_2
-  - level130_ga_3
-  - level130_ga_4
-  - level130_ga_5
-  - level130_ga_6
-  - level130_ga_7
-  - level130_ga_8
-  - level130_ga_9
+  - 130
+  - 1200
+- name: bias
+  display_name: Bias
+  values:
+  - low
+  - med
+  - high
+- name: gain
+  display_name: Gain
+  values:
+  - 300
+  - 500
+  - 700
+  - 900
+  - 1200
 captures:
 - values:
-    tone: level1200_g
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g.nam
+    level: 1200
+    bias: low
+    gain: 900
+  file: captures/hudson_broadcast_level1200_bias_low_gain900_a1.nam
 - values:
-    tone: level1200_g_1
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_1.nam
+    level: 1200
+    bias: low
+    gain: 1200
+  file: captures/hudson_broadcast_level1200_bias_low_gain1200_a1.nam
 - values:
-    tone: level1200_g_2
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_2.nam
+    level: 1200
+    bias: low
+    gain: 300
+  file: captures/hudson_broadcast_level1200_bias_low_gain300_a1.nam
 - values:
-    tone: level1200_g_3
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_3.nam
+    level: 1200
+    bias: low
+    gain: 500
+  file: captures/hudson_broadcast_level1200_bias_low_gain500_a1.nam
 - values:
-    tone: level1200_g_4
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level1200_g_4.nam
+    level: 1200
+    bias: low
+    gain: 700
+  file: captures/hudson_broadcast_level1200_bias_low_gain700_a1.nam
 - values:
-    tone: level130_ga
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga.nam
+    level: 130
+    bias: high
+    gain: 700
+  file: captures/hudson_broadcast_level130_bias_high_gain700_a1.nam
 - values:
-    tone: level130_ga_1
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_1.nam
+    level: 130
+    bias: high
+    gain: 500
+  file: captures/hudson_broadcast_level130_bias_high_gain500_a1.nam
 - values:
-    tone: level130_ga_2
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_2.nam
+    level: 130
+    bias: high
+    gain: 900
+  file: captures/hudson_broadcast_level130_bias_high_gain900_a1.nam
 - values:
-    tone: level130_ga_3
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_3.nam
+    level: 130
+    bias: high
+    gain: 1200
+  file: captures/hudson_broadcast_level130_bias_high_gain1200_a1.nam
 - values:
-    tone: level130_ga_4
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_4.nam
+    level: 130
+    bias: med
+    gain: 500
+  file: captures/hudson_broadcast_level130_bias_med_gain500_a1.nam
 - values:
-    tone: level130_ga_5
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_5.nam
+    level: 130
+    bias: med
+    gain: 700
+  file: captures/hudson_broadcast_level130_bias_med_gain700_a1.nam
 - values:
-    tone: level130_ga_6
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_6.nam
+    level: 130
+    bias: med
+    gain: 300
+  file: captures/hudson_broadcast_level130_bias_med_gain300_a1.nam
 - values:
-    tone: level130_ga_7
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_7.nam
+    level: 130
+    bias: med
+    gain: 1200
+  file: captures/hudson_broadcast_level130_bias_med_gain1200_a1.nam
 - values:
-    tone: level130_ga_8
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_8.nam
+    level: 130
+    bias: med
+    gain: 900
+  file: captures/hudson_broadcast_level130_bias_med_gain900_a1.nam
 - values:
-    tone: level130_ga_9
-  file: captures/hudson_broadcast_bc_24v_ltd_low_cut900_level130_ga_9.nam
+    level: 130
+    bias: high
+    gain: 300
+  file: captures/hudson_broadcast_level130_bias_high_gain300_a1.nam

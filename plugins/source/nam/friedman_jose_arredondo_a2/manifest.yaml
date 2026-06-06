@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): brand/model name tokens `fman`, `jose`.
 manifest_version: 1
 id: nam_friedman_jose_arredondo_a2
 display_name: Jose Arredondo
@@ -10,12 +11,21 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - mesa_v_pres
-  - mar_n_pres
-  - mar_hotrod
+  - hotrod
+  - pres5
+- name: cab
+  display_name: Cab
+  values:
+  - mesa
+  - marshall
+- name: presence
+  display_name: Presence
+  values:
+  - vintage
+  - new
 - name: mic
   display_name: Mic
   values:
@@ -24,30 +34,44 @@ parameters:
   - blend3
 captures:
 - values:
+    preset: pres5
+    cab: mesa
+    presence: vintage
     mic: sm57
-    voicing: mesa_v_pres
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm57.nam
 - values:
+    preset: pres5
+    cab: mesa
+    presence: vintage
     mic: blend1
-    voicing: mesa_v_pres
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_1.nam
 - values:
+    preset: pres5
+    cab: marshall
+    presence: new
     mic: sm57
-    voicing: mar_n_pres
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
 - values:
+    preset: pres5
+    cab: marshall
+    presence: new
     mic: blend1
-    voicing: mar_n_pres
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_1.nam
 - values:
+    preset: hotrod
+    cab: marshall
+    presence: new
     mic: sm57
-    voicing: mar_hotrod
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
 - values:
+    preset: hotrod
+    cab: marshall
+    presence: new
     mic: blend1
-    voicing: mar_hotrod
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
 - values:
+    preset: hotrod
+    cab: marshall
+    presence: new
     mic: blend3
-    voicing: mar_hotrod
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam

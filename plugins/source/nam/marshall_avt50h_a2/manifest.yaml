@@ -1,3 +1,4 @@
+# Dropped constant: channel "HG" (high gain) — identical across all captures.
 manifest_version: 1
 id: nam_marshall_avt50h_a2
 display_name: AVT50H
@@ -20,13 +21,13 @@ parameters:
 captures:
 - values:
     voicing: hg_mid_cut
-  file: captures/h8bwwazpnee_a2.nam
+  file: captures/avt50h_hg_mid_cut_a2.nam
 - values:
     voicing: hg_treb_cut
-  file: captures/og9vq3bhnsa_a2.nam
+  file: captures/avt50h_hg_treb_cut_a2.nam
 - values:
     voicing: hg_bass_cut
-  file: captures/q0c95j3y2cl_a2.nam
+  file: captures/avt50h_hg_bass_cut_a2.nam
 - values:
     voicing: hg_dimed
-  file: captures/u0ypd0qod6k_a2.nam
+  file: captures/avt50h_hg_dimed_a2.nam

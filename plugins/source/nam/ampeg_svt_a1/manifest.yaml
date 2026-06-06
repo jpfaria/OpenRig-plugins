@@ -1,3 +1,8 @@
+# constant across all captures: ampeg_svt (amp slug). The "gain_10" token
+# appears only on the both-ultra-on pair and is fully redundant with
+# bright=engaged + deep=engaged, so it is not a separate axis.
+# The SVT's "Ultra Hi" / "Ultra Lo" front-panel switches are real controls;
+# mapped to the canonical NAM names bright (Ultra Hi) and deep (Ultra Lo).
 manifest_version: 1
 id: nam_ampeg_svt_a1
 display_name: SVT
@@ -8,13 +13,16 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: ultra
-  display_name: Ultra Switch
+- name: bright
+  display_name: Ultra Hi
   values:
-  - off
-  - hi
-  - lo
-  - hi_lo_g10
+  - bypass
+  - engaged
+- name: deep
+  display_name: Ultra Lo
+  values:
+  - bypass
+  - engaged
 - name: mic
   display_name: Mic
   values:
@@ -23,34 +31,42 @@ parameters:
   - sm75
 captures:
 - values:
+    bright: engaged
+    deep: bypass
     mic: md_421
-    ultra: hi
   file: captures/ampeg_svt_ultra_hi_md_421.nam
 - values:
+    bright: engaged
+    deep: bypass
     mic: sm57
-    ultra: hi
   file: captures/ampeg_svt_ultra_hi_sm57.nam
 - values:
+    bright: bypass
+    deep: engaged
     mic: md_421
-    ultra: lo
   file: captures/ampeg_svt_ultra_lo_md_421.nam
 - values:
+    bright: bypass
+    deep: engaged
     mic: sm57
-    ultra: lo
   file: captures/ampeg_svt_ultra_lo_sm57.nam
 - values:
+    bright: bypass
+    deep: bypass
     mic: md_421
-    ultra: off
   file: captures/ampeg_svt_md_421.nam
 - values:
+    bright: bypass
+    deep: bypass
     mic: sm75
-    ultra: off
   file: captures/ampeg_svt_sm75.nam
 - values:
+    bright: engaged
+    deep: engaged
     mic: md_421
-    ultra: hi_lo_g10
   file: captures/ampeg_svt_gain_10_ultra_lo_and_hi_md_421.nam
 - values:
+    bright: engaged
+    deep: engaged
     mic: sm57
-    ultra: hi_lo_g10
   file: captures/ampeg_svt_gain_10_ultra_lo_and_hi_sm57.nam

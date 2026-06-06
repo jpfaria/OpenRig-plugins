@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): fman_jose (Friedman "Jose Arredondo" amp).
 manifest_version: 1
 id: nam_friedman_jose_arredondo_a1
 display_name: Jose Arredondo
@@ -10,12 +11,26 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: stage
+  display_name: Stage
   values:
-  - mesa_v_pres
-  - mar_n_pres
-  - mar_hotrod
+  - poweramp
+  - amp
+- name: cab
+  display_name: Cab
+  values:
+  - mesa
+  - marshall
+- name: presence
+  display_name: Presence
+  values:
+  - voiced
+  - normal
+- name: preset
+  display_name: Preset
+  values:
+  - pres@5
+  - hotrod
 - name: mic
   display_name: Mic
   values:
@@ -25,34 +40,58 @@ parameters:
   - blend3
 captures:
 - values:
+    stage: poweramp
+    cab: mesa
+    presence: voiced
+    preset: pres@5
     mic: sm57
-    voicing: mesa_v_pres
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm57.nam
 - values:
+    stage: poweramp
+    cab: mesa
+    presence: voiced
+    preset: pres@5
     mic: blend1
-    voicing: mesa_v_pres
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_1.nam
 - values:
+    stage: poweramp
+    cab: marshall
+    presence: normal
+    preset: pres@5
     mic: sm57
-    voicing: mar_n_pres
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
 - values:
+    stage: poweramp
+    cab: marshall
+    presence: normal
+    preset: pres@5
     mic: di
-    voicing: mar_n_pres
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_di.nam
 - values:
+    stage: poweramp
+    cab: marshall
+    presence: normal
+    preset: pres@5
     mic: blend1
-    voicing: mar_n_pres
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_1.nam
 - values:
+    stage: amp
+    cab: marshall
+    presence: normal
+    preset: hotrod
     mic: sm57
-    voicing: mar_hotrod
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
 - values:
+    stage: amp
+    cab: marshall
+    presence: normal
+    preset: hotrod
     mic: blend1
-    voicing: mar_hotrod
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
 - values:
+    stage: amp
+    cab: marshall
+    presence: normal
+    preset: hotrod
     mic: blend3
-    voicing: mar_hotrod
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam

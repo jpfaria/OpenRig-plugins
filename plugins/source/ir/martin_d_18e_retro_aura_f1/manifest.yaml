@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): martin_d_18e_retro, 48000 (sample rate).
 manifest_version: 1
 id: ir_martin_d_18e_retro_aura_f1
 display_name: D-18E Retro Aura F1

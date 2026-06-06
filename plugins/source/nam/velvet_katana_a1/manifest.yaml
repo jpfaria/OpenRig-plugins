@@ -6,9 +6,12 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# dropped constant token across all captures: katana (amp/plugin name)
+# grab-bag of named voicing/gain characters that do not decompose into
+# numeric control settings -> single discrete 'preset' selector
 parameters:
-- name: character
-  display_name: Character
+- name: preset
+  display_name: Preset
   values:
   - country
   - blues_bright
@@ -18,20 +21,20 @@ parameters:
   - drive_plus
 captures:
 - values:
-    character: country
+    preset: country
   file: captures/katana_country.nam
 - values:
-    character: blues_bright
+    preset: blues_bright
   file: captures/katana_blues_bright.nam
 - values:
-    character: larry
+    preset: larry
   file: captures/katana_larry.nam
 - values:
-    character: brad
+    preset: brad
   file: captures/katana_brad.nam
 - values:
-    character: drive
+    preset: drive
   file: captures/katana_drive.nam
 - values:
-    character: drive_plus
+    preset: drive_plus
   file: captures/katana_drive_plus.nam

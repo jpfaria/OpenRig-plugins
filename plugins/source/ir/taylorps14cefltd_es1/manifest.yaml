@@ -1,3 +1,4 @@
+# constant across all captures (dropped): ps14 (guitar), fltd (pickup), 2048 (IR taps)
 manifest_version: 1
 id: ir_taylorps14cefltd_es1
 display_name: PS14ce FLTD ES1
@@ -6,22 +7,22 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ps14_fltd_2048_44k
-  - ps14_fltd_2048_44k_m
-  - ps14_fltd_2048_48k_mffqn
+  - 44k
+  - 44k_m
+  - 48k_mffqn
 captures:
 - values:
-    voicing: ps14_fltd_2048_44k
+    preset: 44k
   file: ir/ps14_fltd_2048_44k.wav
   output_gain_db: -18.9977875
 - values:
-    voicing: ps14_fltd_2048_44k_m
+    preset: 44k_m
   file: ir/ps14_fltd_2048_44k_m.wav
   output_gain_db: -9.0970049
 - values:
-    voicing: ps14_fltd_2048_48k_mffqn
+    preset: 48k_mffqn
   file: ir/ps14_fltd_2048_48k_mffqn.wav
   output_gain_db: -21.7947693

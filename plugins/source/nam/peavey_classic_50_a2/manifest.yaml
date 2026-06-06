@@ -9,52 +9,58 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/6281
+# Dropped constant across all captures: amp/brand name "Peavey Classic 50".
+# The 10 "vol N" / "bright vol N" captures factor into voicing (normal/bright)
+# + a numeric volume knob; the 11th capture is the separate "crunch" channel
+# which carries no volume setting, so a closed voicing x volume grid is not
+# possible without inventing a volume value. A single clean "preset" axis keeps
+# every real distinction (volume level, bright voicing, crunch channel) honestly.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - vol3
-  - vol5
-  - vol7
-  - vol9
-  - vol11
-  - bright_vol3
-  - bright_vol5
-  - bright_vol7
-  - bright_vol9
-  - bright_vol11
+  - vol_3
+  - vol_5
+  - vol_7
+  - vol_9
+  - vol_11
+  - bright_vol_3
+  - bright_vol_5
+  - bright_vol_7
+  - bright_vol_9
+  - bright_vol_11
   - crunch
 captures:
 - values:
-    model: vol3
-  file: captures/f541d2b3cd510e0b_a2.nam
+    preset: vol_3
+  file: captures/vol_3_a2.nam
 - values:
-    model: vol5
-  file: captures/6f2edb342c325d21_a2.nam
+    preset: vol_5
+  file: captures/vol_5_a2.nam
 - values:
-    model: vol7
-  file: captures/6f0d7c1bd15bc56a_a2.nam
+    preset: vol_7
+  file: captures/vol_7_a2.nam
 - values:
-    model: vol9
-  file: captures/729534e3c0365d2d_a2.nam
+    preset: vol_9
+  file: captures/vol_9_a2.nam
 - values:
-    model: vol11
-  file: captures/86b2dc620dc36a2a_a2.nam
+    preset: vol_11
+  file: captures/vol_11_a2.nam
 - values:
-    model: bright_vol3
-  file: captures/01bf131695862a8c_a2.nam
+    preset: bright_vol_3
+  file: captures/bright_vol_3_a2.nam
 - values:
-    model: bright_vol5
-  file: captures/3631fc5215bf3abd_a2.nam
+    preset: bright_vol_5
+  file: captures/bright_vol_5_a2.nam
 - values:
-    model: bright_vol7
-  file: captures/e14f3608fb534c40_a2.nam
+    preset: bright_vol_7
+  file: captures/bright_vol_7_a2.nam
 - values:
-    model: bright_vol9
-  file: captures/f3ee23b5463f5c0a_a2.nam
+    preset: bright_vol_9
+  file: captures/bright_vol_9_a2.nam
 - values:
-    model: bright_vol11
-  file: captures/973b033dea69a8c6_a2.nam
+    preset: bright_vol_11
+  file: captures/bright_vol_11_a2.nam
 - values:
-    model: crunch
-  file: captures/410f8d13d7a61252_a2.nam
+    preset: crunch
+  file: captures/crunch_a2.nam

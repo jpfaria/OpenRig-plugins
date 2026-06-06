@@ -1,3 +1,4 @@
+# Single capture (filename token "clean" constant → folded into the 'default' axis).
 manifest_version: 1
 id: nam_fender_pa100_a1
 display_name: PA100
@@ -10,7 +11,11 @@ output_gain_db: 0.0000000
 type: preamp
 backend: nam
 architecture: A1
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/clean.nam

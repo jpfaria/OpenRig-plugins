@@ -8,47 +8,35 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: amp_model
-  display_name: Amp Model
+- name: preset
+  display_name: Preset
   values:
-  - vox_ac15
-  - jtm_45
-  - jcm_900
-  - dumble
-- name: tone
-  display_name: Tone
-  values:
-  - clean
-  - crunch
-  - crsh_2
-  - crsh
-  - higain
+  - vox_ac15_clean
+  - vox_ac15_crunch
+  - vox_ac15_crunch_2
+  - jtm_45_clean
+  - jtm_45_crunch
+  - jcm_900_high_gain
+  - dumble_clean
 captures:
 - values:
-    amp_model: vox_ac15
-    tone: clean
+    preset: vox_ac15_clean
   file: captures/vox_ac15_clean.nam
 - values:
-    amp_model: vox_ac15
-    tone: crunch
+    preset: vox_ac15_crunch
   file: captures/vox_ac15_crunsh.nam
 - values:
-    amp_model: vox_ac15
-    tone: crsh_2
+    preset: vox_ac15_crunch_2
   file: captures/vox_ac15_crsh_2.nam
 - values:
-    amp_model: jtm_45
-    tone: clean
+    preset: jtm_45_clean
   file: captures/marshall_jtm_45_clean.nam
 - values:
-    amp_model: jtm_45
-    tone: crsh
+    preset: jtm_45_crunch
   file: captures/jtm_45_crsh.nam
 - values:
-    amp_model: jcm_900
-    tone: higain
+    preset: jcm_900_high_gain
   file: captures/marshall_jcm_900_higain.nam
 - values:
-    amp_model: dumble
-    tone: clean
+    preset: dumble_clean
   file: captures/ods_dumble_clean.nam

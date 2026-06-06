@@ -1,3 +1,4 @@
+# Dropped constant token (identical in every capture): tsl100 (TSL100 head)
 manifest_version: 1
 id: nam_marshall_jcm2000_tsl
 display_name: JCM2000 TSL
@@ -19,33 +20,33 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g2
-  - g3_5
-  - g6
-  - g7
-  - g9
+  - 2
+  - 3.5
+  - 6
+  - 7
+  - 9
 captures:
 - values:
     channel: clean
-    gain: g3_5
+    gain: 3.5
   file: captures/tsl100_clean_g3_5.nam
 - values:
     channel: crunch
-    gain: g2
+    gain: 2
   file: captures/tsl100_crunch_g2.nam
 - values:
     channel: crunch
-    gain: g6
+    gain: 6
   file: captures/tsl100_crunch_g6.nam
 - values:
     channel: crunch
-    gain: g9
+    gain: 9
   file: captures/tsl100_crunch_g9.nam
 - values:
     channel: lead
-    gain: g7
+    gain: 7
   file: captures/tsl100_lead_g7.nam
 - values:
     channel: lead
-    gain: g9
+    gain: 9
   file: captures/tsl100_lead_g9.nam

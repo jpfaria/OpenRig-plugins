@@ -1,3 +1,6 @@
+# Constant across all captures (dropped): "CaliAxis" custom voicing, captured
+# through a custom Metallica Justice IR. The captures differ only by which
+# classic Metallica album tone they target, so a single 'preset' axis is used.
 manifest_version: 1
 id: nam_mesa_triaxis
 display_name: Triaxis

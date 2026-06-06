@@ -6,6 +6,7 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Dropped constant across all captures: clean_jazz (channel/voicing, identical in every file)
 parameters:
 - name: boost
   display_name: Boost

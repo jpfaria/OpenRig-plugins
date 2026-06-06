@@ -8,6 +8,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/56493
+# Dropped constant: every Lead capture carries "Level03" (a fixed Level knob
+# setting for the Lead channel) and no Clean capture does; it is fully
+# determined by gain=lead, so it is not an independent axis.
 parameters:
 - name: gain
   display_name: Gain
@@ -37,190 +40,190 @@ captures:
     gain: clean
     switch: bright
     voicing: jazz
-  file: captures/q824f79te_a2.nam
-- values:
-    boost: pre_boost
-    gain: clean
-    switch: midboost
-    voicing: rock
-  file: captures/yzt6ts7adtr_a2.nam
-- values:
-    boost: pre_boost
-    gain: clean
-    switch: neither
-    voicing: rock
-  file: captures/wimf9d6fdj_a2.nam
-- values:
-    boost: pre_boost
-    gain: lead
-    switch: bright
-    voicing: rock
-  file: captures/8vkvzwqfhuv_a2.nam
-- values:
-    boost: pre_boost
-    gain: clean
-    switch: bright
-    voicing: jazz
-  file: captures/hv7e3vq5rv_a2.nam
-- values:
-    boost: pre_boost
-    gain: clean
-    switch: bright
-    voicing: rock
-  file: captures/68xzzdv29gm_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: neither
-    voicing: rock
-  file: captures/0os51tnfs62_a2.nam
-- values:
-    boost: pre_boost
-    gain: lead
-    switch: midboost
-    voicing: rock
-  file: captures/xkabnrilw67_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: midboost
-    voicing: rock
-  file: captures/p45nvf5ier_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: bright_mid
-    voicing: jazz
-  file: captures/66wvmhp5vz5_a2.nam
-- values:
-    boost: pre_boost
-    gain: lead
-    switch: bright_mid
-    voicing: rock
-  file: captures/ve1mqkxlwr_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: bright
-    voicing: rock
-  file: captures/9djsv3gsiv_a2.nam
-- values:
-    boost: normal
-    gain: clean
-    switch: midboost
-    voicing: jazz
-  file: captures/ne6au4jguwt_a2.nam
-- values:
-    boost: pre_boost
-    gain: lead
-    switch: neither
-    voicing: rock
-  file: captures/ladc37m779f_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: bright_mid
-    voicing: rock
-  file: captures/nis3kdq5bhq_a2.nam
-- values:
-    boost: pre_boost
-    gain: clean
-    switch: bright_mid
-    voicing: rock
-  file: captures/u1hw5lmfpy8_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: midboost
-    voicing: jazz
-  file: captures/d6b1p9wefxl_a2.nam
+  file: captures/ceriatone_ots_mini_20_clean_jazz_bright_a2.nam
 - values:
     boost: normal
     gain: clean
     switch: bright_mid
     voicing: jazz
-  file: captures/xrzsv51lu1h_a2.nam
+  file: captures/ceriatone_ots_mini_20_clean_jazz_bright_midboost_a2.nam
 - values:
-    boost: pre_boost
+    boost: normal
     gain: clean
-    switch: neither
-    voicing: jazz
-  file: captures/6g23tnqjl86_a2.nam
-- values:
-    boost: pre_boost
-    gain: lead
     switch: midboost
     voicing: jazz
-  file: captures/hdy2fecqn8t_a2.nam
+  file: captures/ceriatone_ots_mini_20_clean_jazz_midboost_a2.nam
 - values:
     boost: normal
     gain: clean
     switch: neither
     voicing: jazz
-  file: captures/ocz6g058pxj_a2.nam
+  file: captures/ceriatone_ots_mini_20_clean_jazz_normal_a2.nam
 - values:
     boost: pre_boost
-    gain: lead
-    switch: neither
-    voicing: jazz
-  file: captures/zrqmszgtgkj_a2.nam
-- values:
-    boost: normal
-    gain: lead
-    switch: bright
-    voicing: jazz
-  file: captures/o2bpvbm9g1m_a2.nam
-- values:
-    boost: normal
     gain: clean
     switch: neither
-    voicing: rock
-  file: captures/vhtlp4kh0pn_a2.nam
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_clean_jazz_pre_boost_a2.nam
+- values:
+    boost: pre_boost
+    gain: clean
+    switch: bright
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_clean_jazz_pre_boost_bright_a2.nam
+- values:
+    boost: pre_boost
+    gain: clean
+    switch: bright_mid
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_clean_jazz_pre_boost_bright_midboost_a2.nam
+- values:
+    boost: pre_boost
+    gain: clean
+    switch: midboost
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_clean_jazz_pre_boost_midboost_a2.nam
 - values:
     boost: normal
     gain: clean
     switch: bright
     voicing: rock
-  file: captures/o9u94py86q_a2.nam
+  file: captures/ceriatone_ots_mini_20_clean_rock_bright_a2.nam
+- values:
+    boost: normal
+    gain: clean
+    switch: bright_mid
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_bright_midboost_a2.nam
+- values:
+    boost: normal
+    gain: clean
+    switch: midboost
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_midboost_a2.nam
+- values:
+    boost: normal
+    gain: clean
+    switch: neither
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_normal_a2.nam
+- values:
+    boost: pre_boost
+    gain: clean
+    switch: neither
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_pre_boost_a2.nam
+- values:
+    boost: pre_boost
+    gain: clean
+    switch: bright
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_pre_boost_bright_a2.nam
+- values:
+    boost: pre_boost
+    gain: clean
+    switch: bright_mid
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_pre_boost_bright_midboost_a2.nam
 - values:
     boost: pre_boost
     gain: clean
     switch: midboost
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_clean_rock_pre_boost_midboost_a2.nam
+- values:
+    boost: normal
+    gain: lead
+    switch: bright
     voicing: jazz
-  file: captures/y6vug3flmp_a2.nam
+  file: captures/ceriatone_ots_mini_20_lead_jazz_bright_level03_a2.nam
+- values:
+    boost: normal
+    gain: lead
+    switch: bright_mid
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_lead_jazz_bright_midboost_level03_a2.nam
+- values:
+    boost: normal
+    gain: lead
+    switch: midboost
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_lead_jazz_midboost_level03_a2.nam
 - values:
     boost: normal
     gain: lead
     switch: neither
     voicing: jazz
-  file: captures/sqtcerblylo_a2.nam
-- values:
-    boost: pre_boost
-    gain: clean
-    switch: bright_mid
-    voicing: jazz
-  file: captures/02rfuogbaqor_a2.nam
-- values:
-    boost: normal
-    gain: clean
-    switch: midboost
-    voicing: rock
-  file: captures/qzxyq0zz96q_a2.nam
+  file: captures/ceriatone_ots_mini_20_lead_jazz_normal_level03_a2.nam
 - values:
     boost: pre_boost
     gain: lead
     switch: bright
     voicing: jazz
-  file: captures/0ufdv3ha9g8_a2.nam
+  file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_bright_level03_a2.nam
 - values:
     boost: pre_boost
     gain: lead
     switch: bright_mid
     voicing: jazz
-  file: captures/50l0xrk5mx_a2.nam
+  file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_bright_midboost_level03_a2.nam
+- values:
+    boost: pre_boost
+    gain: lead
+    switch: neither
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_level03_a2.nam
+- values:
+    boost: pre_boost
+    gain: lead
+    switch: midboost
+    voicing: jazz
+  file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_midboost_level03_a2.nam
 - values:
     boost: normal
-    gain: clean
+    gain: lead
+    switch: bright
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_bright_level03_a2.nam
+- values:
+    boost: normal
+    gain: lead
     switch: bright_mid
     voicing: rock
-  file: captures/491splzhdpl_a2.nam
+  file: captures/ceriatone_ots_mini_20_lead_rock_bright_midboost_level03_a2.nam
+- values:
+    boost: normal
+    gain: lead
+    switch: midboost
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_midboost_level03_a2.nam
+- values:
+    boost: normal
+    gain: lead
+    switch: neither
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_normal_level03_a2.nam
+- values:
+    boost: pre_boost
+    gain: lead
+    switch: bright
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_bright_level03_a2.nam
+- values:
+    boost: pre_boost
+    gain: lead
+    switch: bright_mid
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_bright_midboost_level03_a2.nam
+- values:
+    boost: pre_boost
+    gain: lead
+    switch: neither
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_level03_a2.nam
+- values:
+    boost: pre_boost
+    gain: lead
+    switch: midboost
+    voicing: rock
+  file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_midboost_level03_a2.nam

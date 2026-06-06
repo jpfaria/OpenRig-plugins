@@ -1,3 +1,6 @@
+# Dropped constant token across all captures: takef341sc_44100 (plugin name + sample rate).
+# Remaining variants are IR-processing flavours (default vs 1024-tap, raw vs EQ-matched
+# match1/match2, low-shelf sub-variant) — not real amp controls, so a single 'preset' axis.
 manifest_version: 1
 id: ir_sb_takef341sc
 display_name: Takamine F341SC
@@ -6,42 +9,42 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - takef341sc_44100
-  - takef341sc_44100_1024
-  - takef341sc_44100_match1
-  - takef341sc_44100_match1_ls
-  - takef341sc_44100_match2
-  - takef341sc_44100_1024_match1
-  - takef341sc_44100_1024_match2
+  - base
+  - short
+  - match1
+  - match1_ls
+  - match2
+  - short_match1
+  - short_match2
 captures:
 - values:
-    voicing: takef341sc_44100
+    preset: base
   file: ir/takef341sc_44100.wav
   output_gain_db: -26.1295109
 - values:
-    voicing: takef341sc_44100_1024
+    preset: short
   file: ir/takef341sc_44100_1024.wav
   output_gain_db: -22.3281918
 - values:
-    voicing: takef341sc_44100_match1
+    preset: match1
   file: ir/takef341sc_44100_match1.wav
   output_gain_db: -16.8730659
 - values:
-    voicing: takef341sc_44100_match1_ls
+    preset: match1_ls
   file: ir/takef341sc_44100_match1_ls.wav
   output_gain_db: -17.0867290
 - values:
-    voicing: takef341sc_44100_match2
+    preset: match2
   file: ir/takef341sc_44100_match2.wav
   output_gain_db: -17.3505917
 - values:
-    voicing: takef341sc_44100_1024_match1
+    preset: short_match1
   file: ir/takef341sc_44100_1024_match1.wav
   output_gain_db: -17.8036919
 - values:
-    voicing: takef341sc_44100_1024_match2
+    preset: short_match2
   file: ir/takef341sc_44100_1024_match2.wav
   output_gain_db: -18.1677933

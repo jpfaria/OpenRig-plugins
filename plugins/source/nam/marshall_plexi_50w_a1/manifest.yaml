@@ -7,12 +7,13 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Single capture (boutiqueampdrive.nam); no control varies across captures.
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - boutique_drive
+  - default
 captures:
 - values:
-    preset: boutique_drive
+    default: default
   file: captures/boutiqueampdrive.nam

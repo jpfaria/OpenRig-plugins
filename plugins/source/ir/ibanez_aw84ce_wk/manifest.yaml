@@ -1,3 +1,5 @@
+# Dropped constant token across all captures: ibanez_aw84ce_wk_48000 (plugin slug + 48 kHz sample rate).
+# Remaining tokens are distinct named IR variants of the same acoustic body, not real control axes -> single 'preset' axis.
 manifest_version: 1
 id: ir_ibanez_aw84ce_wk
 display_name: AW84CE WK
@@ -6,27 +8,27 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ibanez_aw84ce_wk_48000
-  - ibanez_aw84ce_wk_48000_bld
-  - ibanez_aw84ce_wk_48000_jf_flavor
-  - ibanez_aw84ce_wk_48000_match
+  - stock
+  - blend
+  - jf_flavor
+  - match
 captures:
 - values:
-    voicing: ibanez_aw84ce_wk_48000
+    preset: stock
   file: ir/ibanez_aw84ce_wk_48000.wav
   output_gain_db: -25.3871441
 - values:
-    voicing: ibanez_aw84ce_wk_48000_bld
+    preset: blend
   file: ir/ibanez_aw84ce_wk_48000_bld.wav
   output_gain_db: -21.1871204
 - values:
-    voicing: ibanez_aw84ce_wk_48000_jf_flavor
+    preset: jf_flavor
   file: ir/ibanez_aw84ce_wk_48000_jf_flavor.wav
   output_gain_db: -22.8922348
 - values:
-    voicing: ibanez_aw84ce_wk_48000_match
+    preset: match
   file: ir/ibanez_aw84ce_wk_48000_match.wav
   output_gain_db: -24.1327400

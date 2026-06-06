@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): level l02, tone t05
 manifest_version: 1
 id: nam_boss_fz1w_a2
 display_name: FZ-1W Fuzz
@@ -24,34 +25,34 @@ parameters:
   - 11
 captures:
 - values:
+    mode: modern
     fuzz: 2
-    mode: modern
-  file: captures/y4s43lj18e_a2.nam
+  file: captures/fz_1w_modern_l02_t05_f02_a2.nam
 - values:
+    mode: modern
+    fuzz: 5
+  file: captures/fz_1w_modern_l02_t05_f05_a2.nam
+- values:
+    mode: modern
+    fuzz: 7
+  file: captures/fz_1w_modern_l02_t05_f07_a2.nam
+- values:
+    mode: modern
+    fuzz: 11
+  file: captures/fz_1w_modern_l02_t05_f11_a2.nam
+- values:
+    mode: vintage
     fuzz: 2
+  file: captures/fz_1w_vintage_l02_t05_f02_a2.nam
+- values:
     mode: vintage
-  file: captures/y62on5l1uv_a2.nam
-- values:
-    fuzz: 7
-    mode: modern
-  file: captures/l18f4hm160p_a2.nam
-- values:
-    fuzz: 11
-    mode: modern
-  file: captures/x764hrle3y_a2.nam
-- values:
     fuzz: 5
-    mode: modern
-  file: captures/l894qdw40bm_a2.nam
+  file: captures/fz_1w_vintage_l02_t05_f05_a2.nam
 - values:
-    fuzz: 5
     mode: vintage
-  file: captures/wsqyoul86zf_a2.nam
-- values:
     fuzz: 7
-    mode: vintage
-  file: captures/c0z2e064zae_a2.nam
+  file: captures/fz_1w_vintage_l02_t05_f07_a2.nam
 - values:
-    fuzz: 11
     mode: vintage
-  file: captures/f1yw0xe90r8_a2.nam
+    fuzz: 11
+  file: captures/fz_1w_vintage_l02_t05_f11_a2.nam

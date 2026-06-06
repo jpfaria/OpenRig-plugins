@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): tone 2, volume 10.
 manifest_version: 1
 id: nam_joyo_bantamp_meteor_a2
 display_name: Bantamp Meteor
@@ -15,41 +16,41 @@ parameters:
   - 1
   - 2
   - 3
-  - 3_5
+  - 3.5
   - 9
   - 10
   - 11
   - 12
-  - 12_5
+  - 12.5
   - full
 captures:
 - values:
+    gain: 1
+  file: captures/meteor_ii_gain_1_a2.nam
+- values:
     gain: 2
-  file: captures/x1h50gxhac_a2.nam
-- values:
-    gain: 11
-  file: captures/hhz568uloz6_a2.nam
-- values:
-    gain: 10
-  file: captures/j0t0g42u8rg_a2.nam
-- values:
-    gain: 3_5
-  file: captures/b4lv0etkkbl_a2.nam
-- values:
-    gain: 9
-  file: captures/a2xmqpl0tgc_a2.nam
+  file: captures/meteor_ii_gain_2_a2.nam
 - values:
     gain: 3
-  file: captures/vuazvsfeb1g_a2.nam
+  file: captures/meteor_ii_gain_3_a2.nam
+- values:
+    gain: 3.5
+  file: captures/meteor_ii_gain_3_5_a2.nam
+- values:
+    gain: 9
+  file: captures/meteor_ii_gain_9_a2.nam
+- values:
+    gain: 10
+  file: captures/meteor_ii_gain_10_a2.nam
+- values:
+    gain: 11
+  file: captures/meteor_ii_gain_11_a2.nam
 - values:
     gain: 12
-  file: captures/ogpnapterus_a2.nam
+  file: captures/meteor_ii_gain_12_a2.nam
+- values:
+    gain: 12.5
+  file: captures/meteor_ii_gain_12_5_a2.nam
 - values:
     gain: full
-  file: captures/b9wc29e8nbs_a2.nam
-- values:
-    gain: 12_5
-  file: captures/erqas6u5pc_a2.nam
-- values:
-    gain: 1
-  file: captures/bhpjzb7dql7_a2.nam
+  file: captures/meteor_ii_gain_full_a2.nam

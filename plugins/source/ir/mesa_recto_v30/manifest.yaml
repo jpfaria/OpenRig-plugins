@@ -8,12 +8,12 @@ sources:
 type: cab
 backend: ir
 parameters:
-- name: capture
-  display_name: Capture
+- name: default
+  display_name: Default
   values:
-  - mesa_recto_v30
+  - default
 captures:
 - values:
-    capture: mesa_recto_v30
+    default: default
   file: ir/mesa_recto_v30_3.wav
   output_gain_db: -17.6240387

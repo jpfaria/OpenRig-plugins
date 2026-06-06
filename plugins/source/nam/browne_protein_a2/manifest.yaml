@@ -27,48 +27,48 @@ captures:
 - values:
     channel: blue
     gain: 5
-  file: captures/320918de00e987cd_a2.nam
+  file: captures/blue_gain_5_a2.nam
 - values:
     channel: blue
     gain: 4
-  file: captures/f3c964f293d0c57f_a2.nam
+  file: captures/blue_gain_4_a2.nam
 - values:
     channel: blue
     gain: 6
-  file: captures/1e0b7f5f14a997ba_a2.nam
+  file: captures/blue_gain_6_a2.nam
 - values:
     channel: green
     gain: 5
-  file: captures/f866377928f78b66_a2.nam
+  file: captures/green_gain_5_a2.nam
 - values:
     channel: green
     gain: 2
-  file: captures/5277bba986583bf6_a2.nam
+  file: captures/green_gain_2_a2.nam
 - values:
     channel: green
     gain: 4
-  file: captures/3b74aa7793add9f9_a2.nam
+  file: captures/green_gain_4_a2.nam
 - values:
     channel: green
     gain: 6
-  file: captures/a99eba2987249277_a2.nam
+  file: captures/green_gain_6_a2.nam
 - values:
     channel: green
     gain: 3
-  file: captures/3b2f743cf8994f5d_a2.nam
+  file: captures/green_gain_3_a2.nam
 - values:
     channel: green
     gain: 1
-  file: captures/ffdcf23cbadaa7f1_a2.nam
+  file: captures/green_gain_1_a2.nam
 - values:
     channel: blue
     gain: 2
-  file: captures/830d0fa358f39f31_a2.nam
+  file: captures/blue_gain_2_a2.nam
 - values:
     channel: blue
     gain: 3
-  file: captures/86b528a6b6a6d5a1_a2.nam
+  file: captures/blue_gain_3_a2.nam
 - values:
     channel: blue
     gain: 1
-  file: captures/ca101a1af4a78a06_a2.nam
+  file: captures/blue_gain_1_a2.nam

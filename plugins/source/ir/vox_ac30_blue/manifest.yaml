@@ -1,3 +1,5 @@
+# Constant across all captures (dropped): blue (Celestion Blue speaker / AC30 Blue cab).
+# Names carry only an index (1, 2) with no real control token -> single 'preset' axis.
 manifest_version: 1
 id: ir_vox_ac30_blue
 display_name: AC30 Blue
@@ -6,17 +8,17 @@ brand_logo: assets/brand_logo.svg
 type: cab
 backend: ir
 parameters:
-- name: position
-  display_name: Position
+- name: preset
+  display_name: Preset
   values:
   - blue_1
   - blue_2
 captures:
 - values:
-    position: blue_1
+    preset: blue_1
   file: ir/blue_1.wav
   output_gain_db: -17.6746140
 - values:
-    position: blue_2
+    preset: blue_2
   file: ir/blue_2.wav
   output_gain_db: -19.6919689

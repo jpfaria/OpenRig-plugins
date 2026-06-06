@@ -1,3 +1,8 @@
+# Constant token dropped from every capture name: hm2 (the pedal slug).
+# The varying tokens are a grab-bag of named HM-2 voicings (chainsaw, medium,
+# warm, bright, full) mixed with gain qualifiers (chainsaw_0gain, high_gain);
+# they do not decompose into an independent gain x tone grid, so a single
+# clean 'preset' axis is used.
 manifest_version: 1
 id: nam_boss_hm2_1986_a1
 display_name: Heavy Metal HM-2 '86
@@ -8,8 +13,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - chainsaw_0gain
   - chainsaw
@@ -20,23 +25,23 @@ parameters:
   - full
 captures:
 - values:
-    tone: chainsaw_0gain
+    preset: chainsaw_0gain
   file: captures/hm2_chainsaw_0gain.nam
 - values:
-    tone: chainsaw
+    preset: chainsaw
   file: captures/hm2_chainsaw.nam
 - values:
-    tone: medium
+    preset: medium
   file: captures/hm2_medium.nam
 - values:
-    tone: warm
+    preset: warm
   file: captures/hm2_warm.nam
 - values:
-    tone: bright
+    preset: bright
   file: captures/hm2_bright.nam
 - values:
-    tone: high_gain
+    preset: high_gain
   file: captures/hm2_high_gain.nam
 - values:
-    tone: full
+    preset: full
   file: captures/hm2_full.nam

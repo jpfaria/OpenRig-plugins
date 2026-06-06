@@ -1,3 +1,4 @@
+# constant across all captures (dropped): fishman pickup, 48000 sample rate
 manifest_version: 1
 id: ir_as_martin_d35e
 display_name: D-35E
@@ -6,27 +7,27 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - as_martin_d35e_fishman_48000
-  - as_martin_d35e_fishman_48000_bld
-  - as_martin_d35e_fishman_48000_jf_flavor
-  - as_martin_d35e_fishman_48000_match
+  - stock
+  - bld
+  - jf_flavor
+  - match
 captures:
 - values:
-    voicing: as_martin_d35e_fishman_48000
+    preset: stock
   file: ir/as_martin_d35e_fishman_48000.wav
   output_gain_db: -19.8625317
 - values:
-    voicing: as_martin_d35e_fishman_48000_bld
+    preset: bld
   file: ir/as_martin_d35e_fishman_48000_bld.wav
   output_gain_db: -14.5431376
 - values:
-    voicing: as_martin_d35e_fishman_48000_jf_flavor
+    preset: jf_flavor
   file: ir/as_martin_d35e_fishman_48000_jf_flavor.wav
   output_gain_db: -16.5750275
 - values:
-    voicing: as_martin_d35e_fishman_48000_match
+    preset: match
   file: ir/as_martin_d35e_fishman_48000_match.wav
   output_gain_db: -14.1285906

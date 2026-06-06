@@ -6,20 +6,21 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# constant across all captures: mxr_microamp (the pedal itself)
 parameters:
-- name: tone
-  display_name: Tone
+- name: gain
+  display_name: Gain
   values:
-  - fullgain
-  - lowgain
-  - midgain
+  - low
+  - mid
+  - full
 captures:
 - values:
-    tone: fullgain
+    gain: full
   file: captures/mxr_microamp_fullgain.nam
 - values:
-    tone: lowgain
+    gain: low
   file: captures/mxr_microamp_lowgain.nam
 - values:
-    tone: midgain
+    gain: mid
   file: captures/mxr_microamp_midgain.nam

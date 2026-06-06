@@ -10,11 +10,11 @@ type: preamp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
   - default
 captures:
 - values:
-    preset: default
+    default: default
   file: captures/engl_e530.nam

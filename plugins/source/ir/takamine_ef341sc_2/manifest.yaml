@@ -5,28 +5,31 @@ brand: takamine
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
+# Constant across all captures: kb (author), ir, ef341 (model), 48k (sample rate).
+# Remaining tokens (9/18 length, m, mffqn processing variants) are a grab-bag of
+# named IR variants that do not factor into real cab controls -> single 'preset' axis.
 parameters:
-- name: flavor
-  display_name: Flavor
+- name: preset
+  display_name: Preset
   values:
-  - kb_ir_ef341_9_48k
-  - kb_ir_ef341_9_48k_mffqn
-  - kb_ir_ef341_9_48k_m
-  - kb_ir_ef341_18_48k_m
+  - '9'
+  - 9_m
+  - 9_mffqn
+  - 18_m
 captures:
 - values:
-    flavor: kb_ir_ef341_9_48k
+    preset: '9'
   file: ir/kb_ir_ef341_9_48k.wav
   output_gain_db: -26.0045872
 - values:
-    flavor: kb_ir_ef341_9_48k_mffqn
+    preset: 9_mffqn
   file: ir/kb_ir_ef341_9_48k_mffqn.wav
   output_gain_db: -28.5013905
 - values:
-    flavor: kb_ir_ef341_9_48k_m
+    preset: 9_m
   file: ir/kb_ir_ef341_9_48k_m.wav
   output_gain_db: -23.5098705
 - values:
-    flavor: kb_ir_ef341_18_48k_m
+    preset: 18_m
   file: ir/kb_ir_ef341_18_48k_m.wav
   output_gain_db: -15.1083384

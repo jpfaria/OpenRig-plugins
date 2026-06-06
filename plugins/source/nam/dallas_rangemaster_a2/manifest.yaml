@@ -8,9 +8,10 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/45843
+# Dropped constant token across all captures: "rangemaster" (the pedal name).
 parameters:
-- name: model
-  display_name: Model
+- name: boost
+  display_name: Boost
   values:
   - 1200
   - 1300
@@ -20,20 +21,20 @@ parameters:
   - max
 captures:
 - values:
-    model: 1300
-  file: captures/rjpclnajcq9_a2.nam
+    boost: 1200
+  file: captures/boost_1200_a2.nam
 - values:
-    model: 1600
-  file: captures/xejgjzyccnr_a2.nam
+    boost: 1300
+  file: captures/boost_1300_a2.nam
 - values:
-    model: 1200
-  file: captures/cix8mki6s97_a2.nam
+    boost: 1400
+  file: captures/boost_1400_a2.nam
 - values:
-    model: 1500
-  file: captures/jv4r4fjuotf_a2.nam
+    boost: 1500
+  file: captures/boost_1500_a2.nam
 - values:
-    model: 1400
-  file: captures/plrnr0frc6m_a2.nam
+    boost: 1600
+  file: captures/boost_1600_a2.nam
 - values:
-    model: max
-  file: captures/mbpknw1xp6d_a2.nam
+    boost: max
+  file: captures/boost_max_a2.nam

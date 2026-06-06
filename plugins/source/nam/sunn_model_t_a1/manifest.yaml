@@ -6,6 +6,9 @@ output_gain_db: 0.3520317
 type: amp
 backend: nam
 architecture: A1
+# Named drone/doom presets — do not decompose into amp controls. Creator/
+# routing tokens dropped from the labels: dde (creator prefix), stmn,
+# only_pedal, nocab (capture routing).
 parameters:
 - name: preset
   display_name: Preset

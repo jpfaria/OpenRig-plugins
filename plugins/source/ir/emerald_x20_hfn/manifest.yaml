@@ -1,3 +1,4 @@
+# Constant tokens dropped from all capture names: jf45ir (prefix), x20 (model, matches display_name X20).
 manifest_version: 1
 id: ir_emerald_x20_hfn
 display_name: X20 HFN
@@ -5,22 +6,22 @@ brand: emerald
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - jf45ir1024x20
-  - jf45ir5050x20
-  - jf45irx20
+  - base
+  - n1024
+  - n5050
 captures:
 - values:
-    voicing: jf45ir1024x20
+    preset: base
+  file: ir/jf45irx20.wav
+  output_gain_db: -10.9435091
+- values:
+    preset: n1024
   file: ir/jf45ir1024x20.wav
   output_gain_db: -5.9643636
 - values:
-    voicing: jf45ir5050x20
+    preset: n5050
   file: ir/jf45ir5050x20.wav
   output_gain_db: -4.4152093
-- values:
-    voicing: jf45irx20
-  file: ir/jf45irx20.wav
-  output_gain_db: -10.9435091

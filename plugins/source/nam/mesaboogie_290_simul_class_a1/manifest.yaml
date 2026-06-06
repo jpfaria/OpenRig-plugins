@@ -1,3 +1,5 @@
+# Dropped constant from capture names: SLAMMIN_MB_290_6L6GC (290 power amp / 6L6GC tubes), identical across all captures.
+# Voicing decoded from the filename prefix (mirrors the _a2 sibling): no prefix = full, m_ = mid, d_ = deep, md_ = mid_deep.
 manifest_version: 1
 id: nam_mesaboogie_290_simul_class_a1
 display_name: MesaBoogie 290 Simul-Class
@@ -7,23 +9,32 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - full
+  - deep
 - name: drive
   display_name: Drive
   values:
-  - 8_2
-  - 8_5
-  - 13_8
-  - d_6_0
+  - 6.0
+  - 8.2
+  - 8.5
+  - 13.8
 captures:
 - values:
-    drive: 8_2
+    voicing: full
+    drive: 8.2
   file: captures/slammin_mb_290_6l6gc_8_2.nam
 - values:
-    drive: 8_5
+    voicing: full
+    drive: 8.5
   file: captures/slammin_mb_290_6l6gc_8_5.nam
 - values:
-    drive: 13_8
+    voicing: full
+    drive: 13.8
   file: captures/slammin_mb_290_6l6gc_13_8.nam
 - values:
-    drive: d_6_0
+    voicing: deep
+    drive: 6.0
   file: captures/slammin_mb_290_6l6gc_d_6_0.nam

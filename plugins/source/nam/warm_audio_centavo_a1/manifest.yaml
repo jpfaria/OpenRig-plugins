@@ -1,3 +1,4 @@
+# Dropped constants: pedal, centavo (pedal name, identical in every capture)
 manifest_version: 1
 id: nam_warm_audio_centavo_a1
 display_name: Warm Audio Centavo
@@ -7,15 +8,15 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: clipping
+  display_name: Clipping
   values:
   - clean
   - low_clipping
 captures:
 - values:
-    tone: clean
+    clipping: clean
   file: captures/pedal_centavo_clean.nam
 - values:
-    tone: low_clipping
+    clipping: low_clipping
   file: captures/pedal_centavo_low_clipping.nam

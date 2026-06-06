@@ -1,3 +1,4 @@
+# Dropped constants: hd28 (Martin HD-28 body) · m80 (LR Baggs M80 pickup) · 44100 (sample rate)
 manifest_version: 1
 id: ir_martin_hd_28_pre2018_baggs_m80
 display_name: HD-28 Pre-2018 Baggs M80
@@ -6,37 +7,45 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: flavor
+  display_name: Flavor
   values:
-  - ir_hd28_m80_allstr_44100
-  - ir_hd28_m80_allstr_44100_match1
-  - ir_hd28_m80_allstr_44100_match2
-  - ir_hd28_m80_estr_44100
-  - ir_hd28_m80_estr_44100_match1
-  - ir_hd28_m80_estr_44100_match2
+  - full
+  - e
+- name: version
+  display_name: Version
+  values:
+  - base
+  - match1
+  - match2
 captures:
 - values:
-    voicing: ir_hd28_m80_allstr_44100
+    flavor: full
+    version: base
   file: ir/ir_hd28_m80_allstr_44100.wav
   output_gain_db: -6.9695930
 - values:
-    voicing: ir_hd28_m80_allstr_44100_match1
+    flavor: full
+    version: match1
   file: ir/ir_hd28_m80_allstr_44100_match1.wav
   output_gain_db: -9.5857077
 - values:
-    voicing: ir_hd28_m80_allstr_44100_match2
+    flavor: full
+    version: match2
   file: ir/ir_hd28_m80_allstr_44100_match2.wav
   output_gain_db: -9.6990433
 - values:
-    voicing: ir_hd28_m80_estr_44100
+    flavor: e
+    version: base
   file: ir/ir_hd28_m80_estr_44100.wav
   output_gain_db: -5.7599998
 - values:
-    voicing: ir_hd28_m80_estr_44100_match1
+    flavor: e
+    version: match1
   file: ir/ir_hd28_m80_estr_44100_match1.wav
   output_gain_db: -9.9284449
 - values:
-    voicing: ir_hd28_m80_estr_44100_match2
+    flavor: e
+    version: match2
   file: ir/ir_hd28_m80_estr_44100_match2.wav
   output_gain_db: -10.1314526

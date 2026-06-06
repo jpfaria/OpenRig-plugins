@@ -1,3 +1,8 @@
+# Constant across all captures (dropped): ir2 (IR2 capture method), gt
+# (guitar), 44k (44.1 kHz sample rate), 2048 (IR length in samples).
+# The only varying token is the processing-variant suffix
+# (none / _m / _mffqn), which does not map to any real amp/pedal control
+# axis, so it becomes a single 'preset' selector.
 manifest_version: 1
 id: ir_taylor_gtk_21e_element
 display_name: GTK 21e Element
@@ -6,22 +11,22 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ir2_gt_44k_2048
-  - ir2_gt_44k_2048_m
-  - ir2_gt_44k_2048_mffqn
+  - full
+  - m
+  - mffqn
 captures:
 - values:
-    voicing: ir2_gt_44k_2048
+    preset: full
   file: ir/ir2_gt_44k_2048.wav
   output_gain_db: -29.2809505
 - values:
-    voicing: ir2_gt_44k_2048_m
+    preset: m
   file: ir/ir2_gt_44k_2048_m.wav
   output_gain_db: -17.5256977
 - values:
-    voicing: ir2_gt_44k_2048_mffqn
+    preset: mffqn
   file: ir/ir2_gt_44k_2048_mffqn.wav
   output_gain_db: -21.8788834

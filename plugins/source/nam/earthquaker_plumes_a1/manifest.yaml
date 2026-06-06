@@ -1,3 +1,4 @@
+# Dropped constant token: switch_3 (identical across all captures).
 manifest_version: 1
 id: nam_earthquaker_plumes_a1
 display_name: EarthQuaker Plumes
@@ -7,78 +8,99 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: drive
-  display_name: Drive
+- name: level
+  display_name: Level
   values:
-  - low
-  - mid
-  - high
+  - 25
+  - 50
+  - 100
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 50
+  - 75
 - name: tone
   display_name: Tone
   values:
-  - '0'
-  - '25'
-  - '50'
-  - '75'
-  - '100'
+  - 0
+  - 25
+  - 50
+  - 75
+  - 100
 captures:
 - values:
-    drive: low
-    tone: '0'
+    level: 100
+    gain: 0
+    tone: 0
   file: captures/plumes_switch_3_level_100_gain_0_tone_0.nam
 - values:
-    drive: low
-    tone: '25'
+    level: 100
+    gain: 0
+    tone: 25
   file: captures/plumes_switch_3_level_100_gain_0_tone_25.nam
 - values:
-    drive: low
-    tone: '50'
+    level: 100
+    gain: 0
+    tone: 50
   file: captures/plumes_switch_3_level_100_gain_0_tone_50.nam
 - values:
-    drive: low
-    tone: '75'
+    level: 100
+    gain: 0
+    tone: 75
   file: captures/plumes_switch_3_level_100_gain_0_tone_75.nam
 - values:
-    drive: low
-    tone: '100'
+    level: 100
+    gain: 0
+    tone: 100
   file: captures/plumes_switch_3_level_100_gain_0_tone_100.nam
 - values:
-    drive: mid
-    tone: '0'
+    level: 50
+    gain: 50
+    tone: 0
   file: captures/plumes_switch_3_level_50_gain_50_tone_0.nam
 - values:
-    drive: mid
-    tone: '25'
+    level: 50
+    gain: 50
+    tone: 25
   file: captures/plumes_switch_3_level_50_gain_50_tone_25.nam
 - values:
-    drive: mid
-    tone: '50'
+    level: 50
+    gain: 50
+    tone: 50
   file: captures/plumes_switch_3_level_50_gain_50_tone_50.nam
 - values:
-    drive: mid
-    tone: '75'
+    level: 50
+    gain: 50
+    tone: 75
   file: captures/plumes_switch_3_level_50_gain_50_tone_75.nam
 - values:
-    drive: mid
-    tone: '100'
+    level: 50
+    gain: 50
+    tone: 100
   file: captures/plumes_switch_3_level_50_gain_50_tone_100.nam
 - values:
-    drive: high
-    tone: '0'
+    level: 25
+    gain: 75
+    tone: 0
   file: captures/plumes_switch_3_level_25_gain_75_tone_0.nam
 - values:
-    drive: high
-    tone: '25'
+    level: 25
+    gain: 75
+    tone: 25
   file: captures/plumes_switch_3_level_25_gain_75_tone_25.nam
 - values:
-    drive: high
-    tone: '50'
+    level: 25
+    gain: 75
+    tone: 50
   file: captures/plumes_switch_3_level_25_gain_75_tone_50.nam
 - values:
-    drive: high
-    tone: '75'
+    level: 25
+    gain: 75
+    tone: 75
   file: captures/plumes_switch_3_level_25_gain_75_tone_75.nam
 - values:
-    drive: high
-    tone: '100'
+    level: 25
+    gain: 75
+    tone: 100
   file: captures/plumes_switch_3_level_25_gain_75_tone_100.nam

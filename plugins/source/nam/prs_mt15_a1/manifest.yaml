@@ -1,3 +1,8 @@
+# Constant across all captures (dropped): amp "PRS MT-15".
+# Names are a grab-bag of distinct amp voicings/configs (clean, clean
+# breakup, crunch, several metal variants — different wattage, TS/preamp
+# boost, sweet spot), not a single continuous knob, so a single 'preset'
+# axis. Mirrors the prs_mt15_a2 sibling's single 'preset' axis.
 manifest_version: 1
 id: nam_prs_mt15_a1
 display_name: MT15

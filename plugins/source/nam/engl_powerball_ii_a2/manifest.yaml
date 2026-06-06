@@ -9,6 +9,10 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/54693
+# Constant tokens dropped from every capture name: "PB" (Powerball) and the
+# capturer tag "Drewhast". boost=on = Original Effects Halcyon Green overdrive
+# engaged ("with Boost"). voicing=scoop = scooped-EQ voicing of the Lead 3
+# channel ("Slight Scoop").
 parameters:
 - name: channel
   display_name: Channel
@@ -16,38 +20,49 @@ parameters:
   - crunch
   - ld3
   - ld4
-- name: variant
-  display_name: Variant
+- name: boost
+  display_name: Boost
   values:
-  - base
-  - boost
-  - slight_scoop
+  - 'off'
+  - 'on'
+- name: voicing
+  display_name: Voicing
+  values:
+  - standard
+  - scoop
 captures:
 - values:
     channel: ld3
-    variant: slight_scoop
-  file: captures/nhet7u5mh89_a2.nam
+    boost: 'off'
+    voicing: scoop
+  file: captures/ld3_slight_scoop_a2.nam
 - values:
     channel: ld3
-    variant: base
-  file: captures/ddcvopyjwf_a2.nam
+    boost: 'off'
+    voicing: standard
+  file: captures/ld3_a2.nam
 - values:
     channel: crunch
-    variant: boost
-  file: captures/evu8jb74aji_a2.nam
+    boost: 'on'
+    voicing: standard
+  file: captures/crunch_boost_a2.nam
 - values:
     channel: ld4
-    variant: base
-  file: captures/vd9b96kdjh_a2.nam
+    boost: 'off'
+    voicing: standard
+  file: captures/ld4_a2.nam
 - values:
     channel: ld4
-    variant: boost
-  file: captures/ytvj8wr1i2j_a2.nam
+    boost: 'on'
+    voicing: standard
+  file: captures/ld4_boost_a2.nam
 - values:
     channel: crunch
-    variant: base
-  file: captures/0mmyp31b2o0i_a2.nam
+    boost: 'off'
+    voicing: standard
+  file: captures/crunch_a2.nam
 - values:
     channel: ld3
-    variant: boost
-  file: captures/zrpuc9ge1p_a2.nam
+    boost: 'on'
+    voicing: standard
+  file: captures/ld3_boost_a2.nam

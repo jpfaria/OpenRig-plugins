@@ -1,3 +1,4 @@
+# constant tokens dropped: cort_mr710f (brand+model slug), 48000 (sample rate)
 manifest_version: 1
 id: ir_cort_mr710f
 display_name: MR710F
@@ -5,27 +6,27 @@ brand: cort
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - cort_mr710f_48000
-  - cort_mr710f_48000_bld
-  - cort_mr710f_48000_jf_flavor
-  - cort_mr710f_48000_match
+  - flat
+  - bld
+  - jf
+  - match
 captures:
 - values:
-    voicing: cort_mr710f_48000
+    preset: flat
   file: ir/cort_mr710f_48000.wav
   output_gain_db: -18.0491180
 - values:
-    voicing: cort_mr710f_48000_bld
+    preset: bld
   file: ir/cort_mr710f_48000_bld.wav
   output_gain_db: -12.5784636
 - values:
-    voicing: cort_mr710f_48000_jf_flavor
+    preset: jf
   file: ir/cort_mr710f_48000_jf_flavor.wav
   output_gain_db: -16.1669693
 - values:
-    voicing: cort_mr710f_48000_match
+    preset: match
   file: ir/cort_mr710f_48000_match.wav
   output_gain_db: -11.9029846

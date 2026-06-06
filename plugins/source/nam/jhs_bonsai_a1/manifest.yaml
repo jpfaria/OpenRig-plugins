@@ -1,3 +1,4 @@
+# Dropped constant: all captures share "neutral" (drive/tone set flat); only the circuit mode varies.
 manifest_version: 1
 id: nam_jhs_bonsai_a1
 display_name: Bonsai (9 TS)

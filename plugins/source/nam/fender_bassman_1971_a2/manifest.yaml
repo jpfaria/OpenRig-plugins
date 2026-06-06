@@ -1,3 +1,7 @@
+# Dropped constant token present in every capture name: "71 Bassman".
+# tone = the descriptive variant/voicing of each capture (channel, pedal, tube-swap, all-on setting).
+# eq = the amp's Volume/Treble/Bass knob string for that capture (V/T/B); "jumpered" for the two-channel
+#      jumpered captures (no single V/T/B triplet) and "none" for TS9-DS-1 Boosted (no V/T/B in its name).
 manifest_version: 1
 id: nam_fender_bassman_1971_a2
 display_name: Bassman 1971
@@ -51,100 +55,101 @@ parameters:
   - v7_t5_b5
   - v7_t4_b4
   - jumpered
+  - none
 captures:
 - values:
     eq: v10_t10_b10
     tone: v1_pulled
-  file: captures/0357f30c67387eba_a2.nam
+  file: captures/v1_pulled_v10_t10_b10_a2.nam
 - values:
     eq: v5_t8_b5
     tone: mid_forward_clean
-  file: captures/983f0efe243226ce_a2.nam
+  file: captures/mid_forward_clean_wmxr_eq_v5_t8_b5_a2.nam
 - values:
     eq: v5_t4_b3
     tone: warm_clean
-  file: captures/b67eb5252c81082b_a2.nam
+  file: captures/warm_clean_v5_t4_b3_a2.nam
 - values:
     eq: v10_t10_b10
     tone: all_on_5_bright
-  file: captures/6a0c8d0a55362ebf_a2.nam
+  file: captures/all_on_5_bright_v10_t10_b10_a2.nam
 - values:
     eq: v7_t8_b5
     tone: sweet_spot
-  file: captures/179f5128ff3009f6_a2.nam
+  file: captures/sweet_spot_v7_t8_b5_a2.nam
 - values:
     eq: jumpered
     tone: jumpered_v6t10
-  file: captures/2cd25c049fd7188a_a2.nam
+  file: captures/norm_ch_v6_t10_b1_bright_jumpered_into_bass_ch_v8_t1_b10_a2.nam
 - values:
     eq: v5_t8_b5
     tone: fd2_low
-  file: captures/7e1096bd302df3b7_a2.nam
+  file: captures/fd2_boosted_low_v5_t8_b5_a2.nam
 - values:
     eq: v10_t10_b10
     tone: v1_pulled_12ax7
-  file: captures/8f26fba996587b5c_a2.nam
+  file: captures/v1_pulled_12ax7_in_v4_v10_t10_b10_a2.nam
 - values:
     eq: v5_t8_b3
     tone: fd2_high
-  file: captures/30a472f8631990c1_a2.nam
+  file: captures/fd2_boosted_high_v5_t8_b3_a2.nam
 - values:
     eq: jumpered
     tone: jumpered_v6t8
-  file: captures/f907049ef3484b80_a2.nam
+  file: captures/norm_ch_v6_t8_b1_bright_jumpered_into_bass_ch_v8_t1_b8_a2.nam
 - values:
-    eq: v5_t8_b5
+    eq: none
     tone: ts9_ds1_boost
-  file: captures/8abcdc0cb126ed7c_a2.nam
+  file: captures/ts9_ds_1_boosted_a2.nam
 - values:
     eq: v5_t4_b4
     tone: bright_clean
-  file: captures/919ad99f0937c042_a2.nam
+  file: captures/bright_clean_v5_t4_b4_a2.nam
 - values:
     eq: v5_t8_b5
     tone: clean
-  file: captures/c64737fe9d7ceda2_a2.nam
+  file: captures/clean_v5_t8_b5_a2.nam
 - values:
     eq: v5_t8_b5
     tone: 80s_clean
-  file: captures/325e36a1b47c66b3_a2.nam
+  file: captures/80s_clean_v5_t8_b5_a2.nam
 - values:
     eq: v10_t7_b4
     tone: cranked_fd2
-  file: captures/c1e56b585fc48228_a2.nam
+  file: captures/cranked_and_fd2_boosted_v10_t7_b4_a2.nam
 - values:
     eq: v10_t7_b4
     tone: cranked
-  file: captures/184219adc51a5082_a2.nam
+  file: captures/cranked_v10_t7_b4_a2.nam
 - values:
     eq: v5_t8_b4
     tone: fd2_mid
-  file: captures/827d10d09a474d66_a2.nam
+  file: captures/fd2_boosted_mid_v5_t8_b4_a2.nam
 - values:
     eq: v7_t5_b5
     tone: big_clean
-  file: captures/9ea2377b6695826b_a2.nam
+  file: captures/big_clean_v7_t5_b5_a2.nam
 - values:
     eq: v10_t10_b10
     tone: all_on_5_norm
-  file: captures/012b2add7713d429_a2.nam
+  file: captures/all_on_5_norm_v10_t10_b10_a2.nam
 - values:
     eq: v10_t10_b10
     tone: all_on_10_norm
-  file: captures/5acb86799875f364_a2.nam
+  file: captures/all_on_10_norm_v10_t10_b10_a2.nam
 - values:
     eq: jumpered
     tone: jumpered_alt
-  file: captures/64a0cc0efa79ce76_a2.nam
+  file: captures/jumpered_channels_norm_ch_v6_t8_b1_bright_into_bass_ch_v8_t1_b8_a2.nam
 - values:
     eq: v10_t10_b10
     tone: all_on_10_bright
-  file: captures/e37968fbdf369815_a2.nam
+  file: captures/all_on_10_bright_v10_t10_b10_a2.nam
 - values:
     eq: v7_t4_b4
     tone: warm_sweet_spot
-  file: captures/68f1a9135dc596a4_a2.nam
+  file: captures/warm_sweet_spot_v7_t4_b4_a2.nam
 - values:
     eq: v5_t4_b4
     tone: warm_fuzz
-  file: captures/85c3acf96c537cde_a2.nam
+  file: captures/warm_fuzz_v5_t4_b4_a2.nam

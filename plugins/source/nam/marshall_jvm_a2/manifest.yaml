@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): MRSH410H (cab/rig id), DI (direct input)
 manifest_version: 1
 id: nam_marshall_jvm_a2
 display_name: JVM
@@ -35,117 +36,117 @@ parameters:
   - high3
 captures:
 - values:
-    boost: none
     channel: ch3
+    boost: none
     gain: mid1
-  file: captures/w6888o1c5ne_a2.nam
+  file: captures/mrsh410h_ch3_midgain1_di_a2.nam
 - values:
-    boost: none
     channel: ch2
-    gain: low1
-  file: captures/gu90ewtapgc_a2.nam
-- values:
     boost: none
+    gain: low1
+  file: captures/mrsh410h_ch2_lowgain1_di_a2.nam
+- values:
     channel: ch3
+    boost: none
     gain: low1
-  file: captures/oer8nu5y6z_a2.nam
+  file: captures/mrsh410h_ch3_lowgain1_di_a2.nam
 - values:
-    boost: maxon808
     channel: ch1
+    boost: maxon808
     gain: high1
-  file: captures/30u54decl3f_a2.nam
+  file: captures/mrsh410h_ch1_maxon808_highgain1_di_a2.nam
 - values:
-    boost: maxon808
     channel: ch4
-    gain: low1
-  file: captures/wozyabsxb5_a2.nam
-- values:
     boost: maxon808
+    gain: low1
+  file: captures/mrsh410h_ch4_maxon808_lowgain1_di_a2.nam
+- values:
     channel: ch1
+    boost: maxon808
     gain: low4
-  file: captures/55rgzbl1nvg_a2.nam
+  file: captures/mrsh410h_ch1_maxon808_lowgain4_di_a2.nam
 - values:
-    boost: maxon808
     channel: ch1
-    gain: mid2
-  file: captures/voth1x55yvn_a2.nam
-- values:
     boost: maxon808
+    gain: mid2
+  file: captures/mrsh410h_ch1_maxon808_midgain2_di_a2.nam
+- values:
     channel: ch2
+    boost: maxon808
     gain: high2
-  file: captures/roflz15nw5i_a2.nam
+  file: captures/mrsh410h_ch2_maxon808_highgain2_di_a2.nam
 - values:
-    boost: none
     channel: ch1
-    gain: high3
-  file: captures/e6s9jquht8e_a2.nam
-- values:
-    boost: maxon808
-    channel: ch4
-    gain: high1
-  file: captures/nu3166q8gvl_a2.nam
-- values:
-    boost: maxon808
-    channel: ch2
-    gain: low2
-  file: captures/ea446y6g21r_a2.nam
-- values:
     boost: none
+    gain: high3
+  file: captures/mrsh410h_ch1_highgain3_di_a2.nam
+- values:
+    channel: ch4
+    boost: maxon808
+    gain: high1
+  file: captures/mrsh410h_ch4_maxon808_highgain1_di_a2.nam
+- values:
+    channel: ch2
+    boost: maxon808
+    gain: low2
+  file: captures/mrsh410h_ch2_maxon808_lowgain2_di_a2.nam
+- values:
     channel: ch1
+    boost: none
     gain: low2
-  file: captures/eipm109vlj4_a2.nam
+  file: captures/mrsh410h_ch1_lowgain2_di_a2.nam
 - values:
-    boost: maxon808
     channel: ch4
-    gain: mid1
-  file: captures/6o0vfrwa4gj_a2.nam
-- values:
     boost: maxon808
-    channel: ch3
     gain: mid1
-  file: captures/14egpc40u0d_a2.nam
+  file: captures/mrsh410h_ch4_maxon808_midgain1_di_a2.nam
 - values:
-    boost: none
+    channel: ch3
+    boost: maxon808
+    gain: mid1
+  file: captures/mrsh410h_ch3_maxon808_midgain1_di_a2.nam
+- values:
     channel: ch2
+    boost: none
     gain: high3
-  file: captures/23gqy85unmr_a2.nam
+  file: captures/mrsh410h_ch2_highgain3_di_a2.nam
 - values:
-    boost: none
     channel: ch3
+    boost: none
     gain: high1
-  file: captures/5ro2hmy0hwp_a2.nam
+  file: captures/mrsh410h_ch3_highgain1_di_a2.nam
 - values:
+    channel: ch3
     boost: maxon808
-    channel: ch3
     gain: high1
-  file: captures/k6qcjw9x2uq_a2.nam
+  file: captures/mrsh410h_ch3_maxon808_highgain1_di_a2.nam
 - values:
-    boost: none
     channel: ch4
+    boost: none
     gain: high1
-  file: captures/u94l1o0t2y_a2.nam
+  file: captures/mrsh410h_ch4_highgain1_di_a2.nam
 - values:
-    boost: none
     channel: ch4
+    boost: none
     gain: mid1
-  file: captures/760s9dtbc0c_a2.nam
+  file: captures/mrsh410h_ch4_midgain1_di_a2.nam
 - values:
-    boost: none
     channel: ch2
+    boost: none
     gain: mid2
-  file: captures/mjuu9agfhc_a2.nam
+  file: captures/mrsh410h_ch2_midgain2_di_a2.nam
 - values:
-    boost: maxon808
     channel: ch3
-    gain: low1
-  file: captures/wzxbtslfnj_a2.nam
-- values:
     boost: maxon808
-    channel: ch2
-    gain: mid1
-  file: captures/if3uk3wx16r_a2.nam
-- values:
-    boost: none
-    channel: ch4
     gain: low1
-  file: captures/jxoie2f0m6h_a2.nam
+  file: captures/mrsh410h_ch3_maxon808_lowgain1_di_a2.nam
+- values:
+    channel: ch2
+    boost: maxon808
+    gain: mid1
+  file: captures/mrsh410h_ch2_maxon808_midgain1_di_a2.nam
+- values:
+    channel: ch4
+    boost: none
+    gain: low1
+  file: captures/mrsh410h_ch4_lowgain1_di_a2.nam

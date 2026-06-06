@@ -8,20 +8,22 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/65812
+# Names do not factor into amp control axes; they are distinct capture
+# flavors (Hi-Z input, plain, ODS FD). Exposed as a single 'preset' axis.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - nam_hiz
   - nam
   - odsfd
 captures:
 - values:
-    model: nam_hiz
-  file: captures/1ii63hjo8ov_a2.nam
+    preset: nam_hiz
+  file: captures/nam_hiz_a2.nam
 - values:
-    model: nam
-  file: captures/vob4fnulb2d_a2.nam
+    preset: nam
+  file: captures/nam_a2.nam
 - values:
-    model: odsfd
-  file: captures/5mexm1sytg5_a2.nam
+    preset: odsfd
+  file: captures/odsfd_a2.nam

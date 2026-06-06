@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): body = taylor_814
 manifest_version: 1
 id: ir_taylor_814
 display_name: '814'
@@ -6,8 +7,8 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: flavor
-  display_name: Flavor
+- name: mic
+  display_name: Mic
   values:
   - dpa_4011
   - neumann_u87
@@ -15,18 +16,18 @@ parameters:
   - neumann_km84
 captures:
 - values:
-    flavor: dpa_4011
+    mic: dpa_4011
   file: ir/taylor_814_dpa_4011.wav
   output_gain_db: -26.8711891
 - values:
-    flavor: neumann_u87
+    mic: neumann_u87
   file: ir/taylor_814_neumann_u87.wav
   output_gain_db: -24.3773937
 - values:
-    flavor: shure_sm57
+    mic: shure_sm57
   file: ir/taylor_814_shure_sm57.wav
   output_gain_db: -25.4330254
 - values:
-    flavor: neumann_km84
+    mic: neumann_km84
   file: ir/taylor_814_neumann_km84.wav
   output_gain_db: -23.8379745

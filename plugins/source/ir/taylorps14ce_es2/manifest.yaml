@@ -5,23 +5,24 @@ brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
+# constant across all captures (omitted): ps14e (Taylor PS14ce body), 2048 (IR tap count)
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ps14e_2048_44k
-  - ps14e_2048_44k_m
-  - ps14e_2048_48k_mffqn
+  - 44k
+  - 44k_m
+  - 48k_mffqn
 captures:
 - values:
-    voicing: ps14e_2048_44k
+    preset: 44k
   file: ir/ps14e_2048_44k.wav
   output_gain_db: -12.3169193
 - values:
-    voicing: ps14e_2048_44k_m
+    preset: 44k_m
   file: ir/ps14e_2048_44k_m.wav
   output_gain_db: -11.7429276
 - values:
-    voicing: ps14e_2048_48k_mffqn
+    preset: 48k_mffqn
   file: ir/ps14e_2048_48k_mffqn.wav
   output_gain_db: -19.8489666

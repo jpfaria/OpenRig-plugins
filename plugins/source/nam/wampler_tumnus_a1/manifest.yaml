@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): pedal = tumnus_deluxe, level = 6.
 manifest_version: 1
 id: nam_wampler_tumnus_a1
 display_name: Wampler Tumnus
@@ -7,175 +8,204 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - hot
+  - nrm
 - name: bass
   display_name: Bass
   values:
-  - 4.0
-  - 5.0
-- name: gain
-  display_name: Gain
-  values:
-  - 2.0
-  - 3.0
-  - 4.0
-  - 5.0
-  - 6.0
-  - 7.0
-  - 8.0
-  - 10.0
+  - 4
+  - 5
 - name: mid
   display_name: Mid
   values:
-  - 5.0
-  - 6.0
+  - 5
+  - 6
 - name: treble
   display_name: Treble
   values:
-  - 5.0
-  - 6.0
-  - 7.0
+  - 5
+  - 6
+  - 7
+- name: gain
+  display_name: Gain
+  values:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 10
 captures:
 - values:
-    bass: 4.0
-    gain: 10.0
-    mid: 6.0
-    treble: 7.0
+    mode: hot
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 10
   file: captures/tumnus_deluxe_hot_b_4_m_6_t_7_l_6_g_10.nam
 - values:
-    bass: 4.0
-    gain: 8.0
-    mid: 6.0
-    treble: 7.0
+    mode: hot
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 8
   file: captures/tumnus_deluxe_hot_b_4_m_6_t_7_l_6_g_8.nam
 - values:
-    bass: 5.0
-    gain: 10.0
-    mid: 5.0
-    treble: 5.0
+    mode: hot
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 10
   file: captures/tumnus_deluxe_hot_b_5_m_5_t_5_l_6_g_10.nam
 - values:
-    bass: 5.0
-    gain: 8.0
-    mid: 5.0
-    treble: 5.0
+    mode: hot
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 8
   file: captures/tumnus_deluxe_hot_b_5_m_5_t_5_l_6_g_8.nam
 - values:
-    bass: 5.0
-    gain: 10.0
-    mid: 6.0
-    treble: 6.0
+    mode: hot
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 10
   file: captures/tumnus_deluxe_hot_b_5_m_6_t_6_l_6_g_10.nam
 - values:
-    bass: 5.0
-    gain: 8.0
-    mid: 6.0
-    treble: 6.0
+    mode: hot
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 8
   file: captures/tumnus_deluxe_hot_b_5_m_6_t_6_l_6_g_8.nam
 - values:
-    bass: 4.0
-    gain: 2.0
-    mid: 6.0
-    treble: 7.0
+    mode: nrm
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 2
   file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_2.nam
 - values:
-    bass: 4.0
-    gain: 3.0
-    mid: 6.0
-    treble: 7.0
+    mode: nrm
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 3
   file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_3.nam
 - values:
-    bass: 4.0
-    gain: 4.0
-    mid: 6.0
-    treble: 7.0
+    mode: nrm
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 4
   file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_4.nam
 - values:
-    bass: 4.0
-    gain: 5.0
-    mid: 6.0
-    treble: 7.0
+    mode: nrm
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 5
   file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_5.nam
 - values:
-    bass: 4.0
-    gain: 6.0
-    mid: 6.0
-    treble: 7.0
+    mode: nrm
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 6
   file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_6.nam
 - values:
-    bass: 4.0
-    gain: 7.0
-    mid: 6.0
-    treble: 7.0
+    mode: nrm
+    bass: 4
+    mid: 6
+    treble: 7
+    gain: 7
   file: captures/tumnus_deluxe_nrm_b_4_m_6_t_7_l_6_g_7.nam
 - values:
-    bass: 5.0
-    gain: 2.0
-    mid: 5.0
-    treble: 5.0
+    mode: nrm
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 2
   file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_2.nam
 - values:
-    bass: 5.0
-    gain: 3.0
-    mid: 5.0
-    treble: 5.0
+    mode: nrm
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 3
   file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_3.nam
 - values:
-    bass: 5.0
-    gain: 4.0
-    mid: 5.0
-    treble: 5.0
+    mode: nrm
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 4
   file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_4.nam
 - values:
-    bass: 5.0
-    gain: 5.0
-    mid: 5.0
-    treble: 5.0
+    mode: nrm
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 5
   file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_5.nam
 - values:
-    bass: 5.0
-    gain: 6.0
-    mid: 5.0
-    treble: 5.0
+    mode: nrm
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 6
   file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_6.nam
 - values:
-    bass: 5.0
-    gain: 7.0
-    mid: 5.0
-    treble: 5.0
+    mode: nrm
+    bass: 5
+    mid: 5
+    treble: 5
+    gain: 7
   file: captures/tumnus_deluxe_nrm_b_5_m_5_t_5_l_6_g_7.nam
 - values:
-    bass: 5.0
-    gain: 2.0
-    mid: 6.0
-    treble: 6.0
+    mode: nrm
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 2
   file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_2.nam
 - values:
-    bass: 5.0
-    gain: 3.0
-    mid: 6.0
-    treble: 6.0
+    mode: nrm
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 3
   file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_3.nam
 - values:
-    bass: 5.0
-    gain: 4.0
-    mid: 6.0
-    treble: 6.0
+    mode: nrm
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 4
   file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_4.nam
 - values:
-    bass: 5.0
-    gain: 5.0
-    mid: 6.0
-    treble: 6.0
+    mode: nrm
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 5
   file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_5.nam
 - values:
-    bass: 5.0
-    gain: 6.0
-    mid: 6.0
-    treble: 6.0
+    mode: nrm
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 6
   file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_6.nam
 - values:
-    bass: 5.0
-    gain: 7.0
-    mid: 6.0
-    treble: 6.0
+    mode: nrm
+    bass: 5
+    mid: 6
+    treble: 6
+    gain: 7
   file: captures/tumnus_deluxe_nrm_b_5_m_6_t_6_l_6_g_7.nam

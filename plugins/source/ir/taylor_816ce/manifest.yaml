@@ -1,3 +1,4 @@
+# Constant across all captures (omitted): tay816 (Taylor 816ce body) and m251 (Neumann M251 mic).
 manifest_version: 1
 id: ir_taylor_816ce
 display_name: 816ce
@@ -9,44 +10,44 @@ parameters:
 - name: voicing
   display_name: Voicing
   values:
-  - tay816_m251_exp1
-  - tay816_m251_exp2
-  - tay816_m251_sb3_blend
-  - tay816_m251_pz1
-  - tay816_m251_pz2
-  - tay816_m251_pz3
-  - tay816_m251_sb1
-  - tay816_m251_sb2
+  - exp1
+  - exp2
+  - pz1
+  - pz2
+  - pz3
+  - sb1
+  - sb2
+  - sb3_blend
 captures:
 - values:
-    voicing: tay816_m251_exp1
+    voicing: exp1
   file: ir/tay816_m251_exp1.wav
   output_gain_db: -20.4855175
 - values:
-    voicing: tay816_m251_exp2
+    voicing: exp2
   file: ir/tay816_m251_exp2.wav
   output_gain_db: -19.8581924
 - values:
-    voicing: tay816_m251_sb3_blend
+    voicing: sb3_blend
   file: ir/tay816_m251_sb3_blend.wav
   output_gain_db: -18.4967766
 - values:
-    voicing: tay816_m251_pz1
+    voicing: pz1
   file: ir/tay816_m251_pz1.wav
   output_gain_db: -21.3087406
 - values:
-    voicing: tay816_m251_pz2
+    voicing: pz2
   file: ir/tay816_m251_pz2.wav
   output_gain_db: -17.0645237
 - values:
-    voicing: tay816_m251_pz3
+    voicing: pz3
   file: ir/tay816_m251_pz3.wav
   output_gain_db: -20.8680305
 - values:
-    voicing: tay816_m251_sb1
+    voicing: sb1
   file: ir/tay816_m251_sb1.wav
   output_gain_db: -19.3198414
 - values:
-    voicing: tay816_m251_sb2
+    voicing: sb2
   file: ir/tay816_m251_sb2.wav
   output_gain_db: -20.6094856

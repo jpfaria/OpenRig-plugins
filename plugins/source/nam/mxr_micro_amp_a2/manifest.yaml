@@ -1,3 +1,6 @@
+# Constant token dropped across all captures: "MXR MICROAMP" (the pedal identity).
+# The MXR Micro Amp's only control is a single Gain knob; captures differ by its
+# discrete setting (low / mid / full gain), so one selector axis named "gain".
 manifest_version: 1
 id: nam_mxr_micro_amp_a2
 display_name: MXR Micro Amp
@@ -9,19 +12,19 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5122
 parameters:
-- name: tone
-  display_name: Tone
+- name: gain
+  display_name: Gain
   values:
-  - lowgain
-  - midgain
-  - fullgain
+  - low
+  - mid
+  - full
 captures:
 - values:
-    tone: midgain
-  file: captures/af7c66c784f4e8ba_a2.nam
+    gain: mid
+  file: captures/mxr_microamp_midgain_a2.nam
 - values:
-    tone: fullgain
-  file: captures/d1d813a66023a40f_a2.nam
+    gain: full
+  file: captures/mxr_microamp_fullgain_a2.nam
 - values:
-    tone: lowgain
-  file: captures/f2957c090a2dc2d5_a2.nam
+    gain: low
+  file: captures/mxr_microamp_lowgain_a2.nam

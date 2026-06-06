@@ -1,3 +1,4 @@
+# Constant token dropped from every capture: "svt" (the amp model, present in all names).
 manifest_version: 1
 id: nam_ampeg_svt_classic_a2
 display_name: SVT Classic
@@ -35,48 +36,48 @@ captures:
 - values:
     mode: dirty_pushed
     voicing: amp
-  file: captures/xq66z36685_a2.nam
+  file: captures/svt_dirty_pushed_a2.nam
 - values:
     mode: pushed
     voicing: amp
-  file: captures/xfj2avdyq4c_a2.nam
+  file: captures/svt_pushed_a2.nam
 - values:
     mode: rock_drive
     voicing: sansamp
-  file: captures/76pi4i14wen_a2.nam
+  file: captures/svt_sans_rock_drive_a2.nam
 - values:
     mode: shred
     voicing: darkglass
-  file: captures/gp1b6gh3iau_a2.nam
+  file: captures/svt_darkglass_shreded_a2.nam
 - values:
     mode: bright_drive
     voicing: sansamp
-  file: captures/xjxftf7hno_a2.nam
+  file: captures/svt_sans_bright_drive_a2.nam
 - values:
     mode: dirty
     voicing: amp
-  file: captures/6mdw2kzijp_a2.nam
+  file: captures/svt_dirty_a2.nam
 - values:
     mode: hype_di
     voicing: sansamp
-  file: captures/31a57cvymcg_a2.nam
+  file: captures/svt_sans_hype_my_di_a2.nam
 - values:
     mode: shred_di
     voicing: darkglass
-  file: captures/j1zkesvcpg_a2.nam
+  file: captures/svt_darkglass_shred_my_di_a2.nam
 - values:
     mode: clean
     voicing: amp
-  file: captures/7d86dr42iet_a2.nam
+  file: captures/svt_clean_a2.nam
 - values:
     mode: hairy_drive
     voicing: sansamp
-  file: captures/pmjdpfcok9j_a2.nam
+  file: captures/svt_sans_hairy_drive_a2.nam
 - values:
     mode: subdrive
     voicing: sansamp
-  file: captures/l0mbzet6lah_a2.nam
+  file: captures/svt_sans_subdrive_a2.nam
 - values:
     mode: clean_pushed
     voicing: amp
-  file: captures/5ciiulzwbpr_a2.nam
+  file: captures/svt_clean_pushed_a2.nam

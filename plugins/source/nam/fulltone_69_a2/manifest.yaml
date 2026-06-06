@@ -8,61 +8,41 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/5640
+# Grab-bag of named fuzz settings; the "69_" plugin slug and the near-constant
+# "bias_and_fuzz" token are dropped. The names mix voicing labels (hendrix,
+# stock fuzzface, maxx fuzz) with inconsistent/truncated contour hints, so they
+# do not factor into a clean knob grid -> single 'preset' axis. Mirrors the
+# fulltone_69_a1 sibling.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - high_contour
-  - maxx_fuzz
-  - high_vol_mid
   - hendrix_67
-  - high_vol_low
+  - high_contour
+  - low_contour
+  - mid_contour
+  - mid_contour_2
+  - maxx_fuzz
   - stock_fuzzface
-- name: contour
-  display_name: Contour
-  values:
-  - on
-  - noon
-  - off
-- name: trim
-  display_name: Gain Trim
-  values:
-  - cw
-  - ccw
-  - none
 captures:
 - values:
-    contour: on
-    model: high_contour
-    trim: none
-  file: captures/6e202b4c11fea13c_a2.nam
+    preset: hendrix_67
+  file: captures/69_hendrix_67_vol_2_contour_12_bias_and_fuzz_full_a2.nam
 - values:
-    contour: on
-    model: maxx_fuzz
-    trim: cw
-  file: captures/0227a90abb70665f_a2.nam
+    preset: high_contour
+  file: captures/69_high_contour_vol_2_contour_bias_and_fuzz_full_a2.nam
 - values:
-    contour: noon
-    model: high_vol_mid
-    trim: ccw
-  file: captures/adcd626a4f3da77a_a2.nam
+    preset: low_contour
+  file: captures/69_high_vol_low_contour_contour_off_vol_bias_and_f_a2.nam
 - values:
-    contour: noon
-    model: hendrix_67
-    trim: none
-  file: captures/3bc6fd2f44d5e0be_a2.nam
+    preset: mid_contour
+  file: captures/69_high_vol_mid_contour_contour_12_vol_bias_and_fu_a2.nam
 - values:
-    contour: noon
-    model: high_vol_mid
-    trim: cw
-  file: captures/cdd853b5e179d588_a2.nam
+    preset: mid_contour_2
+  file: captures/69_high_vol_mid_contour_contour_12_vol_bias_and_fu_1_a2.nam
 - values:
-    contour: off
-    model: high_vol_low
-    trim: none
-  file: captures/783f4987f303393f_a2.nam
+    preset: maxx_fuzz
+  file: captures/69_maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_t_a2.nam
 - values:
-    contour: off
-    model: stock_fuzzface
-    trim: none
-  file: captures/394dcef934793ba6_a2.nam
+    preset: stock_fuzzface
+  file: captures/69_stock_fuzzface_vol_2_contour_off_bias_and_fuzz_a2.nam

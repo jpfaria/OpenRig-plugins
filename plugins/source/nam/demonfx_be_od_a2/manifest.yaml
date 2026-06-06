@@ -27,159 +27,189 @@ parameters:
   values:
   - 50
   - 100
-- name: eq
-  display_name: Mid/High
+- name: mid
+  display_name: Mid
   values:
-  - 40_60
-  - 50_50
+  - 40
+  - 50
+- name: high
+  display_name: High
+  values:
+  - 50
+  - 60
 captures:
 - values:
-    eq: 40_60
     gain: 50
+    high: 60
+    mid: 40
     presence: 50
     tight: up
-  file: captures/vks5gfvmmlk_a2.nam
+  file: captures/gain_50_tight_up_pres_50_mid_40_high_60_a2.nam
 - values:
-    eq: 40_60
     gain: 50
+    high: 60
+    mid: 40
     presence: 100
     tight: up
-  file: captures/cjlwgc045d_a2.nam
+  file: captures/gain_50_tight_up_pres_100_mid_40_high_60_a2.nam
 - values:
-    eq: 40_60
     gain: 75
+    high: 60
+    mid: 40
     presence: 50
     tight: down
-  file: captures/680i5e5mmzy_a2.nam
+  file: captures/gain_75_tight_down_pres_50_mid_40_high_60_a2.nam
 - values:
-    eq: 50_50
     gain: 75
+    high: 50
+    mid: 50
     presence: 100
     tight: up
-  file: captures/o6dgxxioqgq_a2.nam
+  file: captures/gain_75_tight_up_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 100
+    high: 50
+    mid: 50
     presence: 100
     tight: up
-  file: captures/u5p4vdlrag_a2.nam
+  file: captures/gain_100_tight_up_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 50
+    high: 50
+    mid: 50
     presence: 100
     tight: up
-  file: captures/6cn3j8gpmog_a2.nam
+  file: captures/gain_50_tight_up_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 50
+    high: 50
+    mid: 50
     presence: 50
     tight: up
-  file: captures/p5ohdp2aujd_a2.nam
+  file: captures/gain_50_tight_up_pres_50_mid_50_high_50_a2.nam
 - values:
-    eq: 40_60
     gain: 100
+    high: 60
+    mid: 40
     presence: 50
     tight: up
-  file: captures/uylkb54zp6_a2.nam
+  file: captures/gain_100_tight_up_pres_50_mid_40_high_60_a2.nam
 - values:
-    eq: 50_50
     gain: 75
+    high: 50
+    mid: 50
     presence: 50
     tight: down
-  file: captures/v9tytorbnd_a2.nam
+  file: captures/gain_75_tight_down_pres_50_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 25
+    high: 50
+    mid: 50
     presence: 100
     tight: down
-  file: captures/8hl5x835cro_a2.nam
+  file: captures/gain_25_tight_down_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 75
+    high: 50
+    mid: 50
     presence: 50
     tight: up
-  file: captures/3nislqpea3q_a2.nam
+  file: captures/gain_75_tight_up_pres_50_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 0
+    high: 50
+    mid: 50
     presence: 100
     tight: down
-  file: captures/u17jb1iwxq_a2.nam
+  file: captures/gain_0_tight_down_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 100
+    high: 50
+    mid: 50
     presence: 50
     tight: up
-  file: captures/zvxtul04ug_a2.nam
+  file: captures/gain_100_tight_up_pres_50_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 50
+    high: 50
+    mid: 50
     presence: 50
     tight: down
-  file: captures/abhiiygxji_a2.nam
+  file: captures/gain_50_tight_down_pres_50_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 100
+    high: 50
+    mid: 50
     presence: 100
     tight: down
-  file: captures/7jomkeke1yd_a2.nam
+  file: captures/gain_100_tight_down_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 40_60
     gain: 50
+    high: 60
+    mid: 40
     presence: 50
     tight: down
-  file: captures/6wue2awitgn_a2.nam
+  file: captures/gain_50_tight_down_pres_50_mid_40_high_60_a2.nam
 - values:
-    eq: 50_50
     gain: 50
+    high: 50
+    mid: 50
     presence: 100
     tight: down
-  file: captures/0qcjke2rjrx_a2.nam
+  file: captures/gain_50_tight_down_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 40_60
     gain: 50
+    high: 60
+    mid: 40
     presence: 100
     tight: down
-  file: captures/viuha6tnvz_a2.nam
+  file: captures/gain_50_tight_down_pres_100_mid_40_high_60_a2.nam
 - values:
-    eq: 40_60
     gain: 75
+    high: 60
+    mid: 40
     presence: 100
     tight: down
-  file: captures/c7gqekpf07l_a2.nam
+  file: captures/gain_75_tight_down_pres_100_mid_40_high_60_a2.nam
 - values:
-    eq: 40_60
     gain: 100
+    high: 60
+    mid: 40
     presence: 100
     tight: down
-  file: captures/j9rjee3ifbf_a2.nam
+  file: captures/gain_100_tight_down_pres_100_mid_40_high_60_a2.nam
 - values:
-    eq: 40_60
     gain: 100
+    high: 60
+    mid: 40
     presence: 100
     tight: up
-  file: captures/jrjzlpvaqza_a2.nam
+  file: captures/gain_100_tight_up_pres_100_mid_40_high_60_a2.nam
 - values:
-    eq: 40_60
     gain: 100
+    high: 60
+    mid: 40
     presence: 50
     tight: down
-  file: captures/vcsk1kfc0ut_a2.nam
+  file: captures/gain_100_tight_down_pres_50_mid_40_high_60_a2.nam
 - values:
-    eq: 50_50
     gain: 25
+    high: 50
+    mid: 50
     presence: 100
     tight: up
-  file: captures/jp3yxc5oaw_a2.nam
+  file: captures/gain_25_tight_up_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 50_50
     gain: 0
+    high: 50
+    mid: 50
     presence: 100
     tight: up
-  file: captures/t5vhbr6npgd_a2.nam
+  file: captures/gain_0_tight_up_pres_100_mid_50_high_50_a2.nam
 - values:
-    eq: 40_60
     gain: 75
+    high: 60
+    mid: 40
     presence: 100
     tight: up
-  file: captures/8pgqmexuv0u_a2.nam
+  file: captures/gain_75_tight_up_pres_100_mid_40_high_60_a2.nam

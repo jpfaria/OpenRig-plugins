@@ -8,12 +8,13 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/5763
+# Single capture (tone3000 name "randall warhead"); no varying control tokens.
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
   - default
 captures:
 - values:
-    model: default
-  file: captures/ac603356b43230b9_a2.nam
+    default: default
+  file: captures/randall_warhead_a2.nam

@@ -9,6 +9,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/1740
+# Constant across all captures: brand FZ-2. The level/bass/treble knobs are
+# baked per mode (fuzz = L8 B7 T5, boost = B8 T6) and covary with mode, so they
+# are not independent axes; the two varying controls are mode and gain.
 parameters:
 - name: mode
   display_name: Mode
@@ -23,22 +26,22 @@ parameters:
   - 10
 captures:
 - values:
-    gain: 5
     mode: fuzz_i
-  file: captures/7645929641365dab_a2.nam
+    gain: 5
+  file: captures/fuzz_i_l8_b7_t5_g5_a2.nam
 - values:
+    mode: fuzz_i
     gain: 10
+  file: captures/fuzz_i_l8_b7_t5_g10_a2.nam
+- values:
     mode: fuzz_ii
-  file: captures/f4200000ff20c76f_a2.nam
+    gain: 5
+  file: captures/fuzz_ii_l8_b7_t5_g5_a2.nam
 - values:
+    mode: fuzz_ii
     gain: 10
+  file: captures/fuzz_ii_l8_b7_t5_g10_a2.nam
+- values:
     mode: boost
-  file: captures/821ac15f3398dba0_a2.nam
-- values:
     gain: 10
-    mode: fuzz_i
-  file: captures/5933d0f85096e998_a2.nam
-- values:
-    gain: 5
-    mode: fuzz_ii
-  file: captures/c74c201e9cf1d7c6_a2.nam
+  file: captures/boost_b8_t6_g10_a2.nam

@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): 01, fr, marshall, 1987x, hi_input, crunch, bal
 manifest_version: 1
 id: nam_marshall_1987_a1
 display_name: '1987'
@@ -8,15 +9,15 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: source
-  display_name: Source
+- name: preset
+  display_name: Preset
   values:
   - cab
   - di
 captures:
 - values:
-    source: cab
+    preset: cab
   file: captures/01_fr_marshall_1987x_hi_input_crunch_bal_cab.nam
 - values:
-    source: di
+    preset: di
   file: captures/01_fr_marshall_1987x_hi_input_crunch_bal_di.nam

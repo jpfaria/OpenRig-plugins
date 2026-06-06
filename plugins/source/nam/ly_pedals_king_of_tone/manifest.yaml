@@ -1,3 +1,6 @@
+# Dropped constant token across all captures: "Ly Pedals - King of Tone Clone".
+# The pedal's channel and drive character are entangled (red->OD, orange->clean
+# boost, both->DST), so they collapse into one honest `mode` selector.
 manifest_version: 1
 id: nam_ly_pedals_king_of_tone
 display_name: LY Pedals KoT (Clone)
@@ -18,10 +21,10 @@ parameters:
 captures:
 - values:
     mode: red_od
-  file: captures/oqvbfgpx2ic.nam
+  file: captures/red_channel_od.nam
 - values:
     mode: both_dst
-  file: captures/prrpv6ibaj.nam
+  file: captures/both_channels_dst.nam
 - values:
     mode: orange_boost
-  file: captures/razr95u7wv.nam
+  file: captures/orange_channel_cln_boost.nam

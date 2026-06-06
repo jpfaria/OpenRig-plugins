@@ -1,3 +1,4 @@
+# Dropped constant token (identical in every capture): irt120
 manifest_version: 1
 id: nam_laney_ironheart_irt120_a1
 display_name: Ironheart IRT120
@@ -10,20 +11,20 @@ parameters:
 - name: preset
   display_name: Preset
   values:
-  - irt120_crunchy_red
-  - irt120_lead_red
-  - irt120_growl_red
-  - irt120_doom
+  - crunchy_red
+  - lead_red
+  - growl_red
+  - doom
 captures:
 - values:
-    preset: irt120_crunchy_red
+    preset: crunchy_red
   file: captures/irt120_crunchy_red.nam
 - values:
-    preset: irt120_lead_red
+    preset: lead_red
   file: captures/irt120_lead_red.nam
 - values:
-    preset: irt120_growl_red
+    preset: growl_red
   file: captures/irt120_growl_red.nam
 - values:
-    preset: irt120_doom
+    preset: doom
   file: captures/irt120_doom.nam

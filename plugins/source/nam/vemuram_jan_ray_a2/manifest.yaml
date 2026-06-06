@@ -1,3 +1,4 @@
+# Constants dropped (identical across all captures): volume=9, bass=11, treble=13
 manifest_version: 1
 id: nam_vemuram_jan_ray_a2
 display_name: Jan Ray
@@ -17,7 +18,7 @@ parameters:
 captures:
 - values:
     gain: 5
-  file: captures/oidepz29y1d_a2.nam
+  file: captures/janrayma_v9g5b11t13_a2.nam
 - values:
     gain: 9
-  file: captures/kymjpbd64j_a2.nam
+  file: captures/janrayma_v9g9b11t13_a2.nam

@@ -6,7 +6,11 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
+- values:
+    default: default
   file: captures/proco_rat.nam

@@ -8,11 +8,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - full_rig
+  - default
 captures:
 - values:
-    preset: full_rig
+    default: default
   file: captures/orange_dark_terror_full_rig.nam

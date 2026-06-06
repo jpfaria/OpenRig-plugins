@@ -9,12 +9,13 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Single capture (tone3000 model name: "Tiny Terror model track"); no varying control across captures.
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - model_track
+  - default
 captures:
 - values:
-    preset: model_track
+    default: default
   file: captures/tiny_terror_model_track.nam

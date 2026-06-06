@@ -8,28 +8,30 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/6602
+# Constant tokens dropped from every capture name: DR (author), EHX, SOUL FOOD (pedal).
+# Names are a grab-bag of named voicings with no numeric knob settings -> single 'preset' axis.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - edge_sweet_spot
-  - max_sustain
-  - light_breakup
   - lead
+  - light_breakup
+  - max_sustain
   - med_transparent
 captures:
 - values:
-    model: edge_sweet_spot
-  file: captures/4e1bed88c1f29e51_a2.nam
+    preset: edge_sweet_spot
+  file: captures/edge_sweet_spot_a2.nam
 - values:
-    model: max_sustain
-  file: captures/cf7747c9966f3c45_a2.nam
+    preset: lead
+  file: captures/lead_a2.nam
 - values:
-    model: light_breakup
-  file: captures/27f7ee7286ec701f_a2.nam
+    preset: light_breakup
+  file: captures/light_breakup_a2.nam
 - values:
-    model: lead
-  file: captures/b47555f808af0bf5_a2.nam
+    preset: max_sustain
+  file: captures/max_sustain_a2.nam
 - values:
-    model: med_transparent
-  file: captures/a77dd4dfd11b94c7_a2.nam
+    preset: med_transparent
+  file: captures/med_transparent_a2.nam

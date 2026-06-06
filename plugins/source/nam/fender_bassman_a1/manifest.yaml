@@ -1,3 +1,4 @@
+# Constant across all captures: fender_bassman_50 (the amp model itself).
 manifest_version: 1
 id: nam_fender_bassman_a1
 display_name: Bassman
@@ -17,42 +18,68 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g1
-  - g2_5
-  - g3
-  - g5
-  - g5_5
-  - g9_5
+  - 1
+  - 2.5
+  - 3
+  - 5
+  - 5.5
+  - 9.5
+- name: deep
+  display_name: Deep
+  values:
+  - 0
+  - 1
+- name: bright
+  display_name: Bright
+  values:
+  - 0
+  - 1
 captures:
 - values:
     channel: normal
-    gain: g1
+    gain: 1
+    deep: 0
+    bright: 0
   file: captures/fender_bassman_50_normal_channel_bright_off_g1.nam
 - values:
     channel: normal
-    gain: g2_5
+    gain: 2.5
+    deep: 0
+    bright: 0
   file: captures/fender_bassman_50_normal_channel_bright_off_g2_5.nam
 - values:
     channel: bass
-    gain: g1
+    gain: 1
+    deep: 0
+    bright: 0
   file: captures/fender_bassman_50_bass_channel_deep_off_g1.nam
 - values:
     channel: jumped
-    gain: g2_5
+    gain: 2.5
+    deep: 1
+    bright: 1
   file: captures/fender_bassman_50_jumped_d1_b1_g2_5.nam
 - values:
     channel: jumped
-    gain: g3
+    gain: 3
+    deep: 0
+    bright: 0
   file: captures/fender_bassman_50_jumped_do_bo_g3.nam
 - values:
     channel: jumped
-    gain: g5
+    gain: 5
+    deep: 0
+    bright: 1
   file: captures/fender_bassman_50_jumped_d0_b1_g5.nam
 - values:
     channel: jumped
-    gain: g5_5
+    gain: 5.5
+    deep: 0
+    bright: 1
   file: captures/fender_bassman_50_jumped_d0_b1_g5_5.nam
 - values:
     channel: jumped
-    gain: g9_5
+    gain: 9.5
+    deep: 1
+    bright: 1
   file: captures/fender_bassman_50_jumped_d1_b1_g9_5.nam

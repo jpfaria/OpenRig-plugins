@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: "AP JCM900-pre" model prefix and the per-capture sequence index (01..08).
 manifest_version: 1
 id: nam_marshall_jcm900_a2
 display_name: JCM900
@@ -26,34 +27,34 @@ parameters:
   - 20
 captures:
 - values:
-    channel: ch2
-    gain: 20
-  file: captures/nsezmqc33ts_a2.nam
-- values:
-    channel: ch2
-    gain: 8
-  file: captures/jw950rvo84_a2.nam
-- values:
-    channel: ch2
-    gain: 16
-  file: captures/kuo3bz6gyr_a2.nam
-- values:
-    channel: ch2
+    channel: ch1
     gain: 4
-  file: captures/zc1087eyw88_a2.nam
+  file: captures/ap_jcm900_pre_01_ch1_g4_a2.nam
+- values:
+    channel: ch1
+    gain: 8
+  file: captures/ap_jcm900_pre_02_ch1_g8_a2.nam
 - values:
     channel: ch1
     gain: 10
-  file: captures/f5jog4z2ue_a2.nam
+  file: captures/ap_jcm900_pre_03_ch1_g10_a2.nam
 - values:
-    channel: ch1
+    channel: ch2
+    gain: 4
+  file: captures/ap_jcm900_pre_04_ch2_g4_a2.nam
+- values:
+    channel: ch2
     gain: 8
-  file: captures/ce3i5g2uep_a2.nam
+  file: captures/ap_jcm900_pre_05_ch2_g8_a2.nam
 - values:
     channel: ch2
     gain: 12
-  file: captures/rhl2ygrgsqe_a2.nam
+  file: captures/ap_jcm900_pre_06_ch2_g12_a2.nam
 - values:
-    channel: ch1
-    gain: 4
-  file: captures/v60v54a3l0a_a2.nam
+    channel: ch2
+    gain: 16
+  file: captures/ap_jcm900_pre_07_ch2_g16_a2.nam
+- values:
+    channel: ch2
+    gain: 20
+  file: captures/ap_jcm900_pre_08_ch2_g20_a2.nam

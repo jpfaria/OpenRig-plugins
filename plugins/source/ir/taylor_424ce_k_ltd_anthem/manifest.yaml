@@ -1,3 +1,5 @@
+# Constant across all captures (omitted as axes): ir2 · 424 (model) · 44k (sample rate) · 2048 (IR length).
+# The only varying token is the trailing voicing tag, exposed as a clean 'preset' axis.
 manifest_version: 1
 id: ir_taylor_424ce_k_ltd_anthem
 display_name: 424ce-K LTD Anthem
@@ -6,22 +8,22 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ir2_424_44k_2048
-  - ir2_424_44k_2048_m2
-  - ir2_424_44k_2048_mffq3n
+  - base
+  - m2
+  - mffq3n
 captures:
 - values:
-    voicing: ir2_424_44k_2048
+    preset: base
   file: ir/ir2_424_44k_2048.wav
   output_gain_db: -20.3427773
 - values:
-    voicing: ir2_424_44k_2048_m2
+    preset: m2
   file: ir/ir2_424_44k_2048_m2.wav
   output_gain_db: -28.8475285
 - values:
-    voicing: ir2_424_44k_2048_mffq3n
+    preset: mffq3n
   file: ir/ir2_424_44k_2048_mffq3n.wav
   output_gain_db: -36.4918289

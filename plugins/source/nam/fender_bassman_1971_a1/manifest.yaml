@@ -7,9 +7,12 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Dropped constant token across all captures: bassman (amp/plugin slug).
+# Capture names are a grab-bag of named voicings that do not decompose
+# into real numeric control axes, so they form a single 'preset' selector.
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - clean
   - bright_clean
@@ -22,29 +25,29 @@ parameters:
   - warm_fuzz
 captures:
 - values:
-    tone: clean
+    preset: clean
   file: captures/bassman_clean.nam
 - values:
-    tone: bright_clean
+    preset: bright_clean
   file: captures/bassman_bright_clean.nam
 - values:
-    tone: warm_clean
+    preset: warm_clean
   file: captures/bassman_warm_clean.nam
 - values:
-    tone: sweet_spot
+    preset: sweet_spot
   file: captures/bassman_sweet_spot.nam
 - values:
-    tone: warm_sweet_spot
+    preset: warm_sweet_spot
   file: captures/bassman_warm_sweet_spot.nam
 - values:
-    tone: cranked
+    preset: cranked
   file: captures/bassman_cranked.nam
 - values:
-    tone: 80s_clean
+    preset: 80s_clean
   file: captures/bassman_80s_clean.nam
 - values:
-    tone: big_clean
+    preset: big_clean
   file: captures/bassman_big_clean.nam
 - values:
-    tone: warm_fuzz
+    preset: warm_fuzz
   file: captures/bassman_warm_fuzz.nam

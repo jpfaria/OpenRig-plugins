@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: boss_hm3 (model name)
 manifest_version: 1
 id: nam_boss_hm_3_a1
 display_name: Boss HM-3
@@ -11,56 +12,56 @@ parameters:
 - name: lows
   display_name: Lows
   values:
-  - '5'
-  - '10'
+  - 5
+  - 10
 - name: highs
   display_name: Highs
   values:
-  - '5'
-  - '10'
+  - 5
+  - 10
 - name: dist
   display_name: Distortion
   values:
-  - '5'
-  - '10'
+  - 5
+  - 10
 captures:
 - values:
-    dist: '5'
-    highs: '5'
-    lows: '5'
+    lows: 5
+    highs: 5
+    dist: 5
   file: captures/boss_hm3_lows5_highs5_dist5_boss_hm3.nam
 - values:
-    dist: '10'
-    highs: '5'
-    lows: '5'
+    lows: 5
+    highs: 5
+    dist: 10
   file: captures/boss_hm3_lows5_highs5_dist10_boss_hm3.nam
 - values:
-    dist: '5'
-    highs: '10'
-    lows: '5'
+    lows: 5
+    highs: 10
+    dist: 5
   file: captures/boss_hm3_lows5_highs10_dist5_boss_hm3.nam
 - values:
-    dist: '10'
-    highs: '10'
-    lows: '5'
+    lows: 5
+    highs: 10
+    dist: 10
   file: captures/boss_hm3_lows5_highs10_dist10_boss_hm3.nam
 - values:
-    dist: '5'
-    highs: '5'
-    lows: '10'
+    lows: 10
+    highs: 5
+    dist: 5
   file: captures/boss_hm3_lows10_highs5_dist5_boss_hm3.nam
 - values:
-    dist: '10'
-    highs: '5'
-    lows: '10'
+    lows: 10
+    highs: 5
+    dist: 10
   file: captures/boss_hm3_lows10_highs5_dist10_boss_hm3.nam
 - values:
-    dist: '5'
-    highs: '10'
-    lows: '10'
+    lows: 10
+    highs: 10
+    dist: 5
   file: captures/boss_hm3_lows10_highs10_dist5_boss_hm3.nam
 - values:
-    dist: '10'
-    highs: '10'
-    lows: '10'
+    lows: 10
+    highs: 10
+    dist: 10
   file: captures/boss_hm3_lows10_highs10_dist10_boss_hm3.nam

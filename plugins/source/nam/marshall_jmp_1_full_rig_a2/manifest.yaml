@@ -9,9 +9,12 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/45918
+# Constant token dropped from every capture name: "JMP" (the amp model).
+# The captures are named voicings of the Marshall JMP-1 OD preamp that do
+# not decompose into numeric knob settings -> single 'preset' axis.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
   - clean
   - crunch_breakup
@@ -23,26 +26,26 @@ parameters:
   - rhythm_od808
 captures:
 - values:
-    model: clean
-  file: captures/d113p5gd6ej_a2.nam
+    preset: clean
+  file: captures/clean_a2.nam
 - values:
-    model: rhythm_2
-  file: captures/hjge4mnon6o_a2.nam
+    preset: crunch_breakup
+  file: captures/crunch_breakup_a2.nam
 - values:
-    model: rhythm_1
-  file: captures/qrh6osfvsf_a2.nam
+    preset: lead_creamy
+  file: captures/lead_creamy_a2.nam
 - values:
-    model: lead_creamy
-  file: captures/pnrvw6rfb6_a2.nam
+    preset: rhythm_1
+  file: captures/rhythm_1_a2.nam
 - values:
-    model: rhythm_deftoned
-  file: captures/q5r9xzzdxbq_a2.nam
+    preset: rhythm_2
+  file: captures/rhythm_2_a2.nam
 - values:
-    model: rhythm_od808
-  file: captures/oe199x3bzq_a2.nam
+    preset: rhythm_3
+  file: captures/rhythm_3_a2.nam
 - values:
-    model: crunch_breakup
-  file: captures/pks4gxha9z_a2.nam
+    preset: rhythm_deftoned
+  file: captures/rhythm_deftoned_a2.nam
 - values:
-    model: rhythm_3
-  file: captures/7z38hccrj35_a2.nam
+    preset: rhythm_od808
+  file: captures/rhythm_od808_a2.nam

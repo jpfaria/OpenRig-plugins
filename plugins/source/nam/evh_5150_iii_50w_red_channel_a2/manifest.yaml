@@ -1,3 +1,4 @@
+# Single capture (tone3000 model "EVH RED"); no varying controls.
 manifest_version: 1
 id: nam_evh_5150_iii_50w_red_channel_a2
 display_name: 5150 III 50w Red Channel
@@ -9,11 +10,11 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/65406
 parameters:
-- name: model
-  display_name: Model
+- name: default
+  display_name: Default
   values:
-  - red
+  - default
 captures:
 - values:
-    model: red
-  file: captures/mbalnk9scg7_a2.nam
+    default: default
+  file: captures/evh_red_a2.nam

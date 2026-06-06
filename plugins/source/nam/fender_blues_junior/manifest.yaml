@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): feather (capture tag)
 manifest_version: 1
 id: nam_fender_blues_junior
 display_name: Blues Junior
@@ -10,15 +11,50 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: voicing
+  display_name: Voicing
   values:
-  - iii_stock
-  - scooped
+  - std
+  - iii
+- name: volume
+  display_name: Volume
+  values:
+  - 5
+  - 7
+- name: bass
+  display_name: Bass
+  values:
+  - 6
+  - 7
+- name: mid
+  display_name: Mid
+  values:
+  - 8
+  - 4
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 6
+- name: master
+  display_name: Master
+  values:
+  - 5
+  - 4
 captures:
 - values:
-    preset: iii_stock
+    voicing: iii
+    volume: 5
+    bass: 6
+    mid: 8
+    treble: 5
+    master: 5
   file: captures/fender_blues_junior_iii_vol_5_bass_6_mids_8_treble_5_master__feather.nam
 - values:
-    preset: scooped
+    voicing: std
+    volume: 7
+    bass: 7
+    mid: 4
+    treble: 6
+    master: 4
   file: captures/fender_blues_junior_vol_7_bass_7_mids_4_treble_6_master_4_feather.nam

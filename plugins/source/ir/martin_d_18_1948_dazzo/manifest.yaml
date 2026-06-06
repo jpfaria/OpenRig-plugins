@@ -1,3 +1,4 @@
+# constants across all captures (dropped): martin, d18, 1948, dazzo, 44100
 manifest_version: 1
 id: ir_martin_d_18_1948_dazzo
 display_name: D-18 1948 Dazzo
@@ -6,22 +7,22 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - ir_martin_d18_1948_dazzo_44100
-  - ir_martin_d18_1948_dazzo_44100_match2
-  - ir_martin_d18_1948_dazzo_44100_meq3
+  - flat
+  - match2
+  - meq3
 captures:
 - values:
-    voicing: ir_martin_d18_1948_dazzo_44100
+    preset: flat
   file: ir/ir_martin_d18_1948_dazzo_44100.wav
   output_gain_db: -30.0275059
 - values:
-    voicing: ir_martin_d18_1948_dazzo_44100_match2
+    preset: match2
   file: ir/ir_martin_d18_1948_dazzo_44100_match2.wav
   output_gain_db: -26.0267239
 - values:
-    voicing: ir_martin_d18_1948_dazzo_44100_meq3
+    preset: meq3
   file: ir/ir_martin_d18_1948_dazzo_44100_meq3.wav
   output_gain_db: -28.2511826

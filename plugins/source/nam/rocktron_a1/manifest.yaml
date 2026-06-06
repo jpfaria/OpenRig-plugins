@@ -1,3 +1,4 @@
+# Constants across all captures (dropped from axes): model=piranha, channel=ch3, tubes=el34 class-ab
 manifest_version: 1
 id: nam_rocktron_a1
 display_name: Rocktron
@@ -10,12 +11,12 @@ parameters:
 - name: mid_freq
   display_name: Mid Freq
   values:
-  - '750'
-  - '850'
+  - 750
+  - 850
 captures:
 - values:
-    mid_freq: '750'
+    mid_freq: 750
   file: captures/piranha_ch3_mid_750_el34ab.nam
 - values:
-    mid_freq: '850'
+    mid_freq: 850
   file: captures/piranha_ch3_mid_850_el34ab.nam

@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): pedal = be_od (BE-OD)
 manifest_version: 1
 id: nam_demonfx_be_od_a1
 display_name: BE-OD Clone
@@ -10,20 +11,28 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - '50'
-  - '75'
-  - '100'
-  - 100_tight
+  - 50
+  - 75
+  - 100
+- name: tight
+  display_name: Tight
+  values:
+  - 'off'
+  - 'on'
 captures:
 - values:
-    gain: '50'
+    gain: 50
+    tight: 'off'
   file: captures/be_od_g50.nam
 - values:
-    gain: '75'
+    gain: 75
+    tight: 'off'
   file: captures/be_od_g75.nam
 - values:
-    gain: '100'
+    gain: 100
+    tight: 'off'
   file: captures/be_od_g100.nam
 - values:
-    gain: 100_tight
+    gain: 100
+    tight: 'on'
   file: captures/be_od_g100_tight.nam

@@ -1,3 +1,4 @@
+# Dropped constants: sample rate 48000 (identical in every capture).
 manifest_version: 1
 id: ir_martin_hd_28e_anthem
 display_name: HD-28E Anthem

@@ -9,24 +9,55 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/44505
+# Constant tokens dropped from every capture name: ST, SF300.
+# The 4 captures map cleanly onto the SF300's real controls: the Fuzz 1/Fuzz 2
+# mode switch plus the gain, bass and treble knobs. Knob values use the pack's
+# clock-position scale (9/12/15 o'clock); MAX (fully clockwise) is encoded as 17.
 parameters:
-- name: tone
-  display_name: Tone
+- name: mode
+  display_name: Mode
   values:
   - fuzz1
-  - fuzz2_low
-  - fuzz2_high
-  - fuzz2_max
+  - fuzz2
+- name: gain
+  display_name: Gain
+  values:
+  - 9
+  - 15
+  - 17
+- name: bass
+  display_name: Bass
+  values:
+  - 9
+  - 12
+  - 17
+- name: treble
+  display_name: Treble
+  values:
+  - 12
+  - 17
 captures:
 - values:
-    tone: fuzz1
-  file: captures/ei3qzoz63gc_a2.nam
+    mode: fuzz1
+    gain: 9
+    bass: 12
+    treble: 12
+  file: captures/fuzz1_gain9_bass12_treble12_a2.nam
 - values:
-    tone: fuzz2_low
-  file: captures/kzdotoz1da_a2.nam
+    mode: fuzz2
+    gain: 9
+    bass: 9
+    treble: 12
+  file: captures/fuzz2_gain9_bass9_treble12_a2.nam
 - values:
-    tone: fuzz2_high
-  file: captures/3krd69xlx6_a2.nam
+    mode: fuzz2
+    gain: 15
+    bass: 17
+    treble: 17
+  file: captures/fuzz2_gain15_bass_max_treble_max_a2.nam
 - values:
-    tone: fuzz2_max
-  file: captures/kl6r5ufv5u_a2.nam
+    mode: fuzz2
+    gain: 17
+    bass: 17
+    treble: 17
+  file: captures/fuzz2_gain_max_bass_max_treble_max_a2.nam

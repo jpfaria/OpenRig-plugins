@@ -1,3 +1,4 @@
+# Constant tokens dropped from every capture name: sc (source prefix), 44100 (sample rate).
 manifest_version: 1
 id: ir_mcilroy_a25c
 display_name: A25C
@@ -5,42 +6,51 @@ brand: mcilroy
 type: body
 backend: ir
 parameters:
+- name: position
+  display_name: Position
+  values:
+  - pos1
+  - pos2
 - name: voicing
   display_name: Voicing
   values:
-  - sc_mcilroy1_44100
-  - sc_mcilroy1_44100_bld
-  - sc_mcilroy1_44100_match
-  - sc_mcilroy1_44100_jf_flavor
-  - sc_mcilroy2_44100
-  - sc_mcilroy2_44100_bld
-  - sc_mcilroy2_44100_jf_flavor
+  - raw
+  - blend
+  - match
+  - jf_flavor
 captures:
 - values:
-    voicing: sc_mcilroy1_44100
+    position: pos1
+    voicing: raw
   file: ir/sc_mcilroy1_44100.wav
   output_gain_db: -29.9288483
 - values:
-    voicing: sc_mcilroy1_44100_bld
+    position: pos1
+    voicing: blend
   file: ir/sc_mcilroy1_44100_bld.wav
   output_gain_db: -28.5695438
 - values:
-    voicing: sc_mcilroy1_44100_match
+    position: pos1
+    voicing: match
   file: ir/sc_mcilroy1_44100_match.wav
   output_gain_db: -26.2344284
 - values:
-    voicing: sc_mcilroy1_44100_jf_flavor
+    position: pos1
+    voicing: jf_flavor
   file: ir/sc_mcilroy1_44100_jf_flavor.wav
   output_gain_db: -29.8055897
 - values:
-    voicing: sc_mcilroy2_44100
+    position: pos2
+    voicing: raw
   file: ir/sc_mcilroy2_44100.wav
   output_gain_db: -24.4179573
 - values:
-    voicing: sc_mcilroy2_44100_bld
+    position: pos2
+    voicing: blend
   file: ir/sc_mcilroy2_44100_bld.wav
   output_gain_db: -18.8493099
 - values:
-    voicing: sc_mcilroy2_44100_jf_flavor
+    position: pos2
+    voicing: jf_flavor
   file: ir/sc_mcilroy2_44100_jf_flavor.wav
   output_gain_db: -19.4805126

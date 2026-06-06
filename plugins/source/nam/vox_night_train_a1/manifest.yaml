@@ -7,16 +7,17 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Constant across all captures (omitted from axes): nt15h model, ts9 boost pedal.
 parameters:
 - name: preset
   display_name: Preset
   values:
-  - boost_ts9
-  - od_low_ts9
+  - boost
+  - od_low
 captures:
 - values:
-    preset: boost_ts9
+    preset: boost
   file: captures/vox_night_train_nt15h_boost_ts9.nam
 - values:
-    preset: od_low_ts9
+    preset: od_low
   file: captures/vox_night_train_nt15h_overdrive_ts9_low_boosted.nam

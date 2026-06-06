@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): prs_mt100 (model), std (STD architecture, == A1 header).
 manifest_version: 1
 id: nam_prs_mt100_tremonti_a1
 display_name: MT-100 Tremonti
@@ -9,16 +10,21 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: channel
+  display_name: Channel
   values:
-  - clean_cleanly
-  - clean_noon
-  - clean_live_2023
-  - od_dime_it
-  - od_bitey
-  - od_sin_after_sin
-  - od_sc_leads
+  - clean
+  - overdrive
+- name: preset
+  display_name: Preset
+  values:
+  - cleanly
+  - noon
+  - live_2023
+  - dime_it
+  - bitey
+  - sin_after_sin
+  - single_coil_leads
 - name: mic
   display_name: Mic
   values:
@@ -26,42 +32,52 @@ parameters:
   - sm57
 captures:
 - values:
+    channel: clean
+    preset: cleanly
     mic: di
-    voicing: clean_cleanly
   file: captures/amp_prs_mt100_clean_cleanly_di_std.nam
 - values:
+    channel: clean
+    preset: noon
     mic: di
-    voicing: clean_noon
   file: captures/amp_prs_mt100_clean_noon_di_std.nam
 - values:
+    channel: clean
+    preset: noon
     mic: sm57
-    voicing: clean_noon
   file: captures/amp_prs_mt100_clean_noon_sm57_std.nam
 - values:
+    channel: clean
+    preset: live_2023
     mic: di
-    voicing: clean_live_2023
   file: captures/amp_prs_mt100_clean_live_2023_di_std.nam
 - values:
+    channel: clean
+    preset: live_2023
     mic: sm57
-    voicing: clean_live_2023
   file: captures/amp_prs_mt100_clean_live_2023_sm57_std.nam
 - values:
+    channel: overdrive
+    preset: dime_it
     mic: sm57
-    voicing: od_dime_it
   file: captures/amp_prs_mt100_overdrive_dime_it_sm57.nam
 - values:
+    channel: overdrive
+    preset: bitey
     mic: di
-    voicing: od_bitey
   file: captures/amp_prs_mt100_overdrive_bitey_di_std.nam
 - values:
+    channel: overdrive
+    preset: sin_after_sin
     mic: di
-    voicing: od_sin_after_sin
   file: captures/amp_prs_mt100_overdrive_sin_after_sin_di_std.nam
 - values:
+    channel: overdrive
+    preset: sin_after_sin
     mic: sm57
-    voicing: od_sin_after_sin
   file: captures/amp_prs_mt100_overdrive_sin_after_sin_sm57_std.nam
 - values:
+    channel: overdrive
+    preset: single_coil_leads
     mic: sm57
-    voicing: od_sc_leads
   file: captures/amp_prs_mt100_overdrive_single_coil_leads_sm57_std.nam

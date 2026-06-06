@@ -9,6 +9,7 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/40973
+# Dropped constants (identical across all captures): "Marshall 1959 Handwired Head 90W [Brown Mod]"
 parameters:
 - name: channel
   display_name: Channel
@@ -24,12 +25,12 @@ captures:
 - values:
     channel: ch1
     wiring: jumped
-  file: captures/zs7kker7z79_a2.nam
+  file: captures/ch1_jumped_a2.nam
 - values:
     channel: ch1
     wiring: normal
-  file: captures/ydva8sr8tf7_a2.nam
+  file: captures/ch1_a2.nam
 - values:
     channel: ch2
     wiring: normal
-  file: captures/kz51aswcyxm_a2.nam
+  file: captures/ch2_a2.nam

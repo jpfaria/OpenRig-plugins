@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: ds1w (DS-1 Wampler).
 manifest_version: 1
 id: nam_boss_ds1_wampler_a1
 display_name: DS-1 Wampler JCM Mod
@@ -22,38 +23,38 @@ parameters:
   - 10
 captures:
 - values:
-    dist: 0
     tone: 2
+    dist: 0
   file: captures/ds1w_t2_d0.nam
 - values:
-    dist: 5
     tone: 2
+    dist: 5
   file: captures/ds1w_t2_d5.nam
 - values:
-    dist: 10
     tone: 2
+    dist: 10
   file: captures/ds1w_t2_d10.nam
 - values:
-    dist: 0
     tone: 6
+    dist: 0
   file: captures/ds1w_t6_d0.nam
 - values:
-    dist: 5
     tone: 6
+    dist: 5
   file: captures/ds1w_t6_d5.nam
 - values:
-    dist: 10
     tone: 6
+    dist: 10
   file: captures/ds1w_t6_d10.nam
 - values:
-    dist: 0
     tone: 8
+    dist: 0
   file: captures/ds1w_t8_d0.nam
 - values:
-    dist: 5
     tone: 8
+    dist: 5
   file: captures/ds1w_t8_d5.nam
 - values:
-    dist: 10
     tone: 8
+    dist: 10
   file: captures/ds1w_t8_d10.nam

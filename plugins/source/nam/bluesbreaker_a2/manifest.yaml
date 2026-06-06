@@ -9,12 +9,12 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/1778
+# Single capture (marshall-bluesbreaker-pedal-setting1); no varying control across captures.
 parameters:
-- name: model
-  display_name: Model
+- name: default
   values:
   - default
 captures:
 - values:
-    model: default
-  file: captures/31aeae1256b36839_a2.nam
+    default: default
+  file: captures/marshall_bluesbreaker_pedal_setting1_a2.nam

@@ -8,23 +8,31 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: channel
+  display_name: Channel
   values:
   - red
-  - red_hm2w
-  - red_maxon
-  - green_maxon
+  - green
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - boss_hm_2w
+  - maxon_st9pro
 captures:
 - values:
-    preset: red
+    channel: red
+    boost: none
   file: captures/peavey_6505_red_ch.nam
 - values:
-    preset: red_hm2w
+    channel: red
+    boost: boss_hm_2w
   file: captures/peavey_6505_red_ch_boss_hm_2w.nam
 - values:
-    preset: red_maxon
+    channel: red
+    boost: maxon_st9pro
   file: captures/peavey_6505_red_ch_maxon_st9pro.nam
 - values:
-    preset: green_maxon
+    channel: green
+    boost: maxon_st9pro
   file: captures/peavey_6505_green_ch_maxon_st9pro.nam

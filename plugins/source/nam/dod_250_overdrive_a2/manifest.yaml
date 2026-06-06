@@ -1,3 +1,4 @@
+# Dropped constant across all captures: TTSV10 (model/rig revision tag)
 manifest_version: 1
 id: nam_dod_250_overdrive_a2
 display_name: DOD 250 Overdrive
@@ -30,68 +31,68 @@ captures:
 - values:
     gain: 0.0
     level: 10.0
-  file: captures/4rn0dtj4elc_a2.nam
-- values:
-    gain: 4.0
-    level: 8.0
-  file: captures/1rkph0nzlz7_a2.nam
-- values:
-    gain: 2.0
-    level: 10.0
-  file: captures/yummidl6iz_a2.nam
+  file: captures/dod_250_g0_l10_a2.nam
 - values:
     gain: 2.0
     level: 8.0
-  file: captures/8gsywvqbaww_a2.nam
+  file: captures/dod_250_g2_l8_a2.nam
 - values:
-    gain: 5.0
-    level: 8.0
-  file: captures/uam51bdodce_a2.nam
+    gain: 2.0
+    level: 10.0
+  file: captures/dod_250_g2_l10_a2.nam
 - values:
     gain: 3.0
     level: 8.0
-  file: captures/11rxzdwduxsl_a2.nam
+  file: captures/dod_250_g3_l8_a2.nam
 - values:
     gain: 3.0
     level: 10.0
-  file: captures/sz09eevhfdr_a2.nam
+  file: captures/dod_250_g3_l10_a2.nam
 - values:
-    gain: 5.0
-    level: 10.0
-  file: captures/dxa8n1hsgs_a2.nam
-- values:
-    gain: 10.0
+    gain: 4.0
     level: 8.0
-  file: captures/t7o32l1jm8j_a2.nam
-- values:
-    gain: 8.0
-    level: 8.0
-  file: captures/rkwjsajd19_a2.nam
-- values:
-    gain: 6.0
-    level: 10.0
-  file: captures/j129h78nd9j_a2.nam
-- values:
-    gain: 7.0
-    level: 8.0
-  file: captures/cme2xov6ubh_a2.nam
-- values:
-    gain: 8.0
-    level: 10.0
-  file: captures/62ponrd8s9e_a2.nam
+  file: captures/dod_250_g4_l8_a2.nam
 - values:
     gain: 4.0
     level: 10.0
-  file: captures/le21ozsg8co_a2.nam
+  file: captures/dod_250_g4_l10_a2.nam
 - values:
-    gain: 10.0
+    gain: 5.0
+    level: 8.0
+  file: captures/dod_250_g5_l8_a2.nam
+- values:
+    gain: 5.0
     level: 10.0
-  file: captures/tvu3srzw0a9_a2.nam
+  file: captures/dod_250_g5_l10_a2.nam
 - values:
     gain: 6.0
     level: 8.0
-  file: captures/2aqjoskmavz_a2.nam
+  file: captures/dod_250_g6_l8_a2.nam
+- values:
+    gain: 6.0
+    level: 10.0
+  file: captures/dod_250_g6_l10_a2.nam
+- values:
+    gain: 7.0
+    level: 8.0
+  file: captures/dod_250_g7_l8_a2.nam
 - values:
     gain: 7.0
     level: 10.0
-  file: captures/pv2dcxtsod9_a2.nam
+  file: captures/dod_250_g7_l10_a2.nam
+- values:
+    gain: 8.0
+    level: 8.0
+  file: captures/dod_250_g8_l8_a2.nam
+- values:
+    gain: 8.0
+    level: 10.0
+  file: captures/dod_250_g8_l10_a2.nam
+- values:
+    gain: 10.0
+    level: 8.0
+  file: captures/dod_250_g10_l8_a2.nam
+- values:
+    gain: 10.0
+    level: 10.0
+  file: captures/dod_250_g10_l10_a2.nam

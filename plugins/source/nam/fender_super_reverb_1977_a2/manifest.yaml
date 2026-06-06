@@ -9,6 +9,8 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/68651
+# Dropped constants (identical across all captures): channel=Nrm (Normal), SRL.
+# voicing: std = plain; boost = +6 dB capture; brt = Bright switch (+6 dB).
 parameters:
 - name: volume
   display_name: Volume
@@ -52,370 +54,370 @@ captures:
     treble: 5
     voicing: std
     volume: 7
-  file: captures/mramzeih1yf_a2.nam
+  file: captures/bfsr_v7_t5_b2_std_a2.nam
 - values:
     bass: 3
     treble: 6
     voicing: std
     volume: 7
-  file: captures/vvdpjnf9xh_a2.nam
+  file: captures/bfsr_v7_t6_b3_std_a2.nam
 - values:
     bass: 1
     treble: 7
     voicing: std
     volume: 7
-  file: captures/kxqeimvoye_a2.nam
+  file: captures/bfsr_v7_t7_b1_std_a2.nam
 - values:
     bass: 4
     treble: 5
     voicing: boost
     volume: 4
-  file: captures/8c2bidnhx64_a2.nam
+  file: captures/bfsr_v4_t5_b4_boost_a2.nam
 - values:
     bass: 4
     treble: 5
     voicing: std
     volume: 6
-  file: captures/d7o2bxiejc_a2.nam
+  file: captures/bfsr_v6_t5_b4_std_a2.nam
 - values:
     bass: 1
     treble: 8
     voicing: std
     volume: 7
-  file: captures/zykqpkb1jao_a2.nam
+  file: captures/bfsr_v7_t8_b1_std_a2.nam
 - values:
     bass: 4
     treble: 5
     voicing: std
     volume: 5
-  file: captures/i3onoe8mlt_a2.nam
+  file: captures/bfsr_v5_t5_b4_std_a2.nam
 - values:
     bass: 4
     treble: 3
     voicing: std
     volume: 5
-  file: captures/wie9sglu4m_a2.nam
+  file: captures/bfsr_v5_t3_b4_std_a2.nam
 - values:
     bass: 3
     treble: 5
     voicing: std
     volume: 7
-  file: captures/ymy90qkay5f_a2.nam
+  file: captures/bfsr_v7_t5_b3_std_a2.nam
 - values:
     bass: 4
     treble: 1
     voicing: brt
     volume: 4
-  file: captures/dvqsj7zr1j_a2.nam
+  file: captures/bfsr_v4_t1_b4_brt_a2.nam
 - values:
     bass: 1
     treble: 6
     voicing: std
     volume: 7
-  file: captures/s26jmv9jopn_a2.nam
+  file: captures/bfsr_v7_t6_b1_std_a2.nam
 - values:
     bass: 4
     treble: 4
     voicing: boost
     volume: 4
-  file: captures/66y82ri3njt_a2.nam
+  file: captures/bfsr_v4_t4_b4_boost_a2.nam
 - values:
     bass: 4
     treble: 6
     voicing: std
     volume: 5
-  file: captures/ewinsfnc3r7_a2.nam
+  file: captures/bfsr_v5_t6_b4_std_a2.nam
 - values:
     bass: 4
     treble: 6
     voicing: boost
     volume: 4
-  file: captures/ae8bhlm805l_a2.nam
+  file: captures/bfsr_v4_t6_b4_boost_a2.nam
 - values:
     bass: 4
     treble: 4
     voicing: std
     volume: 6
-  file: captures/47qhcp49yog_a2.nam
+  file: captures/bfsr_v6_t4_b4_std_a2.nam
 - values:
     bass: 3
     treble: 7
     voicing: std
     volume: 7
-  file: captures/85a53re5elj_a2.nam
+  file: captures/bfsr_v7_t7_b3_std_a2.nam
 - values:
     bass: 2
     treble: 8
     voicing: std
     volume: 7
-  file: captures/6qewf989g6t_a2.nam
+  file: captures/bfsr_v7_t8_b2_std_a2.nam
 - values:
     bass: 2
     treble: 8
     voicing: std
     volume: 8
-  file: captures/j7vlilfqw2_a2.nam
+  file: captures/bfsr_v8_t8_b2_std_a2.nam
 - values:
     bass: 2
     treble: 6
     voicing: std
     volume: 7
-  file: captures/w7bc44u9zi_a2.nam
+  file: captures/bfsr_v7_t6_b2_std_a2.nam
 - values:
     bass: 3
     treble: 8
     voicing: std
     volume: 7
-  file: captures/nely3seone_a2.nam
+  file: captures/bfsr_v7_t8_b3_std_a2.nam
 - values:
     bass: 1
     treble: 6
     voicing: std
     volume: 8
-  file: captures/d8bgl29hhni_a2.nam
+  file: captures/bfsr_v8_t6_b1_std_a2.nam
 - values:
     bass: 2
     treble: 5
     voicing: std
     volume: 9
-  file: captures/mex1lxjdob8_a2.nam
+  file: captures/bfsr_v9_t5_b2_std_a2.nam
 - values:
     bass: 1
     treble: 8
     voicing: std
     volume: 8
-  file: captures/48hk1xffpwg_a2.nam
+  file: captures/bfsr_v8_t8_b1_std_a2.nam
 - values:
     bass: 2
     treble: 10
     voicing: std
     volume: 10
-  file: captures/nlw18cgb4pb_a2.nam
+  file: captures/bfsr_v10_t10_b2_std_a2.nam
 - values:
     bass: 2
     treble: 8
     voicing: std
     volume: 10
-  file: captures/hs07r149lkh_a2.nam
+  file: captures/bfsr_v10_t8_b2_std_a2.nam
 - values:
     bass: 1
     treble: 7
     voicing: std
     volume: 9
-  file: captures/t2pfjffi3yc_a2.nam
+  file: captures/bfsr_v9_t7_b1_std_a2.nam
 - values:
     bass: 1
     treble: 7
     voicing: std
     volume: 10
-  file: captures/z8c4724chr7_a2.nam
+  file: captures/bfsr_v10_t7_b1_std_a2.nam
 - values:
     bass: 2
     treble: 7
     voicing: std
     volume: 10
-  file: captures/ycyaqhp34gp_a2.nam
+  file: captures/bfsr_v10_t7_b2_std_a2.nam
 - values:
     bass: 1
     treble: 6
     voicing: std
     volume: 10
-  file: captures/5jgdkw0a8kk_a2.nam
+  file: captures/bfsr_v10_t6_b1_std_a2.nam
 - values:
     bass: 1
     treble: 5
     voicing: std
     volume: 10
-  file: captures/5744b3oeh42_a2.nam
+  file: captures/bfsr_v10_t5_b1_std_a2.nam
 - values:
     bass: 1
     treble: 9
     voicing: std
     volume: 9
-  file: captures/mxii75dtotf_a2.nam
+  file: captures/bfsr_v9_t9_b1_std_a2.nam
 - values:
     bass: 2
     treble: 7
     voicing: std
     volume: 7
-  file: captures/y33mtop939n_a2.nam
+  file: captures/bfsr_v7_t7_b2_std_a2.nam
 - values:
     bass: 2
     treble: 5
     voicing: std
     volume: 10
-  file: captures/e0eypvd4r3g_a2.nam
+  file: captures/bfsr_v10_t5_b2_std_a2.nam
 - values:
     bass: 2
     treble: 6
     voicing: std
     volume: 9
-  file: captures/wb3idznc4q8_a2.nam
+  file: captures/bfsr_v9_t6_b2_std_a2.nam
 - values:
     bass: 2
     treble: 10
     voicing: std
     volume: 8
-  file: captures/2swvqksqfyx_a2.nam
+  file: captures/bfsr_v8_t10_b2_std_a2.nam
 - values:
     bass: 2
     treble: 9
     voicing: std
     volume: 10
-  file: captures/jx3rp2cjxfs_a2.nam
+  file: captures/bfsr_v10_t9_b2_std_a2.nam
 - values:
     bass: 4
     treble: 3
     voicing: std
     volume: 6
-  file: captures/k3l58qjge5_a2.nam
+  file: captures/bfsr_v6_t3_b4_std_a2.nam
 - values:
     bass: 1
     treble: 8
     voicing: std
     volume: 9
-  file: captures/svtpq6jw5r8_a2.nam
+  file: captures/bfsr_v9_t8_b1_std_a2.nam
 - values:
     bass: 1
     treble: 8
     voicing: std
     volume: 10
-  file: captures/c7onarqqs4f_a2.nam
+  file: captures/bfsr_v10_t8_b1_std_a2.nam
 - values:
     bass: 1
     treble: 9
     voicing: std
     volume: 10
-  file: captures/7nmoy49ztqt_a2.nam
+  file: captures/bfsr_v10_t9_b1_std_a2.nam
 - values:
     bass: 1
     treble: 9
     voicing: std
     volume: 8
-  file: captures/gn1aa3pkkx9_a2.nam
+  file: captures/bfsr_v8_t9_b1_std_a2.nam
 - values:
     bass: 1
     treble: 10
     voicing: std
     volume: 10
-  file: captures/aeu6for1gn_a2.nam
+  file: captures/bfsr_v10_t10_b1_std_a2.nam
 - values:
     bass: 1
     treble: 5
     voicing: std
     volume: 8
-  file: captures/bvf51k27nsk_a2.nam
+  file: captures/bfsr_v8_t5_b1_std_a2.nam
 - values:
     bass: 1
     treble: 5
     voicing: std
     volume: 7
-  file: captures/w6iijz8wqsf_a2.nam
+  file: captures/bfsr_v7_t5_b1_std_a2.nam
 - values:
     bass: 4
     treble: 3
     voicing: boost
     volume: 4
-  file: captures/eg3ufuiu527_a2.nam
+  file: captures/bfsr_v4_t3_b4_boost_a2.nam
 - values:
     bass: 2
     treble: 6
     voicing: std
     volume: 10
-  file: captures/5s2kqp07feb_a2.nam
+  file: captures/bfsr_v10_t6_b2_std_a2.nam
 - values:
     bass: 2
     treble: 7
     voicing: std
     volume: 9
-  file: captures/87i8kg0zeqm_a2.nam
+  file: captures/bfsr_v9_t7_b2_std_a2.nam
 - values:
     bass: 2
     treble: 9
     voicing: std
     volume: 8
-  file: captures/b43drojrqel_a2.nam
+  file: captures/bfsr_v8_t9_b2_std_a2.nam
 - values:
     bass: 2
     treble: 7
     voicing: std
     volume: 8
-  file: captures/exs95go62dq_a2.nam
+  file: captures/bfsr_v8_t7_b2_std_a2.nam
 - values:
     bass: 1
     treble: 6
     voicing: std
     volume: 9
-  file: captures/rm9979vdxzj_a2.nam
+  file: captures/bfsr_v9_t6_b1_std_a2.nam
 - values:
     bass: 2
     treble: 6
     voicing: std
     volume: 8
-  file: captures/5ktjyttu9ba_a2.nam
+  file: captures/bfsr_v8_t6_b2_std_a2.nam
 - values:
     bass: 1
     treble: 10
     voicing: std
     volume: 9
-  file: captures/5qoqgu4wbe7_a2.nam
+  file: captures/bfsr_v9_t10_b1_std_a2.nam
 - values:
     bass: 1
     treble: 5
     voicing: std
     volume: 9
-  file: captures/76hh6u8y45k_a2.nam
+  file: captures/bfsr_v9_t5_b1_std_a2.nam
 - values:
     bass: 1
     treble: 10
     voicing: std
     volume: 8
-  file: captures/glztowyfhyu_a2.nam
+  file: captures/bfsr_v8_t10_b1_std_a2.nam
 - values:
     bass: 2
     treble: 10
     voicing: std
     volume: 9
-  file: captures/w2ia9tvdi7_a2.nam
+  file: captures/bfsr_v9_t10_b2_std_a2.nam
 - values:
     bass: 4
     treble: 2
     voicing: brt
     volume: 4
-  file: captures/zq6b2tyzyfg_a2.nam
+  file: captures/bfsr_v4_t2_b4_brt_a2.nam
 - values:
     bass: 2
     treble: 8
     voicing: std
     volume: 9
-  file: captures/dwr1hvp7muj_a2.nam
+  file: captures/bfsr_v9_t8_b2_std_a2.nam
 - values:
     bass: 2
     treble: 9
     voicing: std
     volume: 9
-  file: captures/mx0o641hvv_a2.nam
+  file: captures/bfsr_v9_t9_b2_std_a2.nam
 - values:
     bass: 2
     treble: 5
     voicing: std
     volume: 8
-  file: captures/4w61w6fwr9r_a2.nam
+  file: captures/bfsr_v8_t5_b2_std_a2.nam
 - values:
     bass: 4
     treble: 6
     voicing: std
     volume: 6
-  file: captures/4we7fxanpi7_a2.nam
+  file: captures/bfsr_v6_t6_b4_std_a2.nam
 - values:
     bass: 1
     treble: 7
     voicing: std
     volume: 8
-  file: captures/69s886bhl52_a2.nam
+  file: captures/bfsr_v8_t7_b1_std_a2.nam
 - values:
     bass: 4
     treble: 4
     voicing: std
     volume: 5
-  file: captures/5mowhs3tuxv_a2.nam
+  file: captures/bfsr_v5_t4_b4_std_a2.nam

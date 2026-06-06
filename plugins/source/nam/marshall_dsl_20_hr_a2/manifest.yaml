@@ -1,3 +1,5 @@
+# Dropped constants (identical across every capture): Marshall_DSL_20, Drive, Pre&PA.
+# boost selector: none = Drive only; boost = Drive+Boost; tight = Drive+Boost_Tight.
 manifest_version: 1
 id: nam_marshall_dsl_20_hr_a2
 display_name: DSL 20 HR
@@ -13,8 +15,8 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - off
-  - on
+  - none
+  - boost
   - tight
 - name: gain
   display_name: Gain
@@ -23,26 +25,26 @@ parameters:
   - 12
 captures:
 - values:
-    boost: off
+    boost: none
     gain: 12
-  file: captures/s42mudyv2zj_a2.nam
+  file: captures/marshall_dsl_20_drive_gain12_a2.nam
 - values:
-    boost: off
+    boost: none
     gain: 10
-  file: captures/dnoc22y5o6s_a2.nam
+  file: captures/marshall_dsl_20_drive_gain10_a2.nam
 - values:
-    boost: on
+    boost: boost
     gain: 10
-  file: captures/8qq9x5461t2_a2.nam
+  file: captures/marshall_dsl_20_drive_boost_gain10_a2.nam
 - values:
-    boost: on
+    boost: boost
     gain: 12
-  file: captures/okgqv4dpkbj_a2.nam
+  file: captures/marshall_dsl_20_drive_boost_gain12_a2.nam
 - values:
     boost: tight
     gain: 10
-  file: captures/yq1fwaqxwys_a2.nam
+  file: captures/marshall_dsl_20_drive_boost_tight_gain10_a2.nam
 - values:
     boost: tight
     gain: 12
-  file: captures/c18b4lgvjyi_a2.nam
+  file: captures/marshall_dsl_20_drive_boost_tight_gain12_a2.nam

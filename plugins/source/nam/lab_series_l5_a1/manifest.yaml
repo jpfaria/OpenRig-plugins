@@ -1,3 +1,4 @@
+# Single capture: B.B. King through Lab Series 5, 4x12 with Beatle GB IR, high input.
 manifest_version: 1
 id: nam_lab_series_l5_a1
 display_name: L5
@@ -7,11 +8,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - bb_king_high
+  - default
 captures:
 - values:
-    preset: bb_king_high
+    default: default
   file: captures/b_b_king_lab_series_5_4x12_beatle_gb_ir_high_input.nam

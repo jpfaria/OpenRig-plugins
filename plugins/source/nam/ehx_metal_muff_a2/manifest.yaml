@@ -8,9 +8,12 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/4975
+# Constant token dropped from preset labels: "metal_muff" (the pedal name, already in display_name).
+# The tone3000 pack is a grab-bag of named pedal settings ("Various tones from this iconic
+# pedal"), not a consistent knob grid — modelled as a single 'preset' axis.
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - as_an_overdrive
   - eq_noon
@@ -24,32 +27,32 @@ parameters:
   - trve_kult
 captures:
 - values:
-    tone: eq_noon_full_gain
-  file: captures/0bfc4314e10702a2_a2.nam
+    preset: eq_noon_full_gain
+  file: captures/metal_muff_eq_noon_full_gain_a2.nam
 - values:
-    tone: evil
-  file: captures/2c9698d9244c8890_a2.nam
+    preset: evil
+  file: captures/metal_muff_evil_a2.nam
 - values:
-    tone: as_an_overdrive
-  file: captures/62873c387bbd506d_a2.nam
+    preset: as_an_overdrive
+  file: captures/metal_muff_as_an_overdrive_a2.nam
 - values:
-    tone: trve_kult
-  file: captures/a649f4b424744e1e_a2.nam
+    preset: trve_kult
+  file: captures/metal_muff_trve_kult_a2.nam
 - values:
-    tone: mega_scoop
-  file: captures/49d591ec5b8ce2d8_a2.nam
+    preset: mega_scoop
+  file: captures/metal_muff_mega_scoop_a2.nam
 - values:
-    tone: tob_boost_low_distortion
-  file: captures/4dfebc8a703f7e4b_a2.nam
+    preset: tob_boost_low_distortion
+  file: captures/metal_muff_tob_boost_low_distortion_a2.nam
 - values:
-    tone: my_settings
-  file: captures/85a8ba04c32e3ae3_a2.nam
+    preset: my_settings
+  file: captures/metal_muff_my_settings_a2.nam
 - values:
-    tone: eq_noon
-  file: captures/a4604b02ca0c5410_a2.nam
+    preset: eq_noon
+  file: captures/metal_muff_eq_noon_a2.nam
 - values:
-    tone: swedish_chainsaw_ish
-  file: captures/776c092ff5e0aa88_a2.nam
+    preset: swedish_chainsaw_ish
+  file: captures/metal_muff_swedish_chainsaw_ish_a2.nam
 - values:
-    tone: nattens_madrigal
-  file: captures/48972a1c73935c4c_a2.nam
+    preset: nattens_madrigal
+  file: captures/metal_muff_nattens_madrigal_a2.nam

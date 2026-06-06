@@ -5,6 +5,7 @@ brand: martin
 brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
+# Dropped constants (identical across all captures): cs, d28grw, putw, 44100
 parameters:
 - name: flavor
   display_name: Flavor

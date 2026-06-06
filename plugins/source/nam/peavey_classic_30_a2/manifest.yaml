@@ -1,3 +1,4 @@
+# Dropped constants: none (every capture varies by voicing and/or boost).
 manifest_version: 1
 id: nam_peavey_classic_30_a2
 display_name: Classic 30
@@ -23,18 +24,18 @@ parameters:
   - ts9
 captures:
 - values:
-    boost: none
     voicing: overdrive
-  file: captures/dxe29ztaut7_a2.nam
+    boost: none
+  file: captures/peavey_classic_30_overdrive_a2.nam
 - values:
+    voicing: clean
     boost: boss_od3
-    voicing: clean
-  file: captures/p9e7omjvka_a2.nam
+  file: captures/peavey_classic_30_clean_boss_od3_a2.nam
 - values:
-    boost: ts9
     voicing: overdrive
-  file: captures/von0hjizte_a2.nam
+    boost: ts9
+  file: captures/peavey_classic_30_overdrive_ibanez_ts9_a2.nam
 - values:
-    boost: none
     voicing: clean
-  file: captures/lgym5gldp6c_a2.nam
+    boost: none
+  file: captures/peavey_classic_30_clean_a2.nam

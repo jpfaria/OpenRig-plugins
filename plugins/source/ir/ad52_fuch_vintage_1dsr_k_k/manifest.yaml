@@ -4,23 +4,24 @@ display_name: AD52 Fuch Vintage 1DSR K&K
 brand: furch
 type: body
 backend: ir
+# constant across all captures (dropped): furch_vintage1d_sr (body model), 48k (sample rate)
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - furch_vintage1d_sr_48k
-  - furch_vintage1d_sr_48k_m
-  - furch_vintage1d_sr_48k_m_ffq
+  - plain
+  - mic
+  - mic_ffq
 captures:
 - values:
-    voicing: furch_vintage1d_sr_48k
+    preset: plain
   file: ir/furch_vintage1d_sr_48k.wav
   output_gain_db: -11.1471205
 - values:
-    voicing: furch_vintage1d_sr_48k_m
+    preset: mic
   file: ir/furch_vintage1d_sr_48k_m.wav
   output_gain_db: -9.6549644
 - values:
-    voicing: furch_vintage1d_sr_48k_m_ffq
+    preset: mic_ffq
   file: ir/furch_vintage1d_sr_48k_m_ffq.wav
   output_gain_db: -22.4591579

@@ -1,3 +1,4 @@
+# Dropped constant: "Mesa Throttle Box" (amp name, identical in every capture).
 manifest_version: 1
 id: nam_mesa_throttle_box_a2
 display_name: Mesa Throttle Box
@@ -25,20 +26,20 @@ captures:
 - values:
     channel: lo
     gain: 38.0
-  file: captures/57e4848b7e7fdf64_a2.nam
+  file: captures/mesa_throttle_box_lo_g38_a2.nam
 - values:
     channel: high
     gain: 38.0
-  file: captures/3b0855a9ad49fa4c_a2.nam
+  file: captures/mesa_throttle_box_high_g38_a2.nam
 - values:
     channel: high
     gain: 75.0
-  file: captures/0906be8629bccfe7_a2.nam
+  file: captures/mesa_throttle_box_high_g75_a2.nam
 - values:
     channel: lo
     gain: 75.0
-  file: captures/b453766cf02868b4_a2.nam
+  file: captures/mesa_throttle_box_lo_g75_a2.nam
 - values:
     channel: high
     gain: 50.0
-  file: captures/cbbc36ec15146840_a2.nam
+  file: captures/mesa_throttle_box_high_g50_a2.nam

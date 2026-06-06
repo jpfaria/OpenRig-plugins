@@ -1,3 +1,4 @@
+# Dropped constant token: hd28 (Martin HD-28 body, identical in every capture).
 manifest_version: 1
 id: ir_martin_hd28
 display_name: HD-28
@@ -6,32 +7,32 @@ brand_logo: assets/brand_logo.svg
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: mic
+  display_name: Mic
   values:
-  - hd28_neumann_u87
-  - hd28_neumann_u47
-  - hd28_soundelux_e47
-  - hd28_akg_c414b_xls
-  - hd28_schoeps_cmc64g
+  - neumann_u87
+  - neumann_u47
+  - soundelux_e47
+  - akg_c414b_xls
+  - schoeps_cmc64g
 captures:
 - values:
-    voicing: hd28_neumann_u87
+    mic: neumann_u87
   file: ir/hd28_neumann_u87.wav
   output_gain_db: -24.8780403
 - values:
-    voicing: hd28_neumann_u47
+    mic: neumann_u47
   file: ir/hd28_neumann_u47.wav
   output_gain_db: -22.9858818
 - values:
-    voicing: hd28_soundelux_e47
+    mic: soundelux_e47
   file: ir/hd28_soundelux_e47.wav
   output_gain_db: -26.7701740
 - values:
-    voicing: hd28_akg_c414b_xls
+    mic: akg_c414b_xls
   file: ir/hd28_akg_c414b_xls.wav
   output_gain_db: -25.5089149
 - values:
-    voicing: hd28_schoeps_cmc64g
+    mic: schoeps_cmc64g
   file: ir/hd28_schoeps_cmc64g.wav
   output_gain_db: -26.8391819

@@ -1,3 +1,4 @@
+# Dropped constant tokens (identical across all captures): [T3K] [S1000]
 manifest_version: 1
 id: nam_lokajaudio_der_blend_a2
 display_name: Der Blend
@@ -40,55 +41,55 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - off
-  - on
+  - 0
+  - 100
 captures:
 - values:
-    blend: 7
-    boost: on
-    level: 7
     sustain: 7
     tone: 7
-  file: captures/dk1mpd221bn_a2.nam
-- values:
-    blend: 7
-    boost: off
     level: 7
+    blend: 7
+    boost: 100
+  file: captures/7sus_7tone_7level_7blend_100boost_a2.nam
+- values:
     sustain: 7
     tone: 7
-  file: captures/4p4dnw23n0f_a2.nam
+    level: 7
+    blend: 7
+    boost: 0
+  file: captures/7sus_7tone_7level_7blend_0boost_a2.nam
 - values:
-    blend: 5
-    boost: off
-    level: 5
     sustain: 5
     tone: 5
-  file: captures/xl5fkxjsveb_a2.nam
+    level: 5
+    blend: 5
+    boost: 0
+  file: captures/5sus_5tone_5level_5blend_0boost_a2.nam
 - values:
-    blend: 0
-    boost: off
+    sustain: 0
+    tone: 0
     level: 9
+    blend: 0
+    boost: 0
+  file: captures/0sus_0tone_9level_0blend_0boost_a2.nam
+- values:
     sustain: 0
     tone: 0
-  file: captures/vgbpzdgv9yl_a2.nam
-- values:
-    blend: 0
-    boost: off
     level: 5
+    blend: 0
+    boost: 0
+  file: captures/0sus_0tone_5level_0blend_0boost_a2.nam
+- values:
     sustain: 0
     tone: 0
-  file: captures/v23oid9duef_a2.nam
-- values:
-    blend: 0
-    boost: off
     level: 0
-    sustain: 0
-    tone: 0
-  file: captures/p6r3mha1ei_a2.nam
+    blend: 0
+    boost: 0
+  file: captures/0sus_0tone_0level_0blend_0boost_a2.nam
 - values:
-    blend: 9
-    boost: off
-    level: 5
     sustain: 9
     tone: 9
-  file: captures/tgtilazibq8_a2.nam
+    level: 5
+    blend: 9
+    boost: 0
+  file: captures/9sus_9tone_5level_9blend_0boost_a2.nam

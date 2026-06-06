@@ -1,3 +1,5 @@
+# Constant across all captures (dropped): model base name "RR Golden Clone".
+# Source legend (tone3000 id 46295): "[#   ]" = Gain (0..X), "[   #]" = Treble (0=dark..X=bright).
 manifest_version: 1
 id: nam_warm_audio_centavo_a2
 display_name: Warm Audio Centavo
@@ -12,16 +14,25 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - 5_4
-  - 2_7
-  - 6_6
+  - 5
+  - 2
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 4
+  - 7
+  - 6
 captures:
 - values:
-    gain: 5_4
-  file: captures/uyrb7ednccb_a2.nam
+    gain: 5
+    treble: 4
+  file: captures/rr_golden_clone_g5_t4_a2.nam
 - values:
-    gain: 2_7
-  file: captures/56ragixkhuy_a2.nam
+    gain: 2
+    treble: 7
+  file: captures/rr_golden_clone_g2_t7_a2.nam
 - values:
-    gain: 6_6
-  file: captures/f67b67s97pf_a2.nam
+    gain: 6
+    treble: 6
+  file: captures/rr_golden_clone_g6_t6_a2.nam

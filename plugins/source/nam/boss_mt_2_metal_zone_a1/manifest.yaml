@@ -7,40 +7,44 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Constant across all captures (dropped): clean_boost mode.
+# The varying names are a grab-bag of named settings (battery_powered
+# positions 5-8 + four generic "setting" snapshots) that do not factor
+# into real pedal control axes, so they collapse into a single 'preset'.
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
-  - 5_battery_powered
-  - 6_battery_powered
-  - 7_battery_powered
-  - 8_battery_powered
-  - setting
+  - battery_5
+  - battery_6
+  - battery_7
+  - battery_8
+  - setting_1
   - setting_2
   - setting_3
   - setting_4
 captures:
 - values:
-    tone: 5_battery_powered
+    preset: battery_5
   file: captures/boss_metalzone_clean_boost_5_battery_powered.nam
 - values:
-    tone: 6_battery_powered
+    preset: battery_6
   file: captures/boss_metalzone_clean_boost_6_battery_powered.nam
 - values:
-    tone: 7_battery_powered
+    preset: battery_7
   file: captures/boss_metalzone_clean_boost_7_battery_powered.nam
 - values:
-    tone: 8_battery_powered
+    preset: battery_8
   file: captures/boss_metalzone_clean_boost_8_battery_powered.nam
 - values:
-    tone: setting
+    preset: setting_1
   file: captures/boss_metalzone_clean_boost_setting.nam
 - values:
-    tone: setting_2
+    preset: setting_2
   file: captures/boss_metalzone_clean_boost_setting_2.nam
 - values:
-    tone: setting_3
+    preset: setting_3
   file: captures/boss_metalzone_clean_boost_setting_3.nam
 - values:
-    tone: setting_4
+    preset: setting_4
   file: captures/boss_metalzone_clean_boost_setting_4.nam

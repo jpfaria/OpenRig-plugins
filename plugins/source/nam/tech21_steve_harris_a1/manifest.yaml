@@ -6,16 +6,17 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# constant across all captures: sh1 (model name)
 parameters:
-- name: character
-  display_name: Character
+- name: voicing
+  display_name: Voicing
   values:
   - standard
   - less_highs
 captures:
 - values:
-    character: standard
+    voicing: standard
   file: captures/sh1_standard.nam
 - values:
-    character: less_highs
+    voicing: less_highs
   file: captures/sh1_less_highs.nam

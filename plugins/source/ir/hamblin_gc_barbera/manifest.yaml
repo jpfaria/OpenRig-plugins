@@ -4,38 +4,41 @@ display_name: GC Barbera
 brand: hamblin
 type: body
 backend: ir
+# Names are a grab-bag of IR-maker variants (cuki, jf/jf45, dy initials) plus
+# processing markers (2048at48 / 1024 length, 5050 blend) and the constant 'ir'
+# token; they do not factor into real control axes -> single 'preset' axis.
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
   - dy
-  - cukiir2048at48
-  - cukijfir2048at48
-  - jf45irdy
-  - jf45ir1024dy
-  - jf45ir5050dy
+  - cuki_2048
+  - cuki_jf_2048
+  - jf45
+  - jf45_1024
+  - jf45_5050
 captures:
 - values:
-    voicing: dy
+    preset: dy
   file: ir/dy.wav
   output_gain_db: -43.8117294
 - values:
-    voicing: cukiir2048at48
+    preset: cuki_2048
   file: ir/cukiir2048at48.wav
   output_gain_db: -12.9839678
 - values:
-    voicing: cukijfir2048at48
+    preset: cuki_jf_2048
   file: ir/cukijfir2048at48.wav
   output_gain_db: -12.0466108
 - values:
-    voicing: jf45irdy
+    preset: jf45
   file: ir/jf45irdy.wav
   output_gain_db: -12.7273321
 - values:
-    voicing: jf45ir1024dy
+    preset: jf45_1024
   file: ir/jf45ir1024dy.wav
   output_gain_db: -9.2352161
 - values:
-    voicing: jf45ir5050dy
+    preset: jf45_5050
   file: ir/jf45ir5050dy.wav
   output_gain_db: -8.2905388

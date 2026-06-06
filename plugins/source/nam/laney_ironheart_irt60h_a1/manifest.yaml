@@ -1,3 +1,7 @@
+# Constant across all captures: lead channel (Ironheart Lead channel). The
+# fifth capture carries an explicit preamp knob set (bass 1.8 / mid 1 /
+# treble 2 / gain 10 / depth 60) distinct from the plain and boosted
+# preamps, exposed as boost: custom.
 manifest_version: 1
 id: nam_laney_ironheart_irt60h_a1
 display_name: Ironheart IRT60H

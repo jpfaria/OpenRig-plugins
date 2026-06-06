@@ -7,6 +7,9 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# constant across all captures: synergy, drect (the module identity, already in id)
+# mic tokens (sm57/sm58) appear only on the boosted captures and do not form a
+# clean axis (the unboosted capture has none); they are not modelled as an axis.
 parameters:
 - name: boost
   display_name: Boost

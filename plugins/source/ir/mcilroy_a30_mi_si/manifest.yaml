@@ -1,3 +1,8 @@
+# Grab-bag of IR variants of one A30 cab capture; tokens `mcilroy` and `96k`
+# (sample rate) are constant across all captures and dropped. The remaining
+# names mix IR tap length (8096/2048), processing flavors (bld/match/jf) and a
+# separate base take (new_a), which do not factor into real control axes, so a
+# single clean `preset` selector is used.
 manifest_version: 1
 id: ir_mcilroy_a30_mi_si
 display_name: A30 Mi Si
@@ -5,57 +10,57 @@ brand: mcilroy
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - mcilroy_96k_8096
-  - mcilroy_96k_8096_bld
-  - mcilroy_96k_8096_match
-  - mcilroy_96k_8096_jf_flavor
-  - mcilroy_96k_2048
-  - mcilroy_96k_2048_bld
-  - mcilroy_96k_2048_match1
-  - mcilroy_96k_2048_jf_flavor
-  - ir_mcilroy_a30_new_a_96k_8096
-  - ir_mcilroy_a30_new_a_96k_8096_match2
+  - '8096'
+  - 8096_bld
+  - 8096_match
+  - 8096_jf
+  - '2048'
+  - 2048_bld
+  - 2048_match1
+  - 2048_jf
+  - new_a_8096
+  - new_a_8096_match2
 captures:
 - values:
-    voicing: mcilroy_96k_8096
+    preset: '8096'
   file: ir/mcilroy_96k_8096.wav
   output_gain_db: -11.9914904
 - values:
-    voicing: mcilroy_96k_8096_bld
+    preset: 8096_bld
   file: ir/mcilroy_96k_8096_bld.wav
   output_gain_db: -6.3786855
 - values:
-    voicing: mcilroy_96k_8096_match
+    preset: 8096_match
   file: ir/mcilroy_96k_8096_match.wav
   output_gain_db: -5.8928947
 - values:
-    voicing: mcilroy_96k_8096_jf_flavor
+    preset: 8096_jf
   file: ir/mcilroy_96k_8096_jf_flavor.wav
   output_gain_db: -19.0870819
 - values:
-    voicing: mcilroy_96k_2048
+    preset: '2048'
   file: ir/mcilroy_96k_2048.wav
   output_gain_db: -10.0362301
 - values:
-    voicing: mcilroy_96k_2048_bld
+    preset: 2048_bld
   file: ir/mcilroy_96k_2048_bld.wav
   output_gain_db: -2.9516068
 - values:
-    voicing: mcilroy_96k_2048_match1
+    preset: 2048_match1
   file: ir/mcilroy_96k_2048_match1.wav
   output_gain_db: -0.4056887
 - values:
-    voicing: mcilroy_96k_2048_jf_flavor
+    preset: 2048_jf
   file: ir/mcilroy_96k_2048_jf_flavor.wav
   output_gain_db: -13.5727797
 - values:
-    voicing: ir_mcilroy_a30_new_a_96k_8096
+    preset: new_a_8096
   file: ir/ir_mcilroy_a30_new_a_96k_8096.wav
   output_gain_db: -10.4189072
 - values:
-    voicing: ir_mcilroy_a30_new_a_96k_8096_match2
+    preset: new_a_8096_match2
   file: ir/ir_mcilroy_a30_new_a_96k_8096_match2.wav
   output_gain_db: -6.2892523

@@ -9,6 +9,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/5475
+# Dropped constant token 'ds2' (the pedal, present on every capture).
+# 'turbo' on two mode-2 captures is redundant — mode 2 IS the DS-2 Turbo
+# voicing — so it is folded into mode and not a separate axis.
 parameters:
 - name: mode
   display_name: Mode
@@ -25,24 +28,24 @@ captures:
 - values:
     character: boost
     mode: 1
-  file: captures/147150c30537ff32_a2.nam
+  file: captures/ds2_1_boost_a2.nam
 - values:
     character: default
     mode: 1
-  file: captures/74482f287a548f5e_a2.nam
+  file: captures/ds2_1_default_a2.nam
 - values:
     character: max_dist
     mode: 1
-  file: captures/13183ee5f00fe749_a2.nam
+  file: captures/ds2_1_max_dist_a2.nam
 - values:
     character: boost
     mode: 2
-  file: captures/894f5d01b1a0beda_a2.nam
+  file: captures/ds2_2_boost_a2.nam
 - values:
     character: default
     mode: 2
-  file: captures/1c8bfdfe570baf29_a2.nam
+  file: captures/ds2_2_turbo_default_a2.nam
 - values:
     character: max_dist
     mode: 2
-  file: captures/8145f25c9a1b7351_a2.nam
+  file: captures/ds2_2_turbo_max_dist_a2.nam

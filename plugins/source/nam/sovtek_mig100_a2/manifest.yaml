@@ -8,6 +8,10 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/30054
+# Constant across all captures (dropped): "Sovtek Bassov Blues Boy Mig 100" (amp/brand name).
+# The three captures differ only by a trailing index (1/2/3) of the same amp — no
+# control axis is encoded in the names or the tone description, so they map to a
+# discrete voicing selector v1/v2/v3.
 parameters:
 - name: voicing
   display_name: Voicing
@@ -18,10 +22,10 @@ parameters:
 captures:
 - values:
     voicing: v1
-  file: captures/ojmzfxe6ptj_a2.nam
+  file: captures/sovtek_bassov_blues_boy_mig_100_1_a2.nam
 - values:
     voicing: v2
-  file: captures/g10cia9xsh_a2.nam
+  file: captures/sovtek_bassov_blues_boy_mig_100_2_a2.nam
 - values:
     voicing: v3
-  file: captures/wu22jef1vsb_a2.nam
+  file: captures/sovtek_bassov_blues_boy_mig_100_3_a2.nam

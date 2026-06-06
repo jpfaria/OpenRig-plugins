@@ -8,16 +8,18 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/39716
+# Constant across all captures (dropped): "Omega Granophyre" (the amp name).
+# The captures differ only by NAM training epoch count, mapped to a 'preset' axis.
 parameters:
-- name: model
-  display_name: Model
+- name: preset
+  display_name: Preset
   values:
-  - test
-  - final
+  - test_100ep
+  - final_2000ep
 captures:
 - values:
-    model: test
-  file: captures/o978slj7ote_a2.nam
+    preset: test_100ep
+  file: captures/omega_test_100ep_a2.nam
 - values:
-    model: final
-  file: captures/xpyopfwym5n_a2.nam
+    preset: final_2000ep
+  file: captures/omega_granophyre_2000ep_a2.nam

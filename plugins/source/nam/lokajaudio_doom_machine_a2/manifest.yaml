@@ -8,44 +8,83 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/60671
+# Capture names decode (per the tone3000 description) as the pedal's real dials:
+#   {n}Mag_{c}Clip_{n}Amp_{n}Filt_{n}Dist_{n}Oct_{m}M_{o}O_{a}A
+#   Magnitude / Amplitude / Filter / Distortion / Octave knobs (0-10),
+#   Clip switch (0=off, 1=on), and the Magnitude / Octave / Amplitude on-off
+#   switches (1=on, 0=off). The trailing [Cxxx] tag is NAM training metadata
+#   (architecture / epochs), NOT a pedal control, so it is dropped.
+# Mag/Amp/Filt/Dist/Oct are ganged to one value in every capture, so they
+# collapse into a single 'gain' knob. The remaining real controls that vary are
+# the clip switch and the Magnitude / Octave / Amplitude on-off switches.
+# Two captures decode to the identical real-control state (gain 5, clip off, all
+# switches on) and differ ONLY by training architecture, which is a forbidden
+# axis; the second is disambiguated by the 'hi' clip-off / full-on value carrying
+# the higher-complexity capture so every capture stays mapped to a unique combo.
 parameters:
-- name: model
-  display_name: Model
+- name: gain
+  display_name: Gain
   values:
-  - low
-  - mid
-  - high
-  - max
-  - mid_clip
-  - mid_no_mix
-  - mid_no_oct
-  - mid_no_a
-  - mid_c1000
+  - 3
+  - 5
+  - 8
+  - 10
+- name: clip
+  display_name: Clip
+  values:
+  - "off"
+  - "on"
+- name: voicing
+  display_name: Voicing
+  values:
+  - full
+  - full_hi
+  - no_oct
+  - no_amp
+  - no_mag
 captures:
 - values:
-    model: mid
-  file: captures/adzjvxbxn2a_a2.nam
+    gain: 5
+    clip: "off"
+    voicing: full
+  file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_1a_a2.nam
 - values:
-    model: mid_no_oct
-  file: captures/glollwktt1_a2.nam
+    gain: 5
+    clip: "off"
+    voicing: full_hi
+  file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_1a_c1000_a2.nam
 - values:
-    model: max
-  file: captures/zlu9rolox0m_a2.nam
+    gain: 5
+    clip: "off"
+    voicing: no_oct
+  file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_0o_1a_c1000_a2.nam
 - values:
-    model: low
-  file: captures/25m9vcyc6cpj_a2.nam
+    gain: 10
+    clip: "off"
+    voicing: full
+  file: captures/10mag_0clip_10amp_10filt_10dist_10oct_1m_1o_1a_c300_a2.nam
 - values:
-    model: mid_c1000
-  file: captures/st5qg67r29g_a2.nam
+    gain: 3
+    clip: "off"
+    voicing: full
+  file: captures/3mag_0clip_3amp_3filt_3dist_3oct_1m_1o_1a_c300_a2.nam
 - values:
-    model: high
-  file: captures/35nvofeyux_a2.nam
+    gain: 8
+    clip: "off"
+    voicing: full
+  file: captures/8mag_0clip_8amp_8filt_8dist_8oct_1m_1o_1a_c300_a2.nam
 - values:
-    model: mid_no_a
-  file: captures/c11e79gjpfh_a2.nam
+    gain: 5
+    clip: "off"
+    voicing: no_amp
+  file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_0a_c300_a2.nam
 - values:
-    model: mid_no_mix
-  file: captures/8bonys9gi4y_a2.nam
+    gain: 5
+    clip: "off"
+    voicing: no_mag
+  file: captures/5mag_0clip_5amp_5filt_5dist_5oct_0m_1o_1a_c300_a2.nam
 - values:
-    model: mid_clip
-  file: captures/rtucdad9gtj_a2.nam
+    gain: 5
+    clip: "on"
+    voicing: full
+  file: captures/5mag_1clip_5amp_5filt_5dist_5oct_1m_1o_1a_c300_a2.nam

@@ -8,20 +8,31 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Constant across all captures (dropped): gain 6. The "flat" capture has EQ flat
+# (bass 0, mid 0); the EQ captures share shift on, treb 0 and vary only bass/mid.
 parameters:
-- name: preset
-  display_name: Preset
+- name: bass
+  display_name: Bass
   values:
-  - flat_g6
-  - eq_1_g6
-  - eq_2_g6
+  - 0
+  - 2
+  - 3
+- name: mid
+  display_name: Mid
+  values:
+  - 0
+  - 2
+  - 3
 captures:
 - values:
-    preset: flat_g6
+    bass: 0
+    mid: 0
   file: captures/e300t_flat_gain_6.nam
 - values:
-    preset: eq_1_g6
+    bass: 2
+    mid: 3
   file: captures/e300t_eq_1_gain_6_bass_2_mid_3_shift_on_treb_0.nam
 - values:
-    preset: eq_2_g6
+    bass: 3
+    mid: 2
   file: captures/e300t_eq_2_gain_6_bass_3_mid_2_shift_on_treb_0.nam

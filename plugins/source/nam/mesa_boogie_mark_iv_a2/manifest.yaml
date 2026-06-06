@@ -9,23 +9,24 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/65923
+# Constant across all captures (Mark Morton settings, Lead channel, EQ on): mark_iv, m_morton, lead_ch, eq.
 parameters:
-- name: eq
-  display_name: EQ
+- name: mode
+  display_name: Mode
   values:
   - midgain
   - harmonics
 - name: boost
   display_name: Boost
   values:
-  - clean
+  - none
   - ts808
 captures:
 - values:
-    boost: clean
-    eq: midgain
-  file: captures/gnutapz7ye_a2.nam
+    mode: midgain
+    boost: none
+  file: captures/midgain_a2.nam
 - values:
+    mode: harmonics
     boost: ts808
-    eq: harmonics
-  file: captures/ab9i2j1fz1w_a2.nam
+  file: captures/harmonics_ts808_a2.nam

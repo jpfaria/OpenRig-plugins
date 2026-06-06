@@ -1,3 +1,6 @@
+# Constant across all captures (dropped): bourgeois jomc knk (brand/model/pickup), 44100 (sample rate).
+# The captures are IR-match variants of the same body IR; they do not factor into a real
+# amp/preamp control axis, so they map to a single clean 'preset' axis.
 manifest_version: 1
 id: ir_ar_bourgeois_jomc_knk
 display_name: Bourgeois JOMC K&K
@@ -5,22 +8,22 @@ brand: bourgeois
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - bourgeois_jomc_knk_44100
-  - bourgeois_jomc_knk_44100_match1
-  - bourgeois_jomc_knk_44100_match2
+  - base
+  - match_1
+  - match_2
 captures:
 - values:
-    voicing: bourgeois_jomc_knk_44100
+    preset: base
   file: ir/bourgeois_jomc_knk_44100.wav
   output_gain_db: -29.7897911
 - values:
-    voicing: bourgeois_jomc_knk_44100_match1
+    preset: match_1
   file: ir/bourgeois_jomc_knk_44100_match1.wav
   output_gain_db: -24.5162811
 - values:
-    voicing: bourgeois_jomc_knk_44100_match2
+    preset: match_2
   file: ir/bourgeois_jomc_knk_44100_match2.wav
   output_gain_db: -25.1547546

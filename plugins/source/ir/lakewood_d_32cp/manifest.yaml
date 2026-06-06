@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): lakewood_d_32cp, 48000 (plugin slug + sample rate).
 manifest_version: 1
 id: ir_lakewood_d_32cp
 display_name: D-32 CP
@@ -5,27 +6,27 @@ brand: lakewood
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - lakewood_d_32cp_48000
-  - lakewood_d_32cp_48000_bld
-  - lakewood_d_32cp_48000_jf_flavor
-  - lakewood_d_32cp_48000_match
+  - raw
+  - bld
+  - jf_flavor
+  - match
 captures:
 - values:
-    voicing: lakewood_d_32cp_48000
+    preset: raw
   file: ir/lakewood_d_32cp_48000.wav
   output_gain_db: -14.0674744
 - values:
-    voicing: lakewood_d_32cp_48000_bld
+    preset: bld
   file: ir/lakewood_d_32cp_48000_bld.wav
   output_gain_db: -7.9877486
 - values:
-    voicing: lakewood_d_32cp_48000_jf_flavor
+    preset: jf_flavor
   file: ir/lakewood_d_32cp_48000_jf_flavor.wav
   output_gain_db: -16.0028210
 - values:
-    voicing: lakewood_d_32cp_48000_match
+    preset: match
   file: ir/lakewood_d_32cp_48000_match.wav
   output_gain_db: -13.2055855

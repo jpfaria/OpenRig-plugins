@@ -7,16 +7,17 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# Dropped constant across all captures: pedal model "ts808".
 parameters:
-- name: character
-  display_name: Character
+- name: drive
+  display_name: Drive
   values:
   - standard
   - driven
 captures:
 - values:
-    character: standard
+    drive: standard
   file: captures/ts808.nam
 - values:
-    character: driven
+    drive: driven
   file: captures/ts808_driven.nam

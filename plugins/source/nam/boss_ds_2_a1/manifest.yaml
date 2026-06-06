@@ -11,8 +11,8 @@ parameters:
 - name: mode
   display_name: Mode
   values:
-  - '1'
-  - '2'
+  - turbo_1
+  - turbo_2
 - name: character
   display_name: Character
   values:
@@ -21,26 +21,26 @@ parameters:
   - max_dist
 captures:
 - values:
+    mode: turbo_1
     character: boost
-    mode: '1'
   file: captures/ds2_1_boost.nam
 - values:
+    mode: turbo_1
     character: default
-    mode: '1'
   file: captures/ds2_1_default.nam
 - values:
+    mode: turbo_1
     character: max_dist
-    mode: '1'
   file: captures/ds2_1_max_dist.nam
 - values:
+    mode: turbo_2
     character: boost
-    mode: '2'
   file: captures/ds2_2_boost.nam
 - values:
+    mode: turbo_2
     character: default
-    mode: '2'
   file: captures/ds2_2_turbo_default.nam
 - values:
+    mode: turbo_2
     character: max_dist
-    mode: '2'
   file: captures/ds2_2_turbo_max_dist.nam

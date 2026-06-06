@@ -1,3 +1,6 @@
+# Constant across all captures: sadowsky_sbp_2_bass_preamp (brand/model/stage).
+# Varying token is a numbered preamp setting (01-05); the SBP-2 has continuous
+# knobs, so these are distinct captured settings, modeled as a 'preset' axis.
 manifest_version: 1
 id: nam_sadowsky_sbp_2_bass_a1
 display_name: Sadowsky SBP-2 Bass
@@ -7,27 +10,27 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
-  - '01'
-  - '02'
-  - '03'
-  - '04'
-  - '05'
+  - one
+  - two
+  - three
+  - four
+  - five
 captures:
 - values:
-    tone: '01'
+    preset: one
   file: captures/sadowsky_sbp_2_bass_preamp_01.nam
 - values:
-    tone: '02'
+    preset: two
   file: captures/sadowsky_sbp_2_bass_preamp_02.nam
 - values:
-    tone: '03'
+    preset: three
   file: captures/sadowsky_sbp_2_bass_preamp_03.nam
 - values:
-    tone: '04'
+    preset: four
   file: captures/sadowsky_sbp_2_bass_preamp_04.nam
 - values:
-    tone: '05'
+    preset: five
   file: captures/sadowsky_sbp_2_bass_preamp_05.nam

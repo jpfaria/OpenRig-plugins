@@ -1,3 +1,4 @@
+# Constant across all captures: reacteq (capture rig), bogner, ecstasy (the amp module itself).
 manifest_version: 1
 id: nam_synergy_bogner_ecstasy_a1
 display_name: Bogner Ecstasy Module
@@ -13,27 +14,27 @@ parameters:
   values:
   - blue
   - red
-- name: position
-  display_name: Position
+- name: gain
+  display_name: Gain
   values:
-  - '03'
-  - '07'
-  - '08'
-  - '09'
+  - 3
+  - 7
+  - 8
+  - 9
 captures:
 - values:
     channel: blue
-    position: '08'
+    gain: 8
   file: captures/reacteq_bogner_ecstasy_blue_08.nam
 - values:
     channel: red
-    position: '03'
+    gain: 3
   file: captures/reacteq_bogner_ecstasy_red_03.nam
 - values:
     channel: red
-    position: '07'
+    gain: 7
   file: captures/reacteq_bogner_ecstasy_red_07.nam
 - values:
     channel: red
-    position: '09'
+    gain: 9
   file: captures/reacteq_bogner_ecstasy_red_09.nam

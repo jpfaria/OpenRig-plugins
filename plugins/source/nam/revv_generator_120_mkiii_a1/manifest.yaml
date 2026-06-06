@@ -1,3 +1,5 @@
+# Single capture — all settings constant: channel 3 aggressive,
+# gain 15, treble/mid per t1330/m1130, bass 11, presence 13, depth 11.
 manifest_version: 1
 id: nam_revv_generator_120_mkiii_a1
 display_name: Revv Generator 120 MKIII
@@ -7,11 +9,11 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - ch3_aggressive
+  - default
 captures:
 - values:
-    preset: ch3_aggressive
+    default: default
   file: captures/revvg120_ch3a1_g15_t1330_m1130_b11_p13_d11.nam

@@ -7,16 +7,21 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Dropped constant (identical in every capture): the amp/brand slug "vox_ac30".
+# The two remaining captures are a grab-bag of distinct voicings that do not
+# decompose into shared knob axes (one is the plain AC30 cab/amp capture, the
+# other a clean Fender-65-Princeton-flavoured model), so they collapse to a
+# single 'preset' axis. 'clean_65prince' = clean '65 Princeton voicing.
 parameters:
-- name: character
-  display_name: Character
+- name: preset
+  display_name: Preset
   values:
   - standard
   - clean_65prince
 captures:
 - values:
-    character: standard
+    preset: standard
   file: captures/vox_ac30_cab.nam
 - values:
-    character: clean_65prince
+    preset: clean_65prince
   file: captures/vox_ac30_clean_65prince.nam

@@ -1,3 +1,4 @@
+# Dropped constant token: volume (v6 in every capture).
 manifest_version: 1
 id: nam_benson_preamp_a1
 display_name: Benson Preamp
@@ -7,12 +8,18 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: eq
-  display_name: EQ Profile
+- name: treble
+  display_name: Treble
   values:
-  - flat
-  - bright
-  - dark
+  - 4
+  - 6
+  - 9
+- name: bass
+  display_name: Bass
+  values:
+  - 3
+  - 6
+  - 8
 - name: drive
   display_name: Drive
   values:
@@ -21,38 +28,47 @@ parameters:
   - 9
 captures:
 - values:
+    treble: 6
+    bass: 6
     drive: 3
-    eq: flat
   file: captures/benson_preamp_01_t6b6d3v6.nam
 - values:
+    treble: 6
+    bass: 6
     drive: 6
-    eq: flat
   file: captures/benson_preamp_02_t6b6d6v6.nam
 - values:
+    treble: 6
+    bass: 6
     drive: 9
-    eq: flat
   file: captures/benson_preamp_03_t6b6d9v6.nam
 - values:
+    treble: 9
+    bass: 3
     drive: 3
-    eq: bright
   file: captures/benson_preamp_04_t9b3d3v6.nam
 - values:
+    treble: 9
+    bass: 3
     drive: 6
-    eq: bright
   file: captures/benson_preamp_05_t9b3d6v6.nam
 - values:
+    treble: 9
+    bass: 3
     drive: 9
-    eq: bright
   file: captures/benson_preamp_06_t9b3d9v6.nam
 - values:
+    treble: 4
+    bass: 8
     drive: 3
-    eq: dark
   file: captures/benson_preamp_07_t4b8d3v6.nam
 - values:
+    treble: 4
+    bass: 8
     drive: 6
-    eq: dark
   file: captures/benson_preamp_08_t4b8d6v6.nam
 - values:
+    treble: 4
+    bass: 8
     drive: 9
-    eq: dark
   file: captures/benson_preamp_09_t4b8d9v6.nam

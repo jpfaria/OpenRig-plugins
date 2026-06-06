@@ -1,3 +1,9 @@
+# Grab-bag of Bad Monkey boost settings plus the Bad Monkey driving other overdrives
+# (Klon, Fulltone, Glory, Noble ODR-1, TS10, Zen). Boost captures carry the pedal's own
+# dials in the filename: V10 (volume 10), B4/B7 (low), T6 (tone 6), G0/G4 (gain).
+# These do not factor into a single consistent knob grid, so a single `preset` axis is used.
+# The lite/standard suffix is NAM model size (training metadata), folded into the preset
+# label only to keep every capture mapped to a unique combo.
 manifest_version: 1
 id: nam_digitech_bad_monkey_a2
 display_name: DigiTech Bad Monkey
@@ -9,102 +15,87 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/696
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - boost1
-  - boost2
-  - boost3_g0
-  - boost3_g4
-  - fulltone
-  - glory
-  - klon
-  - noble_odr_1
-  - ts10
-  - zen
-- name: size
-  display_name: Model Size
-  values:
-  - lite
-  - standard
+  - boost1_g0_standard
+  - boost1_g0_lite
+  - boost2_g4_standard
+  - boost2_g4_lite
+  - boost3_g0_standard
+  - boost3_g0_lite
+  - boost3_g4_standard
+  - boost3_g4_lite
+  - fulltone_standard
+  - fulltone_lite
+  - glory_standard
+  - glory_lite
+  - klon_standard
+  - klon_lite
+  - noble_odr_1_standard
+  - noble_odr_1_lite
+  - ts10_standard
+  - ts10_lite
+  - zen_standard
+  - zen_lite
 captures:
 - values:
-    size: lite
-    voicing: boost2
-  file: captures/ebc4b8974a0f3b9d_a2.nam
+    preset: boost2_g4_standard
+  file: captures/boost2_v10_b4_t6_g4_standard_a2.nam
 - values:
-    size: lite
-    voicing: boost1
-  file: captures/7d193c4d2da8c4d3_a2.nam
+    preset: boost1_g0_standard
+  file: captures/boost1_v10_b4_t6_g0_standard_a2.nam
 - values:
-    size: lite
-    voicing: klon
-  file: captures/470b4ddffaab6e39_a2.nam
+    preset: zen_standard
+  file: captures/zen_standard_a2.nam
 - values:
-    size: standard
-    voicing: zen
-  file: captures/28a8018a3b951b56_a2.nam
+    preset: glory_standard
+  file: captures/glory_standard_a2.nam
 - values:
-    size: standard
-    voicing: boost3_g4
-  file: captures/4b97ee6b6f7a9450_a2.nam
+    preset: klon_lite
+  file: captures/klon_lite_a2.nam
 - values:
-    size: standard
-    voicing: klon
-  file: captures/e3255fa1d92a874e_a2.nam
+    preset: boost3_g4_standard
+  file: captures/boost3_v10_b7_t6_g4_standard_a2.nam
 - values:
-    size: lite
-    voicing: noble_odr_1
-  file: captures/fc8d9485d9bd7bda_a2.nam
+    preset: ts10_standard
+  file: captures/ts10_standard_a2.nam
 - values:
-    size: lite
-    voicing: boost3_g0
-  file: captures/a72c9c90cc01c351_a2.nam
+    preset: boost3_g0_standard
+  file: captures/boost3_v10_b7_t6_g0_standard_a2.nam
 - values:
-    size: standard
-    voicing: boost2
-  file: captures/032974b7872f2d2d_a2.nam
+    preset: fulltone_standard
+  file: captures/fulltone_standard_a2.nam
 - values:
-    size: lite
-    voicing: glory
-  file: captures/e749ef9779c190e1_a2.nam
+    preset: boost1_g0_lite
+  file: captures/boost1_v10_b4_t6_g0_lite_a2.nam
 - values:
-    size: lite
-    voicing: ts10
-  file: captures/ac5185f6d4d2edc6_a2.nam
+    preset: boost3_g4_lite
+  file: captures/boost3_v10_b7_t6_g4_lite_a2.nam
 - values:
-    size: standard
-    voicing: noble_odr_1
-  file: captures/e780efeaee469afd_a2.nam
+    preset: boost3_g0_lite
+  file: captures/boost3_v10_b7_t6_g0_lite_a2.nam
 - values:
-    size: lite
-    voicing: fulltone
-  file: captures/d0d4e4e1d65af46b_a2.nam
+    preset: ts10_lite
+  file: captures/ts10_lite_a2.nam
 - values:
-    size: lite
-    voicing: boost3_g4
-  file: captures/82468d8a2261a5f5_a2.nam
+    preset: fulltone_lite
+  file: captures/fulltone_lite_a2.nam
 - values:
-    size: standard
-    voicing: ts10
-  file: captures/618d8974ea99470f_a2.nam
+    preset: klon_standard
+  file: captures/klon_standard_a2.nam
 - values:
-    size: standard
-    voicing: boost3_g0
-  file: captures/6263d1bc91092b09_a2.nam
+    preset: zen_lite
+  file: captures/zen_lite_a2.nam
 - values:
-    size: lite
-    voicing: zen
-  file: captures/e5074d6281942e0d_a2.nam
+    preset: glory_lite
+  file: captures/glory_lite_a2.nam
 - values:
-    size: standard
-    voicing: fulltone
-  file: captures/65cec7d6528a4e74_a2.nam
+    preset: noble_odr_1_standard
+  file: captures/noble_odr_1_standard_a2.nam
 - values:
-    size: standard
-    voicing: boost1
-  file: captures/205d9d836991556b_a2.nam
+    preset: boost2_g4_lite
+  file: captures/boost2_v10_b4_t6_g4_lite_a2.nam
 - values:
-    size: standard
-    voicing: glory
-  file: captures/2cf15fb867832013_a2.nam
+    preset: noble_odr_1_lite
+  file: captures/noble_odr_1_lite_a2.nam

@@ -1,3 +1,4 @@
+# Dropped constants: sample rate 44100 (identical in every capture).
 manifest_version: 1
 id: ir_alvarez_abt60_baritone
 display_name: ABT60 Baritone
@@ -5,37 +6,45 @@ brand: alvarez
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: mic
+  display_name: Mic
   values:
-  - ir_alvarez_abt_60_baritone_sm44100
-  - ir_alvarez_abt_60_baritone_sm44100_match1
-  - ir_alvarez_abt_60_baritone_sm44100_match2
-  - ir_alvarez_abt_60_baritone_bb44100
-  - ir_alvarez_abt_60_baritone_bb44100_match1
-  - ir_alvarez_abt_60_baritone_bb44100_match2
+  - sm
+  - bb
+- name: match
+  display_name: Match
+  values:
+  - raw
+  - match1
+  - match2
 captures:
 - values:
-    voicing: ir_alvarez_abt_60_baritone_sm44100
+    mic: sm
+    match: raw
   file: ir/ir_alvarez_abt_60_baritone_sm44100.wav
   output_gain_db: -17.2175179
 - values:
-    voicing: ir_alvarez_abt_60_baritone_sm44100_match1
+    mic: sm
+    match: match1
   file: ir/ir_alvarez_abt_60_baritone_sm44100_match1.wav
   output_gain_db: -19.3676472
 - values:
-    voicing: ir_alvarez_abt_60_baritone_sm44100_match2
+    mic: sm
+    match: match2
   file: ir/ir_alvarez_abt_60_baritone_sm44100_match2.wav
   output_gain_db: -18.9727001
 - values:
-    voicing: ir_alvarez_abt_60_baritone_bb44100
+    mic: bb
+    match: raw
   file: ir/ir_alvarez_abt_60_baritone_bb44100.wav
   output_gain_db: -28.3970127
 - values:
-    voicing: ir_alvarez_abt_60_baritone_bb44100_match1
+    mic: bb
+    match: match1
   file: ir/ir_alvarez_abt_60_baritone_bb44100_match1.wav
   output_gain_db: -24.3658810
 - values:
-    voicing: ir_alvarez_abt_60_baritone_bb44100_match2
+    mic: bb
+    match: match2
   file: ir/ir_alvarez_abt_60_baritone_bb44100_match2.wav
   output_gain_db: -24.1969585

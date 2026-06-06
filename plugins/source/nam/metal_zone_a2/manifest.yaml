@@ -9,80 +9,203 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/64957
+# Constant across all captures, omitted: "DRPS BOSS Metal Zone MT-2" (brand/profiler/model).
+# Knobs decode the MT-2 controls: low (L), high (H), mid level (M),
+# mid frequency (MF), and dist (DIST). The "Everything 12 o'clock"
+# capture is L5 H5 M5 MF5 DIST5. Two captures share the exact same
+# labeled settings (L6 H4 M6 MF5 DIST2.7) and no labeled control tells
+# them apart (same author, captured seconds apart); they are exposed as
+# two `preset` entries (a / b) so both ship as distinct profiles.
 parameters:
-- name: model
-  display_name: Model
+- name: low
+  display_name: Low
   values:
-  - v_mid_dist8
-  - scooped_lo_dist5
-  - mid6_dist3
-  - hi_mid_dist10
-  - bright_dist10
-  - mid6_dist10
-  - hi_mid_dist4
-  - bright_dist3
-  - noon
-  - mid6_dist3b
-  - mid6_dist5
-  - v_mid_dist10
-  - hi_mid_dist3
-  - bright_dist5
-  - mid6_dist6
-  - bright_dist8
-  - v_mid_dist3
-  - hi_mid_dist6
+  - 5
+  - 6
+  - 8
+  - 9
+- name: high
+  display_name: High
+  values:
+  - 3.8
+  - 4
+  - 5
+  - 7
+- name: mid
+  display_name: Mid
+  values:
+  - 4.8
+  - 5
+  - 6
+  - 7
+  - 10
+- name: mid_freq
+  display_name: Mid Freq
+  values:
+  - 0
+  - 5
+  - 5.5
+  - 7.8
+- name: dist
+  display_name: Dist
+  values:
+  - 2.7
+  - 3
+  - 4
+  - 4.9
+  - 5
+  - 6
+  - 7.8
+  - 8
+  - 10
+- name: preset
+  display_name: Preset
+  values:
+  - default
+  - a
+  - b
 captures:
 - values:
-    model: v_mid_dist8
-  file: captures/nsdvd2d8zvd_a2.nam
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 3
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist3_a2.nam
 - values:
-    model: scooped_lo_dist5
-  file: captures/6c00ozsm9lm_a2.nam
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 5
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist5_a2.nam
 - values:
-    model: mid6_dist3
-  file: captures/06xj8ox6zqnt_a2.nam
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 8
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist8_a2.nam
 - values:
-    model: hi_mid_dist10
-  file: captures/sshwik10dxc_a2.nam
+    low: 5
+    high: 5
+    mid: 5
+    mid_freq: 5
+    dist: 10
+    preset: default
+  file: captures/l5_h5_m5_mf5_dist10_a2.nam
 - values:
-    model: bright_dist10
-  file: captures/cw2u8iwwlcr_a2.nam
+    low: 6
+    high: 4
+    mid: 4.8
+    mid_freq: 0
+    dist: 5
+    preset: default
+  file: captures/l6_h4_m4_8_mf0_dist5_a2.nam
 - values:
-    model: mid6_dist10
-  file: captures/vhtaxlc4duk_a2.nam
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 2.7
+    preset: a
+  file: captures/l6_h4_m6_mf5_dist2_7_a_a2.nam
 - values:
-    model: hi_mid_dist4
-  file: captures/6lg0zlw1y2l_a2.nam
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 2.7
+    preset: b
+  file: captures/l6_h4_m6_mf5_dist2_7_b_a2.nam
 - values:
-    model: bright_dist3
-  file: captures/iqmy9w7x36r_a2.nam
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 4.9
+    preset: default
+  file: captures/l6_h4_m6_mf5_dist4_9_a2.nam
 - values:
-    model: noon
-  file: captures/ahr5v2l8ml8_a2.nam
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 6
+    preset: default
+  file: captures/l6_h4_m6_mf5_dist6_a2.nam
 - values:
-    model: mid6_dist3b
-  file: captures/2qj2tg6x6pu_a2.nam
+    low: 6
+    high: 4
+    mid: 6
+    mid_freq: 5
+    dist: 10
+    preset: default
+  file: captures/l6_h4_m6_mf5_dist10_a2.nam
 - values:
-    model: mid6_dist5
-  file: captures/n37iej0e0qp_a2.nam
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 3
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist3_a2.nam
 - values:
-    model: v_mid_dist10
-  file: captures/9qxm6rahl5_a2.nam
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 4
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist4_a2.nam
 - values:
-    model: hi_mid_dist3
-  file: captures/166zn2go2qa_a2.nam
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 6
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist6_a2.nam
 - values:
-    model: bright_dist5
-  file: captures/vi47t8atzag_a2.nam
+    low: 8
+    high: 3.8
+    mid: 10
+    mid_freq: 5.5
+    dist: 10
+    preset: default
+  file: captures/l8_h3_8_m10_mf5_5_dist10_a2.nam
 - values:
-    model: mid6_dist6
-  file: captures/tbf7tbiww0d_a2.nam
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 3
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist3_a2.nam
 - values:
-    model: bright_dist8
-  file: captures/gwlbdau2rl5_a2.nam
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 5
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist5_a2.nam
 - values:
-    model: v_mid_dist3
-  file: captures/1ik04dvrhczi_a2.nam
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 7.8
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist7_8_a2.nam
 - values:
-    model: hi_mid_dist6
-  file: captures/24tseba0wgu_a2.nam
+    low: 9
+    high: 7
+    mid: 7
+    mid_freq: 7.8
+    dist: 10
+    preset: default
+  file: captures/l9_h7_m7_mf7_8_dist10_a2.nam

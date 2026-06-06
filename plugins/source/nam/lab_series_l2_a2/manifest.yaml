@@ -1,3 +1,4 @@
+# Dropped constant token: amp model "LabSeries_L2" (identical in every capture).
 manifest_version: 1
 id: nam_lab_series_l2_a2
 display_name: L2
@@ -18,10 +19,10 @@ parameters:
 captures:
 - values:
     voicing: clean
-  file: captures/7500a8f57f53a65a_a2.nam
+  file: captures/lab_series_l2_clean_a2.nam
 - values:
     voicing: crunch
-  file: captures/a053ec844c0b1b8b_a2.nam
+  file: captures/lab_series_l2_crunch_a2.nam
 - values:
     voicing: od
-  file: captures/3c1dd407c823bdac_a2.nam
+  file: captures/lab_series_l2_od_a2.nam

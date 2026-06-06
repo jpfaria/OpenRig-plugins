@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): vh100r, channel_2, hi
 manifest_version: 1
 id: nam_laney_vh100r_a1
 display_name: VH100R
@@ -16,40 +17,40 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - g5
-  - g7
-  - g8
-  - g10
+  - 5
+  - 7
+  - 8
+  - 10
 captures:
 - values:
-    gain: g5
     voicing: neutral
+    gain: 5
   file: captures/vh100r_channel_2_hi_neutral_g5.nam
 - values:
-    gain: g7
     voicing: neutral
+    gain: 7
   file: captures/vh100r_channel_2_hi_neutral_g7.nam
 - values:
-    gain: g8
     voicing: neutral
+    gain: 8
   file: captures/vh100r_channel_2_hi_neutral_g8.nam
 - values:
-    gain: g8
     voicing: treble
+    gain: 8
   file: captures/vh100r_channel_2_hi_treble_g8.nam
 - values:
-    gain: g10
     voicing: treble
+    gain: 10
   file: captures/vh100r_channel_2_hi_treble_g10.nam
 - values:
-    gain: g7
     voicing: neutral_drive
+    gain: 7
   file: captures/vh100r_channel_2_hi_neutral_drive_g7.nam
 - values:
-    gain: g8
     voicing: neutral_drive
+    gain: 8
   file: captures/vh100r_channel_2_hi_neutral_drive_g8.nam
 - values:
-    gain: g10
     voicing: neutral_drive
+    gain: 10
   file: captures/vh100r_channel_2_hi_neutral_drive_g10.nam

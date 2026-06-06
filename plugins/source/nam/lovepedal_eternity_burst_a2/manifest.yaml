@@ -1,3 +1,4 @@
+# Single capture: Lovepedal Eternity Burst D4 T6 V5 (drive=4, tone=6, volume=5 — constants, dropped).
 manifest_version: 1
 id: nam_lovepedal_eternity_burst_a2
 display_name: Lovepedal Eternity Burst
@@ -9,11 +10,11 @@ type: gain_pedal
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: default
+  display_name: Default
   values:
-  - d4_t6_v5
+  - default
 captures:
 - values:
-    preset: d4_t6_v5
-  file: captures/2ueuf01io5t.nam
+    default: default
+  file: captures/lovepedal_eternity_burst_d4_t6_v5_a2.nam

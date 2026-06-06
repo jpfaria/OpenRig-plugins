@@ -1,3 +1,4 @@
+# Dropped constant (identical in every capture): "Boss Blues Driver BD-2"
 manifest_version: 1
 id: nam_blues_overdrive_bd_2_a1
 display_name: Blues Driver BD-2
@@ -10,7 +11,7 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: gain_percent
+- name: gain
   display_name: Gain
   values:
   - 25.0
@@ -18,11 +19,11 @@ parameters:
   - 75.0
 captures:
 - values:
-    gain_percent: 25.0
+    gain: 25.0
   file: captures/Boss Blues Driver BD-2 Gain 25percent.nam
 - values:
-    gain_percent: 50.0
+    gain: 50.0
   file: captures/Boss Blues Driver BD-2 Gain 50percent.nam
 - values:
-    gain_percent: 75.0
+    gain: 75.0
   file: captures/Boss Blues Driver BD-2 Gain 75percent.nam

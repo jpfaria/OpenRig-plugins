@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): EVH 5150III S 100W (EL34)
 manifest_version: 1
 id: nam_evh_5150iiis_el34_100w_a2
 display_name: 5150IIIS EL34 100W
@@ -18,10 +19,10 @@ parameters:
 captures:
 - values:
     channel: blue
-  file: captures/9rcl72tekkf_a2.nam
+  file: captures/evh_5150iii_s_100w_el34_ch_blue_a2.nam
 - values:
     channel: green
-  file: captures/p2smcaftynm_a2.nam
+  file: captures/evh_5150iii_s_100w_el34_ch_green_a2.nam
 - values:
     channel: red
-  file: captures/shn9trxwsqm_a2.nam
+  file: captures/evh_5150iii_s_100w_el34_ch_red_a2.nam

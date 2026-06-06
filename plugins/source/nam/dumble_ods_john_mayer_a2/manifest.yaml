@@ -11,6 +11,7 @@ output_gain_db: 2.0005760
 type: amp
 backend: nam
 architecture: A2
+# tone3000 names: "nam" (normal input) / "nam hiz" (high-impedance input). Only the input mode varies.
 parameters:
 - name: character
   display_name: Character
@@ -20,7 +21,7 @@ parameters:
 captures:
 - values:
     character: normal
-  file: captures/vob4fnulb2d.nam
+  file: captures/normal.nam
 - values:
     character: hiz
-  file: captures/1ii63hjo8ov.nam
+  file: captures/hiz.nam

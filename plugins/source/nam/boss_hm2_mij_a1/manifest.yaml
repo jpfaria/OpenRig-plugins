@@ -7,9 +7,10 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# constant across all captures (dropped): hm2_mij (the pedal itself)
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - swede
   - godflesh
@@ -19,20 +20,20 @@ parameters:
   - boost_che
 captures:
 - values:
-    tone: swede
+    preset: swede
   file: captures/hm2_mij_swede.nam
 - values:
-    tone: godflesh
+    preset: godflesh
   file: captures/hm2_mij_godflesh.nam
 - values:
-    tone: atg
+    preset: atg
   file: captures/hm2_mij_atg.nam
 - values:
-    tone: boost_sharp
+    preset: boost_sharp
   file: captures/hm2_mij_boost_sharp.nam
 - values:
-    tone: boost_blunt
+    preset: boost_blunt
   file: captures/hm2_mij_boost_blunt.nam
 - values:
-    tone: boost_che
+    preset: boost_che
   file: captures/hm2_mij_boost_che.nam

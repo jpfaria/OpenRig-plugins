@@ -9,13 +9,25 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/41002
+# Constant across all captures (omitted): brand/pedal id "Boss ODB-3".
+# Tone3000 names encode the five ODB-3 knobs in order: Level (L), Low EQ (L),
+# High EQ (H), Balance (B), Gain (G). All five vary across captures.
 parameters:
-- name: gain
-  display_name: Gain
+- name: level
+  display_name: Level
   values:
-  - 8.5
-  - 9
+  - 12
   - 14
+- name: low
+  display_name: Low
+  values:
+  - 12
+  - 17
+- name: high
+  display_name: High
+  values:
+  - 12
+  - 12.5
   - 17
 - name: balance
   display_name: Balance
@@ -23,20 +35,39 @@ parameters:
   - 8
   - 9
   - 17
+- name: gain
+  display_name: Gain
+  values:
+  - 8.5
+  - 9
+  - 14
+  - 17
 captures:
 - values:
+    level: 12
+    low: 12
+    high: 12.5
     balance: 8
     gain: 8.5
-  file: captures/m7dik2p61pa_a2.nam
+  file: captures/boss_odb3_l12_l12_h12_5_b8_g8_5_a2.nam
 - values:
+    level: 12
+    low: 12
+    high: 12
     balance: 8
     gain: 9
-  file: captures/mjpz8p0xtj_a2.nam
+  file: captures/boss_odb3_l12_l12_h12_b08_g09_a2.nam
 - values:
+    level: 14
+    low: 12
+    high: 12
     balance: 9
     gain: 14
-  file: captures/474sybi9lfi_a2.nam
+  file: captures/boss_odb3_l14_l12_h12_b09_g14_a2.nam
 - values:
+    level: 14
+    low: 17
+    high: 17
     balance: 17
     gain: 17
-  file: captures/enf3yqd3hn4_a2.nam
+  file: captures/boss_odb3_l14_l17_h17_b17_g17_a2.nam

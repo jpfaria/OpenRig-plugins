@@ -6,12 +6,13 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A1
+# Single capture. Constant across the (single) capture: cab=marshall_1960a_v30.
 parameters:
-- name: cab
-  display_name: Cab
+- name: default
+  display_name: Default
   values:
-  - marshall_1960a_v30
+  - default
 captures:
 - values:
-    cab: marshall_1960a_v30
+    default: default
   file: captures/bad_cat_lynx_cab_marshall_1960a_v30_4.nam

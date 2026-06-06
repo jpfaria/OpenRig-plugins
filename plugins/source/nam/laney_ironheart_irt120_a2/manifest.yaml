@@ -1,3 +1,4 @@
+# Dropped constant token across all captures: IRT120 (amp model, identical in every capture name).
 manifest_version: 1
 id: nam_laney_ironheart_irt120_a2
 display_name: Ironheart IRT120
@@ -21,19 +22,19 @@ parameters:
 captures:
 - values:
     preset: clean
-  file: captures/0jnj48gul2h9_a2.nam
+  file: captures/irt120_clean_a2.nam
 - values:
     preset: crunchy_red
-  file: captures/jp24dq0ls9_a2.nam
+  file: captures/irt120_crunchy_red_a2.nam
 - values:
     preset: modern_green
-  file: captures/hjfofulzq3q_a2.nam
+  file: captures/irt120_modern_green_a2.nam
 - values:
     preset: doom
-  file: captures/yztdtsvt1g_a2.nam
+  file: captures/irt120_doom_a2.nam
 - values:
     preset: growl_red
-  file: captures/45hq6an3uc3_a2.nam
+  file: captures/irt120_growl_red_a2.nam
 - values:
     preset: lead_red
-  file: captures/m1wqc1gzxyq_a2.nam
+  file: captures/irt120_lead_red_a2.nam

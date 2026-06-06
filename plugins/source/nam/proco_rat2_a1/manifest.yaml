@@ -1,3 +1,5 @@
+# 'rat2' pedal-slug token constant across all captures → dropped.
+# RAT 2 controls: Distortion (d) and Filter (f). 'max' = distortion fully cranked.
 manifest_version: 1
 id: nam_proco_rat2_a1
 display_name: RAT 2
@@ -7,23 +9,32 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: distortion
+  display_name: Distortion
   values:
-  - light
-  - medium
-  - heavy
+  - 9
+  - 11
+  - 13
   - max
+- name: filter
+  display_name: Filter
+  values:
+  - 12
+  - 13
 captures:
 - values:
-    tone: light
+    distortion: 9
+    filter: 12
   file: captures/rat2_d9_f12.nam
 - values:
-    tone: medium
+    distortion: 11
+    filter: 13
   file: captures/rat2_d11_f13.nam
 - values:
-    tone: heavy
+    distortion: 13
+    filter: 12
   file: captures/rat2_d13_f12.nam
 - values:
-    tone: max
+    distortion: max
+    filter: 12
   file: captures/rat2_max_f12.nam

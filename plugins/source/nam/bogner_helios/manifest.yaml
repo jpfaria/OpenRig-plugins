@@ -1,3 +1,5 @@
+# Constant across all captures (dropped): "Fig" (MattFig creator tag), "H-Lios" (the amp = Helios), "MG" (Marshall guitar cab).
+# Voicing and cab co-vary 1:1 across the two captures (70s plexi + 4x12, 80s hot + 2x12) — a grab-bag, not an orthogonal grid — so a single clean 'preset' axis.
 manifest_version: 1
 id: nam_bogner_helios
 display_name: Helios

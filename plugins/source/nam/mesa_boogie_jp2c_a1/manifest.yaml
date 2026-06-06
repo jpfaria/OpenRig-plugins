@@ -1,3 +1,4 @@
+# Constants dropped from all capture filenames: jp2c (model), marshall_full_rig, jp_is_out_of_tune
 manifest_version: 1
 id: nam_mesa_boogie_jp2c_a1
 display_name: JP2C
@@ -16,7 +17,7 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - off
+  - none
   - od808
 captures:
 - values:
@@ -28,6 +29,6 @@ captures:
     channel: red
   file: captures/jp2c_red_od808_marshall_full_rig_jp_is_out_of_tune.nam
 - values:
-    boost: off
+    boost: none
     channel: red
   file: captures/jp2c_red_marshall_full_rig_jp_is_out_of_tune.nam

@@ -1,3 +1,4 @@
+# Dropped constant token: "imperial" (model name, identical across all captures)
 manifest_version: 1
 id: nam_tone_king_imperial_preamp
 display_name: Imperial Preamp
@@ -17,40 +18,40 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - '3'
-  - '5'
-  - '7'
-  - '9'
+  - 3
+  - 5
+  - 7
+  - 9
 captures:
 - values:
     channel: clean
-    gain: '3'
+    gain: 3
   file: captures/ap_01_imperial_clean_g3.nam
 - values:
     channel: clean
-    gain: '5'
+    gain: 5
   file: captures/ap_02_imperial_clean_g5.nam
 - values:
     channel: clean
-    gain: '7'
+    gain: 7
   file: captures/ap_03_imperial_clean_g7.nam
 - values:
     channel: clean
-    gain: '9'
+    gain: 9
   file: captures/ap_04_imperial_clean_g9.nam
 - values:
     channel: lead
-    gain: '3'
+    gain: 3
   file: captures/ap_05_imperial_lead_g3.nam
 - values:
     channel: lead
-    gain: '5'
+    gain: 5
   file: captures/ap_06_imperial_lead_g5.nam
 - values:
     channel: lead
-    gain: '7'
+    gain: 7
   file: captures/ap_07_imperial_lead_g7.nam
 - values:
     channel: lead
-    gain: '9'
+    gain: 9
   file: captures/ap_08_imperial_lead_g9.nam

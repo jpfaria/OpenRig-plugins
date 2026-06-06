@@ -9,46 +9,41 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
+# Dropped constant across all captures: brand/amp slug "bogner_goldfinger".
+# The tone3000 description ("a collection of captures ... super gritty, nasty
+# amp") gives no dial settings; the models are a grab-bag of channel/gain
+# voicings plus EQ-trim and an old-version capture that do not factor into real
+# amp knobs. Collapsed to a single 'preset' axis, one value per capture.
 parameters:
-- name: gain
-  display_name: Gain
+- name: preset
+  display_name: Preset
   values:
   - clean
+  - clean_4db_10k
   - midgain
   - crunch
+  - crunch_old
   - higain
-- name: variant
-  display_name: Variant
-  values:
-  - default
-  - minus_4db
-  - old
+  - higain_4db_10k
 captures:
 - values:
-    gain: clean
-    variant: default
+    preset: clean
   file: captures/bogner_goldfinger_clean.nam
 - values:
-    gain: clean
-    variant: minus_4db
+    preset: clean_4db_10k
   file: captures/bogner_goldfinger_clean_4db_10k.nam
 - values:
-    gain: midgain
-    variant: default
+    preset: midgain
   file: captures/bogner_goldfinger_discusting_midgain.nam
 - values:
-    gain: crunch
-    variant: default
+    preset: crunch
   file: captures/bogner_goldfinger_crunch.nam
 - values:
-    gain: crunch
-    variant: old
+    preset: crunch_old
   file: captures/bogner_goldfinger_crunch_old_version_but_its_ok.nam
 - values:
-    gain: higain
-    variant: default
+    preset: higain
   file: captures/bogner_goldfinger_higain.nam
 - values:
-    gain: higain
-    variant: minus_4db
+    preset: higain_4db_10k
   file: captures/bogner_goldfinger_higain_4db_10k.nam

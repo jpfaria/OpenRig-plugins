@@ -9,6 +9,10 @@ output_gain_db: 0.0000000
 type: preamp
 backend: nam
 architecture: A2
+# Constant token dropped across all captures: "jmp" (the amp model itself). The
+# remaining names are distinct factory voicings (clean / crunch / rhythm tiers /
+# deftoned / od808 / creamy lead) that do not factor into shared numeric knob
+# axes, so they collapse into a single clean 'preset' selector.
 parameters:
 - name: preset
   display_name: Preset

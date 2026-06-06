@@ -1,3 +1,6 @@
+# Constant across all captures (dropped): pwfs (plywood, full scale) and ir.
+# Names are a grab-bag of IR-capture variants (creator initials, IR length,
+# sample rate, match passes) with no real control axis -> single 'preset' axis.
 manifest_version: 1
 id: ir_bc_rich_sonitone_2
 display_name: Sonitone 2
@@ -5,47 +8,47 @@ brand: bc-rich
 type: body
 backend: ir
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - bc_rich_plywood_sonitone_44100
-  - bc_rich_plywood_sonitone_44100_match1
-  - bc_rich_plywood_sonitone_44100_match2
-  - cukiirpwfs2048at48
-  - cukijfirpwfs2048at48
-  - jf45irpwfs
-  - jf45ir1024pwfs
-  - jf45ir5050pwfs
+  - sonitone_44100
+  - match1
+  - match2
+  - cuki_2048
+  - cuki_jf_2048
+  - jf45
+  - jf45_1024
+  - jf45_5050
 captures:
 - values:
-    voicing: bc_rich_plywood_sonitone_44100
+    preset: sonitone_44100
   file: ir/bc_rich_plywood_sonitone_44100.wav
   output_gain_db: -28.7011738
 - values:
-    voicing: bc_rich_plywood_sonitone_44100_match1
+    preset: match1
   file: ir/bc_rich_plywood_sonitone_44100_match1.wav
   output_gain_db: -22.3576851
 - values:
-    voicing: bc_rich_plywood_sonitone_44100_match2
+    preset: match2
   file: ir/bc_rich_plywood_sonitone_44100_match2.wav
   output_gain_db: -22.4913883
 - values:
-    voicing: cukiirpwfs2048at48
+    preset: cuki_2048
   file: ir/cukiirpwfs2048at48.wav
   output_gain_db: -24.2155514
 - values:
-    voicing: cukijfirpwfs2048at48
+    preset: cuki_jf_2048
   file: ir/cukijfirpwfs2048at48.wav
   output_gain_db: -15.0448046
 - values:
-    voicing: jf45irpwfs
+    preset: jf45
   file: ir/jf45irpwfs.wav
   output_gain_db: -8.1549644
 - values:
-    voicing: jf45ir1024pwfs
+    preset: jf45_1024
   file: ir/jf45ir1024pwfs.wav
   output_gain_db: -6.7307444
 - values:
-    voicing: jf45ir5050pwfs
+    preset: jf45_5050
   file: ir/jf45ir5050pwfs.wav
   output_gain_db: -3.5065877

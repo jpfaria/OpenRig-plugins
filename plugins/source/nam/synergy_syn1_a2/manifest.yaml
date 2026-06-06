@@ -1,3 +1,4 @@
+# Dropped constant across all captures: capturer "K.Kali".
 manifest_version: 1
 id: nam_synergy_syn1_a2
 display_name: SYN-1 Chassis
@@ -10,55 +11,43 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/54165
 parameters:
-- name: module
-  display_name: Module
-  values:
-  - syn20ir
-  - jcm800
-  - dzl_herbert
-  - evh5153s
 - name: preset
   display_name: Preset
   values:
-  - red
-  - red_v2
-  - green
-  - loomis
-  - more_gain
+  - syn20ir_red
+  - syn20ir_red_v2
+  - syn20ir_green
+  - syn20ir_loomis
+  - jcm800_red
+  - dzl_herbert_red
+  - dzl_herbert_more_gain
+  - dzl_herbert_green
+  - evh5153s_red
 captures:
 - values:
-    module: syn20ir
-    preset: red
-  file: captures/c5j9vc5xyal_a2.nam
+    preset: syn20ir_red
+  file: captures/syn20ir_k_kali_red_a2.nam
 - values:
-    module: syn20ir
-    preset: loomis
-  file: captures/uew1fned1io_a2.nam
+    preset: syn20ir_loomis
+  file: captures/syn20ir_k_kali_loomis_a2.nam
 - values:
-    module: jcm800
-    preset: red
-  file: captures/jgeeu8ndef_a2.nam
+    preset: syn20ir_green
+  file: captures/syn20ir_k_kali_green_a2.nam
 - values:
-    module: syn20ir
-    preset: green
-  file: captures/0r20977z08hc_a2.nam
+    preset: syn20ir_red_v2
+  file: captures/syn20ir_k_kali_red_v2_a2.nam
 - values:
-    module: syn20ir
-    preset: red_v2
-  file: captures/rtlyovba7aq_a2.nam
+    preset: jcm800_red
+  file: captures/jcm800_k_kali_red_a2.nam
 - values:
-    module: dzl_herbert
-    preset: red
-  file: captures/qxab1v7ullf_a2.nam
+    preset: dzl_herbert_red
+  file: captures/dzl_herbert_k_kali_red_a2.nam
 - values:
-    module: dzl_herbert
-    preset: more_gain
-  file: captures/7g5faia9vvx_a2.nam
+    preset: dzl_herbert_more_gain
+  file: captures/dzl_herbert_k_kali_more_gain_a2.nam
 - values:
-    module: dzl_herbert
-    preset: green
-  file: captures/ybvx4h86aj_a2.nam
+    preset: dzl_herbert_green
+  file: captures/dzl_herbert_k_kali_green_a2.nam
 - values:
-    module: evh5153s
-    preset: red
-  file: captures/70l6yail9v7_a2.nam
+    preset: evh5153s_red
+  file: captures/evh5153s_k_kali_red_a2.nam

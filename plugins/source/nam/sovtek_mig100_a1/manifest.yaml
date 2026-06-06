@@ -9,20 +9,24 @@ output_gain_db: 0.7574501
 type: preamp
 backend: nam
 architecture: A1
+# Constant across all captures (dropped): "Sovtek Bassov Blues Boy Mig 100".
+# Source (tone3000 30054) gives three sequential captures "1/2/3" described as
+# "from clean(ish) to slightly driven" — a clean->driven sweep, not labeled knob
+# values. Decoded as an ordered preset axis.
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: preset
+  display_name: Preset
   values:
-  - v1
-  - v2
-  - v3
+  - clean
+  - edge
+  - driven
 captures:
 - values:
-    voicing: v1
+    preset: clean
   file: captures/v1.nam
 - values:
-    voicing: v2
+    preset: edge
   file: captures/v2.nam
 - values:
-    voicing: v3
+    preset: driven
   file: captures/v3.nam

@@ -7,9 +7,10 @@ output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A1
+# constant across all captures (dropped): b7k
 parameters:
-- name: tone
-  display_name: Tone
+- name: preset
+  display_name: Preset
   values:
   - clean
   - hard_rock
@@ -18,17 +19,17 @@ parameters:
   - distortion
 captures:
 - values:
-    tone: clean
+    preset: clean
   file: captures/b7k_clean.nam
 - values:
-    tone: hard_rock
+    preset: hard_rock
   file: captures/b7k_hard_rock.nam
 - values:
-    tone: heavy
+    preset: heavy
   file: captures/b7k_heavy.nam
 - values:
-    tone: djent
+    preset: djent
   file: captures/b7k_djent.nam
 - values:
-    tone: distortion
+    preset: distortion
   file: captures/b7k_distortion.nam

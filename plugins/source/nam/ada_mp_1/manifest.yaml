@@ -1,3 +1,4 @@
+# Dropped constant: 3TM (tube-model / voicing setting) — identical in every capture.
 manifest_version: 1
 id: nam_ada_mp_1
 display_name: MP-1

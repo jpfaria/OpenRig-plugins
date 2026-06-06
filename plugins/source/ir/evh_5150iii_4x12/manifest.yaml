@@ -1,3 +1,4 @@
+# Constant tokens dropped from filenames (identical across all captures): g12, evh, 5150iii, 4x12, sm57 (mic), 0_0in (angle), 3 (suffix).
 manifest_version: 1
 id: ir_evh_5150iii_4x12
 display_name: 5150III 4x12 G12-EVH
@@ -17,10 +18,10 @@ parameters:
 - name: distance
   display_name: Distance
   values:
-  - '1.00'
-  - '1.50'
-  - '2.00'
-  - '2.25'
+  - 1.00
+  - 1.50
+  - 2.00
+  - 2.25
 - name: preamp
   display_name: Mic Preamp
   values:
@@ -29,49 +30,49 @@ parameters:
   - vp28
 captures:
 - values:
-    distance: '1.00'
+    distance: 1.00
     mic_position: ll
     preamp: cl7603
   file: ir/g12_evh_ll_5150iii_4x12_sm57_1_00in_0_0in_cl7603_3.wav
   output_gain_db: -21.1166611
 - values:
-    distance: '1.00'
+    distance: 1.00
     mic_position: ll
     preamp: oa30_cl7603
   file: ir/g12_evh_ll_5150iii_4x12_sm57_1_00in_0_0in_oa30_cl7603_3.wav
   output_gain_db: -21.8172474
 - values:
-    distance: '1.50'
+    distance: 1.50
     mic_position: ll
     preamp: vp28
   file: ir/g12_evh_ll_5150iii_4x12_sm57_1_50in_0_0in_vp28_3.wav
   output_gain_db: -21.6376743
 - values:
-    distance: '1.00'
+    distance: 1.00
     mic_position: lr
     preamp: oa30_cl7603
   file: ir/g12_evh_lr_5150iii_4x12_sm57_1_00in_0_0in_oa30_cl7603_3.wav
   output_gain_db: -21.8028030
 - values:
-    distance: '2.25'
+    distance: 2.25
     mic_position: lr
     preamp: vp28
   file: ir/g12_evh_lr_5150iii_4x12_sm57_2_25in_0_0in_vp28_3.wav
   output_gain_db: -23.2389412
 - values:
-    distance: '2.00'
+    distance: 2.00
     mic_position: ul
     preamp: oa30_cl7603
   file: ir/g12_evh_ul_5150iii_4x12_sm57_2_00in_0_0in_oa30_cl7603_3.wav
   output_gain_db: -23.3871555
 - values:
-    distance: '1.50'
+    distance: 1.50
     mic_position: ur
     preamp: vp28
   file: ir/g12_evh_ur_5150iii_4x12_sm57_1_50in_0_0in_vp28_3.wav
   output_gain_db: -18.7923279
 - values:
-    distance: '2.25'
+    distance: 2.25
     mic_position: ur
     preamp: vp28
   file: ir/g12_evh_ur_5150iii_4x12_sm57_2_25in_0_0in_vp28_3.wav

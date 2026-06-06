@@ -14,12 +14,6 @@ parameters:
   - 2.0
   - 5.0
   - 10.0
-- name: level
-  display_name: Level
-  values:
-  - 5.0
-  - 8.0
-  - 10.0
 - name: tone
   display_name: Tone
   values:
@@ -27,49 +21,55 @@ parameters:
   - 6.0
   - 8.0
   - 10.0
+- name: level
+  display_name: Level
+  values:
+  - 5.0
+  - 8.0
+  - 10.0
 captures:
 - values:
     drive: 0.0
-    level: 10.0
     tone: 5.0
+    level: 10.0
   file: captures/d_00_t_05_l_10.nam
 - values:
     drive: 0.0
-    level: 8.0
     tone: 6.0
+    level: 8.0
   file: captures/d_00_t_06_l_08.nam
 - values:
     drive: 0.0
-    level: 10.0
     tone: 8.0
+    level: 10.0
   file: captures/d_00_t_08_l_10.nam
 - values:
     drive: 0.0
-    level: 10.0
     tone: 10.0
+    level: 10.0
   file: captures/d_00_t_10_l_10.nam
 - values:
     drive: 2.0
-    level: 8.0
     tone: 8.0
+    level: 8.0
   file: captures/d_02_t_08_l_08.nam
 - values:
     drive: 2.0
-    level: 8.0
     tone: 10.0
+    level: 8.0
   file: captures/d_02_t_10_l_08.nam
 - values:
     drive: 5.0
-    level: 5.0
     tone: 8.0
+    level: 5.0
   file: captures/d_05_t_08_l_05.nam
 - values:
     drive: 5.0
-    level: 5.0
     tone: 10.0
+    level: 5.0
   file: captures/d_05_t_10_l_05.nam
 - values:
     drive: 10.0
-    level: 10.0
     tone: 10.0
+    level: 10.0
   file: captures/d_10_t_10_l_10.nam

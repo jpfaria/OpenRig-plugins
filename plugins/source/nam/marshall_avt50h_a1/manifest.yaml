@@ -1,3 +1,4 @@
+# Dropped constant: channel "hg" (high gain) — identical across all captures.
 manifest_version: 1
 id: nam_marshall_avt50h_a1
 display_name: AVT50H

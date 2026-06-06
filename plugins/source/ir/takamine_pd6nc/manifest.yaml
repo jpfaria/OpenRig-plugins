@@ -1,3 +1,4 @@
+# Constant tokens dropped from all capture names: takamine_pd6nc (brand+model), 44100 (sample rate).
 manifest_version: 1
 id: ir_takamine_pd6nc
 display_name: PD6NC
@@ -9,44 +10,53 @@ parameters:
 - name: voicing
   display_name: Voicing
   values:
-  - takamine_pd6nc_1_44100
-  - takamine_pd6nc_1_44100_bld
-  - takamine_pd6nc_1_44100_match
-  - takamine_pd6nc_1_44100_jf_flavor
-  - takamine_pd6nc_2_44100
-  - takamine_pd6nc_2_44100_bld
-  - takamine_pd6nc_2_44100_match
-  - takamine_pd6nc_2_44100_jf_flavor
+  - one
+  - two
+- name: flavor
+  display_name: Flavor
+  values:
+  - raw
+  - bld
+  - match
+  - jf_flavor
 captures:
 - values:
-    voicing: takamine_pd6nc_1_44100
+    voicing: one
+    flavor: raw
   file: ir/takamine_pd6nc_1_44100.wav
   output_gain_db: -32.2215958
 - values:
-    voicing: takamine_pd6nc_1_44100_bld
+    voicing: one
+    flavor: bld
   file: ir/takamine_pd6nc_1_44100_bld.wav
   output_gain_db: -32.1648254
 - values:
-    voicing: takamine_pd6nc_1_44100_match
+    voicing: one
+    flavor: match
   file: ir/takamine_pd6nc_1_44100_match.wav
   output_gain_db: -31.1329403
 - values:
-    voicing: takamine_pd6nc_1_44100_jf_flavor
+    voicing: one
+    flavor: jf_flavor
   file: ir/takamine_pd6nc_1_44100_jf_flavor.wav
   output_gain_db: -30.8542881
 - values:
-    voicing: takamine_pd6nc_2_44100
+    voicing: two
+    flavor: raw
   file: ir/takamine_pd6nc_2_44100.wav
   output_gain_db: -31.1944046
 - values:
-    voicing: takamine_pd6nc_2_44100_bld
+    voicing: two
+    flavor: bld
   file: ir/takamine_pd6nc_2_44100_bld.wav
   output_gain_db: -31.0488815
 - values:
-    voicing: takamine_pd6nc_2_44100_match
+    voicing: two
+    flavor: match
   file: ir/takamine_pd6nc_2_44100_match.wav
   output_gain_db: -28.4683704
 - values:
-    voicing: takamine_pd6nc_2_44100_jf_flavor
+    voicing: two
+    flavor: jf_flavor
   file: ir/takamine_pd6nc_2_44100_jf_flavor.wav
   output_gain_db: -25.3438644

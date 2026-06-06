@@ -1,3 +1,4 @@
+# Dropped constants (identical across all captures): slammin (capturer), fman/friedman (brand), ss (amp model), new, s (mic/take family suffix).
 manifest_version: 1
 id: nam_friedman_ss_100_v1_a2
 display_name: SS 100 V1
@@ -22,19 +23,19 @@ parameters:
 captures:
 - values:
     preset: magic7
-  file: captures/b52231c79be470f9_a2.nam
+  file: captures/slammin_fman_ss_magic7_new_s_a2.nam
 - values:
     preset: steve2
-  file: captures/57bc7cc546570f08_a2.nam
+  file: captures/slammin_fman_ss_steve2_new_s_a2.nam
 - values:
     preset: plexi
-  file: captures/8d6099343e68a2ec_a2.nam
+  file: captures/slammin_fman_ss_plexi_new_s_a2.nam
 - values:
     preset: sam
-  file: captures/a0f7b6bdd07cd79d_a2.nam
+  file: captures/slammin_fman_ss_sam_new_s_a2.nam
 - values:
     preset: steve
-  file: captures/15c4818b32ae6a49_a2.nam
+  file: captures/slammin_fman_ss_steve_new_s_a2.nam
 - values:
     preset: scoop
-  file: captures/6c418b527b7994d5_a2.nam
+  file: captures/slammin_fman_ss_scoop_new_s_a2.nam

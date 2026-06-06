@@ -1,3 +1,4 @@
+# Dropped constant across all captures: amp model "Blackstar_FLY"
 manifest_version: 1
 id: nam_blackstar_fly_a2
 display_name: Fly
@@ -19,10 +20,10 @@ parameters:
 captures:
 - values:
     voicing: clean
-  file: captures/b628bcf66e52b011_a2.nam
+  file: captures/blackstar_fly_clean_a2.nam
 - values:
     voicing: crunch
-  file: captures/8cd09564345bd7fe_a2.nam
+  file: captures/blackstar_fly_crunch_a2.nam
 - values:
     voicing: od
-  file: captures/658ee51406d554fc_a2.nam
+  file: captures/blackstar_fly_od_a2.nam

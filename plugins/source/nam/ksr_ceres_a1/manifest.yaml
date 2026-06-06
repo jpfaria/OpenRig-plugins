@@ -1,3 +1,5 @@
+# Dropped constants (identical across all captures): capture author "jason_z",
+# amp "ksr_ceres", and EQ setting "all_noon_eq" (all EQ knobs at noon).
 manifest_version: 1
 id: nam_ksr_ceres_a1
 display_name: KSR Ceres
@@ -7,15 +9,15 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: channel
+  display_name: Channel
   values:
-  - light_blue_channel_all_noon_eq
-  - purple_channel_all_noon_eq
+  - light_blue
+  - purple
 captures:
 - values:
-    tone: light_blue_channel_all_noon_eq
+    channel: light_blue
   file: captures/jason_z_ksr_ceres_light_blue_channel_all_noon_eq.nam
 - values:
-    tone: purple_channel_all_noon_eq
+    channel: purple
   file: captures/jason_z_ksr_ceres_purple_channel_all_noon_eq.nam

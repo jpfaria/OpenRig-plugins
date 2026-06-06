@@ -1,3 +1,4 @@
+# Constant across all captures (dropped): martin_omc_16e_48000 (the modelled body/preamp + 48 kHz rate)
 manifest_version: 1
 id: ir_martin_omc_16e_matrix_vte
 display_name: OMC-16E Matrix VTE

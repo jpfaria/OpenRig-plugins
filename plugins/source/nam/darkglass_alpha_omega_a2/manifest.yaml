@@ -35,281 +35,281 @@ parameters:
 captures:
 - values:
     channel: alpha
-    gain: 5
-    voicing: bite_growl
-  file: captures/6c4n65hgcrd_a2.nam
-- values:
-    channel: alpha
-    gain: 10
-    voicing: bite_growl
-  file: captures/vc312ya075a_a2.nam
-- values:
-    channel: omega
-    gain: 1
-    voicing: neutral
-  file: captures/4ay7w5vvorb_a2.nam
-- values:
-    channel: alpha
-    gain: 7
-    voicing: growl
-  file: captures/g7fq8m5z0yh_a2.nam
-- values:
-    channel: alpha
-    gain: 8
-    voicing: bite_growl
-  file: captures/bwi4gb5793b_a2.nam
-- values:
-    channel: alpha
-    gain: 7
-    voicing: bite_growl
-  file: captures/q719ps5ok3_a2.nam
-- values:
-    channel: alpha
-    gain: 3
-    voicing: neutral
-  file: captures/9j8k8lbhj3d_a2.nam
-- values:
-    channel: alpha
-    gain: 8
-    voicing: neutral
-  file: captures/mv4iq20tr_a2.nam
-- values:
-    channel: alpha
-    gain: 3
-    voicing: bite_growl
-  file: captures/z4twqd3xe0o_a2.nam
-- values:
-    channel: alpha
-    gain: 3
-    voicing: growl
-  file: captures/6jcpmqtz6be_a2.nam
-- values:
-    channel: omega
-    gain: 10
     voicing: bite
-  file: captures/a2d59brikc_a2.nam
-- values:
-    channel: alpha
-    gain: 10
-    voicing: growl
-  file: captures/6y0pwbv06g8_a2.nam
-- values:
-    channel: alpha
-    gain: 10
-    voicing: neutral
-  file: captures/82y930gnc7d_a2.nam
-- values:
-    channel: omega
-    gain: 10
-    voicing: growl
-  file: captures/9629odrqor_a2.nam
-- values:
-    channel: omega
-    gain: 8
-    voicing: bite
-  file: captures/yhs3kti6zk9_a2.nam
-- values:
-    channel: omega
-    gain: 1
-    voicing: bite
-  file: captures/v0hzafcrl1b_a2.nam
-- values:
-    channel: alpha
-    gain: 8
-    voicing: bite
-  file: captures/riv6gcsnka_a2.nam
-- values:
-    channel: alpha
     gain: 0
-    voicing: growl
-  file: captures/w52bgwvhg7m_a2.nam
+  file: captures/alpha_bite_g0_a2.nam
 - values:
-    channel: omega
-    gain: 8
-    voicing: growl
-  file: captures/346bajc2r6m_a2.nam
+    channel: alpha
+    voicing: bite
+    gain: 1
+  file: captures/alpha_bite_g1_a2.nam
 - values:
-    channel: omega
+    channel: alpha
+    voicing: bite
     gain: 3
-    voicing: bite_growl
-  file: captures/u0cwi4nhgt_a2.nam
+  file: captures/alpha_bite_g3_a2.nam
 - values:
-    channel: omega
+    channel: alpha
+    voicing: bite
+    gain: 5
+  file: captures/alpha_bite_g5_a2.nam
+- values:
+    channel: alpha
+    voicing: bite
+    gain: 7
+  file: captures/alpha_bite_g7_a2.nam
+- values:
+    channel: alpha
+    voicing: bite
+    gain: 8
+  file: captures/alpha_bite_g8_a2.nam
+- values:
+    channel: alpha
+    voicing: bite
     gain: 10
-    voicing: bite_growl
-  file: captures/reldg2dxqg_a2.nam
+  file: captures/alpha_bite_g10_a2.nam
 - values:
-    channel: omega
+    channel: alpha
+    voicing: growl
     gain: 0
-    voicing: neutral
-  file: captures/jddmfyywcam_a2.nam
-- values:
-    channel: omega
-    gain: 0
-    voicing: bite_growl
-  file: captures/m0wr9j8s2b_a2.nam
+  file: captures/alpha_growl_g0_a2.nam
 - values:
     channel: alpha
+    voicing: growl
     gain: 1
-    voicing: bite
-  file: captures/bkji9gr92h_a2.nam
+  file: captures/alpha_growl_g1_a2.nam
 - values:
     channel: alpha
-    gain: 1
     voicing: growl
-  file: captures/nz1p8f8t5z_a2.nam
-- values:
-    channel: omega
-    gain: 5
-    voicing: growl
-  file: captures/spljd5ytbn_a2.nam
-- values:
-    channel: omega
-    gain: 7
-    voicing: growl
-  file: captures/jjb4rzutcxf_a2.nam
-- values:
-    channel: omega
-    gain: 5
-    voicing: bite
-  file: captures/780564uwsix_a2.nam
-- values:
-    channel: omega
-    gain: 8
-    voicing: neutral
-  file: captures/wp6a9h8hg5p_a2.nam
-- values:
-    channel: omega
-    gain: 5
-    voicing: bite_growl
-  file: captures/2jfyuyrftv9_a2.nam
-- values:
-    channel: alpha
-    gain: 7
-    voicing: bite
-  file: captures/7824y06fml8_a2.nam
-- values:
-    channel: alpha
     gain: 3
-    voicing: bite
-  file: captures/4n6zolyi1ne_a2.nam
+  file: captures/alpha_growl_g3_a2.nam
 - values:
     channel: alpha
+    voicing: growl
+    gain: 5
+  file: captures/alpha_growl_g5_a2.nam
+- values:
+    channel: alpha
+    voicing: growl
+    gain: 7
+  file: captures/alpha_growl_g7_a2.nam
+- values:
+    channel: alpha
+    voicing: growl
+    gain: 8
+  file: captures/alpha_growl_g8_a2.nam
+- values:
+    channel: alpha
+    voicing: growl
     gain: 10
-    voicing: bite
-  file: captures/3f1mbsorc85_a2.nam
+  file: captures/alpha_growl_g10_a2.nam
 - values:
-    channel: omega
+    channel: alpha
+    voicing: neutral
+    gain: 0
+  file: captures/alpha_neutral_g0_a2.nam
+- values:
+    channel: alpha
+    voicing: neutral
     gain: 1
-    voicing: growl
-  file: captures/zgs3dlet7wn_a2.nam
+  file: captures/alpha_neutral_g1_a2.nam
 - values:
-    channel: omega
+    channel: alpha
+    voicing: neutral
+    gain: 3
+  file: captures/alpha_neutral_g3_a2.nam
+- values:
+    channel: alpha
+    voicing: neutral
+    gain: 5
+  file: captures/alpha_neutral_g5_a2.nam
+- values:
+    channel: alpha
+    voicing: neutral
+    gain: 7
+  file: captures/alpha_neutral_g7_a2.nam
+- values:
+    channel: alpha
+    voicing: neutral
+    gain: 8
+  file: captures/alpha_neutral_g8_a2.nam
+- values:
+    channel: alpha
+    voicing: neutral
     gain: 10
-    voicing: neutral
-  file: captures/h2ibcez9zms_a2.nam
+  file: captures/alpha_neutral_g10_a2.nam
 - values:
     channel: alpha
-    gain: 1
-    voicing: neutral
-  file: captures/et7401d1l9f_a2.nam
-- values:
-    channel: alpha
-    gain: 0
-    voicing: bite
-  file: captures/asnf10vqf0t_a2.nam
-- values:
-    channel: alpha
-    gain: 5
-    voicing: growl
-  file: captures/179079d9wns_a2.nam
-- values:
-    channel: omega
-    gain: 0
-    voicing: growl
-  file: captures/6oalmdaugll_a2.nam
-- values:
-    channel: omega
-    gain: 5
-    voicing: neutral
-  file: captures/waequ1k4b7a_a2.nam
-- values:
-    channel: alpha
-    gain: 5
-    voicing: bite
-  file: captures/uf50icwxdoo_a2.nam
-- values:
-    channel: alpha
-    gain: 1
     voicing: bite_growl
-  file: captures/sz25h0vms2_a2.nam
+    gain: 0
+  file: captures/alpha_bite_growl_g0_a2.nam
 - values:
-    channel: omega
+    channel: alpha
+    voicing: bite_growl
+    gain: 1
+  file: captures/alpha_bite_growl_g1_a2.nam
+- values:
+    channel: alpha
+    voicing: bite_growl
+    gain: 3
+  file: captures/alpha_bite_growl_g3_a2.nam
+- values:
+    channel: alpha
+    voicing: bite_growl
+    gain: 5
+  file: captures/alpha_bite_growl_g5_a2.nam
+- values:
+    channel: alpha
+    voicing: bite_growl
+    gain: 7
+  file: captures/alpha_bite_growl_g7_a2.nam
+- values:
+    channel: alpha
+    voicing: bite_growl
     gain: 8
+  file: captures/alpha_bite_growl_g8_a2.nam
+- values:
+    channel: alpha
     voicing: bite_growl
-  file: captures/6ug2wrdn2wp_a2.nam
+    gain: 10
+  file: captures/alpha_bite_growl_g10_a2.nam
 - values:
     channel: omega
-    gain: 7
-    voicing: bite_growl
-  file: captures/66oyw76038i_a2.nam
-- values:
-    channel: alpha
-    gain: 0
-    voicing: bite_growl
-  file: captures/qmgl7a5x2u_a2.nam
-- values:
-    channel: alpha
-    gain: 5
-    voicing: neutral
-  file: captures/wuukw30n7tk_a2.nam
-- values:
-    channel: alpha
-    gain: 0
-    voicing: neutral
-  file: captures/xl5woe9tre_a2.nam
-- values:
-    channel: alpha
-    gain: 7
-    voicing: neutral
-  file: captures/zkgo4ocao5_a2.nam
-- values:
-    channel: omega
-    gain: 3
-    voicing: neutral
-  file: captures/0aa99232ap6r_a2.nam
-- values:
-    channel: omega
-    gain: 3
     voicing: bite
-  file: captures/ivy7eljpdqc_a2.nam
-- values:
-    channel: alpha
-    gain: 8
-    voicing: growl
-  file: captures/kvq0q8rm1mg_a2.nam
+    gain: 0
+  file: captures/omega_bite_g0_a2.nam
 - values:
     channel: omega
-    gain: 7
-    voicing: neutral
-  file: captures/sjykhnm7go_a2.nam
-- values:
-    channel: omega
-    gain: 7
     voicing: bite
-  file: captures/2urwr6jnltb_a2.nam
-- values:
-    channel: omega
     gain: 1
-    voicing: bite_growl
-  file: captures/fip0l6srcx_a2.nam
+  file: captures/omega_bite_g1_a2.nam
 - values:
     channel: omega
-    gain: 3
-    voicing: growl
-  file: captures/x79e7ahxkgd_a2.nam
-- values:
-    channel: omega
-    gain: 0
     voicing: bite
-  file: captures/ucd3n4jmv59_a2.nam
+    gain: 3
+  file: captures/omega_bite_g3_a2.nam
+- values:
+    channel: omega
+    voicing: bite
+    gain: 5
+  file: captures/omega_bite_g5_a2.nam
+- values:
+    channel: omega
+    voicing: bite
+    gain: 7
+  file: captures/omega_bite_g7_a2.nam
+- values:
+    channel: omega
+    voicing: bite
+    gain: 8
+  file: captures/omega_bite_g8_a2.nam
+- values:
+    channel: omega
+    voicing: bite
+    gain: 10
+  file: captures/omega_bite_g10_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 0
+  file: captures/omega_growl_g0_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 1
+  file: captures/omega_growl_g1_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 3
+  file: captures/omega_growl_g3_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 5
+  file: captures/omega_growl_g5_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 7
+  file: captures/omega_growl_g7_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 8
+  file: captures/omega_growl_g8_a2.nam
+- values:
+    channel: omega
+    voicing: growl
+    gain: 10
+  file: captures/omega_growl_g10_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 0
+  file: captures/omega_neutral_g0_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 1
+  file: captures/omega_neutral_g1_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 3
+  file: captures/omega_neutral_g3_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 5
+  file: captures/omega_neutral_g5_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 7
+  file: captures/omega_neutral_g7_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 8
+  file: captures/omega_neutral_g8_a2.nam
+- values:
+    channel: omega
+    voicing: neutral
+    gain: 10
+  file: captures/omega_neutral_g10_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 0
+  file: captures/omega_bite_growl_g0_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 1
+  file: captures/omega_bite_growl_g1_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 3
+  file: captures/omega_bite_growl_g3_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 5
+  file: captures/omega_bite_growl_g5_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 7
+  file: captures/omega_bite_growl_g7_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 8
+  file: captures/omega_bite_growl_g8_a2.nam
+- values:
+    channel: omega
+    voicing: bite_growl
+    gain: 10
+  file: captures/omega_bite_growl_g10_a2.nam

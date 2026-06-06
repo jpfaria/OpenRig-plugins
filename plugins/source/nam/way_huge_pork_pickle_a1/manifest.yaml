@@ -11,7 +11,7 @@ parameters:
   display_name: Voice
   values:
   - pork
-  - brine
+  - pickle
 - name: drive
   display_name: Drive
   values:
@@ -21,66 +21,66 @@ parameters:
 - name: blend
   display_name: Clean Blend
   values:
-  - no
-  - with
+  - none
+  - blend
 captures:
 - values:
-    blend: no
-    drive: low
     voice: pork
+    drive: low
+    blend: none
   file: captures/pork_low_drive_no_blend.nam
 - values:
-    blend: with
-    drive: low
     voice: pork
+    drive: low
+    blend: blend
   file: captures/pork_low_drive_with_blend.nam
 - values:
-    blend: no
-    drive: mid
     voice: pork
+    drive: mid
+    blend: none
   file: captures/pork_mid_drive_no_blend.nam
 - values:
-    blend: with
-    drive: mid
     voice: pork
+    drive: mid
+    blend: blend
   file: captures/pork_mid_drive_with_blend.nam
 - values:
-    blend: no
-    drive: high
     voice: pork
+    drive: high
+    blend: none
   file: captures/pork_high_drive_no_blend.nam
 - values:
-    blend: with
-    drive: high
     voice: pork
+    drive: high
+    blend: blend
   file: captures/pork_high_drive_with_blend.nam
 - values:
-    blend: no
+    voice: pickle
     drive: low
-    voice: brine
+    blend: none
   file: captures/pickle_low_drive_no_blend.nam
 - values:
-    blend: with
+    voice: pickle
     drive: low
-    voice: brine
+    blend: blend
   file: captures/pickle_low_drive_with_blend.nam
 - values:
-    blend: no
+    voice: pickle
     drive: mid
-    voice: brine
+    blend: none
   file: captures/pickle_mid_drive_no_blend.nam
 - values:
-    blend: with
+    voice: pickle
     drive: mid
-    voice: brine
+    blend: blend
   file: captures/pickle_mid_drive_with_blend.nam
 - values:
-    blend: no
+    voice: pickle
     drive: high
-    voice: brine
+    blend: none
   file: captures/pickle_high_drive_no_blend.nam
 - values:
-    blend: with
+    voice: pickle
     drive: high
-    voice: brine
+    blend: blend
   file: captures/pickle_high_drive_with_blend.nam

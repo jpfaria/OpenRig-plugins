@@ -9,47 +9,100 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/48523
+# Capture names encode six dial settings left-to-right: Presence, Bass, Middle,
+# Treble, Volume I, Volume II. Presence/bass/middle/treble are swept together
+# (all 5 or all 10) but each real control gets its own axis (sparse grid).
 parameters:
-- name: eq
-  display_name: EQ
+- name: presence
+  display_name: Presence
   values:
   - 5
   - 10
-- name: volume
-  display_name: Volume
+- name: bass
+  display_name: Bass
   values:
-  - vol2
-  - vol5
-  - vol8
-  - vol10
-  - ch1
-  - ch2
+  - 5
+  - 10
+- name: middle
+  display_name: Middle
+  values:
+  - 5
+  - 10
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 10
+- name: volume1
+  display_name: Volume I
+  values:
+  - 0
+  - 2
+  - 5
+  - 8
+  - 10
+- name: volume2
+  display_name: Volume II
+  values:
+  - 0
+  - 2
+  - 5
+  - 8
+  - 10
 captures:
 - values:
-    eq: 10
-    volume: ch1
-  file: captures/216ht7nqpm5_a2.nam
+    presence: 10
+    bass: 10
+    middle: 10
+    treble: 10
+    volume1: 10
+    volume2: 0
+  file: captures/marshall_1987_10_10_10_10_10_00_a2.nam
 - values:
-    eq: 10
-    volume: vol10
-  file: captures/rfbn0xnevbm_a2.nam
+    presence: 10
+    bass: 10
+    middle: 10
+    treble: 10
+    volume1: 10
+    volume2: 10
+  file: captures/marshall_1987_10_10_10_10_10_10_a2.nam
 - values:
-    eq: 10
-    volume: ch2
-  file: captures/6pr0hj9del_a2.nam
+    presence: 10
+    bass: 10
+    middle: 10
+    treble: 10
+    volume1: 0
+    volume2: 10
+  file: captures/marshall_1987_10_10_10_10_00_10_a2.nam
 - values:
-    eq: 5
-    volume: vol2
-  file: captures/kn43nfloptf_a2.nam
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 2
+    volume2: 2
+  file: captures/marshall_1987_05_05_05_05_02_02_a2.nam
 - values:
-    eq: 5
-    volume: vol5
-  file: captures/ixan01ivld_a2.nam
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 5
+    volume2: 5
+  file: captures/marshall_1987_05_05_05_05_05_05_a2.nam
 - values:
-    eq: 5
-    volume: vol8
-  file: captures/flh4f5owr7s_a2.nam
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 8
+    volume2: 8
+  file: captures/marshall_1987_05_05_05_05_08_08_a2.nam
 - values:
-    eq: 5
-    volume: vol10
-  file: captures/jfjr4wy3zbn_a2.nam
+    presence: 5
+    bass: 5
+    middle: 5
+    treble: 5
+    volume1: 10
+    volume2: 10
+  file: captures/marshall_1987_05_05_05_05_10_10_a2.nam

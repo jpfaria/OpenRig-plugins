@@ -1,3 +1,4 @@
+# Single capture: "Fender Deluxe The Edge" (no varying controls) — one 'default' axis.
 manifest_version: 1
 id: nam_fender_tweed_deluxe_edge
 display_name: Fender Tweed Deluxe — The Edge
@@ -11,7 +12,11 @@ output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
-parameters: []
+parameters:
+- name: default
+  values:
+  - default
 captures:
-- values: {}
-  file: captures/lr9t60bjod.nam
+- values:
+    default: default
+  file: captures/fender_deluxe_the_edge.nam

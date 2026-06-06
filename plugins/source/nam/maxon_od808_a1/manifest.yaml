@@ -1,3 +1,4 @@
+# Constants across all captures (dropped from axes): od808 (pedal model).
 manifest_version: 1
 id: nam_maxon_od808_a1
 display_name: OD808 Overdrive
@@ -7,7 +8,7 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: drive_percent
+- name: drive
   display_name: Drive
   values:
   - 0.0
@@ -17,17 +18,17 @@ parameters:
   - 100.0
 captures:
 - values:
-    drive_percent: 0.0
+    drive: 0.0
   file: captures/od808_drive0.nam
 - values:
-    drive_percent: 25.0
+    drive: 25.0
   file: captures/od808_drive25.nam
 - values:
-    drive_percent: 50.0
+    drive: 50.0
   file: captures/od808_drive50.nam
 - values:
-    drive_percent: 75.0
+    drive: 75.0
   file: captures/od808_drive75.nam
 - values:
-    drive_percent: 100.0
+    drive: 100.0
   file: captures/od808_drive100.nam
