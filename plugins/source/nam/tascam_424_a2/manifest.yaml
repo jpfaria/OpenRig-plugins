@@ -15,7 +15,7 @@ parameters:
   - 7
   - 8
   - 9
-  - max
+  - 10
 - name: bass
   display_name: Bass
   values:
@@ -43,7 +43,7 @@ captures:
     high: 7
   file: captures/tascam_424_preamp_gain_8_bass_7_high_7_a2.nam
 - values:
-    gain: max
+    gain: 10
     bass: 5
     high: 5
   file: captures/tascam_424_preamp_gain_max_bass_5_high_5_a2.nam

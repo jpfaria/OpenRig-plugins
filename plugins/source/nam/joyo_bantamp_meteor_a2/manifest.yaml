@@ -22,7 +22,7 @@ parameters:
   - 11
   - 12
   - 12.5
-  - full
+  - 13
 captures:
 - values:
     gain: 1
@@ -52,5 +52,5 @@ captures:
     gain: 12.5
   file: captures/meteor_ii_gain_12_5_a2.nam
 - values:
-    gain: full
+    gain: 13
   file: captures/meteor_ii_gain_full_a2.nam

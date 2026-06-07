@@ -185,6 +185,16 @@ curl …/rest/v1/tones?id=eq.<id>&select=title,description
 curl …/rest/v1/models?tone_id=eq.<id>&select=name,model_url
 ```
 
+**A knob's value is always a NUMBER — decode the position.** A real knob
+(gain/drive/tone/level/…) must hold numeric values on the knob's own scale.
+Decode every position-as-word/clock/code: `noon`=5, `9_oclock`≈2.5,
+`3_oclock`≈7.5, fully-CW/`max` = the knob's TOP for THAT pedal (TS808 drive
+0–10 ⇒ `max`=10); clock×100 `Tone900`=9.0, `1030`=10.3; concatenated `555`=5/5/5;
+underscore-decimal `8_5`=8.5. **Never invent precision** — qualitative-only
+`low`/`mid`/`high` with no captured number stays a string enum (don't fabricate
+`low`=3); real switches (`off`/`on`, voicings, `di`/`full`) stay strings.
+Numbered hand-picked configs → one `preset` axis, not sparse EQ knobs.
+
 **Enforcement:** `scripts/param_gate.py` is the deterministic gate for this —
 it flags any non-control axis name, any value that is not in the
 filename+description, decimals written `N_M` (parse wrong), multi-knob enum
@@ -196,6 +206,7 @@ commit. Run it; RED is a defect, not an opinion. See the canonical
 ❌ name: epochs / take / flavor(on an amp) / model / variant   → not a control
 ❌ decoded only from the filename, ignored the description       → missed settings
 ❌ value 8_5 (parses as 85/string)                               → write 8.5
+❌ knob value `max` / `noon` / `9_oclock` / `900`               → decode to the number
 ✅ name ∈ real controls; values cross-checked against filename + description
 ```
 
