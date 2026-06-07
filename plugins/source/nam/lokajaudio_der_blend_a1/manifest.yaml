@@ -11,24 +11,24 @@ parameters:
 - name: character
   display_name: Character
   values:
-  - min
-  - mid
-  - high
-  - high_boost
-  - max
+  - 1
+  - 5
+  - 7
+  - 9
+  - 10
 captures:
 - values:
-    character: min
+    character: 1
   file: captures/der_blend_off.nam
 - values:
-    character: mid
+    character: 5
   file: captures/der_blend_mid.nam
 - values:
-    character: high
+    character: 7
   file: captures/der_blend_high.nam
 - values:
-    character: high_boost
+    character: 9
   file: captures/der_blend_high_boost.nam
 - values:
-    character: max
+    character: 10
   file: captures/der_blend_max.nam

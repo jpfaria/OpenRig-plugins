@@ -15,7 +15,7 @@ parameters:
   display_name: Level
   values:
   - 6
-  - max
+  - 10
 - name: drive
   display_name: Drive
   values:
@@ -29,7 +29,7 @@ parameters:
   - 7
   - 8
   - 9
-  - max
+  - 10
 - name: tone
   display_name: Tone
   values:
@@ -90,7 +90,7 @@ captures:
     tone: 1
   file: captures/ts808_hot_lvl6_od9_t1_a2.nam
 - values:
-    drive: max
+    drive: 10
     level: 6
     tone: 1
   file: captures/ts808_hot_lvl6_odmax_t1_a2.nam
@@ -145,7 +145,7 @@ captures:
     tone: 2
   file: captures/ts808_hot_lvl6_od9_t2_a2.nam
 - values:
-    drive: max
+    drive: 10
     level: 6
     tone: 2
   file: captures/ts808_hot_lvl6_odmax_t2_a2.nam
@@ -200,63 +200,63 @@ captures:
     tone: 3
   file: captures/ts808_hot_lvl6_od9_t3_a2.nam
 - values:
-    drive: max
+    drive: 10
     level: 6
     tone: 3
   file: captures/ts808_hot_lvl6_odmax_t3_a2.nam
 - values:
     drive: 0
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od0_t4_a2.nam
 - values:
     drive: 1
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od1_t4_a2.nam
 - values:
     drive: 2
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od2_t4_a2.nam
 - values:
     drive: 3
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od3_t4_a2.nam
 - values:
     drive: 4
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od4_t4_a2.nam
 - values:
     drive: 5
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od5_t4_a2.nam
 - values:
     drive: 6
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od6_t4_a2.nam
 - values:
     drive: 7
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od7_t4_a2.nam
 - values:
     drive: 8
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od8_t4_a2.nam
 - values:
     drive: 9
-    level: max
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_od9_t4_a2.nam
 - values:
-    drive: max
-    level: max
+    drive: 10
+    level: 10
     tone: 4
   file: captures/ts808_hot_lvlmax_odmax_t4_a2.nam
 - values:
