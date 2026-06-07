@@ -13,10 +13,10 @@ parameters:
 - name: dist
   display_name: Distortion
   values:
-  - p0900
-  - p1100
-  - p1300
-  - max
+  - 2
+  - 4
+  - 6
+  - 10
 - name: filter
   display_name: Filter
   values:
@@ -24,18 +24,18 @@ parameters:
   - 1300
 captures:
 - values:
-    dist: p0900
+    dist: 2
     filter: 1200
   file: captures/rat_dist_0900_filter_1200_a2.nam
 - values:
-    dist: p1100
+    dist: 4
     filter: 1300
   file: captures/rat_dist_1100_filter_1300_a2.nam
 - values:
-    dist: max
+    dist: 10
     filter: 1200
   file: captures/rat_dist_max_filter_1200_a2.nam
 - values:
-    dist: p1300
+    dist: 6
     filter: 1200
   file: captures/rat_dist_1300_filter_1200_a2.nam

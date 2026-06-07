@@ -13,28 +13,28 @@ parameters:
 - name: boost
   display_name: Boost
   values:
-  - 1200
-  - 1300
-  - 1400
-  - 1500
-  - 1600
-  - max
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
 captures:
 - values:
-    boost: 1200
+    boost: 5
   file: captures/boost_1200_a2.nam
 - values:
-    boost: 1300
+    boost: 6
   file: captures/boost_1300_a2.nam
 - values:
-    boost: 1400
+    boost: 7
   file: captures/boost_1400_a2.nam
 - values:
-    boost: 1500
+    boost: 8
   file: captures/boost_1500_a2.nam
 - values:
-    boost: 1600
+    boost: 9
   file: captures/boost_1600_a2.nam
 - values:
-    boost: max
+    boost: 10
   file: captures/boost_max_a2.nam

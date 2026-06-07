@@ -12,10 +12,10 @@ parameters:
 - name: distortion
   display_name: Distortion
   values:
-  - 9
-  - 11
-  - 13
-  - max
+  - 2
+  - 4
+  - 6
+  - 10
 - name: filter
   display_name: Filter
   values:
@@ -23,18 +23,18 @@ parameters:
   - 13
 captures:
 - values:
-    distortion: 9
+    distortion: 2
     filter: 12
   file: captures/rat2_d9_f12.nam
 - values:
-    distortion: 11
+    distortion: 4
     filter: 13
   file: captures/rat2_d11_f13.nam
 - values:
-    distortion: 13
+    distortion: 6
     filter: 12
   file: captures/rat2_d13_f12.nam
 - values:
-    distortion: max
+    distortion: 10
     filter: 12
   file: captures/rat2_max_f12.nam

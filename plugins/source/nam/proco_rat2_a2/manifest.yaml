@@ -13,10 +13,10 @@ parameters:
 - name: dist
   display_name: Distortion
   values:
-  - 9
-  - 11
-  - 13
-  - max
+  - 2
+  - 4
+  - 6
+  - 10
 - name: filter
   display_name: Filter
   values:
@@ -24,18 +24,18 @@ parameters:
   - 13
 captures:
 - values:
-    dist: 9
+    dist: 2
     filter: 12
   file: captures/st_rat_dist_0900_filter_1200_a2.nam
 - values:
-    dist: 11
+    dist: 4
     filter: 13
   file: captures/st_rat_dist_1100_filter_1300_a2.nam
 - values:
-    dist: max
+    dist: 10
     filter: 12
   file: captures/st_rat_dist_max_filter_1200_a2.nam
 - values:
-    dist: 13
+    dist: 6
     filter: 12
   file: captures/st_rat_dist_1300_filter_1200_a2.nam

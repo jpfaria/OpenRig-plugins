@@ -14,19 +14,19 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - 2.5
+  - 2
   - 5
-  - 7.5
+  - 8
   - 10
 captures:
 - values:
-    gain: 2.5
+    gain: 2
   file: captures/marshall_1959_slp_dookie_mod_ch1_gain_9_oclock_a2.nam
 - values:
     gain: 5
   file: captures/marshall_1959_slp_dookie_mod_ch1_gain_noon_a2.nam
 - values:
-    gain: 7.5
+    gain: 8
   file: captures/marshall_1959_slp_dookie_mod_ch1_gain_3_oclock_a2.nam
 - values:
     gain: 10
