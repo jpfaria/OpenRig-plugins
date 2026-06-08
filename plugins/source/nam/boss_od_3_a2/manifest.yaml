@@ -13,62 +13,62 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - none
-  - low
-  - mid
-  - hi
+  - 0
+  - 3
+  - 5
+  - 8
 - name: tone
   display_name: Tone
   values:
-  - low
-  - center
-  - high
+  - 3
+  - 5
+  - 8
 captures:
 - values:
-    drive: mid
-    tone: high
+    drive: 5
+    tone: 8
   file: captures/boss_od3_mid_drive_high_tone_a2.nam
 - values:
-    drive: low
-    tone: center
+    drive: 3
+    tone: 5
   file: captures/boss_od3_low_drive_center_tone_a2.nam
 - values:
-    drive: none
-    tone: high
+    drive: 0
+    tone: 8
   file: captures/boss_od3_no_drive_high_tone_a2.nam
 - values:
-    drive: none
-    tone: low
+    drive: 0
+    tone: 3
   file: captures/boss_od3_no_drive_low_tone_a2.nam
 - values:
-    drive: low
-    tone: high
+    drive: 3
+    tone: 8
   file: captures/boss_od3_low_drive_high_tone_a2.nam
 - values:
-    drive: mid
-    tone: low
+    drive: 5
+    tone: 3
   file: captures/boss_od3_mid_drive_low_tone_a2.nam
 - values:
-    drive: hi
-    tone: low
+    drive: 8
+    tone: 3
   file: captures/boss_od3_hi_drive_low_tone_a2.nam
 - values:
-    drive: low
-    tone: low
+    drive: 3
+    tone: 3
   file: captures/boss_od3_low_drive_low_tone_a2.nam
 - values:
-    drive: hi
-    tone: high
+    drive: 8
+    tone: 8
   file: captures/boss_od3_hi_drive_high_tone_a2.nam
 - values:
-    drive: mid
-    tone: center
+    drive: 5
+    tone: 5
   file: captures/boss_od3_mid_drive_center_tone_a2.nam
 - values:
-    drive: hi
-    tone: center
+    drive: 8
+    tone: 5
   file: captures/boss_od3_hi_drive_center_tone_a2.nam
 - values:
-    drive: none
-    tone: center
+    drive: 0
+    tone: 5
   file: captures/boss_od3_no_drive_center_tone_a2.nam

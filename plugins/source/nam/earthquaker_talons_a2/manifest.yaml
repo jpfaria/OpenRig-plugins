@@ -10,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/27713
 parameters:
-- name: tone
-  display_name: Tone
+- name: voicing
+  display_name: Voicing
   values:
   - flat
   - mid_boost
@@ -19,14 +19,14 @@ parameters:
   - trebel_boost
 captures:
 - values:
-    tone: flat
+    voicing: flat
   file: captures/talons_gain_5_flat_a2.nam
 - values:
-    tone: mid_boost
+    voicing: mid_boost
   file: captures/talons_gain_5_mid_boost_a2.nam
 - values:
-    tone: presence_boost
+    voicing: presence_boost
   file: captures/talons_gain_5_presence_boost_a2.nam
 - values:
-    tone: trebel_boost
+    voicing: trebel_boost
   file: captures/talons_gain_5_trebel_boost_a2.nam

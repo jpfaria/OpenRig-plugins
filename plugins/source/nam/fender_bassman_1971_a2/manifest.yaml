@@ -18,8 +18,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/6107
 parameters:
-- name: tone
-  display_name: Tone
+- name: voicing
+  display_name: Voicing
   values:
   - clean
   - bright_clean
@@ -70,145 +70,145 @@ parameters:
   - 10
 captures:
 - values:
-    tone: v1_pulled
+    voicing: v1_pulled
     volume: 10
     treble: 10
     bass: 10
   file: captures/v1_pulled_v10_t10_b10_a2.nam
 - values:
-    tone: mid_forward_clean
+    voicing: mid_forward_clean
     volume: 5
     treble: 8
     bass: 5
   file: captures/mid_forward_clean_wmxr_eq_v5_t8_b5_a2.nam
 - values:
-    tone: warm_clean
+    voicing: warm_clean
     volume: 5
     treble: 4
     bass: 3
   file: captures/warm_clean_v5_t4_b3_a2.nam
 - values:
-    tone: all_on_5_bright
+    voicing: all_on_5_bright
     volume: 10
     treble: 10
     bass: 10
   file: captures/all_on_5_bright_v10_t10_b10_a2.nam
 - values:
-    tone: sweet_spot
+    voicing: sweet_spot
     volume: 7
     treble: 8
     bass: 5
   file: captures/sweet_spot_v7_t8_b5_a2.nam
 - values:
-    tone: jumpered_v6t10
+    voicing: jumpered_v6t10
     volume: 6
     treble: 10
     bass: 1
   file: captures/norm_ch_v6_t10_b1_bright_jumpered_into_bass_ch_v8_t1_b10_a2.nam
 - values:
-    tone: fd2_low
+    voicing: fd2_low
     volume: 5
     treble: 8
     bass: 5
   file: captures/fd2_boosted_low_v5_t8_b5_a2.nam
 - values:
-    tone: v1_pulled_12ax7
+    voicing: v1_pulled_12ax7
     volume: 10
     treble: 10
     bass: 10
   file: captures/v1_pulled_12ax7_in_v4_v10_t10_b10_a2.nam
 - values:
-    tone: fd2_high
+    voicing: fd2_high
     volume: 5
     treble: 8
     bass: 3
   file: captures/fd2_boosted_high_v5_t8_b3_a2.nam
 - values:
-    tone: jumpered_v6t8
+    voicing: jumpered_v6t8
     volume: 6
     treble: 8
     bass: 1
   file: captures/norm_ch_v6_t8_b1_bright_jumpered_into_bass_ch_v8_t1_b8_a2.nam
 - values:
-    tone: ts9_ds1_boost
+    voicing: ts9_ds1_boost
     volume: 5
     treble: 8
     bass: 5
   file: captures/ts9_ds_1_boosted_a2.nam
 - values:
-    tone: bright_clean
+    voicing: bright_clean
     volume: 5
     treble: 4
     bass: 4
   file: captures/bright_clean_v5_t4_b4_a2.nam
 - values:
-    tone: clean
+    voicing: clean
     volume: 5
     treble: 8
     bass: 5
   file: captures/clean_v5_t8_b5_a2.nam
 - values:
-    tone: 80s_clean
+    voicing: 80s_clean
     volume: 5
     treble: 8
     bass: 5
   file: captures/80s_clean_v5_t8_b5_a2.nam
 - values:
-    tone: cranked_fd2
+    voicing: cranked_fd2
     volume: 10
     treble: 7
     bass: 4
   file: captures/cranked_and_fd2_boosted_v10_t7_b4_a2.nam
 - values:
-    tone: cranked
+    voicing: cranked
     volume: 10
     treble: 7
     bass: 4
   file: captures/cranked_v10_t7_b4_a2.nam
 - values:
-    tone: fd2_mid
+    voicing: fd2_mid
     volume: 5
     treble: 8
     bass: 4
   file: captures/fd2_boosted_mid_v5_t8_b4_a2.nam
 - values:
-    tone: big_clean
+    voicing: big_clean
     volume: 7
     treble: 5
     bass: 5
   file: captures/big_clean_v7_t5_b5_a2.nam
 - values:
-    tone: all_on_5_norm
+    voicing: all_on_5_norm
     volume: 10
     treble: 10
     bass: 10
   file: captures/all_on_5_norm_v10_t10_b10_a2.nam
 - values:
-    tone: all_on_10_norm
+    voicing: all_on_10_norm
     volume: 10
     treble: 10
     bass: 10
   file: captures/all_on_10_norm_v10_t10_b10_a2.nam
 - values:
-    tone: jumpered_alt
+    voicing: jumpered_alt
     volume: 6
     treble: 8
     bass: 1
   file: captures/jumpered_channels_norm_ch_v6_t8_b1_bright_into_bass_ch_v8_t1_b8_a2.nam
 - values:
-    tone: all_on_10_bright
+    voicing: all_on_10_bright
     volume: 10
     treble: 10
     bass: 10
   file: captures/all_on_10_bright_v10_t10_b10_a2.nam
 - values:
-    tone: warm_sweet_spot
+    voicing: warm_sweet_spot
     volume: 7
     treble: 4
     bass: 4
   file: captures/warm_sweet_spot_v7_t4_b4_a2.nam
 - values:
-    tone: warm_fuzz
+    voicing: warm_fuzz
     volume: 5
     treble: 4
     bass: 4

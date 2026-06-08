@@ -8,8 +8,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: voicing
+  display_name: Voicing
   values:
   - standard
   - ultra_lo
@@ -19,20 +19,20 @@ parameters:
   - scrambler_max
 captures:
 - values:
-    tone: standard
+    voicing: standard
   file: captures/scr_di_standard.nam
 - values:
-    tone: ultra_lo
+    voicing: ultra_lo
   file: captures/scr_di_ultra_lo.nam
 - values:
-    tone: ultra_hi
+    voicing: ultra_hi
   file: captures/scr_di_ultra_hi.nam
 - values:
-    tone: ultra_lo_hi
+    voicing: ultra_lo_hi
   file: captures/scr_di_ultra_lo_hi.nam
 - values:
-    tone: scrambler_med
+    voicing: scrambler_med
   file: captures/scr_di_scrambler_med.nam
 - values:
-    tone: scrambler_max
+    voicing: scrambler_max
   file: captures/scr_di_scrambler_max.nam

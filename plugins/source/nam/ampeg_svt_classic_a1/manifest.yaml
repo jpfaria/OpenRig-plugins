@@ -9,8 +9,8 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: voicing
+  display_name: Voicing
   values:
   - standard
   - ultra_hi
@@ -23,25 +23,25 @@ parameters:
 captures:
 - values:
     mic: md421
-    tone: standard
+    voicing: standard
   file: captures/ampeg_svt_md421.nam
 - values:
     mic: sm57
-    tone: standard
+    voicing: standard
   file: captures/ampeg_svt_sm57.nam
 - values:
     mic: md421
-    tone: ultra_hi
+    voicing: ultra_hi
   file: captures/ampeg_svt_ultra_hi_md421.nam
 - values:
     mic: sm57
-    tone: ultra_hi
+    voicing: ultra_hi
   file: captures/ampeg_svt_ultra_hi_sm57.nam
 - values:
     mic: md421
-    tone: ultra_lo
+    voicing: ultra_lo
   file: captures/ampeg_svt_ultra_lo_md421.nam
 - values:
     mic: sm57
-    tone: ultra_lo
+    voicing: ultra_lo
   file: captures/ampeg_svt_ultra_lo_sm57.nam

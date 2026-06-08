@@ -12,7 +12,9 @@ sources:
 # Constant token dropped from every capture: "E530" (the amp/plugin name).
 # Axes are the real ENGL E530 preamp controls: voicing (Vintage / Modern /
 # Clean — the "CR" clean is exposed as clean_cr), and the Boost and Contour
-# switches. Clean captures have no Boost/Contour variants → sparse grid.
+# switches. Contour is a push-button switch (engaged/disengaged), not a
+# rotary knob, so the axis is named `contour_mode` (a selector, not numeric).
+# Clean captures have no Boost/Contour variants → sparse grid.
 parameters:
 - name: voicing
   display_name: Voicing
@@ -26,7 +28,7 @@ parameters:
   values:
   - none
   - enabled
-- name: contour
+- name: contour_mode
   display_name: Contour
   values:
   - none
@@ -35,50 +37,50 @@ captures:
 - values:
     voicing: vintage
     boost: none
-    contour: none
+    contour_mode: none
   file: captures/vintage_no_boost_a2.nam
 - values:
     voicing: vintage
     boost: none
-    contour: enabled
+    contour_mode: enabled
   file: captures/vintage_no_boost_contour_a2.nam
 - values:
     voicing: vintage
     boost: enabled
-    contour: none
+    contour_mode: none
   file: captures/vintage_boost_a2.nam
 - values:
     voicing: vintage
     boost: enabled
-    contour: enabled
+    contour_mode: enabled
   file: captures/vintage_boost_contour_a2.nam
 - values:
     voicing: modern
     boost: none
-    contour: none
+    contour_mode: none
   file: captures/modern_no_boost_a2.nam
 - values:
     voicing: modern
     boost: none
-    contour: enabled
+    contour_mode: enabled
   file: captures/modern_no_boost_contour_a2.nam
 - values:
     voicing: modern
     boost: enabled
-    contour: none
+    contour_mode: none
   file: captures/modern_boost_a2.nam
 - values:
     voicing: modern
     boost: enabled
-    contour: enabled
+    contour_mode: enabled
   file: captures/modern_boost_contour_a2.nam
 - values:
     voicing: clean
     boost: none
-    contour: none
+    contour_mode: none
   file: captures/clean_a2.nam
 - values:
     voicing: clean_cr
     boost: none
-    contour: none
+    contour_mode: none
   file: captures/clean_cr_a2.nam

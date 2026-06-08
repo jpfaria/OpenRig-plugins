@@ -1,6 +1,6 @@
 # DI direct-out captures of a Supro 1695TJ Black Magick (tone3000 #64590).
 # Dropped constant present in every source name: 'DI Supro 1695TJ' (amp model + DI capture type).
-# vol1 'none' = Input 2 signal path, which does not engage Volume 1 (source name has no V1 token).
+# vol1 -1 (absent) = Input 2 signal path, which does not engage Volume 1 (source name has no V1 token).
 manifest_version: 1
 id: nam_supro_black_magick_a2
 display_name: Supro Black Magick
@@ -20,7 +20,7 @@ parameters:
 - name: volume1
   display_name: Volume 1
   values:
-  - none
+  - -1
   - 5
   - 7
   - 8
@@ -627,237 +627,237 @@ captures:
     input: in2
     speaker: srl
     tone: 10
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 3
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_3_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 5
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_5_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 5
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 7
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_7_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 8
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_8_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 8
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_8_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 9
-    volume1: none
+    volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_9_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 10
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 5
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_5_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 5
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 7
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_7_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 8
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_8_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 8
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_8_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 9
-    volume1: none
+    volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_9_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 10
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_10_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 3
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_3_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 4
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_4_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 5
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_5_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 5
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_5_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 6
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_6_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 7
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_7_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 7
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_7_srl_a2.nam
 - values:
     input: in2
     speaker: p12q
     tone: 8
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_8_p12q_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 8
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_8_srl_a2.nam
 - values:
     input: in2
     speaker: srl
     tone: 9
-    volume1: none
+    volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_9_srl_a2.nam

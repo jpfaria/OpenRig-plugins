@@ -12,11 +12,11 @@ parameters:
 - name: preset
   display_name: Preset
   values:
-  - '01'
-  - '02'
-  - '03'
-  - '04'
-  - '05'
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 - name: voltage
   display_name: Sag (Supply V)
   values:
@@ -25,62 +25,62 @@ parameters:
   - 12v
 captures:
 - values:
-    preset: '01'
+    preset: 1
     voltage: 7v
   file: captures/boss_tb_2w_01_7v.nam
 - values:
-    preset: '01'
+    preset: 1
     voltage: 9v
   file: captures/boss_tb_2w_01_9v.nam
 - values:
-    preset: '01'
+    preset: 1
     voltage: 12v
   file: captures/boss_tb_2w_01_12v.nam
 - values:
-    preset: '02'
+    preset: 2
     voltage: 7v
   file: captures/boss_tb_2w_02_7v.nam
 - values:
-    preset: '02'
+    preset: 2
     voltage: 9v
   file: captures/boss_tb_2w_02_9v.nam
 - values:
-    preset: '02'
+    preset: 2
     voltage: 12v
   file: captures/boss_tb_2w_02_12v.nam
 - values:
-    preset: '03'
+    preset: 3
     voltage: 7v
   file: captures/boss_tb_2w_03_7v.nam
 - values:
-    preset: '03'
+    preset: 3
     voltage: 9v
   file: captures/boss_tb_2w_03_9v.nam
 - values:
-    preset: '03'
+    preset: 3
     voltage: 12v
   file: captures/boss_tb_2w_03_12v.nam
 - values:
-    preset: '04'
+    preset: 4
     voltage: 7v
   file: captures/boss_tb_2w_04_7v.nam
 - values:
-    preset: '04'
+    preset: 4
     voltage: 9v
   file: captures/boss_tb_2w_04_9v.nam
 - values:
-    preset: '04'
+    preset: 4
     voltage: 12v
   file: captures/boss_tb_2w_04_12v.nam
 - values:
-    preset: '05'
+    preset: 5
     voltage: 7v
   file: captures/boss_tb_2w_05_7v.nam
 - values:
-    preset: '05'
+    preset: 5
     voltage: 9v
   file: captures/boss_tb_2w_05_9v.nam
 - values:
-    preset: '05'
+    preset: 5
     voltage: 12v
   file: captures/boss_tb_2w_05_12v.nam

@@ -16,19 +16,19 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - 300
-  - 500
-  - 700
-  - 900
-  - 1200
+  - 3
+  - 5
+  - 7
+  - 9
+  - 12
 - name: drive
   display_name: Drive
   values:
-  - 300
-  - 500
-  - 700
-  - 900
-  - 1200
+  - 3
+  - 5
+  - 7
+  - 9
+  - 12
 - name: voicing
   display_name: Voicing
   values:
@@ -43,884 +43,884 @@ parameters:
   - c
 captures:
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_comp_.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_comp__1.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_comp__2.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_flat_.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_flat__1.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_flat__2.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_vinta.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_vinta_1.nam
 - values:
-    tone: 300
-    drive: 300
+    tone: 3
+    drive: 3
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_300_vinta_2.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_comp_.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_comp__1.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_comp__2.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_flat_.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_flat__1.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_flat__2.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_vinta.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_vinta_1.nam
 - values:
-    tone: 300
-    drive: 500
+    tone: 3
+    drive: 5
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_500_vinta_2.nam
 - values:
-    tone: 300
-    drive: 700
+    tone: 3
+    drive: 7
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_700_comp_.nam
 - values:
-    tone: 300
-    drive: 700
+    tone: 3
+    drive: 7
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_700_flat_.nam
 - values:
-    tone: 300
-    drive: 700
+    tone: 3
+    drive: 7
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_700_vinta.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_comp_.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_comp__1.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_comp__2.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_flat_.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_flat__1.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_flat__2.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_vinta.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_vinta_1.nam
 - values:
-    tone: 300
-    drive: 900
+    tone: 3
+    drive: 9
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_900_vinta_2.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_comp.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_comp_1.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_comp_2.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_flat.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_flat_1.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_flat_2.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_vint.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_vint_1.nam
 - values:
-    tone: 300
-    drive: 1200
+    tone: 3
+    drive: 12
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_300_od_1200_vint_2.nam
 - values:
-    tone: 500
-    drive: 300
+    tone: 5
+    drive: 3
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_300_comp_.nam
 - values:
-    tone: 500
-    drive: 300
+    tone: 5
+    drive: 3
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_300_flat_.nam
 - values:
-    tone: 500
-    drive: 300
+    tone: 5
+    drive: 3
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_300_vinta.nam
 - values:
-    tone: 500
-    drive: 500
+    tone: 5
+    drive: 5
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_500_comp_.nam
 - values:
-    tone: 500
-    drive: 500
+    tone: 5
+    drive: 5
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_500_flat_.nam
 - values:
-    tone: 500
-    drive: 500
+    tone: 5
+    drive: 5
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_500_vinta.nam
 - values:
-    tone: 500
-    drive: 700
+    tone: 5
+    drive: 7
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_700_comp_.nam
 - values:
-    tone: 500
-    drive: 700
+    tone: 5
+    drive: 7
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_700_flat_.nam
 - values:
-    tone: 500
-    drive: 700
+    tone: 5
+    drive: 7
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_700_vinta.nam
 - values:
-    tone: 500
-    drive: 900
+    tone: 5
+    drive: 9
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_900_comp_.nam
 - values:
-    tone: 500
-    drive: 900
+    tone: 5
+    drive: 9
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_900_flat_.nam
 - values:
-    tone: 500
-    drive: 900
+    tone: 5
+    drive: 9
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_900_vinta.nam
 - values:
-    tone: 500
-    drive: 1200
+    tone: 5
+    drive: 12
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_1200_comp.nam
 - values:
-    tone: 500
-    drive: 1200
+    tone: 5
+    drive: 12
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_1200_flat.nam
 - values:
-    tone: 500
-    drive: 1200
+    tone: 5
+    drive: 12
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_500_od_1200_vint.nam
 - values:
-    tone: 700
-    drive: 300
+    tone: 7
+    drive: 3
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_300_comp_.nam
 - values:
-    tone: 700
-    drive: 300
+    tone: 7
+    drive: 3
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_300_flat_.nam
 - values:
-    tone: 700
-    drive: 300
+    tone: 7
+    drive: 3
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_300_vinta.nam
 - values:
-    tone: 700
-    drive: 500
+    tone: 7
+    drive: 5
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_500_comp_.nam
 - values:
-    tone: 700
-    drive: 500
+    tone: 7
+    drive: 5
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_500_flat_.nam
 - values:
-    tone: 700
-    drive: 500
+    tone: 7
+    drive: 5
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_500_vinta.nam
 - values:
-    tone: 700
-    drive: 700
+    tone: 7
+    drive: 7
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_700_comp_.nam
 - values:
-    tone: 700
-    drive: 700
+    tone: 7
+    drive: 7
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_700_flat_.nam
 - values:
-    tone: 700
-    drive: 700
+    tone: 7
+    drive: 7
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_700_vinta.nam
 - values:
-    tone: 700
-    drive: 900
+    tone: 7
+    drive: 9
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_900_comp_.nam
 - values:
-    tone: 700
-    drive: 900
+    tone: 7
+    drive: 9
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_900_flat_.nam
 - values:
-    tone: 700
-    drive: 900
+    tone: 7
+    drive: 9
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_900_vinta.nam
 - values:
-    tone: 700
-    drive: 1200
+    tone: 7
+    drive: 12
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_1200_comp.nam
 - values:
-    tone: 700
-    drive: 1200
+    tone: 7
+    drive: 12
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_1200_flat.nam
 - values:
-    tone: 700
-    drive: 1200
+    tone: 7
+    drive: 12
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_700_od_1200_vint.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_comp_.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_comp__1.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_comp__2.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_flat_.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_flat__1.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_flat__2.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_vinta.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_vinta_1.nam
 - values:
-    tone: 900
-    drive: 300
+    tone: 9
+    drive: 3
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_300_vinta_2.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_comp_.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_comp__1.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_comp__2.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_flat_.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_flat__1.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_flat__2.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_vinta.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_vinta_1.nam
 - values:
-    tone: 900
-    drive: 500
+    tone: 9
+    drive: 5
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_500_vinta_2.nam
 - values:
-    tone: 900
-    drive: 700
+    tone: 9
+    drive: 7
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_700_comp_.nam
 - values:
-    tone: 900
-    drive: 700
+    tone: 9
+    drive: 7
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_700_flat_.nam
 - values:
-    tone: 900
-    drive: 700
+    tone: 9
+    drive: 7
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_700_vinta.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_comp_.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_comp__1.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_comp__2.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_flat_.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_flat__1.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_flat__2.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_vinta.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_vinta_1.nam
 - values:
-    tone: 900
-    drive: 900
+    tone: 9
+    drive: 9
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_900_vinta_2.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_comp.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_comp_1.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_comp_2.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_flat.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_flat_1.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_flat_2.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_vint.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_vint_1.nam
 - values:
-    tone: 900
-    drive: 1200
+    tone: 9
+    drive: 12
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_900_od_1200_vint_2.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_comp.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_comp_1.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_comp_2.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_flat.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_flat_1.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_flat_2.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_vint.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_vint_1.nam
 - values:
-    tone: 1200
-    drive: 300
+    tone: 12
+    drive: 3
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_300_vint_2.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_comp.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_comp_1.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_comp_2.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_flat.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_flat_1.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_flat_2.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_vint.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_vint_1.nam
 - values:
-    tone: 1200
-    drive: 500
+    tone: 12
+    drive: 5
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_500_vint_2.nam
 - values:
-    tone: 1200
-    drive: 700
+    tone: 12
+    drive: 7
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_700_comp.nam
 - values:
-    tone: 1200
-    drive: 700
+    tone: 12
+    drive: 7
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_700_flat.nam
 - values:
-    tone: 1200
-    drive: 700
+    tone: 12
+    drive: 7
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_700_vint.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_comp.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_comp_1.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_comp_2.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_flat.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_flat_1.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_flat_2.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_vint.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_vint_1.nam
 - values:
-    tone: 1200
-    drive: 900
+    tone: 12
+    drive: 9
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_900_vint_2.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: comp
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_com.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: comp
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_com_1.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: comp
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_com_2.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: flat
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_fla.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: flat
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_fla_1.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: flat
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_fla_2.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: vintage
     preset: a
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_vin.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: vintage
     preset: b
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_vin_1.nam
 - values:
-    tone: 1200
-    drive: 1200
+    tone: 12
+    drive: 12
     voicing: vintage
     preset: c
   file: captures/fulltone_fulldrive_2_vol_200_tone_1200_od_1200_vin_2.nam

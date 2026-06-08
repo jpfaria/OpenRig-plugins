@@ -16,25 +16,25 @@ parameters:
   values:
   - ch1
   - ch2
-- name: level
-  display_name: Level
+- name: input
+  display_name: Input
   values:
   - low
   - hi
 captures:
 - values:
     channel: ch1
-    level: low
+    input: low
   file: captures/jc_120_ch1_low_a2.nam
 - values:
     channel: ch2
-    level: hi
+    input: hi
   file: captures/jc_120_ch2_hi_a2.nam
 - values:
     channel: ch1
-    level: hi
+    input: hi
   file: captures/jc_120_ch1_hi_a2.nam
 - values:
     channel: ch2
-    level: low
+    input: low
   file: captures/jc_120_ch2_low_a2.nam

@@ -11,62 +11,62 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - min
-  - low
-  - mid
-  - high
+  - 0
+  - 3
+  - 5
+  - 8
 - name: tone
   display_name: Tone
   values:
-  - low
-  - center
-  - high
+  - 3
+  - 5
+  - 8
 captures:
 - values:
-    drive: min
-    tone: low
+    drive: 0
+    tone: 3
   file: captures/bossod3_nodrive_lowtone.nam
 - values:
-    drive: min
-    tone: center
+    drive: 0
+    tone: 5
   file: captures/bossod3_nodrive_centertone.nam
 - values:
-    drive: min
-    tone: high
+    drive: 0
+    tone: 8
   file: captures/bossod3_nodrive_hightone.nam
 - values:
-    drive: low
-    tone: low
+    drive: 3
+    tone: 3
   file: captures/bossod3_lowdrive_lowtone.nam
 - values:
-    drive: low
-    tone: center
+    drive: 3
+    tone: 5
   file: captures/bossod3_lowdrive_centertone.nam
 - values:
-    drive: low
-    tone: high
+    drive: 3
+    tone: 8
   file: captures/bossod3_lowdrive_hightone.nam
 - values:
-    drive: mid
-    tone: low
+    drive: 5
+    tone: 3
   file: captures/bossod3_middrive_lowtone.nam
 - values:
-    drive: mid
-    tone: center
+    drive: 5
+    tone: 5
   file: captures/bossod3_middrive_centertone.nam
 - values:
-    drive: mid
-    tone: high
+    drive: 5
+    tone: 8
   file: captures/bossod3_middrive_hightone.nam
 - values:
-    drive: high
-    tone: low
+    drive: 8
+    tone: 3
   file: captures/bossod3_hidrive_lowtone.nam
 - values:
-    drive: high
-    tone: center
+    drive: 8
+    tone: 5
   file: captures/bossod3_hidrive_centertone.nam
 - values:
-    drive: high
-    tone: high
+    drive: 8
+    tone: 8
   file: captures/bossod3_hidrive_hightone.nam

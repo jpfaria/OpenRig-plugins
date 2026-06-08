@@ -29,48 +29,48 @@ parameters:
 - name: preset
   display_name: Preset
   values:
-  - '01'
-  - '02'
-  - '03'
-  - '04'
+  - 1
+  - 2
+  - 3
+  - 4
 captures:
 - values:
     input: lo
     pull_gain: down
-    preset: '02'
+    preset: 2
   file: captures/pre_unnamed_lo_down_02_std.nam
 - values:
     input: lo
     pull_gain: down
-    preset: '03'
+    preset: 3
   file: captures/pre_unnamed_lo_down_03_std.nam
 - values:
     input: lo
     pull_gain: down
-    preset: '04'
+    preset: 4
   file: captures/pre_unnamed_lo_down_04_std.nam
 - values:
     input: lo
     pull_gain: up
-    preset: '01'
+    preset: 1
   file: captures/pre_unnamed_lo_up_01_std.nam
 - values:
     input: hi
     pull_gain: down
-    preset: '02'
+    preset: 2
   file: captures/pre_unnamed_hi_down_02_std.nam
 - values:
     input: hi
     pull_gain: down
-    preset: '04'
+    preset: 4
   file: captures/pre_unnamed_hi_down_04_std.nam
 - values:
     input: hi
     pull_gain: up
-    preset: '01'
+    preset: 1
   file: captures/pre_unnamed_hi_up_01_std.nam
 - values:
     input: hi
     pull_gain: up
-    preset: '04'
+    preset: 4
   file: captures/pre_unnamed_hi_up_04_std.nam

@@ -18,36 +18,36 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - default
-  - "8_5"
+  - 5.0
+  - 8.5
 - name: sustain
   display_name: Sustain
   values:
-  - 'off'
-  - engaged
+  - 0
+  - 1
 captures:
 - values:
     channel: clean
-    gain: default
-    sustain: 'off'
+    gain: 5.0
+    sustain: 0
   file: captures/clean_a2.nam
 - values:
     channel: crunch
-    gain: default
-    sustain: 'off'
+    gain: 5.0
+    sustain: 0
   file: captures/crunch_a2.nam
 - values:
     channel: crunch
-    gain: default
-    sustain: engaged
+    gain: 5.0
+    sustain: 1
   file: captures/crunch_sustain_a2.nam
 - values:
     channel: crunch
-    gain: "8_5"
-    sustain: 'off'
+    gain: 8.5
+    sustain: 0
   file: captures/crunch_gain_8_5_a2.nam
 - values:
     channel: crunch
-    gain: "8_5"
-    sustain: engaged
+    gain: 8.5
+    sustain: 1
   file: captures/crunch_sustain_gain_8_5_a2.nam

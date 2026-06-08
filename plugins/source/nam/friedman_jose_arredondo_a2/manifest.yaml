@@ -21,8 +21,8 @@ parameters:
   values:
   - mesa
   - marshall
-- name: presence
-  display_name: Presence
+- name: presence_mode
+  display_name: Presence Mode
   values:
   - vintage
   - new
@@ -36,42 +36,42 @@ captures:
 - values:
     preset: pres5
     cab: mesa
-    presence: vintage
+    presence_mode: vintage
     mic: sm57
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm57.nam
 - values:
     preset: pres5
     cab: mesa
-    presence: vintage
+    presence_mode: vintage
     mic: blend1
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_1.nam
 - values:
     preset: pres5
     cab: marshall
-    presence: new
+    presence_mode: new
     mic: sm57
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
 - values:
     preset: pres5
     cab: marshall
-    presence: new
+    presence_mode: new
     mic: blend1
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_1.nam
 - values:
     preset: hotrod
     cab: marshall
-    presence: new
+    presence_mode: new
     mic: sm57
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
 - values:
     preset: hotrod
     cab: marshall
-    presence: new
+    presence_mode: new
     mic: blend1
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
 - values:
     preset: hotrod
     cab: marshall
-    presence: new
+    presence_mode: new
     mic: blend3
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam

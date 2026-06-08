@@ -19,95 +19,95 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - 130
-  - 300
-  - 500
-  - 700
-  - 900
-  - 1030
-  - 1200
+  - 1.3
+  - 3
+  - 5
+  - 7
+  - 9
+  - 10.3
+  - 12
 captures:
 - values:
     voice: 130
-    gain: 130
+    gain: 1.3
   file: captures/zendrive_voice130_gain130_a2.nam
 - values:
     voice: 130
-    gain: 300
+    gain: 3
   file: captures/zendrive_voice130_gain300_a2.nam
 - values:
     voice: 130
-    gain: 500
+    gain: 5
   file: captures/zendrive_voice130_gain500_a2.nam
 - values:
     voice: 130
-    gain: 700
+    gain: 7
   file: captures/zendrive_voice130_gain700_a2.nam
 - values:
     voice: 130
-    gain: 900
+    gain: 9
   file: captures/zendrive_voice130_gain900_a2.nam
 - values:
     voice: 130
-    gain: 1030
+    gain: 10.3
   file: captures/zendrive_voice130_gain1030_a2.nam
 - values:
     voice: 130
-    gain: 1200
+    gain: 12
   file: captures/zendrive_voice130_gain1200_a2.nam
 - values:
     voice: 1030
-    gain: 130
+    gain: 1.3
   file: captures/zendrive_voice1030_gain130_a2.nam
 - values:
     voice: 1030
-    gain: 300
+    gain: 3
   file: captures/zendrive_voice1030_gain300_a2.nam
 - values:
     voice: 1030
-    gain: 500
+    gain: 5
   file: captures/zendrive_voice1030_gain500_a2.nam
 - values:
     voice: 1030
-    gain: 700
+    gain: 7
   file: captures/zendrive_voice1030_gain700_a2.nam
 - values:
     voice: 1030
-    gain: 900
+    gain: 9
   file: captures/zendrive_voice1030_gain900_a2.nam
 - values:
     voice: 1030
-    gain: 1030
+    gain: 10.3
   file: captures/zendrive_voice1030_gain1030_a2.nam
 - values:
     voice: 1030
-    gain: 1200
+    gain: 12
   file: captures/zendrive_voice1030_gain1200_a2.nam
 - values:
     voice: 1200
-    gain: 130
+    gain: 1.3
   file: captures/zendrive_voice1200_gain130_a2.nam
 - values:
     voice: 1200
-    gain: 300
+    gain: 3
   file: captures/zendrive_voice1200_gain300_a2.nam
 - values:
     voice: 1200
-    gain: 500
+    gain: 5
   file: captures/zendrive_voice1200_gain500_a2.nam
 - values:
     voice: 1200
-    gain: 700
+    gain: 7
   file: captures/zendrive_voice1200_gain700_a2.nam
 - values:
     voice: 1200
-    gain: 900
+    gain: 9
   file: captures/zendrive_voice1200_gain900_a2.nam
 - values:
     voice: 1200
-    gain: 1030
+    gain: 10.3
   file: captures/zendrive_voice1200_gain1030_a2.nam
 - values:
     voice: 1200
-    gain: 1200
+    gain: 12
   file: captures/zendrive_voice1200_gain1200_a2.nam

@@ -10,11 +10,12 @@ output_gain_db: 2.2125587
 type: amp
 backend: nam
 architecture: A1
-# Axes decoded from descriptive filenames shiva_<gain>_<cabinet>.nam.
-# No constant tokens dropped — both gain and cabinet vary (full 3x3 product).
+# Axes decoded from descriptive filenames shiva_<voicing>_<cabinet>.nam.
+# No constant tokens dropped — both voicing and cabinet vary (full 3x3 product).
+# clean/crunch/drive are amp gain-stage voicings (a selector), not a knob sweep.
 parameters:
-- name: gain
-  display_name: Gain
+- name: voicing
+  display_name: Voicing
   values:
   - clean
   - crunch
@@ -28,37 +29,37 @@ parameters:
 captures:
 - values:
     cabinet: 4x12_v30
-    gain: clean
+    voicing: clean
   file: captures/shiva_clean_4x12_v30.nam
 - values:
     cabinet: 4x12_greenback
-    gain: clean
+    voicing: clean
   file: captures/shiva_clean_4x12_greenback.nam
 - values:
     cabinet: 4x12_g12t
-    gain: clean
+    voicing: clean
   file: captures/shiva_clean_4x12_g12t.nam
 - values:
     cabinet: 4x12_v30
-    gain: crunch
+    voicing: crunch
   file: captures/shiva_crunch_4x12_v30.nam
 - values:
     cabinet: 4x12_greenback
-    gain: crunch
+    voicing: crunch
   file: captures/shiva_crunch_4x12_greenback.nam
 - values:
     cabinet: 4x12_g12t
-    gain: crunch
+    voicing: crunch
   file: captures/shiva_crunch_4x12_g12t.nam
 - values:
     cabinet: 4x12_v30
-    gain: drive
+    voicing: drive
   file: captures/shiva_drive_4x12_v30.nam
 - values:
     cabinet: 4x12_greenback
-    gain: drive
+    voicing: drive
   file: captures/shiva_drive_4x12_greenback.nam
 - values:
     cabinet: 4x12_g12t
-    gain: drive
+    voicing: drive
   file: captures/shiva_drive_4x12_g12t.nam

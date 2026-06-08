@@ -11,8 +11,8 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: gain
-  display_name: Gain
+- name: gain_stage
+  display_name: Gain Stage
   values:
   - crystal_clean
   - edge_of_breakup
@@ -26,33 +26,33 @@ parameters:
 captures:
 - values:
     channel: normal
-    gain: crystal_clean
+    gain_stage: crystal_clean
   file: captures/vox_ac15ch_crystal_clean_normal.nam
 - values:
     channel: tb
-    gain: crystal_clean
+    gain_stage: crystal_clean
   file: captures/vox_ac15ch_crystal_clean_tb.nam
 - values:
     channel: normal
-    gain: edge_of_breakup
+    gain_stage: edge_of_breakup
   file: captures/vox_ac15ch_edge_of_breakup_normal.nam
 - values:
     channel: tb
-    gain: edge_of_breakup
+    gain_stage: edge_of_breakup
   file: captures/vox_ac15ch_edge_of_breakup_tb.nam
 - values:
     channel: normal
-    gain: crunch
+    gain_stage: crunch
   file: captures/vox_ac15ch_crunch_normal.nam
 - values:
     channel: tb
-    gain: crunch
+    gain_stage: crunch
   file: captures/vox_ac15ch_crunch_tb.nam
 - values:
     channel: normal
-    gain: overdriven
+    gain_stage: overdriven
   file: captures/vox_ac15ch_overdriven_normal.nam
 - values:
     channel: tb
-    gain: overdriven
+    gain_stage: overdriven
   file: captures/vox_ac15ch_overdriven_tb.nam

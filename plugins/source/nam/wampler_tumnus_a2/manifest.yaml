@@ -13,12 +13,12 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - high
-  - medium
+  - 8
+  - 5
 captures:
 - values:
-    gain: high
+    gain: 8
   file: captures/tumnus_high_gain_a2.nam
 - values:
-    gain: medium
+    gain: 5
   file: captures/tumnus_medium_gain_a2.nam

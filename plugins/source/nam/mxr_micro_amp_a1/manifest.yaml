@@ -11,16 +11,16 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - low
-  - mid
-  - full
+  - 3
+  - 5
+  - 10
 captures:
 - values:
-    gain: full
+    gain: 10
   file: captures/mxr_microamp_fullgain.nam
 - values:
-    gain: low
+    gain: 3
   file: captures/mxr_microamp_lowgain.nam
 - values:
-    gain: mid
+    gain: 5
   file: captures/mxr_microamp_midgain.nam

@@ -9,15 +9,15 @@ backend: nam
 architecture: A1
 # Dropped constant across all captures: pedal model "ts808".
 parameters:
-- name: drive
-  display_name: Drive
+- name: mode
+  display_name: Mode
   values:
   - standard
   - driven
 captures:
 - values:
-    drive: standard
+    mode: standard
   file: captures/ts808.nam
 - values:
-    drive: driven
+    mode: driven
   file: captures/ts808_driven.nam

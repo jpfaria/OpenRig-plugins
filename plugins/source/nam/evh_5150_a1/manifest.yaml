@@ -11,8 +11,8 @@ backend: nam
 architecture: A1
 # Dropped constant token (identical across all captures): 5150 (amp name).
 parameters:
-- name: gain
-  display_name: Gain
+- name: channel
+  display_name: Channel
   values:
   - clean
   - crunch_blue
@@ -26,37 +26,37 @@ parameters:
 captures:
 - values:
     cabinet: 4x12_v30
-    gain: clean
+    channel: clean
   file: captures/5150_clean_4x12_v30.nam
 - values:
     cabinet: 4x12_greenback
-    gain: clean
+    channel: clean
   file: captures/5150_clean_4x12_greenback.nam
 - values:
     cabinet: 4x12_g12t
-    gain: clean
+    channel: clean
   file: captures/5150_clean_4x12_g12t.nam
 - values:
     cabinet: 4x12_v30
-    gain: crunch_blue
+    channel: crunch_blue
   file: captures/5150_crunch_blue_4x12_v30.nam
 - values:
     cabinet: 4x12_greenback
-    gain: crunch_blue
+    channel: crunch_blue
   file: captures/5150_crunch_blue_4x12_greenback.nam
 - values:
     cabinet: 4x12_g12t
-    gain: crunch_blue
+    channel: crunch_blue
   file: captures/5150_crunch_blue_4x12_g12t.nam
 - values:
     cabinet: 4x12_v30
-    gain: drive_red
+    channel: drive_red
   file: captures/5150_drive_red_4x12_v30.nam
 - values:
     cabinet: 4x12_greenback
-    gain: drive_red
+    channel: drive_red
   file: captures/5150_drive_red_4x12_greenback.nam
 - values:
     cabinet: 4x12_g12t
-    gain: drive_red
+    channel: drive_red
   file: captures/5150_drive_red_4x12_g12t.nam

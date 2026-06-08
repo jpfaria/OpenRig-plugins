@@ -11,8 +11,9 @@ backend: nam
 architecture: A2
 sources:
 - https://www.tone3000.com/tones/61531
-# boost = amp onboard Gain Boost switch (gb in filename). gain = lo/mid/hi.
-# drive = overdrive/boost pedal in front (none/ts9/sd1/precision_drive/aesahaettr).
+# boost = amp onboard Gain Boost switch (gb in filename).
+# gain = amp gain knob (low ~10 o'clock = 3.33, mid ~1 o'clock = 5.83, high ~4 o'clock = 8.33).
+# pedal = overdrive/boost pedal in front (none/ts9/sd1/precision_drive/aesahaettr).
 parameters:
 - name: boost
   display_name: Gain Boost
@@ -22,10 +23,10 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - low
-  - mid
-  - high
-- name: drive
+  - 3.33
+  - 5.83
+  - 8.33
+- name: pedal
   display_name: Front Pedal
   values:
   - aesahaettr
@@ -36,151 +37,151 @@ parameters:
 captures:
 - values:
     boost: on
-    gain: high
-    drive: aesahaettr
+    gain: 8.33
+    pedal: aesahaettr
   file: captures/marshall_6100_gb_high_gain_aesahaettr_a2.nam
 - values:
     boost: on
-    gain: high
-    drive: boss_sd1
+    gain: 8.33
+    pedal: boss_sd1
   file: captures/marshall_6100_gb_high_gain_boss_sd1_a2.nam
 - values:
     boost: on
-    gain: high
-    drive: ibanez_ts9
+    gain: 8.33
+    pedal: ibanez_ts9
   file: captures/marshall_6100_gb_high_gain_ibanez_ts9_a2.nam
 - values:
     boost: on
-    gain: high
-    drive: none
+    gain: 8.33
+    pedal: none
   file: captures/marshall_6100_gb_high_gain_no_boost_a2.nam
 - values:
     boost: on
-    gain: high
-    drive: precision_drive
+    gain: 8.33
+    pedal: precision_drive
   file: captures/marshall_6100_gb_high_gain_precision_drive_a2.nam
 - values:
     boost: on
-    gain: low
-    drive: aesahaettr
+    gain: 3.33
+    pedal: aesahaettr
   file: captures/marshall_6100_gb_low_gain_aesahaettr_a2.nam
 - values:
     boost: on
-    gain: low
-    drive: boss_sd1
+    gain: 3.33
+    pedal: boss_sd1
   file: captures/marshall_6100_gb_low_gain_boss_sd1_a2.nam
 - values:
     boost: on
-    gain: low
-    drive: ibanez_ts9
+    gain: 3.33
+    pedal: ibanez_ts9
   file: captures/marshall_6100_gb_low_gain_ibanez_ts9_a2.nam
 - values:
     boost: on
-    gain: low
-    drive: none
+    gain: 3.33
+    pedal: none
   file: captures/marshall_6100_gb_low_gain_no_boost_a2.nam
 - values:
     boost: on
-    gain: low
-    drive: precision_drive
+    gain: 3.33
+    pedal: precision_drive
   file: captures/marshall_6100_gb_low_gain_precision_drive_a2.nam
 - values:
     boost: on
-    gain: mid
-    drive: aesahaettr
+    gain: 5.83
+    pedal: aesahaettr
   file: captures/marshall_6100_gb_mid_gain_aesahaettr_a2.nam
 - values:
     boost: on
-    gain: mid
-    drive: boss_sd1
+    gain: 5.83
+    pedal: boss_sd1
   file: captures/marshall_6100_gb_mid_gain_boss_sd1_a2.nam
 - values:
     boost: on
-    gain: mid
-    drive: ibanez_ts9
+    gain: 5.83
+    pedal: ibanez_ts9
   file: captures/marshall_6100_gb_mid_gain_ibanez_ts9_a2.nam
 - values:
     boost: on
-    gain: mid
-    drive: none
+    gain: 5.83
+    pedal: none
   file: captures/marshall_6100_gb_mid_gain_no_boost_a2.nam
 - values:
     boost: on
-    gain: mid
-    drive: precision_drive
+    gain: 5.83
+    pedal: precision_drive
   file: captures/marshall_6100_gb_mid_gain_precision_drive_a2.nam
 - values:
     boost: off
-    gain: high
-    drive: aesahaettr
+    gain: 8.33
+    pedal: aesahaettr
   file: captures/marshall_6100_high_gain_aesahaettr_a2.nam
 - values:
     boost: off
-    gain: high
-    drive: boss_sd1
+    gain: 8.33
+    pedal: boss_sd1
   file: captures/marshall_6100_high_gain_boss_sd1_a2.nam
 - values:
     boost: off
-    gain: high
-    drive: ibanez_ts9
+    gain: 8.33
+    pedal: ibanez_ts9
   file: captures/marshall_6100_high_gain_ibanez_ts9_a2.nam
 - values:
     boost: off
-    gain: high
-    drive: none
+    gain: 8.33
+    pedal: none
   file: captures/marshall_6100_high_gain_no_boost_a2.nam
 - values:
     boost: off
-    gain: high
-    drive: precision_drive
+    gain: 8.33
+    pedal: precision_drive
   file: captures/marshall_6100_high_gain_precision_drive_a2.nam
 - values:
     boost: off
-    gain: low
-    drive: aesahaettr
+    gain: 3.33
+    pedal: aesahaettr
   file: captures/marshall_6100_low_gain_aesahaettr_a2.nam
 - values:
     boost: off
-    gain: low
-    drive: boss_sd1
+    gain: 3.33
+    pedal: boss_sd1
   file: captures/marshall_6100_low_gain_boss_sd1_a2.nam
 - values:
     boost: off
-    gain: low
-    drive: ibanez_ts9
+    gain: 3.33
+    pedal: ibanez_ts9
   file: captures/marshall_6100_low_gain_ibanez_ts9_a2.nam
 - values:
     boost: off
-    gain: low
-    drive: none
+    gain: 3.33
+    pedal: none
   file: captures/marshall_6100_low_gain_no_boost_a2.nam
 - values:
     boost: off
-    gain: low
-    drive: precision_drive
+    gain: 3.33
+    pedal: precision_drive
   file: captures/marshall_6100_low_gain_precision_drive_a2.nam
 - values:
     boost: off
-    gain: mid
-    drive: aesahaettr
+    gain: 5.83
+    pedal: aesahaettr
   file: captures/marshall_6100_mid_gain_aesahaettr_a2.nam
 - values:
     boost: off
-    gain: mid
-    drive: boss_sd1
+    gain: 5.83
+    pedal: boss_sd1
   file: captures/marshall_6100_mid_gain_boss_sd1_a2.nam
 - values:
     boost: off
-    gain: mid
-    drive: ibanez_ts9
+    gain: 5.83
+    pedal: ibanez_ts9
   file: captures/marshall_6100_mid_gain_ibanez_ts9_a2.nam
 - values:
     boost: off
-    gain: mid
-    drive: none
+    gain: 5.83
+    pedal: none
   file: captures/marshall_6100_mid_gain_no_boost_a2.nam
 - values:
     boost: off
-    gain: mid
-    drive: precision_drive
+    gain: 5.83
+    pedal: precision_drive
   file: captures/marshall_6100_mid_gain_precision_drive_a2.nam

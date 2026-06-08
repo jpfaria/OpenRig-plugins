@@ -21,8 +21,8 @@ parameters:
   - 3
   - 5
   - 8
-- name: drive
-  display_name: Drive
+- name: mode
+  display_name: Mode
   values:
   - flat
   - bright
@@ -40,242 +40,242 @@ parameters:
   - ms
 captures:
 - values:
-    drive: bright
+    mode: bright
     gain: 3
     voicing: ms
   file: captures/trss_g3_b_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: bright
+    mode: bright
     gain: 3
     voicing: trad_p4
   file: captures/trss_g3_b_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: bright
+    mode: bright
     gain: 3
     voicing: bf_p5
   file: captures/trss_g3_b_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_drive
+    mode: bright_drive
     gain: 3
     voicing: bf_p5
   file: captures/trss_g3_bd_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 3
     voicing: ms
   file: captures/trss_g3_bmd_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 3
     voicing: trad_p4
   file: captures/trss_g3_bmd_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 3
     voicing: bf_p5
   file: captures/trss_g3_bmd_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 3
     voicing: bf_p9
   file: captures/trss_g3_bmd_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 3
     voicing: ms
   file: captures/trss_g3_md_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 3
     voicing: trad_p4
   file: captures/trss_g3_md_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 3
     voicing: trad_p8
   file: captures/trss_g3_md_t5m5b5_o7_p8_trad_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 3
     voicing: bf_p5
   file: captures/trss_g3_md_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 3
     voicing: bf_p9
   file: captures/trss_g3_md_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 3
     voicing: ms
   file: captures/trss_g3_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 3
     voicing: trad_p4
   file: captures/trss_g3_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 3
     voicing: trad_p8
   file: captures/trss_g3_t5m5b5_o7_p8_trad_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 3
     voicing: bf_p5
   file: captures/trss_g3_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 3
     voicing: bf_p9
   file: captures/trss_g3_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: bright
+    mode: bright
     gain: 5
     voicing: ms
   file: captures/trss_g5_b_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: bright
+    mode: bright
     gain: 5
     voicing: trad_p4
   file: captures/trss_g5_b_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: bright
+    mode: bright
     gain: 5
     voicing: bf_p5
   file: captures/trss_g5_b_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_drive
+    mode: bright_drive
     gain: 5
     voicing: bf_p5
   file: captures/trss_g5_bd_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_drive
+    mode: bright_drive
     gain: 5
     voicing: bf_p5_bs
   file: captures/trss_g5_bd_t6m3b6_o8_p5_bf_bs_4_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 5
     voicing: ms
   file: captures/trss_g5_bmd_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 5
     voicing: trad_p4
   file: captures/trss_g5_bmd_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 5
     voicing: bf_p5
   file: captures/trss_g5_bmd_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 5
     voicing: bf_p9
   file: captures/trss_g5_bmd_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 5
     voicing: ms
   file: captures/trss_g5_md_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 5
     voicing: trad_p4
   file: captures/trss_g5_md_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 5
     voicing: trad_p8
   file: captures/trss_g5_md_t5m5b5_o7_p8_trad_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 5
     voicing: bf_p5
   file: captures/trss_g5_md_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 5
     voicing: bf_p9
   file: captures/trss_g5_md_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 5
     voicing: ms
   file: captures/trss_g5_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 5
     voicing: trad_p4
   file: captures/trss_g5_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 5
     voicing: trad_p8
   file: captures/trss_g5_t5m5b5_o7_p8_trad_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 5
     voicing: bf_p5
   file: captures/trss_g5_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 5
     voicing: bf_p9
   file: captures/trss_g5_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: bright
+    mode: bright
     gain: 8
     voicing: ms
   file: captures/trss_g8_b_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: bright_drive
+    mode: bright_drive
     gain: 8
     voicing: bf_p5
   file: captures/trss_g8_bd_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 8
     voicing: ms
   file: captures/trss_g8_bmd_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 8
     voicing: trad_p4
   file: captures/trss_g8_bmd_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: bright_mid
+    mode: bright_mid
     gain: 8
     voicing: bf_p9
   file: captures/trss_g8_bmd_t6m3b6_o8_p9_bf_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 8
     voicing: trad_p4
   file: captures/trss_g8_md_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: mid
+    mode: mid
     gain: 8
     voicing: bf_p5
   file: captures/trss_g8_md_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 8
     voicing: ms
   file: captures/trss_g8_t5m5b5_o6_p5_ms_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 8
     voicing: trad_p4
   file: captures/trss_g8_t5m5b5_o7_p4_trad_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 8
     voicing: bf_p5
   file: captures/trss_g8_t6m3b6_o8_p5_bf_a2.nam
 - values:
-    drive: flat
+    mode: flat
     gain: 8
     voicing: bf_p9
   file: captures/trss_g8_t6m3b6_o8_p9_bf_a2.nam

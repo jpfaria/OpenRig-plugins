@@ -28,157 +28,157 @@ parameters:
 - name: tone
   display_name: Tone
   values:
-  - 230
-  - 1030
-  - 1200
+  - 2.3
+  - 10.3
+  - 12
 captures:
 - values:
     mode: dist
-    tone: 1200
+    tone: 12
     voicing: med
   file: captures/dot_dist_med_t1200_a2.nam
 - values:
     mode: od
-    tone: 1200
+    tone: 12
     voicing: med
   file: captures/dot_od_med_t1200_a2.nam
 - values:
     mode: od
-    tone: 1030
+    tone: 10.3
     voicing: med
   file: captures/dot_od_med_t1030_a2.nam
 - values:
     mode: od
-    tone: 1030
+    tone: 10.3
     voicing: cranked
   file: captures/dot_od_cranked_t1030_a2.nam
 - values:
     mode: od
-    tone: 1030
+    tone: 10.3
     voicing: low
   file: captures/dot_od_low_t1030_a2.nam
 - values:
     mode: dist
-    tone: 1030
+    tone: 10.3
     voicing: color
   file: captures/dot_dist_color_t1030_a2.nam
 - values:
     mode: dist
-    tone: 1200
+    tone: 12
     voicing: cranked
   file: captures/dot_dist_cranked_t1200_a2.nam
 - values:
     mode: od
-    tone: 230
+    tone: 2.3
     voicing: cranked
   file: captures/dot_od_cranked_t230_a2.nam
 - values:
     mode: od
-    tone: 1200
+    tone: 12
     voicing: high
   file: captures/dot_od_high_t1200_a2.nam
 - values:
     mode: od
-    tone: 1200
+    tone: 12
     voicing: cranked
   file: captures/dot_od_cranked_t1200_a2.nam
 - values:
     mode: od
-    tone: 230
+    tone: 2.3
     voicing: high
   file: captures/dot_od_high_t230_a2.nam
 - values:
     mode: dist
-    tone: 1200
+    tone: 12
     voicing: low
   file: captures/dot_dist_low_t1200_a2.nam
 - values:
     mode: dist
-    tone: 230
+    tone: 2.3
     voicing: color
   file: captures/dot_dist_color_t230_a2.nam
 - values:
     mode: dist
-    tone: 1030
+    tone: 10.3
     voicing: low
   file: captures/dot_dist_low_t1030_a2.nam
 - values:
     mode: dist
-    tone: 1200
+    tone: 12
     voicing: high
   file: captures/dot_dist_high_t1200_a2.nam
 - values:
     mode: dist
-    tone: 1030
+    tone: 10.3
     voicing: high
   file: captures/dot_dist_high_t1030_a2.nam
 - values:
     mode: dist
-    tone: 230
+    tone: 2.3
     voicing: low
   file: captures/dot_dist_low_t230_a2.nam
 - values:
     mode: dist
-    tone: 230
+    tone: 2.3
     voicing: high
   file: captures/dot_dist_high_t230_a2.nam
 - values:
     mode: dist
-    tone: 1200
+    tone: 12
     voicing: color
   file: captures/dot_dist_color_t1200_a2.nam
 - values:
     mode: dist
-    tone: 1030
+    tone: 10.3
     voicing: med
   file: captures/dot_dist_med_t1030_a2.nam
 - values:
     mode: od
-    tone: 1200
+    tone: 12
     voicing: color
   file: captures/dot_od_color_t1200_a2.nam
 - values:
     mode: od
-    tone: 1200
+    tone: 12
     voicing: low
   file: captures/dot_od_low_t1200_a2.nam
 - values:
     mode: od
-    tone: 1030
+    tone: 10.3
     voicing: high
   file: captures/dot_od_high_t1030_a2.nam
 - values:
     mode: dist
-    tone: 1030
+    tone: 10.3
     voicing: cranked
   file: captures/dot_dist_cranked_t1030_a2.nam
 - values:
     mode: dist
-    tone: 230
+    tone: 2.3
     voicing: cranked
   file: captures/dot_dist_cranked_t230_a2.nam
 - values:
     mode: od
-    tone: 230
+    tone: 2.3
     voicing: color
   file: captures/dot_od_color_t230_a2.nam
 - values:
     mode: dist
-    tone: 230
+    tone: 2.3
     voicing: med
   file: captures/dot_dist_med_t230_a2.nam
 - values:
     mode: od
-    tone: 1030
+    tone: 10.3
     voicing: color
   file: captures/dot_od_color_t1030_a2.nam
 - values:
     mode: od
-    tone: 230
+    tone: 2.3
     voicing: med
   file: captures/dot_od_med_t230_a2.nam
 - values:
     mode: od
-    tone: 230
+    tone: 2.3
     voicing: low
   file: captures/dot_od_low_t230_a2.nam

@@ -21,8 +21,8 @@ parameters:
   values:
   - mesa
   - marshall
-- name: presence
-  display_name: Presence
+- name: voicing
+  display_name: Voicing
   values:
   - voiced
   - normal
@@ -42,56 +42,56 @@ captures:
 - values:
     stage: poweramp
     cab: mesa
-    presence: voiced
+    voicing: voiced
     preset: pres@5
     mic: sm57
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm57.nam
 - values:
     stage: poweramp
     cab: mesa
-    presence: voiced
+    voicing: voiced
     preset: pres@5
     mic: blend1
   file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_1.nam
 - values:
     stage: poweramp
     cab: marshall
-    presence: normal
+    voicing: normal
     preset: pres@5
     mic: sm57
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
 - values:
     stage: poweramp
     cab: marshall
-    presence: normal
+    voicing: normal
     preset: pres@5
     mic: di
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_di.nam
 - values:
     stage: poweramp
     cab: marshall
-    presence: normal
+    voicing: normal
     preset: pres@5
     mic: blend1
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_1.nam
 - values:
     stage: amp
     cab: marshall
-    presence: normal
+    voicing: normal
     preset: hotrod
     mic: sm57
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
 - values:
     stage: amp
     cab: marshall
-    presence: normal
+    voicing: normal
     preset: hotrod
     mic: blend1
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
 - values:
     stage: amp
     cab: marshall
-    presence: normal
+    voicing: normal
     preset: hotrod
     mic: blend3
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam
