@@ -23,130 +23,130 @@ parameters:
   values:
   - none
   - maxon808
-- name: gain_stage
-  display_name: Gain Stage
+- name: gain
+  display_name: Gain
   values:
-  - low1
-  - low2
-  - low4
-  - mid1
-  - mid2
-  - high1
-  - high2
-  - high3
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
 captures:
 - values:
     channel: ch3
     boost: none
-    gain_stage: mid1
+    gain: 4
   file: captures/mrsh410h_ch3_midgain1_di_a2.nam
 - values:
     channel: ch2
     boost: none
-    gain_stage: low1
+    gain: 1
   file: captures/mrsh410h_ch2_lowgain1_di_a2.nam
 - values:
     channel: ch3
     boost: none
-    gain_stage: low1
+    gain: 1
   file: captures/mrsh410h_ch3_lowgain1_di_a2.nam
 - values:
     channel: ch1
     boost: maxon808
-    gain_stage: high1
+    gain: 6
   file: captures/mrsh410h_ch1_maxon808_highgain1_di_a2.nam
 - values:
     channel: ch4
     boost: maxon808
-    gain_stage: low1
+    gain: 1
   file: captures/mrsh410h_ch4_maxon808_lowgain1_di_a2.nam
 - values:
     channel: ch1
     boost: maxon808
-    gain_stage: low4
+    gain: 3
   file: captures/mrsh410h_ch1_maxon808_lowgain4_di_a2.nam
 - values:
     channel: ch1
     boost: maxon808
-    gain_stage: mid2
+    gain: 5
   file: captures/mrsh410h_ch1_maxon808_midgain2_di_a2.nam
 - values:
     channel: ch2
     boost: maxon808
-    gain_stage: high2
+    gain: 7
   file: captures/mrsh410h_ch2_maxon808_highgain2_di_a2.nam
 - values:
     channel: ch1
     boost: none
-    gain_stage: high3
+    gain: 8
   file: captures/mrsh410h_ch1_highgain3_di_a2.nam
 - values:
     channel: ch4
     boost: maxon808
-    gain_stage: high1
+    gain: 6
   file: captures/mrsh410h_ch4_maxon808_highgain1_di_a2.nam
 - values:
     channel: ch2
     boost: maxon808
-    gain_stage: low2
+    gain: 2
   file: captures/mrsh410h_ch2_maxon808_lowgain2_di_a2.nam
 - values:
     channel: ch1
     boost: none
-    gain_stage: low2
+    gain: 2
   file: captures/mrsh410h_ch1_lowgain2_di_a2.nam
 - values:
     channel: ch4
     boost: maxon808
-    gain_stage: mid1
+    gain: 4
   file: captures/mrsh410h_ch4_maxon808_midgain1_di_a2.nam
 - values:
     channel: ch3
     boost: maxon808
-    gain_stage: mid1
+    gain: 4
   file: captures/mrsh410h_ch3_maxon808_midgain1_di_a2.nam
 - values:
     channel: ch2
     boost: none
-    gain_stage: high3
+    gain: 8
   file: captures/mrsh410h_ch2_highgain3_di_a2.nam
 - values:
     channel: ch3
     boost: none
-    gain_stage: high1
+    gain: 6
   file: captures/mrsh410h_ch3_highgain1_di_a2.nam
 - values:
     channel: ch3
     boost: maxon808
-    gain_stage: high1
+    gain: 6
   file: captures/mrsh410h_ch3_maxon808_highgain1_di_a2.nam
 - values:
     channel: ch4
     boost: none
-    gain_stage: high1
+    gain: 6
   file: captures/mrsh410h_ch4_highgain1_di_a2.nam
 - values:
     channel: ch4
     boost: none
-    gain_stage: mid1
+    gain: 4
   file: captures/mrsh410h_ch4_midgain1_di_a2.nam
 - values:
     channel: ch2
     boost: none
-    gain_stage: mid2
+    gain: 5
   file: captures/mrsh410h_ch2_midgain2_di_a2.nam
 - values:
     channel: ch3
     boost: maxon808
-    gain_stage: low1
+    gain: 1
   file: captures/mrsh410h_ch3_maxon808_lowgain1_di_a2.nam
 - values:
     channel: ch2
     boost: maxon808
-    gain_stage: mid1
+    gain: 4
   file: captures/mrsh410h_ch2_maxon808_midgain1_di_a2.nam
 - values:
     channel: ch4
     boost: none
-    gain_stage: low1
+    gain: 1
   file: captures/mrsh410h_ch4_lowgain1_di_a2.nam
