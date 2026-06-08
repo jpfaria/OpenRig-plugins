@@ -12,8 +12,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/30585
 parameters:
-- name: gain
-  display_name: Gain
+- name: voicing
+  display_name: Voicing
   values:
   - clean
   - crunch
@@ -25,26 +25,26 @@ parameters:
   - in2
 captures:
 - values:
-    gain: clean
+    voicing: clean
     input: in1
   file: captures/fender_57customdeluxe_clean_in1_a2.nam
 - values:
-    gain: clean
+    voicing: clean
     input: in2
   file: captures/fender_57customdeluxe_clean_in2_a2.nam
 - values:
-    gain: crunch
+    voicing: crunch
     input: in1
   file: captures/fender_57customdeluxe_crunch_in1_a2.nam
 - values:
-    gain: crunch
+    voicing: crunch
     input: in2
   file: captures/fender_57customdeluxe_crunch_in2_a2.nam
 - values:
-    gain: od
+    voicing: od
     input: in1
   file: captures/fender_57customdeluxe_od_in1_a2.nam
 - values:
-    gain: od
+    voicing: od
     input: in2
   file: captures/fender_57customdeluxe_od_in2_a2.nam

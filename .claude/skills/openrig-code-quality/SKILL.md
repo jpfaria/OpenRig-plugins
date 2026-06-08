@@ -205,7 +205,9 @@ an axis, ONE of two things is true:
    `pedal`); the string values stay (it is a selector, not a knob).
 
 Never list a value twice in an axis. Numbered hand-picked configs → one `preset`
-axis, not sparse EQ knobs.
+axis, not sparse EQ knobs. **Numbered values are PLAIN integers** — never
+zero-padded (`01`→`1`, `08`→`8`): leading zeros also hit the YAML octal trap
+(`08`/`09` silently become strings while `01`–`07` become ints).
 
 **Enforcement:** `scripts/param_gate.py` is the deterministic gate for this —
 it flags any non-control axis name, any value that is not in the

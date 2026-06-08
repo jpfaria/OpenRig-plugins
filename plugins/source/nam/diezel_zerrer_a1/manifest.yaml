@@ -12,7 +12,7 @@ backend: nam
 architecture: A1
 # Knob values are clock positions (per tone description: 10 = 10 o'clock).
 # Dropped constants: presence (p3) and deep (d11) are fixed across every od
-# capture; the ch1 capture has no master-section knobs (volume: none).
+# capture; the ch1 capture has no master-section knob (volume: -1 = absent).
 parameters:
 - name: channel
   display_name: Channel
@@ -52,7 +52,7 @@ parameters:
 - name: volume
   display_name: Volume
   values:
-  - none
+  - -1
   - 1
   - 2
   - 12
@@ -63,7 +63,7 @@ captures:
     treble: 12
     mid: 2
     bass: 3
-    volume: none
+    volume: -1
   file: captures/12_zerrer_ch1_g10_t12_m2_b3_48hz_24bit.nam
 - values:
     channel: od

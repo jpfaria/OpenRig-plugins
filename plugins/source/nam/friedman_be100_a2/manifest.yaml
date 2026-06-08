@@ -14,7 +14,7 @@ sources:
 #   voicing — be (BE channel) / hbe (Hairy BE, hotter) / cln (clean)
 #   boost   — Maxon OD808 in front (808) or none
 #   eq      — tone-stack shape (flat / scoop / mids)
-#   gain    — HG high / MG mid / LG low / CLN clean (from description)
+#   gain_stage — HG high / MG mid / LG low / CLN clean (from description)
 parameters:
 - name: voicing
   display_name: Voicing
@@ -33,8 +33,8 @@ parameters:
   - flat
   - scoop
   - mids
-- name: gain
-  display_name: Gain
+- name: gain_stage
+  display_name: Gain Stage
   values:
   - hg
   - mg
@@ -45,53 +45,53 @@ captures:
     voicing: hbe
     boost: '808'
     eq: flat
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_808_flat_hg_a2.nam
 - values:
     voicing: hbe
     boost: none
     eq: flat
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_flat_hg_a2.nam
 - values:
     voicing: be
     boost: none
     eq: flat
-    gain: mg
+    gain_stage: mg
   file: captures/be_mg_a2.nam
 - values:
     voicing: hbe
     boost: '808'
     eq: scoop
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_808_scoop_hg_a2.nam
 - values:
     voicing: be
     boost: none
     eq: flat
-    gain: lg
+    gain_stage: lg
   file: captures/be_lg_a2.nam
 - values:
     voicing: hbe
     boost: none
     eq: mids
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_mids_hg_a2.nam
 - values:
     voicing: hbe
     boost: '808'
     eq: mids
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_808_mids_hg_a2.nam
 - values:
     voicing: hbe
     boost: none
     eq: scoop
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_scoop_hg_a2.nam
 - values:
     voicing: cln
     boost: none
     eq: flat
-    gain: cln
+    gain_stage: cln
   file: captures/clean_a2.nam

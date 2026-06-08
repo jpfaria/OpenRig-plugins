@@ -14,8 +14,8 @@ parameters:
 - name: channel
   display_name: Channel
   values: ['2', '3', '4']
-- name: gain
-  display_name: Gain
+- name: gain_stage
+  display_name: Gain Stage
   values: [lg, mg, hg]
 - name: bright
   display_name: Bright
@@ -27,43 +27,43 @@ parameters:
   display_name: Preset
   values: [v1, v2, v3]
 captures:
-- values: { channel: '2', gain: lg, bright: bright, boost: none, preset: v1 }
+- values: { channel: '2', gain_stage: lg, bright: bright, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_2_br_lg.nam
-- values: { channel: '2', gain: mg, bright: bright, boost: none, preset: v1 }
+- values: { channel: '2', gain_stage: mg, bright: bright, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_2_br_mg.nam
-- values: { channel: '2', gain: lg, bright: normal, boost: none, preset: v1 }
+- values: { channel: '2', gain_stage: lg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_2_lg_01.nam
-- values: { channel: '2', gain: lg, bright: normal, boost: none, preset: v2 }
+- values: { channel: '2', gain_stage: lg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_2_lg_02.nam
-- values: { channel: '2', gain: lg, bright: normal, boost: none, preset: v3 }
+- values: { channel: '2', gain_stage: lg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_2_lg_03.nam
-- values: { channel: '2', gain: mg, bright: normal, boost: none, preset: v1 }
+- values: { channel: '2', gain_stage: mg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_2_mg_01.nam
-- values: { channel: '2', gain: mg, bright: normal, boost: none, preset: v2 }
+- values: { channel: '2', gain_stage: mg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_2_mg_02.nam
-- values: { channel: '2', gain: mg, bright: normal, boost: none, preset: v3 }
+- values: { channel: '2', gain_stage: mg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_2_mg_03.nam
-- values: { channel: '3', gain: hg, bright: normal, boost: none, preset: v1 }
+- values: { channel: '3', gain_stage: hg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_3_hg_01.nam
-- values: { channel: '3', gain: hg, bright: normal, boost: none, preset: v2 }
+- values: { channel: '3', gain_stage: hg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_3_hg_02.nam
-- values: { channel: '3', gain: hg, bright: normal, boost: none, preset: v3 }
+- values: { channel: '3', gain_stage: hg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_3_hg_03.nam
-- values: { channel: '3', gain: hg, bright: normal, boost: ts9, preset: v1 }
+- values: { channel: '3', gain_stage: hg, bright: normal, boost: ts9, preset: v1 }
   file: captures/diezel_vh4_ch_3_ts9_hg_01.nam
-- values: { channel: '3', gain: hg, bright: normal, boost: ts9, preset: v2 }
+- values: { channel: '3', gain_stage: hg, bright: normal, boost: ts9, preset: v2 }
   file: captures/diezel_vh4_ch_3_ts9_hg_02.nam
-- values: { channel: '3', gain: hg, bright: normal, boost: ts9, preset: v3 }
+- values: { channel: '3', gain_stage: hg, bright: normal, boost: ts9, preset: v3 }
   file: captures/diezel_vh4_ch_3_ts9_hg_03.nam
-- values: { channel: '4', gain: hg, bright: normal, boost: none, preset: v1 }
+- values: { channel: '4', gain_stage: hg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_4_hg_01.nam
-- values: { channel: '4', gain: hg, bright: normal, boost: none, preset: v2 }
+- values: { channel: '4', gain_stage: hg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_4_hg_02.nam
-- values: { channel: '4', gain: hg, bright: normal, boost: none, preset: v3 }
+- values: { channel: '4', gain_stage: hg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_4_hg_03.nam
-- values: { channel: '4', gain: hg, bright: normal, boost: ts9, preset: v1 }
+- values: { channel: '4', gain_stage: hg, bright: normal, boost: ts9, preset: v1 }
   file: captures/diezel_vh4_ch_4_ts9_hg_01.nam
-- values: { channel: '4', gain: hg, bright: normal, boost: ts9, preset: v2 }
+- values: { channel: '4', gain_stage: hg, bright: normal, boost: ts9, preset: v2 }
   file: captures/diezel_vh4_ch_4_ts9_hg_02.nam
-- values: { channel: '4', gain: hg, bright: normal, boost: ts9, preset: v3 }
+- values: { channel: '4', gain_stage: hg, bright: normal, boost: ts9, preset: v3 }
   file: captures/diezel_vh4_ch_4_ts9_hg_03.nam

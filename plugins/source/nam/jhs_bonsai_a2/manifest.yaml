@@ -1,4 +1,4 @@
-# gain axis: a2 captured both neutral and boost positions; a1 sibling only captured neutral.
+# gain_stage axis: neutral (Vol 5) vs boost (Vol 10) output staging per the pack notes; not a knob position.
 manifest_version: 1
 id: nam_jhs_bonsai_a2
 display_name: Bonsai (9 TS)
@@ -10,8 +10,8 @@ architecture: A2
 sources:
 - https://www.tone3000.com/tones/5925
 parameters:
-- name: gain
-  display_name: Gain
+- name: gain_stage
+  display_name: Gain Stage
   values:
   - neutral
   - boost
@@ -29,74 +29,74 @@ parameters:
   - msl
 captures:
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: xr
   file: captures/bonsai_xr_neutral_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: ts10
   file: captures/bonsai_ts10_boost_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: jhs
   file: captures/bonsai_jhs_boost_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: keeley
   file: captures/bonsai_keeley_boost_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: od1
   file: captures/bonsai_od1_neutral_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: msl
   file: captures/bonsai_msl_boost_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: xr
   file: captures/bonsai_xr_boost_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: ts9
   file: captures/bonsai_ts9_neutral_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: '808'
   file: captures/bonsai_808_neutral_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: keeley
   file: captures/bonsai_keeley_neutral_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: '808'
   file: captures/bonsai_808_boost_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: jhs
   file: captures/bonsai_jhs_neutral_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: ts9
   file: captures/bonsai_ts9_boost_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: ts7
   file: captures/bonsai_ts7_neutral_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: od1
   file: captures/bonsai_od1_boost_a2.nam
 - values:
-    gain: boost
+    gain_stage: boost
     mode: ts7
   file: captures/bonsai_ts7_boost_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: msl
   file: captures/bonsai_msl_neutral_a2.nam
 - values:
-    gain: neutral
+    gain_stage: neutral
     mode: ts10
   file: captures/bonsai_ts10_neutral_a2.nam

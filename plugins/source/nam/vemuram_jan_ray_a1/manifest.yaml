@@ -11,12 +11,12 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - mid
-  - high
+  - 5
+  - 8
 captures:
 - values:
-    gain: mid
+    gain: 5
   file: captures/jan_ray_mid_gain.nam
 - values:
-    gain: high
+    gain: 8
   file: captures/jan_ray_high_gain.nam

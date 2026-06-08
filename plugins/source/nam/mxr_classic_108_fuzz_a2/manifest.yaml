@@ -19,7 +19,6 @@ parameters:
 - name: fuzz
   display_name: Fuzz
   values:
-  - min
   - 0
   - 1
   - 2
@@ -33,7 +32,7 @@ parameters:
   - 10
   - 11
   - 12
-  - max
+  - 13
 - name: mode
   display_name: Mode
   values:
@@ -142,101 +141,101 @@ captures:
   file: captures/mxr_108_fuzz_v8_f10_buf_a2.nam
 - values:
     mode: bypass
-    fuzz: 'min'
-    volume: 'max'
+    fuzz: 0
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_fmin_a2.nam
 - values:
     mode: bypass
     fuzz: 1
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f1_a2.nam
 - values:
     mode: bypass
     fuzz: 2
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f2_a2.nam
 - values:
     mode: bypass
     fuzz: 3
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f3_a2.nam
 - values:
     mode: bypass
     fuzz: 4
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f4_a2.nam
 - values:
     mode: bypass
     fuzz: 9
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f9_a2.nam
 - values:
     mode: bypass
     fuzz: 10
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f10_a2.nam
 - values:
     mode: bypass
     fuzz: 11
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f11_a2.nam
 - values:
     mode: bypass
     fuzz: 12
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f12_a2.nam
 - values:
     mode: bypass
-    fuzz: 'max'
-    volume: 'max'
+    fuzz: 13
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_fmax_a2.nam
 - values:
     mode: buffered
-    fuzz: 'min'
-    volume: 'max'
+    fuzz: 0
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_fmin_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 1
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f1_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 2
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f2_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 3
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f3_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 4
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f4_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 9
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f9_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 10
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f10_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 11
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f11_buf_a2.nam
 - values:
     mode: buffered
     fuzz: 12
-    volume: 'max'
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_f12_buf_a2.nam
 - values:
     mode: buffered
-    fuzz: 'max'
-    volume: 'max'
+    fuzz: 13
+    volume: 10
   file: captures/mxr_108_fuzz_vmax_fmax_buf_a2.nam

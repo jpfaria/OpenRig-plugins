@@ -1,6 +1,7 @@
 # Constant token dropped across all captures: "MXR MICROAMP" (the pedal identity).
-# The MXR Micro Amp's only control is a single Gain knob; captures differ by its
-# discrete setting (low / mid / full gain), so one selector axis named "gain".
+# The MXR Micro Amp's only control is a single Gain knob (range 0-10); captures
+# differ by its setting. Qualitative positions decoded to numbers: low=3, mid=5,
+# full=10 (full = knob fully CW = top of range).
 manifest_version: 1
 id: nam_mxr_micro_amp_a2
 display_name: MXR Micro Amp
@@ -15,16 +16,16 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - low
-  - mid
-  - full
+  - 3
+  - 5
+  - 10
 captures:
 - values:
-    gain: mid
+    gain: 5
   file: captures/mxr_microamp_midgain_a2.nam
 - values:
-    gain: full
+    gain: 10
   file: captures/mxr_microamp_fullgain_a2.nam
 - values:
-    gain: low
+    gain: 3
   file: captures/mxr_microamp_lowgain_a2.nam

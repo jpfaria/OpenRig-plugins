@@ -31,8 +31,8 @@ parameters:
   - mids
   - scoop
   - none
-- name: gain
-  display_name: Gain
+- name: gain_stage
+  display_name: Gain Stage
   values:
   - hg
   - mg
@@ -43,53 +43,53 @@ captures:
     channel: hbe
     boost: od808
     voicing: flat
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_808_flat_hg_a2.nam
 - values:
     channel: hbe
     boost: none
     voicing: flat
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_flat_hg_a2.nam
 - values:
     channel: be
     boost: none
     voicing: none
-    gain: mg
+    gain_stage: mg
   file: captures/be_mg_a2.nam
 - values:
     channel: hbe
     boost: od808
     voicing: scoop
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_808_scoop_hg_a2.nam
 - values:
     channel: be
     boost: none
     voicing: none
-    gain: lg
+    gain_stage: lg
   file: captures/be_lg_a2.nam
 - values:
     channel: hbe
     boost: none
     voicing: mids
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_mids_hg_a2.nam
 - values:
     channel: hbe
     boost: od808
     voicing: mids
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_808_mids_hg_a2.nam
 - values:
     channel: hbe
     boost: none
     voicing: scoop
-    gain: hg
+    gain_stage: hg
   file: captures/hbe_scoop_hg_a2.nam
 - values:
     channel: cln
     boost: none
     voicing: none
-    gain: cln
+    gain_stage: cln
   file: captures/cln_a2.nam

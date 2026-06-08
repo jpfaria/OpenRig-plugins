@@ -12,33 +12,33 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - low
-  - mid
-  - high
-- name: boost
-  display_name: Boost
+  - 3
+  - 5
+  - 8
+- name: pedal
+  display_name: Pedal
   values:
   - none
   - isocecles
   - boss_sd1
 captures:
 - values:
-    gain: low
-    boost: boss_sd1
+    gain: 3
+    pedal: boss_sd1
   file: captures/marshall_6100_channel2_crunch_a_low_gain_boss_sd1.nam
 - values:
-    gain: mid
-    boost: isocecles
+    gain: 5
+    pedal: isocecles
   file: captures/marshall_6100_channel2_crunch_a_mid_gain_isocecles.nam
 - values:
-    gain: high
-    boost: isocecles
+    gain: 8
+    pedal: isocecles
   file: captures/marshall_6100_channel2_crunch_a_high_gain_isocecles.nam
 - values:
-    gain: high
-    boost: boss_sd1
+    gain: 8
+    pedal: boss_sd1
   file: captures/marshall_6100_channel2_crunch_a_high_gain_boss_sd1.nam
 - values:
-    gain: high
-    boost: none
+    gain: 8
+    pedal: none
   file: captures/marshall_6100_channel2_crunch_a_high_gain_no_boost.nam

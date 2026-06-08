@@ -16,9 +16,9 @@ parameters:
 - name: bias
   display_name: Bias
   values:
-  - low
-  - med
-  - high
+  - 3
+  - 5
+  - 8
 - name: gain
   display_name: Gain
   values:
@@ -30,76 +30,76 @@ parameters:
 captures:
 - values:
     level: 1200
-    bias: low
+    bias: 3
     gain: 900
   file: captures/hudson_broadcast_level1200_bias_low_gain900_a1.nam
 - values:
     level: 1200
-    bias: low
+    bias: 3
     gain: 1200
   file: captures/hudson_broadcast_level1200_bias_low_gain1200_a1.nam
 - values:
     level: 1200
-    bias: low
+    bias: 3
     gain: 300
   file: captures/hudson_broadcast_level1200_bias_low_gain300_a1.nam
 - values:
     level: 1200
-    bias: low
+    bias: 3
     gain: 500
   file: captures/hudson_broadcast_level1200_bias_low_gain500_a1.nam
 - values:
     level: 1200
-    bias: low
+    bias: 3
     gain: 700
   file: captures/hudson_broadcast_level1200_bias_low_gain700_a1.nam
 - values:
     level: 130
-    bias: high
+    bias: 8
     gain: 700
   file: captures/hudson_broadcast_level130_bias_high_gain700_a1.nam
 - values:
     level: 130
-    bias: high
+    bias: 8
     gain: 500
   file: captures/hudson_broadcast_level130_bias_high_gain500_a1.nam
 - values:
     level: 130
-    bias: high
+    bias: 8
     gain: 900
   file: captures/hudson_broadcast_level130_bias_high_gain900_a1.nam
 - values:
     level: 130
-    bias: high
+    bias: 8
     gain: 1200
   file: captures/hudson_broadcast_level130_bias_high_gain1200_a1.nam
 - values:
     level: 130
-    bias: med
+    bias: 5
     gain: 500
   file: captures/hudson_broadcast_level130_bias_med_gain500_a1.nam
 - values:
     level: 130
-    bias: med
+    bias: 5
     gain: 700
   file: captures/hudson_broadcast_level130_bias_med_gain700_a1.nam
 - values:
     level: 130
-    bias: med
+    bias: 5
     gain: 300
   file: captures/hudson_broadcast_level130_bias_med_gain300_a1.nam
 - values:
     level: 130
-    bias: med
+    bias: 5
     gain: 1200
   file: captures/hudson_broadcast_level130_bias_med_gain1200_a1.nam
 - values:
     level: 130
-    bias: med
+    bias: 5
     gain: 900
   file: captures/hudson_broadcast_level130_bias_med_gain900_a1.nam
 - values:
     level: 130
-    bias: high
+    bias: 8
     gain: 300
   file: captures/hudson_broadcast_level130_bias_high_gain300_a1.nam

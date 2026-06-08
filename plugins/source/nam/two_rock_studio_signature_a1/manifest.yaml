@@ -1,8 +1,9 @@
 # Two-Rock Studio Signature (A1) — captures decoded from descriptive model names.
-# Axis names mirror the A2 sibling (drive / gain).
+# Axes: voicing (bright / bright_mid brightness mode) / gain (numeric knob).
 # Dropped constants (identical across all three captures, so no independent grid):
-#   voicing BF (t5m5b5 / vol7 / presence p5) — the A1 set only covers the blackface
-#   voicing at gain 3-5, with EQ/volume/presence pinned, so only drive and gain vary.
+#   tone-stack BF (t5m5b5 / vol7 / presence p5) — the A1 set only covers the
+#   blackface tone-stack at gain 3-5, with EQ/volume/presence pinned, so only
+#   the voicing mode and gain vary.
 manifest_version: 1
 id: nam_two_rock_studio_signature_a1
 display_name: Two Rock Studio Signature
@@ -12,8 +13,8 @@ type: amp
 backend: nam
 architecture: A1
 parameters:
-- name: drive
-  display_name: Drive
+- name: voicing
+  display_name: Voicing
   values:
   - bright
   - bright_mid
@@ -24,14 +25,14 @@ parameters:
   - 5
 captures:
 - values:
-    drive: bright
+    voicing: bright
     gain: 3
   file: captures/b_g3_t5m5b5_vol7_p5_bf.nam
 - values:
-    drive: bright_mid
+    voicing: bright_mid
     gain: 3
   file: captures/bmd_g3_t5m5b5_vol7_p5_bf.nam
 - values:
-    drive: bright_mid
+    voicing: bright_mid
     gain: 5
   file: captures/bmd_g5_t5m5b5_vol7_p5_bf.nam

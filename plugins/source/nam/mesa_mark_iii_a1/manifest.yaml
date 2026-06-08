@@ -17,33 +17,33 @@ parameters:
   - lohi
   - lomed
   - medhi
-- name: gain
-  display_name: Gain
+- name: gain_stage
+  display_name: Gain Stage
   values:
   - cranked
   - pushed
 captures:
 - values:
     eq: lohi
-    gain: cranked
+    gain_stage: cranked
   file: captures/lohi_cranked.nam
 - values:
     eq: lohi
-    gain: pushed
+    gain_stage: pushed
   file: captures/lohi_pushed.nam
 - values:
     eq: lomed
-    gain: cranked
+    gain_stage: cranked
   file: captures/lomed_cranked.nam
 - values:
     eq: lomed
-    gain: pushed
+    gain_stage: pushed
   file: captures/lomed_pushed.nam
 - values:
     eq: medhi
-    gain: cranked
+    gain_stage: cranked
   file: captures/medhi_cranked.nam
 - values:
     eq: medhi
-    gain: pushed
+    gain_stage: pushed
   file: captures/medhi_pushed.nam

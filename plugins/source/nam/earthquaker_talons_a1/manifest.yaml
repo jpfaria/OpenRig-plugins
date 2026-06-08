@@ -8,8 +8,8 @@ type: gain_pedal
 backend: nam
 architecture: A1
 parameters:
-- name: tone
-  display_name: Tone
+- name: voicing
+  display_name: Voicing
   values:
   - flat
   - mid_boost
@@ -17,14 +17,14 @@ parameters:
   - treble_boost
 captures:
 - values:
-    tone: flat
+    voicing: flat
   file: captures/talons_gain_5_flat.nam
 - values:
-    tone: mid_boost
+    voicing: mid_boost
   file: captures/talons_gain_5_mid_boost.nam
 - values:
-    tone: presence_boost
+    voicing: presence_boost
   file: captures/talons_gain_5_presence_boost.nam
 - values:
-    tone: treble_boost
+    voicing: treble_boost
   file: captures/talons_gain_5_trebel_boost.nam

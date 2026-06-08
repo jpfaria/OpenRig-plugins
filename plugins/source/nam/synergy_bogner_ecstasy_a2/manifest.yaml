@@ -19,34 +19,34 @@ parameters:
 - name: position
   display_name: Position
   values:
-  - 01
-  - 02
-  - 03
-  - 04
-  - 05
-  - 06
-  - 07
-  - 08
-  - 09
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
   - 10
   - 11
   - 12
 captures:
 - values:
     channel: red
-    position: 03
+    position: 3
   file: captures/bogner_ecstasy_red_03_a2.nam
 - values:
     channel: red
-    position: 01
+    position: 1
   file: captures/bogner_ecstasy_red_01_a2.nam
 - values:
     channel: blue
-    position: 05
+    position: 5
   file: captures/bogner_ecstasy_blue_05_a2.nam
 - values:
     channel: blue
-    position: 04
+    position: 4
   file: captures/bogner_ecstasy_blue_04_a2.nam
 - values:
     channel: red
@@ -54,19 +54,19 @@ captures:
   file: captures/bogner_ecstasy_red_12_a2.nam
 - values:
     channel: blue
-    position: 08
+    position: 8
   file: captures/bogner_ecstasy_blue_08_a2.nam
 - values:
     channel: blue
-    position: 07
+    position: 7
   file: captures/bogner_ecstasy_blue_07_a2.nam
 - values:
     channel: red
-    position: 05
+    position: 5
   file: captures/bogner_ecstasy_red_05_a2.nam
 - values:
     channel: red
-    position: 04
+    position: 4
   file: captures/bogner_ecstasy_red_04_a2.nam
 - values:
     channel: red
@@ -74,19 +74,19 @@ captures:
   file: captures/bogner_ecstasy_red_10_a2.nam
 - values:
     channel: red
-    position: 07
+    position: 7
   file: captures/bogner_ecstasy_red_07_a2.nam
 - values:
     channel: blue
-    position: 02
+    position: 2
   file: captures/bogner_ecstasy_blue_02_a2.nam
 - values:
     channel: blue
-    position: 01
+    position: 1
   file: captures/bogner_ecstasy_blue_01_a2.nam
 - values:
     channel: red
-    position: 06
+    position: 6
   file: captures/bogner_ecstasy_red_06_a2.nam
 - values:
     channel: red
@@ -94,21 +94,21 @@ captures:
   file: captures/bogner_ecstasy_red_11_a2.nam
 - values:
     channel: red
-    position: 02
+    position: 2
   file: captures/bogner_ecstasy_red_02_a2.nam
 - values:
     channel: red
-    position: 09
+    position: 9
   file: captures/bogner_ecstasy_red_09_a2.nam
 - values:
     channel: red
-    position: 08
+    position: 8
   file: captures/bogner_ecstasy_red_08_a2.nam
 - values:
     channel: blue
-    position: 06
+    position: 6
   file: captures/bogner_ecstasy_blue_06_a2.nam
 - values:
     channel: blue
-    position: 03
+    position: 3
   file: captures/bogner_ecstasy_blue_03_a2.nam

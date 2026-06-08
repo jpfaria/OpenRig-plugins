@@ -11,15 +11,15 @@ type: preamp
 backend: nam
 architecture: A1
 parameters:
-- name: output
-  display_name: Output
+- name: mode
+  display_name: Mode
   values:
   - di
   - full
 captures:
 - values:
-    output: di
+    mode: di
   file: captures/shred_di.nam
 - values:
-    output: full
+    mode: full
   file: captures/shred_full.nam

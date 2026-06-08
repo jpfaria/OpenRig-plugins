@@ -34,7 +34,7 @@ parameters:
 - name: drive
   display_name: Drive
   values:
-  - none
+  - -1
   - 0
   - 1
   - 2
@@ -46,8 +46,8 @@ parameters:
 - name: cut
   display_name: Cut
   values:
-  - 'no'
-  - 'yes'
+  - 0
+  - 1
 - name: fat
   display_name: Fat
   values:
@@ -77,18 +77,18 @@ parameters:
   display_name: Preset
   values:
   - default
-  - '01'
-  - '02'
-  - '03'
+  - 1
+  - 2
+  - 3
   - solo
   - od808
 captures:
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: none
@@ -97,9 +97,9 @@ captures:
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: none
@@ -108,9 +108,9 @@ captures:
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: wide
     boost: none
@@ -119,42 +119,42 @@ captures:
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bd2
-    preset: '01'
+    preset: 1
   file: captures/Revv_blue_bd2_01_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bd2
-    preset: '02'
+    preset: 2
   file: captures/Revv_blue_bd2_02_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bd2
-    preset: '03'
+    preset: 3
   file: captures/Revv_blue_bd2_03_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bd2
@@ -163,53 +163,53 @@ captures:
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: clean
     boost: kot
-    preset: '01'
+    preset: 1
   file: captures/Revv_blue_kot-clean_01_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: clean
     boost: kot
-    preset: '02'
+    preset: 2
   file: captures/Revv_blue_kot-clean_02_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: dist
     boost: kot
-    preset: '01'
+    preset: 1
   file: captures/Revv_blue_kot-dist_01_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: dist
     boost: kot
-    preset: '02'
+    preset: 2
   file: captures/Revv_blue_kot-dist_02_a2.nam
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: stacked
     boost: kot
@@ -218,9 +218,9 @@ captures:
 - values:
     channel: blue
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: wide
     boost: none
@@ -229,9 +229,9 @@ captures:
 - values:
     channel: green
     mode: none
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: clean
     boost: none
@@ -240,9 +240,9 @@ captures:
 - values:
     channel: green
     mode: none
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: clean
     boost: duality_blue
@@ -253,7 +253,7 @@ captures:
     mode: none
     drive: 0
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bb
@@ -264,51 +264,51 @@ captures:
     mode: none
     drive: 0
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_b_drive0_dualitydx-blue_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 0
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_b_drive0_dualitydx-blue_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 0
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_b_drive0_dualitydx-green_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 0
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_b_drive0_dualitydx-green_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bb
@@ -319,51 +319,51 @@ captures:
     mode: none
     drive: 1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_b_drive1_dualitydx-blue_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_b_drive1_dualitydx-blue_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_b_drive1_dualitydx-green_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_b_drive1_dualitydx-green_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bb
@@ -374,51 +374,51 @@ captures:
     mode: none
     drive: 2
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_b_drive2_dualitydx-blue_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_b_drive2_dualitydx-blue_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_b_drive2_dualitydx-green_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_b_drive2_dualitydx-green_02_a2.nam
 - values:
     channel: green
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: clean
     boost: none
@@ -427,9 +427,9 @@ captures:
 - values:
     channel: green
     mode: none
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: clean
     boost: duality_blue
@@ -440,7 +440,7 @@ captures:
     mode: none
     drive: 0
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bb
@@ -451,51 +451,51 @@ captures:
     mode: none
     drive: 0
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_drive0_dualitydx-blue_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 0
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_drive0_dualitydx-blue_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 0
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_drive0_dualitydx-green_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 0
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_drive0_dualitydx-green_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bb
@@ -506,51 +506,51 @@ captures:
     mode: none
     drive: 1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_drive1_dualitydx-blue_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_drive1_dualitydx-blue_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_drive1_dualitydx-green_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_drive1_dualitydx-green_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: bb
@@ -561,51 +561,51 @@ captures:
     mode: none
     drive: 2
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_drive2_dualitydx-blue_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_blue
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_drive2_dualitydx-blue_02_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '01'
+    preset: 1
   file: captures/Revv_green_drive2_dualitydx-green_01_a2.nam
 - values:
     channel: green
     mode: none
     drive: 2
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
-    preset: '02'
+    preset: 2
   file: captures/Revv_green_drive2_dualitydx-green_02_a2.nam
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -614,9 +614,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: sd1
@@ -625,9 +625,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -636,9 +636,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: sd1
@@ -647,9 +647,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -658,9 +658,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -669,9 +669,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -680,9 +680,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -691,9 +691,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -702,9 +702,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: sd1
@@ -713,9 +713,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -724,9 +724,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -735,9 +735,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -746,9 +746,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -757,9 +757,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -768,9 +768,9 @@ captures:
 - values:
     channel: purple
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: sd1
@@ -779,9 +779,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: 66
@@ -790,9 +790,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -801,9 +801,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: 66
@@ -812,9 +812,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -823,9 +823,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: 66
@@ -834,9 +834,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -845,9 +845,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: 66
@@ -856,9 +856,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -867,9 +867,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: 66
@@ -878,9 +878,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -889,9 +889,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: 66
@@ -900,9 +900,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -911,9 +911,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: 66
@@ -922,9 +922,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -933,9 +933,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: 66
@@ -944,9 +944,9 @@ captures:
 - values:
     channel: purple
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -955,9 +955,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -966,9 +966,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: sd1
@@ -977,9 +977,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -988,9 +988,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: sd1
@@ -999,9 +999,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -1010,9 +1010,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -1021,9 +1021,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -1032,9 +1032,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -1043,9 +1043,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -1054,9 +1054,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: sd1
@@ -1065,9 +1065,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -1076,9 +1076,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -1087,9 +1087,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: duality_green
@@ -1098,9 +1098,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: sd1
@@ -1109,9 +1109,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -1120,9 +1120,9 @@ captures:
 - values:
     channel: red
     mode: 0
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: sd1
@@ -1131,9 +1131,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: 66
@@ -1142,9 +1142,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -1153,9 +1153,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: 66
@@ -1164,9 +1164,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -1175,9 +1175,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: 66
@@ -1186,9 +1186,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -1197,9 +1197,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: 66
@@ -1208,9 +1208,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -1219,9 +1219,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: 66
@@ -1230,9 +1230,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -1241,9 +1241,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: 66
@@ -1252,9 +1252,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'yes'
+    cut: 1
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -1263,9 +1263,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: 66
@@ -1274,9 +1274,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'yes'
     voicing: none
     boost: tkiy
@@ -1285,9 +1285,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: 66
@@ -1296,9 +1296,9 @@ captures:
 - values:
     channel: red
     mode: 1
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -1307,9 +1307,9 @@ captures:
 - values:
     channel: red
     mode: 2
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -1318,9 +1318,9 @@ captures:
 - values:
     channel: red
     mode: 2
-    drive: none
+    drive: -1
     bright: 'yes'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: tkiy
@@ -1329,9 +1329,9 @@ captures:
 - values:
     channel: red
     mode: 2
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: duality_green
@@ -1340,9 +1340,9 @@ captures:
 - values:
     channel: red
     mode: 2
-    drive: none
+    drive: -1
     bright: 'no'
-    cut: 'no'
+    cut: 0
     fat: 'no'
     voicing: none
     boost: tkiy

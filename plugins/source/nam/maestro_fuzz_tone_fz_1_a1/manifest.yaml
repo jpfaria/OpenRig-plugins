@@ -16,27 +16,27 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - low
-  - mid
-  - high
+  - 3
+  - 5
+  - 8
 captures:
 - values:
     mode: vintage
-    gain: low
+    gain: 3
   file: captures/maestro_fz_m_vintage_low_gain.nam
 - values:
     mode: vintage
-    gain: mid
+    gain: 5
   file: captures/maestro_fz_m_vintage_mid_gain.nam
 - values:
     mode: vintage
-    gain: high
+    gain: 8
   file: captures/maestro_fz_m_vintage_high_gain.nam
 - values:
     mode: modern
-    gain: mid
+    gain: 5
   file: captures/maestro_fz_m_modern_mid_gain.nam
 - values:
     mode: modern
-    gain: high
+    gain: 8
   file: captures/maestro_fz_m_modern_high_gain.nam

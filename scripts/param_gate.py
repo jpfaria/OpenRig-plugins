@@ -30,6 +30,7 @@ CANON={
  'aggression','solo','tubes',
  'ultra_lo','ultra_hi','scrambler',  # real Ampeg SCR-DI switches
  'take',  # last-resort disambiguator for two captures at IDENTICAL real settings (avoids forbidden dup grid)
+ 'gain_stage','pedal','contour_mode','presence_mode',  # selector axes renamed from a mislabeled knob
 }
 # obvious real controls under a non-canonical spelling -> normalize (fixable, not invented)
 NORMALIZE={'mv':'master','vol':'volume','pres':'presence','master_volume':'master','brightness':'bright',
@@ -117,6 +118,11 @@ for m in mans:
             bad=[v for v in vals if not _isnum(v)]
             if bad:
                 issues.append(f"KNOB: axis '{p['name']}' has non-numeric value(s) {bad} — a knob must be numeric (decode the position; off/none/min=0, max=knob top) OR rename the axis if it is really a selector")
+    # zero-padded numeric values ('01', 08, '09') — must be plain integers (1, 8, 9);
+    # leading zeros also hit the YAML octal trap (08/09 become strings).
+    zp=set(re.findall(r"^\s*-\s*'?(0\d+)'?\s*$", raw, re.M)) | set(re.findall(r":\s*'?(0\d+)'?\s*$", raw, re.M))
+    if zp:
+        issues.append(f"ZEROPAD: zero-padded numeric value(s) {sorted(zp)} — write plain integers (01->1, 08->8)")
     # integrity: data loss vs original (fewer capture files than 0deec200)
     pdir=f"plugins/source/{kind}/{name}"
     curcount=len(glob.glob(pdir+"/captures/*"))+len(glob.glob(pdir+"/**/*.wav",recursive=True))
