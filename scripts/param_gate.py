@@ -104,6 +104,19 @@ for m in mans:
         if kind!="ir" and nm in NORMALIZE: badnames.append(f"{nm}->{NORMALIZE[nm]}")
         else: badnames.append(f"{nm}(INVENTED)")
     if badnames: issues.append("NAME: "+", ".join(badnames))
+    # RULE: a real KNOB control is ALWAYS numeric — never a string position.
+    STRICT_KNOBS={'gain','drive','dist','distortion','tone','level','volume','master','treble','bass',
+        'mid','middle','presence','depth','reverb','sustain','contour','output','cut','volume1','volume2',
+        'low','high','sag','bias','comp','compression','fuzz','attack','sensitivity'}
+    def _isnum(s): return bool(re.fullmatch(r'-?\d+(\.\d+)?',str(s)))
+    for p in d.get("parameters",[]):
+        vals=[str(v) for v in (p.get("values") or [])]
+        if len(vals)!=len(set(vals)):
+            issues.append(f"DUPVAL: axis '{p['name']}' lists a value twice: {[v for v in set(vals) if vals.count(v)>1]}")
+        if p['name'] in STRICT_KNOBS:
+            bad=[v for v in vals if not _isnum(v)]
+            if bad:
+                issues.append(f"KNOB: axis '{p['name']}' has non-numeric value(s) {bad} — a knob must be numeric (decode the position; off/none/min=0, max=knob top) OR rename the axis if it is really a selector")
     # integrity: data loss vs original (fewer capture files than 0deec200)
     pdir=f"plugins/source/{kind}/{name}"
     curcount=len(glob.glob(pdir+"/captures/*"))+len(glob.glob(pdir+"/**/*.wav",recursive=True))

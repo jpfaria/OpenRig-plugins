@@ -56,7 +56,7 @@ parameters:
   - 6
   - 7
   - 10
-  - none
+  - -1
 - name: treble
   display_name: Treble
   values:
@@ -68,7 +68,7 @@ parameters:
   - 7
   - 8
   - 10
-  - none
+  - -1
 - name: boost
   display_name: Boost
   values:
@@ -76,7 +76,7 @@ parameters:
   - 6
   - 7
   - 8
-  - none
+  - -1
 captures:
 - values:
     channel: tb
@@ -84,15 +84,15 @@ captures:
     cut: 0
     bass: 6
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc0_b6_t4_warm_a2.nam
 - values:
     channel: n
     volume: 8
     cut: 3
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v8_tc3_a2.nam
 - values:
     channel: tb
@@ -100,7 +100,7 @@ captures:
     cut: 7
     bass: 6
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc7_b6_t4_warm_a2.nam
 - values:
     channel: tb
@@ -108,7 +108,7 @@ captures:
     cut: 0
     bass: 3
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc0_b3_t8_bright_a2.nam
 - values:
     channel: tb
@@ -116,15 +116,15 @@ captures:
     cut: 5
     bass: 7
     treble: 3
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc5_b7_t3_warm_a2.nam
 - values:
     channel: n
     volume: 3
     cut: 10
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v3_tc10_a2.nam
 - values:
     channel: tb
@@ -132,7 +132,7 @@ captures:
     cut: 4
     bass: 6
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc4_b6_t4_warm_a2.nam
 - values:
     channel: tb
@@ -140,7 +140,7 @@ captures:
     cut: 4
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc4_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -148,7 +148,7 @@ captures:
     cut: 0
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc0_b1_t6_locut_a2.nam
 - values:
     channel: tb
@@ -156,15 +156,15 @@ captures:
     cut: 0
     bass: 4
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc0_b4_t7_bright_a2.nam
 - values:
     channel: n
     volume: 5
     cut: 3
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v5_tc3_a2.nam
 - values:
     channel: tb
@@ -172,7 +172,7 @@ captures:
     cut: 5
     bass: 4
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc5_b4_t7_bright_a2.nam
 - values:
     channel: tb
@@ -180,7 +180,7 @@ captures:
     cut: 7
     bass: 2
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc7_b2_t7_bright_a2.nam
 - values:
     channel: tb
@@ -188,7 +188,7 @@ captures:
     cut: 0
     bass: 1
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc0_b1_t7_locut_a2.nam
 - values:
     channel: tb
@@ -196,15 +196,15 @@ captures:
     cut: 7
     bass: 7
     treble: 3
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc7_b7_t3_warm_a2.nam
 - values:
     channel: n
     volume: 5
     cut: 10
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v5_tc10_a2.nam
 - values:
     channel: tb
@@ -212,23 +212,23 @@ captures:
     cut: 7
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc7_b1_t6_locut_a2.nam
 - values:
     channel: n
     volume: 8
     cut: 8
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v8_tc8_a2.nam
 - values:
     channel: n
     volume: 3
     cut: 5
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v3_tc5_a2.nam
 - values:
     channel: tb
@@ -236,7 +236,7 @@ captures:
     cut: 8
     bass: 3
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc8_b3_t8_bright_a2.nam
 - values:
     channel: tb
@@ -244,7 +244,7 @@ captures:
     cut: 0
     bass: 7
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc0_b7_t7_push_a2.nam
 - values:
     channel: tb
@@ -252,15 +252,15 @@ captures:
     cut: 8
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc8_b7_t8_push_a2.nam
 - values:
     channel: n
     volume: 3
     cut: 8
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v3_tc8_a2.nam
 - values:
     channel: tb
@@ -268,7 +268,7 @@ captures:
     cut: 0
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc0_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -276,7 +276,7 @@ captures:
     cut: 2
     bass: 0
     treble: 0
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc2_b0_t0_mids_a2.nam
 - values:
     channel: tb
@@ -284,7 +284,7 @@ captures:
     cut: 0
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc0_b10_t10_cranked_a2.nam
 - values:
     channel: tb
@@ -292,15 +292,15 @@ captures:
     cut: 8
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v2_tc8_b5_t5_noon_a2.nam
 - values:
     channel: n
     volume: 8
     cut: 5
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v8_tc5_a2.nam
 - values:
     channel: tb
@@ -308,7 +308,7 @@ captures:
     cut: 8
     bass: 4
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc8_b4_t7_bright_a2.nam
 - values:
     channel: tb
@@ -316,7 +316,7 @@ captures:
     cut: 8
     bass: 7
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc8_b7_t7_push_a2.nam
 - values:
     channel: tb
@@ -324,7 +324,7 @@ captures:
     cut: 4
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc4_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -332,7 +332,7 @@ captures:
     cut: 4
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc4_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -340,7 +340,7 @@ captures:
     cut: 7
     bass: 3
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc7_b3_t8_bright_a2.nam
 - values:
     channel: tb
@@ -348,7 +348,7 @@ captures:
     cut: 0
     bass: 2
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc0_b2_t7_bright_a2.nam
 - values:
     channel: tb
@@ -356,7 +356,7 @@ captures:
     cut: 7
     bass: 5
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v10_tc7_b5_t6_noonish_a2.nam
 - values:
     channel: tb
@@ -364,7 +364,7 @@ captures:
     cut: 4
     bass: 1
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc4_b1_t7_locut_a2.nam
 - values:
     channel: tb
@@ -372,7 +372,7 @@ captures:
     cut: 0
     bass: 1
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc0_b1_t5_locut_a2.nam
 - values:
     channel: tb
@@ -380,7 +380,7 @@ captures:
     cut: 6
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v10_tc6_b10_t10_fullcrank_a2.nam
 - values:
     channel: tb
@@ -388,7 +388,7 @@ captures:
     cut: 0
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc0_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -396,7 +396,7 @@ captures:
     cut: 10
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v2_tc10_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -404,7 +404,7 @@ captures:
     cut: 7
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc7_b10_t10_cranked_a2.nam
 - values:
     channel: tb
@@ -412,7 +412,7 @@ captures:
     cut: 7
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc7_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -420,7 +420,7 @@ captures:
     cut: 7
     bass: 7
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc7_b7_t4_warm_a2.nam
 - values:
     channel: tb
@@ -428,15 +428,15 @@ captures:
     cut: 8
     bass: 7
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc8_b7_t4_warm_a2.nam
 - values:
     channel: n
     volume: 10
     cut: 3
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v10_tc3_a2.nam
 - values:
     channel: tb
@@ -444,7 +444,7 @@ captures:
     cut: 5
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc5_b10_t10_cranked_a2.nam
 - values:
     channel: tb
@@ -452,7 +452,7 @@ captures:
     cut: 7
     bass: 1
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc7_b1_t7_locut_a2.nam
 - values:
     channel: tb
@@ -460,7 +460,7 @@ captures:
     cut: 4
     bass: 2
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc4_b2_t7_bright_a2.nam
 - values:
     channel: tb
@@ -468,7 +468,7 @@ captures:
     cut: 3
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v2_tc3_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -476,15 +476,15 @@ captures:
     cut: 0
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v2_tc0_b5_t5_noon_a2.nam
 - values:
     channel: n
     volume: 3
     cut: 0
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v3_tc0_a2.nam
 - values:
     channel: tb
@@ -492,7 +492,7 @@ captures:
     cut: 5
     bass: 7
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc5_b7_t4_warm_a2.nam
 - values:
     channel: tb
@@ -500,14 +500,14 @@ captures:
     cut: 0
     bass: 3
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc0_b3_t8_bright_a2.nam
 - values:
     channel: n
     volume: 10
     cut: 0
-    bass: none
-    treble: none
+    bass: -1
+    treble: -1
     boost: 4
   file: captures/n_v10_tc0_dallastreble_4_a2.nam
 - values:
@@ -516,15 +516,15 @@ captures:
     cut: 5
     bass: 7
     treble: 7
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc5_b7_t7_push_a2.nam
 - values:
     channel: n
     volume: 3
     cut: 3
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v3_tc3_a2.nam
 - values:
     channel: tb
@@ -532,7 +532,7 @@ captures:
     cut: 0
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc0_b10_t10_cranked_a2.nam
 - values:
     channel: tb
@@ -540,14 +540,14 @@ captures:
     cut: 4
     bass: 3
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc4_b3_t8_bright_a2.nam
 - values:
     channel: n
     volume: 10
     cut: 0
-    bass: none
-    treble: none
+    bass: -1
+    treble: -1
     boost: 8
   file: captures/n_v10_tc0_dallastreble_8_a2.nam
 - values:
@@ -556,15 +556,15 @@ captures:
     cut: 3
     bass: 7
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc3_b7_t4_warm_a2.nam
 - values:
     channel: n
     volume: 8
     cut: 10
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v8_tc10_a2.nam
 - values:
     channel: tb
@@ -572,7 +572,7 @@ captures:
     cut: 0
     bass: 5
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v10_tc0_b5_t6_noonish_a2.nam
 - values:
     channel: tb
@@ -580,7 +580,7 @@ captures:
     cut: 5
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc5_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -588,7 +588,7 @@ captures:
     cut: 6
     bass: 1
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc6_b1_t5_locut_a2.nam
 - values:
     channel: tb
@@ -596,7 +596,7 @@ captures:
     cut: 0
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc0_b10_t10_cranked_a2.nam
 - values:
     channel: tb
@@ -604,23 +604,23 @@ captures:
     cut: 7
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc7_b5_t5_noon_a2.nam
 - values:
     channel: n
     volume: 7
     cut: 0
-    bass: none
-    treble: none
+    bass: -1
+    treble: -1
     boost: 7
   file: captures/n_v7_tc0_dallastreble_7_a2.nam
 - values:
     channel: n
     volume: 5
     cut: 0
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v5_tc0_a2.nam
 - values:
     channel: tb
@@ -628,7 +628,7 @@ captures:
     cut: 0
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc0_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -636,7 +636,7 @@ captures:
     cut: 4
     bass: 1
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v3_tc4_b1_t5_streets_a2.nam
 - values:
     channel: tb
@@ -644,7 +644,7 @@ captures:
     cut: 5
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v2_tc5_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -652,7 +652,7 @@ captures:
     cut: 0
     bass: 10
     treble: 10
-    boost: none
+    boost: -1
   file: captures/tb_v10_tc0_b10_t10_fullcrank_a2.nam
 - values:
     channel: tb
@@ -660,7 +660,7 @@ captures:
     cut: 0
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc0_b1_t6_locut_a2.nam
 - values:
     channel: tb
@@ -668,7 +668,7 @@ captures:
     cut: 0
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc0_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -676,7 +676,7 @@ captures:
     cut: 0
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v10_tc0_b1_t6_locut_a2.nam
 - values:
     channel: tb
@@ -684,23 +684,23 @@ captures:
     cut: 8
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc8_b1_t6_locut_a2.nam
 - values:
     channel: n
     volume: 5
     cut: 8
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v5_tc8_a2.nam
 - values:
     channel: n
     volume: 5
     cut: 5
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v5_tc5_a2.nam
 - values:
     channel: tb
@@ -708,7 +708,7 @@ captures:
     cut: 4
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc4_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -716,7 +716,7 @@ captures:
     cut: 7
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc7_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -724,15 +724,15 @@ captures:
     cut: 5
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc5_b7_t8_push_a2.nam
 - values:
     channel: n
     volume: 10
     cut: 0
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v10_tc0_a2.nam
 - values:
     channel: tb
@@ -740,7 +740,7 @@ captures:
     cut: 4
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc4_b1_t6_locut_a2.nam
 - values:
     channel: tb
@@ -748,7 +748,7 @@ captures:
     cut: 7
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc7_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -756,7 +756,7 @@ captures:
     cut: 4
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc4_b1_t6_locut_a2.nam
 - values:
     channel: tb
@@ -764,7 +764,7 @@ captures:
     cut: 0
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc0_b5_t5_noon_a2.nam
 - values:
     channel: tb
@@ -772,7 +772,7 @@ captures:
     cut: 5
     bass: 3
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc5_b3_t8_bright_a2.nam
 - values:
     channel: tb
@@ -780,14 +780,14 @@ captures:
     cut: 6
     bass: 1
     treble: 6
-    boost: none
+    boost: -1
   file: captures/tb_v10_tc6_b1_t6_locut_a2.nam
 - values:
     channel: n
     volume: 10
     cut: 0
-    bass: none
-    treble: none
+    bass: -1
+    treble: -1
     boost: 6
   file: captures/n_v10_tc0_dallastreble_6_a2.nam
 - values:
@@ -796,7 +796,7 @@ captures:
     cut: 0
     bass: 7
     treble: 3
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc0_b7_t3_warm_a2.nam
 - values:
     channel: tb
@@ -804,7 +804,7 @@ captures:
     cut: 0
     bass: 7
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc0_b7_t4_warm_a2.nam
 - values:
     channel: tb
@@ -812,15 +812,15 @@ captures:
     cut: 7
     bass: 5
     treble: 5
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc7_b5_t5_noon_a2.nam
 - values:
     channel: n
     volume: 8
     cut: 0
-    bass: none
-    treble: none
-    boost: none
+    bass: -1
+    treble: -1
+    boost: -1
   file: captures/n_v8_tc0_a2.nam
 - values:
     channel: tb
@@ -828,7 +828,7 @@ captures:
     cut: 2
     bass: 0
     treble: 0
-    boost: none
+    boost: -1
   file: captures/tb_v5_tc2_b0_t0_mids_a2.nam
 - values:
     channel: tb
@@ -836,7 +836,7 @@ captures:
     cut: 0
     bass: 7
     treble: 8
-    boost: none
+    boost: -1
   file: captures/tb_v7_tc0_b7_t8_push_a2.nam
 - values:
     channel: tb
@@ -844,5 +844,5 @@ captures:
     cut: 0
     bass: 7
     treble: 4
-    boost: none
+    boost: -1
   file: captures/tb_v8_tc0_b7_t4_warm_a2.nam
