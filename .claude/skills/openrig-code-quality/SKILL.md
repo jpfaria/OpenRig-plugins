@@ -185,15 +185,27 @@ curl …/rest/v1/tones?id=eq.<id>&select=title,description
 curl …/rest/v1/models?tone_id=eq.<id>&select=name,model_url
 ```
 
-**A knob's value is always a NUMBER — decode the position.** A real knob
-(gain/drive/tone/level/…) must hold numeric values on the knob's own scale.
-Decode every position-as-word/clock/code: `noon`=5, `9_oclock`≈2.5,
-`3_oclock`≈7.5, fully-CW/`max` = the knob's TOP for THAT pedal (TS808 drive
-0–10 ⇒ `max`=10); clock×100 `Tone900`=9.0, `1030`=10.3; concatenated `555`=5/5/5;
-underscore-decimal `8_5`=8.5. **Never invent precision** — qualitative-only
-`low`/`mid`/`high` with no captured number stays a string enum (don't fabricate
-`low`=3); real switches (`off`/`on`, voicings, `di`/`full`) stay strings.
-Numbered hand-picked configs → one `preset` axis, not sparse EQ knobs.
+**A real knob axis is ALWAYS numeric — it may NEVER hold a string.** A knob
+(`gain`/`bass`/`treble`/`volume`/`mid`/`middle`/`presence`/`master`/`level`/
+`depth`/`reverb`/`cut`/`sustain`/`contour`/`drive`/`tone`/`dist`/`fuzz`/`sag`/
+`bias`/`output`…) must hold numeric values. When you find string values on such
+an axis, ONE of two things is true:
+
+1. **They are knob POSITIONS** → decode to numbers: `noon`=5, `9_oclock`≈2.5,
+   `3_oclock`≈7.5, fully-CW/`max`/`full` = the knob TOP for THAT pedal (TS808
+   drive 0–10 ⇒ `max`=10); clock×100 `Tone900`=9.0, `1030`=10.3; concatenated
+   `555`=5/5/5; underscore-decimal `8_5`=8.5, `2_0`=2.0; `off`/`min` = 0;
+   **absent control (knob not present on this capture/channel) = `-1`** (a
+   numeric sentinel, distinct from a real `0`); qualitative `low`/`mid`/`high`
+   knob positions = `3`/`5`/`8`.
+2. **They are NOT knob positions but VOICINGS / CHANNELS / GAIN-STAGES / MODES /
+   INPUTS / PEDALS** (`clean`/`crunch`/`od`, `lg`/`mg`/`hg`, `in1`/`in2`,
+   `standard`/`ultra_lo`/`ultra_hi`, pedal names…) → the **axis is MISNAMED**.
+   Rename it to the right enum (`voicing`/`channel`/`mode`/`input`/`gain_stage`/
+   `pedal`); the string values stay (it is a selector, not a knob).
+
+Never list a value twice in an axis. Numbered hand-picked configs → one `preset`
+axis, not sparse EQ knobs.
 
 **Enforcement:** `scripts/param_gate.py` is the deterministic gate for this —
 it flags any non-control axis name, any value that is not in the
