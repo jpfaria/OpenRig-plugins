@@ -11,32 +11,32 @@ parameters:
 - name: distortion
   display_name: Distortion
   values:
-  - 130
-  - 300
-  - 500
-  - 700
-  - 900
-  - 1030
-  - 1200
+  - 1.3
+  - 3
+  - 5
+  - 7
+  - 9
+  - 10.3
+  - 12
 captures:
 - values:
-    distortion: 130
+    distortion: 1.3
   file: captures/mxr_distortion_output300_dist130.nam
 - values:
-    distortion: 300
+    distortion: 3
   file: captures/mxr_distortion_output300_dist300.nam
 - values:
-    distortion: 500
+    distortion: 5
   file: captures/mxr_distortion_output300_dist500.nam
 - values:
-    distortion: 700
+    distortion: 7
   file: captures/mxr_distortion_output300_dist700.nam
 - values:
-    distortion: 900
+    distortion: 9
   file: captures/mxr_distortion_output300_dist900.nam
 - values:
-    distortion: 1030
+    distortion: 10.3
   file: captures/mxr_distortion_output300_dist1030.nam
 - values:
-    distortion: 1200
+    distortion: 12
   file: captures/mxr_distortion_output300_dist1200.nam

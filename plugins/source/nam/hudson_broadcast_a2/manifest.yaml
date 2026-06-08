@@ -23,69 +23,69 @@ parameters:
 - name: gain
   display_name: Gain
   values:
-  - 300
-  - 500
-  - 700
-  - 900
-  - 1200
+  - 3
+  - 5
+  - 7
+  - 9
+  - 12
 captures:
 - values:
     mode: low
-    gain: 300
+    gain: 3
   file: captures/gain_low_300_a2.nam
 - values:
     mode: low
-    gain: 500
+    gain: 5
   file: captures/gain_low_500_a2.nam
 - values:
     mode: low
-    gain: 700
+    gain: 7
   file: captures/gain_low_700_a2.nam
 - values:
     mode: low
-    gain: 900
+    gain: 9
   file: captures/gain_low_900_a2.nam
 - values:
     mode: low
-    gain: 1200
+    gain: 12
   file: captures/gain_low_1200_a2.nam
 - values:
     mode: med
-    gain: 300
+    gain: 3
   file: captures/gain_med_300_a2.nam
 - values:
     mode: med
-    gain: 500
+    gain: 5
   file: captures/gain_med_500_a2.nam
 - values:
     mode: med
-    gain: 700
+    gain: 7
   file: captures/gain_med_700_a2.nam
 - values:
     mode: med
-    gain: 900
+    gain: 9
   file: captures/gain_med_900_a2.nam
 - values:
     mode: med
-    gain: 1200
+    gain: 12
   file: captures/gain_med_1200_a2.nam
 - values:
     mode: high
-    gain: 300
+    gain: 3
   file: captures/gain_high_300_a2.nam
 - values:
     mode: high
-    gain: 500
+    gain: 5
   file: captures/gain_high_500_a2.nam
 - values:
     mode: high
-    gain: 700
+    gain: 7
   file: captures/gain_high_700_a2.nam
 - values:
     mode: high
-    gain: 900
+    gain: 9
   file: captures/gain_high_900_a2.nam
 - values:
     mode: high
-    gain: 1200
+    gain: 12
   file: captures/gain_high_1200_a2.nam
