@@ -20,71 +20,71 @@ parameters:
   values:
   - 'off'
   - 'on'
-- name: gain_stage
-  display_name: Gain Stage
+- name: gain
+  display_name: Gain
   values:
-  - low1
-  - low2
-  - mid1
-  - high1
+  - 1
+  - 2
+  - 3
+  - 4
 captures:
 - values:
     channel: ch3
     boost: 'off'
-    gain_stage: low1
+    gain: 1
   file: captures/dzlvh4_ch3_lowgain1_a2.nam
 - values:
     channel: ch4
     boost: 'on'
-    gain_stage: low2
+    gain: 2
   file: captures/dzlvh4_ch4_ts808_lowgain2_a2.nam
 - values:
     channel: ch3
     boost: 'on'
-    gain_stage: mid1
+    gain: 3
   file: captures/dzlvh4_ch3_ts808_midgain1_a2.nam
 - values:
     channel: ch4
     boost: 'on'
-    gain_stage: high1
+    gain: 4
   file: captures/dzlvh4_ch4_ts808_highgain1_a2.nam
 - values:
     channel: ch4
     boost: 'off'
-    gain_stage: high1
+    gain: 4
   file: captures/dzlvh4_ch4_highgain1_a2.nam
 - values:
     channel: ch3
     boost: 'off'
-    gain_stage: mid1
+    gain: 3
   file: captures/dzlvh4_ch3_midgain1_a2.nam
 - values:
     channel: ch4
     boost: 'off'
-    gain_stage: low1
+    gain: 1
   file: captures/dzlvh4_ch4_lowgain1_a2.nam
 - values:
     channel: ch3
     boost: 'on'
-    gain_stage: low1
+    gain: 1
   file: captures/dzlvh4_ch3_ts808_lowgain1_a2.nam
 - values:
     channel: ch4
     boost: 'on'
-    gain_stage: mid1
+    gain: 3
   file: captures/dzlvh4_ch4_ts808_midgain1_a2.nam
 - values:
     channel: ch3
     boost: 'off'
-    gain_stage: high1
+    gain: 4
   file: captures/dzlvh4_ch3_highgain1_a2.nam
 - values:
     channel: ch3
     boost: 'on'
-    gain_stage: high1
+    gain: 4
   file: captures/dzlvh4_ch3_ts808_highgain1_a2.nam
 - values:
     channel: ch4
     boost: 'off'
-    gain_stage: mid1
+    gain: 3
   file: captures/dzlvh4_ch4_midgain1_a2.nam

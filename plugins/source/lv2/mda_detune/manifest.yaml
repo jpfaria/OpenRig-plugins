@@ -8,7 +8,7 @@ license: MIT
 homepage: https://github.com/rncbc/mda-lv2
 type: pitch
 backend: lv2
-plugin_uri: http://drobilla.net/plugins/mda/Detune
+plugin_uri: http://moddevices.com/plugins/mda/Detune
 binaries:
   macos-universal: platform/macos-universal/Detune.dylib
   windows-x86_64: platform/windows-x86_64/Detune.dll

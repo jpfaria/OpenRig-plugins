@@ -198,11 +198,16 @@ an axis, ONE of two things is true:
    **absent control (knob not present on this capture/channel) = `-1`** (a
    numeric sentinel, distinct from a real `0`); qualitative `low`/`mid`/`high`
    knob positions = `3`/`5`/`8`.
-2. **They are NOT knob positions but VOICINGS / CHANNELS / GAIN-STAGES / MODES /
-   INPUTS / PEDALS** (`clean`/`crunch`/`od`, `lg`/`mg`/`hg`, `in1`/`in2`,
-   `standard`/`ultra_lo`/`ultra_hi`, pedal names…) → the **axis is MISNAMED**.
-   Rename it to the right enum (`voicing`/`channel`/`mode`/`input`/`gain_stage`/
-   `pedal`); the string values stay (it is a selector, not a knob).
+   **ORDERED positions encoded as labels are a KNOB, not an enum** — if the
+   values are an N-step gain sweep written as `low1`/`low2`/`mid1`/`mid2`/`high1`
+   /`high2`/`high3` (Marshall JVM: 8 gain levels) or `lg`/`mg`/`hg`, they form one
+   numeric gain knob: order them lowest→highest and number `1..N`. Be smart — a
+   set that clearly ranks is a knob, not a dropdown.
+2. **They are NOT knob positions but a genuinely DISCRETE, UNORDERED selector —
+   VOICINGS / CHANNELS / MODES / INPUTS / PEDALS** (`clean`/`crunch`/`od`,
+   `in1`/`in2`, `standard`/`ultra_lo`/`ultra_hi`, pedal names…) → the **axis is
+   MISNAMED**. Rename it to the right enum (`voicing`/`channel`/`mode`/`input`/
+   `gain_stage`/`pedal`); the string values stay (it is a selector, not a knob).
 
 Never list a value twice in an axis. Numbered hand-picked configs → one `preset`
 axis, not sparse EQ knobs. **Numbered values are PLAIN integers** — never

@@ -7,7 +7,7 @@ license: MIT
 homepage: https://github.com/rncbc/mda-lv2
 type: amp
 backend: lv2
-plugin_uri: http://drobilla.net/plugins/mda/Combo
+plugin_uri: http://moddevices.com/plugins/mda/Combo
 binaries:
   macos-universal: platform/macos-universal/Combo.dylib
   windows-x86_64: platform/windows-x86_64/Combo.dll
