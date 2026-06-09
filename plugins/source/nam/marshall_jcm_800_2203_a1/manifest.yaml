@@ -42,34 +42,58 @@ captures:
     gain: 3.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g3_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     gain: 4.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g4_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     gain: 5.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g5_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     gain: 6.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g6_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     gain: 7.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g7_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 8.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g8_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.4
 - values:
     gain: 9.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g9_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     gain: 10.0
     master: 5.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv5_g10_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 1.0
     master: 6.0
@@ -82,34 +106,58 @@ captures:
     gain: 3.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g3_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     gain: 4.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g4_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     gain: 5.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g5_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     gain: 6.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g6_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 7.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g7_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.4
 - values:
     gain: 8.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g8_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 9.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g9_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 10.0
     master: 6.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv6_g10_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.4
 - values:
     gain: 1.0
     master: 7.0
@@ -118,35 +166,62 @@ captures:
     gain: 2.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g2_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     gain: 3.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g3_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     gain: 4.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g4_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.3
 - values:
     gain: 5.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g5_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.2
 - values:
     gain: 6.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g6_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.3
 - values:
     gain: 7.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g7_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.2
 - values:
     gain: 8.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g8_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.1
 - values:
     gain: 9.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g9_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.1
 - values:
     gain: 10.0
     master: 7.0
   file: captures/jcm800_2203_p5_b5_m5_t5_mv7_g10_azg_700.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0

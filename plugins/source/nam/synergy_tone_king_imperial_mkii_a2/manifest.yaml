@@ -727,6 +727,9 @@ captures:
     volume: 2
     reverb: 70
   file: captures/syn20ir_imp_c2_a_9_g100_b40_mb80_v2_r70_m30_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: c2
     voicing: a
@@ -897,6 +900,9 @@ captures:
     volume: 2
     reverb: 53
   file: captures/syn20ir_imp_c2_b_8_g87_b51_mb75_v2_r53_m30_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: c2
     voicing: b
@@ -907,6 +913,9 @@ captures:
     volume: 2
     reverb: 70
   file: captures/syn20ir_imp_c2_b_9_g100_b40_mb80_v2_r70_m30_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: c2
     voicing: b
@@ -1087,6 +1096,9 @@ captures:
     volume: 2
     reverb: 70
   file: captures/syn20ir_imp_c2_c_9_g100_b40_mb80_v2_r70_m30_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: c2
     voicing: c

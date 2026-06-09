@@ -27,3 +27,6 @@ captures:
 - values:
     preset: pow_reso7_pres7
   file: captures/pow_reso7_pres7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

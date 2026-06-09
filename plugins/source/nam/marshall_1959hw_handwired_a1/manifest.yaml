@@ -29,15 +29,27 @@ captures:
     gain: 6
     preset: complex_1700e
   file: captures/slammin_plexi_cranked_6_1700e_complex_custom.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     gain: 7
     preset: standard_1500e
   file: captures/slammin_plexi_cranked_7_1500e_standard.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     gain: 7
     preset: standard_2000e
   file: captures/slammin_plexi_cranked_7_2000e_standard.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     gain: 7
     preset: complex_2000e
   file: captures/slammin_plexi_cranked_7_2000e_complex_custom.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3

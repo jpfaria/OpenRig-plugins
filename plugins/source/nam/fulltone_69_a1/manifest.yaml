@@ -31,15 +31,24 @@ captures:
 - values:
     preset: low_contour
   file: captures/69_high_vol_low_contour_contour_off_vol_bias_and_f.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: mid_contour
   file: captures/69_high_vol_mid_contour_contour_12_vol_bias_and_fu.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: mid_contour_2
   file: captures/69_high_vol_mid_contour_contour_12_vol_bias_and_fu_1.nam
 - values:
     preset: maxx_fuzz
   file: captures/69_maxx_fuzz_vol_contour_bias_and_fuzz_full_gain_t.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: stock_fuzzface
   file: captures/69_stock_fuzzface_vol_2_contour_off_bias_and_fuzz_.nam

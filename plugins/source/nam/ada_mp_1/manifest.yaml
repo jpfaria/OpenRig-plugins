@@ -24,9 +24,18 @@ captures:
 - values:
     channel: od1
   file: captures/ada_mp_1_3tm_od1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: od2
   file: captures/ada_mp_1_3tm_od2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: mod1
   file: captures/ada_mp_1_3tm_mod1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

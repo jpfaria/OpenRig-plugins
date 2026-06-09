@@ -19,3 +19,6 @@ captures:
 - values:
     default: default
   file: captures/block_letter_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9

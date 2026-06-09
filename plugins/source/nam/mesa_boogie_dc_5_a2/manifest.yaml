@@ -47,75 +47,150 @@ captures:
 - values:
     preset: sd_805_1
   file: captures/sd_805_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: sd_805_2
   file: captures/sd_805_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: sd_805_3
   file: captures/sd_805_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: thick_g4
   file: captures/thick_g4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: thick_g6_5
   file: captures/thick_g6_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: thick_g7_5
   file: captures/thick_g7_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: thick_g8_5
   file: captures/thick_g8_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: less_thick_g4
   file: captures/less_thick_g4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: less_thick_g5_5
   file: captures/less_thick_g5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: less_thick_g7_5
   file: captures/less_thick_g7_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: less_thick_g8_5
   file: captures/less_thick_g8_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: mids_g4
   file: captures/mids_g4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: mids_g5_5
   file: captures/mids_g5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: mids_g7_5
   file: captures/mids_g7_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: mids_g9
   file: captures/mids_g9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: scoop_g5_5
   file: captures/scoop_g5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: scoop_g7
   file: captures/scoop_g7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: mean_1
   file: captures/mean_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     preset: mean_2_g6
   file: captures/mean_2_g6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: mean_3_g7_5
   file: captures/mean_3_g7_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: mean_4_g5_5
   file: captures/mean_4_g5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: mean_5_g5_5
   file: captures/mean_5_g5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: mean_5_g7
   file: captures/mean_5_g7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: mean_5_g8
   file: captures/mean_5_g8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: new
   file: captures/new_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3

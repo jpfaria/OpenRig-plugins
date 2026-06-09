@@ -20,9 +20,15 @@ captures:
 - values:
     channel: blue
   file: captures/evh_5150iii_s_100w_el34_ch_blue_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: green
   file: captures/evh_5150iii_s_100w_el34_ch_green_a2.nam
 - values:
     channel: red
   file: captures/evh_5150iii_s_100w_el34_ch_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

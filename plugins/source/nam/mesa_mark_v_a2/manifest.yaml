@@ -73,12 +73,18 @@ captures:
     boost: none
     mode: lg
   file: captures/mark_v_ch1_tweed_lg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: ch1
     voicing: tweed
     boost: none
     mode: eob
   file: captures/mark_v_ch1_tweed_eob_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: ch1
     voicing: tweed
@@ -97,30 +103,45 @@ captures:
     boost: none
     mode: mg
   file: captures/mark_v_ch2_mk_i_mg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: ch2
     voicing: mk_i
     boost: none
     mode: hg
   file: captures/mark_v_ch2_mk_i_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch2
     voicing: mk_i
     boost: sd1
     mode: hg
   file: captures/mark_v_ch2_mk_i_sd1_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch2
     voicing: mk_i
     boost: "808"
     mode: hg
   file: captures/mark_v_ch2_mk_i_808_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ch2
     voicing: mk_i
     boost: ts9
     mode: hg
   file: captures/mark_v_ch2_mk_i_ts9_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch2
     voicing: cru
@@ -133,6 +154,9 @@ captures:
     boost: none
     mode: mg
   file: captures/mark_v_ch2_cru_mg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: ch2
     voicing: cru
@@ -145,12 +169,18 @@ captures:
     boost: none
     mode: lg
   file: captures/mark_v_ch2_edge_lg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: ch2
     voicing: edge
     boost: none
     mode: mg
   file: captures/mark_v_ch2_edge_mg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch2
     voicing: edge
@@ -163,117 +193,177 @@ captures:
     boost: none
     mode: hg_bal
   file: captures/mark_v_ch3_mk_iic_hg_bal_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iic
     boost: none
     mode: hg_mids
   file: captures/mark_v_ch3_mk_iic_hg_mids_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iic
     boost: none
     mode: hg_scoop
   file: captures/mark_v_ch3_mk_iic_hg_scoop_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: mk_iic
     boost: sd1
     mode: hg
   file: captures/mark_v_ch3_mk_iic_sd1_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iic
     boost: "808"
     mode: hg
   file: captures/mark_v_ch3_mk_iic_808_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: mk_iic
     boost: ts9
     mode: hg
   file: captures/mark_v_ch3_mk_iic_ts9_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iv
     boost: none
     mode: hg_bal
   file: captures/mark_v_ch3_mk_iv_hg_bal_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iv
     boost: none
     mode: hg_mids
   file: captures/mark_v_ch3_mk_iv_hg_mids_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iv
     boost: none
     mode: hg_scoop
   file: captures/mark_v_ch3_mk_iv_hg_scoop_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: mk_iv
     boost: sd1
     mode: hg
   file: captures/mark_v_ch3_mk_iv_sd1_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: mk_iv
     boost: "808"
     mode: hg
   file: captures/mark_v_ch3_mk_iv_808_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: mk_iv
     boost: ts9
     mode: hg
   file: captures/mark_v_ch3_mk_iv_ts9_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: ext
     boost: none
     mode: hg_bal
   file: captures/mark_v_ch3_ext_hg_bal_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: ch3
     voicing: ext
     boost: none
     mode: hg_mids
   file: captures/mark_v_ch3_ext_hg_mids_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: ext
     boost: none
     mode: hg_scoop
   file: captures/mark_v_ch3_ext_hg_scoop_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: ext
     boost: sd1
     mode: hg
   file: captures/mark_v_ch3_ext_sd1_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ch3
     voicing: ext
     boost: "808"
     mode: hg
   file: captures/mark_v_ch3_ext_808_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: ext
     boost: ts9
     mode: hg
   file: captures/mark_v_ch3_ext_ts9_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: ext
     boost: none
     mode: black_metal_i
   file: captures/mark_v_ch3_ext_black_metal_i_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     voicing: ext
     boost: none
     mode: black_metal_ii
   file: captures/mark_v_ch3_ext_black_metal_ii_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

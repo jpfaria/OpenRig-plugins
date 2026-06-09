@@ -49,129 +49,195 @@ captures:
     load: 4x12
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 1
     boost: none
     load: 4x12
     take: b
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: 1
     boost: none
     load: srl
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: 1
     boost: od808
     load: 4x12
     take: a
   file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: 1
     boost: od808
     load: srl
     take: a
   file: captures/di_od808_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: 1
     boost: sd1
     load: 4x12
     take: a
   file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: 1
     boost: sd1
     load: srl
     take: a
   file: captures/di_sd1_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: 1
     boost: tdlx
     load: 4x12
     take: a
   file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 1
     boost: tdlx
     load: srl
     take: a
   file: captures/di_tdlx_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 1
     boost: tmb66
     load: 4x12
     take: a
   file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 1
     boost: tmb66
     load: srl
     take: a
   file: captures/di_tmb66_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 1
     boost: tmb73
     load: 4x12
     take: a
   file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 1
     boost: tmb73
     load: srl
     take: a
   file: captures/di_tmb73_mbdr_mw_red_mdn_g7_ma2_p2_t5_m4_b2_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: 2
     boost: none
     load: 4x12
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 2
     boost: none
     load: srl
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m4_b3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: 3
     boost: none
     load: 4x12
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: 3
     boost: none
     load: srl
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p3_t6_m6_b3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: 4
     boost: none
     load: 4x12
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 4
     boost: none
     load: srl
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p4_t4_m3_b4_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 5
     boost: none
     load: 4x12
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_4fb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 5
     boost: none
     load: srl
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p5_t4_m5_b3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: 6
     boost: none
     load: srl
     take: a
   file: captures/di_mbdr_mw_red_mdn_g7_ma2_p6_t0_m7_b3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

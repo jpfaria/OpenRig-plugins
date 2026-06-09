@@ -24,15 +24,27 @@ captures:
     gain: 50
     tight: 'off'
   file: captures/be_od_g50.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     gain: 75
     tight: 'off'
   file: captures/be_od_g75.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     gain: 100
     tight: 'off'
   file: captures/be_od_g100.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     gain: 100
     tight: 'on'
   file: captures/be_od_g100_tight.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

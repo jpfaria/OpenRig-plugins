@@ -45,6 +45,9 @@ captures:
 - values:
     preset: pp_wendigo
   file: captures/pp_wendigo.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: swollen_pickle
   file: captures/swollen_pickle.nam

@@ -24,15 +24,27 @@ captures:
     channel: red
     boost: none
   file: captures/peavey_6505_red_ch.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     boost: boss_hm_2w
   file: captures/peavey_6505_red_ch_boss_hm_2w.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     boost: maxon_st9pro
   file: captures/peavey_6505_red_ch_maxon_st9pro.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     boost: maxon_st9pro
   file: captures/peavey_6505_green_ch_maxon_st9pro.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

@@ -160,6 +160,9 @@ captures:
     boost: bd2
     preset: od808
   file: captures/Revv_blue_bd2_03_od808_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: blue
     mode: none
@@ -193,6 +196,9 @@ captures:
     boost: kot
     preset: 1
   file: captures/Revv_blue_kot-dist_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: blue
     mode: none
@@ -204,6 +210,9 @@ captures:
     boost: kot
     preset: 2
   file: captures/Revv_blue_kot-dist_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: blue
     mode: none
@@ -215,6 +224,9 @@ captures:
     boost: kot
     preset: default
   file: captures/Revv_blue_kot-stacked_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: blue
     mode: none
@@ -259,6 +271,9 @@ captures:
     boost: bb
     preset: default
   file: captures/Revv_green_b_drive0_bb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     mode: none
@@ -270,6 +285,9 @@ captures:
     boost: duality_blue
     preset: 1
   file: captures/Revv_green_b_drive0_dualitydx-blue_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: green
     mode: none
@@ -281,6 +299,9 @@ captures:
     boost: duality_blue
     preset: 2
   file: captures/Revv_green_b_drive0_dualitydx-blue_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: green
     mode: none
@@ -303,6 +324,9 @@ captures:
     boost: duality_green
     preset: 2
   file: captures/Revv_green_b_drive0_dualitydx-green_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -314,6 +338,9 @@ captures:
     boost: bb
     preset: default
   file: captures/Revv_green_b_drive1_bb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     mode: none
@@ -325,6 +352,9 @@ captures:
     boost: duality_blue
     preset: 1
   file: captures/Revv_green_b_drive1_dualitydx-blue_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: green
     mode: none
@@ -336,6 +366,9 @@ captures:
     boost: duality_blue
     preset: 2
   file: captures/Revv_green_b_drive1_dualitydx-blue_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     mode: none
@@ -347,6 +380,9 @@ captures:
     boost: duality_green
     preset: 1
   file: captures/Revv_green_b_drive1_dualitydx-green_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: green
     mode: none
@@ -358,6 +394,9 @@ captures:
     boost: duality_green
     preset: 2
   file: captures/Revv_green_b_drive1_dualitydx-green_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -369,6 +408,9 @@ captures:
     boost: bb
     preset: default
   file: captures/Revv_green_b_drive2_bb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     mode: none
@@ -380,6 +422,9 @@ captures:
     boost: duality_blue
     preset: 1
   file: captures/Revv_green_b_drive2_dualitydx-blue_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     mode: none
@@ -391,6 +436,9 @@ captures:
     boost: duality_blue
     preset: 2
   file: captures/Revv_green_b_drive2_dualitydx-blue_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: green
     mode: none
@@ -402,6 +450,9 @@ captures:
     boost: duality_green
     preset: 1
   file: captures/Revv_green_b_drive2_dualitydx-green_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -413,6 +464,9 @@ captures:
     boost: duality_green
     preset: 2
   file: captures/Revv_green_b_drive2_dualitydx-green_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: green
     mode: none
@@ -446,6 +500,9 @@ captures:
     boost: bb
     preset: default
   file: captures/Revv_green_drive0_bb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -501,6 +558,9 @@ captures:
     boost: bb
     preset: default
   file: captures/Revv_green_drive1_bb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -523,6 +583,9 @@ captures:
     boost: duality_blue
     preset: 2
   file: captures/Revv_green_drive1_dualitydx-blue_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: green
     mode: none
@@ -556,6 +619,9 @@ captures:
     boost: bb
     preset: default
   file: captures/Revv_green_drive2_bb_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -578,6 +644,9 @@ captures:
     boost: duality_blue
     preset: 2
   file: captures/Revv_green_drive2_dualitydx-blue_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: green
     mode: none
@@ -600,6 +669,9 @@ captures:
     boost: duality_green
     preset: 2
   file: captures/Revv_green_drive2_dualitydx-green_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: purple
     mode: 0
@@ -611,6 +683,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_b_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: purple
     mode: 0
@@ -622,6 +697,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_b_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: purple
     mode: 0
@@ -633,6 +711,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_bc_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 0
@@ -644,6 +725,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_bc_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: purple
     mode: 0
@@ -655,6 +739,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_bcf_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 0
@@ -666,6 +753,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_bcf_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: purple
     mode: 0
@@ -677,6 +767,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_bf_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: purple
     mode: 0
@@ -688,6 +781,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_bf_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: purple
     mode: 0
@@ -699,6 +795,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_c_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: purple
     mode: 0
@@ -710,6 +809,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_c_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: purple
     mode: 0
@@ -721,6 +823,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_cf_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: purple
     mode: 0
@@ -732,6 +837,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_cf_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: purple
     mode: 0
@@ -743,6 +851,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_f_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: purple
     mode: 0
@@ -754,6 +865,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_f_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: purple
     mode: 0
@@ -765,6 +879,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_purple_aggr0_x_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: purple
     mode: 0
@@ -776,6 +893,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_purple_aggr0_x_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: purple
     mode: 1
@@ -784,9 +904,12 @@ captures:
     cut: 0
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_b_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 1
@@ -798,6 +921,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_b_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: purple
     mode: 1
@@ -806,9 +932,12 @@ captures:
     cut: 1
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_bc_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 1
@@ -820,6 +949,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_bc_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 1
@@ -828,9 +960,12 @@ captures:
     cut: 1
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_bcf_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 1
@@ -842,6 +977,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_bcf_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 1
@@ -850,9 +988,12 @@ captures:
     cut: 0
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_bf_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 1
@@ -864,6 +1005,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_bf_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 1
@@ -872,9 +1016,12 @@ captures:
     cut: 1
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_c_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 1
@@ -886,6 +1033,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_c_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: purple
     mode: 1
@@ -894,9 +1044,12 @@ captures:
     cut: 1
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_cf_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 1
@@ -908,6 +1061,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_cf_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 1
@@ -916,9 +1072,12 @@ captures:
     cut: 0
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_f_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: purple
     mode: 1
@@ -930,6 +1089,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_f_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: purple
     mode: 1
@@ -938,9 +1100,12 @@ captures:
     cut: 0
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_purple_aggr1_x_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 1
@@ -952,6 +1117,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_purple_aggr1_x_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 0
@@ -963,6 +1131,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_b_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 0
@@ -974,6 +1145,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_b_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 0
@@ -985,6 +1159,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_bc_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 0
@@ -996,6 +1173,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_bc_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 0
@@ -1007,6 +1187,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_bcf_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 0
@@ -1018,6 +1201,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_bcf_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 0
@@ -1029,6 +1215,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_bf_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     mode: 0
@@ -1040,6 +1229,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_bf_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 0
@@ -1051,6 +1243,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_c_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 0
@@ -1062,6 +1257,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_c_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     mode: 0
@@ -1073,6 +1271,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_cf_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     mode: 0
@@ -1084,6 +1285,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_cf_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 0
@@ -1095,6 +1299,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_f_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: red
     mode: 0
@@ -1106,6 +1313,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_f_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: red
     mode: 0
@@ -1117,6 +1327,9 @@ captures:
     boost: duality_green
     preset: default
   file: captures/Revv_red_aggr0_x_dualitydx-green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: red
     mode: 0
@@ -1128,6 +1341,9 @@ captures:
     boost: sd1
     preset: default
   file: captures/Revv_red_aggr0_x_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: red
     mode: 1
@@ -1136,9 +1352,12 @@ captures:
     cut: 0
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_b_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: red
     mode: 1
@@ -1150,6 +1369,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_b_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 1
@@ -1158,9 +1380,12 @@ captures:
     cut: 1
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_bc_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: red
     mode: 1
@@ -1172,6 +1397,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_bc_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 1
@@ -1180,9 +1408,12 @@ captures:
     cut: 1
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_bcf_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: red
     mode: 1
@@ -1194,6 +1425,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_bcf_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 1
@@ -1202,9 +1436,12 @@ captures:
     cut: 0
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_bf_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 1
@@ -1216,6 +1453,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_bf_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 1
@@ -1224,9 +1464,12 @@ captures:
     cut: 1
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_c_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: red
     mode: 1
@@ -1238,6 +1481,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_c_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 1
@@ -1246,9 +1492,12 @@ captures:
     cut: 1
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_cf_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 1
@@ -1260,6 +1509,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_cf_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 1
@@ -1268,9 +1520,12 @@ captures:
     cut: 0
     fat: 'yes'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_f_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 1
@@ -1282,6 +1537,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_f_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     mode: 1
@@ -1290,9 +1548,12 @@ captures:
     cut: 0
     fat: 'no'
     voicing: none
-    boost: 66
+    boost: '66'
     preset: default
   file: captures/Revv_red_aggr1_x_66_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 1
@@ -1304,6 +1565,9 @@ captures:
     boost: tkiy
     preset: default
   file: captures/Revv_red_aggr1_x_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 2
@@ -1315,6 +1579,9 @@ captures:
     boost: duality_green
     preset: solo
   file: captures/Revv_red_aggr2_b_dualitydx-green_solo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 2
@@ -1326,6 +1593,9 @@ captures:
     boost: tkiy
     preset: solo
   file: captures/Revv_red_aggr2_b_tkiy_solo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     mode: 2
@@ -1337,6 +1607,9 @@ captures:
     boost: duality_green
     preset: solo
   file: captures/Revv_red_aggr2_x_dualitydx-green_solo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     mode: 2
@@ -1348,3 +1621,6 @@ captures:
     boost: tkiy
     preset: solo
   file: captures/Revv_red_aggr2_x_tkiy_solo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

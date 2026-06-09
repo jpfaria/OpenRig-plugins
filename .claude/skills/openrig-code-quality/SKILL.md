@@ -154,6 +154,80 @@ passing AND a failing unit test before the fix lands.
 
 ---
 
+## Per-capture noise gate — measure the threshold, never guess (issue #73)
+
+High-gain NAM captures amplify the idle input noise floor (pickup / cable /
+interface, "powered on, not playing"), so the block hisses the moment it is
+enabled. The fix is the engine's existing `dsp::noise_gate` (sits BEFORE the
+model in `cpp/nam_wrapper.cpp`), shipped per capture in the manifest. The
+manifest schema + `from_package` plumbing is **OpenRig#675** (core); the
+per-capture **values** are this repo's job. Schema:
+
+```yaml
+noise_gate:                 # manifest-level default (optional)
+  enabled: true
+  threshold_db: -32.0
+captures:
+- file: captures/dirty_a2.nam
+  noise_gate:               # per-capture override (preferred — see below)
+    enabled: true
+    threshold_db: -32.0
+```
+
+`noise_gate.threshold_db` is **input-referred dBFS** (same unit the engine
+already uses). The engine default is `enabled: false`, `-50.0` (#612 turned the
+gate off to protect sustain). Precedence: user project > per-capture > manifest
+default > engine default.
+
+**The measurement IS the deliverable — `tools/loudness_audit/src/nam_gate_audit.rs`:**
+
+- **Probe:** deterministic white noise at **−50 dBFS RMS** (the idle floor),
+  run through the raw `.nam`; measure output RMS.
+- **Decide on the AUDIBLE LEVEL, not the gain.** Small-signal gain is NOT a
+  clean/dirty discriminator — across the catalogue its median is **+26 dB**
+  (even a clean amp channel amplifies a −50 dBFS signal; a preamp has gain at
+  tiny levels). What the user hears is `idle = out_rms + output_gain_db`. Ship
+  the gate when `idle ≥ cutoff` (issue #73 chose **−20 dBFS**, the clearly-
+  audible tier: 228/524 plugins); quieter captures keep the #612 off-default so
+  their sustain is never strangled.
+- **Threshold from the engine's own gate law.** The gate applies
+  `reduction_dB = 0.1·(threshold − level)²` below threshold. To pull the idle
+  hiss back down to the −50 dBFS floor, invert it at the idle level:
+  `threshold = −50 + √(reduction / 0.1)`, clamped to a musically safe band
+  `[−45, −30]`. Louder idle → higher (harder) threshold. **Never** pick a round
+  number by feel.
+- **Writer:** `nam_gate_audit --apply <report.tsv>` upserts the per-capture
+  `noise_gate` block (idempotent: strips a stale block first, so a re-run at a
+  different cutoff converges). This mirrors the tested `output_gain_db` writer
+  in `main.rs` — it is **not** the forbidden ad-hoc manifest transform script;
+  it has unit tests and the `pack_plugins`/`plugin-loader` parse over all 524
+  is the safety net.
+
+**Build traps this work hit (the next session will hit them too):**
+
+- **`.cargo/config.toml` must stay gitignored.** The local A2-core `paths`
+  override was accidentally committed in #62, pointing at a non-existent
+  `../openrig-dev` → it breaks every clean `cargo` build and the OpenRig release
+  bundle. Removed + gitignored in #73. If you need the override locally, keep it
+  out of git.
+- **A2 models build from a fresh `develop` resolve.** With no `Cargo.lock`
+  (it is gitignored) cargo re-resolves `develop` and builds the A2-capable
+  NAM C++ core — no segfault, no `openrig-dev` clone needed. The old stale-lock
+  segfault recipe is obsolete.
+- **rpath patch.** `qa_audit` / `nam_gate_audit` link `@rpath/libnam_wrapper.dylib`
+  with no `LC_RPATH`. After building, `cp` the dylib from
+  `target/release/build/nam-*/out/lib/` into `target/release/` and
+  `install_name_tool -add_rpath @executable_path target/release/<bin>`.
+
+```
+❌ threshold_db picked by ear / a round number / copied from the schema example
+❌ deciding "needs gate" from small-signal gain (over-selects ~90% of catalogue)
+❌ an ad-hoc python/sed script rewriting 228 manifests
+✅ probe → measure audible idle → invert the gate law → tested --apply writer
+```
+
+---
+
 ## LAW — parameter names are REAL controls; read the description (issue #66)
 
 A plugin's parameter NAME must be a control that actually exists on the gear —

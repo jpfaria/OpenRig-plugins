@@ -119,12 +119,21 @@ captures:
 - values:
     preset: main_brighter_boost_c
   file: captures/SLAMMIN_TIMMONS_RIVERA_MAIN_BRIGHTER_BOOST_C.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: main_brighter_boost_s
   file: captures/SLAMMIN_TIMMONS_RIVERA_MAIN_BRIGHTER_BOOST_S.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: main_brighter_boost_xs
   file: captures/SLAMMIN_TIMMONS_RIVERA_MAIN_BRIGHTER_BOOST_XS.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: main_brighter_c
   file: captures/SLAMMIN_TIMMONS_RIVERA_MAIN_BRIGHTER_C.nam
@@ -137,9 +146,18 @@ captures:
 - values:
     preset: scoopy_boost_c
   file: captures/SLAMMIN_TIMMONS_RIVERA_SCOOPY_BOOST_C.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: scoopy_boost_s
   file: captures/SLAMMIN_TIMMONS_RIVERA_SCOOPY_BOOST_S.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     preset: scoopy_boost_xs
   file: captures/SLAMMIN_TIMMONS_RIVERA_SCOOPY_BOOST_XS.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

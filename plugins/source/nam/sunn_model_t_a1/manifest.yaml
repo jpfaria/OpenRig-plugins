@@ -24,9 +24,18 @@ captures:
 - values:
     preset: thronolith
   file: captures/dde_thronolith_only_pedal.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: life_droner
   file: captures/dde_life_droner_nocab.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: hyper_droner
   file: captures/dde_hyper_droner_nocab.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9

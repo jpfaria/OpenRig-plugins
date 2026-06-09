@@ -36,11 +36,17 @@ captures:
     master: 3
     voicing: noon
   file: captures/slammin_marshall_2203_noon_mv3_48k_standard.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: none
     master: 4
     voicing: scooped
   file: captures/slammin_marshall_2203_scooped_mv4_48k_standard.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: none
     master: 5
@@ -51,8 +57,14 @@ captures:
     master: 6
     voicing: wylde
   file: captures/slammin_marshall_2203_wylde_sd1_mv6_48k.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: none
     master: 7
     voicing: rock
   file: captures/slammin_marshall_2203_rock_mv7_48k.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

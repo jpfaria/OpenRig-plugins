@@ -68,6 +68,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_or_raw_g_1_00_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: orange
     gain: 1
@@ -77,6 +80,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_or_raw_g_1_00_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: orange
     gain: 1
@@ -86,6 +92,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_or_raw_g_1_00_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: orange
     gain: 1
@@ -95,6 +104,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_or_raw_g_1_00_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 1
@@ -104,6 +116,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_or_raw_g_1_00_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 2
@@ -113,6 +128,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_or_raw_g_2_00_1_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: orange
     gain: 2
@@ -122,6 +140,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_or_raw_g_2_00_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: orange
     gain: 2
@@ -131,6 +152,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_or_raw_g_2_00_2_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: orange
     gain: 2
@@ -140,6 +164,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_or_raw_g_2_00_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: orange
     gain: 2
@@ -149,6 +176,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_or_raw_g_2_00_3_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: orange
     gain: 2
@@ -158,6 +188,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_or_raw_g_2_00_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 2
@@ -167,6 +200,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_or_raw_g_2_00_4_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 2
@@ -176,6 +212,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_or_raw_g_2_00_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 2
@@ -185,6 +224,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_or_raw_g_2_00_5_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: orange
     gain: 2
@@ -194,6 +236,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_or_raw_g_2_00_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: orange
     gain: 3
@@ -203,6 +248,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_or_raw_g_3_00_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: orange
     gain: 3
@@ -212,6 +260,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_or_raw_g_3_00_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: orange
     gain: 3
@@ -221,6 +272,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_or_raw_g_3_00_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 3
@@ -230,6 +284,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_or_raw_g_3_00_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: orange
     gain: 3
@@ -239,6 +296,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_or_raw_g_3_00_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 1
@@ -248,6 +308,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_red_raw_g_1_00_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     gain: 1
@@ -257,6 +320,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_red_raw_g_1_00_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     gain: 1
@@ -266,6 +332,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_red_raw_g_1_00_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     gain: 1
@@ -275,6 +344,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_red_raw_g_1_00_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     gain: 1
@@ -284,6 +356,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_red_raw_g_1_00_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 2
@@ -293,6 +368,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_red_raw_g_2_00_1_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     gain: 2
@@ -302,6 +380,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_red_raw_g_2_00_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 2
@@ -311,6 +392,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_red_raw_g_2_00_2_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     gain: 2
@@ -320,6 +404,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_red_raw_g_2_00_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     gain: 2
@@ -329,6 +416,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_red_raw_g_2_00_3_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     gain: 2
@@ -338,6 +428,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_red_raw_g_2_00_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     gain: 2
@@ -347,6 +440,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_red_raw_g_2_00_4_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     gain: 2
@@ -356,6 +452,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_red_raw_g_2_00_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     gain: 2
@@ -365,6 +464,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_red_raw_g_2_00_5_5u4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 2
@@ -374,6 +476,9 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_red_raw_g_2_00_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 3
@@ -383,6 +488,9 @@ captures:
     middle: 6
     bass: 4
   file: captures/mbdr_mw_red_raw_g_3_00_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 3
@@ -392,6 +500,9 @@ captures:
     middle: 6
     bass: 2
   file: captures/mbdr_mw_red_raw_g_3_00_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     gain: 3
@@ -401,6 +512,9 @@ captures:
     middle: 6
     bass: 3
   file: captures/mbdr_mw_red_raw_g_3_00_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     gain: 3
@@ -410,6 +524,9 @@ captures:
     middle: 7
     bass: 3
   file: captures/mbdr_mw_red_raw_g_3_00_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     gain: 3
@@ -419,3 +536,6 @@ captures:
     middle: 5
     bass: 2
   file: captures/mbdr_mw_red_raw_g_3_00_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

@@ -68,6 +68,9 @@ captures:
     channel: hbe_tallica
     mic: sm58
   file: captures/be100_hbe_tallica_sm58.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: hbe_tallica
     mic: blend

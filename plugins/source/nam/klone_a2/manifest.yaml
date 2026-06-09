@@ -13,24 +13,30 @@ sources:
 # straight to those knobs (g6_t6_o5 -> gain 6, treble 6, output 5; maxG ->
 # gain 10). The "plus BB" family is a separate boost-into-it gain mode
 # (low/med/high) that carries no numeric grid -> a grab-bag 'preset' axis.
-# Sparse grid: each family fills only its own axes (valid; combos unique).
+# Every capture sets every axis (loader requirement): an axis a family does
+# not engage carries the not-engaged sentinel — `-1` for a knob, `none` for
+# the preset selector.
 parameters:
 - name: gain
   display_name: Gain
   values:
   - 6
   - 10
+  - -1
 - name: treble
   display_name: Treble
   values:
   - 6
+  - -1
 - name: output
   display_name: Output
   values:
   - 5
+  - -1
 - name: preset
   display_name: Preset
   values:
+  - none
   - plus_bb_low
   - plus_bb_med
   - plus_bb_high
@@ -39,18 +45,29 @@ captures:
     gain: 6
     treble: 6
     output: 5
+    preset: none
   file: captures/g6_t6_o5_a2.nam
 - values:
     gain: 10
     treble: 6
     output: 5
+    preset: none
   file: captures/maxg_t6_o5_a2.nam
 - values:
+    gain: -1
+    treble: -1
+    output: -1
     preset: plus_bb_low
   file: captures/plus_bb_low_a2.nam
 - values:
+    gain: -1
+    treble: -1
+    output: -1
     preset: plus_bb_med
   file: captures/plus_bb_med_a2.nam
 - values:
+    gain: -1
+    treble: -1
+    output: -1
     preset: plus_bb_high
   file: captures/plus_bb_high_a2.nam

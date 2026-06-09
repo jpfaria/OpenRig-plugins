@@ -30,6 +30,9 @@ captures:
     fuzz: 5
     mode: modern
   file: captures/fz1w_modern_f05.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     fuzz: 7
     mode: modern
@@ -46,6 +49,9 @@ captures:
     fuzz: 5
     mode: vintage
   file: captures/fz1w_vintage_f05.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     fuzz: 7
     mode: vintage

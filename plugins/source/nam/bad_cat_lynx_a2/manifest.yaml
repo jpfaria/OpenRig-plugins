@@ -25,7 +25,13 @@ captures:
     gain: 5
     bass: 7
   file: captures/bcl_hg_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     gain: 5.5
     bass: 6
   file: captures/bcl_hg_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

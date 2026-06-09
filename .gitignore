@@ -17,3 +17,6 @@ __pycache__/
 .venv/
 *.DS_Store
 scripts/.param_gate_reds.json
+
+# Local-only A2 core build override (never commit — see issue #73)
+/.cargo/

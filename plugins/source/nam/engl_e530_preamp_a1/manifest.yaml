@@ -25,18 +25,36 @@ captures:
 - values:
     preset: ch1
   file: captures/e530_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: ch1_di_ctr
   file: captures/e530_1_di_ctr.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: ch2_di
   file: captures/e530_2_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: ch2_di_ctr
   file: captures/e530_2_di_ctr.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: modern
   file: captures/engl_e530_modern.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: modern_ts
   file: captures/engl_e530_modern_ts1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3

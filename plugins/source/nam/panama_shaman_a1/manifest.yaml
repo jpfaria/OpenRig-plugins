@@ -59,10 +59,16 @@ captures:
     voicing: crunch
     gain: 7
   file: captures/crunch_g7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     voicing: crunch
     gain: 8
   file: captures/crunch_g8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.4
 - values:
     voicing: hg
     gain: 3
@@ -71,6 +77,9 @@ captures:
     voicing: hg
     gain: 7
   file: captures/hg_g7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.1
 - values:
     voicing: od
     gain: 1
@@ -87,3 +96,6 @@ captures:
     voicing: od
     gain: 7
   file: captures/od_g7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.7

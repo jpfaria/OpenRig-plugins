@@ -25,23 +25,41 @@ captures:
     channel: blue
     boost: f33
   file: captures/ob1_evh_blue_fortin_33_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: blue
     boost: "805"
   file: captures/ob1_evh_blue_805_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: blue
     boost: precision
   file: captures/ob1_evh_blue_precision_drive_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     boost: f33
   file: captures/ob1_evh_red_fortin_33_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: red
     boost: spark
   file: captures/ob1_evh_red_tc_spark_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     boost: precision
   file: captures/ob1_evh_red_precision_drive_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

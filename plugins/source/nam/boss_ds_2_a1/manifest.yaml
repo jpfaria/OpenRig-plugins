@@ -32,6 +32,9 @@ captures:
     mode: turbo_1
     character: max_dist
   file: captures/ds2_1_max_dist.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     mode: turbo_2
     character: boost
@@ -44,3 +47,6 @@ captures:
     mode: turbo_2
     character: max_dist
   file: captures/ds2_2_turbo_max_dist.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

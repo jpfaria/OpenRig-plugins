@@ -35,6 +35,9 @@ captures:
 - values:
     preset: midgain
   file: captures/bogner_goldfinger_discusting_midgain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: crunch
   file: captures/bogner_goldfinger_crunch.nam
@@ -44,6 +47,12 @@ captures:
 - values:
     preset: higain
   file: captures/bogner_goldfinger_higain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: higain_4db_10k
   file: captures/bogner_goldfinger_higain_4db_10k.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7

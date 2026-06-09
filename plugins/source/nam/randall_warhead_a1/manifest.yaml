@@ -24,10 +24,16 @@ captures:
     mic: sm57
     speaker: v30
   file: captures/x2_dimezone_v30_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     mic: tlm102
     speaker: v30
   file: captures/x2_dimezone_v30_tlm102.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     mic: tlm102
     speaker: jaguar
@@ -36,3 +42,6 @@ captures:
     mic: mixed
     speaker: jaguar
   file: captures/x2_dimezone_jaguar_mixed.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

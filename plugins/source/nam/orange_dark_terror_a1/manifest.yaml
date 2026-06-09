@@ -16,3 +16,6 @@ captures:
 - values:
     default: default
   file: captures/orange_dark_terror_full_rig.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7

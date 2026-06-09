@@ -36,26 +36,41 @@ captures:
     boost: 'off'
     voicing: scoop
   file: captures/ld3_slight_scoop_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ld3
     boost: 'off'
     voicing: standard
   file: captures/ld3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     channel: crunch
     boost: 'on'
     voicing: standard
   file: captures/crunch_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ld4
     boost: 'off'
     voicing: standard
   file: captures/ld4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: ld4
     boost: 'on'
     voicing: standard
   file: captures/ld4_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: crunch
     boost: 'off'
@@ -66,3 +81,6 @@ captures:
     boost: 'on'
     voicing: standard
   file: captures/ld3_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9

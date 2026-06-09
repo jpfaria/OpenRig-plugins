@@ -33,6 +33,9 @@ captures:
     boost: boost
     voicing: main_brighter
   file: captures/slammin_timmons_rivera_main_brighter_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     boost: none
     voicing: main_brighter
@@ -53,6 +56,9 @@ captures:
     boost: boost
     voicing: scoopy
   file: captures/slammin_timmons_rivera_scoopy_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     boost: boost
     voicing: bright

@@ -22,6 +22,10 @@ path = "src/qa_audit.rs"
 name = "qa_fix"
 path = "src/qa_fix.rs"
 
+[[bin]]
+name = "nam_gate_audit"
+path = "src/nam_gate_audit.rs"
+
 [lib]
 name = "loudness_audit"
 path = "src/lib.rs"

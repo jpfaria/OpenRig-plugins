@@ -44,3 +44,6 @@ captures:
     sustain: 10
     tone: 10
   file: captures/fuzz_war_clone_sustain_10_tone_10_fuzz_war_sus10_t.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

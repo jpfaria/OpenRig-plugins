@@ -38,15 +38,30 @@ captures:
 - values:
     preset: rhythm_2
   file: captures/jmp_rhythm_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: rhythm_3
   file: captures/jmp_rhythm_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: rhythm_deftoned
   file: captures/jmp_rhythm_deftoned.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: rhythm_od808
   file: captures/jmp_rhythm_overdrive808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: lead_creamy
   file: captures/jmp_lead_creamy.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3

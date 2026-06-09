@@ -57,6 +57,9 @@ captures:
     master: 2
     boost: dco
   file: captures/mv2_crunch_dco_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: lead
     master: 3

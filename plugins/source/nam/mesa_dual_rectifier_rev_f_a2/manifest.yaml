@@ -51,18 +51,30 @@ captures:
     voicing: red
     preset: g8
   file: captures/red_g8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     voicing: red
     preset: f33
   file: captures/red_f33_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     voicing: orange
     preset: g6_ts808
   file: captures/orange_g6_ts808_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     voicing: red
     preset: mudkiller
   file: captures/red_mudkiller_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     voicing: red
     preset: blink182
@@ -71,10 +83,16 @@ captures:
     voicing: orange
     preset: g8
   file: captures/orange_g8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     voicing: red
     preset: ts9_nevermore
   file: captures/red_ts9_nevermore_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     voicing: orange
     preset: g7
@@ -95,3 +113,6 @@ captures:
     voicing: orange
     preset: f33
   file: captures/orange_f33_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

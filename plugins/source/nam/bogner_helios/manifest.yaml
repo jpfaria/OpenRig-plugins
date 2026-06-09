@@ -24,3 +24,6 @@ captures:
 - values:
     preset: 80s_hot_212
   file: captures/fig_h_lios_80s_hot_mg_212.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

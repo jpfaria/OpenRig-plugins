@@ -19,12 +19,24 @@ captures:
 - values:
     preset: 2
   file: captures/bugera_meshuggah_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     preset: 3
   file: captures/bugera_meshuggah_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: 4
   file: captures/bugera_meshuggah_4.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: 5
   file: captures/bugera_meshuggah_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

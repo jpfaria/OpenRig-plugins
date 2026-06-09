@@ -58,6 +58,9 @@ captures:
     volume1: 10
     volume2: 0
   file: captures/marshall_1987_10_10_10_10_10_00_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     presence: 10
     bass: 10
@@ -66,6 +69,9 @@ captures:
     volume1: 10
     volume2: 10
   file: captures/marshall_1987_10_10_10_10_10_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     presence: 10
     bass: 10
@@ -106,3 +112,6 @@ captures:
     volume1: 10
     volume2: 10
   file: captures/marshall_1987_05_05_05_05_10_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

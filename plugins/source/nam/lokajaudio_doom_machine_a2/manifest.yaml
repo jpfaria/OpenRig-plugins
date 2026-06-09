@@ -48,11 +48,17 @@ captures:
     clip: "off"
     voicing: full
   file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_1a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     gain: 5
     clip: "off"
     voicing: full_hi
   file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_1a_c1000_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     gain: 5
     clip: "off"
@@ -63,6 +69,9 @@ captures:
     clip: "off"
     voicing: full
   file: captures/10mag_0clip_10amp_10filt_10dist_10oct_1m_1o_1a_c300_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     gain: 3
     clip: "off"
@@ -88,3 +97,6 @@ captures:
     clip: "on"
     voicing: full
   file: captures/5mag_1clip_5amp_5filt_5dist_5oct_1m_1o_1a_c300_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8

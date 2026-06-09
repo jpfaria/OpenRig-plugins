@@ -20,9 +20,15 @@ captures:
 - values:
     character: 1
   file: captures/der_blend_off.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     character: 5
   file: captures/der_blend_mid.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     character: 7
   file: captures/der_blend_high.nam

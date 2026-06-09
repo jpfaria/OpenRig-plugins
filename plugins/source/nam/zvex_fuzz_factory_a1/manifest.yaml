@@ -49,12 +49,18 @@ captures:
     drive: 0
     stab: 0
   file: captures/fuzz_factory_clone_v_10_00_g_12_00_c_3_00_f_min_s_.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     gate: 12.3
     comp: 0
     drive: 0
     stab: 12
   file: captures/fuzz_factory_clone_v_10_00_g_12_30_c_min_f_min_s_m.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     gate: 3
     comp: 9

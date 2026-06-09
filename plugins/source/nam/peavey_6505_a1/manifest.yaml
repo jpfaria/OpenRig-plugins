@@ -29,31 +29,55 @@ captures:
     gain: 2
     voicing: clean
   file: captures/app_6505plus_clean_gain_02.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     gain: 4
     voicing: clean
   file: captures/app_6505plus_clean_gain_04.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     gain: 6
     voicing: clean
   file: captures/app_6505plus_clean_gain_06.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     gain: 7
     voicing: clean
   file: captures/app_6505plus_clean_gain_07.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     gain: 8
     voicing: clean
   file: captures/app_6505plus_clean_gain_08.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     gain: 9
     voicing: clean
   file: captures/app_6505plus_clean_gain_09.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     gain: 7
     voicing: mid_forward
   file: captures/app_6505plus_midforward_gain_07.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     gain: 6
     voicing: scooped
   file: captures/app_6505plus_scooped_gain_06.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8

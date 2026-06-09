@@ -34,31 +34,55 @@ captures:
     gain_stage: solo
     voicing: scoop
   file: captures/slammin_engl_iron_lead_scoop_solo_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     gain_stage: rhythm
     voicing: balanced
   file: captures/slammin_engl_iron_lead_balanced_rhythm_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     gain_stage: rhythm
     voicing: bright
   file: captures/slammin_engl_iron_lead_bright_rhythm_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     gain_stage: solo
     voicing: bright
   file: captures/slammin_engl_iron_lead_bright_solo_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     gain_stage: rhythm
     voicing: chunky
   file: captures/slammin_engl_iron_lead_chunky_rhythm_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     gain_stage: rhythm
     voicing: slight_scoop
   file: captures/slammin_engl_iron_lead_slightscoop_rhythm_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     gain_stage: solo
     voicing: mids
   file: captures/slammin_engl_iron_lead_mids_solo_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     gain_stage: solo
     voicing: chunky
   file: captures/slammin_engl_iron_lead_chunky_solo_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

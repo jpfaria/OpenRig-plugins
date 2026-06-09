@@ -127,6 +127,9 @@ captures:
     drive: 85
     tone: 100
   file: captures/suhr_riot_drive85_level50_tone100_vmid.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     drive: 100
     tone: 0

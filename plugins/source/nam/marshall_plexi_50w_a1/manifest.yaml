@@ -17,3 +17,6 @@ captures:
 - values:
     default: default
   file: captures/boutiqueampdrive.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3

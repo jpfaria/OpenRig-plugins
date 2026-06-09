@@ -22,6 +22,12 @@ captures:
 - values:
     channel: crunch
   file: captures/badlander_crunch.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: crush
   file: captures/badlander_crush.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9

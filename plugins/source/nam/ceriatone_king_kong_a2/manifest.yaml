@@ -111,24 +111,36 @@ captures:
     power: 100w
     preset: 1
   file: captures/reacteq_kk100_scary_deep_off_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 2
   file: captures/reacteq_kk100_scary_deep_off_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 3
   file: captures/reacteq_kk100_scary_deep_off_03_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 4
   file: captures/reacteq_kk100_scary_deep_off_04_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     eq: matched
     voicing: scary_deep_off
@@ -141,90 +153,135 @@ captures:
     power: 100w
     preset: 6
   file: captures/reacteq_kk100_scary_deep_off_06_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 7
   file: captures/reacteq_kk100_scary_deep_off_07_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 8
   file: captures/reacteq_kk100_scary_deep_off_08_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 9
   file: captures/reacteq_kk100_scary_deep_off_09_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_off
     power: 100w
     preset: 10
   file: captures/reacteq_kk100_scary_deep_off_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 1
   file: captures/reacteq_kk100_scary_deep_on_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 2
   file: captures/reacteq_kk100_scary_deep_on_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 3
   file: captures/reacteq_kk100_scary_deep_on_03_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 4
   file: captures/reacteq_kk100_scary_deep_on_04_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 5
   file: captures/reacteq_kk100_scary_deep_on_05_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 6
   file: captures/reacteq_kk100_scary_deep_on_06_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 7
   file: captures/reacteq_kk100_scary_deep_on_07_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 8
   file: captures/reacteq_kk100_scary_deep_on_08_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 9
   file: captures/reacteq_kk100_scary_deep_on_09_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: matched
     voicing: scary_deep_on
     power: 100w
     preset: 10
   file: captures/reacteq_kk100_scary_deep_on_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: matched
     voicing: instant_gratification
@@ -261,12 +318,18 @@ captures:
     power: 100w
     preset: 2
   file: captures/reactir2_kk100_jose_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     eq: raw
     voicing: jose
     power: 100w
     preset: 3
   file: captures/reactir2_kk100_jose_03_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: raw
     voicing: jose
@@ -279,12 +342,18 @@ captures:
     power: 100w
     preset: 5
   file: captures/reactir2_kk100_jose_05_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: raw
     voicing: jose
     power: 100w
     preset: 6
   file: captures/reactir2_kk100_jose_06_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     eq: raw
     voicing: jose
@@ -303,9 +372,15 @@ captures:
     power: 100w
     preset: 9
   file: captures/reactir2_kk100_jose_09_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     eq: raw
     voicing: jose
     power: 100w
     preset: 10
   file: captures/reactir2_kk100_jose_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

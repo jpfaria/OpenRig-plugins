@@ -29,71 +29,125 @@ captures:
     tone: 0.0
     volume: 10.0
   file: captures/slammin_dallas_boost_v10_t0_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 10.0
     volume: 10.0
   file: captures/slammin_dallas_boost_v10_t10_main_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 3.0
     volume: 10.0
   file: captures/slammin_dallas_boost_v10_t3_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 5.0
     volume: 10.0
   file: captures/slammin_dallas_boost_v10_t5_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 7.0
     volume: 10.0
   file: captures/slammin_dallas_boost_v10_t7_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 10.0
     volume: 3.0
   file: captures/slammin_dallas_boost_v3_t10_main_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 3.0
     volume: 3.0
   file: captures/slammin_dallas_boost_v3_t3_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 5.0
     volume: 3.0
   file: captures/slammin_dallas_boost_v3_t5_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 7.0
     volume: 3.0
   file: captures/slammin_dallas_boost_v3_t7_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 10.0
     volume: 5.0
   file: captures/slammin_dallas_boost_v5_t10_main_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 3.0
     volume: 5.0
   file: captures/slammin_dallas_boost_v5_t3_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 5.0
     volume: 5.0
   file: captures/slammin_dallas_boost_v5_t5_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 7.0
     volume: 5.0
   file: captures/slammin_dallas_boost_v5_t7_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 0.0
     volume: 7.0
   file: captures/slammin_dallas_boost_v7_t0_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     tone: 10.0
     volume: 7.0
   file: captures/slammin_dallas_boost_v7_t10_main_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     tone: 3.0
     volume: 7.0
   file: captures/slammin_dallas_boost_v7_t3_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 5.0
     volume: 7.0
   file: captures/slammin_dallas_boost_v7_t5_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     tone: 7.0
     volume: 7.0
   file: captures/slammin_dallas_boost_v7_t7_c.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

@@ -46,11 +46,20 @@ captures:
     voicing: neutral_drive
     gain: 7
   file: captures/vh100r_channel_2_hi_neutral_drive_g7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     voicing: neutral_drive
     gain: 8
   file: captures/vh100r_channel_2_hi_neutral_drive_g8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     voicing: neutral_drive
     gain: 10
   file: captures/vh100r_channel_2_hi_neutral_drive_g10.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

@@ -27,27 +27,51 @@ captures:
 - values:
     preset: syn20ir_red
   file: captures/syn20ir_k_kali_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: syn20ir_loomis
   file: captures/syn20ir_k_kali_loomis_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: syn20ir_green
   file: captures/syn20ir_k_kali_green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: syn20ir_red_v2
   file: captures/syn20ir_k_kali_red_v2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: jcm800_red
   file: captures/jcm800_k_kali_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: dzl_herbert_red
   file: captures/dzl_herbert_k_kali_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: dzl_herbert_more_gain
   file: captures/dzl_herbert_k_kali_more_gain_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: dzl_herbert_green
   file: captures/dzl_herbert_k_kali_green_a2.nam
 - values:
     preset: evh5153s_red
   file: captures/evh5153s_k_kali_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9

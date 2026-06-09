@@ -22,9 +22,18 @@ captures:
 - values:
     preset: a
   file: captures/001_maxon_od808_diezel_hagen_ch2_diezel_4x12_fl_v30_shure_sm.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.3
 - values:
     preset: b
   file: captures/002_maxon_od808_diezel_hagen_ch2_diezel_4x12_fl_v30_shure_sm_custom.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.2
 - values:
     preset: c
   file: captures/003_maxon_od808_diezel_hagen_ch2_diezel_4x12_fl_v30_shure_sm_custom.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.3

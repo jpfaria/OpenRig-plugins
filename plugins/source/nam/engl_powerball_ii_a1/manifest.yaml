@@ -17,3 +17,6 @@ captures:
 - values:
     default: default
   file: captures/engl_powerball_deimos.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
