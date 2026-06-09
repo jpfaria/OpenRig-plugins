@@ -54,26 +54,41 @@ captures:
     boost: enabled
     contour_mode: enabled
   file: captures/vintage_boost_contour_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     voicing: modern
     boost: none
     contour_mode: none
   file: captures/modern_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     voicing: modern
     boost: none
     contour_mode: enabled
   file: captures/modern_no_boost_contour_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     voicing: modern
     boost: enabled
     contour_mode: none
   file: captures/modern_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     voicing: modern
     boost: enabled
     contour_mode: enabled
   file: captures/modern_boost_contour_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     voicing: clean
     boost: none

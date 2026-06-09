@@ -21,3 +21,6 @@ captures:
 - values:
     voicing: hi_gain
   file: captures/rockerverb_mk3_hi_gain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

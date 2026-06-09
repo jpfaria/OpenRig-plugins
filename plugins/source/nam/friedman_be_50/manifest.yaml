@@ -19,3 +19,6 @@ captures:
 - values:
     default: default
   file: captures/mbfriedman4atampcab.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

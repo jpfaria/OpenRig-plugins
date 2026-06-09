@@ -43,27 +43,48 @@ captures:
 - values:
     preset: head_80s_clean
   file: captures/80s_clean_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     preset: head_single_coil
   file: captures/single_coil_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: head_marshall_coil
   file: captures/marshall_coil_head_a2.nam
 - values:
     preset: head_rock
   file: captures/rock_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: head_fat_gain
   file: captures/fat_gain_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: head_solo
   file: captures/solo_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: head_architects
   file: captures/architects_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: head_deth_lead
   file: captures/deth_lead_head_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: combo_clean
   file: captures/clean_combo_a2.nam
@@ -82,15 +103,27 @@ captures:
 - values:
     preset: combo_rock
   file: captures/rock_combo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: combo_fat_gain
   file: captures/fat_gain_combo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: combo_solo
   file: captures/solo_combo_a2.nam
 - values:
     preset: combo_architects
   file: captures/architects_combo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: combo_deth_lead
   file: captures/deth_lead_combo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

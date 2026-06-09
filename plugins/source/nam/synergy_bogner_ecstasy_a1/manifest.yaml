@@ -26,15 +26,27 @@ captures:
     channel: blue
     gain: 8
   file: captures/reacteq_bogner_ecstasy_blue_08.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: red
     gain: 3
   file: captures/reacteq_bogner_ecstasy_red_03.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: red
     gain: 7
   file: captures/reacteq_bogner_ecstasy_red_07.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: red
     gain: 9
   file: captures/reacteq_bogner_ecstasy_red_09.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

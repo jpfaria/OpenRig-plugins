@@ -21,3 +21,6 @@ captures:
 - values:
     channel: ch2
   file: captures/os_ch2_el34ab_19_4.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.3

@@ -21,12 +21,24 @@ captures:
 - values:
     preset: red
   file: captures/syn20ir_k_kali_red.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: red_v2
   file: captures/syn20ir_k_kali_red_v2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: loomis
   file: captures/syn20ir_k_kali_loomis.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: green
   file: captures/syn20ir_k_kali_green.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

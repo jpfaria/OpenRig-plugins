@@ -24,9 +24,18 @@ captures:
 - values:
     channel: crunch
   file: captures/engl_powerball_crunch.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     channel: overdrive_1
   file: captures/engl_powerball_overdrive_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     channel: overdrive_2
   file: captures/engl_powerball_overdrive_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7

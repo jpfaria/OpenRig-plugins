@@ -43,6 +43,9 @@ captures:
     volume: 7
     voicing: hg
   file: captures/panama_shaman_hg_g7_v7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     gain: 5
     volume: 7
@@ -68,6 +71,9 @@ captures:
     volume: 8
     voicing: crunch
   file: captures/panama_shaman_crunch_g8_v8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     gain: 7
     volume: 7
@@ -98,6 +104,9 @@ captures:
     volume: 7
     voicing: od
   file: captures/panama_shaman_od_g7_v7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     gain: 3
     volume: 7

@@ -25,15 +25,30 @@ captures:
 - values:
     preset: justice
   file: captures/cali_axis_justice.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: puppet
   file: captures/caliaxis_puppet.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: black
   file: captures/caliaxis_black.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     preset: killem
   file: captures/caliaxis_killem.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: ride
   file: captures/caliaxis_ride.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

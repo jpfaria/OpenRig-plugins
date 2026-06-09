@@ -40,148 +40,238 @@ captures:
     gain: 8.33
     pedal: aesahaettr
   file: captures/marshall_6100_gb_high_gain_aesahaettr_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: on
     gain: 8.33
     pedal: boss_sd1
   file: captures/marshall_6100_gb_high_gain_boss_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: on
     gain: 8.33
     pedal: ibanez_ts9
   file: captures/marshall_6100_gb_high_gain_ibanez_ts9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: on
     gain: 8.33
     pedal: none
   file: captures/marshall_6100_gb_high_gain_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: on
     gain: 8.33
     pedal: precision_drive
   file: captures/marshall_6100_gb_high_gain_precision_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     boost: on
     gain: 3.33
     pedal: aesahaettr
   file: captures/marshall_6100_gb_low_gain_aesahaettr_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     boost: on
     gain: 3.33
     pedal: boss_sd1
   file: captures/marshall_6100_gb_low_gain_boss_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: on
     gain: 3.33
     pedal: ibanez_ts9
   file: captures/marshall_6100_gb_low_gain_ibanez_ts9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: on
     gain: 3.33
     pedal: none
   file: captures/marshall_6100_gb_low_gain_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     boost: on
     gain: 3.33
     pedal: precision_drive
   file: captures/marshall_6100_gb_low_gain_precision_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: on
     gain: 5.83
     pedal: aesahaettr
   file: captures/marshall_6100_gb_mid_gain_aesahaettr_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     boost: on
     gain: 5.83
     pedal: boss_sd1
   file: captures/marshall_6100_gb_mid_gain_boss_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: on
     gain: 5.83
     pedal: ibanez_ts9
   file: captures/marshall_6100_gb_mid_gain_ibanez_ts9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: on
     gain: 5.83
     pedal: none
   file: captures/marshall_6100_gb_mid_gain_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: on
     gain: 5.83
     pedal: precision_drive
   file: captures/marshall_6100_gb_mid_gain_precision_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: off
     gain: 8.33
     pedal: aesahaettr
   file: captures/marshall_6100_high_gain_aesahaettr_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: off
     gain: 8.33
     pedal: boss_sd1
   file: captures/marshall_6100_high_gain_boss_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: off
     gain: 8.33
     pedal: ibanez_ts9
   file: captures/marshall_6100_high_gain_ibanez_ts9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: off
     gain: 8.33
     pedal: none
   file: captures/marshall_6100_high_gain_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: off
     gain: 8.33
     pedal: precision_drive
   file: captures/marshall_6100_high_gain_precision_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: off
     gain: 3.33
     pedal: aesahaettr
   file: captures/marshall_6100_low_gain_aesahaettr_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: off
     gain: 3.33
     pedal: boss_sd1
   file: captures/marshall_6100_low_gain_boss_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: off
     gain: 3.33
     pedal: ibanez_ts9
   file: captures/marshall_6100_low_gain_ibanez_ts9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: off
     gain: 3.33
     pedal: none
   file: captures/marshall_6100_low_gain_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     boost: off
     gain: 3.33
     pedal: precision_drive
   file: captures/marshall_6100_low_gain_precision_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: off
     gain: 5.83
     pedal: aesahaettr
   file: captures/marshall_6100_mid_gain_aesahaettr_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     boost: off
     gain: 5.83
     pedal: boss_sd1
   file: captures/marshall_6100_mid_gain_boss_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: off
     gain: 5.83
     pedal: ibanez_ts9
   file: captures/marshall_6100_mid_gain_ibanez_ts9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: off
     gain: 5.83
     pedal: none
   file: captures/marshall_6100_mid_gain_no_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     boost: off
     gain: 5.83
     pedal: precision_drive
   file: captures/marshall_6100_mid_gain_precision_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

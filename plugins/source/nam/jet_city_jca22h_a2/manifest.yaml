@@ -57,6 +57,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr5_b5_m6_t5_p8_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 4
@@ -65,6 +68,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr4_b4_m5_t6_p6_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 6
@@ -73,6 +79,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr6_b4_m4_t6_p7_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     bass: 4
     channel: 4
@@ -81,6 +90,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr4_b4_m3_t7_p5_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 4
@@ -89,6 +101,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr4_b4_m4_t6_p7_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 5
@@ -97,6 +112,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr5_b4_m4_t6_p7_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 3
     channel: 5
@@ -105,6 +123,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr5_b3_m6_t5_p6_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 5
     channel: 5
@@ -113,6 +134,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr5_b5_m6_t5_p8_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 3
     channel: 6
@@ -121,6 +145,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr6_b3_m6_t5_p6_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     bass: 4
     channel: 4
@@ -129,6 +156,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr4_b4_m4_t6_p7_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 5
     channel: 4
@@ -137,6 +167,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr4_b5_m6_t5_p8_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 5
     channel: 6
@@ -145,6 +178,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr6_b5_m6_t5_p8_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     bass: 5
     channel: 6
@@ -153,6 +189,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr6_b5_m6_t5_p8_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     bass: 4
     channel: 5
@@ -161,6 +200,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr5_b4_m5_t6_p6_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 3
     channel: 6
@@ -169,6 +211,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr6_b3_m6_t5_p6_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 6
@@ -177,6 +222,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr6_b4_m3_t7_p5_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 6
@@ -185,6 +233,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr6_b4_m5_t6_p6_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 5
     channel: 4
@@ -193,6 +244,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr4_b5_m6_t5_p8_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 5
@@ -201,6 +255,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr5_b4_m4_t6_p7_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 4
@@ -209,6 +266,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr4_b4_m3_t7_p5_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 4
@@ -217,6 +277,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr4_b4_m5_t6_p6_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 5
@@ -225,6 +288,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr5_b4_m3_t7_p5_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 4
@@ -233,6 +299,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr4_b4_m4_t6_p7_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 3
     channel: 4
@@ -241,6 +310,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr4_b3_m6_t5_p6_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 4
     channel: 6
@@ -249,6 +321,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr6_b4_m3_t7_p5_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     bass: 4
     channel: 5
@@ -257,6 +332,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr5_b4_m5_t6_p6_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     bass: 3
     channel: 4
@@ -265,6 +343,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr4_b3_m6_t5_p6_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 3
     channel: 5
@@ -273,6 +354,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr5_b3_m6_t5_p6_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 6
@@ -281,6 +365,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr6_b4_m3_t7_p5_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     bass: 3
     channel: 4
@@ -289,6 +376,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr4_b3_m6_t5_p6_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 4
@@ -297,6 +387,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr4_b4_m3_t7_p5_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 5
@@ -305,6 +398,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr5_b4_m5_t6_p6_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 5
     channel: 6
@@ -313,6 +409,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr6_b5_m6_t5_p8_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     bass: 4
     channel: 6
@@ -321,6 +420,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr6_b4_m5_t6_p6_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     bass: 4
     channel: 5
@@ -329,6 +431,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr5_b4_m4_t6_p7_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 5
     channel: 5
@@ -337,6 +442,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr5_b5_m6_t5_p8_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 5
@@ -345,6 +453,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr5_b4_m3_t7_p5_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 3
     channel: 5
@@ -353,6 +464,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr5_b3_m6_t5_p6_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     channel: 5
@@ -361,6 +475,9 @@ captures:
     presence: 5
     treble: 7
   file: captures/jet_city_jca22h_cr5_b4_m3_t7_p5_d4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 3
     channel: 6
@@ -369,6 +486,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/jet_city_jca22h_cr6_b3_m6_t5_p6_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 6
@@ -377,6 +497,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr6_b4_m4_t6_p7_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     bass: 5
     channel: 4
@@ -385,6 +508,9 @@ captures:
     presence: 8
     treble: 5
   file: captures/jet_city_jca22h_cr4_b5_m6_t5_p8_d2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 6
@@ -393,6 +519,9 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr6_b4_m5_t6_p6_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 4
     channel: 6
@@ -401,6 +530,9 @@ captures:
     presence: 7
     treble: 6
   file: captures/jet_city_jca22h_cr6_b4_m4_t6_p7_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     bass: 4
     channel: 4
@@ -409,3 +541,6 @@ captures:
     presence: 6
     treble: 6
   file: captures/jet_city_jca22h_cr4_b4_m5_t6_p6_d3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

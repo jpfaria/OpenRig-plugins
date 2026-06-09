@@ -26,24 +26,48 @@ captures:
 - values:
     boost: none
   file: captures/6505_lead_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: tkiy
   file: captures/6505_lead_tkiy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: ts808
   file: captures/6505_lead_808_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: ts808x
   file: captures/6505_lead_808x_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: sd1
   file: captures/6505_lead_sd1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: duality_green
   file: captures/6505_lead_dualitydx_green_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: duality_red
   file: captures/6505_lead_dualitydx_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: duality_blue
   file: captures/6505_lead_dualitydx_blue_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8

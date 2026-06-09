@@ -15,3 +15,6 @@ captures:
 - values:
     default: default
   file: captures/granophyre.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

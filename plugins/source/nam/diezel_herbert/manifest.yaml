@@ -24,24 +24,48 @@ captures:
 - values:
     preset: black_album
   file: captures/black_album.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: satan
   file: captures/satan.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: chainsaw
   file: captures/chainsaw.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: hellbert
   file: captures/hellbert.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: stealth
   file: captures/stealth.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: slaughter
   file: captures/slaughter.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: far_beyond_driven
   file: captures/far_beyond_driven.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: raw_gxx
   file: captures/raw_gxx.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

@@ -24,11 +24,20 @@ captures:
     boost: od808
     channel: yellow
   file: captures/jp2c_yellow_od808_marshall_full_rig_jp_is_out_of_tune.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     boost: od808
     channel: red
   file: captures/jp2c_red_od808_marshall_full_rig_jp_is_out_of_tune.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     boost: none
     channel: red
   file: captures/jp2c_red_marshall_full_rig_jp_is_out_of_tune.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

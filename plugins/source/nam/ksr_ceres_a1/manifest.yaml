@@ -18,6 +18,12 @@ captures:
 - values:
     channel: light_blue
   file: captures/jason_z_ksr_ceres_light_blue_channel_all_noon_eq.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.1
 - values:
     channel: purple
   file: captures/jason_z_ksr_ceres_purple_channel_all_noon_eq.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.6

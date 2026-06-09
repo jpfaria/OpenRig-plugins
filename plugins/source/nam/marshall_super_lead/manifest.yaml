@@ -20,3 +20,6 @@ captures:
 - values:
     default: default
   file: captures/marshall_super_lead_gain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

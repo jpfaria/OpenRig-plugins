@@ -60,3 +60,6 @@ captures:
     cabinet: 4x12_g12t
     channel: drive_red
   file: captures/5150_drive_red_4x12_g12t.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

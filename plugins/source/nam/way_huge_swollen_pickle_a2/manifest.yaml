@@ -56,6 +56,9 @@ captures:
 - values:
     preset: s5150
   file: captures/whsp_5150_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: s5150_mesa4x12os
   file: captures/whsp_5150_mesa4x12os_a2.nam

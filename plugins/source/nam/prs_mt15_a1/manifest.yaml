@@ -44,3 +44,6 @@ captures:
 - values:
     preset: metal_sweet_spot
   file: captures/prs_mt_15_metal_sweet_spot.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

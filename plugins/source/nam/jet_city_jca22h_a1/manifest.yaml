@@ -29,15 +29,27 @@ captures:
     channel: crunch
     gain: 4.5
   file: captures/jet_city_jca22h_crunch_g4_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: crunch
     gain: 7.0
   file: captures/jet_city_jca22h_crunch_g7_0.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     channel: overdrive
     gain: 2.0
   file: captures/jet_city_jca22h_overdrive_g2_0.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: overdrive
     gain: 5.5
   file: captures/jet_city_jca22h_overdrive_g5_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

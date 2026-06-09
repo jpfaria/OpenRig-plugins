@@ -45,12 +45,18 @@ captures:
     gain: 6
     mode: od
   file: captures/da15h_v6s6g6_od_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     volume: 4
     shape: 6
     gain: 7
     mode: od
   file: captures/da15h_v4s6g7_od_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     volume: 4
     shape: 6
@@ -63,6 +69,9 @@ captures:
     gain: 5
     mode: od
   file: captures/da15h_v6s6g5_od_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     volume: 10
     shape: 8

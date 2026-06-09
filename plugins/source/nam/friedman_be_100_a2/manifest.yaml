@@ -45,12 +45,18 @@ captures:
     voicing: flat
     gain_stage: hg
   file: captures/hbe_808_flat_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     channel: hbe
     boost: none
     voicing: flat
     gain_stage: hg
   file: captures/hbe_flat_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: be
     boost: none
@@ -63,6 +69,9 @@ captures:
     voicing: scoop
     gain_stage: hg
   file: captures/hbe_808_scoop_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: be
     boost: none
@@ -75,18 +84,27 @@ captures:
     voicing: mids
     gain_stage: hg
   file: captures/hbe_mids_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: hbe
     boost: od808
     voicing: mids
     gain_stage: hg
   file: captures/hbe_808_mids_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: hbe
     boost: none
     voicing: scoop
     gain_stage: hg
   file: captures/hbe_scoop_hg_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: cln
     boost: none

@@ -21,6 +21,12 @@ captures:
 - values:
     boost: "off"
   file: captures/dover_da50_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     boost: tokyo_drive
   file: captures/dover_da50_tokyo_drive_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

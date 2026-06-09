@@ -92,6 +92,9 @@ captures:
     resonance: 4
     voicing: normal
   file: captures/cr_g_6_t_5_m_7_b_4_p_4_r_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: crunch
     gain: 6
@@ -102,6 +105,9 @@ captures:
     resonance: 3
     voicing: normal
   file: captures/cr_g_6_t_6_m_6_b_5_p_2_r_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -112,6 +118,9 @@ captures:
     resonance: 2
     voicing: normal
   file: captures/ult_g_4_t_4_m_5_b_6_p_5_r_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -122,6 +131,9 @@ captures:
     resonance: 3
     voicing: fat
   file: captures/ult_g_4_t_6_m_4_b_7_p_2_r_3_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: clean
     gain: 5
@@ -132,6 +144,9 @@ captures:
     resonance: 3
     voicing: normal
   file: captures/cln_v_5_t_6_m_4_b_4_r_3_p_6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 6
@@ -142,6 +157,9 @@ captures:
     resonance: 3
     voicing: normal
   file: captures/cr_g_6_t_4_5_m_6_b_6_5_p_4_r_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ultra
     gain: 5
@@ -152,6 +170,9 @@ captures:
     resonance: 7
     voicing: normal
   file: captures/ult_g_5_t_5_5_m_5_5_b_4_p_3_r_7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 5
@@ -162,6 +183,9 @@ captures:
     resonance: 7
     voicing: fat
   file: captures/ult_g_5_t_5_5_m_5_5_b_4_p_3_r_7_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: clean
     gain: 8
@@ -172,6 +196,9 @@ captures:
     resonance: 0
     voicing: normal
   file: captures/cln_v_8_t_6_m_4_b_4_r_0_p_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     channel: crunch
     gain: 8
@@ -182,6 +209,9 @@ captures:
     resonance: 5.5
     voicing: normal
   file: captures/cr_g_8_t_7_m_4_b_6_p_3_r_5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -192,6 +222,9 @@ captures:
     resonance: 3
     voicing: normal
   file: captures/ult_g_4_t_6_m_4_b_7_p_2_r_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ultra
     gain: 4
@@ -202,6 +235,9 @@ captures:
     resonance: 6
     voicing: fat
   file: captures/ult_g_4_t_5_m_5_b_5_p_6_r_6_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -212,6 +248,9 @@ captures:
     resonance: 5
     voicing: fat
   file: captures/ult_g_4_t_5_m_4_b_6_p_3_r_5_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 4
@@ -222,6 +261,9 @@ captures:
     resonance: 5
     voicing: fat
   file: captures/cr_g_4_t_5_m_4_b_6_p_3_r_5_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 4
@@ -232,6 +274,9 @@ captures:
     resonance: 5
     voicing: normal
   file: captures/cr_g_4_t_5_m_4_b_6_p_3_r_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ultra
     gain: 4
@@ -242,6 +287,9 @@ captures:
     resonance: 4
     voicing: normal
   file: captures/ult_g_4_t_5_m_5_b_5_p_3_r_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -252,6 +300,9 @@ captures:
     resonance: 5
     voicing: normal
   file: captures/ult_g_4_t_5_m_4_b_6_p_3_r_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: crunch
     gain: 8
@@ -262,6 +313,9 @@ captures:
     resonance: 3
     voicing: fat
   file: captures/cr_g_8_t_5_m_5_b_5_p_3_r_3_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 6
@@ -272,6 +326,9 @@ captures:
     resonance: 5
     voicing: normal
   file: captures/cr_g_6_t_6_m_4_b_6_p_4_r_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 6
@@ -282,6 +339,9 @@ captures:
     resonance: 4
     voicing: fat
   file: captures/cr_g_6_t_5_m_7_b_4_p_4_r_4_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ultra
     gain: 4
@@ -292,6 +352,9 @@ captures:
     resonance: 5
     voicing: fat
   file: captures/ult_g_4_t_5_5_m_3_b_5_5_p_6_r_5_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: clean
     gain: 5
@@ -302,6 +365,9 @@ captures:
     resonance: 2
     voicing: normal
   file: captures/cln_v_5_t_6_m_4_b_4_r_2_p_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: clean
     gain: 8
@@ -312,6 +378,9 @@ captures:
     resonance: 2
     voicing: normal
   file: captures/cln_v_8_t_5_m_5_b_5_r_2_p_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     channel: ultra
     gain: 4
@@ -322,6 +391,9 @@ captures:
     resonance: 2
     voicing: fat
   file: captures/ult_g_4_t_4_m_5_b_6_p_5_r_2_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -332,6 +404,9 @@ captures:
     resonance: 4
     voicing: fat
   file: captures/ult_g_4_t_5_m_5_b_5_p_3_r_4_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 8
@@ -342,6 +417,9 @@ captures:
     resonance: 5.5
     voicing: fat
   file: captures/cr_g_8_t_7_m_4_b_6_p_3_r_5_5_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 6
@@ -352,6 +430,9 @@ captures:
     resonance: 3
     voicing: fat
   file: captures/cr_g_6_t_6_m_6_b_5_p_2_r_3_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -362,6 +443,9 @@ captures:
     resonance: 4.5
     voicing: fat
   file: captures/ult_g_4_t_6_m_6_b_6_p_4_5_r_4_5_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: crunch
     gain: 6
@@ -372,6 +456,9 @@ captures:
     resonance: 1
     voicing: fat
   file: captures/cr_g_6_t_6_m_5_b_6_p_2_r_1_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: crunch
     gain: 6
@@ -382,6 +469,9 @@ captures:
     resonance: 3
     voicing: fat
   file: captures/cr_g_6_t_4_5_m_6_b_6_5_p_4_r_3_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: ultra
     gain: 4
@@ -392,6 +482,9 @@ captures:
     resonance: 6
     voicing: normal
   file: captures/ult_g_4_t_5_m_5_b_5_p_6_r_6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -402,6 +495,9 @@ captures:
     resonance: 4.5
     voicing: normal
   file: captures/ult_g_4_t_6_m_6_b_6_p_4_5_r_4_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: crunch
     gain: 6
@@ -412,6 +508,9 @@ captures:
     resonance: 5
     voicing: fat
   file: captures/cr_g_6_t_6_m_4_b_6_p_4_r_5_fat_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ultra
     gain: 4
@@ -422,6 +521,9 @@ captures:
     resonance: 5
     voicing: normal
   file: captures/ult_g_4_t_5_5_m_3_b_5_5_p_6_r_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: crunch
     gain: 6
@@ -432,6 +534,9 @@ captures:
     resonance: 1
     voicing: normal
   file: captures/cr_g_6_t_6_m_5_b_6_p_2_r_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: crunch
     gain: 8
@@ -442,3 +547,6 @@ captures:
     resonance: 3
     voicing: normal
   file: captures/cr_g_8_t_5_m_5_b_5_p_3_r_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

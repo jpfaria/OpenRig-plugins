@@ -30,10 +30,16 @@ captures:
     gain: 5
     pedal: isocecles
   file: captures/marshall_6100_channel2_crunch_a_mid_gain_isocecles.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     gain: 8
     pedal: isocecles
   file: captures/marshall_6100_channel2_crunch_a_high_gain_isocecles.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     gain: 8
     pedal: boss_sd1

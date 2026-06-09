@@ -25,6 +25,9 @@ captures:
 - values:
     preset: pre_ch3
   file: captures/pre_mesa_mkvii_90w_ch3_mkiic_eet_faq.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: amp_ch1_clean
   file: captures/amp_mesa_mkvii_90w_ch1_cln_factory_bright_clean_blend_2.nam

@@ -73,10 +73,16 @@ captures:
     mode: high
     gain: 3
   file: captures/gain_high_300_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     mode: high
     gain: 5
   file: captures/gain_high_500_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     mode: high
     gain: 7

@@ -20,12 +20,18 @@ captures:
 - values:
     preset: scoop
   file: captures/slammin_fman_ss_scoop_new_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: sam
   file: captures/slammin_fman_ss_sam_new_s.nam
 - values:
     preset: magic7
   file: captures/slammin_fman_ss_magic7_new_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     preset: steve2
   file: captures/slammin_fman_ss_steve2_new_s.nam

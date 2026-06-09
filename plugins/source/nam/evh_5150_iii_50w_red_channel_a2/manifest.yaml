@@ -18,3 +18,6 @@ captures:
 - values:
     default: default
   file: captures/evh_red_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

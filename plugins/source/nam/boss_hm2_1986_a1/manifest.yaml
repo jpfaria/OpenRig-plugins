@@ -30,18 +30,33 @@ captures:
 - values:
     preset: chainsaw
   file: captures/hm2_chainsaw.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: medium
   file: captures/hm2_medium.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: warm
   file: captures/hm2_warm.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: bright
   file: captures/hm2_bright.nam
 - values:
     preset: high_gain
   file: captures/hm2_high_gain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: full
   file: captures/hm2_full.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

@@ -49,10 +49,16 @@ captures:
     sustain: 0.0
     tone: 8.0
   file: captures/tts_cornish_g2_s00_t08_v10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     sustain: 0.0
     tone: 10.0
   file: captures/tts_cornish_g2_s00_t10_v10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     sustain: 2.0
     tone: 0.0
@@ -73,10 +79,16 @@ captures:
     sustain: 2.0
     tone: 8.0
   file: captures/tts_cornish_g2_s02_t08_v10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     sustain: 2.0
     tone: 10.0
   file: captures/tts_cornish_g2_s02_t10_v10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     sustain: 4.0
     tone: 0.0
@@ -101,6 +113,9 @@ captures:
     sustain: 4.0
     tone: 10.0
   file: captures/tts_cornish_g2_s04_t10_v10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     sustain: 6.0
     tone: 0.0

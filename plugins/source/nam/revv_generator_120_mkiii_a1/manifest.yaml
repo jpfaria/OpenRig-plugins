@@ -17,3 +17,6 @@ captures:
 - values:
     default: default
   file: captures/revvg120_ch3a1_g15_t1330_m1130_b11_p13_d11.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

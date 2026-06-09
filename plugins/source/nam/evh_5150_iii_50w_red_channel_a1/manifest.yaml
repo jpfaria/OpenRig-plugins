@@ -16,3 +16,6 @@ captures:
 - values:
     default: default
   file: captures/5153_red_dailydriver.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7

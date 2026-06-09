@@ -23,15 +23,27 @@ captures:
     channel: crunch
     eq: mid
   file: captures/peavey_jsx_crunch_mid.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: crunch
     eq: high
   file: captures/peavey_jsx_crunch_high.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     channel: ultra
     eq: mid
   file: captures/peavey_jsx_ultra_mid.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: ultra
     eq: high
   file: captures/peavey_jsx_ultra_high.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

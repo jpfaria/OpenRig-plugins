@@ -53,6 +53,9 @@ captures:
     gain: 5
     tight: 5
   file: captures/bass5_treble5_presence5_gain5_tight5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 3
     treble: 9
@@ -60,6 +63,9 @@ captures:
     gain: 4
     tight: 6
   file: captures/bass3_treble9_presence4_gain4_tight6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     treble: 5
@@ -81,6 +87,9 @@ captures:
     gain: 3
     tight: 5
   file: captures/bass5_treble5_presence5_gain3_tight5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     bass: 5
     treble: 5
@@ -88,6 +97,9 @@ captures:
     gain: 5
     tight: 10
   file: captures/bass5_treble5_presence5_gain5_tight10.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 5
     treble: 5
@@ -95,6 +107,9 @@ captures:
     gain: 7.5
     tight: 5
   file: captures/bass5_treble5_presence5_gain7_5_tight5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     treble: 5
@@ -102,6 +117,9 @@ captures:
     gain: 10
     tight: 5
   file: captures/bass5_treble5_presence5_gain10_tight5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     bass: 5
     treble: 9
@@ -109,3 +127,6 @@ captures:
     gain: 7
     tight: 8
   file: captures/bass5_treble9_presence3_gain7_tight8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

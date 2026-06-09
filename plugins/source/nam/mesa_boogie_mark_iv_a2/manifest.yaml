@@ -26,7 +26,13 @@ captures:
     mode: midgain
     boost: none
   file: captures/midgain_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     mode: harmonics
     boost: ts808
   file: captures/harmonics_ts808_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

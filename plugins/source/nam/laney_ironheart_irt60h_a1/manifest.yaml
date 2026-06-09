@@ -27,19 +27,34 @@ captures:
     boost: none
     stage: preamp
   file: captures/lead_preamp.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: boosted
     stage: preamp
   file: captures/lead_boosted_preamp.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: custom
     stage: preamp
   file: captures/laney_irt60_lead_pre_b1_8_m_1_t2_g10_d60_tn1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     boost: none
     stage: power_amp
   file: captures/lead_poweramp.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: boosted
     stage: power_amp
   file: captures/lead_boosted_poweramp.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

@@ -35,31 +35,55 @@ captures:
     boost: none
     voicing: default
   file: captures/engl_fireball.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     boost: ts9
     voicing: default
   file: captures/engl_fireball_ts9.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     boost: ts808
     voicing: default
   file: captures/engl_fireball_ts808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     boost: line_driver
     voicing: default
   file: captures/engl_fireball_line_driver.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: precision_drive
     voicing: default
   file: captures/engl_fireball_precision_drive_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     boost: none
     voicing: mid
   file: captures/engl_fireball_mid.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     boost: none
     voicing: presence_0
   file: captures/engl_fireball_presence_0.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     boost: none
     voicing: presence_9h
   file: captures/engl_fireball_presence_9h.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

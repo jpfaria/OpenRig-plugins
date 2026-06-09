@@ -17,6 +17,9 @@ captures:
 - values:
     channel: rhythm
   file: captures/hughes_kettner_tm40_rhythm.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     channel: crunch
   file: captures/hughes_kettner_tm40_crunch.nam

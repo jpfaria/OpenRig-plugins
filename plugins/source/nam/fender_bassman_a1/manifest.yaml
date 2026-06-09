@@ -83,3 +83,6 @@ captures:
     deep: 1
     bright: 1
   file: captures/fender_bassman_50_jumped_d1_b1_g9_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

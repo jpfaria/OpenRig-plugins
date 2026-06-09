@@ -43,16 +43,25 @@ captures:
     boost: 'on'
     gain: 3
   file: captures/dzlvh4_ch3_ts808_midgain1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ch4
     boost: 'on'
     gain: 4
   file: captures/dzlvh4_ch4_ts808_highgain1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ch4
     boost: 'off'
     gain: 4
   file: captures/dzlvh4_ch4_highgain1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: ch3
     boost: 'off'
@@ -73,16 +82,25 @@ captures:
     boost: 'on'
     gain: 3
   file: captures/dzlvh4_ch4_ts808_midgain1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     boost: 'off'
     gain: 4
   file: captures/dzlvh4_ch3_highgain1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: ch3
     boost: 'on'
     gain: 4
   file: captures/dzlvh4_ch3_ts808_highgain1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ch4
     boost: 'off'

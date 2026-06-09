@@ -33,3 +33,6 @@ captures:
 - values:
     preset: distortion
   file: captures/b7k_distortion.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5

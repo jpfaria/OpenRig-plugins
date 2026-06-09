@@ -56,6 +56,9 @@ captures:
     presence: 5
     treble: 2
   file: captures/mb_bl50_cr_g_10_t_2_m_7_b_6_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     bass: 6
     gain: 10
@@ -63,6 +66,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_2_b_6_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 4
     gain: 10
@@ -70,6 +76,9 @@ captures:
     presence: 5
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_3_b_4_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 5
     gain: 10
@@ -77,6 +86,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_4_b_5_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 5
     gain: 10
@@ -84,6 +96,9 @@ captures:
     presence: 5
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_5_b_5_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 6
     gain: 10
@@ -91,6 +106,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_6_b_6_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 4
     gain: 10
@@ -98,6 +116,9 @@ captures:
     presence: 4
     treble: 5
   file: captures/mb_bl50_cr_g_10_t_5_m_4_b_4_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 10
@@ -105,6 +126,9 @@ captures:
     presence: 5
     treble: 5
   file: captures/mb_bl50_cr_g_10_t_5_m_5_b_5_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 6
     gain: 6
@@ -112,6 +136,9 @@ captures:
     presence: 5
     treble: 2
   file: captures/mb_bl50_cr_g_6_t_2_m_7_b_6_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 6
     gain: 6
@@ -126,6 +153,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_2_b_6_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 4
     gain: 6
@@ -133,6 +163,9 @@ captures:
     presence: 5
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_3_b_4_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 5
     gain: 6
@@ -140,6 +173,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_4_b_5_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 6
@@ -147,6 +183,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_5_b_5_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 6
     gain: 6
@@ -154,6 +193,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_6_b_6_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     gain: 6
@@ -161,6 +203,9 @@ captures:
     presence: 4
     treble: 5
   file: captures/mb_bl50_cr_g_6_t_5_m_4_b_4_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 6
@@ -168,6 +213,9 @@ captures:
     presence: 5
     treble: 5
   file: captures/mb_bl50_cr_g_6_t_5_m_5_b_5_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 6
     gain: 7
@@ -175,6 +223,9 @@ captures:
     presence: 5
     treble: 2
   file: captures/mb_bl50_cr_g_7_t_2_m_7_b_6_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 6
     gain: 7
@@ -182,6 +233,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_2_b_6_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 4
     gain: 7
@@ -189,6 +243,9 @@ captures:
     presence: 5
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_3_b_4_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 7
@@ -196,6 +253,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_4_b_5_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 7
@@ -203,6 +263,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_5_b_5_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 4
     gain: 7
@@ -210,6 +273,9 @@ captures:
     presence: 4
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_4_b_4_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 7
@@ -217,6 +283,9 @@ captures:
     presence: 5
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_5_b_5_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     bass: 6
     gain: 7
@@ -224,6 +293,9 @@ captures:
     presence: 6
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_6_b_6_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 6
     gain: 8
@@ -231,6 +303,9 @@ captures:
     presence: 5
     treble: 2
   file: captures/mb_bl50_cr_g_8_t_2_m_7_b_6_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 6
     gain: 8
@@ -238,6 +313,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_2_b_6_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 4
     gain: 8
@@ -245,6 +323,9 @@ captures:
     presence: 5
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_3_b_4_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 8
@@ -252,6 +333,9 @@ captures:
     presence: 4
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_4_b_5_p_4_ma_3_xstd_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 5
     gain: 8
@@ -259,6 +343,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_4_b_5_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     bass: 5
     gain: 8
@@ -266,6 +353,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_5_b_5_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 6
     gain: 8
@@ -273,6 +363,9 @@ captures:
     presence: 6
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_6_b_6_p_6_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 4
     gain: 8
@@ -280,6 +373,9 @@ captures:
     presence: 4
     treble: 5
   file: captures/mb_bl50_cr_g_8_t_5_m_4_b_4_p_4_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     bass: 5
     gain: 8
@@ -287,3 +383,6 @@ captures:
     presence: 5
     treble: 5
   file: captures/mb_bl50_cr_g_8_t_5_m_5_b_5_p_5_ma_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

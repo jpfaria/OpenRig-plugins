@@ -25,23 +25,41 @@ captures:
     tone: 5
     bright: normal
   file: captures/jtm50_replica_angus_tone_v5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     tone: 5
     bright: bright
   file: captures/jtm50_replica_angus_tone_v5_bright.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     tone: 6
     bright: normal
   file: captures/jtm50_replica_angus_tone_v6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     tone: 6
     bright: bright
   file: captures/jtm50_replica_angus_tone_v6_bright.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     tone: 7
     bright: normal
   file: captures/jtm50_replica_angus_tone_v7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     tone: 7
     bright: bright
   file: captures/jtm50_replica_angus_tone_v7_bright.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8

@@ -57,12 +57,18 @@ captures:
     high: 7
     boost: none
   file: captures/g7_l4_h7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     gain: 8
     low: 6
     high: 8
     boost: none
   file: captures/g8_l6_h8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     gain: 3
     low: 8
@@ -75,15 +81,24 @@ captures:
     high: 10
     boost: boost
   file: captures/g6_l8_h10_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.7
 - values:
     gain: 7
     low: 6
     high: 5
     boost: boost
   file: captures/g7_l6_h5_boost_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     gain: 9
     low: 1
     high: 2
     boost: boost
   file: captures/g9_l1_h2_boost_t10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2

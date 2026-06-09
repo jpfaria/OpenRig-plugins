@@ -40,6 +40,9 @@ captures:
     boost: boost
     gain: 12
   file: captures/marshall_dsl_20_drive_boost_gain12_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     boost: tight
     gain: 10
@@ -48,3 +51,6 @@ captures:
     boost: tight
     gain: 12
   file: captures/marshall_dsl_20_drive_boost_tight_gain12_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3

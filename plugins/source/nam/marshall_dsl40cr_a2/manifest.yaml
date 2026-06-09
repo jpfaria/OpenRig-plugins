@@ -36,48 +36,96 @@ captures:
 - values:
     preset: pristine_clean
   file: captures/pristine_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     preset: dynamic_clean
   file: captures/dynamic_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     preset: edge_glow_clean
   file: captures/edge_glow_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: point_break_clean
   file: captures/point_break_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: straightjacket_crunch
   file: captures/straightjacket_crunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: open_crunch
   file: captures/open_crunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: driven_crunch
   file: captures/driven_crunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: jaws_crunch
   file: captures/jaws_crunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: mayweather_od1
   file: captures/mayweather_od1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     preset: silk_od1
   file: captures/silk_od1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: kat_dennings_od1
   file: captures/kat_dennings_od1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: unleashed_od1
   file: captures/unleashed_od1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: t_1000_od2
   file: captures/t_1000_od2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.6
 - values:
     preset: samurai_od2
   file: captures/samurai_od2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     preset: pushed_od2
   file: captures/pushed_od2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7
 - values:
     preset: marla_singer_od2
   file: captures/marla_singer_od2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.7

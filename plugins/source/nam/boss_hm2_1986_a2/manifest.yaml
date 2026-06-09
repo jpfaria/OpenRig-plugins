@@ -62,6 +62,9 @@ captures:
     dist: 10
     preset: standard
   file: captures/v10_l4_h6_g10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     level: 10
     low: 10
@@ -76,6 +79,9 @@ captures:
     dist: 10
     preset: standard
   file: captures/v10_l10_h9_g10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     level: 6
     low: 5
@@ -83,6 +89,9 @@ captures:
     dist: 5
     preset: standard
   file: captures/v6_l5_h5_g5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     level: 10
     low: 6
@@ -90,6 +99,9 @@ captures:
     dist: 10
     preset: standard
   file: captures/v10_l6_h10_g10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     level: 8
     low: 8
@@ -111,6 +123,9 @@ captures:
     dist: 4
     preset: standard
   file: captures/v6_l6_h4_g4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     level: 10
     low: 10
@@ -118,6 +133,9 @@ captures:
     dist: 10
     preset: chainsaw
   file: captures/chainsaw_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     level: 10
     low: 10

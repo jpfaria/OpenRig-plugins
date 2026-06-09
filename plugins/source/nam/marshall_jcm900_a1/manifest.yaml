@@ -37,6 +37,9 @@ captures:
 - values:
     preset: jcm_900_high_gain
   file: captures/marshall_jcm_900_higain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
 - values:
     preset: dumble_clean
   file: captures/ods_dumble_clean.nam

@@ -27,6 +27,9 @@ captures:
     mic: di
     voicing: hbe_mammoth
   file: captures/amp_be100dlx_hbe_mammoth_di_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     mic: sm57
     voicing: hbe_mammoth
@@ -35,6 +38,9 @@ captures:
     mic: di
     voicing: hbe_tallica
   file: captures/amp_be100dlx_hbe_tallica_di_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     mic: sm57
     voicing: hbe_tallica
@@ -43,10 +49,16 @@ captures:
     mic: sm58
     voicing: hbe_tallica
   file: captures/amp_be100dlx_hbe_tallica_sm58_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     mic: di
     voicing: cln_tender
   file: captures/amp_be100dlx_cln_tender_clean_di_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     mic: sm57
     voicing: cln_tender
@@ -55,3 +67,6 @@ captures:
     mic: di
     voicing: cln_noon_pre
   file: captures/pre_be100dlx_cln_noon_cln_03_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4

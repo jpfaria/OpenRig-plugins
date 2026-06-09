@@ -19,3 +19,6 @@ captures:
 - values:
     default: default
   file: captures/marshall_1987x_hi_input_crunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1

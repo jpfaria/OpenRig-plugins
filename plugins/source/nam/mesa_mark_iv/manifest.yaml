@@ -30,24 +30,48 @@ captures:
 - values:
     preset: tight_iic_rhythm_1
   file: captures/kdm_slammin_mkiv_28_tight_iic_rhythm_1_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: tight_iic_rhythm_2
   file: captures/kdm_slammin_mkiv_29_tight_iic_rhythm_2_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.2
 - values:
     preset: fat_iic_rhythm_1
   file: captures/kdm_slammin_mkiv_31_fat_iic_rhythm_1_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: fat_iic_rhythm_2
   file: captures/kdm_slammin_mkiv_32_fat_iic_rhythm_2_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     preset: petrucci_crunch
   file: captures/kdm_slammin_mkiv_34_petrucci_mark_iv_crunch_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: metallica_85_notes
   file: captures/kdm_slammin_mkiv_37_metallica_85_notes_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     preset: metallica_tba
   file: captures/kdm_slammin_mkiv_39_metallica_tba_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     preset: log_sacrament
   file: captures/kdm_slammin_mkiv_41_log_sacrament_s.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

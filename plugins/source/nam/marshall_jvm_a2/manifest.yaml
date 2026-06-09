@@ -40,6 +40,9 @@ captures:
     boost: none
     gain: 4
   file: captures/mrsh410h_ch3_midgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     channel: ch2
     boost: none
@@ -60,6 +63,9 @@ captures:
     boost: maxon808
     gain: 1
   file: captures/mrsh410h_ch4_maxon808_lowgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: ch1
     boost: maxon808
@@ -85,6 +91,9 @@ captures:
     boost: maxon808
     gain: 6
   file: captures/mrsh410h_ch4_maxon808_highgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.8
 - values:
     channel: ch2
     boost: maxon808
@@ -100,11 +109,17 @@ captures:
     boost: maxon808
     gain: 4
   file: captures/mrsh410h_ch4_maxon808_midgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.9
 - values:
     channel: ch3
     boost: maxon808
     gain: 4
   file: captures/mrsh410h_ch3_maxon808_midgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: ch2
     boost: none
@@ -115,21 +130,33 @@ captures:
     boost: none
     gain: 6
   file: captures/mrsh410h_ch3_highgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     channel: ch3
     boost: maxon808
     gain: 6
   file: captures/mrsh410h_ch3_maxon808_highgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ch4
     boost: none
     gain: 6
   file: captures/mrsh410h_ch4_highgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     channel: ch4
     boost: none
     gain: 4
   file: captures/mrsh410h_ch4_midgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.3
 - values:
     channel: ch2
     boost: none
@@ -150,3 +177,6 @@ captures:
     boost: none
     gain: 1
   file: captures/mrsh410h_ch4_lowgain1_di_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6
