@@ -1,7 +1,0 @@
-# LOCAL-ONLY build override (not committed): replace the OpenRig `develop`
-# git dependency with a local clone checked out at the A2-capable core rev,
-# so qa_audit can build the NAM C++ core (libNeuralAudioCAPI / nam_wrapper)
-# that supports Architecture 2 (SlimmableContainer). Needed because the
-# gitignored Cargo.lock pinned a pre-A2 rev that segfaults on A2 models,
-# and cargo cannot fetch the newer rev (orphan submodule gitlink).
-paths = ["../openrig-dev/crates/plugin-loader", "../openrig-dev/crates/domain", "../openrig-dev/crates/block-core", "../openrig-dev/crates/nam"]
