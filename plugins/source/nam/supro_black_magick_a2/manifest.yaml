@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_supro_black_magick_a2
 display_name: Supro Black Magick
 brand: supro
-output_gain_db: 0.0000000
+output_gain_db: -1.2043180
 type: amp
 backend: nam
 architecture: A2

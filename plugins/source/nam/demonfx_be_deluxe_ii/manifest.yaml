@@ -4,7 +4,7 @@ display_name: Demonfx BE-deluxe II
 brand: demonfx
 sources:
 - https://www.tone3000.com/tones/60143
-output_gain_db: -5.2249985
+output_gain_db: -17.8316841
 type: gain_pedal
 backend: nam
 architecture: A2

@@ -19,13 +19,13 @@ sources:
 parameters:
 - name: volume
   display_name: Volume
-  values: [3, 5, 6, 7, 8.5, 10]
+  values: [-1, 3, 5, 6, 7, 8.5, 10]
 - name: treble
   display_name: Treble
-  values: [4, 5, 6, 7, 8, 8.5, 10]
+  values: [-1, 4, 5, 6, 7, 8, 8.5, 10]
 - name: bass
   display_name: Bass
-  values: [1, 3, 4, 5, 6, 10]
+  values: [-1, 1, 3, 4, 5, 6, 10]
 - name: preset
   display_name: Preset
   values:
@@ -83,6 +83,9 @@ captures:
     bass: 4
     preset: warm_fuzz
   file: captures/warm_fuzz_v5_t4_b4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.1
 - values:
     volume: 10
     treble: 10
@@ -108,6 +111,9 @@ captures:
     preset: 80s_bass
   file: captures/80s_bass_v3_t8_5_b4_a2.nam
 - values:
+    volume: -1
+    treble: -1
+    bass: -1
     preset: ts9_ds1
   file: captures/ts9_ds1_boosted_a2.nam
 - values:

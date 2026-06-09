@@ -1,7 +1,9 @@
 # Constant across all captures (dropped): arc50c (amp model), std (Standard NAM architecture).
 # amp stage = LEAD-channel named lead voicings ([AMP] profiles, IR required); preset axis.
 # pow stage = poweramp-only profiles with Presence (P) + Depth (D) knobs and load type
-#             (cl = cabinet load / Mesa 4x12, rl = reactive load). amp/pow axes are a sparse grid.
+#             (cl = cabinet load / Mesa 4x12, rl = reactive load). Each capture sets every
+#             axis (loader requirement): a control the other stage owns carries the not-engaged
+#             sentinel — `-1` for a knob (presence/depth), `none` for a selector (load/preset).
 manifest_version: 1
 id: nam_prs_archon
 display_name: Archon
@@ -21,6 +23,7 @@ parameters:
 - name: preset
   display_name: Preset
   values:
+  - none
   - hippo
   - roar
   - rhino
@@ -30,6 +33,7 @@ parameters:
 - name: presence
   display_name: Presence
   values:
+  - -1
   - 2
   - 5
   - 6
@@ -37,6 +41,7 @@ parameters:
 - name: depth
   display_name: Depth
   values:
+  - -1
   - 2
   - 5
   - 6
@@ -44,66 +49,109 @@ parameters:
 - name: load
   display_name: Load
   values:
+  - none
   - cl
   - rl
 captures:
 - values:
     stage: amp
     preset: hippo
+    presence: -1
+    depth: -1
+    load: none
   file: captures/amp_arc50c_lead_hippo_std.nam
 - values:
     stage: amp
     preset: roar
+    presence: -1
+    depth: -1
+    load: none
   file: captures/amp_arc50c_lead_roar_std.nam
 - values:
     stage: amp
     preset: rhino
+    presence: -1
+    depth: -1
+    load: none
   file: captures/amp_arc50c_lead_rhino_std.nam
 - values:
     stage: amp
     preset: growl
+    presence: -1
+    depth: -1
+    load: none
   file: captures/amp_arc50c_lead_growl_std.nam
 - values:
     stage: amp
     preset: nessie
+    presence: -1
+    depth: -1
+    load: none
   file: captures/amp_arc50c_lead_nessie_std.nam
 - values:
     stage: amp
     preset: kong
+    presence: -1
+    depth: -1
+    load: none
   file: captures/amp_arc50c_lead_kong_std.nam
 - values:
     stage: pow
+    preset: none
     presence: 5
     depth: 5
     load: cl
   file: captures/pow_arc50c_p5_d5_cl_mesa4x12_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     stage: pow
+    preset: none
     presence: 8
     depth: 2
     load: rl
   file: captures/pow_arc50c_p8_d2_rl_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     stage: pow
+    preset: none
     presence: 6
     depth: 6
     load: rl
   file: captures/pow_arc50c_p6_d6_rl_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     stage: pow
+    preset: none
     presence: 2
     depth: 6
     load: rl
   file: captures/pow_arc50c_p2_d6_rl_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     stage: pow
+    preset: none
     presence: 5
     depth: 2
     load: rl
   file: captures/pow_arc50c_p5_d2_rl_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     stage: pow
+    preset: none
     presence: 2
     depth: 8
     load: rl
   file: captures/pow_arc50c_p2_d8_rl_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.6

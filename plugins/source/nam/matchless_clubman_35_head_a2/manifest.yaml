@@ -43,9 +43,11 @@ parameters:
   values:
   - lo
   - hi
+  - none
 - name: volume
   display_name: Volume
   values:
+  - -1
   - 2
   - 3
   - 4
@@ -55,6 +57,7 @@ parameters:
 - name: bass
   display_name: Bass
   values:
+  - -1
   - 8
   - 9
   - 10
@@ -63,6 +66,7 @@ parameters:
 - name: treble
   display_name: Treble
   values:
+  - -1
   - 1
   - 2
   - 10
@@ -71,6 +75,7 @@ parameters:
 - name: bright
   display_name: Bright
   values:
+  - -1
   - 1
   - 2
   - 9
@@ -80,6 +85,7 @@ parameters:
 - name: master
   display_name: Master
   values:
+  - -1
   - 10
   - 12
 captures:
@@ -94,6 +100,7 @@ captures:
   file: captures/clubman_dark_eob_hi_v10_b09_t10_br09_m10_a2.nam
 - values:
     voicing: balanced_lead
+    input: none
     volume: 4
     bass: 8
     treble: 12
@@ -138,6 +145,7 @@ captures:
   file: captures/clubman_ssr_push_lo_v12_b10_5_t12_br11_ma12_a2.nam
 - values:
     voicing: balanced_od
+    input: none
     volume: 2
     bass: 9
     treble: 12
@@ -162,6 +170,9 @@ captures:
     bright: 1
     master: 12
   file: captures/clubman_bright_lead_2_hi_v04_b08_t02_br01_m12_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.4
 - values:
     voicing: ssr_od
     input: lo
@@ -183,6 +194,11 @@ captures:
 - values:
     voicing: power_amp
     input: lo
+    volume: -1
+    bass: -1
+    treble: -1
+    bright: -1
+    master: -1
   file: captures/clubman_power_amp_lo_a2.nam
 - values:
     voicing: bright_push
@@ -223,9 +239,15 @@ captures:
 - values:
     voicing: power_amp
     input: hi
+    volume: -1
+    bass: -1
+    treble: -1
+    bright: -1
+    master: -1
   file: captures/clubman_power_amp_hi_a2.nam
 - values:
     voicing: balanced_push
+    input: none
     volume: 12
     bass: 9
     treble: 12
@@ -288,6 +310,7 @@ captures:
   file: captures/clubman_bright_eob_lo_v10_b12_t12_br01_m12_a2.nam
 - values:
     voicing: balanced_clean
+    input: none
     volume: 8
     bass: 9
     treble: 12
@@ -314,6 +337,7 @@ captures:
   file: captures/clubman_bright_clean_hi_v08_b12_t12_br02_m12_a2.nam
 - values:
     voicing: balanced_eob
+    input: none
     volume: 10
     bass: 9
     treble: 12
