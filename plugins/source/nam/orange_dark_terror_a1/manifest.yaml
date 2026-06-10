@@ -18,4 +18,4 @@ captures:
   file: captures/orange_dark_terror_full_rig.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -31.0

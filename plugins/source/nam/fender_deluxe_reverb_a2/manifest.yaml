@@ -60,7 +60,7 @@ captures:
   file: captures/v10_t10_b1_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -35.0
 - values:
     tube: stock
     channel: norm
@@ -108,7 +108,7 @@ captures:
   file: captures/v6_v10_t10_b1_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -34.5
 - values:
     tube: mod_12ax7
     channel: norm
@@ -136,7 +136,7 @@ captures:
   file: captures/v6_v1_pulled_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -34.0
 - values:
     tube: mod_12ax7
     channel: bright
@@ -214,7 +214,7 @@ captures:
   file: captures/v1_pulled_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.5
 - values:
     tube: stock
     channel: bright

@@ -48,11 +48,11 @@ captures:
   file: captures/tsl100_lead_g7.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -35.5
 - values:
     channel: lead
     gain: 9
   file: captures/tsl100_lead_g9.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -35.5

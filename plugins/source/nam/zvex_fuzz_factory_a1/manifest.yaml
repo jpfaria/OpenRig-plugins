@@ -51,7 +51,7 @@ captures:
   file: captures/fuzz_factory_clone_v_10_00_g_12_00_c_3_00_f_min_s_.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -34.5
 - values:
     gate: 12.3
     comp: 0
@@ -60,7 +60,7 @@ captures:
   file: captures/fuzz_factory_clone_v_10_00_g_12_30_c_min_f_min_s_m.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     gate: 3
     comp: 9

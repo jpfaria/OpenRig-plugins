@@ -139,7 +139,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_bright_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     boost: normal
     channel: lead
@@ -148,7 +148,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_bright_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     boost: normal
     channel: lead
@@ -157,7 +157,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.5
 - values:
     boost: normal
     channel: lead
@@ -166,7 +166,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_normal_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     boost: pre_boost
     channel: lead
@@ -175,7 +175,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_bright_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: pre_boost
     channel: lead
@@ -184,7 +184,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_bright_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: pre_boost
     channel: lead
@@ -193,7 +193,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: pre_boost
     channel: lead
@@ -202,7 +202,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_jazz_pre_boost_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: normal
     channel: lead
@@ -211,7 +211,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_bright_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: normal
     channel: lead
@@ -220,7 +220,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_bright_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     boost: normal
     channel: lead
@@ -229,7 +229,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: normal
     channel: lead
@@ -238,7 +238,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_normal_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -34.0
 - values:
     boost: pre_boost
     channel: lead
@@ -247,7 +247,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_bright_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: pre_boost
     channel: lead
@@ -256,7 +256,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_bright_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: pre_boost
     channel: lead
@@ -265,7 +265,7 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: pre_boost
     channel: lead
@@ -274,4 +274,4 @@ captures:
   file: captures/ceriatone_ots_mini_20_lead_rock_pre_boost_midboost_level03_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0

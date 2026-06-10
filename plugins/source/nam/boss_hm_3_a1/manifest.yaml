@@ -37,7 +37,7 @@ captures:
   file: captures/boss_hm3_lows5_highs5_dist10_boss_hm3.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.7
+    threshold_db: -30.0
 - values:
     lows: 5
     highs: 10

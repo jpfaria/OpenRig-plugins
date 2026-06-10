@@ -56,7 +56,7 @@ captures:
   file: captures/clubman_ssr_lead_2_hi_v03_b10_t12_br10_ma12.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     voicing: ssr_lead
     input: lo

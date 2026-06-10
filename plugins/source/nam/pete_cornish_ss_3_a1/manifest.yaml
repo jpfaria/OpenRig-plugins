@@ -41,7 +41,7 @@ captures:
   file: captures/tts_corn_ss3_s00_b00_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     sustain: 0.0
     bass: 10.0
@@ -49,7 +49,7 @@ captures:
   file: captures/tts_corn_ss3_s00_b10_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -32.0
 - values:
     sustain: 2.0
     bass: 2.0
@@ -57,7 +57,7 @@ captures:
   file: captures/tts_corn_ss3_s02_b02_t04_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -31.5
 - values:
     sustain: 2.0
     bass: 2.0
@@ -65,7 +65,7 @@ captures:
   file: captures/tts_corn_ss3_s02_b02_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -31.0
 - values:
     sustain: 2.0
     bass: 10.0
@@ -73,7 +73,7 @@ captures:
   file: captures/tts_corn_ss3_s02_b10_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.5
 - values:
     sustain: 4.0
     bass: 4.0
@@ -81,7 +81,7 @@ captures:
   file: captures/tts_corn_ss3_s04_b04_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -31.0
 - values:
     sustain: 4.0
     bass: 10.0
@@ -89,7 +89,7 @@ captures:
   file: captures/tts_corn_ss3_s04_b10_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -31.5
 - values:
     sustain: 6.0
     bass: 0.0
@@ -107,7 +107,7 @@ captures:
   file: captures/tts_corn_ss3_s06_b00_t04_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.5
 - values:
     sustain: 6.0
     bass: 0.0
@@ -115,7 +115,7 @@ captures:
   file: captures/tts_corn_ss3_s06_b00_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     sustain: 6.0
     bass: 6.0
@@ -128,7 +128,7 @@ captures:
   file: captures/tts_corn_ss3_s06_b06_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.5
 - values:
     sustain: 6.0
     bass: 10.0
@@ -136,7 +136,7 @@ captures:
   file: captures/tts_corn_ss3_s06_b10_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -31.0
 - values:
     sustain: 8.0
     bass: 0.0
@@ -144,7 +144,7 @@ captures:
   file: captures/tts_corn_ss3_s08_b00_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     sustain: 8.0
     bass: 4.0
@@ -152,7 +152,7 @@ captures:
   file: captures/tts_corn_ss3_s08_b04_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     sustain: 8.0
     bass: 10.0
@@ -165,7 +165,7 @@ captures:
   file: captures/tts_corn_ss3_s10_b00_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     sustain: 10.0
     bass: 6.0
@@ -173,7 +173,7 @@ captures:
   file: captures/tts_corn_ss3_s10_b06_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     sustain: 10.0
     bass: 10.0
@@ -181,4 +181,4 @@ captures:
   file: captures/tts_corn_ss3_s10_b10_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0

@@ -20,4 +20,4 @@ captures:
   file: captures/1992_peavey_5150_block_letter_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.5

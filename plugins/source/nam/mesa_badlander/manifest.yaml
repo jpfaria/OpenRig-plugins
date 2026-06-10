@@ -39,18 +39,30 @@ captures:
     stage: pre
     preset: divine_sheep_04
   file: captures/s_pre_divine_sheep_04_artist.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     stage: pre
     preset: divine_sheep_07
   file: captures/s_pre_divine_sheep_07_artist.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     stage: pre
     preset: noon_07
   file: captures/s_pre_noon_07_author.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     stage: pre
     preset: astro_horsey_02
   file: captures/s_pre_astro_horsey_02_ts_artist.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     stage: amp
     preset: clean_blues_02
@@ -59,19 +71,34 @@ captures:
     stage: amp
     preset: scoopy_dew_02
   file: captures/s_amp_100w_bold_clean_scoopy_dew_02_author.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     stage: amp
     preset: murder_tones_01
   file: captures/s_amp_100w_bold_crush_murder_tones_01_reviewer.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     stage: amp
     preset: mrscary_bull_04
   file: captures/s_amp_100w_bold_crush_mrscary_bull_04_reviewer.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     stage: amp
     preset: divine_sheep_01
   file: captures/s_amp_100w_bold_crush_divine_sheep_01_artist.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     stage: pow
     preset: pushed_02
   file: captures/s_pow_100w_bold_clean_pushed_02_factory.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5

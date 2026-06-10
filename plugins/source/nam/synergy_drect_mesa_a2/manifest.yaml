@@ -20,4 +20,4 @@ captures:
   file: captures/dual_rectifier_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.0

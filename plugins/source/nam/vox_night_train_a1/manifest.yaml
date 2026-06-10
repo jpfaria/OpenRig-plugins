@@ -20,10 +20,10 @@ captures:
   file: captures/vox_night_train_nt15h_boost_ts9.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     preset: od_low
   file: captures/vox_night_train_nt15h_overdrive_ts9_low_boosted.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0

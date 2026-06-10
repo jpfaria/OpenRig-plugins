@@ -36,7 +36,7 @@ captures:
   file: captures/lead_creamy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     preset: rhythm_1
   file: captures/rhythm_1_a2.nam
@@ -45,22 +45,22 @@ captures:
   file: captures/rhythm_2_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -34.0
 - values:
     preset: rhythm_3
   file: captures/rhythm_3_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5
 - values:
     preset: rhythm_deftoned
   file: captures/rhythm_deftoned_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.5
 - values:
     preset: rhythm_od808
   file: captures/rhythm_od808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0

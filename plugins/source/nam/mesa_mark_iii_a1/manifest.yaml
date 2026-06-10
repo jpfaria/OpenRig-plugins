@@ -45,7 +45,7 @@ captures:
   file: captures/medhi_cranked.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.5
 - values:
     eq: medhi
     gain_stage: pushed

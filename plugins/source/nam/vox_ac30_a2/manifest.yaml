@@ -88,7 +88,7 @@ captures:
   file: captures/tb_v3_tc0_b6_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.5
 - values:
     channel: n
     volume: 8
@@ -99,7 +99,7 @@ captures:
   file: captures/n_v8_tc3_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -110,7 +110,7 @@ captures:
   file: captures/tb_v3_tc7_b6_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.5
 - values:
     channel: tb
     volume: 5
@@ -121,7 +121,7 @@ captures:
   file: captures/tb_v5_tc0_b3_t8_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -132,7 +132,7 @@ captures:
   file: captures/tb_v7_tc5_b7_t3_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 3
@@ -151,7 +151,7 @@ captures:
   file: captures/tb_v3_tc4_b6_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -162,7 +162,7 @@ captures:
   file: captures/tb_v8_tc4_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -173,7 +173,7 @@ captures:
   file: captures/tb_v7_tc0_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -184,7 +184,7 @@ captures:
   file: captures/tb_v3_tc0_b4_t7_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 5
@@ -195,7 +195,7 @@ captures:
   file: captures/n_v5_tc3_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -206,7 +206,7 @@ captures:
   file: captures/tb_v3_tc5_b4_t7_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -217,7 +217,7 @@ captures:
   file: captures/tb_v7_tc7_b2_t7_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -228,7 +228,7 @@ captures:
   file: captures/tb_v5_tc0_b1_t7_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -239,7 +239,7 @@ captures:
   file: captures/tb_v7_tc7_b7_t3_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 5
@@ -258,7 +258,7 @@ captures:
   file: captures/tb_v7_tc7_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 8
@@ -269,7 +269,7 @@ captures:
   file: captures/n_v8_tc8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 3
@@ -280,7 +280,7 @@ captures:
   file: captures/n_v3_tc5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     channel: tb
     volume: 5
@@ -291,7 +291,7 @@ captures:
   file: captures/tb_v5_tc8_b3_t8_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -302,7 +302,7 @@ captures:
   file: captures/tb_v3_tc0_b7_t7_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -313,7 +313,7 @@ captures:
   file: captures/tb_v7_tc8_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 3
@@ -335,7 +335,7 @@ captures:
   file: captures/tb_v5_tc0_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -346,7 +346,7 @@ captures:
   file: captures/tb_v8_tc2_b0_t0_mids_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -357,7 +357,7 @@ captures:
   file: captures/tb_v7_tc0_b10_t10_cranked_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 2
@@ -368,7 +368,7 @@ captures:
   file: captures/tb_v2_tc8_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     channel: n
     volume: 8
@@ -379,7 +379,7 @@ captures:
   file: captures/n_v8_tc5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -390,7 +390,7 @@ captures:
   file: captures/tb_v3_tc8_b4_t7_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -401,7 +401,7 @@ captures:
   file: captures/tb_v3_tc8_b7_t7_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -412,7 +412,7 @@ captures:
   file: captures/tb_v7_tc4_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -423,7 +423,7 @@ captures:
   file: captures/tb_v5_tc4_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -434,7 +434,7 @@ captures:
   file: captures/tb_v8_tc7_b3_t8_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -445,7 +445,7 @@ captures:
   file: captures/tb_v7_tc0_b2_t7_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 10
@@ -456,7 +456,7 @@ captures:
   file: captures/tb_v10_tc7_b5_t6_noonish_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -467,7 +467,7 @@ captures:
   file: captures/tb_v5_tc4_b1_t7_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -478,7 +478,7 @@ captures:
   file: captures/tb_v3_tc0_b1_t5_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 10
@@ -489,7 +489,7 @@ captures:
   file: captures/tb_v10_tc6_b10_t10_fullcrank_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -500,7 +500,7 @@ captures:
   file: captures/tb_v8_tc0_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 2
@@ -519,7 +519,7 @@ captures:
   file: captures/tb_v8_tc7_b10_t10_cranked_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -530,7 +530,7 @@ captures:
   file: captures/tb_v5_tc7_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -541,7 +541,7 @@ captures:
   file: captures/tb_v5_tc7_b7_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -552,7 +552,7 @@ captures:
   file: captures/tb_v8_tc8_b7_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 10
@@ -563,7 +563,7 @@ captures:
   file: captures/n_v10_tc3_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -574,7 +574,7 @@ captures:
   file: captures/tb_v7_tc5_b10_t10_cranked_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -585,7 +585,7 @@ captures:
   file: captures/tb_v5_tc7_b1_t7_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -596,7 +596,7 @@ captures:
   file: captures/tb_v7_tc4_b2_t7_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 2
@@ -607,7 +607,7 @@ captures:
   file: captures/tb_v2_tc3_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     channel: tb
     volume: 2
@@ -618,7 +618,7 @@ captures:
   file: captures/tb_v2_tc0_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     channel: n
     volume: 3
@@ -629,7 +629,7 @@ captures:
   file: captures/n_v3_tc0_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     channel: tb
     volume: 8
@@ -640,7 +640,7 @@ captures:
   file: captures/tb_v8_tc5_b7_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -651,7 +651,7 @@ captures:
   file: captures/tb_v8_tc0_b3_t8_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 10
@@ -662,7 +662,7 @@ captures:
   file: captures/n_v10_tc0_dallastreble_4_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -673,7 +673,7 @@ captures:
   file: captures/tb_v3_tc5_b7_t7_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 3
@@ -684,7 +684,7 @@ captures:
   file: captures/n_v3_tc3_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     channel: tb
     volume: 8
@@ -695,7 +695,7 @@ captures:
   file: captures/tb_v8_tc0_b10_t10_cranked_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -706,7 +706,7 @@ captures:
   file: captures/tb_v5_tc4_b3_t8_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 10
@@ -717,7 +717,7 @@ captures:
   file: captures/n_v10_tc0_dallastreble_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -728,7 +728,7 @@ captures:
   file: captures/tb_v5_tc3_b7_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 8
@@ -747,7 +747,7 @@ captures:
   file: captures/tb_v10_tc0_b5_t6_noonish_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -758,7 +758,7 @@ captures:
   file: captures/tb_v7_tc5_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -769,7 +769,7 @@ captures:
   file: captures/tb_v3_tc6_b1_t5_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -780,7 +780,7 @@ captures:
   file: captures/tb_v5_tc0_b10_t10_cranked_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -791,7 +791,7 @@ captures:
   file: captures/tb_v5_tc7_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 7
@@ -802,7 +802,7 @@ captures:
   file: captures/n_v7_tc0_dallastreble_7_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 5
@@ -813,7 +813,7 @@ captures:
   file: captures/n_v5_tc0_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -824,7 +824,7 @@ captures:
   file: captures/tb_v7_tc0_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 3
@@ -835,7 +835,7 @@ captures:
   file: captures/tb_v3_tc4_b1_t5_streets_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 2
@@ -846,7 +846,7 @@ captures:
   file: captures/tb_v2_tc5_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     channel: tb
     volume: 10
@@ -857,7 +857,7 @@ captures:
   file: captures/tb_v10_tc0_b10_t10_fullcrank_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -868,7 +868,7 @@ captures:
   file: captures/tb_v8_tc0_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -879,7 +879,7 @@ captures:
   file: captures/tb_v5_tc0_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 10
@@ -890,7 +890,7 @@ captures:
   file: captures/tb_v10_tc0_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -901,7 +901,7 @@ captures:
   file: captures/tb_v8_tc8_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 5
@@ -912,7 +912,7 @@ captures:
   file: captures/n_v5_tc8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 5
@@ -923,7 +923,7 @@ captures:
   file: captures/n_v5_tc5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -934,7 +934,7 @@ captures:
   file: captures/tb_v5_tc4_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -945,7 +945,7 @@ captures:
   file: captures/tb_v8_tc7_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -956,7 +956,7 @@ captures:
   file: captures/tb_v8_tc5_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 10
@@ -967,7 +967,7 @@ captures:
   file: captures/n_v10_tc0_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -978,7 +978,7 @@ captures:
   file: captures/tb_v8_tc4_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -989,7 +989,7 @@ captures:
   file: captures/tb_v8_tc7_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -1000,7 +1000,7 @@ captures:
   file: captures/tb_v7_tc4_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -1011,7 +1011,7 @@ captures:
   file: captures/tb_v8_tc0_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -1022,7 +1022,7 @@ captures:
   file: captures/tb_v8_tc5_b3_t8_bright_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 10
@@ -1033,7 +1033,7 @@ captures:
   file: captures/tb_v10_tc6_b1_t6_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 10
@@ -1044,7 +1044,7 @@ captures:
   file: captures/n_v10_tc0_dallastreble_6_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -1055,7 +1055,7 @@ captures:
   file: captures/tb_v7_tc0_b7_t3_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -1066,7 +1066,7 @@ captures:
   file: captures/tb_v5_tc0_b7_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -1077,7 +1077,7 @@ captures:
   file: captures/tb_v7_tc7_b5_t5_noon_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: n
     volume: 8
@@ -1088,7 +1088,7 @@ captures:
   file: captures/n_v8_tc0_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 5
@@ -1099,7 +1099,7 @@ captures:
   file: captures/tb_v5_tc2_b0_t0_mids_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 7
@@ -1110,7 +1110,7 @@ captures:
   file: captures/tb_v7_tc0_b7_t8_push_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: tb
     volume: 8
@@ -1121,4 +1121,4 @@ captures:
   file: captures/tb_v8_tc0_b7_t4_warm_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0

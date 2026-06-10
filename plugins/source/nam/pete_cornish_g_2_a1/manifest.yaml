@@ -31,128 +31,92 @@ captures:
     sustain: 0.0
     tone: 0.0
   file: captures/tts_cornish_g2_s00_t00_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.3
 - values:
     sustain: 0.0
     tone: 2.0
   file: captures/tts_cornish_g2_s00_t02_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     sustain: 0.0
     tone: 4.0
   file: captures/tts_cornish_g2_s00_t04_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.8
 - values:
     sustain: 0.0
     tone: 6.0
   file: captures/tts_cornish_g2_s00_t06_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.5
+    threshold_db: -35.0
 - values:
     sustain: 0.0
     tone: 8.0
   file: captures/tts_cornish_g2_s00_t08_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -35.0
 - values:
     sustain: 0.0
     tone: 10.0
   file: captures/tts_cornish_g2_s00_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.3
+    threshold_db: -35.0
 - values:
     sustain: 2.0
     tone: 0.0
   file: captures/tts_cornish_g2_s02_t00_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.3
 - values:
     sustain: 2.0
     tone: 2.0
   file: captures/tts_cornish_g2_s02_t02_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     sustain: 2.0
     tone: 4.0
   file: captures/tts_cornish_g2_s02_t04_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.9
 - values:
     sustain: 2.0
     tone: 6.0
   file: captures/tts_cornish_g2_s02_t06_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.6
 - values:
     sustain: 2.0
     tone: 8.0
   file: captures/tts_cornish_g2_s02_t08_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -34.0
 - values:
     sustain: 2.0
     tone: 10.0
   file: captures/tts_cornish_g2_s02_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.3
+    threshold_db: -33.5
 - values:
     sustain: 4.0
     tone: 0.0
   file: captures/tts_cornish_g2_s04_t00_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.6
 - values:
     sustain: 4.0
     tone: 2.0
   file: captures/tts_cornish_g2_s04_t02_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.6
 - values:
     sustain: 4.0
     tone: 4.0
   file: captures/tts_cornish_g2_s04_t04_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     sustain: 4.0
     tone: 6.0
   file: captures/tts_cornish_g2_s04_t06_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.9
 - values:
     sustain: 4.0
     tone: 8.0
   file: captures/tts_cornish_g2_s04_t08_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.6
 - values:
     sustain: 4.0
     tone: 10.0
   file: captures/tts_cornish_g2_s04_t10_v10_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.5
+    threshold_db: -32.5
 - values:
     sustain: 6.0
     tone: 0.0
@@ -165,30 +129,18 @@ captures:
     sustain: 6.0
     tone: 4.0
   file: captures/tts_cornish_g2_s06_t04_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.6
 - values:
     sustain: 6.0
     tone: 6.0
   file: captures/tts_cornish_g2_s06_t06_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     sustain: 6.0
     tone: 8.0
   file: captures/tts_cornish_g2_s06_t08_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.9
 - values:
     sustain: 6.0
     tone: 10.0
   file: captures/tts_cornish_g2_s06_t10_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.7
 - values:
     sustain: 8.0
     tone: 0.0
@@ -213,9 +165,6 @@ captures:
     sustain: 8.0
     tone: 10.0
   file: captures/tts_cornish_g2_s08_t10_v10_a1.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.5
 - values:
     sustain: 10.0
     tone: 0.0

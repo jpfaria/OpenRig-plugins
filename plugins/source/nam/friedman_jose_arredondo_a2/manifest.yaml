@@ -71,7 +71,7 @@ captures:
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     preset: hotrod
     cab: marshall

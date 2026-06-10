@@ -22,10 +22,10 @@ captures:
   file: captures/dirty_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     voicing: dirty_low_boosted
   file: captures/dirty_low_boosted_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0

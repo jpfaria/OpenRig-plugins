@@ -85,7 +85,7 @@ captures:
   file: captures/warm_fuzz_v5_t4_b4_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -33.5
 - values:
     volume: 10
     treble: 10

@@ -47,7 +47,7 @@ captures:
   file: captures/hbe_808_flat_hg_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     channel: hbe
     boost: none
@@ -56,7 +56,7 @@ captures:
   file: captures/hbe_flat_hg_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: be
     boost: none
@@ -71,7 +71,7 @@ captures:
   file: captures/hbe_808_scoop_hg_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: be
     boost: none
@@ -86,7 +86,7 @@ captures:
   file: captures/hbe_mids_hg_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: hbe
     boost: od808
@@ -95,7 +95,7 @@ captures:
   file: captures/hbe_808_mids_hg_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: hbe
     boost: none
@@ -104,7 +104,7 @@ captures:
   file: captures/hbe_scoop_hg_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: cln
     boost: none

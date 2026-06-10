@@ -45,6 +45,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_0_tight_up_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -37.0
 - values:
     gain: 0
     tight: down
@@ -59,6 +62,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_25_tight_up_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -37.0
 - values:
     gain: 25
     tight: down
@@ -73,6 +79,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_50_tight_up_pres_50_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     gain: 50
     tight: up
@@ -80,6 +89,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_50_tight_up_pres_50_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     gain: 50
     tight: up
@@ -87,6 +99,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_50_tight_up_pres_100_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     gain: 50
     tight: up
@@ -94,6 +109,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_50_tight_up_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     gain: 50
     tight: down
@@ -101,6 +119,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_50_tight_down_pres_50_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     gain: 50
     tight: down
@@ -115,6 +136,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_50_tight_down_pres_100_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     gain: 50
     tight: down
@@ -122,6 +146,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_50_tight_down_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 75
     tight: up
@@ -129,6 +156,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_75_tight_up_pres_50_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 75
     tight: up
@@ -136,6 +166,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_75_tight_up_pres_100_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     gain: 75
     tight: up
@@ -143,6 +176,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_75_tight_up_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     gain: 75
     tight: down
@@ -150,6 +186,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_75_tight_down_pres_50_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     gain: 75
     tight: down
@@ -164,6 +203,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_75_tight_down_pres_100_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 100
     tight: up
@@ -171,6 +213,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_100_tight_up_pres_50_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     gain: 100
     tight: up
@@ -178,6 +223,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_100_tight_up_pres_50_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     gain: 100
     tight: up
@@ -185,6 +233,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_100_tight_up_pres_100_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     gain: 100
     tight: up
@@ -192,6 +243,9 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_100_tight_up_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     gain: 100
     tight: down
@@ -199,6 +253,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_100_tight_down_pres_50_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     gain: 100
     tight: down
@@ -206,6 +263,9 @@ captures:
     mid: 40
     high: 60
   file: captures/gain_100_tight_down_pres_100_mid_high_4060.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     gain: 100
     tight: down
@@ -213,3 +273,6 @@ captures:
     mid: 50
     high: 50
   file: captures/gain_100_tight_down_pres_100_mid_high_5050.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

@@ -55,16 +55,16 @@ captures:
   file: captures/boss_ds1_t5_v10_g8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -34.5
 - values:
     dist: 9
   file: captures/boss_ds1_t5_v10_g9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -32.5
 - values:
     dist: 10
   file: captures/boss_ds1_t5_v10_g10_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -32.0

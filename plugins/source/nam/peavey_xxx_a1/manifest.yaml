@@ -22,22 +22,22 @@ captures:
   file: captures/12_peavey_xxx_ch2_kt_77_unboosted_b_higain.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     boost: weeping_chaos
   file: captures/28_peavey_xxx_ch2_kt_77_weeping_chaos_fuzz.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: tall_font
   file: captures/20_peavey_xxx_ch2_kt_77_tall_font_d_fuzz.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     boost: os_2
   file: captures/31_peavey_xxx_ch2_kt_77_os_2_distortion.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0

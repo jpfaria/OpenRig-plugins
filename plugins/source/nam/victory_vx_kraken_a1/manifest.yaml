@@ -22,10 +22,10 @@ captures:
   file: captures/shred_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     mode: full
   file: captures/shred_full.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0

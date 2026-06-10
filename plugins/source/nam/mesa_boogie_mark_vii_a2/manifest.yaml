@@ -43,57 +43,114 @@ captures:
 - values:
     preset: ch2_chunky_revyhi
   file: captures/ch2_mkvii_chunky_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch1_clean_std
   file: captures/ch1_cln_factory_bright_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: eq_off_std
   file: captures/eqoff_pres5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     preset: ch3_bull_revyhi
   file: captures/ch3_mkiic_bull_sheet_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch3_eet_revyhi
   file: captures/ch3_mkiic_eet_faq_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch1_fat_revyhi
   file: captures/ch1_fat_factory_country_clean_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch1_clean_revyhi
   file: captures/ch1_cln_factory_bright_clean_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch3_bull_std
   file: captures/ch3_mkiic_bull_sheet_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch3_pony_revyhi
   file: captures/ch3_mkiib_pony_rawness_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch1_fat_std
   file: captures/ch1_fat_factory_country_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch2_chunky_std
   file: captures/ch2_mkvii_chunky_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch3_war_std
   file: captures/ch3_mkiv_war_never_changes_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: eq_on_revyhi
   file: captures/eqon_pres5_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch2_crunch_revyhi
   file: captures/ch2_crnch_factory_classic_crunch_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch2_crunch_std
   file: captures/ch2_crnch_factory_classic_crunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: ch3_eet_std
   file: captures/ch3_mkiic_eet_faq_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     preset: ch3_war_revyhi
   file: captures/ch3_mkiv_war_never_changes_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: eq_off_revyhi
   file: captures/eqoff_pres5_revyhi_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     preset: eq_on_std
   file: captures/eqon_pres5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

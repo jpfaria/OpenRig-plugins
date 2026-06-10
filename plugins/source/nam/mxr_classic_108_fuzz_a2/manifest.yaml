@@ -44,46 +44,73 @@ captures:
     fuzz: 0
     volume: 8
   file: captures/mxr_108_fuzz_v8_f0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 2
     volume: 8
   file: captures/mxr_108_fuzz_v8_f2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 3
     volume: 8
   file: captures/mxr_108_fuzz_v8_f3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 4
     volume: 8
   file: captures/mxr_108_fuzz_v8_f4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 5
     volume: 8
   file: captures/mxr_108_fuzz_v8_f5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 6
     volume: 8
   file: captures/mxr_108_fuzz_v8_f6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 7
     volume: 8
   file: captures/mxr_108_fuzz_v8_f7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 8
     volume: 8
   file: captures/mxr_108_fuzz_v8_f8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 9
     volume: 8
   file: captures/mxr_108_fuzz_v8_f9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 10
@@ -94,11 +121,17 @@ captures:
     fuzz: 0
     volume: 8
   file: captures/mxr_108_fuzz_v8_f0_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
 - values:
     mode: buffered
     fuzz: 2
     volume: 8
   file: captures/mxr_108_fuzz_v8_f2_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
 - values:
     mode: buffered
     fuzz: 3
@@ -109,41 +142,65 @@ captures:
     fuzz: 4
     volume: 8
   file: captures/mxr_108_fuzz_v8_f4_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
 - values:
     mode: buffered
     fuzz: 5
     volume: 8
   file: captures/mxr_108_fuzz_v8_f5_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
 - values:
     mode: buffered
     fuzz: 6
     volume: 8
   file: captures/mxr_108_fuzz_v8_f6_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
 - values:
     mode: buffered
     fuzz: 7
     volume: 8
   file: captures/mxr_108_fuzz_v8_f7_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     mode: buffered
     fuzz: 8
     volume: 8
   file: captures/mxr_108_fuzz_v8_f8_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     mode: buffered
     fuzz: 9
     volume: 8
   file: captures/mxr_108_fuzz_v8_f9_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: buffered
     fuzz: 10
     volume: 8
   file: captures/mxr_108_fuzz_v8_f10_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 0
     volume: 10
   file: captures/mxr_108_fuzz_vmax_fmin_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
 - values:
     mode: bypass
     fuzz: 1
@@ -151,7 +208,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.0
 - values:
     mode: bypass
     fuzz: 2
@@ -159,7 +216,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f2_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -31.5
 - values:
     mode: bypass
     fuzz: 3
@@ -167,7 +224,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f3_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.5
 - values:
     mode: bypass
     fuzz: 4
@@ -175,7 +232,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f4_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     mode: bypass
     fuzz: 9
@@ -183,12 +240,15 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.0
 - values:
     mode: bypass
     fuzz: 10
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
 - values:
     mode: bypass
     fuzz: 11
@@ -196,7 +256,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f11_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -33.5
 - values:
     mode: bypass
     fuzz: 12
@@ -204,7 +264,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f12_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.0
 - values:
     mode: bypass
     fuzz: 13
@@ -212,12 +272,15 @@ captures:
   file: captures/mxr_108_fuzz_vmax_fmax_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     mode: buffered
     fuzz: 0
     volume: 10
   file: captures/mxr_108_fuzz_vmax_fmin_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
 - values:
     mode: buffered
     fuzz: 1
@@ -225,7 +288,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f1_buf_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.7
+    threshold_db: -32.0
 - values:
     mode: buffered
     fuzz: 2
@@ -233,7 +296,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f2_buf_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -31.5
 - values:
     mode: buffered
     fuzz: 3
@@ -241,7 +304,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f3_buf_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     mode: buffered
     fuzz: 4
@@ -249,22 +312,31 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f4_buf_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     mode: buffered
     fuzz: 9
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f9_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
 - values:
     mode: buffered
     fuzz: 10
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f10_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
 - values:
     mode: buffered
     fuzz: 11
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f11_buf_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
 - values:
     mode: buffered
     fuzz: 12
@@ -272,7 +344,7 @@ captures:
   file: captures/mxr_108_fuzz_vmax_f12_buf_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.7
+    threshold_db: -32.5
 - values:
     mode: buffered
     fuzz: 13
@@ -280,4 +352,4 @@ captures:
   file: captures/mxr_108_fuzz_vmax_fmax_buf_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0

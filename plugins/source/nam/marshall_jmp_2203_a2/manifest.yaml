@@ -48,139 +48,139 @@ captures:
   file: captures/anthrax_ian_mids2_paraeq_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: ktt_grind
   file: captures/ktt_grind_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0
 - values:
     preset: anthrax_ian_lesscut
   file: captures/anthrax_ian_lesscut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.5
 - values:
     preset: ktt_paraeq_locut2
   file: captures/ktt_paraeq_locut2_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     preset: rtl_amponly
   file: captures/rtl_amponly_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -34.0
 - values:
     preset: grind_ktt_brighter
   file: captures/grind_ktt_brighter_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0
 - values:
     preset: anthrax_ian_mids2_moregain
   file: captures/anthrax_ian_mids2_moregain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.5
+    threshold_db: -30.0
 - values:
     preset: anthrax_ian_mids2_presence4
   file: captures/anthrax_ian_mids2_presence4_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: anthrax_ian_nopedal_zeromids
   file: captures/anthrax_ian_nopedal_zeromids_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.5
 - values:
     preset: grind_ktt_evenbrighter
   file: captures/grind_ktt_evenbrighter_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.5
+    threshold_db: -30.0
 - values:
     preset: rtl
   file: captures/rtl_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.0
 - values:
     preset: anthrax_ian_zeromids
   file: captures/anthrax_ian_zeromids_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -32.0
 - values:
     preset: ktt_brighter
   file: captures/ktt_brighter_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.5
 - values:
     preset: rat
   file: captures/rat_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: goldenpearl
   file: captures/goldenpearl_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     preset: paraeq_medium_bass
   file: captures/paraeq_medium_bass_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     preset: ktt_amponly
   file: captures/ktt_amponly_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -34.5
 - values:
     preset: metallica_od808
   file: captures/metallica_od808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.0
 - values:
     preset: lg_krunch
   file: captures/lg_krunch_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -35.0
 - values:
     preset: ktt_paraeq_locut
   file: captures/ktt_paraeq_locut_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: anthrax_ian_mids2_nopedal
   file: captures/anthrax_ian_mids2_nopedal_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -34.0
 - values:
     preset: ian_grind
   file: captures/ian_grind_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     preset: krunch
   file: captures/krunch_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -34.0
 - values:
     preset: od808
   file: captures/od808_a2.nam
@@ -189,16 +189,16 @@ captures:
   file: captures/paraeq_low_bass_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: metal_brighter
   file: captures/metal_brighter_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: ktt
   file: captures/ktt_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0

@@ -113,578 +113,578 @@ captures:
   file: captures/slammin_dumble_ford_cln_balanced_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -33.5
 - values:
     gain_stage: clean
     preset: carltonish_2
   file: captures/slammin_dumble_ford_cln_carltonish_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -33.0
 - values:
     gain_stage: clean
     preset: carltonish
   file: captures/slammin_dumble_ford_cln_carltonish_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5
 - values:
     gain_stage: clean
     preset: fordish
   file: captures/slammin_dumble_ford_cln_fordish_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5
 - values:
     gain_stage: clean
     preset: gritty
   file: captures/slammin_dumble_ford_cln_gritty_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: clean
     preset: highmv_cinnamon
   file: captures/slammin_dumble_ford_cln_highmv_cinnamon_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: clean
     preset: highmv_locutdrive
   file: captures/slammin_dumble_ford_cln_highmv_locutdrive_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: clean
     preset: klean
   file: captures/slammin_dumble_ford_cln_klean_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -33.5
 - values:
     gain_stage: clean
     preset: main
   file: captures/slammin_dumble_ford_cln_main_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: clean
     preset: main_warm
   file: captures/slammin_dumble_ford_cln_main_warm_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.5
 - values:
     gain_stage: clean
     preset: pab_crunchy
   file: captures/slammin_dumble_ford_cln_pab_crunchy_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: clean
     preset: scoop
   file: captures/slammin_dumble_ford_cln_scoop_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -33.0
 - values:
     gain_stage: clean
     preset: treble
   file: captures/slammin_dumble_ford_cln_treble_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5
 - values:
     gain_stage: clean
     preset: warm
   file: captures/slammin_dumble_ford_cln_warm_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -34.0
 - values:
     gain_stage: od
     preset: bluesy_2
   file: captures/slammin_dumble_ford_od_bluesy_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: bluesy
   file: captures/slammin_dumble_ford_od_bluesy_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: bright_gainy
   file: captures/slammin_dumble_ford_od_bright_gainy_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: bright_logain
   file: captures/slammin_dumble_ford_od_bright_logain_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: carlosanta
   file: captures/slammin_dumble_ford_od_carlosanta_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: carlton_2
   file: captures/slammin_dumble_ford_od_carlton_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: carlton_3
   file: captures/slammin_dumble_ford_od_carlton_3_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: carlton_4
   file: captures/slammin_dumble_ford_od_carlton_4_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: carlton
   file: captures/slammin_dumble_ford_od_carlton_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: crunchy_allswitches_2
   file: captures/slammin_dumble_ford_od_crunchy_allswitches_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: crunchy_allswitches_3
   file: captures/slammin_dumble_ford_od_crunchy_allswitches_3_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: crunchy_allswitches
   file: captures/slammin_dumble_ford_od_crunchy_allswitches_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: crunchy_mids
   file: captures/slammin_dumble_ford_od_crunchy_mids_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: ford_2
   file: captures/slammin_dumble_ford_od_ford_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: ford_3
   file: captures/slammin_dumble_ford_od_ford_3_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: ford_4
   file: captures/slammin_dumble_ford_od_ford_4_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: ford_5
   file: captures/slammin_dumble_ford_od_ford_5_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: ford_6
   file: captures/slammin_dumble_ford_od_ford_6_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: ford
   file: captures/slammin_dumble_ford_od_ford_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: hermans_2
   file: captures/slammin_dumble_ford_od_hermans_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: hermans
   file: captures/slammin_dumble_ford_od_hermans_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_allswitches
   file: captures/slammin_dumble_ford_od_high_mv_allswitches_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_allswitches_xstd
   file: captures/slammin_dumble_ford_od_high_mv_allswitches_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_bright
   file: captures/slammin_dumble_ford_od_high_mv_bright_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_fat
   file: captures/slammin_dumble_ford_od_high_mv_fat_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_fat_xstd
   file: captures/slammin_dumble_ford_od_high_mv_fat_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_mids
   file: captures/slammin_dumble_ford_od_high_mv_mids_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_scoop
   file: captures/slammin_dumble_ford_od_high_mv_scoop_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: high_mv_scoop_xstd
   file: captures/slammin_dumble_ford_od_high_mv_scoop_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: main
   file: captures/slammin_dumble_ford_od_main_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: main_xstd
   file: captures/slammin_dumble_ford_od_main_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: mick_2
   file: captures/slammin_dumble_ford_od_mick_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: open_larry
   file: captures/slammin_dumble_ford_od_open_larry_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: open_robben
   file: captures/slammin_dumble_ford_od_open_robben_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_brite
   file: captures/slammin_dumble_ford_od_pab_brite_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_brite_xstd
   file: captures/slammin_dumble_ford_od_pab_brite_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_clear_drive
   file: captures/slammin_dumble_ford_od_pab_clear_drive_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_clear_drive_xstd
   file: captures/slammin_dumble_ford_od_pab_clear_drive_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_crunch
   file: captures/slammin_dumble_ford_od_pab_crunch_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_crunch_xstd
   file: captures/slammin_dumble_ford_od_pab_crunch_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_drive
   file: captures/slammin_dumble_ford_od_pab_drive_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_higain_alt
   file: captures/slammin_dumble_ford_od_pab_higain_alt_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_higain_alt_xstd
   file: captures/slammin_dumble_ford_od_pab_higain_alt_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_higain
   file: captures/slammin_dumble_ford_od_pab_higain_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_higain_xstd
   file: captures/slammin_dumble_ford_od_pab_higain_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_high_mv_mellow
   file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_high_mv_mellow_xstd
   file: captures/slammin_dumble_ford_od_pab_high_mv_mellow_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_high_mv
   file: captures/slammin_dumble_ford_od_pab_high_mv_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_high_mv_sharp
   file: captures/slammin_dumble_ford_od_pab_high_mv_sharp_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_high_mv_xstd
   file: captures/slammin_dumble_ford_od_pab_high_mv_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_jazz
   file: captures/slammin_dumble_ford_od_pab_jazz_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_main_gainy
   file: captures/slammin_dumble_ford_od_pab_main_gainy_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_main_gainy_xstd
   file: captures/slammin_dumble_ford_od_pab_main_gainy_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_main
   file: captures/slammin_dumble_ford_od_pab_main_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_mick_2
   file: captures/slammin_dumble_ford_od_pab_mick_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_mick
   file: captures/slammin_dumble_ford_od_pab_mick_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_mick_xstd
   file: captures/slammin_dumble_ford_od_pab_mick_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_sparkly
   file: captures/slammin_dumble_ford_od_pab_sparkly_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_sparkly_xstd
   file: captures/slammin_dumble_ford_od_pab_sparkly_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_thick
   file: captures/slammin_dumble_ford_od_pab_thick_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: pab_thick_xstd
   file: captures/slammin_dumble_ford_od_pab_thick_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: smooth_2
   file: captures/slammin_dumble_ford_od_smooth_2_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: smooth
   file: captures/slammin_dumble_ford_od_smooth_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: thick_logain
   file: captures/slammin_dumble_ford_od_thick_logain_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: thick_logain_xstd
   file: captures/slammin_dumble_ford_od_thick_logain_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: vhigh_mv_higain_all
   file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: vhigh_mv_higain_all_xstd
   file: captures/slammin_dumble_ford_od_vhigh_mv_higain_all_xs_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: vhigh_mv_higain
   file: captures/slammin_dumble_ford_od_vhigh_mv_higain_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     gain_stage: od
     preset: vhigh_mv_higain_tight
   file: captures/slammin_dumble_ford_od_vhigh_mv_higain_tight_s_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0

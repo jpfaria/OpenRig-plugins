@@ -36,19 +36,19 @@ captures:
   file: captures/uberschall_capture_4_emil_rohbe.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5
 - values:
     preset: g6
   file: captures/uberschall_capture_5_emil_settings_g6_emil_rohbe.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.5
 - values:
     preset: lo
   file: captures/uberschall_capture_7_emil_settings_lo_emil_rohbe.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.5
 - values:
     preset: hi_p
   file: captures/uberschall_capture_8_emil_settings_hi_p_emil_rohbe.nam
@@ -57,7 +57,7 @@ captures:
   file: captures/uberschall_capture_9_g6_boosted_emil_rohbe.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: new_2
   file: captures/uberschall_capture_13_new_settings_2_emil_rohbe.nam
@@ -66,13 +66,13 @@ captures:
   file: captures/uberschall_capture_14_new_settings_3_emil_rohbe.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5
 - values:
     preset: new_boosted
   file: captures/uberschall_capture_15_new_settings_boosted_emil_rohbe.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: clean
   file: captures/uberschall_capture_17_clean_2_emil_rohbe.nam

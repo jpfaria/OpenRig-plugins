@@ -24,10 +24,10 @@ captures:
   file: captures/soldano_poulin_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.5
 - values:
     preset: eq_post
   file: captures/soldano_poulin_linear_eq_post_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.5

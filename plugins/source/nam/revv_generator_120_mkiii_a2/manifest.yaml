@@ -162,7 +162,7 @@ captures:
   file: captures/Revv_blue_bd2_03_od808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -31.5
 - values:
     channel: blue
     mode: none
@@ -198,7 +198,7 @@ captures:
   file: captures/Revv_blue_kot-dist_01_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.7
+    threshold_db: -32.5
 - values:
     channel: blue
     mode: none
@@ -212,7 +212,7 @@ captures:
   file: captures/Revv_blue_kot-dist_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.7
+    threshold_db: -30.0
 - values:
     channel: blue
     mode: none
@@ -226,7 +226,7 @@ captures:
   file: captures/Revv_blue_kot-stacked_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     channel: blue
     mode: none
@@ -273,7 +273,7 @@ captures:
   file: captures/Revv_green_b_drive0_bb_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: green
     mode: none
@@ -287,7 +287,7 @@ captures:
   file: captures/Revv_green_b_drive0_dualitydx-blue_01_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -35.0
 - values:
     channel: green
     mode: none
@@ -301,7 +301,7 @@ captures:
   file: captures/Revv_green_b_drive0_dualitydx-blue_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -34.0
 - values:
     channel: green
     mode: none
@@ -326,7 +326,7 @@ captures:
   file: captures/Revv_green_b_drive0_dualitydx-green_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -34.5
 - values:
     channel: green
     mode: none
@@ -340,7 +340,7 @@ captures:
   file: captures/Revv_green_b_drive1_bb_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: green
     mode: none
@@ -354,7 +354,7 @@ captures:
   file: captures/Revv_green_b_drive1_dualitydx-blue_01_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -34.0
 - values:
     channel: green
     mode: none
@@ -368,7 +368,7 @@ captures:
   file: captures/Revv_green_b_drive1_dualitydx-blue_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.0
 - values:
     channel: green
     mode: none
@@ -382,7 +382,7 @@ captures:
   file: captures/Revv_green_b_drive1_dualitydx-green_01_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.5
 - values:
     channel: green
     mode: none
@@ -396,7 +396,7 @@ captures:
   file: captures/Revv_green_b_drive1_dualitydx-green_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.0
 - values:
     channel: green
     mode: none
@@ -410,7 +410,7 @@ captures:
   file: captures/Revv_green_b_drive2_bb_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: green
     mode: none
@@ -424,7 +424,7 @@ captures:
   file: captures/Revv_green_b_drive2_dualitydx-blue_01_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.5
 - values:
     channel: green
     mode: none
@@ -438,7 +438,7 @@ captures:
   file: captures/Revv_green_b_drive2_dualitydx-blue_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -452,7 +452,7 @@ captures:
   file: captures/Revv_green_b_drive2_dualitydx-green_01_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.5
 - values:
     channel: green
     mode: none
@@ -466,7 +466,7 @@ captures:
   file: captures/Revv_green_b_drive2_dualitydx-green_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.5
 - values:
     channel: green
     mode: none
@@ -502,7 +502,7 @@ captures:
   file: captures/Revv_green_drive0_bb_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -32.0
 - values:
     channel: green
     mode: none
@@ -560,7 +560,7 @@ captures:
   file: captures/Revv_green_drive1_bb_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -31.0
 - values:
     channel: green
     mode: none
@@ -585,7 +585,7 @@ captures:
   file: captures/Revv_green_drive1_dualitydx-blue_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     channel: green
     mode: none
@@ -621,7 +621,7 @@ captures:
   file: captures/Revv_green_drive2_bb_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.5
 - values:
     channel: green
     mode: none
@@ -646,7 +646,7 @@ captures:
   file: captures/Revv_green_drive2_dualitydx-blue_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.0
 - values:
     channel: green
     mode: none
@@ -671,7 +671,7 @@ captures:
   file: captures/Revv_green_drive2_dualitydx-green_02_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -33.5
 - values:
     channel: purple
     mode: 0
@@ -685,7 +685,7 @@ captures:
   file: captures/Revv_purple_aggr0_b_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5
 - values:
     channel: purple
     mode: 0
@@ -699,7 +699,7 @@ captures:
   file: captures/Revv_purple_aggr0_b_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     channel: purple
     mode: 0
@@ -713,7 +713,7 @@ captures:
   file: captures/Revv_purple_aggr0_bc_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -31.5
 - values:
     channel: purple
     mode: 0
@@ -727,7 +727,7 @@ captures:
   file: captures/Revv_purple_aggr0_bc_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 0
@@ -741,7 +741,7 @@ captures:
   file: captures/Revv_purple_aggr0_bcf_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 0
@@ -755,7 +755,7 @@ captures:
   file: captures/Revv_purple_aggr0_bcf_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 0
@@ -769,7 +769,7 @@ captures:
   file: captures/Revv_purple_aggr0_bf_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     channel: purple
     mode: 0
@@ -783,7 +783,7 @@ captures:
   file: captures/Revv_purple_aggr0_bf_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -31.0
 - values:
     channel: purple
     mode: 0
@@ -797,7 +797,7 @@ captures:
   file: captures/Revv_purple_aggr0_c_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 0
@@ -811,7 +811,7 @@ captures:
   file: captures/Revv_purple_aggr0_c_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 0
@@ -825,7 +825,7 @@ captures:
   file: captures/Revv_purple_aggr0_cf_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 0
@@ -839,7 +839,7 @@ captures:
   file: captures/Revv_purple_aggr0_cf_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -32.0
 - values:
     channel: purple
     mode: 0
@@ -853,7 +853,7 @@ captures:
   file: captures/Revv_purple_aggr0_f_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -33.5
 - values:
     channel: purple
     mode: 0
@@ -867,7 +867,7 @@ captures:
   file: captures/Revv_purple_aggr0_f_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.0
 - values:
     channel: purple
     mode: 0
@@ -881,7 +881,7 @@ captures:
   file: captures/Revv_purple_aggr0_x_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5
 - values:
     channel: purple
     mode: 0
@@ -895,7 +895,7 @@ captures:
   file: captures/Revv_purple_aggr0_x_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.5
 - values:
     channel: purple
     mode: 1
@@ -909,7 +909,7 @@ captures:
   file: captures/Revv_purple_aggr1_b_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -923,7 +923,7 @@ captures:
   file: captures/Revv_purple_aggr1_b_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -937,7 +937,7 @@ captures:
   file: captures/Revv_purple_aggr1_bc_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -951,7 +951,7 @@ captures:
   file: captures/Revv_purple_aggr1_bc_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -965,7 +965,7 @@ captures:
   file: captures/Revv_purple_aggr1_bcf_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -979,7 +979,7 @@ captures:
   file: captures/Revv_purple_aggr1_bcf_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -993,7 +993,7 @@ captures:
   file: captures/Revv_purple_aggr1_bf_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1007,7 +1007,7 @@ captures:
   file: captures/Revv_purple_aggr1_bf_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1021,7 +1021,7 @@ captures:
   file: captures/Revv_purple_aggr1_c_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1035,7 +1035,7 @@ captures:
   file: captures/Revv_purple_aggr1_c_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1049,7 +1049,7 @@ captures:
   file: captures/Revv_purple_aggr1_cf_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1063,7 +1063,7 @@ captures:
   file: captures/Revv_purple_aggr1_cf_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1077,7 +1077,7 @@ captures:
   file: captures/Revv_purple_aggr1_f_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1091,7 +1091,7 @@ captures:
   file: captures/Revv_purple_aggr1_f_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1105,7 +1105,7 @@ captures:
   file: captures/Revv_purple_aggr1_x_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: purple
     mode: 1
@@ -1119,7 +1119,7 @@ captures:
   file: captures/Revv_purple_aggr1_x_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.5
 - values:
     channel: red
     mode: 0
@@ -1133,7 +1133,7 @@ captures:
   file: captures/Revv_red_aggr0_b_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1147,7 +1147,7 @@ captures:
   file: captures/Revv_red_aggr0_b_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1161,7 +1161,7 @@ captures:
   file: captures/Revv_red_aggr0_bc_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1175,7 +1175,7 @@ captures:
   file: captures/Revv_red_aggr0_bc_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1189,7 +1189,7 @@ captures:
   file: captures/Revv_red_aggr0_bcf_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1203,7 +1203,7 @@ captures:
   file: captures/Revv_red_aggr0_bcf_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1217,7 +1217,7 @@ captures:
   file: captures/Revv_red_aggr0_bf_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1231,7 +1231,7 @@ captures:
   file: captures/Revv_red_aggr0_bf_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 0
@@ -1245,7 +1245,7 @@ captures:
   file: captures/Revv_red_aggr0_c_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     channel: red
     mode: 0
@@ -1259,7 +1259,7 @@ captures:
   file: captures/Revv_red_aggr0_c_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 0
@@ -1273,7 +1273,7 @@ captures:
   file: captures/Revv_red_aggr0_cf_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -31.0
 - values:
     channel: red
     mode: 0
@@ -1287,7 +1287,7 @@ captures:
   file: captures/Revv_red_aggr0_cf_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     channel: red
     mode: 0
@@ -1315,7 +1315,7 @@ captures:
   file: captures/Revv_red_aggr0_f_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 0
@@ -1329,7 +1329,7 @@ captures:
   file: captures/Revv_red_aggr0_x_dualitydx-green_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 0
@@ -1343,7 +1343,7 @@ captures:
   file: captures/Revv_red_aggr0_x_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -32.0
 - values:
     channel: red
     mode: 1
@@ -1357,7 +1357,7 @@ captures:
   file: captures/Revv_red_aggr1_b_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1371,7 +1371,7 @@ captures:
   file: captures/Revv_red_aggr1_b_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1385,7 +1385,7 @@ captures:
   file: captures/Revv_red_aggr1_bc_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1399,7 +1399,7 @@ captures:
   file: captures/Revv_red_aggr1_bc_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1413,7 +1413,7 @@ captures:
   file: captures/Revv_red_aggr1_bcf_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1427,7 +1427,7 @@ captures:
   file: captures/Revv_red_aggr1_bcf_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1441,7 +1441,7 @@ captures:
   file: captures/Revv_red_aggr1_bf_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1455,7 +1455,7 @@ captures:
   file: captures/Revv_red_aggr1_bf_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1469,7 +1469,7 @@ captures:
   file: captures/Revv_red_aggr1_c_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1483,7 +1483,7 @@ captures:
   file: captures/Revv_red_aggr1_c_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.5
 - values:
     channel: red
     mode: 1
@@ -1497,7 +1497,7 @@ captures:
   file: captures/Revv_red_aggr1_cf_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1511,7 +1511,7 @@ captures:
   file: captures/Revv_red_aggr1_cf_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1525,7 +1525,7 @@ captures:
   file: captures/Revv_red_aggr1_f_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1539,7 +1539,7 @@ captures:
   file: captures/Revv_red_aggr1_f_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -31.0
 - values:
     channel: red
     mode: 1
@@ -1553,7 +1553,7 @@ captures:
   file: captures/Revv_red_aggr1_x_66_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 1
@@ -1567,7 +1567,7 @@ captures:
   file: captures/Revv_red_aggr1_x_tkiy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5
 - values:
     channel: red
     mode: 2
@@ -1581,7 +1581,7 @@ captures:
   file: captures/Revv_red_aggr2_b_dualitydx-green_solo_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 2
@@ -1595,7 +1595,7 @@ captures:
   file: captures/Revv_red_aggr2_b_tkiy_solo_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 2
@@ -1609,7 +1609,7 @@ captures:
   file: captures/Revv_red_aggr2_x_dualitydx-green_solo_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: red
     mode: 2
@@ -1623,4 +1623,4 @@ captures:
   file: captures/Revv_red_aggr2_x_tkiy_solo_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0

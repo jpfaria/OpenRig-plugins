@@ -36,89 +36,56 @@ captures:
     sustain: 0.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_0_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.3
 - values:
     tone: 2.0
     sustain: 2.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_2_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     tone: 2.0
     sustain: 5.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_5_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     tone: 2.0
     sustain: 8.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_8_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 2.0
     sustain: 10.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_2_s_10_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 3.0
     sustain: 0.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_0_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.4
 - values:
     tone: 3.0
     sustain: 2.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_2_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.0
 - values:
     tone: 3.0
     sustain: 5.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_5_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.0
 - values:
     tone: 3.0
     sustain: 8.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_8_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 3.0
     sustain: 10.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_3_s_10_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.0
 - values:
     tone: 4.0
     sustain: 0.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_4_s_0_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 4.0
     sustain: 2.0
@@ -126,7 +93,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_4_s_2_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     tone: 4.0
     sustain: 5.0
@@ -134,7 +101,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_4_s_5_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     tone: 4.0
     sustain: 8.0
@@ -142,7 +109,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_4_s_8_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     tone: 4.0
     sustain: 10.0
@@ -150,15 +117,12 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_4_s_10_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 0.0
     preset: feather
   file: captures/ehx_ic_big_muff_v_6_t_5_s_0_feather.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.9
 - values:
     tone: 5.0
     sustain: 2.0
@@ -166,7 +130,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_2_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.5
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 5.0
@@ -174,7 +138,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_5_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.3
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 8.0
@@ -182,7 +146,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_8_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 10.0
@@ -190,7 +154,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_10_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 0.0
@@ -198,7 +162,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_0_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -34.0
 - values:
     tone: 6.0
     sustain: 2.0
@@ -206,7 +170,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_2_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.2
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 5.0
@@ -214,7 +178,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_5_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.1
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 8.0
@@ -222,7 +186,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_8_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.2
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 10.0
@@ -230,7 +194,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_10_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.2
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 0.0
@@ -238,7 +202,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_0_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.2
+    threshold_db: -33.5
 - values:
     tone: 7.0
     sustain: 2.0
@@ -246,7 +210,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_2_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.8
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 5.0
@@ -254,7 +218,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_5_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.7
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 8.0
@@ -262,7 +226,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_8_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.7
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 10.0
@@ -270,103 +234,67 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_10_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.7
+    threshold_db: -30.0
 - values:
     tone: 2.0
     sustain: 0.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_2_s_0.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.4
 - values:
     tone: 2.0
     sustain: 2.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_2_s_2.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     tone: 2.0
     sustain: 5.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_2_s_5.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.3
 - values:
     tone: 2.0
     sustain: 8.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_2_s_8.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.3
 - values:
     tone: 2.0
     sustain: 10.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_2_s_10.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     tone: 3.0
     sustain: 0.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_3_s_0.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.4
 - values:
     tone: 3.0
     sustain: 2.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_3_s_2.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 3.0
     sustain: 5.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_3_s_5.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 3.0
     sustain: 8.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_3_s_8.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.1
 - values:
     tone: 3.0
     sustain: 10.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_3_s_10.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.2
 - values:
     tone: 4.0
     sustain: 0.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_4_s_0.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.3
 - values:
     tone: 4.0
     sustain: 2.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_4_s_2.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.8
 - values:
     tone: 4.0
     sustain: 5.0
@@ -374,31 +302,22 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_4_s_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     tone: 4.0
     sustain: 8.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_4_s_8.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.9
 - values:
     tone: 4.0
     sustain: 10.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_4_s_10.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.9
 - values:
     tone: 5.0
     sustain: 0.0
     preset: standard
   file: captures/ehx_ic_big_muff_v_6_t_5_s_0.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -32.0
 - values:
     tone: 5.0
     sustain: 2.0
@@ -406,7 +325,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.5
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 5.0
@@ -414,7 +333,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 8.0
@@ -422,7 +341,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_8.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -30.0
 - values:
     tone: 5.0
     sustain: 10.0
@@ -430,7 +349,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_5_s_10.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.4
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 0.0
@@ -438,7 +357,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_0.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -34.5
 - values:
     tone: 6.0
     sustain: 2.0
@@ -446,7 +365,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.1
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 5.0
@@ -454,7 +373,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.0
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 8.0
@@ -462,7 +381,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_8.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.1
+    threshold_db: -30.0
 - values:
     tone: 6.0
     sustain: 10.0
@@ -470,7 +389,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_6_s_10.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.0
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 0.0
@@ -478,7 +397,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_0.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.1
+    threshold_db: -33.5
 - values:
     tone: 7.0
     sustain: 2.0
@@ -486,7 +405,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_2.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.6
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 5.0
@@ -494,7 +413,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.6
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 8.0
@@ -502,7 +421,7 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_8.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.5
+    threshold_db: -30.0
 - values:
     tone: 7.0
     sustain: 10.0
@@ -510,4 +429,4 @@ captures:
   file: captures/ehx_ic_big_muff_v_6_t_7_s_10.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.5
+    threshold_db: -30.0

@@ -17,4 +17,4 @@ captures:
   file: captures/granophyre.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -34.5

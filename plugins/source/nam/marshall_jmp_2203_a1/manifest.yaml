@@ -38,7 +38,7 @@ captures:
   file: captures/slammin_marshall_2203_noon_mv3_48k_standard.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -35.0
 - values:
     boost: none
     master: 4
@@ -46,7 +46,7 @@ captures:
   file: captures/slammin_marshall_2203_scooped_mv4_48k_standard.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -32.5
 - values:
     boost: none
     master: 5
@@ -59,7 +59,7 @@ captures:
   file: captures/slammin_marshall_2203_wylde_sd1_mv6_48k.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     boost: none
     master: 7
@@ -67,4 +67,4 @@ captures:
   file: captures/slammin_marshall_2203_rock_mv7_48k.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5

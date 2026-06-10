@@ -38,7 +38,7 @@ captures:
   file: captures/tone_bender_mk_ii_jimmy_page_hg_loweq_hiinput_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     gain: 8
     eq: low
@@ -51,7 +51,7 @@ captures:
   file: captures/tone_bender_mk_ii_jimmy_page_hg_loweq_midinput_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -36.0
 - values:
     gain: 8
     eq: mid
@@ -59,7 +59,7 @@ captures:
   file: captures/tone_bender_mk_ii_jimmy_page_hg_mideq_hiinput_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -34.0
 - values:
     gain: 8
     eq: mid
@@ -72,7 +72,7 @@ captures:
   file: captures/tone_bender_mk_ii_jimmy_page_hg_mideq_midinput_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values:
     gain: 8
     eq: vlow
@@ -80,7 +80,7 @@ captures:
   file: captures/tone_bender_mk_ii_jimmy_page_hg_vloweq_hiinput_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -34.0
 - values:
     gain: 8
     eq: vlow
@@ -93,7 +93,7 @@ captures:
   file: captures/tone_bender_mk_ii_jimmy_page_hg_vloweq_midinput_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values:
     gain: 3
     eq: low

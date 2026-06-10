@@ -19,10 +19,10 @@ captures:
   file: captures/da50_mesa_clean.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.5
 - values:
     boost: boosted
   file: captures/da50_mesa_boosted.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5

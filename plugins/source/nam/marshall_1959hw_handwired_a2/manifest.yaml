@@ -32,7 +32,7 @@ captures:
   file: captures/ch1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     channel: ch2
     wiring: normal

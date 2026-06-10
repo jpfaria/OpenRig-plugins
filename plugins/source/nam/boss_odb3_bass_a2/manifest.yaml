@@ -50,6 +50,9 @@ captures:
     balance: 8
     gain: 8.5
   file: captures/boss_odb3_l12_l12_h12_5_b8_g8_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
 - values:
     level: 12
     low: 12
@@ -57,6 +60,9 @@ captures:
     balance: 8
     gain: 9
   file: captures/boss_odb3_l12_l12_h12_b08_g09_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
 - values:
     level: 14
     low: 12
@@ -64,6 +70,9 @@ captures:
     balance: 9
     gain: 14
   file: captures/boss_odb3_l14_l12_h12_b09_g14_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     level: 14
     low: 17
@@ -71,3 +80,6 @@ captures:
     balance: 17
     gain: 17
   file: captures/boss_odb3_l14_l17_h17_b17_g17_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

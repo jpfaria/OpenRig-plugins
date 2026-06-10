@@ -50,7 +50,7 @@ captures:
   file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_1a_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -32.0
 - values:
     gain: 5
     clip: "off"
@@ -58,7 +58,7 @@ captures:
   file: captures/5mag_0clip_5amp_5filt_5dist_5oct_1m_1o_1a_c1000_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -37.0
 - values:
     gain: 5
     clip: "off"
@@ -71,7 +71,7 @@ captures:
   file: captures/10mag_0clip_10amp_10filt_10dist_10oct_1m_1o_1a_c300_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain: 3
     clip: "off"
@@ -99,4 +99,4 @@ captures:
   file: captures/5mag_1clip_5amp_5filt_5dist_5oct_1m_1o_1a_c300_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -35.0

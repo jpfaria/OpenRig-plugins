@@ -21,12 +21,18 @@ captures:
 - values:
     preset: lead_pink_gator
   file: captures/lead_pink_gator_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: lead_ending_heartbrake
   file: captures/lead_ending_heartbrake_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     preset: pow_reso7_pres7
   file: captures/pow_reso7_pres7_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0

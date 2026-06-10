@@ -19,4 +19,4 @@ captures:
   file: captures/boutiqueampdrive.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0

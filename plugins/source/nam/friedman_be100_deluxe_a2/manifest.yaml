@@ -66,6 +66,9 @@ captures:
     channel: cln
     preset: pre_noon_03
   file: captures/pre_cln_noon_03_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: cln
     preset: amp_rock_01
@@ -74,14 +77,23 @@ captures:
     channel: cln
     preset: amp_tender_clean
   file: captures/amp_cln_tender_clean_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: hbe
     preset: amp_mammoth
   file: captures/amp_hbe_mammoth_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: hbe
     preset: amp_tallica
   file: captures/amp_hbe_tallica_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: be
     preset: amp_eddie_01
@@ -98,3 +110,6 @@ captures:
     channel: none
     preset: pow_el34_juice_28
   file: captures/pow_el34_juice_28_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5

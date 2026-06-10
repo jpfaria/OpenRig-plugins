@@ -34,7 +34,7 @@ captures:
   file: captures/fz_1w_modern_l02_t05_f05_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -35.5
 - values:
     mode: modern
     fuzz: 7
@@ -53,7 +53,7 @@ captures:
   file: captures/fz_1w_vintage_l02_t05_f05_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -35.5
 - values:
     mode: vintage
     fuzz: 7

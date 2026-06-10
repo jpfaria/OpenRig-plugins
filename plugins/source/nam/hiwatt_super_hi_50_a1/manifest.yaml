@@ -30,7 +30,7 @@ captures:
   file: captures/amp_hwat_superhi50_noon_04_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     mic: blend1
     voicing: noon
@@ -49,7 +49,7 @@ captures:
   file: captures/amp_hwat_superhi50_bright_overdrive_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     mic: blend1
     voicing: bright_od

@@ -36,79 +36,139 @@ captures:
     channel: red
     position: 3
   file: captures/bogner_ecstasy_red_03_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 1
   file: captures/bogner_ecstasy_red_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 5
   file: captures/bogner_ecstasy_blue_05_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 4
   file: captures/bogner_ecstasy_blue_04_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 12
   file: captures/bogner_ecstasy_red_12_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 8
   file: captures/bogner_ecstasy_blue_08_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 7
   file: captures/bogner_ecstasy_blue_07_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 5
   file: captures/bogner_ecstasy_red_05_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 4
   file: captures/bogner_ecstasy_red_04_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 10
   file: captures/bogner_ecstasy_red_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 7
   file: captures/bogner_ecstasy_red_07_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 2
   file: captures/bogner_ecstasy_blue_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 1
   file: captures/bogner_ecstasy_blue_01_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 6
   file: captures/bogner_ecstasy_red_06_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 11
   file: captures/bogner_ecstasy_red_11_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 2
   file: captures/bogner_ecstasy_red_02_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 9
   file: captures/bogner_ecstasy_red_09_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: red
     position: 8
   file: captures/bogner_ecstasy_red_08_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 6
   file: captures/bogner_ecstasy_blue_06_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     channel: blue
     position: 3
   file: captures/bogner_ecstasy_blue_03_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

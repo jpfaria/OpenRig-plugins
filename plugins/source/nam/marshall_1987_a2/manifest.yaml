@@ -60,7 +60,7 @@ captures:
   file: captures/marshall_1987_10_10_10_10_10_00_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -38.0
 - values:
     presence: 10
     bass: 10
@@ -71,7 +71,7 @@ captures:
   file: captures/marshall_1987_10_10_10_10_10_10_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -35.5
 - values:
     presence: 10
     bass: 10
@@ -114,4 +114,4 @@ captures:
   file: captures/marshall_1987_05_05_05_05_10_10_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -38.5

@@ -28,13 +28,13 @@ captures:
   file: captures/fuller_tone_metal_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     preset: dweezil_ola
   file: captures/dweezil_s_bassguy_ola_cab_custom.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.7
+    threshold_db: -30.0
 - values:
     preset: dweezil_fuzz
   file: captures/dweezil_s_bassguy_fuzz_1_custom.nam
@@ -43,7 +43,7 @@ captures:
   file: captures/jonesy_s_pretty_dark_custom.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.0
 - values:
     preset: super_6g4_clean
   file: captures/super_6g4_comp_clean_custom.nam

@@ -65,7 +65,7 @@ captures:
   file: captures/hudson_broadcast_level130_bias_high_gain500_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -36.0
 - values:
     level: 1.3
     bias: 8
@@ -108,4 +108,4 @@ captures:
   file: captures/hudson_broadcast_level130_bias_high_gain300_a1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -36.0

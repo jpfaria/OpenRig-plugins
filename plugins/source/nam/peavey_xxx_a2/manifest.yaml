@@ -58,105 +58,105 @@ captures:
   file: captures/01_peavey_xxx_ch2_kt_77_sd805_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: sd_1w
   file: captures/02_peavey_xxx_ch2_kt_77_sd_1w_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: os_2
   file: captures/03_peavey_xxx_ch2_kt_77_os_2_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: od808
   file: captures/04_peavey_xxx_ch2_kt_77_od808_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: od808x
   file: captures/05_peavey_xxx_ch2_kt_77_od808x_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: m77
   file: captures/06_peavey_xxx_ch2_kt_77_m77_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: ch3
     boost: sd_1w
   file: captures/07_peavey_xxx_ch3_kt_77_sd_1w_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: ch3
     boost: ts7
   file: captures/08_peavey_xxx_ch3_kt_77_ts7_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: ch3
     boost: od808
   file: captures/09_peavey_xxx_ch3_kt_77_od808_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: ch3
     boost: od808x
   file: captures/10_peavey_xxx_ch3_kt_77_od808x_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: unboosted_a
   file: captures/11_peavey_xxx_ch2_kt_77_unboosted_a_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5
 - values:
     channel: ch2
     boost: unboosted_b
   file: captures/12_peavey_xxx_ch2_kt_77_unboosted_b_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5
 - values:
     channel: ch2
     boost: unboosted_c
   file: captures/13_peavey_xxx_ch2_kt_77_unboosted_c_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.5
 - values:
     channel: ch2
     boost: unboosted_d
   file: captures/14_peavey_xxx_ch2_kt_77_unboosted_d_crunch_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -35.0
 - values:
     channel: ch3
     boost: unboosted
   file: captures/15_peavey_xxx_ch3_kt_77_unboosted_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.5
 - values:
     channel: ch1
     boost: unboosted
@@ -167,35 +167,35 @@ captures:
   file: captures/17_peavey_xxx_ch2_kt_77_tall_font_a_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.5
 - values:
     channel: ch2
     boost: tall_font_b
   file: captures/18_peavey_xxx_ch2_kt_77_tall_font_b_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -31.0
 - values:
     channel: ch2
     boost: tall_font_c
   file: captures/19_peavey_xxx_ch2_kt_77_tall_font_c_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: tall_font_d
   file: captures/20_peavey_xxx_ch2_kt_77_tall_font_d_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: tall_font_e
   file: captures/21_peavey_xxx_ch2_kt_77_tall_font_e_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: russian_pickle_a
@@ -206,81 +206,81 @@ captures:
   file: captures/23_peavey_xxx_ch2_kt_77_russian_pickle_b_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: russian_pickle_c
   file: captures/24_peavey_xxx_ch2_kt_77_russian_pickle_c_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: russian_pickle_d
   file: captures/25_peavey_xxx_ch2_kt_77_russian_pickle_d_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: swollen_pickle_a
   file: captures/26_peavey_xxx_ch2_kt_77_swollen_pickle_a_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: swollen_pickle_b
   file: captures/27_peavey_xxx_ch2_kt_77_swollen_pickle_b_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: weeping_chaos
   file: captures/28_peavey_xxx_ch2_kt_77_weeping_chaos_fuzz_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: jugendstil
   file: captures/29_peavey_xxx_ch2_kt_77_jugendstil_chainsaw_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: chaotic_evil
   file: captures/30_peavey_xxx_ch2_kt_77_chaotic_evil_ned_chainsaw_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: ch2
     boost: os_2_dist
   file: captures/31_peavey_xxx_ch2_kt_77_os_2_distortion_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: pwramp
     boost: pepers_rot
   file: captures/32_peavey_xxx_pwramp_kt_77_pepers_rot_distortion_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -32.5
 - values:
     channel: pwramp
     boost: pepers_wendigo_a
   file: captures/33_peavey_xxx_pwramp_kt_77_pepers_wendigo_a_distortion_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -33.0
 - values:
     channel: pwramp
     boost: pepers_wendigo_b
   file: captures/34_peavey_xxx_pwramp_kt_77_pepers_wendigo_b_distortion_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0

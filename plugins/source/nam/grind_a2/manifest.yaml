@@ -23,15 +23,30 @@ captures:
 - values:
     boost: 9
   file: captures/fortin_grind_boost_knob_at_9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
 - values:
     boost: 8
   file: captures/fortin_grind_boost_knob_at_8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
 - values:
     boost: 5
   file: captures/fortin_grind_boost_knob_at_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
 - values:
     boost: 9.5
   file: captures/fortin_grind_boost_knob_at_9_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
 - values:
     boost: 6
   file: captures/fortin_grind_boost_knob_at_6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0

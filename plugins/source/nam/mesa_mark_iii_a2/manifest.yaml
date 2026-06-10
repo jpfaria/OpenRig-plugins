@@ -27,25 +27,25 @@ captures:
   file: captures/mark_iii_scream_lead_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     voicing: lead
   file: captures/mark_iii_lead_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.5
 - values:
     voicing: jp_hi_gain
   file: captures/mark_iii_jp_hi_gain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     voicing: old_school_rhythm
   file: captures/mark_iii_old_school_rhy_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -31.5
 - values:
     voicing: crunch
   file: captures/mark_iii_crunch_a2.nam
@@ -54,7 +54,7 @@ captures:
   file: captures/mark_iii_monorhythmia_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     voicing: clean
   file: captures/mark_iii_clean_a2.nam

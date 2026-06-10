@@ -38,7 +38,7 @@ captures:
   file: captures/amp_prs_mt100_clean_cleanly_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: clean
     preset: noon
@@ -46,7 +46,7 @@ captures:
   file: captures/amp_prs_mt100_clean_noon_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     channel: clean
     preset: noon
@@ -59,7 +59,7 @@ captures:
   file: captures/amp_prs_mt100_clean_live_2023_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     channel: clean
     preset: live_2023
@@ -77,7 +77,7 @@ captures:
   file: captures/amp_prs_mt100_overdrive_bitey_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     channel: overdrive
     preset: sin_after_sin
@@ -85,7 +85,7 @@ captures:
   file: captures/amp_prs_mt100_overdrive_sin_after_sin_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: overdrive
     preset: sin_after_sin

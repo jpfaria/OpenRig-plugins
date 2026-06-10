@@ -39,38 +39,62 @@ captures:
     pull_gain: down
     preset: 2
   file: captures/pre_unnamed_lo_down_02_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     input: lo
     pull_gain: down
     preset: 3
   file: captures/pre_unnamed_lo_down_03_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     input: lo
     pull_gain: down
     preset: 4
   file: captures/pre_unnamed_lo_down_04_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     input: lo
     pull_gain: up
     preset: 1
   file: captures/pre_unnamed_lo_up_01_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     input: hi
     pull_gain: down
     preset: 2
   file: captures/pre_unnamed_hi_down_02_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: hi
     pull_gain: down
     preset: 4
   file: captures/pre_unnamed_hi_down_04_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     input: hi
     pull_gain: up
     preset: 1
   file: captures/pre_unnamed_hi_up_01_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     input: hi
     pull_gain: up
     preset: 4
   file: captures/pre_unnamed_hi_up_04_std.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5

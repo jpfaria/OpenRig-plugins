@@ -18,4 +18,4 @@ captures:
   file: captures/bad_cat_lynx_cab_marshall_1960a_v30_4.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0

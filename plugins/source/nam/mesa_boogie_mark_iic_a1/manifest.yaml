@@ -27,28 +27,28 @@ captures:
   file: captures/mark_iic_phat_rhythm.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -31.0
 - values:
     preset: tight_rhythm
   file: captures/mark_iic_tight_rhythm.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.0
 - values:
     preset: hetfield_rhythm
   file: captures/mark_iic_hetfield_rhythm.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -35.5
 - values:
     preset: creamy_lead
   file: captures/mark_iic_creamy_lead.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     preset: fast_lead
   file: captures/mark_iic_fast_lead.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0

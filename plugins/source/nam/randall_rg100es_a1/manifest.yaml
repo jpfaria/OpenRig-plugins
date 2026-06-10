@@ -51,4 +51,4 @@ captures:
   file: captures/randall_rg100es_100w_1987_ch_crunch_sustain_engaged_gain_8_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -34.5

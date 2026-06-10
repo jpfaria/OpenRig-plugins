@@ -24,7 +24,7 @@ captures:
   file: captures/hm2_mij_swede.nam
   noise_gate:
     enabled: true
-    threshold_db: -30.4
+    threshold_db: -30.0
 - values:
     preset: godflesh
   file: captures/hm2_mij_godflesh.nam
