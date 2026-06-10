@@ -45,35 +45,62 @@ captures:
     voicing: crunch
     feel: thick
   file: captures/ksr_ceres_one_rhythm1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     voicing: crunch
     feel: tight
   file: captures/ksr_ceres_one_rhythm2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     voicing: crunch
     feel: fat
   file: captures/ksr_ceres_one_rhythm3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     voicing: red
     feel: thick
   file: captures/ksr_ceres_one_rhythm4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     voicing: red
     feel: tight
   file: captures/ksr_ceres_one_rhythm5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     voicing: red
     feel: fat
   file: captures/ksr_ceres_one_rhythm6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     voicing: lead
     feel: thick
   file: captures/ksr_ceres_one_lead1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     voicing: lead
     feel: tight
   file: captures/ksr_ceres_one_lead2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     voicing: lead
     feel: fat
   file: captures/ksr_ceres_one_lead3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

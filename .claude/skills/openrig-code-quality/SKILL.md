@@ -190,12 +190,24 @@ default > engine default.
   the gate when `idle ≥ cutoff` (issue #73 chose **−20 dBFS**, the clearly-
   audible tier: 228/524 plugins); quieter captures keep the #612 off-default so
   their sustain is never strangled.
-- **Threshold from the engine's own gate law.** The gate applies
-  `reduction_dB = 0.1·(threshold − level)²` below threshold. To pull the idle
-  hiss back down to the −50 dBFS floor, invert it at the idle level:
-  `threshold = −50 + √(reduction / 0.1)`, clamped to a musically safe band
-  `[−45, −30]`. Louder idle → higher (harder) threshold. **Never** pick a round
-  number by feel.
+- **Threshold from a closed-loop simulation of the ENGINE'S ACTUAL gate —
+  never from the static law.** The first pass inverted the gate's static
+  formula (`reduction_dB = 0.1·(threshold − level)²`) and produced a
+  near-constant threshold that did almost nothing for the hottest captures:
+  the real gate (`dsp::noise_gate`, 10 ms mean-square follower +
+  open/hold/close state machine) barely engages until the threshold is
+  within ~15 dB of the idle level. `nam_gate_audit` ports that gate
+  byte-faithfully and, per capture, runs `gate(probe, T) → model`:
+  - binary-search `t_idle` = the gentlest T whose gated idle output falls
+    to **−35 dBFS** (`IDLE_TARGET_DBFS`);
+  - binary-search `t_sustain` = the hardest T whose gated synthetic DI
+    keeps its integrated LUFS within **0.5 dB** (`SUSTAIN_TOL_DB`);
+  - ship `threshold = min(t_idle, t_sustain)`, bounded to `[−45, −30]`
+    (`T_LO`/`T_HI` — the ceiling keeps the gate below soft playing, which
+    the loud DI cannot probe). Every value is measured against that
+    specific model; there is NO uniform formula.
+  `--probe <model.nam>` prints the full per-T curve for one capture (the
+  per-plugin validator).
 - **Writer:** `nam_gate_audit --apply <report.tsv>` upserts the per-capture
   `noise_gate` block (idempotent: strips a stale block first, so a re-run at a
   different cutoff converges). This mirrors the tested `output_gain_db` writer
@@ -222,8 +234,10 @@ default > engine default.
 ```
 ❌ threshold_db picked by ear / a round number / copied from the schema example
 ❌ deciding "needs gate" from small-signal gain (over-selects ~90% of catalogue)
+❌ deriving threshold_db from the gate's STATIC law — the real follower/state
+   machine behaves differently; simulate the engine gate in closed loop
 ❌ an ad-hoc python/sed script rewriting 228 manifests
-✅ probe → measure audible idle → invert the gate law → tested --apply writer
+✅ probe → measure audible idle → closed-loop t_idle/t_sustain search → tested --apply writer
 ```
 
 ---

@@ -23,4 +23,4 @@ captures:
   file: captures/01_fr_marshall_1987x_hi_input_crunch_bal_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.5

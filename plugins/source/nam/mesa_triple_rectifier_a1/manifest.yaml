@@ -36,14 +36,14 @@ captures:
   file: captures/amp_trec_150bld_dio_vnt_chaosball_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     preset: juice_01
     mic: di
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     preset: juice_01
     mic: sm57
@@ -66,7 +66,7 @@ captures:
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     preset: juice_36
     mic: sm57

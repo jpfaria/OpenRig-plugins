@@ -22,10 +22,10 @@ captures:
   file: captures/omega_test_100ep_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -35.0
 - values:
     preset: final_2000ep
   file: captures/omega_granophyre_2000ep_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -34.5

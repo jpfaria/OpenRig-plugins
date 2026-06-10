@@ -20,6 +20,3 @@ captures:
 - values:
     mode: drive
   file: captures/tube_driver_butler_drive_setting_4386_400ep.nam
-  noise_gate:
-    enabled: true
-    threshold_db: -31.6

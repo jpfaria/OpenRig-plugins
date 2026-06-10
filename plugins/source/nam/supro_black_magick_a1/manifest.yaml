@@ -28,28 +28,28 @@ captures:
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_3_srl.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -33.5
 - values:
     tone: 4
     speaker: srl
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_4_srl.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -33.0
 - values:
     tone: 5
     speaker: srl
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_5_srl.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -32.5
 - values:
     tone: 6
     speaker: srl
   file: captures/di_supro_1695tj_in1_2_v1_5_v2_0_t_6_srl.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -32.0
 - values:
     tone: 5
     speaker: p12q

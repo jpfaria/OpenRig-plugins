@@ -45,7 +45,7 @@ captures:
   file: captures/panama_shaman_hg_g7_v7_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -33.0
 - values:
     gain: 5
     volume: 7
@@ -73,7 +73,7 @@ captures:
   file: captures/panama_shaman_crunch_g8_v8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -35.0
 - values:
     gain: 7
     volume: 7
@@ -106,7 +106,7 @@ captures:
   file: captures/panama_shaman_od_g7_v7_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values:
     gain: 3
     volume: 7

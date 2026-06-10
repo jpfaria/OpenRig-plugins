@@ -21,7 +21,7 @@ captures:
   file: captures/rockerverb_higain_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -34.5
 - values:
     channel: crunch
   file: captures/rockerverb_crunch_a2.nam

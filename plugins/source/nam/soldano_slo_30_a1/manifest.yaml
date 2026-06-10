@@ -25,11 +25,11 @@ captures:
   file: captures/slo_30_crunch_gain_3_bmt_466_pres_8_depth_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -33.0
 - values:
     channel: lead
     gain: 5
   file: captures/slo_30_lead_gain_5_bmt_466_pres_8_depth_5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0

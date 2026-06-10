@@ -37,14 +37,14 @@ captures:
   file: captures/sunface_bc109_v7_f10_c10_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     compression: 8
     transistor: bart
   file: captures/sunface_bart_v8_f10_c8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values:
     compression: 5
     transistor: rca
@@ -67,7 +67,7 @@ captures:
   file: captures/sunface_nkt_red_dot_lg_v7_f10_c10_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -32.5
 - values:
     compression: 3
     transistor: bart
@@ -82,7 +82,7 @@ captures:
   file: captures/sunface_rca_v7_f10_c8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.7
+    threshold_db: -36.5
 - values:
     compression: 7
     transistor: nkt_red_dot
@@ -105,4 +105,4 @@ captures:
   file: captures/sunface_rca_v7_f10_c10_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -31.0

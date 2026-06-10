@@ -20,4 +20,4 @@ captures:
   file: captures/engl_e530.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -33.0

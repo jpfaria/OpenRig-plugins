@@ -60,7 +60,7 @@ captures:
   file: captures/marshall_lead_12_high_input_g4_v4_t7_m4_b7_feather.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -36.0
 - values:
     input: high
     gain: 8

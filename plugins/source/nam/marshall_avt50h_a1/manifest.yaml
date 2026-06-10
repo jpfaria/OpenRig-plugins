@@ -26,25 +26,25 @@ captures:
   file: captures/hg_bass_cut.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     voicing: hg_dimed
   file: captures/hg_dimed.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.5
 - values:
     voicing: hg_mid_cut
   file: captures/hg_mid_cut.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     voicing: hg_mid_forward
   file: captures/hg_mid_forward.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.0
 - values:
     voicing: hg_treb_cut
   file: captures/hg_treb_cut.nam

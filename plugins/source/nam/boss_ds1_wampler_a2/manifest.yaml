@@ -80,30 +80,51 @@ captures:
     dist: 0
     tone: 4
   file: captures/ds1_mod_tone4_dist0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 1
     tone: 4
   file: captures/ds1_mod_tone4_dist1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     dist: 2
     tone: 4
   file: captures/ds1_mod_tone4_dist2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 3
     tone: 4
   file: captures/ds1_mod_tone4_dist3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 4
     tone: 4
   file: captures/ds1_mod_tone4_dist4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 5
     tone: 4
   file: captures/ds1_mod_tone4_dist5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 6
     tone: 4
   file: captures/ds1_mod_tone4_dist6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     dist: 7
     tone: 4
@@ -112,6 +133,9 @@ captures:
     dist: 8
     tone: 4
   file: captures/ds1_mod_tone4_dist8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 9
     tone: 4
@@ -124,87 +148,153 @@ captures:
     dist: 0
     tone: 6
   file: captures/ds1_mod_tone6_dist0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     dist: 1
     tone: 6
   file: captures/ds1_mod_tone6_dist1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     dist: 2
     tone: 6
   file: captures/ds1_mod_tone6_dist2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 3
     tone: 6
   file: captures/ds1_mod_tone6_dist3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     dist: 4
     tone: 6
   file: captures/ds1_mod_tone6_dist4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 5
     tone: 6
   file: captures/ds1_mod_tone6_dist5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 6
     tone: 6
   file: captures/ds1_mod_tone6_dist6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 7
     tone: 6
   file: captures/ds1_mod_tone6_dist7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 8
     tone: 6
   file: captures/ds1_mod_tone6_dist8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 9
     tone: 6
   file: captures/ds1_mod_tone6_dist9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 10
     tone: 6
   file: captures/ds1_mod_tone6_dist10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 0
     tone: 8
   file: captures/ds1_mod_tone8_dist0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     dist: 1
     tone: 8
   file: captures/ds1_mod_tone8_dist1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 2
     tone: 8
   file: captures/ds1_mod_tone8_dist2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 3
     tone: 8
   file: captures/ds1_mod_tone8_dist3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     dist: 4
     tone: 8
   file: captures/ds1_mod_tone8_dist4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 5
     tone: 8
   file: captures/ds1_mod_tone8_dist5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 6
     tone: 8
   file: captures/ds1_mod_tone8_dist6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 7
     tone: 8
   file: captures/ds1_mod_tone8_dist7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 8
     tone: 8
   file: captures/ds1_mod_tone8_dist8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     dist: 9
     tone: 8
   file: captures/ds1_mod_tone8_dist9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     dist: 10
     tone: 8
   file: captures/ds1_mod_tone8_dist10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0

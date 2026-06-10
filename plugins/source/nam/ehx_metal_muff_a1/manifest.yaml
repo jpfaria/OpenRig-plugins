@@ -35,13 +35,13 @@ captures:
   file: captures/metal_muff_eq_noon_full_gain.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -31.0
 - values:
     preset: evil
   file: captures/metal_muff_evil.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.5
 - values:
     preset: mega_scoop
   file: captures/metal_muff_mega_scoop.nam
@@ -53,13 +53,13 @@ captures:
   file: captures/metal_muff_nattens_madrigal.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -33.0
 - values:
     preset: swedish_chainsaw_ish
   file: captures/metal_muff_swedish_chainsaw_ish.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     preset: tob_boost_low_distortion
   file: captures/metal_muff_tob_boost_low_distortion.nam
@@ -68,4 +68,4 @@ captures:
   file: captures/metal_muff_trve_kult.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.0

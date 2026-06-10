@@ -17,4 +17,4 @@ captures:
   file: captures/va_5153r_gold_01_3.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0

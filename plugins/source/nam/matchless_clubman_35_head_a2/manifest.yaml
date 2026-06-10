@@ -172,7 +172,7 @@ captures:
   file: captures/clubman_bright_lead_2_hi_v04_b08_t02_br01_m12_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -34.5
 - values:
     voicing: ssr_od
     input: lo

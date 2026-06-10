@@ -29,16 +29,16 @@ captures:
   file: captures/unboosted_g5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -34.0
 - values:
     preset: merciless_drive
   file: captures/merciless_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.5
 - values:
     preset: fortin_14
   file: captures/fortin_14_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -33.5

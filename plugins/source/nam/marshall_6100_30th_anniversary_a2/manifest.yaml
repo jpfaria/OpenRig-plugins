@@ -42,7 +42,7 @@ captures:
   file: captures/marshall_6100_gb_high_gain_aesahaettr_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 8.33
@@ -50,7 +50,7 @@ captures:
   file: captures/marshall_6100_gb_high_gain_boss_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 8.33
@@ -58,7 +58,7 @@ captures:
   file: captures/marshall_6100_gb_high_gain_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 8.33
@@ -66,7 +66,7 @@ captures:
   file: captures/marshall_6100_gb_high_gain_no_boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 8.33
@@ -74,7 +74,7 @@ captures:
   file: captures/marshall_6100_gb_high_gain_precision_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 3.33
@@ -82,7 +82,7 @@ captures:
   file: captures/marshall_6100_gb_low_gain_aesahaettr_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 3.33
@@ -90,7 +90,7 @@ captures:
   file: captures/marshall_6100_gb_low_gain_boss_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 3.33
@@ -98,7 +98,7 @@ captures:
   file: captures/marshall_6100_gb_low_gain_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 3.33
@@ -106,7 +106,7 @@ captures:
   file: captures/marshall_6100_gb_low_gain_no_boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 3.33
@@ -114,7 +114,7 @@ captures:
   file: captures/marshall_6100_gb_low_gain_precision_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 5.83
@@ -122,7 +122,7 @@ captures:
   file: captures/marshall_6100_gb_mid_gain_aesahaettr_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 5.83
@@ -130,7 +130,7 @@ captures:
   file: captures/marshall_6100_gb_mid_gain_boss_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 5.83
@@ -138,7 +138,7 @@ captures:
   file: captures/marshall_6100_gb_mid_gain_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 5.83
@@ -146,7 +146,7 @@ captures:
   file: captures/marshall_6100_gb_mid_gain_no_boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     boost: on
     gain: 5.83
@@ -154,7 +154,7 @@ captures:
   file: captures/marshall_6100_gb_mid_gain_precision_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 8.33
@@ -162,7 +162,7 @@ captures:
   file: captures/marshall_6100_high_gain_aesahaettr_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 8.33
@@ -170,7 +170,7 @@ captures:
   file: captures/marshall_6100_high_gain_boss_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 8.33
@@ -178,7 +178,7 @@ captures:
   file: captures/marshall_6100_high_gain_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 8.33
@@ -186,7 +186,7 @@ captures:
   file: captures/marshall_6100_high_gain_no_boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 8.33
@@ -194,7 +194,7 @@ captures:
   file: captures/marshall_6100_high_gain_precision_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 3.33
@@ -202,7 +202,7 @@ captures:
   file: captures/marshall_6100_low_gain_aesahaettr_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 3.33
@@ -210,7 +210,7 @@ captures:
   file: captures/marshall_6100_low_gain_boss_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 3.33
@@ -218,7 +218,7 @@ captures:
   file: captures/marshall_6100_low_gain_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 3.33
@@ -226,7 +226,7 @@ captures:
   file: captures/marshall_6100_low_gain_no_boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -31.5
 - values:
     boost: off
     gain: 3.33
@@ -234,7 +234,7 @@ captures:
   file: captures/marshall_6100_low_gain_precision_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 5.83
@@ -242,7 +242,7 @@ captures:
   file: captures/marshall_6100_mid_gain_aesahaettr_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 5.83
@@ -250,7 +250,7 @@ captures:
   file: captures/marshall_6100_mid_gain_boss_sd1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 5.83
@@ -258,7 +258,7 @@ captures:
   file: captures/marshall_6100_mid_gain_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 5.83
@@ -266,7 +266,7 @@ captures:
   file: captures/marshall_6100_mid_gain_no_boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     boost: off
     gain: 5.83
@@ -274,4 +274,4 @@ captures:
   file: captures/marshall_6100_mid_gain_precision_drive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0

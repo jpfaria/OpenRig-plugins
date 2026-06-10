@@ -69,7 +69,7 @@ captures:
   file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values:
     stage: poweramp
     cab: marshall
@@ -86,7 +86,7 @@ captures:
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     stage: amp
     cab: marshall
@@ -96,7 +96,7 @@ captures:
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     stage: amp
     cab: marshall
@@ -106,4 +106,4 @@ captures:
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0

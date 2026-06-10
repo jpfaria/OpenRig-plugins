@@ -29,7 +29,7 @@ captures:
   file: captures/peavey_classic_30_overdrive_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     voicing: clean
     boost: boss_od3
@@ -40,7 +40,7 @@ captures:
   file: captures/peavey_classic_30_overdrive_ibanez_ts9_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     voicing: clean
     boost: none

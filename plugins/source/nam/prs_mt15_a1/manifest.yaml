@@ -46,4 +46,4 @@ captures:
   file: captures/prs_mt_15_metal_sweet_spot.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5

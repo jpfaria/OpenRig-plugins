@@ -35,73 +35,118 @@ captures:
     gain: 8
     stab: 7
   file: captures/fuzz_factory_g8_c5_s7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 10
     gain: 6
     stab: 0
   file: captures/fuzz_factory_g6_c10_s0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     comp: 8
     gain: 6
     stab: 5
   file: captures/fuzz_factory_g6_c8_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 10
     gain: 6
     stab: 10
   file: captures/fuzz_factory_g6_c10_s10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 5
     gain: 8
     stab: 0
   file: captures/fuzz_factory_g8_c5_s0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 8
     gain: 6
     stab: 7
   file: captures/fuzz_factory_g6_c8_s7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 10
     gain: 6
     stab: 3
   file: captures/fuzz_factory_g6_c10_s3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     comp: 8
     gain: 6
     stab: 3
   file: captures/fuzz_factory_g6_c8_s3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 5
     gain: 8
     stab: 5
   file: captures/fuzz_factory_g8_c5_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 5
     gain: 8
     stab: 3
   file: captures/fuzz_factory_g8_c5_s3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 5
     gain: 8
     stab: 10
   file: captures/fuzz_factory_g8_c5_s10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 8
     gain: 6
     stab: 10
   file: captures/fuzz_factory_g6_c8_s10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 10
     gain: 6
     stab: 5
   file: captures/fuzz_factory_g6_c10_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     comp: 10
     gain: 6
     stab: 7
   file: captures/fuzz_factory_g6_c10_s7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     comp: 8
     gain: 6
     stab: 0
   file: captures/fuzz_factory_g6_c8_s0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

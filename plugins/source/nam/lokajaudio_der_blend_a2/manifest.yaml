@@ -74,7 +74,7 @@ captures:
   file: captures/0sus_0tone_9level_0blend_0boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.5
 - values:
     sustain: 0
     tone: 0
@@ -84,7 +84,7 @@ captures:
   file: captures/0sus_0tone_5level_0blend_0boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.5
 - values:
     sustain: 0
     tone: 0
@@ -94,7 +94,7 @@ captures:
   file: captures/0sus_0tone_0level_0blend_0boost_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -37.0
 - values:
     sustain: 9
     tone: 9

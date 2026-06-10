@@ -23,16 +23,16 @@ captures:
   file: captures/synergy_drect_unboosted.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.0
 - values:
     boost: od808
   file: captures/synergy_drect_od808_sm57.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.5
 - values:
     boost: sd1
   file: captures/synergy_drect_sd1_sm58.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0

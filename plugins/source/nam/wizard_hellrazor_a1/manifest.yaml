@@ -17,4 +17,4 @@ captures:
   file: captures/wizard_hellrazor_3.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0

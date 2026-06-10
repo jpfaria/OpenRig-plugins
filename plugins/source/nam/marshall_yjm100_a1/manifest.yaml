@@ -24,7 +24,7 @@ captures:
   file: captures/standard.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.0
 - values:
     voicing: jcm800_mode
   file: captures/jcm800_mode.nam
@@ -36,4 +36,4 @@ captures:
   file: captures/modern.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.5

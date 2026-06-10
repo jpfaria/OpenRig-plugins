@@ -34,7 +34,7 @@ captures:
   file: captures/maestro_fz_m_vintage_high_gain.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -35.5
 - values:
     mode: modern
     gain: 5

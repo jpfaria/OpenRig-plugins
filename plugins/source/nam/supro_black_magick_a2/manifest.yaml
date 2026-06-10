@@ -322,6 +322,9 @@ captures:
     volume1: 10
     volume2: 8
   file: captures/in1_2_v1_10_v2_8_t_3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     input: in1_2
     speaker: srl
@@ -399,6 +402,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
 - values:
     input: in1_2
     speaker: srl
@@ -406,6 +412,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_4_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
 - values:
     input: in1_2
     speaker: p12q
@@ -413,6 +422,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_5_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     input: in1_2
     speaker: srl
@@ -420,6 +432,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_5_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     input: in1_2
     speaker: srl
@@ -427,6 +442,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_6_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in1_2
     speaker: p12q
@@ -434,6 +452,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_7_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     input: in1_2
     speaker: srl
@@ -441,6 +462,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_7_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in1_2
     speaker: p12q
@@ -448,6 +472,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_8_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in1_2
     speaker: srl
@@ -455,6 +482,9 @@ captures:
     volume1: 5
     volume2: 0
   file: captures/in1_2_v1_5_v2_0_t_8_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
 - values:
     input: in1_2
     speaker: srl
@@ -483,6 +513,9 @@ captures:
     volume1: 7
     volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in1_2
     speaker: srl
@@ -490,6 +523,9 @@ captures:
     volume1: 7
     volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_4_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     input: in1_2
     speaker: p12q
@@ -497,6 +533,9 @@ captures:
     volume1: 7
     volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_5_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
 - values:
     input: in1_2
     speaker: srl
@@ -504,6 +543,9 @@ captures:
     volume1: 7
     volume2: 0
   file: captures/in1_2_v1_7_v2_0_t_5_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     input: in1_2
     speaker: srl
@@ -560,6 +602,9 @@ captures:
     volume1: 8
     volume2: 0
   file: captures/in1_2_v1_8_v2_0_t_3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
 - values:
     input: in1_2
     speaker: srl
@@ -644,6 +689,9 @@ captures:
     volume1: -1
     volume2: 10
   file: captures/in2_v2_10_t_3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     input: in2
     speaker: srl
@@ -714,6 +762,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_10_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in2
     speaker: srl
@@ -721,6 +772,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_3_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
 - values:
     input: in2
     speaker: srl
@@ -728,6 +782,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_4_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
 - values:
     input: in2
     speaker: p12q
@@ -735,6 +792,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_5_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
 - values:
     input: in2
     speaker: srl
@@ -742,6 +802,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_5_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
 - values:
     input: in2
     speaker: srl
@@ -749,6 +812,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_6_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
 - values:
     input: in2
     speaker: p12q
@@ -756,6 +822,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_7_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in2
     speaker: srl
@@ -763,6 +832,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_7_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in2
     speaker: p12q
@@ -770,6 +842,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_8_p12q_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in2
     speaker: srl
@@ -777,6 +852,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_8_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in2
     speaker: srl
@@ -784,6 +862,9 @@ captures:
     volume1: -1
     volume2: 5
   file: captures/in2_v2_5_t_9_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
 - values:
     input: in2
     speaker: srl
@@ -805,6 +886,9 @@ captures:
     volume1: -1
     volume2: 8
   file: captures/in2_v2_8_t_4_srl_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
     input: in2
     speaker: p12q

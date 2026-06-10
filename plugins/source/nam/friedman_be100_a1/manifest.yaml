@@ -29,14 +29,14 @@ captures:
   file: captures/amp_be100dlx_hbe_mammoth_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     voicing: hbe_tallica
     mic: di
   file: captures/amp_be100dlx_hbe_tallica_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     voicing: hbe_tallica
     mic: sm57
@@ -47,14 +47,14 @@ captures:
   file: captures/amp_be100dlx_hbe_tallica_sm58_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     voicing: cln_tender
     mic: di
   file: captures/amp_be100dlx_cln_tender_clean_di_std.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     voicing: cln_tender
     mic: sm57

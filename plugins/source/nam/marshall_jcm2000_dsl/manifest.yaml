@@ -40,25 +40,25 @@ captures:
   file: captures/bmr_marshall_jcm2000_od1_altrock_esr0_0055.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.5
 - values:
     channel: od1
     voicing: dimed
   file: captures/bmr_marshall_jcm2000_od1_dimed_esr0_0357.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -36.0
 - values:
     channel: od2
     voicing: altrock
   file: captures/bmr_marshall_jcm2000_od2_altrock_esr0_0050.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -35.5
 - values:
     channel: od2
     voicing: dimed
   file: captures/bmr_marshall_jcm2000_od2_dimed_esr0_0813.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.2
+    threshold_db: -31.0

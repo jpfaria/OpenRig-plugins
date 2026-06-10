@@ -29,16 +29,16 @@ captures:
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_8.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -34.0
 - values:
     gain: 10
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_10.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.0
 - values:
     gain: 11
   file: captures/e305_clean_lead_ch_gain_boost_ibanez_tube_screamer_gain_11.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -32.0

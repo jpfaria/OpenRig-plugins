@@ -40,39 +40,39 @@ captures:
   file: captures/ds1w_t6_d0.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     tone: 6
     dist: 5
   file: captures/ds1w_t6_d5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     tone: 6
     dist: 10
   file: captures/ds1w_t6_d10.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     tone: 8
     dist: 0
   file: captures/ds1w_t8_d0.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     tone: 8
     dist: 5
   file: captures/ds1w_t8_d5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     tone: 8
     dist: 10
   file: captures/ds1w_t8_d10.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0

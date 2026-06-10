@@ -21,4 +21,4 @@ captures:
   file: captures/marshall_1959hw_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0

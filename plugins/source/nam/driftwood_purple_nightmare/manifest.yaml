@@ -22,16 +22,16 @@ captures:
   file: captures/va_nightmare_md_and_evh_5150iii_412.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -32.0
 - values:
     cab: mesa_trad
   file: captures/va_nightmare_md_and_mesa_traditional.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.5
 - values:
     cab: mesa_os
   file: captures/va_nightmare_md_and_mesa_oversized.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -31.5

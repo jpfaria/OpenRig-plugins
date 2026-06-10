@@ -21,22 +21,22 @@ captures:
   file: captures/reactir2_kk100_jose_04.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     gain: 6
   file: captures/reactir2_kk100_jose_06.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values:
     gain: 7
   file: captures/reactir2_kk100_jose_07.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     gain: 9
   file: captures/reactir2_kk100_jose_09.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0

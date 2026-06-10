@@ -42,7 +42,7 @@ captures:
   file: captures/laney_irt60_rhythm_pre_od_b1_1_m3_t2_g6_5_d100_tn1_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.0
 - values:
     mode: rhythm
     stage: power_amp
@@ -51,7 +51,7 @@ captures:
   file: captures/laney_irt60_rhythm_pwr_od_b1_1_m3_t2_g6_5_d100_tn1_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.5
 - values:
     mode: rhythm
     stage: power_amp
@@ -60,7 +60,7 @@ captures:
   file: captures/laney_irt60_rhythm_pwr_b1_1_m2_t2_g6_5_d100_tn1_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     mode: rhythm
     stage: preamp
@@ -69,7 +69,7 @@ captures:
   file: captures/laney_irt60_rhythm_pre_b1_1_m2_t2_g6_5_d100_tn1_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     mode: lead
     stage: preamp
@@ -78,7 +78,7 @@ captures:
   file: captures/laney_irt60_lead_pre_b0_m2_9_t2_g7_2_d100_tn1_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.5
 - values:
     mode: lead
     stage: power_amp
@@ -87,7 +87,7 @@ captures:
   file: captures/laney_irt60_lead_pwr_od_b0_m2_9_t2_g7_2_d100_tn1_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     mode: lead
     stage: power_amp
@@ -96,7 +96,7 @@ captures:
   file: captures/laney_irt60_lead_pwr_b0_m2_9_t2_g7_2_d100_tn1_8_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5
 - values:
     mode: rhythm
     stage: power_amp
@@ -117,7 +117,7 @@ captures:
   file: captures/lead_preamp_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -34.0
 - values:
     mode: clean
     stage: power_amp
@@ -132,7 +132,7 @@ captures:
   file: captures/lead_boosted_preamp_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5
 - values:
     mode: lead
     stage: power_amp
@@ -141,7 +141,7 @@ captures:
   file: captures/lead_poweramp_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -34.0
 - values:
     mode: rhythm
     stage: preamp
@@ -156,7 +156,7 @@ captures:
   file: captures/lead_boosted_poweramp_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -31.0
 - values:
     mode: rhythm
     stage: preamp
@@ -165,7 +165,7 @@ captures:
   file: captures/rhythm_boosted_preamp_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5
 - values:
     mode: rhythm
     stage: power_amp
@@ -174,4 +174,4 @@ captures:
   file: captures/rhythm_boosted_poweramp_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -33.5

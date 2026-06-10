@@ -23,4 +23,4 @@ captures:
   file: captures/marshall_1959_slp_boosted_ts8_6_8.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -31.0

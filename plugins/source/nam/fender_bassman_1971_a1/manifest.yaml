@@ -53,4 +53,4 @@ captures:
   file: captures/bassman_warm_fuzz.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -33.0

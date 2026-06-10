@@ -38,13 +38,13 @@ captures:
   file: captures/high_gain.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.5
 - values:
     voicing: high_gain_808
   file: captures/high_gain_808.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5
 - values:
     voicing: maxed
   file: captures/maxed.nam

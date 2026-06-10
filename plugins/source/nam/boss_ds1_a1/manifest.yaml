@@ -32,53 +32,53 @@ captures:
   file: captures/ds1_t4_d8.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -34.0
 - values:
     dist: 10
     tone: 4
   file: captures/ds1_t4_d10.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.5
 - values:
     dist: 5
     tone: 7
   file: captures/ds1_t7_d5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -36.0
 - values:
     dist: 8
     tone: 7
   file: captures/ds1_t7_d8.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -33.0
 - values:
     dist: 10
     tone: 7
   file: captures/ds1_t7_d10.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -31.0
 - values:
     dist: 5
     tone: 10
   file: captures/ds1_t10_d5.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values:
     dist: 8
     tone: 10
   file: captures/ds1_t10_d8.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -33.0
 - values:
     dist: 10
     tone: 10
   file: captures/ds1_t10_d10.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -31.0

@@ -27,32 +27,32 @@ captures:
   file: captures/peavey_5150_mesa_no_boost_sm57.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.0
 - values:
     boost: maxon
     mic: sm57
   file: captures/peavey_5150_mesa_maxon_sm57.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: maxon
     mic: sm58
   file: captures/peavey_5150_mesa_maxon_sm58.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: mxr
     mic: sm57
   file: captures/peavey_5150_mesa_mxr_sm57.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     boost: mxr
     mic: sm58
   file: captures/peavey_5150_mesa_mxr_sm58.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0

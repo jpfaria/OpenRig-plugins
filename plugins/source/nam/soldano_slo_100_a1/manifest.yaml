@@ -33,7 +33,7 @@ captures:
   file: captures/amp_slo100_nrm_cln_journeyvan_di.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -33.5
 - values:
     mic: sm57
     voicing: nrm_crunch_thingofjoy
@@ -52,7 +52,7 @@ captures:
   file: captures/pre_slo100_ovd_lucky_7.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     mic: sm58
     voicing: pow_6l6_juice

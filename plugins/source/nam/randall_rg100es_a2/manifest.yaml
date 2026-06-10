@@ -53,4 +53,4 @@ captures:
   file: captures/crunch_sustain_gain_8_5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -36.5

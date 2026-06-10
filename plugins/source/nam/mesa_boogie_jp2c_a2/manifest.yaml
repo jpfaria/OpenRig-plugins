@@ -92,7 +92,7 @@ captures:
   file: captures/ch3_g10_t7_m4_b2_p4_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -33.0
 - values:
     channel: ch3
     gain: 8
@@ -104,7 +104,7 @@ captures:
   file: captures/ch3_g8_t7_m4_b2_p4_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.5
 - values:
     channel: ch3
     gain: 8
@@ -116,7 +116,7 @@ captures:
   file: captures/ch3_g8_t7_m4_b2_p6_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -35.0
 - values:
     channel: ch3
     gain: 8
@@ -128,7 +128,7 @@ captures:
   file: captures/ch3_g8_t7_m4_b2_p4_shred_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -31.0
 - values:
     channel: ch3
     gain: 8
@@ -149,7 +149,7 @@ captures:
   file: captures/ch3_g8_t7_m2_b2_p5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -32.0
 - values:
     channel: ch3
     gain: 10
@@ -161,7 +161,7 @@ captures:
   file: captures/ch3_g10_t7_m2_b2_p5_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.5
 - values:
     channel: ch3
     gain: 8
@@ -173,7 +173,7 @@ captures:
   file: captures/ch3_g8_t7_m2_b2_p5_shred_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: ch3
     gain: 8
@@ -185,7 +185,7 @@ captures:
   file: captures/ch3_g8_t7_m2_b2_p5_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: ch3
     gain: 9
@@ -197,7 +197,7 @@ captures:
   file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -33.5
 - values:
     channel: ch2
     gain: 8
@@ -218,7 +218,7 @@ captures:
   file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_shred_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0
 - values:
     channel: ch3
     gain: 9
@@ -230,7 +230,7 @@ captures:
   file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -30.0
 - values:
     channel: ch1
     gain: 6
@@ -260,7 +260,7 @@ captures:
   file: captures/ultimate_lead_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.2
+    threshold_db: -31.0
 - values:
     channel: none
     gain: -1
@@ -272,7 +272,7 @@ captures:
   file: captures/petrucci_lead_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -34.0
 - values:
     channel: none
     gain: -1
@@ -302,7 +302,7 @@ captures:
   file: captures/bonus4_old_bad_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     channel: none
     gain: -1
@@ -314,7 +314,7 @@ captures:
   file: captures/bonus9_old_bad_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.3
+    threshold_db: -30.0
 - values:
     channel: none
     gain: -1
@@ -326,7 +326,7 @@ captures:
   file: captures/bonus10_old_bad_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values:
     channel: none
     gain: -1
@@ -347,4 +347,4 @@ captures:
   file: captures/bonus15_old_bad_ts808_a2.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.1
+    threshold_db: -30.0

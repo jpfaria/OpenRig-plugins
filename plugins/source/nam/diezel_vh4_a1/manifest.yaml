@@ -31,12 +31,12 @@ captures:
   file: captures/diezel_vh4_ch_2_br_lg.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -34.5
 - values: { channel: '2', gain_stage: mg, bright: bright, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_2_br_mg.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -32.5
 - values: { channel: '2', gain_stage: lg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_2_lg_01.nam
 - values: { channel: '2', gain_stage: lg, bright: normal, boost: none, preset: v2 }
@@ -47,74 +47,74 @@ captures:
   file: captures/diezel_vh4_ch_2_mg_01.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values: { channel: '2', gain_stage: mg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_2_mg_02.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -36.0
 - values: { channel: '2', gain_stage: mg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_2_mg_03.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -36.0
 - values: { channel: '3', gain_stage: hg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_3_hg_01.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0
 - values: { channel: '3', gain_stage: hg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_3_hg_02.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values: { channel: '3', gain_stage: hg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_3_hg_03.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0
 - values: { channel: '3', gain_stage: hg, bright: normal, boost: ts9, preset: v1 }
   file: captures/diezel_vh4_ch_3_ts9_hg_01.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values: { channel: '3', gain_stage: hg, bright: normal, boost: ts9, preset: v2 }
   file: captures/diezel_vh4_ch_3_ts9_hg_02.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values: { channel: '3', gain_stage: hg, bright: normal, boost: ts9, preset: v3 }
   file: captures/diezel_vh4_ch_3_ts9_hg_03.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0
 - values: { channel: '4', gain_stage: hg, bright: normal, boost: none, preset: v1 }
   file: captures/diezel_vh4_ch_4_hg_01.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values: { channel: '4', gain_stage: hg, bright: normal, boost: none, preset: v2 }
   file: captures/diezel_vh4_ch_4_hg_02.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.0
+    threshold_db: -30.0
 - values: { channel: '4', gain_stage: hg, bright: normal, boost: none, preset: v3 }
   file: captures/diezel_vh4_ch_4_hg_03.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values: { channel: '4', gain_stage: hg, bright: normal, boost: ts9, preset: v1 }
   file: captures/diezel_vh4_ch_4_ts9_hg_01.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.7
+    threshold_db: -30.0
 - values: { channel: '4', gain_stage: hg, bright: normal, boost: ts9, preset: v2 }
   file: captures/diezel_vh4_ch_4_ts9_hg_02.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.8
+    threshold_db: -30.0
 - values: { channel: '4', gain_stage: hg, bright: normal, boost: ts9, preset: v3 }
   file: captures/diezel_vh4_ch_4_ts9_hg_03.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.6
+    threshold_db: -30.0

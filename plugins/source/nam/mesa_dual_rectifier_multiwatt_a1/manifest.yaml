@@ -32,49 +32,49 @@ captures:
   file: captures/di_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2.nam
   noise_gate:
     enabled: true
-    threshold_db: -31.9
+    threshold_db: -30.0
 - values:
     mic: v30_sm57b
     eq: balanced
   file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_v30_sm57b.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.4
+    threshold_db: -30.0
 - values:
     mic: v30_sm57c
     eq: balanced
   file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_v30_sm57c.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     mic: m65_sm57b
     eq: balanced
   file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_2_t_5_m_4_b_2_m65_sm57b.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     mic: m65_sm57b
     eq: mid_cut
   file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_3_t_6_m_4_b_3_m65_sm57b.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.5
+    threshold_db: -30.0
 - values:
     mic: v30_sm57b
     eq: scoop
   file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_v30_sm57b.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     mic: m65_sm57a
     eq: scoop
   file: captures/fr_mbdr_mw_red_mdn_g_7_ma_2_p_4_t_4_m_3_b_4_m65_sm57a.nam
   noise_gate:
     enabled: true
-    threshold_db: -32.6
+    threshold_db: -30.0
 - values:
     mic: m65_sm57b
     eq: scoop
