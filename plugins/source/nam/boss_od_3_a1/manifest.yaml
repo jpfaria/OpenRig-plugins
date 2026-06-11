@@ -7,6 +7,8 @@ output_gain_db: 1.8858681
 type: gain_pedal
 backend: nam
 architecture: A1
+# preset = NAM training size shipped by the author (standard / nano), the
+# catalogue's established pattern for size variants (cf. big_muff_a1).
 parameters:
 - name: drive
   display_name: Drive
@@ -21,52 +23,129 @@ parameters:
   - 3
   - 5
   - 8
+- name: preset
+  display_name: Preset
+  values:
+  - standard
+  - nano
 captures:
 - values:
     drive: 0
     tone: 3
+    preset: standard
   file: captures/bossod3_nodrive_lowtone.nam
 - values:
     drive: 0
     tone: 5
+    preset: standard
   file: captures/bossod3_nodrive_centertone.nam
 - values:
     drive: 0
     tone: 8
+    preset: standard
   file: captures/bossod3_nodrive_hightone.nam
 - values:
     drive: 3
     tone: 3
+    preset: standard
   file: captures/bossod3_lowdrive_lowtone.nam
 - values:
     drive: 3
     tone: 5
+    preset: standard
   file: captures/bossod3_lowdrive_centertone.nam
 - values:
     drive: 3
     tone: 8
+    preset: standard
   file: captures/bossod3_lowdrive_hightone.nam
 - values:
     drive: 5
     tone: 3
+    preset: standard
   file: captures/bossod3_middrive_lowtone.nam
 - values:
     drive: 5
     tone: 5
+    preset: standard
   file: captures/bossod3_middrive_centertone.nam
 - values:
     drive: 5
     tone: 8
+    preset: standard
   file: captures/bossod3_middrive_hightone.nam
 - values:
     drive: 8
     tone: 3
+    preset: standard
   file: captures/bossod3_hidrive_lowtone.nam
 - values:
     drive: 8
     tone: 5
+    preset: standard
   file: captures/bossod3_hidrive_centertone.nam
 - values:
     drive: 8
     tone: 8
+    preset: standard
   file: captures/bossod3_hidrive_hightone.nam
+- values:
+    drive: 0
+    tone: 3
+    preset: nano
+  file: captures/bossod3_nodrive_lowtone_nano.nam
+- values:
+    drive: 0
+    tone: 5
+    preset: nano
+  file: captures/bossod3_nodrive_centertone_nano.nam
+- values:
+    drive: 0
+    tone: 8
+    preset: nano
+  file: captures/bossod3_nodrive_hightone_nano.nam
+- values:
+    drive: 3
+    tone: 3
+    preset: nano
+  file: captures/bossod3_lowdrive_lowtone_nano.nam
+- values:
+    drive: 3
+    tone: 5
+    preset: nano
+  file: captures/bossod3_lowdrive_centertone_nano.nam
+- values:
+    drive: 3
+    tone: 8
+    preset: nano
+  file: captures/bossod3_lowdrive_hightone_nano.nam
+- values:
+    drive: 5
+    tone: 3
+    preset: nano
+  file: captures/bossod3_middrive_lowtone_nano.nam
+- values:
+    drive: 5
+    tone: 5
+    preset: nano
+  file: captures/bossod3_middrive_centertone_nano.nam
+- values:
+    drive: 5
+    tone: 8
+    preset: nano
+  file: captures/bossod3_middrive_hightone_nano.nam
+- values:
+    drive: 8
+    tone: 3
+    preset: nano
+  file: captures/bossod3_hidrive_lowtone_nano.nam
+- values:
+    drive: 8
+    tone: 5
+    preset: nano
+  file: captures/bossod3_hidrive_centertone_nano.nam
+- values:
+    drive: 8
+    tone: 8
+    preset: nano
+  file: captures/bossod3_hidrive_hightone_nano.nam
