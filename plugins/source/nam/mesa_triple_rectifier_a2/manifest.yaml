@@ -13,53 +13,276 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: stage
+  display_name: Stage
   values:
-  - modern
-  - vintage
+  - 'amp'
+  - 'pow'
+- name: mode
+  display_name: Mode
+  values:
+  - 'cln'
+  - 'mdn'
+  - 'psh'
+  - 'raw'
+  - 'vnt'
+- name: preset
+  display_name: Preset
+  values:
+  - 'instant_gratification'
+  - 'gobsmacked'
+  - 'threshold_chording'
+  - 'agro_rhythm'
+  - 'chaosball'
+  - 'chaosball_grind'
+  - '6l6_juice_01'
+  - '6l6_juice_36'
 - name: mic
   display_name: Mic
   values:
-  - sm57
-  - sm58
-  - blend1
-  - blend2
-  - blend3
+  - 'blend_1'
+  - 'blend_2'
+  - 'blend_3'
+  - 'sm57'
+  - 'sm58'
 captures:
 - values:
-    voicing: modern
-    mic: sm57
-  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm57.nam
+    stage: 'amp'
+    mode: 'cln'
+    preset: 'instant_gratification'
+    mic: 'blend_1'
+  file: captures/amp_trec_150bld_dio_cln_instant_gratification_blend_1.nam
 - values:
-    voicing: modern
-    mic: sm58
-  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm58.nam
+    stage: 'amp'
+    mode: 'cln'
+    preset: 'instant_gratification'
+    mic: 'blend_2'
+  file: captures/amp_trec_150bld_dio_cln_instant_gratification_blend_2.nam
 - values:
-    voicing: modern
-    mic: blend2
+    stage: 'amp'
+    mode: 'cln'
+    preset: 'instant_gratification'
+    mic: 'blend_3'
+  file: captures/amp_trec_150bld_dio_cln_instant_gratification_blend_3.nam
+- values:
+    stage: 'amp'
+    mode: 'cln'
+    preset: 'instant_gratification'
+    mic: 'sm57'
+  file: captures/amp_trec_150bld_dio_cln_instant_gratification_sm57.nam
+- values:
+    stage: 'amp'
+    mode: 'cln'
+    preset: 'instant_gratification'
+    mic: 'sm58'
+  file: captures/amp_trec_150bld_dio_cln_instant_gratification_sm58.nam
+- values:
+    stage: 'amp'
+    mode: 'mdn'
+    preset: 'gobsmacked'
+    mic: 'blend_1'
+  file: captures/amp_trec_150bld_dio_mdn_gobsmacked_blend_1.nam
+- values:
+    stage: 'amp'
+    mode: 'mdn'
+    preset: 'gobsmacked'
+    mic: 'blend_2'
+  file: captures/amp_trec_150bld_dio_mdn_gobsmacked_blend_2.nam
+- values:
+    stage: 'amp'
+    mode: 'mdn'
+    preset: 'gobsmacked'
+    mic: 'blend_3'
+  file: captures/amp_trec_150bld_dio_mdn_gobsmacked_blend_3.nam
+- values:
+    stage: 'amp'
+    mode: 'mdn'
+    preset: 'gobsmacked'
+    mic: 'sm57'
+  file: captures/amp_trec_150bld_dio_mdn_gobsmacked_sm57.nam
+- values:
+    stage: 'amp'
+    mode: 'mdn'
+    preset: 'gobsmacked'
+    mic: 'sm58'
+  file: captures/amp_trec_150bld_dio_mdn_gobsmacked_sm58.nam
+- values:
+    stage: 'amp'
+    mode: 'psh'
+    preset: 'threshold_chording'
+    mic: 'blend_1'
+  file: captures/amp_trec_150bld_dio_psh_threshold_chording_blend_1.nam
+- values:
+    stage: 'amp'
+    mode: 'psh'
+    preset: 'threshold_chording'
+    mic: 'blend_2'
+  file: captures/amp_trec_150bld_dio_psh_threshold_chording_blend_2.nam
+- values:
+    stage: 'amp'
+    mode: 'psh'
+    preset: 'threshold_chording'
+    mic: 'blend_3'
+  file: captures/amp_trec_150bld_dio_psh_threshold_chording_blend_3.nam
+- values:
+    stage: 'amp'
+    mode: 'psh'
+    preset: 'threshold_chording'
+    mic: 'sm57'
+  file: captures/amp_trec_150bld_dio_psh_threshold_chording_sm57.nam
+- values:
+    stage: 'amp'
+    mode: 'psh'
+    preset: 'threshold_chording'
+    mic: 'sm58'
+  file: captures/amp_trec_150bld_dio_psh_threshold_chording_sm58.nam
+- values:
+    stage: 'amp'
+    mode: 'raw'
+    preset: 'agro_rhythm'
+    mic: 'blend_1'
+  file: captures/amp_trec_150bld_dio_raw_agro_rhythm_blend_1.nam
+- values:
+    stage: 'amp'
+    mode: 'raw'
+    preset: 'agro_rhythm'
+    mic: 'blend_2'
+  file: captures/amp_trec_150bld_dio_raw_agro_rhythm_blend_2.nam
+- values:
+    stage: 'amp'
+    mode: 'raw'
+    preset: 'agro_rhythm'
+    mic: 'blend_3'
+  file: captures/amp_trec_150bld_dio_raw_agro_rhythm_blend_3.nam
+- values:
+    stage: 'amp'
+    mode: 'raw'
+    preset: 'agro_rhythm'
+    mic: 'sm57'
+  file: captures/amp_trec_150bld_dio_raw_agro_rhythm_sm57.nam
+- values:
+    stage: 'amp'
+    mode: 'raw'
+    preset: 'agro_rhythm'
+    mic: 'sm58'
+  file: captures/amp_trec_150bld_dio_raw_agro_rhythm_sm58.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball'
+    mic: 'blend_1'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_blend_1.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball'
+    mic: 'blend_2'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_blend_2.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball'
+    mic: 'blend_3'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_blend_3.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball'
+    mic: 'sm57'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_sm57.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball'
+    mic: 'sm58'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_sm58.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball_grind'
+    mic: 'blend_1'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_grind_blend_1.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball_grind'
+    mic: 'blend_2'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_grind_blend_2.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball_grind'
+    mic: 'blend_3'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_grind_blend_3.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball_grind'
+    mic: 'sm57'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_grind_sm57.nam
+- values:
+    stage: 'amp'
+    mode: 'vnt'
+    preset: 'chaosball_grind'
+    mic: 'sm58'
+  file: captures/amp_trec_150bld_dio_vnt_chaosball_grind_sm58.nam
+- values:
+    stage: 'pow'
+    mode: 'mdn'
+    preset: '6l6_juice_01'
+    mic: 'blend_1'
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_1.nam
+- values:
+    stage: 'pow'
+    mode: 'mdn'
+    preset: '6l6_juice_01'
+    mic: 'blend_2'
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_2.nam
 - values:
-    voicing: modern
-    mic: blend3
+    stage: 'pow'
+    mode: 'mdn'
+    preset: '6l6_juice_01'
+    mic: 'blend_3'
   file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_blend_3.nam
 - values:
-    voicing: vintage
-    mic: sm57
-  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm57.nam
+    stage: 'pow'
+    mode: 'mdn'
+    preset: '6l6_juice_01'
+    mic: 'sm57'
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm57.nam
 - values:
-    voicing: vintage
-    mic: sm58
-  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm58.nam
+    stage: 'pow'
+    mode: 'mdn'
+    preset: '6l6_juice_01'
+    mic: 'sm58'
+  file: captures/pow_trec_150bld_dio_mdn_6l6_juice_01_sm58.nam
 - values:
-    voicing: vintage
-    mic: blend1
+    stage: 'pow'
+    mode: 'vnt'
+    preset: '6l6_juice_36'
+    mic: 'blend_1'
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_1.nam
 - values:
-    voicing: vintage
-    mic: blend2
+    stage: 'pow'
+    mode: 'vnt'
+    preset: '6l6_juice_36'
+    mic: 'blend_2'
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_2.nam
 - values:
-    voicing: vintage
-    mic: blend3
+    stage: 'pow'
+    mode: 'vnt'
+    preset: '6l6_juice_36'
+    mic: 'blend_3'
   file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_blend_3.nam
+- values:
+    stage: 'pow'
+    mode: 'vnt'
+    preset: '6l6_juice_36'
+    mic: 'sm57'
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm57.nam
+- values:
+    stage: 'pow'
+    mode: 'vnt'
+    preset: '6l6_juice_36'
+    mic: 'sm58'
+  file: captures/pow_trec_150bld_dio_vnt_6l6_juice_36_sm58.nam

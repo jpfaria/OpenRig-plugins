@@ -10,40 +10,254 @@ type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: voicing
-  display_name: Voicing
+- name: stage
+  display_name: Stage
   values:
-  - noon
-  - bright_od
+  - 'amp'
+  - 'pow'
+- name: preset
+  display_name: Preset
+  values:
+  - 'bovine_beheading_ii'
+  - 'bovine_beheading_ii_plus'
+  - 'bright_overdrive'
+  - 'bright_overdrive_plus'
+  - 'maxwatt_plus'
+  - 'noon_04'
+  - 'scooped_up_plus'
+  - 'sidetracked'
+  - 'el34_juice_10'
 - name: mic
   display_name: Mic
   values:
-  - sm57
-  - blend1
-  - blend2
-  - blend3
+  - 'blend_1'
+  - 'blend_2'
+  - 'blend_3'
+  - 'sm57'
+  - 'sm58'
 captures:
 - values:
-    mic: blend1
-    voicing: noon
-  file: captures/amp_hwat_superhi50_noon_04_blend_1.nam
+    stage: 'amp'
+    preset: 'bovine_beheading_ii'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_blend_1.nam
 - values:
-    mic: blend3
-    voicing: noon
-  file: captures/amp_hwat_superhi50_noon_04_blend_3.nam
+    stage: 'amp'
+    preset: 'bovine_beheading_ii'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_blend_2.nam
 - values:
-    mic: sm57
-    voicing: bright_od
-  file: captures/amp_hwat_superhi50_bright_overdrive_sm57.nam
+    stage: 'amp'
+    preset: 'bovine_beheading_ii'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_blend_3.nam
 - values:
-    mic: blend1
-    voicing: bright_od
+    stage: 'amp'
+    preset: 'bovine_beheading_ii'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'bovine_beheading_ii'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'bovine_beheading_ii_plus'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_plus_blend_1.nam
+- values:
+    stage: 'amp'
+    preset: 'bovine_beheading_ii_plus'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_plus_blend_2.nam
+- values:
+    stage: 'amp'
+    preset: 'bovine_beheading_ii_plus'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_plus_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'bovine_beheading_ii_plus'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_plus_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'bovine_beheading_ii_plus'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_bovine_beheading_ii_plus_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive'
+    mic: 'blend_1'
   file: captures/amp_hwat_superhi50_bright_overdrive_blend_1.nam
 - values:
-    mic: blend2
-    voicing: bright_od
+    stage: 'amp'
+    preset: 'bright_overdrive'
+    mic: 'blend_2'
   file: captures/amp_hwat_superhi50_bright_overdrive_blend_2.nam
 - values:
-    mic: blend3
-    voicing: bright_od
+    stage: 'amp'
+    preset: 'bright_overdrive'
+    mic: 'blend_3'
   file: captures/amp_hwat_superhi50_bright_overdrive_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_bright_overdrive_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_bright_overdrive_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive_plus'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_bright_overdrive_plus_blend_1.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive_plus'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_bright_overdrive_plus_blend_2.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive_plus'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_bright_overdrive_plus_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive_plus'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_bright_overdrive_plus_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'bright_overdrive_plus'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_bright_overdrive_plus_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'maxwatt_plus'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_maxwatt_plus_blend_1.nam
+- values:
+    stage: 'amp'
+    preset: 'maxwatt_plus'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_maxwatt_plus_blend_2.nam
+- values:
+    stage: 'amp'
+    preset: 'maxwatt_plus'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_maxwatt_plus_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'maxwatt_plus'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_maxwatt_plus_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'maxwatt_plus'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_maxwatt_plus_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'noon_04'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_noon_04_blend_1.nam
+- values:
+    stage: 'amp'
+    preset: 'noon_04'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_noon_04_blend_2.nam
+- values:
+    stage: 'amp'
+    preset: 'noon_04'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_noon_04_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'noon_04'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_noon_04_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'noon_04'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_noon_04_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'scooped_up_plus'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_scooped_up_plus_blend_1.nam
+- values:
+    stage: 'amp'
+    preset: 'scooped_up_plus'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_scooped_up_plus_blend_2.nam
+- values:
+    stage: 'amp'
+    preset: 'scooped_up_plus'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_scooped_up_plus_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'scooped_up_plus'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_scooped_up_plus_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'scooped_up_plus'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_scooped_up_plus_sm58.nam
+- values:
+    stage: 'amp'
+    preset: 'sidetracked'
+    mic: 'blend_1'
+  file: captures/amp_hwat_superhi50_sidetracked_blend_1.nam
+- values:
+    stage: 'amp'
+    preset: 'sidetracked'
+    mic: 'blend_2'
+  file: captures/amp_hwat_superhi50_sidetracked_blend_2.nam
+- values:
+    stage: 'amp'
+    preset: 'sidetracked'
+    mic: 'blend_3'
+  file: captures/amp_hwat_superhi50_sidetracked_blend_3.nam
+- values:
+    stage: 'amp'
+    preset: 'sidetracked'
+    mic: 'sm57'
+  file: captures/amp_hwat_superhi50_sidetracked_sm57.nam
+- values:
+    stage: 'amp'
+    preset: 'sidetracked'
+    mic: 'sm58'
+  file: captures/amp_hwat_superhi50_sidetracked_sm58.nam
+- values:
+    stage: 'pow'
+    preset: 'el34_juice_10'
+    mic: 'blend_1'
+  file: captures/pow_hwat_superhi50_el34_juice_10_blend_1.nam
+- values:
+    stage: 'pow'
+    preset: 'el34_juice_10'
+    mic: 'blend_2'
+  file: captures/pow_hwat_superhi50_el34_juice_10_blend_2.nam
+- values:
+    stage: 'pow'
+    preset: 'el34_juice_10'
+    mic: 'blend_3'
+  file: captures/pow_hwat_superhi50_el34_juice_10_blend_3.nam
+- values:
+    stage: 'pow'
+    preset: 'el34_juice_10'
+    mic: 'sm57'
+  file: captures/pow_hwat_superhi50_el34_juice_10_sm57.nam
+- values:
+    stage: 'pow'
+    preset: 'el34_juice_10'
+    mic: 'sm58'
+  file: captures/pow_hwat_superhi50_el34_juice_10_sm58.nam

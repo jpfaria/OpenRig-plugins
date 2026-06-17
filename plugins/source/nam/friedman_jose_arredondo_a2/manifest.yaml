@@ -6,75 +6,445 @@ brand: friedman
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/58979
-output_gain_db: 0.0000000
+output_gain_db: -3.8929372
 type: amp
 backend: nam
 architecture: A2
 parameters:
-- name: preset
-  display_name: Preset
+- name: stage
+  display_name: Stage
   values:
-  - hotrod
-  - pres5
+  - 'amp'
+  - 'pow'
 - name: cab
   display_name: Cab
   values:
-  - mesa
-  - marshall
-- name: presence_mode
-  display_name: Presence Mode
+  - 'mar4x12'
+  - 'mes4x12'
+- name: voicing
+  display_name: Voicing
   values:
-  - vintage
-  - new
+  - 'n'
+  - 'v'
+- name: preset
+  display_name: Preset
+  values:
+  - 'dr_good_mood'
+  - 'hotrod'
+  - 'transylvanian_fangs'
+  - 'hairy_head'
+  - 'rock_tribute'
+  - 'pres_5'
 - name: mic
   display_name: Mic
   values:
-  - sm57
-  - blend1
-  - blend3
+  - 'blend_1'
+  - 'blend_2'
+  - 'blend_3'
+  - 'sm57'
+  - 'sm58'
 captures:
 - values:
-    preset: pres5
-    cab: mesa
-    presence_mode: vintage
-    mic: sm57
-  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm57.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'dr_good_mood'
+    mic: 'blend_1'
+  file: captures/amp_fman_jose_mar4x12_n_pres_dr_good_mood_blend_1.nam
 - values:
-    preset: pres5
-    cab: mesa
-    presence_mode: vintage
-    mic: blend1
-  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_1.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'dr_good_mood'
+    mic: 'blend_2'
+  file: captures/amp_fman_jose_mar4x12_n_pres_dr_good_mood_blend_2.nam
 - values:
-    preset: pres5
-    cab: marshall
-    presence_mode: new
-    mic: sm57
-  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'dr_good_mood'
+    mic: 'blend_3'
+  file: captures/amp_fman_jose_mar4x12_n_pres_dr_good_mood_blend_3.nam
 - values:
-    preset: pres5
-    cab: marshall
-    presence_mode: new
-    mic: blend1
-  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_1.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'dr_good_mood'
+    mic: 'sm57'
+  file: captures/amp_fman_jose_mar4x12_n_pres_dr_good_mood_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
 - values:
-    preset: hotrod
-    cab: marshall
-    presence_mode: new
-    mic: sm57
-  file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'dr_good_mood'
+    mic: 'sm58'
+  file: captures/amp_fman_jose_mar4x12_n_pres_dr_good_mood_sm58.nam
 - values:
-    preset: hotrod
-    cab: marshall
-    presence_mode: new
-    mic: blend1
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'blend_1'
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
   noise_gate:
     enabled: true
     threshold_db: -30.0
 - values:
-    preset: hotrod
-    cab: marshall
-    presence_mode: new
-    mic: blend3
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'blend_2'
+  file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'blend_3'
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'sm57'
+  file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'sm58'
+  file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm58.nam
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'transylvanian_fangs'
+    mic: 'blend_1'
+  file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_blend_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'transylvanian_fangs'
+    mic: 'blend_2'
+  file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_blend_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'transylvanian_fangs'
+    mic: 'blend_3'
+  file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_blend_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'transylvanian_fangs'
+    mic: 'sm57'
+  file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_sm57.nam
+- values:
+    stage: 'amp'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'transylvanian_fangs'
+    mic: 'sm58'
+  file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_sm58.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'blend_1'
+  file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_blend_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'blend_2'
+  file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_blend_2.nam
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'blend_3'
+  file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_blend_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'sm57'
+  file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'hotrod'
+    mic: 'sm58'
+  file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_sm58.nam
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'hairy_head'
+    mic: 'blend_1'
+  file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_blend_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'hairy_head'
+    mic: 'blend_2'
+  file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_blend_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'hairy_head'
+    mic: 'blend_3'
+  file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_blend_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'hairy_head'
+    mic: 'sm57'
+  file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'hairy_head'
+    mic: 'sm58'
+  file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_sm58.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'rock_tribute'
+    mic: 'blend_1'
+  file: captures/amp_fman_jose_mes4x12_v_pres_rock_tribute_blend_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'rock_tribute'
+    mic: 'blend_2'
+  file: captures/amp_fman_jose_mes4x12_v_pres_rock_tribute_blend_2.nam
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'rock_tribute'
+    mic: 'blend_3'
+  file: captures/amp_fman_jose_mes4x12_v_pres_rock_tribute_blend_3.nam
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'rock_tribute'
+    mic: 'sm57'
+  file: captures/amp_fman_jose_mes4x12_v_pres_rock_tribute_sm57.nam
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'rock_tribute'
+    mic: 'sm58'
+  file: captures/amp_fman_jose_mes4x12_v_pres_rock_tribute_sm58.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'blend_1'
+  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_1.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'blend_2'
+  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_2.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'blend_3'
+  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_blend_3.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'sm57'
+  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm57.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'sm58'
+  file: captures/pow_fman_jose_mar4x12_n_pres_pres_5_sm58.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'blend_1'
+  file: captures/pow_fman_jose_mar4x12_v_pres_pres_5_blend_1.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'blend_2'
+  file: captures/pow_fman_jose_mar4x12_v_pres_pres_5_blend_2.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'blend_3'
+  file: captures/pow_fman_jose_mar4x12_v_pres_pres_5_blend_3.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'sm57'
+  file: captures/pow_fman_jose_mar4x12_v_pres_pres_5_sm57.nam
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'sm58'
+  file: captures/pow_fman_jose_mar4x12_v_pres_pres_5_sm58.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'blend_1'
+  file: captures/pow_fman_jose_mes4x12_n_pres_pres_5_blend_1.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'blend_2'
+  file: captures/pow_fman_jose_mes4x12_n_pres_pres_5_blend_2.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'blend_3'
+  file: captures/pow_fman_jose_mes4x12_n_pres_pres_5_blend_3.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'sm57'
+  file: captures/pow_fman_jose_mes4x12_n_pres_pres_5_sm57.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'n'
+    preset: 'pres_5'
+    mic: 'sm58'
+  file: captures/pow_fman_jose_mes4x12_n_pres_pres_5_sm58.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'blend_1'
+  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_1.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'blend_2'
+  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_2.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'blend_3'
+  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_blend_3.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'sm57'
+  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm57.nam
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    voicing: 'v'
+    preset: 'pres_5'
+    mic: 'sm58'
+  file: captures/pow_fman_jose_mes4x12_v_pres_pres_5_sm58.nam

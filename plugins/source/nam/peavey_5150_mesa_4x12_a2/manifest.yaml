@@ -1,9 +1,9 @@
 manifest_version: 1
 id: nam_peavey_5150_mesa_4x12_a2
-display_name: 5150 + Mesa 4u{00d7}12
+display_name: 5150 + Mesa 4x12
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: -1.9265599
+output_gain_db: -4.4158092
 type: amp
 backend: nam
 architecture: A2
@@ -11,28 +11,105 @@ sources:
 - https://www.tone3000.com/tones/64607
 # Constant across all captures (dropped): PV6505-OG1992 amp, Mesa 4x12 cab, DI tap.
 parameters:
+- name: stage
+  display_name: Stage
+  values:
+  - 'amp'
+  - 'pow'
+  - 'pre'
+- name: cab
+  display_name: Cab
+  values:
+  - 'mar4x12'
+  - 'mes2x12'
+  - 'mes4x12'
+  - 'none'
 - name: preset
   display_name: Preset
   values:
-  - lead_pink_gator
-  - lead_ending_heartbrake
-  - pow_reso7_pres7
+  - 'eddie_settings_05'
+  - 'sneap'
+  - 'legend'
+  - 'mirroring'
+  - 'ending_heartbrake'
+  - 'pink_gator'
+  - 'reso_7_pres_7'
+  - 'wishful_dreamin'
 captures:
 - values:
-    preset: lead_pink_gator
-  file: captures/lead_pink_gator_a2.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    preset: 'eddie_settings_05'
+  file: captures/amp_pv6505_og1992_mar4x12_lead_eddie_settings_05_di.nam
   noise_gate:
     enabled: true
     threshold_db: -30.0
 - values:
-    preset: lead_ending_heartbrake
-  file: captures/lead_ending_heartbrake_a2.nam
+    stage: 'amp'
+    cab: 'mar4x12'
+    preset: 'sneap'
+  file: captures/amp_pv6505_og1992_mar4x12_lead_sneap_di.nam
   noise_gate:
     enabled: true
     threshold_db: -30.0
 - values:
-    preset: pow_reso7_pres7
-  file: captures/pow_reso7_pres7_a2.nam
+    stage: 'amp'
+    cab: 'mes2x12'
+    preset: 'legend'
+  file: captures/amp_pv6505_og1992_mes2x12_lead_legend_di.nam
+- values:
+    stage: 'amp'
+    cab: 'mes2x12'
+    preset: 'mirroring'
+  file: captures/amp_pv6505_og1992_mes2x12_lead_mirroring_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    preset: 'ending_heartbrake'
+  file: captures/amp_pv6505_og1992_mes4x12_lead_ending_heartbrake_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'amp'
+    cab: 'mes4x12'
+    preset: 'pink_gator'
+  file: captures/amp_pv6505_og1992_mes4x12_lead_pink_gator_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'pow'
+    cab: 'mar4x12'
+    preset: 'reso_7_pres_7'
+  file: captures/pow_pv6505_og1992_mar4x12_reso_7_pres_7_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'pow'
+    cab: 'mes2x12'
+    preset: 'reso_7_pres_7'
+  file: captures/pow_pv6505_og1992_mes2x12_reso_7_pres_7_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'pow'
+    cab: 'mes4x12'
+    preset: 'reso_7_pres_7'
+  file: captures/pow_pv6505_og1992_mes4x12_reso_7_pres_7_di.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    stage: 'pre'
+    cab: 'none'
+    preset: 'wishful_dreamin'
+  file: captures/pre_pv6505_og1992_rhyt_wishful_dreamin.nam
   noise_gate:
     enabled: true
     threshold_db: -30.0
