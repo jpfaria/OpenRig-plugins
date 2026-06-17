@@ -17,6 +17,7 @@
 
 pub mod catalog;
 pub mod ir;
+pub mod limiter;
 pub mod loudness;
 pub mod qa;
 pub mod selector;

@@ -242,6 +242,46 @@ default > engine default.
 
 ---
 
+## Chain QA check models the REAL signal path, not the raw sum (issue #82)
+
+`qa_audit` runs a per-chain regression probe (a drive pedal → high-gain amp
+stack) to catch the cpm 22 chained-gain failure mode. The chain MUST be
+reconstructed exactly as the engine renders it, or the check flags phantom
+defects:
+
+- **Apply each block's manifest `output_gain_db` between stages** — the same
+  scaling the single-block path uses. A2 hot models ship a **negative**
+  default; feeding the raw model output to the next stage clips where the real
+  (post-gain) signal does not.
+- **End the chain with the engine brick-wall limiter** (`limiter::limit_default`
+  — a byte-faithful port of `block-dyn::native_limiter_brickwall`, engine
+  defaults: threshold −1 dB, ceiling −0.1 dB, release 100 ms, lookahead 3 ms,
+  knee 2 dB). The checks (clip / collapse / non-finite) run on the
+  **post-limiter** signal, i.e. what the user actually hears. A representative
+  hot A2 chain legitimately overshoots (~+7 dBFS pre-limiter) before the
+  limiter catches it — asserting the raw sum stays ≤ 0 dBFS is the wrong
+  invariant for the A2 era.
+
+The limiter is a **byte-faithful port**, same discipline as the noise gate: if
+the engine block changes, re-port it (constants, soft-knee target curve,
+instant-attack/log-release envelope, lookahead peak-hold) — never approximate
+by ear. It ships with unit tests (hot signal → limited to ceiling; quiet signal
+→ unity).
+
+When `*_a1`/`*_a2` plugins move to `plugins/backup/`, repoint any hardcoded
+chain-spec / fixture in the tooling to a surviving `source/` plugin in the same
+commit — `pack_plugins` scans `source/` only, so a chain member left in backup
+fails with `missing chain plugin`.
+
+```
+❌ chain check on the raw pre-`output_gain_db` model output
+❌ asserting the pre-limiter chain sum stays ≤ 0 dBFS (false-fails hot A2 chains)
+❌ approximating the limiter curve by ear instead of porting the engine block
+✅ per-block output_gain_db → engine brick-wall limiter → check the post-limiter signal
+```
+
+---
+
 ## LAW — parameter names are REAL controls; read the description (issue #66)
 
 A plugin's parameter NAME must be a control that actually exists on the gear —
