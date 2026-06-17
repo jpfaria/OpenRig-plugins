@@ -1,12 +1,13 @@
-# Constant across all captures (dropped): mic=sm57, architecture=STD.
-# channel = the amp's voice (clean / dumble-derived overdrive); preset = the dialed-in voicing.
+# Constant across all captures (dropped): mic=sm57.
+# channel = the amp's voice (clean / overdrive / lead) plus the power-amp-only
+# captures (channel=power); preset = the author's dialed-in voicing.
 manifest_version: 1
 id: nam_prs_mt100_tremonti_a2
 display_name: MT-100 Tremonti
 brand: prs
 sources:
 - https://www.tone3000.com/tones/38592
-output_gain_db: -2.8992209
+output_gain_db: 0.0000000
 type: amp
 backend: nam
 architecture: A2
@@ -14,34 +15,403 @@ parameters:
 - name: channel
   display_name: Channel
   values:
-  - clean
-  - overdrive
+  - 'clean'
+  - 'lead'
+  - 'overdrive'
+  - 'power'
 - name: preset
   display_name: Preset
   values:
-  - noon
-  - live_2023
-  - dime_it
-  - sin_after_sin
-  - single_coil_leads
+  - 'ccv'
+  - 'classic_rhythm'
+  - 'clean'
+  - 'cleanly'
+  - 'glean'
+  - 'grit'
+  - 'leclean'
+  - 'live_2023'
+  - 'noon'
+  - 'sin_after_sin'
+  - 'single_coil_shimmer'
+  - 'the_intro'
+  - 'the_passage'
+  - '1996'
+  - 'all_the_way'
+  - 'basement'
+  - 'crusher'
+  - 'delivery'
+  - 'dialed_down'
+  - 'fully'
+  - 'hello_world'
+  - 'high_gain'
+  - 'insanity'
+  - 'longtone'
+  - 'maestro'
+  - 'moreover'
+  - 'murphy'
+  - 'no_mids'
+  - 'numedal'
+  - 'ranger'
+  - 'riffy'
+  - 'roomy'
+  - 'rover'
+  - 'the_riff'
+  - 'the_sound'
+  - 'throaty_percussion'
+  - 'tight'
+  - 'trecto_01'
+  - 'trecto_02'
+  - 'twister'
+  - 'bitey'
+  - 'breaking_up'
+  - 'classic_crunch'
+  - 'dime_it'
+  - 'dry'
+  - 'fuzzy_quality'
+  - 'juiced'
+  - 'leftfield'
+  - 'mumble_01'
+  - 'mumble_02'
+  - 'nosy'
+  - 'oldschool'
+  - 'on_the_rocks'
+  - 'playing'
+  - 'riffraff'
+  - 'single_coil_leads'
+  - 'skinny_jeans'
+  - 'smoke'
+  - 'spleen'
+  - 'suspense'
+  - 'syrup'
+  - 'wet'
+  - 'wonderful'
+  - 'power_01'
+  - 'power_02'
+  - 'power_03'
+  - 'power_04'
+  - 'power_05'
+  - 'power_06'
 captures:
 - values:
-    channel: clean
-    preset: noon
-  file: captures/amp_prs_mt100_clean_noon_sm57_std.nam
+    channel: 'clean'
+    preset: 'ccv'
+  file: captures/amp_prs_mt100_clean_ccv_sm57.nam
 - values:
-    channel: clean
-    preset: live_2023
-  file: captures/amp_prs_mt100_clean_live_2023_sm57_std.nam
+    channel: 'clean'
+    preset: 'classic_rhythm'
+  file: captures/amp_prs_mt100_clean_classic_rhythm_sm57.nam
 - values:
-    channel: overdrive
-    preset: dime_it
+    channel: 'clean'
+    preset: 'clean'
+  file: captures/amp_prs_mt100_clean_clean_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'cleanly'
+  file: captures/amp_prs_mt100_clean_cleanly_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'glean'
+  file: captures/amp_prs_mt100_clean_glean_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'grit'
+  file: captures/amp_prs_mt100_clean_grit_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'leclean'
+  file: captures/amp_prs_mt100_clean_leclean_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'live_2023'
+  file: captures/amp_prs_mt100_clean_live_2023_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'noon'
+  file: captures/amp_prs_mt100_clean_noon_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'sin_after_sin'
+  file: captures/amp_prs_mt100_clean_sin_after_sin_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'single_coil_shimmer'
+  file: captures/amp_prs_mt100_clean_single_coil_shimmer_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'the_intro'
+  file: captures/amp_prs_mt100_clean_the_intro_sm57.nam
+- values:
+    channel: 'clean'
+    preset: 'the_passage'
+  file: captures/amp_prs_mt100_clean_the_passage_sm57.nam
+- values:
+    channel: 'lead'
+    preset: '1996'
+  file: captures/amp_prs_mt100_lead_1996_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'all_the_way'
+  file: captures/amp_prs_mt100_lead_all_the_way_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'basement'
+  file: captures/amp_prs_mt100_lead_basement_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'ccv'
+  file: captures/amp_prs_mt100_lead_ccv_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'crusher'
+  file: captures/amp_prs_mt100_lead_crusher_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'lead'
+    preset: 'delivery'
+  file: captures/amp_prs_mt100_lead_delivery_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'dialed_down'
+  file: captures/amp_prs_mt100_lead_dialed_down_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'fully'
+  file: captures/amp_prs_mt100_lead_fully_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'hello_world'
+  file: captures/amp_prs_mt100_lead_hello_world_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'high_gain'
+  file: captures/amp_prs_mt100_lead_high_gain_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'insanity'
+  file: captures/amp_prs_mt100_lead_insanity_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'lead'
+    preset: 'live_2023'
+  file: captures/amp_prs_mt100_lead_live_2023_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'longtone'
+  file: captures/amp_prs_mt100_lead_longtone_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'maestro'
+  file: captures/amp_prs_mt100_lead_maestro_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'moreover'
+  file: captures/amp_prs_mt100_lead_moreover_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'murphy'
+  file: captures/amp_prs_mt100_lead_murphy_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'no_mids'
+  file: captures/amp_prs_mt100_lead_no_mids_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'lead'
+    preset: 'noon'
+  file: captures/amp_prs_mt100_lead_noon_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'numedal'
+  file: captures/amp_prs_mt100_lead_numedal_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'lead'
+    preset: 'ranger'
+  file: captures/amp_prs_mt100_lead_ranger_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'riffy'
+  file: captures/amp_prs_mt100_lead_riffy_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'roomy'
+  file: captures/amp_prs_mt100_lead_roomy_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'rover'
+  file: captures/amp_prs_mt100_lead_rover_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'sin_after_sin'
+  file: captures/amp_prs_mt100_lead_sin_after_sin_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'the_riff'
+  file: captures/amp_prs_mt100_lead_the_riff_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'the_sound'
+  file: captures/amp_prs_mt100_lead_the_sound_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'throaty_percussion'
+  file: captures/amp_prs_mt100_lead_throaty_percussion_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'tight'
+  file: captures/amp_prs_mt100_lead_tight_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'trecto_01'
+  file: captures/amp_prs_mt100_lead_trecto_01_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'trecto_02'
+  file: captures/amp_prs_mt100_lead_trecto_02_sm57.nam
+- values:
+    channel: 'lead'
+    preset: 'twister'
+  file: captures/amp_prs_mt100_lead_twister_sm57.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'overdrive'
+    preset: 'bitey'
+  file: captures/amp_prs_mt100_overdrive_bitey_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'breaking_up'
+  file: captures/amp_prs_mt100_overdrive_breaking_up_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'ccv'
+  file: captures/amp_prs_mt100_overdrive_ccv_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'classic_crunch'
+  file: captures/amp_prs_mt100_overdrive_classic_crunch_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'dime_it'
   file: captures/amp_prs_mt100_overdrive_dime_it_sm57.nam
 - values:
-    channel: overdrive
-    preset: sin_after_sin
-  file: captures/amp_prs_mt100_overdrive_sin_after_sin_sm57_std.nam
+    channel: 'overdrive'
+    preset: 'dry'
+  file: captures/amp_prs_mt100_overdrive_dry_sm57.nam
 - values:
-    channel: overdrive
-    preset: single_coil_leads
-  file: captures/amp_prs_mt100_overdrive_single_coil_leads_sm57_std.nam
+    channel: 'overdrive'
+    preset: 'fuzzy_quality'
+  file: captures/amp_prs_mt100_overdrive_fuzzy_quality_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'juiced'
+  file: captures/amp_prs_mt100_overdrive_juiced_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'leftfield'
+  file: captures/amp_prs_mt100_overdrive_leftfield_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'live_2023'
+  file: captures/amp_prs_mt100_overdrive_live_2023_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'mumble_01'
+  file: captures/amp_prs_mt100_overdrive_mumble_01_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'mumble_02'
+  file: captures/amp_prs_mt100_overdrive_mumble_02_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'noon'
+  file: captures/amp_prs_mt100_overdrive_noon_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'nosy'
+  file: captures/amp_prs_mt100_overdrive_nosy_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'oldschool'
+  file: captures/amp_prs_mt100_overdrive_oldschool_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'on_the_rocks'
+  file: captures/amp_prs_mt100_overdrive_on_the_rocks_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'playing'
+  file: captures/amp_prs_mt100_overdrive_playing_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'riffraff'
+  file: captures/amp_prs_mt100_overdrive_riffraff_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'sin_after_sin'
+  file: captures/amp_prs_mt100_overdrive_sin_after_sin_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'single_coil_leads'
+  file: captures/amp_prs_mt100_overdrive_single_coil_leads_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'skinny_jeans'
+  file: captures/amp_prs_mt100_overdrive_skinny_jeans_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'smoke'
+  file: captures/amp_prs_mt100_overdrive_smoke_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'spleen'
+  file: captures/amp_prs_mt100_overdrive_spleen_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'suspense'
+  file: captures/amp_prs_mt100_overdrive_suspense_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'syrup'
+  file: captures/amp_prs_mt100_overdrive_syrup_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'wet'
+  file: captures/amp_prs_mt100_overdrive_wet_sm57.nam
+- values:
+    channel: 'overdrive'
+    preset: 'wonderful'
+  file: captures/amp_prs_mt100_overdrive_wonderful_sm57.nam
+- values:
+    channel: 'power'
+    preset: 'power_01'
+  file: captures/pow_prs_mt100_power_01_sm57.nam
+- values:
+    channel: 'power'
+    preset: 'power_02'
+  file: captures/pow_prs_mt100_power_02_sm57.nam
+- values:
+    channel: 'power'
+    preset: 'power_03'
+  file: captures/pow_prs_mt100_power_03_sm57.nam
+- values:
+    channel: 'power'
+    preset: 'power_04'
+  file: captures/pow_prs_mt100_power_04_sm57.nam
+- values:
+    channel: 'power'
+    preset: 'power_05'
+  file: captures/pow_prs_mt100_power_05_sm57.nam
+- values:
+    channel: 'power'
+    preset: 'power_06'
+  file: captures/pow_prs_mt100_power_06_sm57.nam
