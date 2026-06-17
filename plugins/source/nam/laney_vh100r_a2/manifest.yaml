@@ -8,6 +8,8 @@ type: amp
 backend: nam
 architecture: A2
 sources:
+# NOTE: upstream tone was removed from tone3000 (returns no models / 404 as of
+# 2026-06-17). Kept for provenance; the captures below are the imported copy.
 - https://www.tone3000.com/tones/45200
 parameters:
 - name: voicing
