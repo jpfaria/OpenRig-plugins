@@ -19,8 +19,8 @@
 //!         --source /path/to/OpenRig-plugins/plugins/source \
 //!         --plugins nam/mesa_rectifier,ir/marshall_4x12
 //!
-//! Also runs a per-chain check (default: `nam_ibanez_ts9_a1` →
-//! `nam_mesa_rectifier_a1`) so the chained-gain failure mode that
+//! Also runs a per-chain check (default: `nam_ibanez_ts9_a2` →
+//! `nam_mesa_rectifier_a2`) so the chained-gain failure mode that
 //! gutted the cpm 22 preset is now caught automatically. When a
 //! `--plugins` filter excludes any chain member, that chain step is
 //! skipped (not a failure) — the flag exists to focus on one plugin.
@@ -30,6 +30,7 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 use loudness_audit::ir::{convolve, load_wav_ir};
+use loudness_audit::limiter;
 use loudness_audit::loudness::{integrated_lufs, peak_dbfs};
 use loudness_audit::qa::{
     check_clip, check_clip_with, check_dc_offset, check_dc_offset_with, check_hf_aliasing,
@@ -160,7 +161,7 @@ fn run() -> Result<()> {
     // (not a failure): the flag exists for fast iteration on a single
     // plugin, and failing on chain summation the user didn't touch is
     // noise.
-    let chain_specs: &[&[&str]] = &[&["ibanez_ts9_a1", "mesa_rectifier_a1"]];
+    let chain_specs: &[&[&str]] = &[&["ibanez_ts9_a2", "mesa_rectifier_a2"]];
     eprintln!();
     eprintln!("-- chain checks --");
     for chain in chain_specs {
@@ -367,9 +368,14 @@ fn audit_ir_plugin(
 }
 
 /// Runs the probe through each NAM in `chain` sequentially (output of
-/// one feeds the next). Asserts final peak ≤ ceiling and final LUFS
-/// ≥ `CHAIN_LUFS_FLOOR`. Failure modes encoded:
-///   - additive chain-gain clip (boost-only hot-target era);
+/// one feeds the next), applying each block's manifest `output_gain_db`
+/// between stages, then through the engine brick-wall limiter at the
+/// chain end (the realistic mastering stage — OpenRig#542). Checks run
+/// on the post-limiter signal so they assert what the user actually
+/// hears, not the raw pre-limiter sum (A2 hot models legitimately
+/// overshoot before the limiter catches them). Asserts final peak ≤
+/// ceiling and final LUFS ≥ `CHAIN_LUFS_FLOOR`. Failure modes encoded:
+///   - chain output the limiter cannot tame / non-finite samples;
 ///   - chain collapse below floor (unity-LUFS per-block era).
 fn audit_chain(
     probe: &[f32],
@@ -387,24 +393,37 @@ fn audit_chain(
         let raw = fs::read_to_string(&manifest)?;
         let capture = first_capture_file(&raw)
             .ok_or_else(|| anyhow!("no captures in {plugin_name}"))?;
-        signal = run_nam(&signal, &plugin_dir.join(&capture))
+        let out = run_nam(&signal, &plugin_dir.join(&capture))
             .with_context(|| format!("run NAM {plugin_name}"))?;
+        // Mirror the runtime per block, exactly as `audit_nam_plugin`:
+        // scale by the manifest's `output_gain_db` before feeding the
+        // next stage. A2 hot models ship a negative default — without
+        // this the raw chain clips where the real (post-gain) signal
+        // never does.
+        let scale = 10f32.powf(manifest_output_gain_db(&raw) / 20.0);
+        signal = out.iter().map(|s| s * scale).collect();
     }
+    // Chain-end brick-wall limiter (engine defaults): the realistic
+    // mastering stage. Diagnostics report pre- vs post-limiter peak so a
+    // chain leaning hard on the limiter is still visible in the log.
+    let pre_peak = peak_dbfs(&signal);
+    let limited = limiter::limit_default(&signal, sr);
     let mut fails = Vec::new();
-    if let Some(f) = check_non_finite(&signal) {
+    if let Some(f) = check_non_finite(&limited) {
         fails.push(f);
     }
-    if let Some(f) = check_clip(&signal) {
+    if let Some(f) = check_clip(&limited) {
         fails.push(f);
     }
-    let lufs = integrated_lufs(&signal, sr);
+    let lufs = integrated_lufs(&limited, sr);
     if !lufs.is_finite() || lufs < CHAIN_LUFS_FLOOR {
         fails.push(QaFail::Silence { lufs });
     }
-    // Diagnostic peak / lufs at the end of the chain.
-    let peak = peak_dbfs(&signal);
+    // Diagnostic peak / lufs at the end of the chain (post-limiter).
+    let peak = peak_dbfs(&limited);
     eprintln!(
-        "     chain end: peak={peak:+.2} dBFS, lufs={lufs:+.2} LUFS"
+        "     chain end: pre-limiter peak={pre_peak:+.2} dBFS, \
+         post-limiter peak={peak:+.2} dBFS, lufs={lufs:+.2} LUFS"
     );
     Ok(fails)
 }
