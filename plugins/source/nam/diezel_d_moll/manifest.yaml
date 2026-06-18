@@ -1,0 +1,152 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_diezel_d_moll
+display_name: D-Moll
+brand: diezel
+sources:
+- https://www.tone3000.com/tones/57479
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - '1'
+  - '2'
+  - '3'
+- name: voicing
+  display_name: Voicing
+  values:
+  - 'normal'
+  - 'mid_cut'
+- name: boost
+  display_name: Boost
+  values:
+  - 'none'
+  - 'sd1'
+- name: gain_stage
+  display_name: Gain Stage
+  values:
+  - 'cln'
+  - 'dc'
+  - 'eob'
+  - 'hg'
+  - 'lg'
+  - 'mg'
+captures:
+- values:
+    channel: '1'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'cln'
+  file: captures/diezel_d_moll_ch_1_cln.nam
+- values:
+    channel: '1'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'dc'
+  file: captures/diezel_d_moll_ch_1_dc.nam
+- values:
+    channel: '1'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'eob'
+  file: captures/diezel_d_moll_ch_1_eob.nam
+- values:
+    channel: '2'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_2_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
+- values:
+    channel: '2'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'lg'
+  file: captures/diezel_d_moll_ch_2_lg.nam
+- values:
+    channel: '2'
+    voicing: 'mid_cut'
+    boost: 'none'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_2_mc_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    channel: '2'
+    voicing: 'mid_cut'
+    boost: 'none'
+    gain_stage: 'mg'
+  file: captures/diezel_d_moll_ch_2_mc_mg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: '2'
+    voicing: 'mid_cut'
+    boost: 'sd1'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_2_mc_sd1_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: '2'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'mg'
+  file: captures/diezel_d_moll_ch_2_mg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: '2'
+    voicing: 'normal'
+    boost: 'sd1'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_2_sd1_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: '3'
+    voicing: 'normal'
+    boost: 'none'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_3_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    channel: '3'
+    voicing: 'mid_cut'
+    boost: 'none'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_3_mc_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    channel: '3'
+    voicing: 'mid_cut'
+    boost: 'sd1'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_3_mc_sd1_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    channel: '3'
+    voicing: 'normal'
+    boost: 'sd1'
+    gain_stage: 'hg'
+  file: captures/diezel_d_moll_ch_3_sd1_hg.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5

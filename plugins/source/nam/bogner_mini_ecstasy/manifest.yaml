@@ -1,0 +1,56 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_bogner_mini_ecstasy
+display_name: Mini Ecstasy
+brand: bogner
+sources:
+- https://www.tone3000.com/tones/60680
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 'clean_1'
+  - 'clean_2'
+  - 'crunch_1'
+  - 'crunch_2'
+  - 'high_gain_1'
+  - 'high_gain_2'
+  - 'high_gain_3'
+  - 'low_gain_1'
+  - 'low_gain_2'
+  - 'low_gain_3'
+captures:
+- values:
+    preset: 'clean_1'
+  file: captures/bogner_mini_ecstasy_clean_1.nam
+- values:
+    preset: 'clean_2'
+  file: captures/bogner_mini_ecstasy_clean_2.nam
+- values:
+    preset: 'crunch_1'
+  file: captures/bogner_mini_ecstasy_crunch_1.nam
+- values:
+    preset: 'crunch_2'
+  file: captures/bogner_mini_ecstasy_crunch_2.nam
+- values:
+    preset: 'high_gain_1'
+  file: captures/bogner_mini_ecstasy_high_gain_1.nam
+- values:
+    preset: 'high_gain_2'
+  file: captures/bogner_mini_ecstasy_high_gain_2.nam
+- values:
+    preset: 'high_gain_3'
+  file: captures/bogner_mini_ecstasy_high_gain_3.nam
+- values:
+    preset: 'low_gain_1'
+  file: captures/bogner_mini_ecstasy_low_gain_1.nam
+- values:
+    preset: 'low_gain_2'
+  file: captures/bogner_mini_ecstasy_low_gain_2.nam
+- values:
+    preset: 'low_gain_3'
+  file: captures/bogner_mini_ecstasy_low_gain_3.nam

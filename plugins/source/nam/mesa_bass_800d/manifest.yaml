@@ -1,0 +1,36 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_mesa_bass_800d
+display_name: Bass 800D
+brand: mesa
+sources:
+- https://www.tone3000.com/tones/54647
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 'fat_classic_rock'
+  - 'modern_rock_metal'
+  - 'reggae'
+  - 'round_r_and_b'
+  - 'slap_funk_fingerstyle'
+captures:
+- values:
+    preset: 'fat_classic_rock'
+  file: captures/mesa_bass_800d_send_fat_classic_rock.nam
+- values:
+    preset: 'modern_rock_metal'
+  file: captures/mesa_bass_800d_send_modern_rock_metal.nam
+- values:
+    preset: 'reggae'
+  file: captures/mesa_bass_800d_send_reggae.nam
+- values:
+    preset: 'round_r_and_b'
+  file: captures/mesa_bass_800d_send_round_r_and_b.nam
+- values:
+    preset: 'slap_funk_fingerstyle'
+  file: captures/mesa_bass_800d_send_slap_funk_fingerstyle.nam

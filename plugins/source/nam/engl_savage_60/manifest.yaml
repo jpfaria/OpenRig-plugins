@@ -1,0 +1,177 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_engl_savage_60
+display_name: Savage 60
+brand: engl
+sources:
+- https://www.tone3000.com/tones/61381
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - 'lead'
+  - 'rhythm'
+- name: overdrive
+  display_name: Overdrive
+  values:
+  - 'off'
+  - 'on'
+- name: bass
+  display_name: Bass
+  values:
+  - 4
+  - 7
+  - 6
+  - 3.8
+  - 3
+- name: mid
+  display_name: Mid
+  values:
+  - 7
+  - 8.4
+  - 9.2
+  - 10
+  - 7.2
+  - 9
+- name: treble
+  display_name: Treble
+  values:
+  - 6.5
+  - 10
+  - 6.2
+  - 9
+  - 0.5
+  - 6
+- name: gain
+  display_name: Gain
+  values:
+  - 8
+  - 10
+  - 9
+  - 6
+- name: level
+  display_name: Level
+  values:
+  - 7
+  - 6
+  - 6.9
+  - -1
+- name: sustain
+  display_name: Sustain
+  values:
+  - 2
+  - 0
+- name: presence
+  display_name: Presence
+  values:
+  - 6.2
+  - 6
+  - 7.2
+  - 6.8
+  - 5
+  - 4
+captures:
+- values:
+    channel: 'lead'
+    overdrive: 'off'
+    bass: 4
+    mid: 7
+    treble: 6.5
+    gain: 8
+    level: 7
+    sustain: 2
+    presence: 6.2
+  file: captures/engl_savage_60_lead_pwr_b4_m7_t6_5_g8b_l7_plus_s2_p6_2_plus.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.5
+- values:
+    channel: 'lead'
+    overdrive: 'off'
+    bass: 7
+    mid: 8.4
+    treble: 10
+    gain: 10
+    level: 6
+    sustain: 0
+    presence: 6
+  file: captures/engl_savage_60_lead_pwr_b7_m8_4_t10_g10b_l6_plus_s0_p6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -36.0
+- values:
+    channel: 'lead'
+    overdrive: 'on'
+    bass: 6
+    mid: 9.2
+    treble: 6.2
+    gain: 8
+    level: 6.9
+    sustain: 0
+    presence: 7.2
+  file: captures/engl_savage_60_lead_pwr_od_b6_m9_2_t6_2_g8b_plus_l6_9_plus_s0_p7_2_plus.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
+- values:
+    channel: 'lead'
+    overdrive: 'on'
+    bass: 7
+    mid: 10
+    treble: 9
+    gain: 8
+    level: 7
+    sustain: 2
+    presence: 6.8
+  file: captures/engl_savage_60_lead_pwr_od_b7_m10_t9_g8b_plus_l7_plus_s2_p6_8_plus.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    channel: 'rhythm'
+    overdrive: 'off'
+    bass: 3.8
+    mid: 7.2
+    treble: 0.5
+    gain: 9
+    level: -1
+    sustain: 2
+    presence: 5
+  file: captures/engl_savage_60_rhythm_pwr_b3_8_m7_2_t0_5_g9b_s2_p5.nam
+- values:
+    channel: 'rhythm'
+    overdrive: 'off'
+    bass: 3
+    mid: 9
+    treble: 6
+    gain: 8
+    level: -1
+    sustain: 0
+    presence: 4
+  file: captures/engl_savage_60_rhythm_pwr_b3_m9_t6_g8b_plus_s0_p4.nam
+- values:
+    channel: 'rhythm'
+    overdrive: 'on'
+    bass: 4
+    mid: 7.2
+    treble: 6
+    gain: 6
+    level: -1
+    sustain: 0
+    presence: 4
+  file: captures/engl_savage_60_rhythm_pwr_od_b4_m7_2_t6_g6b_plus_s0_p4.nam
+- values:
+    channel: 'rhythm'
+    overdrive: 'on'
+    bass: 4
+    mid: 9
+    treble: 6
+    gain: 6
+    level: -1
+    sustain: 0
+    presence: 6
+  file: captures/engl_savage_60_rhythm_pwr_od_b4_m9_t6_g6b_plus_s0_p6.nam

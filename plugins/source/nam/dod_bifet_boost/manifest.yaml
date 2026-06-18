@@ -1,0 +1,120 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_dod_bifet_boost
+display_name: BiFet Boost 410
+brand: dod
+sources:
+- https://www.tone3000.com/tones/67594
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 10
+  - 3
+  - 5
+- name: tone
+  display_name: Tone
+  values:
+  - 10
+  - 3
+  - 5
+- name: mode
+  display_name: Mode
+  values:
+  - 'buffer_off'
+  - 'buffer_on'
+captures:
+- values:
+    volume: 10
+    tone: 10
+    mode: 'buffer_off'
+  file: captures/volume_10_tone_10_buffer_off.nam
+- values:
+    volume: 10
+    tone: 10
+    mode: 'buffer_on'
+  file: captures/volume_10_tone_10_buffer_on.nam
+- values:
+    volume: 10
+    tone: 3
+    mode: 'buffer_off'
+  file: captures/volume_10_tone_3_buffer_off.nam
+- values:
+    volume: 10
+    tone: 3
+    mode: 'buffer_on'
+  file: captures/volume_10_tone_3_buffer_on.nam
+- values:
+    volume: 10
+    tone: 5
+    mode: 'buffer_off'
+  file: captures/volume_10_tone_5_buffer_off.nam
+- values:
+    volume: 10
+    tone: 5
+    mode: 'buffer_on'
+  file: captures/volume_10_tone_5_buffer_on.nam
+- values:
+    volume: 3
+    tone: 10
+    mode: 'buffer_off'
+  file: captures/volume_3_tone_10_buffer_off.nam
+- values:
+    volume: 3
+    tone: 10
+    mode: 'buffer_on'
+  file: captures/volume_3_tone_10_buffer_on.nam
+- values:
+    volume: 3
+    tone: 3
+    mode: 'buffer_off'
+  file: captures/volume_3_tone_3_buffer_off.nam
+- values:
+    volume: 3
+    tone: 3
+    mode: 'buffer_on'
+  file: captures/volume_3_tone_3_buffer_on.nam
+- values:
+    volume: 3
+    tone: 5
+    mode: 'buffer_off'
+  file: captures/volume_3_tone_5_buffer_off.nam
+- values:
+    volume: 3
+    tone: 5
+    mode: 'buffer_on'
+  file: captures/volume_3_tone_5_buffer_on.nam
+- values:
+    volume: 5
+    tone: 10
+    mode: 'buffer_off'
+  file: captures/volume_5_tone_10_buffer_off.nam
+- values:
+    volume: 5
+    tone: 10
+    mode: 'buffer_on'
+  file: captures/volume_5_tone_10_buffer_on.nam
+- values:
+    volume: 5
+    tone: 3
+    mode: 'buffer_off'
+  file: captures/volume_5_tone_3_buffer_off.nam
+- values:
+    volume: 5
+    tone: 3
+    mode: 'buffer_on'
+  file: captures/volume_5_tone_3_buffer_on.nam
+- values:
+    volume: 5
+    tone: 5
+    mode: 'buffer_off'
+  file: captures/volume_5_tone_5_buffer_off.nam
+- values:
+    volume: 5
+    tone: 5
+    mode: 'buffer_on'
+  file: captures/volume_5_tone_5_buffer_on.nam

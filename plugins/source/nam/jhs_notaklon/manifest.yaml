@@ -1,0 +1,60 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_jhs_notaklon
+display_name: NOTAKLON
+brand: jhs
+sources:
+- https://www.tone3000.com/tones/55098
+output_gain_db: -3.7573555
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+captures:
+- values:
+    gain: 0
+  file: captures/notakl_n_01_gain_7_oclock.nam
+- values:
+    gain: 1
+  file: captures/notakl_n_02_gain_8_oclock.nam
+- values:
+    gain: 2
+  file: captures/notakl_n_03_gain_9_oclock.nam
+- values:
+    gain: 3
+  file: captures/notakl_n_04_gain_10_oclock.nam
+- values:
+    gain: 4
+  file: captures/notakl_n_05_gain_11_oclock.nam
+- values:
+    gain: 5
+  file: captures/notakl_n_06_gain_12_oclock.nam
+- values:
+    gain: 6
+  file: captures/notakl_n_07_gain_1_oclock.nam
+- values:
+    gain: 7
+  file: captures/notakl_n_08_gain_2_oclock.nam
+- values:
+    gain: 8
+  file: captures/notakl_n_09_gain_3_oclock.nam
+- values:
+    gain: 9
+  file: captures/notakl_n_10_gain_4_oclock.nam
+- values:
+    gain: 10
+  file: captures/notakl_n_11_gain_5_oclock.nam

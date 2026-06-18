@@ -1,0 +1,44 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_peavey_invective
+display_name: Invective
+brand: peavey
+sources:
+- https://www.tone3000.com/tones/54373
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - '2'
+  - 'mh_3'
+  - 'mh_4'
+  - 'mh'
+captures:
+- values:
+    preset: '2'
+  file: captures/peavey_invective_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    preset: 'mh_3'
+  file: captures/peavey_invective_mh_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -44.0
+- values:
+    preset: 'mh_4'
+  file: captures/peavey_invective_mh_4.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -44.0
+- values:
+    preset: 'mh'
+  file: captures/peavey_invective_mh.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5

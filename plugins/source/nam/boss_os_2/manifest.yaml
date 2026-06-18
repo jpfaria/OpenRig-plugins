@@ -1,0 +1,138 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_boss_os_2
+display_name: OS-2 Overdrive/Distortion
+brand: boss
+sources:
+- https://www.tone3000.com/tones/66188
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - 5
+  - 8
+  - 9
+  - 10
+  - 0
+  - 3.5
+  - 3
+  - 7
+  - 8.5
+- name: tone
+  display_name: Tone
+  values:
+  - 5
+  - 8
+  - 9
+  - 10
+  - 7
+- name: color
+  display_name: Color
+  values:
+  - 5
+  - 8
+  - 9
+  - 10
+  - 0
+  - 4
+  - 7
+captures:
+- values:
+    drive: 5
+    tone: 5
+    color: 5
+  file: captures/drps_boss_os_2_everything_at_12_o_clock.nam
+- values:
+    drive: 8
+    tone: 8
+    color: 8
+  file: captures/drps_boss_os_2_everything_at_3_o_clock.nam
+- values:
+    drive: 9
+    tone: 9
+    color: 9
+  file: captures/drps_boss_os_2_everything_at_4_o_clock.nam
+- values:
+    drive: 10
+    tone: 10
+    color: 10
+  file: captures/drps_boss_os_2_everything_at_6_o_clock.nam
+- values:
+    drive: 0
+    tone: 5
+    color: 5
+  file: captures/drps_boss_os_2_tone5_drive0_color5.nam
+- values:
+    drive: 3.5
+    tone: 5
+    color: 5
+  file: captures/drps_boss_os_2_tone5_drive3_5_color5.nam
+- values:
+    drive: 3
+    tone: 5
+    color: 0
+  file: captures/drps_boss_os_2_tone5_drive3_color0.nam
+- values:
+    drive: 3
+    tone: 5
+    color: 10
+  file: captures/drps_boss_os_2_tone5_drive3_color10.nam
+- values:
+    drive: 5
+    tone: 5
+    color: 0
+  file: captures/drps_boss_os_2_tone5_drive5_color0.nam
+- values:
+    drive: 5
+    tone: 5
+    color: 10
+  file: captures/drps_boss_os_2_tone5_drive5_color10.nam
+- values:
+    drive: 7
+    tone: 5
+    color: 5
+  file: captures/drps_boss_os_2_tone5_drive7_color5.nam
+- values:
+    drive: 8
+    tone: 5
+    color: 0
+  file: captures/drps_boss_os_2_tone5_drive8_color0.nam
+- values:
+    drive: 8
+    tone: 5
+    color: 10
+  file: captures/drps_boss_os_2_tone5_drive8_color10.nam
+- values:
+    drive: 3
+    tone: 7
+    color: 4
+  file: captures/drps_boss_os_2_tone7_drive3_color4.nam
+- values:
+    drive: 3
+    tone: 7
+    color: 7
+  file: captures/drps_boss_os_2_tone7_drive3_color7.nam
+- values:
+    drive: 5
+    tone: 7
+    color: 4
+  file: captures/drps_boss_os_2_tone7_drive5_color4.nam
+- values:
+    drive: 5
+    tone: 7
+    color: 7
+  file: captures/drps_boss_os_2_tone7_drive5_color7.nam
+- values:
+    drive: 8.5
+    tone: 7
+    color: 7
+  file: captures/drps_boss_os_2_tone7_drive8_5_color7.nam
+- values:
+    drive: 9
+    tone: 7
+    color: 4
+  file: captures/drps_boss_os_2_tone7_drive9_color4.nam
