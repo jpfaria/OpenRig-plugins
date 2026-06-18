@@ -1,0 +1,40 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_ampeg_v4
+display_name: V4
+brand: ampeg
+sources:
+- https://www.tone3000.com/tones/56596
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: boost
+  display_name: Boost
+  values:
+  - 'battlehammer'
+  - 'boss_sd1_parallel'
+  - 'cherub_fuzz_parallel'
+  - 'no_boost'
+  - 'turbo_rat_parallel_phase_flipped'
+  - 'turbo_rat_parallel'
+captures:
+- values:
+    boost: 'battlehammer'
+  file: captures/ampegv4_bass_battlehammer.nam
+- values:
+    boost: 'boss_sd1_parallel'
+  file: captures/ampegv4_bass_boss_sd1_parallel.nam
+- values:
+    boost: 'cherub_fuzz_parallel'
+  file: captures/ampegv4_bass_cherub_fuzz_parallel.nam
+- values:
+    boost: 'no_boost'
+  file: captures/ampegv4_bass_no_boost.nam
+- values:
+    boost: 'turbo_rat_parallel_phase_flipped'
+  file: captures/ampegv4_bass_turbo_rat_parallel_phase_flipped.nam
+- values:
+    boost: 'turbo_rat_parallel'
+  file: captures/ampegv4_bass_turbo_rat_parallel.nam

@@ -1,0 +1,646 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_fender_blues_deville
+display_name: Blues DeVille 4x10
+brand: fender
+sources:
+- https://www.tone3000.com/tones/64903
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - 'drv'
+  - 'nrm'
+- name: drive
+  display_name: Drive
+  values:
+  - 10
+  - 12
+  - 9
+  - -1
+- name: volume
+  display_name: Volume
+  values:
+  - -1
+  - 10
+  - 2
+  - 4
+  - 6
+  - 8
+- name: treble
+  display_name: Treble
+  values:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 9
+  - 8
+- name: bass
+  display_name: Bass
+  values:
+  - 6
+  - 1
+  - 7
+  - 4
+  - 2
+  - 5
+  - 3
+  - 8
+  - 9
+- name: mid
+  display_name: Mid
+  values:
+  - 10
+  - 8
+  - 4
+  - 12
+  - 6
+  - 5
+  - 7
+- name: master
+  display_name: Master
+  values:
+  - 2
+  - -1
+- name: presence
+  display_name: Presence
+  values:
+  - 3
+  - 4
+  - 6
+  - 5
+  - 7
+  - 8
+  - 1
+- name: bright
+  display_name: Bright
+  values:
+  - 'off'
+  - 'on'
+captures:
+- values:
+    channel: 'drv'
+    drive: 10
+    volume: -1
+    treble: 3
+    bass: 6
+    mid: 10
+    master: 2
+    presence: 3
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_10_t_3_b_6_m_10_ma_2_p_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 12
+    volume: -1
+    treble: 3
+    bass: 6
+    mid: 10
+    master: 2
+    presence: 3
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_12_t_3_b_6_m_10_ma_2_p_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 12
+    volume: -1
+    treble: 4
+    bass: 1
+    mid: 8
+    master: 2
+    presence: 4
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_12_t_4_b_1_m_8_ma_2_p_4.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 12
+    volume: -1
+    treble: 5
+    bass: 7
+    mid: 4
+    master: 2
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_12_t_5_b_7_m_4_ma_2_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: 'drv'
+    drive: 12
+    volume: -1
+    treble: 6
+    bass: 4
+    mid: 12
+    master: 2
+    presence: 5
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_12_t_6_b_4_m_12_ma_2_p_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 12
+    volume: -1
+    treble: 6
+    bass: 6
+    mid: 6
+    master: 2
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_12_t_6_b_6_m_6_ma_2_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 9
+    volume: -1
+    treble: 3
+    bass: 6
+    mid: 10
+    master: 2
+    presence: 3
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_9_t_3_b_6_m_10_ma_2_p_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 9
+    volume: -1
+    treble: 4
+    bass: 1
+    mid: 8
+    master: 2
+    presence: 4
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_9_t_4_b_1_m_8_ma_2_p_4.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: 'drv'
+    drive: 9
+    volume: -1
+    treble: 5
+    bass: 7
+    mid: 4
+    master: 2
+    presence: 5
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_9_t_5_b_7_m_4_ma_2_p_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: 'drv'
+    drive: 9
+    volume: -1
+    treble: 6
+    bass: 4
+    mid: 12
+    master: 2
+    presence: 5
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_9_t_6_b_4_m_12_ma_2_p_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'drv'
+    drive: 9
+    volume: -1
+    treble: 6
+    bass: 6
+    mid: 6
+    master: 2
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_drv_in1_d_9_t_6_b_6_m_6_ma_2_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 10
+    treble: 4
+    bass: 2
+    mid: 12
+    master: -1
+    presence: 7
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_10_t_4_b_2_m_12_p_7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 10
+    treble: 7
+    bass: 5
+    mid: 6
+    master: -1
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_10_t_7_b_5_m_6_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 10
+    treble: 9
+    bass: 3
+    mid: 10
+    master: -1
+    presence: 8
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_10_t_9_b_3_m_10_p_8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 5
+    bass: 8
+    mid: 5
+    master: -1
+    presence: 1
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_5_b_8_m_5_p_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 5
+    bass: 8
+    mid: 8
+    master: -1
+    presence: 1
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_5_b_8_m_8_p_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 7
+    bass: 3
+    mid: 4
+    master: -1
+    presence: 3
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_3_m_4_p_3_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 7
+    bass: 3
+    mid: 4
+    master: -1
+    presence: 3
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_3_m_4_p_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 7
+    bass: 4
+    mid: 7
+    master: -1
+    presence: 7
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_4_m_7_p_7_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 7
+    bass: 4
+    mid: 7
+    master: -1
+    presence: 7
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_4_m_7_p_7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 7
+    bass: 7
+    mid: 7
+    master: -1
+    presence: 1
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_7_m_7_p_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 8
+    bass: 5
+    mid: 5
+    master: -1
+    presence: 5
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_5_p_5_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 8
+    bass: 5
+    mid: 5
+    master: -1
+    presence: 5
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_5_p_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 8
+    bass: 5
+    mid: 7
+    master: -1
+    presence: 5
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_7_p_5_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 8
+    bass: 5
+    mid: 7
+    master: -1
+    presence: 5
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_7_p_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 8
+    bass: 7
+    mid: 6
+    master: -1
+    presence: 6
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_7_m_6_p_6_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 8
+    bass: 7
+    mid: 6
+    master: -1
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_7_m_6_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 9
+    bass: 9
+    mid: 6
+    master: -1
+    presence: 3
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_9_b_9_m_6_p_3_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 2
+    treble: 9
+    bass: 9
+    mid: 6
+    master: -1
+    presence: 3
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_2_t_9_b_9_m_6_p_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 4
+    treble: 4
+    bass: 2
+    mid: 12
+    master: -1
+    presence: 7
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_4_t_4_b_2_m_12_p_7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 4
+    treble: 7
+    bass: 5
+    mid: 6
+    master: -1
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_4_t_7_b_5_m_6_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 4
+    treble: 9
+    bass: 3
+    mid: 10
+    master: -1
+    presence: 8
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_4_t_9_b_3_m_10_p_8_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 4
+    treble: 9
+    bass: 3
+    mid: 10
+    master: -1
+    presence: 8
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_4_t_9_b_3_m_10_p_8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 6
+    treble: 4
+    bass: 2
+    mid: 12
+    master: -1
+    presence: 7
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_6_t_4_b_2_m_12_p_7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 6
+    treble: 7
+    bass: 5
+    mid: 6
+    master: -1
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_6_t_7_b_5_m_6_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 6
+    treble: 9
+    bass: 3
+    mid: 10
+    master: -1
+    presence: 8
+    bright: 'on'
+  file: captures/di_blues_deville_nrm_in1_v_6_t_9_b_3_m_10_p_8_brt.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 6
+    treble: 9
+    bass: 3
+    mid: 10
+    master: -1
+    presence: 8
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_6_t_9_b_3_m_10_p_8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 8
+    treble: 4
+    bass: 2
+    mid: 12
+    master: -1
+    presence: 7
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_8_t_4_b_2_m_12_p_7.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 8
+    treble: 7
+    bass: 5
+    mid: 6
+    master: -1
+    presence: 6
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_8_t_7_b_5_m_6_p_6.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'nrm'
+    drive: -1
+    volume: 8
+    treble: 9
+    bass: 3
+    mid: 10
+    master: -1
+    presence: 8
+    bright: 'off'
+  file: captures/di_blues_deville_nrm_in1_v_8_t_9_b_3_m_10_p_8.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

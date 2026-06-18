@@ -1,0 +1,108 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_fender_68_custom_deluxe_reverb
+display_name: 68 Custom Deluxe Reverb
+brand: fender
+sources:
+- https://www.tone3000.com/tones/61037
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - 'c'
+  - 'v'
+- name: volume
+  display_name: Volume
+  values:
+  - 10
+  - 3
+  - 4
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 10
+  - 7.5
+  - 6
+  - 7
+- name: bass
+  display_name: Bass
+  values:
+  - 1
+  - 2.5
+  - 3
+captures:
+- values:
+    channel: 'c'
+    volume: 10
+    treble: 10
+    bass: 1
+  file: captures/c_ch_10_10_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'c'
+    volume: 3
+    treble: 7.5
+    bass: 2.5
+  file: captures/c_ch_3_7_5_2_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: 'c'
+    volume: 4
+    treble: 7.5
+    bass: 2.5
+  file: captures/c_ch_4_7_5_2_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    channel: 'c'
+    volume: 5
+    treble: 7.5
+    bass: 2.5
+  file: captures/c_ch_5_7_5_2_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    channel: 'c'
+    volume: 6
+    treble: 7.5
+    bass: 2.5
+  file: captures/c_ch_6_7_5_2_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'c'
+    volume: 4
+    treble: 6
+    bass: 2.5
+  file: captures/fender_68_cdr_custom_ch_v4_t6_b2_5_amp_di.nam
+- values:
+    channel: 'v'
+    volume: 5
+    treble: 7
+    bass: 3
+  file: captures/v_ch_5_7_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    channel: 'v'
+    volume: 6
+    treble: 7
+    bass: 3
+  file: captures/v_ch_6_7_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5

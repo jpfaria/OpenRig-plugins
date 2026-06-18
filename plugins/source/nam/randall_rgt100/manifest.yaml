@@ -1,0 +1,60 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_randall_rgt100
+display_name: RGT100
+brand: randall
+sources:
+- https://www.tone3000.com/tones/68596
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 'booth_high_midboost'
+  - 'booth_high_sustain_plus_midboost'
+  - 'booth_low_sustain_plus_midboost'
+  - 'green_high_midboost'
+  - 'green_high'
+  - 'green_low_midboost'
+  - 'green_low'
+  - 'red_high_sustain'
+  - 'red_high'
+  - 'red_low_sustain'
+  - 'red_low'
+captures:
+- values:
+    preset: 'booth_high_midboost'
+  file: captures/randall_rgt100_tube_100w_ch_booth_high_midboost.nam
+- values:
+    preset: 'booth_high_sustain_plus_midboost'
+  file: captures/randall_rgt100_tube_100w_ch_booth_high_sustain_plus_midboost.nam
+- values:
+    preset: 'booth_low_sustain_plus_midboost'
+  file: captures/randall_rgt100_tube_100w_ch_booth_low_sustain_plus_midboost.nam
+- values:
+    preset: 'green_high_midboost'
+  file: captures/randall_rgt100_tube_100w_ch_green_high_midboost.nam
+- values:
+    preset: 'green_high'
+  file: captures/randall_rgt100_tube_100w_ch_green_high.nam
+- values:
+    preset: 'green_low_midboost'
+  file: captures/randall_rgt100_tube_100w_ch_green_low_midboost.nam
+- values:
+    preset: 'green_low'
+  file: captures/randall_rgt100_tube_100w_ch_green_low.nam
+- values:
+    preset: 'red_high_sustain'
+  file: captures/randall_rgt100_tube_100w_ch_red_high_sustain.nam
+- values:
+    preset: 'red_high'
+  file: captures/randall_rgt100_tube_100w_ch_red_high.nam
+- values:
+    preset: 'red_low_sustain'
+  file: captures/randall_rgt100_tube_100w_ch_red_low_sustain.nam
+- values:
+    preset: 'red_low'
+  file: captures/randall_rgt100_tube_100w_ch_red_low.nam

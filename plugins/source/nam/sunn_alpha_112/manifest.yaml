@@ -1,0 +1,39 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_sunn_alpha_112
+display_name: Alpha 112PR
+brand: sunn
+sources:
+- https://www.tone3000.com/tones/63563
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 'brighter_louder'
+  - 'brighter_quieter'
+  - 'brighter_with_noise_gate'
+  - 'darker_louder'
+  - 'darker_quieter'
+captures:
+- values:
+    preset: 'brighter_louder'
+  file: captures/sunn_alpha_112pr_head_only_brighter_louder_capture.nam
+- values:
+    preset: 'brighter_quieter'
+  file: captures/sunn_alpha_112pr_head_only_brighter_quieter_capture.nam
+- values:
+    preset: 'brighter_with_noise_gate'
+  file: captures/sunn_alpha_112pr_head_only_brighter_with_noise_gate.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    preset: 'darker_louder'
+  file: captures/sunn_alpha_112pr_head_only_darker_louder_capture.nam
+- values:
+    preset: 'darker_quieter'
+  file: captures/sunn_alpha_112pr_head_only_darker_quieter_capture.nam

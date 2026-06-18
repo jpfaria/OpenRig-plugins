@@ -1,0 +1,112 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_tech21_sansamp_classic
+display_name: SansAmp Classic
+brand: tech21
+sources:
+- https://www.tone3000.com/tones/61943
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - '60_s_tube_amp_similar_to_vox_ac30'
+  - 'ampeg_svt_bass_or_clean_guitar'
+  - 'ampeg_svt_heavy_bass_or_clean_guitar'
+  - 'bruce_kulick'
+  - 'clapton_bluesbreaker_cream'
+  - 'clean_i_bass_or_guitar'
+  - 'clean_ii_guitar_or_bass'
+  - 'doug_wimbish'
+  - 'fender_bb_king_style'
+  - 'fender_rhythm_or_bass_guitar'
+  - 'hiwatt'
+  - 'jeff_ament'
+  - 'kenny_aaronson'
+  - 'killer_metal_boogie_style'
+  - 'kurt_cobain'
+  - 'mesa_boogie_santana_style'
+  - 'mike_keneally'
+  - 'stevie_ray_i'
+  - 'stevie_ray_ii'
+  - 'vintage_hot_wired_marshall_van_halen_style'
+  - 'vintage_marshall_ac_dc_style'
+  - 'vox_ac100_bass'
+  - 'vox_ac30'
+  - 'warm_fender'
+captures:
+- values:
+    preset: '60_s_tube_amp_similar_to_vox_ac30'
+  file: captures/60_s_tube_amp_similar_to_vox_ac30.nam
+- values:
+    preset: 'ampeg_svt_bass_or_clean_guitar'
+  file: captures/ampeg_svt_bass_or_clean_guitar.nam
+- values:
+    preset: 'ampeg_svt_heavy_bass_or_clean_guitar'
+  file: captures/ampeg_svt_heavy_bass_or_clean_guitar.nam
+- values:
+    preset: 'bruce_kulick'
+  file: captures/bruce_kulick.nam
+- values:
+    preset: 'clapton_bluesbreaker_cream'
+  file: captures/clapton_bluesbreaker_cream.nam
+- values:
+    preset: 'clean_i_bass_or_guitar'
+  file: captures/clean_i_bass_or_guitar.nam
+- values:
+    preset: 'clean_ii_guitar_or_bass'
+  file: captures/clean_ii_guitar_or_bass.nam
+- values:
+    preset: 'doug_wimbish'
+  file: captures/doug_wimbish.nam
+- values:
+    preset: 'fender_bb_king_style'
+  file: captures/fender_bb_king_style.nam
+- values:
+    preset: 'fender_rhythm_or_bass_guitar'
+  file: captures/fender_rhythm_or_bass_guitar.nam
+- values:
+    preset: 'hiwatt'
+  file: captures/hiwatt.nam
+- values:
+    preset: 'jeff_ament'
+  file: captures/jeff_ament.nam
+- values:
+    preset: 'kenny_aaronson'
+  file: captures/kenny_aaronson.nam
+- values:
+    preset: 'killer_metal_boogie_style'
+  file: captures/killer_metal_boogie_style.nam
+- values:
+    preset: 'kurt_cobain'
+  file: captures/kurt_cobain.nam
+- values:
+    preset: 'mesa_boogie_santana_style'
+  file: captures/mesa_boogie_santana_style.nam
+- values:
+    preset: 'mike_keneally'
+  file: captures/mike_keneally.nam
+- values:
+    preset: 'stevie_ray_i'
+  file: captures/stevie_ray_i.nam
+- values:
+    preset: 'stevie_ray_ii'
+  file: captures/stevie_ray_ii.nam
+- values:
+    preset: 'vintage_hot_wired_marshall_van_halen_style'
+  file: captures/vintage_hot_wired_marshall_van_halen_style.nam
+- values:
+    preset: 'vintage_marshall_ac_dc_style'
+  file: captures/vintage_marshall_ac_dc_style.nam
+- values:
+    preset: 'vox_ac100_bass'
+  file: captures/vox_ac100_bass.nam
+- values:
+    preset: 'vox_ac30'
+  file: captures/vox_ac30.nam
+- values:
+    preset: 'warm_fender'
+  file: captures/warm_fender.nam

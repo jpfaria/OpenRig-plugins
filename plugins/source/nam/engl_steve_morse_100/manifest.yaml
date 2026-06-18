@@ -1,0 +1,159 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_engl_steve_morse_100
+display_name: Steve Morse 100
+brand: engl
+sources:
+- https://www.tone3000.com/tones/60295
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - 'ch1'
+  - 'ch2'
+  - 'ch3'
+- name: preset
+  display_name: Preset
+  values:
+  - 'e_o_breakup'
+  - 'to_e_o_breakup'
+  - 'base'
+  - 'low_gain'
+  - 'mid_gain'
+  - 'to_low_gain'
+  - 'to_mid_gain'
+  - 'blue_blue_mod_808'
+  - 'blue_blue_to_hg_mod_808'
+  - 'blue_blue_to_mod_808'
+  - 'blue_red_mod_808'
+  - 'blue_red_to_hg_mod_808'
+  - 'blue_red_to_mod_808'
+  - 'red_blue_mod_808'
+  - 'red_blue_to_hg_mod_808'
+  - 'red_blue_to_mod_808'
+  - 'red_red_mod_808'
+  - 'red_red_to_hg_mod_808'
+  - 'red_red_to_mod_808'
+captures:
+- values:
+    channel: 'ch1'
+    preset: 'e_o_breakup'
+  file: captures/engl_sm100_ch1_e_o_breakup.nam
+- values:
+    channel: 'ch1'
+    preset: 'to_e_o_breakup'
+  file: captures/engl_sm100_ch1_to_e_o_breakup.nam
+- values:
+    channel: 'ch1'
+    preset: 'base'
+  file: captures/engl_sm100_ch1.nam
+- values:
+    channel: 'ch2'
+    preset: 'low_gain'
+  file: captures/engl_sm100_ch2_low_gain.nam
+- values:
+    channel: 'ch2'
+    preset: 'mid_gain'
+  file: captures/engl_sm100_ch2_mid_gain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    channel: 'ch2'
+    preset: 'to_low_gain'
+  file: captures/engl_sm100_ch2_to_low_gain.nam
+- values:
+    channel: 'ch2'
+    preset: 'to_mid_gain'
+  file: captures/engl_sm100_ch2_to_mid_gain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    channel: 'ch3'
+    preset: 'blue_blue_mod_808'
+  file: captures/engl_sm100_ch3_blue_blue_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'blue_blue_to_hg_mod_808'
+  file: captures/engl_sm100_ch3_blue_blue_to_hg_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'blue_blue_to_mod_808'
+  file: captures/engl_sm100_ch3_blue_blue_to_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'blue_red_mod_808'
+  file: captures/engl_sm100_ch3_blue_red_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'blue_red_to_hg_mod_808'
+  file: captures/engl_sm100_ch3_blue_red_to_hg_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'blue_red_to_mod_808'
+  file: captures/engl_sm100_ch3_blue_red_to_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'red_blue_mod_808'
+  file: captures/engl_sm100_ch3_red_blue_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'red_blue_to_hg_mod_808'
+  file: captures/engl_sm100_ch3_red_blue_to_hg_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'red_blue_to_mod_808'
+  file: captures/engl_sm100_ch3_red_blue_to_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'red_red_mod_808'
+  file: captures/engl_sm100_ch3_red_red_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'red_red_to_hg_mod_808'
+  file: captures/engl_sm100_ch3_red_red_to_hg_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    channel: 'ch3'
+    preset: 'red_red_to_mod_808'
+  file: captures/engl_sm100_ch3_red_red_to_mod_808.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

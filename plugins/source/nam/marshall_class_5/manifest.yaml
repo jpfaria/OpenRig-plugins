@@ -1,0 +1,165 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_marshall_class_5
+display_name: Class 5
+brand: marshall
+sources:
+- https://www.tone3000.com/tones/55108
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 10
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+- name: treble
+  display_name: Treble
+  values:
+  - 7
+  - 9
+  - 5
+- name: mid
+  display_name: Mid
+  values:
+  - 5
+- name: bass
+  display_name: Bass
+  values:
+  - 3
+  - 1
+  - 5
+captures:
+- values:
+    volume: 10
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v10t7m5b3_10db.nam
+- values:
+    volume: 10
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v10t9m5b1_10db.nam
+- values:
+    volume: 10
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v10tmb5_10db.nam
+- values:
+    volume: 4
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v4t7m5b3_13db.nam
+- values:
+    volume: 4
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v4t9m5b1_12db.nam
+- values:
+    volume: 4
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v4tmb5_12db.nam
+- values:
+    volume: 5
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v5t7m5b3_12db.nam
+- values:
+    volume: 5
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v5t9m5b1_11db.nam
+- values:
+    volume: 5
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v5tmb5_11db.nam
+- values:
+    volume: 6
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v6t7m5b3_12db.nam
+- values:
+    volume: 6
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v6t9m5b1_11db.nam
+- values:
+    volume: 6
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v6tmb5_11db.nam
+- values:
+    volume: 7
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v7t7m5b3_11db.nam
+- values:
+    volume: 7
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v7t9m5b1_10db.nam
+- values:
+    volume: 7
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v7tmb5_11db.nam
+- values:
+    volume: 8
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v8t7m5b3_11db.nam
+- values:
+    volume: 8
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v8t9m5b1_10db.nam
+- values:
+    volume: 8
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v8tmb5_10db.nam
+- values:
+    volume: 9
+    treble: 7
+    mid: 5
+    bass: 3
+  file: captures/class5_v9t7m5b3_10db.nam
+- values:
+    volume: 9
+    treble: 9
+    mid: 5
+    bass: 1
+  file: captures/class5_v9t9m5b1_10db.nam
+- values:
+    volume: 9
+    treble: 5
+    mid: 5
+    bass: 5
+  file: captures/class5_v9tmb5_10db.nam

@@ -1,0 +1,166 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_keeley_java_boost
+display_name: Java Boost
+brand: keeley
+sources:
+- https://www.tone3000.com/tones/67614
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: level
+  display_name: Level
+  values:
+  - 3
+  - 6
+  - 9
+- name: tone
+  display_name: Tone
+  values:
+  - 3
+  - 6
+  - 9
+- name: voicing
+  display_name: Voicing
+  values:
+  - 'center'
+  - 'left'
+  - 'right'
+captures:
+- values:
+    level: 3
+    tone: 3
+    voicing: 'center'
+  file: captures/level_3_tone_3_toggle_center.nam
+- values:
+    level: 3
+    tone: 3
+    voicing: 'left'
+  file: captures/level_3_tone_3_toggle_left.nam
+- values:
+    level: 3
+    tone: 3
+    voicing: 'right'
+  file: captures/level_3_tone_3_toggle_right.nam
+- values:
+    level: 3
+    tone: 6
+    voicing: 'center'
+  file: captures/level_3_tone_6_toggle_center.nam
+- values:
+    level: 3
+    tone: 6
+    voicing: 'left'
+  file: captures/level_3_tone_6_toggle_left.nam
+- values:
+    level: 3
+    tone: 6
+    voicing: 'right'
+  file: captures/level_3_tone_6_toggle_right.nam
+- values:
+    level: 3
+    tone: 9
+    voicing: 'center'
+  file: captures/level_3_tone_9_toggle_center.nam
+- values:
+    level: 3
+    tone: 9
+    voicing: 'left'
+  file: captures/level_3_tone_9_toggle_left.nam
+- values:
+    level: 3
+    tone: 9
+    voicing: 'right'
+  file: captures/level_3_tone_9_toggle_right.nam
+- values:
+    level: 6
+    tone: 3
+    voicing: 'center'
+  file: captures/level_6_tone_3_toggle_center.nam
+- values:
+    level: 6
+    tone: 3
+    voicing: 'left'
+  file: captures/level_6_tone_3_toggle_left.nam
+- values:
+    level: 6
+    tone: 3
+    voicing: 'right'
+  file: captures/level_6_tone_3_toggle_right.nam
+- values:
+    level: 6
+    tone: 6
+    voicing: 'center'
+  file: captures/level_6_tone_6_toggle_center.nam
+- values:
+    level: 6
+    tone: 6
+    voicing: 'left'
+  file: captures/level_6_tone_6_toggle_left.nam
+- values:
+    level: 6
+    tone: 6
+    voicing: 'right'
+  file: captures/level_6_tone_6_toggle_right.nam
+- values:
+    level: 6
+    tone: 9
+    voicing: 'center'
+  file: captures/level_6_tone_9_toggle_center.nam
+- values:
+    level: 6
+    tone: 9
+    voicing: 'left'
+  file: captures/level_6_tone_9_toggle_left.nam
+- values:
+    level: 6
+    tone: 9
+    voicing: 'right'
+  file: captures/level_6_tone_9_toggle_right.nam
+- values:
+    level: 9
+    tone: 3
+    voicing: 'center'
+  file: captures/level_9_tone_3_toggle_center.nam
+- values:
+    level: 9
+    tone: 3
+    voicing: 'left'
+  file: captures/level_9_tone_3_toggle_left.nam
+- values:
+    level: 9
+    tone: 3
+    voicing: 'right'
+  file: captures/level_9_tone_3_toggle_right.nam
+- values:
+    level: 9
+    tone: 6
+    voicing: 'center'
+  file: captures/level_9_tone_6_toggle_center.nam
+- values:
+    level: 9
+    tone: 6
+    voicing: 'left'
+  file: captures/level_9_tone_6_toggle_left.nam
+- values:
+    level: 9
+    tone: 6
+    voicing: 'right'
+  file: captures/level_9_tone_6_toggle_right.nam
+- values:
+    level: 9
+    tone: 9
+    voicing: 'center'
+  file: captures/level_9_tone_9_toggle_center.nam
+- values:
+    level: 9
+    tone: 9
+    voicing: 'left'
+  file: captures/level_9_tone_9_toggle_left.nam
+- values:
+    level: 9
+    tone: 9
+    voicing: 'right'
+  file: captures/level_9_tone_9_toggle_right.nam

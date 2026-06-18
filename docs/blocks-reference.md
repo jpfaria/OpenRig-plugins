@@ -84,17 +84,21 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `lv2_mda_combo` | MDA Combo | mda |
 | `nam_ampeg_svt_a2` | SVT | ampeg |
 | `nam_ampeg_svt_classic_a2` | SVT Classic | ampeg |
+| `nam_ampeg_v4` | V4 | ampeg |
 | `nam_bad_cat_lynx_a2` | bad cat lynx | bad_cat |
 | `nam_badcat_wildcat_40r` | WildCat 40R | bad_cat |
 | `nam_bogner_ecstasy_101b_a2` | Ecstasy 101B | bogner |
 | `nam_bogner_ecstasy_a2` | Ecstasy | bogner |
 | `nam_bogner_goldfinger_a2` | Goldfinger | bogner |
 | `nam_bogner_helios` | Helios | bogner |
+| `nam_bogner_mini_ecstasy` | Mini Ecstasy | bogner |
 | `nam_bogner_shiva_a2` | Shiva | bogner |
 | `nam_bogner_uberschall` | Uberschall | bogner |
 | `nam_bugera_1960_a2` | Bugera 1960 | bugera |
 | `nam_ceriatone_king_kong_a2` | Kong | ceriatone |
 | `nam_ceriatone_ots_mini_20_a2` | OTS Mini 20 | ceriatone |
+| `nam_ceriatone_overtone_hrm100` | Overtone HRM100 | ceriatone |
+| `nam_diezel_d_moll` | D-Moll | diezel |
 | `nam_diezel_hagen` | Hagen | diezel |
 | `nam_diezel_herbert` | Herbert | diezel |
 | `nam_dover_da50_mesa_a2` | DA-50 + Mesa 4u{00d7}12 | dover |
@@ -110,14 +114,20 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_engl_ironball` | Ironball | engl |
 | `nam_engl_powerball` | Powerball | engl |
 | `nam_engl_powerball_ii_a2` | Powerball II | engl |
+| `nam_engl_savage_60` | Savage 60 | engl |
+| `nam_engl_steve_morse_100` | Steve Morse 100 | engl |
 | `nam_evh_5150_a2` | 5150 | evh |
 | `nam_evh_5150_iii_50w_red_channel_a2` | 5150 III 50w Red Channel | evh |
 | `nam_evh_5150_iii_a2` | 5150 III | evh |
 | `nam_evh_5150iiis_el34_100w_a2` | 5150IIIS EL34 100W | evh |
 | `nam_fender_57_custom_deluxe_a2` | 57 Custom Deluxe | fender |
+| `nam_fender_68_custom_deluxe_reverb` | 68 Custom Deluxe Reverb | fender |
+| `nam_fender_bassbreaker_15` | Bassbreaker 15 | fender |
 | `nam_fender_bassman_1971_a2` | Bassman 1971 | fender |
 | `nam_fender_bassman_a2` | Bassman | fender |
+| `nam_fender_blues_deville` | Blues DeVille 4x10 | fender |
 | `nam_fender_blues_junior` | Blues Junior | fender |
+| `nam_fender_champion_600` | Champion 600 | fender |
 | `nam_fender_deluxe_reverb_65_a2` | Deluxe Reverb '65 | fender |
 | `nam_fender_deluxe_reverb_a2` | Deluxe Reverb | fender |
 | `nam_fender_hot_rod_deluxe` | Hot Rod Deluxe | fender |
@@ -133,6 +143,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_friedman_be_50` | BE-50 | friedman |
 | `nam_friedman_dirty_shirley` | Dirty Shirley | friedman |
 | `nam_friedman_jose_arredondo_a2` | Jose Arredondo | friedman |
+| `nam_friedman_pink_taco` | Pink Taco V2 | friedman |
 | `nam_friedman_ss_100_v1_a2` | SS 100 V1 | friedman |
 | `nam_hiwatt_dr103_a2` | HiWatt DR103 | hiwatt |
 | `nam_hiwatt_super_hi_50_a2` | Super-Hi 50 | hiwatt |
@@ -140,6 +151,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_hughes_and_kettner_tubemeister_a2` | and TubeMeister | hughes_kettner |
 | `nam_hughes_kettner_tubemeister_18_a2` | Hughes Kettner TubeMeister 18 | hughes |
 | `nam_jet_city_jca22h_a2` | Jet City - JCA22H | jet |
+| `nam_ksr_gemini` | Gemini | ksr |
 | `nam_lab_series_l5_a2` | L5 | lab_series |
 | `nam_laney_ironheart_irt120_a2` | Ironheart IRT120 | laney |
 | `nam_laney_ironheart_irt60h_a2` | Ironheart IRT60H | laney |
@@ -149,6 +161,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_marshall_1959hw_handwired_a2` | 1959HW Handwired | marshall |
 | `nam_marshall_1987_a2` | 1987 | marshall |
 | `nam_marshall_6100_30th_anniversary_a2` | 6100 - 30th anniversary | marshall |
+| `nam_marshall_class_5` | Class 5 | marshall |
 | `nam_marshall_dsl40cr_a2` | DSL40CR | marshall |
 | `nam_marshall_dsl_20_hr_a2` | DSL 20 HR | marshall |
 | `nam_marshall_jcm2000_dsl` | JCM2000 DSL | marshall |
@@ -166,8 +179,10 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_marshall_plexi_50w_a2` | Plexi 50W | marshall |
 | `nam_marshall_super_100_1966_a2` | Super 100 1966 | marshall |
 | `nam_marshall_super_lead` | Super Lead | marshall |
+| `nam_marshall_sv20` | Studio SV20 | marshall |
 | `nam_matchless_clubman_35_head_a2` | Matchless Clubman 35 head | matchless |
 | `nam_mesa_badlander` | Badlander | mesa |
+| `nam_mesa_bass_800d` | Bass 800D | mesa |
 | `nam_mesa_boogie_badlander_50_a2` | Badlander 50 | mesa |
 | `nam_mesa_boogie_dc_5_a2` | DC-5 | mesa |
 | `nam_mesa_boogie_jp2c_a2` | JP2C | mesa |
@@ -193,13 +208,16 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_peavey_5150_mesa_4x12_a2` | 5150 + Mesa 4x12 | peavey |
 | `nam_peavey_6505_a2` | 6505 | peavey |
 | `nam_peavey_6505_plus_a2` | 6505 Plus | peavey |
+| `nam_peavey_bandit_112` | Bandit 112 | peavey |
 | `nam_peavey_classic_50_a2` | Classic 50 | peavey |
+| `nam_peavey_invective` | Invective | peavey |
 | `nam_peavey_jsx_a2` | JSX | peavey |
 | `nam_peavey_xxx_a2` | XXX | peavey |
 | `nam_prs_archon` | Archon | prs |
 | `nam_prs_mt100_tremonti_a2` | MT-100 Tremonti | prs |
 | `nam_prs_mt15_a2` | MT15 | prs |
 | `nam_randall_rg100es_a2` | Randall RG100es | randall |
+| `nam_randall_rgt100` | RGT100 | randall |
 | `nam_randall_warhead_a2` | Warhead | randall |
 | `nam_revv_generator_120_mkiii_a2` | Revv Generator 120 MKIII | revv |
 | `nam_rocktron_a2` | Rocktron | rocktron |
@@ -207,11 +225,13 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_soldano_slo_100_a2` | SLO 100 | soldano |
 | `nam_soldano_slo_30_a2` | slo 30 | soldano |
 | `nam_splawn_quickrod` | Quickrod | splawn |
+| `nam_sunn_alpha_112` | Alpha 112PR | sunn |
 | `nam_sunn_model_t_a2` | Sunn Model T | sunn |
 | `nam_supro_black_magick_a2` | Supro Black Magick | supro |
 | `nam_synergy_drect_mesa_a2` | DRECT Mesa | synergy |
 | `nam_synergy_soldano_a2` | Synergy Soldano | synergy |
 | `nam_tone_king_imperial` | Imperial | tone_king |
+| `nam_trace_elliot_speed_twin_50h` | Speed Twin 50H | trace_elliot |
 | `nam_two_rock_studio_signature_a2` | Two Rock Studio Signature | two |
 | `nam_vox_ac15` | AC15 | vox |
 | `nam_vox_ac30_1961_fawn_ef86` | AC30 '61 Fawn EF86 | vox |
@@ -443,6 +463,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_boss_mt_2_metal_zone_a2` | Boss MT-2 Metal Zone | boss |
 | `nam_boss_od_3_a2` | Boss OD-3 | boss |
 | `nam_boss_odb3_bass_a2` | Boss ODB3 Bass | boss |
+| `nam_boss_os_2` | OS-2 Overdrive/Distortion | boss |
 | `nam_browne_protein_a2` | Browne Protein | browne |
 | `nam_cc_boost` | CC Boost | custom |
 | `nam_ceriatone_centura_a2` | Ceriatone Centura | ceriatone |
@@ -456,6 +477,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_digitech_bad_monkey_a2` | DigiTech Bad Monkey | digitech |
 | `nam_digitech_grunge_a2` | DigiTech Grunge | digitech |
 | `nam_dod_250_overdrive_a2` | DOD 250 Overdrive | dod |
+| `nam_dod_bifet_boost` | BiFet Boost 410 | dod |
 | `nam_earthquaker_acapulco_gold_a2` | EarthQuaker Acapulco Gold | earthquaker_devices |
 | `nam_earthquaker_hizumitas_a2` | EarthQuaker Hizumitas | earthquaker |
 | `nam_earthquaker_plumes_a2` | EarthQuaker Plumes | earthquaker |
@@ -484,7 +506,9 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_jhs_angry_charlie_a2` | JHS Angry Charlie | jhs |
 | `nam_jhs_bonsai_a2` | Bonsai (9 TS) | jhs |
 | `nam_jhs_morning_glory_a2` | JHS Morning Glory | jhs |
+| `nam_jhs_notaklon` | NOTAKLON | jhs |
 | `nam_jhs_the_kilt` | JHS The Kilt | jhs |
+| `nam_keeley_java_boost` | Java Boost | keeley |
 | `nam_klon_centaur_a2` | Klon Centaur Silver | klon |
 | `nam_klone_a2` | Klone | electro-harmonix |
 | `nam_ksr_ceres_a2` | KSR Ceres | ksr |
@@ -528,6 +552,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_tascam_424_a2` | Tascam 424 Preamp | tascam |
 | `nam_tc_spark_a2` | Spark | tc-electronic |
 | `nam_tcip_a2` | TCIP | tc-electronic |
+| `nam_tech21_sansamp_classic` | SansAmp Classic | tech21 |
 | `nam_tech21_steve_harris_a2` | Steve Harris SH-1 | tech21 |
 | `nam_tech_21_sansamp_bddi_a2` | Tech 21 SansAmp BDDI | sansamp |
 | `nam_thorpyfx_peacekeeper_a2` | ThorpyFX Peacekeeper | thorpy_fx |
@@ -536,6 +561,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_velvet_katana_a2` | Velvet Katana | velvet |
 | `nam_vemuram_jan_ray_a2` | Jan Ray | vemuram |
 | `nam_wampler_dual_fusion` | Wampler Dual Fusion | wampler |
+| `nam_wampler_euphoria` | Euphoria | wampler |
 | `nam_wampler_tumnus_a2` | Wampler Tumnus | wampler |
 | `nam_warm_audio_centavo_a2` | Warm Audio Centavo | warm_audio |
 | `nam_way_huge_pork_pickle_a2` | Way Huge Pork Pickle | way_huge |

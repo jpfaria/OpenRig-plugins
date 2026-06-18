@@ -1,0 +1,70 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_fender_champion_600
+display_name: Champion 600
+brand: fender
+sources:
+- https://www.tone3000.com/tones/56145
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: volume
+  display_name: Volume
+  values:
+  - 10
+  - 11
+  - 12
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+- name: boost
+  display_name: Boost
+  values:
+  - 'none'
+  - 'klon'
+captures:
+- values:
+    volume: 10
+    boost: 'none'
+  file: captures/champ600_v10_8db.nam
+- values:
+    volume: 11
+    boost: 'none'
+  file: captures/champ600_v11_8db.nam
+- values:
+    volume: 12
+    boost: 'none'
+  file: captures/champ600_v12_8db.nam
+- values:
+    volume: 12
+    boost: 'klon'
+  file: captures/champ600_v12_klon_6db.nam
+- values:
+    volume: 4
+    boost: 'none'
+  file: captures/champ600_v4_23db.nam
+- values:
+    volume: 5
+    boost: 'none'
+  file: captures/champ600_v5_20db.nam
+- values:
+    volume: 6
+    boost: 'none'
+  file: captures/champ600_v6_18db.nam
+- values:
+    volume: 7
+    boost: 'none'
+  file: captures/champ600_v7_14db.nam
+- values:
+    volume: 8
+    boost: 'none'
+  file: captures/champ600_v8_11db.nam
+- values:
+    volume: 9
+    boost: 'none'
+  file: captures/champ600_v9_8db.nam
