@@ -1,0 +1,48 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_ksr_gemini
+display_name: Gemini
+brand: ksr
+sources:
+- https://www.tone3000.com/tones/62494
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+captures:
+- values:
+    preset: '1'
+  file: captures/ksr_g_hg_1.nam
+- values:
+    preset: '2'
+  file: captures/ksr_g_hg_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.5
+- values:
+    preset: '3'
+  file: captures/ksr_g_hg_3.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    preset: '4'
+  file: captures/ksr_g_hg_4.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    preset: '5'
+  file: captures/ksr_g_hg_5.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

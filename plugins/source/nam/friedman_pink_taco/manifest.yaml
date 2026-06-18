@@ -1,0 +1,125 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_friedman_pink_taco
+display_name: Pink Taco V2
+brand: friedman
+sources:
+- https://www.tone3000.com/tones/61426
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - 's1'
+  - 's2'
+  - 's3'
+- name: voicing
+  display_name: Voicing
+  values:
+  - 'clean_01'
+  - 'clean_02'
+  - 'clean_fat_01'
+  - 'clean_fat_02'
+  - 'fat_sd1'
+  - 'plexi_eq'
+  - 'sat_fat_sd1'
+  - 'sat'
+  - 'base'
+captures:
+- values:
+    mode: 's1'
+    voicing: 'clean_01'
+  file: captures/pt20v2_s1_clean_01.nam
+- values:
+    mode: 's1'
+    voicing: 'clean_02'
+  file: captures/pt20v2_s1_clean_02.nam
+- values:
+    mode: 's1'
+    voicing: 'clean_fat_01'
+  file: captures/pt20v2_s1_clean_fat_01.nam
+- values:
+    mode: 's1'
+    voicing: 'clean_fat_02'
+  file: captures/pt20v2_s1_clean_fat_02.nam
+- values:
+    mode: 's1'
+    voicing: 'fat_sd1'
+  file: captures/pt20v2_s1_fat_sd1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    mode: 's1'
+    voicing: 'plexi_eq'
+  file: captures/pt20v2_s1_plexi_eq.nam
+- values:
+    mode: 's1'
+    voicing: 'sat_fat_sd1'
+  file: captures/pt20v2_s1_sat_fat_sd1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    mode: 's1'
+    voicing: 'sat'
+  file: captures/pt20v2_s1_sat.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    mode: 's1'
+    voicing: 'base'
+  file: captures/pt20v2_s1.nam
+- values:
+    mode: 's2'
+    voicing: 'fat_sd1'
+  file: captures/pt20v2_s2_fat_sd1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    mode: 's2'
+    voicing: 'plexi_eq'
+  file: captures/pt20v2_s2_plexi_eq.nam
+- values:
+    mode: 's2'
+    voicing: 'sat_fat_sd1'
+  file: captures/pt20v2_s2_sat_fat_sd1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    mode: 's2'
+    voicing: 'sat'
+  file: captures/pt20v2_s2_sat.nam
+- values:
+    mode: 's2'
+    voicing: 'base'
+  file: captures/pt20v2_s2.nam
+- values:
+    mode: 's3'
+    voicing: 'fat_sd1'
+  file: captures/pt20v2_s3_fat_sd1.nam
+- values:
+    mode: 's3'
+    voicing: 'plexi_eq'
+  file: captures/pt20v2_s3_plexi_eq.nam
+- values:
+    mode: 's3'
+    voicing: 'sat_fat_sd1'
+  file: captures/pt20v2_s3_sat_fat_sd1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    mode: 's3'
+    voicing: 'sat'
+  file: captures/pt20v2_s3_sat.nam
+- values:
+    mode: 's3'
+    voicing: 'base'
+  file: captures/pt20v2_s3.nam

@@ -1,0 +1,106 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_wampler_euphoria
+display_name: Euphoria
+brand: wampler
+sources:
+- https://www.tone3000.com/tones/66628
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - 'open'
+  - 'smooth'
+- name: gain
+  display_name: Gain
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+- name: bass
+  display_name: Bass
+  values:
+  - 1
+  - 2
+captures:
+- values:
+    mode: 'open'
+    gain: 1
+    bass: 1
+  file: captures/euphoria_open_g1_t2_5_b1.nam
+- values:
+    mode: 'open'
+    gain: 1
+    bass: 2
+  file: captures/euphoria_open_g1_t2_5_b2.nam
+- values:
+    mode: 'open'
+    gain: 2
+    bass: 1
+  file: captures/euphoria_open_g2_t2_5_b1.nam
+- values:
+    mode: 'open'
+    gain: 2
+    bass: 2
+  file: captures/euphoria_open_g2_t2_5_b2.nam
+- values:
+    mode: 'open'
+    gain: 3
+    bass: 1
+  file: captures/euphoria_open_g3_t2_5_b1.nam
+- values:
+    mode: 'open'
+    gain: 3
+    bass: 2
+  file: captures/euphoria_open_g3_t2_5_b2.nam
+- values:
+    mode: 'open'
+    gain: 4
+    bass: 1
+  file: captures/euphoria_open_g4_t2_5_b1.nam
+- values:
+    mode: 'open'
+    gain: 4
+    bass: 2
+  file: captures/euphoria_open_g4_t2_5_b2.nam
+- values:
+    mode: 'open'
+    gain: 5
+    bass: 1
+  file: captures/euphoria_open_g5_t2_5_b1.nam
+- values:
+    mode: 'open'
+    gain: 5
+    bass: 2
+  file: captures/euphoria_open_g5_t2_5_b2.nam
+- values:
+    mode: 'smooth'
+    gain: 1
+    bass: 1
+  file: captures/euphoria_smooth_g1_t2_5_b1.nam
+- values:
+    mode: 'smooth'
+    gain: 2
+    bass: 1
+  file: captures/euphoria_smooth_g2_t2_5_b1.nam
+- values:
+    mode: 'smooth'
+    gain: 3
+    bass: 1
+  file: captures/euphoria_smooth_g3_t2_5_b1.nam
+- values:
+    mode: 'smooth'
+    gain: 4
+    bass: 1
+  file: captures/euphoria_smooth_g4_t2_5_b1.nam
+- values:
+    mode: 'smooth'
+    gain: 5
+    bass: 1
+  file: captures/euphoria_smooth_g5_t2_5_b1.nam

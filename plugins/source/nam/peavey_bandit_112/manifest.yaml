@@ -1,0 +1,34 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_peavey_bandit_112
+display_name: Bandit 112
+brand: peavey
+sources:
+- https://www.tone3000.com/tones/67991
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: voicing
+  display_name: Voicing
+  values:
+  - 'classic'
+  - 'high_gain'
+  - 'modern'
+captures:
+- values:
+    voicing: 'classic'
+  file: captures/peavy_bandit_112_lead_classic.nam
+- values:
+    voicing: 'high_gain'
+  file: captures/peavy_bandit_112_lead_high_gain.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    voicing: 'modern'
+  file: captures/peavy_bandit_112_lead_modern.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0

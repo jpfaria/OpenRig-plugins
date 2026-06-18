@@ -1,0 +1,60 @@
+# Auto-derived from tone3000 capture names (issue #88).
+manifest_version: 1
+id: nam_marshall_sv20
+display_name: Studio SV20
+brand: marshall
+sources:
+- https://www.tone3000.com/tones/67949
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 'clean_bright'
+  - 'clean'
+  - 'crunch_1'
+  - 'crunch_2'
+  - 'lead_1'
+  - 'lead_2'
+  - 'rhytm_1'
+  - 'rhytm_2'
+captures:
+- values:
+    preset: 'clean_bright'
+  file: captures/clean_bright.nam
+- values:
+    preset: 'clean'
+  file: captures/clean.nam
+- values:
+    preset: 'crunch_1'
+  file: captures/crunch_1.nam
+- values:
+    preset: 'crunch_2'
+  file: captures/crunch_2.nam
+- values:
+    preset: 'lead_1'
+  file: captures/lead_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    preset: 'lead_2'
+  file: captures/lead_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    preset: 'rhytm_1'
+  file: captures/rhytm_1.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    preset: 'rhytm_2'
+  file: captures/rhytm_2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
