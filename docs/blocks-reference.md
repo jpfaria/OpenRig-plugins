@@ -137,7 +137,6 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_fender_super_reverb_1977_a2` | Super Reverb 1977 | fender |
 | `nam_fender_tweed_deluxe_edge` | Fender Tweed Deluxe — The Edge | fender |
 | `nam_fender_twin_reverb` | Twin Reverb | fender |
-| `nam_fortin_33` | 33 | fortin |
 | `nam_friedman_be100_a2` | BE 100 | friedman |
 | `nam_friedman_be100_deluxe_a2` | BE100 Deluxe | friedman |
 | `nam_friedman_be_100_a2` | BE 100 | friedman |
