@@ -20,3 +20,6 @@ scripts/.param_gate_reds.json
 
 # Local-only A2 core build override (never commit — see issue #73)
 /.cargo/
+
+# Local IR/NAM download staging — raw archives + extractions, never committed
+/downloads/
