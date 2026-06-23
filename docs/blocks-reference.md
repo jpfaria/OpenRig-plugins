@@ -262,6 +262,7 @@ Cabinet impulse responses for electric guitar speakers.
 | `ir_g12t_75_4x12` | G12T-75 4x12 | celestion |
 | `ir_gods_cab` | God's Cab | gods_cab |
 | `ir_gods_cab_legacy` | God's Cab Legacy | gods_cab |
+| `ir_guitarhack_impulses` | GuitarHack Impulses | guitarhack |
 | `ir_kalthallen_4x12` | Kalthallen 4x12 | kalthallen |
 | `ir_marshall_1960_g12m25` | 1960 G12M25 Greenback | marshall |
 | `ir_marshall_1960av_4x12` | 1960AV 4x12 | marshall |
