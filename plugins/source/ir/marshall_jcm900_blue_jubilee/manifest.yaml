@@ -1,0 +1,66 @@
+# Dropped constants (identical in every capture filename): capturer tag "GK09", cab brand "marshall".
+manifest_version: 1
+id: ir_marshall_jcm900_blue_jubilee
+display_name: JCM900 Blue Jubilee
+brand: marshall
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - md421
+  - at4033
+  - room
+- name: take
+  display_name: Take
+  values:
+  - '2'
+  - '3'
+  - '4'
+captures:
+- values:
+    mic: md421
+    take: '2'
+  file: ir/md421_take2.wav
+  output_gain_db: -22.1673851
+- values:
+    mic: md421
+    take: '3'
+  file: ir/md421_take3.wav
+  output_gain_db: -21.5754757
+- values:
+    mic: md421
+    take: '4'
+  file: ir/md421_take4.wav
+  output_gain_db: -22.1325226
+- values:
+    mic: at4033
+    take: '2'
+  file: ir/at4033_take2.wav
+  output_gain_db: -18.9026031
+- values:
+    mic: at4033
+    take: '3'
+  file: ir/at4033_take3.wav
+  output_gain_db: -18.8805332
+- values:
+    mic: at4033
+    take: '4'
+  file: ir/at4033_take4.wav
+  output_gain_db: -18.8959866
+- values:
+    mic: room
+    take: '2'
+  file: ir/room_take2.wav
+  output_gain_db: -24.8288460
+- values:
+    mic: room
+    take: '3'
+  file: ir/room_take3.wav
+  output_gain_db: -24.6222172
+- values:
+    mic: room
+    take: '4'
+  file: ir/room_take4.wav
+  output_gain_db: -24.4943409
