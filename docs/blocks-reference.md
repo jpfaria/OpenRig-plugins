@@ -248,10 +248,12 @@ Cabinet impulse responses for electric guitar speakers.
 |---|---|---|
 | `american_2x12` | American 2x12 | -- |
 | `brit_4x12` | Brit 4x12 | -- |
+| `ir_allure_pack` | Allure Pack | allure |
 | `ir_ampeg_svt_8x10` | SVT 4x10/8x10 | ampeg |
 | `ir_cel_cream_4x12` | Celestion Cream 4x12 | celestion |
 | `ir_engl_e412` | E412 Karnivore | engl |
 | `ir_evh_5150iii_4x12` | 5150III 4x12 G12-EVH | evh |
+| `ir_fair_modern_rock` | faIR Modern Rock | fair |
 | `ir_fender_bassman_2x15` | Bassman 2x15 CTS | fender |
 | `ir_fender_deluxe_reverb_oxford` | Deluxe Reverb Oxford | fender |
 | `ir_fender_super_reverb_4x10` | Super Reverb 4x10 | fender |
@@ -260,6 +262,7 @@ Cabinet impulse responses for electric guitar speakers.
 | `ir_g12t_75_4x12` | G12T-75 4x12 | celestion |
 | `ir_gods_cab` | God's Cab | gods_cab |
 | `ir_gods_cab_legacy` | God's Cab Legacy | gods_cab |
+| `ir_kalthallen_4x12` | Kalthallen 4x12 | kalthallen |
 | `ir_marshall_1960_g12m25` | 1960 G12M25 Greenback | marshall |
 | `ir_marshall_1960av_4x12` | 1960AV 4x12 | marshall |
 | `ir_marshall_1960bv_4x12` | 1960BV 4x12 | marshall |

@@ -1,0 +1,980 @@
+# Kalthallen Cabs (free, EULA in pack) — Marshall-style 4x12, captured at 96 kHz.
+# position = the pack's mic-position reference code (see 'Mic position pictures').
+manifest_version: 1
+id: ir_kalthallen_4x12
+display_name: Kalthallen 4x12
+brand: kalthallen
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - 'sm57'
+  - 'md421'
+  - 'at4050'
+  - 'md21'
+  - 'i5'
+  - 'sm7'
+  - 'sm58'
+- name: speaker
+  display_name: Speaker
+  values:
+  - 'v30'
+  - 'g12t75'
+- name: position
+  display_name: Position
+  values:
+  - '001a'
+  - '001b'
+  - '001c'
+  - '001d'
+  - '002a'
+  - '002b'
+  - '002c'
+  - '002d'
+  - '003a'
+  - '003b'
+  - '003c'
+  - '003d'
+  - '004a'
+  - '004b'
+  - '004c'
+  - '004d'
+  - '005a'
+  - '005b'
+  - '005c'
+  - '005d'
+  - '006a'
+  - '006b'
+  - '006c'
+  - '006d'
+  - '007a'
+  - '007b'
+  - '007c'
+  - '007d'
+  - '008a'
+  - '008b'
+  - '008c'
+  - '008d'
+  - '009a'
+  - '009b'
+  - '009c'
+  - '009d'
+  - '010a'
+  - '010b'
+  - '010c'
+  - '010d'
+  - '011a'
+  - '011b'
+  - '011c'
+  - '011d'
+  - '012a'
+  - '012b'
+  - '012c'
+  - '012d'
+  - '013a'
+  - '013b'
+  - '013c'
+  - '013d'
+  - '014a'
+  - '014b'
+  - '014c'
+  - '014d'
+  - '015a'
+  - '015b'
+  - '015c'
+  - '015d'
+  - '016a'
+  - '016b'
+  - '016c'
+  - '016d'
+  - '017a'
+  - '017b'
+  - '017c'
+  - '017d'
+  - '018a'
+  - '018b'
+  - '018c'
+  - '018d'
+  - '019a'
+  - '019b'
+  - '019c'
+  - '019d'
+  - '020a'
+  - '020b'
+  - '020c'
+  - '020d'
+  - '021a'
+  - '021b'
+  - '021c'
+  - '021d'
+  - '022a'
+  - '022b'
+  - '022c'
+  - '022d'
+  - '023a'
+  - '023b'
+  - '023c'
+  - '023d'
+  - '024a'
+  - '024b'
+  - '024c'
+  - '024d'
+  - '025a'
+  - '025b'
+  - '025c'
+  - '025d'
+  - '026a'
+  - '026b'
+  - '026c'
+  - '026d'
+  - '027a'
+  - '027b'
+  - '027c'
+  - '027d'
+  - '028a'
+  - '028b'
+  - '028c'
+  - '028d'
+  - '029a'
+  - '029b'
+  - '029c'
+  - '029d'
+  - '030a'
+  - '030b'
+  - '030c'
+  - '030d'
+  - '031a'
+  - '031b'
+  - '031c'
+  - '031d'
+  - '032a'
+  - '032b'
+  - '032c'
+  - '032d'
+  - '033a'
+  - '033b'
+  - '033c'
+  - '033d'
+  - '034a'
+  - '034b'
+  - '034c'
+  - '034d'
+captures:
+- values:
+    mic: sm57
+    speaker: v30
+    position: '001a'
+  file: ir/sm57_v30_001a.wav
+  output_gain_db: -22.6573315
+- values:
+    mic: sm57
+    speaker: v30
+    position: '001b'
+  file: ir/sm57_v30_001b.wav
+  output_gain_db: -23.0645447
+- values:
+    mic: sm57
+    speaker: v30
+    position: '001c'
+  file: ir/sm57_v30_001c.wav
+  output_gain_db: -20.4688740
+- values:
+    mic: sm57
+    speaker: v30
+    position: '001d'
+  file: ir/sm57_v30_001d.wav
+  output_gain_db: -20.5007706
+- values:
+    mic: sm57
+    speaker: v30
+    position: '002a'
+  file: ir/sm57_v30_002a.wav
+  output_gain_db: -22.5982132
+- values:
+    mic: sm57
+    speaker: v30
+    position: '002b'
+  file: ir/sm57_v30_002b.wav
+  output_gain_db: -22.8604889
+- values:
+    mic: sm57
+    speaker: v30
+    position: '002c'
+  file: ir/sm57_v30_002c.wav
+  output_gain_db: -20.4368134
+- values:
+    mic: sm57
+    speaker: v30
+    position: '002d'
+  file: ir/sm57_v30_002d.wav
+  output_gain_db: -20.4832153
+- values:
+    mic: sm57
+    speaker: v30
+    position: '003a'
+  file: ir/sm57_v30_003a.wav
+  output_gain_db: -25.0091496
+- values:
+    mic: sm57
+    speaker: v30
+    position: '003b'
+  file: ir/sm57_v30_003b.wav
+  output_gain_db: -25.4219456
+- values:
+    mic: sm57
+    speaker: v30
+    position: '003c'
+  file: ir/sm57_v30_003c.wav
+  output_gain_db: -22.1330547
+- values:
+    mic: sm57
+    speaker: v30
+    position: '003d'
+  file: ir/sm57_v30_003d.wav
+  output_gain_db: -22.0171986
+- values:
+    mic: sm57
+    speaker: v30
+    position: '004a'
+  file: ir/sm57_v30_004a.wav
+  output_gain_db: -23.4767647
+- values:
+    mic: sm57
+    speaker: v30
+    position: '004b'
+  file: ir/sm57_v30_004b.wav
+  output_gain_db: -23.5609875
+- values:
+    mic: sm57
+    speaker: v30
+    position: '004c'
+  file: ir/sm57_v30_004c.wav
+  output_gain_db: -20.4188461
+- values:
+    mic: sm57
+    speaker: v30
+    position: '004d'
+  file: ir/sm57_v30_004d.wav
+  output_gain_db: -20.3843174
+- values:
+    mic: sm57
+    speaker: v30
+    position: '005a'
+  file: ir/sm57_v30_005a.wav
+  output_gain_db: -23.8387165
+- values:
+    mic: sm57
+    speaker: v30
+    position: '005b'
+  file: ir/sm57_v30_005b.wav
+  output_gain_db: -23.9312992
+- values:
+    mic: sm57
+    speaker: v30
+    position: '005c'
+  file: ir/sm57_v30_005c.wav
+  output_gain_db: -20.8946648
+- values:
+    mic: sm57
+    speaker: v30
+    position: '005d'
+  file: ir/sm57_v30_005d.wav
+  output_gain_db: -20.8810024
+- values:
+    mic: sm57
+    speaker: v30
+    position: '006a'
+  file: ir/sm57_v30_006a.wav
+  output_gain_db: -22.8458996
+- values:
+    mic: sm57
+    speaker: v30
+    position: '006b'
+  file: ir/sm57_v30_006b.wav
+  output_gain_db: -22.9434681
+- values:
+    mic: sm57
+    speaker: v30
+    position: '006c'
+  file: ir/sm57_v30_006c.wav
+  output_gain_db: -20.3060589
+- values:
+    mic: sm57
+    speaker: v30
+    position: '006d'
+  file: ir/sm57_v30_006d.wav
+  output_gain_db: -20.2645111
+- values:
+    mic: sm57
+    speaker: v30
+    position: '007a'
+  file: ir/sm57_v30_007a.wav
+  output_gain_db: -27.0399132
+- values:
+    mic: sm57
+    speaker: v30
+    position: '007b'
+  file: ir/sm57_v30_007b.wav
+  output_gain_db: -27.7961884
+- values:
+    mic: sm57
+    speaker: v30
+    position: '007c'
+  file: ir/sm57_v30_007c.wav
+  output_gain_db: -21.3964882
+- values:
+    mic: sm57
+    speaker: v30
+    position: '007d'
+  file: ir/sm57_v30_007d.wav
+  output_gain_db: -21.4553547
+- values:
+    mic: sm57
+    speaker: v30
+    position: '008a'
+  file: ir/sm57_v30_008a.wav
+  output_gain_db: -23.2632198
+- values:
+    mic: sm57
+    speaker: v30
+    position: '008b'
+  file: ir/sm57_v30_008b.wav
+  output_gain_db: -23.6341743
+- values:
+    mic: sm57
+    speaker: v30
+    position: '008c'
+  file: ir/sm57_v30_008c.wav
+  output_gain_db: -21.0591583
+- values:
+    mic: sm57
+    speaker: v30
+    position: '008d'
+  file: ir/sm57_v30_008d.wav
+  output_gain_db: -21.1043434
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '009a'
+  file: ir/sm57_g12t75_009a.wav
+  output_gain_db: -22.1151505
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '009b'
+  file: ir/sm57_g12t75_009b.wav
+  output_gain_db: -22.1480179
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '009c'
+  file: ir/sm57_g12t75_009c.wav
+  output_gain_db: -20.4169044
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '009d'
+  file: ir/sm57_g12t75_009d.wav
+  output_gain_db: -20.4884834
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '010a'
+  file: ir/sm57_g12t75_010a.wav
+  output_gain_db: -19.3370934
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '010b'
+  file: ir/sm57_g12t75_010b.wav
+  output_gain_db: -19.4506245
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '010c'
+  file: ir/sm57_g12t75_010c.wav
+  output_gain_db: -17.8567905
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '010d'
+  file: ir/sm57_g12t75_010d.wav
+  output_gain_db: -17.8772392
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '011a'
+  file: ir/sm57_g12t75_011a.wav
+  output_gain_db: -21.1687241
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '011b'
+  file: ir/sm57_g12t75_011b.wav
+  output_gain_db: -21.5569839
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '011c'
+  file: ir/sm57_g12t75_011c.wav
+  output_gain_db: -19.6402111
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '011d'
+  file: ir/sm57_g12t75_011d.wav
+  output_gain_db: -19.6865406
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '012a'
+  file: ir/sm57_g12t75_012a.wav
+  output_gain_db: -24.4498787
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '012b'
+  file: ir/sm57_g12t75_012b.wav
+  output_gain_db: -24.8659248
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '012c'
+  file: ir/sm57_g12t75_012c.wav
+  output_gain_db: -22.6380825
+- values:
+    mic: sm57
+    speaker: g12t75
+    position: '012d'
+  file: ir/sm57_g12t75_012d.wav
+  output_gain_db: -22.7415791
+- values:
+    mic: md421
+    speaker: v30
+    position: '013a'
+  file: ir/md421_v30_013a.wav
+  output_gain_db: -20.4278507
+- values:
+    mic: md421
+    speaker: v30
+    position: '013b'
+  file: ir/md421_v30_013b.wav
+  output_gain_db: -20.7587814
+- values:
+    mic: md421
+    speaker: v30
+    position: '013c'
+  file: ir/md421_v30_013c.wav
+  output_gain_db: -17.8377571
+- values:
+    mic: md421
+    speaker: v30
+    position: '013d'
+  file: ir/md421_v30_013d.wav
+  output_gain_db: -17.7248039
+- values:
+    mic: md421
+    speaker: v30
+    position: '014a'
+  file: ir/md421_v30_014a.wav
+  output_gain_db: -19.6726608
+- values:
+    mic: md421
+    speaker: v30
+    position: '014b'
+  file: ir/md421_v30_014b.wav
+  output_gain_db: -19.7368965
+- values:
+    mic: md421
+    speaker: v30
+    position: '014c'
+  file: ir/md421_v30_014c.wav
+  output_gain_db: -19.9697399
+- values:
+    mic: md421
+    speaker: v30
+    position: '014d'
+  file: ir/md421_v30_014d.wav
+  output_gain_db: -19.9054356
+- values:
+    mic: md421
+    speaker: v30
+    position: '015a'
+  file: ir/md421_v30_015a.wav
+  output_gain_db: -21.8714447
+- values:
+    mic: md421
+    speaker: v30
+    position: '015b'
+  file: ir/md421_v30_015b.wav
+  output_gain_db: -22.2342644
+- values:
+    mic: md421
+    speaker: v30
+    position: '015c'
+  file: ir/md421_v30_015c.wav
+  output_gain_db: -18.0557919
+- values:
+    mic: md421
+    speaker: v30
+    position: '015d'
+  file: ir/md421_v30_015d.wav
+  output_gain_db: -17.6175346
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '016a'
+  file: ir/md421_g12t75_016a.wav
+  output_gain_db: -21.7962399
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '016b'
+  file: ir/md421_g12t75_016b.wav
+  output_gain_db: -21.9374676
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '016c'
+  file: ir/md421_g12t75_016c.wav
+  output_gain_db: -21.9151154
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '016d'
+  file: ir/md421_g12t75_016d.wav
+  output_gain_db: -21.8036747
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '017a'
+  file: ir/md421_g12t75_017a.wav
+  output_gain_db: -23.4314289
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '017b'
+  file: ir/md421_g12t75_017b.wav
+  output_gain_db: -23.4746304
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '017c'
+  file: ir/md421_g12t75_017c.wav
+  output_gain_db: -23.9130669
+- values:
+    mic: md421
+    speaker: g12t75
+    position: '017d'
+  file: ir/md421_g12t75_017d.wav
+  output_gain_db: -23.9751110
+- values:
+    mic: at4050
+    speaker: v30
+    position: '018a'
+  file: ir/at4050_v30_018a.wav
+  output_gain_db: -26.1779289
+- values:
+    mic: at4050
+    speaker: v30
+    position: '018b'
+  file: ir/at4050_v30_018b.wav
+  output_gain_db: -26.1389694
+- values:
+    mic: at4050
+    speaker: v30
+    position: '018c'
+  file: ir/at4050_v30_018c.wav
+  output_gain_db: -22.2681274
+- values:
+    mic: at4050
+    speaker: v30
+    position: '018d'
+  file: ir/at4050_v30_018d.wav
+  output_gain_db: -22.2971668
+- values:
+    mic: at4050
+    speaker: v30
+    position: '019a'
+  file: ir/at4050_v30_019a.wav
+  output_gain_db: -24.4864693
+- values:
+    mic: at4050
+    speaker: v30
+    position: '019b'
+  file: ir/at4050_v30_019b.wav
+  output_gain_db: -24.7402973
+- values:
+    mic: at4050
+    speaker: v30
+    position: '019c'
+  file: ir/at4050_v30_019c.wav
+  output_gain_db: -20.8469467
+- values:
+    mic: at4050
+    speaker: v30
+    position: '019d'
+  file: ir/at4050_v30_019d.wav
+  output_gain_db: -20.8163910
+- values:
+    mic: at4050
+    speaker: v30
+    position: '020a'
+  file: ir/at4050_v30_020a.wav
+  output_gain_db: -26.3698921
+- values:
+    mic: at4050
+    speaker: v30
+    position: '020b'
+  file: ir/at4050_v30_020b.wav
+  output_gain_db: -26.4378433
+- values:
+    mic: at4050
+    speaker: v30
+    position: '020c'
+  file: ir/at4050_v30_020c.wav
+  output_gain_db: -22.8569279
+- values:
+    mic: at4050
+    speaker: v30
+    position: '020d'
+  file: ir/at4050_v30_020d.wav
+  output_gain_db: -23.0625820
+- values:
+    mic: at4050
+    speaker: g12t75
+    position: '021a'
+  file: ir/at4050_g12t75_021a.wav
+  output_gain_db: -22.4717884
+- values:
+    mic: at4050
+    speaker: g12t75
+    position: '021b'
+  file: ir/at4050_g12t75_021b.wav
+  output_gain_db: -22.5971699
+- values:
+    mic: at4050
+    speaker: g12t75
+    position: '021c'
+  file: ir/at4050_g12t75_021c.wav
+  output_gain_db: -19.8617382
+- values:
+    mic: at4050
+    speaker: g12t75
+    position: '021d'
+  file: ir/at4050_g12t75_021d.wav
+  output_gain_db: -19.9169827
+- values:
+    mic: md21
+    speaker: v30
+    position: '022a'
+  file: ir/md21_v30_022a.wav
+  output_gain_db: -22.3889904
+- values:
+    mic: md21
+    speaker: v30
+    position: '022b'
+  file: ir/md21_v30_022b.wav
+  output_gain_db: -22.8818417
+- values:
+    mic: md21
+    speaker: v30
+    position: '022c'
+  file: ir/md21_v30_022c.wav
+  output_gain_db: -19.4597301
+- values:
+    mic: md21
+    speaker: v30
+    position: '022d'
+  file: ir/md21_v30_022d.wav
+  output_gain_db: -19.4960632
+- values:
+    mic: md21
+    speaker: v30
+    position: '023a'
+  file: ir/md21_v30_023a.wav
+  output_gain_db: -21.9418678
+- values:
+    mic: md21
+    speaker: v30
+    position: '023b'
+  file: ir/md21_v30_023b.wav
+  output_gain_db: -22.3936272
+- values:
+    mic: md21
+    speaker: v30
+    position: '023c'
+  file: ir/md21_v30_023c.wav
+  output_gain_db: -20.4085140
+- values:
+    mic: md21
+    speaker: v30
+    position: '023d'
+  file: ir/md21_v30_023d.wav
+  output_gain_db: -20.3380489
+- values:
+    mic: md21
+    speaker: g12t75
+    position: '024a'
+  file: ir/md21_g12t75_024a.wav
+  output_gain_db: -19.6509895
+- values:
+    mic: md21
+    speaker: g12t75
+    position: '024b'
+  file: ir/md21_g12t75_024b.wav
+  output_gain_db: -19.5529537
+- values:
+    mic: md21
+    speaker: g12t75
+    position: '024c'
+  file: ir/md21_g12t75_024c.wav
+  output_gain_db: -19.0436592
+- values:
+    mic: md21
+    speaker: g12t75
+    position: '024d'
+  file: ir/md21_g12t75_024d.wav
+  output_gain_db: -18.9810162
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '025a'
+  file: ir/i5_g12t75_025a.wav
+  output_gain_db: -23.9616280
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '025b'
+  file: ir/i5_g12t75_025b.wav
+  output_gain_db: -24.6066818
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '025c'
+  file: ir/i5_g12t75_025c.wav
+  output_gain_db: -20.0409088
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '025d'
+  file: ir/i5_g12t75_025d.wav
+  output_gain_db: -20.0300560
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '026a'
+  file: ir/i5_g12t75_026a.wav
+  output_gain_db: -22.5679989
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '026b'
+  file: ir/i5_g12t75_026b.wav
+  output_gain_db: -22.8002987
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '026c'
+  file: ir/i5_g12t75_026c.wav
+  output_gain_db: -20.3459320
+- values:
+    mic: i5
+    speaker: g12t75
+    position: '026d'
+  file: ir/i5_g12t75_026d.wav
+  output_gain_db: -20.2243042
+- values:
+    mic: i5
+    speaker: v30
+    position: '027a'
+  file: ir/i5_v30_027a.wav
+  output_gain_db: -24.3798351
+- values:
+    mic: i5
+    speaker: v30
+    position: '027b'
+  file: ir/i5_v30_027b.wav
+  output_gain_db: -24.8028698
+- values:
+    mic: i5
+    speaker: v30
+    position: '027c'
+  file: ir/i5_v30_027c.wav
+  output_gain_db: -20.4250374
+- values:
+    mic: i5
+    speaker: v30
+    position: '027d'
+  file: ir/i5_v30_027d.wav
+  output_gain_db: -20.3035011
+- values:
+    mic: sm7
+    speaker: v30
+    position: '028a'
+  file: ir/sm7_v30_028a.wav
+  output_gain_db: -22.0807514
+- values:
+    mic: sm7
+    speaker: v30
+    position: '028b'
+  file: ir/sm7_v30_028b.wav
+  output_gain_db: -22.0916576
+- values:
+    mic: sm7
+    speaker: v30
+    position: '028c'
+  file: ir/sm7_v30_028c.wav
+  output_gain_db: -19.1725292
+- values:
+    mic: sm7
+    speaker: v30
+    position: '028d'
+  file: ir/sm7_v30_028d.wav
+  output_gain_db: -19.4620476
+- values:
+    mic: sm7
+    speaker: v30
+    position: '029a'
+  file: ir/sm7_v30_029a.wav
+  output_gain_db: -22.0988445
+- values:
+    mic: sm7
+    speaker: v30
+    position: '029b'
+  file: ir/sm7_v30_029b.wav
+  output_gain_db: -21.8812103
+- values:
+    mic: sm7
+    speaker: v30
+    position: '029c'
+  file: ir/sm7_v30_029c.wav
+  output_gain_db: -18.8147621
+- values:
+    mic: sm7
+    speaker: v30
+    position: '029d'
+  file: ir/sm7_v30_029d.wav
+  output_gain_db: -18.9319153
+- values:
+    mic: sm7
+    speaker: v30
+    position: '030a'
+  file: ir/sm7_v30_030a.wav
+  output_gain_db: -23.7798653
+- values:
+    mic: sm7
+    speaker: v30
+    position: '030b'
+  file: ir/sm7_v30_030b.wav
+  output_gain_db: -24.0720387
+- values:
+    mic: sm7
+    speaker: v30
+    position: '030c'
+  file: ir/sm7_v30_030c.wav
+  output_gain_db: -20.2716198
+- values:
+    mic: sm7
+    speaker: v30
+    position: '030d'
+  file: ir/sm7_v30_030d.wav
+  output_gain_db: -20.2112789
+- values:
+    mic: sm7
+    speaker: v30
+    position: '031a'
+  file: ir/sm7_v30_031a.wav
+  output_gain_db: -22.7113018
+- values:
+    mic: sm7
+    speaker: v30
+    position: '031b'
+  file: ir/sm7_v30_031b.wav
+  output_gain_db: -23.1009941
+- values:
+    mic: sm7
+    speaker: v30
+    position: '031c'
+  file: ir/sm7_v30_031c.wav
+  output_gain_db: -19.1616383
+- values:
+    mic: sm7
+    speaker: v30
+    position: '031d'
+  file: ir/sm7_v30_031d.wav
+  output_gain_db: -19.2323990
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '032a'
+  file: ir/sm7_g12t75_032a.wav
+  output_gain_db: -25.5607681
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '032b'
+  file: ir/sm7_g12t75_032b.wav
+  output_gain_db: -25.7481480
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '032c'
+  file: ir/sm7_g12t75_032c.wav
+  output_gain_db: -22.4049397
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '032d'
+  file: ir/sm7_g12t75_032d.wav
+  output_gain_db: -22.4406681
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '033a'
+  file: ir/sm7_g12t75_033a.wav
+  output_gain_db: -26.1319695
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '033b'
+  file: ir/sm7_g12t75_033b.wav
+  output_gain_db: -26.2405338
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '033c'
+  file: ir/sm7_g12t75_033c.wav
+  output_gain_db: -22.4645672
+- values:
+    mic: sm7
+    speaker: g12t75
+    position: '033d'
+  file: ir/sm7_g12t75_033d.wav
+  output_gain_db: -22.4615879
+- values:
+    mic: sm58
+    speaker: v30
+    position: '034a'
+  file: ir/sm58_v30_034a.wav
+  output_gain_db: -23.1836205
+- values:
+    mic: sm58
+    speaker: v30
+    position: '034b'
+  file: ir/sm58_v30_034b.wav
+  output_gain_db: -23.3693275
+- values:
+    mic: sm58
+    speaker: v30
+    position: '034c'
+  file: ir/sm58_v30_034c.wav
+  output_gain_db: -20.2864456
+- values:
+    mic: sm58
+    speaker: v30
+    position: '034d'
+  file: ir/sm58_v30_034d.wav
+  output_gain_db: -20.5324440
