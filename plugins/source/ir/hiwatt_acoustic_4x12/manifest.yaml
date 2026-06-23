@@ -1,0 +1,43 @@
+# Community capture: Hiwatt Acoustic 4x12 (gottkaiser). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_hiwatt_acoustic_4x12
+display_name: Hiwatt Acoustic 4x12 (gottkaiser)
+brand: hiwatt
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - br_nt2
+  - br_sm7
+  - n_nt2
+  - n_sm7
+  - n2_nt2
+  - n2_sm7
+captures:
+- values:
+    preset: br_nt2
+  file: ir/br_nt2.wav
+  output_gain_db: -19.2243538
+- values:
+    preset: br_sm7
+  file: ir/br_sm7.wav
+  output_gain_db: -16.6669712
+- values:
+    preset: n_nt2
+  file: ir/n_nt2.wav
+  output_gain_db: -19.6409092
+- values:
+    preset: n_sm7
+  file: ir/n_sm7.wav
+  output_gain_db: -19.3212109
+- values:
+    preset: n2_nt2
+  file: ir/n2_nt2.wav
+  output_gain_db: -19.3989754
+- values:
+    preset: n2_sm7
+  file: ir/n2_sm7.wav
+  output_gain_db: -17.0620918

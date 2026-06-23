@@ -1,0 +1,23 @@
+# Community capture: Rectifier Setup (da_impact). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_mesa_rectifier_da_impact
+display_name: Rectifier Setup (da_impact)
+brand: mesa
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - at4033
+  - sm57
+captures:
+- values:
+    preset: at4033
+  file: ir/at4033.wav
+  output_gain_db: -22.1920395
+- values:
+    preset: sm57
+  file: ir/sm57.wav
+  output_gain_db: -21.1675644

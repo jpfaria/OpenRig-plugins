@@ -1,0 +1,58 @@
+# Community capture: JCM900 Setup (the_sea). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_marshall_jcm900_the_sea
+display_name: JCM900 Setup (the_sea)
+brand: marshall
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 1_nt2
+  - 1_rm
+  - 1_sm57
+  - 2_nt2
+  - 2_rm
+  - 2_sm57
+  - 3_nt2
+  - 3_rm
+  - 3_sm57
+captures:
+- values:
+    preset: 1_nt2
+  file: ir/1_nt2.wav
+  output_gain_db: -19.9729786
+- values:
+    preset: 1_rm
+  file: ir/1_rm.wav
+  output_gain_db: -25.8788986
+- values:
+    preset: 1_sm57
+  file: ir/1_sm57.wav
+  output_gain_db: -18.3150234
+- values:
+    preset: 2_nt2
+  file: ir/2_nt2.wav
+  output_gain_db: -19.7741966
+- values:
+    preset: 2_rm
+  file: ir/2_rm.wav
+  output_gain_db: -25.7139874
+- values:
+    preset: 2_sm57
+  file: ir/2_sm57.wav
+  output_gain_db: -18.5477524
+- values:
+    preset: 3_nt2
+  file: ir/3_nt2.wav
+  output_gain_db: -20.7777863
+- values:
+    preset: 3_rm
+  file: ir/3_rm.wav
+  output_gain_db: -28.6791840
+- values:
+    preset: 3_sm57
+  file: ir/3_sm57.wav
+  output_gain_db: -18.6471939

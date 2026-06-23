@@ -1,0 +1,43 @@
+# Community capture: London City Gtr Setup (the_big_bang). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_the_big_bang
+display_name: London City Gtr Setup (the_big_bang)
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bright_raum
+  - bright_sm57
+  - bright_sm7
+  - normal_raum
+  - normal_sm57
+  - normal_sm7
+captures:
+- values:
+    preset: bright_raum
+  file: ir/bright_raum.wav
+  output_gain_db: -31.8715916
+- values:
+    preset: bright_sm57
+  file: ir/bright_sm57.wav
+  output_gain_db: -20.3657036
+- values:
+    preset: bright_sm7
+  file: ir/bright_sm7.wav
+  output_gain_db: -19.5402050
+- values:
+    preset: normal_raum
+  file: ir/normal_raum.wav
+  output_gain_db: -32.3309937
+- values:
+    preset: normal_sm57
+  file: ir/normal_sm57.wav
+  output_gain_db: -26.0293789
+- values:
+    preset: normal_sm7
+  file: ir/normal_sm7.wav
+  output_gain_db: -25.8896637

@@ -1,0 +1,43 @@
+# Community capture: Orange Custom 4x12. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_orange_custom_4x12
+display_name: Orange Custom 4x12
+brand: orange
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - m930_1
+  - m930_2
+  - sm57_1
+  - sm57_2
+  - sm57_3
+  - u87
+captures:
+- values:
+    preset: m930_1
+  file: ir/m930_1.wav
+  output_gain_db: -24.1661587
+- values:
+    preset: m930_2
+  file: ir/m930_2.wav
+  output_gain_db: -16.3077793
+- values:
+    preset: sm57_1
+  file: ir/sm57_1.wav
+  output_gain_db: -18.6107769
+- values:
+    preset: sm57_2
+  file: ir/sm57_2.wav
+  output_gain_db: -18.9310284
+- values:
+    preset: sm57_3
+  file: ir/sm57_3.wav
+  output_gain_db: -20.0271320
+- values:
+    preset: u87
+  file: ir/u87.wav
+  output_gain_db: -20.1369324

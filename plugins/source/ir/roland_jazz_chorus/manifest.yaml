@@ -1,0 +1,28 @@
+# Community capture: Jazz Chorus. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_roland_jazz_chorus
+display_name: Jazz Chorus
+brand: roland
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - room_k
+  - sm7_02
+  - sm7_03
+captures:
+- values:
+    preset: room_k
+  file: ir/room_k.wav
+  output_gain_db: -28.8825645
+- values:
+    preset: sm7_02
+  file: ir/sm7_02.wav
+  output_gain_db: -30.6310139
+- values:
+    preset: sm7_03
+  file: ir/sm7_03.wav
+  output_gain_db: -30.8483810

@@ -1,0 +1,73 @@
+# Community capture: AC30 Custom 4x12 Bright. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_ac30_custom_4x12_bright
+display_name: AC30 Custom 4x12 Bright
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - gf_flur
+  - gf_front
+  - gf1
+  - gf2
+  - m930_off_axis
+  - m930_on_axis1
+  - m930_on_axis2
+  - nt2_off_axis
+  - nt2_on_axis1
+  - nt2_on_axis2
+  - u87_1
+  - u87_2
+captures:
+- values:
+    preset: gf_flur
+  file: ir/gf_flur.wav
+  output_gain_db: -25.5629635
+- values:
+    preset: gf_front
+  file: ir/gf_front.wav
+  output_gain_db: -16.1253071
+- values:
+    preset: gf1
+  file: ir/gf1.wav
+  output_gain_db: -21.0883999
+- values:
+    preset: gf2
+  file: ir/gf2.wav
+  output_gain_db: -22.9893665
+- values:
+    preset: m930_off_axis
+  file: ir/m930_off_axis.wav
+  output_gain_db: -17.1948910
+- values:
+    preset: m930_on_axis1
+  file: ir/m930_on_axis1.wav
+  output_gain_db: -17.0403118
+- values:
+    preset: m930_on_axis2
+  file: ir/m930_on_axis2.wav
+  output_gain_db: -18.1894207
+- values:
+    preset: nt2_off_axis
+  file: ir/nt2_off_axis.wav
+  output_gain_db: -14.8006067
+- values:
+    preset: nt2_on_axis1
+  file: ir/nt2_on_axis1.wav
+  output_gain_db: -13.9399490
+- values:
+    preset: nt2_on_axis2
+  file: ir/nt2_on_axis2.wav
+  output_gain_db: -14.2964849
+- values:
+    preset: u87_1
+  file: ir/u87_1.wav
+  output_gain_db: -19.3478546
+- values:
+    preset: u87_2
+  file: ir/u87_2.wav
+  output_gain_db: -17.2641010

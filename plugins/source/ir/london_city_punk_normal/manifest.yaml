@@ -1,0 +1,48 @@
+# Community capture: London City Punk Cab Normal. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_punk_normal
+display_name: London City Punk Cab Normal
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - normal_fishalt_at4033
+  - normal_fishalt_mtg
+  - normal_fishalt_sm57
+  - normal_fishneu_at4033
+  - normal_fishneu_mtg
+  - normal_fishneu_sm57
+  - fish_l_2mtg_normal
+captures:
+- values:
+    preset: normal_fishalt_at4033
+  file: ir/normal_fishalt_at4033.wav
+  output_gain_db: -29.1720963
+- values:
+    preset: normal_fishalt_mtg
+  file: ir/normal_fishalt_mtg.wav
+  output_gain_db: -30.5909519
+- values:
+    preset: normal_fishalt_sm57
+  file: ir/normal_fishalt_sm57.wav
+  output_gain_db: -27.6346321
+- values:
+    preset: normal_fishneu_at4033
+  file: ir/normal_fishneu_at4033.wav
+  output_gain_db: -25.3256054
+- values:
+    preset: normal_fishneu_mtg
+  file: ir/normal_fishneu_mtg.wav
+  output_gain_db: -27.5366688
+- values:
+    preset: normal_fishneu_sm57
+  file: ir/normal_fishneu_sm57.wav
+  output_gain_db: -24.8585129
+- values:
+    preset: fish_l_2mtg_normal
+  file: ir/fish_l_2mtg_normal.wav
+  output_gain_db: -30.3680992

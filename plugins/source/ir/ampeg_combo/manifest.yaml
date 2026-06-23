@@ -1,0 +1,33 @@
+# Community capture: Ampeg Combo. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_ampeg_combo
+display_name: Ampeg Combo
+brand: ampeg
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 421_a
+  - 421_b
+  - m16_a
+  - m16_b
+captures:
+- values:
+    preset: 421_a
+  file: ir/421_a.wav
+  output_gain_db: -20.5690842
+- values:
+    preset: 421_b
+  file: ir/421_b.wav
+  output_gain_db: -21.1849289
+- values:
+    preset: m16_a
+  file: ir/m16_a.wav
+  output_gain_db: -20.8828259
+- values:
+    preset: m16_b
+  file: ir/m16_b.wav
+  output_gain_db: -20.5427380

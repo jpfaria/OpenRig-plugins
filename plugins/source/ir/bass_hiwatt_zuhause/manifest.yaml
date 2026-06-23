@@ -1,0 +1,48 @@
+# Community capture: Bass Setup Hiwatt (Zuhause). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_bass_hiwatt_zuhause
+display_name: Bass Setup Hiwatt (Zuhause)
+brand: hiwatt
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - br1_sm7
+  - br2_nt2
+  - br2_sm7
+  - n1_nt2
+  - n1_sm7
+  - n2_nt2
+  - n2_sm7
+captures:
+- values:
+    preset: br1_sm7
+  file: ir/br1_sm7.wav
+  output_gain_db: -18.8905735
+- values:
+    preset: br2_nt2
+  file: ir/br2_nt2.wav
+  output_gain_db: -21.5514259
+- values:
+    preset: br2_sm7
+  file: ir/br2_sm7.wav
+  output_gain_db: -19.8638592
+- values:
+    preset: n1_nt2
+  file: ir/n1_nt2.wav
+  output_gain_db: -21.4424114
+- values:
+    preset: n1_sm7
+  file: ir/n1_sm7.wav
+  output_gain_db: -20.6973495
+- values:
+    preset: n2_nt2
+  file: ir/n2_nt2.wav
+  output_gain_db: -20.1647625
+- values:
+    preset: n2_sm7
+  file: ir/n2_sm7.wav
+  output_gain_db: -19.1288319

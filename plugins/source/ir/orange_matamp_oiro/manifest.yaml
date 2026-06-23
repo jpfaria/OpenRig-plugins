@@ -1,0 +1,33 @@
+# Community capture: Orange Matamp Setup (oiro). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_orange_matamp_oiro
+display_name: Orange Matamp Setup (oiro)
+brand: orange
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - d1
+  - d2
+  - d3
+  - d4
+captures:
+- values:
+    preset: d1
+  file: ir/d1.wav
+  output_gain_db: -25.1438980
+- values:
+    preset: d2
+  file: ir/d2.wav
+  output_gain_db: -23.6563740
+- values:
+    preset: d3
+  file: ir/d3.wav
+  output_gain_db: -27.3213043
+- values:
+    preset: d4
+  file: ir/d4.wav
+  output_gain_db: -24.3701458

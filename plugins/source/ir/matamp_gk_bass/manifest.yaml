@@ -1,0 +1,43 @@
+# Community capture: Matamp GK Bass. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_matamp_gk_bass
+display_name: Matamp GK Bass
+brand: matamp
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - orange1
+  - orange2
+  - orange3
+  - orange4
+  - orange5
+  - orange6
+captures:
+- values:
+    preset: orange1
+  file: ir/orange1.wav
+  output_gain_db: -25.0213566
+- values:
+    preset: orange2
+  file: ir/orange2.wav
+  output_gain_db: -24.8673191
+- values:
+    preset: orange3
+  file: ir/orange3.wav
+  output_gain_db: -25.4379349
+- values:
+    preset: orange4
+  file: ir/orange4.wav
+  output_gain_db: -30.0901012
+- values:
+    preset: orange5
+  file: ir/orange5.wav
+  output_gain_db: -23.5471554
+- values:
+    preset: orange6
+  file: ir/orange6.wav
+  output_gain_db: -25.7907257
