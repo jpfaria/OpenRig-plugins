@@ -1,0 +1,479 @@
+# God's Cab 1.0 legacy IRs — C02 and M3 mics, marked by the pack author as
+# inferior to the NT5 / U87 sets in the main God's Cab. Kept for completeness.
+manifest_version: 1
+id: ir_gods_cab_legacy
+display_name: God's Cab Legacy
+brand: gods_cab
+type: cab
+backend: ir
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - c02
+  - m3
+- name: version
+  display_name: Version
+  values:
+  - no_ts
+  - ts
+- name: position
+  display_name: Position
+  values:
+  - stereo
+  - mono_left
+  - mono_right
+  - room
+  - 1_foot
+  - 2_foot
+  - 4_foot
+- name: take
+  display_name: Take
+  values:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+captures:
+- values:
+    mic: c02
+    version: no_ts
+    position: stereo
+    take: '1'
+  file: ir/c02_no_ts_stereo_1.wav
+  output_gain_db: -29.9758263
+- values:
+    mic: c02
+    version: no_ts
+    position: stereo
+    take: '2'
+  file: ir/c02_no_ts_stereo_2.wav
+  output_gain_db: -28.1656075
+- values:
+    mic: c02
+    version: no_ts
+    position: stereo
+    take: '3'
+  file: ir/c02_no_ts_stereo_3.wav
+  output_gain_db: -25.1846695
+- values:
+    mic: c02
+    version: no_ts
+    position: stereo
+    take: '4'
+  file: ir/c02_no_ts_stereo_4.wav
+  output_gain_db: -22.2710381
+- values:
+    mic: c02
+    version: no_ts
+    position: stereo
+    take: '5'
+  file: ir/c02_no_ts_stereo_5.wav
+  output_gain_db: -21.4442883
+- values:
+    mic: c02
+    version: ts
+    position: stereo
+    take: '1'
+  file: ir/c02_ts_stereo_1.wav
+  output_gain_db: -29.0748940
+- values:
+    mic: c02
+    version: ts
+    position: stereo
+    take: '2'
+  file: ir/c02_ts_stereo_2.wav
+  output_gain_db: -27.5649509
+- values:
+    mic: c02
+    version: ts
+    position: stereo
+    take: '3'
+  file: ir/c02_ts_stereo_3.wav
+  output_gain_db: -25.6989727
+- values:
+    mic: c02
+    version: ts
+    position: stereo
+    take: '4'
+  file: ir/c02_ts_stereo_4.wav
+  output_gain_db: -23.2549877
+- values:
+    mic: c02
+    version: ts
+    position: stereo
+    take: '5'
+  file: ir/c02_ts_stereo_5.wav
+  output_gain_db: -22.3383446
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_left
+    take: '1'
+  file: ir/c02_no_ts_mono_left_1.wav
+  output_gain_db: -29.5414467
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_left
+    take: '2'
+  file: ir/c02_no_ts_mono_left_2.wav
+  output_gain_db: -27.9943066
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_left
+    take: '3'
+  file: ir/c02_no_ts_mono_left_3.wav
+  output_gain_db: -25.4267159
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_left
+    take: '4'
+  file: ir/c02_no_ts_mono_left_4.wav
+  output_gain_db: -22.5866814
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_left
+    take: '5'
+  file: ir/c02_no_ts_mono_left_5.wav
+  output_gain_db: -21.9409885
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_right
+    take: '1'
+  file: ir/c02_no_ts_mono_right_1.wav
+  output_gain_db: -32.9016800
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_right
+    take: '2'
+  file: ir/c02_no_ts_mono_right_2.wav
+  output_gain_db: -31.0269012
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_right
+    take: '3'
+  file: ir/c02_no_ts_mono_right_3.wav
+  output_gain_db: -27.8091660
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_right
+    take: '4'
+  file: ir/c02_no_ts_mono_right_4.wav
+  output_gain_db: -24.8997421
+- values:
+    mic: c02
+    version: no_ts
+    position: mono_right
+    take: '5'
+  file: ir/c02_no_ts_mono_right_5.wav
+  output_gain_db: -24.1453552
+- values:
+    mic: c02
+    version: ts
+    position: mono_left
+    take: '1'
+  file: ir/c02_ts_mono_left_1.wav
+  output_gain_db: -30.4087887
+- values:
+    mic: c02
+    version: ts
+    position: mono_left
+    take: '2'
+  file: ir/c02_ts_mono_left_2.wav
+  output_gain_db: -29.2851048
+- values:
+    mic: c02
+    version: ts
+    position: mono_left
+    take: '3'
+  file: ir/c02_ts_mono_left_3.wav
+  output_gain_db: -28.2015228
+- values:
+    mic: c02
+    version: ts
+    position: mono_left
+    take: '4'
+  file: ir/c02_ts_mono_left_4.wav
+  output_gain_db: -25.5030098
+- values:
+    mic: c02
+    version: ts
+    position: mono_left
+    take: '5'
+  file: ir/c02_ts_mono_left_5.wav
+  output_gain_db: -25.1293602
+- values:
+    mic: c02
+    version: ts
+    position: mono_right
+    take: '1'
+  file: ir/c02_ts_mono_right_1.wav
+  output_gain_db: -30.6465397
+- values:
+    mic: c02
+    version: ts
+    position: mono_right
+    take: '2'
+  file: ir/c02_ts_mono_right_2.wav
+  output_gain_db: -29.9471798
+- values:
+    mic: c02
+    version: ts
+    position: mono_right
+    take: '3'
+  file: ir/c02_ts_mono_right_3.wav
+  output_gain_db: -28.7200317
+- values:
+    mic: c02
+    version: ts
+    position: mono_right
+    take: '4'
+  file: ir/c02_ts_mono_right_4.wav
+  output_gain_db: -26.9165382
+- values:
+    mic: c02
+    version: ts
+    position: mono_right
+    take: '5'
+  file: ir/c02_ts_mono_right_5.wav
+  output_gain_db: -26.0601997
+- values:
+    mic: m3
+    version: no_ts
+    position: room
+    take: '1'
+  file: ir/m3_no_ts_room_1.wav
+  output_gain_db: -30.7130394
+- values:
+    mic: m3
+    version: no_ts
+    position: room
+    take: '2'
+  file: ir/m3_no_ts_room_2.wav
+  output_gain_db: -34.1982498
+- values:
+    mic: m3
+    version: no_ts
+    position: room
+    take: '3'
+  file: ir/m3_no_ts_room_3.wav
+  output_gain_db: -32.2494392
+- values:
+    mic: m3
+    version: no_ts
+    position: 1_foot
+    take: '1'
+  file: ir/m3_no_ts_1_foot_1.wav
+  output_gain_db: -22.6975079
+- values:
+    mic: m3
+    version: no_ts
+    position: 1_foot
+    take: '2'
+  file: ir/m3_no_ts_1_foot_2.wav
+  output_gain_db: -20.7330914
+- values:
+    mic: m3
+    version: no_ts
+    position: 1_foot
+    take: '3'
+  file: ir/m3_no_ts_1_foot_3.wav
+  output_gain_db: -20.3644810
+- values:
+    mic: m3
+    version: no_ts
+    position: 1_foot
+    take: '4'
+  file: ir/m3_no_ts_1_foot_4.wav
+  output_gain_db: -20.1555481
+- values:
+    mic: m3
+    version: no_ts
+    position: 1_foot
+    take: '5'
+  file: ir/m3_no_ts_1_foot_5.wav
+  output_gain_db: -19.9952602
+- values:
+    mic: m3
+    version: no_ts
+    position: 2_foot
+    take: '1'
+  file: ir/m3_no_ts_2_foot_1.wav
+  output_gain_db: -23.5367737
+- values:
+    mic: m3
+    version: no_ts
+    position: 2_foot
+    take: '2'
+  file: ir/m3_no_ts_2_foot_2.wav
+  output_gain_db: -23.1884766
+- values:
+    mic: m3
+    version: no_ts
+    position: 2_foot
+    take: '3'
+  file: ir/m3_no_ts_2_foot_3.wav
+  output_gain_db: -22.2742424
+- values:
+    mic: m3
+    version: no_ts
+    position: 2_foot
+    take: '4'
+  file: ir/m3_no_ts_2_foot_4.wav
+  output_gain_db: -18.6794395
+- values:
+    mic: m3
+    version: no_ts
+    position: 2_foot
+    take: '5'
+  file: ir/m3_no_ts_2_foot_5.wav
+  output_gain_db: -16.4841499
+- values:
+    mic: m3
+    version: no_ts
+    position: 4_foot
+    take: '1'
+  file: ir/m3_no_ts_4_foot_1.wav
+  output_gain_db: -24.5797272
+- values:
+    mic: m3
+    version: no_ts
+    position: 4_foot
+    take: '2'
+  file: ir/m3_no_ts_4_foot_2.wav
+  output_gain_db: -23.2444763
+- values:
+    mic: m3
+    version: no_ts
+    position: 4_foot
+    take: '3'
+  file: ir/m3_no_ts_4_foot_3.wav
+  output_gain_db: -21.0002575
+- values:
+    mic: m3
+    version: no_ts
+    position: 4_foot
+    take: '4'
+  file: ir/m3_no_ts_4_foot_4.wav
+  output_gain_db: -20.7166138
+- values:
+    mic: m3
+    version: no_ts
+    position: 4_foot
+    take: '5'
+  file: ir/m3_no_ts_4_foot_5.wav
+  output_gain_db: -20.8647861
+- values:
+    mic: m3
+    version: ts
+    position: 1_foot
+    take: '1'
+  file: ir/m3_ts_1_foot_1.wav
+  output_gain_db: -25.7882919
+- values:
+    mic: m3
+    version: ts
+    position: 1_foot
+    take: '2'
+  file: ir/m3_ts_1_foot_2.wav
+  output_gain_db: -24.8968658
+- values:
+    mic: m3
+    version: ts
+    position: 1_foot
+    take: '3'
+  file: ir/m3_ts_1_foot_3.wav
+  output_gain_db: -23.8572330
+- values:
+    mic: m3
+    version: ts
+    position: 1_foot
+    take: '4'
+  file: ir/m3_ts_1_foot_4.wav
+  output_gain_db: -21.8335152
+- values:
+    mic: m3
+    version: ts
+    position: 1_foot
+    take: '5'
+  file: ir/m3_ts_1_foot_5.wav
+  output_gain_db: -20.8901882
+- values:
+    mic: m3
+    version: ts
+    position: 2_foot
+    take: '1'
+  file: ir/m3_ts_2_foot_1.wav
+  output_gain_db: -28.5539207
+- values:
+    mic: m3
+    version: ts
+    position: 2_foot
+    take: '2'
+  file: ir/m3_ts_2_foot_2.wav
+  output_gain_db: -27.4293537
+- values:
+    mic: m3
+    version: ts
+    position: 2_foot
+    take: '3'
+  file: ir/m3_ts_2_foot_3.wav
+  output_gain_db: -26.4742603
+- values:
+    mic: m3
+    version: ts
+    position: 2_foot
+    take: '4'
+  file: ir/m3_ts_2_foot_4.wav
+  output_gain_db: -24.6707249
+- values:
+    mic: m3
+    version: ts
+    position: 2_foot
+    take: '5'
+  file: ir/m3_ts_2_foot_5.wav
+  output_gain_db: -23.4873123
+- values:
+    mic: m3
+    version: ts
+    position: 4_foot
+    take: '1'
+  file: ir/m3_ts_4_foot_1.wav
+  output_gain_db: -26.9726276
+- values:
+    mic: m3
+    version: ts
+    position: 4_foot
+    take: '2'
+  file: ir/m3_ts_4_foot_2.wav
+  output_gain_db: -26.4584122
+- values:
+    mic: m3
+    version: ts
+    position: 4_foot
+    take: '3'
+  file: ir/m3_ts_4_foot_3.wav
+  output_gain_db: -25.2678127
+- values:
+    mic: m3
+    version: ts
+    position: 4_foot
+    take: '4'
+  file: ir/m3_ts_4_foot_4.wav
+  output_gain_db: -23.5361843
+- values:
+    mic: m3
+    version: ts
+    position: 4_foot
+    take: '5'
+  file: ir/m3_ts_4_foot_5.wav
+  output_gain_db: -23.2435532
