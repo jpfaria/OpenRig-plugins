@@ -258,6 +258,7 @@ Cabinet impulse responses for electric guitar speakers.
 | `ir_fender_twin_reverb_2x12` | Twin Reverb 2x12 | fender |
 | `ir_g12m_greenback_2x12` | G12M Greenback 2x12 | celestion |
 | `ir_g12t_75_4x12` | G12T-75 4x12 | celestion |
+| `ir_gods_cab` | God's Cab | gods_cab |
 | `ir_marshall_1960_g12m25` | 1960 G12M25 Greenback | marshall |
 | `ir_marshall_1960av_4x12` | 1960AV 4x12 | marshall |
 | `ir_marshall_1960bv_4x12` | 1960BV 4x12 | marshall |
