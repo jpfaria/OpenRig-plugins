@@ -1,0 +1,23 @@
+# Community capture: Bass Setup (dr_norton). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_bass_dr_norton
+display_name: Bass Setup (dr_norton)
+brand: diy
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - m69
+  - mtg
+captures:
+- values:
+    preset: m69
+  file: ir/m69.wav
+  output_gain_db: -22.3420181
+- values:
+    preset: mtg
+  file: ir/mtg.wav
+  output_gain_db: -26.5838604

@@ -1,0 +1,73 @@
+# Community capture: V4B Custom 4x12. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_ampeg_v4b_custom_4x12
+display_name: V4B Custom 4x12
+brand: ampeg
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - m69n
+  - md441_1
+  - md441_2
+  - beta52
+  - mtg_1
+  - mtg_2
+  - mtg_3
+  - sm7
+  - tlm170_1
+  - tlm170_2
+  - u87_1
+  - u87_2
+captures:
+- values:
+    preset: m69n
+  file: ir/m69n.wav
+  output_gain_db: -20.4535294
+- values:
+    preset: md441_1
+  file: ir/md441_1.wav
+  output_gain_db: -20.9478626
+- values:
+    preset: md441_2
+  file: ir/md441_2.wav
+  output_gain_db: -21.1153870
+- values:
+    preset: beta52
+  file: ir/beta52.wav
+  output_gain_db: -25.3922710
+- values:
+    preset: mtg_1
+  file: ir/mtg_1.wav
+  output_gain_db: -20.3208656
+- values:
+    preset: mtg_2
+  file: ir/mtg_2.wav
+  output_gain_db: -20.8285637
+- values:
+    preset: mtg_3
+  file: ir/mtg_3.wav
+  output_gain_db: -21.2159710
+- values:
+    preset: sm7
+  file: ir/sm7.wav
+  output_gain_db: -20.6658440
+- values:
+    preset: tlm170_1
+  file: ir/tlm170_1.wav
+  output_gain_db: -19.1084805
+- values:
+    preset: tlm170_2
+  file: ir/tlm170_2.wav
+  output_gain_db: -18.8617210
+- values:
+    preset: u87_1
+  file: ir/u87_1.wav
+  output_gain_db: -21.7235947
+- values:
+    preset: u87_2
+  file: ir/u87_2.wav
+  output_gain_db: -23.1432247

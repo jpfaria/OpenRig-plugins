@@ -248,26 +248,69 @@ Cabinet impulse responses for electric guitar speakers.
 |---|---|---|
 | `american_2x12` | American 2x12 | -- |
 | `brit_4x12` | Brit 4x12 | -- |
+| `ir_allure_pack` | Allure Pack | allure |
+| `ir_ampeg_combo` | Ampeg Combo | ampeg |
 | `ir_ampeg_svt_8x10` | SVT 4x10/8x10 | ampeg |
+| `ir_ampeg_v4b_custom_4x12` | V4B Custom 4x12 | ampeg |
+| `ir_ampeg_v4b_marshall_4x12` | V4B Marshall 4x12 | ampeg |
+| `ir_ampeg_v4b_trace_elliot` | V4B Trace Elliot | ampeg |
+| `ir_bass_dr_norton` | Bass Setup (dr_norton) | diy |
+| `ir_bass_hiwatt_zuhause` | Bass Setup Hiwatt (Zuhause) | hiwatt |
+| `ir_bass_orange_zuhause` | Bass Setup Orange (Zuhause) | orange |
 | `ir_cel_cream_4x12` | Celestion Cream 4x12 | celestion |
 | `ir_engl_e412` | E412 Karnivore | engl |
 | `ir_evh_5150iii_4x12` | 5150III 4x12 G12-EVH | evh |
+| `ir_fair_modern_rock` | faIR Modern Rock | fair |
 | `ir_fender_bassman_2x15` | Bassman 2x15 CTS | fender |
 | `ir_fender_deluxe_reverb_oxford` | Deluxe Reverb Oxford | fender |
 | `ir_fender_super_reverb_4x10` | Super Reverb 4x10 | fender |
 | `ir_fender_twin_reverb_2x12` | Twin Reverb 2x12 | fender |
 | `ir_g12m_greenback_2x12` | G12M Greenback 2x12 | celestion |
 | `ir_g12t_75_4x12` | G12T-75 4x12 | celestion |
+| `ir_gods_cab` | God's Cab | gods_cab |
+| `ir_gods_cab_legacy` | God's Cab Legacy | gods_cab |
+| `ir_guitarhack_impulses` | GuitarHack Impulses | guitarhack |
+| `ir_hiwatt_acoustic_4x12` | Hiwatt Acoustic 4x12 (gottkaiser) | hiwatt |
+| `ir_hiwatt_oiro` | Hiwatt (oiro) | hiwatt |
+| `ir_kalthallen_4x12` | Kalthallen 4x12 | kalthallen |
+| `ir_london_city_100w_snb` | London City 100W (SNB) | london_city |
+| `ir_london_city_50w_snb` | London City 50W (SNB) | london_city |
+| `ir_london_city_acoustic_brilliant` | London City Acoustic Cab Brilliant | london_city |
+| `ir_london_city_custom_4x12` | London City Custom 4x12 | london_city |
+| `ir_london_city_punk_brilliant` | London City Punk Cab Brilliant | london_city |
+| `ir_london_city_punk_normal` | London City Punk Cab Normal | london_city |
+| `ir_london_city_the_big_bang` | London City Gtr Setup (the_big_bang) | london_city |
+| `ir_marshall_1960_g12m25` | 1960 G12M25 Greenback | marshall |
 | `ir_marshall_1960av_4x12` | 1960AV 4x12 | marshall |
 | `ir_marshall_1960bv_4x12` | 1960BV 4x12 | marshall |
 | `ir_marshall_1960tv_greenback` | 1960TV Greenback | marshall |
 | `ir_marshall_4x12_v30` | 4x12 V30 | marshall |
+| `ir_marshall_jcm900_blue_jubilee` | JCM900 Blue Jubilee | marshall |
+| `ir_marshall_jcm900_the_sea` | JCM900 Setup (the_sea) | marshall |
+| `ir_marshall_jmp_rekorder` | JMP Rekorder | marshall |
+| `ir_marshall_vintage_da_impact` | Vintage Marshall Setup (da_impact) | marshall |
+| `ir_matamp_acoustic_cab` | Matamp Acoustic Cab | matamp |
+| `ir_matamp_gk_bass` | Matamp GK Bass | matamp |
+| `ir_matamp_gk_gtr` | Matamp GK Gtr | matamp |
 | `ir_mesa_os_4x12_v30` | Oversized 4x12 V30 | mesa |
+| `ir_mesa_rectifier_da_impact` | Rectifier Setup (da_impact) | mesa |
 | `ir_mesa_recto_v30` | Recto V30 | mesa |
 | `ir_mesa_traditional_4x12_v30` | Traditional 4x12 V30 | mesa |
 | `ir_orange_2x12_v30` | Orange 2x12 V30 | orange |
+| `ir_orange_custom_4x12` | Orange Custom 4x12 | orange |
+| `ir_orange_matamp_oiro` | Orange Matamp Setup (oiro) | orange |
+| `ir_orange_the_big_bang` | Orange Gtr Setup (the_big_bang) | orange |
+| `ir_roland_jazz_chorus` | Jazz Chorus | roland |
 | `ir_v30_4x12` | V30 4x12 | celestion |
+| `ir_vox_ac120` | AC120 | vox |
 | `ir_vox_ac30_blue` | AC30 Blue | vox |
+| `ir_vox_ac30_bright_channel` | AC30 Bright Channel | vox |
+| `ir_vox_ac30_brilliant_snb` | AC30 Brilliant (SNB) | vox |
+| `ir_vox_ac30_custom_4x12_bright` | AC30 Custom 4x12 Bright | vox |
+| `ir_vox_ac30_custom_4x12_normal` | AC30 Custom 4x12 Normal | vox |
+| `ir_vox_ac30_normal_channel` | AC30 Normal Channel | vox |
+| `ir_vox_ac30_normal_snb` | AC30 Normal (SNB) | vox |
+| `ir_vox_the_big_bang` | Vox Gtr Setup (the_big_bang) | vox |
 | `lv2_gx_ultracab` | GxUltraCab | guitarix |
 | `vintage_1x12` | Vintage 1x12 | -- |
 

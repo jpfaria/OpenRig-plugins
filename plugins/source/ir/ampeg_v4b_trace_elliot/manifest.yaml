@@ -1,0 +1,28 @@
+# Community capture: V4B Trace Elliot. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_ampeg_v4b_trace_elliot
+display_name: V4B Trace Elliot
+brand: ampeg
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 1
+  - sm7
+  - u87
+captures:
+- values:
+    preset: 1
+  file: ir/1.wav
+  output_gain_db: -18.1059608
+- values:
+    preset: sm7
+  file: ir/sm7.wav
+  output_gain_db: -20.8444614
+- values:
+    preset: u87
+  file: ir/u87.wav
+  output_gain_db: -21.6465302

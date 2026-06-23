@@ -1,0 +1,32 @@
+# Community capture: Matamp GK Gtr (AT4033 mic). Four takes.
+manifest_version: 1
+id: ir_matamp_gk_gtr
+display_name: Matamp GK Gtr
+brand: matamp
+type: cab
+backend: ir
+parameters:
+- name: take
+  display_name: Take
+  values:
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+captures:
+- values:
+    take: '2'
+  file: ir/2.wav
+  output_gain_db: -20.9517784
+- values:
+    take: '3'
+  file: ir/3.wav
+  output_gain_db: -19.5355625
+- values:
+    take: '4'
+  file: ir/4.wav
+  output_gain_db: -26.5683250
+- values:
+    take: '5'
+  file: ir/5.wav
+  output_gain_db: -20.0915375

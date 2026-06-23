@@ -1,0 +1,33 @@
+# Community capture: Vox Gtr Setup (the_big_bang). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_the_big_bang
+display_name: Vox Gtr Setup (the_big_bang)
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bright1_raum
+  - bright1
+  - bright2a
+  - bright2b
+captures:
+- values:
+    preset: bright1_raum
+  file: ir/bright1_raum.wav
+  output_gain_db: -34.3867874
+- values:
+    preset: bright1
+  file: ir/bright1.wav
+  output_gain_db: -21.4403458
+- values:
+    preset: bright2a
+  file: ir/bright2a.wav
+  output_gain_db: -35.0330200
+- values:
+    preset: bright2b
+  file: ir/bright2b.wav
+  output_gain_db: -22.1996002

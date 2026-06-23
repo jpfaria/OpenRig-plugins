@@ -1,0 +1,53 @@
+# Community capture: AC30 Normal Channel. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_ac30_normal_channel
+display_name: AC30 Normal Channel
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 441_on_axis
+  - ed911_on_axis
+  - m930_on_axis1
+  - m930_on_axis2
+  - m930_rm
+  - m930_von_hinten
+  - sm57_on_axis
+  - u87
+captures:
+- values:
+    preset: 441_on_axis
+  file: ir/441_on_axis.wav
+  output_gain_db: -17.4557381
+- values:
+    preset: ed911_on_axis
+  file: ir/ed911_on_axis.wav
+  output_gain_db: -16.3768845
+- values:
+    preset: m930_on_axis1
+  file: ir/m930_on_axis1.wav
+  output_gain_db: -22.7448673
+- values:
+    preset: m930_on_axis2
+  file: ir/m930_on_axis2.wav
+  output_gain_db: -20.4224014
+- values:
+    preset: m930_rm
+  file: ir/m930_rm.wav
+  output_gain_db: -21.8118172
+- values:
+    preset: m930_von_hinten
+  file: ir/m930_von_hinten.wav
+  output_gain_db: -27.8764648
+- values:
+    preset: sm57_on_axis
+  file: ir/sm57_on_axis.wav
+  output_gain_db: -14.8303499
+- values:
+    preset: u87
+  file: ir/u87.wav
+  output_gain_db: -23.4413166

@@ -1,0 +1,38 @@
+# Community capture: AC30 Custom 4x12 Normal. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_ac30_custom_4x12_normal
+display_name: AC30 Custom 4x12 Normal
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - custom_normal_m930_on_axis
+  - custom_normal_m930_rm
+  - custom_normal_u87_2
+  - normal_raum_the_big_bang
+  - normal_the_big_bang
+captures:
+- values:
+    preset: custom_normal_m930_on_axis
+  file: ir/custom_normal_m930_on_axis.wav
+  output_gain_db: -22.3690166
+- values:
+    preset: custom_normal_m930_rm
+  file: ir/custom_normal_m930_rm.wav
+  output_gain_db: -22.5192528
+- values:
+    preset: custom_normal_u87_2
+  file: ir/custom_normal_u87_2.wav
+  output_gain_db: -25.2113667
+- values:
+    preset: normal_raum_the_big_bang
+  file: ir/normal_raum_the_big_bang.wav
+  output_gain_db: -35.0689163
+- values:
+    preset: normal_the_big_bang
+  file: ir/normal_the_big_bang.wav
+  output_gain_db: -20.4222832

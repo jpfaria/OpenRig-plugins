@@ -1,0 +1,38 @@
+# Community capture: Matamp Acoustic Cab. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_matamp_acoustic_cab
+display_name: Matamp Acoustic Cab
+brand: matamp
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - acsp_alt_at4033
+  - acsp_alt_close
+  - acsp_alt_mtg_close_d3
+  - acsp_alt_mtg
+  - acspbeide_2mtg
+captures:
+- values:
+    preset: acsp_alt_at4033
+  file: ir/acsp_alt_at4033.wav
+  output_gain_db: -23.2094822
+- values:
+    preset: acsp_alt_close
+  file: ir/acsp_alt_close.wav
+  output_gain_db: -21.9511795
+- values:
+    preset: acsp_alt_mtg_close_d3
+  file: ir/acsp_alt_mtg_close_d3.wav
+  output_gain_db: -29.8728561
+- values:
+    preset: acsp_alt_mtg
+  file: ir/acsp_alt_mtg.wav
+  output_gain_db: -22.2585526
+- values:
+    preset: acspbeide_2mtg
+  file: ir/acspbeide_2mtg.wav
+  output_gain_db: -22.1582909

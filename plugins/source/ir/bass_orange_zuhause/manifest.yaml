@@ -1,0 +1,33 @@
+# Community capture: Bass Setup Orange (Zuhause). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_bass_orange_zuhause
+display_name: Bass Setup Orange (Zuhause)
+brand: orange
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - drive1
+  - drive2
+  - drive3
+  - drive4
+captures:
+- values:
+    preset: drive1
+  file: ir/drive1.wav
+  output_gain_db: -25.3037987
+- values:
+    preset: drive2
+  file: ir/drive2.wav
+  output_gain_db: -24.4042187
+- values:
+    preset: drive3
+  file: ir/drive3.wav
+  output_gain_db: -23.8389721
+- values:
+    preset: drive4
+  file: ir/drive4.wav
+  output_gain_db: -24.6911736

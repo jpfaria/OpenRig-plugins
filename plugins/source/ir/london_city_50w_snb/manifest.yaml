@@ -1,0 +1,33 @@
+# Community capture: London City 50W (SNB). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_50w_snb
+display_name: London City 50W (SNB)
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bx44
+  - cmv3_m7
+  - cmv3_m9
+  - km53
+captures:
+- values:
+    preset: bx44
+  file: ir/bx44.wav
+  output_gain_db: -22.1330681
+- values:
+    preset: cmv3_m7
+  file: ir/cmv3_m7.wav
+  output_gain_db: -30.2541943
+- values:
+    preset: cmv3_m9
+  file: ir/cmv3_m9.wav
+  output_gain_db: -29.0964184
+- values:
+    preset: km53
+  file: ir/km53.wav
+  output_gain_db: -22.1927471

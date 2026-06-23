@@ -1,0 +1,43 @@
+# Allure Pack free IRs — six distinct vintage amp/cab/speaker voicings.
+# Each file is a complete named tone (cab + speaker), so the axis is a preset selector.
+manifest_version: 1
+id: ir_allure_pack
+display_name: Allure Pack
+brand: allure
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 59_tweed_p10n
+  - 64_a30_g12
+  - 64_usdeluxe_p12n
+  - 67_brit_greenback
+  - 70s_whowatt_100
+  - 90s_cali_v30
+captures:
+- values:
+    preset: 59_tweed_p10n
+  file: ir/59_tweed_p10n.wav
+  output_gain_db: -16.9470158
+- values:
+    preset: 64_a30_g12
+  file: ir/64_a30_g12.wav
+  output_gain_db: -25.8171253
+- values:
+    preset: 64_usdeluxe_p12n
+  file: ir/64_usdeluxe_p12n.wav
+  output_gain_db: -21.5535564
+- values:
+    preset: 67_brit_greenback
+  file: ir/67_brit_greenback.wav
+  output_gain_db: -21.4392929
+- values:
+    preset: 70s_whowatt_100
+  file: ir/70s_whowatt_100.wav
+  output_gain_db: -18.5235157
+- values:
+    preset: 90s_cali_v30
+  file: ir/90s_cali_v30.wav
+  output_gain_db: -18.8310642

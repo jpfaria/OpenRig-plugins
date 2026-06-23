@@ -1,0 +1,113 @@
+# Community capture: London City 100W (SNB). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_100w_snb
+display_name: London City 100W (SNB)
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bx44_stalevel_close
+  - bx44_stalevel_closer
+  - bx44_stalevel_far_amb
+  - bx44_stalevel_far
+  - bx44_stalevel
+  - cmv3_m7_stalevel
+  - cmv3_m9_stalevel_far_amb
+  - cmv3_m9_stalevel_far
+  - ka1000_stalevel
+  - km184_stalevel
+  - km53_stalevel
+  - m49_stalevel
+  - m930_stalevel
+  - md211_stalevel
+  - md421_stalevel
+  - re20_stalevel
+  - u47fet_stalevel
+  - u47tube_stalevel
+  - sm57_stalevel
+  - unidyne_stalevel
+captures:
+- values:
+    preset: bx44_stalevel_close
+  file: ir/bx44_stalevel_close.wav
+  output_gain_db: -23.4045753
+- values:
+    preset: bx44_stalevel_closer
+  file: ir/bx44_stalevel_closer.wav
+  output_gain_db: -23.9085579
+- values:
+    preset: bx44_stalevel_far_amb
+  file: ir/bx44_stalevel_far_amb.wav
+  output_gain_db: -25.8208370
+- values:
+    preset: bx44_stalevel_far
+  file: ir/bx44_stalevel_far.wav
+  output_gain_db: -23.3907566
+- values:
+    preset: bx44_stalevel
+  file: ir/bx44_stalevel.wav
+  output_gain_db: -22.7027969
+- values:
+    preset: cmv3_m7_stalevel
+  file: ir/cmv3_m7_stalevel.wav
+  output_gain_db: -27.4074898
+- values:
+    preset: cmv3_m9_stalevel_far_amb
+  file: ir/cmv3_m9_stalevel_far_amb.wav
+  output_gain_db: -23.7170677
+- values:
+    preset: cmv3_m9_stalevel_far
+  file: ir/cmv3_m9_stalevel_far.wav
+  output_gain_db: -23.5634327
+- values:
+    preset: ka1000_stalevel
+  file: ir/ka1000_stalevel.wav
+  output_gain_db: -20.4092941
+- values:
+    preset: km184_stalevel
+  file: ir/km184_stalevel.wav
+  output_gain_db: -22.2373180
+- values:
+    preset: km53_stalevel
+  file: ir/km53_stalevel.wav
+  output_gain_db: -22.3495789
+- values:
+    preset: m49_stalevel
+  file: ir/m49_stalevel.wav
+  output_gain_db: -23.4892616
+- values:
+    preset: m930_stalevel
+  file: ir/m930_stalevel.wav
+  output_gain_db: -22.5915318
+- values:
+    preset: md211_stalevel
+  file: ir/md211_stalevel.wav
+  output_gain_db: -21.9022064
+- values:
+    preset: md421_stalevel
+  file: ir/md421_stalevel.wav
+  output_gain_db: -22.8635864
+- values:
+    preset: re20_stalevel
+  file: ir/re20_stalevel.wav
+  output_gain_db: -22.2498283
+- values:
+    preset: u47fet_stalevel
+  file: ir/u47fet_stalevel.wav
+  output_gain_db: -22.9805603
+- values:
+    preset: u47tube_stalevel
+  file: ir/u47tube_stalevel.wav
+  output_gain_db: -21.9827309
+- values:
+    preset: sm57_stalevel
+  file: ir/sm57_stalevel.wav
+  output_gain_db: -20.9898968
+- values:
+    preset: unidyne_stalevel
+  file: ir/unidyne_stalevel.wav
+  output_gain_db: -22.7572250

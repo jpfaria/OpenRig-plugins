@@ -1,0 +1,153 @@
+# faIR Modern Rock (free) — modern-rock mixed/blended IRs. Each file is a complete
+# named tone, so the axis is a preset selector. Stereo variants kept as stereo.
+manifest_version: 1
+id: ir_fair_modern_rock
+display_name: faIR Modern Rock
+brand: fair
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - addictive_sparc_mono
+  - addictive_sparc_stereo
+  - addictive_solid_mono
+  - addictive_solid_stereo
+  - addictive_tube_mono
+  - addictive_tube_stereo
+  - aliceinbones
+  - blacksungarden
+  - britishconvolution_sparc
+  - britishconvolution_solid
+  - britishconvolution_tube
+  - cornontheleash
+  - footofly
+  - greedsacrifice
+  - greenbasketcase
+  - iamthefredman_sparc
+  - iamthefredman_solid
+  - iamthefredman_tube
+  - scorpyoulikeahurricane
+  - spoongarden
+  - stacksmack_sparc
+  - stacksmack_solid
+  - stacksmack_tube
+  - sweetchildofgun
+  - thepowerofthree_sparc
+  - thepowerofthree_solid
+  - thepowerofthree_tube
+  - toolpot
+captures:
+- values:
+    preset: addictive_sparc_mono
+  file: ir/addictive_sparc_mono.wav
+  output_gain_db: -16.8381767
+- values:
+    preset: addictive_sparc_stereo
+  file: ir/addictive_sparc_stereo.wav
+  output_gain_db: -16.8381882
+- values:
+    preset: addictive_solid_mono
+  file: ir/addictive_solid_mono.wav
+  output_gain_db: -16.3177109
+- values:
+    preset: addictive_solid_stereo
+  file: ir/addictive_solid_stereo.wav
+  output_gain_db: -16.3177490
+- values:
+    preset: addictive_tube_mono
+  file: ir/addictive_tube_mono.wav
+  output_gain_db: -24.9493370
+- values:
+    preset: addictive_tube_stereo
+  file: ir/addictive_tube_stereo.wav
+  output_gain_db: -24.9493828
+- values:
+    preset: aliceinbones
+  file: ir/aliceinbones.wav
+  output_gain_db: -20.7282372
+- values:
+    preset: blacksungarden
+  file: ir/blacksungarden.wav
+  output_gain_db: -18.5625019
+- values:
+    preset: britishconvolution_sparc
+  file: ir/britishconvolution_sparc.wav
+  output_gain_db: -18.0026817
+- values:
+    preset: britishconvolution_solid
+  file: ir/britishconvolution_solid.wav
+  output_gain_db: -16.0144558
+- values:
+    preset: britishconvolution_tube
+  file: ir/britishconvolution_tube.wav
+  output_gain_db: -20.4800358
+- values:
+    preset: cornontheleash
+  file: ir/cornontheleash.wav
+  output_gain_db: -20.3902111
+- values:
+    preset: footofly
+  file: ir/footofly.wav
+  output_gain_db: -21.0407047
+- values:
+    preset: greedsacrifice
+  file: ir/greedsacrifice.wav
+  output_gain_db: -19.2049065
+- values:
+    preset: greenbasketcase
+  file: ir/greenbasketcase.wav
+  output_gain_db: -20.6308804
+- values:
+    preset: iamthefredman_sparc
+  file: ir/iamthefredman_sparc.wav
+  output_gain_db: -16.8768444
+- values:
+    preset: iamthefredman_solid
+  file: ir/iamthefredman_solid.wav
+  output_gain_db: -14.2082710
+- values:
+    preset: iamthefredman_tube
+  file: ir/iamthefredman_tube.wav
+  output_gain_db: -18.0576038
+- values:
+    preset: scorpyoulikeahurricane
+  file: ir/scorpyoulikeahurricane.wav
+  output_gain_db: -17.3078232
+- values:
+    preset: spoongarden
+  file: ir/spoongarden.wav
+  output_gain_db: -21.8225746
+- values:
+    preset: stacksmack_sparc
+  file: ir/stacksmack_sparc.wav
+  output_gain_db: -23.1371841
+- values:
+    preset: stacksmack_solid
+  file: ir/stacksmack_solid.wav
+  output_gain_db: -22.8115025
+- values:
+    preset: stacksmack_tube
+  file: ir/stacksmack_tube.wav
+  output_gain_db: -24.7679348
+- values:
+    preset: sweetchildofgun
+  file: ir/sweetchildofgun.wav
+  output_gain_db: -20.2780972
+- values:
+    preset: thepowerofthree_sparc
+  file: ir/thepowerofthree_sparc.wav
+  output_gain_db: -17.8267994
+- values:
+    preset: thepowerofthree_solid
+  file: ir/thepowerofthree_solid.wav
+  output_gain_db: -16.7990360
+- values:
+    preset: thepowerofthree_tube
+  file: ir/thepowerofthree_tube.wav
+  output_gain_db: -18.9053688
+- values:
+    preset: toolpot
+  file: ir/toolpot.wav
+  output_gain_db: -15.2632761

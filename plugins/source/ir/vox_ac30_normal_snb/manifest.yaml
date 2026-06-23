@@ -1,0 +1,73 @@
+# Community capture: AC30 Normal (SNB). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_ac30_normal_snb
+display_name: AC30 Normal (SNB)
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - at4033a_neve
+  - at4033a_stalevel
+  - bx44_neve_close
+  - bx44_stalevel_close
+  - u67_neve
+  - u67_stalevel
+  - bx44_neve_far
+  - bx44_stalevel_far
+  - sm57_neve_close
+  - sm57_neve_closer
+  - sm57_stalevel_close
+  - sm57_stalevel_closer
+captures:
+- values:
+    preset: at4033a_neve
+  file: ir/at4033a_neve.wav
+  output_gain_db: -21.7160206
+- values:
+    preset: at4033a_stalevel
+  file: ir/at4033a_stalevel.wav
+  output_gain_db: -21.5748806
+- values:
+    preset: bx44_neve_close
+  file: ir/bx44_neve_close.wav
+  output_gain_db: -20.8645420
+- values:
+    preset: bx44_stalevel_close
+  file: ir/bx44_stalevel_close.wav
+  output_gain_db: -20.7441444
+- values:
+    preset: u67_neve
+  file: ir/u67_neve.wav
+  output_gain_db: -21.6910000
+- values:
+    preset: u67_stalevel
+  file: ir/u67_stalevel.wav
+  output_gain_db: -21.6860943
+- values:
+    preset: bx44_neve_far
+  file: ir/bx44_neve_far.wav
+  output_gain_db: -22.3302441
+- values:
+    preset: bx44_stalevel_far
+  file: ir/bx44_stalevel_far.wav
+  output_gain_db: -22.3889122
+- values:
+    preset: sm57_neve_close
+  file: ir/sm57_neve_close.wav
+  output_gain_db: -21.5513763
+- values:
+    preset: sm57_neve_closer
+  file: ir/sm57_neve_closer.wav
+  output_gain_db: -20.4192486
+- values:
+    preset: sm57_stalevel_close
+  file: ir/sm57_stalevel_close.wav
+  output_gain_db: -21.7177143
+- values:
+    preset: sm57_stalevel_closer
+  file: ir/sm57_stalevel_closer.wav
+  output_gain_db: -20.7434502

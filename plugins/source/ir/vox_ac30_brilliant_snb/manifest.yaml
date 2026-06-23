@@ -1,0 +1,63 @@
+# Community capture: AC30 Brilliant (SNB). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_ac30_brilliant_snb
+display_name: AC30 Brilliant (SNB)
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - bx44_neve_close
+  - bx44_stalevel_close
+  - plus_bass_at4033a_neve
+  - plus_bass_at4033a_stalevel
+  - plus_bass_bx44_neve_close
+  - plus_bass_u67_neve
+  - plus_bass_u67_stalevel
+  - plus_bass_bx44_neve_far
+  - plus_bass_bx44_stalevel_far
+  - plus_bass_bx44_stalevel_close
+captures:
+- values:
+    preset: bx44_neve_close
+  file: ir/bx44_neve_close.wav
+  output_gain_db: -21.0640125
+- values:
+    preset: bx44_stalevel_close
+  file: ir/bx44_stalevel_close.wav
+  output_gain_db: -20.9078979
+- values:
+    preset: plus_bass_at4033a_neve
+  file: ir/plus_bass_at4033a_neve.wav
+  output_gain_db: -20.7281303
+- values:
+    preset: plus_bass_at4033a_stalevel
+  file: ir/plus_bass_at4033a_stalevel.wav
+  output_gain_db: -20.3382034
+- values:
+    preset: plus_bass_bx44_neve_close
+  file: ir/plus_bass_bx44_neve_close.wav
+  output_gain_db: -19.7956524
+- values:
+    preset: plus_bass_u67_neve
+  file: ir/plus_bass_u67_neve.wav
+  output_gain_db: -20.6843605
+- values:
+    preset: plus_bass_u67_stalevel
+  file: ir/plus_bass_u67_stalevel.wav
+  output_gain_db: -20.4544449
+- values:
+    preset: plus_bass_bx44_neve_far
+  file: ir/plus_bass_bx44_neve_far.wav
+  output_gain_db: -21.4487457
+- values:
+    preset: plus_bass_bx44_stalevel_far
+  file: ir/plus_bass_bx44_stalevel_far.wav
+  output_gain_db: -21.2627659
+- values:
+    preset: plus_bass_bx44_stalevel_close
+  file: ir/plus_bass_bx44_stalevel_close.wav
+  output_gain_db: -19.7004623

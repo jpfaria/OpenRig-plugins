@@ -1,0 +1,33 @@
+# Community capture: Vintage Marshall Setup (da_impact). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_marshall_vintage_da_impact
+display_name: Vintage Marshall Setup (da_impact)
+brand: marshall
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+captures:
+- values:
+    preset: 1
+  file: ir/1.wav
+  output_gain_db: -21.5057564
+- values:
+    preset: 2
+  file: ir/2.wav
+  output_gain_db: -21.1151524
+- values:
+    preset: 3
+  file: ir/3.wav
+  output_gain_db: -22.2411613
+- values:
+    preset: 4
+  file: ir/4.wav
+  output_gain_db: -21.2789154

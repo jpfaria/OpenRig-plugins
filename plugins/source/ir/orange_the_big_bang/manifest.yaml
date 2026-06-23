@@ -1,0 +1,28 @@
+# Community capture: Orange Gtr Setup (the_big_bang). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_orange_the_big_bang
+display_name: Orange Gtr Setup (the_big_bang)
+brand: orange
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - raum
+  - sm57
+  - sm7
+captures:
+- values:
+    preset: raum
+  file: ir/raum.wav
+  output_gain_db: -31.6133919
+- values:
+    preset: sm57
+  file: ir/sm57.wav
+  output_gain_db: -20.8711891
+- values:
+    preset: sm7
+  file: ir/sm7.wav
+  output_gain_db: -20.9691277

@@ -1,0 +1,78 @@
+# Community capture: London City Acoustic Cab Brilliant. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_acoustic_brilliant
+display_name: London City Acoustic Cab Brilliant
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - alt_2mtg
+  - alt_2sm57
+  - alt_at4033
+  - alt_km184
+  - alt_m71
+  - alt_mtg
+  - alt_schoeps
+  - alt_sm57
+  - neu_2sm57
+  - neu_at4033
+  - neu_km184
+  - neu_m71
+  - neu_sm57_1
+captures:
+- values:
+    preset: alt_2mtg
+  file: ir/alt_2mtg.wav
+  output_gain_db: -21.2435188
+- values:
+    preset: alt_2sm57
+  file: ir/alt_2sm57.wav
+  output_gain_db: -17.6698360
+- values:
+    preset: alt_at4033
+  file: ir/alt_at4033.wav
+  output_gain_db: -19.9326611
+- values:
+    preset: alt_km184
+  file: ir/alt_km184.wav
+  output_gain_db: -18.7608929
+- values:
+    preset: alt_m71
+  file: ir/alt_m71.wav
+  output_gain_db: -17.7103348
+- values:
+    preset: alt_mtg
+  file: ir/alt_mtg.wav
+  output_gain_db: -19.9586964
+- values:
+    preset: alt_schoeps
+  file: ir/alt_schoeps.wav
+  output_gain_db: -18.5163059
+- values:
+    preset: alt_sm57
+  file: ir/alt_sm57.wav
+  output_gain_db: -17.1434956
+- values:
+    preset: neu_2sm57
+  file: ir/neu_2sm57.wav
+  output_gain_db: -22.2131119
+- values:
+    preset: neu_at4033
+  file: ir/neu_at4033.wav
+  output_gain_db: -23.9188919
+- values:
+    preset: neu_km184
+  file: ir/neu_km184.wav
+  output_gain_db: -23.6742840
+- values:
+    preset: neu_m71
+  file: ir/neu_m71.wav
+  output_gain_db: -22.1451092
+- values:
+    preset: neu_sm57_1
+  file: ir/neu_sm57_1.wav
+  output_gain_db: -21.9351959

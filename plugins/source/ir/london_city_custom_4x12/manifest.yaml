@@ -1,0 +1,78 @@
+# Community capture: London City Custom 4x12. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_custom_4x12
+display_name: London City Custom 4x12
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 441_off_axis
+  - 441_on_axis
+  - m930_flur
+  - m930_on_axis1
+  - m930_on_axis2
+  - m930_raum
+  - mpc_flur1
+  - mpc_flur2
+  - mpc1
+  - mpc2
+  - sm57_off_axis
+  - sm57_on_axis1
+  - sm57_on_axis2
+captures:
+- values:
+    preset: 441_off_axis
+  file: ir/441_off_axis.wav
+  output_gain_db: -19.2684441
+- values:
+    preset: 441_on_axis
+  file: ir/441_on_axis.wav
+  output_gain_db: -19.3287601
+- values:
+    preset: m930_flur
+  file: ir/m930_flur.wav
+  output_gain_db: -27.4629860
+- values:
+    preset: m930_on_axis1
+  file: ir/m930_on_axis1.wav
+  output_gain_db: -20.0991974
+- values:
+    preset: m930_on_axis2
+  file: ir/m930_on_axis2.wav
+  output_gain_db: -27.1792908
+- values:
+    preset: m930_raum
+  file: ir/m930_raum.wav
+  output_gain_db: -18.3177223
+- values:
+    preset: mpc_flur1
+  file: ir/mpc_flur1.wav
+  output_gain_db: -26.4627018
+- values:
+    preset: mpc_flur2
+  file: ir/mpc_flur2.wav
+  output_gain_db: -31.0798759
+- values:
+    preset: mpc1
+  file: ir/mpc1.wav
+  output_gain_db: -21.4067841
+- values:
+    preset: mpc2
+  file: ir/mpc2.wav
+  output_gain_db: -24.5398560
+- values:
+    preset: sm57_off_axis
+  file: ir/sm57_off_axis.wav
+  output_gain_db: -17.0075035
+- values:
+    preset: sm57_on_axis1
+  file: ir/sm57_on_axis1.wav
+  output_gain_db: -18.0561562
+- values:
+    preset: sm57_on_axis2
+  file: ir/sm57_on_axis2.wav
+  output_gain_db: -18.1735859

@@ -1,0 +1,53 @@
+# Community capture: Hiwatt (oiro). Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_hiwatt_oiro
+display_name: Hiwatt (oiro)
+brand: hiwatt
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - mtg_b1
+  - mtg_b2
+  - mtg_n1
+  - mtg_n2
+  - sm7_b1
+  - sm7_b2
+  - sm7_n1
+  - sm7_n2
+captures:
+- values:
+    preset: mtg_b1
+  file: ir/mtg_b1.wav
+  output_gain_db: -20.5979233
+- values:
+    preset: mtg_b2
+  file: ir/mtg_b2.wav
+  output_gain_db: -20.7331257
+- values:
+    preset: mtg_n1
+  file: ir/mtg_n1.wav
+  output_gain_db: -23.2051830
+- values:
+    preset: mtg_n2
+  file: ir/mtg_n2.wav
+  output_gain_db: -20.6075153
+- values:
+    preset: sm7_b1
+  file: ir/sm7_b1.wav
+  output_gain_db: -20.9247169
+- values:
+    preset: sm7_b2
+  file: ir/sm7_b2.wav
+  output_gain_db: -20.5076752
+- values:
+    preset: sm7_n1
+  file: ir/sm7_n1.wav
+  output_gain_db: -26.4730873
+- values:
+    preset: sm7_n2
+  file: ir/sm7_n2.wav
+  output_gain_db: -20.9205208

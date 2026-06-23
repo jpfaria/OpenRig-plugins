@@ -1,0 +1,23 @@
+# Community capture: AC120. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_vox_ac120
+display_name: AC120
+brand: vox
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - m94
+  - mtg_hinten
+captures:
+- values:
+    preset: m94
+  file: ir/m94.wav
+  output_gain_db: -21.7027740
+- values:
+    preset: mtg_hinten
+  file: ir/mtg_hinten.wav
+  output_gain_db: -31.5501499

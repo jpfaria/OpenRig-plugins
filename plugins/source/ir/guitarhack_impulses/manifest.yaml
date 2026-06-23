@@ -1,0 +1,337 @@
+# GuitarHack Impulses (free classic pack) — six capture sets (version), each with
+# several mic placements (position). Stereo files preserved.
+manifest_version: 1
+id: ir_guitarhack_impulses
+display_name: GuitarHack Impulses
+brand: guitarhack
+type: cab
+backend: ir
+parameters:
+- name: version
+  display_name: Version
+  values:
+  - jj_powertube
+  - louder_jj_straight
+  - louder_jj_samples
+  - multiple_fredman
+  - original
+  - fredman_sneap
+- name: position
+  display_name: Position
+  values:
+  - bbac_half
+  - bbae_0
+  - bbae_1
+  - bbae_half
+  - between0
+  - between_0
+  - between_1
+  - between_1_bottom_speaker
+  - between_1andhalf
+  - between_45
+  - between_half
+  - between_straight_10
+  - between_straight_20
+  - centre0
+  - centre45_0
+  - centre45_1
+  - centre45_half
+  - centre_0
+  - centre_1
+  - centre_1_bottom_speaker
+  - centre_45
+  - centre_half
+  - edge0
+  - edge_0
+  - edge_1
+  - edge_1_bottom_speaker
+  - edge_1_i_inch_ala_sneap_pic
+  - edge_1andhalf
+  - edge_45
+  - edge_half
+  - edge_sneap
+  - edge_straight_10
+  - edge_straight_20
+  - fred45_0
+  - fred45_1
+  - fred45_half
+  - fredman_angled
+  - fredman_angled_10
+  - fredman_angled_5
+  - fredman_straight
+  - fredman_straight_20
+  - inch_off_edge_1
+  - original_between
+  - original_centre
+  - original_edge
+captures:
+- values:
+    version: jj_powertube
+    position: bbae_0
+  file: ir/jj_powertube_bbae_0.wav
+  output_gain_db: -26.0103912
+- values:
+    version: jj_powertube
+    position: bbae_1
+  file: ir/jj_powertube_bbae_1.wav
+  output_gain_db: -25.1475506
+- values:
+    version: jj_powertube
+    position: bbae_half
+  file: ir/jj_powertube_bbae_half.wav
+  output_gain_db: -25.7876663
+- values:
+    version: jj_powertube
+    position: between_0
+  file: ir/jj_powertube_between_0.wav
+  output_gain_db: -24.8204784
+- values:
+    version: jj_powertube
+    position: between_1
+  file: ir/jj_powertube_between_1.wav
+  output_gain_db: -23.9938583
+- values:
+    version: jj_powertube
+    position: between_half
+  file: ir/jj_powertube_between_half.wav
+  output_gain_db: -24.6022873
+- values:
+    version: jj_powertube
+    position: centre_0
+  file: ir/jj_powertube_centre_0.wav
+  output_gain_db: -24.1406727
+- values:
+    version: jj_powertube
+    position: centre_1
+  file: ir/jj_powertube_centre_1.wav
+  output_gain_db: -23.2382908
+- values:
+    version: jj_powertube
+    position: centre_half
+  file: ir/jj_powertube_centre_half.wav
+  output_gain_db: -23.8584480
+- values:
+    version: jj_powertube
+    position: centre45_0
+  file: ir/jj_powertube_centre45_0.wav
+  output_gain_db: -24.0277328
+- values:
+    version: jj_powertube
+    position: centre45_1
+  file: ir/jj_powertube_centre45_1.wav
+  output_gain_db: -23.3696575
+- values:
+    version: jj_powertube
+    position: centre45_half
+  file: ir/jj_powertube_centre45_half.wav
+  output_gain_db: -23.6362228
+- values:
+    version: jj_powertube
+    position: edge_0
+  file: ir/jj_powertube_edge_0.wav
+  output_gain_db: -26.1980648
+- values:
+    version: jj_powertube
+    position: edge_1
+  file: ir/jj_powertube_edge_1.wav
+  output_gain_db: -25.0293770
+- values:
+    version: jj_powertube
+    position: edge_half
+  file: ir/jj_powertube_edge_half.wav
+  output_gain_db: -25.9058933
+- values:
+    version: jj_powertube
+    position: fred45_0
+  file: ir/jj_powertube_fred45_0.wav
+  output_gain_db: -26.9830437
+- values:
+    version: jj_powertube
+    position: fred45_1
+  file: ir/jj_powertube_fred45_1.wav
+  output_gain_db: -26.7294445
+- values:
+    version: jj_powertube
+    position: fred45_half
+  file: ir/jj_powertube_fred45_half.wav
+  output_gain_db: -27.7840767
+- values:
+    version: louder_jj_straight
+    position: between_1_bottom_speaker
+  file: ir/louder_jj_straight_between_1_bottom_speaker.wav
+  output_gain_db: -24.3176613
+- values:
+    version: louder_jj_straight
+    position: between_1
+  file: ir/louder_jj_straight_between_1.wav
+  output_gain_db: -23.0079365
+- values:
+    version: louder_jj_straight
+    position: between_1andhalf
+  file: ir/louder_jj_straight_between_1andhalf.wav
+  output_gain_db: -22.6267395
+- values:
+    version: louder_jj_straight
+    position: between_half
+  file: ir/louder_jj_straight_between_half.wav
+  output_gain_db: -23.4816723
+- values:
+    version: louder_jj_straight
+    position: between0
+  file: ir/louder_jj_straight_between0.wav
+  output_gain_db: -23.7306900
+- values:
+    version: louder_jj_straight
+    position: centre_1_bottom_speaker
+  file: ir/louder_jj_straight_centre_1_bottom_speaker.wav
+  output_gain_db: -23.2949009
+- values:
+    version: louder_jj_straight
+    position: centre_1
+  file: ir/louder_jj_straight_centre_1.wav
+  output_gain_db: -21.7928371
+- values:
+    version: louder_jj_straight
+    position: centre_half
+  file: ir/louder_jj_straight_centre_half.wav
+  output_gain_db: -22.3667793
+- values:
+    version: louder_jj_straight
+    position: centre0
+  file: ir/louder_jj_straight_centre0.wav
+  output_gain_db: -22.7839928
+- values:
+    version: louder_jj_straight
+    position: edge_sneap
+  file: ir/louder_jj_straight_edge_sneap.wav
+  output_gain_db: -24.6815777
+- values:
+    version: louder_jj_straight
+    position: edge_1_bottom_speaker
+  file: ir/louder_jj_straight_edge_1_bottom_speaker.wav
+  output_gain_db: -25.6286926
+- values:
+    version: louder_jj_straight
+    position: edge_1
+  file: ir/louder_jj_straight_edge_1.wav
+  output_gain_db: -24.5091839
+- values:
+    version: louder_jj_straight
+    position: edge_1andhalf
+  file: ir/louder_jj_straight_edge_1andhalf.wav
+  output_gain_db: -24.0490723
+- values:
+    version: louder_jj_straight
+    position: edge_half
+  file: ir/louder_jj_straight_edge_half.wav
+  output_gain_db: -24.7417297
+- values:
+    version: louder_jj_straight
+    position: edge0
+  file: ir/louder_jj_straight_edge0.wav
+  output_gain_db: -24.8881397
+- values:
+    version: louder_jj_samples
+    position: bbac_half
+  file: ir/louder_jj_samples_bbac_half.wav
+  output_gain_db: -22.8234406
+- values:
+    version: louder_jj_samples
+    position: between_half
+  file: ir/louder_jj_samples_between_half.wav
+  output_gain_db: -23.3308086
+- values:
+    version: louder_jj_samples
+    position: edge_1
+  file: ir/louder_jj_samples_edge_1.wav
+  output_gain_db: -24.6709785
+- values:
+    version: louder_jj_samples
+    position: edge_half
+  file: ir/louder_jj_samples_edge_half.wav
+  output_gain_db: -25.0526962
+- values:
+    version: louder_jj_samples
+    position: inch_off_edge_1
+  file: ir/louder_jj_samples_inch_off_edge_1.wav
+  output_gain_db: -27.0993652
+- values:
+    version: multiple_fredman
+    position: between_45
+  file: ir/multiple_fredman_between_45.wav
+  output_gain_db: -27.2500725
+- values:
+    version: multiple_fredman
+    position: between_straight_10
+  file: ir/multiple_fredman_between_straight_10.wav
+  output_gain_db: -26.6035175
+- values:
+    version: multiple_fredman
+    position: between_straight_20
+  file: ir/multiple_fredman_between_straight_20.wav
+  output_gain_db: -26.2886753
+- values:
+    version: multiple_fredman
+    position: centre_45
+  file: ir/multiple_fredman_centre_45.wav
+  output_gain_db: -26.3132248
+- values:
+    version: multiple_fredman
+    position: edge_45
+  file: ir/multiple_fredman_edge_45.wav
+  output_gain_db: -28.1750546
+- values:
+    version: multiple_fredman
+    position: edge_straight_10
+  file: ir/multiple_fredman_edge_straight_10.wav
+  output_gain_db: -28.1317081
+- values:
+    version: multiple_fredman
+    position: edge_straight_20
+  file: ir/multiple_fredman_edge_straight_20.wav
+  output_gain_db: -27.8483276
+- values:
+    version: multiple_fredman
+    position: fredman_angled_10
+  file: ir/multiple_fredman_fredman_angled_10.wav
+  output_gain_db: -27.1908245
+- values:
+    version: multiple_fredman
+    position: fredman_angled_5
+  file: ir/multiple_fredman_fredman_angled_5.wav
+  output_gain_db: -27.4173260
+- values:
+    version: multiple_fredman
+    position: fredman_straight_20
+  file: ir/multiple_fredman_fredman_straight_20.wav
+  output_gain_db: -24.8775787
+- values:
+    version: original
+    position: original_between
+  file: ir/original_original_between.wav
+  output_gain_db: -26.2489834
+- values:
+    version: original
+    position: original_centre
+  file: ir/original_original_centre.wav
+  output_gain_db: -25.8874016
+- values:
+    version: original
+    position: original_edge
+  file: ir/original_original_edge.wav
+  output_gain_db: -27.5262337
+- values:
+    version: fredman_sneap
+    position: edge_1_i_inch_ala_sneap_pic
+  file: ir/fredman_sneap_edge_1_i_inch_ala_sneap_pic.wav
+  output_gain_db: -28.7222424
+- values:
+    version: fredman_sneap
+    position: fredman_angled
+  file: ir/fredman_sneap_fredman_angled.wav
+  output_gain_db: -27.7478027
+- values:
+    version: fredman_sneap
+    position: fredman_straight
+  file: ir/fredman_sneap_fredman_straight.wav
+  output_gain_db: -25.4690018

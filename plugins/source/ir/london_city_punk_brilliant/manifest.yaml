@@ -1,0 +1,58 @@
+# Community capture: London City Punk Cab Brilliant. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_london_city_punk_brilliant
+display_name: London City Punk Cab Brilliant
+brand: london_city
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - alt_2mtg_bright
+  - alt_421
+  - alt_at4033
+  - neu_2mtg
+  - neu_421
+  - raum_at4033_1
+  - raum_at4033_2
+  - raum_m94_brilliant
+  - raum_m94_normal
+captures:
+- values:
+    preset: alt_2mtg_bright
+  file: ir/alt_2mtg_bright.wav
+  output_gain_db: -24.2976799
+- values:
+    preset: alt_421
+  file: ir/alt_421.wav
+  output_gain_db: -22.2142715
+- values:
+    preset: alt_at4033
+  file: ir/alt_at4033.wav
+  output_gain_db: -23.3478146
+- values:
+    preset: neu_2mtg
+  file: ir/neu_2mtg.wav
+  output_gain_db: -20.3818340
+- values:
+    preset: neu_421
+  file: ir/neu_421.wav
+  output_gain_db: -22.4140339
+- values:
+    preset: raum_at4033_1
+  file: ir/raum_at4033_1.wav
+  output_gain_db: -22.1906986
+- values:
+    preset: raum_at4033_2
+  file: ir/raum_at4033_2.wav
+  output_gain_db: -28.4762573
+- values:
+    preset: raum_m94_brilliant
+  file: ir/raum_m94_brilliant.wav
+  output_gain_db: -28.3755569
+- values:
+    preset: raum_m94_normal
+  file: ir/raum_m94_normal.wav
+  output_gain_db: -35.1059990

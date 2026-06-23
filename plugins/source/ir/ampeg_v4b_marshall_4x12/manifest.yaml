@@ -1,0 +1,53 @@
+# Community capture: V4B Marshall 4x12. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_ampeg_v4b_marshall_4x12
+display_name: V4B Marshall 4x12
+brand: ampeg
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - m69n
+  - md441
+  - beta52
+  - mtg
+  - sm7
+  - tlm170_1
+  - tlm170_2
+  - u87
+captures:
+- values:
+    preset: m69n
+  file: ir/m69n.wav
+  output_gain_db: -22.0368195
+- values:
+    preset: md441
+  file: ir/md441.wav
+  output_gain_db: -21.0891018
+- values:
+    preset: beta52
+  file: ir/beta52.wav
+  output_gain_db: -23.3521442
+- values:
+    preset: mtg
+  file: ir/mtg.wav
+  output_gain_db: -23.4529762
+- values:
+    preset: sm7
+  file: ir/sm7.wav
+  output_gain_db: -21.6395016
+- values:
+    preset: tlm170_1
+  file: ir/tlm170_1.wav
+  output_gain_db: -22.2631073
+- values:
+    preset: tlm170_2
+  file: ir/tlm170_2.wav
+  output_gain_db: -22.1161118
+- values:
+    preset: u87
+  file: ir/u87.wav
+  output_gain_db: -24.8114872

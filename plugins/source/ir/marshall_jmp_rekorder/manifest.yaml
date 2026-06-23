@@ -1,0 +1,48 @@
+# Community capture: JMP Rekorder. Undocumented controls, so each real capture name
+# is a preset value (grab-bag selector).
+manifest_version: 1
+id: ir_marshall_jmp_rekorder
+display_name: JMP Rekorder
+brand: marshall
+type: cab
+backend: ir
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - cust_m930
+  - cust_sm57
+  - cust_u87
+  - m930
+  - sm57_off_axis
+  - sm57_on_axis
+  - u87
+captures:
+- values:
+    preset: cust_m930
+  file: ir/cust_m930.wav
+  output_gain_db: -18.1203079
+- values:
+    preset: cust_sm57
+  file: ir/cust_sm57.wav
+  output_gain_db: -18.3009472
+- values:
+    preset: cust_u87
+  file: ir/cust_u87.wav
+  output_gain_db: -19.3493824
+- values:
+    preset: m930
+  file: ir/m930.wav
+  output_gain_db: -18.0256176
+- values:
+    preset: sm57_off_axis
+  file: ir/sm57_off_axis.wav
+  output_gain_db: -20.5575371
+- values:
+    preset: sm57_on_axis
+  file: ir/sm57_on_axis.wav
+  output_gain_db: -18.0567131
+- values:
+    preset: u87
+  file: ir/u87.wav
+  output_gain_db: -21.8922768
