@@ -1,0 +1,214 @@
+# DIY clone (Madbean "Aristocrat") of the AnalogMan King of Tone v4.
+# Captured by the uploader in 3 channel modes (boost / overdrive / distortion),
+# each across tone (3/5/7) and drive (2/4/6/8) knob marks = 36 captures.
+# A1 siblings exist on tone3000 but are superseded by these A2 captures.
+manifest_version: 1
+id: nam_am_king_of_tone_a2
+display_name: AM KoT clone
+brand: analogman
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/4666
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - boost
+  - od
+  - dist
+- name: tone
+  display_name: Tone
+  values:
+  - 3
+  - 5
+  - 7
+- name: drive
+  display_name: Drive
+  values:
+  - 2
+  - 4
+  - 6
+  - 8
+captures:
+- values:
+    mode: boost
+    tone: 3
+    drive: 2
+  file: captures/am_king_of_tone_boost_t3_drv2_a2.nam
+- values:
+    mode: boost
+    tone: 3
+    drive: 4
+  file: captures/am_king_of_tone_boost_t3_drv4_a2.nam
+- values:
+    mode: boost
+    tone: 3
+    drive: 6
+  file: captures/am_king_of_tone_boost_t3_drv6_a2.nam
+- values:
+    mode: boost
+    tone: 3
+    drive: 8
+  file: captures/am_king_of_tone_boost_t3_drv8_a2.nam
+- values:
+    mode: boost
+    tone: 5
+    drive: 2
+  file: captures/am_king_of_tone_boost_t5_drv2_a2.nam
+- values:
+    mode: boost
+    tone: 5
+    drive: 4
+  file: captures/am_king_of_tone_boost_t5_drv4_a2.nam
+- values:
+    mode: boost
+    tone: 5
+    drive: 6
+  file: captures/am_king_of_tone_boost_t5_drv6_a2.nam
+- values:
+    mode: boost
+    tone: 5
+    drive: 8
+  file: captures/am_king_of_tone_boost_t5_drv8_a2.nam
+- values:
+    mode: boost
+    tone: 7
+    drive: 2
+  file: captures/am_king_of_tone_boost_t7_drv2_a2.nam
+- values:
+    mode: boost
+    tone: 7
+    drive: 4
+  file: captures/am_king_of_tone_boost_t7_drv4_a2.nam
+- values:
+    mode: boost
+    tone: 7
+    drive: 6
+  file: captures/am_king_of_tone_boost_t7_drv6_a2.nam
+- values:
+    mode: boost
+    tone: 7
+    drive: 8
+  file: captures/am_king_of_tone_boost_t7_drv8_a2.nam
+- values:
+    mode: dist
+    tone: 3
+    drive: 2
+  file: captures/am_king_of_tone_dist_t3_drv2_a2.nam
+- values:
+    mode: dist
+    tone: 3
+    drive: 4
+  file: captures/am_king_of_tone_dist_t3_drv4_a2.nam
+- values:
+    mode: dist
+    tone: 3
+    drive: 6
+  file: captures/am_king_of_tone_dist_t3_drv6_a2.nam
+- values:
+    mode: dist
+    tone: 3
+    drive: 8
+  file: captures/am_king_of_tone_dist_t3_drv8_a2.nam
+- values:
+    mode: dist
+    tone: 5
+    drive: 2
+  file: captures/am_king_of_tone_dist_t5_drv2_a2.nam
+- values:
+    mode: dist
+    tone: 5
+    drive: 4
+  file: captures/am_king_of_tone_dist_t5_drv4_a2.nam
+- values:
+    mode: dist
+    tone: 5
+    drive: 6
+  file: captures/am_king_of_tone_dist_t5_drv6_a2.nam
+- values:
+    mode: dist
+    tone: 5
+    drive: 8
+  file: captures/am_king_of_tone_dist_t5_drv8_a2.nam
+- values:
+    mode: dist
+    tone: 7
+    drive: 2
+  file: captures/am_king_of_tone_dist_t7_drv2_a2.nam
+- values:
+    mode: dist
+    tone: 7
+    drive: 4
+  file: captures/am_king_of_tone_dist_t7_drv4_a2.nam
+- values:
+    mode: dist
+    tone: 7
+    drive: 6
+  file: captures/am_king_of_tone_dist_t7_drv6_a2.nam
+- values:
+    mode: dist
+    tone: 7
+    drive: 8
+  file: captures/am_king_of_tone_dist_t7_drv8_a2.nam
+- values:
+    mode: od
+    tone: 3
+    drive: 2
+  file: captures/am_king_of_tone_od_t3_drv2_a2.nam
+- values:
+    mode: od
+    tone: 3
+    drive: 4
+  file: captures/am_king_of_tone_od_t3_drv4_a2.nam
+- values:
+    mode: od
+    tone: 3
+    drive: 6
+  file: captures/am_king_of_tone_od_t3_drv6_a2.nam
+- values:
+    mode: od
+    tone: 3
+    drive: 8
+  file: captures/am_king_of_tone_od_t3_drv8_a2.nam
+- values:
+    mode: od
+    tone: 5
+    drive: 2
+  file: captures/am_king_of_tone_od_t5_drv2_a2.nam
+- values:
+    mode: od
+    tone: 5
+    drive: 4
+  file: captures/am_king_of_tone_od_t5_drv4_a2.nam
+- values:
+    mode: od
+    tone: 5
+    drive: 6
+  file: captures/am_king_of_tone_od_t5_drv6_a2.nam
+- values:
+    mode: od
+    tone: 5
+    drive: 8
+  file: captures/am_king_of_tone_od_t5_drv8_a2.nam
+- values:
+    mode: od
+    tone: 7
+    drive: 2
+  file: captures/am_king_of_tone_od_t7_drv2_a2.nam
+- values:
+    mode: od
+    tone: 7
+    drive: 4
+  file: captures/am_king_of_tone_od_t7_drv4_a2.nam
+- values:
+    mode: od
+    tone: 7
+    drive: 6
+  file: captures/am_king_of_tone_od_t7_drv6_a2.nam
+- values:
+    mode: od
+    tone: 7
+    drive: 8
+  file: captures/am_king_of_tone_od_t7_drv8_a2.nam
