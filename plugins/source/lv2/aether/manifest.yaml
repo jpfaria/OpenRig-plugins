@@ -1,0 +1,15 @@
+manifest_version: 1
+id: lv2_aether
+display_name: Aether
+description: Aether — algorithmic shimmer/cloud reverb based on Cloudseed.
+brand: dougal
+license: MIT
+homepage: https://github.com/Dougal-s/Aether
+type: reverb
+backend: lv2
+plugin_uri: http://github.com/Dougal-s/Aether
+binaries:
+  macos-universal: platform/macos-universal/aether_dsp.dylib
+  windows-x86_64: platform/windows-x86_64/aether_dsp.dll
+  linux-x86_64: platform/linux-x86_64/aether_dsp.so
+  linux-aarch64: platform/linux-aarch64/aether_dsp.so
