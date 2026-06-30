@@ -352,6 +352,24 @@ build_ojd() {
     collect_libs "$LAST_BUILD_DIR" "OJD"
 }
 
+build_aether() {
+    local src="$DEPS_DIR/Aether"
+    # GUI off: OpenRig provides the UI, and this drops the X11/OpenGL/nanovg/
+    # pugl dependency tree so the DSP-only build cross-compiles cleanly.
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DBUILD_GUI=OFF -DBUILD_TESTS=OFF -DBUILD_BENCHMARKS=OFF" \
+        do_cmake "$src"
+    # Aether's CMake emits the DSP as a MODULE named aether_dsp.so on every
+    # platform (the macOS build is already a universal Mach-O, just .so-suffixed).
+    # Normalise to the slot's native extension so collect_libs (which filters by
+    # LIB_EXT) and the OpenRig slot convention (.dylib/.dll/.so) line up.
+    local mod
+    mod=$(find "$LAST_BUILD_DIR" -path '*aether.lv2/aether_dsp.so' -type f | head -1)
+    if [ -n "$mod" ] && [ "$LIB_EXT" != "so" ]; then
+        cp "$mod" "$(dirname "$mod")/aether_dsp.${LIB_EXT}"
+    fi
+    collect_libs "$LAST_BUILD_DIR" "aether_dsp"
+}
+
 # --- Registry ---
 
 PLUGINS=(
@@ -375,6 +393,7 @@ PLUGINS=(
     gxplugins
     chowcentaur
     ojd
+    aether
 )
 
 # Map plugin name to build function
@@ -400,6 +419,7 @@ dispatch() {
         gxplugins)        build_gxplugins ;;
         chowcentaur)      build_chowcentaur ;;
         ojd)              build_ojd ;;
+        aether)           build_aether ;;
         *) echo "Unknown plugin: $1"; exit 1 ;;
     esac
 }

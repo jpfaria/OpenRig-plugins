@@ -56,3 +56,6 @@
 [submodule "deps/Schrammel_OJD"]
 	path = deps/Schrammel_OJD
 	url = https://github.com/JanosGit/Schrammel_OJD.git
+[submodule "deps/Aether"]
+	path = deps/Aether
+	url = https://github.com/Dougal-s/Aether.git

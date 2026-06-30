@@ -9,6 +9,7 @@
 # need an orphan-discovery pass (separate issue) before they can build.
 #
 # Format: <plugin_folder>\t<recipe>
+aether	aether
 artyfx_filta	artyfx
 avocado	-
 b_reverb	setbfree
