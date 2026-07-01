@@ -65,3 +65,6 @@
 [submodule "deps/fil4.lv2"]
 	path = deps/fil4.lv2
 	url = https://github.com/x42/fil4.lv2.git
+[submodule "deps/DISTRHO-Ports"]
+	path = deps/DISTRHO-Ports
+	url = https://github.com/DISTRHO/DISTRHO-Ports.git
