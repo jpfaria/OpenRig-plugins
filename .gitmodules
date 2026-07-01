@@ -59,6 +59,15 @@
 [submodule "deps/Aether"]
 	path = deps/Aether
 	url = https://github.com/Dougal-s/Aether.git
+[submodule "deps/darc.lv2"]
+	path = deps/darc.lv2
+	url = https://github.com/x42/darc.lv2.git
+[submodule "deps/dpl.lv2"]
+	path = deps/dpl.lv2
+	url = https://github.com/x42/dpl.lv2.git
+[submodule "deps/fil4.lv2"]
+	path = deps/fil4.lv2
+	url = https://github.com/x42/fil4.lv2.git
 [submodule "deps/DISTRHO-Ports"]
 	path = deps/DISTRHO-Ports
 	url = https://github.com/DISTRHO/DISTRHO-Ports.git
