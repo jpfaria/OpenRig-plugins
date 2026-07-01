@@ -72,6 +72,7 @@ gx_voodofuzz	gxplugins
 harmless	shiro-plugins
 invada_tube	invada-studio
 larynx	shiro-plugins
+luftikus	distrho
 mda_ambience	mda-lv2
 mda_combo	mda-lv2
 mda_degrade	mda-lv2
@@ -92,6 +93,9 @@ paranoia	-
 roomy	artyfx
 satma	artyfx
 shiroverb	shiro-plugins
+tal_dub_3	distrho
+tal_filter_2	distrho
+tal_reverb_2	distrho
 tap_chorus_flanger	tap-lv2
 tap_deesser	tap-lv2
 tap_doubler	tap-lv2
