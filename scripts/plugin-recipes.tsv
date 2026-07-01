@@ -107,6 +107,9 @@ tap_sigmoid	tap-lv2
 tap_tremolo	tap-lv2
 tap_tubewarmth	tap-lv2
 wolf_shaper	wolf-shaper
+x42_darc	x42
+x42_dpl	x42
+x42_fil4	x42
 zamcomp	zam-plugins
 zameq2	zam-plugins
 zamgate	zam-plugins
