@@ -377,8 +377,12 @@ build_distrho() {
     ninja -C "$build_dir" -j "$JOBS"
     LAST_BUILD_DIR="$build_dir"
     collect_libs "$build_dir"
+    # Stage each .lv2 bundle whole (per-plugin subdir) so the per-plugin
+    # manifest.ttl / presets.ttl do not collide by basename in the artifact.
     mkdir -p "$OUTPUT_DIR/ttl"
-    find "$build_dir" -name "*.ttl" -exec cp {} "$OUTPUT_DIR/ttl/" \; 2>/dev/null || true
+    find "$build_dir" -name "*.lv2" -type d 2>/dev/null | while read -r b; do
+        cp -R "$b" "$OUTPUT_DIR/ttl/$(basename "$b")" 2>/dev/null || true
+    done
 }
 
 # --- Registry ---
