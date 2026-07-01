@@ -365,7 +365,11 @@ build_x42() {
         export LDFLAGS="-arch x86_64 -arch arm64"
     fi
     if [ -n "${MINGW_TARGET:-}" ] || echo "${CROSS_COMPILE:-}" | grep -q mingw; then
-        mk_args="$mk_args XWIN=x86_64-w64-mingw32"
+        # XWIN switches the Makefile to Windows semantics (.dll, static libgcc)
+        # but also points CC/STRIP at the x86_64-w64-mingw32-* triplet. On a
+        # native MSYS2/MINGW64 runner the gcc triplet exists but strip does not
+        # (it is just `strip`), so override STRIP back to the plain name.
+        mk_args="$mk_args XWIN=x86_64-w64-mingw32 STRIP=strip"
     fi
     local p
     for p in darc dpl fil4; do
