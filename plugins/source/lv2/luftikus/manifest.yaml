@@ -10,6 +10,5 @@ backend: lv2
 plugin_uri: https://code.google.com/p/lkjb-plugins/luftikus
 binaries:
   macos-universal: platform/macos-universal/Luftikus-lv2.dylib
-  windows-x86_64: platform/windows-x86_64/Luftikus-lv2.dll
   linux-x86_64: platform/linux-x86_64/Luftikus-lv2.so
   linux-aarch64: platform/linux-aarch64/Luftikus-lv2.so
