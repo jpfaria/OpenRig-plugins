@@ -352,6 +352,31 @@ build_ojd() {
     collect_libs "$LAST_BUILD_DIR" "OJD"
 }
 
+build_x42() {
+    # x42-plugins (Robin Gareus): robtk-based GNU Make. Build DSP-only
+    # (BUILDOPENGL/BUILDJACKAPP/INLINEDISPLAY=no) to skip the Cairo/Pango/X11
+    # GUI stack. The Makefile only emits a Windows .dll when XWIN is set (its
+    # else branch — which also catches MSYS2 — would wrongly build a .so with
+    # X11), so force XWIN on the MinGW target. macOS builds host-arch only, so
+    # inject both arches for a real universal binary.
+    local mk_args="BUILDOPENGL=no BUILDJACKAPP=no INLINEDISPLAY=no"
+    if [ "$(uname -s)" = "Darwin" ]; then
+        export CFLAGS="-arch x86_64 -arch arm64 -mmacosx-version-min=11.0"
+        export LDFLAGS="-arch x86_64 -arch arm64"
+    fi
+    if [ -n "${MINGW_TARGET:-}" ] || echo "${CROSS_COMPILE:-}" | grep -q mingw; then
+        mk_args="$mk_args XWIN=x86_64-w64-mingw32"
+    fi
+    local p
+    for p in darc dpl fil4; do
+        local src="$DEPS_DIR/$p.lv2"
+        # shellcheck disable=SC2086
+        do_make "$src" $mk_args
+        collect_libs "$src/build" "$p"
+    done
+    unset CFLAGS LDFLAGS
+}
+
 # --- Registry ---
 
 PLUGINS=(
@@ -375,6 +400,7 @@ PLUGINS=(
     gxplugins
     chowcentaur
     ojd
+    x42
 )
 
 # Map plugin name to build function
@@ -400,6 +426,7 @@ dispatch() {
         gxplugins)        build_gxplugins ;;
         chowcentaur)      build_chowcentaur ;;
         ojd)              build_ojd ;;
+        x42)              build_x42 ;;
         *) echo "Unknown plugin: $1"; exit 1 ;;
     esac
 }
