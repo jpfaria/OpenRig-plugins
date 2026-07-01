@@ -56,3 +56,6 @@
 [submodule "deps/Schrammel_OJD"]
 	path = deps/Schrammel_OJD
 	url = https://github.com/JanosGit/Schrammel_OJD.git
+[submodule "deps/DISTRHO-Ports"]
+	path = deps/DISTRHO-Ports
+	url = https://github.com/DISTRHO/DISTRHO-Ports.git
