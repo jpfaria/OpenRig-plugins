@@ -59,3 +59,6 @@
 [submodule "deps/Aether"]
 	path = deps/Aether
 	url = https://github.com/Dougal-s/Aether.git
+[submodule "deps/DISTRHO-Ports"]
+	path = deps/DISTRHO-Ports
+	url = https://github.com/DISTRHO/DISTRHO-Ports.git

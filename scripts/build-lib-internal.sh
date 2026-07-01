@@ -370,6 +370,39 @@ build_aether() {
     collect_libs "$LAST_BUILD_DIR" "aether_dsp"
 }
 
+build_distrho() {
+    # DISTRHO-Ports: Meson monorepo of JUCE-based ports. Build only the five
+    # pro effects we ship, LV2-only, JUCE5 tree only. macOS gets a universal
+    # binary; Linux builds headless (no X11 editor). The generated per-plugin
+    # <Name>.ttl are staged under $OUTPUT_DIR/ttl so they can be captured from
+    # the CI artifact (JUCE emits the TTL at build time; there is no other way
+    # to obtain a faithful one).
+    local src="$DEPS_DIR/DISTRHO-Ports"
+    local build_dir="$BUILD_WORK_DIR/DISTRHO-Ports"
+    local opts="-Dbuild-vst2=false -Dbuild-vst3=false -Dbuild-juce5-only=true"
+    opts="$opts -Dplugins=tal-reverb-2,tal-dub-3,pitchedDelay,tal-filter-2,luftikus"
+    if [ "$(uname -s)" = "Darwin" ]; then
+        opts="$opts -Dbuild-universal=true"
+    elif [ "$(uname -s)" = "Linux" ]; then
+        opts="$opts -Dlinux-headless=true"
+    fi
+    local cross_args=""
+    if [ -n "$CROSS_COMPILE" ] && [ -f "/build/meson-cross-$CROSS_COMPILE.ini" ]; then
+        cross_args="--cross-file /build/meson-cross-$CROSS_COMPILE.ini"
+    fi
+    # shellcheck disable=SC2086
+    meson setup "$build_dir" "$src" --buildtype=release $opts $cross_args
+    ninja -C "$build_dir" -j "$JOBS"
+    LAST_BUILD_DIR="$build_dir"
+    collect_libs "$build_dir"
+    # Stage each .lv2 bundle whole (per-plugin subdir) so the per-plugin
+    # manifest.ttl / presets.ttl do not collide by basename in the artifact.
+    mkdir -p "$OUTPUT_DIR/ttl"
+    find "$build_dir" -name "*.lv2" -type d 2>/dev/null | while read -r b; do
+        cp -R "$b" "$OUTPUT_DIR/ttl/$(basename "$b")" 2>/dev/null || true
+    done
+}
+
 # --- Registry ---
 
 PLUGINS=(
@@ -394,6 +427,7 @@ PLUGINS=(
     chowcentaur
     ojd
     aether
+    distrho
 )
 
 # Map plugin name to build function
@@ -420,6 +454,7 @@ dispatch() {
         chowcentaur)      build_chowcentaur ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
+        distrho)          build_distrho ;;
         *) echo "Unknown plugin: $1"; exit 1 ;;
     esac
 }
