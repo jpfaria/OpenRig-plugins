@@ -24,7 +24,8 @@ Use `./scripts/add-dep.sh` to add new ones.
 | sooperlooper | https://github.com/essej/sooperlooper | `c5e22ce` | Autotools | Looper |
 | setBfree | https://github.com/pantherb/setBfree | `25274ac` | Make | Hammond organ, whirl speaker |
 | GxPlugins.lv2 | https://github.com/brummer10/GxPlugins.lv2 | `3a32527` | Make | Guitarix amp sims, effects |
-| AnalogTapeModel | https://github.com/jatinchowdhury18/AnalogTapeModel | `604372e` | CMake/JUCE | ChowCentaur, CHOWTapeModel |
+| AnalogTapeModel | https://github.com/jatinchowdhury18/AnalogTapeModel | `604372e` | CMake/JUCE | CHOWTapeModel (tape sat) — recipe not yet activated |
+| KlonCentaur | https://github.com/jatinchowdhury18/KlonCentaur | `f3bb633` | CMake/JUCE | ChowCentaur (Klon overdrive) — VST3 bundle, recipe `chowcentaur` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
 Currently only `neural-amp-modeler-lv2` is registered as a real submodule. The remaining entries are documentation of the upstream repos each `build_*` recipe in `scripts/build-lib-internal.sh` expects under `deps/<name>/`. Register them with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.

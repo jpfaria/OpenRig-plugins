@@ -1,6 +1,6 @@
 # OpenRig-plugins — Claude Code
 
-Repository of **precompiled plugin binaries** (native LV2 + NAM/IR captures) consumed by [OpenRig](https://github.com/jpfaria/OpenRig). Each plugin lives in `plugins/source/<kind>/<name>/` with `manifest.yaml`, `data/` (TTL) and `platform/<slot>/<lib>`.
+Repository of **precompiled plugin binaries** (native LV2, NAM/IR captures, native VST3) consumed by [OpenRig](https://github.com/jpfaria/OpenRig). Each plugin lives in `plugins/source/<kind>/<name>/` with `manifest.yaml`, `data/` (TTL) and `platform/<slot>/<lib>` — except **VST3**, which ships one cross-platform `.vst3` **bundle** under `bundles/` (a `Contents/<arch>/…` tree carrying every OS) and declares its parameters explicitly in `manifest.yaml` (`backend: vst3`, `bundle:`, `parameters[]` with `vst3_id`). `qa_audit` audits only NAM/IR; LV2 and VST3 are validated by clean packing (`validate_package` requires the `.vst3` bundle directory to exist). VST3 is a from-scratch pilot (ChowCentaur, issue #103); the import methodology graduates into `.claude/skills/openrig-code-quality/SKILL.md` once the pilot lands.
 
 ## Language — English everywhere (LAW)
 
