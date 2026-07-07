@@ -421,11 +421,48 @@ jobs:
           done
           echo "Placed $placed binaries; updated $manifest_writes manifest entries"
 
+      # VST3 recipes emit a cross-platform bundle DIRECTORY (Contents/<arch>/…)
+      # rather than a single shared lib, and live under plugins/source/vst3/ with
+      # a `bundle:` field (not `binaries:`). Each platform runner populates only
+      # its own Contents/<arch>/ subfolder (plus the shared Info.plist/PkgInfo/
+      # moduleinfo.json on macOS); this step unions those trees into the shipped
+      # bundle, matching the output <Name>.vst3 to the plugin folder whose
+      # manifest `bundle:` ends in the same basename.
+      - name: Merge VST3 bundles into plugins/source/vst3/<plugin>/bundles/
+        run: |
+          set -euo pipefail
+          [ -d plugins/source/vst3 ] || { echo "no vst3 catalogue yet"; exit 0; }
+          merged=0
+          for art in artifacts/*/; do
+            [ -d "$art" ] || continue
+            base=$(basename "$art")
+            platform=""
+            for plat in linux-x86_64 linux-aarch64 macos-universal windows-x86_64 windows-aarch64; do
+              case "$base" in ${plat}-*) platform="$plat"; break ;; esac
+            done
+            [ -n "$platform" ] || continue
+            while IFS= read -r bundle; do
+              [ -d "$bundle" ] || continue
+              bname=$(basename "$bundle")
+              for manifest in plugins/source/vst3/*/manifest.yaml; do
+                [ -f "$manifest" ] || continue
+                decl=$(yq -r '.bundle // ""' "$manifest")
+                [ -n "$decl" ] && [ "$(basename "$decl")" = "$bname" ] || continue
+                dest="$(dirname "$manifest")/$decl"
+                mkdir -p "$dest"
+                cp -R "$bundle/." "$dest/"
+                echo "merge: $bundle -> $dest ($platform)"
+                merged=$((merged+1))
+              done
+            done < <(find "$art" -maxdepth 2 -type d -name "*.vst3")
+          done
+          echo "Merged $merged VST3 bundle tree(s)"
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add plugins/source/lv2/
+          git add plugins/source/lv2/ plugins/source/vst3/
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0

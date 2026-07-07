@@ -71,3 +71,6 @@
 [submodule "deps/DISTRHO-Ports"]
 	path = deps/DISTRHO-Ports
 	url = https://github.com/DISTRHO/DISTRHO-Ports.git
+[submodule "deps/KlonCentaur"]
+	path = deps/KlonCentaur
+	url = https://github.com/jatinchowdhury18/KlonCentaur.git

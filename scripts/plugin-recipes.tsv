@@ -1,5 +1,5 @@
-# plugin-recipes.tsv — map each plugins/source/lv2/<folder> to the recipe
-# (function in scripts/build-lib-internal.sh) that produces its binary.
+# plugin-recipes.tsv — map each plugins/source/{lv2,vst3}/<folder> to the recipe
+# (function in scripts/build-lib-internal.sh) that produces its binary/bundle.
 #
 # Several recipes build many catalogue entries: dragonfly-reverb yields 4
 # plugins, caps-lv2 yields 7, gxplugins yields 38, etc. A single touched
@@ -22,6 +22,7 @@ caps_platex2	caps-lv2
 caps_scape	caps-lv2
 caps_spice	caps-lv2
 caps_spicex2	caps-lv2
+chow_centaur	chowcentaur
 dragonfly_early	dragonfly-reverb
 dragonfly_hall	dragonfly-reverb
 dragonfly_plate	dragonfly-reverb

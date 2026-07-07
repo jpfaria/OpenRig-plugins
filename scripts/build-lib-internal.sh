@@ -109,6 +109,25 @@ collect_libs() {
     fi
 }
 
+# Collect a built plugin BUNDLE DIRECTORY (e.g. a VST3 `.vst3/`) into
+# $OUTPUT_DIR, preserving its internal `Contents/<arch>/` tree. Unlike
+# collect_libs (single shared objects), a VST3 bundle is a directory: each
+# platform runner only populates its own `Contents/<arch>/` subfolder, and the
+# commit-libs merge step unions them into the shipped cross-platform bundle.
+collect_bundle() {
+    local search_dir="$1"
+    local bundle_name="$2"
+    local found
+    found=$(find "$search_dir" -type d -name "$bundle_name" | head -1)
+    if [ -z "$found" ]; then
+        echo "  collect_bundle: no $bundle_name found under $search_dir" >&2
+        return 1
+    fi
+    rm -rf "${OUTPUT_DIR:?}/$bundle_name"
+    cp -R "$found" "$OUTPUT_DIR/$bundle_name"
+    echo "  collected bundle: $bundle_name ($(find "$OUTPUT_DIR/$bundle_name" -type f | wc -l | tr -d ' ') files)"
+}
+
 # Build with Make (supports cross-compilation)
 do_make() {
     local src="$1"
@@ -341,9 +360,15 @@ build_gxplugins() {
 }
 
 build_chowcentaur() {
-    local src="$DEPS_DIR/AnalogTapeModel"
-    do_cmake "$src"
-    collect_libs "$LAST_BUILD_DIR" "ChowCentaur"
+    # ChowCentaur (jatinchowdhury18/KlonCentaur): a JUCE/CMake Klon Centaur
+    # overdrive (WDF + RNN). This is the repo's first VST3 recipe, so it emits a
+    # cross-platform VST3 *bundle* (a `Contents/<arch>/` directory tree), not a
+    # single shared lib — hence collect_bundle instead of collect_libs. Only the
+    # VST3 target is built (AU / Standalone / LV2 are skipped). The macOS slot is
+    # a universal binary via CMAKE_OSX_ARCHITECTURES (set by the workflow).
+    local src="$DEPS_DIR/KlonCentaur"
+    do_cmake "$src" ChowCentaur_VST3
+    collect_bundle "$LAST_BUILD_DIR" "ChowCentaur.vst3"
 }
 
 build_ojd() {
