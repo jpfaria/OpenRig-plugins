@@ -70,16 +70,17 @@ build_byod() {
 
 # --- tiagolr family (GPL-3 / AGPL-3, JUCE/CMake) ---
 # BUILD_VST3 is ON upstream; only the <Target>_VST3 target is built (AU /
-# Standalone / LV2 skipped). JUCE names the artefact after the CMake target
-# (not PRODUCT_NAME), so the bundle is <Target>.vst3. -DCMAKE_POLICY_VERSION_
-# MINIMUM=3.5 guards against vendored deps pinning a pre-CMake-4 minimum on the
-# macOS runner (same class as build_artyfx / chowtape).
+# Standalone / LV2 skipped). The .vst3 bundle is named after JUCE PRODUCT_NAME
+# with spaces stripped (REEV-R, GATE-12, TIME-12, FILT-R keep the hyphen;
+# Sirial/QDelay equal their target). -DCMAKE_POLICY_VERSION_MINIMUM=3.5 guards
+# against vendored deps pinning a pre-CMake-4 minimum on the macOS runner (same
+# class as build_artyfx / chowtape).
 
 build_reevr() {
     local src="$DEPS_DIR/reevr"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" REEVR_VST3
-    collect_bundle "$LAST_BUILD_DIR" "REEVR.vst3"
+    collect_bundle "$LAST_BUILD_DIR" "REEV-R.vst3"
 }
 
 build_sirial() {
@@ -100,19 +101,19 @@ build_gate12() {
     local src="$DEPS_DIR/gate12"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" GATE12_VST3
-    collect_bundle "$LAST_BUILD_DIR" "GATE12.vst3"
+    collect_bundle "$LAST_BUILD_DIR" "GATE-12.vst3"
 }
 
 build_time12() {
     local src="$DEPS_DIR/time12"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" TIME12_VST3
-    collect_bundle "$LAST_BUILD_DIR" "TIME12.vst3"
+    collect_bundle "$LAST_BUILD_DIR" "TIME-12.vst3"
 }
 
 build_filtr() {
     local src="$DEPS_DIR/filtr"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" FILTR_VST3
-    collect_bundle "$LAST_BUILD_DIR" "FILTR.vst3"
+    collect_bundle "$LAST_BUILD_DIR" "FILT-R.vst3"
 }

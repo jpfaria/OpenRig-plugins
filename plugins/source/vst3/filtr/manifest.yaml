@@ -7,7 +7,7 @@ license: AGPL-3.0-or-later
 homepage: https://github.com/tiagolr/filtr
 type: vst3
 backend: vst3
-bundle: bundles/FILTR.vst3
+bundle: bundles/FILT-R.vst3
 # No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
 # discovers parameters at runtime from the plugin's IEditController
 # (crates/vst3/src/host.rs). The manifest parameters[] block is not consumed by
