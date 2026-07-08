@@ -13,4 +13,3 @@ plugin_uri: urn:dragonfly:early
 binaries:
   macos-universal: platform/macos-universal/DragonflyEarlyReflections_dsp.dylib
   linux-x86_64: platform/linux-x86_64/DragonflyEarlyReflections_dsp.so
-  linux-aarch64: platform/linux-aarch64/DragonflyEarlyReflections_dsp.so
