@@ -118,10 +118,14 @@ build_filtr() {
     collect_bundle "$LAST_BUILD_DIR" "FILT-R.vst3"
 }
 
-# --- ZL-Audio family (AGPL-3 / GPL-3, JUCE/CMake) ---
-# JUCE/CMake; only the <Target>_VST3 target is built. Uses collect_vst3 so the
-# unpredictable PRODUCT_NAME artefact is normalised to a stable bundle name.
-# -DCMAKE_POLICY_VERSION_MINIMUM=3.5 for the CMake-4 macOS runner.
+# --- ZL-Audio family (AGPL-3 / GPL-3, JUCE/CMake) — DEFERRED ---
+# These recipes are NOT wired into the catalogue yet (no manifests). Upstream
+# CMake hard-requires ZL_HWY_STATIC_TARGET (Google Highway static SIMD dispatch:
+# SSE2/SSE42/AVX2/NEON), which is incompatible with the single-pass universal
+# macOS build (one -march cannot cover arm64+x86_64). Finishing them needs a
+# per-arch build + lipo, or a dynamic-dispatch patch — tracked as a follow-up.
+# Kept here (with submodules) so that work can resume. collect_vst3 normalises
+# the PRODUCT_NAME artefact; -DCMAKE_POLICY_VERSION_MINIMUM=3.5 for CMake-4 macOS.
 
 build_zl_equalizer() {
     local src="$DEPS_DIR/ZLEqualizer"
