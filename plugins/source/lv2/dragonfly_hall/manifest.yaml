@@ -13,3 +13,4 @@ plugin_uri: https://github.com/michaelwillis/dragonfly-reverb
 binaries:
   macos-universal: platform/macos-universal/DragonflyHallReverb_dsp.dylib
   linux-x86_64: platform/linux-x86_64/DragonflyHallReverb_dsp.so
+  linux-aarch64: platform/linux-aarch64/DragonflyHallReverb_dsp.so

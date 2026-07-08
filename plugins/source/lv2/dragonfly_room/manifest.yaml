@@ -13,3 +13,4 @@ plugin_uri: urn:dragonfly:room
 binaries:
   macos-universal: platform/macos-universal/DragonflyRoomReverb_dsp.dylib
   linux-x86_64: platform/linux-x86_64/DragonflyRoomReverb_dsp.so
+  linux-aarch64: platform/linux-aarch64/DragonflyRoomReverb_dsp.so
