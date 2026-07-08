@@ -71,6 +71,16 @@ Documentation is part of the task, not an afterthought. **Any change that alters
 
 A commit that changes behavior without touching any `.md` is wrong. A skill left stale because "I remember it" is wrong — the next session does not remember. Renamed something? `grep -rn "<old>"` across `*.md`, `README*`, `CLAUDE.md`, and every `.claude/skills/*/SKILL.md`, and fix all of them in the same commit.
 
+## Checking for updates
+
+"Which plugins are outdated?" has one repeatable answer: `scripts/check_updates.py`
+(report-only). It checks LV2/VST3 submodule drift (`git ls-remote` vs the pinned
+tag/branch) and NAM/IR tone3000 sources (content-hash fingerprint vs
+`scripts/.update_state.json`). Network needs the sandbox off. See
+`.claude/skills/openrig-check-updates/SKILL.md` for how to run it, read the flags
+(`new-models` is a soft signal, not a regression), and act without touching shared
+state. Do NOT hand-roll `git ls-remote` loops.
+
 ## Code methodology
 
 See `.claude/skills/openrig-code-quality/SKILL.md` — quality rules for this repo (slot invariant, single source of truth, docs in sync, English everywhere, isolated `.solvers` workflow). Invoke it before any non-trivial action.
