@@ -387,6 +387,44 @@ gate that requires reading an essay in chat is a fake gate.
 
 ---
 
+## Updating an LV2 recipe submodule — prefer a newer TAG (issue #111)
+
+`scripts/check_updates.py --submodules` reports a recipe submodule as `behind`
+(untagged HEAD ahead of the pin) or `new-tag` (a newer release tag exists).
+**These are not equally safe to take.** Update by bumping the `deps/<x>`
+pointer, then rebuild via CI (`build-libs.yml` `workflow_dispatch
+recipe=<x> platform=all`, which commits the slots back).
+
+- **`new-tag` → bump to the tag.** A tagged release is validated upstream and
+  tends to build on all 5 platforms. In #111 `mda-lv2 → v1.2.12` rebuilt clean.
+- **`behind` (untagged HEAD) → distrust it.** Post-tag dev commits pull in
+  build-system churn (DPF submodule bumps, CMake SSE/flag changes) that breaks
+  the macOS-universal arm64 link and/or the Windows slots even when
+  linux-x86_64 still builds. In #111 `dragonfly-reverb → 440ec7b` (DPF bump) and
+  `artyfx → a2d0d58` (CMake SSE change) both broke macOS/Windows and were
+  reverted. CI-test **one recipe at a time** and be ready to revert.
+- **`windows-aarch64` failing on `msys2` clangarm64 infra** (`p11-kit.exe: Exec
+  format error` → no `aarch64-w64-mingw32-g++`) is optional/ignorable — `main`
+  often lacks that slot, so it is not a regression.
+
+**Reverting a bump cleanly (each of these bit once in #111):**
+
+- zsh does **not** word-split unquoted variables — pass multi-path `git` args
+  as separate words, not `$var` holding a space-joined string.
+- `git add -A` re-stages the working-tree submodule gitlink, silently undoing a
+  `git checkout <ref> -- deps/<x>`. Check out the submodule **worktree** to the
+  target SHA first (`git -C deps/<x> checkout <sha>`), then `git add deps/<x>`.
+- `git checkout <ref> -- <dir>` restores files present in `<ref>` but does **not**
+  delete slot files CI added that `<ref>` lacks (e.g. a `linux-aarch64/*.so` a
+  partial rebuild committed). `git rm` those orphan platform slots explicitly.
+- Never commit the local `.dev-rules/` unlock files.
+
+```
+❌ bump check_updates `behind` (untagged HEAD) straight to prod — breaks cross-build
+❌ `git add -A` after `git checkout main -- deps/x` — re-stages the new gitlink
+✅ bump to a NEW tag; CI-test one recipe; revert untagged bumps that break platforms
+```
+
 ## Living Document
 
 This skill is a LIVING DOCUMENT. Every time the user corrects a methodology mistake:
