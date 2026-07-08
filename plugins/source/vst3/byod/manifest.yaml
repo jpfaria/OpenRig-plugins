@@ -1,0 +1,16 @@
+manifest_version: 1
+id: vst3_byod
+display_name: Distortion BYOD
+description: BYOD — modular "build-your-own-drive" guitar distortion with a configurable node graph by ChowDSP.
+brand: chowdsp
+license: GPL-3.0-or-later
+homepage: https://github.com/Chowdhury-DSP/BYOD
+type: vst3
+backend: vst3
+bundle: bundles/BYOD.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor (the
+# plugin's own IPlugView in a separate window, crates/vst3/src/editor.rs) and
+# discovers parameters at runtime from the plugin's IEditController
+# (getParameterCount/getParameterInfo, crates/vst3/src/host.rs). The manifest
+# parameters[] block is not consumed by the engine for VST3, so it stays empty.
+parameters: []

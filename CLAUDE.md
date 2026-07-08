@@ -71,6 +71,10 @@ Documentation is part of the task, not an afterthought. **Any change that alters
 
 A commit that changes behavior without touching any `.md` is wrong. A skill left stale because "I remember it" is wrong — the next session does not remember. Renamed something? `grep -rn "<old>"` across `*.md`, `README*`, `CLAUDE.md`, and every `.claude/skills/*/SKILL.md`, and fix all of them in the same commit.
 
+## Communication (LAW)
+
+Reply in **1-3 sentences**. No walls of text, no headers/tables/nested bullets in chat, no recap of what the user said. **Act, don't ask** — when the task is authorized, do the whole thing end-to-end (decide sensible defaults, proceed, let the user veto); never stop mid-flow to ask permission or confirm an obvious next step. Detail lives in the issue/commit/file; chat is a one-line pointer. A long message that makes the user skim-and-approve is a defect.
+
 ## Checking for updates
 
 "Which plugins are outdated?" has one repeatable answer: `scripts/check_updates.py`

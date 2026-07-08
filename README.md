@@ -2,10 +2,10 @@
 
 Catalogue + build pipeline for every plugin OpenRig ships. Four backends coexist under `plugins/source/`:
 
-- **`lv2/`** — 103 native LV2 plugins (effects, EQ, dynamics, modulation, delay, reverb, filter, wah). One `.so` / `.dylib` / `.dll` per supported platform plus `manifest.yaml`, built by the recipes in `scripts/build-lib-internal.sh`.
+- **`lv2/`** — 103 native LV2 plugins (effects, EQ, dynamics, modulation, delay, reverb, filter, wah). One `.so` / `.dylib` / `.dll` per supported platform plus `manifest.yaml`, built by the recipes in `scripts/recipes/lv2.sh` (dispatched by `scripts/build-lib-internal.sh`).
 - **`nam/`** — 274 Neural Amp Modeler captures (preamp, amp, gain pedal). Each plugin is a single `.nam` model + `manifest.yaml`; no native binary, the runtime loads via the bundled `libNeuralAudioCAPI`.
 - **`ir/`** — 134 impulse responses (cab + acoustic body). Mono `.wav` at 48 kHz + `manifest.yaml`; convolved by the engine.
-- **`vst3/`** — native VST3 plugins. One cross-platform `.vst3` **bundle** (a `Contents/<arch>/…` directory tree carrying every OS) under `bundles/` plus `manifest.yaml`. OpenRig hosts these through the plugin's **native editor** (its own IPlugView window) and discovers parameters at runtime from the plugin's `IEditController`, so the manifest `parameters[]` block stays empty (unlike NAM/IR grids or LV2 TTL ports). Also built by the recipes in `scripts/build-lib-internal.sh`.
+- **`vst3/`** — native VST3 plugins. One cross-platform `.vst3` **bundle** (a `Contents/<arch>/…` directory tree carrying every OS) under `bundles/` plus `manifest.yaml`. OpenRig hosts these through the plugin's **native editor** (its own IPlugView window) and discovers parameters at runtime from the plugin's `IEditController`, so the manifest `parameters[]` block stays empty (unlike NAM/IR grids or LV2 TTL ports). Built from source by the recipes in `scripts/recipes/vst3.sh` (dispatched by `scripts/build-lib-internal.sh`).
 
 The full canonical catalogue — every `MODEL_ID` with display name, brand, and parameter schema — is in [`docs/blocks-reference.md`](docs/blocks-reference.md), auto-generated from the manifests by `scripts/gen_quick_reference.py`. The `openrig-plugins.zip` consumed by the OpenRig installer is produced from this tree by `scripts/bundle-into-openrig.sh`.
 
@@ -129,7 +129,10 @@ docs/
 deps/<upstream>/           # git submodule pinned to a known-good commit (LV2 + VST3)
 scripts/
 ├── build-lib.sh           # Docker wrapper (local LV2 builds)
-├── build-lib-internal.sh  # the LV2 + VST3 build recipes (consumed by the wrapper + CI)
+├── build-lib-internal.sh  # recipe dispatcher (helpers + registry, consumed by the wrapper + CI)
+├── recipes/
+│   ├── lv2.sh             # LV2 + native NAM build recipes
+│   └── vst3.sh            # VST3 bundle build recipes
 ├── add-dep.sh             # `add-dep <name> <url> <commit>` helper
 ├── bundle-into-openrig.sh # zips everything into ../OpenRig/plugins/openrig-plugins.zip
 ├── plugin-recipes.tsv     # documents plugin folder ↔ recipe (catalogue ↔ deps)

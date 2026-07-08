@@ -1,0 +1,15 @@
+manifest_version: 1
+id: vst3_sirial
+display_name: Delay sirial
+description: Sirial — rhythmic, pattern-based multi-tap delay by tiagolr.
+brand: tiagolr
+license: GPL-3.0-or-later
+homepage: https://github.com/tiagolr/sirial
+type: vst3
+backend: vst3
+bundle: bundles/Sirial.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController
+# (crates/vst3/src/host.rs). The manifest parameters[] block is not consumed by
+# the engine for VST3, so it stays empty.
+parameters: []

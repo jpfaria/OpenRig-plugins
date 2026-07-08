@@ -74,3 +74,63 @@
 [submodule "deps/KlonCentaur"]
 	path = deps/KlonCentaur
 	url = https://github.com/jatinchowdhury18/KlonCentaur.git
+[submodule "deps/ChowPhaser"]
+	path = deps/ChowPhaser
+	url = https://github.com/jatinchowdhury18/ChowPhaser.git
+[submodule "deps/ChowMatrix"]
+	path = deps/ChowMatrix
+	url = https://github.com/Chowdhury-DSP/ChowMatrix.git
+[submodule "deps/ChowMultiTool"]
+	path = deps/ChowMultiTool
+	url = https://github.com/Chowdhury-DSP/ChowMultiTool.git
+[submodule "deps/BYOD"]
+	path = deps/BYOD
+	url = https://github.com/Chowdhury-DSP/BYOD.git
+[submodule "deps/reevr"]
+	path = deps/reevr
+	url = https://github.com/tiagolr/reevr.git
+[submodule "deps/sirial"]
+	path = deps/sirial
+	url = https://github.com/tiagolr/sirial.git
+[submodule "deps/qdelay"]
+	path = deps/qdelay
+	url = https://github.com/tiagolr/qdelay.git
+[submodule "deps/gate12"]
+	path = deps/gate12
+	url = https://github.com/tiagolr/gate12.git
+[submodule "deps/time12"]
+	path = deps/time12
+	url = https://github.com/tiagolr/time12.git
+[submodule "deps/filtr"]
+	path = deps/filtr
+	url = https://github.com/tiagolr/filtr.git
+[submodule "deps/ZLEqualizer"]
+	path = deps/ZLEqualizer
+	url = https://github.com/ZL-Audio/ZLEqualizer.git
+[submodule "deps/ZLCompressor"]
+	path = deps/ZLCompressor
+	url = https://github.com/ZL-Audio/ZLCompressor.git
+[submodule "deps/ZLSplitter"]
+	path = deps/ZLSplitter
+	url = https://github.com/ZL-Audio/ZLSplitter.git
+[submodule "deps/ZLSpectrumEqualizer"]
+	path = deps/ZLSpectrumEqualizer
+	url = https://github.com/ZL-Audio/ZLSpectrumEqualizer.git
+[submodule "deps/ZLWarm"]
+	path = deps/ZLWarm
+	url = https://github.com/ZL-Audio/ZLWarm.git
+[submodule "deps/ZLInflator"]
+	path = deps/ZLInflator
+	url = https://github.com/ZL-Audio/ZLInflator.git
+[submodule "deps/CloudReverb"]
+	path = deps/CloudReverb
+	url = https://github.com/xunil-cloud/CloudReverb.git
+[submodule "deps/RoomReverb"]
+	path = deps/RoomReverb
+	url = https://github.com/cvde/RoomReverb.git
+[submodule "deps/Frequalizer"]
+	path = deps/Frequalizer
+	url = https://github.com/ffAudio/Frequalizer.git
+[submodule "deps/retuner"]
+	path = deps/retuner
+	url = https://github.com/kushview/retuner.git

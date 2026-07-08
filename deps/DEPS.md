@@ -24,11 +24,31 @@ Use `./scripts/add-dep.sh` to add new ones.
 | sooperlooper | https://github.com/essej/sooperlooper | `c5e22ce` | Autotools | Looper |
 | setBfree | https://github.com/pantherb/setBfree | `25274ac` | Make | Hammond organ, whirl speaker |
 | GxPlugins.lv2 | https://github.com/brummer10/GxPlugins.lv2 | `3a32527` | Make | Guitarix amp sims, effects |
-| AnalogTapeModel | https://github.com/jatinchowdhury18/AnalogTapeModel | `604372e` | CMake/JUCE | CHOWTapeModel (tape sat) — recipe not yet activated |
+| AnalogTapeModel | https://github.com/jatinchowdhury18/AnalogTapeModel | `604372e` | CMake/JUCE | ChowTapeModel (tape saturation) — VST3 bundle, recipe `chowtape` |
 | KlonCentaur | https://github.com/jatinchowdhury18/KlonCentaur | `f3bb633` | CMake/JUCE | ChowCentaur (Klon overdrive) — VST3 bundle, recipe `chowcentaur` |
+| ChowPhaser | https://github.com/jatinchowdhury18/ChowPhaser | `31eac4d` | CMake/JUCE | ChowPhaser (WDF phaser, stereo) — VST3 bundle, recipe `chowphaser` |
+| ChowMatrix | https://github.com/Chowdhury-DSP/ChowMatrix | `40d8e0e` | CMake/JUCE | ChowMatrix (multitap delay) — VST3 bundle, recipe `chowmatrix` |
+| ChowMultiTool | https://github.com/Chowdhury-DSP/ChowMultiTool | `0b65e3a` | CMake/JUCE | ChowMultiTool (multi-effect) — VST3 bundle, recipe `chowmultitool` |
+| BYOD | https://github.com/Chowdhury-DSP/BYOD | `1cf22b6` | CMake/JUCE | BYOD (modular distortion) — VST3 bundle, recipe `byod` |
+| reevr | https://github.com/tiagolr/reevr | `e4d553a` | CMake/JUCE | REEV-R (convolution reverb) — VST3 bundle, recipe `reevr` |
+| sirial | https://github.com/tiagolr/sirial | `ec31132` | CMake/JUCE | Sirial (rhythmic delay) — VST3 bundle, recipe `sirial` |
+| qdelay | https://github.com/tiagolr/qdelay | `13ef451` | CMake/JUCE | QDelay (dual delay) — VST3 bundle, recipe `qdelay` |
+| gate12 | https://github.com/tiagolr/gate12 | `df65245` | CMake/JUCE | GATE-12 (trance gate) — VST3 bundle, recipe `gate12` |
+| time12 | https://github.com/tiagolr/time12 | `cb86fd6` | CMake/JUCE | TIME-12 (stutter/tape-stop) — VST3 bundle, recipe `time12` |
+| filtr | https://github.com/tiagolr/filtr | `b42c4e0` | CMake/JUCE | FILT-R (envelope filter, AGPL-3) — VST3 bundle, recipe `filtr` |
+| ZLEqualizer | https://github.com/ZL-Audio/ZLEqualizer | `903c0c9` | CMake/JUCE | ZLEqualizer (dynamic EQ, AGPL-3) — VST3 bundle, recipe `zl_equalizer` |
+| ZLCompressor | https://github.com/ZL-Audio/ZLCompressor | `b2fe331` | CMake/JUCE | ZLCompressor (compressor, AGPL-3) — VST3 bundle, recipe `zl_compressor` |
+| ZLSplitter | https://github.com/ZL-Audio/ZLSplitter | `dfaccc6` | CMake/JUCE | ZLSplitter (signal splitter, AGPL-3) — VST3 bundle, recipe `zl_splitter` |
+| ZLSpectrumEqualizer | https://github.com/ZL-Audio/ZLSpectrumEqualizer | `21cc97d` | CMake/JUCE | ZLSpectrumEqualizer (spectrum EQ, AGPL-3) — VST3 bundle, recipe `zl_spectrum_equalizer` |
+| ZLWarm | https://github.com/ZL-Audio/ZLWarm | `48093f3` | CMake/JUCE | ZLWarm (saturation, GPL-3) — VST3 bundle, recipe `zl_warm` |
+| ZLInflator | https://github.com/ZL-Audio/ZLInflator | `b71bf48` | CMake/JUCE | ZLInflator (loudness, GPL-3) — VST3 bundle, recipe `zl_inflator` |
+| CloudReverb | https://github.com/xunil-cloud/CloudReverb | `92804ed` | CMake/JUCE | CloudReverb (shimmer reverb) — VST3 bundle, recipe `cloudreverb` |
+| RoomReverb | https://github.com/cvde/RoomReverb | `11f2de0` | CMake/JUCE | RoomReverb (algorithmic reverb) — VST3 bundle, recipe `roomreverb` |
+| Frequalizer | https://github.com/ffAudio/Frequalizer | `c4b1b61` | CMake/JUCE | Frequalizer (parametric EQ, BSD-3) — VST3 bundle, recipe `frequalizer` |
+| retuner | https://github.com/kushview/retuner | `4a8fb06` | CMake/JUCE | reTuner (pitch shift) — VST3 bundle, recipe `retuner` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
-Currently only `neural-amp-modeler-lv2` is registered as a real submodule. The remaining entries are documentation of the upstream repos each `build_*` recipe in `scripts/build-lib-internal.sh` expects under `deps/<name>/`. Register them with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.
+Every row above is a real git submodule (a committed gitlink under `deps/`). Each `build_*` recipe — grouped by backend in `scripts/recipes/lv2.sh` and `scripts/recipes/vst3.sh`, sourced by `scripts/build-lib-internal.sh` — expects its upstream checked out under `deps/<name>/` (CI checks them out with `submodules: recursive`). Register a new one with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.
 
 ## Updating a dependency
 
