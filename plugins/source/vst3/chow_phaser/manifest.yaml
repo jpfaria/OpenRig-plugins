@@ -7,7 +7,7 @@ license: BSD-3-Clause
 homepage: https://github.com/jatinchowdhury18/ChowPhaser
 type: vst3
 backend: vst3
-bundle: bundles/ChowPhaser Stereo.vst3
+bundle: bundles/ChowPhaserStereo.vst3
 # No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor (the
 # plugin's own IPlugView in a separate window, crates/vst3/src/editor.rs) and
 # discovers parameters at runtime from the plugin's IEditController

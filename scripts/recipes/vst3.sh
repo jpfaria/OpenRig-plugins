@@ -24,8 +24,10 @@ build_chowtape() {
     # emulation. The CMake project lives under Plugin/. CLAP is disabled (it needs
     # CMake 3.21 + the clap-juce-extensions submodule); only the VST3 target is
     # built. macOS is universal via CMAKE_OSX_ARCHITECTURES (set by the workflow).
+    # RTNeural (a submodule) pins cmake_minimum_required below the floor CMake 4
+    # accepts, so raise the policy baseline (same fix as build_artyfx).
     local src="$DEPS_DIR/AnalogTapeModel/Plugin"
-    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCHOWTAPE_BUILD_CLAP=OFF" \
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCHOWTAPE_BUILD_CLAP=OFF -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" CHOWTapeModel_VST3
     collect_bundle "$LAST_BUILD_DIR" "CHOWTapeModel.vst3"
 }
@@ -36,7 +38,8 @@ build_chowphaser() {
     # Stereo variant. The bundle name carries a space — the merge job handles it.
     local src="$DEPS_DIR/ChowPhaser"
     do_cmake "$src" ChowPhaserStereo_VST3
-    collect_bundle "$LAST_BUILD_DIR" "ChowPhaser Stereo.vst3"
+    # JUCE names the artefact after the target (ChowPhaserStereo), not ProductName.
+    collect_bundle "$LAST_BUILD_DIR" "ChowPhaserStereo.vst3"
 }
 
 build_chowmatrix() {
@@ -60,7 +63,7 @@ build_byod() {
     # BYOD (Chowdhury-DSP/BYOD): JUCE/CMake modular "build-your-own-drive". CLAP and
     # the preset server are disabled; only the VST3 target is built.
     local src="$DEPS_DIR/BYOD"
-    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DBYOD_BUILD_CLAP=OFF -DBYOD_BUILD_PRESET_SERVER=OFF" \
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DBYOD_BUILD_CLAP=OFF -DBYOD_BUILD_PRESET_SERVER=OFF -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" BYOD_VST3
     collect_bundle "$LAST_BUILD_DIR" "BYOD.vst3"
 }

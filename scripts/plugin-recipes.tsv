@@ -25,7 +25,6 @@ caps_spice	caps-lv2
 caps_spicex2	caps-lv2
 chow_centaur	chowcentaur
 chow_matrix	chowmatrix
-chow_multi_tool	chowmultitool
 chow_phaser	chowphaser
 chow_tape_model	chowtape
 dragonfly_early	dragonfly-reverb
