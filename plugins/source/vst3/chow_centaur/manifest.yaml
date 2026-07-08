@@ -5,7 +5,7 @@ description: ChowCentaur — Klon Centaur overdrive emulation (Wave Digital Filt
 brand: chowdsp
 license: BSD-3-Clause
 homepage: https://github.com/jatinchowdhury18/KlonCentaur
-type: gain_pedal
+type: vst3
 backend: vst3
 bundle: bundles/ChowCentaur.vst3
 # No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor (the
