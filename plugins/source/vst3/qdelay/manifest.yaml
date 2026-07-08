@@ -1,0 +1,15 @@
+manifest_version: 1
+id: vst3_qdelay
+display_name: Delay qdelay
+description: QDelay — dual/ping-pong delay with per-channel feedback tone by tiagolr.
+brand: tiagolr
+license: GPL-3.0-or-later
+homepage: https://github.com/tiagolr/qdelay
+type: vst3
+backend: vst3
+bundle: bundles/QDelay.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController
+# (crates/vst3/src/host.rs). The manifest parameters[] block is not consumed by
+# the engine for VST3, so it stays empty.
+parameters: []

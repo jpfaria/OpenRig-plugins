@@ -30,6 +30,12 @@ Use `./scripts/add-dep.sh` to add new ones.
 | ChowMatrix | https://github.com/Chowdhury-DSP/ChowMatrix | `40d8e0e` | CMake/JUCE | ChowMatrix (multitap delay) — VST3 bundle, recipe `chowmatrix` |
 | ChowMultiTool | https://github.com/Chowdhury-DSP/ChowMultiTool | `0b65e3a` | CMake/JUCE | ChowMultiTool (multi-effect) — VST3 bundle, recipe `chowmultitool` |
 | BYOD | https://github.com/Chowdhury-DSP/BYOD | `1cf22b6` | CMake/JUCE | BYOD (modular distortion) — VST3 bundle, recipe `byod` |
+| reevr | https://github.com/tiagolr/reevr | `e4d553a` | CMake/JUCE | REEV-R (convolution reverb) — VST3 bundle, recipe `reevr` |
+| sirial | https://github.com/tiagolr/sirial | `ec31132` | CMake/JUCE | Sirial (rhythmic delay) — VST3 bundle, recipe `sirial` |
+| qdelay | https://github.com/tiagolr/qdelay | `13ef451` | CMake/JUCE | QDelay (dual delay) — VST3 bundle, recipe `qdelay` |
+| gate12 | https://github.com/tiagolr/gate12 | `df65245` | CMake/JUCE | GATE-12 (trance gate) — VST3 bundle, recipe `gate12` |
+| time12 | https://github.com/tiagolr/time12 | `cb86fd6` | CMake/JUCE | TIME-12 (stutter/tape-stop) — VST3 bundle, recipe `time12` |
+| filtr | https://github.com/tiagolr/filtr | `b42c4e0` | CMake/JUCE | FILT-R (envelope filter, AGPL-3) — VST3 bundle, recipe `filtr` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
 Every row above is a real git submodule (a committed gitlink under `deps/`). Each `build_*` recipe — grouped by backend in `scripts/recipes/lv2.sh` and `scripts/recipes/vst3.sh`, sourced by `scripts/build-lib-internal.sh` — expects its upstream checked out under `deps/<name>/` (CI checks them out with `submodules: recursive`). Register a new one with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.

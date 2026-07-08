@@ -203,6 +203,12 @@ PLUGINS=(
     chowmatrix
     chowmultitool
     byod
+    reevr
+    sirial
+    qdelay
+    gate12
+    time12
+    filtr
     ojd
     aether
     x42
@@ -236,6 +242,12 @@ dispatch() {
         chowmatrix)       build_chowmatrix ;;
         chowmultitool)    build_chowmultitool ;;
         byod)             build_byod ;;
+        reevr)            build_reevr ;;
+        sirial)           build_sirial ;;
+        qdelay)           build_qdelay ;;
+        gate12)           build_gate12 ;;
+        time12)           build_time12 ;;
+        filtr)            build_filtr ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;

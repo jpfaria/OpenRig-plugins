@@ -86,3 +86,21 @@
 [submodule "deps/BYOD"]
 	path = deps/BYOD
 	url = https://github.com/Chowdhury-DSP/BYOD.git
+[submodule "deps/reevr"]
+	path = deps/reevr
+	url = https://github.com/tiagolr/reevr.git
+[submodule "deps/sirial"]
+	path = deps/sirial
+	url = https://github.com/tiagolr/sirial.git
+[submodule "deps/qdelay"]
+	path = deps/qdelay
+	url = https://github.com/tiagolr/qdelay.git
+[submodule "deps/gate12"]
+	path = deps/gate12
+	url = https://github.com/tiagolr/gate12.git
+[submodule "deps/time12"]
+	path = deps/time12
+	url = https://github.com/tiagolr/time12.git
+[submodule "deps/filtr"]
+	path = deps/filtr
+	url = https://github.com/tiagolr/filtr.git
