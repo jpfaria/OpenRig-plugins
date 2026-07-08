@@ -123,6 +123,27 @@ collect_bundle() {
     echo "  collected bundle: $bundle_name ($(find "$OUTPUT_DIR/$bundle_name" -type f | wc -l | tr -d ' ') files)"
 }
 
+# Collect the SINGLE VST3 bundle built under $search_dir, normalising its folder
+# name to $dest_name. JUCE names the .vst3 after PRODUCT_NAME (often unequal to
+# the CMake target — e.g. "REEV-R.vst3"), which the manifest `bundle:` must
+# match exactly; rather than predict that name per plugin, each recipe builds
+# exactly one VST3 target and we rename whatever it produced to a stable name.
+# Fails loudly if zero or more than one .vst3 is found.
+collect_vst3() {
+    local search_dir="$1" dest_name="$2"
+    local found
+    found=()
+    while IFS= read -r d; do found+=("$d"); done \
+        < <(find "$search_dir" -type d -name "*.vst3")
+    if [ "${#found[@]}" -ne 1 ]; then
+        echo "  collect_vst3: expected exactly one .vst3 under $search_dir, found ${#found[@]}" >&2
+        return 1
+    fi
+    rm -rf "${OUTPUT_DIR:?}/$dest_name"
+    cp -R "${found[0]}" "$OUTPUT_DIR/$dest_name"
+    echo "  collected bundle: ${found[0]##*/} -> $dest_name ($(find "$OUTPUT_DIR/$dest_name" -type f | wc -l | tr -d ' ') files)"
+}
+
 # Build with Make (supports cross-compilation)
 do_make() {
     local src="$1"
@@ -209,6 +230,12 @@ PLUGINS=(
     gate12
     time12
     filtr
+    zl_equalizer
+    zl_compressor
+    zl_splitter
+    zl_spectrum_equalizer
+    zl_warm
+    zl_inflator
     ojd
     aether
     x42
@@ -248,6 +275,12 @@ dispatch() {
         gate12)           build_gate12 ;;
         time12)           build_time12 ;;
         filtr)            build_filtr ;;
+        zl_equalizer)         build_zl_equalizer ;;
+        zl_compressor)        build_zl_compressor ;;
+        zl_splitter)          build_zl_splitter ;;
+        zl_spectrum_equalizer) build_zl_spectrum_equalizer ;;
+        zl_warm)              build_zl_warm ;;
+        zl_inflator)          build_zl_inflator ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;

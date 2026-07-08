@@ -117,3 +117,50 @@ build_filtr() {
         do_cmake "$src" FILTR_VST3
     collect_bundle "$LAST_BUILD_DIR" "FILT-R.vst3"
 }
+
+# --- ZL-Audio family (AGPL-3 / GPL-3, JUCE/CMake) ---
+# JUCE/CMake; only the <Target>_VST3 target is built. Uses collect_vst3 so the
+# unpredictable PRODUCT_NAME artefact is normalised to a stable bundle name.
+# -DCMAKE_POLICY_VERSION_MINIMUM=3.5 for the CMake-4 macOS runner.
+
+build_zl_equalizer() {
+    local src="$DEPS_DIR/ZLEqualizer"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" ZLEqualizer_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "ZLEqualizer.vst3"
+}
+
+build_zl_compressor() {
+    local src="$DEPS_DIR/ZLCompressor"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" ZLCompressor_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "ZLCompressor.vst3"
+}
+
+build_zl_splitter() {
+    local src="$DEPS_DIR/ZLSplitter"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" ZLSplitter_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "ZLSplitter.vst3"
+}
+
+build_zl_spectrum_equalizer() {
+    local src="$DEPS_DIR/ZLSpectrumEqualizer"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" ZLSpectrumEqualizer_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "ZLSpectrumEqualizer.vst3"
+}
+
+build_zl_warm() {
+    local src="$DEPS_DIR/ZLWarm"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" ZLWarm_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "ZLWarm.vst3"
+}
+
+build_zl_inflator() {
+    local src="$DEPS_DIR/ZLInflator"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" ZLInflator_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "ZLInflator.vst3"
+}

@@ -104,3 +104,21 @@
 [submodule "deps/filtr"]
 	path = deps/filtr
 	url = https://github.com/tiagolr/filtr.git
+[submodule "deps/ZLEqualizer"]
+	path = deps/ZLEqualizer
+	url = https://github.com/ZL-Audio/ZLEqualizer.git
+[submodule "deps/ZLCompressor"]
+	path = deps/ZLCompressor
+	url = https://github.com/ZL-Audio/ZLCompressor.git
+[submodule "deps/ZLSplitter"]
+	path = deps/ZLSplitter
+	url = https://github.com/ZL-Audio/ZLSplitter.git
+[submodule "deps/ZLSpectrumEqualizer"]
+	path = deps/ZLSpectrumEqualizer
+	url = https://github.com/ZL-Audio/ZLSpectrumEqualizer.git
+[submodule "deps/ZLWarm"]
+	path = deps/ZLWarm
+	url = https://github.com/ZL-Audio/ZLWarm.git
+[submodule "deps/ZLInflator"]
+	path = deps/ZLInflator
+	url = https://github.com/ZL-Audio/ZLInflator.git

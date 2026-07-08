@@ -36,6 +36,12 @@ Use `./scripts/add-dep.sh` to add new ones.
 | gate12 | https://github.com/tiagolr/gate12 | `df65245` | CMake/JUCE | GATE-12 (trance gate) — VST3 bundle, recipe `gate12` |
 | time12 | https://github.com/tiagolr/time12 | `cb86fd6` | CMake/JUCE | TIME-12 (stutter/tape-stop) — VST3 bundle, recipe `time12` |
 | filtr | https://github.com/tiagolr/filtr | `b42c4e0` | CMake/JUCE | FILT-R (envelope filter, AGPL-3) — VST3 bundle, recipe `filtr` |
+| ZLEqualizer | https://github.com/ZL-Audio/ZLEqualizer | `903c0c9` | CMake/JUCE | ZLEqualizer (dynamic EQ, AGPL-3) — VST3 bundle, recipe `zl_equalizer` |
+| ZLCompressor | https://github.com/ZL-Audio/ZLCompressor | `b2fe331` | CMake/JUCE | ZLCompressor (compressor, AGPL-3) — VST3 bundle, recipe `zl_compressor` |
+| ZLSplitter | https://github.com/ZL-Audio/ZLSplitter | `dfaccc6` | CMake/JUCE | ZLSplitter (signal splitter, AGPL-3) — VST3 bundle, recipe `zl_splitter` |
+| ZLSpectrumEqualizer | https://github.com/ZL-Audio/ZLSpectrumEqualizer | `21cc97d` | CMake/JUCE | ZLSpectrumEqualizer (spectrum EQ, AGPL-3) — VST3 bundle, recipe `zl_spectrum_equalizer` |
+| ZLWarm | https://github.com/ZL-Audio/ZLWarm | `48093f3` | CMake/JUCE | ZLWarm (saturation, GPL-3) — VST3 bundle, recipe `zl_warm` |
+| ZLInflator | https://github.com/ZL-Audio/ZLInflator | `b71bf48` | CMake/JUCE | ZLInflator (loudness, GPL-3) — VST3 bundle, recipe `zl_inflator` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
 Every row above is a real git submodule (a committed gitlink under `deps/`). Each `build_*` recipe — grouped by backend in `scripts/recipes/lv2.sh` and `scripts/recipes/vst3.sh`, sourced by `scripts/build-lib-internal.sh` — expects its upstream checked out under `deps/<name>/` (CI checks them out with `submodules: recursive`). Register a new one with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.

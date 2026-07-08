@@ -132,3 +132,9 @@ zameq2	zam-plugins
 zamgate	zam-plugins
 zamgeq31	zam-plugins
 zamulticomp	zam-plugins
+zl_compressor	zl_compressor
+zl_equalizer	zl_equalizer
+zl_inflator	zl_inflator
+zl_spectrum_equalizer	zl_spectrum_equalizer
+zl_splitter	zl_splitter
+zl_warm	zl_warm
