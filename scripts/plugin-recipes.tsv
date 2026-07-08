@@ -15,6 +15,7 @@ avocado	-
 b_reverb	setbfree
 bitta	artyfx
 bolliedelay	bolliedelay
+byod	byod
 caps_autofilter	caps-lv2
 caps_phaser2	caps-lv2
 caps_plate	caps-lv2
@@ -23,6 +24,10 @@ caps_scape	caps-lv2
 caps_spice	caps-lv2
 caps_spicex2	caps-lv2
 chow_centaur	chowcentaur
+chow_matrix	chowmatrix
+chow_multi_tool	chowmultitool
+chow_phaser	chowphaser
+chow_tape_model	chowtape
 dragonfly_early	dragonfly-reverb
 dragonfly_hall	dragonfly-reverb
 dragonfly_plate	dragonfly-reverb

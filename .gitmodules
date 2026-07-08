@@ -74,3 +74,15 @@
 [submodule "deps/KlonCentaur"]
 	path = deps/KlonCentaur
 	url = https://github.com/jatinchowdhury18/KlonCentaur.git
+[submodule "deps/ChowPhaser"]
+	path = deps/ChowPhaser
+	url = https://github.com/jatinchowdhury18/ChowPhaser.git
+[submodule "deps/ChowMatrix"]
+	path = deps/ChowMatrix
+	url = https://github.com/Chowdhury-DSP/ChowMatrix.git
+[submodule "deps/ChowMultiTool"]
+	path = deps/ChowMultiTool
+	url = https://github.com/Chowdhury-DSP/ChowMultiTool.git
+[submodule "deps/BYOD"]
+	path = deps/BYOD
+	url = https://github.com/Chowdhury-DSP/BYOD.git

@@ -24,11 +24,15 @@ Use `./scripts/add-dep.sh` to add new ones.
 | sooperlooper | https://github.com/essej/sooperlooper | `c5e22ce` | Autotools | Looper |
 | setBfree | https://github.com/pantherb/setBfree | `25274ac` | Make | Hammond organ, whirl speaker |
 | GxPlugins.lv2 | https://github.com/brummer10/GxPlugins.lv2 | `3a32527` | Make | Guitarix amp sims, effects |
-| AnalogTapeModel | https://github.com/jatinchowdhury18/AnalogTapeModel | `604372e` | CMake/JUCE | CHOWTapeModel (tape sat) — recipe not yet activated |
+| AnalogTapeModel | https://github.com/jatinchowdhury18/AnalogTapeModel | `604372e` | CMake/JUCE | ChowTapeModel (tape saturation) — VST3 bundle, recipe `chowtape` |
 | KlonCentaur | https://github.com/jatinchowdhury18/KlonCentaur | `f3bb633` | CMake/JUCE | ChowCentaur (Klon overdrive) — VST3 bundle, recipe `chowcentaur` |
+| ChowPhaser | https://github.com/jatinchowdhury18/ChowPhaser | `31eac4d` | CMake/JUCE | ChowPhaser (WDF phaser, stereo) — VST3 bundle, recipe `chowphaser` |
+| ChowMatrix | https://github.com/Chowdhury-DSP/ChowMatrix | `40d8e0e` | CMake/JUCE | ChowMatrix (multitap delay) — VST3 bundle, recipe `chowmatrix` |
+| ChowMultiTool | https://github.com/Chowdhury-DSP/ChowMultiTool | `0b65e3a` | CMake/JUCE | ChowMultiTool (multi-effect) — VST3 bundle, recipe `chowmultitool` |
+| BYOD | https://github.com/Chowdhury-DSP/BYOD | `1cf22b6` | CMake/JUCE | BYOD (modular distortion) — VST3 bundle, recipe `byod` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
-Currently only `neural-amp-modeler-lv2` is registered as a real submodule. The remaining entries are documentation of the upstream repos each `build_*` recipe in `scripts/build-lib-internal.sh` expects under `deps/<name>/`. Register them with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.
+Every row above is a real git submodule (a committed gitlink under `deps/`). Each `build_*` recipe — grouped by backend in `scripts/recipes/lv2.sh` and `scripts/recipes/vst3.sh`, sourced by `scripts/build-lib-internal.sh` — expects its upstream checked out under `deps/<name>/` (CI checks them out with `submodules: recursive`). Register a new one with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.
 
 ## Updating a dependency
 
