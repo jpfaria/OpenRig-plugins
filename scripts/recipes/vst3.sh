@@ -168,3 +168,35 @@ build_zl_inflator() {
         do_cmake "$src" ZLInflator_VST3
     collect_vst3 "$LAST_BUILD_DIR" "ZLInflator.vst3"
 }
+
+# --- Individual JUCE/CMake effects (mixed licenses) ---
+# Each builds only its <Target>_VST3; collect_vst3 normalises the artefact name.
+# -DCMAKE_POLICY_VERSION_MINIMUM=3.5 for the CMake-4 macOS runner.
+
+build_cloudreverb() {
+    local src="$DEPS_DIR/CloudReverb"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" CloudReverb_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "CloudReverb.vst3"
+}
+
+build_roomreverb() {
+    local src="$DEPS_DIR/RoomReverb"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" RoomReverb_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "RoomReverb.vst3"
+}
+
+build_frequalizer() {
+    local src="$DEPS_DIR/Frequalizer"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" frequalizer_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "Frequalizer.vst3"
+}
+
+build_retuner() {
+    local src="$DEPS_DIR/retuner"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" reTuner_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "reTuner.vst3"
+}

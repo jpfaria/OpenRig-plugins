@@ -236,6 +236,10 @@ PLUGINS=(
     zl_spectrum_equalizer
     zl_warm
     zl_inflator
+    cloudreverb
+    roomreverb
+    frequalizer
+    retuner
     ojd
     aether
     x42
@@ -281,6 +285,10 @@ dispatch() {
         zl_spectrum_equalizer) build_zl_spectrum_equalizer ;;
         zl_warm)              build_zl_warm ;;
         zl_inflator)          build_zl_inflator ;;
+        cloudreverb)      build_cloudreverb ;;
+        roomreverb)       build_roomreverb ;;
+        frequalizer)      build_frequalizer ;;
+        retuner)          build_retuner ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;

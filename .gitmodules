@@ -122,3 +122,15 @@
 [submodule "deps/ZLInflator"]
 	path = deps/ZLInflator
 	url = https://github.com/ZL-Audio/ZLInflator.git
+[submodule "deps/CloudReverb"]
+	path = deps/CloudReverb
+	url = https://github.com/xunil-cloud/CloudReverb.git
+[submodule "deps/RoomReverb"]
+	path = deps/RoomReverb
+	url = https://github.com/cvde/RoomReverb.git
+[submodule "deps/Frequalizer"]
+	path = deps/Frequalizer
+	url = https://github.com/ffAudio/Frequalizer.git
+[submodule "deps/retuner"]
+	path = deps/retuner
+	url = https://github.com/kushview/retuner.git
