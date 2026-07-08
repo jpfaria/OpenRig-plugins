@@ -188,15 +188,18 @@ build_roomreverb() {
 }
 
 build_frequalizer() {
+    # Vendors an old JUCE that pulls <curl/curl.h> (JUCE_USE_CURL) — not present
+    # on the linux runners; disable it (also drops the runtime libcurl dep).
     local src="$DEPS_DIR/Frequalizer"
-    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_CXX_FLAGS=-DJUCE_USE_CURL=0" \
         do_cmake "$src" frequalizer_VST3
     collect_vst3 "$LAST_BUILD_DIR" "Frequalizer.vst3"
 }
 
 build_retuner() {
+    # JUCE pulls <curl/curl.h> (JUCE_USE_CURL) — absent on the linux runners.
     local src="$DEPS_DIR/retuner"
-    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_CXX_FLAGS=-DJUCE_USE_CURL=0" \
         do_cmake "$src" reTuner_VST3
     collect_vst3 "$LAST_BUILD_DIR" "reTuner.vst3"
 }
