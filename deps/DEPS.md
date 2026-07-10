@@ -48,6 +48,7 @@ Use `./scripts/add-dep.sh` to add new ones.
 | retuner | https://github.com/kushview/retuner | `4a8fb06` | CMake/JUCE | reTuner (pitch shift) — VST3 bundle, recipe `retuner` |
 | setekh | https://github.com/fullfxmedia/setekh | `468a9bd` | CMake/JUCE | Setekh (saturation) — VST3 bundle, recipe `setekh` |
 | vitOTTx | https://github.com/Sakhnovkrg/vitOTTx | `738ba9d` | CMake/JUCE | vitOTTx (multiband OTT) — VST3 bundle, recipe `vitottx` |
+| AIDA-X | https://github.com/AidaDSP/AIDA-X | `41eb988` | CMake/DPF | AIDA-X (neural amp+cab) — VST3 bundle, recipe `aidax` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
 Every row above is a real git submodule (a committed gitlink under `deps/`). Each `build_*` recipe — grouped by backend in `scripts/recipes/lv2.sh` and `scripts/recipes/vst3.sh`, sourced by `scripts/build-lib-internal.sh` — expects its upstream checked out under `deps/<name>/` (CI checks them out with `submodules: recursive`). Register a new one with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.

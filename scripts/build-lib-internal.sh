@@ -242,6 +242,7 @@ PLUGINS=(
     retuner
     setekh
     vitottx
+    aidax
     ojd
     aether
     x42
@@ -293,6 +294,7 @@ dispatch() {
         retuner)          build_retuner ;;
         setekh)           build_setekh ;;
         vitottx)          build_vitottx ;;
+        aidax)            build_aidax ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;

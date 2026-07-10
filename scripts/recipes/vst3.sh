@@ -220,3 +220,12 @@ build_vitottx() {
         do_cmake "$src" vitOTTx_VST3
     collect_vst3 "$LAST_BUILD_DIR" "vitOTTx.vst3"
 }
+
+build_aidax() {
+    # AIDA-X (AidaDSP): DPF/CMake neural amp modeler + cab (RTNeural). Build only
+    # the DPF vst3 target; the artefact lands in <build>/bin/AIDA-X.vst3.
+    local src="$DEPS_DIR/AIDA-X"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" AIDA-X-vst3
+    collect_vst3 "$LAST_BUILD_DIR" "AIDA-X.vst3"
+}
