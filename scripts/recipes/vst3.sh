@@ -203,3 +203,11 @@ build_retuner() {
         do_cmake "$src" reTuner_VST3
     collect_vst3 "$LAST_BUILD_DIR" "reTuner.vst3"
 }
+
+build_setekh() {
+    # Setekh (fullfxmedia): JUCE/CMake saturation; plugin CMake under plugin/.
+    local src="$DEPS_DIR/setekh"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
+        do_cmake "$src" Setekh_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "Setekh.vst3"
+}

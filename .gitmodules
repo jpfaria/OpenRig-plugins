@@ -134,3 +134,15 @@
 [submodule "deps/retuner"]
 	path = deps/retuner
 	url = https://github.com/kushview/retuner.git
+[submodule "deps/AIDA-X"]
+	path = deps/AIDA-X
+	url = https://github.com/AidaDSP/AIDA-X.git
+[submodule "deps/vitOTTx"]
+	path = deps/vitOTTx
+	url = https://github.com/Sakhnovkrg/vitOTTx.git
+[submodule "deps/MXTune"]
+	path = deps/MXTune
+	url = https://github.com/liuanlin-mx/MXTune.git
+[submodule "deps/setekh"]
+	path = deps/setekh
+	url = https://github.com/fullfxmedia/setekh.git

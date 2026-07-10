@@ -240,6 +240,7 @@ PLUGINS=(
     roomreverb
     frequalizer
     retuner
+    setekh
     ojd
     aether
     x42
@@ -289,6 +290,7 @@ dispatch() {
         roomreverb)       build_roomreverb ;;
         frequalizer)      build_frequalizer ;;
         retuner)          build_retuner ;;
+        setekh)           build_setekh ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;
