@@ -234,9 +234,13 @@ build_dfzitarev1() {
     # dfzitarev1 (SpotlightKid): DPF/Make Zita-Rev1 FDN reverb. Build via the DPF
     # Makefile (emits bin/dfzitarev1.vst3); universal on macOS.
     local src="$DEPS_DIR/dfzitarev1"
-    local mk=""
-    [ "$(uname -s)" = "Darwin" ] && mk="MACOS_UNIVERSAL=true"
-    # shellcheck disable=SC2086
-    do_make "$src" $mk
+    if [ "$(uname -s)" = "Darwin" ]; then
+        # This DPF fork ignores MACOS_UNIVERSAL; inject both arches directly.
+        export CFLAGS="-arch arm64 -arch x86_64 -mmacosx-version-min=11.0"
+        export CXXFLAGS="$CFLAGS"
+        export LDFLAGS="-arch arm64 -arch x86_64"
+    fi
+    do_make "$src"
+    unset CFLAGS CXXFLAGS LDFLAGS
     collect_vst3 "$src/bin" "dfzitarev1.vst3"
 }
