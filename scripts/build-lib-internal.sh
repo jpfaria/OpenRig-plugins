@@ -243,6 +243,7 @@ PLUGINS=(
     setekh
     vitottx
     aidax
+    dfzitarev1
     ojd
     aether
     x42
@@ -295,6 +296,7 @@ dispatch() {
         setekh)           build_setekh ;;
         vitottx)          build_vitottx ;;
         aidax)            build_aidax ;;
+        dfzitarev1)       build_dfzitarev1 ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;

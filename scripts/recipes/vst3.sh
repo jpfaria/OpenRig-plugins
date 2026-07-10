@@ -229,3 +229,14 @@ build_aidax() {
         do_cmake "$src" AIDA-X-vst3
     collect_vst3 "$LAST_BUILD_DIR" "AIDA-X.vst3"
 }
+
+build_dfzitarev1() {
+    # dfzitarev1 (SpotlightKid): DPF/Make Zita-Rev1 FDN reverb. Build via the DPF
+    # Makefile (emits bin/dfzitarev1.vst3); universal on macOS.
+    local src="$DEPS_DIR/dfzitarev1"
+    local mk=""
+    [ "$(uname -s)" = "Darwin" ] && mk="MACOS_UNIVERSAL=true"
+    # shellcheck disable=SC2086
+    do_make "$src" $mk
+    collect_vst3 "$src/bin" "dfzitarev1.vst3"
+}
