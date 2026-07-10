@@ -241,6 +241,7 @@ PLUGINS=(
     frequalizer
     retuner
     setekh
+    vitottx
     ojd
     aether
     x42
@@ -291,6 +292,7 @@ dispatch() {
         frequalizer)      build_frequalizer ;;
         retuner)          build_retuner ;;
         setekh)           build_setekh ;;
+        vitottx)          build_vitottx ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;

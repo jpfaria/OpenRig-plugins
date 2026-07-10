@@ -1,0 +1,13 @@
+manifest_version: 1
+id: vst3_vitottx
+display_name: Multiband vit-multiband
+description: Multiband upward/downward compressor (open-source, Vital DSP based) by Sakhnovkrg.
+brand: sakhnovkrg
+license: GPL-3.0-or-later
+homepage: https://github.com/Sakhnovkrg/vitOTTx
+type: vst3
+backend: vst3
+bundle: bundles/vitOTTx.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController.
+parameters: []

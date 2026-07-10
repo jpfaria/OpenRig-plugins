@@ -211,3 +211,12 @@ build_setekh() {
         do_cmake "$src" Setekh_VST3
     collect_vst3 "$LAST_BUILD_DIR" "Setekh.vst3"
 }
+
+build_vitottx() {
+    # vitOTTx (Sakhnovkrg): JUCE/CMake multiband upward/downward compressor (OSS
+    # "OTT"). PLUGIN_NAME drives target/product; collect_vst3 normalises the name.
+    local src="$DEPS_DIR/vitOTTx"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DPLUGIN_NAME=vitOTTx" \
+        do_cmake "$src" vitOTTx_VST3
+    collect_vst3 "$LAST_BUILD_DIR" "vitOTTx.vst3"
+}
