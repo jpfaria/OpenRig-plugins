@@ -50,6 +50,7 @@ Use `./scripts/add-dep.sh` to add new ones.
 | vitOTTx | https://github.com/Sakhnovkrg/vitOTTx | `738ba9d` | CMake/JUCE | vitOTTx (multiband OTT) — VST3 bundle, recipe `vitottx` |
 | AIDA-X | https://github.com/AidaDSP/AIDA-X | `41eb988` | CMake/DPF | AIDA-X (neural amp+cab) — VST3 bundle, recipe `aidax` |
 | dfzitarev1 | https://github.com/SpotlightKid/dfzitarev1 | `5da5440` | DPF/Make | dfZitaRev1 (Zita reverb, MIT) — VST3 bundle, recipe `dfzitarev1` |
+| master_me | https://github.com/trummerschlunk/master_me | `ea93d78` | DPF/Make | master_me (auto-mastering) — VST3 bundle, recipe `master_me` |
 | Schrammel_OJD | https://github.com/JanosGit/Schrammel_OJD | `03c0e84` | CMake/JUCE | OJD overdrive |
 
 Every row above is a real git submodule (a committed gitlink under `deps/`). Each `build_*` recipe — grouped by backend in `scripts/recipes/lv2.sh` and `scripts/recipes/vst3.sh`, sourced by `scripts/build-lib-internal.sh` — expects its upstream checked out under `deps/<name>/` (CI checks them out with `submodules: recursive`). Register a new one with `./scripts/add-dep.sh <name> <url> <commit>` when activating the recipe.

@@ -244,3 +244,17 @@ build_dfzitarev1() {
     unset CFLAGS CXXFLAGS LDFLAGS
     collect_vst3 "$src/bin" "dfzitarev1.vst3"
 }
+
+build_master_me() {
+    # master_me (trummerschlunk): DPF/Make automatic mastering chain. Universal on
+    # macOS via explicit -arch (DPF Makefile); emits bin/master_me.vst3.
+    local src="$DEPS_DIR/master_me"
+    if [ "$(uname -s)" = "Darwin" ]; then
+        export CFLAGS="-arch arm64 -arch x86_64 -mmacosx-version-min=11.0"
+        export CXXFLAGS="$CFLAGS"
+        export LDFLAGS="-arch arm64 -arch x86_64"
+    fi
+    do_make "$src"
+    unset CFLAGS CXXFLAGS LDFLAGS
+    collect_vst3 "$src/bin" "master_me.vst3"
+}

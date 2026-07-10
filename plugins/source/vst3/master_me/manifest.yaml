@@ -1,0 +1,13 @@
+manifest_version: 1
+id: vst3_master_me
+display_name: Master master_me
+description: master_me — real-time automatic mastering chain (gate, EQ, leveler, compressor, limiter) by trummerschlunk.
+brand: trummerschlunk
+license: GPL-3.0-or-later
+homepage: https://github.com/trummerschlunk/master_me
+type: vst3
+backend: vst3
+bundle: bundles/master_me.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController.
+parameters: []

@@ -244,6 +244,7 @@ PLUGINS=(
     vitottx
     aidax
     dfzitarev1
+    master_me
     ojd
     aether
     x42
@@ -297,6 +298,7 @@ dispatch() {
         vitottx)          build_vitottx ;;
         aidax)            build_aidax ;;
         dfzitarev1)       build_dfzitarev1 ;;
+        master_me)        build_master_me ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;
