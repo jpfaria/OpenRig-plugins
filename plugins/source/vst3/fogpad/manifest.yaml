@@ -1,0 +1,14 @@
+manifest_version: 1
+id: vst3_fogpad
+display_name: Reverb fogpad
+description: fogpad — freeze / filter / pitch reverb effect by igorski.
+brand: igorski
+license: MIT
+homepage: https://github.com/igorski/fogpad
+type: vst3
+backend: vst3
+bundle: bundles/fogpad.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController. The
+# manifest parameters[] block is not consumed by the engine for VST3.
+parameters: []

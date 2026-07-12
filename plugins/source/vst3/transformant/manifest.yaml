@@ -1,0 +1,14 @@
+manifest_version: 1
+id: vst3_transformant
+display_name: Filter transformant
+description: transformant — formant / vowel filter by igorski.
+brand: igorski
+license: MIT
+homepage: https://github.com/igorski/transformant
+type: vst3
+backend: vst3
+bundle: bundles/transformant.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController. The
+# manifest parameters[] block is not consumed by the engine for VST3.
+parameters: []

@@ -1,0 +1,14 @@
+manifest_version: 1
+id: vst3_homecorrupter
+display_name: Lo-fi homecorrupter
+description: homecorrupter — lo-fi degrader / downsampler by igorski.
+brand: igorski
+license: MIT
+homepage: https://github.com/igorski/homecorrupter
+type: vst3
+backend: vst3
+bundle: bundles/homecorrupter.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController. The
+# manifest parameters[] block is not consumed by the engine for VST3.
+parameters: []

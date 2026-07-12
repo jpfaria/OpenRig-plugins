@@ -258,3 +258,39 @@ build_master_me() {
     unset CFLAGS CXXFLAGS LDFLAGS
     collect_vst3 "$src/bin" "master_me.vst3"
 }
+
+# --- igorski family (MIT / GPL-3, raw Steinberg VST3 SDK) ---
+# These link the Steinberg VST3 SDK static libs. _build_vst3sdk builds them once
+# into deps/vst3sdk/build (patching vstgui's -Werror, which newer clang trips).
+VST3SDK_DIR="${VST3SDK_DIR:-$DEPS_DIR/vst3sdk}"
+
+_build_vst3sdk() {
+    [ -f "$VST3SDK_DIR/build/lib/Release/libvstgui_uidescription.a" ] && return 0
+    sed -i.bak 's/-Wall -Werror/-Wall/' "$VST3SDK_DIR/vstgui4/vstgui/lib/CMakeLists.txt" 2>/dev/null || true
+    local osx=""
+    [ "$(uname -s)" = "Darwin" ] && osx="-DCMAKE_OSX_ARCHITECTURES=arm64;x86_64"
+    # shellcheck disable=SC2086
+    cmake -S "$VST3SDK_DIR" -B "$VST3SDK_DIR/build" -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DSMTG_ENABLE_VSTGUI_SUPPORT=ON \
+        -DSMTG_ENABLE_VST3_PLUGIN_EXAMPLES=OFF -DSMTG_ENABLE_VST3_HOSTING_EXAMPLES=OFF \
+        -DSMTG_CREATE_PLUGIN_LINK=OFF -DCMAKE_CXX_FLAGS="-Wno-error" $osx
+    cmake --build "$VST3SDK_DIR/build" --config Release -j "$JOBS" \
+        --target base sdk pluginterfaces vstgui vstgui_support vstgui_uidescription
+}
+
+_build_igorski() { # $1=dep dir, $2=bundle name
+    _build_vst3sdk
+    local src="$DEPS_DIR/$1"
+    local osx=""
+    [ "$(uname -s)" = "Darwin" ] && osx="-DCMAKE_OSX_ARCHITECTURES=arm64;x86_64"
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DVST3_SDK_ROOT=$VST3SDK_DIR -DSMTG_CREATE_PLUGIN_LINK=OFF -DSMTG_RUN_VST_VALIDATOR=OFF -DCMAKE_CXX_FLAGS=-Wno-error -DCMAKE_POLICY_VERSION_MINIMUM=3.5 $osx" \
+        do_cmake "$src"
+    collect_vst3 "$LAST_BUILD_DIR" "$2"
+}
+
+build_fogpad()       { _build_igorski fogpad       "fogpad.vst3"; }
+build_regrader()     { _build_igorski regrader     "regrader.vst3"; }
+build_rechoir()      { _build_igorski rechoir      "rechoir.vst3"; }
+build_transformant() { _build_igorski transformant "transformant.vst3"; }
+build_darvaza()      { _build_igorski darvaza      "darvaza.vst3"; }
+build_homecorrupter(){ _build_igorski homecorrupter "homecorrupter.vst3"; }

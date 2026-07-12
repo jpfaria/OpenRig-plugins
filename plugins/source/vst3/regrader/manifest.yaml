@@ -1,0 +1,14 @@
+manifest_version: 1
+id: vst3_regrader
+display_name: Delay regrader
+description: regrader — degrading, tempo-synced multi-tap delay by igorski.
+brand: igorski
+license: MIT
+homepage: https://github.com/igorski/regrader
+type: vst3
+backend: vst3
+bundle: bundles/regrader.vst3
+# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
+# discovers parameters at runtime from the plugin's IEditController. The
+# manifest parameters[] block is not consumed by the engine for VST3.
+parameters: []
