@@ -8,6 +8,7 @@ homepage: https://github.com/SpotlightKid/dfzitarev1
 type: vst3
 backend: vst3
 bundle: bundles/dfzitarev1.vst3
-# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor and
-# discovers parameters at runtime from the plugin's IEditController.
+# Parameters are discovered at runtime from the plugin's IEditController; the
+# app groups them dynamically (issue #117). No manual groups declared here —
+# the plugin's auto-grouping is already sensible / it has too few params to tab.
 parameters: []

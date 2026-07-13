@@ -8,9 +8,8 @@ homepage: https://github.com/Chowdhury-DSP/ChowMatrix
 type: vst3
 backend: vst3
 bundle: bundles/ChowMatrix.vst3
-# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor (the
-# plugin's own IPlugView in a separate window, crates/vst3/src/editor.rs) and
-# discovers parameters at runtime from the plugin's IEditController
-# (getParameterCount/getParameterInfo, crates/vst3/src/host.rs). The manifest
-# parameters[] block is not consumed by the engine for VST3, so it stays empty.
+# ~667 runtime parameters (a per-point automation grid /
+# modular node graph), far beyond a hand-groupable knob wall. Parameters are
+# discovered at runtime from the plugin's IEditController and the app groups
+# them dynamically by VST3 unit + name-prefix (issue #117); no manual groups.
 parameters: []
