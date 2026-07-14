@@ -134,3 +134,45 @@
 [submodule "deps/retuner"]
 	path = deps/retuner
 	url = https://github.com/kushview/retuner.git
+[submodule "deps/AIDA-X"]
+	path = deps/AIDA-X
+	url = https://github.com/AidaDSP/AIDA-X.git
+[submodule "deps/vitOTTx"]
+	path = deps/vitOTTx
+	url = https://github.com/Sakhnovkrg/vitOTTx.git
+[submodule "deps/MXTune"]
+	path = deps/MXTune
+	url = https://github.com/liuanlin-mx/MXTune.git
+[submodule "deps/setekh"]
+	path = deps/setekh
+	url = https://github.com/fullfxmedia/setekh.git
+[submodule "deps/dfzitarev1"]
+	path = deps/dfzitarev1
+	url = https://github.com/SpotlightKid/dfzitarev1.git
+[submodule "deps/master_me"]
+	path = deps/master_me
+	url = https://github.com/trummerschlunk/master_me.git
+[submodule "deps/fogpad"]
+	path = deps/fogpad
+	url = https://github.com/igorski/fogpad.git
+[submodule "deps/vst3sdk"]
+	path = deps/vst3sdk
+	url = https://github.com/steinbergmedia/vst3sdk.git
+[submodule "deps/regrader"]
+	path = deps/regrader
+	url = https://github.com/igorski/regrader.git
+[submodule "deps/rechoir"]
+	path = deps/rechoir
+	url = https://github.com/igorski/rechoir.git
+[submodule "deps/transformant"]
+	path = deps/transformant
+	url = https://github.com/igorski/transformant.git
+[submodule "deps/darvaza"]
+	path = deps/darvaza
+	url = https://github.com/igorski/darvaza.git
+[submodule "deps/homecorrupter"]
+	path = deps/homecorrupter
+	url = https://github.com/igorski/homecorrupter.git
+[submodule "deps/delirion"]
+	path = deps/delirion
+	url = https://github.com/igorski/delirion.git

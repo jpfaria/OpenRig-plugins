@@ -8,9 +8,7 @@ homepage: https://github.com/jatinchowdhury18/ChowPhaser
 type: vst3
 backend: vst3
 bundle: bundles/ChowPhaserStereo.vst3
-# No manifest-authored knobs: OpenRig hosts VST3 via its NATIVE editor (the
-# plugin's own IPlugView in a separate window, crates/vst3/src/editor.rs) and
-# discovers parameters at runtime from the plugin's IEditController
-# (getParameterCount/getParameterInfo, crates/vst3/src/host.rs). The manifest
-# parameters[] block is not consumed by the engine for VST3, so it stays empty.
+# Parameters are discovered at runtime from the plugin's IEditController; the
+# app groups them dynamically (issue #117). No manual groups declared here —
+# the plugin's auto-grouping is already sensible / it has too few params to tab.
 parameters: []

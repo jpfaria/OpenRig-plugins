@@ -240,6 +240,17 @@ PLUGINS=(
     roomreverb
     frequalizer
     retuner
+    setekh
+    vitottx
+    aidax
+    dfzitarev1
+    master_me
+    fogpad
+    regrader
+    rechoir
+    transformant
+    darvaza
+    homecorrupter
     ojd
     aether
     x42
@@ -289,6 +300,17 @@ dispatch() {
         roomreverb)       build_roomreverb ;;
         frequalizer)      build_frequalizer ;;
         retuner)          build_retuner ;;
+        setekh)           build_setekh ;;
+        vitottx)          build_vitottx ;;
+        aidax)            build_aidax ;;
+        dfzitarev1)       build_dfzitarev1 ;;
+        master_me)        build_master_me ;;
+        fogpad)          build_fogpad ;;
+        regrader)        build_regrader ;;
+        rechoir)         build_rechoir ;;
+        transformant)    build_transformant ;;
+        darvaza)         build_darvaza ;;
+        homecorrupter)   build_homecorrupter ;;
         ojd)              build_ojd ;;
         aether)           build_aether ;;
         x42)              build_x42 ;;
