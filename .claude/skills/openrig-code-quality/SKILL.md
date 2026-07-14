@@ -425,6 +425,52 @@ recipe=<x> platform=all`, which commits the slots back).
 ✅ bump to a NEW tag; CI-test one recipe; revert untagged bumps that break platforms
 ```
 
+## Parameter-group overlays — LV2 & VST3 editor tabs (issues #117, #119)
+
+For LV2 and VST3 the **live plugin owns the parameter set** (LV2: the TTL control
+ports; VST3: the `IEditController` enumeration). The manifest never declares
+ranges/defaults for them — it may only declare an **overlay** that tells the
+block editor how to tab them:
+
+```yaml
+backend: lv2                 # match key = the port's lv2:symbol
+parameters:
+  - symbol: early_level
+    group: Mixer
+
+backend: vst3                # match key = the numeric parameter id
+parameters:
+  - vst3_id: 1141971201
+    name: output
+    display_name: "Output"
+    group: "General"
+```
+
+Same rules both backends: shared `group` → one tab; tab order = first appearance;
+no `group` / no overlay → the app groups dynamically; an overlay entry the live
+plugin does not expose is ignored. The **LV2 overlay carries no `display_name`** —
+`lv2:name` already ships in the TTL, so repeating it here only creates a second
+truth that goes stale.
+
+**Count control ports per `plugin_uri`, never per bundle.** An LV2 `data/` dir is
+a whole upstream bundle and usually declares several sibling plugins we do not
+load: `invada_tube`'s TTLs hold 231 control ports across 10 plugins, but the one
+plugin OpenRig loads (`.../tube/mono`) has **5**. Parse the TTL (rdflib/lilv),
+follow `lv2:port` from the manifest's `plugin_uri`, and keep only ports whose
+type is `lv2:ControlPort` **and** `lv2:InputPort` (output control ports are
+meters, not knobs). Only ≥15-port plugins earn tabs; the rest render fine on the
+app's dynamic grouping and get **no** empty `parameters: []` noise.
+
+Verify an overlay before pushing: every declared `symbol` exists on that
+`plugin_uri`, no duplicates, and every input control port is covered.
+
+```
+❌ port count taken from `grep -c ControlPort data/*.ttl` (bundle-wide, inflated)
+❌ duplicating lv2:name as display_name in the LV2 overlay
+❌ adding `parameters: []` to the ~100 small LV2 plugins just for symmetry
+✅ per-plugin_uri census → tabs only where the knob wall is real → coverage check
+```
+
 ## Living Document
 
 This skill is a LIVING DOCUMENT. Every time the user corrects a methodology mistake:
