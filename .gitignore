@@ -23,3 +23,4 @@ scripts/.param_gate_reds.json
 
 # Local IR/NAM download staging — raw archives + extractions, never committed
 /downloads/
+.midiout/

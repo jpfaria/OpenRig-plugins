@@ -63,6 +63,10 @@ build_byod() {
     # BYOD (Chowdhury-DSP/BYOD): JUCE/CMake modular "build-your-own-drive". CLAP and
     # the preset server are disabled; only the VST3 target is built.
     local src="$DEPS_DIR/BYOD"
+    # OpenRig routes no MIDI; disable MIDI I/O so the JUCE VST3 wrapper stops
+    # exporting 2048 phantom MIDI-CC parameters (128 CC x 16 ch) that otherwise
+    # flood the block editor and bury the real controls.
+    sed -i.bak -E 's/(NEEDS_MIDI_(IN|OUT)PUT)[[:space:]]+(TRUE|True|true)/\1 FALSE/g' "$src/CMakeLists.txt"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DBYOD_BUILD_CLAP=OFF -DBYOD_BUILD_PRESET_SERVER=OFF -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" BYOD_VST3
     collect_bundle "$LAST_BUILD_DIR" "BYOD.vst3"
@@ -78,6 +82,10 @@ build_byod() {
 
 build_reevr() {
     local src="$DEPS_DIR/reevr"
+    # OpenRig routes no MIDI; disable MIDI I/O so the JUCE VST3 wrapper stops
+    # exporting 2048 phantom MIDI-CC parameters (128 CC x 16 ch) that otherwise
+    # flood the block editor and bury the real controls.
+    sed -i.bak -E 's/(NEEDS_MIDI_(IN|OUT)PUT)[[:space:]]+(TRUE|True|true)/\1 FALSE/g' "$src/CMakeLists.txt"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" REEVR_VST3
     collect_bundle "$LAST_BUILD_DIR" "REEV-R.vst3"
@@ -99,6 +107,10 @@ build_qdelay() {
 
 build_gate12() {
     local src="$DEPS_DIR/gate12"
+    # OpenRig routes no MIDI; disable MIDI I/O so the JUCE VST3 wrapper stops
+    # exporting 2048 phantom MIDI-CC parameters (128 CC x 16 ch) that otherwise
+    # flood the block editor and bury the real controls.
+    sed -i.bak -E 's/(NEEDS_MIDI_(IN|OUT)PUT)[[:space:]]+(TRUE|True|true)/\1 FALSE/g' "$src/CMakeLists.txt"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" GATE12_VST3
     collect_bundle "$LAST_BUILD_DIR" "GATE-12.vst3"
@@ -106,6 +118,10 @@ build_gate12() {
 
 build_time12() {
     local src="$DEPS_DIR/time12"
+    # OpenRig routes no MIDI; disable MIDI I/O so the JUCE VST3 wrapper stops
+    # exporting 2048 phantom MIDI-CC parameters (128 CC x 16 ch) that otherwise
+    # flood the block editor and bury the real controls.
+    sed -i.bak -E 's/(NEEDS_MIDI_(IN|OUT)PUT)[[:space:]]+(TRUE|True|true)/\1 FALSE/g' "$src/CMakeLists.txt"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" TIME12_VST3
     collect_bundle "$LAST_BUILD_DIR" "TIME-12.vst3"
@@ -113,6 +129,10 @@ build_time12() {
 
 build_filtr() {
     local src="$DEPS_DIR/filtr"
+    # OpenRig routes no MIDI; disable MIDI I/O so the JUCE VST3 wrapper stops
+    # exporting 2048 phantom MIDI-CC parameters (128 CC x 16 ch) that otherwise
+    # flood the block editor and bury the real controls.
+    sed -i.bak -E 's/(NEEDS_MIDI_(IN|OUT)PUT)[[:space:]]+(TRUE|True|true)/\1 FALSE/g' "$src/CMakeLists.txt"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" FILTR_VST3
     collect_bundle "$LAST_BUILD_DIR" "FILT-R.vst3"
