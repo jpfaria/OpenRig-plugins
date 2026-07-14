@@ -7,6 +7,15 @@
 # and collects the resulting `<Name>.vst3` directory tree; the CI merge job then
 # unions each platform's Contents/<arch>/ subfolder into the shipped bundle.
 
+# Neutralise CGWindowListCreateImage (removed in the macOS 15 SDK) in the unused
+# window-snapshot helper of old JUCE (< 7.0.6), so those plugins compile locally.
+_patch_juce_macos15() {
+    find "$1" -path '*juce_gui_basics/native/*.mm' 2>/dev/null | while read -r j; do
+        grep -q CGWindowListCreateImage "$j" || continue;
+        perl -0777 -i -pe 's/CGImageRef screenShot = CGWindowListCreateImage \([^;]*\);/CGImageRef screenShot = nullptr;/s' "$j"
+    done
+}
+
 build_chowcentaur() {
     # ChowCentaur (jatinchowdhury18/KlonCentaur): a JUCE/CMake Klon Centaur
     # overdrive (WDF + RNN). This is the repo's first VST3 recipe, so it emits a
@@ -44,7 +53,12 @@ build_chowphaser() {
 
 build_chowmatrix() {
     # ChowMatrix (Chowdhury-DSP/ChowMatrix): JUCE/CMake growable multitap delay.
+    # It pre-allocates maxNumNodes(50) x 13 = 650 host-automation "Blank" forwarding
+    # params — a huge empty knob wall in the block editor. OpenRig drives nodes via
+    # the native editor, not host automation, so cut the reserve to 4.
     local src="$DEPS_DIR/ChowMatrix"
+    sed -i.bak -E 's/maxNumNodes = [0-9]+/maxNumNodes = 2/' "$src/src/dsp/Parameters/NodeParamControl.cpp"
+    _patch_juce_macos15 "$src"
     do_cmake "$src" ChowMatrix_VST3
     collect_bundle "$LAST_BUILD_DIR" "ChowMatrix.vst3"
 }
@@ -67,6 +81,10 @@ build_byod() {
     # exporting 2048 phantom MIDI-CC parameters (128 CC x 16 ch) that otherwise
     # flood the block editor and bury the real controls.
     sed -i.bak -E 's/(NEEDS_MIDI_(IN|OUT)PUT)[[:space:]]+(TRUE|True|true)/\1 FALSE/g' "$src/CMakeLists.txt"
+    # Cut the 500 host-automation forwarding slots (a huge empty knob wall in the
+    # block editor; OpenRig drives BYOD via its native editor) and patch old JUCE.
+    sed -i.bak -E 's/ForwardingParametersManager<ParamForwardManager, [0-9]+>/ForwardingParametersManager<ParamForwardManager, 48>/g' "$src/src/state/ParamForwardManager.h" "$src/src/state/ParamForwardManager.cpp"
+    _patch_juce_macos15 "$src"
     CMAKE_EXTRA="${CMAKE_EXTRA:-} -DBYOD_BUILD_CLAP=OFF -DBYOD_BUILD_PRESET_SERVER=OFF -DCMAKE_POLICY_VERSION_MINIMUM=3.5" \
         do_cmake "$src" BYOD_VST3
     collect_bundle "$LAST_BUILD_DIR" "BYOD.vst3"
