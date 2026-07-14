@@ -2,10 +2,36 @@
 
 Catalogue + build pipeline for every plugin OpenRig ships. Four backends coexist under `plugins/source/`:
 
-- **`lv2/`** — 103 native LV2 plugins (effects, EQ, dynamics, modulation, delay, reverb, filter, wah). One `.so` / `.dylib` / `.dll` per supported platform plus `manifest.yaml`, built by the recipes in `scripts/recipes/lv2.sh` (dispatched by `scripts/build-lib-internal.sh`).
+- **`lv2/`** — 103 native LV2 plugins (effects, EQ, dynamics, modulation, delay, reverb, filter, wah). One `.so` / `.dylib` / `.dll` per supported platform plus `manifest.yaml`, built by the recipes in `scripts/recipes/lv2.sh` (dispatched by `scripts/build-lib-internal.sh`). Parameters are the plugin's TTL control ports, discovered at load time; the manifest only carries an optional `parameters[]` **overlay** declaring editor tabs (see [Parameter groups](#parameter-groups-editor-tabs)).
 - **`nam/`** — 274 Neural Amp Modeler captures (preamp, amp, gain pedal). Each plugin is a single `.nam` model + `manifest.yaml`; no native binary, the runtime loads via the bundled `libNeuralAudioCAPI`.
 - **`ir/`** — 134 impulse responses (cab + acoustic body). Mono `.wav` at 48 kHz + `manifest.yaml`; convolved by the engine.
-- **`vst3/`** — native VST3 plugins. One cross-platform `.vst3` **bundle** (a `Contents/<arch>/…` directory tree carrying every OS) under `bundles/` plus `manifest.yaml`. OpenRig hosts these through the plugin's **native editor** (its own IPlugView window) and discovers parameters at runtime from the plugin's `IEditController`, so the manifest `parameters[]` block stays empty (unlike NAM/IR grids or LV2 TTL ports). Built from source by the recipes in `scripts/recipes/vst3.sh` (dispatched by `scripts/build-lib-internal.sh`).
+- **`vst3/`** — native VST3 plugins. One cross-platform `.vst3` **bundle** (a `Contents/<arch>/…` directory tree carrying every OS) under `bundles/` plus `manifest.yaml`. OpenRig hosts these through the plugin's **native editor** (its own IPlugView window) and discovers parameters at runtime from the plugin's `IEditController`, so the manifest never declares knob ranges — only the optional `parameters[]` **overlay** with editor tabs (see [Parameter groups](#parameter-groups-editor-tabs)). Built from source by the recipes in `scripts/recipes/vst3.sh` (dispatched by `scripts/build-lib-internal.sh`).
+
+### Parameter groups (editor tabs)
+
+For LV2 and VST3 the **live plugin is the source of truth** for which parameters exist: LV2 from the TTL control ports, VST3 from the `IEditController` enumeration. Neither backend declares ranges/defaults in the manifest. What the manifest *may* declare is an **overlay** that tells the block editor how to lay those parameters out in tabs — useful only for the knob-wall plugins; everything else is grouped dynamically by the app.
+
+```yaml
+# LV2 (issue #119) — keyed by the port's lv2:symbol
+backend: lv2
+parameters:
+  - symbol: early_level    # lv2:symbol of the control port (the match key)
+    group: Mixer
+  - symbol: late_level
+    group: Mixer
+
+# VST3 (issue #117) — keyed by the numeric parameter id
+backend: vst3
+parameters:
+  - vst3_id: 1141971201
+    name: output
+    display_name: "Output"
+    group: "General"
+```
+
+Rules: parameters sharing a `group` render under one tab; tab order = first appearance in the list; a parameter with no `group` (or a plugin with no overlay) is grouped dynamically; an overlay entry the live plugin does not expose is ignored. The LV2 overlay carries **no `display_name`** — the port's `lv2:name` already ships in the TTL and duplicating it here would only go stale.
+
+Nine LV2 plugins declare tabs today (aether, x42_fil4, zamgeq31, zamulticomp, tap_equalizer, tap_equalizer_bw, dragonfly_hall, dragonfly_room, bolliedelay) — the ones with ≥15 input control ports on their own `plugin_uri`. Counting ports per *bundle* is misleading: an LV2 bundle usually ships several sibling plugins in one `.ttl` (invada_tube's bundle exposes 231 ports, but the plugin OpenRig loads has 5).
 
 The full canonical catalogue — every `MODEL_ID` with display name, brand, and parameter schema — is in [`docs/blocks-reference.md`](docs/blocks-reference.md), auto-generated from the manifests by `scripts/gen_quick_reference.py`. The `openrig-plugins.zip` consumed by the OpenRig installer is produced from this tree by `scripts/bundle-into-openrig.sh`.
 
@@ -98,8 +124,9 @@ Output paths from `build-lib.sh` use the legacy `libs/{lv2,nam}/<plat>/` layout 
 ```
 plugins/source/lv2/<plugin>/
 ├── manifest.yaml          # id, display_name, brand, plugin_uri, binaries map
+│                          # + optional parameters[] tab overlay (symbol + group, #119)
 ├── assets/                # thumbnail, screenshot, anything visual
-├── data/                  # presets, IR samples, ML model assets
+├── data/                  # TTL (the control-port truth), presets, ML model assets
 └── platform/<plat>/<bin>  # .so / .dylib / .dll per supported platform
 
 plugins/source/nam/<plugin>/
@@ -117,8 +144,9 @@ plugins/source/ir/<plugin>/
 
 plugins/source/vst3/<plugin>/
 ├── manifest.yaml          # id, display_name, brand, type, backend: vst3,
-│                          # bundle: path + parameters: [] (empty — OpenRig uses
-│                          # the plugin's native editor + runtime IEditController)
+│                          # bundle: path + parameters[] tab overlay (vst3_id +
+│                          # group, #117 — empty when the app's dynamic grouping
+│                          # is enough; ranges always come from IEditController)
 └── bundles/<Name>.vst3/   # ONE cross-platform bundle, Contents/<arch>/<bin>:
     └── Contents/          #   MacOS/ (universal) · x86_64-linux/ · aarch64-linux/
                            #   · x86_64-win/ — CI unions the per-arch subfolders
