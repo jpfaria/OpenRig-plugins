@@ -1,0 +1,19 @@
+# Single capture, taken on the pedal's clean setting.
+manifest_version: 1
+id: nam_xotic_rc_booster_a2
+display_name: Xotic RC Booster
+brand: xotic
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/31231
+parameters:
+- name: default
+  values:
+  - default
+captures:
+- values:
+    default: default
+  file: captures/xotic_rc_booster_a2.nam

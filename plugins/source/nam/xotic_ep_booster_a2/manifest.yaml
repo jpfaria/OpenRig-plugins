@@ -1,0 +1,29 @@
+# Gain is the pedal's single knob, captured at 0, 3 and 5 ("EP Booster on N").
+# A fourth A2 model ("Level 3") duplicates the gain=3 cell and was not imported.
+manifest_version: 1
+id: nam_xotic_ep_booster_a2
+display_name: Xotic EP Booster
+brand: xotic
+output_gain_db: 1.5388374
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/61869
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 3
+  - 5
+captures:
+- values:
+    gain: 0
+  file: captures/xotic_ep_booster_g0_a2.nam
+- values:
+    gain: 3
+  file: captures/xotic_ep_booster_g3_a2.nam
+- values:
+    gain: 5
+  file: captures/xotic_ep_booster_g5_a2.nam

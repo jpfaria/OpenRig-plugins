@@ -87,6 +87,28 @@ Exit 0 / `0 failed`. This is the SAME gate as the `Bundle plugins` job in OpenRi
 
 **Forbidden** to silence the gate without a real fix: faking the slot, renaming to dodge a check, `--no-verify`. Always root cause or escalate to the user.
 
+### Scope the gate to what you changed (issue #122)
+
+The unscoped run walks the whole catalogue (500+ NAM/IR models through the
+synthetic DI) and takes tens of minutes — burning that on a 6-plugin import is
+waste, not diligence. Every audit binary takes a scope; use it:
+
+```
+qa_audit    --source plugins/source --plugins nam/<a>,nam/<b>      # issue #28 selector
+loudness_audit <root>            # point <root> at a /tmp dir of symlinks to the new plugins
+nam_gate_audit --source <root>
+pack_plugins --source <root> --dist /tmp/dist   # with QA_AUDIT_SKIP=1: qa_audit already ran scoped
+```
+
+`--plugins` also skips any chain check whose members are filtered out — it says
+so on stdout, which is the honest signal, not a silent pass. The **full**
+unscoped run is CI's job (`release.yml`); locally, run it only when the change
+can affect plugins you did not touch (tooling, thresholds, shared data).
+
+**Read the whole gate output.** Piping it through `| tail -N` truncates the
+summary AND makes `$?` the exit code of `tail`, so a red run reads as green.
+Redirect to a file and grep it.
+
 ---
 
 ## Critical invariant — slot is OpenRig's single source of truth

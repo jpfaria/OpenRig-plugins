@@ -1,0 +1,85 @@
+# Gain values are the knob rotation in percent, as captured (0 to max).
+# Mode is the pedal's internal DIP switch pair (vintage EP-3 voicing vs +3 dB bright).
+manifest_version: 1
+id: nam_xotic_ep_booster_pack_a2
+display_name: Xotic EP Booster Pack
+brand: xotic
+output_gain_db: 1.5948753
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1643
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 25
+  - 40
+  - 50
+  - 60
+  - 75
+  - 100
+- name: mode
+  display_name: Mode
+  values:
+  - vintage
+  - bright
+captures:
+- values:
+    gain: 0
+    mode: vintage
+  file: captures/xotic_ep_booster_g0_vintage_a2.nam
+- values:
+    gain: 0
+    mode: bright
+  file: captures/xotic_ep_booster_g0_bright_a2.nam
+- values:
+    gain: 25
+    mode: vintage
+  file: captures/xotic_ep_booster_g25_vintage_a2.nam
+- values:
+    gain: 25
+    mode: bright
+  file: captures/xotic_ep_booster_g25_bright_a2.nam
+- values:
+    gain: 40
+    mode: vintage
+  file: captures/xotic_ep_booster_g40_vintage_a2.nam
+- values:
+    gain: 40
+    mode: bright
+  file: captures/xotic_ep_booster_g40_bright_a2.nam
+- values:
+    gain: 50
+    mode: vintage
+  file: captures/xotic_ep_booster_g50_vintage_a2.nam
+- values:
+    gain: 50
+    mode: bright
+  file: captures/xotic_ep_booster_g50_bright_a2.nam
+- values:
+    gain: 60
+    mode: vintage
+  file: captures/xotic_ep_booster_g60_vintage_a2.nam
+- values:
+    gain: 60
+    mode: bright
+  file: captures/xotic_ep_booster_g60_bright_a2.nam
+- values:
+    gain: 75
+    mode: vintage
+  file: captures/xotic_ep_booster_g75_vintage_a2.nam
+- values:
+    gain: 75
+    mode: bright
+  file: captures/xotic_ep_booster_g75_bright_a2.nam
+- values:
+    gain: 100
+    mode: vintage
+  file: captures/xotic_ep_booster_g100_vintage_a2.nam
+- values:
+    gain: 100
+    mode: bright
+  file: captures/xotic_ep_booster_g100_bright_a2.nam
