@@ -1,0 +1,21 @@
+# BB Preamp 2017 Andy Timmons Edition, captured with every knob at 12 o'clock
+# (gain / volume / treble / bass = 5). A second model on the tone ships no
+# documented settings at all and was not imported.
+manifest_version: 1
+id: nam_xotic_bb_preamp_a2
+display_name: Xotic BB Preamp
+brand: xotic
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/38651
+parameters:
+- name: default
+  values:
+  - default
+captures:
+- values:
+    default: default
+  file: captures/xotic_bb_preamp_noon_a2.nam

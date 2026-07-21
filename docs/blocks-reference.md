@@ -487,6 +487,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `lv2_tap_sigmoid` | TAP Sigmoid Booster | tap |
 | `lv2_tap_tubewarmth` | TAP Tubewarmth | tap |
 | `lv2_wolf_shaper` | Wolf Shaper | wolf |
+| `nam_am_king_of_tone_a2` | AM KoT clone | analogman |
 | `nam_ampeg_scr_di_a2` | SCR-DI | ampeg |
 | `nam_analog_man_sun_face_a2` | Analog Man Sun Face | analogman |
 | `nam_behringer_sf300_a2` | SF300 Super Fuzz | behringer |
@@ -609,6 +610,12 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_warm_audio_centavo_a2` | Warm Audio Centavo | warm_audio |
 | `nam_way_huge_pork_pickle_a2` | Way Huge Pork Pickle | way_huge |
 | `nam_way_huge_swollen_pickle_a2` | Way Huge Swollen Pickle | boss |
+| `nam_xotic_ac_rc_a2` | Xotic AC/RC Oz Noy | xotic |
+| `nam_xotic_bb_into_rc_a2` | Xotic BB Preamp into RC Booster | xotic |
+| `nam_xotic_bb_preamp_a2` | Xotic BB Preamp | xotic |
+| `nam_xotic_ep_booster_a2` | Xotic EP Booster | xotic |
+| `nam_xotic_ep_booster_pack_a2` | Xotic EP Booster Pack | xotic |
+| `nam_xotic_rc_booster_a2` | Xotic RC Booster | xotic |
 | `nam_xotic_sl_drive_a2` | Xotic SL Drive | xotic |
 | `nam_zvex_box_of_rock_a2` | ZVEX Box of Rock | zvex |
 | `nam_zvex_fuzz_factory_a2` | ZVEX Fuzz Factory | zvex |
