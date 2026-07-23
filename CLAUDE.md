@@ -27,15 +27,25 @@ macos-universal · windows-x86_64 · windows-aarch64 · linux-x86_64 · linux-aa
 
 ```
 cargo build --release -p loudness-audit --bin qa_audit
-cargo run   --release --bin pack_plugins
+cargo run   --release --bin qa_audit -- --source plugins/source --plugins <kind/name,…>
 ```
 
-Exit 0 / `0 failed`. This is the SAME gate as the `Bundle plugins` job in OpenRig's `release.yml`. Red here = red release there.
+Exit 0 / `0 failed`. `qa_audit` is the SAME audio validation the `Bundle
+plugins` job in OpenRig's `release.yml` runs (`pack_plugins` invokes it
+first there). Red here = red release there.
 
-`pack_plugins` invokes the `qa_audit` binary first (issue #12). `qa_audit`
-asserts hard thresholds per plugin (clip / silence / DC / HF aliasing /
-LUFS sanity, per-class for linear vs nonlinear blocks) and a chain-
-summation check. Any failure aborts packing.
+**The local gate does NOT zip.** Generating the `dist/` archives is
+`pack_plugins`' job and it belongs to the OpenRig **release CI**, not to
+the per-push loop here — the zip step is pure delivery overhead locally
+and only slows the import. Locally we run `qa_audit` (scoped to what
+changed) to catch a sonic regression before it ships; the full
+`pack_plugins` pack + manifest-schema validation + zip is the release
+CI's responsibility. Only run `pack_plugins` here when you specifically
+need to reproduce a packing/manifest-parse failure.
+
+`qa_audit` asserts hard thresholds per plugin (clip / silence / DC / HF
+aliasing / LUFS sanity, per-class for linear vs nonlinear blocks) and a
+chain-summation check. Any failure is a red gate.
 
 **Validating audio by ear is FORBIDDEN.** Every sonic regression that
 ships once is encoded as a deterministic threshold in
@@ -44,9 +54,9 @@ measured; if it can be measured, it goes here and the gate enforces it
 forever. Asking the user "does it sound better now" is a methodology
 defect, not a verification step.
 
-Emergency-only bypass: `QA_AUDIT_SKIP=1 cargo run --release --bin
-pack_plugins` skips the QA gate with a clear warning. Use only when the
-QA tool itself is broken; never to dodge a real failure.
+Emergency-only bypass: `QA_AUDIT_SKIP=1` skips the QA gate with a clear
+warning (honoured by both `qa_audit` and `pack_plugins`). Use only when
+the QA tool itself is broken; never to dodge a real failure.
 
 ## Development flow (LAW)
 
@@ -55,7 +65,7 @@ QA tool itself is broken; never to dodge a real failure.
 3. **Isolated workspace**: `.solvers/issue-{N}/` MUST be an independent working tree (clone or copy). `git worktree add` is FORBIDDEN — worktrees share the parent `.git` and break the isolation guarantee. Never edit in the user's working directory. See `.claude/skills/openrig-code-quality/SKILL.md` for the canonical setup command.
 4. Branch from `main`: `bugfix/issue-N` or `feature/issue-N` (no description suffix).
 5. **Everything being done is commented on the issue** — plan before starting, every push (hash + files touched + gate result), and a final summary. The issue is the running log of the work.
-6. Gate `cargo run --release --bin pack_plugins` → exit 0 before every push.
+6. Gate `cargo run --release --bin qa_audit -- --source plugins/source --plugins <kind/name,…>` → exit 0 before every push (audio validation only, no zip; the full `pack_plugins` pack is the OpenRig release CI's job).
 7. **PR targets `main`.** Bugfix merges right after review; PR/merge only on explicit user request.
 
 ## Docs in sync with code (LAW)
