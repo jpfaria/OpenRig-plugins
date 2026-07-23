@@ -496,7 +496,9 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_big_muff_green_russian` | Big Muff Green Russian Clone | electro_harmonix |
 | `nam_blues_overdrive_bd_2_a2` | Blues Driver BD-2 | boss |
 | `nam_bluesbreaker_a2` | BluesBreaker | marshall |
-| `nam_boss_ds1_a2` | DS-1 Distortion | boss |
+| `nam_bogner_red_a2` | Bogner Red Pedal | bogner |
+| `nam_boss_bd2w_waza_a2` | Boss BD-2w Blues Driver (Waza Craft) | boss |
+| `nam_boss_ds1_a2` | Boss DS-1 Distortion | boss |
 | `nam_boss_ds1_wampler_a2` | DS-1 Wampler JCM Mod | boss |
 | `nam_boss_ds_2_a2` | Boss DS-2 | boss |
 | `nam_boss_fz1w_a2` | FZ-1W Fuzz | boss |
@@ -508,6 +510,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_boss_od_3_a2` | Boss OD-3 | boss |
 | `nam_boss_odb3_bass_a2` | Boss ODB3 Bass | boss |
 | `nam_boss_os_2` | OS-2 Overdrive/Distortion | boss |
+| `nam_boss_sd1_a2` | Boss SD-1 Super Overdrive | boss |
 | `nam_browne_protein_a2` | Browne Protein | browne |
 | `nam_cc_boost` | CC Boost | custom |
 | `nam_ceriatone_centura_a2` | Ceriatone Centura | ceriatone |
@@ -527,17 +530,20 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_earthquaker_plumes_a2` | EarthQuaker Plumes | earthquaker |
 | `nam_earthquaker_talons_a2` | EarthQuaker Talons | earthquaker_devices |
 | `nam_ehx_metal_muff_a2` | EHX Metal Muff | ehx |
+| `nam_ehx_op_amp_big_muff_a2` | EHX Op-Amp Big Muff | electro_harmonix |
 | `nam_ehx_soul_food_a2` | EHX Soul Food | ehx |
+| `nam_fortin_fourteen_a2` | Fortin Fourteen Overdrive | fortin |
 | `nam_foxx_tone_machine` | Foxx Tone Machine | foxx |
 | `nam_freedman_be_odx` | Freedman BE-ODX | freedman |
 | `nam_friedman_be_od` | Friedman BE-OD | friedman |
 | `nam_fulltone_69_a2` | Fulltone 69 | fulltone |
 | `nam_fulltone_full_drive_2_a2` | Fulltone Full-Drive 2 | fulltone |
-| `nam_fulltone_ocd_a2` | OCD Overdrive | fulltone |
+| `nam_fulltone_ocd_a2` | Fulltone OCD v1.2 | fulltone |
 | `nam_fulltone_ocd_v15_a2` | OCD v1.5 | fulltone |
 | `nam_fuzz_face_a2` | Fuzz Face | dunlop |
 | `nam_greer_lightspeed` | Greer Lightspeed | greer |
 | `nam_grind_a2` | Grind | tc-electronic |
+| `nam_harley_benton_american_sound_a2` | Harley Benton American Sound | harley_benton |
 | `nam_hermida_zendrive_a2` | Hermida Zendrive | hermida |
 | `nam_hm2_a2` | Heavy Metal HM-2 | boss |
 | `nam_horizon_precision_drive_a2` | Horizon Precision Drive | horizon_devices |
@@ -555,6 +561,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_keeley_java_boost` | Java Boost | keeley |
 | `nam_klon_centaur_a2` | Klon Centaur Silver | klon |
 | `nam_klone_a2` | Klone | electro-harmonix |
+| `nam_korn_indigo_ranch_fuzz_a2` | KoRn Indigo Ranch Fuzz | korn |
 | `nam_ksr_ceres_a2` | KSR Ceres | ksr |
 | `nam_lokajaudio_der_blend_a2` | Der Blend | lokajaudio |
 | `nam_lokajaudio_doom_machine_a2` | Doom Machine V3 | lokajaudio |
@@ -567,23 +574,25 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_marshall_guvnor_a2` | Marshall Guvnor | marshall |
 | `nam_marshall_gv_2_guvnor_plus` | Marshall GV-2 Guv'Nor Plus | marshall |
 | `nam_maxon_od808_a2` | OD808 Overdrive | maxon |
+| `nam_maxon_od9pro_a2` | Maxon OD9Pro+ | maxon |
 | `nam_maxon_od_9_a2` | Maxon OD-9 | maxon |
 | `nam_mesa_throttle_box_a2` | Mesa Throttle Box | mesa |
 | `nam_metal_zone_a2` | Metal Zone MT-2 | boss |
 | `nam_mxr_classic_108_fuzz_a2` | MXR Classic 108 Fuzz | mxr |
 | `nam_mxr_distortion_a2` | MXR Distortion+ | mxr |
+| `nam_mxr_dookie_a2` | MXR Dookie Drive | mxr |
 | `nam_mxr_duke_of_tone_a2` | MXR Duke of Tone | mxr |
 | `nam_mxr_evh_5150_overdrive_a2` | MXR EVH 5150 Overdrive | mxr |
 | `nam_mxr_gt_od_a2` | GT-OD (Zakk Wylde) | mxr |
 | `nam_mxr_micro_amp_a2` | MXR Micro Amp | mxr |
+| `nam_mxr_timmy_a2` | MXR Timmy Overdrive | mxr |
 | `nam_nobels_odr_1_a2` | Nobels ODR-1 | nobels |
-| `nam_paul_cochrane_timmy_a2` | Paul Cochrane Timmy | mxr |
 | `nam_pete_cornish_g_2_a2` | Pete Cornish G-2 | pete_cornish |
 | `nam_pete_cornish_ss_3_a2` | Pete Cornish SS-3 | pete_cornish |
 | `nam_pot_boost` | PoT Boost | pot |
 | `nam_pot_od` | PoT OD | pot |
-| `nam_proco_rat2_a2` | RAT 2 | proco |
-| `nam_proco_rat_a2` | RAT | proco |
+| `nam_proco_rat2_a2` | ProCo RAT2 | proco |
+| `nam_proco_rat_a2` | ProCo Rat | proco |
 | `nam_rod10_ds1_a2` | ROD-10 DS1 | boss |
 | `nam_rod10_sd1_a2` | ROD-10 SD1 | boss |
 | `nam_rr_golden_clone_a2` | Golden Clone | klon |
@@ -597,6 +606,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_tc_spark_a2` | Spark | tc-electronic |
 | `nam_tcip_a2` | TCIP | tc-electronic |
 | `nam_tech21_sansamp_classic` | SansAmp Classic | tech21 |
+| `nam_tech21_sansamp_v2_a2` | Tech 21 SansAmp Driver V2 | tech21 |
 | `nam_tech21_steve_harris_a2` | Steve Harris SH-1 | tech21 |
 | `nam_tech_21_sansamp_bddi_a2` | Tech 21 SansAmp BDDI | sansamp |
 | `nam_thorpyfx_peacekeeper_a2` | ThorpyFX Peacekeeper | thorpy_fx |
@@ -607,6 +617,7 @@ Boost / overdrive / distortion / fuzz / volume pedals.
 | `nam_wampler_dual_fusion` | Wampler Dual Fusion | wampler |
 | `nam_wampler_euphoria` | Euphoria | wampler |
 | `nam_wampler_tumnus_a2` | Wampler Tumnus | wampler |
+| `nam_wampler_tumnus_deluxe_a2` | Wampler Tumnus Deluxe | wampler |
 | `nam_warm_audio_centavo_a2` | Warm Audio Centavo | warm_audio |
 | `nam_way_huge_pork_pickle_a2` | Way Huge Pork Pickle | way_huge |
 | `nam_way_huge_swollen_pickle_a2` | Way Huge Swollen Pickle | boss |

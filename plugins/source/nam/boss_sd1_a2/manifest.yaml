@@ -1,0 +1,115 @@
+# Boss SD-1 Super Overdrive (tube-screamer-style, more open/high-end).
+# Tone x Drive as knob clock positions in hours (1:30=1.5 ... 12:00=12).
+# Level was fixed at 5:00 and is omitted.
+manifest_version: 1
+id: nam_boss_sd1_a2
+display_name: Boss SD-1 Super Overdrive
+brand: boss
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/35426
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - 1.5
+  - 10.5
+  - 12
+- name: drive
+  display_name: Drive
+  values:
+  - 1.5
+  - 3
+  - 5
+  - 7
+  - 9
+  - 10.5
+  - 12
+captures:
+- values:
+    tone: 1.5
+    drive: 1.5
+  file: captures/boss_sd1_t1.5_d1.5_a2.nam
+- values:
+    tone: 1.5
+    drive: 10.5
+  file: captures/boss_sd1_t1.5_d10.5_a2.nam
+- values:
+    tone: 1.5
+    drive: 12
+  file: captures/boss_sd1_t1.5_d12_a2.nam
+- values:
+    tone: 1.5
+    drive: 3
+  file: captures/boss_sd1_t1.5_d3_a2.nam
+- values:
+    tone: 1.5
+    drive: 5
+  file: captures/boss_sd1_t1.5_d5_a2.nam
+- values:
+    tone: 1.5
+    drive: 7
+  file: captures/boss_sd1_t1.5_d7_a2.nam
+- values:
+    tone: 1.5
+    drive: 9
+  file: captures/boss_sd1_t1.5_d9_a2.nam
+- values:
+    tone: 10.5
+    drive: 1.5
+  file: captures/boss_sd1_t10.5_d1.5_a2.nam
+- values:
+    tone: 10.5
+    drive: 10.5
+  file: captures/boss_sd1_t10.5_d10.5_a2.nam
+- values:
+    tone: 10.5
+    drive: 12
+  file: captures/boss_sd1_t10.5_d12_a2.nam
+- values:
+    tone: 10.5
+    drive: 3
+  file: captures/boss_sd1_t10.5_d3_a2.nam
+- values:
+    tone: 10.5
+    drive: 5
+  file: captures/boss_sd1_t10.5_d5_a2.nam
+- values:
+    tone: 10.5
+    drive: 7
+  file: captures/boss_sd1_t10.5_d7_a2.nam
+- values:
+    tone: 10.5
+    drive: 9
+  file: captures/boss_sd1_t10.5_d9_a2.nam
+- values:
+    tone: 12
+    drive: 1.5
+  file: captures/boss_sd1_t12_d1.5_a2.nam
+- values:
+    tone: 12
+    drive: 10.5
+  file: captures/boss_sd1_t12_d10.5_a2.nam
+- values:
+    tone: 12
+    drive: 12
+  file: captures/boss_sd1_t12_d12_a2.nam
+- values:
+    tone: 12
+    drive: 3
+  file: captures/boss_sd1_t12_d3_a2.nam
+- values:
+    tone: 12
+    drive: 5
+  file: captures/boss_sd1_t12_d5_a2.nam
+- values:
+    tone: 12
+    drive: 7
+  file: captures/boss_sd1_t12_d7_a2.nam
+- values:
+    tone: 12
+    drive: 9
+  file: captures/boss_sd1_t12_d9_a2.nam

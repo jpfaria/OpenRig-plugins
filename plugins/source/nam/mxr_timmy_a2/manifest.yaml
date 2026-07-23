@@ -1,0 +1,257 @@
+# MXR Timmy overdrive. Bass x Treble x Gain (knob clock position mapped to a 0-10
+# scale: 7:00=0, noon=5, 5:00=10) x Clip (the clipping-mode switch: l=asymmetrical,
+# c=centre/symmetrical, r=right). Volume was fixed at 1:00 across all captures.
+manifest_version: 1
+id: nam_mxr_timmy_a2
+display_name: MXR Timmy Overdrive
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30891
+parameters:
+- name: bass
+  display_name: Bass
+  values:
+  - 5
+  - 6
+  - 7
+  - 8
+- name: treble
+  display_name: Treble
+  values:
+  - 5
+  - 7
+  - 8
+  - 10
+- name: gain
+  display_name: Gain
+  values:
+  - 3
+  - 5
+  - 7
+- name: clip
+  display_name: Clip
+  values:
+  - l
+  - c
+  - r
+captures:
+- values:
+    bass: 5
+    treble: 5
+    gain: 3
+    clip: c
+  file: captures/timmy_b5_t5_g3_cc_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 3
+    clip: l
+  file: captures/timmy_b5_t5_g3_cl_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 3
+    clip: r
+  file: captures/timmy_b5_t5_g3_cr_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 5
+    clip: c
+  file: captures/timmy_b5_t5_g5_cc_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 5
+    clip: l
+  file: captures/timmy_b5_t5_g5_cl_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 5
+    clip: r
+  file: captures/timmy_b5_t5_g5_cr_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 7
+    clip: c
+  file: captures/timmy_b5_t5_g7_cc_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 7
+    clip: l
+  file: captures/timmy_b5_t5_g7_cl_a2.nam
+- values:
+    bass: 5
+    treble: 5
+    gain: 7
+    clip: r
+  file: captures/timmy_b5_t5_g7_cr_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 3
+    clip: c
+  file: captures/timmy_b6_t7_g3_cc_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 3
+    clip: l
+  file: captures/timmy_b6_t7_g3_cl_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 3
+    clip: r
+  file: captures/timmy_b6_t7_g3_cr_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 5
+    clip: c
+  file: captures/timmy_b6_t7_g5_cc_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 5
+    clip: l
+  file: captures/timmy_b6_t7_g5_cl_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 5
+    clip: r
+  file: captures/timmy_b6_t7_g5_cr_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 7
+    clip: c
+  file: captures/timmy_b6_t7_g7_cc_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 7
+    clip: l
+  file: captures/timmy_b6_t7_g7_cl_a2.nam
+- values:
+    bass: 6
+    treble: 7
+    gain: 7
+    clip: r
+  file: captures/timmy_b6_t7_g7_cr_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 3
+    clip: c
+  file: captures/timmy_b7_t8_g3_cc_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 3
+    clip: l
+  file: captures/timmy_b7_t8_g3_cl_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 3
+    clip: r
+  file: captures/timmy_b7_t8_g3_cr_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 5
+    clip: c
+  file: captures/timmy_b7_t8_g5_cc_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 5
+    clip: l
+  file: captures/timmy_b7_t8_g5_cl_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 5
+    clip: r
+  file: captures/timmy_b7_t8_g5_cr_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 7
+    clip: c
+  file: captures/timmy_b7_t8_g7_cc_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 7
+    clip: l
+  file: captures/timmy_b7_t8_g7_cl_a2.nam
+- values:
+    bass: 7
+    treble: 8
+    gain: 7
+    clip: r
+  file: captures/timmy_b7_t8_g7_cr_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 3
+    clip: c
+  file: captures/timmy_b8_t10_g3_cc_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 3
+    clip: l
+  file: captures/timmy_b8_t10_g3_cl_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 3
+    clip: r
+  file: captures/timmy_b8_t10_g3_cr_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 5
+    clip: c
+  file: captures/timmy_b8_t10_g5_cc_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 5
+    clip: l
+  file: captures/timmy_b8_t10_g5_cl_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 5
+    clip: r
+  file: captures/timmy_b8_t10_g5_cr_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 7
+    clip: c
+  file: captures/timmy_b8_t10_g7_cc_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 7
+    clip: l
+  file: captures/timmy_b8_t10_g7_cl_a2.nam
+- values:
+    bass: 8
+    treble: 10
+    gain: 7
+    clip: r
+  file: captures/timmy_b8_t10_g7_cr_a2.nam

@@ -1,0 +1,178 @@
+# Maxon OD9Pro+ overdrive (running at 18V internally). Drive x Tone x Volume x Boost
+# (the built-in boost footswitch, on/off). Drive uses the labelled knob (0, 1, noon=5,
+# max=10); Tone/Volume are clock positions mapped to a 0-10 scale (7:00=0, noon=5,
+# 5:00=10). Only the captures taken WITHOUT the API preamp plugin in the chain are shipped.
+manifest_version: 1
+id: nam_maxon_od9pro_a2
+display_name: Maxon OD9Pro+
+brand: maxon
+output_gain_db: 0.5597343
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/52660
+parameters:
+- name: drive
+  display_name: Drive
+  values:
+  - 0
+  - 1
+  - 5
+  - 10
+- name: tone
+  display_name: Tone
+  values:
+  - 0
+  - 2
+  - 3
+  - 4
+  - 5
+  - 5.5
+  - 6
+  - 6.5
+  - 7
+  - 10
+- name: volume
+  display_name: Volume
+  values:
+  - 8
+  - 10
+- name: boost
+  display_name: Boost
+  values:
+  - off
+  - on
+captures:
+- values:
+    drive: 0
+    tone: 0
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d0_t0_v10_booston_a2.nam
+- values:
+    drive: 0
+    tone: 2
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d0_t2_v10_booston_a2.nam
+- values:
+    drive: 0
+    tone: 3
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d0_t3_v10_booston_a2.nam
+- values:
+    drive: 0
+    tone: 4
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d0_t4_v10_booston_a2.nam
+- values:
+    drive: 0
+    tone: 5
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d0_t5_v10_booston_a2.nam
+- values:
+    drive: 10
+    tone: 0
+    volume: 10
+    boost: off
+  file: captures/maxon_od9_d10_t0_v10_boostoff_a2.nam
+- values:
+    drive: 10
+    tone: 10
+    volume: 8
+    boost: on
+  file: captures/maxon_od9_d10_t10_v8_booston_a2.nam
+- values:
+    drive: 1
+    tone: 0
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t0_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 10
+    volume: 10
+    boost: off
+  file: captures/maxon_od9_d1_t10_v10_boostoff_a2.nam
+- values:
+    drive: 1
+    tone: 2
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t2_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 3
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t3_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 4
+    volume: 10
+    boost: off
+  file: captures/maxon_od9_d1_t4_v10_boostoff_a2.nam
+- values:
+    drive: 1
+    tone: 4
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t4_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 5.5
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t5.5_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 5
+    volume: 10
+    boost: off
+  file: captures/maxon_od9_d1_t5_v10_boostoff_a2.nam
+- values:
+    drive: 1
+    tone: 5
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t5_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 6.5
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t6.5_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 6
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t6_v10_booston_a2.nam
+- values:
+    drive: 1
+    tone: 7
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d1_t7_v10_booston_a2.nam
+- values:
+    drive: 5
+    tone: 10
+    volume: 8
+    boost: on
+  file: captures/maxon_od9_d5_t10_v8_booston_a2.nam
+- values:
+    drive: 5
+    tone: 4
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d5_t4_v10_booston_a2.nam
+- values:
+    drive: 5
+    tone: 5
+    volume: 10
+    boost: on
+  file: captures/maxon_od9_d5_t5_v10_booston_a2.nam

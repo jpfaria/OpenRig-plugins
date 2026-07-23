@@ -1,0 +1,946 @@
+# Boss BD-2w Blues Driver, Waza Craft (full-range capture). Mode is the pedal's
+# Standard vs Custom voicing switch. Gain and Tone are the knob rotation in percent
+# (0% = 7 o'clock, 50% = noon, 99% = 5 o'clock). Full grid: 2 modes x 10 gain x 9 tone.
+# Level was set per patch by the author for consistent output and is not an axis.
+manifest_version: 1
+id: nam_boss_bd2w_waza_a2
+display_name: Boss BD-2w Blues Driver (Waza Craft)
+brand: boss
+output_gain_db: 0.6908150
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/37707
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - standard
+  - custom
+- name: gain
+  display_name: Gain
+  values:
+  - 0
+  - 15
+  - 30
+  - 40
+  - 50
+  - 60
+  - 70
+  - 85
+  - 90
+  - 99
+- name: tone
+  display_name: Tone
+  values:
+  - 0
+  - 15
+  - 30
+  - 40
+  - 50
+  - 60
+  - 70
+  - 85
+  - 99
+captures:
+- values:
+    mode: custom
+    gain: 0
+    tone: 0
+  file: captures/bd2w_custom_g0_t0_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 15
+  file: captures/bd2w_custom_g0_t15_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 30
+  file: captures/bd2w_custom_g0_t30_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 40
+  file: captures/bd2w_custom_g0_t40_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 50
+  file: captures/bd2w_custom_g0_t50_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 60
+  file: captures/bd2w_custom_g0_t60_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 70
+  file: captures/bd2w_custom_g0_t70_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 85
+  file: captures/bd2w_custom_g0_t85_a2.nam
+- values:
+    mode: custom
+    gain: 0
+    tone: 99
+  file: captures/bd2w_custom_g0_t99_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 0
+  file: captures/bd2w_custom_g15_t0_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 15
+  file: captures/bd2w_custom_g15_t15_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 30
+  file: captures/bd2w_custom_g15_t30_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 40
+  file: captures/bd2w_custom_g15_t40_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 50
+  file: captures/bd2w_custom_g15_t50_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 60
+  file: captures/bd2w_custom_g15_t60_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 70
+  file: captures/bd2w_custom_g15_t70_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 85
+  file: captures/bd2w_custom_g15_t85_a2.nam
+- values:
+    mode: custom
+    gain: 15
+    tone: 99
+  file: captures/bd2w_custom_g15_t99_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 0
+  file: captures/bd2w_custom_g30_t0_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 15
+  file: captures/bd2w_custom_g30_t15_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 30
+  file: captures/bd2w_custom_g30_t30_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 40
+  file: captures/bd2w_custom_g30_t40_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 50
+  file: captures/bd2w_custom_g30_t50_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 60
+  file: captures/bd2w_custom_g30_t60_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 70
+  file: captures/bd2w_custom_g30_t70_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 85
+  file: captures/bd2w_custom_g30_t85_a2.nam
+- values:
+    mode: custom
+    gain: 30
+    tone: 99
+  file: captures/bd2w_custom_g30_t99_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 0
+  file: captures/bd2w_custom_g40_t0_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 15
+  file: captures/bd2w_custom_g40_t15_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 30
+  file: captures/bd2w_custom_g40_t30_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 40
+  file: captures/bd2w_custom_g40_t40_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 50
+  file: captures/bd2w_custom_g40_t50_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 60
+  file: captures/bd2w_custom_g40_t60_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 70
+  file: captures/bd2w_custom_g40_t70_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 85
+  file: captures/bd2w_custom_g40_t85_a2.nam
+- values:
+    mode: custom
+    gain: 40
+    tone: 99
+  file: captures/bd2w_custom_g40_t99_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 0
+  file: captures/bd2w_custom_g50_t0_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 15
+  file: captures/bd2w_custom_g50_t15_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 30
+  file: captures/bd2w_custom_g50_t30_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 40
+  file: captures/bd2w_custom_g50_t40_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 50
+  file: captures/bd2w_custom_g50_t50_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 60
+  file: captures/bd2w_custom_g50_t60_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 70
+  file: captures/bd2w_custom_g50_t70_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 85
+  file: captures/bd2w_custom_g50_t85_a2.nam
+- values:
+    mode: custom
+    gain: 50
+    tone: 99
+  file: captures/bd2w_custom_g50_t99_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 0
+  file: captures/bd2w_custom_g60_t0_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 15
+  file: captures/bd2w_custom_g60_t15_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 30
+  file: captures/bd2w_custom_g60_t30_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 40
+  file: captures/bd2w_custom_g60_t40_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 50
+  file: captures/bd2w_custom_g60_t50_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 60
+  file: captures/bd2w_custom_g60_t60_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 70
+  file: captures/bd2w_custom_g60_t70_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 85
+  file: captures/bd2w_custom_g60_t85_a2.nam
+- values:
+    mode: custom
+    gain: 60
+    tone: 99
+  file: captures/bd2w_custom_g60_t99_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 0
+  file: captures/bd2w_custom_g70_t0_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 15
+  file: captures/bd2w_custom_g70_t15_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 30
+  file: captures/bd2w_custom_g70_t30_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 40
+  file: captures/bd2w_custom_g70_t40_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 50
+  file: captures/bd2w_custom_g70_t50_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 60
+  file: captures/bd2w_custom_g70_t60_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 70
+  file: captures/bd2w_custom_g70_t70_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 85
+  file: captures/bd2w_custom_g70_t85_a2.nam
+- values:
+    mode: custom
+    gain: 70
+    tone: 99
+  file: captures/bd2w_custom_g70_t99_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 0
+  file: captures/bd2w_custom_g85_t0_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 15
+  file: captures/bd2w_custom_g85_t15_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 30
+  file: captures/bd2w_custom_g85_t30_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 40
+  file: captures/bd2w_custom_g85_t40_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 50
+  file: captures/bd2w_custom_g85_t50_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 60
+  file: captures/bd2w_custom_g85_t60_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 70
+  file: captures/bd2w_custom_g85_t70_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 85
+  file: captures/bd2w_custom_g85_t85_a2.nam
+- values:
+    mode: custom
+    gain: 85
+    tone: 99
+  file: captures/bd2w_custom_g85_t99_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 0
+  file: captures/bd2w_custom_g90_t0_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 15
+  file: captures/bd2w_custom_g90_t15_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 30
+  file: captures/bd2w_custom_g90_t30_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 40
+  file: captures/bd2w_custom_g90_t40_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 50
+  file: captures/bd2w_custom_g90_t50_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 60
+  file: captures/bd2w_custom_g90_t60_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 70
+  file: captures/bd2w_custom_g90_t70_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 85
+  file: captures/bd2w_custom_g90_t85_a2.nam
+- values:
+    mode: custom
+    gain: 90
+    tone: 99
+  file: captures/bd2w_custom_g90_t99_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 0
+  file: captures/bd2w_custom_g99_t0_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 15
+  file: captures/bd2w_custom_g99_t15_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 30
+  file: captures/bd2w_custom_g99_t30_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 40
+  file: captures/bd2w_custom_g99_t40_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 50
+  file: captures/bd2w_custom_g99_t50_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 60
+  file: captures/bd2w_custom_g99_t60_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 70
+  file: captures/bd2w_custom_g99_t70_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 85
+  file: captures/bd2w_custom_g99_t85_a2.nam
+- values:
+    mode: custom
+    gain: 99
+    tone: 99
+  file: captures/bd2w_custom_g99_t99_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 0
+  file: captures/bd2w_standard_g0_t0_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 15
+  file: captures/bd2w_standard_g0_t15_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 30
+  file: captures/bd2w_standard_g0_t30_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 40
+  file: captures/bd2w_standard_g0_t40_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 50
+  file: captures/bd2w_standard_g0_t50_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 60
+  file: captures/bd2w_standard_g0_t60_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 70
+  file: captures/bd2w_standard_g0_t70_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 85
+  file: captures/bd2w_standard_g0_t85_a2.nam
+- values:
+    mode: standard
+    gain: 0
+    tone: 99
+  file: captures/bd2w_standard_g0_t99_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 0
+  file: captures/bd2w_standard_g15_t0_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 15
+  file: captures/bd2w_standard_g15_t15_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 30
+  file: captures/bd2w_standard_g15_t30_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 40
+  file: captures/bd2w_standard_g15_t40_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 50
+  file: captures/bd2w_standard_g15_t50_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 60
+  file: captures/bd2w_standard_g15_t60_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 70
+  file: captures/bd2w_standard_g15_t70_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 85
+  file: captures/bd2w_standard_g15_t85_a2.nam
+- values:
+    mode: standard
+    gain: 15
+    tone: 99
+  file: captures/bd2w_standard_g15_t99_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 0
+  file: captures/bd2w_standard_g30_t00_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 15
+  file: captures/bd2w_standard_g30_t15_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 30
+  file: captures/bd2w_standard_g30_t30_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 40
+  file: captures/bd2w_standard_g30_t40_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 50
+  file: captures/bd2w_standard_g30_t50_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 60
+  file: captures/bd2w_standard_g30_t60_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 70
+  file: captures/bd2w_standard_g30_t70_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 85
+  file: captures/bd2w_standard_g30_t85_a2.nam
+- values:
+    mode: standard
+    gain: 30
+    tone: 99
+  file: captures/bd2w_standard_g30_t99_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 0
+  file: captures/bd2w_standard_g40_t0_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 15
+  file: captures/bd2w_standard_g40_t15_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 30
+  file: captures/bd2w_standard_g40_t30_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 40
+  file: captures/bd2w_standard_g40_t40_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 50
+  file: captures/bd2w_standard_g40_t50_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 60
+  file: captures/bd2w_standard_g40_t60_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 70
+  file: captures/bd2w_standard_g40_t70_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 85
+  file: captures/bd2w_standard_g40_t85_a2.nam
+- values:
+    mode: standard
+    gain: 40
+    tone: 99
+  file: captures/bd2w_standard_g40_t99_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 0
+  file: captures/bd2w_standard_g50_t0_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 15
+  file: captures/bd2w_standard_g50_t15_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 30
+  file: captures/bd2w_standard_g50_t30_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 40
+  file: captures/bd2w_standard_g50_t40_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 50
+  file: captures/bd2w_standard_g50_t50_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 60
+  file: captures/bd2w_standard_g50_t60_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 70
+  file: captures/bd2w_standard_g50_t70_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 85
+  file: captures/bd2w_standard_g50_t85_a2.nam
+- values:
+    mode: standard
+    gain: 50
+    tone: 99
+  file: captures/bd2w_standard_g50_t99_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 0
+  file: captures/bd2w_standard_g60_t0_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 15
+  file: captures/bd2w_standard_g60_t15_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 30
+  file: captures/bd2w_standard_g60_t30_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 40
+  file: captures/bd2w_standard_g60_t40_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 50
+  file: captures/bd2w_standard_g60_t50_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 60
+  file: captures/bd2w_standard_g60_t60_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 70
+  file: captures/bd2w_standard_g60_t70_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 85
+  file: captures/bd2w_standard_g60_t85_a2.nam
+- values:
+    mode: standard
+    gain: 60
+    tone: 99
+  file: captures/bd2w_standard_g60_t99_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 0
+  file: captures/bd2w_standard_g70_t0_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 15
+  file: captures/bd2w_standard_g70_t15_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 30
+  file: captures/bd2w_standard_g70_t30_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 40
+  file: captures/bd2w_standard_g70_t40_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 50
+  file: captures/bd2w_standard_g70_t50_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 60
+  file: captures/bd2w_standard_g70_t60_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 70
+  file: captures/bd2w_standard_g70_t70_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 85
+  file: captures/bd2w_standard_g70_t85_a2.nam
+- values:
+    mode: standard
+    gain: 70
+    tone: 99
+  file: captures/bd2w_standard_g70_t99_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 0
+  file: captures/bd2w_standard_g85_t0_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 15
+  file: captures/bd2w_standard_g85_t15_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 30
+  file: captures/bd2w_standard_g85_t30_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 40
+  file: captures/bd2w_standard_g85_t40_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 50
+  file: captures/bd2w_standard_g85_t50_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 60
+  file: captures/bd2w_standard_g85_t60_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 70
+  file: captures/bd2w_standard_g85_t70_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 85
+  file: captures/bd2w_standard_g85_t85_a2.nam
+- values:
+    mode: standard
+    gain: 85
+    tone: 99
+  file: captures/bd2w_standard_g85_t99_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 0
+  file: captures/bd2w_standard_g90_t0_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 15
+  file: captures/bd2w_standard_g90_t15_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 30
+  file: captures/bd2w_standard_g90_t30_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 40
+  file: captures/bd2w_standard_g90_t40_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 50
+  file: captures/bd2w_standard_g90_t50_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 60
+  file: captures/bd2w_standard_g90_t60_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 70
+  file: captures/bd2w_standard_g90_t70_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 85
+  file: captures/bd2w_standard_g90_t85_a2.nam
+- values:
+    mode: standard
+    gain: 90
+    tone: 99
+  file: captures/bd2w_standard_g90_t99_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 0
+  file: captures/bd2w_standard_g99_t0_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 15
+  file: captures/bd2w_standard_g99_t15_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 30
+  file: captures/bd2w_standard_g99_t30_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 40
+  file: captures/bd2w_standard_g99_t40_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 50
+  file: captures/bd2w_standard_g99_t50_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 60
+  file: captures/bd2w_standard_g99_t60_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 70
+  file: captures/bd2w_standard_g99_t70_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 85
+  file: captures/bd2w_standard_g99_t85_a2.nam
+- values:
+    mode: standard
+    gain: 99
+    tone: 99
+  file: captures/bd2w_standard_g99_t99_a2.nam

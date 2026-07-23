@@ -1,0 +1,213 @@
+# Harley Benton (Joyo) American Sound amp-in-a-box pedal (Fender-ish voicings).
+# Voice (amp-voicing morph knob, 1-12) x Drive (1-12); sparse grid of the
+# combinations captured. Low/Mid/High EQ knobs were fixed at noon per the author.
+manifest_version: 1
+id: nam_harley_benton_american_sound_a2
+display_name: Harley Benton American Sound
+brand: harley_benton
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/66775
+parameters:
+- name: voice
+  display_name: Voice
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+- name: drive
+  display_name: Drive
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 10
+  - 11
+  - 12
+captures:
+- values:
+    voice: 10
+    drive: 10
+  file: captures/hb_american_sound_voice10_drive10_a2.nam
+- values:
+    voice: 10
+    drive: 11
+  file: captures/hb_american_sound_voice10_drive11_a2.nam
+- values:
+    voice: 10
+    drive: 12
+  file: captures/hb_american_sound_voice10_drive12_a2.nam
+- values:
+    voice: 10
+    drive: 1
+  file: captures/hb_american_sound_voice10_drive1_a2.nam
+- values:
+    voice: 10
+    drive: 2
+  file: captures/hb_american_sound_voice10_drive2_a2.nam
+- values:
+    voice: 10
+    drive: 3
+  file: captures/hb_american_sound_voice10_drive3_a2.nam
+- values:
+    voice: 11
+    drive: 10
+  file: captures/hb_american_sound_voice11_drive10_a2.nam
+- values:
+    voice: 11
+    drive: 11
+  file: captures/hb_american_sound_voice11_drive11_a2.nam
+- values:
+    voice: 11
+    drive: 12
+  file: captures/hb_american_sound_voice11_drive12_a2.nam
+- values:
+    voice: 11
+    drive: 1
+  file: captures/hb_american_sound_voice11_drive1_a2.nam
+- values:
+    voice: 11
+    drive: 2
+  file: captures/hb_american_sound_voice11_drive2_a2.nam
+- values:
+    voice: 11
+    drive: 3
+  file: captures/hb_american_sound_voice11_drive3_a2.nam
+- values:
+    voice: 12
+    drive: 10
+  file: captures/hb_american_sound_voice12_drive10_a2.nam
+- values:
+    voice: 12
+    drive: 11
+  file: captures/hb_american_sound_voice12_drive11_a2.nam
+- values:
+    voice: 12
+    drive: 12
+  file: captures/hb_american_sound_voice12_drive12_a2.nam
+- values:
+    voice: 12
+    drive: 1
+  file: captures/hb_american_sound_voice12_drive1_a2.nam
+- values:
+    voice: 12
+    drive: 2
+  file: captures/hb_american_sound_voice12_drive2_a2.nam
+- values:
+    voice: 12
+    drive: 3
+  file: captures/hb_american_sound_voice12_drive3_a2.nam
+- values:
+    voice: 1
+    drive: 10
+  file: captures/hb_american_sound_voice1_drive10_a2.nam
+- values:
+    voice: 1
+    drive: 11
+  file: captures/hb_american_sound_voice1_drive11_a2.nam
+- values:
+    voice: 1
+    drive: 12
+  file: captures/hb_american_sound_voice1_drive12_a2.nam
+- values:
+    voice: 1
+    drive: 1
+  file: captures/hb_american_sound_voice1_drive1_a2.nam
+- values:
+    voice: 1
+    drive: 2
+  file: captures/hb_american_sound_voice1_drive2_a2.nam
+- values:
+    voice: 1
+    drive: 3
+  file: captures/hb_american_sound_voice1_drive3_a2.nam
+- values:
+    voice: 2
+    drive: 10
+  file: captures/hb_american_sound_voice2_drive10_a2.nam
+- values:
+    voice: 2
+    drive: 11
+  file: captures/hb_american_sound_voice2_drive11_a2.nam
+- values:
+    voice: 2
+    drive: 12
+  file: captures/hb_american_sound_voice2_drive12_a2.nam
+- values:
+    voice: 2
+    drive: 1
+  file: captures/hb_american_sound_voice2_drive1_a2.nam
+- values:
+    voice: 2
+    drive: 2
+  file: captures/hb_american_sound_voice2_drive2_a2.nam
+- values:
+    voice: 2
+    drive: 3
+  file: captures/hb_american_sound_voice2_drive3_a2.nam
+- values:
+    voice: 3
+    drive: 3
+  file: captures/hb_american_sound_voice3_drive3_a2.nam
+- values:
+    voice: 4
+    drive: 4
+  file: captures/hb_american_sound_voice4_drive4_a2.nam
+- values:
+    voice: 8
+    drive: 10
+  file: captures/hb_american_sound_voice8_drive10_a2.nam
+- values:
+    voice: 8
+    drive: 11
+  file: captures/hb_american_sound_voice8_drive11_a2.nam
+- values:
+    voice: 8
+    drive: 12
+  file: captures/hb_american_sound_voice8_drive12_a2.nam
+- values:
+    voice: 8
+    drive: 1
+  file: captures/hb_american_sound_voice8_drive1_a2.nam
+- values:
+    voice: 8
+    drive: 2
+  file: captures/hb_american_sound_voice8_drive2_a2.nam
+- values:
+    voice: 8
+    drive: 3
+  file: captures/hb_american_sound_voice8_drive3_a2.nam
+- values:
+    voice: 9
+    drive: 10
+  file: captures/hb_american_sound_voice9_drive10_a2.nam
+- values:
+    voice: 9
+    drive: 11
+  file: captures/hb_american_sound_voice9_drive11_a2.nam
+- values:
+    voice: 9
+    drive: 12
+  file: captures/hb_american_sound_voice9_drive12_a2.nam
+- values:
+    voice: 9
+    drive: 1
+  file: captures/hb_american_sound_voice9_drive1_a2.nam
+- values:
+    voice: 9
+    drive: 2
+  file: captures/hb_american_sound_voice9_drive2_a2.nam
+- values:
+    voice: 9
+    drive: 3
+  file: captures/hb_american_sound_voice9_drive3_a2.nam

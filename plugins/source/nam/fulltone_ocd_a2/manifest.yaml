@@ -1,110 +1,260 @@
-# Dropped constant across all captures: volume (V1030, i.e. 10.30).
+# Fulltone OCD v1.2 overdrive. Voltage (9V = more compressed, 18V = more headroom)
+# x Mode (the HP/LP Peak switch: hp = more low end + drive, lp = flatter/cleaner)
+# x Drive (0-10). Tone was fixed at noon. The uploader's Feather-size NAM models are
+# shipped (lightest CPU load); the Lite-size duplicates of each setting were dropped.
 manifest_version: 1
 id: nam_fulltone_ocd_a2
-display_name: OCD Overdrive
+display_name: Fulltone OCD v1.2
 brand: fulltone
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
 sources:
-- https://www.tone3000.com/tones/49361
+- https://www.tone3000.com/tones/1821
 parameters:
+- name: voltage
+  display_name: Voltage
+  values:
+  - 9
+  - 18
 - name: mode
   display_name: Mode
   values:
   - lp
   - hp
-- name: tone
-  display_name: Tone
-  values:
-  - 3
-  - 5
-  - 9
-  - 12
 - name: drive
   display_name: Drive
   values:
-  - 1.3
+  - 0
+  - 1
+  - 2
   - 3
+  - 4
   - 5
+  - 6
   - 7
+  - 8
   - 9
-  - 10.3
-  - 12
+  - 10
 captures:
 - values:
-    drive: 7
+    voltage: 18
     mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d700_hp_a2.nam
+    drive: 0
+  file: captures/ocd_18v_hp_drive0_a2.nam
 - values:
-    drive: 10.3
-    mode: lp
-    tone: 3
-  file: captures/ocd_v2_t300_d1030_lp_a2.nam
-- values:
-    drive: 1.3
+    voltage: 18
     mode: hp
-    tone: 9
-  file: captures/ocd_v2_t900_d130_hp_a2.nam
+    drive: 10
+  file: captures/ocd_18v_hp_drive10_a2.nam
 - values:
-    drive: 5
+    voltage: 18
     mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d500_hp_a2.nam
+    drive: 1
+  file: captures/ocd_18v_hp_drive1_a2.nam
 - values:
-    drive: 10.3
+    voltage: 18
     mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d1030_hp_a2.nam
+    drive: 2
+  file: captures/ocd_18v_hp_drive2_a2.nam
 - values:
-    drive: 9
+    voltage: 18
     mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d900_hp_a2.nam
-- values:
-    drive: 5
-    mode: lp
-    tone: 3
-  file: captures/ocd_v2_t300_d500_lp_a2.nam
-- values:
-    drive: 12
-    mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d1200_hp_a2.nam
-- values:
-    drive: 7
-    mode: lp
-    tone: 5
-  file: captures/ocd_v2_t500_d700_lp_a2.nam
-- values:
     drive: 3
+  file: captures/ocd_18v_hp_drive3_a2.nam
+- values:
+    voltage: 18
     mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d300_hp_a2.nam
+    drive: 4
+  file: captures/ocd_18v_hp_drive4_a2.nam
 - values:
-    drive: 1.3
-    mode: lp
-    tone: 3
-  file: captures/ocd_v2_t300_d130_lp_a2.nam
+    voltage: 18
+    mode: hp
+    drive: 5
+  file: captures/ocd_18v_hp_drive5_a2.nam
 - values:
+    voltage: 18
+    mode: hp
+    drive: 6
+  file: captures/ocd_18v_hp_drive6_a2.nam
+- values:
+    voltage: 18
+    mode: hp
+    drive: 7
+  file: captures/ocd_18v_hp_drive7_a2.nam
+- values:
+    voltage: 18
+    mode: hp
+    drive: 8
+  file: captures/ocd_18v_hp_drive8_a2.nam
+- values:
+    voltage: 18
+    mode: hp
     drive: 9
-    mode: lp
-    tone: 3
-  file: captures/ocd_v2_t300_d900_lp_a2.nam
+  file: captures/ocd_18v_hp_drive9_a2.nam
 - values:
-    drive: 12
+    voltage: 18
     mode: lp
-    tone: 3
-  file: captures/ocd_v2_t300_d1200_lp_a2.nam
+    drive: 0
+  file: captures/ocd_18v_lp_drive0_a2.nam
 - values:
+    voltage: 18
+    mode: lp
+    drive: 10
+  file: captures/ocd_18v_lp_drive10_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 1
+  file: captures/ocd_18v_lp_drive1_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 2
+  file: captures/ocd_18v_lp_drive2_a2.nam
+- values:
+    voltage: 18
+    mode: lp
     drive: 3
-    mode: lp
-    tone: 3
-  file: captures/ocd_v2_t300_d300_lp_a2.nam
+  file: captures/ocd_18v_lp_drive3_a2.nam
 - values:
-    drive: 1.3
+    voltage: 18
+    mode: lp
+    drive: 4
+  file: captures/ocd_18v_lp_drive4_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 5
+  file: captures/ocd_18v_lp_drive5_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 6
+  file: captures/ocd_18v_lp_drive6_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 7
+  file: captures/ocd_18v_lp_drive7_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 8
+  file: captures/ocd_18v_lp_drive8_a2.nam
+- values:
+    voltage: 18
+    mode: lp
+    drive: 9
+  file: captures/ocd_18v_lp_drive9_a2.nam
+- values:
+    voltage: 9
     mode: hp
-    tone: 12
-  file: captures/ocd_v2_t1200_d130_hp_a2.nam
+    drive: 0
+  file: captures/ocd_9v_hp_drive0_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 10
+  file: captures/ocd_9v_hp_drive10_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 1
+  file: captures/ocd_9v_hp_drive1_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 2
+  file: captures/ocd_9v_hp_drive2_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 3
+  file: captures/ocd_9v_hp_drive3_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 4
+  file: captures/ocd_9v_hp_drive4_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 5
+  file: captures/ocd_9v_hp_drive5_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 6
+  file: captures/ocd_9v_hp_drive6_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 7
+  file: captures/ocd_9v_hp_drive7_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 8
+  file: captures/ocd_9v_hp_drive8_a2.nam
+- values:
+    voltage: 9
+    mode: hp
+    drive: 9
+  file: captures/ocd_9v_hp_drive9_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 0
+  file: captures/ocd_9v_lp_drive0_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 10
+  file: captures/ocd_9v_lp_drive10_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 1
+  file: captures/ocd_9v_lp_drive1_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 2
+  file: captures/ocd_9v_lp_drive2_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 3
+  file: captures/ocd_9v_lp_drive3_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 4
+  file: captures/ocd_9v_lp_drive4_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 5
+  file: captures/ocd_9v_lp_drive5_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 6
+  file: captures/ocd_9v_lp_drive6_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 7
+  file: captures/ocd_9v_lp_drive7_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 8
+  file: captures/ocd_9v_lp_drive8_a2.nam
+- values:
+    voltage: 9
+    mode: lp
+    drive: 9
+  file: captures/ocd_9v_lp_drive9_a2.nam
