@@ -24,3 +24,7 @@ scripts/.param_gate_reds.json
 # Local IR/NAM download staging — raw archives + extractions, never committed
 /downloads/
 .midiout/
+
+# Local tooling scratch — playwright MCP traces, dev-rule toggles
+/.playwright-mcp/
+/.dev-rules/

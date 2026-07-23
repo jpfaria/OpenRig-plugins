@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "openrig": {
+      "source": {
+        "source": "github",
+        "repo": "jpfaria/OpenRig-claude"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "claude-plugin@openrig": true
+  }
+}
