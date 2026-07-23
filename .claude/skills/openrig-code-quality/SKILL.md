@@ -1,6 +1,6 @@
 ---
 name: openrig-code-quality
-description: Use when writing, editing, or refactoring anything in the OpenRig-plugins repo — manifests, build scripts, workflows, recipes, or docs. Covers the slot invariant, English-everywhere rule, docs-in-sync rule, the isolated .solvers development flow, and the pack_plugins gate.
+description: Use when writing, editing, or refactoring anything in the OpenRig-plugins repo — manifests, build scripts, workflows, recipes, or docs. Covers the slot invariant, English-everywhere rule, docs-in-sync rule, the isolated .solvers development flow, and the scoped qa_audit gate (local gate validates audio only; zipping is the OpenRig release CI's job).
 ---
 
 # OpenRig-plugins — Code Quality
@@ -80,10 +80,12 @@ Do not invert the order. A push without the gate green = a red OpenRig release. 
 ## Mandatory gate before any push
 
 ```
-cargo run --release --bin pack_plugins
+cargo run --release --bin qa_audit -- --source plugins/source --plugins <kind/name,…>
 ```
 
-Exit 0 / `0 failed`. This is the SAME gate as the `Bundle plugins` job in OpenRig's `release.yml`. Red here = red release there. Run it in `.solvers/issue-{N}/`, confirm exit 0, then push, then comment the result on the issue.
+Exit 0 / `0 failed`. `qa_audit` is the SAME audio validation the `Bundle plugins` job in OpenRig's `release.yml` runs (`pack_plugins` invokes it first there). Red here = red release there. Run it in `.solvers/issue-{N}/`, confirm exit 0, then push, then comment the result on the issue.
+
+**The local gate does NOT zip.** `pack_plugins` produces the `dist/` archives — that packing + manifest-schema validation + zip belongs to the OpenRig **release CI**, not to the per-push loop here. Generating the zip locally is pure delivery overhead that only slows the import; locally we validate audio with `qa_audit` (scoped) and let the release CI do the pack. Run `pack_plugins` here only to reproduce a specific packing / manifest-parse failure.
 
 **Forbidden** to silence the gate without a real fix: faking the slot, renaming to dodge a check, `--no-verify`. Always root cause or escalate to the user.
 
@@ -97,13 +99,13 @@ waste, not diligence. Every audit binary takes a scope; use it:
 qa_audit    --source plugins/source --plugins nam/<a>,nam/<b>      # issue #28 selector
 loudness_audit <root>            # point <root> at a /tmp dir of symlinks to the new plugins
 nam_gate_audit --source <root>
-pack_plugins --source <root> --dist /tmp/dist   # with QA_AUDIT_SKIP=1: qa_audit already ran scoped
 ```
 
 `--plugins` also skips any chain check whose members are filtered out — it says
 so on stdout, which is the honest signal, not a silent pass. The **full**
-unscoped run is CI's job (`release.yml`); locally, run it only when the change
-can affect plugins you did not touch (tooling, thresholds, shared data).
+unscoped run — and any `pack_plugins` zip — is CI's job (`release.yml`);
+locally run `qa_audit` scoped, and reach for the full unscoped run only when the
+change can affect plugins you did not touch (tooling, thresholds, shared data).
 
 **Read the whole gate output.** Piping it through `| tail -N` truncates the
 summary AND makes `$?` the exit code of `tail`, so a red run reads as green.
