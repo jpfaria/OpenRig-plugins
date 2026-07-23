@@ -1,0 +1,123 @@
+# Bogner Red pedal (Ecstasy Red in a box). 26 hand-dialed presets, each a combination
+# of Volume/Treble/Middle/Bass/Gain/Variac/Mode/Pre-EQ/Structure (see the tone3000
+# description for the full dial table). The uploader's V1 capture pass is shipped; the
+# V2 pass (a hotter re-capture with more input gain) was dropped to keep one clean preset axis.
+manifest_version: 1
+id: nam_bogner_red_a2
+display_name: Bogner Red Pedal
+brand: bogner
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30595
+parameters:
+- name: preset
+  display_name: Preset
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+captures:
+- values:
+    preset: 10
+  file: captures/bogner_red_preset10_a2.nam
+- values:
+    preset: 11
+  file: captures/bogner_red_preset11_a2.nam
+- values:
+    preset: 12
+  file: captures/bogner_red_preset12_a2.nam
+- values:
+    preset: 13
+  file: captures/bogner_red_preset13_a2.nam
+- values:
+    preset: 14
+  file: captures/bogner_red_preset14_a2.nam
+- values:
+    preset: 15
+  file: captures/bogner_red_preset15_a2.nam
+- values:
+    preset: 16
+  file: captures/bogner_red_preset16_a2.nam
+- values:
+    preset: 17
+  file: captures/bogner_red_preset17_a2.nam
+- values:
+    preset: 18
+  file: captures/bogner_red_preset18_a2.nam
+- values:
+    preset: 19
+  file: captures/bogner_red_preset19_a2.nam
+- values:
+    preset: 1
+  file: captures/bogner_red_preset1_a2.nam
+- values:
+    preset: 20
+  file: captures/bogner_red_preset20_a2.nam
+- values:
+    preset: 21
+  file: captures/bogner_red_preset21_a2.nam
+- values:
+    preset: 22
+  file: captures/bogner_red_preset22_a2.nam
+- values:
+    preset: 23
+  file: captures/bogner_red_preset23_a2.nam
+- values:
+    preset: 24
+  file: captures/bogner_red_preset24_a2.nam
+- values:
+    preset: 25
+  file: captures/bogner_red_preset25_a2.nam
+- values:
+    preset: 26
+  file: captures/bogner_red_preset26_a2.nam
+- values:
+    preset: 2
+  file: captures/bogner_red_preset2_a2.nam
+- values:
+    preset: 3
+  file: captures/bogner_red_preset3_a2.nam
+- values:
+    preset: 4
+  file: captures/bogner_red_preset4_a2.nam
+- values:
+    preset: 5
+  file: captures/bogner_red_preset5_a2.nam
+- values:
+    preset: 6
+  file: captures/bogner_red_preset6_a2.nam
+- values:
+    preset: 7
+  file: captures/bogner_red_preset7_a2.nam
+- values:
+    preset: 8
+  file: captures/bogner_red_preset8_a2.nam
+- values:
+    preset: 9
+  file: captures/bogner_red_preset9_a2.nam

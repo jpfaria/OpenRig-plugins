@@ -1,0 +1,197 @@
+# Electro-Harmonix Nano Op-Amp Big Muff (IC/op-amp reissue). Tone (2-7) x Sustain
+# (0,2,5,8,10) on the 0-10 knob scale; Volume was fixed at 6. The 5 tone-bypass
+# captures were dropped so the Tone axis stays a numeric knob.
+manifest_version: 1
+id: nam_ehx_op_amp_big_muff_a2
+display_name: EHX Op-Amp Big Muff
+brand: electro_harmonix
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/37818
+parameters:
+- name: tone
+  display_name: Tone
+  values:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+- name: sustain
+  display_name: Sustain
+  values:
+  - 0
+  - 2
+  - 5
+  - 8
+  - 10
+captures:
+- values:
+    tone: 2
+    sustain: 0
+  file: captures/big_muff_t2_s0_a2.nam
+- values:
+    tone: 2
+    sustain: 10
+  file: captures/big_muff_t2_s10_a2.nam
+- values:
+    tone: 2
+    sustain: 2
+  file: captures/big_muff_t2_s2_a2.nam
+- values:
+    tone: 2
+    sustain: 5
+  file: captures/big_muff_t2_s5_a2.nam
+- values:
+    tone: 2
+    sustain: 8
+  file: captures/big_muff_t2_s8_a2.nam
+- values:
+    tone: 3
+    sustain: 0
+  file: captures/big_muff_t3_s0_a2.nam
+- values:
+    tone: 3
+    sustain: 10
+  file: captures/big_muff_t3_s10_a2.nam
+- values:
+    tone: 3
+    sustain: 2
+  file: captures/big_muff_t3_s2_a2.nam
+- values:
+    tone: 3
+    sustain: 5
+  file: captures/big_muff_t3_s5_a2.nam
+- values:
+    tone: 3
+    sustain: 8
+  file: captures/big_muff_t3_s8_a2.nam
+- values:
+    tone: 4
+    sustain: 0
+  file: captures/big_muff_t4_s0_a2.nam
+- values:
+    tone: 4
+    sustain: 10
+  file: captures/big_muff_t4_s10_a2.nam
+- values:
+    tone: 4
+    sustain: 2
+  file: captures/big_muff_t4_s2_a2.nam
+- values:
+    tone: 4
+    sustain: 5
+  file: captures/big_muff_t4_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 4
+    sustain: 8
+  file: captures/big_muff_t4_s8_a2.nam
+- values:
+    tone: 5
+    sustain: 0
+  file: captures/big_muff_t5_s0_a2.nam
+- values:
+    tone: 5
+    sustain: 10
+  file: captures/big_muff_t5_s10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 5
+    sustain: 2
+  file: captures/big_muff_t5_s2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 5
+    sustain: 5
+  file: captures/big_muff_t5_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 5
+    sustain: 8
+  file: captures/big_muff_t5_s8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 6
+    sustain: 0
+  file: captures/big_muff_t6_s0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    tone: 6
+    sustain: 10
+  file: captures/big_muff_t6_s10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 6
+    sustain: 2
+  file: captures/big_muff_t6_s2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 6
+    sustain: 5
+  file: captures/big_muff_t6_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 6
+    sustain: 8
+  file: captures/big_muff_t6_s8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 7
+    sustain: 0
+  file: captures/big_muff_t7_s0_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    tone: 7
+    sustain: 10
+  file: captures/big_muff_t7_s10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 7
+    sustain: 2
+  file: captures/big_muff_t7_s2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 7
+    sustain: 5
+  file: captures/big_muff_t7_s5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    tone: 7
+    sustain: 8
+  file: captures/big_muff_t7_s8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

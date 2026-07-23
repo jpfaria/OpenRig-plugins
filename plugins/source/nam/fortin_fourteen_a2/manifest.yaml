@@ -1,0 +1,200 @@
+# Fortin Fourteen, a 3-in-1 overdrive (Mike Fortin's iconic OD mods). Mode selects the
+# circuit: f808 (TS-style), f9 and hexd. Drive x Tone x Level on the 0-10 knob scale.
+# The mode-switch "Manual" and "Weirdo" captures (no D/T/L reading) were dropped.
+manifest_version: 1
+id: nam_fortin_fourteen_a2
+display_name: Fortin Fourteen Overdrive
+brand: fortin
+output_gain_db: -5.4678874
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/31668
+parameters:
+- name: mode
+  display_name: Mode
+  values:
+  - f808
+  - f9
+  - hexd
+- name: drive
+  display_name: Drive
+  values:
+  - 0
+  - 1
+  - 3
+  - 4
+  - 5
+- name: tone
+  display_name: Tone
+  values:
+  - 5
+  - 6
+  - 8
+  - 10
+- name: level
+  display_name: Level
+  values:
+  - 5
+  - 6
+  - 8
+  - 9
+  - 10
+captures:
+- values:
+    mode: f808
+    drive: 0
+    tone: 10
+    level: 9
+  file: captures/fortin_f808_d0_t10_l9_a2.nam
+- values:
+    mode: f808
+    drive: 0
+    tone: 5
+    level: 10
+  file: captures/fortin_f808_d0_t5_l10_a2.nam
+- values:
+    mode: f808
+    drive: 0
+    tone: 5
+    level: 8
+  file: captures/fortin_f808_d0_t5_l8_a2.nam
+- values:
+    mode: f808
+    drive: 0
+    tone: 6
+    level: 10
+  file: captures/fortin_f808_d0_t6_l10_a2.nam
+- values:
+    mode: f808
+    drive: 0
+    tone: 6
+    level: 6
+  file: captures/fortin_f808_d0_t6_l6_a2.nam
+- values:
+    mode: f808
+    drive: 0
+    tone: 8
+    level: 10
+  file: captures/fortin_f808_d0_t8_l10_a2.nam
+- values:
+    mode: f808
+    drive: 1
+    tone: 5
+    level: 6
+  file: captures/fortin_f808_d1_t5_l6_a2.nam
+- values:
+    mode: f808
+    drive: 1
+    tone: 8
+    level: 8
+  file: captures/fortin_f808_d1_t8_l8_a2.nam
+- values:
+    mode: f808
+    drive: 3
+    tone: 10
+    level: 8
+  file: captures/fortin_f808_d3_t10_l8_a2.nam
+- values:
+    mode: f808
+    drive: 3
+    tone: 5
+    level: 8
+  file: captures/fortin_f808_d3_t5_l8_a2.nam
+- values:
+    mode: f808
+    drive: 3
+    tone: 8
+    level: 8
+  file: captures/fortin_f808_d3_t8_l8_a2.nam
+- values:
+    mode: f808
+    drive: 5
+    tone: 5
+    level: 5
+  file: captures/fortin_f808_d5_t5_l5_a2.nam
+- values:
+    mode: f9
+    drive: 0
+    tone: 10
+    level: 8
+  file: captures/fortin_f9_d0_t10_l8_a2.nam
+- values:
+    mode: f9
+    drive: 0
+    tone: 6
+    level: 6
+  file: captures/fortin_f9_d0_t6_l6_a2.nam
+- values:
+    mode: f9
+    drive: 0
+    tone: 8
+    level: 10
+  file: captures/fortin_f9_d0_t8_l10_a2.nam
+- values:
+    mode: f9
+    drive: 1
+    tone: 8
+    level: 8
+  file: captures/fortin_f9_d1_t8_l8_a2.nam
+- values:
+    mode: f9
+    drive: 4
+    tone: 10
+    level: 6
+  file: captures/fortin_f9_d4_t10_l6_a2.nam
+- values:
+    mode: f9
+    drive: 4
+    tone: 8
+    level: 8
+  file: captures/fortin_f9_d4_t8_l8_a2.nam
+- values:
+    mode: f9
+    drive: 5
+    tone: 5
+    level: 5
+  file: captures/fortin_f9_d5_t5_l5_a2.nam
+- values:
+    mode: hexd
+    drive: 0
+    tone: 10
+    level: 10
+  file: captures/fortin_hexd_d0_t10_l10_a2.nam
+- values:
+    mode: hexd
+    drive: 0
+    tone: 5
+    level: 10
+  file: captures/fortin_hexd_d0_t5_l10_a2.nam
+- values:
+    mode: hexd
+    drive: 0
+    tone: 6
+    level: 8
+  file: captures/fortin_hexd_d0_t6_l8_a2.nam
+- values:
+    mode: hexd
+    drive: 3
+    tone: 8
+    level: 10
+  file: captures/fortin_hexd_d3_t8_l10_a2.nam
+- values:
+    mode: hexd
+    drive: 4
+    tone: 10
+    level: 10
+  file: captures/fortin_hexd_d4_t10_l10_a2.nam
+- values:
+    mode: hexd
+    drive: 4
+    tone: 6
+    level: 8
+  file: captures/fortin_hexd_d4_t6_l8_a2.nam
+- values:
+    mode: hexd
+    drive: 5
+    tone: 5
+    level: 5
+  file: captures/fortin_hexd_d5_t5_l5_a2.nam

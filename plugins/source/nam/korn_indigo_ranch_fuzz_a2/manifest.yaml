@@ -1,0 +1,225 @@
+# KoRn "Indigo Ranch" fuzz tone - the fuzz pedal captured across its two knobs:
+# Gain (fuzz amount, as a knob-rotation percentage) x Tone. Sparse grid (45 of the
+# gain/tone combinations the uploader captured), no cell repeated. The tone3000
+# "T3K-sweep" calibration reference was dropped (not a pedal setting).
+manifest_version: 1
+id: nam_korn_indigo_ranch_fuzz_a2
+display_name: KoRn Indigo Ranch Fuzz
+brand: korn
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/47195
+parameters:
+- name: gain
+  display_name: Gain
+  values:
+  - 50
+  - 65
+  - 75
+  - 90
+  - 100
+- name: tone
+  display_name: Tone
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+captures:
+- values:
+    gain: 100
+    tone: 1
+  file: captures/korn_fuzz_g100_t1_a2.nam
+- values:
+    gain: 100
+    tone: 2
+  file: captures/korn_fuzz_g100_t2_a2.nam
+- values:
+    gain: 100
+    tone: 3
+  file: captures/korn_fuzz_g100_t3_a2.nam
+- values:
+    gain: 100
+    tone: 4
+  file: captures/korn_fuzz_g100_t4_a2.nam
+- values:
+    gain: 100
+    tone: 5
+  file: captures/korn_fuzz_g100_t5_a2.nam
+- values:
+    gain: 100
+    tone: 6
+  file: captures/korn_fuzz_g100_t6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
+- values:
+    gain: 100
+    tone: 7
+  file: captures/korn_fuzz_g100_t7_a2.nam
+- values:
+    gain: 100
+    tone: 8
+  file: captures/korn_fuzz_g100_t8_a2.nam
+- values:
+    gain: 100
+    tone: 9
+  file: captures/korn_fuzz_g100_t9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.0
+- values:
+    gain: 50
+    tone: 1
+  file: captures/korn_fuzz_g50_t1_a2.nam
+- values:
+    gain: 50
+    tone: 2
+  file: captures/korn_fuzz_g50_t2_a2.nam
+- values:
+    gain: 50
+    tone: 3
+  file: captures/korn_fuzz_g50_t3_a2.nam
+- values:
+    gain: 50
+    tone: 4
+  file: captures/korn_fuzz_g50_t4_a2.nam
+- values:
+    gain: 50
+    tone: 5
+  file: captures/korn_fuzz_g50_t5_a2.nam
+- values:
+    gain: 50
+    tone: 6
+  file: captures/korn_fuzz_g50_t6_a2.nam
+- values:
+    gain: 50
+    tone: 7
+  file: captures/korn_fuzz_g50_t7_a2.nam
+- values:
+    gain: 50
+    tone: 8
+  file: captures/korn_fuzz_g50_t8_a2.nam
+- values:
+    gain: 50
+    tone: 9
+  file: captures/korn_fuzz_g50_t9_a2.nam
+- values:
+    gain: 65
+    tone: 1
+  file: captures/korn_fuzz_g65_t1_a2.nam
+- values:
+    gain: 65
+    tone: 2
+  file: captures/korn_fuzz_g65_t2_a2.nam
+- values:
+    gain: 65
+    tone: 3
+  file: captures/korn_fuzz_g65_t3_a2.nam
+- values:
+    gain: 65
+    tone: 4
+  file: captures/korn_fuzz_g65_t4_a2.nam
+- values:
+    gain: 65
+    tone: 5
+  file: captures/korn_fuzz_g65_t5_a2.nam
+- values:
+    gain: 65
+    tone: 6
+  file: captures/korn_fuzz_g65_t6_a2.nam
+- values:
+    gain: 65
+    tone: 7
+  file: captures/korn_fuzz_g65_t7_a2.nam
+- values:
+    gain: 65
+    tone: 8
+  file: captures/korn_fuzz_g65_t8_a2.nam
+- values:
+    gain: 65
+    tone: 9
+  file: captures/korn_fuzz_g65_t9_a2.nam
+- values:
+    gain: 75
+    tone: 1
+  file: captures/korn_fuzz_g75_t1_a2.nam
+- values:
+    gain: 75
+    tone: 2
+  file: captures/korn_fuzz_g75_t2_a2.nam
+- values:
+    gain: 75
+    tone: 3
+  file: captures/korn_fuzz_g75_t3_a2.nam
+- values:
+    gain: 75
+    tone: 4
+  file: captures/korn_fuzz_g75_t4_a2.nam
+- values:
+    gain: 75
+    tone: 5
+  file: captures/korn_fuzz_g75_t5_a2.nam
+- values:
+    gain: 75
+    tone: 6
+  file: captures/korn_fuzz_g75_t6_a2.nam
+- values:
+    gain: 75
+    tone: 7
+  file: captures/korn_fuzz_g75_t7_a2.nam
+- values:
+    gain: 75
+    tone: 8
+  file: captures/korn_fuzz_g75_t8_a2.nam
+- values:
+    gain: 75
+    tone: 9
+  file: captures/korn_fuzz_g75_t9_a2.nam
+- values:
+    gain: 90
+    tone: 1
+  file: captures/korn_fuzz_g90_t1_a2.nam
+- values:
+    gain: 90
+    tone: 2
+  file: captures/korn_fuzz_g90_t2_a2.nam
+- values:
+    gain: 90
+    tone: 3
+  file: captures/korn_fuzz_g90_t3_a2.nam
+- values:
+    gain: 90
+    tone: 4
+  file: captures/korn_fuzz_g90_t4_a2.nam
+- values:
+    gain: 90
+    tone: 5
+  file: captures/korn_fuzz_g90_t5_a2.nam
+- values:
+    gain: 90
+    tone: 6
+  file: captures/korn_fuzz_g90_t6_a2.nam
+- values:
+    gain: 90
+    tone: 7
+  file: captures/korn_fuzz_g90_t7_a2.nam
+- values:
+    gain: 90
+    tone: 8
+  file: captures/korn_fuzz_g90_t8_a2.nam
+- values:
+    gain: 90
+    tone: 9
+  file: captures/korn_fuzz_g90_t9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -35.5

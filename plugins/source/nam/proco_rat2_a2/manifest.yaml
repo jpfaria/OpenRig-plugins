@@ -1,41 +1,110 @@
-# Dropped constant token across all captures: "ST_RAT" (the pedal model identifier).
+# ProCo RAT2 distortion pedal. Two real knobs captured as a full grid:
+# Distortion x Filter, values are the knob's clock position in hours
+# (7:30=7.5 ... 12:00=12, 1:00 ... 3:00). Volume was fixed at 3:00 and is omitted.
 manifest_version: 1
 id: nam_proco_rat2_a2
-display_name: RAT 2
+display_name: ProCo RAT2
 brand: proco
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam
 architecture: A2
 sources:
-- https://www.tone3000.com/tones/45294
+- https://www.tone3000.com/tones/30444
 parameters:
-- name: dist
+- name: distortion
   display_name: Distortion
   values:
-  - 2
-  - 4
-  - 6
-  - 10
+  - 7.5
+  - 9
+  - 10.5
+  - 12
 - name: filter
   display_name: Filter
   values:
+  - 1
+  - 1.5
+  - 2
+  - 3
   - 12
-  - 13
 captures:
 - values:
-    dist: 2
-    filter: 12
-  file: captures/st_rat_dist_0900_filter_1200_a2.nam
+    distortion: 10.5
+    filter: 1.5
+  file: captures/proco_rat2_d10.5_f1.5_a2.nam
 - values:
-    dist: 4
-    filter: 13
-  file: captures/st_rat_dist_1100_filter_1300_a2.nam
-- values:
-    dist: 10
+    distortion: 10.5
     filter: 12
-  file: captures/st_rat_dist_max_filter_1200_a2.nam
+  file: captures/proco_rat2_d10.5_f12_a2.nam
 - values:
-    dist: 6
+    distortion: 10.5
+    filter: 1
+  file: captures/proco_rat2_d10.5_f1_a2.nam
+- values:
+    distortion: 10.5
+    filter: 2
+  file: captures/proco_rat2_d10.5_f2_a2.nam
+- values:
+    distortion: 10.5
+    filter: 3
+  file: captures/proco_rat2_d10.5_f3_a2.nam
+- values:
+    distortion: 12
+    filter: 1.5
+  file: captures/proco_rat2_d12_f1.5_a2.nam
+- values:
+    distortion: 12
     filter: 12
-  file: captures/st_rat_dist_1300_filter_1200_a2.nam
+  file: captures/proco_rat2_d12_f12_a2.nam
+- values:
+    distortion: 12
+    filter: 1
+  file: captures/proco_rat2_d12_f1_a2.nam
+- values:
+    distortion: 12
+    filter: 2
+  file: captures/proco_rat2_d12_f2_a2.nam
+- values:
+    distortion: 12
+    filter: 3
+  file: captures/proco_rat2_d12_f3_a2.nam
+- values:
+    distortion: 7.5
+    filter: 1.5
+  file: captures/proco_rat2_d7.5_f1.5_a2.nam
+- values:
+    distortion: 7.5
+    filter: 12
+  file: captures/proco_rat2_d7.5_f12_a2.nam
+- values:
+    distortion: 7.5
+    filter: 1
+  file: captures/proco_rat2_d7.5_f1_a2.nam
+- values:
+    distortion: 7.5
+    filter: 2
+  file: captures/proco_rat2_d7.5_f2_a2.nam
+- values:
+    distortion: 7.5
+    filter: 3
+  file: captures/proco_rat2_d7.5_f3_a2.nam
+- values:
+    distortion: 9
+    filter: 1.5
+  file: captures/proco_rat2_d9_f1.5_a2.nam
+- values:
+    distortion: 9
+    filter: 12
+  file: captures/proco_rat2_d9_f12_a2.nam
+- values:
+    distortion: 9
+    filter: 1
+  file: captures/proco_rat2_d9_f1_a2.nam
+- values:
+    distortion: 9
+    filter: 2
+  file: captures/proco_rat2_d9_f2_a2.nam
+- values:
+    distortion: 9
+    filter: 3
+  file: captures/proco_rat2_d9_f3_a2.nam

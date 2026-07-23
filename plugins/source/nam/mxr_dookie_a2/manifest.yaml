@@ -1,0 +1,235 @@
+# MXR Dookie Drive (Green Day signature). Blend x Gain x Tone, values are the knob
+# clock position mapped to a 0-10 scale (7:00=0, noon=5, 5:00=10); Blend captured at
+# min (0) and max (10) only. The scoop switch was left off per the author.
+manifest_version: 1
+id: nam_mxr_dookie_a2
+display_name: MXR Dookie Drive
+brand: mxr
+output_gain_db: 0.0000000
+type: gain_pedal
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/57681
+parameters:
+- name: blend
+  display_name: Blend
+  values:
+  - 0
+  - 10
+- name: gain
+  display_name: Gain
+  values:
+  - 2
+  - 4
+  - 6
+  - 8
+  - 10
+- name: tone
+  display_name: Tone
+  values:
+  - 2
+  - 5
+  - 8
+  - 10
+captures:
+- values:
+    blend: 0
+    gain: 10
+    tone: 10
+  file: captures/dookie_b0_g10_t10_a2.nam
+- values:
+    blend: 0
+    gain: 10
+    tone: 2
+  file: captures/dookie_b0_g10_t2_a2.nam
+- values:
+    blend: 0
+    gain: 10
+    tone: 5
+  file: captures/dookie_b0_g10_t5_a2.nam
+- values:
+    blend: 0
+    gain: 10
+    tone: 8
+  file: captures/dookie_b0_g10_t8_a2.nam
+- values:
+    blend: 0
+    gain: 2
+    tone: 10
+  file: captures/dookie_b0_g2_t10_a2.nam
+- values:
+    blend: 0
+    gain: 2
+    tone: 2
+  file: captures/dookie_b0_g2_t2_a2.nam
+- values:
+    blend: 0
+    gain: 2
+    tone: 5
+  file: captures/dookie_b0_g2_t5_a2.nam
+- values:
+    blend: 0
+    gain: 2
+    tone: 8
+  file: captures/dookie_b0_g2_t8_a2.nam
+- values:
+    blend: 0
+    gain: 4
+    tone: 10
+  file: captures/dookie_b0_g4_t10_a2.nam
+- values:
+    blend: 0
+    gain: 4
+    tone: 2
+  file: captures/dookie_b0_g4_t2_a2.nam
+- values:
+    blend: 0
+    gain: 4
+    tone: 5
+  file: captures/dookie_b0_g4_t5_a2.nam
+- values:
+    blend: 0
+    gain: 4
+    tone: 8
+  file: captures/dookie_b0_g4_t8_a2.nam
+- values:
+    blend: 0
+    gain: 6
+    tone: 10
+  file: captures/dookie_b0_g6_t10_a2.nam
+- values:
+    blend: 0
+    gain: 6
+    tone: 2
+  file: captures/dookie_b0_g6_t2_a2.nam
+- values:
+    blend: 0
+    gain: 6
+    tone: 5
+  file: captures/dookie_b0_g6_t5_a2.nam
+- values:
+    blend: 0
+    gain: 6
+    tone: 8
+  file: captures/dookie_b0_g6_t8_a2.nam
+- values:
+    blend: 0
+    gain: 8
+    tone: 10
+  file: captures/dookie_b0_g8_t10_a2.nam
+- values:
+    blend: 0
+    gain: 8
+    tone: 2
+  file: captures/dookie_b0_g8_t2_a2.nam
+- values:
+    blend: 0
+    gain: 8
+    tone: 5
+  file: captures/dookie_b0_g8_t5_a2.nam
+- values:
+    blend: 0
+    gain: 8
+    tone: 8
+  file: captures/dookie_b0_g8_t8_a2.nam
+- values:
+    blend: 10
+    gain: 10
+    tone: 10
+  file: captures/dookie_b10_g10_t10_a2.nam
+- values:
+    blend: 10
+    gain: 10
+    tone: 2
+  file: captures/dookie_b10_g10_t2_a2.nam
+- values:
+    blend: 10
+    gain: 10
+    tone: 5
+  file: captures/dookie_b10_g10_t5_a2.nam
+- values:
+    blend: 10
+    gain: 10
+    tone: 8
+  file: captures/dookie_b10_g10_t8_a2.nam
+- values:
+    blend: 10
+    gain: 2
+    tone: 10
+  file: captures/dookie_b10_g2_t10_a2.nam
+- values:
+    blend: 10
+    gain: 2
+    tone: 2
+  file: captures/dookie_b10_g2_t2_a2.nam
+- values:
+    blend: 10
+    gain: 2
+    tone: 5
+  file: captures/dookie_b10_g2_t5_a2.nam
+- values:
+    blend: 10
+    gain: 2
+    tone: 8
+  file: captures/dookie_b10_g2_t8_a2.nam
+- values:
+    blend: 10
+    gain: 4
+    tone: 10
+  file: captures/dookie_b10_g4_t10_a2.nam
+- values:
+    blend: 10
+    gain: 4
+    tone: 2
+  file: captures/dookie_b10_g4_t2_a2.nam
+- values:
+    blend: 10
+    gain: 4
+    tone: 5
+  file: captures/dookie_b10_g4_t5_a2.nam
+- values:
+    blend: 10
+    gain: 4
+    tone: 8
+  file: captures/dookie_b10_g4_t8_a2.nam
+- values:
+    blend: 10
+    gain: 6
+    tone: 10
+  file: captures/dookie_b10_g6_t10_a2.nam
+- values:
+    blend: 10
+    gain: 6
+    tone: 2
+  file: captures/dookie_b10_g6_t2_a2.nam
+- values:
+    blend: 10
+    gain: 6
+    tone: 5
+  file: captures/dookie_b10_g6_t5_a2.nam
+- values:
+    blend: 10
+    gain: 6
+    tone: 8
+  file: captures/dookie_b10_g6_t8_a2.nam
+- values:
+    blend: 10
+    gain: 8
+    tone: 10
+  file: captures/dookie_b10_g8_t10_a2.nam
+- values:
+    blend: 10
+    gain: 8
+    tone: 2
+  file: captures/dookie_b10_g8_t2_a2.nam
+- values:
+    blend: 10
+    gain: 8
+    tone: 5
+  file: captures/dookie_b10_g8_t5_a2.nam
+- values:
+    blend: 10
+    gain: 8
+    tone: 8
+  file: captures/dookie_b10_g8_t8_a2.nam
