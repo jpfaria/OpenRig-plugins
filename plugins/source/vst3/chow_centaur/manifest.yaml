@@ -1,6 +1,6 @@
 manifest_version: 1
 id: vst3_chow_centaur
-display_name: ChowCentaur
+display_name: Overdrive ChowCentaur
 description: ChowCentaur — Klon Centaur overdrive emulation (Wave Digital Filter + RNN) by ChowDSP.
 brand: chowdsp
 license: BSD-3-Clause
