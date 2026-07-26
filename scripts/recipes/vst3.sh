@@ -210,8 +210,10 @@ build_roomreverb() {
 build_frequalizer() {
     # Vendors an old JUCE that pulls <curl/curl.h> (JUCE_USE_CURL) — not present
     # on the linux runners; disable it (also drops the runtime libcurl dep).
+    # POSITION_INDEPENDENT_CODE=ON: its BinaryData static lib is otherwise built
+    # without -fPIC, which fails to link into the .so on linux.
     local src="$DEPS_DIR/Frequalizer"
-    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_CXX_FLAGS=-DJUCE_USE_CURL=0" \
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_CXX_FLAGS=-DJUCE_USE_CURL=0 -DCMAKE_POSITION_INDEPENDENT_CODE=ON" \
         do_cmake "$src" frequalizer_VST3
     collect_vst3 "$LAST_BUILD_DIR" "Frequalizer.vst3"
 }

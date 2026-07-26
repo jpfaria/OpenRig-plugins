@@ -133,7 +133,10 @@ jobs:
             autoconf automake libtool \
             lv2-dev libsndfile1-dev libsamplerate0-dev libfftw3-dev \
             libzita-convolver-dev libglu1-mesa-dev libcairo2-dev \
-            libx11-dev liblo-dev libjack-jackd2-dev libfluidsynth-dev
+            libx11-dev liblo-dev libjack-jackd2-dev libfluidsynth-dev \
+            libxcb-util-dev libxcb-cursor-dev libxcb-keysyms1-dev libxcb-xkb-dev \
+            libxkbcommon-dev libxkbcommon-x11-dev libxext-dev libfontconfig1-dev \
+            libfreetype-dev libgtk-3-dev libsqlite3-dev
 
       - name: Build ${{ matrix.recipe }}
         run: |
@@ -169,7 +172,10 @@ jobs:
             autoconf automake libtool \
             lv2-dev libsndfile1-dev libsamplerate0-dev libfftw3-dev \
             libzita-convolver-dev libglu1-mesa-dev libcairo2-dev \
-            libx11-dev liblo-dev libjack-jackd2-dev libfluidsynth-dev
+            libx11-dev liblo-dev libjack-jackd2-dev libfluidsynth-dev \
+            libxcb-util-dev libxcb-cursor-dev libxcb-keysyms1-dev libxcb-xkb-dev \
+            libxkbcommon-dev libxkbcommon-x11-dev libxext-dev libfontconfig1-dev \
+            libfreetype-dev libgtk-3-dev libsqlite3-dev
 
       - name: Build ${{ matrix.recipe }}
         run: |
