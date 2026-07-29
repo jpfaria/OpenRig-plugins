@@ -46,5 +46,11 @@
     "vst3": {
       "vst3": 26
     }
+  },
+  "captures_by_backend": {
+    "nam": 4990,
+    "ir": 2117,
+    "vst3": 0,
+    "lv2": 0
   }
 }

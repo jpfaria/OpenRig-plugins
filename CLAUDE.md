@@ -78,6 +78,7 @@ Documentation is part of the task, not an afterthought. **Any change that alters
 | `CLAUDE.md` (this file) | every Claude session | invariant, gate, gitflow, or general rule changed |
 | `.claude/skills/*/SKILL.md` | future Claude session | methodology, anti-pattern, gate, or process changed |
 | `README*.md` | the world | tagline, plugin list, build/pack instructions changed |
+| `resume.json` (repo root) | quick plugin-count snapshot | any plugin added/removed under `plugins/source/*` |
 
 A commit that changes behavior without touching any `.md` is wrong. A skill left stale because "I remember it" is wrong — the next session does not remember. Renamed something? `grep -rn "<old>"` across `*.md`, `README*`, `CLAUDE.md`, and every `.claude/skills/*/SKILL.md`, and fix all of them in the same commit.
 
