@@ -1,0 +1,50 @@
+{
+  "total_plugins": 649,
+  "by_backend": {
+    "nam": 335,
+    "ir": 177,
+    "lv2": 111,
+    "vst3": 26
+  },
+  "by_block_type": {
+    "gain_pedal": 189,
+    "amp": 159,
+    "body": 114,
+    "cab": 64,
+    "preamp": 36,
+    "vst3": 26,
+    "reverb": 15,
+    "filter": 12,
+    "mod": 12,
+    "delay": 9,
+    "dyn": 8,
+    "pitch": 4,
+    "wah": 1
+  },
+  "by_backend_and_block_type": {
+    "ir": {
+      "body": 114,
+      "cab": 63
+    },
+    "lv2": {
+      "gain_pedal": 46,
+      "reverb": 15,
+      "filter": 12,
+      "mod": 12,
+      "delay": 9,
+      "dyn": 8,
+      "pitch": 4,
+      "amp": 3,
+      "cab": 1,
+      "wah": 1
+    },
+    "nam": {
+      "amp": 156,
+      "gain_pedal": 143,
+      "preamp": 36
+    },
+    "vst3": {
+      "vst3": 26
+    }
+  }
+}
