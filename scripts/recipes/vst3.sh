@@ -212,8 +212,11 @@ build_frequalizer() {
     # on the linux runners; disable it (also drops the runtime libcurl dep).
     # POSITION_INDEPENDENT_CODE=ON: its BinaryData static lib is otherwise built
     # without -fPIC, which fails to link into the .so on linux.
+    # COPY_FOLDER: its POST_BUILD `copy_directory ${ARTEFACTS_DIR} ${COPY_FOLDER}`
+    # only sets COPY_FOLDER under APPLE/WIN32, so on linux it expands empty →
+    # malformed `cmake -E copy_directory`. Seed it as a cache var to a scratch dir.
     local src="$DEPS_DIR/Frequalizer"
-    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_CXX_FLAGS=-DJUCE_USE_CURL=0 -DCMAKE_POSITION_INDEPENDENT_CODE=ON" \
+    CMAKE_EXTRA="${CMAKE_EXTRA:-} -DCMAKE_POLICY_VERSION_MINIMUM=3.5 -DCMAKE_CXX_FLAGS=-DJUCE_USE_CURL=0 -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DCOPY_FOLDER=${TMPDIR:-/tmp}/frequalizer_copy" \
         do_cmake "$src" frequalizer_VST3
     collect_vst3 "$LAST_BUILD_DIR" "Frequalizer.vst3"
 }
