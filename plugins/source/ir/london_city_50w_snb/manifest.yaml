@@ -18,16 +18,16 @@ captures:
 - values:
     preset: bx44
   file: ir/bx44.wav
-  output_gain_db: -22.1330681
+  output_gain_db: -21.7473927
 - values:
     preset: cmv3_m7
   file: ir/cmv3_m7.wav
-  output_gain_db: -30.2541943
+  output_gain_db: -23.9999962
 - values:
     preset: cmv3_m9
   file: ir/cmv3_m9.wav
-  output_gain_db: -29.0964184
+  output_gain_db: -23.8239937
 - values:
     preset: km53
   file: ir/km53.wav
-  output_gain_db: -22.1927471
+  output_gain_db: -21.7626457

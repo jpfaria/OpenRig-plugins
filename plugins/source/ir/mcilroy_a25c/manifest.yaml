@@ -23,34 +23,34 @@ captures:
     position: pos1
     voicing: raw
   file: ir/sc_mcilroy1_44100.wav
-  output_gain_db: -29.9288483
+  output_gain_db: 0.0000014
 - values:
     position: pos1
     voicing: blend
   file: ir/sc_mcilroy1_44100_bld.wav
-  output_gain_db: -28.5695438
+  output_gain_db: 1.2960517
 - values:
     position: pos1
     voicing: match
   file: ir/sc_mcilroy1_44100_match.wav
-  output_gain_db: -26.2344284
+  output_gain_db: 0.0000008
 - values:
     position: pos1
     voicing: jf_flavor
   file: ir/sc_mcilroy1_44100_jf_flavor.wav
-  output_gain_db: -29.8055897
+  output_gain_db: 0.0000008
 - values:
     position: pos2
     voicing: raw
   file: ir/sc_mcilroy2_44100.wav
-  output_gain_db: -24.4179573
+  output_gain_db: 4.8421488
 - values:
     position: pos2
     voicing: blend
   file: ir/sc_mcilroy2_44100_bld.wav
-  output_gain_db: -18.8493099
+  output_gain_db: 9.2135172
 - values:
     position: pos2
     voicing: jf_flavor
   file: ir/sc_mcilroy2_44100_jf_flavor.wav
-  output_gain_db: -19.4805126
+  output_gain_db: 8.7949104

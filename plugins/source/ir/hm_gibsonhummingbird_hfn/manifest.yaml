@@ -23,36 +23,36 @@ captures:
 - values:
     preset: len2048
   file: ir/hm_gibsonhummingbird_hfn_2048_44100.wav
-  output_gain_db: -12.7261515
+  output_gain_db: 10.8947544
 - values:
     preset: len2048_match1
   file: ir/hm_gibsonhummingbird_hfn_2048_44100_match1.wav
-  output_gain_db: -17.5472279
+  output_gain_db: 6.3521762
 - values:
     preset: len2048_match2
   file: ir/hm_gibsonhummingbird_hfn_2048_44100_match2.wav
-  output_gain_db: -18.7734165
+  output_gain_db: 5.6789351
 - values:
     preset: len8096_match2
   file: ir/hm_gibsonhummingbird_hfn_8096_44100_match2.wav
-  output_gain_db: -27.3733234
+  output_gain_db: 0.0000020
 - values:
     preset: len1024
   file: ir/hm_gibson_hummingbird_hfn_1024_44100.wav
-  output_gain_db: -4.7067633
+  output_gain_db: 12.1321793
 - values:
     preset: len1024_match1
   file: ir/hm_gibson_hummingbird_hfn_1024_44100_match1.wav
-  output_gain_db: -13.5013638
+  output_gain_db: 6.6967616
 - values:
     preset: len1024_match2
   file: ir/hm_gibson_hummingbird_hfn_1024_44100_match2.wav
-  output_gain_db: -14.4822111
+  output_gain_db: 6.7514448
 - values:
     preset: st_len2048_match2
   file: ir/ir_st_2048_gibsonhummingbird_match2.wav
-  output_gain_db: -18.7734203
+  output_gain_db: 5.6791220
 - values:
     preset: st_len2048_match2c
   file: ir/ir_st_2048_gibsonhummingbird_match2c.wav
-  output_gain_db: -18.7734165
+  output_gain_db: 5.6791229

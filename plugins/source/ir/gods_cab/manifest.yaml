@@ -64,4603 +64,4603 @@ captures:
     position: 1_foot
     take: '1'
   file: ir/c414_no_ts_1_foot_1.wav
-  output_gain_db: -24.3510952
+  output_gain_db: -22.7192268
 - values:
     mic: c414
     version: no_ts
     position: 1_foot
     take: '2'
   file: ir/c414_no_ts_1_foot_2.wav
-  output_gain_db: -22.8813324
+  output_gain_db: -22.0316067
 - values:
     mic: c414
     version: no_ts
     position: 1_foot
     take: '3'
   file: ir/c414_no_ts_1_foot_3.wav
-  output_gain_db: -21.1401520
+  output_gain_db: -21.5858002
 - values:
     mic: c414
     version: no_ts
     position: 1_foot
     take: '4'
   file: ir/c414_no_ts_1_foot_4.wav
-  output_gain_db: -20.3662357
+  output_gain_db: -21.1962433
 - values:
     mic: c414
     version: no_ts
     position: 1_foot
     take: '5'
   file: ir/c414_no_ts_1_foot_5.wav
-  output_gain_db: -20.3004436
+  output_gain_db: -21.2221451
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cap
     take: '1'
   file: ir/c414_no_ts_1_inch_cap_1.wav
-  output_gain_db: -24.1412296
+  output_gain_db: -19.4987240
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cap
     take: '2'
   file: ir/c414_no_ts_1_inch_cap_2.wav
-  output_gain_db: -22.3063068
+  output_gain_db: -19.2637081
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cap
     take: '3'
   file: ir/c414_no_ts_1_inch_cap_3.wav
-  output_gain_db: -20.9224014
+  output_gain_db: -19.3566780
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cap
     take: '4'
   file: ir/c414_no_ts_1_inch_cap_4.wav
-  output_gain_db: -21.0787811
+  output_gain_db: -19.1454277
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cap
     take: '5'
   file: ir/c414_no_ts_1_inch_cap_5.wav
-  output_gain_db: -20.9930859
+  output_gain_db: -18.8615990
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/c414_no_ts_1_inch_cone_far_1.wav
-  output_gain_db: -29.7853909
+  output_gain_db: -23.4945602
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/c414_no_ts_1_inch_cone_far_2.wav
-  output_gain_db: -27.7114391
+  output_gain_db: -22.0263653
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/c414_no_ts_1_inch_cone_far_3.wav
-  output_gain_db: -24.5744591
+  output_gain_db: -19.8133850
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/c414_no_ts_1_inch_cone_far_4.wav
-  output_gain_db: -23.0647621
+  output_gain_db: -19.5947552
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/c414_no_ts_1_inch_cone_far_5.wav
-  output_gain_db: -22.6297798
+  output_gain_db: -19.6983681
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/c414_no_ts_1_inch_cone_near_1.wav
-  output_gain_db: -26.6943665
+  output_gain_db: -20.5412045
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/c414_no_ts_1_inch_cone_near_2.wav
-  output_gain_db: -24.6051731
+  output_gain_db: -19.7577591
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/c414_no_ts_1_inch_cone_near_3.wav
-  output_gain_db: -22.0495358
+  output_gain_db: -18.6190758
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/c414_no_ts_1_inch_cone_near_4.wav
-  output_gain_db: -21.5180359
+  output_gain_db: -18.7607193
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/c414_no_ts_1_inch_cone_near_5.wav
-  output_gain_db: -21.8346348
+  output_gain_db: -19.0125351
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_edge
     take: '1'
   file: ir/c414_no_ts_1_inch_edge_1.wav
-  output_gain_db: -24.6312275
+  output_gain_db: -19.5795670
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_edge
     take: '2'
   file: ir/c414_no_ts_1_inch_edge_2.wav
-  output_gain_db: -22.7916527
+  output_gain_db: -19.0443535
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_edge
     take: '3'
   file: ir/c414_no_ts_1_inch_edge_3.wav
-  output_gain_db: -21.0165291
+  output_gain_db: -19.3655510
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_edge
     take: '4'
   file: ir/c414_no_ts_1_inch_edge_4.wav
-  output_gain_db: -21.3407001
+  output_gain_db: -19.7696857
 - values:
     mic: c414
     version: no_ts
     position: 1_inch_edge
     take: '5'
   file: ir/c414_no_ts_1_inch_edge_5.wav
-  output_gain_db: -21.2347736
+  output_gain_db: -19.6188927
 - values:
     mic: c414
     version: no_ts
     position: 2_foot
     take: '1'
   file: ir/c414_no_ts_2_foot_1.wav
-  output_gain_db: -25.5276661
+  output_gain_db: -22.7474556
 - values:
     mic: c414
     version: no_ts
     position: 2_foot
     take: '2'
   file: ir/c414_no_ts_2_foot_2.wav
-  output_gain_db: -23.7921028
+  output_gain_db: -22.0201950
 - values:
     mic: c414
     version: no_ts
     position: 2_foot
     take: '3'
   file: ir/c414_no_ts_2_foot_3.wav
-  output_gain_db: -21.8358040
+  output_gain_db: -20.3994617
 - values:
     mic: c414
     version: no_ts
     position: 2_foot
     take: '4'
   file: ir/c414_no_ts_2_foot_4.wav
-  output_gain_db: -21.5960846
+  output_gain_db: -20.0417442
 - values:
     mic: c414
     version: no_ts
     position: 2_foot
     take: '5'
   file: ir/c414_no_ts_2_foot_5.wav
-  output_gain_db: -21.4716091
+  output_gain_db: -20.0734119
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cap
     take: '1'
   file: ir/c414_no_ts_2_inch_cap_1.wav
-  output_gain_db: -24.0010948
+  output_gain_db: -19.6934185
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cap
     take: '2'
   file: ir/c414_no_ts_2_inch_cap_2.wav
-  output_gain_db: -22.0705051
+  output_gain_db: -19.6378326
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cap
     take: '3'
   file: ir/c414_no_ts_2_inch_cap_3.wav
-  output_gain_db: -21.8250923
+  output_gain_db: -19.8728180
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cap
     take: '4'
   file: ir/c414_no_ts_2_inch_cap_4.wav
-  output_gain_db: -22.2593174
+  output_gain_db: -19.9161491
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cap
     take: '5'
   file: ir/c414_no_ts_2_inch_cap_5.wav
-  output_gain_db: -22.0806789
+  output_gain_db: -19.6029243
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/c414_no_ts_2_inch_cone_far_1.wav
-  output_gain_db: -30.1892223
+  output_gain_db: -23.9749889
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/c414_no_ts_2_inch_cone_far_2.wav
-  output_gain_db: -28.2104931
+  output_gain_db: -22.7543888
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/c414_no_ts_2_inch_cone_far_3.wav
-  output_gain_db: -25.1632633
+  output_gain_db: -20.7975311
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/c414_no_ts_2_inch_cone_far_4.wav
-  output_gain_db: -23.5920868
+  output_gain_db: -20.6891823
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/c414_no_ts_2_inch_cone_far_5.wav
-  output_gain_db: -23.1099262
+  output_gain_db: -20.8780899
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/c414_no_ts_2_inch_cone_near_1.wav
-  output_gain_db: -26.6773129
+  output_gain_db: -20.5913734
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/c414_no_ts_2_inch_cone_near_2.wav
-  output_gain_db: -24.8938446
+  output_gain_db: -19.7787895
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/c414_no_ts_2_inch_cone_near_3.wav
-  output_gain_db: -22.1939526
+  output_gain_db: -19.0633144
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/c414_no_ts_2_inch_cone_near_4.wav
-  output_gain_db: -21.2671661
+  output_gain_db: -19.2165565
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/c414_no_ts_2_inch_cone_near_5.wav
-  output_gain_db: -21.5322475
+  output_gain_db: -19.5436630
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_edge
     take: '1'
   file: ir/c414_no_ts_2_inch_edge_1.wav
-  output_gain_db: -24.4616489
+  output_gain_db: -19.1610165
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_edge
     take: '2'
   file: ir/c414_no_ts_2_inch_edge_2.wav
-  output_gain_db: -22.6537457
+  output_gain_db: -18.6261063
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_edge
     take: '3'
   file: ir/c414_no_ts_2_inch_edge_3.wav
-  output_gain_db: -20.0360947
+  output_gain_db: -19.1059437
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_edge
     take: '4'
   file: ir/c414_no_ts_2_inch_edge_4.wav
-  output_gain_db: -20.9461040
+  output_gain_db: -19.7449188
 - values:
     mic: c414
     version: no_ts
     position: 2_inch_edge
     take: '5'
   file: ir/c414_no_ts_2_inch_edge_5.wav
-  output_gain_db: -20.9877319
+  output_gain_db: -19.5772800
 - values:
     mic: c414
     version: no_ts
     position: 4_foot
     take: '1'
   file: ir/c414_no_ts_4_foot_1.wav
-  output_gain_db: -27.0448570
+  output_gain_db: -23.2446251
 - values:
     mic: c414
     version: no_ts
     position: 4_foot
     take: '2'
   file: ir/c414_no_ts_4_foot_2.wav
-  output_gain_db: -25.6064796
+  output_gain_db: -22.5329704
 - values:
     mic: c414
     version: no_ts
     position: 4_foot
     take: '3'
   file: ir/c414_no_ts_4_foot_3.wav
-  output_gain_db: -24.1952438
+  output_gain_db: -21.2573566
 - values:
     mic: c414
     version: no_ts
     position: 4_foot
     take: '4'
   file: ir/c414_no_ts_4_foot_4.wav
-  output_gain_db: -22.9502163
+  output_gain_db: -21.0083179
 - values:
     mic: c414
     version: no_ts
     position: 4_foot
     take: '5'
   file: ir/c414_no_ts_4_foot_5.wav
-  output_gain_db: -22.8543530
+  output_gain_db: -20.9229908
 - values:
     mic: c414
     version: no_ts
     position: grill_cap
     take: '1'
   file: ir/c414_no_ts_grill_cap_1.wav
-  output_gain_db: -24.5215473
+  output_gain_db: -20.1610241
 - values:
     mic: c414
     version: no_ts
     position: grill_cap
     take: '2'
   file: ir/c414_no_ts_grill_cap_2.wav
-  output_gain_db: -22.3304119
+  output_gain_db: -19.7000504
 - values:
     mic: c414
     version: no_ts
     position: grill_cap
     take: '3'
   file: ir/c414_no_ts_grill_cap_3.wav
-  output_gain_db: -21.2624817
+  output_gain_db: -19.3618851
 - values:
     mic: c414
     version: no_ts
     position: grill_cap
     take: '4'
   file: ir/c414_no_ts_grill_cap_4.wav
-  output_gain_db: -21.1614017
+  output_gain_db: -18.9309711
 - values:
     mic: c414
     version: no_ts
     position: grill_cap
     take: '5'
   file: ir/c414_no_ts_grill_cap_5.wav
-  output_gain_db: -21.0517578
+  output_gain_db: -18.8813000
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_far
     take: '1'
   file: ir/c414_no_ts_grill_cone_far_1.wav
-  output_gain_db: -31.1795254
+  output_gain_db: -23.9999962
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_far
     take: '2'
   file: ir/c414_no_ts_grill_cone_far_2.wav
-  output_gain_db: -29.0629120
+  output_gain_db: -22.6461086
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_far
     take: '3'
   file: ir/c414_no_ts_grill_cone_far_3.wav
-  output_gain_db: -26.6629829
+  output_gain_db: -20.6698895
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_far
     take: '4'
   file: ir/c414_no_ts_grill_cone_far_4.wav
-  output_gain_db: -24.7612457
+  output_gain_db: -19.5949306
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_far
     take: '5'
   file: ir/c414_no_ts_grill_cone_far_5.wav
-  output_gain_db: -24.3483086
+  output_gain_db: -19.5161705
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_near
     take: '1'
   file: ir/c414_no_ts_grill_cone_near_1.wav
-  output_gain_db: -29.0278683
+  output_gain_db: -21.8632240
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_near
     take: '2'
   file: ir/c414_no_ts_grill_cone_near_2.wav
-  output_gain_db: -26.9566631
+  output_gain_db: -20.7403507
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_near
     take: '3'
   file: ir/c414_no_ts_grill_cone_near_3.wav
-  output_gain_db: -24.1055050
+  output_gain_db: -19.3692055
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_near
     take: '4'
   file: ir/c414_no_ts_grill_cone_near_4.wav
-  output_gain_db: -22.0310955
+  output_gain_db: -19.1383591
 - values:
     mic: c414
     version: no_ts
     position: grill_cone_near
     take: '5'
   file: ir/c414_no_ts_grill_cone_near_5.wav
-  output_gain_db: -21.5729675
+  output_gain_db: -18.9511089
 - values:
     mic: c414
     version: no_ts
     position: grill_edge
     take: '1'
   file: ir/c414_no_ts_grill_edge_1.wav
-  output_gain_db: -25.4548225
+  output_gain_db: -19.7998734
 - values:
     mic: c414
     version: no_ts
     position: grill_edge
     take: '2'
   file: ir/c414_no_ts_grill_edge_2.wav
-  output_gain_db: -23.4850712
+  output_gain_db: -19.2671013
 - values:
     mic: c414
     version: no_ts
     position: grill_edge
     take: '3'
   file: ir/c414_no_ts_grill_edge_3.wav
-  output_gain_db: -20.7982750
+  output_gain_db: -18.6588593
 - values:
     mic: c414
     version: no_ts
     position: grill_edge
     take: '4'
   file: ir/c414_no_ts_grill_edge_4.wav
-  output_gain_db: -21.4737740
+  output_gain_db: -19.3978252
 - values:
     mic: c414
     version: no_ts
     position: grill_edge
     take: '5'
   file: ir/c414_no_ts_grill_edge_5.wav
-  output_gain_db: -20.9267998
+  output_gain_db: -19.2214966
 - values:
     mic: c414
     version: ts
     position: 1_foot
     take: '1'
   file: ir/c414_ts_1_foot_1.wav
-  output_gain_db: -30.1884480
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 1_foot
     take: '2'
   file: ir/c414_ts_1_foot_2.wav
-  output_gain_db: -28.7921162
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 1_foot
     take: '3'
   file: ir/c414_ts_1_foot_3.wav
-  output_gain_db: -26.6554966
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 1_foot
     take: '4'
   file: ir/c414_ts_1_foot_4.wav
-  output_gain_db: -24.7362499
+  output_gain_db: -23.1365700
 - values:
     mic: c414
     version: ts
     position: 1_foot
     take: '5'
   file: ir/c414_ts_1_foot_5.wav
-  output_gain_db: -24.2031288
+  output_gain_db: -22.7858200
 - values:
     mic: c414
     version: ts
     position: 1_inch_cap
     take: '1'
   file: ir/c414_ts_1_inch_cap_1.wav
-  output_gain_db: -20.3339748
+  output_gain_db: -19.5913715
 - values:
     mic: c414
     version: ts
     position: 1_inch_cap
     take: '2'
   file: ir/c414_ts_1_inch_cap_2.wav
-  output_gain_db: -18.5177269
+  output_gain_db: -18.9966354
 - values:
     mic: c414
     version: ts
     position: 1_inch_cap
     take: '3'
   file: ir/c414_ts_1_inch_cap_3.wav
-  output_gain_db: -18.6222687
+  output_gain_db: -18.4860687
 - values:
     mic: c414
     version: ts
     position: 1_inch_cap
     take: '4'
   file: ir/c414_ts_1_inch_cap_4.wav
-  output_gain_db: -19.4284401
+  output_gain_db: -18.1021461
 - values:
     mic: c414
     version: ts
     position: 1_inch_cap
     take: '5'
   file: ir/c414_ts_1_inch_cap_5.wav
-  output_gain_db: -19.7152443
+  output_gain_db: -18.0786915
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/c414_ts_1_inch_cone_far_1.wav
-  output_gain_db: -26.1468601
+  output_gain_db: -23.7123680
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/c414_ts_1_inch_cone_far_2.wav
-  output_gain_db: -25.0585003
+  output_gain_db: -22.8087387
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/c414_ts_1_inch_cone_far_4.wav
-  output_gain_db: -20.9985542
+  output_gain_db: -20.5081730
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/c414_ts_1_inch_cone_far_5.wav
-  output_gain_db: -20.5708733
+  output_gain_db: -20.3773117
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/c414_ts_1_inch_cone_near_1.wav
-  output_gain_db: -23.5451088
+  output_gain_db: -21.6735077
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/c414_ts_1_inch_cone_near_2.wav
-  output_gain_db: -22.3023338
+  output_gain_db: -20.6724339
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/c414_ts_1_inch_cone_near_3.wav
-  output_gain_db: -19.4719429
+  output_gain_db: -19.4100761
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/c414_ts_1_inch_cone_near_4.wav
-  output_gain_db: -19.5157871
+  output_gain_db: -18.4264164
 - values:
     mic: c414
     version: ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/c414_ts_1_inch_cone_near_5.wav
-  output_gain_db: -19.8594723
+  output_gain_db: -18.3053741
 - values:
     mic: c414
     version: ts
     position: 1_inch_edge
     take: '1'
   file: ir/c414_ts_1_inch_edge_1.wav
-  output_gain_db: -21.1122456
+  output_gain_db: -19.9887352
 - values:
     mic: c414
     version: ts
     position: 1_inch_edge
     take: '2'
   file: ir/c414_ts_1_inch_edge_2.wav
-  output_gain_db: -19.5846577
+  output_gain_db: -19.2879581
 - values:
     mic: c414
     version: ts
     position: 1_inch_edge
     take: '3'
   file: ir/c414_ts_1_inch_edge_3.wav
-  output_gain_db: -18.5561543
+  output_gain_db: -18.6717701
 - values:
     mic: c414
     version: ts
     position: 1_inch_edge
     take: '4'
   file: ir/c414_ts_1_inch_edge_4.wav
-  output_gain_db: -19.5912991
+  output_gain_db: -18.0566216
 - values:
     mic: c414
     version: ts
     position: 1_inch_edge
     take: '5'
   file: ir/c414_ts_1_inch_edge_5.wav
-  output_gain_db: -19.7397766
+  output_gain_db: -18.0037251
 - values:
     mic: c414
     version: ts
     position: 2_foot
     take: '1'
   file: ir/c414_ts_2_foot_1.wav
-  output_gain_db: -30.6269112
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 2_foot
     take: '2'
   file: ir/c414_ts_2_foot_2.wav
-  output_gain_db: -29.2601833
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 2_foot
     take: '3'
   file: ir/c414_ts_2_foot_3.wav
-  output_gain_db: -28.2295284
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 2_foot
     take: '4'
   file: ir/c414_ts_2_foot_4.wav
-  output_gain_db: -26.4764938
+  output_gain_db: -23.6291370
 - values:
     mic: c414
     version: ts
     position: 2_foot
     take: '5'
   file: ir/c414_ts_2_foot_5.wav
-  output_gain_db: -26.0366440
+  output_gain_db: -23.2993813
 - values:
     mic: c414
     version: ts
     position: 2_inch_cap
     take: '1'
   file: ir/c414_ts_2_inch_cap_1.wav
-  output_gain_db: -20.6570778
+  output_gain_db: -19.9419250
 - values:
     mic: c414
     version: ts
     position: 2_inch_cap
     take: '2'
   file: ir/c414_ts_2_inch_cap_2.wav
-  output_gain_db: -19.1804619
+  output_gain_db: -19.1680317
 - values:
     mic: c414
     version: ts
     position: 2_inch_cap
     take: '3'
   file: ir/c414_ts_2_inch_cap_3.wav
-  output_gain_db: -19.3916473
+  output_gain_db: -18.9177036
 - values:
     mic: c414
     version: ts
     position: 2_inch_cap
     take: '4'
   file: ir/c414_ts_2_inch_cap_4.wav
-  output_gain_db: -20.1582909
+  output_gain_db: -18.2014961
 - values:
     mic: c414
     version: ts
     position: 2_inch_cap
     take: '5'
   file: ir/c414_ts_2_inch_cap_5.wav
-  output_gain_db: -20.4259434
+  output_gain_db: -18.1835232
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/c414_ts_2_inch_cone_far_1.wav
-  output_gain_db: -25.8759918
+  output_gain_db: -23.6433449
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/c414_ts_2_inch_cone_far_2.wav
-  output_gain_db: -24.7924156
+  output_gain_db: -23.0979099
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/c414_ts_2_inch_cone_far_3.wav
-  output_gain_db: -22.9209423
+  output_gain_db: -22.3252373
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/c414_ts_2_inch_cone_far_4.wav
-  output_gain_db: -20.7547970
+  output_gain_db: -21.0185013
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/c414_ts_2_inch_cone_far_5.wav
-  output_gain_db: -20.2763023
+  output_gain_db: -20.9158306
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/c414_ts_2_inch_cone_near_1.wav
-  output_gain_db: -23.4212418
+  output_gain_db: -21.4826355
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/c414_ts_2_inch_cone_near_2.wav
-  output_gain_db: -22.1204815
+  output_gain_db: -21.0409660
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/c414_ts_2_inch_cone_near_3.wav
-  output_gain_db: -19.9725933
+  output_gain_db: -20.0645523
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/c414_ts_2_inch_cone_near_4.wav
-  output_gain_db: -19.7703323
+  output_gain_db: -19.3169975
 - values:
     mic: c414
     version: ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/c414_ts_2_inch_cone_near_5.wav
-  output_gain_db: -20.2919521
+  output_gain_db: -19.0741730
 - values:
     mic: c414
     version: ts
     position: 2_inch_edge
     take: '1'
   file: ir/c414_ts_2_inch_edge_1.wav
-  output_gain_db: -21.5970879
+  output_gain_db: -19.7777538
 - values:
     mic: c414
     version: ts
     position: 2_inch_edge
     take: '2'
   file: ir/c414_ts_2_inch_edge_2.wav
-  output_gain_db: -19.9907799
+  output_gain_db: -19.4730034
 - values:
     mic: c414
     version: ts
     position: 2_inch_edge
     take: '3'
   file: ir/c414_ts_2_inch_edge_3.wav
-  output_gain_db: -18.3929501
+  output_gain_db: -19.2006302
 - values:
     mic: c414
     version: ts
     position: 2_inch_edge
     take: '4'
   file: ir/c414_ts_2_inch_edge_4.wav
-  output_gain_db: -18.7539062
+  output_gain_db: -18.4323483
 - values:
     mic: c414
     version: ts
     position: 2_inch_edge
     take: '5'
   file: ir/c414_ts_2_inch_edge_5.wav
-  output_gain_db: -19.0179176
+  output_gain_db: -18.0973969
 - values:
     mic: c414
     version: ts
     position: 4_foot
     take: '1'
   file: ir/c414_ts_4_foot_1.wav
-  output_gain_db: -32.1148796
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 4_foot
     take: '2'
   file: ir/c414_ts_4_foot_2.wav
-  output_gain_db: -30.7492619
+  output_gain_db: -23.9999962
 - values:
     mic: c414
     version: ts
     position: 4_foot
     take: '3'
   file: ir/c414_ts_4_foot_3.wav
-  output_gain_db: -28.6072311
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: 4_foot
     take: '4'
   file: ir/c414_ts_4_foot_4.wav
-  output_gain_db: -26.6322174
+  output_gain_db: -23.7243271
 - values:
     mic: c414
     version: ts
     position: 4_foot
     take: '5'
   file: ir/c414_ts_4_foot_5.wav
-  output_gain_db: -26.3427219
+  output_gain_db: -23.1781845
 - values:
     mic: c414
     version: ts
     position: grill_cap
     take: '1'
   file: ir/c414_ts_grill_cap_1.wav
-  output_gain_db: -20.6326847
+  output_gain_db: -19.8396568
 - values:
     mic: c414
     version: ts
     position: grill_cap
     take: '2'
   file: ir/c414_ts_grill_cap_2.wav
-  output_gain_db: -18.7307644
+  output_gain_db: -19.1572990
 - values:
     mic: c414
     version: ts
     position: grill_cap
     take: '3'
   file: ir/c414_ts_grill_cap_3.wav
-  output_gain_db: -19.1038952
+  output_gain_db: -18.1730862
 - values:
     mic: c414
     version: ts
     position: grill_cap
     take: '4'
   file: ir/c414_ts_grill_cap_4.wav
-  output_gain_db: -19.9960041
+  output_gain_db: -18.2595367
 - values:
     mic: c414
     version: ts
     position: grill_cap
     take: '5'
   file: ir/c414_ts_grill_cap_5.wav
-  output_gain_db: -20.4041252
+  output_gain_db: -18.3433228
 - values:
     mic: c414
     version: ts
     position: grill_cone_far
     take: '1'
   file: ir/c414_ts_grill_cone_far_1.wav
-  output_gain_db: -26.7321777
+  output_gain_db: -24.0000000
 - values:
     mic: c414
     version: ts
     position: grill_cone_far
     take: '2'
   file: ir/c414_ts_grill_cone_far_2.wav
-  output_gain_db: -24.8866997
+  output_gain_db: -23.0549679
 - values:
     mic: c414
     version: ts
     position: grill_cone_far
     take: '3'
   file: ir/c414_ts_grill_cone_far_3.wav
-  output_gain_db: -23.0202065
+  output_gain_db: -21.9139442
 - values:
     mic: c414
     version: ts
     position: grill_cone_far
     take: '4'
   file: ir/c414_ts_grill_cone_far_4.wav
-  output_gain_db: -20.8163013
+  output_gain_db: -20.4123859
 - values:
     mic: c414
     version: ts
     position: grill_cone_far
     take: '5'
   file: ir/c414_ts_grill_cone_far_5.wav
-  output_gain_db: -20.3791752
+  output_gain_db: -20.2073650
 - values:
     mic: c414
     version: ts
     position: grill_cone_near
     take: '1'
   file: ir/c414_ts_grill_cone_near_1.wav
-  output_gain_db: -24.4096851
+  output_gain_db: -22.1650867
 - values:
     mic: c414
     version: ts
     position: grill_cone_near
     take: '2'
   file: ir/c414_ts_grill_cone_near_2.wav
-  output_gain_db: -22.4585304
+  output_gain_db: -21.1389542
 - values:
     mic: c414
     version: ts
     position: grill_cone_near
     take: '3'
   file: ir/c414_ts_grill_cone_near_3.wav
-  output_gain_db: -20.5417538
+  output_gain_db: -20.1810246
 - values:
     mic: c414
     version: ts
     position: grill_cone_near
     take: '4'
   file: ir/c414_ts_grill_cone_near_4.wav
-  output_gain_db: -18.6604424
+  output_gain_db: -18.8181324
 - values:
     mic: c414
     version: ts
     position: grill_cone_near
     take: '5'
   file: ir/c414_ts_grill_cone_near_5.wav
-  output_gain_db: -18.6016674
+  output_gain_db: -18.6702709
 - values:
     mic: c414
     version: ts
     position: grill_edge
     take: '1'
   file: ir/c414_ts_grill_edge_1.wav
-  output_gain_db: -21.7693462
+  output_gain_db: -20.3012333
 - values:
     mic: c414
     version: ts
     position: grill_edge
     take: '2'
   file: ir/c414_ts_grill_edge_2.wav
-  output_gain_db: -19.7258472
+  output_gain_db: -19.4452477
 - values:
     mic: c414
     version: ts
     position: grill_edge
     take: '3'
   file: ir/c414_ts_grill_edge_3.wav
-  output_gain_db: -18.6586628
+  output_gain_db: -18.7185707
 - values:
     mic: c414
     version: ts
     position: grill_edge
     take: '4'
   file: ir/c414_ts_grill_edge_4.wav
-  output_gain_db: -19.4224663
+  output_gain_db: -17.7346935
 - values:
     mic: c414
     version: ts
     position: grill_edge
     take: '5'
   file: ir/c414_ts_grill_edge_5.wav
-  output_gain_db: -19.6775703
+  output_gain_db: -17.6500168
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cap
     take: '1'
   file: ir/md421_no_ts_1_inch_cap_1.wav
-  output_gain_db: -23.2417049
+  output_gain_db: -19.4884148
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cap
     take: '2'
   file: ir/md421_no_ts_1_inch_cap_2.wav
-  output_gain_db: -21.2494049
+  output_gain_db: -19.5268745
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cap
     take: '3'
   file: ir/md421_no_ts_1_inch_cap_3.wav
-  output_gain_db: -19.0208588
+  output_gain_db: -19.3764057
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cap
     take: '4'
   file: ir/md421_no_ts_1_inch_cap_4.wav
-  output_gain_db: -18.6719608
+  output_gain_db: -18.5716572
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cap
     take: '5'
   file: ir/md421_no_ts_1_inch_cap_5.wav
-  output_gain_db: -18.4433937
+  output_gain_db: -18.2367401
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/md421_no_ts_1_inch_cone_far_1.wav
-  output_gain_db: -30.3585606
+  output_gain_db: -22.7445164
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/md421_no_ts_1_inch_cone_far_2.wav
-  output_gain_db: -28.3442726
+  output_gain_db: -21.8672886
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/md421_no_ts_1_inch_cone_far_3.wav
-  output_gain_db: -26.0211411
+  output_gain_db: -21.4224186
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/md421_no_ts_1_inch_cone_far_4.wav
-  output_gain_db: -23.8669243
+  output_gain_db: -21.9913464
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/md421_no_ts_1_inch_cone_far_5.wav
-  output_gain_db: -24.0298023
+  output_gain_db: -22.0708885
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/md421_no_ts_1_inch_cone_near_1.wav
-  output_gain_db: -27.7248249
+  output_gain_db: -21.4622498
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/md421_no_ts_1_inch_cone_near_2.wav
-  output_gain_db: -25.8079681
+  output_gain_db: -20.9867744
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/md421_no_ts_1_inch_cone_near_3.wav
-  output_gain_db: -23.4634113
+  output_gain_db: -20.9321136
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/md421_no_ts_1_inch_cone_near_4.wav
-  output_gain_db: -22.5411282
+  output_gain_db: -21.5558090
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/md421_no_ts_1_inch_cone_near_5.wav
-  output_gain_db: -23.1298332
+  output_gain_db: -21.9851379
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_edge
     take: '1'
   file: ir/md421_no_ts_1_inch_edge_1.wav
-  output_gain_db: -24.6664639
+  output_gain_db: -19.8531170
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_edge
     take: '2'
   file: ir/md421_no_ts_1_inch_edge_2.wav
-  output_gain_db: -22.8743801
+  output_gain_db: -20.1057854
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_edge
     take: '3'
   file: ir/md421_no_ts_1_inch_edge_3.wav
-  output_gain_db: -20.7323990
+  output_gain_db: -20.5714760
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_edge
     take: '4'
   file: ir/md421_no_ts_1_inch_edge_4.wav
-  output_gain_db: -20.5398102
+  output_gain_db: -19.7720699
 - values:
     mic: md421
     version: no_ts
     position: 1_inch_edge
     take: '5'
   file: ir/md421_no_ts_1_inch_edge_5.wav
-  output_gain_db: -20.7924728
+  output_gain_db: -19.8146362
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cap
     take: '1'
   file: ir/md421_no_ts_2_inch_cap_1.wav
-  output_gain_db: -22.8777351
+  output_gain_db: -19.6842384
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cap
     take: '2'
   file: ir/md421_no_ts_2_inch_cap_2.wav
-  output_gain_db: -20.6972466
+  output_gain_db: -19.6730881
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cap
     take: '3'
   file: ir/md421_no_ts_2_inch_cap_3.wav
-  output_gain_db: -19.9979591
+  output_gain_db: -19.2568417
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cap
     take: '4'
   file: ir/md421_no_ts_2_inch_cap_4.wav
-  output_gain_db: -19.5029545
+  output_gain_db: -18.4713268
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cap
     take: '5'
   file: ir/md421_no_ts_2_inch_cap_5.wav
-  output_gain_db: -19.2510605
+  output_gain_db: -18.1500931
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/md421_no_ts_2_inch_cone_far_1.wav
-  output_gain_db: -30.0525837
+  output_gain_db: -22.7905312
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/md421_no_ts_2_inch_cone_far_2.wav
-  output_gain_db: -28.0443859
+  output_gain_db: -21.8773899
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/md421_no_ts_2_inch_cone_far_3.wav
-  output_gain_db: -25.6659374
+  output_gain_db: -21.9278221
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/md421_no_ts_2_inch_cone_far_4.wav
-  output_gain_db: -23.7407913
+  output_gain_db: -22.6707497
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/md421_no_ts_2_inch_cone_far_5.wav
-  output_gain_db: -23.7731838
+  output_gain_db: -22.6823921
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/md421_no_ts_2_inch_cone_near_1.wav
-  output_gain_db: -27.2333870
+  output_gain_db: -21.2756500
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/md421_no_ts_2_inch_cone_near_2.wav
-  output_gain_db: -25.2904034
+  output_gain_db: -20.9871578
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/md421_no_ts_2_inch_cone_near_3.wav
-  output_gain_db: -22.8309650
+  output_gain_db: -20.9392490
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/md421_no_ts_2_inch_cone_near_4.wav
-  output_gain_db: -22.7398052
+  output_gain_db: -21.5204468
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/md421_no_ts_2_inch_cone_near_5.wav
-  output_gain_db: -22.5600052
+  output_gain_db: -21.4123001
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_edge
     take: '1'
   file: ir/md421_no_ts_2_inch_edge_1.wav
-  output_gain_db: -24.2306118
+  output_gain_db: -19.8084965
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_edge
     take: '2'
   file: ir/md421_no_ts_2_inch_edge_2.wav
-  output_gain_db: -22.4063530
+  output_gain_db: -19.9829597
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_edge
     take: '3'
   file: ir/md421_no_ts_2_inch_edge_3.wav
-  output_gain_db: -20.3527985
+  output_gain_db: -20.3424282
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_edge
     take: '4'
   file: ir/md421_no_ts_2_inch_edge_4.wav
-  output_gain_db: -20.2192001
+  output_gain_db: -19.0026932
 - values:
     mic: md421
     version: no_ts
     position: 2_inch_edge
     take: '5'
   file: ir/md421_no_ts_2_inch_edge_5.wav
-  output_gain_db: -20.2743301
+  output_gain_db: -19.1043472
 - values:
     mic: md421
     version: no_ts
     position: grill_cap
     take: '1'
   file: ir/md421_no_ts_grill_cap_1.wav
-  output_gain_db: -24.8058834
+  output_gain_db: -19.4253044
 - values:
     mic: md421
     version: no_ts
     position: grill_cap
     take: '2'
   file: ir/md421_no_ts_grill_cap_2.wav
-  output_gain_db: -22.6912193
+  output_gain_db: -19.4355011
 - values:
     mic: md421
     version: no_ts
     position: grill_cap
     take: '3'
   file: ir/md421_no_ts_grill_cap_3.wav
-  output_gain_db: -20.0126114
+  output_gain_db: -19.3307285
 - values:
     mic: md421
     version: no_ts
     position: grill_cap
     take: '4'
   file: ir/md421_no_ts_grill_cap_4.wav
-  output_gain_db: -19.2519588
+  output_gain_db: -18.9673920
 - values:
     mic: md421
     version: no_ts
     position: grill_cap
     take: '5'
   file: ir/md421_no_ts_grill_cap_5.wav
-  output_gain_db: -18.6301727
+  output_gain_db: -18.4885960
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_far
     take: '1'
   file: ir/md421_no_ts_grill_cone_far_1.wav
-  output_gain_db: -30.8265934
+  output_gain_db: -22.9761639
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_far
     take: '2'
   file: ir/md421_no_ts_grill_cone_far_2.wav
-  output_gain_db: -28.8110313
+  output_gain_db: -21.7909164
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_far
     take: '3'
   file: ir/md421_no_ts_grill_cone_far_3.wav
-  output_gain_db: -26.4448643
+  output_gain_db: -20.8913212
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_far
     take: '4'
   file: ir/md421_no_ts_grill_cone_far_4.wav
-  output_gain_db: -24.3130074
+  output_gain_db: -21.2819290
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_far
     take: '5'
   file: ir/md421_no_ts_grill_cone_far_5.wav
-  output_gain_db: -23.6101456
+  output_gain_db: -21.2032375
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_near
     take: '1'
   file: ir/md421_no_ts_grill_cone_near_1.wav
-  output_gain_db: -28.3438339
+  output_gain_db: -21.2148037
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_near
     take: '2'
   file: ir/md421_no_ts_grill_cone_near_2.wav
-  output_gain_db: -26.4579430
+  output_gain_db: -20.6207409
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_near
     take: '3'
   file: ir/md421_no_ts_grill_cone_near_3.wav
-  output_gain_db: -24.2467575
+  output_gain_db: -20.4488029
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_near
     take: '4'
   file: ir/md421_no_ts_grill_cone_near_4.wav
-  output_gain_db: -22.5175571
+  output_gain_db: -21.1680775
 - values:
     mic: md421
     version: no_ts
     position: grill_cone_near
     take: '5'
   file: ir/md421_no_ts_grill_cone_near_5.wav
-  output_gain_db: -22.8033066
+  output_gain_db: -21.3654499
 - values:
     mic: md421
     version: no_ts
     position: grill_edge
     take: '1'
   file: ir/md421_no_ts_grill_edge_1.wav
-  output_gain_db: -25.4002037
+  output_gain_db: -19.6572609
 - values:
     mic: md421
     version: no_ts
     position: grill_edge
     take: '2'
   file: ir/md421_no_ts_grill_edge_2.wav
-  output_gain_db: -23.4921017
+  output_gain_db: -19.7157059
 - values:
     mic: md421
     version: no_ts
     position: grill_edge
     take: '3'
   file: ir/md421_no_ts_grill_edge_3.wav
-  output_gain_db: -21.2401028
+  output_gain_db: -20.1745872
 - values:
     mic: md421
     version: no_ts
     position: grill_edge
     take: '4'
   file: ir/md421_no_ts_grill_edge_4.wav
-  output_gain_db: -20.9220638
+  output_gain_db: -20.1942272
 - values:
     mic: md421
     version: no_ts
     position: grill_edge
     take: '5'
   file: ir/md421_no_ts_grill_edge_5.wav
-  output_gain_db: -20.9795303
+  output_gain_db: -20.1943512
 - values:
     mic: md421
     version: ts
     position: 1_inch_cap
     take: '1'
   file: ir/md421_ts_1_inch_cap_1.wav
-  output_gain_db: -19.8888245
+  output_gain_db: -18.3708801
 - values:
     mic: md421
     version: ts
     position: 1_inch_cap
     take: '2'
   file: ir/md421_ts_1_inch_cap_2.wav
-  output_gain_db: -18.0647717
+  output_gain_db: -18.1020718
 - values:
     mic: md421
     version: ts
     position: 1_inch_cap
     take: '3'
   file: ir/md421_ts_1_inch_cap_3.wav
-  output_gain_db: -18.5679302
+  output_gain_db: -18.4189510
 - values:
     mic: md421
     version: ts
     position: 1_inch_cap
     take: '4'
   file: ir/md421_ts_1_inch_cap_4.wav
-  output_gain_db: -19.2128716
+  output_gain_db: -18.7190151
 - values:
     mic: md421
     version: ts
     position: 1_inch_cap
     take: '5'
   file: ir/md421_ts_1_inch_cap_5.wav
-  output_gain_db: -19.4408016
+  output_gain_db: -19.0149937
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/md421_ts_1_inch_cone_far_1.wav
-  output_gain_db: -26.2510242
+  output_gain_db: -22.6839695
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/md421_ts_1_inch_cone_far_2.wav
-  output_gain_db: -24.3487167
+  output_gain_db: -21.8730011
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/md421_ts_1_inch_cone_far_3.wav
-  output_gain_db: -22.3255787
+  output_gain_db: -20.7715015
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/md421_ts_1_inch_cone_far_4.wav
-  output_gain_db: -20.5325966
+  output_gain_db: -20.2871838
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/md421_ts_1_inch_cone_far_5.wav
-  output_gain_db: -20.8341751
+  output_gain_db: -20.4950123
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/md421_ts_1_inch_cone_near_1.wav
-  output_gain_db: -23.8887501
+  output_gain_db: -20.7905216
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/md421_ts_1_inch_cone_near_2.wav
-  output_gain_db: -22.1316566
+  output_gain_db: -20.3354378
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/md421_ts_1_inch_cone_near_3.wav
-  output_gain_db: -19.7732067
+  output_gain_db: -19.8606148
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/md421_ts_1_inch_cone_near_4.wav
-  output_gain_db: -19.2750607
+  output_gain_db: -19.8825874
 - values:
     mic: md421
     version: ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/md421_ts_1_inch_cone_near_5.wav
-  output_gain_db: -19.9096870
+  output_gain_db: -20.1410904
 - values:
     mic: md421
     version: ts
     position: 1_inch_edge
     take: '1'
   file: ir/md421_ts_1_inch_edge_1.wav
-  output_gain_db: -21.0991611
+  output_gain_db: -19.0340309
 - values:
     mic: md421
     version: ts
     position: 1_inch_edge
     take: '2'
   file: ir/md421_ts_1_inch_edge_2.wav
-  output_gain_db: -19.1317463
+  output_gain_db: -18.6946297
 - values:
     mic: md421
     version: ts
     position: 1_inch_edge
     take: '3'
   file: ir/md421_ts_1_inch_edge_3.wav
-  output_gain_db: -18.1572533
+  output_gain_db: -18.5162506
 - values:
     mic: md421
     version: ts
     position: 1_inch_edge
     take: '4'
   file: ir/md421_ts_1_inch_edge_4.wav
-  output_gain_db: -19.8296947
+  output_gain_db: -19.2566948
 - values:
     mic: md421
     version: ts
     position: 1_inch_edge
     take: '5'
   file: ir/md421_ts_1_inch_edge_5.wav
-  output_gain_db: -20.2335300
+  output_gain_db: -19.1829319
 - values:
     mic: md421
     version: ts
     position: 2_inch_cap
     take: '1'
   file: ir/md421_ts_2_inch_cap_1.wav
-  output_gain_db: -19.6650658
+  output_gain_db: -18.8312626
 - values:
     mic: md421
     version: ts
     position: 2_inch_cap
     take: '2'
   file: ir/md421_ts_2_inch_cap_2.wav
-  output_gain_db: -18.2676868
+  output_gain_db: -18.7201309
 - values:
     mic: md421
     version: ts
     position: 2_inch_cap
     take: '3'
   file: ir/md421_ts_2_inch_cap_3.wav
-  output_gain_db: -19.2123699
+  output_gain_db: -19.2190571
 - values:
     mic: md421
     version: ts
     position: 2_inch_cap
     take: '4'
   file: ir/md421_ts_2_inch_cap_4.wav
-  output_gain_db: -19.9703140
+  output_gain_db: -19.5625801
 - values:
     mic: md421
     version: ts
     position: 2_inch_cap
     take: '5'
   file: ir/md421_ts_2_inch_cap_5.wav
-  output_gain_db: -20.1601391
+  output_gain_db: -19.6690922
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/md421_ts_2_inch_cone_far_1.wav
-  output_gain_db: -25.6267471
+  output_gain_db: -22.2635651
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/md421_ts_2_inch_cone_far_2.wav
-  output_gain_db: -23.9098434
+  output_gain_db: -21.5549965
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/md421_ts_2_inch_cone_far_3.wav
-  output_gain_db: -21.5680332
+  output_gain_db: -21.0821152
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/md421_ts_2_inch_cone_far_4.wav
-  output_gain_db: -20.7238121
+  output_gain_db: -21.0083370
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/md421_ts_2_inch_cone_far_5.wav
-  output_gain_db: -21.0321445
+  output_gain_db: -21.1657867
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/md421_ts_2_inch_cone_near_1.wav
-  output_gain_db: -23.2671165
+  output_gain_db: -20.4848595
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/md421_ts_2_inch_cone_near_2.wav
-  output_gain_db: -21.4979992
+  output_gain_db: -20.2054482
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/md421_ts_2_inch_cone_near_3.wav
-  output_gain_db: -18.7879791
+  output_gain_db: -19.6429100
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/md421_ts_2_inch_cone_near_4.wav
-  output_gain_db: -19.0406189
+  output_gain_db: -19.6490784
 - values:
     mic: md421
     version: ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/md421_ts_2_inch_cone_near_5.wav
-  output_gain_db: -19.6526031
+  output_gain_db: -19.8206024
 - values:
     mic: md421
     version: ts
     position: 2_inch_edge
     take: '1'
   file: ir/md421_ts_2_inch_edge_1.wav
-  output_gain_db: -20.5836697
+  output_gain_db: -19.0533829
 - values:
     mic: md421
     version: ts
     position: 2_inch_edge
     take: '2'
   file: ir/md421_ts_2_inch_edge_2.wav
-  output_gain_db: -18.6800194
+  output_gain_db: -18.7515945
 - values:
     mic: md421
     version: ts
     position: 2_inch_edge
     take: '3'
   file: ir/md421_ts_2_inch_edge_3.wav
-  output_gain_db: -18.6254539
+  output_gain_db: -18.8209610
 - values:
     mic: md421
     version: ts
     position: 2_inch_edge
     take: '4'
   file: ir/md421_ts_2_inch_edge_4.wav
-  output_gain_db: -19.9019375
+  output_gain_db: -19.6136227
 - values:
     mic: md421
     version: ts
     position: 2_inch_edge
     take: '5'
   file: ir/md421_ts_2_inch_edge_5.wav
-  output_gain_db: -20.0983009
+  output_gain_db: -19.6451225
 - values:
     mic: md421
     version: ts
     position: grill_cap
     take: '1'
   file: ir/md421_ts_grill_cap_1.wav
-  output_gain_db: -20.7200756
+  output_gain_db: -18.5507812
 - values:
     mic: md421
     version: ts
     position: grill_cap
     take: '2'
   file: ir/md421_ts_grill_cap_2.wav
-  output_gain_db: -18.7912350
+  output_gain_db: -18.3222313
 - values:
     mic: md421
     version: ts
     position: grill_cap
     take: '3'
   file: ir/md421_ts_grill_cap_3.wav
-  output_gain_db: -17.9871750
+  output_gain_db: -18.2634773
 - values:
     mic: md421
     version: ts
     position: grill_cap
     take: '4'
   file: ir/md421_ts_grill_cap_4.wav
-  output_gain_db: -19.1344738
+  output_gain_db: -18.4872074
 - values:
     mic: md421
     version: ts
     position: grill_cap
     take: '5'
   file: ir/md421_ts_grill_cap_5.wav
-  output_gain_db: -19.3855782
+  output_gain_db: -18.6582890
 - values:
     mic: md421
     version: ts
     position: grill_cone_far
     take: '1'
   file: ir/md421_ts_grill_cone_far_1.wav
-  output_gain_db: -26.4960880
+  output_gain_db: -22.5596466
 - values:
     mic: md421
     version: ts
     position: grill_cone_far
     take: '2'
   file: ir/md421_ts_grill_cone_far_2.wav
-  output_gain_db: -24.6455364
+  output_gain_db: -21.8019161
 - values:
     mic: md421
     version: ts
     position: grill_cone_far
     take: '3'
   file: ir/md421_ts_grill_cone_far_3.wav
-  output_gain_db: -22.6233749
+  output_gain_db: -20.8005524
 - values:
     mic: md421
     version: ts
     position: grill_cone_far
     take: '4'
   file: ir/md421_ts_grill_cone_far_4.wav
-  output_gain_db: -20.4348545
+  output_gain_db: -20.3401833
 - values:
     mic: md421
     version: ts
     position: grill_cone_far
     take: '5'
   file: ir/md421_ts_grill_cone_far_5.wav
-  output_gain_db: -20.0940151
+  output_gain_db: -20.2547016
 - values:
     mic: md421
     version: ts
     position: grill_cone_near
     take: '1'
   file: ir/md421_ts_grill_cone_near_1.wav
-  output_gain_db: -24.5751381
+  output_gain_db: -21.1361732
 - values:
     mic: md421
     version: ts
     position: grill_cone_near
     take: '2'
   file: ir/md421_ts_grill_cone_near_2.wav
-  output_gain_db: -22.5497646
+  output_gain_db: -20.3446369
 - values:
     mic: md421
     version: ts
     position: grill_cone_near
     take: '3'
   file: ir/md421_ts_grill_cone_near_3.wav
-  output_gain_db: -20.1926727
+  output_gain_db: -19.6499939
 - values:
     mic: md421
     version: ts
     position: grill_cone_near
     take: '4'
   file: ir/md421_ts_grill_cone_near_4.wav
-  output_gain_db: -19.6523361
+  output_gain_db: -19.7261486
 - values:
     mic: md421
     version: ts
     position: grill_cone_near
     take: '5'
   file: ir/md421_ts_grill_cone_near_5.wav
-  output_gain_db: -20.1942730
+  output_gain_db: -19.7412891
 - values:
     mic: md421
     version: ts
     position: grill_edge
     take: '1'
   file: ir/md421_ts_grill_edge_1.wav
-  output_gain_db: -21.5557709
+  output_gain_db: -18.9859333
 - values:
     mic: md421
     version: ts
     position: grill_edge
     take: '2'
   file: ir/md421_ts_grill_edge_2.wav
-  output_gain_db: -19.6113052
+  output_gain_db: -18.5444336
 - values:
     mic: md421
     version: ts
     position: grill_edge
     take: '3'
   file: ir/md421_ts_grill_edge_3.wav
-  output_gain_db: -17.8998299
+  output_gain_db: -18.4949570
 - values:
     mic: md421
     version: ts
     position: grill_edge
     take: '4'
   file: ir/md421_ts_grill_edge_4.wav
-  output_gain_db: -19.1376801
+  output_gain_db: -19.1809502
 - values:
     mic: md421
     version: ts
     position: grill_edge
     take: '5'
   file: ir/md421_ts_grill_edge_5.wav
-  output_gain_db: -19.4423389
+  output_gain_db: -19.1928711
 - values:
     mic: nt5
     version: no_ts
     position: stereo_dead_room
     take: '1'
   file: ir/nt5_no_ts_stereo_dead_room_1.wav
-  output_gain_db: -22.6238976
+  output_gain_db: -20.2809963
 - values:
     mic: nt5
     version: no_ts
     position: stereo_dead_room
     take: '2'
   file: ir/nt5_no_ts_stereo_dead_room_2.wav
-  output_gain_db: -21.7266579
+  output_gain_db: -19.6907158
 - values:
     mic: nt5
     version: no_ts
     position: stereo_dead_room
     take: '3'
   file: ir/nt5_no_ts_stereo_dead_room_3.wav
-  output_gain_db: -20.1406746
+  output_gain_db: -19.6841049
 - values:
     mic: nt5
     version: no_ts
     position: stereo_dead_room
     take: '4'
   file: ir/nt5_no_ts_stereo_dead_room_4.wav
-  output_gain_db: -19.7950726
+  output_gain_db: -19.7693901
 - values:
     mic: nt5
     version: no_ts
     position: stereo_dead_room
     take: '5'
   file: ir/nt5_no_ts_stereo_dead_room_5.wav
-  output_gain_db: -19.8076515
+  output_gain_db: -19.8045216
 - values:
     mic: nt5
     version: no_ts
     position: stereo_live_room
     take: '1'
   file: ir/nt5_no_ts_stereo_live_room_1.wav
-  output_gain_db: -23.0932312
+  output_gain_db: -20.8516979
 - values:
     mic: nt5
     version: no_ts
     position: stereo_live_room
     take: '2'
   file: ir/nt5_no_ts_stereo_live_room_2.wav
-  output_gain_db: -22.0958023
+  output_gain_db: -20.2442684
 - values:
     mic: nt5
     version: no_ts
     position: stereo_live_room
     take: '3'
   file: ir/nt5_no_ts_stereo_live_room_3.wav
-  output_gain_db: -21.4014874
+  output_gain_db: -19.2332840
 - values:
     mic: nt5
     version: no_ts
     position: stereo_live_room
     take: '4'
   file: ir/nt5_no_ts_stereo_live_room_4.wav
-  output_gain_db: -20.9223976
+  output_gain_db: -18.5577736
 - values:
     mic: nt5
     version: no_ts
     position: stereo_live_room
     take: '5'
   file: ir/nt5_no_ts_stereo_live_room_5.wav
-  output_gain_db: -20.9478436
+  output_gain_db: -18.7084808
 - values:
     mic: nt5
     version: ts
     position: stereo_dead_room
     take: '1'
   file: ir/nt5_ts_stereo_dead_room_1.wav
-  output_gain_db: -29.4049320
+  output_gain_db: -23.2604599
 - values:
     mic: nt5
     version: ts
     position: stereo_dead_room
     take: '2'
   file: ir/nt5_ts_stereo_dead_room_2.wav
-  output_gain_db: -28.5843506
+  output_gain_db: -23.3773880
 - values:
     mic: nt5
     version: ts
     position: stereo_dead_room
     take: '3'
   file: ir/nt5_ts_stereo_dead_room_3.wav
-  output_gain_db: -26.5001469
+  output_gain_db: -22.5908966
 - values:
     mic: nt5
     version: ts
     position: stereo_dead_room
     take: '4'
   file: ir/nt5_ts_stereo_dead_room_4.wav
-  output_gain_db: -24.5702953
+  output_gain_db: -20.9892731
 - values:
     mic: nt5
     version: ts
     position: stereo_dead_room
     take: '5'
   file: ir/nt5_ts_stereo_dead_room_5.wav
-  output_gain_db: -23.9525433
+  output_gain_db: -20.7877655
 - values:
     mic: nt5
     version: ts
     position: stereo_live_room
     take: '1'
   file: ir/nt5_ts_stereo_live_room_1.wav
-  output_gain_db: -29.7046146
+  output_gain_db: -22.4117146
 - values:
     mic: nt5
     version: ts
     position: stereo_live_room
     take: '2'
   file: ir/nt5_ts_stereo_live_room_2.wav
-  output_gain_db: -28.1657448
+  output_gain_db: -23.0395317
 - values:
     mic: nt5
     version: ts
     position: stereo_live_room
     take: '3'
   file: ir/nt5_ts_stereo_live_room_3.wav
-  output_gain_db: -26.6233006
+  output_gain_db: -22.4505234
 - values:
     mic: nt5
     version: ts
     position: stereo_live_room
     take: '4'
   file: ir/nt5_ts_stereo_live_room_4.wav
-  output_gain_db: -24.3757935
+  output_gain_db: -21.7466793
 - values:
     mic: nt5
     version: ts
     position: stereo_live_room
     take: '5'
   file: ir/nt5_ts_stereo_live_room_5.wav
-  output_gain_db: -23.5695076
+  output_gain_db: -21.5171928
 - values:
     mic: nt5
     version: no_ts
     position: left_dead_room
     take: '1'
   file: ir/nt5_no_ts_left_dead_room_1.wav
-  output_gain_db: -23.6245136
+  output_gain_db: -20.6176682
 - values:
     mic: nt5
     version: no_ts
     position: left_dead_room
     take: '2'
   file: ir/nt5_no_ts_left_dead_room_2.wav
-  output_gain_db: -22.4480858
+  output_gain_db: -20.3953781
 - values:
     mic: nt5
     version: no_ts
     position: left_dead_room
     take: '3'
   file: ir/nt5_no_ts_left_dead_room_3.wav
-  output_gain_db: -20.9993629
+  output_gain_db: -20.1286888
 - values:
     mic: nt5
     version: no_ts
     position: left_dead_room
     take: '4'
   file: ir/nt5_no_ts_left_dead_room_4.wav
-  output_gain_db: -20.5060616
+  output_gain_db: -19.8025227
 - values:
     mic: nt5
     version: no_ts
     position: left_dead_room
     take: '5'
   file: ir/nt5_no_ts_left_dead_room_5.wav
-  output_gain_db: -20.3265610
+  output_gain_db: -19.7187767
 - values:
     mic: nt5
     version: no_ts
     position: left_live_room
     take: '1'
   file: ir/nt5_no_ts_left_live_room_1.wav
-  output_gain_db: -26.5819016
+  output_gain_db: -21.8765202
 - values:
     mic: nt5
     version: no_ts
     position: left_live_room
     take: '2'
   file: ir/nt5_no_ts_left_live_room_2.wav
-  output_gain_db: -25.0627041
+  output_gain_db: -21.7912445
 - values:
     mic: nt5
     version: no_ts
     position: left_live_room
     take: '3'
   file: ir/nt5_no_ts_left_live_room_3.wav
-  output_gain_db: -23.4576149
+  output_gain_db: -21.1389523
 - values:
     mic: nt5
     version: no_ts
     position: left_live_room
     take: '4'
   file: ir/nt5_no_ts_left_live_room_4.wav
-  output_gain_db: -23.2322273
+  output_gain_db: -21.0984764
 - values:
     mic: nt5
     version: no_ts
     position: left_live_room
     take: '5'
   file: ir/nt5_no_ts_left_live_room_5.wav
-  output_gain_db: -23.1476860
+  output_gain_db: -21.0912285
 - values:
     mic: nt5
     version: no_ts
     position: right_dead_room
     take: '1'
   file: ir/nt5_no_ts_right_dead_room_1.wav
-  output_gain_db: -23.4638290
+  output_gain_db: -20.9331932
 - values:
     mic: nt5
     version: no_ts
     position: right_dead_room
     take: '2'
   file: ir/nt5_no_ts_right_dead_room_2.wav
-  output_gain_db: -22.5441475
+  output_gain_db: -20.4292412
 - values:
     mic: nt5
     version: no_ts
     position: right_dead_room
     take: '3'
   file: ir/nt5_no_ts_right_dead_room_3.wav
-  output_gain_db: -21.4078083
+  output_gain_db: -20.4208050
 - values:
     mic: nt5
     version: no_ts
     position: right_dead_room
     take: '4'
   file: ir/nt5_no_ts_right_dead_room_4.wav
-  output_gain_db: -21.0840721
+  output_gain_db: -20.5294628
 - values:
     mic: nt5
     version: no_ts
     position: right_dead_room
     take: '5'
   file: ir/nt5_no_ts_right_dead_room_5.wav
-  output_gain_db: -21.0291996
+  output_gain_db: -20.5402946
 - values:
     mic: nt5
     version: no_ts
     position: right_live_room
     take: '1'
   file: ir/nt5_no_ts_right_live_room_1.wav
-  output_gain_db: -24.6243725
+  output_gain_db: -22.1003799
 - values:
     mic: nt5
     version: no_ts
     position: right_live_room
     take: '2'
   file: ir/nt5_no_ts_right_live_room_2.wav
-  output_gain_db: -24.5191555
+  output_gain_db: -21.4277592
 - values:
     mic: nt5
     version: no_ts
     position: right_live_room
     take: '3'
   file: ir/nt5_no_ts_right_live_room_3.wav
-  output_gain_db: -23.5931473
+  output_gain_db: -20.8479900
 - values:
     mic: nt5
     version: no_ts
     position: right_live_room
     take: '4'
   file: ir/nt5_no_ts_right_live_room_4.wav
-  output_gain_db: -23.0766850
+  output_gain_db: -20.1486053
 - values:
     mic: nt5
     version: no_ts
     position: right_live_room
     take: '5'
   file: ir/nt5_no_ts_right_live_room_5.wav
-  output_gain_db: -23.0877743
+  output_gain_db: -20.1580791
 - values:
     mic: nt5
     version: ts
     position: left_dead_room
     take: '1'
   file: ir/nt5_ts_left_dead_room_1.wav
-  output_gain_db: -30.7151775
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: left_dead_room
     take: '2'
   file: ir/nt5_ts_left_dead_room_2.wav
-  output_gain_db: -29.6877823
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: left_dead_room
     take: '3'
   file: ir/nt5_ts_left_dead_room_3.wav
-  output_gain_db: -27.4639301
+  output_gain_db: -23.7496147
 - values:
     mic: nt5
     version: ts
     position: left_dead_room
     take: '4'
   file: ir/nt5_ts_left_dead_room_4.wav
-  output_gain_db: -25.6231441
+  output_gain_db: -22.2699623
 - values:
     mic: nt5
     version: ts
     position: left_dead_room
     take: '5'
   file: ir/nt5_ts_left_dead_room_5.wav
-  output_gain_db: -25.0614605
+  output_gain_db: -22.2826366
 - values:
     mic: nt5
     version: ts
     position: left_live_room
     take: '1'
   file: ir/nt5_ts_left_live_room_1.wav
-  output_gain_db: -32.5307732
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: left_live_room
     take: '2'
   file: ir/nt5_ts_left_live_room_2.wav
-  output_gain_db: -31.2456017
+  output_gain_db: -23.9999962
 - values:
     mic: nt5
     version: ts
     position: left_live_room
     take: '3'
   file: ir/nt5_ts_left_live_room_3.wav
-  output_gain_db: -29.8139553
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: left_live_room
     take: '4'
   file: ir/nt5_ts_left_live_room_4.wav
-  output_gain_db: -27.3949432
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: left_live_room
     take: '5'
   file: ir/nt5_ts_left_live_room_5.wav
-  output_gain_db: -25.9606705
+  output_gain_db: -23.5665836
 - values:
     mic: nt5
     version: ts
     position: right_dead_room
     take: '1'
   file: ir/nt5_ts_right_dead_room_1.wav
-  output_gain_db: -29.3040409
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: right_dead_room
     take: '2'
   file: ir/nt5_ts_right_dead_room_2.wav
-  output_gain_db: -29.0708427
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: right_dead_room
     take: '3'
   file: ir/nt5_ts_right_dead_room_3.wav
-  output_gain_db: -27.5676785
+  output_gain_db: -23.7108173
 - values:
     mic: nt5
     version: ts
     position: right_dead_room
     take: '4'
   file: ir/nt5_ts_right_dead_room_4.wav
-  output_gain_db: -25.7012615
+  output_gain_db: -22.4240742
 - values:
     mic: nt5
     version: ts
     position: right_dead_room
     take: '5'
   file: ir/nt5_ts_right_dead_room_5.wav
-  output_gain_db: -25.2415657
+  output_gain_db: -22.0488968
 - values:
     mic: nt5
     version: ts
     position: right_live_room
     take: '1'
   file: ir/nt5_ts_right_live_room_1.wav
-  output_gain_db: -31.5082378
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: right_live_room
     take: '2'
   file: ir/nt5_ts_right_live_room_2.wav
-  output_gain_db: -30.4796791
+  output_gain_db: -23.9999962
 - values:
     mic: nt5
     version: ts
     position: right_live_room
     take: '3'
   file: ir/nt5_ts_right_live_room_3.wav
-  output_gain_db: -29.5838909
+  output_gain_db: -24.0000000
 - values:
     mic: nt5
     version: ts
     position: right_live_room
     take: '4'
   file: ir/nt5_ts_right_live_room_4.wav
-  output_gain_db: -27.8880157
+  output_gain_db: -22.5057793
 - values:
     mic: nt5
     version: ts
     position: right_live_room
     take: '5'
   file: ir/nt5_ts_right_live_room_5.wav
-  output_gain_db: -27.4524746
+  output_gain_db: -22.4127560
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cap
     take: '1'
   file: ir/sm57_no_ts_1_inch_cap_1.wav
-  output_gain_db: -22.6330891
+  output_gain_db: -18.6617947
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cap
     take: '2'
   file: ir/sm57_no_ts_1_inch_cap_2.wav
-  output_gain_db: -20.7083206
+  output_gain_db: -18.3984299
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cap
     take: '3'
   file: ir/sm57_no_ts_1_inch_cap_3.wav
-  output_gain_db: -19.3761120
+  output_gain_db: -18.6247292
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cap
     take: '4'
   file: ir/sm57_no_ts_1_inch_cap_4.wav
-  output_gain_db: -19.9713001
+  output_gain_db: -18.7964287
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cap
     take: '5'
   file: ir/sm57_no_ts_1_inch_cap_5.wav
-  output_gain_db: -20.1551991
+  output_gain_db: -19.0138645
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/sm57_no_ts_1_inch_cone_far_1.wav
-  output_gain_db: -29.9211826
+  output_gain_db: -24.0000000
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/sm57_no_ts_1_inch_cone_far_2.wav
-  output_gain_db: -28.2254276
+  output_gain_db: -23.2079678
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/sm57_no_ts_1_inch_cone_far_3.wav
-  output_gain_db: -26.2567272
+  output_gain_db: -22.1288185
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/sm57_no_ts_1_inch_cone_far_4.wav
-  output_gain_db: -24.4478264
+  output_gain_db: -21.0570278
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/sm57_no_ts_1_inch_cone_far_5.wav
-  output_gain_db: -22.1321049
+  output_gain_db: -19.7680626
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/sm57_no_ts_1_inch_cone_near_1.wav
-  output_gain_db: -27.0413380
+  output_gain_db: -21.7881584
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/sm57_no_ts_1_inch_cone_near_2.wav
-  output_gain_db: -25.4638996
+  output_gain_db: -21.0993366
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/sm57_no_ts_1_inch_cone_near_3.wav
-  output_gain_db: -23.3845749
+  output_gain_db: -20.2243538
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/sm57_no_ts_1_inch_cone_near_4.wav
-  output_gain_db: -21.6601562
+  output_gain_db: -19.8489990
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/sm57_no_ts_1_inch_cone_near_5.wav
-  output_gain_db: -21.9427853
+  output_gain_db: -19.7499256
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_edge
     take: '1'
   file: ir/sm57_no_ts_1_inch_edge_1.wav
-  output_gain_db: -24.2142124
+  output_gain_db: -19.9507675
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_edge
     take: '2'
   file: ir/sm57_no_ts_1_inch_edge_2.wav
-  output_gain_db: -22.5366116
+  output_gain_db: -19.4727936
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_edge
     take: '3'
   file: ir/sm57_no_ts_1_inch_edge_3.wav
-  output_gain_db: -20.4673290
+  output_gain_db: -19.0495605
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_edge
     take: '4'
   file: ir/sm57_no_ts_1_inch_edge_4.wav
-  output_gain_db: -21.1698742
+  output_gain_db: -19.1525078
 - values:
     mic: sm57
     version: no_ts
     position: 1_inch_edge
     take: '5'
   file: ir/sm57_no_ts_1_inch_edge_5.wav
-  output_gain_db: -22.0233784
+  output_gain_db: -19.8534851
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cap
     take: '1'
   file: ir/sm57_no_ts_2_inch_cap_1.wav
-  output_gain_db: -22.5486336
+  output_gain_db: -18.9952621
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cap
     take: '2'
   file: ir/sm57_no_ts_2_inch_cap_2.wav
-  output_gain_db: -20.8079796
+  output_gain_db: -18.6520119
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cap
     take: '3'
   file: ir/sm57_no_ts_2_inch_cap_3.wav
-  output_gain_db: -19.4655113
+  output_gain_db: -18.6488609
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cap
     take: '4'
   file: ir/sm57_no_ts_2_inch_cap_4.wav
-  output_gain_db: -20.2160034
+  output_gain_db: -19.2429409
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cap
     take: '5'
   file: ir/sm57_no_ts_2_inch_cap_5.wav
-  output_gain_db: -20.2362595
+  output_gain_db: -19.2436619
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/sm57_no_ts_2_inch_cone_far_1.wav
-  output_gain_db: -30.1081924
+  output_gain_db: -24.0000000
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/sm57_no_ts_2_inch_cone_far_2.wav
-  output_gain_db: -28.1762505
+  output_gain_db: -23.0831585
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/sm57_no_ts_2_inch_cone_far_3.wav
-  output_gain_db: -26.5157280
+  output_gain_db: -22.1334629
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/sm57_no_ts_2_inch_cone_far_4.wav
-  output_gain_db: -24.0215988
+  output_gain_db: -20.9491844
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/sm57_no_ts_2_inch_cone_far_5.wav
-  output_gain_db: -22.4844437
+  output_gain_db: -19.9608192
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/sm57_no_ts_2_inch_cone_near_1.wav
-  output_gain_db: -26.6539249
+  output_gain_db: -21.3716011
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/sm57_no_ts_2_inch_cone_near_2.wav
-  output_gain_db: -24.9584999
+  output_gain_db: -20.6422806
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/sm57_no_ts_2_inch_cone_near_3.wav
-  output_gain_db: -22.9637928
+  output_gain_db: -19.5968132
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/sm57_no_ts_2_inch_cone_near_4.wav
-  output_gain_db: -21.6155281
+  output_gain_db: -19.3219566
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/sm57_no_ts_2_inch_cone_near_5.wav
-  output_gain_db: -21.0301361
+  output_gain_db: -19.2911015
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_edge
     take: '1'
   file: ir/sm57_no_ts_2_inch_edge_1.wav
-  output_gain_db: -23.8883133
+  output_gain_db: -19.7010746
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_edge
     take: '2'
   file: ir/sm57_no_ts_2_inch_edge_2.wav
-  output_gain_db: -22.1518269
+  output_gain_db: -19.2757988
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_edge
     take: '3'
   file: ir/sm57_no_ts_2_inch_edge_3.wav
-  output_gain_db: -20.1529694
+  output_gain_db: -18.9111176
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_edge
     take: '4'
   file: ir/sm57_no_ts_2_inch_edge_4.wav
-  output_gain_db: -20.9899845
+  output_gain_db: -19.3688717
 - values:
     mic: sm57
     version: no_ts
     position: 2_inch_edge
     take: '5'
   file: ir/sm57_no_ts_2_inch_edge_5.wav
-  output_gain_db: -21.5584946
+  output_gain_db: -19.8469772
 - values:
     mic: sm57
     version: no_ts
     position: grill_cap
     take: '1'
   file: ir/sm57_no_ts_grill_cap_1.wav
-  output_gain_db: -22.7435131
+  output_gain_db: -19.1909714
 - values:
     mic: sm57
     version: no_ts
     position: grill_cap
     take: '2'
   file: ir/sm57_no_ts_grill_cap_2.wav
-  output_gain_db: -20.9450741
+  output_gain_db: -18.6783905
 - values:
     mic: sm57
     version: no_ts
     position: grill_cap
     take: '3'
   file: ir/sm57_no_ts_grill_cap_3.wav
-  output_gain_db: -19.2207088
+  output_gain_db: -18.3286476
 - values:
     mic: sm57
     version: no_ts
     position: grill_cap
     take: '4'
   file: ir/sm57_no_ts_grill_cap_4.wav
-  output_gain_db: -18.9043427
+  output_gain_db: -18.5317993
 - values:
     mic: sm57
     version: no_ts
     position: grill_cap
     take: '5'
   file: ir/sm57_no_ts_grill_cap_5.wav
-  output_gain_db: -19.0578022
+  output_gain_db: -18.5154018
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_far
     take: '1'
   file: ir/sm57_no_ts_grill_cone_far_1.wav
-  output_gain_db: -28.9196415
+  output_gain_db: -23.6331139
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_far
     take: '2'
   file: ir/sm57_no_ts_grill_cone_far_2.wav
-  output_gain_db: -27.1751995
+  output_gain_db: -22.5096359
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_far
     take: '3'
   file: ir/sm57_no_ts_grill_cone_far_3.wav
-  output_gain_db: -25.0366516
+  output_gain_db: -21.2848797
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_far
     take: '4'
   file: ir/sm57_no_ts_grill_cone_far_4.wav
-  output_gain_db: -23.2918148
+  output_gain_db: -20.2968388
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_far
     take: '5'
   file: ir/sm57_no_ts_grill_cone_far_5.wav
-  output_gain_db: -21.0167599
+  output_gain_db: -19.0477505
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_near
     take: '1'
   file: ir/sm57_no_ts_grill_cone_near_1.wav
-  output_gain_db: -26.8858452
+  output_gain_db: -21.5728912
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_near
     take: '2'
   file: ir/sm57_no_ts_grill_cone_near_2.wav
-  output_gain_db: -25.0485954
+  output_gain_db: -20.6632538
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_near
     take: '3'
   file: ir/sm57_no_ts_grill_cone_near_3.wav
-  output_gain_db: -23.2412872
+  output_gain_db: -19.8433952
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_near
     take: '4'
   file: ir/sm57_no_ts_grill_cone_near_4.wav
-  output_gain_db: -20.4165440
+  output_gain_db: -19.2087936
 - values:
     mic: sm57
     version: no_ts
     position: grill_cone_near
     take: '5'
   file: ir/sm57_no_ts_grill_cone_near_5.wav
-  output_gain_db: -19.4559898
+  output_gain_db: -18.6069031
 - values:
     mic: sm57
     version: no_ts
     position: grill_edge
     take: '1'
   file: ir/sm57_no_ts_grill_edge_1.wav
-  output_gain_db: -24.0443935
+  output_gain_db: -19.8643513
 - values:
     mic: sm57
     version: no_ts
     position: grill_edge
     take: '2'
   file: ir/sm57_no_ts_grill_edge_2.wav
-  output_gain_db: -22.2775288
+  output_gain_db: -19.5007668
 - values:
     mic: sm57
     version: no_ts
     position: grill_edge
     take: '3'
   file: ir/sm57_no_ts_grill_edge_3.wav
-  output_gain_db: -20.2379856
+  output_gain_db: -19.1466656
 - values:
     mic: sm57
     version: no_ts
     position: grill_edge
     take: '4'
   file: ir/sm57_no_ts_grill_edge_4.wav
-  output_gain_db: -19.7327785
+  output_gain_db: -18.6948948
 - values:
     mic: sm57
     version: no_ts
     position: grill_edge
     take: '5'
   file: ir/sm57_no_ts_grill_edge_5.wav
-  output_gain_db: -19.8553829
+  output_gain_db: -18.7243233
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cap
     take: '1'
   file: ir/sm57_ts_1_inch_cap_1.wav
-  output_gain_db: -18.9130325
+  output_gain_db: -18.9359589
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cap
     take: '2'
   file: ir/sm57_ts_1_inch_cap_2.wav
-  output_gain_db: -18.2309551
+  output_gain_db: -18.6352081
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cap
     take: '3'
   file: ir/sm57_ts_1_inch_cap_3.wav
-  output_gain_db: -18.4020519
+  output_gain_db: -18.3871193
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cap
     take: '4'
   file: ir/sm57_ts_1_inch_cap_4.wav
-  output_gain_db: -18.6328831
+  output_gain_db: -18.1831245
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cap
     take: '5'
   file: ir/sm57_ts_1_inch_cap_5.wav
-  output_gain_db: -19.6629047
+  output_gain_db: -18.3735657
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/sm57_ts_1_inch_cone_far_1.wav
-  output_gain_db: -25.0820618
+  output_gain_db: -24.0000000
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/sm57_ts_1_inch_cone_far_2.wav
-  output_gain_db: -24.6010532
+  output_gain_db: -23.5215626
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/sm57_ts_1_inch_cone_far_3.wav
-  output_gain_db: -24.0112591
+  output_gain_db: -22.6871948
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/sm57_ts_1_inch_cone_far_4.wav
-  output_gain_db: -22.9877987
+  output_gain_db: -21.7522469
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/sm57_ts_1_inch_cone_far_5.wav
-  output_gain_db: -21.3107395
+  output_gain_db: -20.8302517
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/sm57_ts_1_inch_cone_near_1.wav
-  output_gain_db: -22.4286900
+  output_gain_db: -21.7789421
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/sm57_ts_1_inch_cone_near_2.wav
-  output_gain_db: -21.6745186
+  output_gain_db: -21.2362251
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/sm57_ts_1_inch_cone_near_3.wav
-  output_gain_db: -21.0483189
+  output_gain_db: -20.7041740
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/sm57_ts_1_inch_cone_near_4.wav
-  output_gain_db: -19.9703121
+  output_gain_db: -20.1915321
 - values:
     mic: sm57
     version: ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/sm57_ts_1_inch_cone_near_5.wav
-  output_gain_db: -19.5541229
+  output_gain_db: -19.2457485
 - values:
     mic: sm57
     version: ts
     position: 1_inch_edge
     take: '1'
   file: ir/sm57_ts_1_inch_edge_1.wav
-  output_gain_db: -20.0074463
+  output_gain_db: -19.7953892
 - values:
     mic: sm57
     version: ts
     position: 1_inch_edge
     take: '2'
   file: ir/sm57_ts_1_inch_edge_2.wav
-  output_gain_db: -19.0966816
+  output_gain_db: -19.6225929
 - values:
     mic: sm57
     version: ts
     position: 1_inch_edge
     take: '3'
   file: ir/sm57_ts_1_inch_edge_3.wav
-  output_gain_db: -19.0891113
+  output_gain_db: -19.4203072
 - values:
     mic: sm57
     version: ts
     position: 1_inch_edge
     take: '4'
   file: ir/sm57_ts_1_inch_edge_4.wav
-  output_gain_db: -19.1840000
+  output_gain_db: -18.8639622
 - values:
     mic: sm57
     version: ts
     position: 1_inch_edge
     take: '5'
   file: ir/sm57_ts_1_inch_edge_5.wav
-  output_gain_db: -20.2662697
+  output_gain_db: -18.4939842
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cap
     take: '1'
   file: ir/sm57_ts_2_inch_cap_1.wav
-  output_gain_db: -18.8821278
+  output_gain_db: -19.5612125
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cap
     take: '2'
   file: ir/sm57_ts_2_inch_cap_2.wav
-  output_gain_db: -18.8040962
+  output_gain_db: -19.3297367
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cap
     take: '3'
   file: ir/sm57_ts_2_inch_cap_3.wav
-  output_gain_db: -18.9476719
+  output_gain_db: -19.0435619
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cap
     take: '4'
   file: ir/sm57_ts_2_inch_cap_4.wav
-  output_gain_db: -19.0982552
+  output_gain_db: -18.7739830
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cap
     take: '5'
   file: ir/sm57_ts_2_inch_cap_5.wav
-  output_gain_db: -19.9505272
+  output_gain_db: -18.8500843
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/sm57_ts_2_inch_cone_far_1.wav
-  output_gain_db: -25.3959351
+  output_gain_db: -24.0000000
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/sm57_ts_2_inch_cone_far_2.wav
-  output_gain_db: -24.9255524
+  output_gain_db: -23.5709953
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/sm57_ts_2_inch_cone_far_3.wav
-  output_gain_db: -24.3522377
+  output_gain_db: -22.7415981
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/sm57_ts_2_inch_cone_far_4.wav
-  output_gain_db: -23.2276936
+  output_gain_db: -21.8585472
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/sm57_ts_2_inch_cone_far_5.wav
-  output_gain_db: -21.6429081
+  output_gain_db: -21.1029282
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/sm57_ts_2_inch_cone_near_1.wav
-  output_gain_db: -22.4019890
+  output_gain_db: -21.7142906
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/sm57_ts_2_inch_cone_near_2.wav
-  output_gain_db: -21.9922276
+  output_gain_db: -21.3406506
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/sm57_ts_2_inch_cone_near_3.wav
-  output_gain_db: -21.1033344
+  output_gain_db: -20.7426949
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/sm57_ts_2_inch_cone_near_4.wav
-  output_gain_db: -20.2325306
+  output_gain_db: -20.3612022
 - values:
     mic: sm57
     version: ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/sm57_ts_2_inch_cone_near_5.wav
-  output_gain_db: -19.2670307
+  output_gain_db: -19.2012444
 - values:
     mic: sm57
     version: ts
     position: 2_inch_edge
     take: '1'
   file: ir/sm57_ts_2_inch_edge_1.wav
-  output_gain_db: -20.0690422
+  output_gain_db: -20.2275639
 - values:
     mic: sm57
     version: ts
     position: 2_inch_edge
     take: '2'
   file: ir/sm57_ts_2_inch_edge_2.wav
-  output_gain_db: -19.3844566
+  output_gain_db: -20.0218353
 - values:
     mic: sm57
     version: ts
     position: 2_inch_edge
     take: '3'
   file: ir/sm57_ts_2_inch_edge_3.wav
-  output_gain_db: -19.1217670
+  output_gain_db: -19.6360111
 - values:
     mic: sm57
     version: ts
     position: 2_inch_edge
     take: '4'
   file: ir/sm57_ts_2_inch_edge_4.wav
-  output_gain_db: -19.2681122
+  output_gain_db: -18.9026947
 - values:
     mic: sm57
     version: ts
     position: 2_inch_edge
     take: '5'
   file: ir/sm57_ts_2_inch_edge_5.wav
-  output_gain_db: -20.0685787
+  output_gain_db: -18.6622696
 - values:
     mic: sm57
     version: ts
     position: grill_cap
     take: '1'
   file: ir/sm57_ts_grill_cap_1.wav
-  output_gain_db: -19.1596642
+  output_gain_db: -19.3297939
 - values:
     mic: sm57
     version: ts
     position: grill_cap
     take: '2'
   file: ir/sm57_ts_grill_cap_2.wav
-  output_gain_db: -17.8657761
+  output_gain_db: -18.7890491
 - values:
     mic: sm57
     version: ts
     position: grill_cap
     take: '3'
   file: ir/sm57_ts_grill_cap_3.wav
-  output_gain_db: -17.1187782
+  output_gain_db: -18.1848125
 - values:
     mic: sm57
     version: ts
     position: grill_cap
     take: '4'
   file: ir/sm57_ts_grill_cap_4.wav
-  output_gain_db: -17.4086189
+  output_gain_db: -17.9942493
 - values:
     mic: sm57
     version: ts
     position: grill_cap
     take: '5'
   file: ir/sm57_ts_grill_cap_5.wav
-  output_gain_db: -18.6284866
+  output_gain_db: -18.1398506
 - values:
     mic: sm57
     version: ts
     position: grill_cone_far
     take: '1'
   file: ir/sm57_ts_grill_cone_far_1.wav
-  output_gain_db: -24.7787800
+  output_gain_db: -24.0000000
 - values:
     mic: sm57
     version: ts
     position: grill_cone_far
     take: '2'
   file: ir/sm57_ts_grill_cone_far_2.wav
-  output_gain_db: -24.0141201
+  output_gain_db: -23.4818306
 - values:
     mic: sm57
     version: ts
     position: grill_cone_far
     take: '3'
   file: ir/sm57_ts_grill_cone_far_3.wav
-  output_gain_db: -23.4360371
+  output_gain_db: -22.6150246
 - values:
     mic: sm57
     version: ts
     position: grill_cone_far
     take: '4'
   file: ir/sm57_ts_grill_cone_far_4.wav
-  output_gain_db: -22.2641678
+  output_gain_db: -21.4392090
 - values:
     mic: sm57
     version: ts
     position: grill_cone_far
     take: '5'
   file: ir/sm57_ts_grill_cone_far_5.wav
-  output_gain_db: -20.3499832
+  output_gain_db: -19.8152466
 - values:
     mic: sm57
     version: ts
     position: grill_cone_near
     take: '1'
   file: ir/sm57_ts_grill_cone_near_1.wav
-  output_gain_db: -22.5941181
+  output_gain_db: -22.1215420
 - values:
     mic: sm57
     version: ts
     position: grill_cone_near
     take: '2'
   file: ir/sm57_ts_grill_cone_near_2.wav
-  output_gain_db: -21.5734062
+  output_gain_db: -21.6560802
 - values:
     mic: sm57
     version: ts
     position: grill_cone_near
     take: '3'
   file: ir/sm57_ts_grill_cone_near_3.wav
-  output_gain_db: -20.8557472
+  output_gain_db: -20.9741402
 - values:
     mic: sm57
     version: ts
     position: grill_cone_near
     take: '4'
   file: ir/sm57_ts_grill_cone_near_4.wav
-  output_gain_db: -19.6157475
+  output_gain_db: -19.8961525
 - values:
     mic: sm57
     version: ts
     position: grill_cone_near
     take: '5'
   file: ir/sm57_ts_grill_cone_near_5.wav
-  output_gain_db: -18.3099174
+  output_gain_db: -19.0791931
 - values:
     mic: sm57
     version: ts
     position: grill_edge
     take: '1'
   file: ir/sm57_ts_grill_edge_1.wav
-  output_gain_db: -20.3190308
+  output_gain_db: -20.2993946
 - values:
     mic: sm57
     version: ts
     position: grill_edge
     take: '2'
   file: ir/sm57_ts_grill_edge_2.wav
-  output_gain_db: -18.9475613
+  output_gain_db: -19.6441689
 - values:
     mic: sm57
     version: ts
     position: grill_edge
     take: '3'
   file: ir/sm57_ts_grill_edge_3.wav
-  output_gain_db: -18.2130089
+  output_gain_db: -18.9188023
 - values:
     mic: sm57
     version: ts
     position: grill_edge
     take: '4'
   file: ir/sm57_ts_grill_edge_4.wav
-  output_gain_db: -18.1106892
+  output_gain_db: -18.3267384
 - values:
     mic: sm57
     version: ts
     position: grill_edge
     take: '5'
   file: ir/sm57_ts_grill_edge_5.wav
-  output_gain_db: -19.1083965
+  output_gain_db: -18.5429516
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cap
     take: '1'
   file: ir/sm7b_no_ts_1_inch_cap_1.wav
-  output_gain_db: -24.1033325
+  output_gain_db: -19.4567719
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cap
     take: '2'
   file: ir/sm7b_no_ts_1_inch_cap_2.wav
-  output_gain_db: -22.2233028
+  output_gain_db: -18.8793907
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cap
     take: '3'
   file: ir/sm7b_no_ts_1_inch_cap_3.wav
-  output_gain_db: -19.8062038
+  output_gain_db: -18.5580616
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cap
     take: '4'
   file: ir/sm7b_no_ts_1_inch_cap_4.wav
-  output_gain_db: -20.2826080
+  output_gain_db: -18.7102451
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cap
     take: '5'
   file: ir/sm7b_no_ts_1_inch_cap_5.wav
-  output_gain_db: -20.2222748
+  output_gain_db: -18.9956398
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/sm7b_no_ts_1_inch_cone_far_1.wav
-  output_gain_db: -30.9663410
+  output_gain_db: -24.0000000
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/sm7b_no_ts_1_inch_cone_far_2.wav
-  output_gain_db: -29.1382694
+  output_gain_db: -23.7467842
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/sm7b_no_ts_1_inch_cone_far_3.wav
-  output_gain_db: -26.5068016
+  output_gain_db: -22.1992741
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/sm7b_no_ts_1_inch_cone_far_4.wav
-  output_gain_db: -24.6092281
+  output_gain_db: -21.1897202
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/sm7b_no_ts_1_inch_cone_far_5.wav
-  output_gain_db: -23.9802151
+  output_gain_db: -20.7383862
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/sm7b_no_ts_1_inch_cone_near_1.wav
-  output_gain_db: -28.0431919
+  output_gain_db: -22.3010178
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/sm7b_no_ts_1_inch_cone_near_2.wav
-  output_gain_db: -26.0433254
+  output_gain_db: -21.2843571
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/sm7b_no_ts_1_inch_cone_near_3.wav
-  output_gain_db: -23.9257278
+  output_gain_db: -20.1960297
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/sm7b_no_ts_1_inch_cone_near_4.wav
-  output_gain_db: -21.3880081
+  output_gain_db: -19.7409821
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/sm7b_no_ts_1_inch_cone_near_5.wav
-  output_gain_db: -20.7215900
+  output_gain_db: -19.6465282
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_edge
     take: '1'
   file: ir/sm7b_no_ts_1_inch_edge_1.wav
-  output_gain_db: -25.2717094
+  output_gain_db: -20.2699966
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_edge
     take: '2'
   file: ir/sm7b_no_ts_1_inch_edge_2.wav
-  output_gain_db: -23.1273460
+  output_gain_db: -19.6505432
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_edge
     take: '3'
   file: ir/sm7b_no_ts_1_inch_edge_3.wav
-  output_gain_db: -20.6656590
+  output_gain_db: -19.0906277
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_edge
     take: '4'
   file: ir/sm7b_no_ts_1_inch_edge_4.wav
-  output_gain_db: -21.6969795
+  output_gain_db: -19.3322544
 - values:
     mic: sm7b
     version: no_ts
     position: 1_inch_edge
     take: '5'
   file: ir/sm7b_no_ts_1_inch_edge_5.wav
-  output_gain_db: -22.1460304
+  output_gain_db: -19.7259636
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cap
     take: '1'
   file: ir/sm7b_no_ts_2_inch_cap_1.wav
-  output_gain_db: -23.6387196
+  output_gain_db: -19.4978848
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cap
     take: '2'
   file: ir/sm7b_no_ts_2_inch_cap_2.wav
-  output_gain_db: -21.6665230
+  output_gain_db: -19.0021820
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cap
     take: '3'
   file: ir/sm7b_no_ts_2_inch_cap_3.wav
-  output_gain_db: -19.0863361
+  output_gain_db: -18.4191704
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cap
     take: '4'
   file: ir/sm7b_no_ts_2_inch_cap_4.wav
-  output_gain_db: -18.9615059
+  output_gain_db: -18.2778587
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cap
     take: '5'
   file: ir/sm7b_no_ts_2_inch_cap_5.wav
-  output_gain_db: -19.0058193
+  output_gain_db: -18.3319740
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/sm7b_no_ts_2_inch_cone_far_1.wav
-  output_gain_db: -31.0782814
+  output_gain_db: -24.0000000
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/sm7b_no_ts_2_inch_cone_far_2.wav
-  output_gain_db: -29.3446331
+  output_gain_db: -23.9049282
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/sm7b_no_ts_2_inch_cone_far_3.wav
-  output_gain_db: -27.0777683
+  output_gain_db: -22.6435528
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/sm7b_no_ts_2_inch_cone_far_4.wav
-  output_gain_db: -24.8197231
+  output_gain_db: -21.3665199
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/sm7b_no_ts_2_inch_cone_far_5.wav
-  output_gain_db: -24.2733459
+  output_gain_db: -21.1070480
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/sm7b_no_ts_2_inch_cone_near_1.wav
-  output_gain_db: -27.1931553
+  output_gain_db: -21.5924320
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/sm7b_no_ts_2_inch_cone_near_2.wav
-  output_gain_db: -25.1073647
+  output_gain_db: -20.6001759
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/sm7b_no_ts_2_inch_cone_near_3.wav
-  output_gain_db: -22.3930893
+  output_gain_db: -19.8060455
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/sm7b_no_ts_2_inch_cone_near_4.wav
-  output_gain_db: -21.1971245
+  output_gain_db: -19.6260300
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/sm7b_no_ts_2_inch_cone_near_5.wav
-  output_gain_db: -21.6322575
+  output_gain_db: -19.7939796
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_edge
     take: '1'
   file: ir/sm7b_no_ts_2_inch_edge_1.wav
-  output_gain_db: -24.5672188
+  output_gain_db: -19.7001762
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_edge
     take: '2'
   file: ir/sm7b_no_ts_2_inch_edge_2.wav
-  output_gain_db: -22.5436115
+  output_gain_db: -19.0765800
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_edge
     take: '3'
   file: ir/sm7b_no_ts_2_inch_edge_3.wav
-  output_gain_db: -20.1013241
+  output_gain_db: -18.6788940
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_edge
     take: '4'
   file: ir/sm7b_no_ts_2_inch_edge_4.wav
-  output_gain_db: -20.7527237
+  output_gain_db: -19.2595081
 - values:
     mic: sm7b
     version: no_ts
     position: 2_inch_edge
     take: '5'
   file: ir/sm7b_no_ts_2_inch_edge_5.wav
-  output_gain_db: -20.7807999
+  output_gain_db: -19.3741550
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cap
     take: '1'
   file: ir/sm7b_no_ts_grill_cap_1.wav
-  output_gain_db: -24.9878368
+  output_gain_db: -19.3900890
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cap
     take: '2'
   file: ir/sm7b_no_ts_grill_cap_2.wav
-  output_gain_db: -22.8487263
+  output_gain_db: -18.6021271
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cap
     take: '3'
   file: ir/sm7b_no_ts_grill_cap_3.wav
-  output_gain_db: -20.6371975
+  output_gain_db: -18.2377644
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cap
     take: '4'
   file: ir/sm7b_no_ts_grill_cap_4.wav
-  output_gain_db: -18.7883110
+  output_gain_db: -18.3170490
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cap
     take: '5'
   file: ir/sm7b_no_ts_grill_cap_5.wav
-  output_gain_db: -18.8521156
+  output_gain_db: -18.3882370
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_far
     take: '1'
   file: ir/sm7b_no_ts_grill_cone_far_1.wav
-  output_gain_db: -31.5743752
+  output_gain_db: -23.9999962
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_far
     take: '2'
   file: ir/sm7b_no_ts_grill_cone_far_2.wav
-  output_gain_db: -29.8032780
+  output_gain_db: -23.6510792
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_far
     take: '3'
   file: ir/sm7b_no_ts_grill_cone_far_3.wav
-  output_gain_db: -28.0374241
+  output_gain_db: -22.6886253
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_far
     take: '4'
   file: ir/sm7b_no_ts_grill_cone_far_4.wav
-  output_gain_db: -25.1618423
+  output_gain_db: -21.1075268
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_far
     take: '5'
   file: ir/sm7b_no_ts_grill_cone_far_5.wav
-  output_gain_db: -24.5859890
+  output_gain_db: -20.8010559
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_near
     take: '1'
   file: ir/sm7b_no_ts_grill_cone_near_1.wav
-  output_gain_db: -29.6468658
+  output_gain_db: -23.3758202
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_near
     take: '2'
   file: ir/sm7b_no_ts_grill_cone_near_2.wav
-  output_gain_db: -27.7948360
+  output_gain_db: -22.3947029
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_near
     take: '3'
   file: ir/sm7b_no_ts_grill_cone_near_3.wav
-  output_gain_db: -25.8070660
+  output_gain_db: -21.7037201
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_near
     take: '4'
   file: ir/sm7b_no_ts_grill_cone_near_4.wav
-  output_gain_db: -23.3263264
+  output_gain_db: -21.2704544
 - values:
     mic: sm7b
     version: no_ts
     position: grill_cone_near
     take: '5'
   file: ir/sm7b_no_ts_grill_cone_near_5.wav
-  output_gain_db: -22.8848495
+  output_gain_db: -21.2226562
 - values:
     mic: sm7b
     version: no_ts
     position: grill_edge
     take: '1'
   file: ir/sm7b_no_ts_grill_edge_1.wav
-  output_gain_db: -26.8532600
+  output_gain_db: -20.9761219
 - values:
     mic: sm7b
     version: no_ts
     position: grill_edge
     take: '2'
   file: ir/sm7b_no_ts_grill_edge_2.wav
-  output_gain_db: -24.8030357
+  output_gain_db: -20.3754482
 - values:
     mic: sm7b
     version: no_ts
     position: grill_edge
     take: '3'
   file: ir/sm7b_no_ts_grill_edge_3.wav
-  output_gain_db: -22.5437412
+  output_gain_db: -19.5490780
 - values:
     mic: sm7b
     version: no_ts
     position: grill_edge
     take: '4'
   file: ir/sm7b_no_ts_grill_edge_4.wav
-  output_gain_db: -21.5616074
+  output_gain_db: -19.3907051
 - values:
     mic: sm7b
     version: no_ts
     position: grill_edge
     take: '5'
   file: ir/sm7b_no_ts_grill_edge_5.wav
-  output_gain_db: -21.8240471
+  output_gain_db: -19.4669991
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cap
     take: '1'
   file: ir/sm7b_ts_1_inch_cap_1.wav
-  output_gain_db: -20.4964066
+  output_gain_db: -19.1062222
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cap
     take: '2'
   file: ir/sm7b_ts_1_inch_cap_2.wav
-  output_gain_db: -18.4162598
+  output_gain_db: -18.4500008
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cap
     take: '3'
   file: ir/sm7b_ts_1_inch_cap_3.wav
-  output_gain_db: -19.0156727
+  output_gain_db: -18.4102421
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cap
     take: '4'
   file: ir/sm7b_ts_1_inch_cap_4.wav
-  output_gain_db: -19.9059696
+  output_gain_db: -18.2496967
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cap
     take: '5'
   file: ir/sm7b_ts_1_inch_cap_5.wav
-  output_gain_db: -20.0788536
+  output_gain_db: -17.9807358
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_far
     take: '1'
   file: ir/sm7b_ts_1_inch_cone_far_1.wav
-  output_gain_db: -26.3133259
+  output_gain_db: -23.9999962
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_far
     take: '2'
   file: ir/sm7b_ts_1_inch_cone_far_2.wav
-  output_gain_db: -24.8485565
+  output_gain_db: -24.0000000
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_far
     take: '3'
   file: ir/sm7b_ts_1_inch_cone_far_3.wav
-  output_gain_db: -22.7906418
+  output_gain_db: -22.5811939
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_far
     take: '4'
   file: ir/sm7b_ts_1_inch_cone_far_4.wav
-  output_gain_db: -21.2647572
+  output_gain_db: -21.3890038
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_far
     take: '5'
   file: ir/sm7b_ts_1_inch_cone_far_5.wav
-  output_gain_db: -21.0934029
+  output_gain_db: -21.0383644
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_near
     take: '1'
   file: ir/sm7b_ts_1_inch_cone_near_1.wav
-  output_gain_db: -23.3627625
+  output_gain_db: -21.7371063
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_near
     take: '2'
   file: ir/sm7b_ts_1_inch_cone_near_2.wav
-  output_gain_db: -21.5914936
+  output_gain_db: -20.9312477
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_near
     take: '3'
   file: ir/sm7b_ts_1_inch_cone_near_3.wav
-  output_gain_db: -19.4737396
+  output_gain_db: -19.8971043
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_near
     take: '4'
   file: ir/sm7b_ts_1_inch_cone_near_4.wav
-  output_gain_db: -18.8806725
+  output_gain_db: -19.1779747
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_cone_near
     take: '5'
   file: ir/sm7b_ts_1_inch_cone_near_5.wav
-  output_gain_db: -18.9688053
+  output_gain_db: -19.0327759
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_edge
     take: '1'
   file: ir/sm7b_ts_1_inch_edge_1.wav
-  output_gain_db: -21.3848534
+  output_gain_db: -19.8536129
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_edge
     take: '2'
   file: ir/sm7b_ts_1_inch_edge_2.wav
-  output_gain_db: -19.4077873
+  output_gain_db: -19.1276779
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_edge
     take: '3'
   file: ir/sm7b_ts_1_inch_edge_3.wav
-  output_gain_db: -19.0701733
+  output_gain_db: -18.7347679
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_edge
     take: '4'
   file: ir/sm7b_ts_1_inch_edge_4.wav
-  output_gain_db: -20.5092564
+  output_gain_db: -18.5005608
 - values:
     mic: sm7b
     version: ts
     position: 1_inch_edge
     take: '5'
   file: ir/sm7b_ts_1_inch_edge_5.wav
-  output_gain_db: -20.7469139
+  output_gain_db: -18.4903812
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cap
     take: '1'
   file: ir/sm7b_ts_2_inch_cap_1.wav
-  output_gain_db: -20.1043892
+  output_gain_db: -18.9694309
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cap
     take: '2'
   file: ir/sm7b_ts_2_inch_cap_2.wav
-  output_gain_db: -18.1675491
+  output_gain_db: -18.7514858
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cap
     take: '3'
   file: ir/sm7b_ts_2_inch_cap_3.wav
-  output_gain_db: -18.5339432
+  output_gain_db: -18.5756416
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cap
     take: '4'
   file: ir/sm7b_ts_2_inch_cap_4.wav
-  output_gain_db: -18.3851738
+  output_gain_db: -18.1472359
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cap
     take: '5'
   file: ir/sm7b_ts_2_inch_cap_5.wav
-  output_gain_db: -18.1566391
+  output_gain_db: -17.9286537
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_far
     take: '1'
   file: ir/sm7b_ts_2_inch_cone_far_1.wav
-  output_gain_db: -25.3530464
+  output_gain_db: -23.5956707
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_far
     take: '2'
   file: ir/sm7b_ts_2_inch_cone_far_2.wav
-  output_gain_db: -23.6576633
+  output_gain_db: -22.8408318
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_far
     take: '3'
   file: ir/sm7b_ts_2_inch_cone_far_3.wav
-  output_gain_db: -22.2799397
+  output_gain_db: -22.0285645
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_far
     take: '4'
   file: ir/sm7b_ts_2_inch_cone_far_4.wav
-  output_gain_db: -20.4967155
+  output_gain_db: -21.2335777
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_far
     take: '5'
   file: ir/sm7b_ts_2_inch_cone_far_5.wav
-  output_gain_db: -20.1540184
+  output_gain_db: -20.9520416
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_near
     take: '1'
   file: ir/sm7b_ts_2_inch_cone_near_1.wav
-  output_gain_db: -23.2151852
+  output_gain_db: -21.5854568
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_near
     take: '2'
   file: ir/sm7b_ts_2_inch_cone_near_2.wav
-  output_gain_db: -21.2291489
+  output_gain_db: -20.8517685
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_near
     take: '3'
   file: ir/sm7b_ts_2_inch_cone_near_3.wav
-  output_gain_db: -19.3425865
+  output_gain_db: -20.3331261
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_near
     take: '4'
   file: ir/sm7b_ts_2_inch_cone_near_4.wav
-  output_gain_db: -18.9483128
+  output_gain_db: -19.2415485
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_cone_near
     take: '5'
   file: ir/sm7b_ts_2_inch_cone_near_5.wav
-  output_gain_db: -19.2713413
+  output_gain_db: -18.9634438
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_edge
     take: '1'
   file: ir/sm7b_ts_2_inch_edge_1.wav
-  output_gain_db: -21.1281662
+  output_gain_db: -19.6852684
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_edge
     take: '2'
   file: ir/sm7b_ts_2_inch_edge_2.wav
-  output_gain_db: -19.1297054
+  output_gain_db: -19.1828709
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_edge
     take: '3'
   file: ir/sm7b_ts_2_inch_edge_3.wav
-  output_gain_db: -18.3091717
+  output_gain_db: -18.7492523
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_edge
     take: '4'
   file: ir/sm7b_ts_2_inch_edge_4.wav
-  output_gain_db: -19.8651924
+  output_gain_db: -18.4277020
 - values:
     mic: sm7b
     version: ts
     position: 2_inch_edge
     take: '5'
   file: ir/sm7b_ts_2_inch_edge_5.wav
-  output_gain_db: -20.1186409
+  output_gain_db: -18.0685596
 - values:
     mic: sm7b
     version: ts
     position: grill_cap
     take: '1'
   file: ir/sm7b_ts_grill_cap_1.wav
-  output_gain_db: -21.7693539
+  output_gain_db: -20.0198212
 - values:
     mic: sm7b
     version: ts
     position: grill_cap
     take: '2'
   file: ir/sm7b_ts_grill_cap_2.wav
-  output_gain_db: -19.5609570
+  output_gain_db: -19.0783672
 - values:
     mic: sm7b
     version: ts
     position: grill_cap
     take: '3'
   file: ir/sm7b_ts_grill_cap_3.wav
-  output_gain_db: -17.6927643
+  output_gain_db: -18.0231037
 - values:
     mic: sm7b
     version: ts
     position: grill_cap
     take: '4'
   file: ir/sm7b_ts_grill_cap_4.wav
-  output_gain_db: -17.8988552
+  output_gain_db: -17.9452820
 - values:
     mic: sm7b
     version: ts
     position: grill_cap
     take: '5'
   file: ir/sm7b_ts_grill_cap_5.wav
-  output_gain_db: -17.8293533
+  output_gain_db: -17.7786045
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_far
     take: '1'
   file: ir/sm7b_ts_grill_cone_far_1.wav
-  output_gain_db: -27.0766525
+  output_gain_db: -24.0000000
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_far
     take: '2'
   file: ir/sm7b_ts_grill_cone_far_2.wav
-  output_gain_db: -25.3838062
+  output_gain_db: -24.0000000
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_far
     take: '3'
   file: ir/sm7b_ts_grill_cone_far_3.wav
-  output_gain_db: -23.2212257
+  output_gain_db: -22.6275120
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_far
     take: '4'
   file: ir/sm7b_ts_grill_cone_far_4.wav
-  output_gain_db: -21.6783295
+  output_gain_db: -21.3397751
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_far
     take: '5'
   file: ir/sm7b_ts_grill_cone_far_5.wav
-  output_gain_db: -20.7809391
+  output_gain_db: -20.7500782
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_near
     take: '1'
   file: ir/sm7b_ts_grill_cone_near_1.wav
-  output_gain_db: -24.9994545
+  output_gain_db: -22.9759388
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_near
     take: '2'
   file: ir/sm7b_ts_grill_cone_near_2.wav
-  output_gain_db: -23.1666183
+  output_gain_db: -22.3464012
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_near
     take: '3'
   file: ir/sm7b_ts_grill_cone_near_3.wav
-  output_gain_db: -20.9317837
+  output_gain_db: -21.1310177
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_near
     take: '4'
   file: ir/sm7b_ts_grill_cone_near_4.wav
-  output_gain_db: -19.6330318
+  output_gain_db: -19.6171474
 - values:
     mic: sm7b
     version: ts
     position: grill_cone_near
     take: '5'
   file: ir/sm7b_ts_grill_cone_near_5.wav
-  output_gain_db: -20.1724148
+  output_gain_db: -19.4617100
 - values:
     mic: sm7b
     version: ts
     position: grill_edge
     take: '1'
   file: ir/sm7b_ts_grill_edge_1.wav
-  output_gain_db: -22.6790695
+  output_gain_db: -21.1790123
 - values:
     mic: sm7b
     version: ts
     position: grill_edge
     take: '2'
   file: ir/sm7b_ts_grill_edge_2.wav
-  output_gain_db: -20.7174568
+  output_gain_db: -20.2775803
 - values:
     mic: sm7b
     version: ts
     position: grill_edge
     take: '3'
   file: ir/sm7b_ts_grill_edge_3.wav
-  output_gain_db: -18.5307331
+  output_gain_db: -19.1800919
 - values:
     mic: sm7b
     version: ts
     position: grill_edge
     take: '4'
   file: ir/sm7b_ts_grill_edge_4.wav
-  output_gain_db: -18.7484283
+  output_gain_db: -17.9692631
 - values:
     mic: sm7b
     version: ts
     position: grill_edge
     take: '5'
   file: ir/sm7b_ts_grill_edge_5.wav
-  output_gain_db: -19.2205925
+  output_gain_db: -18.2835159
 - values:
     mic: u87
     version: no_ts
     position: 1_foot
     take: '1'
   file: ir/u87_no_ts_1_foot_1.wav
-  output_gain_db: -22.6253128
+  output_gain_db: -21.6113453
 - values:
     mic: u87
     version: no_ts
     position: 1_foot
     take: '2'
   file: ir/u87_no_ts_1_foot_2.wav
-  output_gain_db: -21.3261623
+  output_gain_db: -21.2599812
 - values:
     mic: u87
     version: no_ts
     position: 1_foot
     take: '3'
   file: ir/u87_no_ts_1_foot_3.wav
-  output_gain_db: -19.5534611
+  output_gain_db: -20.1551189
 - values:
     mic: u87
     version: no_ts
     position: 1_foot
     take: '4'
   file: ir/u87_no_ts_1_foot_4.wav
-  output_gain_db: -19.1593513
+  output_gain_db: -20.0070953
 - values:
     mic: u87
     version: no_ts
     position: 1_foot
     take: '5'
   file: ir/u87_no_ts_1_foot_5.wav
-  output_gain_db: -19.0883713
+  output_gain_db: -19.9516487
 - values:
     mic: u87
     version: no_ts
     position: 2_foot
     take: '1'
   file: ir/u87_no_ts_2_foot_1.wav
-  output_gain_db: -24.6190987
+  output_gain_db: -23.0191803
 - values:
     mic: u87
     version: no_ts
     position: 2_foot
     take: '2'
   file: ir/u87_no_ts_2_foot_2.wav
-  output_gain_db: -23.8462391
+  output_gain_db: -22.3147202
 - values:
     mic: u87
     version: no_ts
     position: 2_foot
     take: '3'
   file: ir/u87_no_ts_2_foot_3.wav
-  output_gain_db: -22.2469063
+  output_gain_db: -20.9667931
 - values:
     mic: u87
     version: no_ts
     position: 2_foot
     take: '4'
   file: ir/u87_no_ts_2_foot_4.wav
-  output_gain_db: -21.7704926
+  output_gain_db: -20.4578629
 - values:
     mic: u87
     version: no_ts
     position: 2_foot
     take: '5'
   file: ir/u87_no_ts_2_foot_5.wav
-  output_gain_db: -21.7703228
+  output_gain_db: -20.4268551
 - values:
     mic: u87
     version: no_ts
     position: 4_foot
     take: '1'
   file: ir/u87_no_ts_4_foot_1.wav
-  output_gain_db: -27.3143425
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: no_ts
     position: 4_foot
     take: '2'
   file: ir/u87_no_ts_4_foot_2.wav
-  output_gain_db: -25.9594574
+  output_gain_db: -23.7942619
 - values:
     mic: u87
     version: no_ts
     position: 4_foot
     take: '3'
   file: ir/u87_no_ts_4_foot_3.wav
-  output_gain_db: -24.4040756
+  output_gain_db: -23.0579052
 - values:
     mic: u87
     version: no_ts
     position: 4_foot
     take: '4'
   file: ir/u87_no_ts_4_foot_4.wav
-  output_gain_db: -23.9578075
+  output_gain_db: -22.8072662
 - values:
     mic: u87
     version: no_ts
     position: 4_foot
     take: '5'
   file: ir/u87_no_ts_4_foot_5.wav
-  output_gain_db: -23.6355000
+  output_gain_db: -22.4854088
 - values:
     mic: u87
     version: no_ts
     position: grill_cap
     take: '1'
   file: ir/u87_no_ts_grill_cap_1.wav
-  output_gain_db: -21.6123104
+  output_gain_db: -19.3639107
 - values:
     mic: u87
     version: no_ts
     position: grill_cap
     take: '2'
   file: ir/u87_no_ts_grill_cap_2.wav
-  output_gain_db: -19.5715885
+  output_gain_db: -18.3234329
 - values:
     mic: u87
     version: no_ts
     position: grill_cap
     take: '3'
   file: ir/u87_no_ts_grill_cap_3.wav
-  output_gain_db: -18.7983646
+  output_gain_db: -17.9335537
 - values:
     mic: u87
     version: no_ts
     position: grill_cap
     take: '4'
   file: ir/u87_no_ts_grill_cap_4.wav
-  output_gain_db: -19.7672615
+  output_gain_db: -18.2394791
 - values:
     mic: u87
     version: no_ts
     position: grill_cap
     take: '5'
   file: ir/u87_no_ts_grill_cap_5.wav
-  output_gain_db: -19.8059845
+  output_gain_db: -18.1577797
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_far
     take: '1'
   file: ir/u87_no_ts_grill_cone_far_1.wav
-  output_gain_db: -27.8816051
+  output_gain_db: -23.1462059
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_far
     take: '2'
   file: ir/u87_no_ts_grill_cone_far_2.wav
-  output_gain_db: -25.8743286
+  output_gain_db: -21.8893471
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_far
     take: '3'
   file: ir/u87_no_ts_grill_cone_far_3.wav
-  output_gain_db: -23.3689003
+  output_gain_db: -20.4837494
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_far
     take: '4'
   file: ir/u87_no_ts_grill_cone_far_4.wav
-  output_gain_db: -21.5965500
+  output_gain_db: -19.9768581
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_far
     take: '5'
   file: ir/u87_no_ts_grill_cone_far_5.wav
-  output_gain_db: -21.0181084
+  output_gain_db: -19.8350372
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_near
     take: '1'
   file: ir/u87_no_ts_grill_cone_near_1.wav
-  output_gain_db: -25.3307266
+  output_gain_db: -21.2370434
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_near
     take: '2'
   file: ir/u87_no_ts_grill_cone_near_2.wav
-  output_gain_db: -23.3668861
+  output_gain_db: -20.3157330
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_near
     take: '3'
   file: ir/u87_no_ts_grill_cone_near_3.wav
-  output_gain_db: -20.8772697
+  output_gain_db: -19.4671783
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_near
     take: '4'
   file: ir/u87_no_ts_grill_cone_near_4.wav
-  output_gain_db: -19.4255829
+  output_gain_db: -19.4195137
 - values:
     mic: u87
     version: no_ts
     position: grill_cone_near
     take: '5'
   file: ir/u87_no_ts_grill_cone_near_5.wav
-  output_gain_db: -19.6685944
+  output_gain_db: -19.3946838
 - values:
     mic: u87
     version: no_ts
     position: grill_edge
     take: '1'
   file: ir/u87_no_ts_grill_edge_1.wav
-  output_gain_db: -22.9485283
+  output_gain_db: -19.8524284
 - values:
     mic: u87
     version: no_ts
     position: grill_edge
     take: '2'
   file: ir/u87_no_ts_grill_edge_2.wav
-  output_gain_db: -20.7907009
+  output_gain_db: -18.8951092
 - values:
     mic: u87
     version: no_ts
     position: grill_edge
     take: '3'
   file: ir/u87_no_ts_grill_edge_3.wav
-  output_gain_db: -18.8159866
+  output_gain_db: -17.7275352
 - values:
     mic: u87
     version: no_ts
     position: grill_edge
     take: '4'
   file: ir/u87_no_ts_grill_edge_4.wav
-  output_gain_db: -19.7535610
+  output_gain_db: -17.8825588
 - values:
     mic: u87
     version: no_ts
     position: grill_edge
     take: '5'
   file: ir/u87_no_ts_grill_edge_5.wav
-  output_gain_db: -20.2754097
+  output_gain_db: -18.2721062
 - values:
     mic: u87
     version: no_ts
     position: room_1
     take: '1'
   file: ir/u87_no_ts_room_1_1.wav
-  output_gain_db: -35.5059853
+  output_gain_db: -23.9999962
 - values:
     mic: u87
     version: no_ts
     position: room_1
     take: '2'
   file: ir/u87_no_ts_room_1_2.wav
-  output_gain_db: -33.9340744
+  output_gain_db: -23.9999962
 - values:
     mic: u87
     version: no_ts
     position: room_1
     take: '3'
   file: ir/u87_no_ts_room_1_3.wav
-  output_gain_db: -31.8383007
+  output_gain_db: -23.6023884
 - values:
     mic: u87
     version: no_ts
     position: room_1
     take: '4'
   file: ir/u87_no_ts_room_1_4.wav
-  output_gain_db: -31.1645203
+  output_gain_db: -23.0918560
 - values:
     mic: u87
     version: no_ts
     position: room_1
     take: '5'
   file: ir/u87_no_ts_room_1_5.wav
-  output_gain_db: -31.1754742
+  output_gain_db: -22.9734230
 - values:
     mic: u87
     version: no_ts
     position: room_2
     take: '1'
   file: ir/u87_no_ts_room_2_1.wav
-  output_gain_db: -29.1731510
+  output_gain_db: -22.8982849
 - values:
     mic: u87
     version: no_ts
     position: room_2
     take: '2'
   file: ir/u87_no_ts_room_2_2.wav
-  output_gain_db: -28.4692249
+  output_gain_db: -22.7888851
 - values:
     mic: u87
     version: no_ts
     position: room_2
     take: '3'
   file: ir/u87_no_ts_room_2_3.wav
-  output_gain_db: -27.9777279
+  output_gain_db: -22.2254887
 - values:
     mic: u87
     version: no_ts
     position: room_2
     take: '4'
   file: ir/u87_no_ts_room_2_4.wav
-  output_gain_db: -28.0685368
+  output_gain_db: -22.1495380
 - values:
     mic: u87
     version: no_ts
     position: room_2
     take: '5'
   file: ir/u87_no_ts_room_2_5.wav
-  output_gain_db: -27.3819199
+  output_gain_db: -22.7229347
 - values:
     mic: u87
     version: ts
     position: 1_foot
     take: '1'
   file: ir/u87_ts_1_foot_1.wav
-  output_gain_db: -28.2535801
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 1_foot
     take: '2'
   file: ir/u87_ts_1_foot_2.wav
-  output_gain_db: -27.1019096
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 1_foot
     take: '3'
   file: ir/u87_ts_1_foot_3.wav
-  output_gain_db: -25.4396400
+  output_gain_db: -23.7963104
 - values:
     mic: u87
     version: ts
     position: 1_foot
     take: '4'
   file: ir/u87_ts_1_foot_4.wav
-  output_gain_db: -23.5183468
+  output_gain_db: -22.9079952
 - values:
     mic: u87
     version: ts
     position: 1_foot
     take: '5'
   file: ir/u87_ts_1_foot_5.wav
-  output_gain_db: -23.0633278
+  output_gain_db: -22.5196800
 - values:
     mic: u87
     version: ts
     position: 2_foot
     take: '1'
   file: ir/u87_ts_2_foot_1.wav
-  output_gain_db: -30.7056408
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 2_foot
     take: '2'
   file: ir/u87_ts_2_foot_2.wav
-  output_gain_db: -29.8489552
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 2_foot
     take: '3'
   file: ir/u87_ts_2_foot_3.wav
-  output_gain_db: -28.0048618
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 2_foot
     take: '4'
   file: ir/u87_ts_2_foot_4.wav
-  output_gain_db: -26.3708591
+  output_gain_db: -23.4435844
 - values:
     mic: u87
     version: ts
     position: 2_foot
     take: '5'
   file: ir/u87_ts_2_foot_5.wav
-  output_gain_db: -25.6810188
+  output_gain_db: -22.8731594
 - values:
     mic: u87
     version: ts
     position: 4_foot
     take: '1'
   file: ir/u87_ts_4_foot_1.wav
-  output_gain_db: -31.0378571
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 4_foot
     take: '2'
   file: ir/u87_ts_4_foot_2.wav
-  output_gain_db: -30.3696518
+  output_gain_db: -23.9999962
 - values:
     mic: u87
     version: ts
     position: 4_foot
     take: '3'
   file: ir/u87_ts_4_foot_3.wav
-  output_gain_db: -28.7303448
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 4_foot
     take: '4'
   file: ir/u87_ts_4_foot_4.wav
-  output_gain_db: -27.8474350
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: 4_foot
     take: '5'
   file: ir/u87_ts_4_foot_5.wav
-  output_gain_db: -27.5008221
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: grill_cap
     take: '1'
   file: ir/u87_ts_grill_cap_1.wav
-  output_gain_db: -19.5232468
+  output_gain_db: -19.1931934
 - values:
     mic: u87
     version: ts
     position: grill_cap
     take: '2'
   file: ir/u87_ts_grill_cap_2.wav
-  output_gain_db: -18.2527943
+  output_gain_db: -18.9966240
 - values:
     mic: u87
     version: ts
     position: grill_cap
     take: '3'
   file: ir/u87_ts_grill_cap_3.wav
-  output_gain_db: -17.6344337
+  output_gain_db: -18.7337303
 - values:
     mic: u87
     version: ts
     position: grill_cap
     take: '4'
   file: ir/u87_ts_grill_cap_4.wav
-  output_gain_db: -18.7779121
+  output_gain_db: -18.3413181
 - values:
     mic: u87
     version: ts
     position: grill_cap
     take: '5'
   file: ir/u87_ts_grill_cap_5.wav
-  output_gain_db: -19.1216507
+  output_gain_db: -18.4710541
 - values:
     mic: u87
     version: ts
     position: grill_cone_far
     take: '1'
   file: ir/u87_ts_grill_cone_far_1.wav
-  output_gain_db: -25.8554802
+  output_gain_db: -23.8725910
 - values:
     mic: u87
     version: ts
     position: grill_cone_far
     take: '2'
   file: ir/u87_ts_grill_cone_far_2.wav
-  output_gain_db: -24.9170628
+  output_gain_db: -22.9800758
 - values:
     mic: u87
     version: ts
     position: grill_cone_far
     take: '3'
   file: ir/u87_ts_grill_cone_far_3.wav
-  output_gain_db: -23.2915421
+  output_gain_db: -22.0734768
 - values:
     mic: u87
     version: ts
     position: grill_cone_far
     take: '4'
   file: ir/u87_ts_grill_cone_far_4.wav
-  output_gain_db: -21.2499180
+  output_gain_db: -20.7199593
 - values:
     mic: u87
     version: ts
     position: grill_cone_far
     take: '5'
   file: ir/u87_ts_grill_cone_far_5.wav
-  output_gain_db: -20.9353333
+  output_gain_db: -20.5914497
 - values:
     mic: u87
     version: ts
     position: grill_cone_near
     take: '1'
   file: ir/u87_ts_grill_cone_near_1.wav
-  output_gain_db: -23.1424503
+  output_gain_db: -21.8511734
 - values:
     mic: u87
     version: ts
     position: grill_cone_near
     take: '2'
   file: ir/u87_ts_grill_cone_near_2.wav
-  output_gain_db: -22.1482239
+  output_gain_db: -21.3434639
 - values:
     mic: u87
     version: ts
     position: grill_cone_near
     take: '3'
   file: ir/u87_ts_grill_cone_near_3.wav
-  output_gain_db: -20.4243336
+  output_gain_db: -20.6215858
 - values:
     mic: u87
     version: ts
     position: grill_cone_near
     take: '4'
   file: ir/u87_ts_grill_cone_near_4.wav
-  output_gain_db: -19.3827801
+  output_gain_db: -19.6352463
 - values:
     mic: u87
     version: ts
     position: grill_cone_near
     take: '5'
   file: ir/u87_ts_grill_cone_near_5.wav
-  output_gain_db: -19.4003906
+  output_gain_db: -19.3950939
 - values:
     mic: u87
     version: ts
     position: grill_edge
     take: '1'
   file: ir/u87_ts_grill_edge_1.wav
-  output_gain_db: -20.5231972
+  output_gain_db: -19.7819290
 - values:
     mic: u87
     version: ts
     position: grill_edge
     take: '2'
   file: ir/u87_ts_grill_edge_2.wav
-  output_gain_db: -19.4565754
+  output_gain_db: -19.5862064
 - values:
     mic: u87
     version: ts
     position: grill_edge
     take: '3'
   file: ir/u87_ts_grill_edge_3.wav
-  output_gain_db: -17.8249168
+  output_gain_db: -19.1034107
 - values:
     mic: u87
     version: ts
     position: grill_edge
     take: '4'
   file: ir/u87_ts_grill_edge_4.wav
-  output_gain_db: -18.2167015
+  output_gain_db: -18.1998768
 - values:
     mic: u87
     version: ts
     position: grill_edge
     take: '5'
   file: ir/u87_ts_grill_edge_5.wav
-  output_gain_db: -18.5051594
+  output_gain_db: -18.1103630
 - values:
     mic: u87
     version: ts
     position: room_1
     take: '2'
   file: ir/u87_ts_room_1_2.wav
-  output_gain_db: -38.0132065
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_1
     take: '3'
   file: ir/u87_ts_room_1_3.wav
-  output_gain_db: -35.6140442
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_1
     take: '4'
   file: ir/u87_ts_room_1_4.wav
-  output_gain_db: -34.0489616
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_1
     take: '5'
   file: ir/u87_ts_room_1_5.wav
-  output_gain_db: -33.6369896
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_2
     take: '1'
   file: ir/u87_ts_room_2_1.wav
-  output_gain_db: -34.8755875
+  output_gain_db: -23.9999962
 - values:
     mic: u87
     version: ts
     position: room_2
     take: '2'
   file: ir/u87_ts_room_2_2.wav
-  output_gain_db: -34.2095909
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_2
     take: '3'
   file: ir/u87_ts_room_2_3.wav
-  output_gain_db: -33.5680466
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_2
     take: '4'
   file: ir/u87_ts_room_2_4.wav
-  output_gain_db: -32.0138130
+  output_gain_db: -24.0000000
 - values:
     mic: u87
     version: ts
     position: room_2
     take: '5'
   file: ir/u87_ts_room_2_5.wav
-  output_gain_db: -30.9836121
+  output_gain_db: -24.0000000

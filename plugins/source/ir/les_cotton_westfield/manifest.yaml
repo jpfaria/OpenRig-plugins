@@ -22,24 +22,24 @@ captures:
 - values:
     preset: stock
   file: ir/lescotton_westfield.wav
-  output_gain_db: -46.9438744
+  output_gain_db: 3.3044190
 - values:
     preset: cuki_2048
   file: ir/cukiirlescottonwest2048_48.wav
-  output_gain_db: -14.0499191
+  output_gain_db: 8.8425751
 - values:
     preset: cuki_jf_2048
   file: ir/cukijfirlescottonwest2048at48.wav
-  output_gain_db: -11.6991644
+  output_gain_db: 10.2292185
 - values:
     preset: jf45
   file: ir/jf45irlescotton_westfield.wav
-  output_gain_db: -13.7050810
+  output_gain_db: 13.7652569
 - values:
     preset: jf45_1024
   file: ir/jf45ir1024lescotton_westfield.wav
-  output_gain_db: -11.1113682
+  output_gain_db: 13.8468161
 - values:
     preset: jf45_5050
   file: ir/jf45ir5050lescotton_westfield.wav
-  output_gain_db: -7.7523422
+  output_gain_db: 15.1282120

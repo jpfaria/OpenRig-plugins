@@ -18,16 +18,16 @@ captures:
 - values:
     preset: d1
   file: ir/d1.wav
-  output_gain_db: -25.1438980
+  output_gain_db: -23.5395660
 - values:
     preset: d2
   file: ir/d2.wav
-  output_gain_db: -23.6563740
+  output_gain_db: -21.4044514
 - values:
     preset: d3
   file: ir/d3.wav
-  output_gain_db: -27.3213043
+  output_gain_db: -23.7536163
 - values:
     preset: d4
   file: ir/d4.wav
-  output_gain_db: -24.3701458
+  output_gain_db: -22.2925644

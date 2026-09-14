@@ -18,16 +18,16 @@ captures:
 - values:
     preset: stock
   file: ir/as_martin_d35e_fishman_48000.wav
-  output_gain_db: -19.8625317
+  output_gain_db: 7.8537693
 - values:
     preset: bld
   file: ir/as_martin_d35e_fishman_48000_bld.wav
-  output_gain_db: -14.5431376
+  output_gain_db: 11.2801304
 - values:
     preset: jf_flavor
   file: ir/as_martin_d35e_fishman_48000_jf_flavor.wav
-  output_gain_db: -16.5750275
+  output_gain_db: 10.1371193
 - values:
     preset: match
   file: ir/as_martin_d35e_fishman_48000_match.wav
-  output_gain_db: -14.1285906
+  output_gain_db: 8.3705540

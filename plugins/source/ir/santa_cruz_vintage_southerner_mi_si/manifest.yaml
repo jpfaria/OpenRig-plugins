@@ -28,48 +28,48 @@ captures:
 - values:
     preset: len8096
   file: ir/santacruz_vintage_southerner_48k_8096.wav
-  output_gain_db: -16.8943176
+  output_gain_db: 9.6715374
 - values:
     preset: len8096_blend
   file: ir/santacruz_vintage_southerner_48k_8096_bld.wav
-  output_gain_db: -11.9069338
+  output_gain_db: 12.1479025
 - values:
     preset: len8096_match1
   file: ir/santacruz_vintage_southerner_48k_8096_match1.wav
-  output_gain_db: -16.9657192
+  output_gain_db: 10.0097713
 - values:
     preset: len8096_match2
   file: ir/santacruz_vintage_southerner_48k_8096_match2.wav
-  output_gain_db: -17.6757126
+  output_gain_db: 10.0602465
 - values:
     preset: len8096_jf_flavor
   file: ir/santacruz_vintage_southerner_48k_8096_jf_flavor.wav
-  output_gain_db: -15.1292601
+  output_gain_db: 10.7002048
 - values:
     preset: len2048
   file: ir/santacruz_vintage_southerner_48k_2048.wav
-  output_gain_db: -14.0766659
+  output_gain_db: 10.6724253
 - values:
     preset: len2048_blend
   file: ir/santacruz_vintage_southerner_48k_2048_bld.wav
-  output_gain_db: -9.5442619
+  output_gain_db: 12.9719124
 - values:
     preset: len2048_match1
   file: ir/santacruz_vintage_southerner_48k_2048_match1.wav
-  output_gain_db: -13.3385181
+  output_gain_db: 10.3103943
 - values:
     preset: len2048_match2
   file: ir/santacruz_vintage_southerner_48k_2048_match2.wav
-  output_gain_db: -13.5412169
+  output_gain_db: 10.1186457
 - values:
     preset: len2048_jf_flavor
   file: ir/santacruz_vintage_southerner_48k_2048_jf_flavor.wav
-  output_gain_db: -11.7813349
+  output_gain_db: 11.9621735
 - values:
     preset: new_a_96k
   file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096.wav
-  output_gain_db: -7.0806160
+  output_gain_db: 17.7084579
 - values:
     preset: new_a_96k_match
   file: ir/ir_santa_cruz_vintage_southerner_new_a_96k_8096_match.wav
-  output_gain_db: -4.4524918
+  output_gain_db: 18.3353481

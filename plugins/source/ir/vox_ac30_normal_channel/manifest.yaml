@@ -22,32 +22,32 @@ captures:
 - values:
     preset: 441_on_axis
   file: ir/441_on_axis.wav
-  output_gain_db: -17.4557381
+  output_gain_db: -18.9977436
 - values:
     preset: ed911_on_axis
   file: ir/ed911_on_axis.wav
-  output_gain_db: -16.3768845
+  output_gain_db: -18.9038696
 - values:
     preset: m930_on_axis1
   file: ir/m930_on_axis1.wav
-  output_gain_db: -22.7448673
+  output_gain_db: -19.2320518
 - values:
     preset: m930_on_axis2
   file: ir/m930_on_axis2.wav
-  output_gain_db: -20.4224014
+  output_gain_db: -19.8800087
 - values:
     preset: m930_rm
   file: ir/m930_rm.wav
-  output_gain_db: -21.8118172
+  output_gain_db: -21.8559494
 - values:
     preset: m930_von_hinten
   file: ir/m930_von_hinten.wav
-  output_gain_db: -27.8764648
+  output_gain_db: -24.0000000
 - values:
     preset: sm57_on_axis
   file: ir/sm57_on_axis.wav
-  output_gain_db: -14.8303499
+  output_gain_db: -17.1747799
 - values:
     preset: u87
   file: ir/u87.wav
-  output_gain_db: -23.4413166
+  output_gain_db: -19.2649956

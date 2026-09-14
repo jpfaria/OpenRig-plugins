@@ -23,28 +23,28 @@ captures:
 - values:
     preset: base
   file: ir/takef341sc_44100.wav
-  output_gain_db: -26.1295109
+  output_gain_db: 4.9506550
 - values:
     preset: short
   file: ir/takef341sc_44100_1024.wav
-  output_gain_db: -22.3281918
+  output_gain_db: 4.9772034
 - values:
     preset: match1
   file: ir/takef341sc_44100_match1.wav
-  output_gain_db: -16.8730659
+  output_gain_db: 6.2720594
 - values:
     preset: match1_ls
   file: ir/takef341sc_44100_match1_ls.wav
-  output_gain_db: -17.0867290
+  output_gain_db: 6.0135550
 - values:
     preset: match2
   file: ir/takef341sc_44100_match2.wav
-  output_gain_db: -17.3505917
+  output_gain_db: 5.8011355
 - values:
     preset: short_match1
   file: ir/takef341sc_44100_1024_match1.wav
-  output_gain_db: -17.8036919
+  output_gain_db: 4.6700859
 - values:
     preset: short_match2
   file: ir/takef341sc_44100_1024_match2.wav
-  output_gain_db: -18.1677933
+  output_gain_db: 4.9747829

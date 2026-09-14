@@ -19,8 +19,8 @@ captures:
 - values:
     flavor: having_a_blast
   file: ir/having_a_blast.wav
-  output_gain_db: -20.8778915
+  output_gain_db: -19.3211498
 - values:
     flavor: welcome_to_paradise
   file: ir/welcome_to_paradise.wav
-  output_gain_db: -21.8648262
+  output_gain_db: -19.4197102

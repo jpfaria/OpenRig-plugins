@@ -23,44 +23,44 @@ captures:
     mic: md421
     take: '2'
   file: ir/md421_take2.wav
-  output_gain_db: -22.1673851
+  output_gain_db: -19.8024006
 - values:
     mic: md421
     take: '3'
   file: ir/md421_take3.wav
-  output_gain_db: -21.5754757
+  output_gain_db: -19.6133652
 - values:
     mic: md421
     take: '4'
   file: ir/md421_take4.wav
-  output_gain_db: -22.1325226
+  output_gain_db: -19.7872295
 - values:
     mic: at4033
     take: '2'
   file: ir/at4033_take2.wav
-  output_gain_db: -18.9026031
+  output_gain_db: -18.2007103
 - values:
     mic: at4033
     take: '3'
   file: ir/at4033_take3.wav
-  output_gain_db: -18.8805332
+  output_gain_db: -18.1959000
 - values:
     mic: at4033
     take: '4'
   file: ir/at4033_take4.wav
-  output_gain_db: -18.8959866
+  output_gain_db: -18.1293659
 - values:
     mic: room
     take: '2'
   file: ir/room_take2.wav
-  output_gain_db: -24.8288460
+  output_gain_db: -21.0732307
 - values:
     mic: room
     take: '3'
   file: ir/room_take3.wav
-  output_gain_db: -24.6222172
+  output_gain_db: -20.9379196
 - values:
     mic: room
     take: '4'
   file: ir/room_take4.wav
-  output_gain_db: -24.4943409
+  output_gain_db: -21.1917152

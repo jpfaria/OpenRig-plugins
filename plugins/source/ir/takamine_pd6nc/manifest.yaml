@@ -24,39 +24,39 @@ captures:
     voicing: one
     flavor: raw
   file: ir/takamine_pd6nc_1_44100.wav
-  output_gain_db: -32.2215958
+  output_gain_db: -0.0000003
 - values:
     voicing: one
     flavor: bld
   file: ir/takamine_pd6nc_1_44100_bld.wav
-  output_gain_db: -32.1648254
+  output_gain_db: -0.0000003
 - values:
     voicing: one
     flavor: match
   file: ir/takamine_pd6nc_1_44100_match.wav
-  output_gain_db: -31.1329403
+  output_gain_db: -0.0000003
 - values:
     voicing: one
     flavor: jf_flavor
   file: ir/takamine_pd6nc_1_44100_jf_flavor.wav
-  output_gain_db: -30.8542881
+  output_gain_db: 0.0788810
 - values:
     voicing: two
     flavor: raw
   file: ir/takamine_pd6nc_2_44100.wav
-  output_gain_db: -31.1944046
+  output_gain_db: 0.0000008
 - values:
     voicing: two
     flavor: bld
   file: ir/takamine_pd6nc_2_44100_bld.wav
-  output_gain_db: -31.0488815
+  output_gain_db: 0.0000008
 - values:
     voicing: two
     flavor: match
   file: ir/takamine_pd6nc_2_44100_match.wav
-  output_gain_db: -28.4683704
+  output_gain_db: 0.0000014
 - values:
     voicing: two
     flavor: jf_flavor
   file: ir/takamine_pd6nc_2_44100_jf_flavor.wav
-  output_gain_db: -25.3438644
+  output_gain_db: 3.5554934

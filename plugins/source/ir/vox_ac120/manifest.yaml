@@ -16,8 +16,8 @@ captures:
 - values:
     preset: m94
   file: ir/m94.wav
-  output_gain_db: -21.7027740
+  output_gain_db: -19.2539673
 - values:
     preset: mtg_hinten
   file: ir/mtg_hinten.wav
-  output_gain_db: -31.5501499
+  output_gain_db: -24.0000000

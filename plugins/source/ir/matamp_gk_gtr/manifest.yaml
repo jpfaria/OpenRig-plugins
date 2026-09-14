@@ -17,16 +17,16 @@ captures:
 - values:
     take: '2'
   file: ir/2.wav
-  output_gain_db: -20.9517784
+  output_gain_db: -21.8768158
 - values:
     take: '3'
   file: ir/3.wav
-  output_gain_db: -19.5355625
+  output_gain_db: -19.6552734
 - values:
     take: '4'
   file: ir/4.wav
-  output_gain_db: -26.5683250
+  output_gain_db: -23.5118675
 - values:
     take: '5'
   file: ir/5.wav
-  output_gain_db: -20.0915375
+  output_gain_db: -21.1532154

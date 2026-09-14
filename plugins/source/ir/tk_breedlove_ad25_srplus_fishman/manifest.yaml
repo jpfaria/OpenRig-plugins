@@ -22,24 +22,24 @@ captures:
     mic: sm
     match: none
   file: ir/ir_breedlove_ad25sr_plus_sm44100.wav
-  output_gain_db: -21.7791729
+  output_gain_db: 9.5070057
 - values:
     mic: sm
     match: match1
   file: ir/ir_breedlove_ad25sr_plus_sm44100_match1.wav
-  output_gain_db: -19.8579140
+  output_gain_db: 4.6908884
 - values:
     mic: bb
     match: none
   file: ir/ir_breedlove_ad25sr_plus_bb44100.wav
-  output_gain_db: -26.1023788
+  output_gain_db: 6.8871193
 - values:
     mic: bb
     match: match1
   file: ir/ir_breedlove_ad25sr_plus_bb44100_match1.wav
-  output_gain_db: -18.2186623
+  output_gain_db: 8.1139812
 - values:
     mic: bb
     match: match2
   file: ir/ir_breedlove_ad25sr_plus_bb44100_match2.wav
-  output_gain_db: -19.6941891
+  output_gain_db: 7.7072716

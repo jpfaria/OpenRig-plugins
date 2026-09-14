@@ -37,92 +37,92 @@ captures:
 - values:
     preset: beta91
   file: ir/beta91.wav
-  output_gain_db: -18.1077194
+  output_gain_db: -18.9220848
 - values:
     preset: 441_off_axis
   file: ir/441_off_axis.wav
-  output_gain_db: -15.9433718
+  output_gain_db: -17.1115437
 - values:
     preset: 441_on_axis
   file: ir/441_on_axis.wav
-  output_gain_db: -16.7626286
+  output_gain_db: -17.6827812
 - values:
     preset: beta91_rm
   file: ir/beta91_rm.wav
-  output_gain_db: -18.5246220
+  output_gain_db: -19.1087627
 - values:
     preset: ed911_on_axis
   file: ir/ed911_on_axis.wav
-  output_gain_db: -16.4243889
+  output_gain_db: -17.9346256
 - values:
     preset: m930_on_axis1
   file: ir/m930_on_axis1.wav
-  output_gain_db: -14.2602959
+  output_gain_db: -15.9806156
 - values:
     preset: m930_on_axis2
   file: ir/m930_on_axis2.wav
-  output_gain_db: -15.3319521
+  output_gain_db: -16.2779388
 - values:
     preset: m930_rm1
   file: ir/m930_rm1.wav
-  output_gain_db: -15.3832884
+  output_gain_db: -18.5336552
 - values:
     preset: m930_rm2
   file: ir/m930_rm2.wav
-  output_gain_db: -19.2962933
+  output_gain_db: -19.2378464
 - values:
     preset: m930_rm3
   file: ir/m930_rm3.wav
-  output_gain_db: -21.2436028
+  output_gain_db: -19.6847591
 - values:
     preset: m930_von_hinten
   file: ir/m930_von_hinten.wav
-  output_gain_db: -18.5226212
+  output_gain_db: -19.0316715
 - values:
     preset: mpc_rm1
   file: ir/mpc_rm1.wav
-  output_gain_db: -18.6699409
+  output_gain_db: -20.6401234
 - values:
     preset: mpc_rm2
   file: ir/mpc_rm2.wav
-  output_gain_db: -31.7065029
+  output_gain_db: -24.0000000
 - values:
     preset: mpc
   file: ir/mpc.wav
-  output_gain_db: -23.2720509
+  output_gain_db: -22.1767006
 - values:
     preset: nt2_on_axis
   file: ir/nt2_on_axis.wav
-  output_gain_db: -16.4571419
+  output_gain_db: -16.9117756
 - values:
     preset: nt2_rm
   file: ir/nt2_rm.wav
-  output_gain_db: -14.1916924
+  output_gain_db: -17.4660892
 - values:
     preset: sm57_off_axis1
   file: ir/sm57_off_axis1.wav
-  output_gain_db: -15.3910160
+  output_gain_db: -16.0986824
 - values:
     preset: sm57_off_axis2
   file: ir/sm57_off_axis2.wav
-  output_gain_db: -17.5292969
+  output_gain_db: -18.1133842
 - values:
     preset: sm57_on_axis1
   file: ir/sm57_on_axis1.wav
-  output_gain_db: -14.5361404
+  output_gain_db: -15.5273867
 - values:
     preset: sm57_on_axis2
   file: ir/sm57_on_axis2.wav
-  output_gain_db: -15.0564842
+  output_gain_db: -16.1056442
 - values:
     preset: sm57_on_axis3
   file: ir/sm57_on_axis3.wav
-  output_gain_db: -15.1920347
+  output_gain_db: -17.0875149
 - values:
     preset: sm57_on_axis4
   file: ir/sm57_on_axis4.wav
-  output_gain_db: -16.8416023
+  output_gain_db: -17.5478039
 - values:
     preset: u87
   file: ir/u87.wav
-  output_gain_db: -19.1049461
+  output_gain_db: -17.9708157

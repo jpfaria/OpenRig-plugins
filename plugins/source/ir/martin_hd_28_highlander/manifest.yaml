@@ -23,24 +23,24 @@ captures:
 - values:
     preset: base
   file: ir/ir_martin_hd28_highlander_48000.wav
-  output_gain_db: -29.5728912
+  output_gain_db: 0.8308244
 - values:
     preset: m1
   file: ir/ir_martin_hd28_highlander_48000_m1.wav
-  output_gain_db: -16.1575146
+  output_gain_db: 6.4551382
 - values:
     preset: m2
   file: ir/ir_martin_hd28_highlander_48000_m2.wav
-  output_gain_db: -16.5674973
+  output_gain_db: 6.3799210
 - values:
     preset: jf45
   file: ir/jf45irmartin_hd28_highlander.wav
-  output_gain_db: -11.1751957
+  output_gain_db: 16.7039871
 - values:
     preset: jf45_1024
   file: ir/jf45ir1024martin_hd28_highlander.wav
-  output_gain_db: -6.9276066
+  output_gain_db: 17.1473312
 - values:
     preset: jf45_5050
   file: ir/jf45ir5050martin_hd28_highlander.wav
-  output_gain_db: -4.3468714
+  output_gain_db: 17.4116821

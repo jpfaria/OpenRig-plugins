@@ -17,12 +17,12 @@ captures:
 - values:
     preset: raum
   file: ir/raum.wav
-  output_gain_db: -31.6133919
+  output_gain_db: -23.9999962
 - values:
     preset: sm57
   file: ir/sm57.wav
-  output_gain_db: -20.8711891
+  output_gain_db: -20.2379360
 - values:
     preset: sm7
   file: ir/sm7.wav
-  output_gain_db: -20.9691277
+  output_gain_db: -20.6269207

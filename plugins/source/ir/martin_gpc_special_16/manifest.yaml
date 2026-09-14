@@ -41,84 +41,84 @@ captures:
 - values:
     preset: standard_std
   file: ir/standard_martin_gpc16e_special_rosewood_ir_std.wav
-  output_gain_db: -15.2665987
+  output_gain_db: 7.3207779
 - values:
     preset: standard_std_44k
   file: ir/standard_martin_gpc16e_special_rosewood_ir_std_44100_16_1.wav
-  output_gain_db: -15.2658272
+  output_gain_db: 7.3199606
 - values:
     preset: itp_mph_44k
   file: ir/ir_itp_mph_44100_16_1.wav
-  output_gain_db: -14.0819540
+  output_gain_db: 10.1960611
 - values:
     preset: itp_mph
   file: ir/ir_itp_mph.wav
-  output_gain_db: -14.0820045
+  output_gain_db: 10.1916142
 - values:
     preset: itp_raw_44k
   file: ir/ir_itp_raw_44100_16_1.wav
-  output_gain_db: -18.3694458
+  output_gain_db: 6.7271814
 - values:
     preset: itp_raw
   file: ir/ir_itp_raw.wav
-  output_gain_db: -18.3691559
+  output_gain_db: 6.7260547
 - values:
     preset: itp_bld_44k
   file: ir/ir_itp_bld_44100_16_1.wav
-  output_gain_db: -20.3447704
+  output_gain_db: 4.4201646
 - values:
     preset: itp_bld
   file: ir/ir_itp_bld.wav
-  output_gain_db: -20.3449135
+  output_gain_db: 4.4201250
 - values:
     preset: itp_44k
   file: ir/ir_itp_44100_16_1.wav
-  output_gain_db: -13.8398027
+  output_gain_db: 7.3448801
 - values:
     preset: itp
   file: ir/ir_itp.wav
-  output_gain_db: -13.8386564
+  output_gain_db: 7.3450527
 - values:
     preset: std_44k
   file: ir/ir_std_44100_16_1.wav
-  output_gain_db: -15.2658272
+  output_gain_db: 7.3199606
 - values:
     preset: std
   file: ir/ir_std.wav
-  output_gain_db: -15.2665987
+  output_gain_db: 7.3207779
 - values:
     preset: jf45_std
   file: ir/jf45_ir_std.wav
-  output_gain_db: -15.2665987
+  output_gain_db: 7.3207779
 - values:
     preset: jf45_std_44k
   file: ir/jf45_ir_std_44100_16_1.wav
-  output_gain_db: -15.2658272
+  output_gain_db: 7.3199606
 - values:
     preset: jf45_itp_44k
   file: ir/jf45_ir_itp_44100_16_1.wav
-  output_gain_db: -13.8398027
+  output_gain_db: 7.3448801
 - values:
     preset: jf45_itp
   file: ir/jf45_ir_itp.wav
-  output_gain_db: -13.8386564
+  output_gain_db: 7.3450527
 - values:
     preset: jf45_itp_jf45_44k
   file: ir/jf45_ir_itp_jf45_44100_16_1.wav
-  output_gain_db: -15.7143898
+  output_gain_db: 11.5790501
 - values:
     preset: jf45_itp_jf45
   file: ir/jf45_ir_itp_jf45.wav
-  output_gain_db: -15.7151060
+  output_gain_db: 11.5790768
 - values:
     preset: fbf_std_44k
   file: ir/fbf_martin_gpc16e_special_rosewood_ir_std_44100_16_1.wav
-  output_gain_db: -15.2658272
+  output_gain_db: 7.3199606
 - values:
     preset: fbf_std
   file: ir/fbf_martin_gpc16e_special_rosewood_ir_std.wav
-  output_gain_db: -15.2665987
+  output_gain_db: 7.3207779
 - values:
     preset: fbf_gpc16e_std
   file: ir/fbf_gpc16e_ir_std.wav
-  output_gain_db: -15.2665987
+  output_gain_db: 7.3207779

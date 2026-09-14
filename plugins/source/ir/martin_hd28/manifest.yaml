@@ -19,20 +19,20 @@ captures:
 - values:
     mic: neumann_u87
   file: ir/hd28_neumann_u87.wav
-  output_gain_db: -24.8780403
+  output_gain_db: 0.0002658
 - values:
     mic: neumann_u47
   file: ir/hd28_neumann_u47.wav
-  output_gain_db: -22.9858818
+  output_gain_db: 2.3281479
 - values:
     mic: soundelux_e47
   file: ir/hd28_soundelux_e47.wav
-  output_gain_db: -26.7701740
+  output_gain_db: 0.0004992
 - values:
     mic: akg_c414b_xls
   file: ir/hd28_akg_c414b_xls.wav
-  output_gain_db: -25.5089149
+  output_gain_db: 0.0004970
 - values:
     mic: schoeps_cmc64g
   file: ir/hd28_schoeps_cmc64g.wav
-  output_gain_db: -26.8391819
+  output_gain_db: 0.0003529

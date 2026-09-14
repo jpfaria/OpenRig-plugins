@@ -19,12 +19,12 @@ captures:
 - values:
     preset: plain
   file: ir/jf45irgibson.wav
-  output_gain_db: 7.8214684
+  output_gain_db: 24.0000000
 - values:
     preset: mix_1024
   file: ir/jf45ir1024gibson.wav
-  output_gain_db: 8.3829565
+  output_gain_db: 24.0000000
 - values:
     preset: mix_5050
   file: ir/jf45ir5050gibson.wav
-  output_gain_db: 9.8116398
+  output_gain_db: 24.0000000

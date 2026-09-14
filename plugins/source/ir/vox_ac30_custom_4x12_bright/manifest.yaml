@@ -26,48 +26,48 @@ captures:
 - values:
     preset: gf_flur
   file: ir/gf_flur.wav
-  output_gain_db: -25.5629635
+  output_gain_db: -21.2757931
 - values:
     preset: gf_front
   file: ir/gf_front.wav
-  output_gain_db: -16.1253071
+  output_gain_db: -17.7008476
 - values:
     preset: gf1
   file: ir/gf1.wav
-  output_gain_db: -21.0883999
+  output_gain_db: -19.4661827
 - values:
     preset: gf2
   file: ir/gf2.wav
-  output_gain_db: -22.9893665
+  output_gain_db: -20.4540577
 - values:
     preset: m930_off_axis
   file: ir/m930_off_axis.wav
-  output_gain_db: -17.1948910
+  output_gain_db: -16.3272800
 - values:
     preset: m930_on_axis1
   file: ir/m930_on_axis1.wav
-  output_gain_db: -17.0403118
+  output_gain_db: -14.8686943
 - values:
     preset: m930_on_axis2
   file: ir/m930_on_axis2.wav
-  output_gain_db: -18.1894207
+  output_gain_db: -17.1607361
 - values:
     preset: nt2_off_axis
   file: ir/nt2_off_axis.wav
-  output_gain_db: -14.8006067
+  output_gain_db: -15.9210052
 - values:
     preset: nt2_on_axis1
   file: ir/nt2_on_axis1.wav
-  output_gain_db: -13.9399490
+  output_gain_db: -15.1537294
 - values:
     preset: nt2_on_axis2
   file: ir/nt2_on_axis2.wav
-  output_gain_db: -14.2964849
+  output_gain_db: -15.9737062
 - values:
     preset: u87_1
   file: ir/u87_1.wav
-  output_gain_db: -19.3478546
+  output_gain_db: -16.6776848
 - values:
     preset: u87_2
   file: ir/u87_2.wav
-  output_gain_db: -17.2641010
+  output_gain_db: -15.9563456

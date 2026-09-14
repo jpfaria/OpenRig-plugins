@@ -23,29 +23,29 @@ captures:
     flavor: full
     version: base
   file: ir/ir_hd28_m80_allstr_44100.wav
-  output_gain_db: -6.9695930
+  output_gain_db: 13.2001266
 - values:
     flavor: full
     version: match1
   file: ir/ir_hd28_m80_allstr_44100_match1.wav
-  output_gain_db: -9.5857077
+  output_gain_db: 7.5417519
 - values:
     flavor: full
     version: match2
   file: ir/ir_hd28_m80_allstr_44100_match2.wav
-  output_gain_db: -9.6990433
+  output_gain_db: 7.4064760
 - values:
     flavor: e
     version: base
   file: ir/ir_hd28_m80_estr_44100.wav
-  output_gain_db: -5.7599998
+  output_gain_db: 13.1452503
 - values:
     flavor: e
     version: match1
   file: ir/ir_hd28_m80_estr_44100_match1.wav
-  output_gain_db: -9.9284449
+  output_gain_db: 8.2449226
 - values:
     flavor: e
     version: match2
   file: ir/ir_hd28_m80_estr_44100_match2.wav
-  output_gain_db: -10.1314526
+  output_gain_db: 6.8230596

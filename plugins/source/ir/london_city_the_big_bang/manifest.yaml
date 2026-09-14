@@ -20,24 +20,24 @@ captures:
 - values:
     preset: bright_raum
   file: ir/bright_raum.wav
-  output_gain_db: -31.8715916
+  output_gain_db: -23.6073303
 - values:
     preset: bright_sm57
   file: ir/bright_sm57.wav
-  output_gain_db: -20.3657036
+  output_gain_db: -19.9573460
 - values:
     preset: bright_sm7
   file: ir/bright_sm7.wav
-  output_gain_db: -19.5402050
+  output_gain_db: -20.4901276
 - values:
     preset: normal_raum
   file: ir/normal_raum.wav
-  output_gain_db: -32.3309937
+  output_gain_db: -23.9999962
 - values:
     preset: normal_sm57
   file: ir/normal_sm57.wav
-  output_gain_db: -26.0293789
+  output_gain_db: -21.1565742
 - values:
     preset: normal_sm7
   file: ir/normal_sm7.wav
-  output_gain_db: -25.8896637
+  output_gain_db: -22.3394699

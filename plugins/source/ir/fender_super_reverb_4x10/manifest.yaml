@@ -22,24 +22,24 @@ captures:
 - values:
     distance: 1.75
   file: ir/p10r_ur_4x10_bu87ic_1_75in_1_0in_3.wav
-  output_gain_db: -19.8525066
+  output_gain_db: -18.5275612
 - values:
     distance: 2.0
   file: ir/p10r_ur_4x10_bu87ic_2_00in_1_0in_3.wav
-  output_gain_db: -20.2393494
+  output_gain_db: -18.6489277
 - values:
     distance: 2.25
   file: ir/p10r_ur_4x10_bu87ic_2_25in_1_0in_3.wav
-  output_gain_db: -20.1081028
+  output_gain_db: -18.5858002
 - values:
     distance: 2.5
   file: ir/p10r_ur_4x10_bu87ic_2_50in_1_0in_3.wav
-  output_gain_db: -19.7095184
+  output_gain_db: -18.6327477
 - values:
     distance: 2.75
   file: ir/p10r_ur_4x10_bu87ic_2_75in_1_0in_3.wav
-  output_gain_db: -19.8645096
+  output_gain_db: -19.0495758
 - values:
     distance: 3.5
   file: ir/p10r_ur_4x10_bu87ic_3_50in_1_0in_3.wav
-  output_gain_db: -21.6372089
+  output_gain_db: -20.6831398

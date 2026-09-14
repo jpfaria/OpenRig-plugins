@@ -17,16 +17,16 @@ captures:
 - values:
     preset: raw
   file: ir/cort_luce_550w_48000.wav
-  output_gain_db: -24.0692768
+  output_gain_db: 5.2628455
 - values:
     preset: blend
   file: ir/cort_luce_550w_48000_bld.wav
-  output_gain_db: -17.7348156
+  output_gain_db: 10.3139648
 - values:
     preset: jf_flavor
   file: ir/cort_luce_550w_48000_jf_flavor.wav
-  output_gain_db: -18.5618610
+  output_gain_db: 9.4100695
 - values:
     preset: match
   file: ir/cort_luce_550w_48000_match.wav
-  output_gain_db: -24.1989765
+  output_gain_db: 5.8710432

@@ -19,8 +19,8 @@ captures:
 - values:
     preset: blue_1
   file: ir/blue_1.wav
-  output_gain_db: -17.6746140
+  output_gain_db: -20.0192490
 - values:
     preset: blue_2
   file: ir/blue_2.wav
-  output_gain_db: -19.6919689
+  output_gain_db: -20.9529057

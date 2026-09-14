@@ -18,16 +18,16 @@ captures:
 - values:
     preset: flat
   file: ir/as_om28_matrix_44100.wav
-  output_gain_db: -27.2035542
+  output_gain_db: 2.2887397
 - values:
     preset: blend
   file: ir/as_om28_matrix_44100_bld.wav
-  output_gain_db: -21.5372066
+  output_gain_db: 8.8819513
 - values:
     preset: jf_flavor
   file: ir/as_om28_matrix_44100_jf_flavor.wav
-  output_gain_db: -30.8762150
+  output_gain_db: 0.0000008
 - values:
     preset: match
   file: ir/as_om28_matrix_44100_match.wav
-  output_gain_db: -19.2420921
+  output_gain_db: 3.0654483

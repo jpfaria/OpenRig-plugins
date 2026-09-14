@@ -18,12 +18,12 @@ captures:
 - values:
     preset: raw
   file: ir/ir_graciliano_perez_48k.wav
-  output_gain_db: -28.1524506
+  output_gain_db: -0.0000003
 - values:
     preset: m
   file: ir/ir_graciliano_perez_48k_m.wav
-  output_gain_db: -16.5855713
+  output_gain_db: 7.1783047
 - values:
     preset: mffqn
   file: ir/ir_graciliano_perez_48k_mffqn.wav
-  output_gain_db: -18.8813782
+  output_gain_db: 4.8558197

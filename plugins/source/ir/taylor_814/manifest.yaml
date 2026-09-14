@@ -18,16 +18,16 @@ captures:
 - values:
     mic: dpa_4011
   file: ir/taylor_814_dpa_4011.wav
-  output_gain_db: -26.8711891
+  output_gain_db: 0.0001519
 - values:
     mic: neumann_u87
   file: ir/taylor_814_neumann_u87.wav
-  output_gain_db: -24.3773937
+  output_gain_db: 1.2073092
 - values:
     mic: shure_sm57
   file: ir/taylor_814_shure_sm57.wav
-  output_gain_db: -25.4330254
+  output_gain_db: -0.0001211
 - values:
     mic: neumann_km84
   file: ir/taylor_814_neumann_km84.wav
-  output_gain_db: -23.8379745
+  output_gain_db: 0.0004296

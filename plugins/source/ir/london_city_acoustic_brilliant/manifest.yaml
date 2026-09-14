@@ -27,52 +27,52 @@ captures:
 - values:
     preset: alt_2mtg
   file: ir/alt_2mtg.wav
-  output_gain_db: -21.2435188
+  output_gain_db: -20.7992172
 - values:
     preset: alt_2sm57
   file: ir/alt_2sm57.wav
-  output_gain_db: -17.6698360
+  output_gain_db: -17.9540615
 - values:
     preset: alt_at4033
   file: ir/alt_at4033.wav
-  output_gain_db: -19.9326611
+  output_gain_db: -19.8505096
 - values:
     preset: alt_km184
   file: ir/alt_km184.wav
-  output_gain_db: -18.7608929
+  output_gain_db: -18.7315941
 - values:
     preset: alt_m71
   file: ir/alt_m71.wav
-  output_gain_db: -17.7103348
+  output_gain_db: -18.6694927
 - values:
     preset: alt_mtg
   file: ir/alt_mtg.wav
-  output_gain_db: -19.9586964
+  output_gain_db: -19.3692760
 - values:
     preset: alt_schoeps
   file: ir/alt_schoeps.wav
-  output_gain_db: -18.5163059
+  output_gain_db: -18.6996574
 - values:
     preset: alt_sm57
   file: ir/alt_sm57.wav
-  output_gain_db: -17.1434956
+  output_gain_db: -18.4597206
 - values:
     preset: neu_2sm57
   file: ir/neu_2sm57.wav
-  output_gain_db: -22.2131119
+  output_gain_db: -20.1711349
 - values:
     preset: neu_at4033
   file: ir/neu_at4033.wav
-  output_gain_db: -23.9188919
+  output_gain_db: -21.0128899
 - values:
     preset: neu_km184
   file: ir/neu_km184.wav
-  output_gain_db: -23.6742840
+  output_gain_db: -21.2119255
 - values:
     preset: neu_m71
   file: ir/neu_m71.wav
-  output_gain_db: -22.1451092
+  output_gain_db: -19.7245502
 - values:
     preset: neu_sm57_1
   file: ir/neu_sm57_1.wav
-  output_gain_db: -21.9351959
+  output_gain_db: -20.8542557

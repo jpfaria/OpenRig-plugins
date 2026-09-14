@@ -16,8 +16,8 @@ captures:
 - values:
     preset: at4033
   file: ir/at4033.wav
-  output_gain_db: -22.1920395
+  output_gain_db: -20.0350609
 - values:
     preset: sm57
   file: ir/sm57.wav
-  output_gain_db: -21.1675644
+  output_gain_db: -20.5043144

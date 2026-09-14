@@ -19,20 +19,20 @@ captures:
 - values:
     preset: acsp_alt_at4033
   file: ir/acsp_alt_at4033.wav
-  output_gain_db: -23.2094822
+  output_gain_db: -20.8882618
 - values:
     preset: acsp_alt_close
   file: ir/acsp_alt_close.wav
-  output_gain_db: -21.9511795
+  output_gain_db: -19.8057976
 - values:
     preset: acsp_alt_mtg_close_d3
   file: ir/acsp_alt_mtg_close_d3.wav
-  output_gain_db: -29.8728561
+  output_gain_db: -23.3014660
 - values:
     preset: acsp_alt_mtg
   file: ir/acsp_alt_mtg.wav
-  output_gain_db: -22.2585526
+  output_gain_db: -21.0729771
 - values:
     preset: acspbeide_2mtg
   file: ir/acspbeide_2mtg.wav
-  output_gain_db: -22.1582909
+  output_gain_db: -20.6988659

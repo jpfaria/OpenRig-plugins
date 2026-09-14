@@ -16,12 +16,12 @@ captures:
 - values:
     preset: tap1024
   file: ir/jf45ir1024x30.wav
-  output_gain_db: -2.4171314
+  output_gain_db: 16.9833412
 - values:
     preset: blend5050
   file: ir/jf45ir5050x30.wav
-  output_gain_db: -2.2514796
+  output_gain_db: 17.3324509
 - values:
     preset: full
   file: ir/jf45irx30.wav
-  output_gain_db: -10.1455603
+  output_gain_db: 12.3895254

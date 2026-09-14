@@ -24,40 +24,40 @@ captures:
 - values:
     preset: bx44_neve_close
   file: ir/bx44_neve_close.wav
-  output_gain_db: -21.0640125
+  output_gain_db: -19.9555073
 - values:
     preset: bx44_stalevel_close
   file: ir/bx44_stalevel_close.wav
-  output_gain_db: -20.9078979
+  output_gain_db: -19.9288349
 - values:
     preset: plus_bass_at4033a_neve
   file: ir/plus_bass_at4033a_neve.wav
-  output_gain_db: -20.7281303
+  output_gain_db: -19.7099819
 - values:
     preset: plus_bass_at4033a_stalevel
   file: ir/plus_bass_at4033a_stalevel.wav
-  output_gain_db: -20.3382034
+  output_gain_db: -19.3502274
 - values:
     preset: plus_bass_bx44_neve_close
   file: ir/plus_bass_bx44_neve_close.wav
-  output_gain_db: -19.7956524
+  output_gain_db: -19.2514610
 - values:
     preset: plus_bass_u67_neve
   file: ir/plus_bass_u67_neve.wav
-  output_gain_db: -20.6843605
+  output_gain_db: -21.5208111
 - values:
     preset: plus_bass_u67_stalevel
   file: ir/plus_bass_u67_stalevel.wav
-  output_gain_db: -20.4544449
+  output_gain_db: -21.3034382
 - values:
     preset: plus_bass_bx44_neve_far
   file: ir/plus_bass_bx44_neve_far.wav
-  output_gain_db: -21.4487457
+  output_gain_db: -21.1617470
 - values:
     preset: plus_bass_bx44_stalevel_far
   file: ir/plus_bass_bx44_stalevel_far.wav
-  output_gain_db: -21.2627659
+  output_gain_db: -20.8780975
 - values:
     preset: plus_bass_bx44_stalevel_close
   file: ir/plus_bass_bx44_stalevel_close.wav
-  output_gain_db: -19.7004623
+  output_gain_db: -19.2313900

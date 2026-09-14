@@ -35,64 +35,64 @@ captures:
 - values:
     preset: hfn1
   file: ir/martinhd28_hfn1_44100.wav
-  output_gain_db: -18.9613628
+  output_gain_db: 10.2628918
 - values:
     preset: hfn1_bld
   file: ir/martinhd28_hfn1_44100_bld.wav
-  output_gain_db: -12.5596581
+  output_gain_db: 12.2035780
 - values:
     preset: hfn1_match
   file: ir/martinhd28_hfn1_44100_match.wav
-  output_gain_db: -13.5394564
+  output_gain_db: 8.7459888
 - values:
     preset: hfn1_jf
   file: ir/martinhd28_hfn1_44100_jf_flavor.wav
-  output_gain_db: -16.1502037
+  output_gain_db: 11.5939350
 - values:
     preset: hfn2
   file: ir/martinhd28_hfn2_44100.wav
-  output_gain_db: -19.8274632
+  output_gain_db: 8.2383499
 - values:
     preset: hfn2_bld
   file: ir/martinhd28_hfn2_44100_bld.wav
-  output_gain_db: -13.7427597
+  output_gain_db: 11.6973238
 - values:
     preset: hfn2_match
   file: ir/martinhd28_hfn2_44100_match.wav
-  output_gain_db: -16.1706600
+  output_gain_db: 8.2560949
 - values:
     preset: hfn2_jf
   file: ir/martinhd28_hfn2_44100_jf_flavor.wav
-  output_gain_db: -17.0603695
+  output_gain_db: 9.8569574
 - values:
     preset: eq_8096_st
   file: ir/ir_martin_hd28_8096st_matcheq.wav
-  output_gain_db: -18.1060791
+  output_gain_db: 8.9155893
 - values:
     preset: eq_8096_l
   file: ir/ir_martin_hd28_8096l_matcheq.wav
-  output_gain_db: -22.8278656
+  output_gain_db: 6.7052951
 - values:
     preset: eq_8096_r
   file: ir/ir_martin_hd28_8096r_matcheq.wav
-  output_gain_db: -17.6278725
+  output_gain_db: 9.0713015
 - values:
     preset: eq_2048_st
   file: ir/ir_martin_hd28_2048st_matcheq.wav
-  output_gain_db: -5.0880699
+  output_gain_db: 22.5937538
 - values:
     preset: eq_2048_l
   file: ir/ir_martin_hd28_2048l_matcheq.wav
-  output_gain_db: -11.6099157
+  output_gain_db: 8.2169113
 - values:
     preset: eq_2048_r
   file: ir/ir_martin_hd28_2048r_matcheq.wav
-  output_gain_db: -12.3664312
+  output_gain_db: 10.1437607
 - values:
     preset: zrec1
   file: ir/irzrec1db65s4ss17.wav
-  output_gain_db: -6.7507319
+  output_gain_db: 15.0490780
 - values:
     preset: zrec2
   file: ir/irzrec2db65s4ss17.wav
-  output_gain_db: -6.2793255
+  output_gain_db: 15.3246670

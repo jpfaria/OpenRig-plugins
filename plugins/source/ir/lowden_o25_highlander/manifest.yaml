@@ -22,24 +22,24 @@ captures:
 - values:
     preset: direct
   file: ir/ir_lowdeno25_highlander_48000.wav
-  output_gain_db: -24.9270992
+  output_gain_db: 3.3514624
 - values:
     preset: match1
   file: ir/ir_lowdeno25_highlander_48000_match1.wav
-  output_gain_db: -17.7509632
+  output_gain_db: 7.4176292
 - values:
     preset: match2
   file: ir/ir_lowdeno25_highlander_48000_match2.wav
-  output_gain_db: -18.2653942
+  output_gain_db: 6.8204365
 - values:
     preset: jf45
   file: ir/jf45irlowden_o25_highlander.wav
-  output_gain_db: -9.8701038
+  output_gain_db: 15.7737217
 - values:
     preset: jf45_1024
   file: ir/jf45ir1024lowden_o25_highlander.wav
-  output_gain_db: -8.1934538
+  output_gain_db: 15.7840252
 - values:
     preset: jf45_5050
   file: ir/jf45ir5050lowden_o25_highlander.wav
-  output_gain_db: -4.2000513
+  output_gain_db: 17.0188694

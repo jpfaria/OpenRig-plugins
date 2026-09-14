@@ -20,16 +20,16 @@ captures:
 - values:
     voicing: default
   file: ir/dy_martinom_dazzo_44100.wav
-  output_gain_db: -21.8376675
+  output_gain_db: 8.5774651
 - values:
     voicing: matcheq1
   file: ir/dy_martinom_dazzo_44100_matcheq1.wav
-  output_gain_db: -13.9600792
+  output_gain_db: 10.1215458
 - values:
     voicing: matcheq2
   file: ir/dy_martinom_dazzo_44100_matcheq2.wav
-  output_gain_db: -14.0633469
+  output_gain_db: 10.1074467
 - values:
     voicing: matcheq3
   file: ir/dy_martinom_dazzo_44100_matcheq3.wav
-  output_gain_db: -12.8541269
+  output_gain_db: 9.0847960

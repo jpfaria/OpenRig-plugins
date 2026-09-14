@@ -22,16 +22,16 @@ captures:
 - values:
     preset: big
   file: ir/big.wav
-  output_gain_db: -20.2837009
+  output_gain_db: -19.9757957
 - values:
     preset: lean
   file: ir/lean.wav
-  output_gain_db: -19.7438850
+  output_gain_db: -19.5853138
 - values:
     preset: big_48_24
   file: ir/big_48_24.wav
-  output_gain_db: -20.2835674
+  output_gain_db: -19.9759407
 - values:
     preset: lean_48_24
   file: ir/lean_48_24.wav
-  output_gain_db: -19.7437363
+  output_gain_db: -19.5853271

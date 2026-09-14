@@ -19,16 +19,16 @@ captures:
 - values:
     flavor: standard
   file: ir/cuki_martin_hd_28_ta_amulet_48000.wav
-  output_gain_db: -31.7579918
+  output_gain_db: 0.0000008
 - values:
     flavor: blend
   file: ir/cuki_martin_hd_28_ta_amulet_48000_bld.wav
-  output_gain_db: -26.8738918
+  output_gain_db: 5.1547127
 - values:
     flavor: match
   file: ir/martin_hd_28_9v_48000_matcheq3.wav
-  output_gain_db: -21.4836025
+  output_gain_db: 5.9436941
 - values:
     flavor: jf
   file: ir/cuki_martin_hd_28_ta_amulet_48000_jf_flavor.wav
-  output_gain_db: -31.0386944
+  output_gain_db: 0.8551863

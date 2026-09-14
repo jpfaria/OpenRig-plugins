@@ -27,40 +27,40 @@ captures:
 - values:
     preset: v2
   file: ir/morris_2nd_attempt_ir44100.wav
-  output_gain_db: -17.8578777
+  output_gain_db: 5.7589884
 - values:
     preset: v2_bp
   file: ir/morris_2nd_attempt_ir44100_bp.wav
-  output_gain_db: -14.5108824
+  output_gain_db: 8.3198423
 - values:
     preset: v2_bld
   file: ir/morris_2nd_attempt_ir44100_bld.wav
-  output_gain_db: -12.5562935
+  output_gain_db: 13.4114780
 - values:
     preset: v2_match1
   file: ir/morris_2nd_attempt_ir44100_match1.wav
-  output_gain_db: -14.7499456
+  output_gain_db: 5.2559295
 - values:
     preset: v2_match2
   file: ir/morris_2nd_attempt_ir44100_match2.wav
-  output_gain_db: -15.4359283
+  output_gain_db: 5.5337200
 - values:
     preset: v2_match3
   file: ir/morris_2nd_attempt_ir44100_match3.wav
-  output_gain_db: -12.9608183
+  output_gain_db: 5.2361412
 - values:
     preset: v2_jf
   file: ir/morris_2nd_attempt_ir44100_jf_flavor.wav
-  output_gain_db: -26.0285492
+  output_gain_db: 0.0000014
 - values:
     preset: w80
   file: ir/ir_morris_w80_44100.wav
-  output_gain_db: -14.8211031
+  output_gain_db: 9.7502079
 - values:
     preset: w80_match1
   file: ir/ir_morris_w80_44100_match.wav
-  output_gain_db: -14.5232439
+  output_gain_db: 9.9431534
 - values:
     preset: w80_match2
   file: ir/ir_morris_w80_44100_match2.wav
-  output_gain_db: -14.5326300
+  output_gain_db: 9.8835163

@@ -19,16 +19,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_000_10e_48000.wav
-  output_gain_db: -18.7013664
+  output_gain_db: 10.5857620
 - values:
     flavor: blend
   file: ir/martin_000_10e_48000_bld.wav
-  output_gain_db: -12.7547417
+  output_gain_db: 12.5758648
 - values:
     flavor: match
   file: ir/martin_000_10e_48000_match.wav
-  output_gain_db: -14.2433348
+  output_gain_db: 10.7316704
 - values:
     flavor: jf
   file: ir/martin_000_10e_48000_jf_flavor.wav
-  output_gain_db: -16.3084660
+  output_gain_db: 11.4060259

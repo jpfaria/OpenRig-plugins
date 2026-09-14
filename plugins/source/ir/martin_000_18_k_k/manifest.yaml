@@ -26,34 +26,34 @@ captures:
     position: 1
     flavor: standard
   file: ir/sc_martin_000_18_knk1_44100.wav
-  output_gain_db: -15.5726328
+  output_gain_db: 10.0103130
 - values:
     position: 1
     flavor: blend
   file: ir/sc_martin_000_18_knk1_44100_bld.wav
-  output_gain_db: -10.5739269
+  output_gain_db: 12.7375774
 - values:
     position: 1
     flavor: match
   file: ir/sc_martin_000_18_knk1_44100_match.wav
-  output_gain_db: -13.6742144
+  output_gain_db: 9.2322769
 - values:
     position: 1
     flavor: jf
   file: ir/sc_martin_000_18_knk1_44100_jf_flavor.wav
-  output_gain_db: -13.7202024
+  output_gain_db: 11.1292124
 - values:
     position: 2
     flavor: standard
   file: ir/sc_martin_000_18_knk2_44100.wav
-  output_gain_db: -15.6961279
+  output_gain_db: 8.5345106
 - values:
     position: 2
     flavor: blend
   file: ir/sc_martin_000_18_knk2_44100_bld.wav
-  output_gain_db: -10.6128464
+  output_gain_db: 12.1552458
 - values:
     position: 2
     flavor: jf
   file: ir/sc_martin_000_18_knk2_44100_jf_flavor.wav
-  output_gain_db: -10.5150213
+  output_gain_db: 11.8988543

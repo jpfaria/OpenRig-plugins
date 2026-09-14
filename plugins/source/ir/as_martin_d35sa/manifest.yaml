@@ -18,16 +18,16 @@ captures:
 - values:
     preset: stock
   file: ir/as_martin_d35sa_gplus_44100.wav
-  output_gain_db: -15.9323015
+  output_gain_db: 11.4234905
 - values:
     preset: bld
   file: ir/as_martin_d35sa_gplus_44100_bld.wav
-  output_gain_db: -10.7433586
+  output_gain_db: 22.8351326
 - values:
     preset: jf_flavor
   file: ir/as_martin_d35sa_gplus_44100_jf_flavor.wav
-  output_gain_db: -18.4204369
+  output_gain_db: 10.4404154
 - values:
     preset: match
   file: ir/as_martin_d35sa_gplus_44100_match.wav
-  output_gain_db: -12.9569368
+  output_gain_db: 11.2202215

@@ -19,16 +19,16 @@ captures:
 - values:
     preset: flat
   file: ir/cort_gold_a8_48000.wav
-  output_gain_db: -25.2975101
+  output_gain_db: 3.1915789
 - values:
     preset: bld
   file: ir/cort_gold_a8_48000_bld.wav
-  output_gain_db: -19.2656422
+  output_gain_db: 8.3812265
 - values:
     preset: jf
   file: ir/cort_gold_a8_48000_jf_flavor.wav
-  output_gain_db: -17.9176769
+  output_gain_db: 9.0578680
 - values:
     preset: match
   file: ir/cort_gold_a8_48000_match.wav
-  output_gain_db: -16.5356026
+  output_gain_db: 5.9185181

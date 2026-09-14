@@ -17,12 +17,12 @@ captures:
 - values:
     preset: base
   file: ir/martin_hd28v_anthem_element_44100.wav
-  output_gain_db: -17.3901100
+  output_gain_db: 8.8313560
 - values:
     preset: match1
   file: ir/martin_hd28v_anthem_element_44100_match1.wav
-  output_gain_db: -15.9187593
+  output_gain_db: 7.0639248
 - values:
     preset: match2
   file: ir/martin_hd28v_anthem_element_44100_match2.wav
-  output_gain_db: -17.7191544
+  output_gain_db: 5.6599150

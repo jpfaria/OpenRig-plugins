@@ -19,16 +19,16 @@ captures:
 - values:
     preset: len_9
   file: ir/kb_dx1ae_9_48k.wav
-  output_gain_db: -17.0159073
+  output_gain_db: 11.6639843
 - values:
     preset: len_9_mffqn
   file: ir/kb_dx1ae_9_48k_mffqn.wav
-  output_gain_db: -24.3357220
+  output_gain_db: 3.1648636
 - values:
     preset: len_9_m
   file: ir/kb_dx1ae_9_48k_m.wav
-  output_gain_db: -9.8824377
+  output_gain_db: 11.2952166
 - values:
     preset: len_18_m
   file: ir/kb_dx1ae_18_48k_m.wav
-  output_gain_db: -23.7245979
+  output_gain_db: 0.0000008

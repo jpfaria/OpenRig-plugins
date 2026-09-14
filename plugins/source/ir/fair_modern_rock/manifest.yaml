@@ -42,112 +42,112 @@ captures:
 - values:
     preset: addictive_sparc_mono
   file: ir/addictive_sparc_mono.wav
-  output_gain_db: -16.8381767
+  output_gain_db: -16.5182972
 - values:
     preset: addictive_sparc_stereo
   file: ir/addictive_sparc_stereo.wav
-  output_gain_db: -16.8381882
+  output_gain_db: -16.5182991
 - values:
     preset: addictive_solid_mono
   file: ir/addictive_solid_mono.wav
-  output_gain_db: -16.3177109
+  output_gain_db: -16.0419540
 - values:
     preset: addictive_solid_stereo
   file: ir/addictive_solid_stereo.wav
-  output_gain_db: -16.3177490
+  output_gain_db: -16.0419617
 - values:
     preset: addictive_tube_mono
   file: ir/addictive_tube_mono.wav
-  output_gain_db: -24.9493370
+  output_gain_db: -18.2017994
 - values:
     preset: addictive_tube_stereo
   file: ir/addictive_tube_stereo.wav
-  output_gain_db: -24.9493828
+  output_gain_db: -18.2017975
 - values:
     preset: aliceinbones
   file: ir/aliceinbones.wav
-  output_gain_db: -20.7282372
+  output_gain_db: -18.8763847
 - values:
     preset: blacksungarden
   file: ir/blacksungarden.wav
-  output_gain_db: -18.5625019
+  output_gain_db: -19.2374687
 - values:
     preset: britishconvolution_sparc
   file: ir/britishconvolution_sparc.wav
-  output_gain_db: -18.0026817
+  output_gain_db: -18.0953522
 - values:
     preset: britishconvolution_solid
   file: ir/britishconvolution_solid.wav
-  output_gain_db: -16.0144558
+  output_gain_db: -15.7117252
 - values:
     preset: britishconvolution_tube
   file: ir/britishconvolution_tube.wav
-  output_gain_db: -20.4800358
+  output_gain_db: -18.6243820
 - values:
     preset: cornontheleash
   file: ir/cornontheleash.wav
-  output_gain_db: -20.3902111
+  output_gain_db: -18.0516415
 - values:
     preset: footofly
   file: ir/footofly.wav
-  output_gain_db: -21.0407047
+  output_gain_db: -19.4696503
 - values:
     preset: greedsacrifice
   file: ir/greedsacrifice.wav
-  output_gain_db: -19.2049065
+  output_gain_db: -19.0907383
 - values:
     preset: greenbasketcase
   file: ir/greenbasketcase.wav
-  output_gain_db: -20.6308804
+  output_gain_db: -18.7462349
 - values:
     preset: iamthefredman_sparc
   file: ir/iamthefredman_sparc.wav
-  output_gain_db: -16.8768444
+  output_gain_db: -17.4066048
 - values:
     preset: iamthefredman_solid
   file: ir/iamthefredman_solid.wav
-  output_gain_db: -14.2082710
+  output_gain_db: -14.8985138
 - values:
     preset: iamthefredman_tube
   file: ir/iamthefredman_tube.wav
-  output_gain_db: -18.0576038
+  output_gain_db: -17.2653999
 - values:
     preset: scorpyoulikeahurricane
   file: ir/scorpyoulikeahurricane.wav
-  output_gain_db: -17.3078232
+  output_gain_db: -18.3102837
 - values:
     preset: spoongarden
   file: ir/spoongarden.wav
-  output_gain_db: -21.8225746
+  output_gain_db: -20.1193981
 - values:
     preset: stacksmack_sparc
   file: ir/stacksmack_sparc.wav
-  output_gain_db: -23.1371841
+  output_gain_db: -19.9222221
 - values:
     preset: stacksmack_solid
   file: ir/stacksmack_solid.wav
-  output_gain_db: -22.8115025
+  output_gain_db: -19.6859970
 - values:
     preset: stacksmack_tube
   file: ir/stacksmack_tube.wav
-  output_gain_db: -24.7679348
+  output_gain_db: -20.0822334
 - values:
     preset: sweetchildofgun
   file: ir/sweetchildofgun.wav
-  output_gain_db: -20.2780972
+  output_gain_db: -18.6007156
 - values:
     preset: thepowerofthree_sparc
   file: ir/thepowerofthree_sparc.wav
-  output_gain_db: -17.8267994
+  output_gain_db: -17.9599628
 - values:
     preset: thepowerofthree_solid
   file: ir/thepowerofthree_solid.wav
-  output_gain_db: -16.7990360
+  output_gain_db: -17.5767059
 - values:
     preset: thepowerofthree_tube
   file: ir/thepowerofthree_tube.wav
-  output_gain_db: -18.9053688
+  output_gain_db: -18.1345425
 - values:
     preset: toolpot
   file: ir/toolpot.wav
-  output_gain_db: -15.2632761
+  output_gain_db: -16.1418133

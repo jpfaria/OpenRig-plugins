@@ -18,16 +18,16 @@ captures:
 - values:
     flavor: standard
   file: ir/martin_om_18e_aura_vte_48000.wav
-  output_gain_db: -14.6060009
+  output_gain_db: 10.4598007
 - values:
     flavor: blend
   file: ir/martin_om_18e_aura_vte_48000_bld.wav
-  output_gain_db: -8.2230959
+  output_gain_db: 20.5923920
 - values:
     flavor: match
   file: ir/martin_om_18e_aura_vte_48000_match.wav
-  output_gain_db: -16.9188786
+  output_gain_db: 9.4307423
 - values:
     flavor: jf
   file: ir/martin_om_18e_aura_vte_48000_jf_flavor.wav
-  output_gain_db: -17.5621338
+  output_gain_db: 8.5557127

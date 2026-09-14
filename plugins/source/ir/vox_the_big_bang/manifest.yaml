@@ -18,16 +18,16 @@ captures:
 - values:
     preset: bright1_raum
   file: ir/bright1_raum.wav
-  output_gain_db: -34.3867874
+  output_gain_db: -24.0000000
 - values:
     preset: bright1
   file: ir/bright1.wav
-  output_gain_db: -21.4403458
+  output_gain_db: -20.6646614
 - values:
     preset: bright2a
   file: ir/bright2a.wav
-  output_gain_db: -35.0330200
+  output_gain_db: -24.0000000
 - values:
     preset: bright2b
   file: ir/bright2b.wav
-  output_gain_db: -22.1996002
+  output_gain_db: -21.0572739

@@ -20,24 +20,24 @@ captures:
 - values:
     preset: m930_1
   file: ir/m930_1.wav
-  output_gain_db: -24.1661587
+  output_gain_db: -19.0793667
 - values:
     preset: m930_2
   file: ir/m930_2.wav
-  output_gain_db: -16.3077793
+  output_gain_db: -16.7822151
 - values:
     preset: sm57_1
   file: ir/sm57_1.wav
-  output_gain_db: -18.6107769
+  output_gain_db: -18.0100117
 - values:
     preset: sm57_2
   file: ir/sm57_2.wav
-  output_gain_db: -18.9310284
+  output_gain_db: -18.2469082
 - values:
     preset: sm57_3
   file: ir/sm57_3.wav
-  output_gain_db: -20.0271320
+  output_gain_db: -18.9816360
 - values:
     preset: u87
   file: ir/u87.wav
-  output_gain_db: -20.1369324
+  output_gain_db: -19.6561642

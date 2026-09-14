@@ -18,16 +18,16 @@ captures:
 - values:
     voicing: standard
   file: ir/martin_dc_16e_48000.wav
-  output_gain_db: -21.8520260
+  output_gain_db: 6.4922390
 - values:
     voicing: blend
   file: ir/martin_dc_16e_48000_bld.wav
-  output_gain_db: -16.0174294
+  output_gain_db: 10.6838131
 - values:
     voicing: match
   file: ir/martin_dc_16e_48000_match.wav
-  output_gain_db: -18.0284538
+  output_gain_db: 6.6928463
 - values:
     voicing: jf
   file: ir/martin_dc_16e_48000_jf_flavor.wav
-  output_gain_db: -16.7622967
+  output_gain_db: 9.6605396

@@ -17,16 +17,16 @@ captures:
 - values:
     preset: raw
   file: ir/lakewood_d_18cp_48000.wav
-  output_gain_db: -14.8620539
+  output_gain_db: 10.7695541
 - values:
     preset: bld
   file: ir/lakewood_d_18cp_48000_bld.wav
-  output_gain_db: -8.4791422
+  output_gain_db: 18.8955688
 - values:
     preset: jf_flavor
   file: ir/lakewood_d_18cp_48000_jf_flavor.wav
-  output_gain_db: -16.3290367
+  output_gain_db: 7.9428387
 - values:
     preset: match
   file: ir/lakewood_d_18cp_48000_match.wav
-  output_gain_db: -13.2005405
+  output_gain_db: 9.5236588

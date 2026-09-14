@@ -16,12 +16,12 @@ captures:
 - values:
     preset: plain
   file: ir/furch_vintage1d_sr_48k.wav
-  output_gain_db: -11.1471205
+  output_gain_db: 12.7991819
 - values:
     preset: mic
   file: ir/furch_vintage1d_sr_48k_m.wav
-  output_gain_db: -9.6549644
+  output_gain_db: 10.2484837
 - values:
     preset: mic_ffq
   file: ir/furch_vintage1d_sr_48k_m_ffq.wav
-  output_gain_db: -22.4591579
+  output_gain_db: 0.9390163
