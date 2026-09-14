@@ -1,0 +1,253 @@
+manifest_version: 1
+id: nam_marshall_jcm800_zakk_wylde_a2
+display_name: JCM800 Zakk Wylde
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/1869
+# Arlington Audio "JCM800 Zakk Wylde Signature" (tone3000 1869), A2 captures.
+# Marshall JCM800 Zakk Wylde Signature Edition with 6550 power tubes, Suhr
+# Reactive Load. Capture names: "MARSHALL JCM800 ZW - <HIGH|LOW> SENSITIVITY - G<n>"
+# -> input (high/low sensitivity channel) + gain knob (1..10 in 0.5 steps).
+# Dropped constants (fixed per channel, from the tone description):
+#   low sensitivity:  bass 4, mids 10, treble 6.9, presence 7.1, master 8.1
+#   high sensitivity: bass max, mids 4, treble 5, presence 7, master 5.9
+parameters:
+- name: input
+  display_name: Input
+  values:
+  - high
+  - low
+- name: gain
+  display_name: Gain
+  values:
+  - 1
+  - 1.5
+  - 2
+  - 2.5
+  - 3
+  - 3.5
+  - 4
+  - 4.5
+  - 5
+  - 5.5
+  - 6
+  - 6.5
+  - 7
+  - 7.5
+  - 8
+  - 8.5
+  - 9
+  - 9.5
+  - 10
+captures:
+- values:
+    input: high
+    gain: 1
+  file: captures/high_sensitivity_g1_a2.nam
+- values:
+    input: high
+    gain: 1.5
+  file: captures/high_sensitivity_g1_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.5
+- values:
+    input: high
+    gain: 2
+  file: captures/high_sensitivity_g2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    input: high
+    gain: 2.5
+  file: captures/high_sensitivity_g2_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -34.0
+- values:
+    input: high
+    gain: 3
+  file: captures/high_sensitivity_g3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    input: high
+    gain: 3.5
+  file: captures/high_sensitivity_g3_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    input: high
+    gain: 4
+  file: captures/high_sensitivity_g4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    input: high
+    gain: 4.5
+  file: captures/high_sensitivity_g4_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    input: high
+    gain: 5
+  file: captures/high_sensitivity_g5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    input: high
+    gain: 5.5
+  file: captures/high_sensitivity_g5_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
+- values:
+    input: high
+    gain: 6
+  file: captures/high_sensitivity_g6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 6.5
+  file: captures/high_sensitivity_g6_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 7
+  file: captures/high_sensitivity_g7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 7.5
+  file: captures/high_sensitivity_g7_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 8
+  file: captures/high_sensitivity_g8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 8.5
+  file: captures/high_sensitivity_g8_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    input: high
+    gain: 9
+  file: captures/high_sensitivity_g9_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 9.5
+  file: captures/high_sensitivity_g9_5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 10
+  file: captures/high_sensitivity_g10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    input: low
+    gain: 1
+  file: captures/low_sensitivity_g1_a2.nam
+- values:
+    input: low
+    gain: 1.5
+  file: captures/low_sensitivity_g1_5_a2.nam
+- values:
+    input: low
+    gain: 2
+  file: captures/low_sensitivity_g2_a2.nam
+- values:
+    input: low
+    gain: 2.5
+  file: captures/low_sensitivity_g2_5_a2.nam
+- values:
+    input: low
+    gain: 3
+  file: captures/low_sensitivity_g3_a2.nam
+- values:
+    input: low
+    gain: 3.5
+  file: captures/low_sensitivity_g3_5_a2.nam
+- values:
+    input: low
+    gain: 4
+  file: captures/low_sensitivity_g4_a2.nam
+- values:
+    input: low
+    gain: 4.5
+  file: captures/low_sensitivity_g4_5_a2.nam
+- values:
+    input: low
+    gain: 5
+  file: captures/low_sensitivity_g5_a2.nam
+- values:
+    input: low
+    gain: 5.5
+  file: captures/low_sensitivity_g5_5_a2.nam
+- values:
+    input: low
+    gain: 6
+  file: captures/low_sensitivity_g6_a2.nam
+- values:
+    input: low
+    gain: 6.5
+  file: captures/low_sensitivity_g6_5_a2.nam
+- values:
+    input: low
+    gain: 7
+  file: captures/low_sensitivity_g7_a2.nam
+- values:
+    input: low
+    gain: 7.5
+  file: captures/low_sensitivity_g7_5_a2.nam
+- values:
+    input: low
+    gain: 8
+  file: captures/low_sensitivity_g8_a2.nam
+- values:
+    input: low
+    gain: 8.5
+  file: captures/low_sensitivity_g8_5_a2.nam
+- values:
+    input: low
+    gain: 9
+  file: captures/low_sensitivity_g9_a2.nam
+- values:
+    input: low
+    gain: 9.5
+  file: captures/low_sensitivity_g9_5_a2.nam
+- values:
+    input: low
+    gain: 10
+  file: captures/low_sensitivity_g10_a2.nam

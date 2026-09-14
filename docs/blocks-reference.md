@@ -85,6 +85,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_ampeg_svt_a2` | SVT | ampeg |
 | `nam_ampeg_svt_classic_a2` | SVT Classic | ampeg |
 | `nam_ampeg_v4` | V4 | ampeg |
+| `nam_bad_cat_lynx_50w_el34_a2` | Lynx 50W EL34 | bad_cat |
 | `nam_bad_cat_lynx_a2` | bad cat lynx | bad_cat |
 | `nam_badcat_wildcat_40r` | WildCat 40R | bad_cat |
 | `nam_bogner_ecstasy_101b_a2` | Ecstasy 101B | bogner |
@@ -169,6 +170,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_marshall_dsl_20_hr_a2` | DSL 20 HR | marshall |
 | `nam_marshall_jcm2000_dsl` | JCM2000 DSL | marshall |
 | `nam_marshall_jcm2000_tsl` | JCM2000 TSL | marshall |
+| `nam_marshall_jcm800_zakk_wylde_a2` | JCM800 Zakk Wylde | marshall |
 | `nam_marshall_jcm900_a2` | JCM900 | marshall |
 | `nam_marshall_jcm_800_a2` | JCM 800 | marshall |
 | `nam_marshall_jmp_1_full_rig_a2` | JMP-1 Full Rig | marshall |
@@ -176,6 +178,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_marshall_jmp_2203_a2` | JMP 2203 | marshall |
 | `nam_marshall_jmp_50_lead_1969_a2` | JMP-50 Lead 1969 | marshall |
 | `nam_marshall_jtm45_a2` | JTM45 | marshall |
+| `nam_marshall_jtm45_hyper_accuracy_a2` | JTM 45 Hyper Accuracy | marshall |
 | `nam_marshall_jtm50_hw_plexi_a2` | JTM50 HW (Plexi) | marshall |
 | `nam_marshall_jvm_a2` | JVM | marshall |
 | `nam_marshall_lead_12_a2` | Lead 12 | marshall |
