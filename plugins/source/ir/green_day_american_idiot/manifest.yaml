@@ -1,0 +1,20 @@
+# Cab IR voiced after Green Day's American Idiot (tone3000 name
+# "american idiot ir"). The author does not name the cab or mic.
+manifest_version: 1
+id: ir_green_day_american_idiot
+display_name: Green Day American Idiot
+brand: custom
+sources:
+- https://www.tone3000.com/tones/41729
+type: cab
+backend: ir
+parameters:
+- name: default
+  display_name: Default
+  values:
+  - default
+captures:
+- values:
+    default: default
+  file: ir/american_idiot.wav
+  output_gain_db: -17.3191166

@@ -14,11 +14,14 @@
 //!   Listening is not a valid verification step in this repo.
 //! - [`selector`] — optional `--plugins kind/name[,…]` subset selector
 //!   shared by the `qa_audit` and `qa_fix` binaries (issue #28).
+//! - [`lv2_uri`] — LV2 `plugin_uri` vs slot binaries vs `data/*.ttl`
+//!   consistency check run by `qa_audit` (issue #133).
 
 pub mod catalog;
 pub mod ir;
 pub mod limiter;
 pub mod loudness;
+pub mod lv2_uri;
 pub mod qa;
 pub mod selector;
 pub mod synthetic_di;

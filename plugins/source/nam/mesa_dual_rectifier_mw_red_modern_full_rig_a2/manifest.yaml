@@ -1,0 +1,882 @@
+manifest_version: 1
+id: nam_mesa_dual_rectifier_mw_red_modern_full_rig_a2
+display_name: Dual Rectifier Multi-Watt Red Modern Full Rig
+brand: mesa
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/69206
+# Full-rig captures (head + Mesa Traditional 4x12 V30 cab + SM57) of the Red channel, Modern mode.
+# Dropped constants (identical across all captures): "FR" (full rig), "MBDR MW Red Mdn"
+# (Mesa Boogie Dual Rectifier Multi-Watt, Red channel, Modern mode), "4FB" (the 4x12 cab),
+# the SM57 mic, and Master Volume (MV-2 on every setting).
+# The numbered "settings 1-6" in the source description are EQ dial combos, decomposed
+# into the real tone-stack knobs (Presence/Treble/Middle/Bass):
+#   1 - P-2 T-5 M-4 B-2
+#   2 - P-3 T-6 M-4 B-3
+#   3 - P-3 T-6 M-6 B-3
+#   4 - P-4 T-4 M-3 B-4
+#   5 - P-5 T-4 M-5 B-3
+#   6 - P-6 T-0 M-7 B-3
+# Boosted captures exist only for setting 1 and mic position a. Boost pedals:
+#   TDLX = Wampler Tumnus Deluxe, SD1 = Boss SD-1, OD808 = Maxon OD808,
+#   TMB-66 / TMB-73 = Keeley Time Machine Boost 1966 / 1973 modes.
+# Speaker (cab speaker the SM57 was on): LL lower left, LR lower right, UL upper left, UR upper right.
+# Position (SM57): on_grille = a (0.50" from cap center, on the grille);
+#   off_grille = b (0.75" from cap center, 0.50" off the grille).
+parameters:
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - tumnus_deluxe
+  - sd1
+  - od808
+  - tmb_66
+  - tmb_73
+- name: presence
+  display_name: Presence
+  values:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+- name: treble
+  display_name: Treble
+  values:
+  - 0
+  - 4
+  - 5
+  - 6
+- name: middle
+  display_name: Middle
+  values:
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+- name: bass
+  display_name: Bass
+  values:
+  - 2
+  - 3
+  - 4
+- name: speaker
+  display_name: Speaker
+  values:
+  - ll
+  - lr
+  - ul
+  - ur
+- name: position
+  display_name: Position
+  values:
+  - on_grille
+  - off_grille
+captures:
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: on_grille
+  file: captures/1_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: off_grille
+  file: captures/1_ll_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: on_grille
+  file: captures/1_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: off_grille
+  file: captures/1_lr_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: on_grille
+  file: captures/1_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: off_grille
+  file: captures/1_ul_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: on_grille
+  file: captures/1_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: off_grille
+  file: captures/1_ur_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: ll
+    position: on_grille
+  file: captures/2_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: ll
+    position: off_grille
+  file: captures/2_ll_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: lr
+    position: on_grille
+  file: captures/2_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: lr
+    position: off_grille
+  file: captures/2_lr_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: ul
+    position: on_grille
+  file: captures/2_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: ul
+    position: off_grille
+  file: captures/2_ul_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: ur
+    position: on_grille
+  file: captures/2_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 4
+    bass: 3
+    speaker: ur
+    position: off_grille
+  file: captures/2_ur_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: ll
+    position: on_grille
+  file: captures/3_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: ll
+    position: off_grille
+  file: captures/3_ll_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: lr
+    position: on_grille
+  file: captures/3_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: lr
+    position: off_grille
+  file: captures/3_lr_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: ul
+    position: on_grille
+  file: captures/3_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: ul
+    position: off_grille
+  file: captures/3_ul_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: ur
+    position: on_grille
+  file: captures/3_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 3
+    treble: 6
+    middle: 6
+    bass: 3
+    speaker: ur
+    position: off_grille
+  file: captures/3_ur_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: ll
+    position: on_grille
+  file: captures/4_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: ll
+    position: off_grille
+  file: captures/4_ll_sm57b_a2.nam
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: lr
+    position: on_grille
+  file: captures/4_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: lr
+    position: off_grille
+  file: captures/4_lr_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: ul
+    position: on_grille
+  file: captures/4_ul_sm57a_a2.nam
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: ul
+    position: off_grille
+  file: captures/4_ul_sm57b_a2.nam
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: ur
+    position: on_grille
+  file: captures/4_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 4
+    treble: 4
+    middle: 3
+    bass: 4
+    speaker: ur
+    position: off_grille
+  file: captures/4_ur_sm57b_a2.nam
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: ll
+    position: on_grille
+  file: captures/5_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: ll
+    position: off_grille
+  file: captures/5_ll_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: lr
+    position: on_grille
+  file: captures/5_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: lr
+    position: off_grille
+  file: captures/5_lr_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: ul
+    position: on_grille
+  file: captures/5_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: ul
+    position: off_grille
+  file: captures/5_ul_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: ur
+    position: on_grille
+  file: captures/5_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 5
+    treble: 4
+    middle: 5
+    bass: 3
+    speaker: ur
+    position: off_grille
+  file: captures/5_ur_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: ll
+    position: on_grille
+  file: captures/6_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: ll
+    position: off_grille
+  file: captures/6_ll_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: lr
+    position: on_grille
+  file: captures/6_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: lr
+    position: off_grille
+  file: captures/6_lr_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: ul
+    position: on_grille
+  file: captures/6_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: ul
+    position: off_grille
+  file: captures/6_ul_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: ur
+    position: on_grille
+  file: captures/6_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: none
+    presence: 6
+    treble: 0
+    middle: 7
+    bass: 3
+    speaker: ur
+    position: off_grille
+  file: captures/6_ur_sm57b_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tumnus_deluxe
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: on_grille
+  file: captures/tdlx_1_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tumnus_deluxe
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: on_grille
+  file: captures/tdlx_1_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tumnus_deluxe
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: on_grille
+  file: captures/tdlx_1_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tumnus_deluxe
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: on_grille
+  file: captures/tdlx_1_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: sd1
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: on_grille
+  file: captures/sd1_1_ll_sm57a_a2.nam
+- values:
+    boost: sd1
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: on_grille
+  file: captures/sd1_1_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: sd1
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: on_grille
+  file: captures/sd1_1_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: sd1
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: on_grille
+  file: captures/sd1_1_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: od808
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: on_grille
+  file: captures/od808_1_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: od808
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: on_grille
+  file: captures/od808_1_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: od808
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: on_grille
+  file: captures/od808_1_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: od808
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: on_grille
+  file: captures/od808_1_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_66
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: on_grille
+  file: captures/tmb_66_1_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_66
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: on_grille
+  file: captures/tmb_66_1_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_66
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: on_grille
+  file: captures/tmb_66_1_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_66
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: on_grille
+  file: captures/tmb_66_1_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_73
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ll
+    position: on_grille
+  file: captures/tmb_73_1_ll_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_73
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: lr
+    position: on_grille
+  file: captures/tmb_73_1_lr_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_73
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ul
+    position: on_grille
+  file: captures/tmb_73_1_ul_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    boost: tmb_73
+    presence: 2
+    treble: 5
+    middle: 4
+    bass: 2
+    speaker: ur
+    position: on_grille
+  file: captures/tmb_73_1_ur_sm57a_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

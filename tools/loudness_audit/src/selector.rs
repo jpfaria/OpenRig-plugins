@@ -6,16 +6,17 @@
 //! universe to the listed `<kind>/<name>` entries, enabling fast
 //! iteration on a single plugin without reprocessing the whole tree.
 //!
-//! Only the two on-disk roots are accepted as kinds: `nam` and `ir`.
-//! Anything else is a parse error so a typo is caught up-front instead
-//! of silently filtering everything out.
+//! Only the on-disk roots the audits walk are accepted as kinds: `nam`,
+//! `ir` and `lv2` (the LV2 URI check, issue #133). Anything else is a
+//! parse error so a typo is caught up-front instead of silently
+//! filtering everything out.
 
 use anyhow::{anyhow, bail, Result};
 use std::path::Path;
 
 /// Roots that exist under `plugins/source/`. Single source of truth for
 /// the allowed `kind` token in `--plugins kind/name`.
-pub const ALLOWED_KINDS: [&str; 2] = ["nam", "ir"];
+pub const ALLOWED_KINDS: [&str; 3] = ["nam", "ir", "lv2"];
 
 #[derive(Debug, Clone, Eq, PartialEq)]
 pub struct PluginSelector {
@@ -143,9 +144,15 @@ mod tests {
     }
 
     #[test]
+    fn parse_ok_lv2_kind() {
+        let s = PluginSelector::parse("lv2/mda_dubdelay").unwrap();
+        assert!(s.matches("lv2", "mda_dubdelay"));
+    }
+
+    #[test]
     fn parse_err_unknown_kind() {
-        let e = PluginSelector::parse("lv2/foo").unwrap_err().to_string();
-        assert!(e.contains("unknown kind 'lv2'"), "msg was: {e}");
+        let e = PluginSelector::parse("vst9/foo").unwrap_err().to_string();
+        assert!(e.contains("unknown kind 'vst9'"), "msg was: {e}");
     }
 
     #[test]

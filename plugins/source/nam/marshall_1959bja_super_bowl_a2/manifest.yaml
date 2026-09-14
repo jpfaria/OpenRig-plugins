@@ -1,0 +1,27 @@
+# Marshall 1959BJA with the settings Billie Joe Armstrong used at the Super
+# Bowl gig (tone3000 name "Marshall 1959BJA SUPER BOWL SETTINGS"). The knob
+# positions are not published, so this is a single-capture plugin rather than
+# a cell in the input/gain grid of marshall_1959bja_a2.
+manifest_version: 1
+id: nam_marshall_1959bja_super_bowl_a2
+display_name: 1959BJA Super Bowl
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/76884
+parameters:
+- name: default
+  display_name: Default
+  values:
+  - default
+captures:
+- values:
+    default: default
+  file: captures/super_bowl_settings_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
