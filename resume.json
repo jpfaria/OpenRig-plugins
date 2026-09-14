@@ -1,14 +1,14 @@
 {
-  "total_plugins": 657,
+  "total_plugins": 660,
   "by_backend": {
-    "nam": 341,
+    "nam": 344,
     "ir": 179,
     "lv2": 111,
     "vst3": 26
   },
   "by_block_type": {
     "gain_pedal": 189,
-    "amp": 165,
+    "amp": 168,
     "body": 114,
     "cab": 66,
     "preamp": 36,
@@ -39,7 +39,7 @@
       "wah": 1
     },
     "nam": {
-      "amp": 162,
+      "amp": 165,
       "gain_pedal": 143,
       "preamp": 36
     },
@@ -48,7 +48,7 @@
     }
   },
   "captures_by_backend": {
-    "nam": 5077,
+    "nam": 5319,
     "ir": 2120,
     "vst3": 0,
     "lv2": 0

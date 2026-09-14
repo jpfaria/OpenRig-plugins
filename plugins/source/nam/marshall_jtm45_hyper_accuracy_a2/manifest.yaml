@@ -1,0 +1,1062 @@
+# Marshall JTM 45 Reissue (2x5881, GZ34 rectifier) by slamminmofo, tone3000 #33505
+# ("Hyper Accuracy+"). Only architecture_version 2 models are shipped.
+#
+# Capture-name legend (SLAMMIN_MARSHALL_J45_V<n>[BOTH]_<WORD>_P<n>_<size>):
+#   V<n>   -> volume: treble-channel Volume I setting (VN<n> = normal-channel
+#             volume, input: normal). BOTH -> input: jumpered (channels
+#             jumpered); otherwise the bright hi-sensitivity input (treble).
+#   <WORD> -> preset: the author's EQ-setting description word (balanced,
+#             bright, cranked, fat, lo_cut, mids, scoop, warm, beano, beano_v2,
+#             beano_fat, cleanish, malcolmish, min_bass_max_mid_treble).
+#             TREBLEBOOSTER / SMOOTHDRVE / MORESMOOTHDRVE / SMOOTHERDRVE are
+#             pedals in front of the amp (per the description) -> boost axis;
+#             those captures name no EQ setting -> preset: default.
+#   P<n>   -> presence.
+# Dropped constant tokens: SLAMMIN, MARSHALL, J45. The size suffix (S / XS / C =
+# NAM Standard / xStandard / Complex training) is training metadata, not a
+# control: one capture per setting, preferring XS, else S, else C. Only
+# V3_BRIGHT_P8 had two sizes (S and C); S was kept.
+manifest_version: 1
+id: nam_marshall_jtm45_hyper_accuracy_a2
+display_name: JTM 45 Hyper Accuracy
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/33505
+parameters:
+- name: input
+  display_name: Input
+  values:
+  - treble
+  - jumpered
+  - normal
+- name: volume
+  display_name: Volume
+  values:
+  - 3
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+- name: boost
+  display_name: Boost
+  values:
+  - none
+  - treble_booster
+  - smooth_drive
+  - more_smooth_drive
+  - smoother_drive
+- name: preset
+  display_name: Preset
+  values:
+  - balanced
+  - bright
+  - cranked
+  - fat
+  - lo_cut
+  - mids
+  - scoop
+  - warm
+  - beano
+  - beano_v2
+  - beano_fat
+  - cleanish
+  - malcolmish
+  - min_bass_max_mid_treble
+  - default
+- name: presence
+  display_name: Presence
+  values:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 10
+captures:
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: balanced
+    presence: 2
+  file: captures/v3_balanced_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: balanced
+    presence: 5
+  file: captures/v3_balanced_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: balanced
+    presence: 8
+  file: captures/v3_balanced_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: bright
+    presence: 2
+  file: captures/v3_bright_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: bright
+    presence: 5
+  file: captures/v3_bright_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: bright
+    presence: 8
+  file: captures/v3_bright_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: cranked
+    presence: 3
+  file: captures/v3_cranked_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: cranked
+    presence: 7
+  file: captures/v3_cranked_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: cranked
+    presence: 10
+  file: captures/v3_cranked_p10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: fat
+    presence: 2
+  file: captures/v3_fat_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: fat
+    presence: 5
+  file: captures/v3_fat_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: fat
+    presence: 8
+  file: captures/v3_fat_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: lo_cut
+    presence: 2
+  file: captures/v3_locut_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: lo_cut
+    presence: 5
+  file: captures/v3_locut_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: lo_cut
+    presence: 8
+  file: captures/v3_locut_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: mids
+    presence: 2
+  file: captures/v3_mids_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: mids
+    presence: 5
+  file: captures/v3_mids_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: mids
+    presence: 8
+  file: captures/v3_mids_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: scoop
+    presence: 2
+  file: captures/v3_scoop_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: scoop
+    presence: 5
+  file: captures/v3_scoop_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: scoop
+    presence: 8
+  file: captures/v3_scoop_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: warm
+    presence: 3
+  file: captures/v3_warm_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.0
+- values:
+    input: treble
+    volume: 3
+    boost: none
+    preset: warm
+    presence: 6
+  file: captures/v3_warm_p6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: more_smooth_drive
+    preset: default
+    presence: 7
+  file: captures/v3_moresmoothdrve_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: smooth_drive
+    preset: default
+    presence: 7
+  file: captures/v3_smoothdrve_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 3
+    boost: smoother_drive
+    preset: default
+    presence: 4
+  file: captures/v3_smootherdrve_p4_a2.nam
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: balanced
+    presence: 2
+  file: captures/v5_balanced_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: balanced
+    presence: 5
+  file: captures/v5_balanced_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: balanced
+    presence: 8
+  file: captures/v5_balanced_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: bright
+    presence: 3
+  file: captures/v5_bright_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: bright
+    presence: 5
+  file: captures/v5_bright_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: bright
+    presence: 8
+  file: captures/v5_bright_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: cranked
+    presence: 4
+  file: captures/v5_cranked_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: cranked
+    presence: 7
+  file: captures/v5_cranked_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: cranked
+    presence: 10
+  file: captures/v5_cranked_p10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: fat
+    presence: 3
+  file: captures/v5_fat_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: fat
+    presence: 5
+  file: captures/v5_fat_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: fat
+    presence: 8
+  file: captures/v5_fat_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: lo_cut
+    presence: 3
+  file: captures/v5_locut_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: lo_cut
+    presence: 5
+  file: captures/v5_locut_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: lo_cut
+    presence: 8
+  file: captures/v5_locut_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: mids
+    presence: 3
+  file: captures/v5_mids_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: mids
+    presence: 5
+  file: captures/v5_mids_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: mids
+    presence: 8
+  file: captures/v5_mids_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: scoop
+    presence: 3
+  file: captures/v5_scoop_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: scoop
+    presence: 5
+  file: captures/v5_scoop_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: scoop
+    presence: 8
+  file: captures/v5_scoop_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: warm
+    presence: 3
+  file: captures/v5_warm_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 5
+    boost: none
+    preset: warm
+    presence: 6
+  file: captures/v5_warm_p6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 7
+    boost: treble_booster
+    preset: default
+    presence: 4
+  file: captures/v7_treblebooster_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: balanced
+    presence: 3
+  file: captures/v8_balanced_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: balanced
+    presence: 5
+  file: captures/v8_balanced_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: balanced
+    presence: 8
+  file: captures/v8_balanced_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: bright
+    presence: 3
+  file: captures/v8_bright_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: bright
+    presence: 5
+  file: captures/v8_bright_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: bright
+    presence: 8
+  file: captures/v8_bright_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: cranked
+    presence: 4
+  file: captures/v8_cranked_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: cranked
+    presence: 7
+  file: captures/v8_cranked_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: cranked
+    presence: 10
+  file: captures/v8_cranked_p10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: fat
+    presence: 3
+  file: captures/v8_fat_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: fat
+    presence: 5
+  file: captures/v8_fat_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: fat
+    presence: 8
+  file: captures/v8_fat_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: lo_cut
+    presence: 3
+  file: captures/v8_locut_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: lo_cut
+    presence: 5
+  file: captures/v8_locut_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: lo_cut
+    presence: 8
+  file: captures/v8_locut_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: mids
+    presence: 3
+  file: captures/v8_mids_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: mids
+    presence: 5
+  file: captures/v8_mids_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: mids
+    presence: 8
+  file: captures/v8_mids_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: scoop
+    presence: 3
+  file: captures/v8_scoop_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: scoop
+    presence: 5
+  file: captures/v8_scoop_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: scoop
+    presence: 8
+  file: captures/v8_scoop_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: warm
+    presence: 3
+  file: captures/v8_warm_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 8
+    boost: none
+    preset: warm
+    presence: 7
+  file: captures/v8_warm_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 9
+    boost: none
+    preset: malcolmish
+    presence: 1
+  file: captures/v9_malcolmish_p1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: beano
+    presence: 4
+  file: captures/v10_beano_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: beano_v2
+    presence: 4
+  file: captures/v10_beanov2_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: bright
+    presence: 8
+  file: captures/v10_bright_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: cranked
+    presence: 4
+  file: captures/v10_cranked_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: cranked
+    presence: 7
+  file: captures/v10_cranked_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: cranked
+    presence: 10
+  file: captures/v10_cranked_p10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: fat
+    presence: 4
+  file: captures/v10_fat_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: lo_cut
+    presence: 6
+  file: captures/v10_locut_p6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: lo_cut
+    presence: 10
+  file: captures/v10_locut_p10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: malcolmish
+    presence: 1
+  file: captures/v10_malcolmish_p1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: mids
+    presence: 8
+  file: captures/v10_mids_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: min_bass_max_mid_treble
+    presence: 5
+  file: captures/v10_minb_maxmt_p5_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: min_bass_max_mid_treble
+    presence: 10
+  file: captures/v10_minb_maxmt_p10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: scoop
+    presence: 7
+  file: captures/v10_scoop_p7_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: none
+    preset: warm
+    presence: 4
+  file: captures/v10_warm_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: treble_booster
+    preset: default
+    presence: 2
+  file: captures/v10_treblebooster_p2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: treble
+    volume: 10
+    boost: treble_booster
+    preset: default
+    presence: 3
+  file: captures/v10_treblebooster_p3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: jumpered
+    volume: 3
+    boost: none
+    preset: cleanish
+    presence: 6
+  file: captures/v3both_cleanish_p6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: jumpered
+    volume: 6
+    boost: none
+    preset: bright
+    presence: 8
+  file: captures/v6both_bright_p8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: jumpered
+    volume: 10
+    boost: none
+    preset: beano_fat
+    presence: 4
+  file: captures/v10both_beanofat_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: jumpered
+    volume: 10
+    boost: none
+    preset: bright
+    presence: 6
+  file: captures/v10both_bright_p6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: jumpered
+    volume: 10
+    boost: none
+    preset: cranked
+    presence: 4
+  file: captures/v10both_cranked_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: jumpered
+    volume: 10
+    boost: none
+    preset: fat
+    presence: 4
+  file: captures/v10both_fat_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    input: normal
+    volume: 9
+    boost: treble_booster
+    preset: default
+    presence: 4
+  file: captures/vn9_treblebooster_p4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

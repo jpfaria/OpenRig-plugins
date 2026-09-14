@@ -3,6 +3,8 @@ id: ir_fender_deluxe_reverb_oxford
 display_name: Deluxe Reverb Oxford
 brand: fender
 brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/27465
 type: cab
 backend: ir
 # Captures are a grab-bag of two voicings (big/lean) each in two file encodings

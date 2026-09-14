@@ -1,0 +1,1003 @@
+manifest_version: 1
+id: nam_bad_cat_lynx_50w_el34_a2
+display_name: Lynx 50W EL34
+brand: bad_cat
+output_gain_db: -0.7955626
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/30122
+# Only the full-amp "[AMP] ... - DI" A2 profiles of tone 30122 are imported.
+# Dropped constant tokens: "[AMP]", "Lynx50", "DI" (A2 DI reamp).
+# Legend (from the tone3000 description):
+#   load     CL = cabinet: amp loaded by a real Mesa 4x12 Oversized Straight cab
+#            RL = reactive: amp loaded by a St.Rock React:IR2 reactive load box
+#   channel  Ch1 / Ch2 of the Lynx 50W
+#   input    Hi / Lo input jack
+#   preset   the author's named setting; knob positions are only published in an
+#            external guide, not in the description, so they stay a preset axis.
+#            "(use with TS)" (RL naming) and "for TS" (CL naming) name the same
+#            setting and share one preset value (e.g. olala_for_ts_1).
+# Skipped: [PRE] preamp-only and [POW] poweramp-only profiles (not a full amp),
+# the [FRC] load-matching profile, and every A1 "- STD" row.
+parameters:
+- name: load
+  display_name: Load
+  values:
+  - cabinet
+  - reactive
+- name: channel
+  display_name: Channel
+  values:
+  - ch1
+  - ch2
+- name: input
+  display_name: Input
+  values:
+  - hi
+  - lo
+- name: preset
+  display_name: Preset
+  values:
+  - ashes_of_the_bake
+  - bandman
+  - barichug
+  - bit_more
+  - bluey
+  - bogdo
+  - brown_date
+  - brunch
+  - chugg_a_twang
+  - cleandom
+  - closure
+  - clues
+  - dark_tear
+  - dreamy
+  - drive_in
+  - drive_through
+  - early_demon_1
+  - early_demon_2
+  - elevated_chugz
+  - flat_claritone
+  - full_hair
+  - hello_there
+  - leading_1
+  - leading_2
+  - let_loose
+  - love_of_riff
+  - mane_1
+  - mane_2
+  - meczugga
+  - no_more
+  - noon_1
+  - noon_2
+  - noon_3
+  - noon_4
+  - ogdo
+  - olala_1
+  - olala_2
+  - olala_3
+  - olala_crank_for_ts_1
+  - olala_for_ts_1
+  - olala_for_ts_2
+  - one_dime
+  - pickup_lines
+  - redroit
+  - roasted_fish
+  - shaq_n_bake
+  - slayer_of_mopeds
+  - smokey
+  - spankin_tele
+  - stratus
+  - twister_1
+  - twister_2
+  - used_issues
+  - varychug
+captures:
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: bandman
+  file: captures/cl_ch1_hi_bandman_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: bit_more
+  file: captures/cl_ch1_hi_bit_more_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: bogdo
+  file: captures/cl_ch1_hi_bogdo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: brown_date
+  file: captures/cl_ch1_hi_brown_date_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: hello_there
+  file: captures/cl_ch1_hi_hello_there_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: leading_1
+  file: captures/cl_ch1_hi_leading_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: mane_1
+  file: captures/cl_ch1_hi_mane_1_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: no_more
+  file: captures/cl_ch1_hi_no_more_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: ogdo
+  file: captures/cl_ch1_hi_ogdo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: olala_3
+  file: captures/cl_ch1_hi_olala_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: one_dime
+  file: captures/cl_ch1_hi_one_dime_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: pickup_lines
+  file: captures/cl_ch1_hi_pickup_lines_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: slayer_of_mopeds
+  file: captures/cl_ch1_hi_slayer_of_mopeds_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: smokey
+  file: captures/cl_ch1_hi_smokey_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: twister_1
+  file: captures/cl_ch1_hi_twister_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: twister_2
+  file: captures/cl_ch1_hi_twister_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: hi
+    preset: varychug
+  file: captures/cl_ch1_hi_varychug_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: barichug
+  file: captures/cl_ch1_lo_barichug_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: bluey
+  file: captures/cl_ch1_lo_bluey_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: brunch
+  file: captures/cl_ch1_lo_brunch_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: cleandom
+  file: captures/cl_ch1_lo_cleandom_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: clues
+  file: captures/cl_ch1_lo_clues_a2.nam
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: dreamy
+  file: captures/cl_ch1_lo_dreamy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: drive_in
+  file: captures/cl_ch1_lo_drive_in_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: mane_2
+  file: captures/cl_ch1_lo_mane_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: noon_1
+  file: captures/cl_ch1_lo_noon_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: noon_2
+  file: captures/cl_ch1_lo_noon_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: noon_3
+  file: captures/cl_ch1_lo_noon_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: noon_4
+  file: captures/cl_ch1_lo_noon_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: roasted_fish
+  file: captures/cl_ch1_lo_roasted_fish_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: shaq_n_bake
+  file: captures/cl_ch1_lo_shaq_n_bake_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch1
+    input: lo
+    preset: spankin_tele
+  file: captures/cl_ch1_lo_spankin_tele_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: ashes_of_the_bake
+  file: captures/cl_ch2_hi_ashes_of_the_bake_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: chugg_a_twang
+  file: captures/cl_ch2_hi_chugg_a_twang_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: closure
+  file: captures/cl_ch2_hi_closure_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: drive_through
+  file: captures/cl_ch2_hi_drive_through_a2.nam
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: early_demon_2
+  file: captures/cl_ch2_hi_early_demon_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: elevated_chugz
+  file: captures/cl_ch2_hi_elevated_chugz_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: flat_claritone
+  file: captures/cl_ch2_hi_flat_claritone_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: full_hair
+  file: captures/cl_ch2_hi_full_hair_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: leading_2
+  file: captures/cl_ch2_hi_leading_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: love_of_riff
+  file: captures/cl_ch2_hi_love_of_riff_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: meczugga
+  file: captures/cl_ch2_hi_meczugga_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: olala_1
+  file: captures/cl_ch2_hi_olala_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: olala_crank_for_ts_1
+  file: captures/cl_ch2_hi_olala_crank_for_ts_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: olala_for_ts_1
+  file: captures/cl_ch2_hi_olala_for_ts_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: olala_for_ts_2
+  file: captures/cl_ch2_hi_olala_for_ts_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: redroit
+  file: captures/cl_ch2_hi_redroit_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: stratus
+  file: captures/cl_ch2_hi_stratus_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: hi
+    preset: used_issues
+  file: captures/cl_ch2_hi_used_issues_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: lo
+    preset: early_demon_1
+  file: captures/cl_ch2_lo_early_demon_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: cabinet
+    channel: ch2
+    input: lo
+    preset: let_loose
+  file: captures/cl_ch2_lo_let_loose_a2.nam
+- values:
+    load: cabinet
+    channel: ch2
+    input: lo
+    preset: olala_2
+  file: captures/cl_ch2_lo_olala_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: bandman
+  file: captures/rl_ch1_hi_bandman_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: bit_more
+  file: captures/rl_ch1_hi_bit_more_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: bogdo
+  file: captures/rl_ch1_hi_bogdo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: brown_date
+  file: captures/rl_ch1_hi_brown_date_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: hello_there
+  file: captures/rl_ch1_hi_hello_there_a2.nam
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: leading_1
+  file: captures/rl_ch1_hi_leading_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: mane_1
+  file: captures/rl_ch1_hi_mane_1_a2.nam
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: no_more
+  file: captures/rl_ch1_hi_no_more_a2.nam
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: noon_1
+  file: captures/rl_ch1_hi_noon_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: noon_2
+  file: captures/rl_ch1_hi_noon_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: ogdo
+  file: captures/rl_ch1_hi_ogdo_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: olala_3
+  file: captures/rl_ch1_hi_olala_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: one_dime
+  file: captures/rl_ch1_hi_one_dime_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: pickup_lines
+  file: captures/rl_ch1_hi_pickup_lines_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: slayer_of_mopeds
+  file: captures/rl_ch1_hi_slayer_of_mopeds_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: smokey
+  file: captures/rl_ch1_hi_smokey_a2.nam
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: twister_1
+  file: captures/rl_ch1_hi_twister_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: twister_2
+  file: captures/rl_ch1_hi_twister_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: hi
+    preset: varychug
+  file: captures/rl_ch1_hi_varychug_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: barichug
+  file: captures/rl_ch1_lo_barichug_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: bluey
+  file: captures/rl_ch1_lo_bluey_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: cleandom
+  file: captures/rl_ch1_lo_cleandom_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: clues
+  file: captures/rl_ch1_lo_clues_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: dreamy
+  file: captures/rl_ch1_lo_dreamy_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: drive_in
+  file: captures/rl_ch1_lo_drive_in_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: mane_2
+  file: captures/rl_ch1_lo_mane_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: roasted_fish
+  file: captures/rl_ch1_lo_roasted_fish_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: shaq_n_bake
+  file: captures/rl_ch1_lo_shaq_n_bake_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch1
+    input: lo
+    preset: spankin_tele
+  file: captures/rl_ch1_lo_spankin_tele_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: ashes_of_the_bake
+  file: captures/rl_ch2_hi_ashes_of_the_bake_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: chugg_a_twang
+  file: captures/rl_ch2_hi_chugg_a_twang_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: closure
+  file: captures/rl_ch2_hi_closure_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: dark_tear
+  file: captures/rl_ch2_hi_dark_tear_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: drive_through
+  file: captures/rl_ch2_hi_drive_through_a2.nam
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: elevated_chugz
+  file: captures/rl_ch2_hi_elevated_chugz_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: flat_claritone
+  file: captures/rl_ch2_hi_flat_claritone_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: full_hair
+  file: captures/rl_ch2_hi_full_hair_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: leading_2
+  file: captures/rl_ch2_hi_leading_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: love_of_riff
+  file: captures/rl_ch2_hi_love_of_riff_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: meczugga
+  file: captures/rl_ch2_hi_meczugga_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: noon_4
+  file: captures/rl_ch2_hi_noon_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: olala_1
+  file: captures/rl_ch2_hi_olala_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: olala_crank_for_ts_1
+  file: captures/rl_ch2_hi_olala_crank_use_with_ts_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: olala_for_ts_1
+  file: captures/rl_ch2_hi_olala_use_with_ts_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: olala_for_ts_2
+  file: captures/rl_ch2_hi_olala_use_with_ts_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: redroit
+  file: captures/rl_ch2_hi_redroit_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: stratus
+  file: captures/rl_ch2_hi_stratus_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: hi
+    preset: used_issues
+  file: captures/rl_ch2_hi_used_issues_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: lo
+    preset: early_demon_1
+  file: captures/rl_ch2_lo_early_demon_1_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: lo
+    preset: early_demon_2
+  file: captures/rl_ch2_lo_early_demon_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: lo
+    preset: let_loose
+  file: captures/rl_ch2_lo_let_loose_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: lo
+    preset: noon_3
+  file: captures/rl_ch2_lo_noon_3_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0
+- values:
+    load: reactive
+    channel: ch2
+    input: lo
+    preset: olala_2
+  file: captures/rl_ch2_lo_olala_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.0

@@ -5,6 +5,8 @@ id: ir_vox_ac30_blue
 display_name: AC30 Blue
 brand: vox
 brand_logo: assets/brand_logo.svg
+sources:
+- https://www.tone3000.com/tones/27468
 type: cab
 backend: ir
 parameters:
