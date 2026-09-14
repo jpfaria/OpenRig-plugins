@@ -194,6 +194,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_mesa_boogie_mark_iv_a2` | Mark IV | mesa |
 | `nam_mesa_boogie_mark_vii_a2` | Mark VII | mesa |
 | `nam_mesa_dual_rectifier_multiwatt_a2` | Dual Rectifier Multi-Watt | mesa |
+| `nam_mesa_dual_rectifier_mw_red_modern_full_rig_a2` | Dual Rectifier Multi-Watt Red Modern Full Rig | mesa |
 | `nam_mesa_dual_rectifier_rev_f_a2` | Dual Rectifier Rev F | mesa |
 | `nam_mesa_mark_iv` | Mark IV | mesa |
 | `nam_mesa_mark_v_a2` | Mark V | mesa |
