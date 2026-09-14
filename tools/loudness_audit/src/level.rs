@@ -36,6 +36,12 @@ pub const TARGET_PEAK_DBFS: f32 = -1.0;
 pub const OUTPUT_KNOB_MIN_DB: f32 = -24.0;
 pub const OUTPUT_KNOB_MAX_DB: f32 = 24.0;
 
+/// Highest pre-makeup IR reference peak the Output knob can still pull
+/// down to the target. A hotter `.wav` is scaled down by `qa_fix`
+/// ([`ir_knob_fit_scale`]) — level stays the manifest's job, but only
+/// within what the knob can represent.
+pub const IR_LEVEL_PEAK_CEILING_DBFS: f32 = TARGET_PEAK_DBFS - OUTPUT_KNOB_MIN_DB;
+
 /// Allowed distance (dB) between a block's post-gain reference peak and
 /// the target before `qa::check_level` fails.
 pub const LEVEL_TOLERANCE_DB: f32 = 0.1;
@@ -90,6 +96,16 @@ pub fn ir_level_peak_dbfs(ir: &[f32], di: &[f32], role: IrRole) -> f32 {
             .map(|p| peak_dbfs(&convolve(p, ir)))
             .fold(f32::NEG_INFINITY, f32::max),
     }
+}
+
+/// Linear scale (≤ 1) that brings an IR's reference peak down to
+/// [`IR_LEVEL_PEAK_CEILING_DBFS`]; 1.0 when it already fits the knob.
+pub fn ir_knob_fit_scale(ir: &[f32], di: &[f32], role: IrRole) -> f32 {
+    let peak = ir_level_peak_dbfs(ir, di, role);
+    if !peak.is_finite() || peak <= IR_LEVEL_PEAK_CEILING_DBFS {
+        return 1.0;
+    }
+    db_to_lin(IR_LEVEL_PEAK_CEILING_DBFS - peak)
 }
 
 fn normalised_to_target(x: &[f32]) -> Vec<f32> {
@@ -152,6 +168,24 @@ mod tests {
         let delta = [1.0_f32];
         assert!((ir_level_peak_dbfs(&delta, &di, IrRole::Cab) - TARGET_PEAK_DBFS).abs() < 0.01);
         assert!((ir_level_peak_dbfs(&delta, &di, IrRole::Body) - peak_dbfs(&di)).abs() < 0.01);
+    }
+
+    #[test]
+    fn hot_ir_is_scaled_so_its_makeup_lands_on_the_knob_floor() {
+        let di = default_guitar_di();
+        let hot = [32.0_f32]; // +30.1 dB: needs ~-31 dB, beyond the knob
+        let s = ir_knob_fit_scale(&hot, &di, IrRole::Cab);
+        let fitted = [hot[0] * s];
+        let peak = ir_level_peak_dbfs(&fitted, &di, IrRole::Cab);
+        assert!((peak - IR_LEVEL_PEAK_CEILING_DBFS).abs() < 0.01, "peak {peak}");
+        assert!((target_gain_db(peak) - OUTPUT_KNOB_MIN_DB).abs() < 0.01);
+    }
+
+    #[test]
+    fn ir_within_knob_range_is_left_alone() {
+        let di = default_guitar_di();
+        assert_eq!(ir_knob_fit_scale(&[4.0_f32], &di, IrRole::Cab), 1.0);
+        assert_eq!(ir_knob_fit_scale(&[1.0_f32], &di, IrRole::Body), 1.0);
     }
 
     #[test]
