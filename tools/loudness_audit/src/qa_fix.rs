@@ -3,8 +3,8 @@
 //!
 //! Per capture: remove DC and resample to 48 kHz with windowed sinc
 //! when needed. Then a CEILING-ONLY convolution cap (issue #21):
-//! quiet captures pass through at natural level so the boost-only
-//! audit (#4) can see their insertion loss; only intrinsically-hot
+//! quiet captures pass through at natural level (the manifest
+//! `output_gain_db` makes up for it, #143); only intrinsically-hot
 //! captures whose convolution with the synthetic DI would exceed the
 //! ceiling are scaled down — never up.
 //!
@@ -148,7 +148,7 @@ fn fix_one(path: &Path, probe: &[f32], dst_sr: u32) -> Result<FixResult> {
 
     // Max convolved peak across all channels — that's the one that
     // would clip downstream. If it's already below the ceiling, no
-    // scaling at all (the boost-only audit needs the natural level).
+    // scaling at all (level is the manifest's job, #143).
     let max_peak_db = channels
         .iter()
         .map(|ch| peak_dbfs(&convolve(probe, ch)))

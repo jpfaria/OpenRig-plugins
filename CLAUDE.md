@@ -44,8 +44,10 @@ CI's responsibility. Only run `pack_plugins` here when you specifically
 need to reproduce a packing/manifest-parse failure.
 
 `qa_audit` asserts hard thresholds per plugin (clip / silence / DC / HF
-aliasing / LUFS sanity, per-class for linear vs nonlinear blocks) and a
-chain-summation check. Any failure is a red gate.
+aliasing / LUFS sanity, per-class for linear vs nonlinear blocks), the
+output level (every NAM/IR reference peak on −1 dBFS, max without
+clipping — `output_gain_db` is written by `loudness_audit`, never by hand,
+#143) and a chain-summation check. Any failure is a red gate.
 
 **Validating audio by ear is FORBIDDEN.** Every sonic regression that
 ships once is encoded as a deterministic threshold in

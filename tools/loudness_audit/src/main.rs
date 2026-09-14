@@ -1,35 +1,20 @@
 //! `loudness_audit` — writes `output_gain_db` into each plugin
-//! `manifest.yaml`, measured with a deterministic synthetic guitar DI.
-//! Serves both backends:
+//! `manifest.yaml` so every block plays at the maximum level that does
+//! not clip (issue #143). The policy lives in [`loudness_audit::level`];
+//! this binary measures and writes:
 //!
-//! - NAM (`amp`/`preamp`/`gain_pedal`): the DI is run through the
-//!   `.nam` model. One `output_gain_db` per manifest.
-//! - IR (`cab`/`body`): the DI is convolved through each capture's
-//!   `.wav`. One `output_gain_db` PER capture, since each `.wav` in
-//!   the grid changes level differently (issue #8).
+//! - NAM (`amp`/`preamp`/`gain_pedal`): the synthetic DI is run through
+//!   EVERY capture. One manifest-level value — the engine seeds one per
+//!   block — puts the loudest capture's peak on the target.
+//! - IR (`cab`/`body`): one value PER capture (issue #8; the engine
+//!   re-seeds the Output knob when the capture changes). A cab is levelled
+//!   against amp-level probes, a body against the DI.
 //!
-//! The correction is static manifest metadata: running this binary
-//! before a release refreshes the persisted offset so the app applies
-//! it as a constant gain.
-//!
-//! Strategy — BOOST-ONLY insertion makeup (issue #4):
-//!   gain = max(0, LUFS_in − LUFS_out)
-//!     LUFS_in  = integrated LUFS of the dry DI
-//!     LUFS_out = integrated LUFS after the block (model / IR)
-//!
-//! - `output_gain_db` is the user-visible DEFAULT of the block's
-//!   output-level knob, seeded by the engine's block factory at
-//!   creation time. It is NOT an invisible internal correction.
-//! - BOOST-ONLY: a block that loses level (LUFS_out < LUFS_in) gets a
-//!   positive makeup; a block that adds level (an amp, a hot IR)
-//!   gets 0 — never a negative default. Adding an amp and seeing
-//!   "−15 dB" already on the slider is not what the user expects.
-//! - True-peak safety: the positive makeup is capped so applying it
-//!   cannot push the post-block peak past 0 dBFS.
-//! - The signed correction shipped earlier (issue #9, now superseded)
-//!   wrote negative defaults for every block that naturally amplifies,
-//!   forcing the user to fight the default just to get the level they
-//!   expect from a real amp.
+//! `output_gain_db` is the user-visible DEFAULT of the block's Output
+//! knob, seeded by the engine's block factory — not an invisible internal
+//! correction. It is signed (quiet blocks boosted, hot ones cut) and
+//! clamped to the knob range. Supersedes the boost-only LUFS rule (#4) and
+//! the spectral-unity IR rule (#23).
 //!
 //! Usage:
 //!
@@ -44,39 +29,20 @@ use std::collections::HashMap;
 use std::fs;
 use std::path::{Path, PathBuf};
 
-use nam::processor::{close_model_diag, nam_process, open_model_diag};
 use loudness_audit::ir::load_wav_ir;
-use loudness_audit::loudness::{
-    apply_output_limiter, db_to_lin, integrated_lufs, peak_dbfs,
-};
-use loudness_audit::qa::peak_spectral_magnitude_db;
+use loudness_audit::level::{ir_level_peak_dbfs, target_gain_db, IrRole, TARGET_PEAK_DBFS};
+use loudness_audit::nam_run::nam_level_peaks_dbfs;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
 
-/// True-peak safety ceiling in dBFS. The makeup is capped so the
-/// post-block peak never exceeds digital full scale; a model whose raw
-/// output is already above this is attenuated down to it. Clip guard,
-/// not a loudness target.
-const PEAK_CEILING_DBFS: f32 = 0.0;
-
-/// Runaway guard, symmetric. A broken near-silent capture would
-/// otherwise demand an enormous positive gain to reach the DI's
-/// loudness; an extremely hot model would demand a huge negative one.
-/// Bounds the applied gain to ±this many dB.
-const MAX_GAIN_DB: f32 = 60.0;
-
-/// Insertion makeup gain (dB) for a NAM block.
-///
-/// Loudness makeup is **boost-only**: a quiet block is brought up to the
-/// DI's loudness, but a block that is merely louder than the DI keeps its
-/// 0 dB default (the user can turn it down). Peak safety is a **hard
-/// ceiling that may go negative**: a model whose raw peak exceeds
-/// `PEAK_CEILING_DBFS` is attenuated down to it. A2 (SlimmableContainer)
-/// models can peak far above full scale, so this is what stops them
-/// clipping — the runtime applies the same `output_gain_db`.
-fn insertion_gain_db(want_for_lufs: f32, measured_peak_dbfs: f32) -> f32 {
-    let peak_headroom = PEAK_CEILING_DBFS - measured_peak_dbfs;
-    let makeup = want_for_lufs.min(MAX_GAIN_DB).max(0.0);
-    makeup.min(peak_headroom).max(-MAX_GAIN_DB)
+/// NAM `output_gain_db`: the engine applies one value to every capture of
+/// the block, so it is sized on the loudest one — no capture may clip.
+fn nam_gain_db(capture_peaks_dbfs: &[f32]) -> f32 {
+    target_gain_db(
+        capture_peaks_dbfs
+            .iter()
+            .copied()
+            .fold(f32::NEG_INFINITY, f32::max),
+    )
 }
 
 fn main() -> Result<()> {
@@ -84,8 +50,8 @@ fn main() -> Result<()> {
     if args.len() < 2 {
         eprintln!("usage: loudness_audit <plugins-root>");
         eprintln!();
-        eprintln!("Expects a directory whose immediate children are NAM plugin");
-        eprintln!("packages (each carrying its own manifest.yaml + captures/).");
+        eprintln!("Expects a directory whose immediate children are NAM or IR");
+        eprintln!("plugin packages (each carrying its own manifest.yaml).");
         std::process::exit(2);
     }
     let root = PathBuf::from(&args[1]);
@@ -96,13 +62,11 @@ fn main() -> Result<()> {
     let di = default_guitar_di();
 
     eprintln!("DI: {} samples @ {} Hz", di.len(), DI_SAMPLE_RATE as u32);
-    eprintln!(
-        "boost-only insertion makeup; true-peak cap {PEAK_CEILING_DBFS:+.2} dBFS, boost cap {MAX_GAIN_DB:+.0} dB"
-    );
+    eprintln!("target peak {TARGET_PEAK_DBFS:+.2} dBFS (max level without clipping)");
     eprintln!();
     eprintln!(
-        "{:<48} {:>8} {:>8} {:>8} {:>8}",
-        "plugin", "lufs", "peak", "want_lu", "applied"
+        "{:<48} {:>5} {:>8} {:>8}",
+        "plugin", "caps", "peak", "applied"
     );
 
     let mut entries: Vec<PathBuf> = fs::read_dir(&root)?
@@ -118,27 +82,20 @@ fn main() -> Result<()> {
         if !manifest_path.is_file() {
             continue;
         }
+        let label = plugin_dir
+            .file_name()
+            .and_then(|s| s.to_str())
+            .unwrap_or("<?>")
+            .to_string();
         match audit_plugin(&plugin_dir, &manifest_path, &di) {
             Ok(report) => {
-                let label = plugin_dir
-                    .file_name()
-                    .and_then(|s| s.to_str())
-                    .unwrap_or("<?>");
                 eprintln!(
-                    "{:<48} {:>+7.2}  {:>+7.2}  {:>+7.2}  {:>+7.2}",
-                    label,
-                    report.measured_lufs,
-                    report.measured_peak_dbfs,
-                    report.want_for_lufs_db,
-                    report.applied_gain_db
+                    "{:<48} {:>5} {:>+7.2}  {:>+7.2}",
+                    label, report.captures, report.peak_dbfs, report.applied_gain_db
                 );
                 audited += 1;
             }
             Err(e) => {
-                let label = plugin_dir
-                    .file_name()
-                    .and_then(|s| s.to_str())
-                    .unwrap_or("<?>");
                 eprintln!("SKIP {label}: {e}");
                 skipped += 1;
             }
@@ -151,85 +108,44 @@ fn main() -> Result<()> {
 }
 
 struct AuditReport {
-    measured_lufs: f32,
-    measured_peak_dbfs: f32,
-    want_for_lufs_db: f32,
+    captures: usize,
+    /// Loudest pre-gain reference peak across the captures (dBFS).
+    peak_dbfs: f32,
+    /// The NAM value, or the mean of the per-capture IR values.
     applied_gain_db: f32,
 }
 
-fn audit_plugin(
-    plugin_dir: &Path,
-    manifest_path: &Path,
-    di: &[f32],
-) -> Result<AuditReport> {
+fn audit_plugin(plugin_dir: &Path, manifest_path: &Path, di: &[f32]) -> Result<AuditReport> {
     let raw = fs::read_to_string(manifest_path)
         .with_context(|| format!("read {}", manifest_path.display()))?;
     let block_type = manifest_block_type(&raw).unwrap_or_else(|| "<unknown>".into());
     if !is_loudness_normalisable(&block_type) {
         bail!("type `{block_type}` is not loudness-normalised");
     }
-    if matches!(block_type.as_str(), "cab" | "body") {
-        return audit_ir_plugin(plugin_dir, manifest_path, &raw, di);
+    match block_type.as_str() {
+        "cab" => return audit_ir_plugin(plugin_dir, manifest_path, &raw, di, IrRole::Cab),
+        "body" => return audit_ir_plugin(plugin_dir, manifest_path, &raw, di, IrRole::Body),
+        _ => {}
     }
-    let first_capture = first_capture_file(&raw)
-        .ok_or_else(|| anyhow!("no `captures:[].file` entry in manifest"))?;
-    let model_path = plugin_dir.join(&first_capture);
-    let model_path_str = model_path
-        .to_str()
-        .ok_or_else(|| anyhow!("non-utf8 capture path: {model_path:?}"))?;
-
-    let model = open_model_diag(model_path_str)
-        .with_context(|| format!("failed to load {model_path_str}"))?;
-    let mut output = vec![0.0_f32; di.len()];
-    unsafe {
-        nam_process(model, di, &mut output);
-        close_model_diag(model);
+    let models: Vec<PathBuf> = all_capture_files(&raw)
+        .into_iter()
+        .map(|f| plugin_dir.join(f))
+        .collect();
+    if models.is_empty() {
+        bail!("no `captures:[].file` entry in manifest");
     }
-
-    // Insertion makeup: bring quiet blocks up to the DI's loudness
-    // (boost-only), and attenuate models that would otherwise clip. A2
-    // SlimmableContainer models can peak far above full scale, so a
-    // negative default is required — the runtime applies this same
-    // output_gain_db, and qa_audit checks the post-gain signal.
-    let lufs_in = integrated_lufs(di, DI_SAMPLE_RATE as u32);
-    let measured_lufs = integrated_lufs(&output, DI_SAMPLE_RATE as u32);
-    let measured_peak_dbfs = peak_dbfs(&output);
-
-    let want_for_lufs = lufs_in - measured_lufs;
-    let applied = insertion_gain_db(want_for_lufs, measured_peak_dbfs);
+    let peaks = nam_level_peaks_dbfs(di, DI_SAMPLE_RATE as u32, &models)?;
+    let applied = nam_gain_db(&peaks);
 
     let updated = upsert_output_gain_db(&raw, applied);
     fs::write(manifest_path, updated)
         .with_context(|| format!("write {}", manifest_path.display()))?;
 
     Ok(AuditReport {
-        measured_lufs,
-        measured_peak_dbfs,
-        want_for_lufs_db: want_for_lufs,
+        captures: models.len(),
+        peak_dbfs: peaks.iter().copied().fold(f32::NEG_INFINITY, f32::max),
         applied_gain_db: applied,
     })
-}
-
-/// Spectral-unity insertion makeup for one IR (issue #23):
-/// `output_gain_db = −peak_spectral_magnitude_db(ir)`. IR is a linear
-/// filter; its peak DFT magnitude is the worst-case gain it can apply
-/// to any single sine. Compensating by the negative of that value
-/// makes `max |H(f)| = 0 dB` post-makeup — a sine at the resonance
-/// frequency can no longer exceed input level, regardless of how
-/// narrow the bump is or how broadband the audit probe was.
-///
-/// Sign departs from the boost-only NAM rule (#4): a resonant cab IR
-/// IS a hot block and the user-facing default has to reflect that or
-/// the chain pumps the limiter as in OpenRig#542.
-///
-/// Bounded to `[-MAX_GAIN_DB, MAX_GAIN_DB]` so a broken capture with
-/// pathological resonance does not produce a runaway makeup value.
-fn ir_capture_gain_db(_di: &[f32], ir: &[f32]) -> f32 {
-    let max_h_db = peak_spectral_magnitude_db(ir, DI_SAMPLE_RATE as u32);
-    if !max_h_db.is_finite() {
-        return 0.0;
-    }
-    (-max_h_db).clamp(-MAX_GAIN_DB, MAX_GAIN_DB)
 }
 
 fn audit_ir_plugin(
@@ -237,28 +153,30 @@ fn audit_ir_plugin(
     manifest_path: &Path,
     raw: &str,
     di: &[f32],
+    role: IrRole,
 ) -> Result<AuditReport> {
     let files = all_capture_files(raw);
     if files.is_empty() {
         bail!("no `captures:[].file` entry in manifest");
     }
     let mut gains: Vec<(String, f32)> = Vec::with_capacity(files.len());
-    let mut sum = 0.0_f32;
+    let mut loudest = f32::NEG_INFINITY;
     for f in &files {
-        let ir = load_wav_ir(&plugin_dir.join(f))
-            .with_context(|| format!("load IR {f}"))?;
-        let g = ir_capture_gain_db(di, &ir);
-        sum += g;
-        gains.push((f.clone(), g));
+        let ir = load_wav_ir(&plugin_dir.join(f)).with_context(|| format!("load IR {f}"))?;
+        let peak = ir_level_peak_dbfs(&ir, di, role);
+        if !peak.is_finite() {
+            return Err(anyhow!("IR {f} has no measurable output"));
+        }
+        loudest = loudest.max(peak);
+        gains.push((f.clone(), target_gain_db(peak)));
     }
     let updated = upsert_capture_output_gain_db(raw, &gains);
     fs::write(manifest_path, updated)
         .with_context(|| format!("write {}", manifest_path.display()))?;
-    let mean = sum / files.len() as f32;
+    let mean = gains.iter().map(|(_, g)| g).sum::<f32>() / gains.len() as f32;
     Ok(AuditReport {
-        measured_lufs: f32::NAN,
-        measured_peak_dbfs: f32::NAN,
-        want_for_lufs_db: mean,
+        captures: files.len(),
+        peak_dbfs: loudest,
         applied_gain_db: mean,
     })
 }
@@ -275,41 +193,14 @@ fn manifest_block_type(yaml: &str) -> Option<String> {
     None
 }
 
-/// Blocks that take loudness normalisation. Each gets a calibrated
-/// `output_gain_db` so toggling the block in the chain does NOT change
-/// perceived volume — only tone/saturation.
-///
-/// `amp`/`preamp`/`gain_pedal` are NAM captures: the gain is measured
-/// from the model output on the synthetic DI (issue #413).
-///
-/// `cab`/`body` are IR captures: an IR is a linear filter with real
-/// insertion loss, so its makeup is measured per capture by convolving
-/// the same synthetic DI through the `.wav` (issue #8). They are NOT
-/// loudness-neutral spectral shapers — uncompensated they drop level.
+/// Blocks that get a calibrated `output_gain_db`: NAM `amp`/`preamp`/
+/// `gain_pedal` (measured through the model) and IR `cab`/`body`
+/// (measured by convolution, per capture).
 fn is_loudness_normalisable(block_type: &str) -> bool {
     matches!(
         block_type,
         "amp" | "preamp" | "gain_pedal" | "cab" | "body"
     )
-}
-
-fn first_capture_file(yaml: &str) -> Option<String> {
-    let mut in_captures = false;
-    for line in yaml.lines() {
-        let trimmed = line.trim_start();
-        if trimmed.starts_with("captures:") {
-            in_captures = true;
-            continue;
-        }
-        if !in_captures {
-            continue;
-        }
-        let after_dash = trimmed.strip_prefix("- ").unwrap_or(trimmed);
-        if let Some(rest) = after_dash.strip_prefix("file:") {
-            return Some(rest.trim().trim_matches('"').trim_matches('\'').to_string());
-        }
-    }
-    None
 }
 
 /// Every `file:` under `captures:`, in document order.
@@ -426,40 +317,16 @@ fn upsert_capture_output_gain_db(yaml: &str, gains: &[(String, f32)]) -> String 
     }
 }
 
-// Silence dead-code warning when used only in the binary path.
-#[allow(dead_code)]
-fn _suppress_unused() {
-    let _ = (db_to_lin(0.0), apply_output_limiter as fn(&mut [f32]));
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
 
     #[test]
-    fn quiet_block_is_boosted_to_di() {
-        // model 10 dB below the DI, peaking well under the ceiling: full boost.
-        assert!((insertion_gain_db(10.0, -20.0) - 10.0).abs() < 1e-3);
-    }
-
-    #[test]
-    fn loud_but_unclipped_block_keeps_zero_default() {
-        // louder than the DI in loudness but peak below the ceiling:
-        // boost-only leaves it at 0 (no gratuitous attenuation).
-        assert_eq!(insertion_gain_db(-8.0, -2.0), 0.0);
-    }
-
-    #[test]
-    fn hot_block_is_attenuated_to_the_ceiling() {
-        // A2 model peaking +13 dBFS: must be pulled down to the 0 dB
-        // ceiling with a NEGATIVE gain. Pre-fix (boost-only) this was 0,
-        // which is exactly the clip the gate flagged.
-        assert!((insertion_gain_db(-15.0, 13.0) - (-13.0)).abs() < 1e-3);
-    }
-
-    #[test]
-    fn attenuation_is_bounded_by_runaway_guard() {
-        assert_eq!(insertion_gain_db(-200.0, 200.0), -MAX_GAIN_DB);
+    fn nam_gain_sizes_on_loudest_capture() {
+        // clean -20, lead -4 dBFS: one value for the whole block, so the
+        // lead capture must land on the target and never clip.
+        let g = nam_gain_db(&[-20.0, -4.0, -9.0]);
+        assert!((g - (loudness_audit::level::TARGET_PEAK_DBFS + 4.0)).abs() < 1e-4);
     }
 
     #[test]
@@ -488,15 +355,6 @@ mod tests {
     }
 
     #[test]
-    fn finds_first_capture_file() {
-        let yaml = "captures:\n- file: captures/clean.nam\n";
-        assert_eq!(
-            first_capture_file(yaml),
-            Some("captures/clean.nam".to_string())
-        );
-    }
-
-    #[test]
     fn reads_block_type() {
         let yaml = "id: x\ntype: amp\n";
         assert_eq!(manifest_block_type(yaml), Some("amp".to_string()));
@@ -509,6 +367,12 @@ mod tests {
             all_capture_files(yaml),
             vec!["ir/one.wav".to_string(), "ir/two.wav".to_string()]
         );
+    }
+
+    #[test]
+    fn capture_list_stops_at_next_top_level_key() {
+        let yaml = "captures:\n- file: captures/a.nam\n  noise_gate:\n    enabled: true\nnoise_gate:\n  enabled: false\n";
+        assert_eq!(all_capture_files(yaml), vec!["captures/a.nam".to_string()]);
     }
 
     #[test]
@@ -531,24 +395,5 @@ mod tests {
         let out = upsert_capture_output_gain_db(yaml, &gains);
         assert!(out.contains("output_gain_db: 7.0000000"));
         assert!(!out.contains("1.0000000"));
-    }
-
-    #[test]
-    fn ir_makeup_targets_spectral_unity() {
-        let di = loudness_audit::synthetic_di::default_guitar_di();
-
-        // ×0.5 IR has max|H| = 0.5 (≈ −6 dB). Makeup is −(−6) = +6 dB
-        // so post-makeup max|H| = 1 (0 dB).
-        let ir_atten = vec![0.5_f32];
-        let g = ir_capture_gain_db(&di, &ir_atten);
-        assert!((g - 6.0206).abs() < 0.01, "attenuating IR makeup was {g}");
-
-        // ×2 IR has max|H| = 2 (≈ +6 dB). Makeup is −(+6) = −6 dB —
-        // the negative default the boost-only NAM rule rejects but
-        // the spectral-unity IR rule embraces. Without this cut a
-        // sine at any frequency would convolve to +6 dB.
-        let ir_boost = vec![2.0_f32];
-        let g2 = ir_capture_gain_db(&di, &ir_boost);
-        assert!((g2 - -6.0206).abs() < 0.01, "amplifying IR makeup was {g2}");
     }
 }
