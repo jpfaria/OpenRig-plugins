@@ -1,0 +1,26 @@
+# Cab IRs voiced after Green Day's Dookie, one per song (tone3000 names
+# "having a blast ir" / "welcome to paradise ir"). The author does not name
+# the cab or mic; recommended pairing is a bright Marshall plexi (Golub mod).
+manifest_version: 1
+id: ir_green_day_dookie
+display_name: Green Day Dookie
+brand: custom
+sources:
+- https://www.tone3000.com/tones/42101
+type: cab
+backend: ir
+parameters:
+- name: flavor
+  display_name: Flavor
+  values:
+  - having_a_blast
+  - welcome_to_paradise
+captures:
+- values:
+    flavor: having_a_blast
+  file: ir/having_a_blast.wav
+  output_gain_db: -20.8778915
+- values:
+    flavor: welcome_to_paradise
+  file: ir/welcome_to_paradise.wav
+  output_gain_db: -21.8648262

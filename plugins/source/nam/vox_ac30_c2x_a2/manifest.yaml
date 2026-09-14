@@ -1,0 +1,40 @@
+# Vox AC30 C2X (2x12 Celestion Alnico Blue), free demo captures by
+# robyrocks. Constant dropped: "RR AC30". Legend from the tone description:
+# NRM = Normal channel, TB = Top Boost channel; 160 = Beyerdynamic M160,
+# 57 = Shure SM57, 421 = Sennheiser MD421. Sparse channel x mic grid.
+manifest_version: 1
+id: nam_vox_ac30_c2x_a2
+display_name: AC30 C2X
+brand: vox
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/75774
+parameters:
+- name: channel
+  display_name: Channel
+  values:
+  - normal
+  - top_boost
+- name: mic
+  display_name: Mic
+  values:
+  - m160
+  - sm57
+  - md421
+captures:
+- values:
+    channel: normal
+    mic: m160
+  file: captures/nrm_160_a2.nam
+- values:
+    channel: normal
+    mic: sm57
+  file: captures/nrm_57_a2.nam
+- values:
+    channel: top_boost
+    mic: md421
+  file: captures/tb_421_a2.nam
