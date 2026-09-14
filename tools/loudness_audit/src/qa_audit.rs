@@ -34,19 +34,20 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 use loudness_audit::ir::{convolve, load_wav_ir};
+use loudness_audit::level::{ir_level_peak_dbfs, IrRole};
 use loudness_audit::limiter;
 use loudness_audit::lv2_uri::check_lv2_package;
 use loudness_audit::loudness::{integrated_lufs, peak_dbfs};
+use loudness_audit::nam_run::{nam_level_peaks_dbfs, run_nam};
 use loudness_audit::qa::{
     check_clip, check_clip_with, check_dc_offset, check_dc_offset_with, check_hf_aliasing,
-    check_hf_aliasing_with, check_lufs_band, check_lufs_band_with, check_non_finite,
-    check_silence, check_silence_with, check_spectral_peak, CLIP_CEILING_NONLINEAR_DBFS,
+    check_hf_aliasing_with, check_level, check_lufs_band, check_lufs_band_with,
+    check_non_finite, check_silence, check_silence_with, CLIP_CEILING_NONLINEAR_DBFS,
     DC_THRESHOLD_NONLINEAR, HF_ALIASING_MARGIN_NONLINEAR_DB, LUFS_BAND_MAX,
     LUFS_BAND_MIN_NONLINEAR, QaFail, SILENCE_LUFS_BODY,
 };
 use loudness_audit::selector::PluginSelector;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
-use nam::processor::{close_model_diag, nam_process, open_model_diag};
 
 /// Chain check lower bound: chain output must not collapse below this
 /// integrated LUFS. -40 catches the "two amps in series each pulled to
@@ -307,12 +308,9 @@ fn check_all(probe: &[f32], out: &[f32], sr: u32, class: BlockClass) -> Vec<QaFa
         BlockClass::LinearCab => check_lufs_band(out, sr),
         BlockClass::LinearBody => {
             // Body IRs are pickup-emulation filters — narrow-band by
-            // design. After the spectral-unity makeup (#23) brings
-            // their max|H| to 0 dB, the convolved LUFS drops well
-            // below any "sanity" floor without indicating a defect
-            // (soundhole captures land at −55 to −67 LUFS). Dead
-            // captures are still caught by `check_silence` at −60
-            // applied unconditionally above; LUFS_BAND is skipped
+            // design, so integrated LUFS is no sanity signal for them.
+            // Dead captures are caught by `check_silence` above and a
+            // wrong level by `check_level` (#143); LUFS_BAND is skipped
             // for body.
             None
         }
@@ -348,17 +346,31 @@ fn audit_nam_plugin(
     plugin_dir: &Path,
     raw: &str,
 ) -> Result<Vec<QaFail>> {
-    let capture = first_capture_file(raw)
+    let captures: Vec<PathBuf> = all_captures_with_gain(raw)
+        .into_iter()
+        .map(|(f, _)| plugin_dir.join(f))
+        .collect();
+    let first = captures
+        .first()
         .ok_or_else(|| anyhow!("no captures:[].file entry"))?;
-    let path = plugin_dir.join(&capture);
-    let out = run_nam(probe, &path)?;
+    let out = run_nam(probe, first)?;
     // Mirror the runtime: the engine multiplies the model output by the
     // manifest's `output_gain_db` (which can attenuate, e.g. a hot A2
     // model with a negative default). Check the post-gain signal, not the
     // raw model output, or a model the runtime tames still trips clip/DC.
-    let scale = 10f32.powf(manifest_output_gain_db(raw) / 20.0);
+    let gain_db = manifest_output_gain_db(raw);
+    let scale = 10f32.powf(gain_db / 20.0);
     let scaled: Vec<f32> = out.iter().map(|s| s * scale).collect();
-    Ok(check_all(probe, &scaled, sr, BlockClass::Nonlinear))
+    let mut fails = check_all(probe, &scaled, sr, BlockClass::Nonlinear);
+    // Level (issue #143): the engine applies this one value to every
+    // capture, so the loudest capture must sit on the target peak.
+    let loudest = nam_level_peaks_dbfs(probe, &captures)?
+        .into_iter()
+        .fold(f32::NEG_INFINITY, f32::max);
+    if let Some(f) = check_level(loudest + gain_db, gain_db) {
+        fails.push(f);
+    }
+    Ok(fails)
 }
 
 /// Reads the NAM manifest's single top-level `output_gain_db` (0.0 if
@@ -398,9 +410,13 @@ fn audit_ir_plugin(
         let ir_scaled: Vec<f32> = ir.iter().map(|s| s * scale).collect();
         let wet = convolve(probe, &ir_scaled);
         let mut fails = check_all(probe, &wet, sr, class);
-        // Spectral-peak check is IR-only (linear filter, no probe
-        // needed), so it runs against the scaled IR directly.
-        if let Some(f) = check_spectral_peak(&ir_scaled, sr) {
+        // Level (issue #143): the scaled IR's reference peak (amp-level
+        // probes for a cab, the DI for a body) must sit on the target.
+        let role = match class {
+            BlockClass::LinearBody => IrRole::Body,
+            _ => IrRole::Cab,
+        };
+        if let Some(f) = check_level(ir_level_peak_dbfs(&ir_scaled, probe, role), gain_db) {
             fails.push(f);
         }
         out.push((f, fails));
@@ -467,19 +483,6 @@ fn audit_chain(
          post-limiter peak={peak:+.2} dBFS, lufs={lufs:+.2} LUFS"
     );
     Ok(fails)
-}
-
-fn run_nam(input: &[f32], model_path: &Path) -> Result<Vec<f32>> {
-    let p = model_path
-        .to_str()
-        .ok_or_else(|| anyhow!("non-utf8 model path"))?;
-    let model = open_model_diag(p).with_context(|| format!("open {p}"))?;
-    let mut out = vec![0.0_f32; input.len()];
-    unsafe {
-        nam_process(model, input, &mut out);
-        close_model_diag(model);
-    }
-    Ok(out)
 }
 
 // ---------------------------------------------------------------------------

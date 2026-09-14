@@ -69,269 +69,269 @@ captures:
     version: jj_powertube
     position: bbae_0
   file: ir/jj_powertube_bbae_0.wav
-  output_gain_db: -26.0103912
+  output_gain_db: -19.8062706
 - values:
     version: jj_powertube
     position: bbae_1
   file: ir/jj_powertube_bbae_1.wav
-  output_gain_db: -25.1475506
+  output_gain_db: -19.5624046
 - values:
     version: jj_powertube
     position: bbae_half
   file: ir/jj_powertube_bbae_half.wav
-  output_gain_db: -25.7876663
+  output_gain_db: -19.6265335
 - values:
     version: jj_powertube
     position: between_0
   file: ir/jj_powertube_between_0.wav
-  output_gain_db: -24.8204784
+  output_gain_db: -18.7816238
 - values:
     version: jj_powertube
     position: between_1
   file: ir/jj_powertube_between_1.wav
-  output_gain_db: -23.9938583
+  output_gain_db: -18.4279823
 - values:
     version: jj_powertube
     position: between_half
   file: ir/jj_powertube_between_half.wav
-  output_gain_db: -24.6022873
+  output_gain_db: -18.5394211
 - values:
     version: jj_powertube
     position: centre_0
   file: ir/jj_powertube_centre_0.wav
-  output_gain_db: -24.1406727
+  output_gain_db: -18.3685188
 - values:
     version: jj_powertube
     position: centre_1
   file: ir/jj_powertube_centre_1.wav
-  output_gain_db: -23.2382908
+  output_gain_db: -18.7510738
 - values:
     version: jj_powertube
     position: centre_half
   file: ir/jj_powertube_centre_half.wav
-  output_gain_db: -23.8584480
+  output_gain_db: -18.4651299
 - values:
     version: jj_powertube
     position: centre45_0
   file: ir/jj_powertube_centre45_0.wav
-  output_gain_db: -24.0277328
+  output_gain_db: -18.5886860
 - values:
     version: jj_powertube
     position: centre45_1
   file: ir/jj_powertube_centre45_1.wav
-  output_gain_db: -23.3696575
+  output_gain_db: -18.5063667
 - values:
     version: jj_powertube
     position: centre45_half
   file: ir/jj_powertube_centre45_half.wav
-  output_gain_db: -23.6362228
+  output_gain_db: -18.3737507
 - values:
     version: jj_powertube
     position: edge_0
   file: ir/jj_powertube_edge_0.wav
-  output_gain_db: -26.1980648
+  output_gain_db: -19.9103699
 - values:
     version: jj_powertube
     position: edge_1
   file: ir/jj_powertube_edge_1.wav
-  output_gain_db: -25.0293770
+  output_gain_db: -19.2969513
 - values:
     version: jj_powertube
     position: edge_half
   file: ir/jj_powertube_edge_half.wav
-  output_gain_db: -25.9058933
+  output_gain_db: -19.6194172
 - values:
     version: jj_powertube
     position: fred45_0
   file: ir/jj_powertube_fred45_0.wav
-  output_gain_db: -26.9830437
+  output_gain_db: -19.9455414
 - values:
     version: jj_powertube
     position: fred45_1
   file: ir/jj_powertube_fred45_1.wav
-  output_gain_db: -26.7294445
+  output_gain_db: -20.8187275
 - values:
     version: jj_powertube
     position: fred45_half
   file: ir/jj_powertube_fred45_half.wav
-  output_gain_db: -27.7840767
+  output_gain_db: -20.9143486
 - values:
     version: louder_jj_straight
     position: between_1_bottom_speaker
   file: ir/louder_jj_straight_between_1_bottom_speaker.wav
-  output_gain_db: -24.3176613
+  output_gain_db: -19.0438194
 - values:
     version: louder_jj_straight
     position: between_1
   file: ir/louder_jj_straight_between_1.wav
-  output_gain_db: -23.0079365
+  output_gain_db: -18.3740978
 - values:
     version: louder_jj_straight
     position: between_1andhalf
   file: ir/louder_jj_straight_between_1andhalf.wav
-  output_gain_db: -22.6267395
+  output_gain_db: -18.4278278
 - values:
     version: louder_jj_straight
     position: between_half
   file: ir/louder_jj_straight_between_half.wav
-  output_gain_db: -23.4816723
+  output_gain_db: -18.3097324
 - values:
     version: louder_jj_straight
     position: between0
   file: ir/louder_jj_straight_between0.wav
-  output_gain_db: -23.7306900
+  output_gain_db: -18.6152363
 - values:
     version: louder_jj_straight
     position: centre_1_bottom_speaker
   file: ir/louder_jj_straight_centre_1_bottom_speaker.wav
-  output_gain_db: -23.2949009
+  output_gain_db: -18.7440891
 - values:
     version: louder_jj_straight
     position: centre_1
   file: ir/louder_jj_straight_centre_1.wav
-  output_gain_db: -21.7928371
+  output_gain_db: -18.5060005
 - values:
     version: louder_jj_straight
     position: centre_half
   file: ir/louder_jj_straight_centre_half.wav
-  output_gain_db: -22.3667793
+  output_gain_db: -18.5767784
 - values:
     version: louder_jj_straight
     position: centre0
   file: ir/louder_jj_straight_centre0.wav
-  output_gain_db: -22.7839928
+  output_gain_db: -18.8616009
 - values:
     version: louder_jj_straight
     position: edge_sneap
   file: ir/louder_jj_straight_edge_sneap.wav
-  output_gain_db: -24.6815777
+  output_gain_db: -19.3708782
 - values:
     version: louder_jj_straight
     position: edge_1_bottom_speaker
   file: ir/louder_jj_straight_edge_1_bottom_speaker.wav
-  output_gain_db: -25.6286926
+  output_gain_db: -19.5909424
 - values:
     version: louder_jj_straight
     position: edge_1
   file: ir/louder_jj_straight_edge_1.wav
-  output_gain_db: -24.5091839
+  output_gain_db: -19.2900848
 - values:
     version: louder_jj_straight
     position: edge_1andhalf
   file: ir/louder_jj_straight_edge_1andhalf.wav
-  output_gain_db: -24.0490723
+  output_gain_db: -19.2046108
 - values:
     version: louder_jj_straight
     position: edge_half
   file: ir/louder_jj_straight_edge_half.wav
-  output_gain_db: -24.7417297
+  output_gain_db: -19.3027382
 - values:
     version: louder_jj_straight
     position: edge0
   file: ir/louder_jj_straight_edge0.wav
-  output_gain_db: -24.8881397
+  output_gain_db: -19.5860729
 - values:
     version: louder_jj_samples
     position: bbac_half
   file: ir/louder_jj_samples_bbac_half.wav
-  output_gain_db: -22.8234406
+  output_gain_db: -18.6274910
 - values:
     version: louder_jj_samples
     position: between_half
   file: ir/louder_jj_samples_between_half.wav
-  output_gain_db: -23.3308086
+  output_gain_db: -18.8698616
 - values:
     version: louder_jj_samples
     position: edge_1
   file: ir/louder_jj_samples_edge_1.wav
-  output_gain_db: -24.6709785
+  output_gain_db: -18.9746799
 - values:
     version: louder_jj_samples
     position: edge_half
   file: ir/louder_jj_samples_edge_half.wav
-  output_gain_db: -25.0526962
+  output_gain_db: -18.9560413
 - values:
     version: louder_jj_samples
     position: inch_off_edge_1
   file: ir/louder_jj_samples_inch_off_edge_1.wav
-  output_gain_db: -27.0993652
+  output_gain_db: -20.8292255
 - values:
     version: multiple_fredman
     position: between_45
   file: ir/multiple_fredman_between_45.wav
-  output_gain_db: -27.2500725
+  output_gain_db: -18.5021954
 - values:
     version: multiple_fredman
     position: between_straight_10
   file: ir/multiple_fredman_between_straight_10.wav
-  output_gain_db: -26.6035175
+  output_gain_db: -18.6775837
 - values:
     version: multiple_fredman
     position: between_straight_20
   file: ir/multiple_fredman_between_straight_20.wav
-  output_gain_db: -26.2886753
+  output_gain_db: -18.4586830
 - values:
     version: multiple_fredman
     position: centre_45
   file: ir/multiple_fredman_centre_45.wav
-  output_gain_db: -26.3132248
+  output_gain_db: -18.5876274
 - values:
     version: multiple_fredman
     position: edge_45
   file: ir/multiple_fredman_edge_45.wav
-  output_gain_db: -28.1750546
+  output_gain_db: -18.2772694
 - values:
     version: multiple_fredman
     position: edge_straight_10
   file: ir/multiple_fredman_edge_straight_10.wav
-  output_gain_db: -28.1317081
+  output_gain_db: -19.5010490
 - values:
     version: multiple_fredman
     position: edge_straight_20
   file: ir/multiple_fredman_edge_straight_20.wav
-  output_gain_db: -27.8483276
+  output_gain_db: -19.2916737
 - values:
     version: multiple_fredman
     position: fredman_angled_10
   file: ir/multiple_fredman_fredman_angled_10.wav
-  output_gain_db: -27.1908245
+  output_gain_db: -18.4770336
 - values:
     version: multiple_fredman
     position: fredman_angled_5
   file: ir/multiple_fredman_fredman_angled_5.wav
-  output_gain_db: -27.4173260
+  output_gain_db: -18.6170902
 - values:
     version: multiple_fredman
     position: fredman_straight_20
   file: ir/multiple_fredman_fredman_straight_20.wav
-  output_gain_db: -24.8775787
+  output_gain_db: -18.2742195
 - values:
     version: original
     position: original_between
   file: ir/original_original_between.wav
-  output_gain_db: -26.2489834
+  output_gain_db: -18.9603119
 - values:
     version: original
     position: original_centre
   file: ir/original_original_centre.wav
-  output_gain_db: -25.8874016
+  output_gain_db: -18.9870815
 - values:
     version: original
     position: original_edge
   file: ir/original_original_edge.wav
-  output_gain_db: -27.5262337
+  output_gain_db: -19.8188496
 - values:
     version: fredman_sneap
     position: edge_1_i_inch_ala_sneap_pic
   file: ir/fredman_sneap_edge_1_i_inch_ala_sneap_pic.wav
-  output_gain_db: -28.7222424
+  output_gain_db: -20.2758732
 - values:
     version: fredman_sneap
     position: fredman_angled
   file: ir/fredman_sneap_fredman_angled.wav
-  output_gain_db: -27.7478027
+  output_gain_db: -18.6312656
 - values:
     version: fredman_sneap
     position: fredman_straight
   file: ir/fredman_sneap_fredman_straight.wav
-  output_gain_db: -25.4690018
+  output_gain_db: -18.2877903

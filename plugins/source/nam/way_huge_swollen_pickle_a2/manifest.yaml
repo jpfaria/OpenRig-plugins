@@ -3,7 +3,7 @@ id: nam_way_huge_swollen_pickle_a2
 display_name: Way Huge Swollen Pickle
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 5.8452501
 type: gain_pedal
 backend: nam
 architecture: A2

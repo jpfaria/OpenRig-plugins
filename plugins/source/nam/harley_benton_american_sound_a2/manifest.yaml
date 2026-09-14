@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_harley_benton_american_sound_a2
 display_name: Harley Benton American Sound
 brand: harley_benton
-output_gain_db: 0.0000000
+output_gain_db: 7.1840982
 type: gain_pedal
 backend: nam
 architecture: A2

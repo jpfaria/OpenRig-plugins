@@ -5,7 +5,7 @@ display_name: Bandit 112
 brand: peavey
 sources:
 - https://www.tone3000.com/tones/67991
-output_gain_db: 0.0000000
+output_gain_db: 3.5486112
 type: amp
 backend: nam
 architecture: A2

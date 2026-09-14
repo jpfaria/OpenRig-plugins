@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_dumble_ods_100w_a2
 display_name: ODS 100W
 brand: dumble
-output_gain_db: 0.0000000
+output_gain_db: -2.8724744
 type: amp
 backend: nam
 architecture: A2

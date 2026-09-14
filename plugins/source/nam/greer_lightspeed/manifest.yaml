@@ -4,7 +4,7 @@ display_name: Greer Lightspeed
 brand: greer
 sources:
 - https://www.tone3000.com/tones/26703
-output_gain_db: 0.0000000
+output_gain_db: 9.5954561
 type: gain_pedal
 backend: nam
 architecture: A2

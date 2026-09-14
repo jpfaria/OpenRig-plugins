@@ -4,7 +4,7 @@ manifest_version: 1
 id: nam_xotic_bb_into_rc_a2
 display_name: Xotic BB Preamp into RC Booster
 brand: xotic
-output_gain_db: 0.0000000
+output_gain_db: 13.1450872
 type: gain_pedal
 backend: nam
 architecture: A2

@@ -6,7 +6,7 @@ manifest_version: 1
 id: nam_fulltone_ocd_a2
 display_name: Fulltone OCD v1.2
 brand: fulltone
-output_gain_db: 0.0000000
+output_gain_db: 10.8866100
 type: gain_pedal
 backend: nam
 architecture: A2

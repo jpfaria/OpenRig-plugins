@@ -3,7 +3,7 @@ id: nam_marshall_jcm_800_a2
 display_name: JCM 800
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 4.5391035
 type: amp
 backend: nam
 architecture: A2

@@ -24,39 +24,39 @@ captures:
     flavor: standard
     position: 1
   file: ir/position_1.wav
-  output_gain_db: -15.8476276
+  output_gain_db: 10.5509014
 - values:
     flavor: blend
     position: 1
   file: ir/position_1_blend.wav
-  output_gain_db: -9.4217329
+  output_gain_db: 19.0119038
 - values:
     flavor: match
     position: 1
   file: ir/position_1_match.wav
-  output_gain_db: -12.3336315
+  output_gain_db: 9.6658030
 - values:
     flavor: jf
     position: 1
   file: ir/position_1_jf.wav
-  output_gain_db: -16.6414986
+  output_gain_db: 8.7866907
 - values:
     flavor: standard
     position: 2
   file: ir/position_2.wav
-  output_gain_db: -20.1089535
+  output_gain_db: 8.7081270
 - values:
     flavor: blend
     position: 2
   file: ir/position_2_blend.wav
-  output_gain_db: -13.8478365
+  output_gain_db: 16.2583027
 - values:
     flavor: match
     position: 2
   file: ir/position_2_match.wav
-  output_gain_db: -11.8455372
+  output_gain_db: 10.1840448
 - values:
     flavor: jf
     position: 2
   file: ir/position_2_jf.wav
-  output_gain_db: -25.3205643
+  output_gain_db: 2.3583643

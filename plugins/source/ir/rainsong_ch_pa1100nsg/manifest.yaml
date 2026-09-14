@@ -17,16 +17,16 @@ captures:
 - values:
     preset: standard
   file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100.wav
-  output_gain_db: -24.7118454
+  output_gain_db: 6.2530270
 - values:
     preset: blend
   file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100_bld.wav
-  output_gain_db: -19.1462860
+  output_gain_db: 10.3518715
 - values:
     preset: match
   file: ir/rainsong_parlor_44100_matcheq.wav
-  output_gain_db: -14.6887960
+  output_gain_db: 10.3104000
 - values:
     preset: jf
   file: ir/jf_rainsong_ch_pa1100nsg_hfn_44100_jf_flavor.wav
-  output_gain_db: -21.4627972
+  output_gain_db: 8.9132500

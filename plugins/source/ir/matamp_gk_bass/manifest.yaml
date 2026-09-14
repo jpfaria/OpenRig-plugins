@@ -20,24 +20,24 @@ captures:
 - values:
     preset: orange1
   file: ir/orange1.wav
-  output_gain_db: -25.0213566
+  output_gain_db: -23.0367355
 - values:
     preset: orange2
   file: ir/orange2.wav
-  output_gain_db: -24.8673191
+  output_gain_db: -22.9833164
 - values:
     preset: orange3
   file: ir/orange3.wav
-  output_gain_db: -25.4379349
+  output_gain_db: -23.2421093
 - values:
     preset: orange4
   file: ir/orange4.wav
-  output_gain_db: -30.0901012
+  output_gain_db: -24.0000000
 - values:
     preset: orange5
   file: ir/orange5.wav
-  output_gain_db: -23.5471554
+  output_gain_db: -23.4125748
 - values:
     preset: orange6
   file: ir/orange6.wav
-  output_gain_db: -25.7907257
+  output_gain_db: -23.5530262

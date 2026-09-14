@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_victory_vx_kraken_a2
 display_name: VX Kraken
 brand: victory
-output_gain_db: 0.0000000
+output_gain_db: 9.0088997
 type: preamp
 backend: nam
 architecture: A2

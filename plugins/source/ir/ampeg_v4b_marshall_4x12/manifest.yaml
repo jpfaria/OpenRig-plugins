@@ -22,32 +22,32 @@ captures:
 - values:
     preset: m69n
   file: ir/m69n.wav
-  output_gain_db: -22.0368195
+  output_gain_db: -21.0851746
 - values:
     preset: md441
   file: ir/md441.wav
-  output_gain_db: -21.0891018
+  output_gain_db: -20.4103775
 - values:
     preset: beta52
   file: ir/beta52.wav
-  output_gain_db: -23.3521442
+  output_gain_db: -21.8246727
 - values:
     preset: mtg
   file: ir/mtg.wav
-  output_gain_db: -23.4529762
+  output_gain_db: -21.7148018
 - values:
     preset: sm7
   file: ir/sm7.wav
-  output_gain_db: -21.6395016
+  output_gain_db: -20.9695454
 - values:
     preset: tlm170_1
   file: ir/tlm170_1.wav
-  output_gain_db: -22.2631073
+  output_gain_db: -19.9517918
 - values:
     preset: tlm170_2
   file: ir/tlm170_2.wav
-  output_gain_db: -22.1161118
+  output_gain_db: -22.7258873
 - values:
     preset: u87
   file: ir/u87.wav
-  output_gain_db: -24.8114872
+  output_gain_db: -21.9746475

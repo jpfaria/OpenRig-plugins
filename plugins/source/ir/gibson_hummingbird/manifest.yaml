@@ -18,16 +18,16 @@ captures:
 - values:
     mic: dpa_4011
   file: ir/hummingbird_dpa_4011.wav
-  output_gain_db: -29.3227692
+  output_gain_db: 0.1167452
 - values:
     mic: neumann_m147
   file: ir/hummingbird_neumann_m147.wav
-  output_gain_db: -24.4315681
+  output_gain_db: 0.8409276
 - values:
     mic: shure_beta_58a
   file: ir/hummingbird_shure_beta_58a.wav
-  output_gain_db: -29.8074341
+  output_gain_db: 0.0004319
 - values:
     mic: soundelux_e47
   file: ir/hummingbird_soundelux_e47.wav
-  output_gain_db: -29.1260376
+  output_gain_db: 0.0002018

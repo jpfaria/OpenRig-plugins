@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_lokajaudio_der_blend_a2
 display_name: Der Blend
 brand: lokajaudio
-output_gain_db: 0.0000000
+output_gain_db: -11.5441990
 type: gain_pedal
 backend: nam
 architecture: A2

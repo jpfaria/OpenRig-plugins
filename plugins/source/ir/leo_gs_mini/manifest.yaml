@@ -18,16 +18,16 @@ captures:
 - values:
     preset: direct
   file: ir/leo_gs_mini_es2_44100.wav
-  output_gain_db: -16.6194973
+  output_gain_db: 10.1293411
 - values:
     preset: blend
   file: ir/leo_gs_mini_es2_44100_bld.wav
-  output_gain_db: -11.7330103
+  output_gain_db: 17.6704330
 - values:
     preset: jf_flavor
   file: ir/leo_gs_mini_es2_44100_jf_flavor.wav
-  output_gain_db: -19.0023937
+  output_gain_db: 9.3286781
 - values:
     preset: match
   file: ir/leo_gs_mini_es2_44100_match.wav
-  output_gain_db: -16.3977070
+  output_gain_db: 8.0864754

@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_wampler_tumnus_deluxe_a2
 display_name: Wampler Tumnus Deluxe
 brand: wampler
-output_gain_db: -2.3045697
+output_gain_db: -5.3065057
 type: gain_pedal
 backend: nam
 architecture: A2

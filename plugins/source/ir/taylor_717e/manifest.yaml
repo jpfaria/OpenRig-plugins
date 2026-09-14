@@ -20,20 +20,20 @@ captures:
 - values:
     preset: stock
   file: ir/taylor_717e_48000.wav
-  output_gain_db: -29.3451538
+  output_gain_db: 0.0000014
 - values:
     preset: bld
   file: ir/taylor_717e_48000_bld.wav
-  output_gain_db: -25.7190876
+  output_gain_db: 3.1152868
 - values:
     preset: match
   file: ir/taylor_717e_48000_match.wav
-  output_gain_db: -26.6539841
+  output_gain_db: 1.7603543
 - values:
     preset: jf_flavor
   file: ir/taylor_717e_48000_jf_flavor.wav
-  output_gain_db: -28.1491184
+  output_gain_db: 0.8113340
 - values:
     preset: mffq
   file: ir/ir_717e_48k_mffq.wav
-  output_gain_db: -17.4618397
+  output_gain_db: 9.6464787

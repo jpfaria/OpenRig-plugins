@@ -21,24 +21,24 @@ captures:
 - values:
     preset: raw
   file: ir/lescotton_faith_venus.wav
-  output_gain_db: -44.7778931
+  output_gain_db: 1.7145722
 - values:
     preset: cuki_2048
   file: ir/cukiirlescottonfaith2048at48.wav
-  output_gain_db: -14.2374115
+  output_gain_db: 10.7932844
 - values:
     preset: cuki_jf_2048
   file: ir/cukijfirlescottonfaith2048at48.wav
-  output_gain_db: -13.0732441
+  output_gain_db: 11.3027754
 - values:
     preset: jf45
   file: ir/jf45irlescotton_faith_venus.wav
-  output_gain_db: -16.9445343
+  output_gain_db: 11.9813271
 - values:
     preset: jf45_1024
   file: ir/jf45ir1024lescotton_faith_venus.wav
-  output_gain_db: -15.4193707
+  output_gain_db: 12.3005829
 - values:
     preset: jf45_5050
   file: ir/jf45ir5050lescotton_faith_venus.wav
-  output_gain_db: -11.8912992
+  output_gain_db: 13.0671072

@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_zvex_box_of_rock_a2
 display_name: ZVEX Box of Rock
 brand: zvex
-output_gain_db: 0.0000000
+output_gain_db: 8.4547501
 type: gain_pedal
 backend: nam
 architecture: A2

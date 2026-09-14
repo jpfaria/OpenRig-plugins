@@ -8,7 +8,7 @@ brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/45358
-output_gain_db: 0.0000000
+output_gain_db: 4.1892319
 type: preamp
 backend: nam
 architecture: A2

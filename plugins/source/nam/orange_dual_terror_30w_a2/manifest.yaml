@@ -6,7 +6,7 @@ id: nam_orange_dual_terror_30w_a2
 display_name: Dual Terror 30W
 brand: orange
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 9.4586163
 type: amp
 backend: nam
 architecture: A2

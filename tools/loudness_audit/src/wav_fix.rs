@@ -73,9 +73,9 @@ fn hann_window(x: f64, half_width: f64) -> f64 {
 /// Full `qa_fix` per-channel pipeline as a pure function: DC-remove
 /// then sinc-resample to `dst_sr`. Deliberately level-preserving — the
 /// previous pipeline scaled each capture so its convolution with the
-/// synthetic DI peaked at -1 dBFS, which made every IR ship hot and
-/// hid the natural insertion loss the boost-only audit (#4) needs to
-/// see. Issue #21.
+/// synthetic DI peaked at -1 dBFS, which baked a level into the audio
+/// file. Level is the manifest's job (`output_gain_db`, issue #143), so
+/// the file keeps its natural level. Issue #21.
 pub fn fix_capture(samples: &[f32], src_sr: u32, dst_sr: u32) -> Vec<f32> {
     let centred = dc_remove(samples);
     if src_sr == dst_sr {
@@ -88,8 +88,8 @@ pub fn fix_capture(samples: &[f32], src_sr: u32, dst_sr: u32) -> Vec<f32> {
 /// Ceiling-only convolution scale: if `convolve(probe, ir).peak >
 /// ceiling_dbfs`, scale `ir` so the peak lands exactly at the ceiling;
 /// otherwise return `ir` unchanged. Unlike a target peak-norm, quiet
-/// IRs keep their natural insertion loss (the boost-only audit needs
-/// that signal); only the intrinsically-hot captures are tamed so the
+/// IRs keep their natural level (the manifest `output_gain_db` makes
+/// up for it, #143); only the intrinsically-hot captures are tamed so the
 /// CLIP threshold in `qa_audit` is not violated. Issue #21.
 pub fn scale_to_convolution_ceiling(
     probe: &[f32],

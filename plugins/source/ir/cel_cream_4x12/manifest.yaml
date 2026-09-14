@@ -16,8 +16,8 @@ captures:
 - values:
     voicing: dark
   file: ir/sm57_dark.wav
-  output_gain_db: -21.3479176
+  output_gain_db: -19.2013645
 - values:
     voicing: fat
   file: ir/sm57_fat.wav
-  output_gain_db: -20.9968052
+  output_gain_db: -19.0484600

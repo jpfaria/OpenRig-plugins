@@ -21,28 +21,28 @@ captures:
 - values:
     preset: cust_m930
   file: ir/cust_m930.wav
-  output_gain_db: -18.1203079
+  output_gain_db: -16.2164860
 - values:
     preset: cust_sm57
   file: ir/cust_sm57.wav
-  output_gain_db: -18.3009472
+  output_gain_db: -17.4597359
 - values:
     preset: cust_u87
   file: ir/cust_u87.wav
-  output_gain_db: -19.3493824
+  output_gain_db: -19.5557842
 - values:
     preset: m930
   file: ir/m930.wav
-  output_gain_db: -18.0256176
+  output_gain_db: -18.3451214
 - values:
     preset: sm57_off_axis
   file: ir/sm57_off_axis.wav
-  output_gain_db: -20.5575371
+  output_gain_db: -19.6917553
 - values:
     preset: sm57_on_axis
   file: ir/sm57_on_axis.wav
-  output_gain_db: -18.0567131
+  output_gain_db: -18.2387905
 - values:
     preset: u87
   file: ir/u87.wav
-  output_gain_db: -21.8922768
+  output_gain_db: -20.3876534

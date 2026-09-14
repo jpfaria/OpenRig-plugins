@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_koch_multitone_50_a2
 display_name: Multitone 50
 brand: koch
-output_gain_db: 0.0000000
+output_gain_db: 5.7249737
 type: preamp
 backend: nam
 architecture: A2

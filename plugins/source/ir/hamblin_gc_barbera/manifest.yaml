@@ -21,24 +21,24 @@ captures:
 - values:
     preset: dy
   file: ir/dy.wav
-  output_gain_db: -43.8117294
+  output_gain_db: 4.1819315
 - values:
     preset: cuki_2048
   file: ir/cukiir2048at48.wav
-  output_gain_db: -12.9839678
+  output_gain_db: 12.5264540
 - values:
     preset: cuki_jf_2048
   file: ir/cukijfir2048at48.wav
-  output_gain_db: -12.0466108
+  output_gain_db: 12.9009132
 - values:
     preset: jf45
   file: ir/jf45irdy.wav
-  output_gain_db: -12.7273321
+  output_gain_db: 14.3861513
 - values:
     preset: jf45_1024
   file: ir/jf45ir1024dy.wav
-  output_gain_db: -9.2352161
+  output_gain_db: 14.2836380
 - values:
     preset: jf45_5050
   file: ir/jf45ir5050dy.wav
-  output_gain_db: -8.2905388
+  output_gain_db: 14.5762014

@@ -19,16 +19,16 @@ captures:
 - values:
     mic: akg_cs1000
   file: ir/j45_akg_cs1000.wav
-  output_gain_db: -22.2087688
+  output_gain_db: 0.0004179
 - values:
     mic: dpa_4011
   file: ir/j45_dpa_4011.wav
-  output_gain_db: -28.8275089
+  output_gain_db: 0.0002111
 - values:
     mic: neumann_m147
   file: ir/j45_neumann_m147.wav
-  output_gain_db: -25.5718098
+  output_gain_db: 0.0004615
 - values:
     mic: soundelux_e47
   file: ir/j45_soundelux_e47.wav
-  output_gain_db: -24.7013741
+  output_gain_db: 0.0000253

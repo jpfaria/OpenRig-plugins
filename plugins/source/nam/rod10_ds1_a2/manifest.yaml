@@ -3,7 +3,7 @@ id: nam_rod10_ds1_a2
 display_name: ROD-10 DS1
 brand: boss
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 10.3404560
 type: gain_pedal
 backend: nam
 architecture: A2

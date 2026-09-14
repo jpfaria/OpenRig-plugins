@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_jhs_morning_glory_a2
 display_name: JHS Morning Glory
 brand: jhs
-output_gain_db: 0.0000000
+output_gain_db: 5.7453718
 type: gain_pedal
 backend: nam
 architecture: A2

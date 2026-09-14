@@ -4,7 +4,7 @@ manifest_version: 1
 id: nam_xotic_ep_booster_pack_a2
 display_name: Xotic EP Booster Pack
 brand: xotic
-output_gain_db: 1.5948753
+output_gain_db: 13.7873478
 type: gain_pedal
 backend: nam
 architecture: A2

@@ -5,7 +5,7 @@ display_name: Bassbreaker 15
 brand: fender
 sources:
 - https://www.tone3000.com/tones/61215
-output_gain_db: 0.0000000
+output_gain_db: 8.5012846
 type: amp
 backend: nam
 architecture: A2

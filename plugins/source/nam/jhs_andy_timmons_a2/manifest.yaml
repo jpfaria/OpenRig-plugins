@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_jhs_andy_timmons_a2
 display_name: Andy Timmons
 brand: jhs
-output_gain_db: 0.0000000
+output_gain_db: 4.2402282
 type: gain_pedal
 backend: nam
 architecture: A2

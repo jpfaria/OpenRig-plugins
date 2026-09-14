@@ -20,24 +20,24 @@ captures:
 - values:
     preset: br_nt2
   file: ir/br_nt2.wav
-  output_gain_db: -19.2243538
+  output_gain_db: -19.6709194
 - values:
     preset: br_sm7
   file: ir/br_sm7.wav
-  output_gain_db: -16.6669712
+  output_gain_db: -17.9831753
 - values:
     preset: n_nt2
   file: ir/n_nt2.wav
-  output_gain_db: -19.6409092
+  output_gain_db: -20.3347015
 - values:
     preset: n_sm7
   file: ir/n_sm7.wav
-  output_gain_db: -19.3212109
+  output_gain_db: -19.4058075
 - values:
     preset: n2_nt2
   file: ir/n2_nt2.wav
-  output_gain_db: -19.3989754
+  output_gain_db: -20.1791687
 - values:
     preset: n2_sm7
   file: ir/n2_sm7.wav
-  output_gain_db: -17.0620918
+  output_gain_db: -18.9816875

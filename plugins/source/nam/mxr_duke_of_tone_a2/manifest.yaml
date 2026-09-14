@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_mxr_duke_of_tone_a2
 display_name: MXR Duke of Tone
 brand: mxr
-output_gain_db: 0.0000000
+output_gain_db: 6.4285736
 type: gain_pedal
 backend: nam
 architecture: A2

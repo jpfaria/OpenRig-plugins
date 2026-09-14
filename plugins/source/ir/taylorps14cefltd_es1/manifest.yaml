@@ -17,12 +17,12 @@ captures:
 - values:
     preset: 44k
   file: ir/ps14_fltd_2048_44k.wav
-  output_gain_db: -18.9977875
+  output_gain_db: 9.6452503
 - values:
     preset: 44k_m
   file: ir/ps14_fltd_2048_44k_m.wav
-  output_gain_db: -9.0970049
+  output_gain_db: 10.0166359
 - values:
     preset: 48k_mffqn
   file: ir/ps14_fltd_2048_48k_mffqn.wav
-  output_gain_db: -21.7947693
+  output_gain_db: 10.1796570

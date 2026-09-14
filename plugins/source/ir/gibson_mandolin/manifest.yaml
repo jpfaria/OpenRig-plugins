@@ -17,12 +17,12 @@ captures:
 - values:
     mic: dpa_4011
   file: ir/mandolin_gibson_wayne_benson_dpa_4011.wav
-  output_gain_db: -28.4085312
+  output_gain_db: 0.0002135
 - values:
     mic: neumann_m147
   file: ir/mandolin_gibson_wayne_benson_neumann_m147.wav
-  output_gain_db: -24.0834484
+  output_gain_db: 0.0002669
 - values:
     mic: soundelux_e47
   file: ir/mandolin_gibson_wayne_benson_soundelux_e47.wav
-  output_gain_db: -28.7240105
+  output_gain_db: 0.0003425

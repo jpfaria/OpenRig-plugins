@@ -3,7 +3,7 @@ id: nam_mesa_dual_rectifier_multiwatt_a2
 display_name: Dual Rectifier Multi-Watt
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 0.7000198
 type: amp
 backend: nam
 architecture: A2

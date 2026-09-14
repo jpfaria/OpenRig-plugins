@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_horizon_precision_drive_a2
 display_name: Horizon Precision Drive
 brand: horizon_devices
-output_gain_db: 0.0000000
+output_gain_db: 0.8408349
 type: gain_pedal
 backend: nam
 architecture: A2

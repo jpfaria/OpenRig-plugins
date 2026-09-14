@@ -25,32 +25,32 @@ captures:
 - values:
     preset: 48k
   file: ir/ir_48k.wav
-  output_gain_db: -19.1194344
+  output_gain_db: 5.7906399
 - values:
     preset: 48k_mono
   file: ir/ir_48k_m.wav
-  output_gain_db: -15.8289413
+  output_gain_db: 8.0986242
 - values:
     preset: 48k_mono_ffqn
   file: ir/ir_48k_m_ffqn.wav
-  output_gain_db: -19.5627670
+  output_gain_db: 7.3295641
 - values:
     preset: 44k_mono_ffqn
   file: ir/ir_44k_m_ffqn.wav
-  output_gain_db: -20.7600517
+  output_gain_db: 6.2748728
 - values:
     preset: ktb
   file: ir/ktb714cenux.wav
-  output_gain_db: -11.5303230
+  output_gain_db: 18.4295979
 - values:
     preset: kb_9in_ffqn
   file: ir/kb_714_9inch_48k_mffqn.wav
-  output_gain_db: -23.6810017
+  output_gain_db: 1.1008186
 - values:
     preset: kb_9in
   file: ir/kb_714_9inch_48k_m.wav
-  output_gain_db: -15.6606436
+  output_gain_db: 3.7921009
 - values:
     preset: kb_18in
   file: ir/kb_714_18inch_48k_m.wav
-  output_gain_db: -18.2634048
+  output_gain_db: 3.0973706

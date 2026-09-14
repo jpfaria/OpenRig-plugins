@@ -4,7 +4,7 @@ manifest_version: 1
 id: nam_lab_series_l5_a2
 display_name: L5
 brand: lab_series
-output_gain_db: 0.0000000
+output_gain_db: 11.1153173
 type: amp
 backend: nam
 architecture: A2

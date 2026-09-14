@@ -131,14 +131,16 @@ plugins/source/lv2/<plugin>/
 
 plugins/source/nam/<plugin>/
 ├── manifest.yaml          # id, display_name, brand, type (amp/preamp/gain_pedal),
-│                          # per-capture grid + output_gain_db (boost-only, #4)
+│                          # per-capture grid + output_gain_db (loudest capture
+│                          # peaks at -1 dBFS, max without clipping, #143)
 │                          # + per-capture noise_gate for high-gain idle hiss (#73)
 ├── assets/                # thumbnail
 └── captures/*.nam         # neural amp model captures (loaded via libNeuralAudioCAPI)
 
 plugins/source/ir/<plugin>/
 ├── manifest.yaml          # id, display_name, brand, type (cab/body), per-capture
-│                          # output_gain_db (spectral-unity, #23)
+│                          # output_gain_db (peak -1 dBFS on amp-level probes for
+│                          # a cab, on the DI for a body, #143)
 ├── assets/                # thumbnail
 └── ir/*.wav               # mono 48 kHz IR files (DC-removed, ceiling-capped, #21)
 
@@ -168,8 +170,8 @@ scripts/
 └── native_models.yaml     # engine-side natives listed in the Quick Reference
 
 tools/                     # in-repo Rust binaries
-├── loudness_audit/        # writes per-plugin output_gain_db (NAM: boost-only #4;
-│                          # IR: spectral-unity #23), the qa_audit gate (#12), and
+├── loudness_audit/        # writes per-plugin output_gain_db (max level without
+│                          # clipping, #143), the qa_audit gate (#12), and
 │                          # nam_gate_audit — measures idle hiss, writes per-capture
 │                          # noise_gate defaults (#73)
 └── pack_plugins/          # invokes qa_audit then packs each plugin into a zip

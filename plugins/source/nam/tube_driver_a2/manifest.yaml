@@ -4,7 +4,7 @@ manifest_version: 1
 id: nam_tube_driver_a2
 display_name: Tube Driver
 brand: tube
-output_gain_db: 3.6443062
+output_gain_db: 15.6307907
 type: gain_pedal
 backend: nam
 architecture: A2

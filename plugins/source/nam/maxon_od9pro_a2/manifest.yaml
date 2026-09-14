@@ -6,7 +6,7 @@ manifest_version: 1
 id: nam_maxon_od9pro_a2
 display_name: Maxon OD9Pro+
 brand: maxon
-output_gain_db: 0.5597343
+output_gain_db: 12.2611170
 type: gain_pedal
 backend: nam
 architecture: A2

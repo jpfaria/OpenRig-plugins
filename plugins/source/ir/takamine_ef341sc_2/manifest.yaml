@@ -20,16 +20,16 @@ captures:
 - values:
     preset: '9'
   file: ir/kb_ir_ef341_9_48k.wav
-  output_gain_db: -26.0045872
+  output_gain_db: 0.0000008
 - values:
     preset: 9_mffqn
   file: ir/kb_ir_ef341_9_48k_mffqn.wav
-  output_gain_db: -28.5013905
+  output_gain_db: -0.0000003
 - values:
     preset: 9_m
   file: ir/kb_ir_ef341_9_48k_m.wav
-  output_gain_db: -23.5098705
+  output_gain_db: 0.5155048
 - values:
     preset: 18_m
   file: ir/kb_ir_ef341_18_48k_m.wav
-  output_gain_db: -15.1083384
+  output_gain_db: 8.3912096

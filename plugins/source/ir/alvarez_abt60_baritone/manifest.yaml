@@ -22,29 +22,29 @@ captures:
     mic: sm
     match: raw
   file: ir/ir_alvarez_abt_60_baritone_sm44100.wav
-  output_gain_db: -17.2175179
+  output_gain_db: 7.8945751
 - values:
     mic: sm
     match: match1
   file: ir/ir_alvarez_abt_60_baritone_sm44100_match1.wav
-  output_gain_db: -19.3676472
+  output_gain_db: 4.2262754
 - values:
     mic: sm
     match: match2
   file: ir/ir_alvarez_abt_60_baritone_sm44100_match2.wav
-  output_gain_db: -18.9727001
+  output_gain_db: 4.5252819
 - values:
     mic: bb
     match: raw
   file: ir/ir_alvarez_abt_60_baritone_bb44100.wav
-  output_gain_db: -28.3970127
+  output_gain_db: 0.0000008
 - values:
     mic: bb
     match: match1
   file: ir/ir_alvarez_abt_60_baritone_bb44100_match1.wav
-  output_gain_db: -24.3658810
+  output_gain_db: 0.0000008
 - values:
     mic: bb
     match: match2
   file: ir/ir_alvarez_abt_60_baritone_bb44100_match2.wav
-  output_gain_db: -24.1969585
+  output_gain_db: 0.0000014

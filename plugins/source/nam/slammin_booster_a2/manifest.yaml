@@ -9,7 +9,7 @@ manifest_version: 1
 id: nam_slammin_booster_a2
 display_name: Slammin Clean Booster
 brand: jhs
-output_gain_db: 0.4731712
+output_gain_db: 10.1239185
 type: gain_pedal
 backend: nam
 architecture: A2

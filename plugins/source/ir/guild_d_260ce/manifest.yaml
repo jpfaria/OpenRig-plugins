@@ -19,16 +19,16 @@ captures:
 - values:
     preset: stock
   file: ir/guild_d_260ce_48000.wav
-  output_gain_db: -28.0417900
+  output_gain_db: 0.0000004
 - values:
     preset: bld
   file: ir/guild_d_260ce_48000_bld.wav
-  output_gain_db: -25.7107868
+  output_gain_db: 2.0158525
 - values:
     preset: jf_flavor
   file: ir/guild_d_260ce_48000_jf_flavor.wav
-  output_gain_db: -24.7873898
+  output_gain_db: 1.2567327
 - values:
     preset: match
   file: ir/guild_d_260ce_48000_match.wav
-  output_gain_db: -26.4112148
+  output_gain_db: 0.0000008

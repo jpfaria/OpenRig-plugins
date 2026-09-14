@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_zt_lunchbox_jr_a2
 display_name: Lunchbox Jr
 brand: zt
-output_gain_db: 0.0000000
+output_gain_db: 8.4146252
 type: preamp
 backend: nam
 architecture: A2

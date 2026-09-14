@@ -22,32 +22,32 @@ captures:
 - values:
     preset: mtg_b1
   file: ir/mtg_b1.wav
-  output_gain_db: -20.5979233
+  output_gain_db: -21.0552673
 - values:
     preset: mtg_b2
   file: ir/mtg_b2.wav
-  output_gain_db: -20.7331257
+  output_gain_db: -20.6970291
 - values:
     preset: mtg_n1
   file: ir/mtg_n1.wav
-  output_gain_db: -23.2051830
+  output_gain_db: -21.7124901
 - values:
     preset: mtg_n2
   file: ir/mtg_n2.wav
-  output_gain_db: -20.6075153
+  output_gain_db: -21.7055702
 - values:
     preset: sm7_b1
   file: ir/sm7_b1.wav
-  output_gain_db: -20.9247169
+  output_gain_db: -19.6433315
 - values:
     preset: sm7_b2
   file: ir/sm7_b2.wav
-  output_gain_db: -20.5076752
+  output_gain_db: -19.8760223
 - values:
     preset: sm7_n1
   file: ir/sm7_n1.wav
-  output_gain_db: -26.4730873
+  output_gain_db: -21.4064445
 - values:
     preset: sm7_n2
   file: ir/sm7_n2.wav
-  output_gain_db: -20.9205208
+  output_gain_db: -21.3910332

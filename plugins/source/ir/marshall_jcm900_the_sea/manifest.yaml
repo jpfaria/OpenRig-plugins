@@ -23,36 +23,36 @@ captures:
 - values:
     preset: 1_nt2
   file: ir/1_nt2.wav
-  output_gain_db: -19.9729786
+  output_gain_db: -19.8276463
 - values:
     preset: 1_rm
   file: ir/1_rm.wav
-  output_gain_db: -25.8788986
+  output_gain_db: -23.9999962
 - values:
     preset: 1_sm57
   file: ir/1_sm57.wav
-  output_gain_db: -18.3150234
+  output_gain_db: -18.1827278
 - values:
     preset: 2_nt2
   file: ir/2_nt2.wav
-  output_gain_db: -19.7741966
+  output_gain_db: -19.8339977
 - values:
     preset: 2_rm
   file: ir/2_rm.wav
-  output_gain_db: -25.7139874
+  output_gain_db: -24.0000000
 - values:
     preset: 2_sm57
   file: ir/2_sm57.wav
-  output_gain_db: -18.5477524
+  output_gain_db: -18.1525307
 - values:
     preset: 3_nt2
   file: ir/3_nt2.wav
-  output_gain_db: -20.7777863
+  output_gain_db: -20.8312492
 - values:
     preset: 3_rm
   file: ir/3_rm.wav
-  output_gain_db: -28.6791840
+  output_gain_db: -24.0000000
 - values:
     preset: 3_sm57
   file: ir/3_sm57.wav
-  output_gain_db: -18.6471939
+  output_gain_db: -19.1561050

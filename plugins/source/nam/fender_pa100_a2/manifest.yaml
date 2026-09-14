@@ -3,7 +3,7 @@ id: nam_fender_pa100_a2
 display_name: PA100
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 10.8856716
 type: preamp
 backend: nam
 architecture: A2

@@ -26,48 +26,48 @@ captures:
 - values:
     preset: at4033a_neve
   file: ir/at4033a_neve.wav
-  output_gain_db: -21.7160206
+  output_gain_db: -20.1338902
 - values:
     preset: at4033a_stalevel
   file: ir/at4033a_stalevel.wav
-  output_gain_db: -21.5748806
+  output_gain_db: -20.1028137
 - values:
     preset: bx44_neve_close
   file: ir/bx44_neve_close.wav
-  output_gain_db: -20.8645420
+  output_gain_db: -19.5908165
 - values:
     preset: bx44_stalevel_close
   file: ir/bx44_stalevel_close.wav
-  output_gain_db: -20.7441444
+  output_gain_db: -19.5097256
 - values:
     preset: u67_neve
   file: ir/u67_neve.wav
-  output_gain_db: -21.6910000
+  output_gain_db: -21.5687599
 - values:
     preset: u67_stalevel
   file: ir/u67_stalevel.wav
-  output_gain_db: -21.6860943
+  output_gain_db: -21.5527763
 - values:
     preset: bx44_neve_far
   file: ir/bx44_neve_far.wav
-  output_gain_db: -22.3302441
+  output_gain_db: -21.3896217
 - values:
     preset: bx44_stalevel_far
   file: ir/bx44_stalevel_far.wav
-  output_gain_db: -22.3889122
+  output_gain_db: -21.3363380
 - values:
     preset: sm57_neve_close
   file: ir/sm57_neve_close.wav
-  output_gain_db: -21.5513763
+  output_gain_db: -19.4939079
 - values:
     preset: sm57_neve_closer
   file: ir/sm57_neve_closer.wav
-  output_gain_db: -20.4192486
+  output_gain_db: -18.2302303
 - values:
     preset: sm57_stalevel_close
   file: ir/sm57_stalevel_close.wav
-  output_gain_db: -21.7177143
+  output_gain_db: -19.6493282
 - values:
     preset: sm57_stalevel_closer
   file: ir/sm57_stalevel_closer.wav
-  output_gain_db: -20.7434502
+  output_gain_db: -18.5866680

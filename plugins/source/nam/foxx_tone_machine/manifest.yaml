@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_foxx_tone_machine
 display_name: Foxx Tone Machine
 brand: foxx
-output_gain_db: 0.0000000
+output_gain_db: 3.7783456
 type: gain_pedal
 backend: nam
 architecture: A1

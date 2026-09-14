@@ -19,16 +19,16 @@ captures:
 - values:
     preset: stock
   file: ir/ibanez_aw84ce_wk_48000.wav
-  output_gain_db: -25.3871441
+  output_gain_db: 0.0000020
 - values:
     preset: blend
   file: ir/ibanez_aw84ce_wk_48000_bld.wav
-  output_gain_db: -21.1871204
+  output_gain_db: 4.0513525
 - values:
     preset: jf_flavor
   file: ir/ibanez_aw84ce_wk_48000_jf_flavor.wav
-  output_gain_db: -22.8922348
+  output_gain_db: 2.3415458
 - values:
     preset: match
   file: ir/ibanez_aw84ce_wk_48000_match.wav
-  output_gain_db: -24.1327400
+  output_gain_db: 0.0000008

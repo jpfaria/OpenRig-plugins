@@ -17,12 +17,12 @@ captures:
 - values:
     preset: raw
   file: ir/ir_gibson_j45_1943_dazzo_44100.wav
-  output_gain_db: -16.3105545
+  output_gain_db: 9.7271280
 - values:
     preset: matched
   file: ir/ir_gibson_j45_1943_dazzo_44100_match1.wav
-  output_gain_db: -10.3450899
+  output_gain_db: 10.2067261
 - values:
     preset: matched_dry
   file: ir/ir_gibson_j45_1943_dazzo_44100_match1_lessroom.wav
-  output_gain_db: -9.4092722
+  output_gain_db: 10.1911850

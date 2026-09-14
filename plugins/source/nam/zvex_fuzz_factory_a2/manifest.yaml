@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_zvex_fuzz_factory_a2
 display_name: ZVEX Fuzz Factory
 brand: zvex
-output_gain_db: -8.3651152
+output_gain_db: -13.0070181
 type: gain_pedal
 backend: nam
 architecture: A2

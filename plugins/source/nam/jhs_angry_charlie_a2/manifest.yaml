@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_jhs_angry_charlie_a2
 display_name: JHS Angry Charlie
 brand: jhs
-output_gain_db: 0.0000000
+output_gain_db: 14.5350552
 type: gain_pedal
 backend: nam
 architecture: A2

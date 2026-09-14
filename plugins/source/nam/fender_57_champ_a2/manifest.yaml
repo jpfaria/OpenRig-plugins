@@ -5,7 +5,7 @@ id: nam_fender_57_champ_a2
 display_name: '''57 Custom Champ'
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 4.8489518
 type: preamp
 backend: nam
 architecture: A2

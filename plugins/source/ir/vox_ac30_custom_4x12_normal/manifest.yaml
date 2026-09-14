@@ -19,20 +19,20 @@ captures:
 - values:
     preset: custom_normal_m930_on_axis
   file: ir/custom_normal_m930_on_axis.wav
-  output_gain_db: -22.3690166
+  output_gain_db: -19.0411530
 - values:
     preset: custom_normal_m930_rm
   file: ir/custom_normal_m930_rm.wav
-  output_gain_db: -22.5192528
+  output_gain_db: -20.6471424
 - values:
     preset: custom_normal_u87_2
   file: ir/custom_normal_u87_2.wav
-  output_gain_db: -25.2113667
+  output_gain_db: -20.5619030
 - values:
     preset: normal_raum_the_big_bang
   file: ir/normal_raum_the_big_bang.wav
-  output_gain_db: -35.0689163
+  output_gain_db: -23.9999962
 - values:
     preset: normal_the_big_bang
   file: ir/normal_the_big_bang.wav
-  output_gain_db: -20.4222832
+  output_gain_db: -20.0458794

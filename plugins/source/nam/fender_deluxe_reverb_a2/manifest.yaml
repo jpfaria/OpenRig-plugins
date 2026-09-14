@@ -13,7 +13,7 @@ id: nam_fender_deluxe_reverb_a2
 display_name: Deluxe Reverb
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 5.7679405
 type: amp
 backend: nam
 architecture: A2

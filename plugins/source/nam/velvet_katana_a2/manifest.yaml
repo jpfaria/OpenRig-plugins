@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_velvet_katana_a2
 display_name: Velvet Katana
 brand: velvet
-output_gain_db: -3.7444315
+output_gain_db: -6.7843328
 type: gain_pedal
 backend: nam
 architecture: A2

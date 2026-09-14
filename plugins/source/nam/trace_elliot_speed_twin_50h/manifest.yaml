@@ -5,7 +5,7 @@ display_name: Speed Twin 50H
 brand: trace_elliot
 sources:
 - https://www.tone3000.com/tones/59315
-output_gain_db: 0.0000000
+output_gain_db: 5.4624381
 type: amp
 backend: nam
 architecture: A2

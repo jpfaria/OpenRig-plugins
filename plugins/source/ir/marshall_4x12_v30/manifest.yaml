@@ -17,8 +17,8 @@ captures:
 - values:
     preset: b
   file: ir/ev_mix_b.wav
-  output_gain_db: -18.3097191
+  output_gain_db: -19.0051613
 - values:
     preset: d
   file: ir/ev_mix_d.wav
-  output_gain_db: -20.3393364
+  output_gain_db: -18.7720184

@@ -19,16 +19,16 @@ captures:
 - values:
     preset: flat
   file: ir/guild_d_150ce_48000.wav
-  output_gain_db: -24.1630573
+  output_gain_db: 4.9569573
 - values:
     preset: blend
   file: ir/guild_d_150ce_48000_bld.wav
-  output_gain_db: -18.0175819
+  output_gain_db: 10.8692379
 - values:
     preset: jf_flavor
   file: ir/guild_d_150ce_48000_jf_flavor.wav
-  output_gain_db: -29.0279846
+  output_gain_db: 0.0000004
 - values:
     preset: match
   file: ir/guild_d_150ce_48000_match.wav
-  output_gain_db: -17.0724030
+  output_gain_db: 6.1636667

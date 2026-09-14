@@ -18,16 +18,16 @@ captures:
 - values:
     preset: drive1
   file: ir/drive1.wav
-  output_gain_db: -25.3037987
+  output_gain_db: -23.7836418
 - values:
     preset: drive2
   file: ir/drive2.wav
-  output_gain_db: -24.4042187
+  output_gain_db: -22.2185402
 - values:
     preset: drive3
   file: ir/drive3.wav
-  output_gain_db: -23.8389721
+  output_gain_db: -23.7746086
 - values:
     preset: drive4
   file: ir/drive4.wav
-  output_gain_db: -24.6911736
+  output_gain_db: -22.5248871

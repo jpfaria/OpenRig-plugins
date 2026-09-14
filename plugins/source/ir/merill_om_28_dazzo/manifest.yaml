@@ -16,12 +16,12 @@ captures:
 - values:
     preset: raw
   file: ir/ir_merill_om28_dazzo_44100.wav
-  output_gain_db: -15.6355658
+  output_gain_db: 10.8755341
 - values:
     preset: match2
   file: ir/ir_merill_om28_dazzo_44100_match2.wav
-  output_gain_db: -16.6478577
+  output_gain_db: 10.5475321
 - values:
     preset: match2_lessroom
   file: ir/ir_merill_om28_dazzo_44100_match2_lessroom.wav
-  output_gain_db: -16.4810829
+  output_gain_db: 10.5632076

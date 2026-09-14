@@ -44,1192 +44,1192 @@ captures:
     position: cap
     distance: '0.5'
   file: ir/md421_cap_0.5in.wav
-  output_gain_db: -20.1441593
+  output_gain_db: -20.0847626
 - values:
     mic: md421
     position: cap
     distance: '0'
   file: ir/md421_cap_0in.wav
-  output_gain_db: -19.6038780
+  output_gain_db: -20.2189198
 - values:
     mic: md421
     position: cap
     distance: '12'
   file: ir/md421_cap_12in.wav
-  output_gain_db: -20.1694145
+  output_gain_db: -20.7731762
 - values:
     mic: md421
     position: cap
     distance: '1'
   file: ir/md421_cap_1in.wav
-  output_gain_db: -20.7688541
+  output_gain_db: -20.0463715
 - values:
     mic: md421
     position: cap
     distance: '2'
   file: ir/md421_cap_2in.wav
-  output_gain_db: -20.3107395
+  output_gain_db: -19.7361546
 - values:
     mic: md421
     position: cap
     distance: '3'
   file: ir/md421_cap_3in.wav
-  output_gain_db: -20.5434608
+  output_gain_db: -19.8653965
 - values:
     mic: md421
     position: cap
     distance: '4'
   file: ir/md421_cap_4in.wav
-  output_gain_db: -20.2992477
+  output_gain_db: -19.8093491
 - values:
     mic: md421
     position: cap
     distance: '5'
   file: ir/md421_cap_5in.wav
-  output_gain_db: -20.2444611
+  output_gain_db: -19.6791611
 - values:
     mic: md421
     position: cap
     distance: '6'
   file: ir/md421_cap_6in.wav
-  output_gain_db: -20.5227089
+  output_gain_db: -20.1891174
 - values:
     mic: md421
     position: cap45
     distance: '0.5'
   file: ir/md421_cap45_0.5in.wav
-  output_gain_db: -21.4463310
+  output_gain_db: -20.3857307
 - values:
     mic: md421
     position: cap45
     distance: '0'
   file: ir/md421_cap45_0in.wav
-  output_gain_db: -20.6194019
+  output_gain_db: -20.7029266
 - values:
     mic: md421
     position: cap45
     distance: '12'
   file: ir/md421_cap45_12in.wav
-  output_gain_db: -21.5872040
+  output_gain_db: -21.0027046
 - values:
     mic: md421
     position: cap45
     distance: '1'
   file: ir/md421_cap45_1in.wav
-  output_gain_db: -21.3950367
+  output_gain_db: -20.0482025
 - values:
     mic: md421
     position: cap45
     distance: '2'
   file: ir/md421_cap45_2in.wav
-  output_gain_db: -20.5465622
+  output_gain_db: -19.7778759
 - values:
     mic: md421
     position: cap45
     distance: '3'
   file: ir/md421_cap45_3in.wav
-  output_gain_db: -21.6301708
+  output_gain_db: -20.2220116
 - values:
     mic: md421
     position: cap45
     distance: '4'
   file: ir/md421_cap45_4in.wav
-  output_gain_db: -20.8867569
+  output_gain_db: -20.5668259
 - values:
     mic: md421
     position: cap45
     distance: '5'
   file: ir/md421_cap45_5in.wav
-  output_gain_db: -20.4844875
+  output_gain_db: -20.2089863
 - values:
     mic: md421
     position: cap45
     distance: '6'
   file: ir/md421_cap45_6in.wav
-  output_gain_db: -21.6298218
+  output_gain_db: -21.3242798
 - values:
     mic: md421
     position: cap_edge
     distance: '0.5'
   file: ir/md421_cap_edge_0.5in.wav
-  output_gain_db: -20.2613068
+  output_gain_db: -20.0412579
 - values:
     mic: md421
     position: cap_edge
     distance: '0'
   file: ir/md421_cap_edge_0in.wav
-  output_gain_db: -19.9568348
+  output_gain_db: -20.1119843
 - values:
     mic: md421
     position: cap_edge
     distance: '12'
   file: ir/md421_cap_edge_12in.wav
-  output_gain_db: -20.9773731
+  output_gain_db: -20.7722244
 - values:
     mic: md421
     position: cap_edge
     distance: '1'
   file: ir/md421_cap_edge_1in.wav
-  output_gain_db: -20.0292511
+  output_gain_db: -20.4041862
 - values:
     mic: md421
     position: cap_edge
     distance: '2'
   file: ir/md421_cap_edge_2in.wav
-  output_gain_db: -19.8366203
+  output_gain_db: -20.1778316
 - values:
     mic: md421
     position: cap_edge
     distance: '3'
   file: ir/md421_cap_edge_3in.wav
-  output_gain_db: -20.3976021
+  output_gain_db: -19.9445362
 - values:
     mic: md421
     position: cap_edge
     distance: '4'
   file: ir/md421_cap_edge_4in.wav
-  output_gain_db: -20.5068283
+  output_gain_db: -20.2911110
 - values:
     mic: md421
     position: cap_edge
     distance: '5'
   file: ir/md421_cap_edge_5in.wav
-  output_gain_db: -20.7889423
+  output_gain_db: -20.1711769
 - values:
     mic: md421
     position: cap_edge
     distance: '6'
   file: ir/md421_cap_edge_6in.wav
-  output_gain_db: -21.5126171
+  output_gain_db: -20.6628933
 - values:
     mic: md421
     position: cap_edge45
     distance: '0.5'
   file: ir/md421_cap_edge45_0.5in.wav
-  output_gain_db: -20.9107533
+  output_gain_db: -21.3859138
 - values:
     mic: md421
     position: cap_edge45
     distance: '0'
   file: ir/md421_cap_edge45_0in.wav
-  output_gain_db: -21.2071629
+  output_gain_db: -21.2832260
 - values:
     mic: md421
     position: cap_edge45
     distance: '12'
   file: ir/md421_cap_edge45_12in.wav
-  output_gain_db: -21.7201653
+  output_gain_db: -21.0588779
 - values:
     mic: md421
     position: cap_edge45
     distance: '1'
   file: ir/md421_cap_edge45_1in.wav
-  output_gain_db: -20.3830299
+  output_gain_db: -21.0897446
 - values:
     mic: md421
     position: cap_edge45
     distance: '2'
   file: ir/md421_cap_edge45_2in.wav
-  output_gain_db: -20.2027245
+  output_gain_db: -20.3275604
 - values:
     mic: md421
     position: cap_edge45
     distance: '3'
   file: ir/md421_cap_edge45_3in.wav
-  output_gain_db: -21.0220871
+  output_gain_db: -20.8857670
 - values:
     mic: md421
     position: cap_edge45
     distance: '4'
   file: ir/md421_cap_edge45_4in.wav
-  output_gain_db: -22.9210606
+  output_gain_db: -21.0047073
 - values:
     mic: md421
     position: cap_edge45
     distance: '5'
   file: ir/md421_cap_edge45_5in.wav
-  output_gain_db: -21.8918819
+  output_gain_db: -20.2478065
 - values:
     mic: md421
     position: cap_edge45
     distance: '6'
   file: ir/md421_cap_edge45_6in.wav
-  output_gain_db: -23.5207615
+  output_gain_db: -20.9302101
 - values:
     mic: md421
     position: cone
     distance: '0.5'
   file: ir/md421_cone_0.5in.wav
-  output_gain_db: -21.2512970
+  output_gain_db: -20.6559067
 - values:
     mic: md421
     position: cone
     distance: '0'
   file: ir/md421_cone_0in.wav
-  output_gain_db: -21.0240269
+  output_gain_db: -20.8087692
 - values:
     mic: md421
     position: cone
     distance: '12'
   file: ir/md421_cone_12in.wav
-  output_gain_db: -21.7664394
+  output_gain_db: -21.5268021
 - values:
     mic: md421
     position: cone
     distance: '1'
   file: ir/md421_cone_1in.wav
-  output_gain_db: -21.5393353
+  output_gain_db: -20.7075634
 - values:
     mic: md421
     position: cone
     distance: '2'
   file: ir/md421_cone_2in.wav
-  output_gain_db: -21.7935448
+  output_gain_db: -20.8470249
 - values:
     mic: md421
     position: cone
     distance: '3'
   file: ir/md421_cone_3in.wav
-  output_gain_db: -22.3280277
+  output_gain_db: -21.0495987
 - values:
     mic: md421
     position: cone
     distance: '4'
   file: ir/md421_cone_4in.wav
-  output_gain_db: -22.0202389
+  output_gain_db: -21.1310272
 - values:
     mic: md421
     position: cone
     distance: '5'
   file: ir/md421_cone_5in.wav
-  output_gain_db: -20.4298763
+  output_gain_db: -19.8332882
 - values:
     mic: md421
     position: cone
     distance: '6'
   file: ir/md421_cone_6in.wav
-  output_gain_db: -21.1052341
+  output_gain_db: -20.2561951
 - values:
     mic: md421
     position: cone_edge
     distance: '0.5'
   file: ir/md421_cone_edge_0.5in.wav
-  output_gain_db: -23.7178974
+  output_gain_db: -22.5960159
 - values:
     mic: md421
     position: cone_edge
     distance: '0'
   file: ir/md421_cone_edge_0in.wav
-  output_gain_db: -23.5520611
+  output_gain_db: -22.4994621
 - values:
     mic: md421
     position: cone_edge
     distance: '12'
   file: ir/md421_cone_edge_12in.wav
-  output_gain_db: -22.2883320
+  output_gain_db: -21.5957336
 - values:
     mic: md421
     position: cone_edge
     distance: '1'
   file: ir/md421_cone_edge_1in.wav
-  output_gain_db: -23.6549721
+  output_gain_db: -22.1804371
 - values:
     mic: md421
     position: cone_edge
     distance: '2'
   file: ir/md421_cone_edge_2in.wav
-  output_gain_db: -23.2699547
+  output_gain_db: -21.5883503
 - values:
     mic: md421
     position: cone_edge
     distance: '3'
   file: ir/md421_cone_edge_3in.wav
-  output_gain_db: -23.7022934
+  output_gain_db: -21.8391876
 - values:
     mic: md421
     position: cone_edge
     distance: '4'
   file: ir/md421_cone_edge_4in.wav
-  output_gain_db: -23.4835644
+  output_gain_db: -21.5764465
 - values:
     mic: md421
     position: cone_edge
     distance: '5'
   file: ir/md421_cone_edge_5in.wav
-  output_gain_db: -22.6717587
+  output_gain_db: -21.8507805
 - values:
     mic: md421
     position: cone_edge
     distance: '6'
   file: ir/md421_cone_edge_6in.wav
-  output_gain_db: -22.4361572
+  output_gain_db: -22.0330124
 - values:
     mic: km84
     position: cap
     distance: '0.5'
   file: ir/km84_cap_0.5in.wav
-  output_gain_db: -19.3850861
+  output_gain_db: -19.4110794
 - values:
     mic: km84
     position: cap
     distance: '0'
   file: ir/km84_cap_0in.wav
-  output_gain_db: -20.1836872
+  output_gain_db: -19.4715729
 - values:
     mic: km84
     position: cap
     distance: '12'
   file: ir/km84_cap_12in.wav
-  output_gain_db: -19.6191444
+  output_gain_db: -20.0853748
 - values:
     mic: km84
     position: cap
     distance: '1'
   file: ir/km84_cap_1in.wav
-  output_gain_db: -18.7696018
+  output_gain_db: -19.1735973
 - values:
     mic: km84
     position: cap
     distance: '2'
   file: ir/km84_cap_2in.wav
-  output_gain_db: -18.0061951
+  output_gain_db: -18.7124290
 - values:
     mic: km84
     position: cap
     distance: '3'
   file: ir/km84_cap_3in.wav
-  output_gain_db: -18.3064995
+  output_gain_db: -18.8385811
 - values:
     mic: km84
     position: cap
     distance: '4'
   file: ir/km84_cap_4in.wav
-  output_gain_db: -18.5313835
+  output_gain_db: -19.0624619
 - values:
     mic: km84
     position: cap
     distance: '5'
   file: ir/km84_cap_5in.wav
-  output_gain_db: -18.4067917
+  output_gain_db: -19.1173038
 - values:
     mic: km84
     position: cap
     distance: '6'
   file: ir/km84_cap_6in.wav
-  output_gain_db: -18.6829872
+  output_gain_db: -19.6481190
 - values:
     mic: km84
     position: cap_edge
     distance: '0.5'
   file: ir/km84_cap_edge_0.5in.wav
-  output_gain_db: -20.3305054
+  output_gain_db: -19.6714783
 - values:
     mic: km84
     position: cap_edge
     distance: '0'
   file: ir/km84_cap_edge_0in.wav
-  output_gain_db: -20.9509659
+  output_gain_db: -19.7295933
 - values:
     mic: km84
     position: cap_edge
     distance: '12'
   file: ir/km84_cap_edge_12in.wav
-  output_gain_db: -19.7696800
+  output_gain_db: -20.2452278
 - values:
     mic: km84
     position: cap_edge
     distance: '1'
   file: ir/km84_cap_edge_1in.wav
-  output_gain_db: -19.9303551
+  output_gain_db: -19.6187725
 - values:
     mic: km84
     position: cap_edge
     distance: '2'
   file: ir/km84_cap_edge_2in.wav
-  output_gain_db: -18.5866566
+  output_gain_db: -19.1448593
 - values:
     mic: km84
     position: cap_edge
     distance: '3'
   file: ir/km84_cap_edge_3in.wav
-  output_gain_db: -18.6616898
+  output_gain_db: -19.1250610
 - values:
     mic: km84
     position: cap_edge
     distance: '4'
   file: ir/km84_cap_edge_4in.wav
-  output_gain_db: -18.7842484
+  output_gain_db: -19.2567844
 - values:
     mic: km84
     position: cap_edge
     distance: '5'
   file: ir/km84_cap_edge_5in.wav
-  output_gain_db: -18.5579319
+  output_gain_db: -19.0679874
 - values:
     mic: km84
     position: cap_edge
     distance: '6'
   file: ir/km84_cap_edge_6in.wav
-  output_gain_db: -18.8356533
+  output_gain_db: -19.4571609
 - values:
     mic: km84
     position: cone
     distance: '0.5'
   file: ir/km84_cone_0.5in.wav
-  output_gain_db: -23.2933769
+  output_gain_db: -21.3577766
 - values:
     mic: km84
     position: cone
     distance: '0'
   file: ir/km84_cone_0in.wav
-  output_gain_db: -23.3953514
+  output_gain_db: -21.4293747
 - values:
     mic: km84
     position: cone
     distance: '12'
   file: ir/km84_cone_12in.wav
-  output_gain_db: -21.2471466
+  output_gain_db: -21.2577744
 - values:
     mic: km84
     position: cone
     distance: '1'
   file: ir/km84_cone_1in.wav
-  output_gain_db: -23.0338936
+  output_gain_db: -21.2845154
 - values:
     mic: km84
     position: cone
     distance: '2'
   file: ir/km84_cone_2in.wav
-  output_gain_db: -22.3361969
+  output_gain_db: -21.3398418
 - values:
     mic: km84
     position: cone
     distance: '3'
   file: ir/km84_cone_3in.wav
-  output_gain_db: -21.9290962
+  output_gain_db: -21.4749451
 - values:
     mic: km84
     position: cone
     distance: '4'
   file: ir/km84_cone_4in.wav
-  output_gain_db: -21.6537552
+  output_gain_db: -21.4613419
 - values:
     mic: km84
     position: cone
     distance: '5'
   file: ir/km84_cone_5in.wav
-  output_gain_db: -21.2697620
+  output_gain_db: -21.0855427
 - values:
     mic: km84
     position: cone
     distance: '6'
   file: ir/km84_cone_6in.wav
-  output_gain_db: -20.8461609
+  output_gain_db: -20.7242393
 - values:
     mic: km84
     position: cone_edge
     distance: '0.5'
   file: ir/km84_cone_edge_0.5in.wav
-  output_gain_db: -25.6028786
+  output_gain_db: -23.2711926
 - values:
     mic: km84
     position: cone_edge
     distance: '0'
   file: ir/km84_cone_edge_0in.wav
-  output_gain_db: -25.7921257
+  output_gain_db: -23.4199715
 - values:
     mic: km84
     position: cone_edge
     distance: '12'
   file: ir/km84_cone_edge_12in.wav
-  output_gain_db: -23.7878170
+  output_gain_db: -22.5000687
 - values:
     mic: km84
     position: cone_edge
     distance: '1'
   file: ir/km84_cone_edge_1in.wav
-  output_gain_db: -25.4993973
+  output_gain_db: -23.4700508
 - values:
     mic: km84
     position: cone_edge
     distance: '2'
   file: ir/km84_cone_edge_2in.wav
-  output_gain_db: -25.3926506
+  output_gain_db: -23.4078751
 - values:
     mic: km84
     position: cone_edge
     distance: '3'
   file: ir/km84_cone_edge_3in.wav
-  output_gain_db: -25.1503887
+  output_gain_db: -23.1379070
 - values:
     mic: km84
     position: cone_edge
     distance: '4'
   file: ir/km84_cone_edge_4in.wav
-  output_gain_db: -25.5021954
+  output_gain_db: -23.4369965
 - values:
     mic: km84
     position: cone_edge
     distance: '5'
   file: ir/km84_cone_edge_5in.wav
-  output_gain_db: -25.5242558
+  output_gain_db: -23.7240219
 - values:
     mic: km84
     position: cone_edge
     distance: '6'
   file: ir/km84_cone_edge_6in.wav
-  output_gain_db: -24.7197361
+  output_gain_db: -23.0565987
 - values:
     mic: r121
     position: cap
     distance: '0.5'
   file: ir/r121_cap_0.5in.wav
-  output_gain_db: -23.9675674
+  output_gain_db: -21.3580742
 - values:
     mic: r121
     position: cap
     distance: '0'
   file: ir/r121_cap_0in.wav
-  output_gain_db: -24.4761906
+  output_gain_db: -21.3492908
 - values:
     mic: r121
     position: cap
     distance: '12'
   file: ir/r121_cap_12in.wav
-  output_gain_db: -19.6180496
+  output_gain_db: -21.0619678
 - values:
     mic: r121
     position: cap
     distance: '1'
   file: ir/r121_cap_1in.wav
-  output_gain_db: -23.2377262
+  output_gain_db: -20.9234943
 - values:
     mic: r121
     position: cap
     distance: '2'
   file: ir/r121_cap_2in.wav
-  output_gain_db: -21.9221096
+  output_gain_db: -20.0601730
 - values:
     mic: r121
     position: cap
     distance: '3'
   file: ir/r121_cap_3in.wav
-  output_gain_db: -20.7769470
+  output_gain_db: -19.7825603
 - values:
     mic: r121
     position: cap
     distance: '4'
   file: ir/r121_cap_4in.wav
-  output_gain_db: -19.8944359
+  output_gain_db: -20.7283230
 - values:
     mic: r121
     position: cap
     distance: '5'
   file: ir/r121_cap_5in.wav
-  output_gain_db: -19.3270035
+  output_gain_db: -19.5732288
 - values:
     mic: r121
     position: cap
     distance: '6'
   file: ir/r121_cap_6in.wav
-  output_gain_db: -20.0031891
+  output_gain_db: -20.3893642
 - values:
     mic: r121
     position: cap45
     distance: '0.5'
   file: ir/r121_cap45_0.5in.wav
-  output_gain_db: -23.4114914
+  output_gain_db: -20.9401073
 - values:
     mic: r121
     position: cap45
     distance: '0'
   file: ir/r121_cap45_0in.wav
-  output_gain_db: -24.3707638
+  output_gain_db: -21.1826878
 - values:
     mic: r121
     position: cap45
     distance: '12'
   file: ir/r121_cap45_12in.wav
-  output_gain_db: -19.5614223
+  output_gain_db: -20.2946587
 - values:
     mic: r121
     position: cap45
     distance: '1'
   file: ir/r121_cap45_1in.wav
-  output_gain_db: -22.5176563
+  output_gain_db: -20.6646214
 - values:
     mic: r121
     position: cap45
     distance: '2'
   file: ir/r121_cap45_2in.wav
-  output_gain_db: -20.6967678
+  output_gain_db: -19.7045536
 - values:
     mic: r121
     position: cap45
     distance: '3'
   file: ir/r121_cap45_3in.wav
-  output_gain_db: -19.7440720
+  output_gain_db: -19.6856422
 - values:
     mic: r121
     position: cap45
     distance: '4'
   file: ir/r121_cap45_4in.wav
-  output_gain_db: -19.7854671
+  output_gain_db: -20.3590431
 - values:
     mic: r121
     position: cap45
     distance: '5'
   file: ir/r121_cap45_5in.wav
-  output_gain_db: -18.4553318
+  output_gain_db: -19.6288490
 - values:
     mic: r121
     position: cap45
     distance: '6'
   file: ir/r121_cap45_6in.wav
-  output_gain_db: -19.1329994
+  output_gain_db: -19.7193909
 - values:
     mic: r121
     position: cap_edge
     distance: '0.5'
   file: ir/r121_cap_edge_0.5in.wav
-  output_gain_db: -24.7927876
+  output_gain_db: -21.4235287
 - values:
     mic: r121
     position: cap_edge
     distance: '0'
   file: ir/r121_cap_edge_0in.wav
-  output_gain_db: -25.4329891
+  output_gain_db: -21.4596977
 - values:
     mic: r121
     position: cap_edge
     distance: '12'
   file: ir/r121_cap_edge_12in.wav
-  output_gain_db: -19.3673000
+  output_gain_db: -20.6228809
 - values:
     mic: r121
     position: cap_edge
     distance: '1'
   file: ir/r121_cap_edge_1in.wav
-  output_gain_db: -24.1152325
+  output_gain_db: -21.3209209
 - values:
     mic: r121
     position: cap_edge
     distance: '2'
   file: ir/r121_cap_edge_2in.wav
-  output_gain_db: -23.0755730
+  output_gain_db: -20.9804573
 - values:
     mic: r121
     position: cap_edge
     distance: '3'
   file: ir/r121_cap_edge_3in.wav
-  output_gain_db: -21.7990837
+  output_gain_db: -20.4418621
 - values:
     mic: r121
     position: cap_edge
     distance: '4'
   file: ir/r121_cap_edge_4in.wav
-  output_gain_db: -20.6836720
+  output_gain_db: -20.5188332
 - values:
     mic: r121
     position: cap_edge
     distance: '5'
   file: ir/r121_cap_edge_5in.wav
-  output_gain_db: -19.7941036
+  output_gain_db: -20.3628788
 - values:
     mic: r121
     position: cap_edge
     distance: '6'
   file: ir/r121_cap_edge_6in.wav
-  output_gain_db: -19.3026619
+  output_gain_db: -20.3293037
 - values:
     mic: r121
     position: cap_edge45
     distance: '0.5'
   file: ir/r121_cap_edge45_0.5in.wav
-  output_gain_db: -26.0464745
+  output_gain_db: -22.4907875
 - values:
     mic: r121
     position: cap_edge45
     distance: '0'
   file: ir/r121_cap_edge45_0in.wav
-  output_gain_db: -26.7900391
+  output_gain_db: -22.8521538
 - values:
     mic: r121
     position: cap_edge45
     distance: '12'
   file: ir/r121_cap_edge45_12in.wav
-  output_gain_db: -19.4961433
+  output_gain_db: -20.3726845
 - values:
     mic: r121
     position: cap_edge45
     distance: '1'
   file: ir/r121_cap_edge45_1in.wav
-  output_gain_db: -25.2529163
+  output_gain_db: -22.0798683
 - values:
     mic: r121
     position: cap_edge45
     distance: '2'
   file: ir/r121_cap_edge45_2in.wav
-  output_gain_db: -23.0981083
+  output_gain_db: -20.8640575
 - values:
     mic: r121
     position: cap_edge45
     distance: '3'
   file: ir/r121_cap_edge45_3in.wav
-  output_gain_db: -21.7425537
+  output_gain_db: -20.7540970
 - values:
     mic: r121
     position: cap_edge45
     distance: '4'
   file: ir/r121_cap_edge45_4in.wav
-  output_gain_db: -19.8511372
+  output_gain_db: -20.4441872
 - values:
     mic: r121
     position: cap_edge45
     distance: '5'
   file: ir/r121_cap_edge45_5in.wav
-  output_gain_db: -19.8458500
+  output_gain_db: -19.7812271
 - values:
     mic: r121
     position: cap_edge45
     distance: '6'
   file: ir/r121_cap_edge45_6in.wav
-  output_gain_db: -19.6029568
+  output_gain_db: -20.2544785
 - values:
     mic: r121
     position: center
     distance: '12'
   file: ir/r121_center_12in.wav
-  output_gain_db: -28.2160301
+  output_gain_db: -24.0000000
 - values:
     mic: r121
     position: cone
     distance: '0.5'
   file: ir/r121_cone_0.5in.wav
-  output_gain_db: -26.7123528
+  output_gain_db: -23.1168976
 - values:
     mic: r121
     position: cone
     distance: '0'
   file: ir/r121_cone_0in.wav
-  output_gain_db: -27.0548363
+  output_gain_db: -22.9521160
 - values:
     mic: r121
     position: cone
     distance: '12'
   file: ir/r121_cone_12in.wav
-  output_gain_db: -21.2362080
+  output_gain_db: -21.3580170
 - values:
     mic: r121
     position: cone
     distance: '1'
   file: ir/r121_cone_1in.wav
-  output_gain_db: -26.3079166
+  output_gain_db: -23.0933189
 - values:
     mic: r121
     position: cone
     distance: '2'
   file: ir/r121_cone_2in.wav
-  output_gain_db: -25.2445488
+  output_gain_db: -22.3548641
 - values:
     mic: r121
     position: cone
     distance: '3'
   file: ir/r121_cone_3in.wav
-  output_gain_db: -24.0027580
+  output_gain_db: -21.8594666
 - values:
     mic: r121
     position: cone
     distance: '4'
   file: ir/r121_cone_4in.wav
-  output_gain_db: -22.9020061
+  output_gain_db: -21.7225780
 - values:
     mic: r121
     position: cone
     distance: '5'
   file: ir/r121_cone_5in.wav
-  output_gain_db: -22.4665718
+  output_gain_db: -21.3745117
 - values:
     mic: r121
     position: cone
     distance: '6'
   file: ir/r121_cone_6in.wav
-  output_gain_db: -22.1167736
+  output_gain_db: -21.4032726
 - values:
     mic: r121
     position: cone_edge
     distance: '0.5'
   file: ir/r121_cone_edge_0.5in.wav
-  output_gain_db: -28.8710175
+  output_gain_db: -24.0000000
 - values:
     mic: r121
     position: cone_edge
     distance: '0'
   file: ir/r121_cone_edge_0in.wav
-  output_gain_db: -29.2777958
+  output_gain_db: -23.9999943
 - values:
     mic: r121
     position: cone_edge
     distance: '12'
   file: ir/r121_cone_edge_12in.wav
-  output_gain_db: -23.2420349
+  output_gain_db: -21.8866787
 - values:
     mic: r121
     position: cone_edge
     distance: '1'
   file: ir/r121_cone_edge_1in.wav
-  output_gain_db: -28.6765995
+  output_gain_db: -24.0000000
 - values:
     mic: r121
     position: cone_edge
     distance: '2'
   file: ir/r121_cone_edge_2in.wav
-  output_gain_db: -28.0809078
+  output_gain_db: -24.0000000
 - values:
     mic: r121
     position: cone_edge
     distance: '3'
   file: ir/r121_cone_edge_3in.wav
-  output_gain_db: -27.3932858
+  output_gain_db: -23.9548798
 - values:
     mic: r121
     position: cone_edge
     distance: '4'
   file: ir/r121_cone_edge_4in.wav
-  output_gain_db: -26.7737751
+  output_gain_db: -23.8714638
 - values:
     mic: r121
     position: cone_edge
     distance: '5'
   file: ir/r121_cone_edge_5in.wav
-  output_gain_db: -25.9950562
+  output_gain_db: -23.5208092
 - values:
     mic: r121
     position: cone_edge
     distance: '6'
   file: ir/r121_cone_edge_6in.wav
-  output_gain_db: -24.8827286
+  output_gain_db: -22.8958626
 - values:
     mic: sm57
     position: cap
     distance: '0.5'
   file: ir/sm57_cap_0.5in.wav
-  output_gain_db: -19.6311493
+  output_gain_db: -19.2894478
 - values:
     mic: sm57
     position: cap
     distance: '0'
   file: ir/sm57_cap_0in.wav
-  output_gain_db: -18.9034386
+  output_gain_db: -19.7201042
 - values:
     mic: sm57
     position: cap
     distance: '12'
   file: ir/sm57_cap_12in.wav
-  output_gain_db: -20.6109467
+  output_gain_db: -20.0264721
 - values:
     mic: sm57
     position: cap
     distance: '1'
   file: ir/sm57_cap_1in.wav
-  output_gain_db: -19.6725025
+  output_gain_db: -19.3343620
 - values:
     mic: sm57
     position: cap
     distance: '2'
   file: ir/sm57_cap_2in.wav
-  output_gain_db: -18.5602303
+  output_gain_db: -19.1387081
 - values:
     mic: sm57
     position: cap
     distance: '3'
   file: ir/sm57_cap_3in.wav
-  output_gain_db: -19.5153866
+  output_gain_db: -19.0685577
 - values:
     mic: sm57
     position: cap
     distance: '4'
   file: ir/sm57_cap_4in.wav
-  output_gain_db: -18.6489334
+  output_gain_db: -19.1379013
 - values:
     mic: sm57
     position: cap
     distance: '5'
   file: ir/sm57_cap_5in.wav
-  output_gain_db: -19.3658829
+  output_gain_db: -19.6573467
 - values:
     mic: sm57
     position: cap
     distance: '6'
   file: ir/sm57_cap_6in.wav
-  output_gain_db: -18.9214535
+  output_gain_db: -20.0350571
 - values:
     mic: sm57
     position: cap45
     distance: '0.5'
   file: ir/sm57_cap45_0.5in.wav
-  output_gain_db: -20.5295010
+  output_gain_db: -19.4705353
 - values:
     mic: sm57
     position: cap45
     distance: '0'
   file: ir/sm57_cap45_0in.wav
-  output_gain_db: -20.8001099
+  output_gain_db: -19.9057255
 - values:
     mic: sm57
     position: cap45
     distance: '12'
   file: ir/sm57_cap45_12in.wav
-  output_gain_db: -21.7282963
+  output_gain_db: -20.4610100
 - values:
     mic: sm57
     position: cap45
     distance: '1'
   file: ir/sm57_cap45_1in.wav
-  output_gain_db: -20.0186749
+  output_gain_db: -19.4710560
 - values:
     mic: sm57
     position: cap45
     distance: '2'
   file: ir/sm57_cap45_2in.wav
-  output_gain_db: -19.1925144
+  output_gain_db: -19.6408195
 - values:
     mic: sm57
     position: cap45
     distance: '3'
   file: ir/sm57_cap45_3in.wav
-  output_gain_db: -20.1516705
+  output_gain_db: -19.8875561
 - values:
     mic: sm57
     position: cap45
     distance: '4'
   file: ir/sm57_cap45_4in.wav
-  output_gain_db: -19.6242886
+  output_gain_db: -19.7310944
 - values:
     mic: sm57
     position: cap45
     distance: '5'
   file: ir/sm57_cap45_5in.wav
-  output_gain_db: -19.9813213
+  output_gain_db: -20.2835331
 - values:
     mic: sm57
     position: cap45
     distance: '6'
   file: ir/sm57_cap45_6in.wav
-  output_gain_db: -19.4153862
+  output_gain_db: -21.0363693
 - values:
     mic: sm57
     position: cap_edge
     distance: '0.5'
   file: ir/sm57_cap_edge_0.5in.wav
-  output_gain_db: -19.4829464
+  output_gain_db: -18.9758663
 - values:
     mic: sm57
     position: cap_edge
     distance: '0'
   file: ir/sm57_cap_edge_0in.wav
-  output_gain_db: -20.2645874
+  output_gain_db: -19.4105167
 - values:
     mic: sm57
     position: cap_edge
     distance: '12'
   file: ir/sm57_cap_edge_12in.wav
-  output_gain_db: -20.3802147
+  output_gain_db: -19.7584515
 - values:
     mic: sm57
     position: cap_edge
     distance: '1'
   file: ir/sm57_cap_edge_1in.wav
-  output_gain_db: -19.0462780
+  output_gain_db: -19.0224895
 - values:
     mic: sm57
     position: cap_edge
     distance: '2'
   file: ir/sm57_cap_edge_2in.wav
-  output_gain_db: -18.2970352
+  output_gain_db: -19.8000298
 - values:
     mic: sm57
     position: cap_edge
     distance: '3'
   file: ir/sm57_cap_edge_3in.wav
-  output_gain_db: -19.1164017
+  output_gain_db: -19.2406578
 - values:
     mic: sm57
     position: cap_edge
     distance: '4'
   file: ir/sm57_cap_edge_4in.wav
-  output_gain_db: -18.9137363
+  output_gain_db: -19.8328362
 - values:
     mic: sm57
     position: cap_edge
     distance: '5'
   file: ir/sm57_cap_edge_5in.wav
-  output_gain_db: -19.1907501
+  output_gain_db: -19.9556694
 - values:
     mic: sm57
     position: cap_edge
     distance: '6'
   file: ir/sm57_cap_edge_6in.wav
-  output_gain_db: -19.5424919
+  output_gain_db: -20.0290852
 - values:
     mic: sm57
     position: cap_edge45
     distance: '0.5'
   file: ir/sm57_cap_edge45_0.5in.wav
-  output_gain_db: -21.5247917
+  output_gain_db: -19.7920837
 - values:
     mic: sm57
     position: cap_edge45
     distance: '0'
   file: ir/sm57_cap_edge45_0in.wav
-  output_gain_db: -21.8731441
+  output_gain_db: -20.1430321
 - values:
     mic: sm57
     position: cap_edge45
     distance: '12'
   file: ir/sm57_cap_edge45_12in.wav
-  output_gain_db: -20.4345894
+  output_gain_db: -20.8001461
 - values:
     mic: sm57
     position: cap_edge45
     distance: '1'
   file: ir/sm57_cap_edge45_1in.wav
-  output_gain_db: -20.9702816
+  output_gain_db: -19.6738567
 - values:
     mic: sm57
     position: cap_edge45
     distance: '2'
   file: ir/sm57_cap_edge45_2in.wav
-  output_gain_db: -19.9399567
+  output_gain_db: -19.6407833
 - values:
     mic: sm57
     position: cap_edge45
     distance: '3'
   file: ir/sm57_cap_edge45_3in.wav
-  output_gain_db: -20.1790009
+  output_gain_db: -19.6714077
 - values:
     mic: sm57
     position: cap_edge45
     distance: '4'
   file: ir/sm57_cap_edge45_4in.wav
-  output_gain_db: -19.4097176
+  output_gain_db: -19.8163929
 - values:
     mic: sm57
     position: cap_edge45
     distance: '5'
   file: ir/sm57_cap_edge45_5in.wav
-  output_gain_db: -19.4629288
+  output_gain_db: -19.7925167
 - values:
     mic: sm57
     position: cap_edge45
     distance: '6'
   file: ir/sm57_cap_edge45_6in.wav
-  output_gain_db: -19.7079372
+  output_gain_db: -20.4634590
 - values:
     mic: sm57
     position: cone
     distance: '0.5'
   file: ir/sm57_cone_0.5in.wav
-  output_gain_db: -22.8245716
+  output_gain_db: -20.7460117
 - values:
     mic: sm57
     position: cone
     distance: '0'
   file: ir/sm57_cone_0in.wav
-  output_gain_db: -23.2139225
+  output_gain_db: -20.6405487
 - values:
     mic: sm57
     position: cone
     distance: '12'
   file: ir/sm57_cone_12in.wav
-  output_gain_db: -19.3439465
+  output_gain_db: -20.0931740
 - values:
     mic: sm57
     position: cone
     distance: '1'
   file: ir/sm57_cone_1in.wav
-  output_gain_db: -22.5312328
+  output_gain_db: -20.5623112
 - values:
     mic: sm57
     position: cone
     distance: '2'
   file: ir/sm57_cone_2in.wav
-  output_gain_db: -22.2612553
+  output_gain_db: -20.5894871
 - values:
     mic: sm57
     position: cone
     distance: '3'
   file: ir/sm57_cone_3in.wav
-  output_gain_db: -21.2031822
+  output_gain_db: -20.2578125
 - values:
     mic: sm57
     position: cone
     distance: '4'
   file: ir/sm57_cone_4in.wav
-  output_gain_db: -20.4815922
+  output_gain_db: -20.7362270
 - values:
     mic: sm57
     position: cone
     distance: '5'
   file: ir/sm57_cone_5in.wav
-  output_gain_db: -20.2466583
+  output_gain_db: -20.4407673
 - values:
     mic: sm57
     position: cone
     distance: '6'
   file: ir/sm57_cone_6in.wav
-  output_gain_db: -19.7708492
+  output_gain_db: -20.0871773
 - values:
     mic: sm57
     position: cone_edge
     distance: '0.5'
   file: ir/sm57_cone_edge_0.5in.wav
-  output_gain_db: -25.1253452
+  output_gain_db: -22.1568413
 - values:
     mic: sm57
     position: cone_edge
     distance: '0'
   file: ir/sm57_cone_edge_0in.wav
-  output_gain_db: -25.3450527
+  output_gain_db: -22.4191151
 - values:
     mic: sm57
     position: cone_edge
     distance: '12'
   file: ir/sm57_cone_edge_12in.wav
-  output_gain_db: -20.8023338
+  output_gain_db: -20.6203327
 - values:
     mic: sm57
     position: cone_edge
     distance: '1'
   file: ir/sm57_cone_edge_1in.wav
-  output_gain_db: -24.8481636
+  output_gain_db: -22.0444145
 - values:
     mic: sm57
     position: cone_edge
     distance: '2'
   file: ir/sm57_cone_edge_2in.wav
-  output_gain_db: -24.1677094
+  output_gain_db: -21.7362709
 - values:
     mic: sm57
     position: cone_edge
     distance: '3'
   file: ir/sm57_cone_edge_3in.wav
-  output_gain_db: -23.5339203
+  output_gain_db: -21.1040173
 - values:
     mic: sm57
     position: cone_edge
     distance: '4'
   file: ir/sm57_cone_edge_4in.wav
-  output_gain_db: -22.8105259
+  output_gain_db: -20.5299320
 - values:
     mic: sm57
     position: cone_edge
     distance: '5'
   file: ir/sm57_cone_edge_5in.wav
-  output_gain_db: -21.5419464
+  output_gain_db: -20.3229504
 - values:
     mic: sm57
     position: cone_edge
     distance: '6'
   file: ir/sm57_cone_edge_6in.wav
-  output_gain_db: -21.0977745
+  output_gain_db: -20.3509083

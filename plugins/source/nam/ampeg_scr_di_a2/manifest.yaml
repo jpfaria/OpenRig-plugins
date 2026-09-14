@@ -3,7 +3,7 @@ id: nam_ampeg_scr_di_a2
 display_name: SCR-DI
 brand: ampeg
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 9.6170511
 type: gain_pedal
 backend: nam
 architecture: A2

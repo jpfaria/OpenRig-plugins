@@ -3,10 +3,13 @@
 //!
 //! Per capture: remove DC and resample to 48 kHz with windowed sinc
 //! when needed. Then a CEILING-ONLY convolution cap (issue #21):
-//! quiet captures pass through at natural level so the boost-only
-//! audit (#4) can see their insertion loss; only intrinsically-hot
+//! quiet captures pass through at natural level (the manifest
+//! `output_gain_db` makes up for it, #143); only intrinsically-hot
 //! captures whose convolution with the synthetic DI would exceed the
-//! ceiling are scaled down — never up.
+//! ceiling are scaled down — never up. A second down-only cap (#143)
+//! applies the same to an IR whose reference level (amp-level probes for
+//! a cab, the DI for a body) needs more cut than OpenRig's Output knob
+//! can give, so its `output_gain_db` fits the knob.
 //!
 //! Usage:
 //!
@@ -30,6 +33,7 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 use loudness_audit::ir::convolve;
+use loudness_audit::level::{ir_knob_fit_scale, IrRole};
 use loudness_audit::loudness::peak_dbfs;
 use loudness_audit::selector::PluginSelector;
 use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
@@ -105,9 +109,13 @@ fn run() -> Result<()> {
             }
         }
         let raw = fs::read_to_string(&manifest)?;
+        let role = match manifest_block_type(&raw).as_deref() {
+            Some("body") => IrRole::Body,
+            _ => IrRole::Cab,
+        };
         for f in all_capture_files(&raw) {
             let path = plugin_dir.join(&f);
-            match fix_one(&path, &probe, dst_sr) {
+            match fix_one(&path, &probe, dst_sr, role) {
                 Ok(FixResult::Fixed) => {
                     fixed += 1;
                     eprintln!("fix  {}", path.display());
@@ -129,7 +137,7 @@ enum FixResult {
     Fixed,
 }
 
-fn fix_one(path: &Path, probe: &[f32], dst_sr: u32) -> Result<FixResult> {
+fn fix_one(path: &Path, probe: &[f32], dst_sr: u32, role: IrRole) -> Result<FixResult> {
     let (interleaved, spec) = load_wav_raw(path)?;
     let chans = spec.channels as usize;
     if chans == 0 {
@@ -148,7 +156,7 @@ fn fix_one(path: &Path, probe: &[f32], dst_sr: u32) -> Result<FixResult> {
 
     // Max convolved peak across all channels — that's the one that
     // would clip downstream. If it's already below the ceiling, no
-    // scaling at all (the boost-only audit needs the natural level).
+    // scaling at all (level is the manifest's job, #143).
     let max_peak_db = channels
         .iter()
         .map(|ch| peak_dbfs(&convolve(probe, ch)))
@@ -159,6 +167,19 @@ fn fix_one(path: &Path, probe: &[f32], dst_sr: u32) -> Result<FixResult> {
         for ch in channels.iter_mut() {
             for s in ch.iter_mut() {
                 *s *= scale;
+            }
+        }
+    }
+
+    // Knob-fit cap (#143), uniform across channels like the one above.
+    let fit = channels
+        .iter()
+        .map(|ch| ir_knob_fit_scale(ch, probe, role))
+        .fold(1.0_f32, f32::min);
+    if fit < 1.0 {
+        for ch in channels.iter_mut() {
+            for s in ch.iter_mut() {
+                *s *= fit;
             }
         }
     }
@@ -233,6 +254,13 @@ fn parse_source_arg(args: &[String]) -> Result<PathBuf> {
         "usage: qa_fix --source <plugins/source path> \
          [--plugins kind/name[,kind/name...]]"
     )
+}
+
+fn manifest_block_type(yaml: &str) -> Option<String> {
+    yaml.lines()
+        .filter(|l| !l.starts_with(char::is_whitespace))
+        .find_map(|l| l.strip_prefix("type:"))
+        .map(|rest| rest.trim().trim_matches('"').trim_matches('\'').to_string())
 }
 
 fn all_capture_files(yaml: &str) -> Vec<String> {

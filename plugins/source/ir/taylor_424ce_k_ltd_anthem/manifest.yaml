@@ -18,12 +18,12 @@ captures:
 - values:
     preset: base
   file: ir/ir2_424_44k_2048.wav
-  output_gain_db: -20.3427773
+  output_gain_db: 7.3725967
 - values:
     preset: m2
   file: ir/ir2_424_44k_2048_m2.wav
-  output_gain_db: -28.8475285
+  output_gain_db: 5.8380585
 - values:
     preset: mffq3n
   file: ir/ir2_424_44k_2048_mffq3n.wav
-  output_gain_db: -36.4918289
+  output_gain_db: 0.0000008

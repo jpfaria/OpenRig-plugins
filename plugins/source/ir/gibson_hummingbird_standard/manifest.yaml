@@ -24,39 +24,39 @@ captures:
     position: '1'
     voicing: raw
   file: ir/gibson_hummingbird_1_48000.wav
-  output_gain_db: -28.6645184
+  output_gain_db: 0.0000008
 - values:
     position: '1'
     voicing: bld
   file: ir/gibson_hummingbird_1_48000_bld.wav
-  output_gain_db: -23.0638866
+  output_gain_db: 5.2863879
 - values:
     position: '1'
     voicing: match
   file: ir/gibson_hummingbird_1_48000_match.wav
-  output_gain_db: -23.8958416
+  output_gain_db: 0.6799901
 - values:
     position: '1'
     voicing: jf_flavor
   file: ir/gibson_hummingbird_1_48000_jf_flavor.wav
-  output_gain_db: -11.5307999
+  output_gain_db: 11.3886385
 - values:
     position: '2'
     voicing: raw
   file: ir/gibson_hummingbird_2_48000.wav
-  output_gain_db: -26.4050903
+  output_gain_db: 5.0790091
 - values:
     position: '2'
     voicing: bld
   file: ir/gibson_hummingbird_2_48000_bld.wav
-  output_gain_db: -20.2806854
+  output_gain_db: 11.6764717
 - values:
     position: '2'
     voicing: match
   file: ir/gibson_hummingbird_2_48000_match.wav
-  output_gain_db: -20.1663647
+  output_gain_db: 4.6218152
 - values:
     position: '2'
     voicing: jf_flavor
   file: ir/gibson_hummingbird_2_48000_jf_flavor.wav
-  output_gain_db: -20.9295807
+  output_gain_db: 6.6785860

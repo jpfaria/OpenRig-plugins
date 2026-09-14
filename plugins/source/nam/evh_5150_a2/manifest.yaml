@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_evh_5150_a2
 display_name: '5150'
 brand: evh
-output_gain_db: 0.0000000
+output_gain_db: 6.1891785
 type: amp
 backend: nam
 architecture: A2

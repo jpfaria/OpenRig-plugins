@@ -21,28 +21,28 @@ captures:
 - values:
     preset: normal_fishalt_at4033
   file: ir/normal_fishalt_at4033.wav
-  output_gain_db: -29.1720963
+  output_gain_db: -22.8872242
 - values:
     preset: normal_fishalt_mtg
   file: ir/normal_fishalt_mtg.wav
-  output_gain_db: -30.5909519
+  output_gain_db: -22.7483749
 - values:
     preset: normal_fishalt_sm57
   file: ir/normal_fishalt_sm57.wav
-  output_gain_db: -27.6346321
+  output_gain_db: -21.4371452
 - values:
     preset: normal_fishneu_at4033
   file: ir/normal_fishneu_at4033.wav
-  output_gain_db: -25.3256054
+  output_gain_db: -20.1512566
 - values:
     preset: normal_fishneu_mtg
   file: ir/normal_fishneu_mtg.wav
-  output_gain_db: -27.5366688
+  output_gain_db: -20.0820770
 - values:
     preset: normal_fishneu_sm57
   file: ir/normal_fishneu_sm57.wav
-  output_gain_db: -24.8585129
+  output_gain_db: -20.2210388
 - values:
     preset: fish_l_2mtg_normal
   file: ir/fish_l_2mtg_normal.wav
-  output_gain_db: -30.3680992
+  output_gain_db: -24.0000000

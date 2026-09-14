@@ -17,12 +17,12 @@ captures:
 - values:
     preset: room_k
   file: ir/room_k.wav
-  output_gain_db: -28.8825645
+  output_gain_db: -22.8057404
 - values:
     preset: sm7_02
   file: ir/sm7_02.wav
-  output_gain_db: -30.6310139
+  output_gain_db: -23.7860432
 - values:
     preset: sm7_03
   file: ir/sm7_03.wav
-  output_gain_db: -30.8483810
+  output_gain_db: -23.7907677

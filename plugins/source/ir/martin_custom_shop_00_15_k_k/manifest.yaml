@@ -19,20 +19,20 @@ captures:
 - values:
     preset: knk
   file: ir/cs_0015_knk_44100.wav
-  output_gain_db: -18.0884418
+  output_gain_db: 10.3694134
 - values:
     preset: knk_match2
   file: ir/cs_0015_knk_44100_match2.wav
-  output_gain_db: -13.9003839
+  output_gain_db: 10.5155621
 - values:
     preset: jf45
   file: ir/jf45ircs0015jf.wav
-  output_gain_db: -14.6444082
+  output_gain_db: 13.6467896
 - values:
     preset: jf45_1024
   file: ir/jf45ir1024cs0015jf.wav
-  output_gain_db: -10.7380009
+  output_gain_db: 13.4584999
 - values:
     preset: jf45_5050
   file: ir/jf45ir5050cs0015jf.wav
-  output_gain_db: -9.9713354
+  output_gain_db: 13.7677116

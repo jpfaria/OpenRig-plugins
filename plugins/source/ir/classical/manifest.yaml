@@ -16,12 +16,12 @@ captures:
 - values:
     mic: akg_cs1000
   file: ir/classical_ambu2f_akg_cs1000.wav
-  output_gain_db: -22.3985558
+  output_gain_db: 5.4612699
 - values:
     mic: dpa_4011
   file: ir/classical_ambu2f_dpa_4011.wav
-  output_gain_db: -25.4852962
+  output_gain_db: 2.0511417
 - values:
     mic: neumann_m147
   file: ir/classical_ambu2f_neumann_m147.wav
-  output_gain_db: -17.1647415
+  output_gain_db: 6.5679774

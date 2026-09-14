@@ -8,7 +8,7 @@ id: nam_marshall_1959bja_a2
 display_name: 1959BJA
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 7.2997093
 type: amp
 backend: nam
 architecture: A2

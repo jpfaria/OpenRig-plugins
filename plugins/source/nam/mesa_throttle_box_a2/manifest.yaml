@@ -4,7 +4,7 @@ id: nam_mesa_throttle_box_a2
 display_name: Mesa Throttle Box
 brand: mesa
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 11.6310720
 type: gain_pedal
 backend: nam
 architecture: A2

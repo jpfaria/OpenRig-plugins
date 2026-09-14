@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_nobels_odr_1_a2
 display_name: Nobels ODR-1
 brand: nobels
-output_gain_db: 0.0000000
+output_gain_db: 10.8762388
 type: gain_pedal
 backend: nam
 architecture: A2

@@ -20,24 +20,24 @@ captures:
 - values:
     preset: 59_tweed_p10n
   file: ir/59_tweed_p10n.wav
-  output_gain_db: -16.9470158
+  output_gain_db: -17.2057323
 - values:
     preset: 64_a30_g12
   file: ir/64_a30_g12.wav
-  output_gain_db: -25.8171253
+  output_gain_db: -19.2720413
 - values:
     preset: 64_usdeluxe_p12n
   file: ir/64_usdeluxe_p12n.wav
-  output_gain_db: -21.5535564
+  output_gain_db: -17.9747448
 - values:
     preset: 67_brit_greenback
   file: ir/67_brit_greenback.wav
-  output_gain_db: -21.4392929
+  output_gain_db: -19.4474850
 - values:
     preset: 70s_whowatt_100
   file: ir/70s_whowatt_100.wav
-  output_gain_db: -18.5235157
+  output_gain_db: -17.7349510
 - values:
     preset: 90s_cali_v30
   file: ir/90s_cali_v30.wav
-  output_gain_db: -18.8310642
+  output_gain_db: -18.3770885

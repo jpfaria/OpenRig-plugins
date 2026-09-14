@@ -20,28 +20,28 @@ captures:
 - values:
     preset: v1
   file: ir/dy_hamblinsj_1_44100.wav
-  output_gain_db: -14.9428015
+  output_gain_db: 11.9928570
 - values:
     preset: v1_blend
   file: ir/dy_hamblinsj_1_44100_bld.wav
-  output_gain_db: -8.8300095
+  output_gain_db: 13.1513691
 - values:
     preset: v1_jf_flavor
   file: ir/dy_hamblinsj_1_44100_jf_flavor.wav
-  output_gain_db: -12.4069948
+  output_gain_db: 12.4965191
 - values:
     preset: v2
   file: ir/dy_hamblinsj_2_44100.wav
-  output_gain_db: -7.6266818
+  output_gain_db: 12.8594246
 - values:
     preset: v2_blend
   file: ir/dy_hamblinsj_2_44100_bld.wav
-  output_gain_db: -4.4049134
+  output_gain_db: 13.8605099
 - values:
     preset: v2_match
   file: ir/dy_hamblinsj_2_44100_match.wav
-  output_gain_db: -17.3618279
+  output_gain_db: 10.3469296
 - values:
     preset: v2_jf_flavor
   file: ir/dy_hamblinsj_2_44100_jf_flavor.wav
-  output_gain_db: -7.3020883
+  output_gain_db: 13.1761484

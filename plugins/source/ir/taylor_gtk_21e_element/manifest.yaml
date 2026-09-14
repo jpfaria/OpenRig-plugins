@@ -21,12 +21,12 @@ captures:
 - values:
     preset: full
   file: ir/ir2_gt_44k_2048.wav
-  output_gain_db: -29.2809505
+  output_gain_db: -0.0000003
 - values:
     preset: m
   file: ir/ir2_gt_44k_2048_m.wav
-  output_gain_db: -17.5256977
+  output_gain_db: 4.2831926
 - values:
     preset: mffqn
   file: ir/ir2_gt_44k_2048_mffqn.wav
-  output_gain_db: -21.8788834
+  output_gain_db: 2.5047081

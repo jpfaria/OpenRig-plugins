@@ -7,7 +7,7 @@ manifest_version: 1
 id: nam_hudson_broadcast_a2
 display_name: Hudson Broadcast
 brand: hudson
-output_gain_db: 0.0000000
+output_gain_db: 6.3852072
 type: gain_pedal
 backend: nam
 architecture: A2

@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_mxr_dookie_a2
 display_name: MXR Dookie Drive
 brand: mxr
-output_gain_db: 0.0000000
+output_gain_db: 0.1867031
 type: gain_pedal
 backend: nam
 architecture: A2

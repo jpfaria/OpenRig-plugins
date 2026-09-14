@@ -34,80 +34,80 @@ captures:
 - values:
     preset: bx44_stalevel_close
   file: ir/bx44_stalevel_close.wav
-  output_gain_db: -23.4045753
+  output_gain_db: -22.4790802
 - values:
     preset: bx44_stalevel_closer
   file: ir/bx44_stalevel_closer.wav
-  output_gain_db: -23.9085579
+  output_gain_db: -22.1360149
 - values:
     preset: bx44_stalevel_far_amb
   file: ir/bx44_stalevel_far_amb.wav
-  output_gain_db: -25.8208370
+  output_gain_db: -23.4413567
 - values:
     preset: bx44_stalevel_far
   file: ir/bx44_stalevel_far.wav
-  output_gain_db: -23.3907566
+  output_gain_db: -21.4393044
 - values:
     preset: bx44_stalevel
   file: ir/bx44_stalevel.wav
-  output_gain_db: -22.7027969
+  output_gain_db: -22.3007050
 - values:
     preset: cmv3_m7_stalevel
   file: ir/cmv3_m7_stalevel.wav
-  output_gain_db: -27.4074898
+  output_gain_db: -23.6473465
 - values:
     preset: cmv3_m9_stalevel_far_amb
   file: ir/cmv3_m9_stalevel_far_amb.wav
-  output_gain_db: -23.7170677
+  output_gain_db: -20.3162994
 - values:
     preset: cmv3_m9_stalevel_far
   file: ir/cmv3_m9_stalevel_far.wav
-  output_gain_db: -23.5634327
+  output_gain_db: -21.4164352
 - values:
     preset: ka1000_stalevel
   file: ir/ka1000_stalevel.wav
-  output_gain_db: -20.4092941
+  output_gain_db: -20.7096596
 - values:
     preset: km184_stalevel
   file: ir/km184_stalevel.wav
-  output_gain_db: -22.2373180
+  output_gain_db: -22.1774731
 - values:
     preset: km53_stalevel
   file: ir/km53_stalevel.wav
-  output_gain_db: -22.3495789
+  output_gain_db: -22.0704803
 - values:
     preset: m49_stalevel
   file: ir/m49_stalevel.wav
-  output_gain_db: -23.4892616
+  output_gain_db: -22.6341820
 - values:
     preset: m930_stalevel
   file: ir/m930_stalevel.wav
-  output_gain_db: -22.5915318
+  output_gain_db: -22.0603523
 - values:
     preset: md211_stalevel
   file: ir/md211_stalevel.wav
-  output_gain_db: -21.9022064
+  output_gain_db: -21.7021332
 - values:
     preset: md421_stalevel
   file: ir/md421_stalevel.wav
-  output_gain_db: -22.8635864
+  output_gain_db: -21.6007690
 - values:
     preset: re20_stalevel
   file: ir/re20_stalevel.wav
-  output_gain_db: -22.2498283
+  output_gain_db: -21.9731598
 - values:
     preset: u47fet_stalevel
   file: ir/u47fet_stalevel.wav
-  output_gain_db: -22.9805603
+  output_gain_db: -21.9851532
 - values:
     preset: u47tube_stalevel
   file: ir/u47tube_stalevel.wav
-  output_gain_db: -21.9827309
+  output_gain_db: -21.7392292
 - values:
     preset: sm57_stalevel
   file: ir/sm57_stalevel.wav
-  output_gain_db: -20.9898968
+  output_gain_db: -21.3548450
 - values:
     preset: unidyne_stalevel
   file: ir/unidyne_stalevel.wav
-  output_gain_db: -22.7572250
+  output_gain_db: -21.5795670
