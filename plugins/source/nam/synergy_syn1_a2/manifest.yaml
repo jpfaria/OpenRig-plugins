@@ -23,6 +23,7 @@ parameters:
   - dzl_herbert_more_gain
   - dzl_herbert_green
   - evh5153s_red
+  - vh4_el34_violence_on
 captures:
 - values:
     preset: syn20ir_red
@@ -75,3 +76,9 @@ captures:
   noise_gate:
     enabled: true
     threshold_db: -31.0
+- values:
+    preset: vh4_el34_violence_on
+  file: captures/synergy_killer_kali_violence_on_vh4_el34_pwramp_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.0
