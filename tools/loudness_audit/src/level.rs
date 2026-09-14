@@ -46,12 +46,6 @@ pub const IR_LEVEL_PEAK_CEILING_DBFS: f32 = TARGET_PEAK_DBFS - OUTPUT_KNOB_MIN_D
 /// the target before `qa::check_level` fails.
 pub const LEVEL_TOLERANCE_DB: f32 = 0.1;
 
-/// Leading span ignored by [`level_peak_dbfs`]. A NAM model fills its
-/// receptive field on the first samples and can emit a one-off transient
-/// the live engine never repeats (it processes continuously); sizing the
-/// gain on it would cut the whole block for nothing.
-pub const WARMUP_SECONDS: f32 = 0.1;
-
 /// Drive (dB) into the `tanh` stage that turns the DI into the saturated
 /// amp-level cab probe: deep enough to square the waveform off like a
 /// high-gain amp, which packs far more energy per peak than a clean DI.
@@ -66,10 +60,10 @@ pub enum IrRole {
     Body,
 }
 
-/// Peak (dBFS) of `samples`, ignoring the first [`WARMUP_SECONDS`].
-pub fn level_peak_dbfs(samples: &[f32], sample_rate: u32) -> f32 {
-    let skip = ((WARMUP_SECONDS * sample_rate as f32) as usize).min(samples.len());
-    peak_dbfs(&samples[skip..])
+/// Reference peak (dBFS) of a rendered block output: the WHOLE signal,
+/// opening attack included — the same span the gate's clip check sees.
+pub fn level_peak_dbfs(samples: &[f32]) -> f32 {
+    peak_dbfs(samples)
 }
 
 /// `output_gain_db` that moves a reference peak onto the target, clamped
@@ -142,11 +136,14 @@ mod tests {
     }
 
     #[test]
-    fn level_peak_ignores_warmup_transient() {
+    fn level_peak_counts_the_opening_attack() {
+        // The DI's first pluck attacks at t=0 and the gate's clip check
+        // sees it, so the level measure must too (diezel_hagen clipped at
+        // +1.08 dBFS when the first 100 ms were skipped).
         let mut x = vec![0.0_f32; SR as usize];
-        x[10] = 1.0; // start-up spike inside the warm-up window
+        x[10] = 1.0;
         x[SR as usize / 2] = 0.5;
-        assert!((level_peak_dbfs(&x, SR) - -6.0206).abs() < 1e-3);
+        assert!(level_peak_dbfs(&x).abs() < 1e-3);
     }
 
     #[test]

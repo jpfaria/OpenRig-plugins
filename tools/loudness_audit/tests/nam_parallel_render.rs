@@ -5,7 +5,7 @@
 
 use loudness_audit::level::level_peak_dbfs;
 use loudness_audit::nam_run::{nam_level_peaks_dbfs, run_nam};
-use loudness_audit::synthetic_di::{default_guitar_di, DI_SAMPLE_RATE};
+use loudness_audit::synthetic_di::default_guitar_di;
 use std::path::PathBuf;
 
 #[test]
@@ -23,10 +23,9 @@ fn parallel_level_peaks_match_serial_render() {
     assert!(models.len() > 1, "need several captures in {}", dir.display());
 
     let di = default_guitar_di();
-    let sr = DI_SAMPLE_RATE as u32;
-    let parallel = nam_level_peaks_dbfs(&di, sr, &models).unwrap();
+    let parallel = nam_level_peaks_dbfs(&di, &models).unwrap();
     for (model, peak) in models.iter().zip(&parallel) {
-        let serial = level_peak_dbfs(&run_nam(&di, model).unwrap(), sr);
+        let serial = level_peak_dbfs(&run_nam(&di, model).unwrap());
         assert_eq!(serial, *peak, "{}", model.display());
     }
 }

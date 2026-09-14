@@ -27,7 +27,7 @@ pub fn run_nam(input: &[f32], model: &Path) -> Result<Vec<f32>> {
 /// `models` order. Spread over the available cores — a NAM plugin can
 /// carry dozens of captures and the whole catalogue has thousands. Each
 /// worker opens its own model handle; no NAM state crosses threads.
-pub fn nam_level_peaks_dbfs(input: &[f32], sample_rate: u32, models: &[PathBuf]) -> Result<Vec<f32>> {
+pub fn nam_level_peaks_dbfs(input: &[f32], models: &[PathBuf]) -> Result<Vec<f32>> {
     let workers = std::thread::available_parallelism()
         .map_or(1, |n| n.get())
         .min(models.len().max(1));
@@ -41,7 +41,7 @@ pub fn nam_level_peaks_dbfs(input: &[f32], sample_rate: u32, models: &[PathBuf])
                         let i = next.fetch_add(1, Ordering::Relaxed);
                         let Some(model) = models.get(i) else { break };
                         let out = run_nam(input, model)?;
-                        mine.push((i, level_peak_dbfs(&out, sample_rate)));
+                        mine.push((i, level_peak_dbfs(&out)));
                     }
                     Ok(mine)
                 })

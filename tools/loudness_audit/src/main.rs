@@ -134,7 +134,7 @@ fn audit_plugin(plugin_dir: &Path, manifest_path: &Path, di: &[f32]) -> Result<A
     if models.is_empty() {
         bail!("no `captures:[].file` entry in manifest");
     }
-    let peaks = nam_level_peaks_dbfs(di, DI_SAMPLE_RATE as u32, &models)?;
+    let peaks = nam_level_peaks_dbfs(di, &models)?;
     let applied = nam_gain_db(&peaks);
 
     let updated = upsert_output_gain_db(&raw, applied);

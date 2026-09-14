@@ -364,7 +364,7 @@ fn audit_nam_plugin(
     let mut fails = check_all(probe, &scaled, sr, BlockClass::Nonlinear);
     // Level (issue #143): the engine applies this one value to every
     // capture, so the loudest capture must sit on the target peak.
-    let loudest = nam_level_peaks_dbfs(probe, sr, &captures)?
+    let loudest = nam_level_peaks_dbfs(probe, &captures)?
         .into_iter()
         .fold(f32::NEG_INFINITY, f32::max);
     if let Some(f) = check_level(loudest + gain_db, gain_db) {
