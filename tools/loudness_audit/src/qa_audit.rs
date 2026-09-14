@@ -6,6 +6,10 @@
 //! non-zero on any failure; `pack_plugins` aborts the release on a
 //! non-zero exit. Listening is not a valid verification step here.
 //!
+//! Every LV2 package also gets the URI consistency check
+//! ([`loudness_audit::lv2_uri`], issue #133): `plugin_uri` must be
+//! published by each slot binary and declared by `data/*.ttl`.
+//!
 //! Usage:
 //!
 //!     cargo run --release -p loudness-audit --bin qa_audit -- \
@@ -31,6 +35,7 @@ use std::path::{Path, PathBuf};
 
 use loudness_audit::ir::{convolve, load_wav_ir};
 use loudness_audit::limiter;
+use loudness_audit::lv2_uri::check_lv2_package;
 use loudness_audit::loudness::{integrated_lufs, peak_dbfs};
 use loudness_audit::qa::{
     check_clip, check_clip_with, check_dc_offset, check_dc_offset_with, check_hf_aliasing,
@@ -150,6 +155,42 @@ fn run() -> Result<()> {
                 Err(e) => {
                     fail_count += 1;
                     eprintln!("ERROR {kind}/{label}: {e:#}");
+                }
+            }
+        }
+    }
+
+    // LV2 URI consistency (issue #133): a stale `plugin_uri` packs clean
+    // and then fails to instantiate in OpenRig, so it is a gate failure.
+    let lv2_root = source.join("lv2");
+    if lv2_root.is_dir() {
+        let mut dirs: Vec<PathBuf> = fs::read_dir(&lv2_root)?
+            .filter_map(|e| e.ok().map(|e| e.path()))
+            .filter(|p| p.join("manifest.yaml").is_file())
+            .collect();
+        dirs.sort();
+        for plugin_dir in dirs {
+            let label = plugin_dir
+                .file_name()
+                .and_then(|s| s.to_str())
+                .unwrap_or("<?>");
+            if let Some(s) = &selector {
+                if !s.matches("lv2", label) {
+                    continue;
+                }
+            }
+            match check_lv2_package(&plugin_dir) {
+                Ok(fails) if fails.is_empty() => ok_count += 1,
+                Ok(fails) => {
+                    fail_count += 1;
+                    eprintln!("FAIL lv2/{label} (plugin_uri)");
+                    for f in &fails {
+                        eprintln!("  - {f}");
+                    }
+                }
+                Err(e) => {
+                    fail_count += 1;
+                    eprintln!("ERROR lv2/{label}: {e:#}");
                 }
             }
         }

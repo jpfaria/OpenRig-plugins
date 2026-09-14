@@ -96,7 +96,7 @@ synthetic DI) and takes tens of minutes — burning that on a 6-plugin import is
 waste, not diligence. Every audit binary takes a scope; use it:
 
 ```
-qa_audit    --source plugins/source --plugins nam/<a>,nam/<b>      # issue #28 selector
+qa_audit    --source plugins/source --plugins nam/<a>,nam/<b>      # issue #28 selector (kinds: nam, ir, lv2)
 loudness_audit <root>            # point <root> at a /tmp dir of symlinks to the new plugins
 nam_gate_audit --source <root>
 ```
@@ -110,6 +110,39 @@ change can affect plugins you did not touch (tooling, thresholds, shared data).
 **Read the whole gate output.** Piping it through `| tail -N` truncates the
 summary AND makes `$?` the exit code of `tail`, so a red run reads as green.
 Redirect to a file and grep it.
+
+---
+
+## LV2 `plugin_uri` = binary = TTL (issue #133)
+
+OpenRig instantiates an LV2 package by walking `lv2_descriptor(i)` in the slot
+binary for the manifest's `plugin_uri`. Packing never loads the binary, so a
+stale URI packs clean and then fails at runtime (`LV2 plugin URI '…' not found`).
+In #133 the mda-lv2 rebuild moved every URI from `moddevices.com` to
+`drobilla.net` and all 10 `mda_*` packages broke silently.
+
+`qa_audit` now checks every LV2 package (`lv2_uri.rs`): each `binaries:` file
+must contain `plugin_uri` as a NUL-terminated string, and some `data/*.ttl`
+must declare it `a lv2:Plugin`.
+
+- **Rebuilt or bumped an LV2 recipe? Re-take `data/` from the SAME upstream SHA
+  the binaries came from** — the URI, port ranges and units live in the TTL. The
+  mda TTLs we shipped came from the MOD fork (different URI prefix, ms/% ranges
+  instead of the binary's normalized 0..1).
+- The `deps/<x>` pin must be the SHA the binaries were built from. A later
+  "bump" moving the pointer back (#133: `fb85abe` → `e2dc767`) leaves the repo
+  lying about what ships.
+- A slot binary that does not publish the URI is worse than no binary — OpenRig
+  reports a missing slot cleanly. Drop it (fat1 `linux-x86_64`, an old build that
+  only exported the base URI) until a real rebuild exists.
+- Do not reuse the old `fix_lv2_manifest_uris` approach of aligning manifests to
+  the TTLs: the binary is the source of truth.
+
+```
+❌ bump/rebuild an LV2 recipe, keep the old data/*.ttl
+❌ plugin_uri copied from a TTL without checking the binary
+✅ binary URI → manifest plugin_uri → upstream TTL of the same SHA → qa_audit lv2/<x>
+```
 
 ---
 
