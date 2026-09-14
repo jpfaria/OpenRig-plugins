@@ -5,7 +5,7 @@ display_name: RGT100
 brand: randall
 sources:
 - https://www.tone3000.com/tones/68596
-output_gain_db: 0.0000000
+output_gain_db: 8.2817268
 type: amp
 backend: nam
 architecture: A2

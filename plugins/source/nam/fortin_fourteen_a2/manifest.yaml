@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_fortin_fourteen_a2
 display_name: Fortin Fourteen Overdrive
 brand: fortin
-output_gain_db: -5.4678874
+output_gain_db: -13.0002604
 type: gain_pedal
 backend: nam
 architecture: A2

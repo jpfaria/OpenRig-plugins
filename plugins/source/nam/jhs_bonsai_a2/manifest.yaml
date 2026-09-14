@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_jhs_bonsai_a2
 display_name: Bonsai (9 TS)
 brand: jhs
-output_gain_db: 0.0000000
+output_gain_db: 12.6777773
 type: gain_pedal
 backend: nam
 architecture: A2

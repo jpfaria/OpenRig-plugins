@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_dallas_rangemaster_a2
 display_name: Dallas Rangemaster
 brand: dallas
-output_gain_db: 0.0000000
+output_gain_db: 7.3952913
 type: gain_pedal
 backend: nam
 architecture: A2

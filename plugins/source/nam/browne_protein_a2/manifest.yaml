@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_browne_protein_a2
 display_name: Browne Protein
 brand: browne
-output_gain_db: 0.0000000
+output_gain_db: 10.0497665
 type: gain_pedal
 backend: nam
 architecture: A2

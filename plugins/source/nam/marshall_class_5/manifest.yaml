@@ -5,7 +5,7 @@ display_name: Class 5
 brand: marshall
 sources:
 - https://www.tone3000.com/tones/55108
-output_gain_db: 0.0000000
+output_gain_db: 7.9422312
 type: amp
 backend: nam
 architecture: A2

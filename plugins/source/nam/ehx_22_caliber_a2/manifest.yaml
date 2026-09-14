@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_ehx_22_caliber_a2
 display_name: 22 Caliber
 brand: electro-harmonix
-output_gain_db: 0.0000000
+output_gain_db: 8.9906149
 type: preamp
 backend: nam
 architecture: A2

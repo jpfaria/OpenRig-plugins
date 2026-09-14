@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_hermida_zendrive_a2
 display_name: Hermida Zendrive
 brand: hermida
-output_gain_db: 3.4407310
+output_gain_db: 12.9677124
 type: gain_pedal
 backend: nam
 architecture: A2

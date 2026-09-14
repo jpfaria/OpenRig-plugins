@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_xotic_bb_preamp_a2
 display_name: Xotic BB Preamp
 brand: xotic
-output_gain_db: 0.0000000
+output_gain_db: 12.3647165
 type: gain_pedal
 backend: nam
 architecture: A2

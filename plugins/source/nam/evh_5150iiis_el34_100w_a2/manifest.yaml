@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_evh_5150iiis_el34_100w_a2
 display_name: 5150IIIS EL34 100W
 brand: evh
-output_gain_db: 0.0000000
+output_gain_db: 7.8554268
 type: amp
 backend: nam
 architecture: A2

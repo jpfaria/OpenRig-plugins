@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_diezel_zerrer_a2
 display_name: Zerrer
 brand: diezel
-output_gain_db: 0.0000000
+output_gain_db: 8.5366135
 type: preamp
 backend: nam
 architecture: A2

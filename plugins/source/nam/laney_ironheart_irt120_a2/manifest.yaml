@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_laney_ironheart_irt120_a2
 display_name: Ironheart IRT120
 brand: laney
-output_gain_db: 0.0000000
+output_gain_db: 7.6154222
 type: amp
 backend: nam
 architecture: A2

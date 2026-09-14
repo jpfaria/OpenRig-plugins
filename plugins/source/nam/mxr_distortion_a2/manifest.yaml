@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_mxr_distortion_a2
 display_name: MXR Distortion+
 brand: mxr
-output_gain_db: 0.0000000
+output_gain_db: -4.8050499
 type: gain_pedal
 backend: nam
 architecture: A2

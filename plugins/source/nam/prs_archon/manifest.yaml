@@ -10,7 +10,7 @@ display_name: Archon
 brand: prs
 sources:
 - https://www.tone3000.com/tones/30381
-output_gain_db: -2.9473934
+output_gain_db: -9.7996330
 type: amp
 backend: nam
 architecture: A2

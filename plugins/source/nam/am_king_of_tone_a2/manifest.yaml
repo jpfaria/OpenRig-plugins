@@ -6,6 +6,7 @@ manifest_version: 1
 id: nam_am_king_of_tone_a2
 display_name: AM KoT clone
 brand: analogman
+output_gain_db: 7.7376490
 type: gain_pedal
 backend: nam
 architecture: A2

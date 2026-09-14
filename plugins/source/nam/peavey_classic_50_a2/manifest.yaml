@@ -3,7 +3,7 @@ id: nam_peavey_classic_50_a2
 display_name: Classic 50
 brand: peavey
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 9.8109045
 type: amp
 backend: nam
 architecture: A2

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_mxr_gt_od_a2
 display_name: GT-OD (Zakk Wylde)
 brand: mxr
-output_gain_db: 0.0000000
+output_gain_db: 5.5887299
 type: gain_pedal
 backend: nam
 architecture: A2

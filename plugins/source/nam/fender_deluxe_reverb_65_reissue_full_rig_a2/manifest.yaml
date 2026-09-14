@@ -9,7 +9,7 @@ id: nam_fender_deluxe_reverb_65_reissue_full_rig_a2
 display_name: Deluxe Reverb '65 Reissue Full Rig
 brand: fender
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 7.7115765
 type: amp
 backend: nam
 architecture: A2

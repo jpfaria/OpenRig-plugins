@@ -6,7 +6,7 @@ manifest_version: 1
 id: nam_korn_indigo_ranch_fuzz_a2
 display_name: KoRn Indigo Ranch Fuzz
 brand: korn
-output_gain_db: 0.0000000
+output_gain_db: 8.2455177
 type: gain_pedal
 backend: nam
 architecture: A2

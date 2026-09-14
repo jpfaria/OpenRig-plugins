@@ -4,7 +4,7 @@ id: nam_marshall_1959_slp_a2
 display_name: 1959 SLP
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 8.2766027
 type: amp
 backend: nam
 architecture: A2

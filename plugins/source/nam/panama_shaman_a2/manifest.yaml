@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_panama_shaman_a2
 display_name: Shaman
 brand: panama
-output_gain_db: 0.0000000
+output_gain_db: 6.1585045
 type: preamp
 backend: nam
 architecture: A2

@@ -6,7 +6,7 @@ manifest_version: 1
 id: nam_mxr_micro_amp_a2
 display_name: MXR Micro Amp
 brand: mxr
-output_gain_db: 1.1236000
+output_gain_db: 12.6934652
 type: gain_pedal
 backend: nam
 architecture: A2

@@ -5,7 +5,7 @@ display_name: Pink Taco V2
 brand: friedman
 sources:
 - https://www.tone3000.com/tones/61426
-output_gain_db: 0.0000000
+output_gain_db: 2.9987750
 type: amp
 backend: nam
 architecture: A2

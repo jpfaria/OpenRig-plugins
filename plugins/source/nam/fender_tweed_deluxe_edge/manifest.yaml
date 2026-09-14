@@ -8,7 +8,7 @@ license: MIT
 homepage: https://www.tone3000.com/tones/67821
 sources:
 - https://www.tone3000.com/tones/67821
-output_gain_db: 0.0000000
+output_gain_db: 9.5149021
 type: amp
 backend: nam
 architecture: A2

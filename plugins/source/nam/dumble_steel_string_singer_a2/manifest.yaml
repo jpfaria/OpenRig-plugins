@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_dumble_steel_string_singer_a2
 display_name: Steel String Singer
 brand: dumble
-output_gain_db: 0.0000000
+output_gain_db: 10.2406273
 type: amp
 backend: nam
 architecture: A2

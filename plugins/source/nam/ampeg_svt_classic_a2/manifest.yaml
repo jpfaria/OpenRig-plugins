@@ -4,7 +4,7 @@ id: nam_ampeg_svt_classic_a2
 display_name: SVT Classic
 brand: ampeg
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 5.6451807
 type: amp
 backend: nam
 architecture: A2

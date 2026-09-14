@@ -6,7 +6,7 @@ manifest_version: 1
 id: nam_boss_bd2w_waza_a2
 display_name: Boss BD-2w Blues Driver (Waza Craft)
 brand: boss
-output_gain_db: 0.6908150
+output_gain_db: 8.9749956
 type: gain_pedal
 backend: nam
 architecture: A2

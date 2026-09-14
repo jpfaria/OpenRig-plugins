@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_ceriatone_centura_a2
 display_name: Ceriatone Centura
 brand: ceriatone
-output_gain_db: 0.0000000
+output_gain_db: 8.9991388
 type: gain_pedal
 backend: nam
 architecture: A2

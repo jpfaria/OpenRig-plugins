@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_award_session_blues_baby_22_a2
 display_name: Blues Baby 22
 brand: award-session
-output_gain_db: 0.0000000
+output_gain_db: 9.9178820
 type: preamp
 backend: nam
 architecture: A2

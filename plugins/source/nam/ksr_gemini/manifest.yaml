@@ -5,7 +5,7 @@ display_name: Gemini
 brand: ksr
 sources:
 - https://www.tone3000.com/tones/62494
-output_gain_db: 0.0000000
+output_gain_db: 8.7934160
 type: amp
 backend: nam
 architecture: A2

@@ -3,7 +3,7 @@ id: nam_orange_rockerverb_mk3_a2
 display_name: Rockerverb MK3
 brand: orange
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 6.7320437
 type: amp
 backend: nam
 architecture: A2

@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_sovtek_mig100_a2
 display_name: MIG-100 KT88
 brand: sovtek
-output_gain_db: 0.0000000
+output_gain_db: 10.4135122
 type: preamp
 backend: nam
 architecture: A2

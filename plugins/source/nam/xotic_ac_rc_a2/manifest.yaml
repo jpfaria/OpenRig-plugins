@@ -4,7 +4,7 @@ manifest_version: 1
 id: nam_xotic_ac_rc_a2
 display_name: Xotic AC/RC Oz Noy
 brand: xotic
-output_gain_db: 0.0000000
+output_gain_db: 14.5948076
 type: gain_pedal
 backend: nam
 architecture: A2

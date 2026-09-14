@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_dumble_a2
 display_name: Dumble ODS
 brand: dumble
-output_gain_db: 0.0000000
+output_gain_db: 8.4574547
 type: amp
 backend: nam
 architecture: A2

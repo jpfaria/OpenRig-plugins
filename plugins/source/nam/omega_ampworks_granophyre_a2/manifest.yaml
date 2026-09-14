@@ -2,7 +2,7 @@ manifest_version: 1
 id: nam_omega_ampworks_granophyre_a2
 display_name: Omega Ampworks Granophyre
 brand: omega
-output_gain_db: 0.0000000
+output_gain_db: 6.6511068
 type: amp
 backend: nam
 architecture: A2

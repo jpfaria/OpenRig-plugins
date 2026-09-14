@@ -5,7 +5,7 @@ id: nam_marshall_6100_30th_anniversary_a2
 display_name: 6100 - 30th anniversary
 brand: marshall
 brand_logo: assets/brand_logo.svg
-output_gain_db: 0.0000000
+output_gain_db: 4.9603586
 type: amp
 backend: nam
 architecture: A2

@@ -5,7 +5,7 @@ manifest_version: 1
 id: nam_chase_bliss_automatone_a2
 display_name: Chase Bliss Automatone
 brand: chase_bliss
-output_gain_db: 0.3560219
+output_gain_db: 8.1372004
 type: gain_pedal
 backend: nam
 architecture: A2

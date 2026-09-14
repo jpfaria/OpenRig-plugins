@@ -3,7 +3,7 @@ manifest_version: 1
 id: nam_lab_series_l2_a2
 display_name: L2
 brand: lab-series
-output_gain_db: 0.0000000
+output_gain_db: 9.8725500
 type: preamp
 backend: nam
 architecture: A2

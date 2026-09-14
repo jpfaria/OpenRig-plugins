@@ -6,7 +6,7 @@ brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:
 - https://www.tone3000.com/tones/5769
-output_gain_db: 0.0000000
+output_gain_db: 9.2944565
 type: amp
 backend: nam
 architecture: A2
