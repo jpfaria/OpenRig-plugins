@@ -12,4 +12,3 @@ backend: lv2
 plugin_uri: http://gareus.org/oss/lv2/fat1#scales
 binaries:
   macos-universal: platform/macos-universal/fat1.dylib
-  linux-x86_64: platform/linux-x86_64/fat1.so
