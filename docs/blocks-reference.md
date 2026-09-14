@@ -129,6 +129,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_fender_blues_junior` | Blues Junior | fender |
 | `nam_fender_champion_600` | Champion 600 | fender |
 | `nam_fender_deluxe_reverb_65_a2` | Deluxe Reverb '65 | fender |
+| `nam_fender_deluxe_reverb_65_reissue_full_rig_a2` | Deluxe Reverb '65 Reissue Full Rig | fender |
 | `nam_fender_deluxe_reverb_a2` | Deluxe Reverb | fender |
 | `nam_fender_hot_rod_deluxe` | Hot Rod Deluxe | fender |
 | `nam_fender_princeton_reverb` | Princeton Reverb | fender |
@@ -157,6 +158,8 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_laney_ironheart_irt60h_a2` | Ironheart IRT60H | laney |
 | `nam_laney_vh100r_a2` | VH100R | laney |
 | `nam_marshall_1959_slp_a2` | 1959 SLP | marshall |
+| `nam_marshall_1959bja_a2` | 1959BJA | marshall |
+| `nam_marshall_1959bja_super_bowl_a2` | 1959BJA Super Bowl | marshall |
 | `nam_marshall_1959hw_a2` | 1959HW | marshall |
 | `nam_marshall_1959hw_handwired_a2` | 1959HW Handwired | marshall |
 | `nam_marshall_1987_a2` | 1987 | marshall |
@@ -171,6 +174,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_marshall_jmp_1_full_rig_a2` | JMP-1 Full Rig | marshall |
 | `nam_marshall_jmp_1_head_a2` | JMP-1 Head | marshall |
 | `nam_marshall_jmp_2203_a2` | JMP 2203 | marshall |
+| `nam_marshall_jmp_50_lead_1969_a2` | JMP-50 Lead 1969 | marshall |
 | `nam_marshall_jtm45_a2` | JTM45 | marshall |
 | `nam_marshall_jtm50_hw_plexi_a2` | JTM50 HW (Plexi) | marshall |
 | `nam_marshall_jvm_a2` | JVM | marshall |
@@ -236,6 +240,7 @@ Full amp blocks include preamp + power amp; pair with a cab IR for the full chai
 | `nam_vox_ac15` | AC15 | vox |
 | `nam_vox_ac30_1961_fawn_ef86` | AC30 '61 Fawn EF86 | vox |
 | `nam_vox_ac30_a2` | AC30 | vox |
+| `nam_vox_ac30_c2x_a2` | AC30 C2X | vox |
 | `nam_vox_night_train_a2` | Night Train | vox |
 | `nam_wizard_hellrazor_a2` | Wizard HellRazor | wizard |
 | `tweed_breakup` | Tweed Breakup | -- |
@@ -269,6 +274,8 @@ Cabinet impulse responses for electric guitar speakers.
 | `ir_g12t_75_4x12` | G12T-75 4x12 | celestion |
 | `ir_gods_cab` | God's Cab | gods_cab |
 | `ir_gods_cab_legacy` | God's Cab Legacy | gods_cab |
+| `ir_green_day_american_idiot` | Green Day American Idiot | custom |
+| `ir_green_day_dookie` | Green Day Dookie | custom |
 | `ir_guitarhack_impulses` | GuitarHack Impulses | guitarhack |
 | `ir_hiwatt_acoustic_4x12` | Hiwatt Acoustic 4x12 (gottkaiser) | hiwatt |
 | `ir_hiwatt_oiro` | Hiwatt (oiro) | hiwatt |

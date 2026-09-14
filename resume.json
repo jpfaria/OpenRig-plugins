@@ -1,16 +1,16 @@
 {
-  "total_plugins": 649,
+  "total_plugins": 656,
   "by_backend": {
-    "nam": 335,
-    "ir": 177,
+    "nam": 340,
+    "ir": 179,
     "lv2": 111,
     "vst3": 26
   },
   "by_block_type": {
     "gain_pedal": 189,
-    "amp": 159,
+    "amp": 164,
     "body": 114,
-    "cab": 64,
+    "cab": 66,
     "preamp": 36,
     "vst3": 26,
     "reverb": 15,
@@ -24,7 +24,7 @@
   "by_backend_and_block_type": {
     "ir": {
       "body": 114,
-      "cab": 63
+      "cab": 65
     },
     "lv2": {
       "gain_pedal": 46,
@@ -39,7 +39,7 @@
       "wah": 1
     },
     "nam": {
-      "amp": 156,
+      "amp": 161,
       "gain_pedal": 143,
       "preamp": 36
     },
@@ -48,8 +48,8 @@
     }
   },
   "captures_by_backend": {
-    "nam": 4990,
-    "ir": 2117,
+    "nam": 5008,
+    "ir": 2120,
     "vst3": 0,
     "lv2": 0
   }

@@ -1,0 +1,81 @@
+# Marshall 1959BJA (Billie Joe Armstrong signature Super Lead), reamped via
+# Radial box + Boss Waza Tube Expander. Constant dropped from every capture
+# name: "Marshall 1959BJA". Names encode the input jack (LOW / HIGH) and the
+# gain position (2-10). The "SUPER BOWL SETTINGS" capture has no stated
+# input/gain, so it ships as its own plugin (marshall_1959bja_super_bowl_a2).
+manifest_version: 1
+id: nam_marshall_1959bja_a2
+display_name: 1959BJA
+brand: marshall
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/76884
+parameters:
+- name: input
+  display_name: Input
+  values:
+  - low
+  - high
+- name: gain
+  display_name: Gain
+  values: [2, 4, 6, 8, 10]
+captures:
+- values:
+    input: low
+    gain: 2
+  file: captures/low_2_a2.nam
+- values:
+    input: low
+    gain: 4
+  file: captures/low_4_a2.nam
+- values:
+    input: low
+    gain: 6
+  file: captures/low_6_a2.nam
+- values:
+    input: low
+    gain: 8
+  file: captures/low_8_a2.nam
+- values:
+    input: low
+    gain: 10
+  file: captures/low_10_a2.nam
+- values:
+    input: high
+    gain: 2
+  file: captures/high_2_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -33.5
+- values:
+    input: high
+    gain: 4
+  file: captures/high_4_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.5
+- values:
+    input: high
+    gain: 6
+  file: captures/high_6_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -32.0
+- values:
+    input: high
+    gain: 8
+  file: captures/high_8_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -31.5
+- values:
+    input: high
+    gain: 10
+  file: captures/high_10_a2.nam
+  noise_gate:
+    enabled: true
+    threshold_db: -30.5

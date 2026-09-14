@@ -1,0 +1,34 @@
+# Fender Deluxe Reverb '65 Reissue, clean full rig (Jensen C-12K). Constant
+# amp settings per the tone description: Vibrato channel, Volume 3, Bass 5,
+# Treble 7. Only the author's "NEW VERSION" captures are shipped (lower noise
+# floor, higher epochs); the superseded first versions are not imported.
+# The varying token is the mic setup: SM57 + Royer R-121 with/without the
+# room mic (UA OX, U67 model), or room only.
+manifest_version: 1
+id: nam_fender_deluxe_reverb_65_reissue_full_rig_a2
+display_name: Deluxe Reverb '65 Reissue Full Rig
+brand: fender
+brand_logo: assets/brand_logo.svg
+output_gain_db: 0.0000000
+type: amp
+backend: nam
+architecture: A2
+sources:
+- https://www.tone3000.com/tones/51649
+parameters:
+- name: mic
+  display_name: Mic
+  values:
+  - sm57_r121_room
+  - sm57_r121
+  - room
+captures:
+- values:
+    mic: sm57_r121_room
+  file: captures/sm57_r121_room_a2.nam
+- values:
+    mic: sm57_r121
+  file: captures/sm57_r121_no_room_a2.nam
+- values:
+    mic: room
+  file: captures/room_only_a2.nam
