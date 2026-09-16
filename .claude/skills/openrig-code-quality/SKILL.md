@@ -404,7 +404,7 @@ it flags any non-control axis name, any value that is not in the
 filename+description, decimals written `N_M` (parse wrong), multi-knob enum
 values, leftover tone3000 hash filenames, and capture data loss vs the baseline
 commit. Run it; RED is a defect, not an opinion. See the canonical
-`openrig-manifest-parameters` skill for the full derivation method.
+`openrig:manifest-parameters` skill for the full derivation method.
 
 ```
 ❌ name: epochs / take / flavor(on an amp) / model / variant   → not a control
