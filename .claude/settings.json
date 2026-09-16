@@ -9,6 +9,6 @@
     }
   },
   "enabledPlugins": {
-    "claude-plugin@openrig": true
+    "openrig@openrig": true
   }
 }
