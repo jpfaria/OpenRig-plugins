@@ -7,7 +7,7 @@
 manifest_version: 1
 id: nam_two_rock_studio_signature_a2
 display_name: Two Rock Studio Signature
-brand: two
+brand: two_rock
 output_gain_db: 9.5136633
 type: amp
 backend: nam

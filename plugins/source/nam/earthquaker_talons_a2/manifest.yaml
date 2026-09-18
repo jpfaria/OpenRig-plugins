@@ -2,7 +2,7 @@
 manifest_version: 1
 id: nam_earthquaker_talons_a2
 display_name: EarthQuaker Talons
-brand: earthquaker_devices
+brand: earthquaker
 output_gain_db: 11.3829670
 type: gain_pedal
 backend: nam
