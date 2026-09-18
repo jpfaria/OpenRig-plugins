@@ -3,7 +3,7 @@
 manifest_version: 1
 id: nam_ehx_mig50_a2
 display_name: MIG-50
-brand: electro-harmonix
+brand: electro_harmonix
 output_gain_db: 7.7664337
 type: preamp
 backend: nam

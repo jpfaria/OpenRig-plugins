@@ -1,7 +1,7 @@
 manifest_version: 1
 id: nam_earthquaker_acapulco_gold_a1
 display_name: EarthQuaker Acapulco Gold
-brand: earthquaker_devices
+brand: earthquaker
 output_gain_db: 0.0000000
 type: gain_pedal
 backend: nam

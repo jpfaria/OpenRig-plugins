@@ -5,7 +5,7 @@
 manifest_version: 1
 id: ir_santa_cruz_vintage_southerner_mi_si
 display_name: Vintage Southerner Mi Si
-brand: santa-cruz
+brand: santa_cruz
 type: body
 backend: ir
 parameters:

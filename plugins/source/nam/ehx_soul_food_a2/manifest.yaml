@@ -1,7 +1,7 @@
 manifest_version: 1
 id: nam_ehx_soul_food_a2
 display_name: EHX Soul Food
-brand: ehx
+brand: electro_harmonix
 output_gain_db: 9.3092670
 type: gain_pedal
 backend: nam

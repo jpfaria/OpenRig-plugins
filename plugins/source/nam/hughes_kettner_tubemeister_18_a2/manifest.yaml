@@ -2,7 +2,7 @@
 manifest_version: 1
 id: nam_hughes_kettner_tubemeister_18_a2
 display_name: Hughes Kettner TubeMeister 18
-brand: hughes
+brand: hughes_kettner
 output_gain_db: 4.7726679
 type: amp
 backend: nam

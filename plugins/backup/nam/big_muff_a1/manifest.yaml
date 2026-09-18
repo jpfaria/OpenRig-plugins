@@ -1,7 +1,7 @@
 manifest_version: 1
 id: nam_big_muff_a1
 display_name: Big Muff
-brand: ehx
+brand: electro_harmonix
 output_gain_db: 2.9812737
 type: gain_pedal
 backend: nam
