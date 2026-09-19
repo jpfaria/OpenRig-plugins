@@ -1,7 +1,7 @@
 ---
 tags: [openrig-plugins, learnings]
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-18
 source: claude-code-sessions
 ---
 
@@ -85,3 +85,24 @@ becomes part of the standard flow.
 - **Why it matters:** committing licensed IRs to this repo would redistribute them.
 - **Applies to:** IR imports from paid packs (also the ZETA and 1960a packs in the user's
   `IR-PACK.zip`).
+
+## 2026-09-14 — measure the level peak over the whole render
+
+- **Gotcha / invariant:** the `loudness_audit` level writer must take the peak over the
+  entire rendered signal, including the opening attack, and over every capture of a NAM
+  plugin, not only the first one. A peak taken from a partial window under-reports and
+  the written `output_gain_db` then clips on real playing.
+- **Why it matters:** the policy is "as loud as possible without clipping" (peak at
+  −1 dBFS, where the end-of-chain limiter starts); a wrong peak breaks it in either direction.
+- **Applies to:** `tools/loudness_audit` (`level.rs`, `nam_run.rs`) and any re-level run.
+
+## 2026-09-14 — `brand:` is one snake_case id per real brand
+
+- **Gotcha / invariant:** the same maker was spelled several ways across manifests
+  (`ehx` / `electro-harmonix`, truncated ids like `two`, `jet`, `hughes`, misspellings like
+  `freedman`, product names like `sansamp` instead of the maker `tech21`). Use one
+  snake_case id per real brand, matching the brand ids the app ships, and change only the
+  `brand:` field — never the plugin id.
+- **Why it matters:** duplicate ids split one brand into several in the app's brand list.
+- **Applies to:** every import; check `grep -rh '^brand:' plugins --include=manifest.yaml | sort | uniq -c`
+  before adding a new brand.
