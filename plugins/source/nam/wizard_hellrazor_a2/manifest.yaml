@@ -19,5 +19,5 @@ captures:
     default: default
   file: captures/20241109_wizard_hellrazor_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

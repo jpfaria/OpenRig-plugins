@@ -45,7 +45,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -53,7 +53,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -61,7 +61,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -69,7 +69,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -77,7 +77,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -85,7 +85,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -93,7 +93,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f7_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -101,7 +101,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f8_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -109,7 +109,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f9_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -122,7 +122,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f0_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     mode: buffered
@@ -130,7 +130,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f2_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     mode: buffered
@@ -143,7 +143,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f4_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     mode: buffered
@@ -151,7 +151,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f5_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     mode: buffered
@@ -159,7 +159,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f6_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     mode: buffered
@@ -167,7 +167,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f7_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     mode: buffered
@@ -175,7 +175,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f8_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     mode: buffered
@@ -183,7 +183,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f9_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: buffered
@@ -191,7 +191,7 @@ captures:
     volume: 8
   file: captures/mxr_108_fuzz_v8_f10_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -199,7 +199,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_fmin_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     mode: bypass
@@ -207,7 +207,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     mode: bypass
@@ -215,7 +215,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     mode: bypass
@@ -223,7 +223,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     mode: bypass
@@ -231,7 +231,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: bypass
@@ -239,7 +239,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f9_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     mode: bypass
@@ -247,7 +247,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     mode: bypass
@@ -255,7 +255,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f11_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     mode: bypass
@@ -263,7 +263,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f12_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     mode: bypass
@@ -271,7 +271,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_fmax_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: buffered
@@ -279,7 +279,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_fmin_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     mode: buffered
@@ -287,7 +287,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f1_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     mode: buffered
@@ -295,7 +295,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f2_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     mode: buffered
@@ -303,7 +303,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f3_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: buffered
@@ -311,7 +311,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f4_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: buffered
@@ -319,7 +319,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f9_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     mode: buffered
@@ -327,7 +327,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f10_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     mode: buffered
@@ -335,7 +335,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f11_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     mode: buffered
@@ -343,7 +343,7 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_f12_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     mode: buffered
@@ -351,5 +351,5 @@ captures:
     volume: 10
   file: captures/mxr_108_fuzz_vmax_fmax_buf_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

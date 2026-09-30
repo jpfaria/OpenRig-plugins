@@ -50,7 +50,7 @@ captures:
     voicing: 'fat_sd1'
   file: captures/pt20v2_s1_fat_sd1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     mode: 's1'
@@ -61,14 +61,14 @@ captures:
     voicing: 'sat_fat_sd1'
   file: captures/pt20v2_s1_sat_fat_sd1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     mode: 's1'
     voicing: 'sat'
   file: captures/pt20v2_s1_sat.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: 's1'
@@ -79,7 +79,7 @@ captures:
     voicing: 'fat_sd1'
   file: captures/pt20v2_s2_fat_sd1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     mode: 's2'
@@ -90,7 +90,7 @@ captures:
     voicing: 'sat_fat_sd1'
   file: captures/pt20v2_s2_sat_fat_sd1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     mode: 's2'
@@ -113,7 +113,7 @@ captures:
     voicing: 'sat_fat_sd1'
   file: captures/pt20v2_s3_sat_fat_sd1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     mode: 's3'

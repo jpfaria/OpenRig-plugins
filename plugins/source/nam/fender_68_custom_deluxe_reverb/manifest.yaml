@@ -44,7 +44,7 @@ captures:
     bass: 1
   file: captures/c_ch_10_10_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'c'
@@ -53,7 +53,7 @@ captures:
     bass: 2.5
   file: captures/c_ch_3_7_5_2_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: 'c'
@@ -62,7 +62,7 @@ captures:
     bass: 2.5
   file: captures/c_ch_4_7_5_2_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     channel: 'c'
@@ -71,7 +71,7 @@ captures:
     bass: 2.5
   file: captures/c_ch_5_7_5_2_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: 'c'
@@ -80,7 +80,7 @@ captures:
     bass: 2.5
   file: captures/c_ch_6_7_5_2_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'c'
@@ -95,7 +95,7 @@ captures:
     bass: 3
   file: captures/v_ch_5_7_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: 'v'
@@ -104,5 +104,5 @@ captures:
     bass: 3
   file: captures/v_ch_6_7_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5

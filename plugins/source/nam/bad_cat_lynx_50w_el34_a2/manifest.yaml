@@ -114,7 +114,7 @@ captures:
     preset: bogdo
   file: captures/cl_ch1_hi_bogdo_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -135,7 +135,7 @@ captures:
     preset: leading_1
   file: captures/cl_ch1_hi_leading_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -156,7 +156,7 @@ captures:
     preset: ogdo
   file: captures/cl_ch1_hi_ogdo_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -165,7 +165,7 @@ captures:
     preset: olala_3
   file: captures/cl_ch1_hi_olala_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -174,7 +174,7 @@ captures:
     preset: one_dime
   file: captures/cl_ch1_hi_one_dime_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -183,7 +183,7 @@ captures:
     preset: pickup_lines
   file: captures/cl_ch1_hi_pickup_lines_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -204,7 +204,7 @@ captures:
     preset: twister_1
   file: captures/cl_ch1_hi_twister_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -213,7 +213,7 @@ captures:
     preset: twister_2
   file: captures/cl_ch1_hi_twister_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -222,7 +222,7 @@ captures:
     preset: varychug
   file: captures/cl_ch1_hi_varychug_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -231,7 +231,7 @@ captures:
     preset: barichug
   file: captures/cl_ch1_lo_barichug_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -240,7 +240,7 @@ captures:
     preset: bluey
   file: captures/cl_ch1_lo_bluey_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -249,7 +249,7 @@ captures:
     preset: brunch
   file: captures/cl_ch1_lo_brunch_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -258,7 +258,7 @@ captures:
     preset: cleandom
   file: captures/cl_ch1_lo_cleandom_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -273,7 +273,7 @@ captures:
     preset: dreamy
   file: captures/cl_ch1_lo_dreamy_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -282,7 +282,7 @@ captures:
     preset: drive_in
   file: captures/cl_ch1_lo_drive_in_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -291,7 +291,7 @@ captures:
     preset: mane_2
   file: captures/cl_ch1_lo_mane_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -300,7 +300,7 @@ captures:
     preset: noon_1
   file: captures/cl_ch1_lo_noon_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -309,7 +309,7 @@ captures:
     preset: noon_2
   file: captures/cl_ch1_lo_noon_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -318,7 +318,7 @@ captures:
     preset: noon_3
   file: captures/cl_ch1_lo_noon_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -327,7 +327,7 @@ captures:
     preset: noon_4
   file: captures/cl_ch1_lo_noon_4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -336,7 +336,7 @@ captures:
     preset: roasted_fish
   file: captures/cl_ch1_lo_roasted_fish_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -345,7 +345,7 @@ captures:
     preset: shaq_n_bake
   file: captures/cl_ch1_lo_shaq_n_bake_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -354,7 +354,7 @@ captures:
     preset: spankin_tele
   file: captures/cl_ch1_lo_spankin_tele_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -363,7 +363,7 @@ captures:
     preset: ashes_of_the_bake
   file: captures/cl_ch2_hi_ashes_of_the_bake_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -372,7 +372,7 @@ captures:
     preset: chugg_a_twang
   file: captures/cl_ch2_hi_chugg_a_twang_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -381,7 +381,7 @@ captures:
     preset: closure
   file: captures/cl_ch2_hi_closure_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -396,7 +396,7 @@ captures:
     preset: early_demon_2
   file: captures/cl_ch2_hi_early_demon_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -405,7 +405,7 @@ captures:
     preset: elevated_chugz
   file: captures/cl_ch2_hi_elevated_chugz_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -414,7 +414,7 @@ captures:
     preset: flat_claritone
   file: captures/cl_ch2_hi_flat_claritone_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -423,7 +423,7 @@ captures:
     preset: full_hair
   file: captures/cl_ch2_hi_full_hair_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -432,7 +432,7 @@ captures:
     preset: leading_2
   file: captures/cl_ch2_hi_leading_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -441,7 +441,7 @@ captures:
     preset: love_of_riff
   file: captures/cl_ch2_hi_love_of_riff_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -450,7 +450,7 @@ captures:
     preset: meczugga
   file: captures/cl_ch2_hi_meczugga_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -459,7 +459,7 @@ captures:
     preset: olala_1
   file: captures/cl_ch2_hi_olala_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -468,7 +468,7 @@ captures:
     preset: olala_crank_for_ts_1
   file: captures/cl_ch2_hi_olala_crank_for_ts_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -477,7 +477,7 @@ captures:
     preset: olala_for_ts_1
   file: captures/cl_ch2_hi_olala_for_ts_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -486,7 +486,7 @@ captures:
     preset: olala_for_ts_2
   file: captures/cl_ch2_hi_olala_for_ts_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -495,7 +495,7 @@ captures:
     preset: redroit
   file: captures/cl_ch2_hi_redroit_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -504,7 +504,7 @@ captures:
     preset: stratus
   file: captures/cl_ch2_hi_stratus_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -513,7 +513,7 @@ captures:
     preset: used_issues
   file: captures/cl_ch2_hi_used_issues_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -522,7 +522,7 @@ captures:
     preset: early_demon_1
   file: captures/cl_ch2_lo_early_demon_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: cabinet
@@ -537,7 +537,7 @@ captures:
     preset: olala_2
   file: captures/cl_ch2_lo_olala_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -546,7 +546,7 @@ captures:
     preset: bandman
   file: captures/rl_ch1_hi_bandman_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -555,7 +555,7 @@ captures:
     preset: bit_more
   file: captures/rl_ch1_hi_bit_more_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -564,7 +564,7 @@ captures:
     preset: bogdo
   file: captures/rl_ch1_hi_bogdo_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -573,7 +573,7 @@ captures:
     preset: brown_date
   file: captures/rl_ch1_hi_brown_date_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -588,7 +588,7 @@ captures:
     preset: leading_1
   file: captures/rl_ch1_hi_leading_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -609,7 +609,7 @@ captures:
     preset: noon_1
   file: captures/rl_ch1_hi_noon_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -618,7 +618,7 @@ captures:
     preset: noon_2
   file: captures/rl_ch1_hi_noon_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -627,7 +627,7 @@ captures:
     preset: ogdo
   file: captures/rl_ch1_hi_ogdo_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -636,7 +636,7 @@ captures:
     preset: olala_3
   file: captures/rl_ch1_hi_olala_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -645,7 +645,7 @@ captures:
     preset: one_dime
   file: captures/rl_ch1_hi_one_dime_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -654,7 +654,7 @@ captures:
     preset: pickup_lines
   file: captures/rl_ch1_hi_pickup_lines_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -663,7 +663,7 @@ captures:
     preset: slayer_of_mopeds
   file: captures/rl_ch1_hi_slayer_of_mopeds_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -678,7 +678,7 @@ captures:
     preset: twister_1
   file: captures/rl_ch1_hi_twister_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -687,7 +687,7 @@ captures:
     preset: twister_2
   file: captures/rl_ch1_hi_twister_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -696,7 +696,7 @@ captures:
     preset: varychug
   file: captures/rl_ch1_hi_varychug_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -705,7 +705,7 @@ captures:
     preset: barichug
   file: captures/rl_ch1_lo_barichug_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -714,7 +714,7 @@ captures:
     preset: bluey
   file: captures/rl_ch1_lo_bluey_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -723,7 +723,7 @@ captures:
     preset: cleandom
   file: captures/rl_ch1_lo_cleandom_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -732,7 +732,7 @@ captures:
     preset: clues
   file: captures/rl_ch1_lo_clues_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -741,7 +741,7 @@ captures:
     preset: dreamy
   file: captures/rl_ch1_lo_dreamy_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -750,7 +750,7 @@ captures:
     preset: drive_in
   file: captures/rl_ch1_lo_drive_in_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -759,7 +759,7 @@ captures:
     preset: mane_2
   file: captures/rl_ch1_lo_mane_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -768,7 +768,7 @@ captures:
     preset: roasted_fish
   file: captures/rl_ch1_lo_roasted_fish_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -777,7 +777,7 @@ captures:
     preset: shaq_n_bake
   file: captures/rl_ch1_lo_shaq_n_bake_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -786,7 +786,7 @@ captures:
     preset: spankin_tele
   file: captures/rl_ch1_lo_spankin_tele_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -795,7 +795,7 @@ captures:
     preset: ashes_of_the_bake
   file: captures/rl_ch2_hi_ashes_of_the_bake_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -804,7 +804,7 @@ captures:
     preset: chugg_a_twang
   file: captures/rl_ch2_hi_chugg_a_twang_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -813,7 +813,7 @@ captures:
     preset: closure
   file: captures/rl_ch2_hi_closure_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -822,7 +822,7 @@ captures:
     preset: dark_tear
   file: captures/rl_ch2_hi_dark_tear_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -837,7 +837,7 @@ captures:
     preset: elevated_chugz
   file: captures/rl_ch2_hi_elevated_chugz_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -846,7 +846,7 @@ captures:
     preset: flat_claritone
   file: captures/rl_ch2_hi_flat_claritone_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -855,7 +855,7 @@ captures:
     preset: full_hair
   file: captures/rl_ch2_hi_full_hair_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -864,7 +864,7 @@ captures:
     preset: leading_2
   file: captures/rl_ch2_hi_leading_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -873,7 +873,7 @@ captures:
     preset: love_of_riff
   file: captures/rl_ch2_hi_love_of_riff_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -882,7 +882,7 @@ captures:
     preset: meczugga
   file: captures/rl_ch2_hi_meczugga_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -891,7 +891,7 @@ captures:
     preset: noon_4
   file: captures/rl_ch2_hi_noon_4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -900,7 +900,7 @@ captures:
     preset: olala_1
   file: captures/rl_ch2_hi_olala_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -909,7 +909,7 @@ captures:
     preset: olala_crank_for_ts_1
   file: captures/rl_ch2_hi_olala_crank_use_with_ts_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -918,7 +918,7 @@ captures:
     preset: olala_for_ts_1
   file: captures/rl_ch2_hi_olala_use_with_ts_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -927,7 +927,7 @@ captures:
     preset: olala_for_ts_2
   file: captures/rl_ch2_hi_olala_use_with_ts_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -936,7 +936,7 @@ captures:
     preset: redroit
   file: captures/rl_ch2_hi_redroit_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -945,7 +945,7 @@ captures:
     preset: stratus
   file: captures/rl_ch2_hi_stratus_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -954,7 +954,7 @@ captures:
     preset: used_issues
   file: captures/rl_ch2_hi_used_issues_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -963,7 +963,7 @@ captures:
     preset: early_demon_1
   file: captures/rl_ch2_lo_early_demon_1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -972,7 +972,7 @@ captures:
     preset: early_demon_2
   file: captures/rl_ch2_lo_early_demon_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -981,7 +981,7 @@ captures:
     preset: let_loose
   file: captures/rl_ch2_lo_let_loose_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -990,7 +990,7 @@ captures:
     preset: noon_3
   file: captures/rl_ch2_lo_noon_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     load: reactive
@@ -999,5 +999,5 @@ captures:
     preset: olala_2
   file: captures/rl_ch2_lo_olala_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

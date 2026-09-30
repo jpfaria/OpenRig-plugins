@@ -91,7 +91,7 @@ captures:
     preset: standard
   file: captures/ch3_g10_t7_m4_b2_p4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     channel: ch3
@@ -103,7 +103,7 @@ captures:
     preset: ts808
   file: captures/ch3_g8_t7_m4_b2_p4_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: ch3
@@ -115,7 +115,7 @@ captures:
     preset: standard
   file: captures/ch3_g8_t7_m4_b2_p6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     channel: ch3
@@ -127,7 +127,7 @@ captures:
     preset: shred
   file: captures/ch3_g8_t7_m4_b2_p4_shred_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: ch3
@@ -148,7 +148,7 @@ captures:
     preset: standard
   file: captures/ch3_g8_t7_m2_b2_p5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     channel: ch3
@@ -160,7 +160,7 @@ captures:
     preset: standard
   file: captures/ch3_g10_t7_m2_b2_p5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: ch3
@@ -172,7 +172,7 @@ captures:
     preset: shred
   file: captures/ch3_g8_t7_m2_b2_p5_shred_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: ch3
@@ -184,7 +184,7 @@ captures:
     preset: ts808
   file: captures/ch3_g8_t7_m2_b2_p5_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: ch3
@@ -196,7 +196,7 @@ captures:
     preset: jp_lead
   file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     channel: ch2
@@ -217,7 +217,7 @@ captures:
     preset: jp_lead_shred
   file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_shred_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: ch3
@@ -229,7 +229,7 @@ captures:
     preset: jp_lead_ts808
   file: captures/jp_lead_ch3_g9_t6_m3_b3_p6_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: ch1
@@ -259,7 +259,7 @@ captures:
     preset: ultimate_lead
   file: captures/ultimate_lead_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: none
@@ -271,7 +271,7 @@ captures:
     preset: petrucci_lead
   file: captures/petrucci_lead_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: none
@@ -301,7 +301,7 @@ captures:
     preset: bonus4
   file: captures/bonus4_old_bad_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: none
@@ -313,7 +313,7 @@ captures:
     preset: bonus9
   file: captures/bonus9_old_bad_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: none
@@ -325,7 +325,7 @@ captures:
     preset: bonus10
   file: captures/bonus10_old_bad_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: none
@@ -346,5 +346,5 @@ captures:
     preset: bonus15
   file: captures/bonus15_old_bad_ts808_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

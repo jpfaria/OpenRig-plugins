@@ -51,7 +51,7 @@ captures:
     gain: 8.5
   file: captures/boss_odb3_l12_l12_h12_5_b8_g8_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     level: 12
@@ -61,7 +61,7 @@ captures:
     gain: 9
   file: captures/boss_odb3_l12_l12_h12_b08_g09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     level: 14
@@ -71,7 +71,7 @@ captures:
     gain: 14
   file: captures/boss_odb3_l14_l12_h12_b09_g14_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     level: 14
@@ -81,5 +81,5 @@ captures:
     gain: 17
   file: captures/boss_odb3_l14_l17_h17_b17_g17_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

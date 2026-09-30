@@ -222,12 +222,12 @@ per-capture **values** are this repo's job. Schema:
 
 ```yaml
 noise_gate:                 # manifest-level default (optional)
-  enabled: true
+  enabled: false
   threshold_db: -32.0
 captures:
 - file: captures/dirty_a2.nam
   noise_gate:               # per-capture override (preferred — see below)
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 ```
 
@@ -236,6 +236,11 @@ already uses). The engine default is `enabled: false`, `-50.0` (#612 turned the
 gate off to protect sustain). Precedence: user project > per-capture > manifest
 default > engine default.
 
+**Every gate ships DISABLED (#154, user decision).** The per-capture block
+carries the measured `threshold_db` with `enabled: false`; the user arms the
+gate in the block editor and gets the measured value. `nam_gate_audit --apply`
+writes `enabled: false`. Never ship `enabled: true` in a manifest.
+
 **The measurement IS the deliverable — `tools/loudness_audit/src/nam_gate_audit.rs`:**
 
 - **Probe:** deterministic white noise at **−50 dBFS RMS** (the idle floor),
@@ -243,8 +248,8 @@ default > engine default.
 - **Decide on the AUDIBLE LEVEL, not the gain.** Small-signal gain is NOT a
   clean/dirty discriminator — across the catalogue its median is **+26 dB**
   (even a clean amp channel amplifies a −50 dBFS signal; a preamp has gain at
-  tiny levels). What the user hears is `idle = out_rms + output_gain_db`. Ship
-  the gate when `idle ≥ cutoff` (issue #73 chose **−20 dBFS**, the clearly-
+  tiny levels). What the user hears is `idle = out_rms + output_gain_db`. Write
+  the (disabled) gate block when `idle ≥ cutoff` (issue #73 chose **−20 dBFS**, the clearly-
   audible tier: 228/524 plugins); quieter captures keep the #612 off-default so
   their sustain is never strangled.
 - **Threshold from a closed-loop simulation of the ENGINE'S ACTUAL gate —

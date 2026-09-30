@@ -34,7 +34,7 @@ captures:
     voicing: 'treb'
   file: captures/bb_hi_g10_treb.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     structure: 'hi'
@@ -42,7 +42,7 @@ captures:
     voicing: 'neut'
   file: captures/bb_hi_g6_neut.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     structure: 'hi'
@@ -50,7 +50,7 @@ captures:
     voicing: 'treb'
   file: captures/bb_hi_g6_treb.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     structure: 'hi'
@@ -58,7 +58,7 @@ captures:
     voicing: 'neut'
   file: captures/bb_hi_g8_neut.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     structure: 'hi'
@@ -66,7 +66,7 @@ captures:
     voicing: 'treb'
   file: captures/bb_hi_g8_treb.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     structure: 'lo'

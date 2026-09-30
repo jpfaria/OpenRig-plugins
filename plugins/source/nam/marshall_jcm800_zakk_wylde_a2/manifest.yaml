@@ -54,126 +54,126 @@ captures:
     gain: 1.5
   file: captures/high_sensitivity_g1_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     input: high
     gain: 2
   file: captures/high_sensitivity_g2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     input: high
     gain: 2.5
   file: captures/high_sensitivity_g2_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     input: high
     gain: 3
   file: captures/high_sensitivity_g3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     input: high
     gain: 3.5
   file: captures/high_sensitivity_g3_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     input: high
     gain: 4
   file: captures/high_sensitivity_g4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     input: high
     gain: 4.5
   file: captures/high_sensitivity_g4_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     input: high
     gain: 5
   file: captures/high_sensitivity_g5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     input: high
     gain: 5.5
   file: captures/high_sensitivity_g5_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     input: high
     gain: 6
   file: captures/high_sensitivity_g6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 6.5
   file: captures/high_sensitivity_g6_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 7
   file: captures/high_sensitivity_g7_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 7.5
   file: captures/high_sensitivity_g7_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 8
   file: captures/high_sensitivity_g8_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 8.5
   file: captures/high_sensitivity_g8_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     input: high
     gain: 9
   file: captures/high_sensitivity_g9_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 9.5
   file: captures/high_sensitivity_g9_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 10
   file: captures/high_sensitivity_g10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     input: low

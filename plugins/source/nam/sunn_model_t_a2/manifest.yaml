@@ -49,7 +49,7 @@ captures:
     preset: doom
   file: captures/doom_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     preset: high_gain

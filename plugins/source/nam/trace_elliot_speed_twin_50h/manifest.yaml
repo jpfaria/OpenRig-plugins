@@ -54,7 +54,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_in_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: '2h'
@@ -63,7 +63,7 @@ captures:
     gain_stage: 'mg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_in_mg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: '2h'
@@ -72,7 +72,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_in_sd1_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: '2h'
@@ -81,7 +81,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_in_ts9_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: '2h'
@@ -90,7 +90,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_out_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: '2h'
@@ -99,7 +99,7 @@ captures:
     gain_stage: 'mg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_out_mg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: '2h'
@@ -108,7 +108,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_out_sd1_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: '2h'
@@ -117,7 +117,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2h_t_out_ts9_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: '2m'
@@ -126,7 +126,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_in_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: '2m'
@@ -141,7 +141,7 @@ captures:
     gain_stage: 'mg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_in_mg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: '2m'
@@ -150,7 +150,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_in_sd1_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: '2m'
@@ -159,7 +159,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_in_ts9_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: '2m'
@@ -168,7 +168,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_out_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     channel: '2m'
@@ -183,7 +183,7 @@ captures:
     gain_stage: 'mg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_out_mg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: '2m'
@@ -192,7 +192,7 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_out_sd1_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: '2m'
@@ -201,5 +201,5 @@ captures:
     gain_stage: 'hg'
   file: captures/trace_elliot_speed_twin_50h_ch_2m_t_out_ts9_hg_18dbu.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5

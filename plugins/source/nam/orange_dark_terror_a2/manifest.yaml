@@ -46,7 +46,7 @@ captures:
     mode: od
   file: captures/da15h_v6s6g6_od_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     volume: 4
@@ -55,7 +55,7 @@ captures:
     mode: od
   file: captures/da15h_v4s6g7_od_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     volume: 4
@@ -70,7 +70,7 @@ captures:
     mode: od
   file: captures/da15h_v6s6g5_od_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     volume: 10

@@ -87,7 +87,7 @@ captures:
     presence: 6.2
   file: captures/engl_savage_60_lead_pwr_b4_m7_t6_5_g8b_l7_plus_s2_p6_2_plus.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     channel: 'lead'
@@ -101,7 +101,7 @@ captures:
     presence: 6
   file: captures/engl_savage_60_lead_pwr_b7_m8_4_t10_g10b_l6_plus_s0_p6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0
 - values:
     channel: 'lead'
@@ -115,7 +115,7 @@ captures:
     presence: 7.2
   file: captures/engl_savage_60_lead_pwr_od_b6_m9_2_t6_2_g8b_plus_l6_9_plus_s0_p7_2_plus.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: 'lead'
@@ -129,7 +129,7 @@ captures:
     presence: 6.8
   file: captures/engl_savage_60_lead_pwr_od_b7_m10_t9_g8b_plus_l7_plus_s2_p6_8_plus.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: 'rhythm'

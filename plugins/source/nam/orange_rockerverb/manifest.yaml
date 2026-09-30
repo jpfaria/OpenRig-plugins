@@ -45,14 +45,14 @@ captures:
     voicing: higain_g5
   file: captures/orange_rockerverb_mk3_higain_g5_fortin_ts808_canov_arnold.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     boost: ti_boost
     voicing: higain_g6
   file: captures/orange_rockerverb_mk3_higain_g6_ti_boost_canov_arnold.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0
 - values:
     boost: none
@@ -63,5 +63,5 @@ captures:
     voicing: jim_root
   file: captures/orange_rockerverb_mk3_jim_root_canov_arnold.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0

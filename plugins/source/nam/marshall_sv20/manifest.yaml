@@ -38,23 +38,23 @@ captures:
     preset: 'lead_1'
   file: captures/lead_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     preset: 'lead_2'
   file: captures/lead_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     preset: 'rhytm_1'
   file: captures/rhytm_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     preset: 'rhytm_2'
   file: captures/rhytm_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5

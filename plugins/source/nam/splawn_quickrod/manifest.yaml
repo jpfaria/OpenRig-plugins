@@ -53,7 +53,7 @@ captures:
     mids: 5
   file: captures/splawn_hg5g7m_mids5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     voicing: hgt
@@ -66,5 +66,5 @@ captures:
     mids: 5
   file: captures/splawnhgt5g7m.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5

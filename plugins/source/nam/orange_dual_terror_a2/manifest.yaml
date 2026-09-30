@@ -53,7 +53,7 @@ captures:
     tone: 5
   file: captures/02_dualterror_fat_cln1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     channel: fat
@@ -62,7 +62,7 @@ captures:
     tone: 8
   file: captures/03_dualterror_fat_cln1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     channel: fat
@@ -77,7 +77,7 @@ captures:
     tone: 5
   file: captures/05_dualterror_fat_cln2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.5
 - values:
     channel: fat
@@ -86,7 +86,7 @@ captures:
     tone: 8
   file: captures/06_dualterror_fat_cln2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0
 - values:
     channel: fat
@@ -95,7 +95,7 @@ captures:
     tone: 3
   file: captures/07_dualterror_fat_edg1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: fat
@@ -104,7 +104,7 @@ captures:
     tone: 5
   file: captures/08_dualterror_fat_edg1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: fat
@@ -113,7 +113,7 @@ captures:
     tone: 8
   file: captures/09_dualterror_fat_edg1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     channel: fat
@@ -122,7 +122,7 @@ captures:
     tone: 3
   file: captures/10_dualterror_fat_edg2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     channel: fat
@@ -131,7 +131,7 @@ captures:
     tone: 5
   file: captures/11_dualterror_fat_edg2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: fat
@@ -140,7 +140,7 @@ captures:
     tone: 8
   file: captures/12_dualterror_fat_edg2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: fat
@@ -149,7 +149,7 @@ captures:
     tone: 3
   file: captures/13_dualterror_fat_drv1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: fat
@@ -158,7 +158,7 @@ captures:
     tone: 5
   file: captures/14_dualterror_fat_drv1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: fat
@@ -167,7 +167,7 @@ captures:
     tone: 8
   file: captures/15_dualterror_fat_drv1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: fat
@@ -176,7 +176,7 @@ captures:
     tone: 3
   file: captures/16_dualterror_fat_drv2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: fat
@@ -185,7 +185,7 @@ captures:
     tone: 5
   file: captures/17_dualterror_fat_drv2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: fat
@@ -194,7 +194,7 @@ captures:
     tone: 8
   file: captures/18_dualterror_fat_drv2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -203,7 +203,7 @@ captures:
     tone: 3
   file: captures/19_dualterror_fat_cru1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -212,7 +212,7 @@ captures:
     tone: 5
   file: captures/20_dualterror_fat_cru1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -221,7 +221,7 @@ captures:
     tone: 8
   file: captures/21_dualterror_fat_cru1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -230,7 +230,7 @@ captures:
     tone: 3
   file: captures/22_dualterror_fat_cru2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -239,7 +239,7 @@ captures:
     tone: 5
   file: captures/23_dualterror_fat_cru2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -248,7 +248,7 @@ captures:
     tone: 8
   file: captures/24_dualterror_fat_cru2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -257,7 +257,7 @@ captures:
     tone: 3
   file: captures/25_dualterror_fat_hgn1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -266,7 +266,7 @@ captures:
     tone: 5
   file: captures/26_dualterror_fat_hgn1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -275,7 +275,7 @@ captures:
     tone: 8
   file: captures/27_dualterror_fat_hgn1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -284,7 +284,7 @@ captures:
     tone: 3
   file: captures/28_dualterror_fat_hgn2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -293,7 +293,7 @@ captures:
     tone: 5
   file: captures/29_dualterror_fat_hgn2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: fat
@@ -302,7 +302,7 @@ captures:
     tone: 8
   file: captures/30_dualterror_fat_hgn2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -311,7 +311,7 @@ captures:
     tone: 3
   file: captures/31_dualterror_tiny_cln1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     channel: tiny
@@ -320,7 +320,7 @@ captures:
     tone: 5
   file: captures/32_dualterror_tiny_cln1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     channel: tiny
@@ -329,7 +329,7 @@ captures:
     tone: 8
   file: captures/33_dualterror_tiny_cln1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     channel: tiny
@@ -338,7 +338,7 @@ captures:
     tone: 3
   file: captures/34_dualterror_tiny_cln2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: tiny
@@ -347,7 +347,7 @@ captures:
     tone: 5
   file: captures/35_dualterror_tiny_cln2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: tiny
@@ -356,7 +356,7 @@ captures:
     tone: 8
   file: captures/36_dualterror_tiny_cln2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: tiny
@@ -365,7 +365,7 @@ captures:
     tone: 3
   file: captures/37_dualterror_tiny_edg1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: tiny
@@ -374,7 +374,7 @@ captures:
     tone: 5
   file: captures/38_dualterror_tiny_edg1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: tiny
@@ -383,7 +383,7 @@ captures:
     tone: 8
   file: captures/39_dualterror_tiny_edg1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: tiny
@@ -392,7 +392,7 @@ captures:
     tone: 3
   file: captures/40_dualterror_tiny_edg2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: tiny
@@ -401,7 +401,7 @@ captures:
     tone: 5
   file: captures/41_dualterror_tiny_edg2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -410,7 +410,7 @@ captures:
     tone: 8
   file: captures/42_dualterror_tiny_edg2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -419,7 +419,7 @@ captures:
     tone: 3
   file: captures/43_dualterror_tiny_drv1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -428,7 +428,7 @@ captures:
     tone: 5
   file: captures/44_dualterror_tiny_drv1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -437,7 +437,7 @@ captures:
     tone: 8
   file: captures/45_dualterror_tiny_drv1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -446,7 +446,7 @@ captures:
     tone: 3
   file: captures/46_dualterror_tiny_drv2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -455,7 +455,7 @@ captures:
     tone: 5
   file: captures/47_dualterror_tiny_drv2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -464,7 +464,7 @@ captures:
     tone: 8
   file: captures/48_dualterror_tiny_drv2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -473,7 +473,7 @@ captures:
     tone: 3
   file: captures/49_dualterror_tiny_cru1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -482,7 +482,7 @@ captures:
     tone: 5
   file: captures/50_dualterror_tiny_cru1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -491,7 +491,7 @@ captures:
     tone: 8
   file: captures/51_dualterror_tiny_cru1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -500,7 +500,7 @@ captures:
     tone: 3
   file: captures/52_dualterror_tiny_cru2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -509,7 +509,7 @@ captures:
     tone: 5
   file: captures/53_dualterror_tiny_cru2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -518,7 +518,7 @@ captures:
     tone: 8
   file: captures/54_dualterror_tiny_cru2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -527,7 +527,7 @@ captures:
     tone: 3
   file: captures/55_dualterror_tiny_hgn1_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -536,7 +536,7 @@ captures:
     tone: 5
   file: captures/56_dualterror_tiny_hgn1_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -545,7 +545,7 @@ captures:
     tone: 8
   file: captures/57_dualterror_tiny_hgn1_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -554,7 +554,7 @@ captures:
     tone: 3
   file: captures/58_dualterror_tiny_hgn2_wm_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -563,7 +563,7 @@ captures:
     tone: 5
   file: captures/59_dualterror_tiny_hgn2_bl_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: tiny
@@ -572,5 +572,5 @@ captures:
     tone: 8
   file: captures/60_dualterror_tiny_hgn2_br_di_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

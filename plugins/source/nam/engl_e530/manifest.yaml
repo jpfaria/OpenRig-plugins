@@ -19,5 +19,5 @@ captures:
     default: default
   file: captures/engl_e530.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0

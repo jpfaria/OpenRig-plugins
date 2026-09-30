@@ -45,7 +45,7 @@ captures:
     low: 5
   file: captures/hm2_lv5_l5_h8_d0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     dist: 2
@@ -54,7 +54,7 @@ captures:
     low: 5
   file: captures/hm2_lv5_l5_h8_d2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 5
@@ -63,7 +63,7 @@ captures:
     low: 5
   file: captures/hm2_lv5_l5_h8_d5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 10
@@ -72,7 +72,7 @@ captures:
     low: 5
   file: captures/hm2_lv5_l5_h8_d10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 0
@@ -129,7 +129,7 @@ captures:
     low: 10
   file: captures/hm2_lv5_l10_h10_d0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     dist: 2
@@ -144,7 +144,7 @@ captures:
     low: 10
   file: captures/hm2_lv5_l10_h10_d5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 10
@@ -153,7 +153,7 @@ captures:
     low: 10
   file: captures/hm2_lv5_l10_h10_d10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 0
@@ -162,7 +162,7 @@ captures:
     low: 5
   file: captures/hm2_lv7_l5_h8_d0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     dist: 2
@@ -171,7 +171,7 @@ captures:
     low: 5
   file: captures/hm2_lv7_l5_h8_d2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 5
@@ -180,7 +180,7 @@ captures:
     low: 5
   file: captures/hm2_lv7_l5_h8_d5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 10
@@ -189,7 +189,7 @@ captures:
     low: 5
   file: captures/hm2_lv7_l5_h8_d10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 0
@@ -204,7 +204,7 @@ captures:
     low: 7
   file: captures/hm2_lv7_l7_h5_d2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 5
@@ -213,7 +213,7 @@ captures:
     low: 7
   file: captures/hm2_lv7_l7_h5_d5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 10
@@ -276,7 +276,7 @@ captures:
     low: 5
   file: captures/hm2_lv10_l5_h8_d0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     dist: 2
@@ -285,7 +285,7 @@ captures:
     low: 5
   file: captures/hm2_lv10_l5_h8_d2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 5
@@ -294,7 +294,7 @@ captures:
     low: 5
   file: captures/hm2_lv10_l5_h8_d5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 10
@@ -303,7 +303,7 @@ captures:
     low: 5
   file: captures/hm2_lv10_l5_h8_d10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 0
@@ -318,7 +318,7 @@ captures:
     low: 7
   file: captures/hm2_lv10_l7_h5_d2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 5
@@ -327,7 +327,7 @@ captures:
     low: 7
   file: captures/hm2_lv10_l7_h5_d5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     dist: 10

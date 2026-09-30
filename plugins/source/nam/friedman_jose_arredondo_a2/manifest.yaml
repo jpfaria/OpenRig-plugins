@@ -73,7 +73,7 @@ captures:
     mic: 'sm57'
   file: captures/amp_fman_jose_mar4x12_n_pres_dr_good_mood_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -90,7 +90,7 @@ captures:
     mic: 'blend_1'
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -100,7 +100,7 @@ captures:
     mic: 'blend_2'
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     stage: 'amp'
@@ -110,7 +110,7 @@ captures:
     mic: 'blend_3'
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_blend_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -120,7 +120,7 @@ captures:
     mic: 'sm57'
   file: captures/amp_fman_jose_mar4x12_n_pres_hotrod_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     stage: 'amp'
@@ -137,7 +137,7 @@ captures:
     mic: 'blend_1'
   file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_blend_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -147,7 +147,7 @@ captures:
     mic: 'blend_2'
   file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_blend_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -157,7 +157,7 @@ captures:
     mic: 'blend_3'
   file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_blend_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -174,7 +174,7 @@ captures:
     mic: 'sm58'
   file: captures/amp_fman_jose_mar4x12_n_pres_transylvanian_fangs_sm58.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -184,7 +184,7 @@ captures:
     mic: 'blend_1'
   file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_blend_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     stage: 'amp'
@@ -201,7 +201,7 @@ captures:
     mic: 'blend_3'
   file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_blend_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -211,7 +211,7 @@ captures:
     mic: 'sm57'
   file: captures/amp_fman_jose_mes4x12_n_pres_hotrod_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     stage: 'amp'
@@ -228,7 +228,7 @@ captures:
     mic: 'blend_1'
   file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_blend_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -238,7 +238,7 @@ captures:
     mic: 'blend_2'
   file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_blend_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -248,7 +248,7 @@ captures:
     mic: 'blend_3'
   file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_blend_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     stage: 'amp'
@@ -258,7 +258,7 @@ captures:
     mic: 'sm57'
   file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     stage: 'amp'
@@ -268,7 +268,7 @@ captures:
     mic: 'sm58'
   file: captures/amp_fman_jose_mes4x12_v_pres_hairy_head_sm58.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -278,7 +278,7 @@ captures:
     mic: 'blend_1'
   file: captures/amp_fman_jose_mes4x12_v_pres_rock_tribute_blend_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'

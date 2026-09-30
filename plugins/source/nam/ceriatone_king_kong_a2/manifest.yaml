@@ -52,7 +52,7 @@ captures:
     preset: 1
   file: captures/reacteq_kk100_clean_01_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -61,7 +61,7 @@ captures:
     preset: 2
   file: captures/reacteq_kk100_clean_02_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -70,7 +70,7 @@ captures:
     preset: 3
   file: captures/reacteq_kk100_clean_03_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -79,7 +79,7 @@ captures:
     preset: 4
   file: captures/reacteq_kk100_clean_04_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -88,7 +88,7 @@ captures:
     preset: 5
   file: captures/reacteq_kk100_clean_05_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -97,7 +97,7 @@ captures:
     preset: 6
   file: captures/reacteq_kk100_clean_06_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -106,7 +106,7 @@ captures:
     preset: 7
   file: captures/reacteq_kk100_clean_07_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -115,7 +115,7 @@ captures:
     preset: 8
   file: captures/reacteq_kk100_clean_08_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -124,7 +124,7 @@ captures:
     preset: 9
   file: captures/reacteq_kk100_clean_09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -133,7 +133,7 @@ captures:
     preset: 10
   file: captures/reacteq_kk100_clean_10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -142,7 +142,7 @@ captures:
     preset: 1
   file: captures/reacteq_kk100_scary_deep_off_01_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -151,7 +151,7 @@ captures:
     preset: 2
   file: captures/reacteq_kk100_scary_deep_off_02_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -160,7 +160,7 @@ captures:
     preset: 3
   file: captures/reacteq_kk100_scary_deep_off_03_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -169,7 +169,7 @@ captures:
     preset: 4
   file: captures/reacteq_kk100_scary_deep_off_04_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -178,7 +178,7 @@ captures:
     preset: 5
   file: captures/reacteq_kk100_scary_deep_off_05_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -187,7 +187,7 @@ captures:
     preset: 6
   file: captures/reacteq_kk100_scary_deep_off_06_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -196,7 +196,7 @@ captures:
     preset: 7
   file: captures/reacteq_kk100_scary_deep_off_07_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -205,7 +205,7 @@ captures:
     preset: 8
   file: captures/reacteq_kk100_scary_deep_off_08_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -214,7 +214,7 @@ captures:
     preset: 9
   file: captures/reacteq_kk100_scary_deep_off_09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -223,7 +223,7 @@ captures:
     preset: 10
   file: captures/reacteq_kk100_scary_deep_off_10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -232,7 +232,7 @@ captures:
     preset: 1
   file: captures/reacteq_kk100_scary_deep_on_01_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -241,7 +241,7 @@ captures:
     preset: 2
   file: captures/reacteq_kk100_scary_deep_on_02_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -250,7 +250,7 @@ captures:
     preset: 3
   file: captures/reacteq_kk100_scary_deep_on_03_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     eq: matched
@@ -259,7 +259,7 @@ captures:
     preset: 4
   file: captures/reacteq_kk100_scary_deep_on_04_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -268,7 +268,7 @@ captures:
     preset: 5
   file: captures/reacteq_kk100_scary_deep_on_05_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -277,7 +277,7 @@ captures:
     preset: 6
   file: captures/reacteq_kk100_scary_deep_on_06_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -286,7 +286,7 @@ captures:
     preset: 7
   file: captures/reacteq_kk100_scary_deep_on_07_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -295,7 +295,7 @@ captures:
     preset: 8
   file: captures/reacteq_kk100_scary_deep_on_08_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -304,7 +304,7 @@ captures:
     preset: 9
   file: captures/reacteq_kk100_scary_deep_on_09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -313,7 +313,7 @@ captures:
     preset: 10
   file: captures/reacteq_kk100_scary_deep_on_10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -322,7 +322,7 @@ captures:
     preset: 1
   file: captures/reacteq_kk100_instant_gratification_01_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -331,7 +331,7 @@ captures:
     preset: 2
   file: captures/reacteq_kk100_instant_gratification_02_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     eq: matched
@@ -340,7 +340,7 @@ captures:
     preset: 1
   file: captures/reacteq_kk50w_instant_gratification_01_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: matched
@@ -349,7 +349,7 @@ captures:
     preset: 2
   file: captures/reacteq_kk50w_instant_gratification_02_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     eq: raw
@@ -358,7 +358,7 @@ captures:
     preset: 1
   file: captures/reactir2_kk100_jose_01_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     eq: raw
@@ -367,7 +367,7 @@ captures:
     preset: 2
   file: captures/reactir2_kk100_jose_02_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -376,7 +376,7 @@ captures:
     preset: 3
   file: captures/reactir2_kk100_jose_03_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -385,7 +385,7 @@ captures:
     preset: 4
   file: captures/reactir2_kk100_jose_04_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -394,7 +394,7 @@ captures:
     preset: 5
   file: captures/reactir2_kk100_jose_05_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -403,7 +403,7 @@ captures:
     preset: 6
   file: captures/reactir2_kk100_jose_06_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -412,7 +412,7 @@ captures:
     preset: 7
   file: captures/reactir2_kk100_jose_07_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -421,7 +421,7 @@ captures:
     preset: 8
   file: captures/reactir2_kk100_jose_08_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -430,7 +430,7 @@ captures:
     preset: 9
   file: captures/reactir2_kk100_jose_09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     eq: raw
@@ -439,5 +439,5 @@ captures:
     preset: 10
   file: captures/reactir2_kk100_jose_10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

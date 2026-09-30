@@ -27,31 +27,31 @@ captures:
     preset: p90
   file: captures/rocktron_voodu_valve_p90_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     preset: p95_greek_lead
   file: captures/rocktron_voodu_valve_p95_greek_lead_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     preset: p10
   file: captures/rocktron_voodu_valve_p10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     preset: p99
   file: captures/rocktron_voodu_valve_p99_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     preset: p250
   file: captures/rocktron_voodu_valve_p250_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     preset: p11_clean_jazz

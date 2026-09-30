@@ -40,21 +40,21 @@ captures:
     voicing: treble_drive
   file: captures/vh100r_treble_drive_g8_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     gain: 5
     voicing: neutral_drive
   file: captures/vh100r_neutral_drive_g5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     gain: 7
     voicing: neutral_drive
   file: captures/vh100r_neutral_drive_g7_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     gain: 7
@@ -65,14 +65,14 @@ captures:
     voicing: neutral_drive
   file: captures/vh100r_neutral_drive_g10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     gain: 7
     voicing: treble_drive
   file: captures/vh100r_treble_drive_g7_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     gain: 5
@@ -83,14 +83,14 @@ captures:
     voicing: neutral_drive
   file: captures/vh100r_neutral_drive_g8_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     gain: 5
     voicing: treble_drive
   file: captures/vh100r_treble_drive_g5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     gain: 8
@@ -113,5 +113,5 @@ captures:
     voicing: treble_drive
   file: captures/vh100r_treble_drive_g10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

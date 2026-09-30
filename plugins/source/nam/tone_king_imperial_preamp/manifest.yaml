@@ -56,5 +56,5 @@ captures:
     gain: 9
   file: captures/ap_08_imperial_lead_g9.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0

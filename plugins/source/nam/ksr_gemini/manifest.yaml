@@ -26,23 +26,23 @@ captures:
     preset: '2'
   file: captures/ksr_g_hg_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     preset: '3'
   file: captures/ksr_g_hg_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     preset: '4'
   file: captures/ksr_g_hg_4.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     preset: '5'
   file: captures/ksr_g_hg_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

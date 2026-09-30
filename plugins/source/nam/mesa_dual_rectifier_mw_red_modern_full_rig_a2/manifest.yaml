@@ -89,7 +89,7 @@ captures:
     position: on_grille
   file: captures/1_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -101,7 +101,7 @@ captures:
     position: off_grille
   file: captures/1_ll_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -113,7 +113,7 @@ captures:
     position: on_grille
   file: captures/1_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -125,7 +125,7 @@ captures:
     position: off_grille
   file: captures/1_lr_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -137,7 +137,7 @@ captures:
     position: on_grille
   file: captures/1_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -149,7 +149,7 @@ captures:
     position: off_grille
   file: captures/1_ul_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -161,7 +161,7 @@ captures:
     position: on_grille
   file: captures/1_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -173,7 +173,7 @@ captures:
     position: off_grille
   file: captures/1_ur_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -185,7 +185,7 @@ captures:
     position: on_grille
   file: captures/2_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -197,7 +197,7 @@ captures:
     position: off_grille
   file: captures/2_ll_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -209,7 +209,7 @@ captures:
     position: on_grille
   file: captures/2_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -221,7 +221,7 @@ captures:
     position: off_grille
   file: captures/2_lr_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -233,7 +233,7 @@ captures:
     position: on_grille
   file: captures/2_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -245,7 +245,7 @@ captures:
     position: off_grille
   file: captures/2_ul_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -257,7 +257,7 @@ captures:
     position: on_grille
   file: captures/2_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -269,7 +269,7 @@ captures:
     position: off_grille
   file: captures/2_ur_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -281,7 +281,7 @@ captures:
     position: on_grille
   file: captures/3_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -293,7 +293,7 @@ captures:
     position: off_grille
   file: captures/3_ll_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -305,7 +305,7 @@ captures:
     position: on_grille
   file: captures/3_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -317,7 +317,7 @@ captures:
     position: off_grille
   file: captures/3_lr_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -329,7 +329,7 @@ captures:
     position: on_grille
   file: captures/3_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -341,7 +341,7 @@ captures:
     position: off_grille
   file: captures/3_ul_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -353,7 +353,7 @@ captures:
     position: on_grille
   file: captures/3_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -365,7 +365,7 @@ captures:
     position: off_grille
   file: captures/3_ur_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -377,7 +377,7 @@ captures:
     position: on_grille
   file: captures/4_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -398,7 +398,7 @@ captures:
     position: on_grille
   file: captures/4_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -410,7 +410,7 @@ captures:
     position: off_grille
   file: captures/4_lr_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -440,7 +440,7 @@ captures:
     position: on_grille
   file: captures/4_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -461,7 +461,7 @@ captures:
     position: on_grille
   file: captures/5_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -473,7 +473,7 @@ captures:
     position: off_grille
   file: captures/5_ll_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -485,7 +485,7 @@ captures:
     position: on_grille
   file: captures/5_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -497,7 +497,7 @@ captures:
     position: off_grille
   file: captures/5_lr_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -509,7 +509,7 @@ captures:
     position: on_grille
   file: captures/5_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -521,7 +521,7 @@ captures:
     position: off_grille
   file: captures/5_ul_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -533,7 +533,7 @@ captures:
     position: on_grille
   file: captures/5_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -545,7 +545,7 @@ captures:
     position: off_grille
   file: captures/5_ur_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -557,7 +557,7 @@ captures:
     position: on_grille
   file: captures/6_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -569,7 +569,7 @@ captures:
     position: off_grille
   file: captures/6_ll_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -581,7 +581,7 @@ captures:
     position: on_grille
   file: captures/6_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -593,7 +593,7 @@ captures:
     position: off_grille
   file: captures/6_lr_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -605,7 +605,7 @@ captures:
     position: on_grille
   file: captures/6_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -617,7 +617,7 @@ captures:
     position: off_grille
   file: captures/6_ul_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -629,7 +629,7 @@ captures:
     position: on_grille
   file: captures/6_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: none
@@ -641,7 +641,7 @@ captures:
     position: off_grille
   file: captures/6_ur_sm57b_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tumnus_deluxe
@@ -653,7 +653,7 @@ captures:
     position: on_grille
   file: captures/tdlx_1_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tumnus_deluxe
@@ -665,7 +665,7 @@ captures:
     position: on_grille
   file: captures/tdlx_1_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tumnus_deluxe
@@ -677,7 +677,7 @@ captures:
     position: on_grille
   file: captures/tdlx_1_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tumnus_deluxe
@@ -689,7 +689,7 @@ captures:
     position: on_grille
   file: captures/tdlx_1_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: sd1
@@ -710,7 +710,7 @@ captures:
     position: on_grille
   file: captures/sd1_1_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: sd1
@@ -722,7 +722,7 @@ captures:
     position: on_grille
   file: captures/sd1_1_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: sd1
@@ -734,7 +734,7 @@ captures:
     position: on_grille
   file: captures/sd1_1_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: od808
@@ -746,7 +746,7 @@ captures:
     position: on_grille
   file: captures/od808_1_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: od808
@@ -758,7 +758,7 @@ captures:
     position: on_grille
   file: captures/od808_1_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: od808
@@ -770,7 +770,7 @@ captures:
     position: on_grille
   file: captures/od808_1_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: od808
@@ -782,7 +782,7 @@ captures:
     position: on_grille
   file: captures/od808_1_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_66
@@ -794,7 +794,7 @@ captures:
     position: on_grille
   file: captures/tmb_66_1_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_66
@@ -806,7 +806,7 @@ captures:
     position: on_grille
   file: captures/tmb_66_1_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_66
@@ -818,7 +818,7 @@ captures:
     position: on_grille
   file: captures/tmb_66_1_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_66
@@ -830,7 +830,7 @@ captures:
     position: on_grille
   file: captures/tmb_66_1_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_73
@@ -842,7 +842,7 @@ captures:
     position: on_grille
   file: captures/tmb_73_1_ll_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_73
@@ -854,7 +854,7 @@ captures:
     position: on_grille
   file: captures/tmb_73_1_lr_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_73
@@ -866,7 +866,7 @@ captures:
     position: on_grille
   file: captures/tmb_73_1_ul_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     boost: tmb_73
@@ -878,5 +878,5 @@ captures:
     position: on_grille
   file: captures/tmb_73_1_ur_sm57a_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

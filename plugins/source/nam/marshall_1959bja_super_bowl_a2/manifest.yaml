@@ -23,5 +23,5 @@ captures:
     default: default
   file: captures/super_bowl_settings_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
