@@ -160,7 +160,7 @@ captures:
     bass: 4
   file: captures/cranked_and_fd2_boosted_v10_t7_b4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     voicing: cranked
@@ -217,5 +217,5 @@ captures:
     bass: 4
   file: captures/warm_fuzz_v5_t4_b4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5

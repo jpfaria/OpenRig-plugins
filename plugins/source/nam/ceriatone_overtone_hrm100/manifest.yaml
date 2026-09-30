@@ -43,5 +43,5 @@ captures:
     preset: 'od_3'
   file: captures/co_hrm_od_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0

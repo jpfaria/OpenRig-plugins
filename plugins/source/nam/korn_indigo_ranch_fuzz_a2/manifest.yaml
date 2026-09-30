@@ -59,7 +59,7 @@ captures:
     tone: 6
   file: captures/korn_fuzz_g100_t6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     gain: 100
@@ -74,7 +74,7 @@ captures:
     tone: 9
   file: captures/korn_fuzz_g100_t9_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     gain: 50
@@ -221,5 +221,5 @@ captures:
     tone: 9
   file: captures/korn_fuzz_g90_t9_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5

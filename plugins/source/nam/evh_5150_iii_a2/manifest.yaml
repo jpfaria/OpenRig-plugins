@@ -68,7 +68,7 @@ captures:
     resonance: 6
   file: captures/red_g5_b5_m8_t6_p5_r6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -80,7 +80,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t6_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -92,7 +92,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t6_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -104,7 +104,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t6_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -116,7 +116,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t7_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -128,7 +128,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t7_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -140,7 +140,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t7_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -152,7 +152,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t8_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -164,7 +164,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t8_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -176,7 +176,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m8_t8_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -188,7 +188,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t6_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -200,7 +200,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t6_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -212,7 +212,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t6_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -224,7 +224,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t7_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -236,7 +236,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t7_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -248,7 +248,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t7_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -260,7 +260,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t8_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -272,7 +272,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t8_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -284,7 +284,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b4_m9_t8_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -296,7 +296,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t6_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -308,7 +308,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t6_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -320,7 +320,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t6_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -332,7 +332,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t7_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -344,7 +344,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t7_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -356,7 +356,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t7_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -368,7 +368,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t8_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -380,7 +380,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t8_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -392,7 +392,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m8_t8_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -404,7 +404,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t6_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -416,7 +416,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t6_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -428,7 +428,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t6_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -440,7 +440,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t7_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -452,7 +452,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t7_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -464,7 +464,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t7_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -476,7 +476,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t8_p5_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -488,7 +488,7 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t8_p6_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: red
@@ -500,5 +500,5 @@ captures:
     resonance: 4
   file: captures/red_g4_b5_m9_t8_p7_r4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

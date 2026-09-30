@@ -56,7 +56,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t5_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     bass: 3
@@ -65,7 +65,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t6_b3_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     bass: 1
@@ -74,7 +74,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t7_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -83,7 +83,7 @@ captures:
     volume: 4
   file: captures/bfsr_v4_t5_b4_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     bass: 4
@@ -92,7 +92,7 @@ captures:
     volume: 6
   file: captures/bfsr_v6_t5_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     bass: 1
@@ -101,7 +101,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t8_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -110,7 +110,7 @@ captures:
     volume: 5
   file: captures/bfsr_v5_t5_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     bass: 4
@@ -119,7 +119,7 @@ captures:
     volume: 5
   file: captures/bfsr_v5_t3_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     bass: 3
@@ -128,7 +128,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t5_b3_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     bass: 4
@@ -137,7 +137,7 @@ captures:
     volume: 4
   file: captures/bfsr_v4_t1_b4_brt_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     bass: 1
@@ -146,7 +146,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t6_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     bass: 4
@@ -155,7 +155,7 @@ captures:
     volume: 4
   file: captures/bfsr_v4_t4_b4_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0
 - values:
     bass: 4
@@ -164,7 +164,7 @@ captures:
     volume: 5
   file: captures/bfsr_v5_t6_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     bass: 4
@@ -173,7 +173,7 @@ captures:
     volume: 4
   file: captures/bfsr_v4_t6_b4_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     bass: 4
@@ -182,7 +182,7 @@ captures:
     volume: 6
   file: captures/bfsr_v6_t4_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     bass: 3
@@ -191,7 +191,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t7_b3_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -200,7 +200,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t8_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -209,7 +209,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t8_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -218,7 +218,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t6_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     bass: 3
@@ -227,7 +227,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t8_b3_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -236,7 +236,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t6_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -245,7 +245,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t5_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -254,7 +254,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t8_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -263,7 +263,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t10_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -272,7 +272,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t8_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -281,7 +281,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t7_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -290,7 +290,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t7_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -299,7 +299,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t7_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -308,7 +308,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t6_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -317,7 +317,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t5_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -326,7 +326,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t9_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -335,7 +335,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t7_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -344,7 +344,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t5_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -353,7 +353,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t6_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -362,7 +362,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t10_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -371,7 +371,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t9_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -380,7 +380,7 @@ captures:
     volume: 6
   file: captures/bfsr_v6_t3_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     bass: 1
@@ -389,7 +389,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t8_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -398,7 +398,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t8_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -407,7 +407,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t9_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -416,7 +416,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t9_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -425,7 +425,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t10_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -434,7 +434,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t5_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     bass: 1
@@ -443,7 +443,7 @@ captures:
     volume: 7
   file: captures/bfsr_v7_t5_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     bass: 4
@@ -452,7 +452,7 @@ captures:
     volume: 4
   file: captures/bfsr_v4_t3_b4_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.5
 - values:
     bass: 2
@@ -461,7 +461,7 @@ captures:
     volume: 10
   file: captures/bfsr_v10_t6_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -470,7 +470,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t7_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -479,7 +479,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t9_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -488,7 +488,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t7_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -497,7 +497,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t6_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -506,7 +506,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t6_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -515,7 +515,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t10_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -524,7 +524,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t5_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 1
@@ -533,7 +533,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t10_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -542,7 +542,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t10_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -551,7 +551,7 @@ captures:
     volume: 4
   file: captures/bfsr_v4_t2_b4_brt_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     bass: 2
@@ -560,7 +560,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t8_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -569,7 +569,7 @@ captures:
     volume: 9
   file: captures/bfsr_v9_t9_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 2
@@ -578,7 +578,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t5_b2_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -587,7 +587,7 @@ captures:
     volume: 6
   file: captures/bfsr_v6_t6_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     bass: 1
@@ -596,7 +596,7 @@ captures:
     volume: 8
   file: captures/bfsr_v8_t7_b1_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -605,5 +605,5 @@ captures:
     volume: 5
   file: captures/bfsr_v5_t4_b4_std_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0

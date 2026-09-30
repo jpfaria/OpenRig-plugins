@@ -96,7 +96,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_10_t_3_b_6_m_10_ma_2_p_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -110,7 +110,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_12_t_3_b_6_m_10_ma_2_p_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -124,7 +124,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_12_t_4_b_1_m_8_ma_2_p_4.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -138,7 +138,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_12_t_5_b_7_m_4_ma_2_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: 'drv'
@@ -152,7 +152,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_12_t_6_b_4_m_12_ma_2_p_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -166,7 +166,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_12_t_6_b_6_m_6_ma_2_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -180,7 +180,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_9_t_3_b_6_m_10_ma_2_p_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -194,7 +194,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_9_t_4_b_1_m_8_ma_2_p_4.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: 'drv'
@@ -208,7 +208,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_9_t_5_b_7_m_4_ma_2_p_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: 'drv'
@@ -222,7 +222,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_9_t_6_b_4_m_12_ma_2_p_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'drv'
@@ -236,7 +236,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_drv_in1_d_9_t_6_b_6_m_6_ma_2_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: 'nrm'
@@ -250,7 +250,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_10_t_4_b_2_m_12_p_7.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -264,7 +264,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_10_t_7_b_5_m_6_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -278,7 +278,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_10_t_9_b_3_m_10_p_8.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -292,7 +292,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_5_b_8_m_5_p_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     channel: 'nrm'
@@ -306,7 +306,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_5_b_8_m_8_p_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     channel: 'nrm'
@@ -320,7 +320,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_3_m_4_p_3_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     channel: 'nrm'
@@ -334,7 +334,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_3_m_4_p_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: 'nrm'
@@ -348,7 +348,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_4_m_7_p_7_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: 'nrm'
@@ -362,7 +362,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_4_m_7_p_7.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     channel: 'nrm'
@@ -376,7 +376,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_7_b_7_m_7_p_1.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: 'nrm'
@@ -390,7 +390,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_5_p_5_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     channel: 'nrm'
@@ -404,7 +404,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_5_p_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: 'nrm'
@@ -418,7 +418,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_7_p_5_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: 'nrm'
@@ -432,7 +432,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_5_m_7_p_5.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: 'nrm'
@@ -446,7 +446,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_7_m_6_p_6_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     channel: 'nrm'
@@ -460,7 +460,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_8_b_7_m_6_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: 'nrm'
@@ -474,7 +474,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_2_t_9_b_9_m_6_p_3_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     channel: 'nrm'
@@ -488,7 +488,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_2_t_9_b_9_m_6_p_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: 'nrm'
@@ -502,7 +502,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_4_t_4_b_2_m_12_p_7.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: 'nrm'
@@ -516,7 +516,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_4_t_7_b_5_m_6_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: 'nrm'
@@ -530,7 +530,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_4_t_9_b_3_m_10_p_8_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -544,7 +544,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_4_t_9_b_3_m_10_p_8.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -558,7 +558,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_6_t_4_b_2_m_12_p_7.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -572,7 +572,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_6_t_7_b_5_m_6_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: 'nrm'
@@ -586,7 +586,7 @@ captures:
     bright: 'on'
   file: captures/di_blues_deville_nrm_in1_v_6_t_9_b_3_m_10_p_8_brt.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -600,7 +600,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_6_t_9_b_3_m_10_p_8.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -614,7 +614,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_8_t_4_b_2_m_12_p_7.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -628,7 +628,7 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_8_t_7_b_5_m_6_p_6.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'nrm'
@@ -642,5 +642,5 @@ captures:
     bright: 'off'
   file: captures/di_blues_deville_nrm_in1_v_8_t_9_b_3_m_10_p_8.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

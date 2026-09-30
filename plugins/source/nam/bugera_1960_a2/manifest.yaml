@@ -33,14 +33,14 @@ captures:
     volume2: 2
   file: captures/in1_v1_4_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.5
 - values:
     volume1: 9
     volume2: 2
   file: captures/in1_v1_9_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     volume1: 2
@@ -51,49 +51,49 @@ captures:
     volume2: 2
   file: captures/in1_v1_7_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     volume1: 6
     volume2: 2
   file: captures/in1_v1_6_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     volume1: 5
     volume2: 5
   file: captures/in1_v1_5_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     volume1: 3
     volume2: 5
   file: captures/in1_v1_3_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.5
 - values:
     volume1: 10
     volume2: 2
   file: captures/in1_v1_10_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     volume1: 4
     volume2: 5
   file: captures/in1_v1_4_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0
 - values:
     volume1: 8
     volume2: 2
   file: captures/in1_v1_8_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     volume1: 3
@@ -108,40 +108,40 @@ captures:
     volume2: 5
   file: captures/in1_v1_9_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     volume1: 8
     volume2: 5
   file: captures/in1_v1_8_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     volume1: 7
     volume2: 5
   file: captures/in1_v1_7_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     volume1: 5
     volume2: 2
   file: captures/in1_v1_5_v2_2_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.0
 - values:
     volume1: 6
     volume2: 5
   file: captures/in1_v1_6_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     volume1: 10
     volume2: 5
   file: captures/in1_v1_10_v2_5_t10_m_10_b_10_p_0_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

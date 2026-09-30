@@ -66,14 +66,14 @@ captures:
     filter: 1
   file: captures/proco_rat_d2_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     distortion: 2
     filter: 2
   file: captures/proco_rat_d2_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     distortion: 2
@@ -100,14 +100,14 @@ captures:
     filter: 1
   file: captures/proco_rat_d3_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     distortion: 3
     filter: 2
   file: captures/proco_rat_d3_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     distortion: 3
@@ -134,21 +134,21 @@ captures:
     filter: 1
   file: captures/proco_rat_d4_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     distortion: 4
     filter: 2
   file: captures/proco_rat_d4_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     distortion: 4
     filter: 3
   file: captures/proco_rat_d4_f3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     distortion: 4
@@ -171,28 +171,28 @@ captures:
     filter: 1
   file: captures/proco_rat_d5_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 5
     filter: 2
   file: captures/proco_rat_d5_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 5
     filter: 3
   file: captures/proco_rat_d5_f3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 5
     filter: 4
   file: captures/proco_rat_d5_f4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 5
@@ -211,35 +211,35 @@ captures:
     filter: 1
   file: captures/proco_rat_d6_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 6
     filter: 2
   file: captures/proco_rat_d6_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 6
     filter: 3
   file: captures/proco_rat_d6_f3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 6
     filter: 4
   file: captures/proco_rat_d6_f4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 6
     filter: 5
   file: captures/proco_rat_d6_f5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 6
@@ -254,28 +254,28 @@ captures:
     filter: 1
   file: captures/proco_rat_d7_f1_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 7
     filter: 2
   file: captures/proco_rat_d7_f2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 7
     filter: 3
   file: captures/proco_rat_d7_f3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 7
     filter: 4
   file: captures/proco_rat_d7_f4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     distortion: 7

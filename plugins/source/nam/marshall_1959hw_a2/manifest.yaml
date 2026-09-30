@@ -20,5 +20,5 @@ captures:
     default: default
   file: captures/marshall_1959hw_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

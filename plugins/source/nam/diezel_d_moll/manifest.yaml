@@ -61,7 +61,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_2_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     channel: '2'
@@ -76,7 +76,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_2_mc_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: '2'
@@ -85,7 +85,7 @@ captures:
     gain_stage: 'mg'
   file: captures/diezel_d_moll_ch_2_mc_mg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: '2'
@@ -94,7 +94,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_2_mc_sd1_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: '2'
@@ -103,7 +103,7 @@ captures:
     gain_stage: 'mg'
   file: captures/diezel_d_moll_ch_2_mg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: '2'
@@ -112,7 +112,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_2_sd1_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: '3'
@@ -121,7 +121,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_3_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: '3'
@@ -130,7 +130,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_3_mc_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     channel: '3'
@@ -139,7 +139,7 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_3_mc_sd1_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0
 - values:
     channel: '3'
@@ -148,5 +148,5 @@ captures:
     gain_stage: 'hg'
   file: captures/diezel_d_moll_ch_3_sd1_hg.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5

@@ -57,7 +57,7 @@ captures:
     treble: 2
   file: captures/mb_bl50_cr_g_10_t_2_m_7_b_6_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -67,7 +67,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_2_b_6_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -77,7 +77,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_3_b_4_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -87,7 +87,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_4_b_5_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -97,7 +97,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_5_b_5_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -107,7 +107,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_10_t_4_m_6_b_6_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -117,7 +117,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_10_t_5_m_4_b_4_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -127,7 +127,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_10_t_5_m_5_b_5_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -137,7 +137,7 @@ captures:
     treble: 2
   file: captures/mb_bl50_cr_g_6_t_2_m_7_b_6_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -154,7 +154,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_2_b_6_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -164,7 +164,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_3_b_4_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -174,7 +174,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_4_b_5_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -184,7 +184,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_5_b_5_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -194,7 +194,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_6_t_4_m_6_b_6_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -204,7 +204,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_6_t_5_m_4_b_4_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -214,7 +214,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_6_t_5_m_5_b_5_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -224,7 +224,7 @@ captures:
     treble: 2
   file: captures/mb_bl50_cr_g_7_t_2_m_7_b_6_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -234,7 +234,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_2_b_6_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -244,7 +244,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_3_b_4_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -254,7 +254,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_4_b_5_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -264,7 +264,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_7_t_4_m_5_b_5_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -274,7 +274,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_4_b_4_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -284,7 +284,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_5_b_5_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -294,7 +294,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_7_t_5_m_6_b_6_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -304,7 +304,7 @@ captures:
     treble: 2
   file: captures/mb_bl50_cr_g_8_t_2_m_7_b_6_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -314,7 +314,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_2_b_6_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -324,7 +324,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_3_b_4_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -334,7 +334,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_4_b_5_p_4_ma_3_xstd_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     bass: 5
@@ -344,7 +344,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_4_b_5_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -354,7 +354,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_5_b_5_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 6
@@ -364,7 +364,7 @@ captures:
     treble: 4
   file: captures/mb_bl50_cr_g_8_t_4_m_6_b_6_p_6_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 4
@@ -374,7 +374,7 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_8_t_5_m_4_b_4_p_4_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     bass: 5
@@ -384,5 +384,5 @@ captures:
     treble: 5
   file: captures/mb_bl50_cr_g_8_t_5_m_5_b_5_p_5_ma_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

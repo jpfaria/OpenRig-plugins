@@ -19,5 +19,5 @@ captures:
     default: default
   file: captures/dual_rectifier_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0

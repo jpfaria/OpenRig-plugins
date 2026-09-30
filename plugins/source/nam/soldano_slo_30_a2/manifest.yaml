@@ -26,12 +26,12 @@ captures:
     gain: 5
   file: captures/slo_30_lead_gain_5_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: crunch
     gain: 3
   file: captures/slo_30_crunch_gain_3_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0

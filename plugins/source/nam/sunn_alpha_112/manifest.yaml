@@ -29,7 +29,7 @@ captures:
     preset: 'brighter_with_noise_gate'
   file: captures/sunn_alpha_112pr_head_only_brighter_with_noise_gate.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     preset: 'darker_louder'

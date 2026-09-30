@@ -42,7 +42,7 @@ captures:
     preset: 'eddie_settings_05'
   file: captures/amp_pv6505_og1992_mar4x12_lead_eddie_settings_05_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -50,7 +50,7 @@ captures:
     preset: 'sneap'
   file: captures/amp_pv6505_og1992_mar4x12_lead_sneap_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -63,7 +63,7 @@ captures:
     preset: 'mirroring'
   file: captures/amp_pv6505_og1992_mes2x12_lead_mirroring_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -71,7 +71,7 @@ captures:
     preset: 'ending_heartbrake'
   file: captures/amp_pv6505_og1992_mes4x12_lead_ending_heartbrake_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'amp'
@@ -79,7 +79,7 @@ captures:
     preset: 'pink_gator'
   file: captures/amp_pv6505_og1992_mes4x12_lead_pink_gator_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'pow'
@@ -87,7 +87,7 @@ captures:
     preset: 'reso_7_pres_7'
   file: captures/pow_pv6505_og1992_mar4x12_reso_7_pres_7_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'pow'
@@ -95,7 +95,7 @@ captures:
     preset: 'reso_7_pres_7'
   file: captures/pow_pv6505_og1992_mes2x12_reso_7_pres_7_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'pow'
@@ -103,7 +103,7 @@ captures:
     preset: 'reso_7_pres_7'
   file: captures/pow_pv6505_og1992_mes4x12_reso_7_pres_7_di.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: 'pre'
@@ -111,5 +111,5 @@ captures:
     preset: 'wishful_dreamin'
   file: captures/pre_pv6505_og1992_rhyt_wishful_dreamin.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

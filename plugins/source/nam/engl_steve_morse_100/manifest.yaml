@@ -60,7 +60,7 @@ captures:
     preset: 'mid_gain'
   file: captures/engl_sm100_ch2_mid_gain.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: 'ch2'
@@ -71,89 +71,89 @@ captures:
     preset: 'to_mid_gain'
   file: captures/engl_sm100_ch2_to_mid_gain.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: 'ch3'
     preset: 'blue_blue_mod_808'
   file: captures/engl_sm100_ch3_blue_blue_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'blue_blue_to_hg_mod_808'
   file: captures/engl_sm100_ch3_blue_blue_to_hg_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'blue_blue_to_mod_808'
   file: captures/engl_sm100_ch3_blue_blue_to_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'blue_red_mod_808'
   file: captures/engl_sm100_ch3_blue_red_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'blue_red_to_hg_mod_808'
   file: captures/engl_sm100_ch3_blue_red_to_hg_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'blue_red_to_mod_808'
   file: captures/engl_sm100_ch3_blue_red_to_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'red_blue_mod_808'
   file: captures/engl_sm100_ch3_red_blue_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'red_blue_to_hg_mod_808'
   file: captures/engl_sm100_ch3_red_blue_to_hg_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'red_blue_to_mod_808'
   file: captures/engl_sm100_ch3_red_blue_to_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'red_red_mod_808'
   file: captures/engl_sm100_ch3_red_red_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'red_red_to_hg_mod_808'
   file: captures/engl_sm100_ch3_red_red_to_hg_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'ch3'
     preset: 'red_red_to_mod_808'
   file: captures/engl_sm100_ch3_red_red_to_mod_808.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

@@ -24,11 +24,11 @@ captures:
     voicing: 'high_gain'
   file: captures/peavy_bandit_112_lead_high_gain.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     voicing: 'modern'
   file: captures/peavy_bandit_112_lead_modern.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0

@@ -30,7 +30,9 @@
 //! ## Modes
 //! - default: TSV report (one row per capture) + summary.
 //! - `--apply <report.tsv>`: transcribe the measured `threshold_db` into
-//!   each manifest's per-capture `noise_gate` block (idempotent).
+//!   each manifest's per-capture `noise_gate` block (idempotent). The
+//!   block ships `enabled: false` (#154): the measured threshold is kept
+//!   for the user to arm the gate in the block editor, never on by default.
 //! - `--probe <model.nam>`: print the full per-T curve for ONE capture
 //!   (the per-plugin validator).
 //!
@@ -465,7 +467,7 @@ fn upsert_capture_noise_gate(yaml: &str, decisions: &BTreeMap<String, Option<f32
             if let Some(Some(thr)) = decisions.get(file) {
                 let ind = " ".repeat(key_col);
                 out.push(format!("{ind}noise_gate:"));
-                out.push(format!("{ind}  enabled: true"));
+                out.push(format!("{ind}  enabled: false"));
                 out.push(format!("{ind}  threshold_db: {thr:.1}"));
             }
         }
@@ -553,7 +555,7 @@ mod tests {
         d.insert("captures/a.nam".to_string(), Some(-28.0_f32));
         d.insert("captures/b.nam".to_string(), None);
         let out = upsert_capture_noise_gate(yaml, &d);
-        assert!(out.contains("  file: captures/a.nam\n  noise_gate:\n    enabled: true\n    threshold_db: -28.0"));
+        assert!(out.contains("  file: captures/a.nam\n  noise_gate:\n    enabled: false\n    threshold_db: -28.0"));
         assert_eq!(out.matches("noise_gate:").count(), 1);
     }
 

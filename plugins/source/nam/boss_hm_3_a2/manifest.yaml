@@ -58,7 +58,7 @@ captures:
     boost: none
   file: captures/g7_l4_h7_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     gain: 8
@@ -67,7 +67,7 @@ captures:
     boost: none
   file: captures/g8_l6_h8_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     gain: 3
@@ -82,7 +82,7 @@ captures:
     boost: boost
   file: captures/g6_l8_h10_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     gain: 7
@@ -91,7 +91,7 @@ captures:
     boost: boost
   file: captures/g7_l6_h5_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     gain: 9
@@ -100,5 +100,5 @@ captures:
     boost: boost
   file: captures/g9_l1_h2_boost_t10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

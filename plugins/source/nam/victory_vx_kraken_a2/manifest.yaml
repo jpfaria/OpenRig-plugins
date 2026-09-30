@@ -47,14 +47,14 @@ captures:
     voicing: flat
   file: captures/kraken_g7_flat_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     gain: 8
     voicing: flat
   file: captures/kraken_g8_flat_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     gain: 3
@@ -73,21 +73,21 @@ captures:
     voicing: boost
   file: captures/kraken_g6_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     gain: 7
     voicing: boost
   file: captures/kraken_g7_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.0
 - values:
     gain: 8
     voicing: boost
   file: captures/kraken_g8_boost_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     gain: 3
@@ -106,19 +106,19 @@ captures:
     voicing: hot
   file: captures/kraken_g6_hot_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     gain: 7
     voicing: hot
   file: captures/kraken_g7_hot_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     gain: 8
     voicing: hot
   file: captures/kraken_g8_hot_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5

@@ -46,28 +46,28 @@ captures:
     gain: 7
   file: captures/orange_dual_terror_30w_fat_terror_t08g07_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -36.0
 - values:
     channel: fat
     gain: 8
   file: captures/orange_dual_terror_30w_fat_terror_t08g08_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     channel: fat
     gain: 9
   file: captures/orange_dual_terror_30w_fat_terror_t08g09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: fat
     gain: 10
   file: captures/orange_dual_terror_30w_fat_terror_t08g10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: tiny
@@ -86,26 +86,26 @@ captures:
     gain: 7
   file: captures/orange_dual_terror_30w_tiny_terror_t08g07_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -35.5
 - values:
     channel: tiny
     gain: 8
   file: captures/orange_dual_terror_30w_tiny_terror_t08g08_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     channel: tiny
     gain: 9
   file: captures/orange_dual_terror_30w_tiny_terror_t08g09_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     channel: tiny
     gain: 10
   file: captures/orange_dual_terror_30w_tiny_terror_t08g10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5

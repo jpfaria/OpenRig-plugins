@@ -20,7 +20,7 @@ captures:
     channel: hi_gain
   file: captures/rockerverb_higain_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     channel: crunch

@@ -84,7 +84,7 @@ captures:
     preset: warm_fuzz
   file: captures/warm_fuzz_v5_t4_b4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     volume: 10

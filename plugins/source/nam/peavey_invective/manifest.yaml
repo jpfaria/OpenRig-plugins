@@ -22,23 +22,23 @@ captures:
     preset: '2'
   file: captures/peavey_invective_2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     preset: 'mh_3'
   file: captures/peavey_invective_mh_3.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -44.0
 - values:
     preset: 'mh_4'
   file: captures/peavey_invective_mh_4.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -44.0
 - values:
     preset: 'mh'
   file: captures/peavey_invective_mh.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5

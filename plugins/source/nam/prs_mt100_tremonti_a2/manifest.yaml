@@ -165,7 +165,7 @@ captures:
     preset: 'crusher'
   file: captures/amp_prs_mt100_lead_crusher_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'lead'
@@ -192,7 +192,7 @@ captures:
     preset: 'insanity'
   file: captures/amp_prs_mt100_lead_insanity_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'lead'
@@ -219,7 +219,7 @@ captures:
     preset: 'no_mids'
   file: captures/amp_prs_mt100_lead_no_mids_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'lead'
@@ -230,7 +230,7 @@ captures:
     preset: 'numedal'
   file: captures/amp_prs_mt100_lead_numedal_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'lead'
@@ -281,7 +281,7 @@ captures:
     preset: 'twister'
   file: captures/amp_prs_mt100_lead_twister_sm57.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     channel: 'overdrive'

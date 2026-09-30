@@ -61,7 +61,7 @@ captures:
     load: none
   file: captures/amp_arc50c_lead_hippo_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     stage: amp
@@ -71,7 +71,7 @@ captures:
     load: none
   file: captures/amp_arc50c_lead_roar_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
 - values:
     stage: amp
@@ -81,7 +81,7 @@ captures:
     load: none
   file: captures/amp_arc50c_lead_rhino_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: amp
@@ -91,7 +91,7 @@ captures:
     load: none
   file: captures/amp_arc50c_lead_growl_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: amp
@@ -101,7 +101,7 @@ captures:
     load: none
   file: captures/amp_arc50c_lead_nessie_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: amp
@@ -118,7 +118,7 @@ captures:
     load: cl
   file: captures/pow_arc50c_p5_d5_cl_mesa4x12_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: pow
@@ -128,7 +128,7 @@ captures:
     load: rl
   file: captures/pow_arc50c_p8_d2_rl_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: pow
@@ -138,7 +138,7 @@ captures:
     load: rl
   file: captures/pow_arc50c_p6_d6_rl_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: pow
@@ -148,7 +148,7 @@ captures:
     load: rl
   file: captures/pow_arc50c_p2_d6_rl_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     stage: pow
@@ -158,7 +158,7 @@ captures:
     load: rl
   file: captures/pow_arc50c_p5_d2_rl_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     stage: pow
@@ -168,5 +168,5 @@ captures:
     load: rl
   file: captures/pow_arc50c_p2_d8_rl_std.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0

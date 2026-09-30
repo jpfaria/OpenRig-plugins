@@ -79,7 +79,7 @@ captures:
     preset: 2
   file: captures/11_hotone_mesa_mackie_id4_yellow_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     voicing: id4_yellow
@@ -94,14 +94,14 @@ captures:
     preset: 5
   file: captures/14_hotone_mesa_mackie_id4_yellow_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5
 - values:
     voicing: id4_yellow
     preset: 6
   file: captures/15_hotone_mesa_mackie_id4_yellow_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.0
 - values:
     voicing: id4_yellow
@@ -112,5 +112,5 @@ captures:
     preset: 1
   file: captures/19_hotone_mesa_mackie_id4_red_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -34.5

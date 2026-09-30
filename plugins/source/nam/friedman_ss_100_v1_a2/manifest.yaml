@@ -25,7 +25,7 @@ captures:
     preset: magic7
   file: captures/slammin_fman_ss_magic7_new_s_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     preset: steve2
@@ -34,7 +34,7 @@ captures:
     preset: plexi
   file: captures/slammin_fman_ss_plexi_new_s_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     preset: sam
@@ -43,11 +43,11 @@ captures:
     preset: steve
   file: captures/slammin_fman_ss_steve_new_s_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.0
 - values:
     preset: scoop
   file: captures/slammin_fman_ss_scoop_new_s_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.0

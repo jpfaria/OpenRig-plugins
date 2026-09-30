@@ -49,33 +49,33 @@ captures:
     gain: 2
   file: captures/high_2_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -33.5
 - values:
     input: high
     gain: 4
   file: captures/high_4_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.5
 - values:
     input: high
     gain: 6
   file: captures/high_6_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -32.0
 - values:
     input: high
     gain: 8
   file: captures/high_8_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -31.5
 - values:
     input: high
     gain: 10
   file: captures/high_10_a2.nam
   noise_gate:
-    enabled: true
+    enabled: false
     threshold_db: -30.5
