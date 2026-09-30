@@ -10,6 +10,10 @@
 //! ([`loudness_audit::lv2_uri`], issue #133): `plugin_uri` must be
 //! published by each slot binary and declared by `data/*.ttl`.
 //!
+//! Every NAM/IR package must carry the plugin info metadata
+//! ([`loudness_audit::manifest_meta`], issue #153): a `description`,
+//! and a `homepage` when it declares `sources:`.
+//!
 //! Usage:
 //!
 //!     cargo run --release -p loudness-audit --bin qa_audit -- \
@@ -37,6 +41,7 @@ use loudness_audit::ir::{convolve, load_wav_ir};
 use loudness_audit::level::{ir_level_peak_dbfs, IrRole};
 use loudness_audit::limiter;
 use loudness_audit::lv2_uri::check_lv2_package;
+use loudness_audit::manifest_meta::missing_metadata;
 use loudness_audit::loudness::{integrated_lufs, peak_dbfs};
 use loudness_audit::nam_run::{nam_level_peaks_dbfs, run_nam};
 use loudness_audit::qa::{
@@ -124,6 +129,17 @@ fn run() -> Result<()> {
             }
             let raw = fs::read_to_string(&manifest)
                 .with_context(|| format!("read {}", manifest.display()))?;
+            // Plugin info metadata (issue #153): an empty info panel is a
+            // shipped defect, whatever the block type.
+            let meta_fails = missing_metadata(&raw);
+            if !meta_fails.is_empty() {
+                fail_count += 1;
+                eprintln!("FAIL {kind}/{label} (metadata)");
+                for f in &meta_fails {
+                    eprintln!("  - {f}");
+                }
+                continue;
+            }
             let block_type = manifest_block_type(&raw).unwrap_or_else(|| "<?>".into());
             if !is_loudness_normalisable(&block_type) {
                 skipped += 1;

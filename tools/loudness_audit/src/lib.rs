@@ -17,12 +17,15 @@
 //!   shared by the `qa_audit` and `qa_fix` binaries (issue #28).
 //! - [`lv2_uri`] — LV2 `plugin_uri` vs slot binaries vs `data/*.ttl`
 //!   consistency check run by `qa_audit` (issue #133).
+//! - [`manifest_meta`] — NAM/IR plugin info metadata (`description`,
+//!   `homepage`) required by `qa_audit` (issue #153).
 
 pub mod ir;
 pub mod level;
 pub mod limiter;
 pub mod loudness;
 pub mod lv2_uri;
+pub mod manifest_meta;
 pub mod nam_run;
 pub mod qa;
 pub mod selector;
