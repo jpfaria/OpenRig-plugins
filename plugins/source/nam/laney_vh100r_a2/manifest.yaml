@@ -2,6 +2,8 @@
 manifest_version: 1
 id: nam_laney_vh100r_a2
 display_name: VH100R
+description: "Neural captures of a Laney VH100R amp on channel 2, in neutral and treble voicings with and without drive, at several gain settings."
+homepage: https://www.tone3000.com/tones/45200
 brand: laney
 output_gain_db: 7.2764778
 type: amp

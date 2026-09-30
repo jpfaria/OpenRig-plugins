@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_hm2_a2
 display_name: Heavy Metal HM-2
+author: "OutmodedElectronics"
+description: "Neural capture of a 1985 made-in-Japan Boss HM-2 Heavy Metal distortion across level, color mix low / high and distortion settings (48 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/58569
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: -0.9891714

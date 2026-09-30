@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_vemuram_jan_ray_a2
 display_name: Jan Ray
+author: "tonecat88"
+description: "Neural capture of a Vemuram Jan Ray for Mateus Asato overdrive at two gain settings (5 and 9 o'clock), with volume, bass and treble fixed."
+license: T3K
+homepage: https://www.tone3000.com/tones/30452
 brand: vemuram
 output_gain_db: 15.2682743
 type: gain_pedal

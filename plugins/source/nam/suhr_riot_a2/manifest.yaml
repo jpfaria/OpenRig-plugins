@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_suhr_riot_a2
 display_name: Suhr Riot
+author: "raidolo"
+description: "Neural captures of a Suhr Riot pedal on its middle voice: 30 settings sweeping drive and tone with the level fixed at 50%."
+license: T3K
+homepage: https://www.tone3000.com/tones/2741
 brand: suhr
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.3250771

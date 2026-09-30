@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_studio_preamp
 display_name: Studio Preamp
+author: "ysabtones"
+description: "Single neural capture of a Mesa Boogie Studio Preamp crystal clean, taken direct from the main out."
+license: T3K
+homepage: https://www.tone3000.com/tones/5944
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

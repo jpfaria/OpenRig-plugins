@@ -10,6 +10,10 @@
 manifest_version: 1
 id: nam_ksr_ceres_a2
 display_name: KSR Ceres
+author: "iconoclastaudio"
+description: "Neural captures of a KSR Ceres One mini preamp pedal across clean, crunch, red and lead voicings in thick, tight and fat feels."
+license: T3K
+homepage: https://www.tone3000.com/tones/44519
 brand: ksr
 output_gain_db: -10.4254837
 type: gain_pedal

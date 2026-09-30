@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_ceriatone_overtone_hrm100
 display_name: Overtone HRM100
+author: "VostreRoy"
+description: "Neural captures of a kit-built Ceriatone Overtone HRM100 MKII head, with clean, overdrive and high-gain channel presets."
+license: T3K
+homepage: https://www.tone3000.com/tones/62740
 brand: ceriatone
 sources:
 - https://www.tone3000.com/tones/62740

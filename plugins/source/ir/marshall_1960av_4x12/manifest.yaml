@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_marshall_1960av_4x12
 display_name: 1960AV 4x12
+author: "PippPriss"
+description: "Phase-aligned IRs of a Marshall 1960AV 4x12 cabinet miked with a V7X, an SM57 and an RB500, plus an equal blend of all three."
+license: T3K
+homepage: https://www.tone3000.com/tones/27221
 brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:

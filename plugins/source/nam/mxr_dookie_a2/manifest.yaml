@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_mxr_dookie_a2
 display_name: MXR Dookie Drive
+author: "gj"
+description: "Neural capture of an MXR Dookie Drive with blend at min and max, across several gain and tone settings (scoop switch off)."
+license: T3K
+homepage: https://www.tone3000.com/tones/57681
 brand: mxr
 output_gain_db: 0.1867031
 type: gain_pedal

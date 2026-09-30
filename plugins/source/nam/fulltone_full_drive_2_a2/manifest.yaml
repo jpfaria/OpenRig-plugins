@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_fulltone_full_drive_2_a2
 display_name: Fulltone Full-Drive 2
+author: "MaestrodiMusica"
+description: "Neural captures of a 2005 Fulltone Full-Drive 2 (non-MOSFET) in its vintage, comp-cut and flat-mids modes, sweeping overdrive and tone with the boost off or on."
+license: T3K
+homepage: https://www.tone3000.com/tones/35851
 brand: fulltone
 output_gain_db: 10.7661915
 type: gain_pedal

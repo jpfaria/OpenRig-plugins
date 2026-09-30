@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_friedman_jose_arredondo_a2
 display_name: Jose Arredondo
+author: "2dor"
+description: "Neural captures of a Friedman Jose Arredondo (EL34) amp, amp and power-amp settings across several presets, each reamped into Marshall and Mesa 4x12 cabinets with SM57, SM58 and blended mics."
+license: T3K
+homepage: https://www.tone3000.com/tones/58979
 brand: friedman
 brand_logo: assets/brand_logo.svg
 sources:

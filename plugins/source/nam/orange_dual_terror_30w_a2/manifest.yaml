@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_orange_dual_terror_30w_a2
 display_name: Dual Terror 30W
+author: "greatmre"
+description: "Neural capture of an Orange Dual Terror 30W head at full power on its Fat Terror and Tiny Terror channels, across gain settings from 4 to 10."
+license: T3K
+homepage: https://www.tone3000.com/tones/50497
 brand: orange
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.4586163

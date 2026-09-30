@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_engl_savage_60
 display_name: Savage 60
+author: "frankyfire"
+description: "Neural capture of an ENGL Savage 60 E630 amp across rhythm and lead channel settings, with and without an Electro-Harmonix East River Drive boost in front."
+license: T3K
+homepage: https://www.tone3000.com/tones/61381
 brand: engl
 sources:
 - https://www.tone3000.com/tones/61381

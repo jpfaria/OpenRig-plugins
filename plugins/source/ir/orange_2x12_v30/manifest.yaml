@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_orange_2x12_v30
 display_name: Orange 2x12 V30
+author: "romanrecords"
+description: "Raw IRs of an Orange 2x12 cabinet loaded with Celestion Vintage 30 speakers, captured with a Sennheiser e906, Shure SM57, AKG C414 and t.bone RM 700 at positions from the bright speaker center to the dark edge."
+license: T3K
+homepage: https://www.tone3000.com/tones/29354
 brand: orange
 brand_logo: assets/brand_logo.svg
 sources:

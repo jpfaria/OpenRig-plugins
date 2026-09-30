@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_engl_powerball
 display_name: Powerball
+author: "romanrecords"
+description: "Neural capture of an ENGL Powerball amp with one preferred setting each for the clean, crunch and two overdrive channels."
+license: T3K
+homepage: https://www.tone3000.com/tones/29603
 brand: engl
 brand_logo: assets/brand_logo.svg
 sources:

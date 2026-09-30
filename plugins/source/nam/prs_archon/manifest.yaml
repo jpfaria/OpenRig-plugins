@@ -7,6 +7,10 @@
 manifest_version: 1
 id: nam_prs_archon
 display_name: Archon
+author: "2dor"
+description: "Neural captures of a PRS Archon Classic 50 with named presets across presence / depth settings and different loads, plus poweramp-only profiles."
+license: T3K
+homepage: https://www.tone3000.com/tones/30381
 brand: prs
 sources:
 - https://www.tone3000.com/tones/30381

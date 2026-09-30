@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_bogner_mini_ecstasy
 display_name: Mini Ecstasy
+author: "MaestrodiMusica"
+description: "Amp-only neural capture of a Bogner Mini Ecstasy head across clean, crunch, low-gain and high-gain presets."
+license: T3K
+homepage: https://www.tone3000.com/tones/60680
 brand: bogner
 sources:
 - https://www.tone3000.com/tones/60680

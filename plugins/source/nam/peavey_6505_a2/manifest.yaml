@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_peavey_6505_a2
 display_name: '6505'
+author: "primalnerd"
+description: "Neural captures of a Peavey 6505 lead channel through a Two Notes Torpedo Captor, unboosted and boosted by several pedals (TS808, TS808X, SD-1, Duality and more)."
+license: T3K
+homepage: https://www.tone3000.com/tones/62386
 brand: peavey
 brand_logo: assets/brand_logo.svg
 output_gain_db: 4.6061482

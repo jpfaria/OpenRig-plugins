@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_orange_or15
 display_name: OR15
+author: "markswarbrick"
+description: "Neural capture of an Orange OR15 head on its clean and crunch channels with various fuzz, distortion and boost pedals in front, aimed at doom tones."
+license: T3K
+homepage: https://www.tone3000.com/tones/6624
 brand: orange
 brand_logo: assets/brand_logo.svg
 sources:

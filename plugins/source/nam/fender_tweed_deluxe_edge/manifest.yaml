@@ -2,9 +2,10 @@
 manifest_version: 1
 id: nam_fender_tweed_deluxe_edge
 display_name: Fender Tweed Deluxe — The Edge
-description: Neural capture of a Fender Tweed Deluxe dialed for U2's The Edge tone — bright, slightly broken-up clean with the delay-rig voicing that lives at the centre of the Edge sound. Useful as a base for any delay-driven part (e.g. Coldplay - Clocks, U2 Streets Have No Name).
+author: "Omar Guevara"
+description: "Amp-plus-cab neural capture of a 12 W Fender Tweed Deluxe dialed for The Edge's tone, through a 15 W Celestion Alnico Blue speaker miked off-axis with a Shure SM57."
 brand: fender
-license: MIT
+license: T3K
 homepage: https://www.tone3000.com/tones/67821
 sources:
 - https://www.tone3000.com/tones/67821

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_joyo_bantamp_meteor_a2
 display_name: Bantamp Meteor
+author: "dieq"
+description: "Neural captures of a Joyo Bantamp XL Meteor II amp head sweeping the gain knob, with tone and volume fixed."
+license: T3K
+homepage: https://www.tone3000.com/tones/44987
 brand: joyo
 output_gain_db: 9.8034983
 type: preamp

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_mesa_mark_iii_a2
 display_name: Mark III
+author: "ruangsonmusic"
+description: "Neural capture of a rare non-Simul-Class Mesa/Boogie Mark III Green Stripe export version via its rear direct out, across seven presets from clean to scream lead."
+license: T3K
+homepage: https://www.tone3000.com/tones/66768
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: 5.4450588

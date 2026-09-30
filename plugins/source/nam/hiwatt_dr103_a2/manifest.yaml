@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_hiwatt_dr103_a2
 display_name: HiWatt DR103
+author: "daweed"
+description: "Neural capture of a 1974 Hiwatt Custom 100 DR103 across clean, bright, bridged and cranked volume settings, plus captures pushed by a Klon and a TS808."
+license: T3K
+homepage: https://www.tone3000.com/tones/6233
 brand: hiwatt
 output_gain_db: 10.4887638
 type: amp

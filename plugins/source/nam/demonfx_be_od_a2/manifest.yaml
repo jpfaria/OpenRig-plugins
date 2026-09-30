@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_demonfx_be_od_a2
 display_name: BE-OD Clone
+author: "mrtnvgr"
+description: "Neural capture of a Demonfx clone of the Friedman BE-OD overdrive across gain settings, the tight switch and presence / mid / high variations (25 captures)."
+license: CC0
+homepage: https://www.tone3000.com/tones/60143
 brand: demonfx
 output_gain_db: -18.8316841
 type: gain_pedal

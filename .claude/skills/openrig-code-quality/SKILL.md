@@ -482,6 +482,36 @@ recipe=<x> platform=all`, which commits the slots back).
 ✅ bump to a NEW tag; CI-test one recipe; revert untagged bumps that break platforms
 ```
 
+## Plugin info metadata — sourced, never invented (issue #153)
+
+OpenRig's plugin info panel (what the user sees when clicking a block) reads
+the manifest's top-level `description`, `license` and `homepage`. `qa_audit`
+fails any NAM/IR manifest without a `description`, or with `sources:` but no
+`homepage` (`tools/loudness_audit/src/manifest_meta.rs`). Every new import
+fills them in the same commit:
+
+- **tone3000 source** → from the API record (`tones` + `users`, same token as
+  `scripts/param_gate.py`): `author` = uploader display name; `description` =
+  1-3 English sentences summarising the tone's title/description (gear, block
+  kind, what the captures sweep — no emails, links, promo); `license` = the
+  tone's label (`t3k` → `T3K`, `cc-by` → `CC BY`, `cco` → `CC0`); `homepage` =
+  the tone URL. Never `MIT` — that was invented in early imports.
+- **No recorded source** (legacy captures) → description only from facts
+  confirmed on a fetched page (manufacturer first); `homepage` only when that
+  page was actually fetched; no `author`/`license`. Unidentifiable model →
+  minimal identity description, never plausible-sounding specs.
+- Keys go right after `display_name:` in the order `author`, `description`,
+  `license`, `homepage`; `description`/`author` double-quoted.
+
+tone3000's `T3K` license forbids redistributing the data file without the
+author's permission — flag it to the owner when importing `T3K` tones.
+
+```
+❌ license: MIT on a tone3000 capture          → copy the tone's real label
+❌ description written from memory of the gear → only record/fetched facts
+✅ API record → author/description/license/homepage → qa_audit green
+```
+
 ## Parameter-group overlays — LV2 & VST3 editor tabs (issues #117, #119)
 
 For LV2 and VST3 the **live plugin owns the parameter set** (LV2: the TTL control

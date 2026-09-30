@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_mesa_triple_rectifier_a2
 display_name: Triple Rectifier
+author: "2dor"
+description: "Neural captures of a recent-production Mesa Boogie Triple Rectifier Multi-Watt (6L6) head loaded by a Mesa 4x12, across its channel modes and named presets with several mic blends, plus poweramp-only profiles."
+license: T3K
+homepage: https://www.tone3000.com/tones/52642
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_marshall_1960tv_greenback
 display_name: 1960TV Greenback
+author: "OutmodedElectronics"
+description: "IRs of a 2020 Marshall 1960TV 4x12 cabinet loaded with Celestion G12M25 Greenback speakers, close-miked with an SM57 on all four speakers at several distances through different mic preamps."
+license: T3K
+homepage: https://www.tone3000.com/tones/45022
 brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:

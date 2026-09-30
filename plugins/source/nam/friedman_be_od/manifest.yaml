@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_friedman_be_od
 display_name: Friedman BE-OD
+author: "DR Prophecy Studio"
+description: "Neural captures of a Friedman BE-OD overdrive pedal with variations on bass, treble, presence, gain and tight."
+license: T3K
+homepage: https://www.tone3000.com/tones/65779
 brand: friedman
 sources:
 - https://www.tone3000.com/tones/65779

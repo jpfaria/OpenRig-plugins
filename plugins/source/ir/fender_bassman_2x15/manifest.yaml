@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_fender_bassman_2x15
 display_name: Bassman 2x15 CTS
+author: "MaestrodiMusica"
+description: "IRs of a 1970 Fender Bassman 2x15 cabinet with its original CTS speakers, close-miked with R121 and C414 on the upper and lower speakers at several cap/cone positions, plus a distant C414."
+license: T3K
+homepage: https://www.tone3000.com/tones/60274
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

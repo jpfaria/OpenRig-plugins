@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_engl_ironball
 display_name: Ironball
+author: "slamminmofo"
+description: "Neural capture of an ENGL Ironball 20W EL84 (non-SE) lead channel into a reactive load, at rhythm and solo gain levels across several EQ settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/30522
 brand: engl
 brand_logo: assets/brand_logo.svg
 sources:

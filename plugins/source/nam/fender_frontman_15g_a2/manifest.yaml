@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_frontman_15g_a2
 display_name: Frontman 15G
+author: "koletharp71"
+description: "Neural captures of a Fender Frontman 15G modded into a head, in clean flat, clean boost and high-gain settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/43498
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: 11.8014507

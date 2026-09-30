@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_sunn_alpha_112
 display_name: Alpha 112PR
+author: "gvl33"
+description: "Neural capture of the distorted sound of a Sunn Alpha 112PR amp across five brighter, darker, louder and quieter presets."
+license: T3K
+homepage: https://www.tone3000.com/tones/63563
 brand: sunn
 sources:
 - https://www.tone3000.com/tones/63563

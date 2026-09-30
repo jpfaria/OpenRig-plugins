@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_marshall_1959_slp_a2
 display_name: 1959 SLP
+author: "ripper"
+description: "Neural captures of a Marshall 1959 Super Lead Plexi with the Dookie mod, every knob at noon except gain (9 o'clock, noon, 3 o'clock and max), with no boost and no cab."
+license: T3K
+homepage: https://www.tone3000.com/tones/43379
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 8.2766027

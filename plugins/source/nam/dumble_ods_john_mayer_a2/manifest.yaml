@@ -1,9 +1,10 @@
 manifest_version: 1
 id: nam_dumble_ods_john_mayer_a2
 display_name: Dumble ODS — John Mayer
-description: Neural capture of a Dumble ODS dialed to John Mayer's Continuum / Battle Studies tone. The ODS is the original of the Two-Rock CRS clone Mayer is associated with.
+author: "1945330"
+description: "Neural captures of a Dumble ODS amp dialed for a John Mayer tone, in normal and hiz variants."
 brand: dumble
-license: MIT
+license: T3K
 homepage: https://www.tone3000.com/tones/65812
 sources:
 - https://www.tone3000.com/tones/65812

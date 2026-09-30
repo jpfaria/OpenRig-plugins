@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_badlander
 display_name: Badlander
+author: "2dor"
+description: "Neural captures of a Mesa Boogie Badlander Rectifier 100 W (EL34), with named presets captured at the preamp, full amp and poweramp stages."
+license: T3K
+homepage: https://www.tone3000.com/tones/6298
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

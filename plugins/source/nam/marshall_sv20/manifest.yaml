@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_marshall_sv20
 display_name: Studio SV20
+author: "szabobence1998bs"
+description: "Neural captures of a Marshall Studio SV20 amp with clean, crunch, rhythm and lead presets."
+license: T3K
+homepage: https://www.tone3000.com/tones/67949
 brand: marshall
 sources:
 - https://www.tone3000.com/tones/67949

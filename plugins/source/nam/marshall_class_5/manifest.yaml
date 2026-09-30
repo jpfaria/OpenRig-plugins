@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_marshall_class_5
 display_name: Class 5
+author: "abunai"
+description: "Neural capture of a 2011 Marshall Class 5 5W combo (amp only), from cleanish to different levels of vintage crunch across volume, treble and bass settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/55108
 brand: marshall
 sources:
 - https://www.tone3000.com/tones/55108

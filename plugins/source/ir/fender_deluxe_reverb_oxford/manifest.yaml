@@ -1,6 +1,10 @@
 manifest_version: 1
 id: ir_fender_deluxe_reverb_oxford
 display_name: Deluxe Reverb Oxford
+author: "vulturized"
+description: "Mix-ready IRs of a Fender Deluxe Reverb (blackface) cabinet with an Oxford speaker, in big and lean voicings."
+license: T3K
+homepage: https://www.tone3000.com/tones/27465
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_peavey_jsx_a2
 display_name: JSX
+author: "OutmodedElectronics"
+description: "Neural captures of a Peavey JSX through a Suhr Reactive Load on its clean, crunch and ultra channels, in normal and fat voicings across many gain and EQ settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/67214
 brand: peavey
 brand_logo: assets/brand_logo.svg
 output_gain_db: -3.6223052

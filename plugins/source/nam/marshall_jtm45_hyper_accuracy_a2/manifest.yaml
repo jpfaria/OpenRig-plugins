@@ -19,6 +19,10 @@
 manifest_version: 1
 id: nam_marshall_jtm45_hyper_accuracy_a2
 display_name: JTM 45 Hyper Accuracy
+author: "slamminmofo"
+description: "Neural capture of a Marshall JTM 45 Reissue (2x5881, GZ34 rectifier), mostly on the bright input with some jumpered and normal-input captures, across volume, presence and EQ settings plus treble booster and smooth-drive pedals in front (98 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/33505
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: -5.5162926

@@ -5,6 +5,10 @@
 manifest_version: 1
 id: nam_marshall_jmp_50_lead_1969_a2
 display_name: JMP-50 Lead 1969
+author: "AmalgamAudio"
+description: "Full-rig neural capture of a 1969 Marshall JMP-50 Lead plexi into a Marshall 4x12 with Celestion G12H 30W speakers, miked with R121, M160 and U87 (presence 4, bass 6, middle 8, treble 6, volume I 8, volume II 2)."
+license: T3K
+homepage: https://www.tone3000.com/tones/65578
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 1.2390366

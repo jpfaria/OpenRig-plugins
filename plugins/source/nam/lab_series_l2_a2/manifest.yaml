@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_lab_series_l2_a2
 display_name: L2
+author: "heimopietilainen"
+description: "Neural capture of a Lab Series L2 amp (no cab) in clean, crunch and overdrive settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/6132
 brand: lab_series
 output_gain_db: 9.8725500
 type: preamp

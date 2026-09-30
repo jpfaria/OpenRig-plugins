@@ -5,6 +5,10 @@
 manifest_version: 1
 id: nam_boss_bd2w_waza_a2
 display_name: Boss BD-2w Blues Driver (Waza Craft)
+author: "dissentuk"
+description: "Full-range neural capture of a Boss BD-2w Blues Driver Waza Craft in Standard and Custom modes, with 10 gain settings and 9 tone settings per gain step (180 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/37707
 brand: boss
 output_gain_db: 8.9749956
 type: gain_pedal

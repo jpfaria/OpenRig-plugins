@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mxr_distortion_a2
 display_name: MXR Distortion+
+author: "OutmodedElectronics"
+description: "Neural capture of an MXR Distortion+ across two output and nine distortion settings (18 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/57603
 brand: mxr
 output_gain_db: -4.8050499
 type: gain_pedal

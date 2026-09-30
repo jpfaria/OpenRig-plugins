@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_omega_ampworks_granophyre_a2
 display_name: Omega Ampworks Granophyre
+author: "palsuabcd"
+description: "Neural captures of an Omega Ampworks Granophyre amp: a 100-epoch test model and a final 2000-epoch model."
+license: T3K
+homepage: https://www.tone3000.com/tones/39716
 brand: omega
 output_gain_db: 6.6511068
 type: amp

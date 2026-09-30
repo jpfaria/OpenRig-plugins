@@ -1,6 +1,10 @@
 manifest_version: 1
 id: ir_marshall_1960bv_4x12
 display_name: 1960BV 4x12
+author: "jpisoutoftune"
+description: "IRs of a Marshall 1960BV 4x12 cabinet loaded with two Vintage 30 and two G12T75 speakers, each speaker miked with a Shure SM57 and an SM58 over several takes."
+license: T3K
+homepage: https://www.tone3000.com/tones/51086
 brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:

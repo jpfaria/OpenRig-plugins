@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_fender_blues_deville
 display_name: Blues DeVille 4x10
+author: "OutmodedElectronics"
+description: "Neural captures of the amp section of a 1994 Fender Blues DeVille 4x10 combo, on its normal and drive channels across a wide range of volume, drive and EQ settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/64903
 brand: fender
 sources:
 - https://www.tone3000.com/tones/64903

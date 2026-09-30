@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_rod10_ds1_a2
 display_name: ROD-10 DS1
+author: "cosmiccrucible"
+description: "Neural capture of a ROD-10 DS1 pedal set as a boost to tighten up a high-gain amp."
+license: T3K
+homepage: https://www.tone3000.com/tones/1825
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: 10.3404560

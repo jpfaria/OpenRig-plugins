@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_diezel_herbert
 display_name: Herbert
+author: "C.WAV"
+description: "Mix-ready amp-and-cab neural captures of a Diezel Herbert for metal, across eight named presets from tight modern metal to doom and death tones."
+license: T3K
+homepage: https://www.tone3000.com/tones/28241
 brand: diezel
 sources:
 - https://www.tone3000.com/tones/28241

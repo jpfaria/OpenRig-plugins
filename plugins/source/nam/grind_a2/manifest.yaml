@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_grind_a2
 display_name: Grind
+author: "StudioAmpCaptures"
+description: "Neural capture of a Fortin Grind Blackout edition, a frequency-selective boost for metal tones, across five boost knob settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/36821
 brand: tc-electronic
 brand_logo: assets/brand_logo.svg
 output_gain_db: -9.1674204

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_dual_rectifier_multiwatt_a2
 display_name: Dual Rectifier Multi-Watt
+author: "OutmodedElectronics"
+description: "Neural capture of a Mesa Boogie Dual Rectifier Multi-Watt on the Red and Orange channels in Raw mode through a Suhr Reactive Load, with silicon diode or 5U4 rectifier, across gain and EQ settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/27915
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: 0.7000198

@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_xotic_bb_into_rc_a2
 display_name: Xotic BB Preamp into RC Booster
+author: "George Boukis"
+description: "Neural capture of a Xotic BB Preamp into an RC Booster at a crunch setting, meant to be treated like a preamp."
+license: T3K
+homepage: https://www.tone3000.com/tones/2502
 brand: xotic
 output_gain_db: 13.1450872
 type: gain_pedal

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_boogie_dc_5_a2
 display_name: DC-5
+author: "Obijuan"
+description: "DI neural captures of the lead channel of a Mesa Boogie DC-5 combo, taken into a real cab load, across many EQ voicings and gain settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/37731
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: -4.7395496

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_jhs_the_kilt
 display_name: JHS The Kilt
+author: "wendycabs"
+description: "Neural capture of the JHS Kilt, a Billy Gibbons-inspired overdrive/fuzz, in its V1 and V2 versions at several gain settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/27702
 brand: jhs
 sources:
 - https://www.tone3000.com/tones/27702

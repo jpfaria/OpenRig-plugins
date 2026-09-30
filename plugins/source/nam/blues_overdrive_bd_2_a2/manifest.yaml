@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_blues_overdrive_bd_2_a2
 display_name: Blues Driver BD-2
+author: "MaestrodiMusica"
+description: "Neural capture of a Boss BD-2 Blues Driver overdrive across tone and gain settings (21 captures) at a fixed level."
+license: T3K
+homepage: https://www.tone3000.com/tones/12505
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.8978920

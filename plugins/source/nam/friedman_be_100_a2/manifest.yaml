@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_friedman_be_100_a2
 display_name: BE 100
+author: "kenazmusic"
+description: "Neural capture of a Friedman BE-100 amp taken from its power amp output, across the HBE, BE and clean channels at several gain levels and EQ voicings, some boosted with a Maxon OD808."
+license: T3K
+homepage: https://www.tone3000.com/tones/57378
 brand: friedman
 brand_logo: assets/brand_logo.svg
 output_gain_db: 6.9933424

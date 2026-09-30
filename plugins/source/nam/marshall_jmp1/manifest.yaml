@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_marshall_jmp1
 display_name: JMP-1
+author: "Deathblossomaudio"
+description: "Neural capture of a Marshall JMP-1 rack preamp across clean, crunch, rhythm and lead presets, including an OD808-boosted rhythm."
+license: T3K
+homepage: https://www.tone3000.com/tones/45918
 brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:

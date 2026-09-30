@@ -4,6 +4,8 @@
 manifest_version: 1
 id: nam_dover_da50_mesa_a2
 display_name: DA-50 + Mesa 4u{00d7}12
+description: "Neural capture of a Dover DA-50 amp into a Mesa 4x12 cabinet, with the front-end boost bypassed or a Horizon Devices Tokyo Drive in front."
+homepage: https://www.tone3000.com/tones/59052
 brand: dover
 output_gain_db: 8.0544558
 type: amp

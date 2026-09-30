@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_dual_rectifier_mw_red_modern_full_rig_a2
 display_name: Dual Rectifier Multi-Watt Red Modern Full Rig
+author: "OutmodedElectronics"
+description: "Full-rig neural captures of a Mesa Boogie Dual Rectifier Multi-Watt red channel in Modern mode into a Mesa Traditional 4x12 with V30s, across boost pedals, EQ settings, speakers and on / off-grille mic positions."
+license: T3K
+homepage: https://www.tone3000.com/tones/69206
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: 3.4859047

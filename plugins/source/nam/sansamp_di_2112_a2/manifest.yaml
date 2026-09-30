@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_sansamp_di_2112_a2
 display_name: SansAmp DI-2112
+author: "jakegideon"
+description: "Neural capture of a Tech 21 Geddy Lee SansAmp DI-2112 bass pedal at the manual's suggested settings, three custom settings and one deep-saturation setting."
+license: T3K
+homepage: https://www.tone3000.com/tones/5989
 brand: tech21
 output_gain_db: 9.8031359
 type: gain_pedal

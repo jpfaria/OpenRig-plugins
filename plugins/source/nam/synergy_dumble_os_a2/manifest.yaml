@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_synergy_dumble_os_a2
 display_name: Dumble OS Module
+author: "akka5"
+description: "Neural captures of a Synergy Dumble OS preamp module, channels 1 and 2, through a 6L6 power amp in two variants."
+license: T3K
+homepage: https://www.tone3000.com/tones/52557
 brand: synergy
 brand_logo: assets/brand_logo.svg
 output_gain_db: 10.1693239

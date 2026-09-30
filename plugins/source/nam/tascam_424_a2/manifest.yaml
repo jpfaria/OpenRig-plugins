@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_tascam_424_a2
 display_name: Tascam 424 Preamp
+author: "raywisby"
+description: "Neural capture of a compact DIY clone of the Tascam 424 preamp section, across several gain, bass and high settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/47292
 brand: tascam
 output_gain_db: 7.7573805
 type: gain_pedal

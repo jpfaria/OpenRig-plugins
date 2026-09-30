@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_dumble_ods_100w_a2
 display_name: ODS 100W
+author: "slamminmofo"
+description: "Neural captures of a Dumble ODS #102 Robben Ford clone across many clean and overdrive presets using its rock, mids and bright switches."
+license: T3K
+homepage: https://www.tone3000.com/tones/30435
 brand: dumble
 output_gain_db: -2.8724744
 type: amp

@@ -6,6 +6,10 @@
 manifest_version: 1
 id: nam_mesa_dual_rectifier_rev_f_a2
 display_name: Dual Rectifier Rev F
+author: "petrc"
+description: "Neural capture of a Mesa Dual Rectifier 2-channel Rev. F amp across orange and red channel modes and gain settings, some boosted with a Tube Screamer, Fortin 33 or Mudkiller pedal."
+license: T3K
+homepage: https://www.tone3000.com/tones/1635
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: 6.1758814

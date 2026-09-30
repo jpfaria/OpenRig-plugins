@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_fender_blues_junior
 display_name: Blues Junior
+author: "markswarbrick"
+description: "Two full-rig (amp and cab) neural captures of Fender Blues Junior amps, including a Blues Junior III, voiced for clean tones."
+license: T3K
+homepage: https://www.tone3000.com/tones/27135
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

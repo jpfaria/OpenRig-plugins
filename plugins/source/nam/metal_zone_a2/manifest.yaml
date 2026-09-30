@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_metal_zone_a2
 display_name: Metal Zone MT-2
+author: "DR Prophecy Studio"
+description: "Neural capture of a 1992 Boss MT-2 Metal Zone across various level, high, mid, mid-frequency and distortion settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/64957
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: 7.2366142

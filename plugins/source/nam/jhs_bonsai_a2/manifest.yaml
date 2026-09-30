@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_jhs_bonsai_a2
 display_name: Bonsai (9 TS)
+author: "AmpsPedalsPickups"
+description: "Neural capture of a JHS Bonsai across all nine Tube Screamer modes, each at a neutral (drive 0, tone 5, volume 5) and a boost (volume 10) setting."
+license: T3K
+homepage: https://www.tone3000.com/tones/5925
 brand: jhs
 output_gain_db: 12.6777773
 type: gain_pedal

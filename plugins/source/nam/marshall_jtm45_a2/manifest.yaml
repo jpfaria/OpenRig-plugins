@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_marshall_jtm45_a2
 display_name: JTM45
+author: "fatdracula"
+description: "Neural captures of a Marshall JTM45 reissue on the normal and treble channels and both blended, at two volume settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/1538
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 10.0376434

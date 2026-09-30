@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_diezel_zerrer_a2
 display_name: Zerrer
+author: "oldschooldeath"
+description: "Neural captures of a Diezel Zerrer preamp on channel 2 (overdrive to distortion) at various gain, EQ and volume settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/6791
 brand: diezel
 output_gain_db: 8.5366135
 type: preamp

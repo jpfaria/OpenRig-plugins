@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_marshall_jcm900_a2
 display_name: JCM900
+author: "alexanderperfilyev"
+description: "Neural capture of a Marshall JCM900 preamp from its direct out, on both channels at several gain levels with the other knobs near noon."
+license: T3K
+homepage: https://www.tone3000.com/tones/50958
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 10.3836670

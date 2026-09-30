@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_way_huge_pork_pickle_a2
 display_name: Way Huge Pork Pickle
+author: "johnbegone"
+description: "Neural capture of a Way Huge Pork & Pickle bass overdrive and fuzz pedal, across its Pork (overdrive) and Pickle (fuzz) sides at three drive settings, with and without a clean blend."
+license: T3K
+homepage: https://www.tone3000.com/tones/36541
 brand: way_huge
 output_gain_db: 14.3151302
 type: gain_pedal

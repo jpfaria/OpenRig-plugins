@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_ampeg_v4
 display_name: V4
+author: "perimeteraudio"
+description: "Neural capture of an Ampeg V4 amp set up for bass tones, clean and boosted by a Moose Electronics Battle Hammer, a Pro Co Turbo RAT and a Boss SD-1."
+license: T3K
+homepage: https://www.tone3000.com/tones/56596
 brand: ampeg
 sources:
 - https://www.tone3000.com/tones/56596

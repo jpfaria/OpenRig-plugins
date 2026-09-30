@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_ceriatone_centura_a2
 display_name: Ceriatone Centura
+author: "kosmicaudio"
+description: "Neural captures of a Ceriatone Centura (Klon Centaur replica) overdrive, sweeping gain from minimum to maximum at two treble settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/5876
 brand: ceriatone
 output_gain_db: 8.9991388
 type: gain_pedal

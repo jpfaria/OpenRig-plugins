@@ -4,6 +4,8 @@
 manifest_version: 1
 id: nam_mesa_triaxis
 display_name: Triaxis
+description: "Neural capture of a Mesa Triaxis preamp with a custom voicing, in five presets targeting classic Metallica album tones."
+homepage: https://www.tone3000.com/tones/45358
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

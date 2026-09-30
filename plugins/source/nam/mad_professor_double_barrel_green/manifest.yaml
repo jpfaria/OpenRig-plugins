@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mad_professor_double_barrel_green
 display_name: Double Barrel (Green)
+author: "salveguitarristas"
+description: "Single neural capture of a green Mad Professor Double Barrel pedal."
+license: T3K
+homepage: https://www.tone3000.com/tones/30656
 brand: mad_professor
 sources:
 - https://www.tone3000.com/tones/30656

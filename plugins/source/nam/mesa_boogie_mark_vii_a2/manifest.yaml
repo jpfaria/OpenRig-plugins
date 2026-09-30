@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_mesa_boogie_mark_vii_a2
 display_name: Mark VII
+author: "2dor"
+description: "DI neural capture of a 6L6-loaded Mesa Boogie Mark VII head loaded by a Mesa 4x12 cabinet, across channel 1-3 modes and EQ on/off settings, each in STD and REVyHI architectures."
+license: T3K
+homepage: https://www.tone3000.com/tones/64728
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: -9.7322578

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_marshall_1987_a2
 display_name: '1987'
+author: "danielesporma"
+description: "Neural capture of a 1973 Marshall JMP 1987 50W with jumpered inputs, across presence, bass, middle, treble and volume I/II settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/48523
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 6.8792911

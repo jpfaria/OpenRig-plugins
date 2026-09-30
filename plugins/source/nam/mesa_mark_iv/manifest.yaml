@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_mark_iv
 display_name: Mark IV
+author: "slamminmofo"
+description: "Neural captures of a Mesa Boogie Mark IV lead channel from two packs (rhythm and lead), with tight / fat rhythm presets and artist-named settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/6405
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

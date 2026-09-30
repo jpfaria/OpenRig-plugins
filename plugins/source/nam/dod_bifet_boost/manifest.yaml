@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_dod_bifet_boost
 display_name: BiFet Boost 410
+author: "Dave"
+description: "Neural capture of a DOD BiFet Boost 410 across volume and tone settings, with the buffer on and off (18 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/67594
 brand: dod
 sources:
 - https://www.tone3000.com/tones/67594

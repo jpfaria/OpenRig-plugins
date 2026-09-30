@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_diezel_hagen
 display_name: Hagen
+author: "hanzohasashi"
+description: "Full-rig neural captures of a Diezel Hagen on channel 2, boosted by a Maxon OD808 into a Diezel 4x12 FL with V30s, miked with a Shure SM57 through a LANG 312L. The three presets are three trainings of the same reamp."
+license: T3K
+homepage: https://www.tone3000.com/tones/36683
 brand: diezel
 sources:
 - https://www.tone3000.com/tones/36683

@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_warm_audio_centavo_a2
 display_name: Warm Audio Centavo
+author: "RobyRocks"
+description: "Neural captures of a 2022 USA-made Warm Audio Centavo, a Klon Centaur clone, at a few gain / treble settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/46295
 brand: warm_audio
 output_gain_db: 14.5069561
 type: gain_pedal

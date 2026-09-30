@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_vox_ac30_a2
 display_name: AC30
+author: "slamminmofo"
+description: "Neural captures of a VOX AC30 CH custom head on its normal and top boost channels, with FX loop, tremolo and reverb off, master at maximum and the attenuator disabled (30W mode), across volume, cut, bass, treble and boost settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/31267
 brand: vox
 brand_logo: assets/brand_logo.svg
 output_gain_db: 0.5861310

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mxr_gt_od_a2
 display_name: GT-OD (Zakk Wylde)
+author: "clyaudio5150"
+description: "Neural capture of an MXR GT-OD in Zakk Wylde mode with output at max, tone at 1 o'clock and gain at 10 o'clock, in two alternate renders."
+license: T3K
+homepage: https://www.tone3000.com/tones/58881
 brand: mxr
 output_gain_db: 5.5887299
 type: gain_pedal

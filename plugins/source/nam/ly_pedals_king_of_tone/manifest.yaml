@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_ly_pedals_king_of_tone
 display_name: LY Pedals KoT (Clone)
+author: "dsieber222"
+description: "Neural capture of an LY Pedals clone of the Analogman King of Tone, with the overdrive side, the boost side and both sides on."
+license: T3K
+homepage: https://www.tone3000.com/tones/66648
 brand: ly_pedals
 sources:
 - https://www.tone3000.com/tones/66648

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_randall_rgt100
 display_name: RGT100
+author: "ripper"
+description: "Neural capture of a Randall RGT100 100W 6L6 tube amp across its green, red and booth channels, low and high inputs, and midboost and sustain switches, with the knobs at noon and no cab."
+license: T3K
+homepage: https://www.tone3000.com/tones/68596
 brand: randall
 sources:
 - https://www.tone3000.com/tones/68596

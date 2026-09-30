@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_marshall_super_lead
 display_name: Super Lead
+author: "avaruusturri"
+description: "Amp-and-cab neural capture of a Marshall Super Lead gain tone aimed at 80s rock."
+license: T3K
+homepage: https://www.tone3000.com/tones/1058
 brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:

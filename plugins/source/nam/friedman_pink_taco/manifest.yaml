@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_friedman_pink_taco
 display_name: Pink Taco V2
+author: "primalnerd"
+description: "Neural captures of a Friedman Pink Taco V2 head through a Two Notes Torpedo Captor, across its three modes and clean, saturated, plexi-EQ and SD-1-boosted voicings."
+license: T3K
+homepage: https://www.tone3000.com/tones/61426
 brand: friedman
 sources:
 - https://www.tone3000.com/tones/61426

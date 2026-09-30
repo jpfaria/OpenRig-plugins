@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_bad_cat_lynx_a2
 display_name: bad cat lynx
+author: "VostreRoy"
+description: "Neural captures of a Bad Cat Lynx head taken through a Two Notes Torpedo Captor at two gain / bass settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/62175
 brand: bad_cat
 output_gain_db: 9.6493845
 type: amp

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_rod10_sd1_a2
 display_name: ROD-10 SD1
+author: "cosmiccrucible"
+description: "Single neural capture of a ROD-10 SD1 pedal at a boost setting meant to tighten a high-gain amp, from a boost-pedal library."
+license: T3K
+homepage: https://www.tone3000.com/tones/1825
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: 17.0394554

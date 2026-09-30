@@ -10,6 +10,10 @@
 manifest_version: 1
 id: nam_friedman_be100_deluxe_a2
 display_name: BE100 Deluxe
+author: "2dor"
+description: "Neural captures of a Friedman BE100 Deluxe (EL34) loaded by a Mesa 4x12 cabinet, covering the Clean, BE and HBE channels with named presets plus a poweramp-only profile."
+license: T3K
+homepage: https://www.tone3000.com/tones/64322
 brand: friedman
 brand_logo: assets/brand_logo.svg
 output_gain_db: -7.4707098

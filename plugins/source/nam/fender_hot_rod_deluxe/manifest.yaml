@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_hot_rod_deluxe
 display_name: Hot Rod Deluxe
+author: "dahmanmusic"
+description: "Amp-only neural capture of a 2015 Fender Hot Rod Deluxe III across the settings recommended in its manual, from bright clean to overdrive and lead."
+license: T3K
+homepage: https://www.tone3000.com/tones/6023
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

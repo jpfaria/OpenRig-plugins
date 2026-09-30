@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_engl_e412
 display_name: E412 Karnivore
+author: "Metal Martin"
+description: "IRs of an Engl E412 Pro 4x12 cabinet loaded with an Eminence Karnivore 8-ohm speaker, recorded at 96 kHz with Shure SM57, Sennheiser MD 421 and Beyerdynamic M160 mics at several positions."
+license: T3K
+homepage: https://www.tone3000.com/tones/39748
 brand: engl
 brand_logo: assets/brand_logo.svg
 sources:

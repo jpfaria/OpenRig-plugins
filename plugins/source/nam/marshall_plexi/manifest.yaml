@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_marshall_plexi
 display_name: Plexi
+author: "leh666"
+description: "Amp-and-cab neural capture aiming at Angus Young's tone on AC/DC's Stiff Upper Lip: a Gibson SG into a Marshall stack with a touch of boost."
+license: T3K
+homepage: https://www.tone3000.com/tones/2717
 brand: marshall
 brand_logo: assets/brand_logo.svg
 sources:

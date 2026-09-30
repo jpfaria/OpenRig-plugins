@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_xotic_ep_booster_pack_a2
 display_name: Xotic EP Booster Pack
+author: "gpso"
+description: "Neural captures of a Xotic EP Booster, based on the Echoplex EP-3 preamp, from minimum to maximum gain in both Vintage and Bright modes."
+license: T3K
+homepage: https://www.tone3000.com/tones/1643
 brand: xotic
 output_gain_db: 13.7873478
 type: gain_pedal

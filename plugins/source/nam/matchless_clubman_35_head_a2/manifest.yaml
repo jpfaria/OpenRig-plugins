@@ -2,6 +2,8 @@
 manifest_version: 1
 id: nam_matchless_clubman_35_head_a2
 display_name: Matchless Clubman 35 head
+description: "Neural capture of a Matchless Clubman 35 head across dark, balanced, bright and SSR voicings from clean through edge of breakup and overdrive to lead, on the lo and hi inputs, plus a power-amp capture."
+homepage: https://www.tone3000.com/tones/24643
 brand: matchless
 output_gain_db: 7.6789742
 type: amp

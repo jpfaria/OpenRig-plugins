@@ -8,6 +8,10 @@
 manifest_version: 1
 id: nam_boss_hm2_1986_a2
 display_name: Heavy Metal HM-2 '86
+author: "bigmuff"
+description: "Neural capture of a 1986 made-in-Japan Boss HM-2 across a variety of level, low, high and distortion settings, including chainsaw settings and a capture of an HM-2 EQ circuit with knobs on max."
+license: T3K
+homepage: https://www.tone3000.com/tones/6778
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: 2.9231541

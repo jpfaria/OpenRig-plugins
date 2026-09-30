@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_zvex_fuzz_factory_a2
 display_name: ZVEX Fuzz Factory
+author: "OutmodedElectronics"
+description: "Neural capture of a ZVEX Vexter Fuzz Factory pedal dialed for Stylophone-like tones, across gate, comp and stab settings with volume and drive fixed."
+license: T3K
+homepage: https://www.tone3000.com/tones/68604
 brand: zvex
 output_gain_db: -13.0070181
 type: gain_pedal

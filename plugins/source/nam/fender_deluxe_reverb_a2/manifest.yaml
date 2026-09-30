@@ -11,6 +11,10 @@
 manifest_version: 1
 id: nam_fender_deluxe_reverb_a2
 display_name: Deluxe Reverb
+author: "MaestrodiMusica"
+description: "Amp-only neural captures of a 1966 Fender Deluxe Reverb on both channels, including the Vibrato channel with V1 pulled and V6 swapped for a 12AX7, across clean to cranked settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/15222
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: 5.7679405

@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_bogner_helios
 display_name: Helios
+author: "mattfig"
+description: "Neural amp-plus-cab captures of a Bogner Helios: a 70s plexi voicing through a 4x12 and an 80s hot voicing through a 2x12."
+license: T3K
+homepage: https://www.tone3000.com/tones/6304
 brand: bogner
 brand_logo: assets/brand_logo.svg
 sources:

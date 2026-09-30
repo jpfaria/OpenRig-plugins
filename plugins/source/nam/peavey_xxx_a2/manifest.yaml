@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_peavey_xxx_a2
 display_name: XXX
+author: "helgab"
+description: "Neural capture of a Peavey XXX amp into a reactive load across its three channels and power amp, unboosted and with many boost, overdrive and fuzz pedals in front, from clean to high gain, fuzz and chainsaw tones."
+license: T3K
+homepage: https://www.tone3000.com/tones/5021
 brand: peavey
 brand_logo: assets/brand_logo.svg
 output_gain_db: 5.5008898

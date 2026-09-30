@@ -4,6 +4,10 @@
 manifest_version: 1
 id: ir_green_day_dookie
 display_name: Green Day Dookie
+author: "erichvandalen"
+description: "Cab IRs voiced after Green Day's Dookie, one per song (Having a Blast and Welcome to Paradise), intended for use with a bright Marshall plexi Golub-mod profile."
+license: T3K
+homepage: https://www.tone3000.com/tones/42101
 brand: custom
 sources:
 - https://www.tone3000.com/tones/42101

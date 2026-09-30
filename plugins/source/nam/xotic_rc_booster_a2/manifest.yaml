@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_xotic_rc_booster_a2
 display_name: Xotic RC Booster
+author: "caiosaid"
+description: "Single neural capture of an Xotic RC Booster on a clean setting."
+license: T3K
+homepage: https://www.tone3000.com/tones/31231
 brand: xotic
 output_gain_db: 12.7426300
 type: gain_pedal

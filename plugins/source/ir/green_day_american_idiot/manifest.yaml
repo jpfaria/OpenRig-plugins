@@ -3,6 +3,10 @@
 manifest_version: 1
 id: ir_green_day_american_idiot
 display_name: Green Day American Idiot
+author: "erichvandalen"
+description: "Single cab IR voiced after the Green Day American Idiot guitar tone."
+license: T3K
+homepage: https://www.tone3000.com/tones/41729
 brand: custom
 sources:
 - https://www.tone3000.com/tones/41729

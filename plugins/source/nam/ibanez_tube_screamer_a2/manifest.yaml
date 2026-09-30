@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_ibanez_tube_screamer_a2
 display_name: Ibanez Tube Screamer
+author: "skinsafeaudio"
+description: "Neural capture of an Ibanez TS808 Tube Screamer at four drive / tone settings with level at max."
+license: T3K
+homepage: https://www.tone3000.com/tones/66205
 brand: fortin
 output_gain_db: 13.0659866
 type: gain_pedal

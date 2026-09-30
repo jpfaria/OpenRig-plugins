@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_engl_steve_morse_100
 display_name: Steve Morse 100
+author: "kenazmusic"
+description: "Neural capture of an ENGL Steve Morse 100 amp across its three channels, from edge of breakup to high gain, some with an 808-style overdrive in front (non-calibrated)."
+license: T3K
+homepage: https://www.tone3000.com/tones/60295
 brand: engl
 sources:
 - https://www.tone3000.com/tones/60295

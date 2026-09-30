@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_princeton_reverb
 display_name: Princeton Reverb
+author: "TONE3000"
+description: "Amp-plus-cab neural captures of a Fender '65 Princeton Reverb reissue with its 10-inch Jensen C10R, miked with a Shure SM57, a Beyerdynamic M160 and a sum of both, at volume 3, 5 and 7 (clean, edge of breakup and crunch)."
+license: T3K
+homepage: https://www.tone3000.com/tones/42319
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_boss_ds1_wampler_a2
 display_name: DS-1 Wampler JCM Mod
+author: "bastienw"
+description: "Neural capture of a 1993 Taiwan-made Boss DS-1 modified with the Wampler JCM-style mod, across four tone and eleven distortion settings (44 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/33515
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: -15.8778858

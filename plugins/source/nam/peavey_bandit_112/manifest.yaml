@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_peavey_bandit_112
 display_name: Bandit 112
+author: "Flanderdoodles28"
+description: "Neural capture of the lead channel of a 2019 Peavey Bandit 112 in its Classic, Modern and High Gain voicings, with all knobs at noon."
+license: T3K
+homepage: https://www.tone3000.com/tones/67991
 brand: peavey
 sources:
 - https://www.tone3000.com/tones/67991

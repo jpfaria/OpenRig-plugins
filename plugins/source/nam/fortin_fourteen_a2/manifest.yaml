@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_fortin_fourteen_a2
 display_name: Fortin Fourteen Overdrive
+author: "2dor"
+description: "Neural capture of a Fortin Fourteen, Mike Fortin's 3-in-1 overdrive, in its F808, F9 and HexD modes across several drive, tone and level settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/31668
 brand: fortin
 output_gain_db: -13.0002604
 type: gain_pedal

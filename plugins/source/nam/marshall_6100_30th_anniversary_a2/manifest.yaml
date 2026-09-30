@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_marshall_6100_30th_anniversary_a2
 display_name: 6100 - 30th anniversary
+author: "perimeteraudio"
+description: "Neural captures of the high-gain lead channel of a Marshall 6100 30th Anniversary head at three gain settings, with and without boost pedals (Aesahaettr, Boss SD-1, Ibanez TS9, Precision Drive)."
+license: T3K
+homepage: https://www.tone3000.com/tones/61531
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 4.9603586

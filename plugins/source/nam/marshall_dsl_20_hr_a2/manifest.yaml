@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_marshall_dsl_20_hr_a2
 display_name: DSL 20 HR
+author: "fernandoschulz"
+description: "Neural capture of a Marshall DSL 20 preamp into a Mesa Boogie 290 power amp capture, at two gain levels, unboosted, boosted and with a tight boost."
+license: T3K
+homepage: https://www.tone3000.com/tones/43981
 brand: marshall
 brand_logo: assets/brand_logo.svg
 output_gain_db: 6.2118807

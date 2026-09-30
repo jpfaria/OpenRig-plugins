@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_evh_5150iii_4x12
 display_name: 5150III 4x12 G12-EVH
+author: "OutmodedElectronics"
+description: "IRs of an EVH 5150III 4x12 cabinet loaded with Celestion G12-EVH speakers, close-miked with an SM57 on all four speakers at several distances from the cap through different mic preamps."
+license: T3K
+homepage: https://www.tone3000.com/tones/40738
 brand: evh
 sources:
 - https://www.tone3000.com/tones/40738

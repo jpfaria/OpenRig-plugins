@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_synergy_drect_mesa_a2
 display_name: DRECT Mesa
+author: "Tepp"
+description: "Neural capture of a 2009 Mesa Dual Rectifier three-channel head."
+license: T3K
+homepage: https://www.tone3000.com/tones/36764
 brand: synergy
 brand_logo: assets/brand_logo.svg
 output_gain_db: 6.0023127

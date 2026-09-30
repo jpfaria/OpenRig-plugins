@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_earthquaker_talons_a2
 display_name: EarthQuaker Talons
+author: "TONE3000"
+description: "Neural capture of the discontinued EarthQuaker Devices Talons high-gain overdrive at mid gain in four EQ styles: flat, mid boost, treble boost and presence boost."
+license: T3K
+homepage: https://www.tone3000.com/tones/27713
 brand: earthquaker
 output_gain_db: 11.3829670
 type: gain_pedal

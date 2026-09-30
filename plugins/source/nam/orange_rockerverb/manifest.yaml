@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_orange_rockerverb
 display_name: Rockerverb
+author: "servusjon"
+description: "Neural captures of an Orange Rockerverb MK3 by Petr Canov, from clean and crunch to high gain and a Jim Root setting, some boosted by a Fortin 808 or a TI boost."
+license: T3K
+homepage: https://www.tone3000.com/tones/1844
 brand: orange
 brand_logo: assets/brand_logo.svg
 sources:

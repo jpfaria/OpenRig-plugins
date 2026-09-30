@@ -7,6 +7,10 @@
 manifest_version: 1
 id: nam_fender_deluxe_reverb_65_reissue_full_rig_a2
 display_name: Deluxe Reverb '65 Reissue Full Rig
+author: "gindabestari"
+description: "Clean full-rig neural capture of a Fender Deluxe Reverb '65 Reissue, miked with a Shure SM57 plus Royer R-121 with or without a room mic, or the room mic only."
+license: T3K
+homepage: https://www.tone3000.com/tones/51649
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: 7.7115765

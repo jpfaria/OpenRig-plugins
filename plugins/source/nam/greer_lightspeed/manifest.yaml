@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_greer_lightspeed
 display_name: Greer Lightspeed
+author: "hk"
+description: "Single neural capture of a Greer Lightspeed transparent overdrive set to light-to-mid overdrive."
+license: T3K
+homepage: https://www.tone3000.com/tones/26703
 brand: greer
 sources:
 - https://www.tone3000.com/tones/26703

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_ehx_soul_food_a2
 display_name: EHX Soul Food
+author: "danieldavidrheaume"
+description: "Neural capture of an Electro-Harmonix Soul Food overdrive in five settings: edge sweet spot, lead, light breakup, max sustain and medium transparent."
+license: T3K
+homepage: https://www.tone3000.com/tones/6602
 brand: electro_harmonix
 output_gain_db: 9.3092670
 type: gain_pedal

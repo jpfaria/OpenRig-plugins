@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_fulltone_ocd_v15_a2
 display_name: OCD v1.5
+author: "kosmicaudio"
+description: "Neural capture of a Fulltone OCD V1.5 run at 12 volts in LP and HP modes, with drive from 9 to 3 o'clock, tone at 12 and 1:30 and volume at max."
+license: T3K
+homepage: https://www.tone3000.com/tones/46293
 brand: fulltone
 output_gain_db: 2.4882903
 type: gain_pedal

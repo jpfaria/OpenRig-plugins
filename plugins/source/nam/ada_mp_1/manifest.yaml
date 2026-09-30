@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_ada_mp_1
 display_name: MP-1
+author: "ebheron"
+description: "Neural captures of an A/DA MP-1 rack preamp with the 3 Tube Mod, covering its solid-state clean, two tube overdrive and mod modes."
+license: T3K
+homepage: https://www.tone3000.com/tones/6463
 brand: ada
 sources:
 - https://www.tone3000.com/tones/6463

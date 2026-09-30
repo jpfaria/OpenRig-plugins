@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_synergy_syn1_a2
 display_name: SYN-1 Chassis
+author: "petrc"
+description: "Neural captures of a Synergy Fortin Killer Kali module through several power amps (Synergy SYN-20IR, JCM800, EVH 5150 Stealth, Diezel Herbert and more), including one J. Loomis setting."
+license: T3K
+homepage: https://www.tone3000.com/tones/54165
 brand: synergy
 brand_logo: assets/brand_logo.svg
 output_gain_db: 6.6126738

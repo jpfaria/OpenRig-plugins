@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_mesa_boogie_badlander_50_a2
 display_name: Badlander 50
+author: "OutmodedElectronics"
+description: "Amp-only neural capture of the Crunch channel of a Mesa Boogie Badlander 50 1x12 combo in Bold mode, across gain, treble, middle, bass and presence settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/35162
 brand: mesa
 brand_logo: assets/brand_logo.svg
 output_gain_db: -0.5633129

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_fender_super_reverb_4x10
 display_name: Super Reverb 4x10
+author: "OutmodedElectronics"
+description: "IRs of a Fender '65 Super Reverb reissue 4x10 cabinet with Jensen P10R speakers, miking the upper-right speaker at distances from 1.75 to 3.5 inches from the cap."
+license: T3K
+homepage: https://www.tone3000.com/tones/61705
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

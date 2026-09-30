@@ -6,6 +6,10 @@
 manifest_version: 1
 id: nam_hudson_broadcast_a2
 display_name: Hudson Broadcast
+author: "MaestrodiMusica"
+description: "Neural capture of a Hudson Broadcast BC-24V-LTD preamp pedal in low, medium and high gain-switch modes across five gain trim settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/36540
 brand: hudson
 output_gain_db: 6.3852072
 type: gain_pedal

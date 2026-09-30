@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_tone_king_imperial
 display_name: Imperial
+author: "servusjon"
+description: "Neural capture of the Tone Junkie Empire 7 Kemper profile of a Tone King Imperial."
+license: T3K
+homepage: https://www.tone3000.com/tones/190
 brand: tone_king
 sources:
 - https://www.tone3000.com/tones/190

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_fender_champion_600
 display_name: Champion 600
+author: "abunai"
+description: "Neural capture of a Fender Champion 600 5W tube combo (2006-2011 reissue), amp head only via its high input, across volume settings, plus a Klon-boosted capture."
+license: T3K
+homepage: https://www.tone3000.com/tones/56145
 brand: fender
 sources:
 - https://www.tone3000.com/tones/56145

@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_horizon_precision_drive_a2
 display_name: Horizon Precision Drive
+author: "VIC AUDIO"
+description: "Neural capture of a Horizon Devices Precision Drive set as a level boost, with volume at 7 and drive at 0."
+license: T3K
+homepage: https://www.tone3000.com/tones/33864
 brand: horizon_devices
 output_gain_db: 0.8408349
 type: gain_pedal

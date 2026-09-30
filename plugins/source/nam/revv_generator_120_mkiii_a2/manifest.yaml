@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_revv_generator_120_mkiii_a2
 display_name: Revv Generator 120 MKIII
+author: "primalnerd"
+description: "Neural captures of a Revv Generator 120 MKIII on all four channels with its drive modes and voicing switches, alone and boosted by several overdrive pedals."
+license: T3K
+homepage: https://www.tone3000.com/tones/42067
 brand: revv
 output_gain_db: 6.6915207
 type: amp

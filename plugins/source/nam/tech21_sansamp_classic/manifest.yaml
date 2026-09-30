@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_tech21_sansamp_classic
 display_name: SansAmp Classic
+author: "berk"
+description: "Neural captures of a 2026 reissue Tech 21 SansAmp Classic at all 24 sample settings illustrated in its user manual."
+license: T3K
+homepage: https://www.tone3000.com/tones/61943
 brand: tech21
 sources:
 - https://www.tone3000.com/tones/61943

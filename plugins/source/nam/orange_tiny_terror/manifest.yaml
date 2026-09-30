@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_orange_tiny_terror
 display_name: Tiny Terror
+author: "joelangford"
+description: "Amp-and-cab neural capture of an Orange Tiny Terror at 7.5 watts, quarter volume, with tone and gain at noon, recorded with a Samson C01 condenser mic."
+license: T3K
+homepage: https://www.tone3000.com/tones/36288
 brand: orange
 brand_logo: assets/brand_logo.svg
 sources:

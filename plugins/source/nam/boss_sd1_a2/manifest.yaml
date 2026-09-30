@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_boss_sd1_a2
 display_name: Boss SD-1 Super Overdrive
+author: "MaestrodiMusica"
+description: "Neural captures of a Boss SD-1 Super Overdrive pedal sweeping the drive knob at three tone positions."
+license: T3K
+homepage: https://www.tone3000.com/tones/35426
 brand: boss
 output_gain_db: 9.0132656
 type: gain_pedal

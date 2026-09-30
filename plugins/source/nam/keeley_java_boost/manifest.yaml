@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_keeley_java_boost
 display_name: Java Boost
+author: "Dave"
+description: "Neural capture of a Keeley Java Boost in its full-range, Rangemaster-style and mid-boost toggle positions across level and tone settings (27 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/67614
 brand: keeley
 sources:
 - https://www.tone3000.com/tones/67614

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_friedman_be_50
 display_name: BE-50
+author: "basarane2"
+description: "Neural amp-and-cab model of a Friedman BE-50 sound, derived from a slightly modified Kemper profile."
+license: T3K
+homepage: https://www.tone3000.com/tones/4665
 brand: friedman
 brand_logo: assets/brand_logo.svg
 sources:

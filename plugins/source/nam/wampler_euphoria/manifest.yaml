@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_wampler_euphoria
 display_name: Euphoria
+author: "tangentyen"
+description: "Neural captures of a Wampler Euphoria overdrive set for transparent drive, at five gain settings in open and smooth modes."
+license: T3K
+homepage: https://www.tone3000.com/tones/66628
 brand: wampler
 sources:
 - https://www.tone3000.com/tones/66628

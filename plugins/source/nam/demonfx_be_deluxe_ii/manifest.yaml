@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_demonfx_be_deluxe_ii
 display_name: Demonfx BE-deluxe II
+author: "mrtnvgr"
+description: "Neural captures of the Demonfx BE-Deluxe II, a Friedman BE-OD clone pedal, across gain, tight switch, presence, mid and treble settings."
+license: CC0
+homepage: https://www.tone3000.com/tones/60143
 brand: demonfx
 sources:
 - https://www.tone3000.com/tones/60143

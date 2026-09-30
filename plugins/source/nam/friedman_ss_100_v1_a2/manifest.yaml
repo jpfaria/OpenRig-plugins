@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_friedman_ss_100_v1_a2
 display_name: SS 100 V1
+author: "slamminmofo"
+description: "Neural capture of a Friedman SS 100 amp into a reactive load across six named presets."
+license: T3K
+homepage: https://www.tone3000.com/tones/6357
 brand: friedman
 brand_logo: assets/brand_logo.svg
 output_gain_db: 7.4458199

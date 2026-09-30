@@ -5,6 +5,10 @@
 manifest_version: 1
 id: nam_fulltone_ocd_a2
 display_name: Fulltone OCD v1.2
+author: "jesco"
+description: "Neural capture of a Fulltone OCD v1.2 overdrive at 9 V and 18 V in LP and HP modes, each sweeping drive from 0 to max with tone at noon (44 captures)."
+license: T3K
+homepage: https://www.tone3000.com/tones/1821
 brand: fulltone
 output_gain_db: 10.8866100
 type: gain_pedal

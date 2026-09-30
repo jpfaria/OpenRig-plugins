@@ -3,6 +3,10 @@
 manifest_version: 1
 id: ir_ampeg_svt_8x10
 display_name: SVT 4x10/8x10
+author: "morenoteslesstalk"
+description: "IRs of Ampeg SVT bass cabinets (4x10 and 8x10) plus a DI tap, recorded with several mics (D6, SM57, 4033, e602, Beta 52, Neumann) at A107 and AH positions."
+license: T3K
+homepage: https://www.tone3000.com/tones/45241
 brand: ampeg
 brand_logo: assets/brand_logo.svg
 sources:

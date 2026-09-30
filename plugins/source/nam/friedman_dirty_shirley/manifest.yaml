@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_friedman_dirty_shirley
 display_name: Dirty Shirley
+author: "leosoaresleite"
+description: "Single full-rig neural capture of a Friedman DS40 (Dirty Shirley) amp with a 1x12 cab."
+license: T3K
+homepage: https://www.tone3000.com/tones/32259
 brand: friedman
 brand_logo: assets/brand_logo.svg
 sources:

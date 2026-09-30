@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_trace_elliot_speed_twin_50h
 display_name: Speed Twin 50H
+author: "kenazmusic"
+description: "Neural capture of a Trace Elliot Speed Twin 50H amp from its power amp out, across channel 1 and channel 2 in mid and high gain modes, treble push/pull in and out, clean to high gain levels, and unboosted or boosted with a Boss SD-1 or Ibanez TS9."
+license: T3K
+homepage: https://www.tone3000.com/tones/59315
 brand: trace_elliot
 sources:
 - https://www.tone3000.com/tones/59315

@@ -8,6 +8,10 @@
 manifest_version: 1
 id: nam_slammin_booster_a2
 display_name: Slammin Clean Booster
+author: "slamminmofo"
+description: "Neural captures of clean boost settings on six pedals: Boss SD-1, Maxon OD808, Fulltone OCD, Friedman Golden Pearl, Chase Secret Preamp (Echoplex preamp, mid/bright/dark) and Mooer Black Secret, mostly with gain at 0 and tone between 5 and 7."
+license: T3K
+homepage: https://www.tone3000.com/tones/6176
 brand: jhs
 output_gain_db: 10.1239185
 type: gain_pedal

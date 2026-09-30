@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_evh_5150_iii_50w_red_channel_a2
 display_name: 5150 III 50w Red Channel
+author: "mutant"
+description: "Neural capture of the red channel of an EVH 5150III 50W amp."
+license: T3K
+homepage: https://www.tone3000.com/tones/65406
 brand: evh
 output_gain_db: 10.2388287
 type: amp

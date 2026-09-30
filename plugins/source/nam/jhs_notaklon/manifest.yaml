@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_jhs_notaklon
 display_name: NOTAKLON
+author: "romanrecords"
+description: "Neural capture of a JHS Pedals NOTAKLÖN overdrive across eleven gain settings, with treble at the middle position."
+license: T3K
+homepage: https://www.tone3000.com/tones/55098
 brand: jhs
 sources:
 - https://www.tone3000.com/tones/55098

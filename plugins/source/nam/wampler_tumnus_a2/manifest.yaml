@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_wampler_tumnus_a2
 display_name: Wampler Tumnus
+author: "guitarml"
+description: "Neural capture of a Wampler Tumnus pedal at medium and high gain, with the treble just above center."
+license: T3K
+homepage: https://www.tone3000.com/tones/6338
 brand: wampler
 output_gain_db: 11.0318642
 type: gain_pedal

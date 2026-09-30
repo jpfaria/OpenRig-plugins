@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_boss_os_2
 display_name: OS-2 Overdrive/Distortion
+author: "DR Prophecy Studio"
+description: "Neural capture of a Boss OS-2 OverDrive/Distortion with the color knob spanning overdrive only, distortion only and mixed, across many drive and tone settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/66188
 brand: boss
 sources:
 - https://www.tone3000.com/tones/66188

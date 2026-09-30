@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_jhs_morning_glory_a2
 display_name: JHS Morning Glory
+author: "EthanMH"
+description: "Neural captures of a JHS Morning Glory v4 overdrive at four drive and two tone settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/57368
 brand: jhs
 output_gain_db: 5.7453718
 type: gain_pedal

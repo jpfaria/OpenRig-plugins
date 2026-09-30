@@ -5,6 +5,10 @@
 manifest_version: 1
 id: nam_tech21_sansamp_v2_a2
 display_name: Tech 21 SansAmp Driver V2
+author: "carlosalvgonz"
+description: "Neural captures of a Tech 21 SansAmp Driver V2 across drive settings in neutral, scooped and mid-focus EQ voicings."
+license: T3K
+homepage: https://www.tone3000.com/tones/34206
 brand: tech21
 output_gain_db: 13.0292606
 type: gain_pedal

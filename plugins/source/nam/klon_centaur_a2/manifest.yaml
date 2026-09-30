@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_klon_centaur_a2
 display_name: Klon Centaur Silver
+author: "JM"
+description: "Neural capture of an original silver Klon Centaur across several gain, treble and output settings, including a \"John Mayer\" setting taken from a Klon he marked."
+license: T3K
+homepage: https://www.tone3000.com/tones/5196
 brand: klon
 output_gain_db: 8.7894983
 type: gain_pedal

@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fortin_meshuggah_preamp
 display_name: Meshuggah Preamp
+author: "2dor"
+description: "Neural captures of the Salvation Audio Unnamed, a boutique recreation of the Fortin Meshuggah preamp for the Egnater / Randall MTS / Synergy platforms, across input, pull-gain and preset combinations."
+license: T3K
+homepage: https://www.tone3000.com/tones/31452
 brand: fortin
 sources:
 - https://www.tone3000.com/tones/31452

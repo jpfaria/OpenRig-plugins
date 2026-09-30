@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_ehx_metal_muff_a2
 display_name: EHX Metal Muff
+author: "mat4k"
+description: "Neural capture of an Electro-Harmonix Metal Muff distortion pedal across ten named EQ and gain settings, from overdrive-like to full-gain chainsaw tones."
+license: T3K
+homepage: https://www.tone3000.com/tones/4975
 brand: electro_harmonix
 output_gain_db: 3.3093524
 type: gain_pedal

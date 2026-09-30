@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_ampeg_scr_di_a2
 display_name: SCR-DI
+author: "guidogcda"
+description: "Neural capture of an Ampeg SCR-DI bass preamp/DI pedal with Ultra Lo, Ultra Hi and Scrambler distortion switched on and off at different drive and blend settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/58940
 brand: ampeg
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.6170511

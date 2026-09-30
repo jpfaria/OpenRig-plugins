@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_engl_e530
 display_name: E530
+author: "FabDef"
+description: "Single neural capture of an ENGL E530 preamp (no boost, contour off) through a Mesa oversized cab loaded with G12-EVH and V30 speakers, miked with an SM57."
+license: T3K
+homepage: https://www.tone3000.com/tones/43
 brand: engl
 brand_logo: assets/brand_logo.svg
 sources:

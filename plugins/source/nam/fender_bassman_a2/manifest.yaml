@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_bassman_a2
 display_name: Bassman
+author: "MaestrodiMusica"
+description: "Neural capture of a 1971 Fender Bassman amp across many clean, driven and jumpered settings, some with pedals in front."
+license: T3K
+homepage: https://www.tone3000.com/tones/13776
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: 8.4025602

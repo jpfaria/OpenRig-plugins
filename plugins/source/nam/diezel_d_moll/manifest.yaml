@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_diezel_d_moll
 display_name: D-Moll
+author: "kenazmusic"
+description: "Neural capture of the power amp out of a Diezel D-Moll across its three channels, from clean through edge of breakup to high gain, some with mid cut and some boosted by a Boss SD-1 (non-calibrated)."
+license: T3K
+homepage: https://www.tone3000.com/tones/57479
 brand: diezel
 sources:
 - https://www.tone3000.com/tones/57479

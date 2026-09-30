@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_bogner_uberschall
 display_name: Uberschall
+author: "emilrohbe"
+description: "Neural capture of a 100 W Bogner Uberschall amp across several gain presets, some with and some without a boost, plus a clean setting."
+license: T3K
+homepage: https://www.tone3000.com/tones/1628
 brand: bogner
 brand_logo: assets/brand_logo.svg
 sources:

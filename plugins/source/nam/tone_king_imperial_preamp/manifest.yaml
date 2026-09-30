@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_tone_king_imperial_preamp
 display_name: Imperial Preamp
+author: "alexanderperfilyev"
+description: "Neural captures of a Tone King Imperial Preamp (IR section bypassed) on the clean and lead channels at several gain levels."
+license: T3K
+homepage: https://www.tone3000.com/tones/50670
 brand: tone_king
 sources:
 - https://www.tone3000.com/tones/50670

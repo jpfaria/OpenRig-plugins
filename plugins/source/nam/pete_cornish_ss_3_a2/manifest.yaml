@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_pete_cornish_ss_3_a2
 display_name: Pete Cornish SS-3
+author: "The Tone Scientist"
+description: "Neural captures of a clone of the Pete Cornish SS-3 (a modded MXR Distortion+ circuit, built from the Aion FX trace) across bass, sustain and tone settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/60308
 brand: pete_cornish
 output_gain_db: -2.1921401
 type: gain_pedal

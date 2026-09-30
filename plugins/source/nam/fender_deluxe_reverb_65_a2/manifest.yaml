@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_deluxe_reverb_65_a2
 display_name: Deluxe Reverb '65
+author: "daweed"
+description: "Neural captures of a 1965 Fender Deluxe Reverb amp, with presets ranging from cleanest to cranked plus two Archer-driven variants."
+license: T3K
+homepage: https://www.tone3000.com/tones/6253
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.0728359

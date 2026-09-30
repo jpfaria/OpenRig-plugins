@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_fender_68_custom_deluxe_reverb
 display_name: 68 Custom Deluxe Reverb
+author: "tannerc"
+description: "Neural capture of a Fender '68 Custom Deluxe Reverb on both channels across several volume, treble and bass settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/61037
 brand: fender
 sources:
 - https://www.tone3000.com/tones/61037

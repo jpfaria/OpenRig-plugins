@@ -2,6 +2,10 @@
 manifest_version: 1
 id: ir_mesa_traditional_4x12_v30
 display_name: Traditional 4x12 V30
+author: "OutmodedElectronics"
+description: "IRs of a 2002 Mesa Boogie Traditional straight 4x12 cabinet with Celestion Vintage 30 speakers, captured with a Shure SM57 on several speakers at a range of distances from the dust cap and through different mic preamps."
+license: T3K
+homepage: https://www.tone3000.com/tones/45023
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

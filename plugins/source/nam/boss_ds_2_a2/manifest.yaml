@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_boss_ds_2_a2
 display_name: Boss DS-2
+author: "ratchetstrapmedia"
+description: "Neural capture of a Boss DS-2 Turbo Distortion in both modes 1 and 2, with all knobs at noon, max distortion and boost settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/5475
 brand: boss
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.5160694

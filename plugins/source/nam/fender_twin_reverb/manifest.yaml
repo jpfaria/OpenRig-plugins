@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_twin_reverb
 display_name: Twin Reverb
+author: "timr"
+description: "Neural capture of a Fender Twin Reverb amp on its normal and vibrato channels with the bright setting."
+license: T3K
+homepage: https://www.tone3000.com/tones/246
 brand: fender
 brand_logo: assets/brand_logo.svg
 sources:

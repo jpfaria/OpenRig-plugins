@@ -1,6 +1,10 @@
 manifest_version: 1
 id: nam_fender_super_reverb_1977_a2
 display_name: Super Reverb 1977
+author: "OutmodedElectronics"
+description: "Neural capture of the Normal channel of a Fender '65 Super Reverb Reissue across volume (clean to classic rock crunch), treble and bass settings, including bright and boosted variants."
+license: T3K
+homepage: https://www.tone3000.com/tones/68651
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: -8.4657764

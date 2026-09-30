@@ -1,6 +1,10 @@
 manifest_version: 1
 id: ir_mesa_recto_v30
 display_name: Recto V30
+author: "mattvdh"
+description: "A single IR blending two V30 IRs from Mesa Rectifier 4x12 cabinets."
+license: T3K
+homepage: https://www.tone3000.com/tones/44078
 brand: mesa
 brand_logo: assets/brand_logo.svg
 sources:

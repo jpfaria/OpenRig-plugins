@@ -2,6 +2,8 @@
 manifest_version: 1
 id: nam_badcat_wildcat_40r
 display_name: WildCat 40R
+description: "Neural capture of a Bad Cat WildCat 40R amp with its EF86 and Top Boost channels."
+homepage: https://www.tone3000.com/tones/50791
 brand: bad_cat
 sources:
 - https://www.tone3000.com/tones/50791

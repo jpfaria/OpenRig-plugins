@@ -4,6 +4,10 @@
 manifest_version: 1
 id: nam_harley_benton_american_sound_a2
 display_name: Harley Benton American Sound
+author: "Blank Frank"
+description: "Neural captures of a Harley Benton / Joyo American Sound amp-in-a-box pedal across voice and drive settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/66775
 brand: harley_benton
 output_gain_db: 7.1840982
 type: gain_pedal

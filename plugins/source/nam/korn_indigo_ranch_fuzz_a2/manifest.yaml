@@ -5,6 +5,10 @@
 manifest_version: 1
 id: nam_korn_indigo_ranch_fuzz_a2
 display_name: KoRn Indigo Ranch Fuzz
+author: "osatanic"
+description: "Neural capture of the fuzz section of the KoRn Indigo Ranch pedal across a grid of gain and tone settings."
+license: T3K
+homepage: https://www.tone3000.com/tones/47195
 brand: korn
 output_gain_db: 8.2455177
 type: gain_pedal

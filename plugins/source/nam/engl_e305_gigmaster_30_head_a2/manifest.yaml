@@ -3,6 +3,10 @@
 manifest_version: 1
 id: nam_engl_e305_gigmaster_30_head_a2
 display_name: E305 Gigmaster 30 Head
+author: "garagesound"
+description: "Neural captures of an ENGL E305 Gigmaster 30 head boosted by a Boss OD-3, with the OD-3 drive swept from minimum to maximum."
+license: T3K
+homepage: https://www.tone3000.com/tones/46147
 brand: engl
 brand_logo: assets/brand_logo.svg
 output_gain_db: 9.8206358

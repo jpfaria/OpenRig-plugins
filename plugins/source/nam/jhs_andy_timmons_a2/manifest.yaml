@@ -2,6 +2,10 @@
 manifest_version: 1
 id: nam_jhs_andy_timmons_a2
 display_name: Andy Timmons
+author: "slamminmofo"
+description: "Neural captures of the JHS Andy Timmons signature distortion pedal at settings Andy Timmons uses, in several bright / dark voicings with an optional boost."
+license: T3K
+homepage: https://www.tone3000.com/tones/26841
 brand: jhs
 output_gain_db: 4.2402282
 type: gain_pedal
