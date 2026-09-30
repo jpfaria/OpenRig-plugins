@@ -5,6 +5,7 @@
 manifest_version: 1
 id: ir_santa_cruz_vintage_southerner_mi_si
 display_name: Vintage Southerner Mi Si
+description: "Acoustic body IR of a Santa Cruz Vintage Southerner (slope-shoulder dreadnought, Adirondack spruce top, mahogany back and sides) captured through a Mi-Si pickup system. The preset selects IR length, blend, match and jf flavors or a 96k revision."
 brand: santa_cruz
 type: body
 backend: ir

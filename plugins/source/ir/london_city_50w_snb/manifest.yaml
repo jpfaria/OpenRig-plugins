@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_50w_snb
 display_name: London City 50W (SNB)
+description: "Community cab IR set labelled \"London City 50W (SNB)\". The preset selects one of the named mic captures (BX44, CMV3 M7, CMV3 M9, KM53)."
 brand: london_city
 type: cab
 backend: ir

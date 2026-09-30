@@ -5,6 +5,7 @@
 manifest_version: 1
 id: ir_morris_w_80
 display_name: W-80
+description: "Acoustic body IR of a Morris W-80, a Japanese-made dreadnought with a solid spruce top. The preset selects capture variants from two IR generations."
 brand: morris
 brand_logo: assets/brand_logo.svg
 type: body

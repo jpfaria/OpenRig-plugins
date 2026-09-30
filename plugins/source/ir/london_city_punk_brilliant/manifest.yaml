@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_punk_brilliant
 display_name: London City Punk Cab Brilliant
+description: "Community cab IR capture labelled \"London City Punk Cab Brilliant\". The preset selects old/new/room take and capture mic (MTG, 421, AT4033, M94)."
 brand: london_city
 type: cab
 backend: ir

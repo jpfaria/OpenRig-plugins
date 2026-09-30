@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_lakewood_d_18cp
 display_name: D-18 CP
+description: "Acoustic body IR of a Lakewood D-18 CP (Natural Series dreadnought with soft cutaway, European spruce top, ovangkol back and sides, L.R. Baggs Anthem pickup system). The preset selects the raw, bld, jf_flavor or match IR variant."
+homepage: https://en.lakewood-guitars.com/guitars/d-18cp__n
 brand: lakewood
 type: body
 backend: ir

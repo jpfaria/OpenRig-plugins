@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_roland_jazz_chorus
 display_name: Jazz Chorus
+description: "Community cab IR set labelled \"Jazz Chorus\" (Roland). The preset selects the room_k, sm7_02 or sm7_03 capture."
 brand: roland
 type: cab
 backend: ir

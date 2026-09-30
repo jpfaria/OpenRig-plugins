@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_ac30_brilliant_snb
 display_name: AC30 Brilliant (SNB)
+description: "Community cab IR capture labelled \"Vox AC30 Brilliant (SNB)\". The preset selects mic (BX44, AT4033a, U67), preamp (Neve or Stalevel), distance and plus-bass variants."
 brand: vox
 type: cab
 backend: ir

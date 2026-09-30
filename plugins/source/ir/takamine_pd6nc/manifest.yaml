@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_takamine_pd6nc
 display_name: PD6NC
+description: "Acoustic body IR labelled \"Takamine PD6NC\". Voicing selects capture one or two; flavor selects raw, blend, match or jf flavor."
 brand: takamine
 brand_logo: assets/brand_logo.svg
 type: body

@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_taylor_816ce
 display_name: 816ce
+description: "Acoustic body IR of a Taylor 816ce, an 800 Series grand symphony with cutaway and electronics, miked with a Neumann M251. The voicing selects exp, piezo, soundboard or soundboard blend captures."
+homepage: https://www.taylorguitars.com/guitars/acoustic/features/series/800
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

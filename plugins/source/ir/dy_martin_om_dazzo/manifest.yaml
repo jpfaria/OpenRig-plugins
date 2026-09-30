@@ -4,6 +4,7 @@
 manifest_version: 1
 id: ir_dy_martin_om_dazzo
 display_name: OM Dazzo
+description: "Acoustic body IR labelled \"Martin OM Dazzo\". The voicing selects the raw IR or one of three EQ-matched variants."
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

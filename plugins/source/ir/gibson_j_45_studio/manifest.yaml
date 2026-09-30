@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_gibson_j_45_studio
 display_name: J-45 Studio
+description: "Acoustic body IR of a Gibson J-45 Studio, a Studio Series version of Gibson's round-shoulder J-45. The preset selects the flat, blend, jf or match IR variant."
+homepage: https://www.gibson.com/pages/gibson-j45-acoustic-guitars
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

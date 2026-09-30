@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_kalthallen_4x12
 display_name: Kalthallen 4x12
+description: "4x12 guitar cab IRs from the free Kalthallen Cabs IR library. Parameters select the mic, the speaker (V30 or G12T-75) and the pack's mic-position code."
+homepage: https://cabs.kalthallen.de/
 brand: kalthallen
 type: cab
 backend: ir

@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_cort_mr710f
 display_name: MR710F
+description: "Acoustic body IR of a Cort MR710F (cutaway dreadnought, solid Sitka spruce top, mahogany back and sides, Fishman Presys electronics). The preset selects the flat, bld, jf or match IR variant."
+homepage: https://www.cortguitars.com/dp/mr710f/
 brand: cort
 type: body
 backend: ir

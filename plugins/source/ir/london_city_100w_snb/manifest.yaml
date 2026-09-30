@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_100w_snb
 display_name: London City 100W (SNB)
+description: "Community cab IR capture labelled \"London City 100W (SNB)\". The preset selects one of 20 capture mics/preamps."
 brand: london_city
 type: cab
 backend: ir

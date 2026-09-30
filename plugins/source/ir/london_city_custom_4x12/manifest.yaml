@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_custom_4x12
 display_name: London City Custom 4x12
+description: "Community cab IR set labelled \"London City Custom 4x12\". The preset selects one of the named captures (441, M930, MPC and SM57 at various placements)."
 brand: london_city
 type: cab
 backend: ir

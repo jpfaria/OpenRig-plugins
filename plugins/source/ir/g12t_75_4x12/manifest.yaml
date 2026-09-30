@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_g12t_75_4x12
 display_name: G12T-75 4x12
+description: "4x12 cab IR loaded with Celestion G12T-75 speakers (Celestion's 12-inch 75W rock guitar speaker), miked with an SM57. The voicing selects dark, dark 2 or fat."
+homepage: https://celestion.com/product/g12t-75/
 brand: celestion
 brand_logo: assets/brand_logo.svg
 type: cab

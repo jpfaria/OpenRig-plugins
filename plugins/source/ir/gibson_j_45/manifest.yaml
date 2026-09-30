@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_gibson_j_45
 display_name: J-45
+description: "Acoustic body IR of a Gibson J-45, Gibson's round-shoulder acoustic with a solid Sitka spruce top and solid mahogany back and sides. Position selects one of two captures; flavor selects standard, blend, match or jf."
+homepage: https://www.gibson.com/collections/gibson-j-45-acoustic-guitars
 brand: gibson
 photo: assets/photo.png
 brand_logo: assets/brand_logo.svg

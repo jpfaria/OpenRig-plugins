@@ -4,6 +4,8 @@
 manifest_version: 1
 id: ir_cort_gold_a8
 display_name: Gold A8
+description: "Acoustic body IR of a Cort Gold-A8 (solid ATV-treated Sitka spruce top, solid pau ferro back and sides, Fishman Flex Blend electronics). The preset selects the flat, bld, jf or match IR variant."
+homepage: https://www.cortguitars.com/dp/gold-a8/
 brand: cort
 type: body
 backend: ir

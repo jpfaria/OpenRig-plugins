@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_les_cotton_westfield
 display_name: Les Cotton Westfield
+description: "Acoustic body IR labelled \"Les Cotton Westfield\". The preset selects the stock, cuki or jf45 IR variant."
 brand: les-cotton
 type: body
 backend: ir

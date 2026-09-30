@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_gibson_mandolin
 display_name: Mandolin
+description: "Body IR of a Gibson Wayne Benson signature mandolin. The mic parameter selects a DPA 4011, Neumann M147 or Soundelux E47 capture."
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

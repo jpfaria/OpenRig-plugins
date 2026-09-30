@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_marshall_jcm900_blue_jubilee
 display_name: JCM900 Blue Jubilee
+description: "Community cab IR set labelled \"JCM900 Blue Jubilee\" (Marshall). Parameters select the mic (MD421, AT4033 or room) and the take."
 brand: marshall
 type: cab
 backend: ir

@@ -1,6 +1,7 @@
 manifest_version: 1
 id: nam_cc_boost
 display_name: CC Boost
+description: "NAM boost pedal capture labelled \"CC Boost\"."
 brand: custom
 output_gain_db: 9.9895716
 type: gain_pedal

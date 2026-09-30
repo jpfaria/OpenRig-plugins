@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_bass_dr_norton
 display_name: Bass Setup (dr_norton)
+description: "Community bass cab IR set labelled \"Bass Setup (dr_norton)\". The preset selects the M69 or MTG mic capture."
 brand: diy
 type: cab
 backend: ir

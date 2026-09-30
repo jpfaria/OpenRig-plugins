@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_cort_luce_550w
 display_name: Luce 550W
+description: "Acoustic body IR labelled \"Cort Luce 550W\". The preset selects raw, blend, jf flavor or match variants."
 brand: cort
 type: body
 backend: ir

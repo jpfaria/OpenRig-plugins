@@ -4,6 +4,7 @@
 manifest_version: 1
 id: ir_ar_bourgeois_jomc_knk
 display_name: Bourgeois JOMC K&K
+description: "Acoustic body IR of a Bourgeois JOMC (Jumbo OM Cutaway) captured through a K&K pickup. The preset selects the base IR or one of two match variants."
 brand: bourgeois
 type: body
 backend: ir

@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_godin_metropolis_hfn
 display_name: Metropolis HFN
+description: "Acoustic body IR labelled \"Godin Metropolis HFN\". The preset selects a 1024-tap, 50/50 blend or full-length IR."
 brand: godin
 type: body
 backend: ir

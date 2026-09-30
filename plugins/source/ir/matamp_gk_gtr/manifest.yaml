@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_matamp_gk_gtr
 display_name: Matamp GK Gtr
+description: "Community cab IR capture labelled \"Matamp GK Gtr\", miked with an AT4033. The take parameter selects one of four takes."
 brand: matamp
 type: cab
 backend: ir

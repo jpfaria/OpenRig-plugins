@@ -4,6 +4,7 @@
 manifest_version: 1
 id: ir_les_cotton_faith_venus
 display_name: Les Cotton Faith Venus
+description: "Acoustic body IR labelled \"Les Cotton Faith Venus\" (the Faith Venus is Faith's auditorium cutaway body). The preset selects the raw IR or variants by capturer, length and blend."
 brand: les-cotton
 type: body
 backend: ir

@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_mcilroy_a25c
 display_name: A25C
+description: "Acoustic body IR of a McIlroy A25C (A series mid-size jumbo / auditorium shape; model 25 = walnut back and sides, western red cedar top). Parameters select the capture position (pos1 or pos2) and the raw, blend, match or jf_flavor IR variant."
+homepage: https://mcilroyguitars.co.uk/models-series-range/
 brand: mcilroy
 type: body
 backend: ir

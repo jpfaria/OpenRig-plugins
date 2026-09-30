@@ -1,6 +1,7 @@
 manifest_version: 1
 id: nam_fender_showman
 display_name: Showman
+description: "NAM amp capture set labelled \"Showman\" (Fender). The preset selects one of the named captures: fuller_clean, fuller_metal, dweezil_ola, dweezil_fuzz, jonesy_dark, super_6g4_clean, super_brownie or super_verb."
 brand: fender
 brand_logo: assets/brand_logo.svg
 output_gain_db: 3.4852920

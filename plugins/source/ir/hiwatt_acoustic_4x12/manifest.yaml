@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_hiwatt_acoustic_4x12
 display_name: Hiwatt Acoustic 4x12 (gottkaiser)
+description: "Community cab IR capture labelled \"Hiwatt Acoustic 4x12 (gottkaiser)\". The preset selects channel/take and capture mic (NT2 or SM7)."
 brand: hiwatt
 type: cab
 backend: ir

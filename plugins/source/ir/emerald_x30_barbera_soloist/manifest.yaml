@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_emerald_x30_barbera_soloist
 display_name: X30 Barbera Soloist
+description: "Acoustic body IR of an Emerald X30, a carbon fibre jumbo 6-string acoustic, captured through a Barbera Soloist saddle pickup. The preset selects a 1024-tap, 50/50 blend or full-length IR."
+homepage: https://emeraldguitars.com/models/x30/
 brand: emerald
 type: body
 backend: ir

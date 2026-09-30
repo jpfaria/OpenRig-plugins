@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_hamblin_gc_barbera
 display_name: GC Barbera
+description: "Acoustic body IR of a Hamblin Grand Concert captured through a Barbera pickup. The preset selects IR variants by capturer, length and blend."
 brand: hamblin
 type: body
 backend: ir

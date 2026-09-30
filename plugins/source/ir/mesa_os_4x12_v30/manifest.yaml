@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_mesa_os_4x12_v30
 display_name: Oversized 4x12 V30
+description: "Cab IR labelled \"Mesa Oversized 4x12 V30\". Parameters select the mic (AT2020, SM57 or SM58) and the take (two close takes or left/right room)."
 brand: mesa
 brand_logo: assets/brand_logo.svg
 type: cab

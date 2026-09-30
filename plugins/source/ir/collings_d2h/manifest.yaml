@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_collings_d2h
 display_name: D2H
+description: "Acoustic body IR of a Collings D2H, a square-shouldered 14-fret dreadnought with a Sitka spruce top and East Indian rosewood back and sides. The body parameter also offers an OM2HA; the mic parameter selects one of eight capture mics."
+homepage: https://collingsguitars.com/acoustics/d2h/
 brand: collings
 brand_logo: assets/brand_logo.svg
 type: body

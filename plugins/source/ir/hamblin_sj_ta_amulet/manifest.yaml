@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_hamblin_sj_ta_amulet
 display_name: SJ TA Amulet
+description: "Acoustic body IR labelled \"Hamblin SJ TA Amulet\". The preset selects capture v1 or v2 and its blend, match or jf_flavor variant."
 brand: hamblin
 type: body
 backend: ir

@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_yamaha_ll16
 display_name: LL16
+description: "Acoustic body IR of a Yamaha LL16 (Yamaha Original Jumbo body, solid Engelmann spruce top with A.R.E., solid rosewood back and sides, SRT Zero Impact pickup). The preset selects flat, blend, match or jf flavor."
+homepage: https://usa.yamaha.com/products/musical_instruments/guitars_basses/ac_guitars/l_series/index.html
 brand: yamaha
 type: body
 backend: ir

@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_ampeg_combo
 display_name: Ampeg Combo
+description: "Community cab IR capture labelled \"Ampeg Combo\". The preset selects one of the capture takes (421 A/B, M16 A/B)."
 brand: ampeg
 type: cab
 backend: ir

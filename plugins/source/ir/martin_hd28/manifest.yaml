@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_martin_hd28
 display_name: HD-28
+description: "Acoustic body IR of a Martin HD-28 (D-14 fret body, spruce top, East Indian rosewood back and sides). The mic selects the Neumann U87, Neumann U47, Soundelux E47, AKG C414B-XLS or Schoeps CMC64G capture."
+homepage: https://www.martinguitar.com/guitars/standard-series/HD-28.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_gibson_hummingbird
 display_name: Hummingbird
+description: "Acoustic body IR of a Gibson Hummingbird, Gibson's square-shoulder dreadnought introduced in 1960. The mic selects the dpa_4011, neumann_m147, shure_beta_58a or soundelux_e47 capture."
+homepage: https://www.gibson.com/pages/gibson-hummingbird-acoustic-guitars
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

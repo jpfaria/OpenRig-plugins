@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_taylor_314ce
 display_name: 314ce
+description: "Acoustic body IR of a Taylor 314ce (300 Series Grand Auditorium with Venetian cutaway, spruce top, sapele back and sides). The mic selects the DPA 4011, Earthworks QTC30, Neumann M147, Neumann U87, Schoeps CMC64G, Shure SM57 or Soundelux E47 capture."
+homepage: https://www.taylorguitars.com/guitars/acoustic/314ce
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

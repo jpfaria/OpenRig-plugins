@@ -4,6 +4,7 @@
 manifest_version: 1
 id: ir_sb_takef341sc
 display_name: Takamine F341SC
+description: "Acoustic body IR labelled \"Takamine F341SC\". The preset selects the base, short (1024-tap), match1, match1_ls, match2 or short match IR variant."
 brand: takamine
 brand_logo: assets/brand_logo.svg
 type: body

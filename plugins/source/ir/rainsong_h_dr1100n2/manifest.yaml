@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_rainsong_h_dr1100n2
 display_name: H-DR1100N2
+description: "Acoustic body IR of a RainSong H-DR1100N2, a Hybrid Series dreadnought-style guitar with a carbon/glass fiber body. The preset selects standard, blend, match or jf."
 brand: rainsong
 type: body
 backend: ir

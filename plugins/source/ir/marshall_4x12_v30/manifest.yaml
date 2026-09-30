@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_marshall_4x12_v30
 display_name: 4x12 V30
+description: "Cab IR labelled \"Marshall 4x12 V30\" (EV mic mix). The preset selects capture b or d."
 brand: marshall
 photo: assets/photo.png
 brand_logo: assets/brand_logo.svg

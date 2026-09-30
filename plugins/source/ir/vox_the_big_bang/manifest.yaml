@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_the_big_bang
 display_name: Vox Gtr Setup (the_big_bang)
+description: "Community cab IR set labelled \"Vox Gtr Setup (the_big_bang)\". The preset selects the bright1, bright1_raum, bright2a or bright2b capture."
 brand: vox
 type: cab
 backend: ir

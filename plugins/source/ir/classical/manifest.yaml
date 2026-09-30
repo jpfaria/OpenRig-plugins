@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_classical
 display_name: Classical Guitar
+description: "Acoustic body IR of an unidentified classical guitar. The mic selects the akg_cs1000, dpa_4011 or neumann_m147 capture."
 brand: ''
 type: body
 backend: ir

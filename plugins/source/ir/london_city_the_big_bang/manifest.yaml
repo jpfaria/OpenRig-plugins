@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_the_big_bang
 display_name: London City Gtr Setup (the_big_bang)
+description: "Community cab IR capture labelled \"London City Gtr Setup (the_big_bang)\". The preset selects bright or normal channel with a room, SM57 or SM7 capture."
 brand: london_city
 type: cab
 backend: ir

@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_ampeg_v4b_custom_4x12
 display_name: V4B Custom 4x12
+description: "Community bass cab IR set labelled \"V4B Custom 4x12\" (Ampeg). The preset selects one of the named mic captures (M69, MD441, Beta 52, MTG, SM7, TLM 170, U87)."
 brand: ampeg
 type: cab
 backend: ir

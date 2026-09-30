@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_hiwatt_oiro
 display_name: Hiwatt (oiro)
+description: "Community cab IR set labelled \"Hiwatt (oiro)\". The preset selects one of the named MTG or SM7 captures."
 brand: hiwatt
 type: cab
 backend: ir

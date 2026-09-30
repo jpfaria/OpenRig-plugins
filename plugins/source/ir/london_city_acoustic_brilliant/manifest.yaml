@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_acoustic_brilliant
 display_name: London City Acoustic Cab Brilliant
+description: "Community cab IR capture labelled \"London City Acoustic Cab Brilliant\". The preset selects old/new take and capture mic (MTG, SM57, AT4033, KM184, M71, Schoeps)."
 brand: london_city
 type: cab
 backend: ir

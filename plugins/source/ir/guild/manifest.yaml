@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_guild
 display_name: Guild
+description: "Acoustic body IR set labelled \"Guild\", captured through a D-TAR pickup system. The voicing selects one of 16 body styles, from parlor and dreadnought to jumbo, archtop jazz, gypsy jazz and resonator."
 brand: guild
 brand_logo: assets/brand_logo.svg
 type: body

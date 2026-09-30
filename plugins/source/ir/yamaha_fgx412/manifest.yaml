@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_yamaha_fgx412
 display_name: FGX412
+description: "Acoustic body IR labelled \"Yamaha FGX412\". The preset selects flat, blend, match or jf flavor."
 brand: yamaha
 type: body
 backend: ir

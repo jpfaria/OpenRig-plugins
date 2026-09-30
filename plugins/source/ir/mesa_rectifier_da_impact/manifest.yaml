@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_mesa_rectifier_da_impact
 display_name: Rectifier Setup (da_impact)
+description: "Community cab IR set labelled \"Rectifier Setup (da_impact)\" (Mesa). The preset selects the AT4033 or SM57 capture."
 brand: mesa
 type: cab
 backend: ir

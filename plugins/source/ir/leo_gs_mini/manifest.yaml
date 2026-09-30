@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_leo_gs_mini
 display_name: GS Mini
+description: "Acoustic body IR of a Taylor GS Mini, Taylor's scaled-down Grand Symphony body, labelled \"ES2\". The preset selects the direct, blend, jf_flavor or match IR variant."
+homepage: https://www.taylorguitars.com/guitars/acoustic/features/series/gs-mini
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

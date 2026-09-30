@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_g12m_greenback_2x12
 display_name: G12M Greenback 2x12
+description: "Cab IR of a 2x12 loaded with Celestion G12M Greenback speakers (12-inch, 25 W), captured with an SM57. The mic selects the dark, dark 2 or fat SM57 capture."
+homepage: https://celestion.com/product/g12m-greenback/
 brand: celestion
 brand_logo: assets/brand_logo.svg
 type: cab

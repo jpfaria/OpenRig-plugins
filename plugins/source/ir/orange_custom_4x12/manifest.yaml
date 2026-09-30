@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_orange_custom_4x12
 display_name: Orange Custom 4x12
+description: "Community cab IR capture labelled \"Orange Custom 4x12\". The preset selects capture mic and take (M930, SM57, U87)."
 brand: orange
 type: cab
 backend: ir

@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_ad52_fuch_vintage_1dsr_k_k
 display_name: AD52 Fuch Vintage 1DSR K&K
+description: "Acoustic body IR of a Furch Vintage 1 D-SR (dreadnought, solid Sitka spruce top, solid Indian rosewood back and sides), labelled \"AD52 Fuch Vintage 1DSR K&K\". The preset selects the plain, mic or mic_ffq IR variant."
+homepage: https://furchguitars.com/us/instruments/discontinued-models/vintage-1-sr/
 brand: furch
 type: body
 backend: ir

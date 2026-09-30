@@ -4,6 +4,8 @@
 manifest_version: 1
 id: ir_gibson_songwriter_deluxe_custom_hfn
 display_name: Songwriter Deluxe Custom HFN
+description: "Acoustic body IR of a Gibson Songwriter Deluxe Custom, a square-shoulder acoustic with a Sitka spruce top, Indian rosewood back and sides and Fishman Ellipse Aura electronics. The preset selects the plain IR, a 1024-tap mix or a 50/50 mix."
+homepage: http://legacy.gibson.com/Products/Acoustic-Instruments/Square-Shoulder/Gibson-Acoustic/Songwriter-Deluxe-Custom/Specs.aspx
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

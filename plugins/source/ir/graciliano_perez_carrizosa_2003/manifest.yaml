@@ -4,6 +4,7 @@
 manifest_version: 1
 id: ir_graciliano_perez_carrizosa_2003
 display_name: Graciliano Perez Carrizosa 2003
+description: "Body IR of a 2003 guitar by Graciliano Pérez Carrizosa, a Spanish luthier based in Córdoba. The preset selects the raw, m or mffqn IR variant."
 brand: graciliano-perez
 type: body
 backend: ir

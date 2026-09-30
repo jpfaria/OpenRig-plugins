@@ -7,6 +7,8 @@
 manifest_version: 1
 id: ir_martin_hd_28_pre2018_hfn_pickup
 display_name: HD-28 Pre-2018 HFN Pickup
+description: "Acoustic body IR of a pre-2018 Martin HD-28 (D-14 fret body, East Indian rosewood back and sides), labelled \"HFN Pickup\". The preset selects one of the hfn1/hfn2 pickup IRs (plain, bld, match or jf), a matched-EQ IR (2048 or 8096 taps, stereo/left/right) or a zrec IR."
+homepage: https://www.martinguitar.com/guitars/standard-series/HD-28.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

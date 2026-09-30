@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_allure_pack
 display_name: Allure Pack
+description: "Cab IRs from Line 6's free Allure IR pack. The preset selects one of six named amp/cab/speaker voicings: 59 Tweed P10N, 64 A30 G12, 64 US Deluxe P12N, 67 Brit Greenback, 70s WhoWatt 100 and 90s Cali V30."
+homepage: https://line6.com/allure/
 brand: allure
 type: cab
 backend: ir

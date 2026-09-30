@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_taylor_510e
 display_name: 510e
+description: "Acoustic body IR of a Taylor 510e (500 Series), labelled \"xbraced\". The flavor selects the standard, blend, match or jf IR variant."
+homepage: https://www.taylorguitars.com/guitars/acoustic/features/series/500
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

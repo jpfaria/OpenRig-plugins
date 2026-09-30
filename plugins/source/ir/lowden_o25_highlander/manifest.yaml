@@ -5,6 +5,8 @@
 manifest_version: 1
 id: ir_lowden_o25_highlander
 display_name: O25 Highlander
+description: "Acoustic body IR of a Lowden O-25 (Original Series Model 25 in the O body size), labelled \"Highlander\". The preset selects the direct, match1, match2 or one of the jf45 IR variants."
+homepage: https://lowdenguitars.com/products/original-series-model-25
 brand: lowden
 type: body
 backend: ir

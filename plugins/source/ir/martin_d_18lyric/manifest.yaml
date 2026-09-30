@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_martin_d_18lyric
 display_name: D-18 Lyric
+description: "Acoustic body IR of a Martin D-18 (D-14 fret body, spruce top, mahogany back and sides), labelled \"Lyric\". The flavor selects the standard, blend, match or jf IR variant."
+homepage: https://www.martinguitar.com/guitars/standard-series/D-18.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

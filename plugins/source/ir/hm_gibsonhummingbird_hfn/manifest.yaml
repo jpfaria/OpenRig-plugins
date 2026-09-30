@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_hm_gibsonhummingbird_hfn
 display_name: Hummingbird HFN
+description: "Acoustic body IR of a Gibson Hummingbird, labelled \"HFN\". The preset selects IR length (1024, 2048 or 8096 taps) and match variants."
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

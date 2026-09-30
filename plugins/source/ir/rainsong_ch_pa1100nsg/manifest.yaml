@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_rainsong_ch_pa1100nsg
 display_name: CH-PA1100NSG
+description: "Acoustic body IR labelled \"CH-PA1100NSG\" (RainSong). The preset selects the standard, blend, match or jf IR variant."
 brand: rainsong
 type: body
 backend: ir

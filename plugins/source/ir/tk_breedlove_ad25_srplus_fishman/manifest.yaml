@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_tk_breedlove_ad25_srplus_fishman
 display_name: Breedlove AD25 SR Plus Fishman
+description: "Acoustic body IR labelled \"Breedlove AD25/SR Plus\", captured through a Fishman pickup. Parameters select the capture mic (sm or bb) and none or one of two match variants."
 brand: breedlove
 type: body
 backend: ir

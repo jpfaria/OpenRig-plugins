@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_ac30_normal_snb
 display_name: AC30 Normal (SNB)
+description: "Community cab IR capture labelled \"Vox AC30 Normal (SNB)\". The preset selects mic (AT4033a, BX44, U67, SM57), preamp (Neve or Stalevel) and distance."
 brand: vox
 type: cab
 backend: ir

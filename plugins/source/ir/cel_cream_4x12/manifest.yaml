@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_cel_cream_4x12
 display_name: Celestion Cream 4x12
+description: "4x12 cab IR loaded with Celestion Cream speakers (Celestion's 12-inch 90W alnico guitar speaker), miked with an SM57. The voicing selects dark or fat."
+homepage: https://celestion.com/product/celestion-cream/
 brand: celestion
 brand_logo: assets/brand_logo.svg
 type: cab

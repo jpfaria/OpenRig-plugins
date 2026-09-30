@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_martin_custom_shop_00_15_k_k
 display_name: Custom Shop 00-15 K&K
+description: "Acoustic body IR labelled \"Martin Custom Shop 00-15\", captured through a K&K pickup. The preset selects the K&K IR, a match variant or jf45 variants."
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

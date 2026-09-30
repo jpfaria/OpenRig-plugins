@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_lakewood_d_32cp
 display_name: D-32 CP
+description: "Acoustic body IR of a Lakewood D-32 CP, a dreadnought with a soft cutaway, European spruce top, Indian rosewood back and sides and L.R. Baggs Anthem electronics. The preset selects raw, blend, jf flavor or match variants."
+homepage: https://en.lakewood-guitars.com/guitars/d-32cp__n
 brand: lakewood
 type: body
 backend: ir

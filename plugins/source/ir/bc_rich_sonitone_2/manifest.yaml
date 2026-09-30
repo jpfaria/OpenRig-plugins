@@ -4,6 +4,7 @@
 manifest_version: 1
 id: ir_bc_rich_sonitone_2
 display_name: Sonitone 2
+description: "Acoustic body IR labelled \"Sonitone 2\" (BC Rich, plywood full scale). The preset selects IR-capture variants (length, sample rate and match passes)."
 brand: bc-rich
 type: body
 backend: ir

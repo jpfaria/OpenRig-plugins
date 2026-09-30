@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_bass_hiwatt_zuhause
 display_name: Bass Setup Hiwatt (Zuhause)
+description: "Community cab IR capture labelled \"Bass Setup Hiwatt (Zuhause)\". The preset selects channel/take and capture mic (NT2 or SM7)."
 brand: hiwatt
 type: cab
 backend: ir

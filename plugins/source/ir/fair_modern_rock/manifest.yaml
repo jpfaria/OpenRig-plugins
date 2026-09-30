@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_fair_modern_rock
 display_name: faIR Modern Rock
+description: "forward audio's free faIR Modern Rock pack of 28 pre-mixed guitar cab IR blends drawn from a Marshall 1960A 4x12, a Mesa 4x12 Rectifier Standard and an Engl E 212VH. The preset selects one of the named blends, including Fredman-technique captures in S.P.A.R.C., solid and tube variants."
+homepage: https://www.forward-audio.com/products/guitar-cabinet-impulse-responses/fair-modern-rock
 brand: fair
 type: cab
 backend: ir

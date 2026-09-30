@@ -8,6 +8,8 @@
 manifest_version: 1
 id: ir_martin_gpc_special_16
 display_name: GPC Special 16
+description: "Acoustic body IR of a Martin GPC-16E Rosewood (Grand Performance 14-fret cutaway, spruce top, East Indian rosewood back and sides, Martin E1 electronics). The preset selects one of 21 exports from the standard, itp, jf45 and fbf IR sets."
+homepage: https://www.martinguitar.com/guitars/16-17-series/10GPC16E-01.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_martin_dc_16e_matrix_vte
 display_name: DC-16E Matrix VTE
+description: "Acoustic body IR of a Martin DC-16E (D-14 fret cutaway body, spruce top, sycamore back and sides, Fishman Matrix VT Enhance NT2 electronics). The voicing selects the standard, blend, match or jf IR variant."
+homepage: https://www.martinguitar.com/guitars/retired-models/DC-16E.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_matamp_gk_bass
 display_name: Matamp GK Bass
+description: "Community cab IR set labelled \"Matamp GK Bass\". The preset selects one of the six captures labelled orange1 to orange6."
 brand: matamp
 type: cab
 backend: ir

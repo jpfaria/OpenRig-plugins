@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_ibanez_aw84ce_wk
 display_name: AW84CE WK
+description: "Acoustic body IR of an Ibanez AW84CE-WK Artwood (cutaway dreadnought, solid okoume top, okoume back and sides, Weathered Black Open Pore finish). The preset selects the stock, blend, jf_flavor or match IR variant."
+homepage: https://www.ibanez.com/na/products/detail/aw84ce_1p_03.html
 brand: ibanez
 brand_logo: assets/brand_logo.svg
 type: body

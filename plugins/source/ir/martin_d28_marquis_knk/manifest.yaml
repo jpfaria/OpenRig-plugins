@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_martin_d28_marquis_knk
 display_name: D-28 Marquis K&K
+description: "Acoustic body IR of a Martin D-28 Marquis, a dreadnought with an Adirondack spruce top and East Indian rosewood back and sides, captured through a K&K pickup. Flavor selects standard, blend, match or jf."
+homepage: https://www.martinguitar.com/guitars/retired-models/D-28-Marquis.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

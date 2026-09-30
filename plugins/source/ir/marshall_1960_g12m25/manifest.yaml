@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_marshall_1960_g12m25
 display_name: 1960 G12M25 Greenback
+description: "Redwirez free Marshall 1960 IR pack: a Marshall 1960 4x12 loaded with four 25-watt Celestion G12M Greenback speakers. Parameters select the mic (MD421, KM84, R121, SM57), its position and its distance."
+homepage: https://redwirez.com/pages/the-marshall-1960a-ir-pack
 brand: marshall
 type: cab
 backend: ir

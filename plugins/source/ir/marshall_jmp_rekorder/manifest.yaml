@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_marshall_jmp_rekorder
 display_name: JMP Rekorder
+description: "Community cab IR set labelled \"JMP Rekorder\" (Marshall). The preset selects one of the named M930, SM57 or U87 captures."
 brand: marshall
 type: cab
 backend: ir

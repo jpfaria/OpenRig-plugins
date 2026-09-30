@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_ac30_normal_channel
 display_name: AC30 Normal Channel
+description: "Community cab IR set labelled \"AC30 Normal Channel\" (Vox). The preset selects one of the named 441, ED911, M930, SM57 or U87 captures."
 brand: vox
 type: cab
 backend: ir

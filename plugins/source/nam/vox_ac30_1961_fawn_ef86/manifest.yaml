@@ -1,6 +1,7 @@
 manifest_version: 1
 id: nam_vox_ac30_1961_fawn_ef86
 display_name: AC30 '61 Fawn EF86
+description: "NAM amp capture labelled \"AC30 '61 Fawn EF86\" (Vox), a crunch setting. Single capture with no adjustable controls."
 brand: vox
 brand_logo: assets/brand_logo.svg
 output_gain_db: 4.8056741

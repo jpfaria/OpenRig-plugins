@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_yamaha_ll_ta_system_70
 display_name: LL-TA System 70
+description: "Acoustic body IR of a Yamaha LL-TA TransAcoustic (round-shoulder dreadnought, solid A.R.E.-treated Engelmann spruce top, solid rosewood back and sides), labelled \"System 70\". The preset selects the full, len_1024 or blend_5050 IR variant."
+homepage: https://usa.yamaha.com/products/musical_instruments/guitars_basses/ac_guitars/ta_series/index.html
 brand: yamaha
 type: body
 backend: ir

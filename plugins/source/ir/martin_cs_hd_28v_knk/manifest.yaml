@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_martin_cs_hd_28v_knk
 display_name: CS HD-28V K&K
+description: "Acoustic body IR labelled \"Martin CS HD-28V\", captured through a K&K pickup. Flavor selects standard, blend, match or jf."
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

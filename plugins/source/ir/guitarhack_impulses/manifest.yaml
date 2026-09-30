@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_guitarhack_impulses
 display_name: GuitarHack Impulses
+description: "GuitarHack's free guitar cab impulse responses, including the \"JJ Powertube\" set. Parameters select the capture set (version) and the mic position."
 brand: guitarhack
 type: cab
 backend: ir

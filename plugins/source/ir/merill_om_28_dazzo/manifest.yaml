@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_merill_om_28_dazzo
 display_name: Merill OM-28 Dazzo
+description: "Acoustic body IR labelled \"Merill OM-28 Dazzo\". The preset selects the raw, match2 or match2_lessroom IR variant."
 brand: merill
 type: body
 backend: ir

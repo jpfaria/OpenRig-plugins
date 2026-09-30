@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_alvarez_abt60_baritone
 display_name: ABT60 Baritone
+description: "Acoustic body IR of an Alvarez ABT60, an Artist Series six-string acoustic baritone tuned B to B. Parameters select the sm or bb capture and the raw, match1 or match2 variant."
+homepage: https://alvarezguitars.com/guitar/abt60/
 brand: alvarez
 type: body
 backend: ir

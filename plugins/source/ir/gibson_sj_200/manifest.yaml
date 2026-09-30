@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_gibson_sj_200
 display_name: SJ-200
+description: "Acoustic body IR of a Gibson SJ-200, the Super Jumbo flat-top introduced in 1937. Parameters select the capture position (1-3) and the standard, blend, match or jf flavor."
+homepage: https://www.gibson.com/pages/gibson-sj-200-acoustic-guitars
 brand: gibson
 photo: assets/photo.png
 brand_logo: assets/brand_logo.svg

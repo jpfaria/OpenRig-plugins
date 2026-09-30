@@ -2,6 +2,7 @@
 manifest_version: 1
 id: ir_murphy_custom_k_k
 display_name: Murphy Custom K&K
+description: "Acoustic body IR labelled \"Murphy Custom K&K\". Parameters select the voicing (a or b) and the raw or match IR mode."
 brand: murphy
 type: body
 backend: ir

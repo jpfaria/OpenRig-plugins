@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_yamaha_fgx800_c
 display_name: FGX800C
+description: "Acoustic body IR of a Yamaha FGX800C (dreadnought cutaway, solid spruce top, nato/okoume back and sides, SYSTEM66 + SRT piezo pickup). The preset selects the raw, blended, matched or jf_flavor IR variant."
+homepage: https://usa.yamaha.com/products/musical_instruments/guitars_basses/ac_guitars/fg_series/fg_800/index.html
 brand: yamaha
 type: body
 backend: ir

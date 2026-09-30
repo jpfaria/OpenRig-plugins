@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_orange_the_big_bang
 display_name: Orange Gtr Setup (the_big_bang)
+description: "Community cab IR capture labelled \"Orange Gtr Setup (the_big_bang)\". The preset selects a room, SM57 or SM7 capture."
 brand: orange
 type: cab
 backend: ir

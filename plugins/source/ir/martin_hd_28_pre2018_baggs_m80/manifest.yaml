@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_martin_hd_28_pre2018_baggs_m80
 display_name: HD-28 Pre-2018 Baggs M80
+description: "Acoustic body IR of a pre-2018 Martin HD-28, a dreadnought with a spruce top and East Indian rosewood back and sides, captured through an LR Baggs M80 soundhole pickup. Parameters select full or e flavor and base or match version."
+homepage: https://www.martinguitar.com/guitars/standard-series/HD-28.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

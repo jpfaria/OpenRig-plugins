@@ -1,6 +1,7 @@
 manifest_version: 1
 id: nam_pot_boost
 display_name: PoT Boost
+description: "NAM capture of a boost pedal labelled \"PoT Boost\". Single capture with no adjustable controls."
 brand: pot
 output_gain_db: 13.3375587
 type: gain_pedal

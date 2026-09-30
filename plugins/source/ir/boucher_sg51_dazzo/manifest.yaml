@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_boucher_sg51_dazzo
 display_name: Boucher SG-51 Dazzo
+description: "Acoustic body IR of a Boucher SG-51 Studio Goose (OM Hybrid body, Adirondack red spruce top, East Indian rosewood back and sides), labelled \"Dazzo\". The preset selects the reca, reca_m or reca_mffqn IR variant."
+homepage: https://boucherguitars.com/en/guitars/studio-goose-series/sg-51-studio-goose/
 brand: boucher
 type: body
 backend: ir

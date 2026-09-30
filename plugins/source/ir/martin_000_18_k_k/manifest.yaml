@@ -4,6 +4,8 @@
 manifest_version: 1
 id: ir_martin_000_18_k_k
 display_name: 000-18 K&K
+description: "Acoustic body IR of a Martin 000-18 (000-14 fret body, spruce top, mahogany back and sides), labelled \"K&K\". Parameters select the pickup position (1 or 2) and the standard, blend, match or jf IR variant."
+homepage: https://www.martinguitar.com/guitars/standard-series/000-18.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

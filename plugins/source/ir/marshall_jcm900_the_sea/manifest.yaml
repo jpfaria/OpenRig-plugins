@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_marshall_jcm900_the_sea
 display_name: JCM900 Setup (the_sea)
+description: "Community cab IR capture labelled \"JCM900 Setup (the_sea)\". The preset selects take 1-3 and capture mic (NT2, RM or SM57)."
 brand: marshall
 type: cab
 backend: ir

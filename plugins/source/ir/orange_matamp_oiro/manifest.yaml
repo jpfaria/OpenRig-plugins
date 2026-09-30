@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_orange_matamp_oiro
 display_name: Orange Matamp Setup (oiro)
+description: "Community cab IR set labelled \"Orange Matamp Setup (oiro)\". The preset selects one of the four captures labelled d1 to d4."
 brand: orange
 type: cab
 backend: ir

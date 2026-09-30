@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_ac120
 display_name: AC120
+description: "Community cab IR capture labelled \"Vox AC120\". The preset selects an M94 or rear MTG capture."
 brand: vox
 type: cab
 backend: ir

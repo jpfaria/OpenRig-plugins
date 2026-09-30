@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_gods_cab_legacy
 display_name: God's Cab Legacy
+description: "Legacy C02 and M3 cab IRs from God's Cab, Signals Audio's free Mesa Oversized Rectifier cab IR library. Parameters select mic, version (with or without TS), position and take."
 brand: gods_cab
 type: cab
 backend: ir

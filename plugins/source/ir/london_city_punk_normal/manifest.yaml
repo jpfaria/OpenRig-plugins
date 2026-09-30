@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_london_city_punk_normal
 display_name: London City Punk Cab Normal
+description: "Community cab IR set labelled \"London City Punk Cab Normal\". The preset selects one of the named AT4033, MTG or SM57 captures."
 brand: london_city
 type: cab
 backend: ir

@@ -5,6 +5,7 @@
 manifest_version: 1
 id: ir_gods_cab
 display_name: God's Cab
+description: "The free God's Cab guitar cab impulse responses by Wilkinson Audio. Parameters select the mic (C414, MD421, NT5, SM57, SM7B, U87), the no_ts or ts capture set and the mic position or room."
 brand: gods_cab
 type: cab
 backend: ir

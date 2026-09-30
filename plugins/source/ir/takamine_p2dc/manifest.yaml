@@ -4,6 +4,8 @@
 manifest_version: 1
 id: ir_takamine_p2dc
 display_name: P2DC
+description: "Acoustic body IR of a Takamine P2DC (Pro Series dreadnought, solid spruce top, sapele back and sides, CT4B II preamp). Parameters select the pickup source (piezo or soundhole) and the 1a-5c position setting."
+homepage: https://www.takamine.com/p2dc
 brand: takamine
 brand_logo: assets/brand_logo.svg
 type: body

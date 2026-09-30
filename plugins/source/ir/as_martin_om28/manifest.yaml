@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_as_martin_om28
 display_name: OM-28
+description: "Acoustic body IR of a Martin OM-28 (000 14-fret auditorium body, spruce top, East Indian rosewood back and sides) captured through a Fishman Matrix pickup. The preset selects flat, blend, jf flavor or match variants."
+homepage: https://www.martinguitar.com/10Y25OM28.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

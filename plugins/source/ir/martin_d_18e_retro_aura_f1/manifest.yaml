@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_martin_d_18e_retro_aura_f1
 display_name: D-18E Retro Aura F1
+description: "Acoustic body IR of a Martin D-18E Retro, a dreadnought with a spruce top, mahogany back and sides and Fishman Aura VT electronics, labelled \"Aura F1\". Flavor selects standard, blend, match or jf."
+homepage: https://www.martinguitar.com/guitars/retired-models/D-18E-Retro.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

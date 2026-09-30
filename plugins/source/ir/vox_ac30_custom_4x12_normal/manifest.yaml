@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_ac30_custom_4x12_normal
 display_name: AC30 Custom 4x12 Normal
+description: "Community cab IR capture labelled \"Vox AC30 Custom 4x12 Normal\". The preset selects M930 or U87 captures or the_big_bang close and room takes."
 brand: vox
 type: cab
 backend: ir

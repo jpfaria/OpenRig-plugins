@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_mcpherson_camrielle
 display_name: Camrielle
+description: "Acoustic body IR of a McPherson Camrielle (slightly smaller body with a florentine cutaway and McPherson's offset soundhole), labelled \"Holy Grail C800\". The voicing selects the exp, pz1-pz3, sb1, sb2 or sb3_blend IR."
+homepage: https://mcphersonguitars.com/pages/camrielle
 brand: mcpherson
 type: body
 backend: ir

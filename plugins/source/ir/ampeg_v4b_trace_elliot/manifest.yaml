@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_ampeg_v4b_trace_elliot
 display_name: V4B Trace Elliot
+description: "Community bass cab IR set labelled \"V4B Trace Elliot\" (Ampeg). The preset selects one of the named captures (1, SM7, U87)."
 brand: ampeg
 type: cab
 backend: ir

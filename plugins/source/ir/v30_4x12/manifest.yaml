@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_v30_4x12
 display_name: V30 4x12
+description: "Cab IR of a 4x12 loaded with Celestion Vintage 30 speakers (12-inch, 60 W). The mic selects the SM57 balanced, dark or fat capture or the mono room capture."
+homepage: https://celestion.com/product/vintage-30/
 brand: celestion
 brand_logo: assets/brand_logo.svg
 type: cab

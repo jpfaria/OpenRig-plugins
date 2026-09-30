@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_lowden_pierre_bensusan_the_old_lady_kk
 display_name: Pierre Bensusan The Old Lady K&K
+description: "Acoustic body IR of the Lowden \"Old Lady\", the S22 George Lowden built for Pierre Bensusan in 1978, captured through a K&K pickup. The preset selects the base IR or match variants."
 brand: lowden
 type: body
 backend: ir

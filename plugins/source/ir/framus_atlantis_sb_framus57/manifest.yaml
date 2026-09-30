@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_framus_atlantis_sb_framus57
 display_name: Atlantis SB Framus57
+description: "Acoustic body IR labelled \"Framus Atlantis SB Framus57\". The preset selects full-length or 1024-tap IRs, with or without EQ-match passes."
 brand: framus
 type: body
 backend: ir

@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_vox_ac30_custom_4x12_bright
 display_name: AC30 Custom 4x12 Bright
+description: "Community cab IR set labelled \"AC30 Custom 4x12 Bright\" (Vox). The preset selects one of the named gf, M930, NT2 or U87 captures."
 brand: vox
 type: cab
 backend: ir

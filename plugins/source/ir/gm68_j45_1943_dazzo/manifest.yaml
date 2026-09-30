@@ -1,6 +1,8 @@
 manifest_version: 1
 id: ir_gm68_j45_1943_dazzo
 display_name: J-45 1943 Dazzo
+description: "Acoustic body IR of a 1943 Gibson J-45 (Gibson's round-shoulder dreadnought, introduced in 1942), labelled \"Dazzo\". The preset selects the raw, matched or matched_dry IR variant."
+homepage: https://www.gibson.com/pages/gibson-j45-acoustic-guitars
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

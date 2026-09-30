@@ -6,6 +6,8 @@
 manifest_version: 1
 id: ir_taylor_gtk_21e_element
 display_name: GTK 21e Element
+description: "Acoustic body IR of a Taylor GT K21e (Hawaiian koa), labelled \"Element\". The preset selects the full, m or mffqn IR variant."
+homepage: https://www.taylorguitars.com/guitars/acoustic/gt-k21e
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

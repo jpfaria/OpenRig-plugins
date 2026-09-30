@@ -1,6 +1,7 @@
 manifest_version: 1
 id: ir_ovation_celebrity_ce44
 display_name: Celebrity CE44
+description: "Acoustic body IR labelled \"Celebrity CE44\" (Ovation). The flavor selects the standard, blend, match or jf IR variant."
 brand: ovation
 type: body
 backend: ir

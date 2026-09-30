@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_bass_orange_zuhause
 display_name: Bass Setup Orange (Zuhause)
+description: "Community bass cab IR set labelled \"Bass Setup Orange (Zuhause)\". The preset selects one of four captures (drive1 to drive4)."
 brand: orange
 type: cab
 backend: ir

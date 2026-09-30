@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_mdf_eastman_ac422ce
 display_name: MDF Eastman AC422CE
+description: "Acoustic body IR of an Eastman AC422CE, a cutaway acoustic with a solid Sitka spruce top, solid rosewood back and sides and LR Baggs Element electronics. The preset selects captures a or b and their match variants."
+homepage: https://www.eastmanguitars.com/ac422ce
 brand: eastman
 type: body
 backend: ir

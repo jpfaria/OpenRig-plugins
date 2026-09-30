@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_gibson_hummingbird_standard
 display_name: Hummingbird Standard
+description: "Acoustic body IR of a Gibson Hummingbird Standard, a square-shoulder acoustic with a solid Sitka spruce top and solid mahogany back and sides. Position selects one of two captures; voicing selects raw, blend, match or jf flavor."
+homepage: https://www.gibson.com/products/gibson-hummingbird-standard-vintage-sunburst
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

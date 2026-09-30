@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_guild_d_150ce
 display_name: D-150CE
+description: "Acoustic body IR of a Guild D-150CE (Westerly Collection cutaway dreadnought, solid Sitka spruce top, solid Indian rosewood back and sides). The preset selects the flat, blend, jf_flavor or match IR variant."
+homepage: https://guildguitars.com/westerly/100-series/d-150ce/
 brand: guild
 brand_logo: assets/brand_logo.svg
 type: body

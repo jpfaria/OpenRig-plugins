@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_emerald_x20_hfn
 display_name: X20 HFN
+description: "Acoustic body IR of an Emerald X20, Emerald Guitars' carbon fiber dreadnought, labelled \"HFN\". The preset selects the base, n1024 or n5050 IR variant."
+homepage: https://emeraldguitars.com/models/x20/
 brand: emerald
 type: body
 backend: ir

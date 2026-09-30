@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_gibson_j45
 display_name: J-45
+description: "Acoustic body IR of a Gibson J-45, the round-shoulder dreadnought introduced in 1942. The mic selects the akg_cs1000, dpa_4011, neumann_m147 or soundelux_e47 capture."
+homepage: https://www.gibson.com/pages/gibson-j45-acoustic-guitars
 brand: gibson
 brand_logo: assets/brand_logo.svg
 type: body

@@ -5,6 +5,8 @@
 manifest_version: 1
 id: ir_taylor_714ce_2
 display_name: 714ce V2
+description: "Acoustic body IR of a Taylor 714ce (700 Series). The preset selects one of the 48k/44k, mono and ffqn IR renders or the ktb / kb 9in / kb 18in captures."
+homepage: https://www.taylorguitars.com/guitars/acoustic/features/series/700
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

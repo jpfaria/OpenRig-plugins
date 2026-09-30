@@ -3,6 +3,8 @@
 manifest_version: 1
 id: ir_taylor_424ce_k_ltd_anthem
 display_name: 424ce-K LTD Anthem
+description: "Acoustic body IR of a Taylor 424ce-K LTD, a 400 Series grand auditorium with a hardwood top, cutaway and electronics, labelled \"Anthem\". The preset selects the base IR or match variants."
+homepage: https://www.taylorguitars.com/guitars/acoustic/features/series/400
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_ar_martin_hd_28v_anthem_element
 display_name: HD-28V Anthem Element
+description: "Acoustic body IR of a Martin HD-28V (14-fret dreadnought, spruce top, East Indian rosewood back and sides), labelled \"Anthem Element\". The preset selects the base, match1 or match2 variant."
+homepage: https://www.martinguitar.com/guitars/retired-models/HD-28V.html
 brand: martin
 brand_logo: assets/brand_logo.svg
 type: body

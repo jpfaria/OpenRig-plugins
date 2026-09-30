@@ -2,6 +2,8 @@
 manifest_version: 1
 id: ir_taylor_522e
 display_name: 522e
+description: "Acoustic body IR of a Taylor 522e, a 500 Series grand concert with a hardwood top and electronics. The voicing selects the base IR or one of two match variants."
+homepage: https://www.taylorguitars.com/guitars/acoustic/features/series/500
 brand: taylor
 brand_logo: assets/brand_logo.svg
 type: body

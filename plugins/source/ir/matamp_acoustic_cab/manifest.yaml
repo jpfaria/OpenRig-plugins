@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_matamp_acoustic_cab
 display_name: Matamp Acoustic Cab
+description: "Community cab IR capture labelled \"Matamp Acoustic Cab\". The preset selects the capture mic and placement (AT4033, close, MTG variants)."
 brand: matamp
 type: cab
 backend: ir

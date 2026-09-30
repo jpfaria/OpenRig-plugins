@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_marshall_vintage_da_impact
 display_name: Vintage Marshall Setup (da_impact)
+description: "Community cab IR capture labelled \"Vintage Marshall Setup (da_impact)\". The preset selects capture 1-4."
 brand: marshall
 type: cab
 backend: ir

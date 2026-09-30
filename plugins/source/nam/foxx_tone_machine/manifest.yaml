@@ -1,6 +1,7 @@
 manifest_version: 1
 id: nam_foxx_tone_machine
 display_name: Foxx Tone Machine
+description: "NAM capture of a fOXX Tone Machine, an octave fuzz pedal with a one-octave-up effect. The preset selects captures labelled 8va, hg, hg 8va and lg."
 brand: foxx
 output_gain_db: 3.7783456
 type: gain_pedal

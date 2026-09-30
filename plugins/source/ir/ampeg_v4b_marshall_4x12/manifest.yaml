@@ -3,6 +3,7 @@
 manifest_version: 1
 id: ir_ampeg_v4b_marshall_4x12
 display_name: V4B Marshall 4x12
+description: "Community cab IR capture labelled \"V4B Marshall 4x12\". The preset selects the capture mic (M69N, MD441, Beta 52, MTG, SM7, TLM170 x2, U87)."
 brand: ampeg
 type: cab
 backend: ir
